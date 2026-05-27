@@ -3,13 +3,169 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="refresh" content="0; url=/video/">
-  <meta name="robots" content="noindex,follow">
+  <title>Video Haberler | Manşet Radar</title>
+  <meta name="description" content="Manşet Radar video haberleri, son dakika gelişmeleri, kısa haber videoları ve gündeme dair öne çıkan video içerikleri.">
   <link rel="canonical" href="https://mansetradar.com.tr/video/">
-  <title>Video merkezine yönlendiriliyorsunuz | mansetradar.com.tr</title>
-  <script>window.location.replace('/video/' + window.location.search + window.location.hash);</script>
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Video Haberler | Manşet Radar">
+  <meta property="og:description" content="Son dakika gelişmeleri ve gündeme dair öne çıkan video haberler Manşet Radar'da.">
+  <meta property="og:url" content="https://mansetradar.com.tr/video/">
+  <meta property="og:site_name" content="Manşet Radar">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Video Haberler | Manşet Radar",
+    "url": "https://mansetradar.com.tr/video/",
+    "description": "Manşet Radar video haberleri, kısa haber videoları ve gündeme dair öne çıkan video içerikleri.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Manşet Radar",
+      "url": "https://mansetradar.com.tr/"
+    }
+  }
+  </script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --red: #e10600;
+      --red-dark: #a80000;
+      --dark: #171727;
+      --surface: #ffffff;
+      --page: #f4f6f8;
+      --border: #e1e5ea;
+      --text: #24292f;
+      --muted: #667085;
+      --shadow: 0 2px 10px rgba(15, 23, 42, 0.07);
+      --shadow-strong: 0 10px 26px rgba(15, 23, 42, 0.13);
+    }
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: var(--page);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    a { color: inherit; text-decoration: none; }
+    .top-bar { background: var(--dark); color: #c8c8d4; font-size: .78rem; padding: 7px 0; }
+    .inner, .container { max-width: 1180px; margin: 0 auto; padding: 0 18px; }
+    .top-bar .inner { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    header { background: var(--surface); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 10; }
+    .header-row { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+    .logo { display: inline-flex; align-items: center; gap: 10px; font-weight: 900; font-size: clamp(1.45rem, 4vw, 2.2rem); letter-spacing: -0.04em; color: var(--dark); }
+    .logo-mark { background: var(--red); color: white; border-radius: 12px; padding: 5px 9px; font-size: .95rem; letter-spacing: 0; }
+    nav { display: flex; gap: 14px; flex-wrap: wrap; font-weight: 700; color: var(--dark); }
+    nav a { padding: 9px 10px; border-radius: 999px; }
+    nav a:hover, nav a.active { background: #ffe7e5; color: var(--red-dark); }
+    .hero { background: linear-gradient(135deg, var(--dark), #2b2b45); color: white; padding: 44px 0; }
+    .hero-grid { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(280px, .8fr); gap: 24px; align-items: center; }
+    .eyebrow { display: inline-flex; background: var(--red); color: white; padding: 6px 12px; border-radius: 999px; font-weight: 800; font-size: .8rem; margin-bottom: 14px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.05; letter-spacing: -0.05em; margin-bottom: 16px; }
+    .hero p { color: #d7d7e4; font-size: 1.04rem; max-width: 720px; }
+    .hero-card { background: rgba(255,255,255,.09); border: 1px solid rgba(255,255,255,.13); border-radius: 22px; padding: 22px; box-shadow: var(--shadow-strong); }
+    .hero-card strong { display: block; font-size: 1.05rem; margin-bottom: 8px; }
+    main { padding: 32px 0 46px; }
+    .section-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 18px; }
+    .section-head h2 { font-size: 1.45rem; color: var(--dark); letter-spacing: -.03em; }
+    .section-head p { color: var(--muted); font-size: .95rem; }
+    .video-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .video-card { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; overflow: hidden; box-shadow: var(--shadow); transition: transform .18s ease, box-shadow .18s ease; }
+    .video-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-strong); }
+    .thumb { aspect-ratio: 16 / 9; background: radial-gradient(circle at 30% 20%, #ff4d45, var(--red) 35%, #1d1d31 36%, #111120); display: grid; place-items: center; color: white; position: relative; }
+    .play { width: 58px; height: 58px; border-radius: 50%; background: rgba(255,255,255,.92); color: var(--red); display: grid; place-items: center; font-size: 1.35rem; font-weight: 900; box-shadow: 0 12px 26px rgba(0,0,0,.22); }
+    .badge { position: absolute; left: 12px; top: 12px; background: rgba(0,0,0,.62); color: white; border-radius: 999px; padding: 5px 9px; font-size: .74rem; font-weight: 800; }
+    .video-body { padding: 16px; }
+    .video-body h3 { color: var(--dark); font-size: 1.04rem; line-height: 1.32; margin-bottom: 8px; }
+    .video-body p { color: var(--muted); font-size: .91rem; }
+    .empty { margin-top: 22px; background: #fff7f6; border: 1px solid #ffd1cc; border-radius: 18px; padding: 16px; color: #7a241f; }
+    footer { background: var(--dark); color: #d7d7e4; padding: 26px 0; margin-top: 26px; }
+    footer .inner { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    @media (max-width: 860px) {
+      .hero-grid, .video-grid { grid-template-columns: 1fr; }
+      .header-row { align-items: flex-start; flex-direction: column; padding: 16px 0; }
+      nav { width: 100%; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; }
+      nav a { white-space: nowrap; }
+    }
+  </style>
 </head>
 <body>
-  <p>Video merkezine yönlendiriliyorsunuz. <a href="/video/">Devam etmek için tıklayın</a>.</p>
+  <div class="top-bar">
+    <div class="inner">
+      <span>Manşet Radar Video Merkezi</span>
+      <span>Son dakika · Gündem · Kısa haber</span>
+    </div>
+  </div>
+
+  <header>
+    <div class="inner header-row">
+      <a class="logo" href="/" aria-label="Manşet Radar ana sayfa"><span class="logo-mark">MR</span> Manşet Radar</a>
+      <nav aria-label="Ana menü">
+        <a href="/">Ana Sayfa</a>
+        <a href="/?kategori=gundem">Gündem</a>
+        <a href="/?kategori=siyaset">Siyaset</a>
+        <a href="/?kategori=ekonomi">Ekonomi</a>
+        <a class="active" href="/video/">Video</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="inner hero-grid">
+      <div>
+        <span class="eyebrow">VİDEO HABER</span>
+        <h1>Gündemin öne çıkan videoları</h1>
+        <p>Manşet Radar video bölümünde son dakika gelişmeleri, kısa haber özetleri ve sosyal medya için hazırlanan video içerikleri yer alır.</p>
+      </div>
+      <div class="hero-card">
+        <strong>Yeni video sistemi hazırlanıyor</strong>
+        <p>Bu bölüm YouTube Shorts, haber özetleri ve gündem videoları için ana merkez olarak kullanılacak.</p>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <div class="section-head">
+      <div>
+        <h2>Son Video Haberler</h2>
+        <p>Video içerikler eklendikçe bu alanda listelenecek.</p>
+      </div>
+    </div>
+
+    <div class="video-grid" aria-label="Video haber listesi">
+      <article class="video-card">
+        <div class="thumb"><span class="badge">SON DAKİKA</span><span class="play">▶</span></div>
+        <div class="video-body">
+          <h3>Gündemden öne çıkan gelişmeler</h3>
+          <p>Kısa haber formatında hazırlanacak video içerikleri için örnek alan.</p>
+        </div>
+      </article>
+      <article class="video-card">
+        <div class="thumb"><span class="badge">KISA HABER</span><span class="play">▶</span></div>
+        <div class="video-body">
+          <h3>Manşet Radar kısa video akışı</h3>
+          <p>YouTube, TikTok ve sosyal medya dağıtımı için hazırlanacak içerikler burada toplanır.</p>
+        </div>
+      </article>
+      <article class="video-card">
+        <div class="thumb"><span class="badge">ANALİZ</span><span class="play">▶</span></div>
+        <div class="video-body">
+          <h3>Haber özetleri ve video analizler</h3>
+          <p>Gündeme dair seçilmiş başlıklar video formatına dönüştürülebilir.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="empty">
+      Video botu veya YouTube kanal bağlantısı hazır olduğunda bu sayfa otomatik video listesiyle beslenebilir.
+    </div>
+  </main>
+
+  <footer>
+    <div class="inner">
+      <span>© Manşet Radar</span>
+      <span>mansetradar.com.tr</span>
+    </div>
+  </footer>
 </body>
 </html>
