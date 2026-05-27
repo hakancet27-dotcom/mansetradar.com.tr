@@ -80,10 +80,10 @@
     document.querySelectorAll('.topic-link[data-topic]').forEach(function (link) {
       var topic = link.dataset.topic;
       if (!topic || topic === 'son-dakika') {
-        link.setAttribute('href', '/haber/');
+        link.setAttribute('href', '/');
         return;
       }
-      link.setAttribute('href', '/haber/?kategori=' + encodeURIComponent(topic));
+      link.setAttribute('href', '/?kategori=' + encodeURIComponent(topic));
     });
   }
 

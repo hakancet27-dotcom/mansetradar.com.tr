@@ -50,7 +50,7 @@
         headerInfo.appendChild(activeBadge);
       }
       var logout=node('logout');
-      if(logout)logout.addEventListener('click',async function(){await HaberMember.logout();location.href='/haber/';});
+      if(logout)logout.addEventListener('click',async function(){await HaberMember.logout();location.href='/';});
 
       var panels=document.querySelectorAll('.member-panel');
       var savedPanel=panels[0];

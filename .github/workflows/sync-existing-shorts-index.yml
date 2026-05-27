@@ -65,7 +65,7 @@ jobs:
                       'description': 'Nartanesi Haber Shorts içeriği.',
                       'shorts_url': 'https://www.youtube.com/shorts/' + vid,
                       'embed_url': 'https://www.youtube.com/embed/' + vid,
-                      'news_url': '/haber/'
+                      'news_url': '/'
                   }
           videos = list(found.values())
           if not videos:

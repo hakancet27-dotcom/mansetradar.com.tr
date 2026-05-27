@@ -179,7 +179,7 @@ jobs:
             </style>
           </head>
           <body>
-            <header><a href="/haber/">← mansetradar.com.tr Haberler</a></header>
+            <header><a href="/">← mansetradar.com.tr Haberler</a></header>
             <main>
               <div class="meta"><span>{category}</span><span>{date_iso}</span><span>Kaynaklı haber adayı</span></div>
               <h1>{title}</h1>

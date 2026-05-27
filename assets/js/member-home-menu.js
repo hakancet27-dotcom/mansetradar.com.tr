@@ -87,7 +87,7 @@
       });
       menu.querySelector('.member-logout').addEventListener('click',async function(){
         await window.HaberMember.logout();
-        location.href='/haber/';
+        location.href='/';
       });
       document.addEventListener('click',function(event){
         if(shell.contains(event.target))return;
