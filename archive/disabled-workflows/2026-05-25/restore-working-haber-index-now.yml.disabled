@@ -1,0 +1,69 @@
+name: Restore Working Haber Index Now
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/restore-working-haber-index-now.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Restore last working haber index design with current safeguards
+        run: |
+          git show 73a899c5b26e7c705a825f2fb39b6bd19ce22b60:haber/index.html > haber/index.html
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('haber/index.html')
+          text = p.read_text(encoding='utf-8')
+          replacements = {
+              'href="hakkinda/"': 'href="/haber/hakkinda/"',
+              'href="kunye/"': 'href="/haber/kunye/"',
+              'href="iletisim/"': 'href="/haber/iletisim/"',
+              'href="yayin-ilkeleri/"': 'href="/haber/yayin-ilkeleri/"',
+              'href="video/"': 'href="/haber/video/"',
+              'href="/video/"': 'href="/haber/video/"',
+              'href="/haber"': 'href="/haber/"',
+              'https://hakancetin.com.tr/haber"': 'https://hakancetin.com.tr/haber/"',
+              'class="member-login-btn" href="#"': 'class="member-login-btn" href="/login.html"',
+          }
+          for old, new in replacements.items():
+              text = text.replace(old, new)
+          mobile_fix = '''
+    /* MOBILE_MARKET_NO_OVERFLOW_V2 */
+    @media (max-width: 640px) {
+      .market-strip { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px !important; width: 100%; overflow: visible !important; white-space: normal !important; padding: 8px !important; }
+      .market-label, .market-status { grid-column: 1 / -1; }
+      .market-status { display: block !important; }
+      .market-item { width: 100%; min-width: 0 !important; padding: 8px !important; display: flex !important; flex-wrap: wrap; gap: 4px 6px !important; }
+      .market-name { width: 100%; }
+      .market-value, .market-change { min-width: 0 !important; }
+    }
+'''
+          if 'MOBILE_MARKET_NO_OVERFLOW_V2' not in text:
+              text = text.replace('</style>', mobile_fix + '  </style>', 1)
+          text = text.replace('      initMarketScroll();', '      /* Auto-scrolling market strip disabled for stable mobile layout. */')
+          p.write_text(text, encoding='utf-8')
+          print('news_card_count', text.count('class="news-card'))
+          print('article_link_count', text.count('/articles/'))
+          print('mobile_market_fixed', 'MOBILE_MARKET_NO_OVERFLOW_V2' in text)
+          PY
+      - name: Commit restored working index
+        run: |
+          git config user.name "Working Haber Index Restore"
+          git config user.email "working-haber-index-restore@users.noreply.github.com"
+          git add haber/index.html
+          if git diff --staged --quiet; then
+            echo "No restore changes."
+            exit 0
+          fi
+          git commit -m "Restore working haber index with mobile safeguards"
+          git push

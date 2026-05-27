@@ -1,0 +1,103 @@
+name: Fix Root Links And Restore News
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fix-root-links-and-restore-news.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fix relative institutional links and restore reasonable news visibility
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          # 1) Fix relative institutional links that break from /haber/ or /video/ paths.
+          link_replacements = {
+              'href="hakkinda/"': 'href="/hakkinda/"',
+              'href="kunye/"': 'href="/kunye/"',
+              'href="iletisim/"': 'href="/iletisim/"',
+              'href="yayin-ilkeleri/"': 'href="/yayin-ilkeleri/"',
+              'href="haber/"': 'href="/haber/"',
+              'href="video/"': 'href="/video/"',
+              'href="/haber"': 'href="/haber/"',
+              'href="/video"': 'href="/video/"',
+          }
+          changed_files = []
+          for path in list(Path('.').glob('**/*.html')):
+              if '.git' in path.parts:
+                  continue
+              try:
+                  text = path.read_text(encoding='utf-8')
+              except Exception:
+                  continue
+              original = text
+              for old, new in link_replacements.items():
+                  text = text.replace(old, new)
+              if text != original:
+                  path.write_text(text, encoding='utf-8')
+                  changed_files.append(path.as_posix())
+
+          # 2) Relax over-aggressive quarantine. Keep truly weak articles in review, but restore
+          # enough previously published items with acceptable content length to home visibility.
+          restored = []
+          for path in Path('articles').glob('*.json'):
+              try:
+                  data = json.loads(path.read_text(encoding='utf-8'))
+              except Exception:
+                  continue
+              original = json.dumps(data, ensure_ascii=False, sort_keys=True)
+              word_count = int(data.get('word_count') or data.get('quality_word_count') or 0)
+              score = int(data.get('quality_score') or 0)
+              flags = set(data.get('quality_flags') or [])
+              title = str(data.get('title') or '').strip()
+              content = str(data.get('content_html') or data.get('summary') or '').strip()
+              category = data.get('category')
+
+              acceptable = (
+                  title
+                  and len(content) >= 300
+                  and (word_count == 0 or word_count >= 100)
+                  and (score == 0 or score >= 50)
+                  and category in {'Son Dakika','Gündem','Siyaset','Ekonomi','Dünya','Spor','Magazin','Teknoloji','Sağlık','Video'}
+              )
+              # Restore some articles that were hidden only because of the first strict pass.
+              if data.get('indexed_on_home') is False and acceptable:
+                  data['indexed_on_home'] = True
+                  if data.get('review_status') == 'needs_editorial_review' and 'very_short_article' not in flags:
+                      data['review_status'] = 'published'
+                  notes = data.get('quality_notes')
+                  if isinstance(notes, list):
+                      notes.append('Restored to home after quarantine threshold relaxation.')
+                  restored.append(path.name)
+
+              updated = json.dumps(data, ensure_ascii=False, sort_keys=True, separators=(',', ':')) + '\n'
+              if updated != original + '\n':
+                  path.write_text(updated, encoding='utf-8')
+                  changed_files.append(path.as_posix())
+
+          print('changed_files', len(set(changed_files)))
+          print('restored_articles', len(restored))
+          for item in restored[:80]:
+              print('restored', item)
+          PY
+      - name: Commit fixes
+        run: |
+          git config user.name "Root Links And News Restore"
+          git config user.email "root-links-news-restore@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "Fix root links and restore reasonable news visibility"
+          git push

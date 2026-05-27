@@ -1,0 +1,86 @@
+name: Fix Shorts Swipe Autoplay Once
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/fix-shorts-swipe-autoplay-once.yml']
+permissions:
+  contents: write
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('haber/video/index.html')
+          s = p.read_text(encoding='utf-8')
+          old_swipe = """  function markPlaying(item,playing){if(item){item.classList.toggle('is-playing',Boolean(playing));}}
+  function navigateBySwipe(item,distance){
+    const target=distance<0?item.nextElementSibling:item.previousElementSibling;
+    if(!target||!target.classList.contains('item')) return;
+    target.scrollIntoView({block:'start',behavior:'smooth'});
+    window.setTimeout(function(){activateItem(target);},80);
+  }
+"""
+          new_swipe = """  function markPlaying(item,playing){if(item){item.classList.toggle('is-playing',Boolean(playing));}}
+  function primeNeighbors(item){
+    if(!item) return;
+    [item.previousElementSibling,item.nextElementSibling].forEach(function(candidate){
+      if(candidate&&candidate.classList.contains('item')){createPlayer(candidate,false);}
+    });
+  }
+  function navigateBySwipe(item,distance){
+    const target=distance<0?item.nextElementSibling:item.previousElementSibling;
+    if(!target||!target.classList.contains('item')) return;
+    if(!players.has(target)){createPlayer(target,false);}
+    activateItem(target);
+    target.scrollIntoView({block:'start',behavior:'smooth'});
+  }
+"""
+          old_activate = """  function activateItem(item){
+    if(!item) return;
+    const previous=activeItem;
+    activeItem=item;
+    transitionUntil=Date.now()+1200;
+    if(previous&&previous!==item){markPlaying(previous,false);const previousPlayer=players.get(previous);if(previousPlayer){previousPlayer.pauseVideo();}}
+    const current=players.get(item)||createPlayer(item,continuousPlayback);
+    if(current&&continuousPlayback){current.playVideo();}
+  }
+"""
+          new_activate = """  function activateItem(item){
+    if(!item) return;
+    if(item===activeItem){const same=players.get(item);if(same&&continuousPlayback){same.playVideo();}return;}
+    const previous=activeItem;
+    activeItem=item;
+    transitionUntil=Date.now()+1200;
+    if(previous){markPlaying(previous,false);const previousPlayer=players.get(previous);if(previousPlayer){previousPlayer.pauseVideo();}}
+    const current=players.get(item)||createPlayer(item,continuousPlayback);
+    if(current&&continuousPlayback){current.playVideo();}
+    primeNeighbors(item);
+  }
+"""
+          if old_swipe not in s or old_activate not in s:
+              raise SystemExit('Expected Shorts swipe blocks were not found')
+          s = s.replace(old_swipe, new_swipe, 1)
+          s = s.replace(old_activate, new_activate, 1)
+          s = s.replace("if(item===activeItem){continuousPlayback=true;transitionUntil=0;markPlaying(item,true);}", "if(item===activeItem){continuousPlayback=true;transitionUntil=0;markPlaying(item,true);primeNeighbors(item);}", 1)
+          s = s.replace("onReady:function(event){if(playNow){event.target.playVideo();}}", "onReady:function(event){if(playNow||(item===activeItem&&continuousPlayback)){event.target.playVideo();}}", 1)
+          s = s.replace("activeItem=initial;createPlayer(initial,false);", "activeItem=initial;createPlayer(initial,false);primeNeighbors(initial);", 1)
+          p.write_text(s, encoding='utf-8')
+          assert 'primeNeighbors(initial)' in s
+          assert 'window.setTimeout(function(){activateItem(target);},80);' not in s
+          PY
+          git config user.name "Shorts Playback Fix"
+          git config user.email "shorts-playback-fix@users.noreply.github.com"
+          git add haber/video/index.html
+          if git diff --cached --quiet; then
+            echo "Shorts source already updated."
+            exit 0
+          fi
+          git commit -m "Autoplay next Short within swipe gesture"
+          git pull --rebase origin main
+          git push origin HEAD:main

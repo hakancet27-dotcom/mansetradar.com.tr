@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hesabım | mansetradar.com.tr</title>
+  <meta name="robots" content="noindex,follow">
+  <meta name="haber-member-url" content="https://kgliiuwczfkmalanaang.supabase.co">
+  <meta name="haber-member-public" content="sb_publishable_7ehLzytgnRBEauRBEhRsog_oiaQbHp9">
+  <link rel="stylesheet" href="/assets/css/member.css">
+</head>
+<body class="member-page">
+  <header class="member-top">
+    <div>
+      <a class="member-brand" href="/haber/">mansetradar.com.tr</a>
+      <p class="member-eyebrow">Üye Merkezi</p>
+      <h1>Hesabım</h1>
+      <p class="member-greeting" id="member-greeting"></p>
+      <p class="member-muted" id="member-email"></p>
+      <p id="member-error" class="member-message error"></p>
+    </div>
+    <button id="logout" class="member-btn secondary" type="button">Çıkış Yap</button>
+  </header>
+  <nav class="member-tabs" aria-label="Üyelik bölümleri">
+    <a href="/haber/">Haberler</a>
+    <a href="#saved">Kaydettiklerim</a>
+    <a href="#interests">İlgi Alanlarım</a>
+    <a href="#notifications">Bildirimler</a>
+  </nav>
+  <main class="member-grid">
+    <section class="member-panel">
+      <h2>Kaydettiklerim</h2>
+      <div id="saved-list" class="member-list"><p class="member-muted">Yükleniyor...</p></div>
+    </section>
+    <section class="member-panel">
+      <h2>Bildirim Tercihleri</h2>
+      <p class="member-notice">Bildirim sistemi hazırlık aşamasında. Buradaki seçimler yalnızca tercih kaydıdır; şu anda aktif bildirim gönderimi yapılmaz.</p>
+      <form id="prefs-form" class="member-form">
+        <label><input id="pref-mail" type="checkbox"> Günlük e-posta özeti</label>
+        <label><input id="pref-push" type="checkbox"> Son dakika bildirimi</label>
+        <button class="member-btn" type="submit">Tercihleri Kaydet</button>
+      </form>
+      <p id="prefs-message" class="member-message"></p>
+      <h2>Premium</h2>
+      <p class="member-muted">Premium üyelik altyapısı hazır. Ödeme ve abonelik yönetimi ayrı aşamada bağlanacaktır.</p>
+      <a class="member-btn" href="/premium.html">Premium Bilgisi</a>
+    </section>
+  </main>
+  <script src="/assets/js/member-auth.js"></script>
+  <script src="/assets/js/account-page.js"></script>
+</body>
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>FaceRacer — Telefon Sensörü</title>
+    <meta name="description" content="FaceRacer oyunu için telefon sensörü kontrol sayfası. WebRTC ile kamera bağlantısı kurarak telefon sensörlerini oyun kontrolü olarak kullanın.">
+    <meta name="keywords" content="FaceRacer, telefon sensörü, mobil kontrol, WebRTC, kamera kontrol, oyun kontrolü, Hakan Çetin">
+    <meta name="author" content="Hakan Çetin">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mansetradar.com.tr/telefon.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mansetradar.com.tr/telefon.html">
+    <meta property="og:title" content="FaceRacer — Telefon Sensörü">
+    <meta property="og:description" content="FaceRacer oyunu için telefon sensörü kontrol sayfası. WebRTC ile kamera bağlantısı kurarak telefon sensörlerini oyun kontrolü olarak kullanın.">
+    <meta property="og:image" content="https://mansetradar.com.tr/assets/images/faceracer-preview.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://mansetradar.com.tr/telefon.html">
+    <meta property="twitter:title" content="FaceRacer — Telefon Sensörü">
+    <meta property="twitter:description" content="FaceRacer oyunu için telefon sensörü kontrol sayfası. WebRTC ile kamera bağlantısı kurarak telefon sensörlerini oyun kontrolü olarak kullanın.">
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0a0a1a;
+            color: #fff;
+            font-family: system-ui, -apple-system, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            gap: 16px;
+        }
+        h1 { font-size: 1.4rem; color: #00ff88; }
+        #statusBox {
+            background: rgba(0,255,136,0.08);
+            border: 1px solid #00ff88;
+            border-radius: 10px;
+            padding: 12px 20px;
+            font-size: 0.95rem;
+            color: #ccc;
+            text-align: center;
+            min-width: 260px;
+        }
+        #statusBox.error { border-color: #ff4444; color: #ff4444; background: rgba(255,68,68,0.08); }
+        #statusBox.success { border-color: #00ff88; color: #00ff88; background: rgba(0,255,136,0.15); }
+        #preview {
+            width: 100%;
+            max-width: 320px;
+            border-radius: 12px;
+            border: 2px solid #00ff88;
+            transform: scaleX(-1);
+            display: none;
+        }
+        .spinner {
+            width: 32px; height: 32px;
+            border: 3px solid #333;
+            border-top-color: #00ff88;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        #retryBtn {
+            display: none;
+            padding: 10px 24px;
+            background: #00ff88;
+            border: none;
+            border-radius: 8px;
+            color: #000;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>🏎️ FaceRacer Sensör</h1>
+    <div class="spinner" id="spinner"></div>
+    <div id="statusBox">Laptopa bağlanılıyor...</div>
+    <video id="preview" autoplay muted playsinline></video>
+    <button id="retryBtn" onclick="location.reload()">🔄 Tekrar Dene</button>
+
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-database-compat.js"></script>
+    <script src="config.js"></script>
+
+    <script>
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.database();
+
+        const ICE_SERVERS = {
+            iceServers: [
+                { urls: 'stun:stun.l.google.com:19302' },
+                { urls: 'stun:stun1.l.google.com:19302' },
+                { urls: 'stun:stun2.l.google.com:19302' }
+            ],
+            bundlePolicy: 'max-bundle',
+            rtcpMuxPolicy: 'require'
+        };
+
+        const statusBox  = document.getElementById('statusBox');
+        const spinner    = document.getElementById('spinner');
+        const previewEl  = document.getElementById('preview');
+        const retryBtn   = document.getElementById('retryBtn');
+
+        function setStatus(msg, type = '') {
+            statusBox.textContent = msg;
+            statusBox.className = type;
+        }
+
+        function showError(msg) {
+            setStatus(msg, 'error');
+            spinner.style.display = 'none';
+            retryBtn.style.display = 'block';
+        }
+
+        console.log('Telefon: Sayfa yüklendi');
+        const params = new URLSearchParams(location.search);
+        const roomId = params.get('room');
+        console.log('Telefon: Room ID:', roomId);
+
+        if (!roomId || !/^[0-9A-F]{8}$/.test(roomId)) {
+            showError('Geçersiz bağlantı. QR kodu tekrar okutun.');
+        } else {
+            console.log('Telefon: startSensor çağrılıyor...');
+            startSensor(roomId);
+        }
+
+        async function startSensor(roomId) {
+            console.log('Telefon: startSensor başladı');
+            const roomRef = db.ref('webrtc_rooms/' + roomId);
+
+            setStatus('Kamera açılıyor...');
+            let localStream;
+            try {
+                localStream = await navigator.mediaDevices.getUserMedia({
+                    video: {
+                        facingMode: 'user',
+                        width:  { ideal: 320, max: 480 },   // TV optimizasyonu: 320x240
+                        height: { ideal: 240, max: 360 },
+                        frameRate: { ideal: 12, max: 15 }   // Düşük FPS = daha hızlı
+                    },
+                    audio: false
+                });
+                previewEl.srcObject = localStream;
+                previewEl.style.display = 'block';
+            } catch (err) {
+                showError('Kamera açılamadı: ' + err.message);
+                return;
+            }
+
+            setStatus('Laptop bekleniyor...');
+            console.log('Telefon: RTCPeerConnection oluşturuluyor...');
+            const pc = new RTCPeerConnection(ICE_SERVERS);
+            
+            localStream.getTracks().forEach(track => {
+                pc.addTrack(track, localStream);
+                console.log('Telefon: Track eklendi:', track.kind);
+            });
+
+            pc.onicecandidate = (e) => {
+                console.log('Telefon: ICE candidate:', e.candidate ? 'var' : 'null');
+                if (e.candidate) {
+                    roomRef.child('phoneCandidates').push(e.candidate.toJSON())
+                        .catch(err => console.error('ICE yazma hatası:', err));
+                }
+            };
+
+            pc.onconnectionstatechange = () => {
+                const s = pc.connectionState;
+                console.log('Telefon: Connection state:', s);
+                if (s === 'connected') {
+                    spinner.style.display = 'none';
+                    setStatus('✅ Bağlandı — Oynayabilirsiniz!', 'success');
+                } else if (s === 'disconnected') {
+                    setStatus('⚠️ Bağlantı zayıfladı...', 'error');
+                } else if (s === 'failed') {
+                    showError('Bağlantı başarısız. Tekrar deneyin.');
+                    pc.close();
+                }
+            };
+
+            pc.oniceconnectionstatechange = () => {
+                if (pc.iceConnectionState === 'failed') {
+                    pc.restartIce();
+                }
+            };
+
+            let offerHandled = false;
+            
+            const offerTimeout = setTimeout(() => {
+                if (!offerHandled) {
+                    showError('Laptop bağlantısı zaman aşımına uğradı. QR kodu tekrar okutun.');
+                }
+            }, 30000);
+            
+            roomRef.child('offer').on('value', async (snap) => {
+                const offer = snap.val();
+                if (!offer || offerHandled || pc.remoteDescription) return;
+                offerHandled = true;
+                clearTimeout(offerTimeout);
+                try {
+                    await pc.setRemoteDescription(new RTCSessionDescription(offer));
+                    const answer = await pc.createAnswer();
+                    answer.sdp = limitVideoBitrate(answer.sdp, 800); // Düşük bitrate = daha hızlı
+                    await pc.setLocalDescription(answer);
+                    await roomRef.child('answer').set({
+                        type: answer.type,
+                        sdp:  answer.sdp
+                    });
+                    setStatus('Bağlantı kuruluyor...');
+                } catch (err) {
+                    setStatus('Answer hatası: ' + err.message, 'error');
+                }
+            });
+
+            roomRef.child('laptopCandidates').on('child_added', async (snap) => {
+                const c = snap.val();
+                if (!c) return;
+                try {
+                    await pc.addIceCandidate(new RTCIceCandidate(c));
+                } catch (err) {}
+            });
+            
+            pc.onicegatheringstatechange = () => {
+                console.log('Telefon: ICE gathering state:', pc.iceGatheringState);
+            };
+            
+            pc.onsignalingstatechange = () => {
+                console.log('Telefon: Signaling state:', pc.signalingState);
+            };
+
+            window.addEventListener('beforeunload', () => {
+                roomRef.remove();
+                pc.close();
+            });
+        }
+
+        function limitVideoBitrate(sdp, maxKbps) {
+            const lines = sdp.split('\n');
+            const idx = lines.findIndex(l => l.startsWith('m=video'));
+            if (idx >= 0) {
+                lines.splice(idx + 1, 0, `b=AS:${maxKbps}`);
+            }
+            return lines.join('\n');
+        }
+    </script>
+</body>
+</html>

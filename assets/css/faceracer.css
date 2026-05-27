@@ -1,0 +1,1269 @@
+/*
+ * FaceRacer - Kafa Kontrol Oyunu
+ * Copyright (c) 2026 Hakan Çetin
+ * Tüm hakları saklıdır.
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Turbo Bar */
+.turbo-bar-container {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.turbo-bar {
+    flex: 1;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 2px solid #444;
+    overflow: hidden;
+    position: relative;
+}
+
+.turbo-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #444, #888, #00ff88);
+    border-radius: 8px;
+    transition: width 0.3s ease, background 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+}
+
+.turbo-fill.full {
+    background: linear-gradient(90deg, #00ff88, #ffff00, #ff4444);
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.6);
+    animation: turboPulse 0.5s ease infinite;
+}
+
+@keyframes turboPulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
+.turbo-icon {
+    font-size: 1.5rem;
+    color: #ff6600;
+    text-shadow: 0 0 10px rgba(255, 102, 0, 0.5);
+    transition: all 0.3s ease;
+    animation: flameFloat 1.2s ease-in-out infinite;
+}
+
+.turbo-icon.full {
+    font-size: 2rem;
+    color: #ff4400;
+    text-shadow: 0 0 20px rgba(255, 68, 0, 0.8);
+    animation: flamePulse 0.5s ease infinite;
+}
+
+@keyframes flamePulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.2); opacity: 0.8; }
+}
+
+@keyframes flameFloat {
+    0%, 100% { transform: translateY(0) scale(1); opacity: 0.7; }
+    50% { transform: translateY(-5px) scale(1.1); opacity: 1; }
+}
+
+.turbo-icon-secondary {
+    font-size: 1.2rem;
+    color: #ff4400;
+    text-shadow: 0 0 8px rgba(255, 68, 0, 0.5);
+    transition: all 0.3s ease;
+    animation: flameFloat 1s ease-in-out infinite;
+}
+
+.turbo-label {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #00ff88;
+    text-shadow: 0 0 5px rgba(0, 255, 136, 0.5);
+    min-width: 50px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: white;
+    overflow: hidden;
+}
+
+#gameContainer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#gameCanvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#cameraVideo {
+    position: absolute;
+    bottom: 135px;
+    right: 30px;
+    width: 110px;
+    height: 88px;
+    border-radius: 10px;
+    border: 3px solid #00ff88;
+    object-fit: cover;
+    z-index: 100;
+    transform: scaleX(-1);
+    transition: all 0.5s ease;
+}
+
+#cameraVideo.calibrating {
+    bottom: auto;
+    right: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scaleX(-1);
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 4px solid #00ff88;
+    z-index: 160;
+}
+
+#cameraVideo.calibrating::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background: #00ff88;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #00ff88;
+}
+
+#calibrationOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 150;
+    padding: 16px 8px;
+    box-sizing: border-box;
+}
+
+#calibrationOverlay.hidden {
+    display: none;
+}
+
+.calibration-content {
+    text-align: center;
+}
+
+.calibration-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #00ff88;
+}
+
+.calibration-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.countdown {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #00ff88;
+    margin-top: 20px;
+}
+
+#hud {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #00ff88;
+}
+
+#hud.hidden {
+    display: none;
+}
+
+#hud h2 {
+    margin-bottom: 10px;
+    color: #00ff88;
+}
+
+.hud-item {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.hud-value {
+    color: #00ff88;
+    font-weight: bold;
+}
+
+#controlsPanel {
+    position: fixed;
+    top: 50px;
+    right: 10px;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #444;
+    max-width: 300px;
+}
+
+#controlsPanel.hidden {
+    display: none;
+}
+
+#controlsPanel h3 {
+    color: #00ff88;
+    margin-bottom: 10px;
+}
+
+#controlsPanel p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #ccc;
+}
+
+#startButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    background: #00ff88;
+    color: #1a1a2e;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 150;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+#startButton:hover {
+    background: #00cc6a;
+    transform: translate(-50%, -50%) scale(1.05);
+}
+
+#startButton.hidden {
+    display: none;
+}
+
+.nitro-active {
+    animation: nitroPulse 0.5s infinite;
+}
+
+@keyframes nitroPulse {
+    0%, 100% { box-shadow: 0 0 20px #ff6b00; }
+    50% { box-shadow: 0 0 40px #ff6b00; }
+}
+
+#loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 300;
+}
+
+.spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #00ff88;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 20px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Mobile Responsive - Sadece mobil cihazlarda geçerli */
+@media (max-width: 768px) {
+    #hud {
+        top: 10px;
+        left: 10px;
+        padding: 10px;
+        font-size: 0.8rem;
+        background: transparent;
+        border: 1px solid rgba(0,255,136,0.3);
+    }
+
+    #hud h2 {
+        display: none;
+    }
+
+    .hud-item {
+        margin: 3px 0;
+        font-size: 0.65rem;
+    }
+
+    /* Gereksiz elementleri gizle - Yaw, Pitch, Nitro, Raw values */
+    .hud-item:nth-child(7), /* Yaw */
+    .hud-item:nth-child(8), /* Pitch */
+    .hud-item:nth-child(9), /* Nitro */
+    .hud-item:nth-child(10)  /* Raw values */
+    {
+        display: none;
+    }
+
+    /* Mobilde Raw Yaw/Pitch satırını tamamen gizle */
+    .hud-item:last-child {
+        display: none !important;
+    }
+
+    #cameraVideo {
+        width: 100px;
+        height: 75px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    #cameraVideo.calibrating {
+        width: 180px;
+        height: 180px;
+    }
+
+    #controlsPanel {
+        top: 50px;
+        right: 10px;
+        padding: 15px;
+        font-size: 0.8rem;
+        max-width: 250px;
+    }
+
+    #controlsPanel h3 {
+        font-size: 0.9rem;
+        margin-bottom: 8px;
+    }
+
+    #controlsPanel p {
+        font-size: 0.75rem;
+        margin: 4px 0;
+    }
+
+    #easyModeBtn {
+        bottom: 10px;
+        right: 10px;
+        padding: 6px 12px;
+        font-size: 0.7rem;
+    }
+
+    .calibration-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .calibration-content p {
+        font-size: 0.85rem;
+    }
+
+    .countdown {
+        font-size: 2.5rem;
+    }
+}
+
+/* PC için pozisyon ayarları - Sadece masaüstü */
+@media (min-width: 769px) {
+    #calibrationOverlay h1 {
+        transform: translatex(0px) translatey(-79px);
+    }
+
+    #toggleTVModeStart {
+        transform: translatex(-74.33330000000001px) translatey(85px);
+        font-size: 16px;
+        line-height: 8px;
+        letter-spacing: 3.1px;
+        word-spacing: -5px;
+    }
+
+    #countdown {
+        transform: translatex(5px) translatey(-4px);
+    }
+
+    #calibrationOverlay .calibration-content {
+        transform: translatex(3px) translatey(31px);
+    }
+
+    #startButton {
+        transform: translatex(-121px) translatey(-117px) !important;
+    }
+
+    /* Division */
+    #loading div {
+        transform: translatex(0px) translatey(0px);
+    }
+
+    /* Button */
+    #loading div button {
+        font-size: 30px !important;
+    }
+
+    /* Paragraph */
+    #loading div p {
+        font-size: 23px;
+    }
+}
+
+/* Portrait Mode Optimizasyon - Dikey ekran için */
+@media (orientation: portrait) {
+    #hud {
+        padding: 9px;
+        font-size: 0.76rem;
+    }
+
+    .hud-item {
+        font-size: 0.62rem;
+        margin: 2px 0;
+    }
+
+    .hud-item:last-child {
+        display: none;
+    }
+
+    #speedometer {
+        padding: 9px 18px;
+    }
+
+    .speed-value {
+        font-size: 34px;
+    }
+
+    .speed-unit {
+        font-size: 11px;
+    }
+
+    #controlsPanel {
+        padding: 12px;
+        font-size: 0.7rem;
+        max-width: 220px;
+    }
+
+    #controlsPanel h3 {
+        font-size: 0.85rem;
+    }
+
+    #controlsPanel p {
+        font-size: 0.7rem;
+    }
+
+    #turboBar {
+        width: 180px !important;
+    }
+
+    #turboBarContainer {
+        width: auto !important;
+    }
+
+    .turbo-icon {
+        font-size: 1.2rem;
+    }
+
+    .turbo-icon.full {
+        font-size: 1.6rem;
+    }
+
+    .turbo-icon-secondary {
+        font-size: 1rem;
+    }
+}
+
+/* Speedometer */
+#speedometer {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: rgba(0, 0, 0, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 15px 25px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.speed-value {
+    font-size: 48px;
+    font-weight: 800;
+    font-family: 'Arial Black', 'Impact', sans-serif;
+    color: #00ff88;
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.4);
+    line-height: 1;
+}
+
+.speed-unit {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+.speed-low {
+    color: #00ff88;
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.4);
+}
+
+.speed-medium {
+    color: #ffaa00;
+    text-shadow: 0 0 10px rgba(255, 170, 0, 0.4);
+}
+
+.speed-high {
+    color: #ff4444;
+    text-shadow: 0 0 10px rgba(255, 68, 68, 0.4);
+}
+
+/* Mobil Speedometer */
+@media (max-width: 768px) {
+    #speedometer {
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 20px;
+    }
+
+    .speed-value {
+        font-size: 36px;
+    }
+
+    .speed-unit {
+        font-size: 12px;
+    }
+}
+
+/* Car Selection */
+.car-option:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+@media (max-width: 768px) {
+    .car-option {
+        width: 150px !important;
+        padding: 15px !important;
+    }
+}
+
+.car-select-btn.car-selected {
+    box-shadow: 0 0 15px rgba(255,255,255,0.3);
+    transform: scale(1.05);
+}
+
+.car-select-btn.car-locked {
+    filter: grayscale(0.5);
+}
+
+.car-select-btn:not(.car-locked):hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+}
+
+/* Button Styles - Moved from inline */
+#toggleCamera, #toggleMusic, #toggleTVMode, #easyModeBtn {
+    position: fixed;
+    bottom: 20px;
+    padding: 12px 16px;
+    background: rgba(0,0,0,0.8) !important;
+    color: white !important;
+    border: 1px solid #555 !important;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 1000;
+    font-size: 0.85rem;
+    min-width: 90px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#toggleCamera {
+    left: 20px;
+}
+
+#toggleMusic {
+    left: 120px;
+}
+
+#toggleTVMode {
+    left: 220px;
+}
+
+#easyModeBtn {
+    left: 360px;
+    right: auto;
+    background: rgba(0,0,0,0.8) !important;
+    border: 1px solid #555 !important;
+    font-weight: normal;
+}
+
+#toggleControls {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    border: 1px solid #444;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+    font-size: 1.2rem;
+}
+
+#toggleTVModeStart {
+    position: fixed;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 25px;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    border: 2px solid #666;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+/* Music Volume Control */
+#musicVolumeControl {
+    position: fixed;
+    bottom: 80px;
+    left: 30px;
+    background: rgba(0,0,0,0.9);
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    z-index: 1000;
+}
+
+#musicVolumeControl label {
+    color: white;
+    font-size: 0.8rem;
+}
+
+#musicVolume {
+    width: 100px;
+    margin-left: 10px;
+}
+
+/* Turbo Bar Container */
+#turboBarContainer {
+    position: fixed;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 1000;
+}
+
+#turboBar {
+    width: 300px;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    border: 2px solid #444;
+    overflow: hidden;
+}
+
+#turboFill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #444, #888, #00ff88);
+    border-radius: 10px;
+    transition: width 0.3s ease, background 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+}
+
+#turboIcon {
+    font-size: 1.5rem;
+    color: #ff6600;
+    text-shadow: 0 0 10px rgba(255, 102, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+#turboIconSecondary {
+    font-size: 1.2rem;
+    color: #ff4400;
+    text-shadow: 0 0 8px rgba(255, 68, 0, 0.5);
+    transition: all 0.3s ease;
+    display: none;
+}
+
+/* WebRTC */
+#remoteVideo {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#webrtcOverlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.88);
+    z-index: 10000;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Difficulty Buttons */
+#difficultyOverlay button {
+    margin: 10px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+}
+
+#difficultyOverlay button:nth-child(1) {
+    background: #ff6b6b;
+}
+
+#difficultyOverlay button:nth-child(2) {
+    background: #4ecdc4;
+}
+
+/* Difficulty Info Text */
+.difficulty-info {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+/* Calibration Content */
+.calibration-content p.calibration-hint {
+    font-size: 1rem;
+    color: #888;
+}
+
+/* Control Panel Technical Values */
+#controlsPanel .technical-values {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+/* ============================================
+   CALIBRATION ENHANCEMENTS - Circular Screen Support
+   ============================================ */
+
+/* Crosshair Overlay - Fixed position over video */
+.calibration-crosshair-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 220px;
+    height: 220px;
+    z-index: 170; /* Above video (160) and overlay (150) */
+    pointer-events: none; /* Let clicks pass through */
+}
+
+/* Circular Crosshair Container - inside overlay */
+.calibration-crosshair-overlay .calibration-circle-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Video wrapper in content */
+.calibration-video-wrapper {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    visibility: hidden; /* Placeholder only */
+}
+
+/* UI Panel below video */
+.calibration-ui-panel {
+    margin-top: 20px;
+    z-index: 180;
+    position: relative;
+}
+
+/* Outer circle ring */
+.calibration-ring {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #333;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Target center zone */
+.calibration-target-zone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border: 2px solid #00ff88;
+    border-radius: 50%;
+    background: rgba(0, 255, 136, 0.1);
+    transition: all 0.3s ease;
+}
+
+.calibration-target-zone.perfect {
+    border-color: #00ff88;
+    background: rgba(0, 255, 136, 0.3);
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
+}
+
+.calibration-target-zone.warning {
+    border-color: #ffaa00;
+    background: rgba(255, 170, 0, 0.2);
+}
+
+.calibration-target-zone.error {
+    border-color: #ff4444;
+    background: rgba(255, 68, 68, 0.2);
+}
+
+/* Face position indicator (dot) */
+.face-position-dot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #00ff88;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.1s ease;
+    box-shadow: 0 0 10px #00ff88;
+    z-index: 10;
+}
+
+.face-position-dot.centered {
+    background: #00ff88;
+    box-shadow: 0 0 20px #00ff88;
+}
+
+.face-position-dot.off-center {
+    background: #ffaa00;
+    box-shadow: 0 0 10px #ffaa00;
+}
+
+/* Crosshair lines */
+.calibration-crosshair {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.calibration-crosshair::before,
+.calibration-crosshair::after {
+    content: '';
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.calibration-crosshair::before {
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    left: 0;
+}
+
+.calibration-crosshair::after {
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+}
+
+/* Face quality indicators */
+.face-quality-panel {
+    margin-top: 15px;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    border: 1px solid #444;
+}
+
+.face-quality-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6px 0;
+    font-size: 0.8rem;
+}
+
+.face-quality-label {
+    color: #ccc;
+}
+
+.face-quality-value {
+    font-weight: bold;
+}
+
+.face-quality-value.good {
+    color: #00ff88;
+}
+
+.face-quality-value.warning {
+    color: #ffaa00;
+}
+
+.face-quality-value.error {
+    color: #ff4444;
+}
+
+/* Ready button */
+.calibration-ready-btn {
+    margin-top: 20px;
+    padding: 15px 40px;
+    background: #00ff88;
+    color: #1a1a2e;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    animation: readyPulse 2s infinite;
+}
+
+.calibration-ready-btn:hover {
+    background: #00cc6a;
+    transform: scale(1.05);
+}
+
+.calibration-ready-btn:disabled {
+    background: #666;
+    cursor: not-allowed;
+    animation: none;
+}
+
+@keyframes readyPulse {
+    0%, 100% { box-shadow: 0 0 10px rgba(0, 255, 136, 0.5); }
+    50% { box-shadow: 0 0 25px rgba(0, 255, 136, 0.8); }
+}
+
+/* Audio feedback icon */
+.audio-feedback-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+.audio-feedback-icon.active {
+    opacity: 1;
+    animation: soundWave 1s infinite;
+}
+
+@keyframes soundWave {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+}
+
+/* Responsive adjustments for circular screens */
+@media (max-width: 400px) {
+    .calibration-circle-container {
+        width: 220px;
+        height: 220px;
+    }
+
+    .calibration-target-zone {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* Game Over Restart Button */
+.game-over-restart-btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.game-over-restart-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 30px rgba(0, 255, 136, 0.6);
+}
+
+.game-over-restart-btn:active {
+    transform: scale(0.98);
+}
+
+@keyframes pulse {
+    0%, 100% {
+        box-shadow: 0 4px 20px rgba(0, 255, 136, 0.4);
+    }
+    50% {
+        box-shadow: 0 4px 40px rgba(0, 255, 136, 0.8);
+    }
+}
+
+/* Game Over mode: scroll from top instead of centering */
+#calibrationOverlay.game-over-mode {
+    justify-content: flex-start;
+}
+
+/* Normal calibration: keep centered */
+#calibrationOverlay:not(.game-over-mode) {
+    justify-content: center;
+    overflow-y: hidden;
+    padding: 0;
+}
+
+/* Game Over Screen Enhancements */
+#calibrationOverlay h1 {
+    text-shadow: 0 0 20px rgba(255, 68, 68, 0.5);
+}
+
+/* Game Over Content Container */
+#calibrationOverlay .calibration-content {
+    max-width: 95vw;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Game Over specific - Only apply when game-over class is present */
+#calibrationOverlay .calibration-content.game-over-content {
+    max-height: none;
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+/* Game Over Grid Layout - Responsive */
+#calibrationOverlay .calibration-content > div[style*="grid"] {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+@media (min-width: 768px) {
+    #calibrationOverlay .calibration-content > div[style*="grid"] {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 12px;
+    }
+}
+
+/* Game Over Button - Prevent overflow */
+.game-over-restart-btn {
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+/* Game Over Car Selection - Responsive */
+#calibrationOverlay .calibration-content > div[style*="margin-bottom: 12px"] {
+    max-width: 100%;
+}
+
+#calibrationOverlay .calibration-content button.car-select-btn {
+    flex: 1;
+    min-width: 80px;
+    max-width: 120px;
+}
+
+/* Game Over Leaderboard - Responsive */
+#calibrationOverlay .calibration-content #easyLeaderboard,
+#calibrationOverlay .calibration-content #normalLeaderboard,
+#calibrationOverlay .calibration-content #scoreSubmission {
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+/* Mobile Game Over Adjustments */
+@media (max-width: 768px) {
+    #calibrationOverlay .calibration-content {
+        padding: 15px;
+        font-size: 0.85rem;
+    }
+
+    #calibrationOverlay .calibration-content h1 {
+        font-size: 1.5rem;
+    }
+
+    #calibrationOverlay .calibration-content p {
+        font-size: 0.8rem;
+    }
+
+    .game-over-restart-btn {
+        padding: 12px 30px;
+        font-size: 1.1rem;
+    }
+
+    #calibrationOverlay .calibration-content button.car-select-btn {
+        padding: 8px 12px;
+        min-width: 70px;
+    }
+
+    #calibrationOverlay .calibration-content input[type="text"] {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+}
+
+/* Portrait Mode Game Over */
+@media (max-width: 480px) and (orientation: portrait) {
+    #calibrationOverlay .calibration-content {
+        max-height: 85vh;
+        padding: 12px;
+    }
+
+    #calibrationOverlay .calibration-content h1 {
+        font-size: 1.3rem;
+    }
+
+    .game-over-restart-btn {
+        padding: 10px 24px;
+        font-size: 1rem;
+    }
+
+    #calibrationOverlay .calibration-content > div[style*="margin: 12px 0"] {
+        margin: 8px 0 !important;
+    }
+}
+
+/* ============================================
+   TOUCH CONTROLS - Mobil Dokunmatik Kontroller
+   ============================================ */
+
+#touchControls {
+    position: fixed;
+    bottom: 60px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 2000;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+}
+
+#touchControls.hidden {
+    display: none;
+}
+
+.touch-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: all 0.15s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.touch-btn:active {
+    background: rgba(0, 255, 136, 0.4);
+    border-color: #00ff88;
+    transform: scale(0.95);
+    box-shadow: 0 2px 10px rgba(0, 255, 136, 0.4);
+}
+
+.touch-btn.touch-nitro {
+    width: 60px;
+    height: 60px;
+    font-size: 1.8rem;
+    background: rgba(255, 102, 0, 0.2);
+    border-color: rgba(255, 102, 0, 0.5);
+}
+
+.touch-btn.touch-nitro:active {
+    background: rgba(255, 102, 0, 0.5);
+    border-color: #ff6600;
+    box-shadow: 0 2px 15px rgba(255, 102, 0, 0.6);
+}
+
+/* Touch Mode - Turbo bar'ı en üste taşı */
+body.touch-mode #turboBarContainer {
+    bottom: auto;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Sadece mobilde touch kontrolleri görünür */
+@media (min-width: 769px) {
+    #touchControls {
+        display: none !important;
+    }
+}
+
+/* Mobilde touch kontrolleri optimize */
+@media (max-width: 768px) {
+    #touchControls {
+        height: 120px;
+        padding: 10px 15px;
+    }
+
+    .touch-btn {
+        width: 60px;
+        height: 60px;
+        font-size: 1.8rem;
+    }
+
+    .touch-btn.touch-nitro {
+        width: 80px;
+        height: 80px;
+        font-size: 2.2rem;
+    }
+}

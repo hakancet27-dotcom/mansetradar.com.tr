@@ -1,0 +1,60 @@
+{
+  "title": "Rusya: Ukrayna Ordusunun Luhansk'taki Koleje Yönelik Saldırısında Ölü Sayısı 18'e Çıktı",
+  "meta_title": "Luhansk'ta Kolej Saldırısında Ölü Sayısı 18'e Çıktı",
+  "meta_description": "Ukrayna ordusunun Luhansk'taki bir koleje düzenlediği saldırıda ölenlerin sayısı 18'e yükseldi.",
+  "discover_titles": [
+    "Luhansk'ta Kolej Saldırısı",
+    "Ukrayna Ordusunun Luhansk Saldırısı",
+    "Luhansk'ta Ölü Sayısı 18'e Çıktı"
+  ],
+  "slug": "luhanskta-kolej-saldirisinda-olu-sayisi-18e-cikti_20260524",
+  "category": "Gündem",
+  "spot": "Ukrayna ordusunun Luhansk'taki bir koleje düzenlediği saldırıda ölenlerin sayısı 18'e yükseldi. Saldırının Luhansk'ta meydana geldiği ve Ukrayna ordusunun sorumlu olduğu bildirildi.",
+  "content_html": "<h2>Luhansk'ta Kolej Saldırısı</h2> <h3>Saldırının Detayları</h3> <p>Saldırının detayları hakkında henüz fazla bilgi verilmese de, ölü sayısının 18'e çıktığı ve saldırının Luhansk'ta meydana geldiği bildirildi.</p> <h2>Saldırının Ardından</h2> <p>Saldırının ardından bölgeye yardım ekipleri sevk edildiği ve ölü sayısının artabileceği bildirildi. Saldırının nedenleri ve sorumluları hakkında henüz bir açıklama yapılmadı.</p> <h3>Ölü Sayısı</h3> <p>Ölü sayısının 18'e çıktığı ve saldırının Luhansk'ta meydana geldiği bildirildi. Saldırının nedenleri ve sorumluları hakkında henüz bir açıklama yapılmadı.</p>",
+  "tags": [
+    "Luhansk",
+    "Ukrayna",
+    "Saldırı",
+    "Kolej",
+    "Ölü Sayısı"
+  ],
+  "visual_keywords": [
+    "Luhansk",
+    "Ukrayna",
+    "Saldırı"
+  ],
+  "image_prompt": "Luhansk'ta koleje yönelik saldırı",
+  "image_alt": "Luhansk'ta koleje yönelik saldırı",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 2,
+  "word_count": 96,
+  "date": "24.05.2026",
+  "flag": "TR",
+  "country": "Turkey",
+  "display_country": "Türkiye",
+  "image_url": "https://images.unsplash.com/photo-1632995100596-6e4d13bc0a7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxMdWhhbnNrfGVufDB8MHx8fDE3Nzk1OTQ4Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "summary": "Ukrayna ordusunun Luhansk'taki bir koleje düzenlediği saldırıda ölenlerin sayısı 18'e yükseldi. Saldırının Luhansk'ta meydana geldiği ve Ukrayna ordusunun sorumlu olduğu bildirildi.",
+  "language": "Turkish",
+  "url_prefix": "articles",
+  "source_language": "Turkish",
+  "target_language": "Turkish",
+  "quality_score": 65,
+  "quality_status": "blocked_from_index",
+  "review_required": true,
+  "quality_flags": [
+    "very_short_article",
+    "meta_description_issue"
+  ],
+  "quality_notes": [
+    "Metin cok kisa (96 kelime).",
+    "Meta description ideal aralikta degil."
+  ],
+  "quality_word_count": 96,
+  "indexed_on_home": false,
+  "review_status": "pending",
+  "review_source": "quality_gate",
+  "review_run_id": "26351195024"
+}

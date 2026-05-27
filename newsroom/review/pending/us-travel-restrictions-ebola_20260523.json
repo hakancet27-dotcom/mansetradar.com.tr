@@ -1,0 +1,59 @@
+{
+  "title": "US Imposes Travel Restrictions on Passengers from Ebola-Affected Countries",
+  "meta_title": "US Travel Restrictions: Ebola-Affected Countries",
+  "meta_description": "The US government has imposed travel restrictions on American citizens and permanent residents departing from Ebola-affected countries.",
+  "discover_titles": [
+    "US Travel Restrictions",
+    "Ebola Outbreak",
+    "US Citizen Travel"
+  ],
+  "slug": "us-travel-restrictions-ebola_20260523",
+  "category": "US News",
+  "spot": "The US government has imposed travel restrictions on American citizens and permanent residents departing from Ebola-affected countries, rerouting US passengers flying from these countries.",
+  "content_html": "<h2>Travel Restrictions Imposed</h2> <p>The US government has taken measures to restrict travel from Ebola-affected countries. This move aims to prevent the spread of the Ebola virus and protect the health and safety of US citizens and permanent residents.</p> <h2>Affected Countries</h2> <p>Although the specific countries affected by the travel restrictions are not mentioned, the US government's decision is likely in response to the ongoing Ebola outbreak in certain regions.</p> <h2>Impact on Travelers</h2> <p>US passengers flying from Ebola-affected countries will be rerouted, which may cause disruptions to their travel plans. The restrictions may also affect the travel plans of American citizens and permanent residents who are currently in or planning to visit these countries.</p> <h3>Next Steps</h3> <p>While the specifics of the travel restrictions are not provided, it is essential for US citizens and permanent residents to stay informed about the latest developments and follow the guidelines set by the US government.</p> <h2>Importance of Travel Restrictions</h2> <p>The imposition of travel restrictions highlights the importance of taking proactive measures to prevent the spread of infectious diseases. By restricting travel from affected areas, the US government can reduce the risk of Ebola transmission and protect the health and well-being of its citizens and residents.</p>",
+  "tags": [
+    "US News",
+    "Travel Restrictions",
+    "Ebola Outbreak",
+    "US Citizen Travel"
+  ],
+  "visual_keywords": [
+    "travel restrictions",
+    "Ebola virus",
+    "US government"
+  ],
+  "image_prompt": "a map of the world with Ebola-affected countries highlighted",
+  "image_alt": "Map of Ebola-affected countries",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 2,
+  "word_count": 228,
+  "date": "23.05.2026",
+  "flag": "US",
+  "country": "USA",
+  "display_country": "United States",
+  "image_url": "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHx0cmF2ZWwlMjByZXN0cmljdGlvbnN8ZW58MHwwfHx8MTc3OTU1NTk0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+  "summary": "The US government has imposed travel restrictions on American citizens and permanent residents departing from Ebola-affected countries, rerouting US passengers flying from these countries.",
+  "language": "English",
+  "url_prefix": "news/articles",
+  "source_language": "English",
+  "target_language": "English",
+  "quality_score": 66,
+  "quality_status": "blocked_from_index",
+  "review_required": true,
+  "quality_flags": [
+    "short_article",
+    "category_issue"
+  ],
+  "quality_notes": [
+    "Metin hedefin altinda (228 kelime).",
+    "Kategori standart haber kategorileriyle uyumlu degil: US News."
+  ],
+  "quality_word_count": 228,
+  "indexed_on_home": false,
+  "review_status": "pending",
+  "review_source": "quality_gate",
+  "review_run_id": "26338509695"
+}

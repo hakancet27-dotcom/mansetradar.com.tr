@@ -1,0 +1,91 @@
+name: Fix News Section Institutional Links
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fix-news-section-institutional-links.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Keep news institutional pages under /haber
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import shutil
+
+          # Ensure news-section institutional pages exist under /haber/...
+          pairs = [
+              ('hakkinda/index.html', 'haber/hakkinda/index.html'),
+              ('kunye/index.html', 'haber/kunye/index.html'),
+              ('iletisim/index.html', 'haber/iletisim/index.html'),
+              ('yayin-ilkeleri/index.html', 'haber/yayin-ilkeleri/index.html'),
+          ]
+          for src, dst in pairs:
+              s = Path(src)
+              d = Path(dst)
+              if s.exists():
+                  d.parent.mkdir(parents=True, exist_ok=True)
+                  content = s.read_text(encoding='utf-8')
+                  content = content.replace('https://hakancetin.com.tr/hakkinda/', 'https://hakancetin.com.tr/haber/hakkinda/')
+                  content = content.replace('https://hakancetin.com.tr/kunye/', 'https://hakancetin.com.tr/haber/kunye/')
+                  content = content.replace('https://hakancetin.com.tr/iletisim/', 'https://hakancetin.com.tr/haber/iletisim/')
+                  content = content.replace('https://hakancetin.com.tr/yayin-ilkeleri/', 'https://hakancetin.com.tr/haber/yayin-ilkeleri/')
+                  content = content.replace('href="/haber/"', 'href="/haber/"')
+                  d.write_text(content, encoding='utf-8')
+
+          replacements = {
+              'href="/hakkinda/"': 'href="/haber/hakkinda/"',
+              'href="/kunye/"': 'href="/haber/kunye/"',
+              'href="/iletisim/"': 'href="/haber/iletisim/"',
+              'href="/yayin-ilkeleri/"': 'href="/haber/yayin-ilkeleri/"',
+              'href="hakkinda/"': 'href="/haber/hakkinda/"',
+              'href="kunye/"': 'href="/haber/kunye/"',
+              'href="iletisim/"': 'href="/haber/iletisim/"',
+              'href="yayin-ilkeleri/"': 'href="/haber/yayin-ilkeleri/"',
+          }
+
+          changed = []
+          for path in Path('haber').glob('**/*.html'):
+              text = path.read_text(encoding='utf-8')
+              original = text
+              for old, new in replacements.items():
+                  text = text.replace(old, new)
+              if text != original:
+                  path.write_text(text, encoding='utf-8')
+                  changed.append(path.as_posix())
+
+          # Keep legacy root pages as redirects to news-section pages to prevent SEO/content clash.
+          redirects = {
+              'hakkinda/index.html': '/haber/hakkinda/',
+              'kunye/index.html': '/haber/kunye/',
+              'iletisim/index.html': '/haber/iletisim/',
+              'yayin-ilkeleri/index.html': '/haber/yayin-ilkeleri/',
+          }
+          tpl = '''<!DOCTYPE html>\n<html lang="tr">\n<head>\n  <meta charset="UTF-8">\n  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n  <meta http-equiv="refresh" content="0; url={target}">\n  <meta name="robots" content="noindex,follow">\n  <link rel="canonical" href="https://hakancetin.com.tr{target}">\n  <title>Yönlendiriliyorsunuz | hakancetin.com.tr</title>\n  <script>window.location.replace('{target}' + window.location.search + window.location.hash);</script>\n</head>\n<body>\n  <p>Yönlendiriliyorsunuz. <a href="{target}">Devam etmek için tıklayın</a>.</p>\n</body>\n</html>\n'''
+          for p, target in redirects.items():
+              path = Path(p)
+              if path.exists():
+                  path.write_text(tpl.format(target=target), encoding='utf-8')
+                  changed.append(path.as_posix())
+
+          print('\n'.join(sorted(set(changed))) if changed else 'No changes')
+          PY
+      - name: Commit news-section institutional link fixes
+        run: |
+          git config user.name "News Section Link Fixer"
+          git config user.email "news-section-link-fixer@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "Move news institutional links under haber namespace"
+          git push

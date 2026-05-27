@@ -1,0 +1,26 @@
+/* Mobile market cards are rendered in their final location to avoid post-load layout relocation. */
+.mobile-market-strip {
+  display: none !important;
+}
+
+@media (max-width: 640px) {
+  body header .market-strip:not(.mobile-market-strip) {
+    display: none !important;
+  }
+
+  body .showcase-grid .mobile-market-strip {
+    margin: 9px 0 14px !important;
+    width: 100% !important;
+    max-width: none !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 5px !important;
+    padding: 6px !important;
+    overflow: visible !important;
+    white-space: normal !important;
+    border: 1px solid #e4e7ec !important;
+    border-radius: 9px !important;
+    background: #f7f8fa !important;
+    scroll-snap-type: none !important;
+  }
+}

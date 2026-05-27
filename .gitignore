@@ -1,0 +1,43 @@
+
+# Temp scripts
+fix_*.js
+patch_*.js
+
+# Source files (private - do not push)
+assets/js/faceracer.source.js
+ninja/static/js/game.source.js
+taktak-src/
+_kaynak_yedek/
+
+# Obfuscated (optional)
+assets/js/faceracer.obfuscated.js
+
+# Source Maps (Gizli - Sadece local debug için)
+assets/js/*.map.js
+assets/js/faceracer.dev.js
+
+# Backup
+backup/
+
+# Security plan (internal)
+SECURITY_PLAN.md
+PROJECT_ANALYSIS.md
+
+# Node modules (eğer gelecekte kullanılırsa)
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Local quality audit reports
+reports/

@@ -1,0 +1,57 @@
+name: denetimraporu
+
+# SİTE DENETİM RAPORU WORKFLOW'U
+#
+# Ne yapar?
+# - Public site reposundaki HTML/JSON dosyalarını okur.
+# - Kırık link, UTF-8 bozulması, schema eksikleri, başlık hiyerarşisi, kopya
+#   içerik, kategori uyarıları ve bazı canlı URL durumlarını raporlar.
+# - Raporu `reports/` klasöründe üretir, GitHub artifact olarak saklar ve Actions
+#   özet ekranına basar.
+#
+# Ne zaman çalışır?
+# - Manuel olarak GitHub Actions ekranından çalıştırılabilir.
+# - Pazartesi ve Perşembe sabahı schedule ile otomatik rapor üretir.
+#
+# Yetki ve risk notu:
+# - `contents: read` ile çalışır.
+# - Site dosyalarını değiştirmez, commit atmaz, push yapmaz.
+# - Bu workflow hakem/rapor rolündedir; düzeltme uygulamaz.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1,4"
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run site quality audit
+        run: python tools/site_quality_audit.py
+
+      - name: Write audit summary
+        if: always()
+        run: |
+          if [ -f reports/site-quality-audit.md ]; then
+            cat reports/site-quality-audit.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload audit reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: denetimraporu
+          path: reports/
+          retention-days: 14

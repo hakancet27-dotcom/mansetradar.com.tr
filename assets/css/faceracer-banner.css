@@ -1,0 +1,130 @@
+.faceracer-banner {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0, 255, 136, 0.3);
+}
+
+.faceracer-banner::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: conic-gradient(from 0deg, transparent 0deg, rgba(0, 255, 136, 0.1) 60deg, transparent 120deg);
+    animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.faceracer-banner-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+
+.faceracer-banner-icon {
+    font-size: 80px;
+    color: #00ff88;
+    text-shadow: 0 0 30px rgba(0, 255, 136, 0.8), 0 0 60px rgba(0, 255, 136, 0.4);
+    animation: pulse 2s ease-in-out infinite;
+    margin-bottom: 20px;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+}
+
+.faceracer-banner-title {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background: linear-gradient(90deg, #00ff88, #00d4ff, #00ff88);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s linear infinite;
+    margin: 0;
+    text-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
+}
+
+@keyframes shine {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.faceracer-banner-subtitle {
+    font-size: 18px;
+    color: #888;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.faceracer-banner-features {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.faceracer-banner-feature {
+    background: rgba(0, 255, 136, 0.1);
+    border: 1px solid rgba(0, 255, 136, 0.3);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #00ff88;
+    backdrop-filter: blur(10px);
+}
+
+.faceracer-banner-particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.faceracer-banner-particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #00ff88;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00ff88;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0) translateX(0);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(-100px) translateX(50px);
+        opacity: 1;
+    }
+}

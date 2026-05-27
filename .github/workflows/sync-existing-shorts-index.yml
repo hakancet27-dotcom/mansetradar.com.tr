@@ -1,0 +1,94 @@
+name: Sync Existing Shorts Index
+
+# YOUTUBE SHORTS İNDEKS SENKRONİZASYONU WORKFLOW'U
+#
+# Ne yapar?
+# - `yt-dlp` ile Nartanesi Haber YouTube kanalındaki Shorts/video listesini okur.
+# - Site içindeki Shorts/video indeks JSON dosyasını günceller.
+# - Değişiklik varsa public site reposuna commit/push yapabilir.
+#
+# Yeni mansetradar.com.tr taşımasında neden sadece manuel?
+# - İlk repo taşımasında günlük schedule veya push tetiği beklenmedik ek commit üretmesin.
+# - Video bölümü yeni alan adında test edildikten sonra schedule tekrar açılabilir.
+#
+# Yetki ve risk notu:
+# - `contents: write` yetkisine sahiptir.
+# - Haber makalesi üretmez; temel etkisi video/shorts indeks dosyasıdır.
+# - YouTube listeleme tarafında hata olursa logdan kontrol edilmelidir.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install YouTube listing tool
+        run: python -m pip install --upgrade yt-dlp
+      - name: Build Shorts-only feed from current and old Shorts
+        run: |
+          python - <<'PY'
+          import json, subprocess, datetime
+          from pathlib import Path
+          urls = [
+              'https://www.youtube.com/@NartanesiHaber/shorts',
+              'https://www.youtube.com/@NartanesiHaber/videos'
+          ]
+          found = {}
+          errors = []
+          for url in urls:
+              cmd = ['yt-dlp','--flat-playlist','--dump-json','--playlist-end','200',url]
+              proc = subprocess.run(cmd, text=True, capture_output=True, check=False)
+              if proc.returncode != 0:
+                  errors.append({'url': url, 'error': proc.stderr[-500:]})
+              for line in proc.stdout.splitlines():
+                  try:
+                      item = json.loads(line)
+                  except Exception:
+                      continue
+                  vid = item.get('id')
+                  title = item.get('title') or 'Nartanesi Haber Shorts'
+                  page_url = item.get('url') or ''
+                  if not vid:
+                      continue
+                  # Site video feed is Shorts-only. Every indexed entry is represented with /shorts/<id>.
+                  found[vid] = {
+                      'video_id': vid,
+                      'title': title,
+                      'description': 'Nartanesi Haber Shorts içeriği.',
+                      'shorts_url': 'https://www.youtube.com/shorts/' + vid,
+                      'embed_url': 'https://www.youtube.com/embed/' + vid,
+                      'news_url': '/haber/'
+                  }
+          videos = list(found.values())
+          if not videos:
+              raise SystemExit('No YouTube videos found; not updating Shorts feed. Errors: ' + json.dumps(errors, ensure_ascii=False))
+          Path('haber/video').mkdir(parents=True, exist_ok=True)
+          Path('haber/video/shorts-feed.json').write_text(json.dumps({
+              'updated_at': datetime.datetime.utcnow().isoformat() + 'Z',
+              'channel': 'https://www.youtube.com/@NartanesiHaber/shorts',
+              'source_urls': urls,
+              'count': len(videos),
+              'videos': videos,
+              'errors': errors
+          }, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print('shorts_count', len(videos))
+          PY
+      - name: Commit Shorts index
+        run: |
+          git config user.name "Shorts Index Sync"
+          git config user.email "shorts-index-sync@users.noreply.github.com"
+          git add haber/video/shorts-feed.json
+          if git diff --staged --quiet; then
+            echo "No Shorts index changes."
+            exit 0
+          fi
+          git commit -m "Sync existing YouTube Shorts index"
+          git push

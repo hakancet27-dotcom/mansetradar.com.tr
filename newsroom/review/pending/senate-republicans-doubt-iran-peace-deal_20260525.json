@@ -1,0 +1,63 @@
+{
+  "title": "Senate Republicans Cast Doubt on a Potential Peace Deal With Iran",
+  "meta_title": "Senate Republicans Question Iran Peace Deal",
+  "meta_description": "Lawmakers express concerns over emerging agreement with Iran, citing potential impact on war goals",
+  "discover_titles": [
+    "Iran Peace Deal in Doubt",
+    "Senate Republicans Skeptical of Iran Agreement",
+    "US Lawmakers Question Iran Deal"
+  ],
+  "slug": "senate-republicans-doubt-iran-peace-deal_20260525",
+  "category": "US News",
+  "spot": "Senate Republicans are questioning a potential peace deal with Iran, citing concerns it may undermine the president's war goals. Lawmakers are casting doubt on the emerging agreement, sparking uncertainty over the future of US-Iran relations.",
+  "content_html": "<h2>Concerns Over the Emerging Agreement</h2> <p>Senate Republicans are expressing concerns over the potential peace deal with Iran, citing worries that it may undermine the president's war goals. The emerging agreement has sparked debate among lawmakers, with some questioning its potential impact on US foreign policy.</p> <h3>Lawmakers' Reservations</h3> <p>The concerns raised by Senate Republicans highlight the challenges faced by the US in negotiating a peace deal with Iran. The lawmakers' reservations over the agreement may hinder the progress of the negotiations, potentially leading to a stalemate.</p> <h2>Potential Implications</h2> <p>The potential peace deal with Iran has significant implications for US foreign policy and the region as a whole. The agreement, if successful, could lead to improved relations between the US and Iran, potentially paving the way for greater cooperation on regional issues.</p> <h3>Uncertainty Over the Future</h3> <p>However, the doubts cast by Senate Republicans over the emerging agreement have introduced uncertainty over the future of US-Iran relations. The outcome of the negotiations remains unclear, and it is uncertain whether the parties involved can reach a mutually acceptable agreement.</p>",
+  "tags": [
+    "US News",
+    "Iran",
+    "Peace Deal",
+    "Senate Republicans"
+  ],
+  "visual_keywords": [
+    "US Flag",
+    "Iran Flag",
+    "Peace Treaty"
+  ],
+  "image_prompt": "US and Iranian flags on a table with a peace treaty in the background",
+  "image_alt": "US and Iranian flags with a peace treaty",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 2,
+  "word_count": 214,
+  "date": "25.05.2026",
+  "flag": "US",
+  "country": "USA",
+  "display_country": "United States",
+  "image_url": "https://images.unsplash.com/photo-1626836014893-37663794dca7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVUyUyMEZsYWd8ZW58MHwwfHx8MTc3OTY4MjAxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+  "summary": "Senate Republicans are questioning a potential peace deal with Iran, citing concerns it may undermine the president's war goals. Lawmakers are casting doubt on the emerging agreement, sparking uncertainty over the future of US-Iran relations.",
+  "language": "English",
+  "url_prefix": "news/articles",
+  "source_language": "English",
+  "target_language": "English",
+  "quality_score": 56,
+  "quality_status": "blocked_from_index",
+  "review_required": true,
+  "quality_flags": [
+    "short_article",
+    "meta_title_issue",
+    "meta_description_issue",
+    "category_issue"
+  ],
+  "quality_notes": [
+    "Metin hedefin altinda (214 kelime).",
+    "Meta title ideal aralikta degil.",
+    "Meta description ideal aralikta degil.",
+    "Kategori standart haber kategorileriyle uyumlu degil: US News."
+  ],
+  "quality_word_count": 214,
+  "indexed_on_home": false,
+  "review_status": "pending",
+  "review_source": "quality_gate",
+  "review_run_id": "26382537944"
+}

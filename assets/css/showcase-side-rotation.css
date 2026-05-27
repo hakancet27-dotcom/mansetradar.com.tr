@@ -1,0 +1,97 @@
+/* Compact rotating secondary headlines beside the desktop hero. */
+@media (min-width: 901px) {
+  .side-headlines.is-rotating {
+    position: relative;
+    height: 456px;
+    display: grid;
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .side-headlines.is-rotating .side-headline {
+    min-height: 0;
+    height: 221px;
+    overflow: hidden;
+    animation: side-card-enter .24s ease both;
+  }
+
+  .side-headlines.is-rotating .side-headline[hidden] {
+    display: none !important;
+  }
+
+  .side-headlines.is-rotating .side-headline::after {
+    background: linear-gradient(
+      to top,
+      rgba(15, 23, 42, .78),
+      rgba(15, 23, 42, .42) 52%,
+      rgba(15, 23, 42, .08)
+    );
+  }
+
+  .side-headlines.is-rotating .side-headline .headline-image img {
+    filter: brightness(.88) saturate(.92);
+  }
+
+  .side-headlines.is-rotating .side-headline .headline-content {
+    left: 15px;
+    right: 15px;
+    bottom: 13px;
+  }
+
+  .side-headlines.is-rotating .side-headline .headline-meta {
+    gap: 6px;
+    margin-bottom: 7px;
+    opacity: .82;
+  }
+
+  .side-headlines.is-rotating .side-headline .headline-tag,
+  .side-headlines.is-rotating .side-headline .headline-topic {
+    font-size: .62rem;
+    padding: 3px 7px;
+  }
+
+  .side-headlines.is-rotating .side-headline .headline-title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    max-width: 100%;
+    color: rgba(255, 255, 255, .86);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.28;
+    text-shadow: 0 1px 5px rgba(0, 0, 0, .38);
+  }
+
+  .side-headlines.is-rotating .side-headline .headline-date {
+    color: rgba(255, 255, 255, .68);
+    font-size: .72rem;
+    margin-top: 7px;
+  }
+
+  .side-rotation-status {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    z-index: 4;
+    padding: 3px 7px;
+    border-radius: 999px;
+    background: rgba(15, 23, 42, .44);
+    color: rgba(255, 255, 255, .8);
+    font-size: .64rem;
+    font-weight: 700;
+    line-height: 1.25;
+    backdrop-filter: blur(3px);
+  }
+
+  @keyframes side-card-enter {
+    from { opacity: .22; transform: translateY(3px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .side-headlines.is-rotating .side-headline {
+    animation: none;
+  }
+}

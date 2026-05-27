@@ -1,0 +1,42 @@
+name: Patch Shorts Autoplay After First Tap
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch-shorts-autoplay-after-first-tap.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Patch Shorts player behavior
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('haber/video/index.html')
+          text = p.read_text(encoding='utf-8')
+          text = text.replace("let currentId='';", "let currentId='';\n  let userStartedPlayback=false;")
+          text = text.replace("function embedUrl(id){return 'https://www.youtube.com/embed/'+encodeURIComponent(id)+'?rel=0&modestbranding=1&playsinline=1';}", "function embedUrl(id,autoplay){return 'https://www.youtube.com/embed/'+encodeURIComponent(id)+'?rel=0&modestbranding=1&playsinline=1'+(autoplay?'&autoplay=1&mute=1':'');}")
+          text = text.replace("frame.dataset.src=embedUrl(video.video_id);", "frame.dataset.src=embedUrl(video.video_id,false);frame.dataset.autoplaySrc=embedUrl(video.video_id,true);")
+          text = text.replace("function activate(item){document.querySelectorAll('.item iframe').forEach(function(frame){if(frame.closest('.item')===item){if(!frame.src){frame.src=frame.dataset.src;}}else if(frame.src){frame.removeAttribute('src');}});}", "function activate(item){document.querySelectorAll('.item iframe').forEach(function(frame){if(frame.closest('.item')===item){if(!frame.src){frame.src=userStartedPlayback?frame.dataset.autoplaySrc:frame.dataset.src;}}else if(frame.src){frame.removeAttribute('src');}});}")
+          text = text.replace("function showError(){", "document.addEventListener('pointerdown',function(){userStartedPlayback=true;},{once:true});\n  document.addEventListener('keydown',function(){userStartedPlayback=true;},{once:true});\n  function showError(){")
+          p.write_text(text, encoding='utf-8')
+          print('patched autoplay-after-first-user-action')
+          PY
+      - name: Commit patch
+        run: |
+          git config user.name "Shorts Autoplay Patch"
+          git config user.email "shorts-autoplay-patch@users.noreply.github.com"
+          git add haber/video/index.html
+          if git diff --staged --quiet; then
+            echo "No autoplay patch changes."
+            exit 0
+          fi
+          git commit -m "Enable Shorts autoplay after first user action"
+          git push

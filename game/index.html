@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <base href="/">
+    <link rel="icon" href="data:,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaceRacer - Kafa Kontrol Oyunu | Hakan Çetin</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CE7WH86RBS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-CE7WH86RBS');
+    </script>
+    <meta name="description" content="Yüz takibi ile oynanan yeni nesil kafa kontrol oyunu. Engelli bireyler ve ofis çalışanları için erişilebilir oyun deneyimi.">
+    <meta name="author" content="Hakan Çetin">
+    <meta name="copyright" content="© 2026 Hakan Çetin - Tüm hakları saklıdır">
+    <meta name="keywords" content="FaceRacer, yüz kontrollü oyun, kafa kontrol oyunu, 3D yarış oyunu, yapay zeka oyun, MediaPipe, kamera oyunu, engelli erişilebilir oyun, ofis oyunu, el kullanmadan oynanan oyun, oyun oyna">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mansetradar.com.tr/game/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mansetradar.com.tr/game/">
+    <meta property="og:title" content="FaceRacer - Yüz Kontrollü Kafa Oyunu | Ücretsiz Online Oyun">
+    <meta property="og:description" content="FaceRacer: Yüz takibi teknolojisi ile oynanan yenilikçi kafa kontrol oyunu. El kullanmadan, sadece kafa hareketleriyle oynayın.">
+    <meta property="og:image" content="https://mansetradar.com.tr/assets/images/faceracer-preview.jpg">
+    <meta property="og:site_name" content="Hakan Çetin">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mansetradar.com.tr/game/">
+    <meta property="twitter:title" content="FaceRacer - Yüz Kontrollü Kafa Oyunu">
+    <meta property="twitter:description" content="Yüz takibi ile oynanan yenilikçi kafa kontrol oyunu. El kullanmadan, sadece kafa hareketleriyle oynayın.">
+    <meta property="twitter:image" content="https://mansetradar.com.tr/assets/images/faceracer-preview.jpg">
+    <meta property="twitter:creator" content="@hakancetin">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://www.gstatic.com https://*.firebaseio.com https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; img-src 'self' data: blob: https://api.qrserver.com; media-src 'self' blob:; connect-src 'self' https://cdn.jsdelivr.net https://www.gstatic.com wss: https://*.firebaseio.com https://*.googleapis.com https://*.firebaseapp.com https://*.gstatic.com https://faceracer-leaderboard-default-rtdb.firebaseio.com https://faceracer-leaderboard.firebaseapp.com https://www.google-analytics.com https://analytics.google.com https://www.google.com; frame-src https://*.firebaseio.com; font-src 'self' https://cdnjs.cloudflare.com; object-src 'none'; base-uri 'self';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="camera=(self), microphone=(), geolocation=(), fullscreen=(self)">
+    <link rel="stylesheet" href="assets/css/faceracer.css">
+    <script>
+        const ALLOWED_DOMAINS = ['mansetradar.com.tr', 'hakancetin.github.io', 'localhost', '127.0.0.1'];
+        const currentDomain = window.location.hostname;
+        if (!ALLOWED_DOMAINS.includes(currentDomain)) {
+            alert('⚠️ Bu oyun yetkisiz kullanımdır.\nLütfen mansetradar.com.tr adresini kullanın.');
+            window.location.href = 'https://mansetradar.com.tr';
+        }
+        let devtools = { open: false };
+        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        setInterval(() => {
+            if (isMobile) return;
+            const threshold = 250;
+            if (window.outerWidth - window.innerWidth > threshold || window.outerHeight - window.innerHeight > threshold) {
+                if (!devtools.open) {
+                    devtools.open = true;
+                    alert('⚠️ Developer tools kullanımı yasaktır!');
+                    window.location.href = 'https://mansetradar.com.tr';
+                }
+            } else {
+                devtools.open = false;
+            }
+        }, 1000);
+        console.log('%c⚠️ FaceRacer Korumalıdır!', 'color: red; font-size: 20px; font-weight: bold;');
+        console.log('%c© 2026 Hakan Çetin - Tüm hakları saklıdır.', 'color: #00ff88; font-size: 14px;');
+    </script>
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameCanvas"></canvas>
+        <video id="cameraVideo" autoplay playsinline></video>
+        <div id="calibrationOverlay">
+            <div class="calibration-content">
+                <h1>FaceRacer</h1>
+                <p>Yüzünüzü tam ortaya getirin</p>
+                <p class="calibration-hint">Dik durun, alnınız çerçevenin tam ortasında olsun</p>
+                <div class="countdown" id="countdown">3</div>
+            </div>
+        </div>
+        <div id="difficultyOverlay" class="hidden">
+            <div class="calibration-content">
+                <h1>🎮 Zorluk Seçin</h1>
+                <p style="margin: 20px 0;">Oyun modunu seçin:</p>
+                <button onclick="selectDifficulty('normal')">🔴 Normal</button>
+                <button onclick="selectDifficulty('easy')">🟢 Kolay</button>
+                <p class="difficulty-info">Normal: %20.7 kırmızı engel<br>Kolay: %16.6 kırmızı engel (%20 daha az)</p>
+            </div>
+        </div>
+        <button id="easyModeBtn" class="hidden" onclick="toggleEasyMode()">🟢 Kolay Moda Geç</button>
+        <div id="loading"><div class="spinner"></div><p>Yükleniyor...</p></div>
+        <audio id="backgroundMusic" loop preload="auto"><source src="assets/music/background.mp3" type="audio/mpeg"></audio>
+        <div id="hud" class="hidden">
+            <h2>Oyun Bilgileri</h2>
+            <div class="hud-item">🏆 Skor: <span class="hud-value" id="score">0</span></div>
+            <div class="hud-item">❤️ Sağlamlık: <span class="hud-value" id="damageLevel">100</span></div>
+            <div class="hud-item">⚡ Turbo: <span class="hud-value" id="turboPoints">0</span>/<span id="turboThreshold">100</span></div>
+            <div class="hud-item">📏 Mesafe: <span class="hud-value" id="distance">0</span>m</div>
+            <div class="hud-item">🎯 FPS: <span class="hud-value" id="fps">0</span></div>
+        </div>
+        <div id="speedometer" class="hidden"><div class="speed-value speed-low" id="speedMain">0</div><div class="speed-unit">KM/H</div></div>
+        <div id="turboBarContainer" class="hidden"><div class="turbo-bar" id="turboBar"><div class="turbo-fill" id="turboFill"></div></div><span class="turbo-icon" id="turboIcon">🔥</span><span class="turbo-icon-secondary" id="turboIconSecondary">🔥</span></div>
+        <button id="toggleCamera" class="hidden" onclick="toggleCameraPreset()">📷 Yakın</button>
+        <button id="toggleMusic" class="hidden" onclick="toggleMusic()">🎵 Müzik</button>
+        <button id="toggleTVMode" class="hidden" onclick="toggleTVMode()">📺 TV: KAPALI</button>
+        <div id="musicVolumeControl" class="hidden"><label>Ses Seviyesi</label><input type="range" id="musicVolume" min="0" max="100" value="50"></div>
+        <button id="toggleControls" class="hidden">❓</button>
+        <div id="controlsPanel" class="hidden">
+            <h3>🎯 Kontroller</h3>
+            <p>↔️ Kafanızı sağa/sola çevirin: Dönüş</p>
+            <p>↕️ Kafanızı yukarı/aşağı eğin: Hız</p>
+            <p>😉 Göz kırpma: Nitro</p>
+            <hr style="margin:15px 0;border:none;border-top:1px solid #444;">
+            <h3>🎮 Oyun Mekanikleri</h3>
+            <p>🟢 <strong>Yeşil:</strong> Turbo puanı +10, arıza -5%</p>
+            <p>🟡 <strong>Sarı:</strong> Altın puanı +10</p>
+            <p>🔴 <strong>Kırmızı:</strong> Arıza +10%, kaza +1, hız düşer</p>
+            <p>💥 <strong>5 Kaza:</strong> Araba patlar, oyun biter</p>
+            <hr style="margin:15px 0;border:none;border-top:1px solid #444;">
+            <h3>📊 Toplam Skor Hesaplaması</h3>
+            <p>Skor = Altın + Turbo + (Mesafe/10) - (Kaza × 50)</p>
+            <hr style="margin:15px 0;border:none;border-top:1px solid #444;">
+            <h3>🔧 Teknik Değerler</h3>
+            <p class="technical-values">Raw Yaw: <span id="controlRawYaw">0</span> | Raw Pitch: <span id="controlRawPitch">0</span></p>
+        </div>
+        <button id="startButton" class="hidden">Oyunu Başlat</button>
+        <button id="toggleTVModeStart" onclick="toggleTVMode(); updateTVButton('toggleTVModeStart');">📺 TV: KAPALI</button>
+        <button id="langToggle" onclick="setLang(currentLang === 'tr' ? 'en' : 'tr')" style="position:fixed;top:10px;right:10px;z-index:10000;padding:8px 14px;background:rgba(255,255,255,0.1);border:1px solid #555;border-radius:8px;color:#fff;cursor:pointer;font-size:0.9rem;">🌐 EN</button>
+    </div>
+    <video id="remoteVideo" autoplay playsinline></video>
+    <div id="touchControls" class="hidden"><button id="touchLeft" class="touch-btn touch-left">←</button><button id="touchNitro" class="touch-btn touch-nitro">🔥</button><button id="touchRight" class="touch-btn touch-right">→</button></div>
+    <div id="webrtcOverlay"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-database-compat.js"></script>
+    <script src="config.js"></script>
+    <script>firebase.initializeApp(firebaseConfig);</script>
+    <script src="assets/js/faceracer.js"></script>
+</body>
+</html>

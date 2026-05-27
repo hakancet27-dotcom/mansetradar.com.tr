@@ -1,0 +1,46 @@
+name: Verify Home News Count
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/verify-home-news-count.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Count home news cards and force Pages refresh
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json, datetime
+          text = Path('haber/index.html').read_text(encoding='utf-8')
+          report = {
+            'checked_at': datetime.datetime.utcnow().isoformat() + 'Z',
+            'news_card_count': text.count('class="news-card'),
+            'headline_slide_count': text.count('headline-slide'),
+            'article_link_count': text.count('/articles/'),
+            'home_quality_audit_present': 'HOME_QUALITY_REBUILD_AUDIT' in text
+          }
+          Path('newsroom/generated').mkdir(parents=True, exist_ok=True)
+          Path('newsroom/generated/home-news-count.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          Path('.pages-refresh').write_text('refresh ' + report['checked_at'] + '\n', encoding='utf-8')
+          print(report)
+          PY
+      - name: Commit verification report
+        run: |
+          git config user.name "Home News Count Verifier"
+          git config user.email "home-news-count-verifier@users.noreply.github.com"
+          git add newsroom/generated/home-news-count.json .pages-refresh
+          if git diff --staged --quiet; then
+            echo "No verification changes."
+            exit 0
+          fi
+          git commit -m "Verify home news count and refresh Pages"
+          git push

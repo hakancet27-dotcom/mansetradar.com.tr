@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-05-24T20:21:03.584276+00:00",
+  "generated_count": 10,
+  "category_counts": {
+    "Son Dakika": 11,
+    "Gündem": 11,
+    "Siyaset": 17,
+    "Ekonomi": 20,
+    "Dünya": 25,
+    "Spor": 11,
+    "Magazin": 0,
+    "Teknoloji": 4,
+    "Sağlık": 13,
+    "Video": 10
+  },
+  "generated": [
+    {
+      "category": "Video",
+      "slug": "bakan-bolat-yasli-bakim-merkezi-ve-cocuk-evleri-sitesini-ziyaret-etti_20260524_99e96d2d",
+      "title": "Bakan Bolat, yaşlı bakım merkezi ve çocuk evleri sitesini ziyaret etti",
+      "source": "https://www.trthaber.com/haber/gundem/bakan-bolat-yasli-bakim-merkezi-ve-cocuk-evleri-sitesini-ziyaret-etti-946157.html"
+    },
+    {
+      "category": "Video",
+      "slug": "bodrum-da-icme-suyu-isale-hatti-patladi_20260523_1d865bf6",
+      "title": "Bodrum'da içme suyu isale hattı patladı",
+      "source": "https://www.trthaber.com/videolar/bodrumda-icme-suyu-isale-hatti-patladi-77590.html"
+    },
+    {
+      "category": "Video",
+      "slug": "ankara-da-saganak-nedeniyle-yollar-gole-dondu_20260523_f16f25b2",
+      "title": "Ankara'da sağanak nedeniyle yollar göle döndü",
+      "source": "https://www.trthaber.com/videolar/ankarada-saganak-nedeniyle-yollar-gole-dondu-77589.html"
+    },
+    {
+      "category": "Video",
+      "slug": "damperi-acik-kamyon-ust-gecide-boyle-carpti_20260523_07df23f2",
+      "title": "Damperi açık kamyon üst geçide böyle çarptı",
+      "source": "https://www.trthaber.com/videolar/damperi-acik-kamyon-ust-gecide-boyle-carpti-77587.html"
+    },
+    {
+      "category": "Video",
+      "slug": "bakan-ciftci-umut-altas-in-ulkemize-iade-sureci-derhal-baslatilmistir_20260523_3acbcf55",
+      "title": "Bakan Çiftçi: Umut Altaş'ın ülkemize iade süreci derhal başlatılmıştır",
+      "source": "https://www.trthaber.com/haber/gundem/bakan-ciftci-umut-altasin-ulkemize-iade-sureci-derhal-baslatilmistir-946080.html"
+    },
+    {
+      "category": "Video",
+      "slug": "kilicdaroglu-chp-yi-kurulusundaki-kodlara-yeniden-kavusturacagiz_20260523_cf2ff278",
+      "title": "Kılıçdaroğlu: CHP'yi kuruluşundaki kodlara yeniden kavuşturacağız",
+      "source": "https://www.trthaber.com/haber/gundem/kilicdaroglu-chpyi-kurulusundaki-kodlara-yeniden-kavusturacagiz-946078.html"
+    },
+    {
+      "category": "Video",
+      "slug": "emine-erdogan-dan-sule-senin-hikayen-dizisi-paylasimi_20260523_9b1c2e08",
+      "title": "Emine Erdoğan'dan Şule: Senin Hikayen dizisi paylaşımı",
+      "source": "https://www.trthaber.com/haber/gundem/emine-erdogandan-sule-senin-hikayen-dizisi-paylasimi-946076.html"
+    },
+    {
+      "category": "Video",
+      "slug": "yskdan-31-mart-secimleri-icin-iptal-talebine-ret_20260523_329891ec",
+      "title": "YSKdan 31 Mart seçimleri için iptal talebine ret",
+      "source": "https://www.trthaber.com/haber/gundem/yskdan-31-mart-secimleri-icin-iptal-talebine-ret-946075.html"
+    },
+    {
+      "category": "Video",
+      "slug": "iletisim-baskanliginin-15-temmuz-milli-hafiza-projesine-basvurular-basladi_20260523_24b53cf8",
+      "title": "İletişim Başkanlığının 15 Temmuz Milli Hafıza Projesine başvurular başladı",
+      "source": "https://www.trthaber.com/haber/gundem/iletisim-baskanliginin-15-temmuz-milli-hafiza-projesine-basvurular-basladi-946074.html"
+    },
+    {
+      "category": "Video",
+      "slug": "bakan-ciftciden-suruculer-icin-kritik-uyarilar_20260523_d522a4a6",
+      "title": "Bakan Çiftçiden sürücüler için kritik uyarılar",
+      "source": "https://www.trthaber.com/haber/gundem/bakan-ciftciden-suruculer-icin-kritik-uyarilar-946071.html"
+    }
+  ],
+  "errors": [
+    {
+      "category": "Magazin",
+      "feed": "https://www.trthaber.com/magazin_articles.rss",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "category": "Magazin",
+      "feed": "https://www.trthaber.com/kultur-sanat_articles.rss",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "category": "Teknoloji",
+      "feed": "https://www.trthaber.com/bilim-teknoloji_articles.rss",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

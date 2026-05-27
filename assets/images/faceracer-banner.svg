@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <!-- Gradient Background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="50%" style="stop-color:#1a1a3a"/>
+      <stop offset="100%" style="stop-color:#0a0a1a"/>
+    </linearGradient>
+    
+    <!-- Neon Gradient -->
+    <linearGradient id="neonGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ff88"/>
+      <stop offset="50%" style="stop-color:#00d4ff"/>
+      <stop offset="100%" style="stop-color:#00ff88"/>
+    </linearGradient>
+    
+    <!-- Glow Filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Strong Glow -->
+    <filter id="strongGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Tech Grid Pattern -->
+  <g opacity="0.1">
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#00ff88" stroke-width="1"/>
+    <line x1="0" y1="200" x2="800" y2="200" stroke="#00ff88" stroke-width="1"/>
+    <line x1="0" y1="300" x2="800" y2="300" stroke="#00ff88" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="400" stroke="#00ff88" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="400" stroke="#00ff88" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="400" stroke="#00ff88" stroke-width="1"/>
+  </g>
+  
+  <!-- Futuristic Head Outline -->
+  <g transform="translate(200, 200)" filter="url(#glow)">
+    <!-- Head Silhouette -->
+    <path d="M-60,-80 C-60,-120 -30,-140 0,-140 C30,-140 60,-120 60,-80 L60,60 C60,100 30,120 0,120 C-30,120 -60,100 -60,60 Z" 
+          fill="none" stroke="url(#neonGradient)" stroke-width="3"/>
+    
+    <!-- Face Landmarks (MediaPipe style) -->
+    <circle cx="-30" cy="-60" r="3" fill="#00ff88" filter="url(#strongGlow)"/>
+    <circle cx="30" cy="-60" r="3" fill="#00ff88" filter="url(#strongGlow)"/>
+    <circle cx="-40" cy="-30" r="3" fill="#00ff88" filter="url(#strongGlow)"/>
+    <circle cx="40" cy="-30" r="3" fill="#00ff88" filter="url(#strongGlow)"/>
+    <circle cx="0" cy="0" r="3" fill="#00ff88" filter="url(#strongGlow)"/>
+    <circle cx="-20" cy="30" r="3" fill="#00ff88" filter="url(#strongGlow)"/>
+    <circle cx="20" cy="30" r="3" fill="#00ff88" filter="url(#strongGlow)"/>
+    <circle cx="0" cy="60" r="3" fill="#00ff88" filter="url(#strongGlow)"/>
+    
+    <!-- Connection Lines -->
+    <line x1="-30" y1="-60" x2="-40" y2="-30" stroke="#00ff88" stroke-width="1" opacity="0.5"/>
+    <line x1="30" y1="-60" x2="40" y2="-30" stroke="#00ff88" stroke-width="1" opacity="0.5"/>
+    <line x1="-40" y1="-30" x2="0" y2="0" stroke="#00ff88" stroke-width="1" opacity="0.5"/>
+    <line x1="40" y1="-30" x2="0" y2="0" stroke="#00ff88" stroke-width="1" opacity="0.5"/>
+    <line x1="0" y1="0" x2="-20" y2="30" stroke="#00ff88" stroke-width="1" opacity="0.5"/>
+    <line x1="0" y1="0" x2="20" y2="30" stroke="#00ff88" stroke-width="1" opacity="0.5"/>
+    <line x1="-20" y1="30" x2="0" y2="60" stroke="#00ff88" stroke-width="1" opacity="0.5"/>
+    <line x1="20" y1="30" x2="0" y2="60" stroke="#00ff88" stroke-width="1" opacity="0.5"/>
+  </g>
+  
+  <!-- Car Silhouette -->
+  <g transform="translate(550, 200)" filter="url(#glow)">
+    <!-- Car Body -->
+    <path d="M-80,-40 L-60,-60 L60,-60 L80,-40 L80,40 L60,60 L-60,60 L-80,40 Z" 
+          fill="none" stroke="url(#neonGradient)" stroke-width="3"/>
+    
+    <!-- Windshield -->
+    <path d="M-50,-50 L-30,-60 L30,-60 L50,-50 L50,-20 L-50,-20 Z" 
+          fill="rgba(0,255,136,0.1)" stroke="#00ff88" stroke-width="1"/>
+    
+    <!-- Wheels -->
+    <circle cx="-50" cy="50" r="15" fill="none" stroke="#00ff88" stroke-width="2"/>
+    <circle cx="50" cy="50" r="15" fill="none" stroke="#00ff88" stroke-width="2"/>
+    <circle cx="-50" cy="50" r="5" fill="#00ff88" filter="url(#strongGlow)"/>
+    <circle cx="50" cy="50" r="5" fill="#00ff88" filter="url(#strongGlow)"/>
+    
+    <!-- Speed Lines -->
+    <line x1="-100" y1="0" x2="-80" y2="0" stroke="#00ff88" stroke-width="2" opacity="0.7"/>
+    <line x1="-110" y1="-10" x2="-85" y2="-10" stroke="#00ff88" stroke-width="1" opacity="0.5"/>
+    <line x1="-110" y1="10" x2="-85" y2="10" stroke="#00ff88" stroke-width="1" opacity="0.5"/>
+  </g>
+  
+  <!-- Tech Circuit Lines -->
+  <g opacity="0.3">
+    <path d="M100,50 L150,50 L150,100 L200,100" fill="none" stroke="#00ff88" stroke-width="1"/>
+    <path d="M600,350 L650,350 L650,300 L700,300" fill="none" stroke="#00ff88" stroke-width="1"/>
+    <circle cx="150" cy="50" r="3" fill="#00ff88"/>
+    <circle cx="650" cy="350" r="3" fill="#00ff88"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#neonGradient)" filter="url(#glow)">
+    FaceRacer
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#888" letter-spacing="3">
+    FACE-CONTROLLED RACING
+  </text>
+  
+  <!-- Corner Accents -->
+  <path d="M20,20 L20,50 L50,20" fill="none" stroke="#00ff88" stroke-width="2" filter="url(#glow)"/>
+  <path d="M780,20 L780,50 L750,20" fill="none" stroke="#00ff88" stroke-width="2" filter="url(#glow)"/>
+  <path d="M20,380 L20,350 L50,380" fill="none" stroke="#00ff88" stroke-width="2" filter="url(#glow)"/>
+  <path d="M780,380 L780,350 L750,380" fill="none" stroke="#00ff88" stroke-width="2" filter="url(#glow)"/>
+</svg>

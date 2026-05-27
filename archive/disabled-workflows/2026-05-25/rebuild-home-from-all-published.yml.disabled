@@ -1,0 +1,110 @@
+name: Rebuild Home From All Published Articles
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rebuild-home-from-all-published.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build populated haber index from article JSON files
+        run: |
+          python - <<'PY'
+          import json, html
+          from pathlib import Path
+          from datetime import datetime
+
+          cats = ['Son Dakika','Gündem','Siyaset','Ekonomi','Dünya','Spor','Magazin','Teknoloji','Sağlık','Video']
+          slug_map = {'Son Dakika':'son-dakika','Gündem':'gundem','Siyaset':'siyaset','Ekonomi':'ekonomi','Dünya':'dunya','Spor':'spor','Magazin':'magazin','Teknoloji':'teknoloji','Sağlık':'saglik','Video':'video'}
+
+          def e(v): return html.escape(str(v or ''), quote=True)
+          def parse_date(d):
+              raw = str(d.get('date_iso') or d.get('date') or '')[:10]
+              for fmt in ('%Y-%m-%d','%d.%m.%Y'):
+                  try: return datetime.strptime(raw, fmt)
+                  except Exception: pass
+              return datetime.min
+
+          articles = []
+          for p in Path('articles').glob('*.json'):
+              try:
+                  d = json.loads(p.read_text(encoding='utf-8'))
+              except Exception:
+                  continue
+              title = str(d.get('title') or '').strip()
+              summary = str(d.get('summary') or d.get('spot') or '').strip()
+              slug = str(d.get('slug') or p.stem).strip()
+              if not title or not summary or not slug:
+                  continue
+              cat = d.get('topic') or d.get('category') or 'Gündem'
+              if cat == 'Dış Haberler': cat = 'Dünya'
+              if cat not in cats: cat = 'Gündem'
+              d['category'] = cat
+              d['slug'] = slug
+              d['title'] = title
+              d['summary'] = summary
+              d['_date'] = parse_date(d)
+              articles.append(d)
+
+          articles.sort(key=lambda x: x['_date'], reverse=True)
+          articles = articles[:120]
+
+          def card(d):
+              img = d.get('image_url') or ''
+              img_html = f'<img src="{e(img)}" alt="{e(d["title"])}" loading="lazy">' if img else '<span>H</span>'
+              return f'''<article class="news-card" data-topic="{slug_map.get(d['category'],'gundem')}">
+  <a class="thumb" href="/articles/{e(d['slug'])}/">{img_html}</a>
+  <div class="body"><div class="meta"><span>{e(d['category'])}</span><time>{e(d.get('date') or d.get('date_iso'))}</time></div><h2><a href="/articles/{e(d['slug'])}/">{e(d['title'])}</a></h2><p>{e(d['summary'])[:230]}</p><a class="read" href="/articles/{e(d['slug'])}/">Devamını Oku →</a></div>
+</article>'''
+
+          hero = articles[:5]
+          cards = ''.join(card(d) for d in articles)
+          nav = ''.join(f'<a href="?kategori={slug_map[c]}">{c}</a>' for c in cats)
+          hero_html = ''.join(f'<a class="hero-card" href="/articles/{e(d["slug"])}/"><span>{e(d["category"])}</span><h2>{e(d["title"])}</h2><p>{e(d["summary"])[:180]}</p></a>' for d in hero)
+          latest = ''.join(f'<li><a href="/articles/{e(d["slug"])}/">{e(d["title"])}</a></li>' for d in articles[:20])
+
+          page = f'''<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Son Dakika Haberleri | hakancetin.com.tr</title>
+<meta name="description" content="Gündem, siyaset, ekonomi, dünya, spor, magazin, teknoloji ve sağlık başlıklarında güncel haberler.">
+<link rel="canonical" href="https://hakancetin.com.tr/haber/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<style>
+*{{box-sizing:border-box}}body{{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#f4f6f8;color:#222}}a{{color:inherit;text-decoration:none}}.top{{background:#171727;color:#fff;padding:8px 20px;font-size:13px}}header{{background:#fff;border-bottom:3px solid #e10600;position:sticky;top:0;z-index:10}}.inner{{max-width:1200px;margin:auto;padding:14px 18px}}.head{{display:flex;align-items:center;justify-content:space-between;gap:18px}}.logo{{font-weight:900;font-size:22px}}nav{{display:flex;gap:8px;flex-wrap:wrap}}nav a{{padding:8px 10px;border-radius:8px;font-weight:700}}nav a:hover{{background:#fee2e2;color:#e10600}}.breaking{{background:#e10600;color:#fff}}.breaking .inner{{display:flex;gap:12px;overflow:auto}}.breaking a{{white-space:nowrap;font-weight:800}}main{{max-width:1200px;margin:26px auto;padding:0 18px;display:grid;grid-template-columns:1fr 300px;gap:24px}}.hero{{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-bottom:24px}}.hero-card{{background:linear-gradient(135deg,#171727,#7f1d1d);color:#fff;border-radius:12px;padding:18px;min-height:190px;display:flex;flex-direction:column;justify-content:flex-end;box-shadow:0 10px 26px rgba(0,0,0,.16)}}.hero-card:first-child{{grid-column:span 2}}.hero-card span{{background:#e10600;width:max-content;padding:4px 8px;border-radius:99px;font-size:12px;font-weight:900}}.hero-card h2{{font-size:20px;line-height:1.2;margin:10px 0 6px}}.hero-card p{{color:#f1f5f9;margin:0;font-size:14px}}.grid{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}}.news-card{{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(15,23,42,.08);display:flex;flex-direction:column}}.thumb{{height:145px;background:linear-gradient(135deg,#e10600,#171727);display:grid;place-items:center;color:#fff;font-weight:900;font-size:42px;overflow:hidden}}.thumb img{{width:100%;height:100%;object-fit:cover}}.body{{padding:15px;display:flex;flex-direction:column;gap:8px;flex:1}}.meta{{display:flex;justify-content:space-between;gap:8px;color:#667085;font-size:12px}}.meta span{{color:#7f1d1d;background:#fee2e2;border-radius:99px;padding:3px 8px;font-weight:800}}h1{{margin:0 0 14px;font-size:30px}}.news-card h2{{font-size:18px;line-height:1.32;margin:0}}.news-card p{{color:#667085;font-size:14px;line-height:1.45;margin:0}}.read{{margin-top:auto;color:#e10600;font-weight:800;font-size:13px}}aside{{position:sticky;top:84px;align-self:start}}.box{{background:#fff;border-radius:12px;padding:16px;box-shadow:0 2px 12px rgba(15,23,42,.08);margin-bottom:18px}}.box h3{{margin:0 0 12px}}.box li{{margin-bottom:10px}}footer{{background:#171727;color:#cbd5e1;margin-top:36px;padding:24px}}footer a{{margin-right:14px}}@media(max-width:900px){{main{{display:block}}.hero{{grid-template-columns:1fr}}.hero-card:first-child{{grid-column:auto}}.grid{{grid-template-columns:1fr}}aside{{position:static;margin-top:20px}}.head{{display:block}}nav{{margin-top:12px}}}}
+</style>
+</head>
+<body>
+<div class="top">hakancetin.com.tr Haber Merkezi · Haber sayısı: {len(articles)}</div>
+<header><div class="inner head"><a class="logo" href="/haber/">hakancetin.com.tr</a><nav>{nav}<a href="/haber/video/">Video</a></nav></div></header>
+<div class="breaking"><div class="inner"><strong>SON DAKİKA</strong>{''.join(f'<a href="/articles/{e(d["slug"])}/">{e(d["title"])} </a>' for d in articles[:10])}</div></div>
+<main><section><h1>Son Dakika Haberleri</h1><div class="hero">{hero_html}</div><div class="grid">{cards}</div></section><aside><div class="box"><h3>Son Haberler</h3><ul>{latest}</ul></div><div class="box"><h3>Kurumsal</h3><p><a href="/haber/hakkinda/">Hakkında</a></p><p><a href="/haber/kunye/">Künye</a></p><p><a href="/haber/iletisim/">İletişim</a></p><p><a href="/haber/yayin-ilkeleri/">Yayın İlkeleri</a></p></div></aside></main>
+<footer><div class="inner"><a href="/haber/">Haberler</a><a href="/haber/video/">Video</a><a href="/haber/iletisim/">İletişim</a></div></footer>
+</body></html>'''
+          Path('haber').mkdir(exist_ok=True)
+          Path('haber/index.html').write_text(page, encoding='utf-8')
+          Path('newsroom/generated').mkdir(parents=True, exist_ok=True)
+          Path('newsroom/generated/home-rebuild-all-published.json').write_text(json.dumps({'built_at':datetime.utcnow().isoformat()+'Z','article_count':len(articles),'card_count':cards.count('news-card')}, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+          print('article_count', len(articles))
+          PY
+      - name: Commit rebuilt homepage
+        run: |
+          git config user.name "Safe Home Rebuild"
+          git config user.email "safe-home-rebuild@users.noreply.github.com"
+          git add haber/index.html newsroom/generated/home-rebuild-all-published.json
+          if git diff --staged --quiet; then
+            echo "No homepage rebuild changes."
+            exit 0
+          fi
+          git commit -m "Rebuild homepage from all published articles"
+          git push

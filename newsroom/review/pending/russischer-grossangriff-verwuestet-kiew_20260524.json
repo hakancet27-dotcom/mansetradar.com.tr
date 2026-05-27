@@ -1,0 +1,60 @@
+{
+  "title": "Russischer Großangriff verwüstet Kiew - Moskau setzt Oreschnik-Rakete ein",
+  "meta_title": "Russischer Angriff auf Kiew: Zerstörerische Waffe eingesetzt",
+  "meta_description": "Ein russischer Großangriff hat die Region Kiew verwüstet. Moskau hat eine besonders zerstörerische Waffe eingesetzt.",
+  "discover_titles": [
+    "Russischer Angriff auf Kiew",
+    "Moskau setzt Oreschnik-Rakete ein",
+    "Kiew nach Großangriff verwüstet"
+  ],
+  "slug": "russischer-grossangriff-verwuestet-kiew_20260524",
+  "category": "Siyaset",
+  "spot": "Ein russischer Großangriff hat die Region Kiew verwüstet, bei dem Moskau eine besonders zerstörerische Waffe eingesetzt hat. Der Angriff hat große Zerstörungen verursacht.",
+  "content_html": "<h2>Hintergrund des Angriffs</h2> <p>Der russische Großangriff auf Kiew ist ein weiterer Höhepunkt im Konflikt zwischen Russland und der Ukraine. Die Region Kiew ist besonders betroffen, da sie ein wichtiger Verkehrsknotenpunkt und ein Zentrum der ukrainischen Wirtschaft ist.</p> <h2>Die eingesetzte Waffe</h2> <p>Moskau hat bei dem Angriff eine Oreschnik-Rakete eingesetzt. Diese Waffe ist bekannt für ihre Zerstörungskraft und ihre Fähigkeit, große Gebiete zu verwüsten.</p> <h3>Auswirkungen des Angriffs</h3> <p>Der Angriff hat große Zerstörungen in der Region Kiew verursacht. Die genauen Auswirkungen des Angriffs sind noch nicht bekannt, aber es ist klar, dass die Region schwer getroffen wurde.</p> <h2>Reaktionen auf den Angriff</h2> <p>Bisher liegen keine offiziellen Reaktionen auf den Angriff vor. Es ist jedoch zu erwarten, dass die internationale Gemeinschaft auf den Angriff reagieren wird.</p>",
+  "tags": [
+    "Russischer Angriff",
+    "Kiew",
+    "Oreschnik-Rakete",
+    "Ukraine",
+    "Konflikt"
+  ],
+  "visual_keywords": [
+    "Kiew",
+    "Russland",
+    "Ukraine"
+  ],
+  "image_prompt": "Eine zerstörte Straße in Kiew nach dem russischen Angriff",
+  "image_alt": "Zerstörte Straße in Kiew",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 2,
+  "word_count": 145,
+  "date": "24.05.2026",
+  "flag": "DE",
+  "country": "Germany",
+  "display_country": "Deutschland",
+  "image_url": "https://images.unsplash.com/photo-1653192317885-b175cdd33f88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxLaWV3fGVufDB8MHx8fDE3Nzk1OTQ5MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "summary": "Ein russischer Großangriff hat die Region Kiew verwüstet, bei dem Moskau eine besonders zerstörerische Waffe eingesetzt hat. Der Angriff hat große Zerstörungen verursacht.",
+  "language": "German",
+  "url_prefix": "nachrichten/artikel",
+  "source_language": "German",
+  "target_language": "German",
+  "quality_score": 65,
+  "quality_status": "blocked_from_index",
+  "review_required": true,
+  "quality_flags": [
+    "very_short_article",
+    "meta_description_issue"
+  ],
+  "quality_notes": [
+    "Metin cok kisa (145 kelime).",
+    "Meta description ideal aralikta degil."
+  ],
+  "quality_word_count": 145,
+  "indexed_on_home": false,
+  "review_status": "pending",
+  "review_source": "quality_gate",
+  "review_run_id": "26358151405"
+}

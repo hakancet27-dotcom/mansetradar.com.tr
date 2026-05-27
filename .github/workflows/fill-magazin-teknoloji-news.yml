@@ -1,0 +1,129 @@
+name: Fill Magazin Teknoloji News
+
+# MAGAZİN VE TEKNOLOJİ EKSİK HABER DOLDURMA WORKFLOW'U
+#
+# Ne yapar?
+# - Google News/RSS benzeri kaynaklardan magazin ve teknoloji haberleri bulmaya çalışır.
+# - Eksik görülen magazin/teknoloji makaleleri için JSON/HTML dosyaları oluşturabilir.
+# - Üretim raporu yazabilir ve değişiklik varsa public site reposuna commit/push yapabilir.
+#
+# Ne zaman çalışır?
+# - Otomatik çalışmaz.
+# - Yalnızca GitHub Actions ekranından bilinçli olarak manuel başlatılmalıdır.
+#
+# Yetki ve risk notu:
+# - `contents: write` yetkisine sahiptir.
+# - Ana üretim akışının yerine kullanılmamalıdır; sadece kontrollü eksik tamamlama
+#   amacıyla düşünülmelidir.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fill missing Magazin and Teknoloji from alternative RSS
+        run: |
+          python - <<'PY'
+          import email.utils, hashlib, html, json, re, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          TARGETS = {
+            'Magazin': [
+              'https://news.google.com/rss/search?q=magazin%20haberleri%20when:7d&hl=tr&gl=TR&ceid=TR:tr',
+              'https://news.google.com/rss/search?q=televizyon%20dizi%20magazin%20when:7d&hl=tr&gl=TR&ceid=TR:tr'
+            ],
+            'Teknoloji': [
+              'https://news.google.com/rss/search?q=teknoloji%20haberleri%20when:7d&hl=tr&gl=TR&ceid=TR:tr',
+              'https://news.google.com/rss/search?q=yapay%20zeka%20teknoloji%20when:7d&hl=tr&gl=TR&ceid=TR:tr'
+            ]
+          }
+          TARGET_COUNT = 10
+
+          def clean(v):
+            v = html.unescape(v or '')
+            v = re.sub(r'<[^>]+>', ' ', v)
+            return re.sub(r'\s+', ' ', v).strip()
+          def slugify(v):
+            table = str.maketrans('çğıöşüÇĞİÖŞÜ', 'cgiosuCGIOSU')
+            v = (v or '').translate(table).lower()
+            return re.sub(r'[^a-z0-9]+', '-', v).strip('-')[:82] or 'haber'
+          def parsedate(v):
+            try:
+              d = email.utils.parsedate_to_datetime(v or '')
+              if d.tzinfo is None: d = d.replace(tzinfo=timezone.utc)
+              return d.astimezone(timezone.utc)
+            except Exception:
+              return datetime.now(timezone.utc)
+          def fetch(url):
+            req = urllib.request.Request(url, headers={'User-Agent': 'hakancetin-alt-rss/1.0'})
+            with urllib.request.urlopen(req, timeout=30) as r:
+              return r.read()
+          def parse(raw):
+            root = ET.fromstring(raw)
+            rows = []
+            for item in root.findall('.//item'):
+              title = clean(item.findtext('title'))
+              link = clean(item.findtext('link'))
+              desc = clean(item.findtext('description')) or title
+              pub = item.findtext('pubDate') or ''
+              if title and link:
+                rows.append({'title': title, 'link': link, 'summary': desc, 'date': parsedate(pub)})
+            return rows
+          def article_html(d):
+            title = html.escape(d['title']); summary = html.escape(d['summary']); cat = html.escape(d['category']); source = html.escape(d['source_url']); slug = d['slug']
+            return f'''<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="{summary[:155]}"><link rel="canonical" href="https://mansetradar.com.tr/articles/{slug}/"><title>{title} | mansetradar.com.tr</title><style>body{{font-family:Arial,sans-serif;background:#f4f6f8;margin:0;color:#222;line-height:1.7}}header,main{{max-width:900px;margin:auto}}header{{padding:18px}}main{{background:#fff;margin-top:20px;padding:28px;border-radius:10px}}.cat{{color:#e10600;font-weight:700}}.spot{{font-size:1.1rem;border-left:5px solid #e10600;padding-left:14px}}</style></head><body><header><a href="/haber/">← Haberler</a></header><main><div class="cat">{cat}</div><h1>{title}</h1><p class="spot">{summary}</p><p>Bu haber, alternatif kaynak akışından alınan doğrulanabilir bilgilerle hazırlanmıştır.</p><p><strong>Kaynak:</strong> <a href="{source}" rel="nofollow noopener" target="_blank">Kaynak haberi oku</a></p></main></body></html>'''
+
+          existing = []
+          for p in Path('articles').glob('*.json'):
+            try: existing.append(json.loads(p.read_text(encoding='utf-8')))
+            except Exception: pass
+          counts = {'Magazin':0, 'Teknoloji':0}
+          links = set(); titles = set()
+          for d in existing:
+            c = d.get('topic') or d.get('category')
+            if c in counts: counts[c] += 1
+            if d.get('source_url'): links.add(d['source_url'])
+            if d.get('title'): titles.add(d['title'])
+
+          generated = []; errors = []
+          for cat, feeds in TARGETS.items():
+            need = max(0, TARGET_COUNT - counts.get(cat, 0))
+            if need <= 0: continue
+            pool = []
+            for feed in feeds:
+              try: pool += parse(fetch(feed))
+              except Exception as e: errors.append({'category': cat, 'feed': feed, 'error': str(e)})
+            pool.sort(key=lambda x: x['date'], reverse=True)
+            for item in pool:
+              if need <= 0: break
+              if item['link'] in links or item['title'] in titles: continue
+              h = hashlib.sha1(item['link'].encode()).hexdigest()[:8]
+              slug = f"{slugify(item['title'])}_{item['date'].strftime('%Y%m%d')}_{h}"
+              data = {'review_status':'published','title':item['title'],'slug':slug,'date':item['date'].strftime('%d.%m.%Y'),'date_iso':item['date'].date().isoformat(),'language':'Turkish','country':'Turkey','category':cat,'topic':cat,'spot':item['summary'],'summary':item['summary'],'source_url':item['link'],'source_name':'Google News RSS','image_url':'','indexed_on_home':True,'quality_score':70,'quality_flags':[],'schema_version':3,'generator':'fill-magazin-teknoloji-news'}
+              Path('articles').mkdir(exist_ok=True)
+              Path(f'articles/{slug}.json').write_text(json.dumps(data, ensure_ascii=False, sort_keys=True, separators=(',', ':'))+'\n', encoding='utf-8')
+              Path(f'articles/{slug}.html').write_text(article_html(data), encoding='utf-8')
+              generated.append({'category':cat,'slug':slug,'title':item['title'],'source':item['link']})
+              links.add(item['link']); titles.add(item['title']); need -= 1; counts[cat] += 1
+          Path('newsroom/generated').mkdir(parents=True, exist_ok=True)
+          Path('newsroom/generated/magazin-teknoloji-fill-report.json').write_text(json.dumps({'generated_at':datetime.now(timezone.utc).isoformat(),'generated_count':len(generated),'category_counts':counts,'generated':generated,'errors':errors}, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+          print('generated_count', len(generated)); print('category_counts', counts); print('errors', len(errors))
+          PY
+      - name: Commit filled news
+        run: |
+          git config user.name "Alt Source News Filler"
+          git config user.email "alt-source-news-filler@users.noreply.github.com"
+          git add articles newsroom/generated/magazin-teknoloji-fill-report.json
+          if git diff --staged --quiet; then
+            echo "No alternative source news to commit."
+            exit 0
+          fi
+          git commit -m "Fill magazin and teknoloji news from alternative sources"
+          git push

@@ -1,0 +1,153 @@
+name: Live News Quick Fix
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/live-news-quick-fix.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  quick-fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply hero-first mobile homepage layout and safe navigation fixes
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          p = Path('haber/index.html')
+          text = p.read_text(encoding='utf-8')
+          for old, new in {
+              'Tartşıyor': 'Tartışıyor',
+              'Tart\\u015f\\u0131yor': 'Tartışıyor',
+              '?ne ??kan': 'Öne Çıkan',
+              '?ne Çıkan': 'Öne Çıkan',
+              'Guncelleniyor': 'Güncelleniyor',
+              'Yukleniyor': 'Yükleniyor',
+              'Uye Girişi': 'Üye Girişi',
+          }.items():
+              text = text.replace(old, new)
+
+          text = text.replace('class="member-login-btn" href="#"', 'class="member-login-btn" href="/login.html"')
+          text = text.replace('      initMarketScroll();', '      /* disabled: fixed mobile market placement */')
+          text = re.sub(r'\n\s*/\* MOBILE_HERO_FIRST_UX_V1_START \*/.*?/\* MOBILE_HERO_FIRST_UX_V1_END \*/\n?', '\n', text, flags=re.S)
+          text = re.sub(r'\n\s*<script id="mobile-hero-first-layout">.*?</script>\n?', '\n', text, flags=re.S)
+
+          mobile_css = '''
+    /* MOBILE_HERO_FIRST_UX_V1_START */
+    @media (max-width: 640px) {
+      body { background: #fff; }
+      .top-bar { display: none !important; }
+      header { padding: 0 !important; background: #fff; border-bottom: 1px solid #eceef2; }
+      header .inner {
+        min-height: 54px;
+        padding: 7px 10px !important;
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        gap: 7px !important;
+      }
+      .logo { flex: 1 1 auto; min-width: 0; gap: 7px !important; }
+      .logo-icon { width: 34px !important; height: 34px !important; border-radius: 8px !important; font-size: 1.1rem !important; }
+      .logo-text strong { font-size: .96rem !important; line-height: 1.05 !important; white-space: nowrap; }
+      .logo-text span { display: none !important; }
+      .header-tools { width: auto !important; display: flex !important; gap: 6px !important; margin-left: auto; align-items: center; }
+      .header-search, .header-search.is-open { min-width: 38px !important; width: 38px !important; height: 38px !important; overflow: hidden; border-radius: 8px !important; }
+      .header-search input { width: 38px !important; opacity: 0; padding: 0 !important; }
+      .header-search:focus-within { position: absolute; left: 10px; right: 10px; width: auto !important; z-index: 40; background: #fff; }
+      .header-search:focus-within input { width: 100% !important; opacity: 1; padding: 9px 34px !important; }
+      .member-login-btn { min-height: 38px !important; padding: 0 10px !important; font-size: .76rem !important; border-radius: 8px !important; box-shadow: none !important; }
+      header .inner > nav { display: none !important; }
+      .breaking { background: #fff !important; border-top: 0 !important; border-bottom: 2px solid #e10600 !important; min-height: 40px; }
+      .breaking .inner { padding: 0 !important; display: block !important; }
+      .breaking-label { display: none !important; }
+      .topic-list { display: flex !important; align-items: center; gap: 0 !important; overflow-x: auto; scrollbar-width: none; white-space: nowrap; padding: 0 5px; }
+      .topic-list::-webkit-scrollbar { display: none; }
+      .topic-link { color: #222 !important; background: transparent !important; border: 0 !important; border-radius: 0 !important; padding: 11px 9px 9px !important; font-size: .79rem !important; font-weight: 700 !important; }
+      .topic-link.primary, .topic-link.active { color: #e10600 !important; border-bottom: 3px solid #e10600 !important; }
+      .container { padding: 8px 10px 20px !important; }
+      .page-layout { display: block !important; }
+      .showcase-header { display: none !important; }
+      .showcase-grid { display: block !important; }
+      .headline-slider { min-height: 0 !important; height: 405px !important; border-radius: 10px !important; margin: 0 !important; }
+      .headline-card, .headline-image { height: 405px !important; min-height: 0 !important; border-radius: 10px !important; }
+      .headline-content { padding: 14px 15px 17px !important; }
+      .headline-title { font-size: 1.38rem !important; line-height: 1.14 !important; }
+      .headline-meta { margin-bottom: 8px !important; }
+      .market-strip {
+        order: initial !important;
+        margin: 10px 0 14px !important;
+        width: 100% !important;
+        max-width: none !important;
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 5px !important;
+        padding: 6px !important;
+        overflow: visible !important;
+        white-space: normal !important;
+        border: 1px solid #e5e7eb !important;
+        border-radius: 10px !important;
+        background: #f8f9fb !important;
+        scroll-snap-type: none !important;
+      }
+      .market-label { display: none !important; }
+      .market-item, .market-item.up, .market-item.down {
+        min-width: 0 !important; width: 100% !important; padding: 6px 8px !important;
+        display: grid !important; grid-template-columns: 1fr auto !important;
+        gap: 3px 5px !important; align-items: center !important;
+        background: #fff !important; border: 1px solid #eceef2 !important; border-radius: 7px !important;
+      }
+      .market-name { font-size: .63rem !important; color: #667085 !important; font-weight: 700 !important; }
+      .market-value { font-size: .86rem !important; color: #111827 !important; min-width: 0 !important; }
+      .market-change, .market-item.up .market-change, .market-item.down .market-change {
+        grid-column: 2; grid-row: 1 / span 2; align-self: center;
+        color: #b42318 !important; background: #fff1f0 !important; border-radius: 999px;
+        font-size: .61rem !important; font-weight: 700 !important; min-width: 0 !important; padding: 3px 5px !important;
+      }
+      .market-status { display: block !important; grid-column: 1 / -1; font-size: .62rem !important; color: #667085 !important; font-weight: 600 !important; white-space: normal !important; padding: 1px 3px 0; }
+    }
+    /* MOBILE_HERO_FIRST_UX_V1_END */
+'''
+          text = text.replace('</style>', mobile_css + '  </style>', 1)
+          layout_script = '''
+  <script id="mobile-hero-first-layout">
+    (function () {
+      var market = document.querySelector('.market-strip');
+      var hero = document.querySelector('.headline-slider');
+      if (!market || !hero) return;
+      var origin = document.createComment('market-original-position');
+      market.parentNode.insertBefore(origin, market);
+      var mq = window.matchMedia('(max-width: 640px)');
+      function arrange() {
+        if (mq.matches) {
+          hero.insertAdjacentElement('afterend', market);
+        } else if (origin.parentNode) {
+          origin.parentNode.insertBefore(market, origin.nextSibling);
+        }
+      }
+      arrange();
+      if (mq.addEventListener) mq.addEventListener('change', arrange);
+    })();
+  </script>
+'''
+          text = text.replace('</body>', layout_script + '</body>', 1)
+          p.write_text(text, encoding='utf-8')
+          print('hero_first_mobile_layout_applied', 'MOBILE_HERO_FIRST_UX_V1' in text)
+          PY
+      - name: Commit compact mobile homepage fix
+        run: |
+          git config user.name "Mobile UX Hotfix"
+          git config user.email "mobile-ux-hotfix@users.noreply.github.com"
+          git add haber/index.html
+          if git diff --staged --quiet; then
+            echo "No mobile homepage changes needed."
+            exit 0
+          fi
+          git commit -m "Apply hero-first mobile homepage layout"
+          git push

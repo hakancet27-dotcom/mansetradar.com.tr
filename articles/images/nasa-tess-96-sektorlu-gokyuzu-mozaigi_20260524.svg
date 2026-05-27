@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="NASA TESS gökyüzü mozaiği verileri: 96 sektör, 679 doğrulanmış ötegezegen ve 5.165 gezegen adayı">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081427"/>
+      <stop offset="0.55" stop-color="#111d42"/>
+      <stop offset="1" stop-color="#321452"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#9ccfff" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#9ccfff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <circle cx="1110" cy="140" r="240" fill="url(#glow)"/>
+  <g fill="#fff" opacity=".74">
+    <circle cx="94" cy="106" r="2"/><circle cx="172" cy="66" r="3"/><circle cx="265" cy="134" r="2"/><circle cx="418" cy="82" r="2"/><circle cx="560" cy="122" r="3"/><circle cx="703" cy="66" r="2"/><circle cx="870" cy="134" r="2"/><circle cx="1020" cy="78" r="3"/><circle cx="1198" cy="232" r="2"/><circle cx="965" cy="306" r="2"/><circle cx="772" cy="216" r="2"/><circle cx="240" cy="302" r="2"/>
+  </g>
+  <text x="76" y="92" fill="#a5c9ff" font-family="Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="3">NASA SCIENCE • TESS</text>
+  <text x="76" y="190" fill="#ffffff" font-family="Arial, sans-serif" font-size="62" font-weight="800">96 SEKTÖRLÜ</text>
+  <text x="76" y="262" fill="#ffffff" font-family="Arial, sans-serif" font-size="62" font-weight="800">GÖKYÜZÜ MOZAİĞİ</text>
+  <rect x="76" y="336" width="382" height="142" rx="16" fill="#ffffff" fill-opacity=".08" stroke="#70b9ff" stroke-opacity=".34"/>
+  <text x="108" y="401" fill="#5bc6ff" font-family="Arial, sans-serif" font-size="52" font-weight="800">679</text>
+  <text x="108" y="442" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="700">DOĞRULANMIŞ ÖTEGEZEGEN</text>
+  <rect x="482" y="336" width="448" height="142" rx="16" fill="#ffffff" fill-opacity=".08" stroke="#e59bff" stroke-opacity=".34"/>
+  <text x="514" y="401" fill="#e7a2ff" font-family="Arial, sans-serif" font-size="52" font-weight="800">5.165</text>
+  <text x="514" y="442" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="700">GEZEGEN ADAYI</text>
+  <text x="76" y="584" fill="#dbeafe" font-family="Arial, sans-serif" font-size="26">Veri kapsamı: Nisan 2018 – Eylül 2025</text>
+  <rect x="76" y="622" width="1120" height="2" fill="#e10600"/>
+  <text x="76" y="666" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="700">mansetradar.com.tr • Teknoloji</text>
+</svg>

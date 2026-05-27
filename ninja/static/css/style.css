@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #0f0a19;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#game-container {
+    position: relative;
+    width: 900px;
+    height: 650px;
+    background: linear-gradient(135deg, #1a0f2e 0%, #0f0a19 100%);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(100, 50, 200, 0.3);
+}
+
+#game-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#ui-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+    z-index: 10;
+}
+
+#score {
+    font-size: 52px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+#lives {
+    display: flex;
+    gap: 6px;
+}
+
+.heart {
+    font-size: 22px;
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.5));
+}
+
+.heart.lost {
+    opacity: 0.3;
+}
+
+#timer {
+    font-size: 20px;
+    color: #888;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+#combo-display {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff8c00;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 20;
+}
+
+#combo-display.show {
+    opacity: 1;
+}
+
+#gesture-progress {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    pointer-events: none;
+    z-index: 30;
+}
+
+#gesture-progress.hidden {
+    display: none;
+}
+
+.progress-bar {
+    width: 200px;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0 auto 10px;
+}
+
+.progress-bar-fill {
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(90deg, #ff6b35, #ffdc3c);
+    border-radius: 4px;
+    transition: width 0.1s;
+}
+
+#gesture-progress p {
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 50;
+    backdrop-filter: blur(5px);
+}
+
+.screen.hidden {
+    display: none;
+}
+
+.screen h1 {
+    font-size: 56px;
+    color: #dc3c3c;
+    margin-bottom: 20px;
+    text-shadow: 0 0 20px rgba(220, 60, 60, 0.5);
+}
+
+.screen p {
+    font-size: 20px;
+    color: #ccc;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 15px 40px;
+    font-size: 24px;
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: all 0.3s;
+    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(255, 107, 53, 0.6);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid #333;
+    border-top-color: #ff8c00;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 20px;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+#final-score {
+    font-size: 32px;
+    color: #ffdc3c;
+    margin: 20px 0;
+}
+
+/* Responsive */
+@media (max-width: 950px) {
+    #game-container {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+    }
+}
+
+/* Cursor trail effect */
+.cursor-trail {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgba(100, 200, 255, 0.8);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 15;
+}

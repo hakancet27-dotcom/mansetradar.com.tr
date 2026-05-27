@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Üye Girişi | mansetradar.com.tr</title>
+  <meta name="robots" content="noindex,follow">
+  <meta name="haber-member-url" content="https://kgliiuwczfkmalanaang.supabase.co">
+  <meta name="haber-member-public" content="sb_publishable_7ehLzytgnRBEauRBEhRsog_oiaQbHp9">
+  <link rel="stylesheet" href="/assets/css/member.css">
+</head>
+<body class="member-page">
+  <main class="member-shell">
+    <section class="member-card">
+      <a class="member-brand" href="/haber/">mansetradar.com.tr</a>
+      <h1>Üye Girişi</h1>
+      <p class="member-muted">Haberleri kaydetmek ve üyelik tercihlerinizi yönetmek için giriş yapın.</p>
+      <form id="login-form" class="member-form">
+        <label>E-posta<input id="login-email" type="email" autocomplete="email" required></label>
+        <label>Şifre<input id="login-password" type="password" autocomplete="current-password" required></label>
+        <button class="member-btn" type="submit">Giriş Yap</button>
+      </form>
+      <div class="member-divider">veya</div>
+      <button id="google-login" class="member-btn secondary" type="button">Google ile devam et</button>
+      <h2>Yeni üyelik</h2>
+      <form id="signup-form" class="member-form">
+        <label>Ad Soyad<input id="signup-name" type="text" autocomplete="name"></label>
+        <label>E-posta<input id="signup-email" type="email" autocomplete="email" required></label>
+        <label>Şifre<input id="signup-password" type="password" autocomplete="new-password" minlength="8" required></label>
+        <button class="member-btn" type="submit">Üye Ol</button>
+      </form>
+      <p id="member-message" class="member-message" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+  <script src="/assets/js/member-auth.js"></script>
+  <script src="/assets/js/login-page.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+name: Canlı Arayüz Değişiklik Denetimi
+
+# BU WORKFLOW NE İŞ YAPAR?
+# - Haber ana sayfasındaki JavaScript veya HTML bağlantıları değiştiğinde çalışır.
+# - Sağ manşetin 10 haber / 4 saniye kuralını ve kategori manşet korumasını kontrol eder.
+# - JavaScript değiştiği halde HTML asset sürümü unutulmuş olabilecekse uyarı raporlar.
+#
+# BU WORKFLOW NE YAPMAZ?
+# - Tasarımı değiştirmez, commit oluşturmaz ve canlı yayına müdahale etmez.
+# - Sorunu otomatik düzeltmez; yalnız GitHub Actions raporu oluşturur.
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'assets/js/topic-page-ux.js'
+      - 'assets/js/showcase-side-rotation.js'
+      - 'assets/js/mobile-home-ux.js'
+      - 'assets/css/mobile-market-static.css'
+      - 'haber/index.html'
+      - '.github/workflows/canli-arayuz-degisiklik-denetimi.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'assets/js/topic-page-ux.js'
+      - 'assets/js/showcase-side-rotation.js'
+      - 'assets/js/mobile-home-ux.js'
+      - 'assets/css/mobile-market-static.css'
+      - 'haber/index.html'
+      - '.github/workflows/canli-arayuz-degisiklik-denetimi.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  arayuz-risklerini-raporla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Canlı site dosyalarını oku
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Türkçe arayüz raporunu oluştur
+        shell: bash
+        run: |
+          mkdir -p denetim-raporu
+          RAPOR="denetim-raporu/canli-arayuz-degisiklik-raporu.md"
+          : > degisen-dosyalar.txt
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git diff --name-only "${{ github.event.pull_request.base.sha }}" "${{ github.event.pull_request.head.sha }}" > degisen-dosyalar.txt
+          elif [ "${{ github.event_name }}" = "push" ] && [ "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ]; then
+            git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" > degisen-dosyalar.txt
+          fi
+          {
+            echo '# Canlı Arayüz Değişiklik Denetim Raporu'
+            echo
+            echo '- Bu denetim yalnız rapor üretir; tasarım veya yayın dosyası değiştirmez.'
+            echo
+            echo '## Değişen Dosyalar'
+            if [ -s degisen-dosyalar.txt ]; then sed 's/^/- `/' degisen-dosyalar.txt | sed 's/$/`/'; else echo '- Manuel tam tarama'; fi
+            echo
+            echo '## Bulgular'
+            echo
+            if grep -Eq '\.slice\(0,\s*10\)' assets/js/showcase-side-rotation.js && grep -Eq '\},\s*4000\s*\);' assets/js/showcase-side-rotation.js; then
+              echo '### [BAŞARILI] Sağ manşet davranışı korunuyor'
+              echo
+              echo 'Sağ manşet scripti 10 haber sınırını ve 4 saniyelik geçişi kullanıyor.'
+            else
+              echo '### [UYARI] Sağ manşet davranışı değişmiş olabilir'
+              echo
+              echo '10 haber sınırı veya 4 saniyelik geçiş kuralı bulunamadı. `assets/js/showcase-side-rotation.js` kontrol edilmeli.'
+            fi
+            echo
+            if grep -q 'ensureCategoryHero' assets/js/topic-page-ux.js && grep -q 'buildHeroFromFeedCard' assets/js/topic-page-ux.js && grep -q 'buildEmptyHero' assets/js/topic-page-ux.js; then
+              echo '### [BAŞARILI] Dünya ve az içerikli kategori koruması mevcut'
+              echo
+              echo 'Kategori manşeti bulunmadığında üst tasarımı koruyan fonksiyonlar mevcut.'
+            else
+              echo '### [KRİTİK] Kategori sayfası tasarımı tekrar bozulabilir'
+              echo
+              echo '`topic-page-ux.js` içinde kategori manşet fallback fonksiyonlarından biri bulunamadı.'
+            fi
+            echo
+            if grep -q '^assets/js/topic-page-ux.js$' degisen-dosyalar.txt && ! grep -q '^haber/index.html$' degisen-dosyalar.txt; then
+              echo '### [UYARI] JavaScript değişti ancak HTML cache sürümü aynı kalmış olabilir'
+              echo
+              echo '`topic-page-ux.js` değiştirildi; `haber/index.html` aynı çalışmada değişmediyse mobil tarayıcı eski asset URL’sini önbellekte gösterebilir.'
+            else
+              echo '### [BİLGİ] Asset sürüm kontrolü'
+              echo
+              echo 'JavaScript değişikliklerinde `haber/index.html` içindeki `?v=` sürüm parametresinin güncel kaldığını doğrulayın.'
+            fi
+          } > "$RAPOR"
+          cat "$RAPOR" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Rapor dosyasını sakla
+        uses: actions/upload-artifact@v4
+        with:
+          name: canli-arayuz-degisiklik-raporu-${{ github.run_id }}
+          path: denetim-raporu/canli-arayuz-degisiklik-raporu.md
+          retention-days: 14

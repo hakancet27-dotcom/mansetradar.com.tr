@@ -1,0 +1,177 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+backend:
+  name: github
+  repo: hakancet27-dotcom/haber-botu
+  branch: main
+media_folder: newsroom/media/uploads
+public_folder: /newsroom/media/uploads
+publish_mode: simple
+site_url: https://mansetradar.com.tr
+locale: tr
+
+# Private editoryal operasyon paneli. Yalnız onaylı yayın çıktısı public siteye aktarılır.
+collections:
+  - name: newsroom_status
+    label: "0 - Sistem Durumu"
+    files:
+      - name: last_run
+        label: "Son Newsroom Çalışması"
+        file: newsroom/status/last-run.json
+        fields:
+          - { label: İşlenme Zamanı, name: processed_at, widget: string, required: false, readonly: true }
+          - { label: Durum, name: status, widget: string, required: false, readonly: true }
+          - { label: Mesaj, name: message, widget: text, required: false, readonly: true }
+          - { label: Sonuçlar, name: results, widget: object, required: false, readonly: true, fields: [{ label: Trend, name: trends, widget: number, required: false }, { label: Görsel, name: images, widget: number, required: false }, { label: Taslak, name: drafts, widget: number, required: false }, { label: AI, name: ai_requests, widget: number, required: false }, { label: Yayın, name: published, widget: number, required: false }] }
+
+  - name: newsroom_create_article
+    label: "1 - Sıfırdan Haber Yaz"
+    label_singular: "Haber Taslağı"
+    folder: newsroom/drafts
+    create: true
+    extension: json
+    format: json
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    identifier_field: title
+    summary: "{{workflow_status}} | {{category}} | {{title}}"
+    fields:
+      - { label: İşlem, name: workflow_status, widget: select, default: draft, options: [{ label: Taslak, value: draft }, { label: AI ile Geliştir, value: ai_enhance_requested }, { label: İncelemeye Gönder, value: submit_for_review }, { label: Onayla ve Yayınla, value: approved_to_publish }, { label: İşlendi, value: processed }, { label: Dikkat Gerekiyor, value: needs_attention }] }
+      - { label: Başlık, name: title, widget: string }
+      - { label: Kategori, name: category, widget: select, default: Gündem, options: [Son Dakika, Gündem, Siyaset, Ekonomi, Dünya, Spor, Magazin, Teknoloji, Sağlık, Video] }
+      - { label: Spot, name: spot, widget: text, required: false }
+      - { label: Doğrulanmış Ham Bilgi, name: source_note, widget: text, required: false }
+      - { label: Kaynak Linkleri, name: source_urls, widget: list, required: false, field: { label: URL, widget: string } }
+      - { label: Haber Gövdesi HTML, name: content_html, widget: text, required: false }
+      - { label: Görsel, name: uploaded_image, widget: image, required: false }
+      - { label: Görsel Alt Metni, name: image_alt, widget: string, required: false }
+      - { label: Meta Başlık, name: meta_title, widget: string, required: false }
+      - { label: Meta Açıklama, name: meta_description, widget: text, required: false }
+      - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, widget: string } }
+      - { label: Öne Çıkar, name: featured, widget: boolean, default: false, required: false }
+      - { label: AI Talimatı, name: editor_ai_instruction, widget: text, required: false }
+      - { label: Sonuç, name: processor_result, widget: text, required: false, readonly: true }
+
+  - name: newsroom_review
+    label: "2 - İnceleme Kuyruğu"
+    folder: newsroom/review/pending
+    create: false
+    extension: json
+    format: json
+    identifier_field: title
+    summary: "Durum: {{review_status}} | Skor: {{quality_score}} | Risk: {{quality_status}} | Bayrak: {{flag}} | {{title}}"
+    fields:
+      - { label: Durum, name: review_status, widget: select, default: pending, options: [{ label: Beklemede, value: pending }, { label: Onayla ve Yayınla, value: approved_to_publish }, { label: Reddedildi, value: rejected }, { label: Yayınlandı, value: published }] }
+      - { label: Başlık, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string, readonly: true }
+      - { label: Kategori, name: category, widget: select, options: [Son Dakika, Gündem, Siyaset, Ekonomi, Dünya, Spor, Magazin, Teknoloji, Sağlık, Video] }
+      - { label: Spot, name: spot, widget: text, required: false }
+      - { label: Haber Gövdesi HTML, name: content_html, widget: text, required: false }
+      - { label: Görsel URL, name: image_url, widget: string, required: false }
+      - { label: Meta Başlık, name: meta_title, widget: string, required: false }
+      - { label: Meta Açıklama, name: meta_description, widget: text, required: false }
+      - { label: Quality Score, name: quality_score, widget: number, required: false, readonly: true }
+      - { label: Quality Status, name: quality_status, widget: string, required: false, readonly: true }
+      - { label: Risk Bayragi, name: flag, widget: string, required: false, readonly: true }
+      - { label: Quality Flags, name: quality_flags, widget: list, required: false, readonly: true, field: { label: Flag, widget: string } }
+      - { label: Kelime Sayisi, name: quality_word_count, widget: number, required: false, readonly: true }
+      - { label: Notlar, name: quality_notes, widget: list, required: false, readonly: true, field: { label: Not, widget: string } }
+      - { label: Sonuç, name: processor_result, widget: text, required: false, readonly: true }
+
+  - name: newsroom_ai_requests
+    label: "3 - AI Haber Üretimi"
+    folder: newsroom/requests/ai-article
+    create: true
+    extension: json
+    format: json
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    identifier_field: topic
+    summary: "{{request_status}} | {{mode}} | {{topic}}"
+    fields:
+      - { label: Durum, name: request_status, widget: select, default: queued, options: [queued, running, completed, needs_attention, hold, cancelled] }
+      - { label: Konu / Input, name: topic, widget: string }
+      - { label: Üretim Modu, name: mode, widget: select, default: full_seo_article, options: [full_seo_article, short_breaking, source_based, rewrite, discover] }
+      - { label: Kategori, name: category, widget: select, default: auto, options: [auto, son-dakika, gundem, siyaset, ekonomi, dunya, spor, magazin, teknoloji, saglik] }
+      - { label: Kaynak URL'leri, name: source_urls, widget: list, required: false, field: { label: URL, widget: string } }
+      - { label: Doğrulanmış Ham Bilgi, name: raw_notes, widget: text, required: false, hint: "AI çıktısı doğrudan yayınlanmaz; inceleme kuyruğuna gider." }
+      - { label: Görsel Oluştur / Bul, name: create_image, widget: boolean, default: true }
+      - { label: Görsel Talimatı, name: image_instruction, widget: text, required: false }
+      - { label: Dil, name: language, widget: select, default: Turkish, options: [Turkish, English, German] }
+      - { label: Çıktı Yolu, name: output_path, widget: string, required: false, readonly: true }
+      - { label: Quality Score, name: quality_score, widget: number, required: false, readonly: true }
+      - { label: İşlem Mesajı, name: processor_message, widget: text, required: false, readonly: true }
+
+  - name: newsroom_trend_radar
+    label: "4 - Google Trend Radar"
+    folder: newsroom/trends
+    create: true
+    extension: json
+    format: json
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    identifier_field: query
+    summary: "{{status}} | {{region}} | {{query}}"
+    fields:
+      - { label: Durum, name: status, widget: select, default: watching, options: [watching, suggest_articles, generate_article, checked, article_request_created, archived] }
+      - { label: Aranacak Konu, name: query, widget: string }
+      - { label: Bölge, name: region, widget: select, default: TR, options: [TR, US, DE, WORLD] }
+      - { label: Kategori, name: category, widget: select, default: auto, options: [auto, gundem, siyaset, ekonomi, dunya, spor, magazin, teknoloji, saglik] }
+      - { label: Trend Skoru, name: trend_score, widget: number, required: false, readonly: true }
+      - { label: Önerilen Başlıklar, name: suggested_titles, widget: list, required: false, readonly: true, field: { label: Başlık, widget: string } }
+      - { label: Son Kontrol, name: checked_at, widget: string, required: false, readonly: true }
+
+  - name: newsroom_workflow_requests
+    label: "5 - Inputlu Workflow"
+    folder: newsroom/requests/workflow
+    create: true
+    extension: json
+    format: json
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    identifier_field: request_name
+    summary: "{{status}} | {{run_mode}} | {{request_name}}"
+    fields:
+      - { label: Durum, name: status, widget: select, default: queued, options: [{ label: Kaydet, value: queued }, { label: Onay Bekliyor, value: approval_required }, { label: Onayla ve Çalıştır, value: approved_to_run }, { label: Tamamlandı, value: completed }, { label: Hata, value: failed }, { label: İptal, value: cancelled }] }
+      - { label: Talep Adı, name: request_name, widget: string }
+      - { label: Çalışma Modu, name: run_mode, widget: select, default: reindex_only, options: [{ label: Yeniden İndeksle, value: reindex_only }, { label: Haber Üretimi - güvenli faz bekliyor, value: website_only }, { label: Tüm Pipeline - güvenli faz bekliyor, value: all }] }
+      - { label: Konu Filtresi, name: selected_topic, widget: select, default: all, options: [all, gundem, siyaset, ekonomi, dunya, spor, magazin, teknoloji, saglik] }
+      - { label: Geriye Dönük Saat, name: hours_back, widget: number, default: 24, min: 1, max: 168 }
+      - { label: YouTube Yüklemeyi Atla, name: skip_youtube_upload, widget: boolean, default: true }
+      - { label: Ek Talimat, name: input_prompt, widget: text, required: false }
+      - { label: Sonuç, name: execution_result, widget: text, required: false, readonly: true }
+
+  - name: newsroom_bulk_actions
+    label: "6 - Toplu İşlemler"
+    folder: newsroom/requests/bulk
+    create: true
+    extension: json
+    format: json
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    identifier_field: action_name
+    summary: "{{status}} | {{operation}} | {{action_name}}"
+    fields:
+      - { label: İşlem Adı, name: action_name, widget: string }
+      - { label: Durum, name: status, widget: select, default: queued, options: [{ label: Kuyruğa Ekle, value: queued }, { label: Onay Bekliyor, value: approval_required }, { label: Onayla ve Çalıştır, value: approved_to_run }, { label: Tamamlandı, value: completed }, { label: Hata, value: failed }, { label: Beklet, value: hold }, { label: İptal, value: cancelled }] }
+      - { label: İşlem, name: operation, widget: select, options: [change_category, quality_recheck, seo_rebuild, noindex, reindex, set_featured] }
+      - { label: Hedef Haber Slugları, name: slugs, widget: list, field: { label: Slug, widget: string } }
+      - { label: Yeni Kategori, name: category, widget: select, required: false, options: [Gündem, Siyaset, Ekonomi, Dünya, Spor, Magazin, Teknoloji, Sağlık] }
+      - { label: Not, name: note, widget: text, required: false }
+      - { label: Sonuç, name: result, widget: text, required: false, readonly: true }
+
+  - name: newsroom_image_jobs
+    label: "7 - Görsel İşleme"
+    folder: newsroom/requests/images
+    create: true
+    extension: json
+    format: json
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    identifier_field: job_name
+    summary: "{{status}} | {{preset}} | {{job_name}}"
+    fields:
+      - { label: İşlem Adı, name: job_name, widget: string }
+      - { label: Durum, name: status, widget: select, default: queued, options: [queued, completed, failed, hold, cancelled] }
+      - { label: Kaynak Görsel, name: source_image, widget: image }
+      - { label: Preset, name: preset, widget: select, default: article_hero, options: [article_hero, discover, social_share, thumbnail] }
+      - { label: WebP Dönüştür, name: convert_webp, widget: boolean, default: true }
+      - { label: EXIF Temizle, name: strip_exif, widget: boolean, default: true }
+      - { label: Kalite, name: quality, widget: number, default: 78, min: 40, max: 95 }
+      - { label: Alt Metin, name: image_alt, widget: string, required: false }
+      - { label: Çıktılar, name: outputs, widget: list, required: false, readonly: true, field: { label: Dosya, widget: string } }
+      - { label: Sonuç, name: result, widget: text, required: false, readonly: true }
+
