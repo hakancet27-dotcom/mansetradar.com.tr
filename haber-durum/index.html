@@ -2,51 +2,66 @@
 <html lang="tr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Haber Merkezi Durumu | mansetradar.com.tr</title>
-  <meta name="description" content="Haber merkezi üretim, doğrulama ve canlı site düzeltme durumu.">
-  <link rel="canonical" href="https://mansetradar.com.tr/-durum/">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Haber Merkezi Durumu | Manşet Radar</title>
+  <meta name="description" content="Manşet Radar haber merkezi üretim, doğrulama ve yayın kontrol sürecinin genel durumu.">
   <meta name="robots" content="index,follow">
-  <style>
-    :root{--red:#e10600;--dark:#171727;--page:#f4f6f8;--border:#e1e5ea;--muted:#667085;--ok:#047857;--work:#b45309;--bg:#fff}
-    *{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--dark);font:16px/1.5 Arial,"Segoe UI",sans-serif}
-    header{background:var(--dark);color:white;border-bottom:4px solid var(--red)}.wrap{max-width:1040px;margin:auto;padding:22px}
-    header a{color:#fff;text-decoration:none;font-weight:700}h1{font-size:clamp(1.55rem,4vw,2.2rem);margin:24px 0 8px}.intro{color:var(--muted);margin:0 0 22px}
-    .hero,.card{background:var(--bg);border:1px solid var(--border);border-radius:14px;padding:18px;box-shadow:0 3px 14px rgba(15,23,42,.05)}
-    .hero{border-left:5px solid var(--red);margin-bottom:18px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:18px}
-    .status{display:inline-flex;border-radius:999px;padding:4px 10px;font-weight:700;font-size:.78rem}.active{background:#ecfdf3;color:var(--ok)}.progress{background:#fff7ed;color:var(--work)}
-    h2{font-size:1.12rem;margin:0 0 8px}.metric{font-size:1.8rem;font-weight:800;color:var(--red);display:block}.label{color:var(--muted);font-size:.88rem}
-    .list{display:grid;gap:10px}.row{display:flex;justify-content:space-between;gap:14px;border-bottom:1px solid var(--border);padding:10px 0}.row:last-child{border:0}.row strong{display:block}.row span{color:var(--muted);font-size:.88rem}
-    .notice{margin-top:18px;background:#fff;border:1px solid var(--border);border-radius:14px;padding:18px;color:#344054}.notice strong{color:var(--red)}
-    footer{padding:28px 0;color:var(--muted);font-size:.85rem}footer a{color:var(--red)}
-    @media(max-width:760px){.grid{grid-template-columns:1fr}.row{flex-direction:column}}
-  </style>
+  <link rel="canonical" href="https://mansetradar.com.tr/haber-durum/">
+  <link rel="stylesheet" href="/assets/css/content-pages.css">
 </head>
 <body>
-<header><div class="wrap"><a href="/">mansetradar.com.tr · Haberler</a></div></header>
-<main class="wrap">
-  <h1>Haber Merkezi Durumu</h1>
-  <p class="intro">Canlı görünüm, içerik doğrulama ve teknik düzeltme çalışmalarının yayın güvenliği korunarak izlenen özeti.</p>
-  <section class="hero" aria-label="genel durum">
-    <span class="status active">OPERASYON AKTİF</span>
-    <h2 style="margin-top:12px">Hızlandırılmış haber ve canlı site kontrol hattı devrede</h2>
-    <p>Son güncelleme: <strong>24 Mayıs 2026</strong>. Öncelik; doğru kategorileme, hızlı kaynak doğrulama ve yalnız doğrulanmış gelişmelerin yayın kuyruğuna alınmasıdır.</p>
-  </section>
-  <section class="grid" aria-label="durum sayıları">
-    <div class="card"><span class="metric">2</span><span class="label">Kritik açık iş: site görünümü ve içerik havuzu</span></div>
-    <div class="card"><span class="metric">1</span><span class="label">Canlı kategori yeniden-build düzeltmesi tetiklendi</span></div>
-    <div class="card"><span class="metric">0</span><span class="label">Doğrulamasız yayına izin verilen içerik</span></div>
-  </section>
-  <section class="card">
-    <h2>Aktif öncelikler</h2>
-    <div class="list">
-      <div class="row"><div><strong>Canlı kategori doğruluğu</strong><span>Yanlış render edilen kategori etiketleri için kayıtlı kategori temelli yeniden-build.</span></div><span class="status progress">UYGULAMADA</span></div>
-      <div class="row"><div><strong>Son dakika hızlı indeks hattı</strong><span>Birincil kaynak → doğrulama → kalite/güvenlik kapısı → yayın kuyruğu.</span></div><span class="status active">AKTİF</span></div>
-      <div class="row"><div><strong>Çok kategorili içerik havuzu</strong><span>Gündem, siyaset, ekonomi, dünya, spor, magazin, teknoloji ve sağlık içerikleri.</span></div><span class="status progress">ÜRETİMDE</span></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/">Manşet <span>Radar</span></a>
+      <nav class="nav" aria-label="Sayfa bağlantıları">
+        <a href="/">Ana Sayfa</a>
+        <a href="/news/">US News</a>
+        <a href="/nachrichten/">Nachrichten</a>
+      </nav>
     </div>
+  </header>
+
+  <section class="hero">
+    <span class="kicker">Operasyon Özeti</span>
+    <h1>Haber Merkezi Durumu</h1>
+    <p class="lead">Üretim, kalite kontrol, onay kuyruğu ve yayın akışı için kullanılan genel durum sayfası.</p>
   </section>
-  <aside class="notice"><strong>Yayın ilkesi:</strong> İlk olma hedefi, kaynakta bulunmayan iddia üretme veya doğrulamasız içerik indeksleme anlamına gelmez. Kaynağı doğrulanamayan haberler yayın kuyruğuna alınmaz.</aside>
-</main>
-<footer><div class="wrap"><a href="/">Haberlere dön</a> · Bu sayfa somut teslim ve canlı doğrulama kayıtlarıyla güncellenir.</div></footer>
+
+  <main class="content-shell">
+    <article class="card">
+      <h2>Yayın İlkesi</h2>
+      <p>Doğrulanmamış, düşük kalite puanlı veya riskli haberler doğrudan yayına alınmaz; inceleme kuyruğuna gönderilir.</p>
+
+      <h2>Kontrol Hattı</h2>
+      <ul class="points">
+        <li><strong>Kaynak taraması:</strong> RSS ve kaynak havuzu taranır.</li>
+        <li><strong>Kalite kapısı:</strong> Metin, kategori, görsel ve risk kontrolleri uygulanır.</li>
+        <li><strong>CMS onayı:</strong> Eşik altında kalan haberler editoryal incelemeye bırakılır.</li>
+        <li><strong>Yayın:</strong> Onaylanan içerikler site indeksleri ve sitemap ile güncellenir.</li>
+      </ul>
+    </article>
+
+    <aside class="sidebar">
+      <div class="side-card">
+        <h2>Durum</h2>
+        <p>Haber merkezi aktif.</p>
+      </div>
+      <div class="side-card">
+        <h2>Bağlantılar</h2>
+        <div class="side-links">
+          <a href="/">Ana Sayfa</a>
+          <a href="/admin/">CMS Paneli</a>
+          <a href="/privacy/">Gizlilik</a>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>© 2026 Manşet Radar<small>Haber üretim ve yayın güvenliği notları.</small></div>
+      <div><a href="/">Haberlere dön</a></div>
+    </div>
+  </footer>
 </body>
 </html>
