@@ -4,24 +4,73 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Shorts | mansetradar.com.tr</title>
-<meta name="description" content="Manşet Radar video haberlerini dikey Shorts akışında izleyin.">
+<meta name="description" content="Manşet Radar YouTube Shorts videolarını dikey akışta izleyin.">
 <link rel="canonical" href="https://mansetradar.com.tr/video/">
 <style>
-*{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden;background:#0f0f0f;color:#fff;font-family:Arial,sans-serif}a{color:#fff;text-decoration:none}button{font:inherit;color:inherit;border:0}.stage{position:fixed;inset:0;z-index:0;background:#111 center/cover no-repeat;overflow:hidden}.stage iframe{width:100%;height:100%;border:0}.feed{position:relative;z-index:1;height:100dvh;overflow-y:auto;scroll-snap-type:y mandatory;overscroll-behavior-y:contain}.item{height:100dvh;scroll-snap-align:start;position:relative}.touch{position:absolute;inset:0;z-index:1;background:transparent;display:grid;place-items:center}.play{width:58px;height:58px;border-radius:50%;background:rgba(17,17,17,.32);border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(6px);display:grid;place-items:center}.play:after{content:"";margin-left:4px;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff}.caption{position:absolute;left:0;right:62px;bottom:max(16px,calc(env(safe-area-inset-bottom) + 10px));z-index:2;padding:12px 14px;text-shadow:0 2px 10px #000}.caption b{display:block;margin-bottom:7px;font-size:.87rem}.caption h1{font-size:1rem;line-height:1.28;margin:0 0 7px}.caption p{font-size:.79rem;margin:0;opacity:.92}.read{display:inline-block;margin-top:8px;background:#df0909;padding:8px 13px;border-radius:999px;font-size:.88rem;font-weight:700}.tools{position:absolute;right:max(10px,env(safe-area-inset-right));bottom:max(136px,calc(env(safe-area-inset-bottom) + 102px));z-index:3;display:grid;gap:10px}.tool{width:42px;height:42px;border-radius:50%;background:rgba(17,17,17,.42);border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(6px);display:grid;place-items:center}.status{height:100dvh;display:grid;place-items:center;text-align:center;padding:20px}.status a{display:inline-block;margin-top:12px;background:#df0909;padding:10px 14px;border-radius:999px;font-weight:700}@media(min-width:761px){.stage{inset:22px auto 22px 50%;width:min(calc((100dvh - 44px)*.5625),420px);transform:translateX(-50%);border-radius:18px}.caption{left:calc(50% - 210px);right:auto;width:360px}.tools{right:calc(50% - 270px)}}
+*{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden;background:#0f0f0f;color:#fff;font-family:Arial,sans-serif}a{color:#fff;text-decoration:none}button{font:inherit;color:inherit;border:0}.stage{position:fixed;inset:0;z-index:0;background:#111 center/cover no-repeat;overflow:hidden}.stage-player,.stage-player iframe{width:100%;height:100%;display:block;border:0;pointer-events:none}.feed{position:relative;z-index:1;height:100dvh;overflow-y:auto;scroll-snap-type:y mandatory;overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch}.item{height:100dvh;scroll-snap-align:start;scroll-snap-stop:always;position:relative;background:transparent}.touch{position:absolute;inset:0;z-index:1;background:transparent;touch-action:pan-y;display:grid;place-items:center}.play{width:54px;height:54px;border-radius:50%;background:rgba(17,17,17,.25);border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(6px);display:grid;place-items:center;opacity:.70;transition:opacity .16s ease,transform .16s ease}.play:after{content:"";display:block;margin-left:4px;border-top:10px solid transparent;border-bottom:10px solid transparent;border-left:16px solid rgba(255,255,255,.88)}.item.is-playing .play{opacity:0;transform:scale(.94)}.tools{position:absolute;right:max(10px,env(safe-area-inset-right));bottom:max(136px,calc(env(safe-area-inset-bottom) + 102px));z-index:3;display:grid;gap:10px}.toolbox{text-align:center}.tool{width:42px;height:42px;border-radius:50%;background:rgba(17,17,17,.42);border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(6px);display:grid;place-items:center}.tool svg{width:20px;height:20px;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.tool.like svg{fill:#fff;stroke:none}.tool.active{background:#df0909}.count{display:block;font-size:11px;text-shadow:0 1px 3px #000}.caption{position:absolute;left:0;right:60px;bottom:max(16px,calc(env(safe-area-inset-bottom) + 10px));z-index:2;padding:12px 14px;text-shadow:0 2px 10px #000}.caption b{display:block;margin-bottom:7px;font-size:.87rem}.caption h1{font-size:1rem;line-height:1.28;margin:0 0 7px}.caption p{font-size:.79rem;margin:0;opacity:.92}.read{display:inline-block;margin-top:8px;background:#df0909;padding:8px 13px;border-radius:999px;font-size:.88rem;font-weight:700}.toast{position:fixed;left:50%;bottom:max(18px,env(safe-area-inset-bottom));transform:translateX(-50%);z-index:20;background:#222;padding:10px 14px;border-radius:999px;display:none}.status{height:100dvh;display:grid;place-items:center;text-align:center;padding:20px}.status a{display:inline-block;margin-top:12px;background:#df0909;padding:10px 14px;border-radius:999px;font-weight:700}@media(min-width:761px){.stage{inset:22px auto 22px 50%;width:min(calc((100dvh - 44px)*.5625),420px);transform:translateX(-50%);border-radius:18px}.caption{left:calc(50% - 210px);right:auto;width:360px}.tools{right:calc(50% - 270px)}}
 </style>
+<script src="https://www.youtube.com/iframe_api"></script>
 </head>
 <body>
-<div class="stage" id="stage"></div>
+<div class="stage" id="stage"><div class="stage-player" id="yt-player"></div></div>
 <main class="feed" id="feed"><div class="status">Shorts videoları yükleniyor…</div></main>
+<div class="toast" id="toast"></div>
 <script>
 (function(){
-const feed=document.getElementById('feed');
-const stage=document.getElementById('stage');
-let activeId='';
-function esc(v){return String(v||'');}
-function setVideo(id){if(!id||id===activeId)return;activeId=id;stage.innerHTML='<iframe src="https://www.youtube.com/embed/'+encodeURIComponent(id)+'?playsinline=1&rel=0&modestbranding=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';stage.style.backgroundImage='url(https://i.ytimg.com/vi/'+encodeURIComponent(id)+'/hqdefault.jpg)';}
-function card(v){const item=document.createElement('section');item.className='item';item.dataset.id=v.video_id;const touch=document.createElement('button');touch.className='touch';touch.type='button';touch.setAttribute('aria-label','Videoyu aç');touch.innerHTML='<span class="play" aria-hidden="true"></span>';touch.onclick=function(){setVideo(v.video_id);};item.appendChild(touch);const tools=document.createElement('div');tools.className='tools';tools.innerHTML='<button class="tool" type="button" aria-label="Beğen">♥</button><button class="tool" type="button" aria-label="Paylaş">↗</button>';tools.lastChild.onclick=function(){const u=location.origin+location.pathname+'?v='+encodeURIComponent(v.video_id);if(navigator.share)navigator.share({title:v.title||'Shorts',url:u});else navigator.clipboard&&navigator.clipboard.writeText(u);};item.appendChild(tools);const cap=document.createElement('div');cap.className='caption';const read=typeof v.news_url==='string'&&v.news_url?v.news_url:'/';cap.innerHTML='<b>@MansetRadar</b><h1></h1><p></p><a class="read" href="'+read+'">Haberi Oku</a>';cap.querySelector('h1').textContent=esc(v.title||'Manşet Radar Shorts');cap.querySelector('p').textContent=esc(v.description||'Manşet Radar Shorts içeriği.');item.appendChild(cap);return item;}
-async function load(){try{const r=await fetch('./shorts-feed.json',{cache:'no-store'});if(!r.ok)throw Error();const data=await r.json();const videos=(data.videos||[]).filter(v=>v&&/^[A-Za-z0-9_-]{11}$/.test(v.video_id));if(!videos.length)throw Error();const frag=document.createDocumentFragment();videos.forEach(v=>frag.appendChild(card(v)));feed.replaceChildren(frag);const items=[...feed.querySelectorAll('.item')];const q=new URL(location.href).searchParams.get('v');const first=items.find(i=>i.dataset.id===q)||items[0];setVideo(first.dataset.id);if(q)first.scrollIntoView({block:'start'});const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting&&e.intersectionRatio>.65)setVideo(e.target.dataset.id);}),{threshold:[.65]});items.forEach(i=>obs.observe(i));}catch(e){feed.innerHTML='<div class="status"><div>Shorts akışı şu anda yüklenemedi.<br><a href="/">Ana sayfaya dön</a></div></div>';}}
+'use strict';
+const feed=document.getElementById('feed'),stage=document.getElementById('stage'),toast=document.getElementById('toast');
+let items=[],active=null,player=null,apiReady=false,playerReady=false,keepPlaying=false,requestedPlay=false,switching=false,snapTarget=null,snapUntil=0,loadedId='';
+function k(id,t){return 'shorts:'+id+':'+t;}function esc(v){return String(v||'');}
+function notify(t){toast.textContent=t;toast.style.display='block';setTimeout(function(){toast.style.display='none';},1500);}
+function vid(item){return item?item.dataset.id:'';}
+function thumb(item){if(item)stage.style.backgroundImage='url(https://i.ytimg.com/vi/'+encodeURIComponent(vid(item))+'/hqdefault.jpg)';}
+function showPlaying(on){items.forEach(function(i){i.classList.toggle('is-playing',on&&i===active);});}
+function icon(p){return '<svg viewBox="0 0 24 24" aria-hidden="true">'+p+'</svg>';}
+const icons={heart:icon('<path d="M12 20.5S4 15.8 4 9.3A4.4 4.4 0 0 1 12 6.7 4.4 4.4 0 0 1 20 9.3c0 6.5-8 11.2-8 11.2Z"/>'),chat:icon('<path d="M4 5.5h16v11H9l-5 3v-14Z"/>'),share:icon('<path d="M12 16V4"/><path d="m7 9 5-5 5 5"/><path d="M5 13v7h14v-7"/>')};
+function initPlayer(){
+ if(!apiReady||!active||player)return;
+ loadedId=vid(active);
+ player=new YT.Player('yt-player',{videoId:loadedId,playerVars:{playsinline:1,rel:0,modestbranding:1,controls:0,autoplay:0},events:{onReady:function(){playerReady=true;if(requestedPlay){requestedPlay=false;keepPlaying=true;player.playVideo();}},onStateChange:onState}});
+}
+function onState(e){
+ if(!window.YT)return;
+ if(e.data===YT.PlayerState.PLAYING){keepPlaying=true;switching=false;showPlaying(true);return;}
+ if(e.data===YT.PlayerState.PAUSED){showPlaying(false);if(!switching)keepPlaying=false;return;}
+ if(e.data===YT.PlayerState.ENDED){showPlaying(false);if(keepPlaying){player.seekTo(0,true);player.playVideo();}}
+}
+function switchTo(item,playNow){
+ if(!item)return;active=item;thumb(item);
+ if(!player){initPlayer();if(playNow){requestedPlay=true;keepPlaying=true;}return;}
+ if(!playerReady){if(playNow){requestedPlay=true;keepPlaying=true;}return;}
+ const id=vid(item);switching=true;
+ if(playNow&&keepPlaying){loadedId=id;player.loadVideoById(id);player.playVideo();}
+ else if(id!==loadedId){loadedId=id;player.cueVideoById(id);showPlaying(false);}
+ setTimeout(function(){switching=false;},700);
+}
+function toggle(item){
+ if(item!==active)switchTo(item,false);initPlayer();
+ if(!playerReady){requestedPlay=true;keepPlaying=true;return;}
+ let state=-1;try{state=player.getPlayerState();}catch(error){}
+ if(window.YT&&state===YT.PlayerState.PLAYING){keepPlaying=false;switching=false;player.pauseVideo();showPlaying(false);}
+ else{keepPlaying=true;if(loadedId!==vid(active)){loadedId=vid(active);player.loadVideoById(loadedId);}else{player.playVideo();}}
+}
+function swipeSurface(surface,item){
+ let startY=null,moved=false;
+ surface.addEventListener('touchstart',function(e){if(e.changedTouches.length){startY=e.changedTouches[0].clientY;moved=false;}},{passive:true});
+ surface.addEventListener('touchend',function(e){if(startY===null||!e.changedTouches.length)return;const d=e.changedTouches[0].clientY-startY;startY=null;if(Math.abs(d)>42){moved=true;const target=d<0?item.nextElementSibling:item.previousElementSibling;if(target&&target.classList.contains('item')){snapTarget=target;snapUntil=Date.now()+800;switchTo(target,keepPlaying);target.scrollIntoView({block:'start',behavior:'smooth'});}}},{passive:true});
+ surface.addEventListener('click',function(e){if(moved){moved=false;e.preventDefault();return;}toggle(item);});
+}
+function tool(label,cl,svg){const b=document.createElement('button');b.type='button';b.className='tool '+cl;b.setAttribute('aria-label',label);b.innerHTML=svg;return b;}
+function card(v){
+ const item=document.createElement('section');item.className='item';item.dataset.id=v.video_id;
+ const touch=document.createElement('button');touch.className='touch';touch.type='button';touch.setAttribute('aria-label','Videoyu oynat veya durdur');touch.innerHTML='<span class="play" aria-hidden="true"></span>';swipeSurface(touch,item);item.appendChild(touch);
+ const tools=document.createElement('div');tools.className='tools';const likeBox=document.createElement('div');likeBox.className='toolbox';const like=tool('Beğen','like',icons.heart);const count=document.createElement('small');count.className='count';let n=Number(localStorage.getItem(k(v.video_id,'likes'))||0);count.textContent=n?String(n):'';like.classList.toggle('active',localStorage.getItem(k(v.video_id,'liked'))==='1');like.onclick=function(){const on=localStorage.getItem(k(v.video_id,'liked'))==='1';n=Math.max(0,n+(on?-1:1));if(on)localStorage.removeItem(k(v.video_id,'liked'));else localStorage.setItem(k(v.video_id,'liked'),'1');localStorage.setItem(k(v.video_id,'likes'),String(n));like.classList.toggle('active',!on);count.textContent=n?String(n):'';};likeBox.append(like,count);tools.append(likeBox);const share=tool('Paylaş','',icons.share);share.onclick=async function(){const u=location.origin+location.pathname+'?v='+encodeURIComponent(v.video_id);try{if(navigator.share)await navigator.share({title:v.title||'Shorts',url:u});else{await navigator.clipboard.writeText(u);notify('Link kopyalandı');}}catch(error){}};tools.append(share);item.appendChild(tools);
+ const cap=document.createElement('div');cap.className='caption';const author=document.createElement('b');author.textContent='@MansetRadar';const title=document.createElement('h1');title.textContent=esc(v.title||'Manşet Radar Shorts');const desc=document.createElement('p');desc.textContent=esc(v.description||'Manşet Radar Shorts içeriği.');const read=document.createElement('a');read.className='read';read.textContent='Haberi Oku';read.href=typeof v.news_url==='string'&&v.news_url?v.news_url:'/';cap.append(author,title,desc,read);item.appendChild(cap);return item;
+}
+async function load(){
+ try{const r=await fetch('./shorts-feed.json',{cache:'no-store'});if(!r.ok)throw Error();const data=await r.json();const seen=new Set();const videos=(data.videos||[]).filter(function(v){if(!v||!/^[A-Za-z0-9_-]{11}$/.test(v.video_id)||seen.has(v.video_id))return false;seen.add(v.video_id);return true;});if(!videos.length)throw Error();const frag=document.createDocumentFragment();videos.forEach(function(v){frag.appendChild(card(v));});feed.replaceChildren(frag);items=Array.from(feed.querySelectorAll('.item'));const q=new URL(location.href).searchParams.get('v');active=items.find(function(i){return i.dataset.id===q;})||items[0];thumb(active);if(q)active.scrollIntoView({block:'start'});initPlayer();const observer=new IntersectionObserver(function(entries){entries.forEach(function(e){if(!e.isIntersecting||e.intersectionRatio<.65)return;if(Date.now()<snapUntil&&snapTarget&&e.target!==snapTarget)return;if(e.target!==active)switchTo(e.target,keepPlaying);if(e.target===snapTarget)snapTarget=null;});},{threshold:[.65]});items.forEach(function(i){observer.observe(i);});}catch(error){feed.innerHTML='<div class="status"><div>Shorts akışı şu anda yüklenemedi.<br><a href="/">Ana sayfaya dön</a></div></div>';}
+}
+window.onYouTubeIframeAPIReady=function(){apiReady=true;initPlayer();};
 load();
 })();
 </script>
