@@ -3,7 +3,7 @@
 Bu panel iki ayrı amaçla kullanılır ve bu iki yapı birbirini tetiklemez.
 
 - Panel adresi: `https://mansetradar.com.tr/admin/`
-- Backend: `hakancet27-dotcom/hakancetin.github.io`
+- Backend: `hakancet27-dotcom/mansetradar.com.tr`
 - Koleksiyonlar:
 - `1 - Bekleyen İncelemeler`: `newsroom/review/pending/*.json`
   - `2.1 - Yayındaki Haberler / Türkçe`: `articles/*.json`
