@@ -23,7 +23,7 @@ import re
 from pathlib import Path
 
 
-SITE_URL = "https://hakancetin.com.tr"
+SITE_URL = "https://mansetradar.com.tr"
 ROOT = Path(__file__).resolve().parents[1]
 
 MOJIBAKE_REPLACEMENTS = {
@@ -152,7 +152,7 @@ def add_breadcrumb_schema(path: Path, content: str) -> str:
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "hakancetin.com.tr", "item": SITE_URL},
+            {"@type": "ListItem", "position": 1, "name": "mansetradar.com.tr", "item": SITE_URL},
             {"@type": "ListItem", "position": 2, "name": section_name, "item": section_url},
             {"@type": "ListItem", "position": 3, "name": title, "item": canonical},
         ],

@@ -34,7 +34,7 @@ from urllib.parse import unquote, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORT_DIR = ROOT / "reports"
-SITE_ORIGIN = "https://hakancetin.com.tr"
+SITE_ORIGIN = "https://mansetradar.com.tr"
 
 HTML_ROOTS = [
     ROOT / "index.html",
@@ -179,7 +179,7 @@ def resolve_internal_link(page: Path, link: str) -> Path | None:
         return None
     parsed = urlparse(link)
     if parsed.scheme in {"http", "https"}:
-        if parsed.netloc and "hakancetin.com.tr" not in parsed.netloc:
+        if parsed.netloc and "mansetradar.com.tr" not in parsed.netloc:
             return None
         raw_path = parsed.path
     else:
@@ -225,7 +225,7 @@ class NoRedirect(urllib.request.HTTPRedirectHandler):
 
 def request_live_url(url: str, follow_redirects: bool) -> dict[str, Any]:
     opener = urllib.request.build_opener() if follow_redirects else urllib.request.build_opener(NoRedirect)
-    request = urllib.request.Request(url, headers={"User-Agent": "hakancetin-site-audit/1.0"})
+    request = urllib.request.Request(url, headers={"User-Agent": "mansetradar-site-audit/1.0"})
     try:
         with opener.open(request, timeout=12) as response:
             return {"url": url, "status": response.status, "location": response.headers.get("Location", "")}

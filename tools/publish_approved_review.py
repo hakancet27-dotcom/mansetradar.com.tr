@@ -10,7 +10,7 @@ from urllib.parse import quote_plus
 ROOT = Path(__file__).resolve().parents[1]
 PENDING_DIR = ROOT / "newsroom" / "review" / "pending"
 PUBLISHED_REVIEW_DIR = ROOT / "newsroom" / "review" / "published"
-SITE_URL = "https://hakancetin.com.tr"
+SITE_URL = "https://mansetradar.com.tr"
 
 TARGETS = {
     "articles": {
@@ -117,7 +117,7 @@ def make_card(data, target):
     title = clean(data.get("title"))
     topic = clean(data.get("category") or target["topic_default"])
     href = f'/{target["site_prefix"]}/{slug}/'
-    absolute = f"{SITE_URL}/{target['site_prefix']}/{slug}.html"
+    absolute = f"{SITE_URL}/{target['site_prefix']}/{slug}/"
     image_url = clean(data.get("image_url")) or f"{SITE_URL}/{target['site_prefix']}/images/{slug}.jpg"
     card_excerpt = excerpt(data)
     excerpt_html = f'<p class="card-excerpt">{esc(card_excerpt)}</p>' if card_excerpt else ""
@@ -156,7 +156,7 @@ def render_article_html(data, target):
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{esc(data.get("meta_description") or spot)}">
-  <title>{esc(data.get("meta_title") or title)} | hakancetin.com.tr</title>
+  <title>{esc(data.get("meta_title") or title)} | mansetradar.com.tr</title>
   <style>
     body {{ font-family: 'Segoe UI', Arial, sans-serif; margin:0; background:#f4f6f8; color:#20242a; line-height:1.75; }}
     main {{ max-width: 980px; margin: 28px auto; padding: 0 20px; }}
