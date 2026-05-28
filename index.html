@@ -540,6 +540,44 @@
       display: flex;
       gap: 8px;
     }
+    .slider-dots {
+      position: absolute;
+      left: 50%;
+      bottom: 20px;
+      z-index: 5;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      max-width: calc(100% - 140px);
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: rgba(0, 0, 0, 0.34);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      backdrop-filter: blur(8px);
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.18);
+    }
+    .slider-dot {
+      width: 7px;
+      height: 7px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0;
+      background: rgba(255, 255, 255, 0.58);
+      cursor: pointer;
+      transition: width 0.2s ease, background-color 0.2s ease, opacity 0.2s ease;
+    }
+    .slider-dot:hover,
+    .slider-dot:focus-visible {
+      background: #ffffff;
+      outline: none;
+    }
+    .slider-dot.is-active {
+      width: 18px;
+      background: var(--red);
+      box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.22);
+    }
     .slider-btn {
       width: 34px;
       height: 34px;
@@ -7365,8 +7403,10 @@
       const allSlides = Array.from(slider.querySelectorAll('.headline-slide'));
       const slides = allSlides.filter(slide => slide.dataset.filteredOut !== 'true');
       const controls = slider.querySelector('.slider-controls');
+      let dotsWrap = slider.querySelector('.slider-dots');
       if (slides.length === 0) {
         if (controls) controls.hidden = true;
+        if (dotsWrap) dotsWrap.hidden = true;
         return;
       }
       if (controls) controls.hidden = slides.length <= 1;
@@ -7378,14 +7418,43 @@
       const pauseAuto = (duration = 12000) => {
         autoPausedUntil = Date.now() + duration;
       };
+      if (!dotsWrap) {
+        dotsWrap = document.createElement('div');
+        dotsWrap.className = 'slider-dots';
+        dotsWrap.setAttribute('aria-label', 'Manşet sırası');
+        slider.appendChild(dotsWrap);
+      }
+      dotsWrap.hidden = slides.length <= 1;
+      dotsWrap.replaceChildren();
+      const dots = slides.map((slide, index) => {
+        const dot = document.createElement('button');
+        dot.type = 'button';
+        dot.className = 'slider-dot';
+        dot.setAttribute('aria-label', `${index + 1}. manşete geç`);
+        dot.addEventListener('click', () => {
+          pauseAuto();
+          showSlide(index);
+        });
+        dotsWrap.appendChild(dot);
+        return dot;
+      });
+      const updateDots = () => {
+        dots.forEach((dot, index) => {
+          const active = index === current;
+          dot.classList.toggle('is-active', active);
+          dot.setAttribute('aria-current', active ? 'true' : 'false');
+        });
+      };
       slides[current].classList.add('is-active');
       slider.classList.toggle('has-image-active', Boolean(slides[current].querySelector('.headline-image img')));
+      updateDots();
 
       const showSlide = (nextIndex) => {
         slides[current].classList.remove('is-active');
         current = (nextIndex + slides.length) % slides.length;
         slides[current].classList.add('is-active');
         slider.classList.toggle('has-image-active', Boolean(slides[current].querySelector('.headline-image img')));
+        updateDots();
       };
 
       const nextBtn = slider.querySelector('[data-slider-next]');

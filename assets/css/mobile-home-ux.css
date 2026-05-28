@@ -48,7 +48,7 @@
   .showcase-header { display: none !important; }
   .headline-slider { position: relative !important; height: 402px !important; min-height: 0 !important; margin: 0 !important; border-radius: 9px !important; }
   .headline-card, .headline-image { height: 402px !important; min-height: 0 !important; border-radius: 9px !important; }
-  .headline-content { padding: 13px 14px 16px !important; }
+  .headline-content { padding: 13px 14px 42px !important; }
   .headline-title { font-size: 1.34rem !important; line-height: 1.14 !important; }
   .headline-meta { margin-bottom: 7px !important; }
   .headline-slider .slider-controls {
@@ -61,6 +61,21 @@
     border-radius: 50% !important; display: inline-flex !important; align-items: center !important; justify-content: center !important;
     background: rgba(17,24,39,.62) !important; border: 1px solid rgba(255,255,255,.65) !important;
     color: #fff !important; font-size: 1.55rem !important; line-height: 1 !important; box-shadow: 0 2px 8px rgba(0,0,0,.18) !important;
+  }
+  .headline-slider .slider-dots {
+    left: 50% !important; right: auto !important; bottom: 12px !important; top: auto !important;
+    transform: translateX(-50%) !important; z-index: 9 !important; max-width: calc(100% - 112px) !important;
+    gap: 5px !important; padding: 6px 9px !important; background: rgba(17,24,39,.48) !important;
+    border: 1px solid rgba(255,255,255,.28) !important; box-shadow: 0 3px 12px rgba(0,0,0,.18) !important;
+    overflow-x: auto !important; scrollbar-width: none !important;
+  }
+  .headline-slider .slider-dots::-webkit-scrollbar { display: none !important; }
+  .headline-slider .slider-dot {
+    width: 6px !important; height: 6px !important; min-width: 6px !important;
+    background: rgba(255,255,255,.62) !important;
+  }
+  .headline-slider .slider-dot.is-active {
+    width: 17px !important; min-width: 17px !important; background: #df0909 !important;
   }
   body:not(.mobile-home-ux-ready) .market-strip { display: none !important; }
   body.mobile-home-ux-ready .market-strip { margin: 9px 0 14px !important; width: 100% !important; max-width: none !important; display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 5px !important; padding: 6px !important; overflow: visible !important; white-space: normal !important; border: 1px solid #e4e7ec !important; border-radius: 9px !important; background: #f7f8fa !important; scroll-snap-type: none !important; }
