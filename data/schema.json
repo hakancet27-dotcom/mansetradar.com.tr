@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "purpose": "ManşetRadar web sitesi, arama altyapısı ve ileride geliştirilecek Android/iOS uygulamaları için salt okunur haber veri katmanı.",
+  "files": {
+    "/data/home.json": "Ana sayfa için manşet ve son haber listesi.",
+    "/data/articles.json": "Tüm yayınlanmış haberlerin hafif liste verisi.",
+    "/data/search-index.json": "Site içi arama için küçük indeks.",
+    "/data/categories/{kategori}.json": "Türkçe ana akıştaki kategori listeleri.",
+    "/data/sections/{bolum}.json": "Türkçe, İngilizce ve Almanca bölüm listeleri.",
+    "/data/details/{section}/{slug}.json": "Tek haber için detay HTML gövdesi ve meta bilgiler."
+  },
+  "article_list_fields": [
+    "id",
+    "slug",
+    "title",
+    "summary",
+    "category",
+    "category_slug",
+    "language",
+    "section",
+    "date_iso",
+    "url",
+    "canonical_url",
+    "detail_json_url",
+    "image",
+    "tags",
+    "quality_score",
+    "review_status"
+  ],
+  "article_detail_extra_fields": [
+    "content_html",
+    "meta_title",
+    "meta_description",
+    "spot",
+    "word_count",
+    "reading_time_minutes",
+    "discover_titles",
+    "visual_keywords"
+  ],
+  "safety_rules": [
+    "Bu JSON katmanı yayındaki HTML sayfaları silmez, gizlemez veya kalite puanına göre değiştirmez.",
+    "CMS ve Supabase üyelik akışına müdahale etmez.",
+    "Mobil uygulama bu dosyaları okuyabilir; yayın kararı yine mevcut workflow/CMS akışında kalır."
+  ]
+}
