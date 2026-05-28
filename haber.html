@@ -3,26 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Haberler | mansetradar.com.tr</title>
   <meta name="robots" content="noindex,follow">
+  <meta http-equiv="refresh" content="0; url=/">
   <link rel="canonical" href="https://mansetradar.com.tr/">
+  <title>ManSetRadar</title>
   <script>
     (function () {
-      var target = '/' + window.location.search + window.location.hash;
+      var target = "/" + window.location.search + window.location.hash;
       window.location.replace(target);
     })();
   </script>
 </head>
 <body>
-  <p>Haberler sayfasına yönlendiriliyorsunuz: <a id="haber-target" href="/">/</a></p>
+  <p><a id="target" href="/">Ana sayfaya gecin</a>.</p>
   <script>
     (function () {
-      var target = '/' + window.location.search + window.location.hash;
-      var link = document.getElementById('haber-target');
-      if (link) {
-        link.href = target;
-        link.textContent = target;
-      }
+      var target = "/" + window.location.search + window.location.hash;
+      var link = document.getElementById("target");
+      if (link) link.href = target;
     })();
   </script>
 </body>
