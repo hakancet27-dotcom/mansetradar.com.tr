@@ -66,6 +66,19 @@
     return currentUser;
   }
 
+  function displayNameFromUser(currentUser){
+    const meta=currentUser&&currentUser.user_metadata?currentUser.user_metadata:{};
+    const name=String(meta.display_name||meta.full_name||meta.name||'').trim();
+    if(name)return name.slice(0,60);
+    const email=String(currentUser&&currentUser.email||'').trim();
+    return email?email.split('@')[0].slice(0,60):'Üye';
+  }
+
+  function safeArticleSlug(article){
+    const raw=String(article&&article.slug||'').trim();
+    return raw.replace(/\.html$/,'').slice(0,180);
+  }
+
   async function login(email,password){
     const instance=await client();
     return instance.auth.signInWithPassword({email:email,password:password});
@@ -74,6 +87,17 @@
   async function register(email,password,displayName){
     const instance=await client();
     return instance.auth.signUp({email:email,password:password,options:{data:{display_name:displayName||''}}});
+  }
+
+  async function resetPassword(email){
+    const instance=await client();
+    const redirectTo=new URL('/login.html?reset=1',window.location.origin).toString();
+    return instance.auth.resetPasswordForEmail(email,{redirectTo:redirectTo});
+  }
+
+  async function updatePassword(password){
+    const instance=await client();
+    return instance.auth.updateUser({password:password});
   }
 
   async function googleLogin(returnTo){
@@ -132,5 +156,22 @@
     return instance.from('notification_preferences').upsert({user_id:currentUser.id,email_daily_digest:!!prefs.email_daily_digest,breaking_news_push:!!prefs.breaking_news_push,categories:Array.isArray(prefs.categories)?prefs.categories:[]},{onConflict:'user_id'});
   }
 
-  window.HaberMember={client:client,session:session,user:user,login:login,register:register,googleLogin:googleLogin,logout:logout,requireMember:requireMember,saveArticle:saveArticle,removeArticle:removeArticle,isArticleSaved:isArticleSaved,savedArticles:savedArticles,loadPrefs:loadPrefs,savePrefs:savePrefs};
+  async function listComments(articleSlug){
+    const instance=await client();
+    return instance.from('article_comments').select('id,display_name,body,created_at,user_id').eq('article_slug',articleSlug).order('created_at',{ascending:false}).limit(50);
+  }
+
+  async function createComment(article,body){
+    const instance=await client();
+    const currentUser=await requiredUser();
+    return instance.from('article_comments').insert({
+      article_slug:safeArticleSlug(article),
+      article_url:String(article&&article.url||window.location.origin+window.location.pathname).slice(0,700),
+      user_id:currentUser.id,
+      display_name:displayNameFromUser(currentUser),
+      body:String(body||'').trim().slice(0,700)
+    });
+  }
+
+  window.HaberMember={client:client,session:session,user:user,login:login,register:register,resetPassword:resetPassword,updatePassword:updatePassword,googleLogin:googleLogin,logout:logout,requireMember:requireMember,saveArticle:saveArticle,removeArticle:removeArticle,isArticleSaved:isArticleSaved,savedArticles:savedArticles,loadPrefs:loadPrefs,savePrefs:savePrefs,listComments:listComments,createComment:createComment};
 })();
