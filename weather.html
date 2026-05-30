@@ -1,10 +1,18 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="tr">
 <head>
+  <!-- Google tag (gtag.js) - Manşet Radar -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WP1H2EJ6F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4WP1H2EJ6F');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Türkiye için güncel hava durumu ve piyasa detay görünümü.">
-  <title>Hava Durumu ve Piyasa Detayı | mansetradar.com.tr</title>
+  <meta name="description" content="TÃ¼rkiye iÃ§in gÃ¼ncel hava durumu ve piyasa detay gÃ¶rÃ¼nÃ¼mÃ¼.">
+  <title>Hava Durumu ve Piyasa DetayÄ± | mansetradar.com.tr</title>
   <style>
     :root { --red:#e10600; --dark:#171729; --text:#20242a; --muted:#667085; --bg:#f4f6f8; --border:#e5e7eb; }
     * { box-sizing:border-box; }
@@ -47,14 +55,14 @@
   <main class="wrap">
     <section class="hero" id="hero">
       <h1 id="title">Hava Durumu</h1>
-      <p class="meta" id="updated">Güncel veriler yükleniyor...</p>
+      <p class="meta" id="updated">GÃ¼ncel veriler yÃ¼kleniyor...</p>
     </section>
     <div class="tools" id="city-buttons"></div>
     <section class="panel">
       <div class="current">
         <div>
           <div class="big-temp" id="current-temp">--&deg;</div>
-          <p class="summary" id="current-summary">Anlık sıcaklık, rüzgar ve 7 günlük tahmin bilgisi burada görünür.</p>
+          <p class="summary" id="current-summary">AnlÄ±k sÄ±caklÄ±k, rÃ¼zgar ve 7 gÃ¼nlÃ¼k tahmin bilgisi burada gÃ¶rÃ¼nÃ¼r.</p>
         </div>
         <div class="summary" id="current-extra"></div>
       </div>
@@ -64,10 +72,10 @@
   </main>
   <script>
     const cities = {
-      Istanbul:{label:'İstanbul',lat:41.0082,lon:28.9784}, Ankara:{label:'Ankara',lat:39.9334,lon:32.8597}, Izmir:{label:'İzmir',lat:38.4237,lon:27.1428}, Bursa:{label:'Bursa',lat:40.1828,lon:29.0663}, Antalya:{label:'Antalya',lat:36.8969,lon:30.7133}
+      Istanbul:{label:'Ä°stanbul',lat:41.0082,lon:28.9784}, Ankara:{label:'Ankara',lat:39.9334,lon:32.8597}, Izmir:{label:'Ä°zmir',lat:38.4237,lon:27.1428}, Bursa:{label:'Bursa',lat:40.1828,lon:29.0663}, Antalya:{label:'Antalya',lat:36.8969,lon:30.7133}
     };
     const rates = { USD:'USD/TRY', EUR:'EUR/TRY', GBP:'GBP/TRY' };
-    const weatherCodes = {0:'Açık',1:'Az bulutlu',2:'Parçalı bulutlu',3:'Bulutlu',45:'Sisli',48:'Sisli',51:'Hafif çise',61:'Yağmurlu',63:'Yağmurlu',65:'Kuvvetli yağmur',71:'Karla karışık',80:'Sağanak',95:'Gök gürültülü'};
+    const weatherCodes = {0:'AÃ§Ä±k',1:'Az bulutlu',2:'ParÃ§alÄ± bulutlu',3:'Bulutlu',45:'Sisli',48:'Sisli',51:'Hafif Ã§ise',61:'YaÄŸmurlu',63:'YaÄŸmurlu',65:'Kuvvetli yaÄŸmur',71:'Karla karÄ±ÅŸÄ±k',80:'SaÄŸanak',95:'GÃ¶k gÃ¼rÃ¼ltÃ¼lÃ¼'};
     const params = new URLSearchParams(location.search);
     let selected = cities[params.get('city')] ? params.get('city') : 'Istanbul';
     const rate = rates[params.get('rate')] ? params.get('rate') : '';
@@ -86,44 +94,45 @@
       const change = (params.get('change') || '--').slice(0, 24);
       document.getElementById('hero').classList.add('rate-mode');
       buttons.hidden = true;
-      document.getElementById('title').textContent = rates[rate] + ' Kur Detayı';
+      document.getElementById('title').textContent = rates[rate] + ' Kur DetayÄ±';
       document.getElementById('updated').hidden = true;
       const mainValue = document.getElementById('current-temp');
       mainValue.classList.add('rate-mode-value');
       mainValue.textContent = value;
       document.getElementById('current-summary').textContent = rates[rate];
-      document.getElementById('current-extra').innerHTML = '<strong>Günlük değişim</strong><br>' + esc(change);
+      document.getElementById('current-extra').innerHTML = '<strong>GÃ¼nlÃ¼k deÄŸiÅŸim</strong><br>' + esc(change);
       const detail = document.getElementById('detail-grid');
       detail.classList.add('rate-grid');
       detail.innerHTML = '<div class="day"><strong>Kur</strong><div class="max">' + esc(rates[rate]) + '</div></div>' +
-        '<div class="day"><strong>Değer</strong><div class="max">' + esc(value) + '</div></div>' +
-        '<div class="day"><strong>Değişim</strong><div class="max">' + esc(change) + '</div></div>';
+        '<div class="day"><strong>DeÄŸer</strong><div class="max">' + esc(value) + '</div></div>' +
+        '<div class="day"><strong>DeÄŸiÅŸim</strong><div class="max">' + esc(change) + '</div></div>';
     }
     async function loadWeather(){
       const city = cities[selected];
       document.querySelectorAll('#city-buttons button').forEach(btn => btn.classList.toggle('active', btn.dataset.city === selected));
       document.getElementById('title').textContent = city.label + ' Hava Durumu';
-      document.getElementById('updated').textContent = 'Güncel tahminler yükleniyor...';
+      document.getElementById('updated').textContent = 'GÃ¼ncel tahminler yÃ¼kleniyor...';
       const url = `https://api.open-meteo.com/v1/forecast?latitude=${city.lat}&longitude=${city.lon}&current=temperature_2m,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code&timezone=Europe%2FIstanbul`;
       const res = await fetch(url);
       if (!res.ok) throw new Error('weather');
       const data = await res.json();
       const current = data.current || {};
       const daily = data.daily || {};
-      document.getElementById('current-temp').textContent = `${Math.round(current.temperature_2m ?? 0)}°`;
-      document.getElementById('current-summary').textContent = `${weatherCodes[current.weather_code] || 'Güncel durum'}; rüzgar ${Math.round(current.wind_speed_10m ?? 0)} km/sa.`;
-      document.getElementById('current-extra').innerHTML = `<strong>Bugün</strong><br>En yüksek: ${Math.round((daily.temperature_2m_max||[])[0] ?? 0)}°<br>En düşük: ${Math.round((daily.temperature_2m_min||[])[0] ?? 0)}°<br>Yağış olasılığı: ${Math.round((daily.precipitation_probability_max||[])[0] ?? 0)}%`;
+      document.getElementById('current-temp').textContent = `${Math.round(current.temperature_2m ?? 0)}Â°`;
+      document.getElementById('current-summary').textContent = `${weatherCodes[current.weather_code] || 'GÃ¼ncel durum'}; rÃ¼zgar ${Math.round(current.wind_speed_10m ?? 0)} km/sa.`;
+      document.getElementById('current-extra').innerHTML = `<strong>BugÃ¼n</strong><br>En yÃ¼ksek: ${Math.round((daily.temperature_2m_max||[])[0] ?? 0)}Â°<br>En dÃ¼ÅŸÃ¼k: ${Math.round((daily.temperature_2m_min||[])[0] ?? 0)}Â°<br>YaÄŸÄ±ÅŸ olasÄ±lÄ±ÄŸÄ±: ${Math.round((daily.precipitation_probability_max||[])[0] ?? 0)}%`;
       document.getElementById('detail-grid').innerHTML = (daily.time || []).slice(0,7).map((day,index) => {
         const label = new Date(day + 'T12:00:00').toLocaleDateString('tr-TR', {weekday:'short',day:'2-digit',month:'short'});
-        return `<div class="day"><strong>${esc(label)}</strong><div class="max">${Math.round((daily.temperature_2m_max||[])[index] ?? 0)}°</div><div class="min">Gece ${Math.round((daily.temperature_2m_min||[])[index] ?? 0)}°</div><div class="rain">Yağış ${(daily.precipitation_probability_max||[])[index] ?? 0}%</div><div class="rain">${weatherCodes[(daily.weather_code||[])[index]] || ''}</div></div>`;
+        return `<div class="day"><strong>${esc(label)}</strong><div class="max">${Math.round((daily.temperature_2m_max||[])[index] ?? 0)}Â°</div><div class="min">Gece ${Math.round((daily.temperature_2m_min||[])[index] ?? 0)}Â°</div><div class="rain">YaÄŸÄ±ÅŸ ${(daily.precipitation_probability_max||[])[index] ?? 0}%</div><div class="rain">${weatherCodes[(daily.weather_code||[])[index]] || ''}</div></div>`;
       }).join('');
-      document.getElementById('updated').textContent = new Date().toLocaleString('tr-TR') + ' itibarıyla güncellendi';
+      document.getElementById('updated').textContent = new Date().toLocaleString('tr-TR') + ' itibarÄ±yla gÃ¼ncellendi';
     }
     if (rate) {
       showRateDetail();
     } else {
-      loadWeather().catch(() => { document.getElementById('updated').innerHTML = '<span class="error">Hava durumu verisi alınamadı.</span>'; });
+      loadWeather().catch(() => { document.getElementById('updated').innerHTML = '<span class="error">Hava durumu verisi alÄ±namadÄ±.</span>'; });
     }
   </script>
 </body>
 </html>
+
