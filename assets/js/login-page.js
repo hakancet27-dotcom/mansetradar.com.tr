@@ -10,7 +10,21 @@
     const raw=new URLSearchParams(window.location.search).get('next')||'';
     return /^\/[A-Za-z0-9/?&=_#.%+-]*$/.test(raw)&&raw.indexOf('//')!==0?raw:'/account.html';
   }
+  function addForgotLink(){
+    const login=document.getElementById('login-form');
+    if(!login||document.getElementById('forgot-password-link'))return;
+    const link=document.createElement('a');
+    link.id='forgot-password-link';
+    link.href='/forgot-password.html';
+    link.textContent='Şifremi unuttum';
+    link.style.display='inline-block';
+    link.style.marginTop='10px';
+    link.style.color='#e10600';
+    link.style.fontWeight='900';
+    login.insertAdjacentElement('afterend',link);
+  }
   document.addEventListener('DOMContentLoaded',async function(){
+    addForgotLink();
     const login=document.getElementById('login-form');
     const signup=document.getElementById('signup-form');
     const google=document.getElementById('google-login');
