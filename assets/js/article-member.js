@@ -1,11 +1,13 @@
 (function(){
   'use strict';
 
+  var activeSession=null;
+
   function loadMemberAuth(){
     return new Promise(function(resolve,reject){
       if(window.HaberMember){resolve();return;}
       var script=document.createElement('script');
-      script.src='/assets/js/member-auth.js?v=20260530b';
+      script.src='/assets/js/member-auth.js?v=20260530d';
       script.defer=true;
       script.onload=resolve;
       script.onerror=reject;
@@ -28,7 +30,7 @@
   function nextLoginUrl(){return '/login.html?next='+encodeURIComponent(window.location.pathname+window.location.search+window.location.hash);}
 
   function setMessage(text,isError){
-    var status=document.getElementById('member-article-message');
+    var status=document.getElementById('member-article-message')||document.getElementById('comment-auth-message');
     if(!status)return;
     status.textContent=text||'';
     status.classList.toggle('error',Boolean(isError));
@@ -43,30 +45,56 @@
     button.setAttribute('aria-pressed',saved?'true':'false');
   }
 
-  function secureLegacyComments(activeSession){
-    var section=document.querySelector('.article-comments');
-    if(!section)return;
-    var form=section.querySelector('#comment-form');
-    var name=section.querySelector('#comment-name');
-    var list=section.querySelector('#comment-list');
-    var notice=document.createElement('p');
-    notice.id='comment-auth-message';
-    notice.className='member-article-message';
-    if(form&&form.parentNode)form.parentNode.insertBefore(notice,form);
+  function findCommentForm(){
+    return document.getElementById('comment-form')||document.querySelector('form.comment-form')||document.querySelector('.article-comments form');
+  }
+
+  function secureLegacyComments(session){
+    var form=findCommentForm();
+    var section=document.querySelector('.article-comments')||(form?form.parentElement:null);
+    if(!section&&!form)return;
+    var notice=document.getElementById('comment-auth-message');
+    if(!notice){
+      notice=document.createElement('p');
+      notice.id='comment-auth-message';
+      notice.className='member-article-message';
+      if(form&&form.parentNode)form.parentNode.insertBefore(notice,form);
+      else if(section)section.insertBefore(notice,section.firstChild);
+    }
+    var name=document.getElementById('comment-name');
     if(name)name.remove();
-    if(activeSession&&activeSession.user){
+    if(session&&session.user){
       notice.textContent='Yorum yazma yalnız üyelere açıktır. Oturumunuz açık.';
       if(form)form.style.display='grid';
     }else{
       notice.innerHTML='Yorumları herkes okuyabilir; yorum yazmak için <a href="'+nextLoginUrl()+'">üye girişi yapın</a>.';
       if(form)form.style.display='none';
     }
-    if(list)list.innerHTML='';
   }
+
+  document.addEventListener('submit',async function(event){
+    var form=event.target;
+    if(!form||!(form.id==='comment-form'||form.classList.contains('comment-form')||form.closest('.article-comments')))return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    try{
+      await loadMemberAuth();
+      activeSession=await window.HaberMember.session();
+      if(!activeSession||!activeSession.user){location.href=nextLoginUrl();return;}
+      var textarea=document.getElementById('comment-text')||form.querySelector('textarea');
+      var body=textarea?textarea.value.trim():'';
+      if(!body)return;
+      var response=await window.HaberMember.createComment(articleData(),body);
+      if(response.error)throw response.error;
+      if(textarea)textarea.value='';
+      setMessage('Yorumunuz yayınlandı.',false);
+    }catch(error){
+      setMessage('Yorum gönderilemedi. Lütfen yeniden deneyin.',true);
+    }
+  },true);
 
   document.addEventListener('DOMContentLoaded',async function(){
     var button=document.getElementById('member-save-article');
-    var activeSession=null;
     try{
       await loadMemberAuth();
       activeSession=await window.HaberMember.session();
@@ -78,28 +106,6 @@
     }catch(error){
       secureLegacyComments(null);
       setMessage('Üyelik durumu yüklenemedi.',true);
-    }
-
-    var commentForm=document.getElementById('comment-form');
-    if(commentForm){
-      commentForm.addEventListener('submit',async function(event){
-        event.preventDefault();
-        try{
-          activeSession=await window.HaberMember.session();
-          if(!activeSession||!activeSession.user){location.href=nextLoginUrl();return;}
-          var textarea=document.getElementById('comment-text');
-          var body=textarea?textarea.value.trim():'';
-          if(!body)return;
-          var response=await window.HaberMember.createComment(articleData(),body);
-          if(response.error)throw response.error;
-          if(textarea)textarea.value='';
-          var notice=document.getElementById('comment-auth-message');
-          if(notice)notice.textContent='Yorumunuz yayınlandı.';
-        }catch(error){
-          var msg=document.getElementById('comment-auth-message');
-          if(msg)msg.textContent='Yorum gönderilemedi. Lütfen yeniden deneyin.';
-        }
-      },true);
     }
 
     if(!button)return;
