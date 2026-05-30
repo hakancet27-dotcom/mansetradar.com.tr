@@ -1,0 +1,96 @@
+name: Apply Manşet Radar GA4 tag
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/apply-mansetradar-ga4.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply-ga4:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Replace old Analytics tag with Manşet Radar GA4 tag
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const path = require('path');
+
+          const measurementId = 'G-4WP1H2EJ6F';
+          const oldMeasurementId = 'G-CE7WH86RBS';
+          const analyticsTag = `  <!-- Google tag (gtag.js) - Manşet Radar -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=${measurementId}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${measurementId}');
+  </script>`;
+
+          const skipDirs = new Set(['.git', 'node_modules', '.next', 'dist', 'build']);
+          const htmlFiles = [];
+
+          function walk(dir) {
+            for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+              if (skipDirs.has(entry.name)) continue;
+              const fullPath = path.join(dir, entry.name);
+              if (entry.isDirectory()) {
+                walk(fullPath);
+              } else if (entry.isFile() && entry.name.toLowerCase().endsWith('.html')) {
+                htmlFiles.push(fullPath);
+              }
+            }
+          }
+
+          function normalizeNewlines(value) {
+            return value.replace(/\r\n/g, '\n');
+          }
+
+          walk(process.cwd());
+
+          const googleTagPattern = /\s*<!--\s*Google tag \(gtag\.js\)[\s\S]*?<script\s+async\s+src=["']https:\/\/www\.googletagmanager\.com\/gtag\/js\?id=[^"']+["']><\/script>\s*<script>[\s\S]*?gtag\(["']config["']\s*,\s*["']G-[A-Z0-9]+["']\s*\);[\s\S]*?<\/script>\s*/gi;
+
+          let changed = 0;
+
+          for (const file of htmlFiles) {
+            let original = fs.readFileSync(file, 'utf8');
+            let content = normalizeNewlines(original);
+
+            content = content.replace(googleTagPattern, '\n');
+            content = content.replace(new RegExp(oldMeasurementId, 'g'), measurementId);
+
+            if (!content.includes(`googletagmanager.com/gtag/js?id=${measurementId}`)) {
+              content = content.replace(/<head([^>]*)>/i, `<head$1>\n${analyticsTag}`);
+            }
+
+            if (content !== normalizeNewlines(original)) {
+              fs.writeFileSync(file, content, 'utf8');
+              changed += 1;
+              console.log(`updated ${path.relative(process.cwd(), file)}`);
+            }
+          }
+
+          console.log(`Updated HTML files: ${changed}`);
+          NODE
+
+      - name: Commit Analytics changes
+        run: |
+          if git diff --quiet; then
+            echo "No Analytics changes needed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Apply Manşet Radar GA4 tag"
+          git push
