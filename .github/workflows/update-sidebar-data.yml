@@ -3,7 +3,8 @@ name: Update sidebar data
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 */6 * * *'
+    # GitHub cron UTC çalışır. Türkiye saati 00:01 için UTC 21:01 kullanılır.
+    - cron: '1 21 * * *'
 
 permissions:
   contents: write
