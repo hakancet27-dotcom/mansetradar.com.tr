@@ -1,114 +1,162 @@
 {
-  "updatedAt": "2026-05-31T06:34:15.508Z",
+  "updatedAt": "2026-05-31T06:58:42.573Z",
   "source": "horoscope-app-api/Aztro/fallback",
   "items": [
     {
       "sign": "aries",
       "title": "Koç",
-      "description": "Bugün hızlı kararlar almak isteyebilirsin. Acele etmeden ilerlemek ve önceliğini netleştirmek sana avantaj sağlar.",
+      "symbol": "♈",
+      "description": "Bugün Koç burcu için hareketli, karar alma temposu yüksek bir gün olabilir. Önceliğini netleştirirsen enerjini dağınık işlere harcamadan daha etkili kullanabilirsin. Özellikle beklettiğin bir konuda ilk adımı atmak moralini yükseltebilir. İlişkilerde hızlı tepki vermek yerine birkaç saniye durup düşünmek, gereksiz gerilimleri azaltır. İş ve para tarafında ise küçük ama net bir plan yapmak günün sonunda daha somut sonuç almanı sağlar.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "2026-05-31"
+      "currentDate": "2026-05-31",
+      "love": "Duygusal konularda acele etmeden, karşındaki kişinin sözleri kadar tavrını da gözlemlemek iyi olur.",
+      "career": "İş ve para tarafında küçük detayları toparlamak, günün sonunda daha güvenli bir zemin oluşturur.",
+      "advice": "Bugünün ana tavsiyesi: enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur."
     },
     {
       "sign": "taurus",
       "title": "Boğa",
-      "description": "Maddi konular ve güven ihtiyacı öne çıkabilir. Sağlam adımlar atmak, günün dengesini korumana yardım eder.",
+      "symbol": "♉",
+      "description": "Bugün Boğa burcu için güven, konfor ve maddi denge ihtiyacı öne çıkıyor. Aceleyle karar vermek yerine elindeki seçenekleri sakin biçimde tartmak daha doğru olur. Aile, ev veya kişisel düzenle ilgili küçük bir toparlanma sana iyi gelebilir. İlişkilerde netlik arayışındasın; karşındaki kişiden beklentini yumuşak ama açık bir dille söylemen faydalı olur. Para konularında ise gereksiz harcamaları fark etmek günün kazancı olabilir.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "2026-05-31"
+      "currentDate": "2026-05-31",
+      "love": "Duygusal konularda acele etmeden, karşındaki kişinin sözleri kadar tavrını da gözlemlemek iyi olur.",
+      "career": "İş ve para tarafında küçük detayları toparlamak, günün sonunda daha güvenli bir zemin oluşturur.",
+      "advice": "Bugünün ana tavsiyesi: enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur."
     },
     {
       "sign": "gemini",
       "title": "İkizler",
-      "description": "İletişim trafiğin artabilir. Kısa görüşmeler, haberler ve yeni fikirler günün ritmini belirleyebilir.",
+      "symbol": "♊",
+      "description": "Bugün İkizler burcu için iletişim trafiği artabilir. Telefonlar, mesajlar, kısa görüşmeler ve ani haberler gündemini belirleyebilir. Zihnin hızlı çalışıyor; bu da yeni fikir üretmek için avantaj sağlar. Ancak aynı anda çok fazla konuya bölünmek yorucu olabilir. İlişkilerde meraklı ve açık tavrın dikkat çekerken, iş tarafında kısa notlar almak ve yapılacakları sıraya koymak verimini artırır.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "2026-05-31"
+      "currentDate": "2026-05-31",
+      "love": "Duygusal konularda acele etmeden, karşındaki kişinin sözleri kadar tavrını da gözlemlemek iyi olur.",
+      "career": "İş ve para tarafında küçük detayları toparlamak, günün sonunda daha güvenli bir zemin oluşturur.",
+      "advice": "Bugünün ana tavsiyesi: enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur."
     },
     {
       "sign": "cancer",
       "title": "Yengeç",
-      "description": "Ev, aile ve iç huzur ihtiyacı bugün daha belirgin olabilir. Kendine alan açmak iyi gelir.",
+      "symbol": "♋",
+      "description": "Bugün Yengeç burcu için duygusal güvenlik, ev ve aile temaları ön planda. İçinden gelenleri bastırmak yerine sakin bir şekilde ifade etmek rahatlama sağlayabilir. Geçmişten gelen bir konu tekrar aklına düşebilir; bunu büyütmeden değerlendirmek daha sağlıklı olur. İş ve para konularında riskten çok korumacı davranmak isteyebilirsin. Günün sonunda kendine ayıracağın sessiz bir zaman ruh halini dengeleyebilir.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "2026-05-31"
+      "currentDate": "2026-05-31",
+      "love": "Duygusal konularda acele etmeden, karşındaki kişinin sözleri kadar tavrını da gözlemlemek iyi olur.",
+      "career": "İş ve para tarafında küçük detayları toparlamak, günün sonunda daha güvenli bir zemin oluşturur.",
+      "advice": "Bugünün ana tavsiyesi: enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur."
     },
     {
       "sign": "leo",
       "title": "Aslan",
-      "description": "Dikkat çektiğin bir gün olabilir. Kendini ifade ederken net ama ölçülü kalmak faydalı olur.",
+      "symbol": "♌",
+      "description": "Bugün Aslan burcu için görünür olmak, kendini anlatmak ve dikkat çekmek kolaylaşabilir. Ancak güçlü duruşunu korurken karşı tarafı da dinlemek ilişkilerde daha iyi sonuç verir. Sosyal çevrende veya iş ortamında fikrini ortaya koyman gereken bir durum oluşabilir. Kendine güvenmen güzel ama detayları atlamamaya çalış. Günün enerjisi yaratıcı işler, sunumlar ve kişisel hedefler için destekleyici görünüyor.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "2026-05-31"
+      "currentDate": "2026-05-31",
+      "love": "Duygusal konularda acele etmeden, karşındaki kişinin sözleri kadar tavrını da gözlemlemek iyi olur.",
+      "career": "İş ve para tarafında küçük detayları toparlamak, günün sonunda daha güvenli bir zemin oluşturur.",
+      "advice": "Bugünün ana tavsiyesi: enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur."
     },
     {
       "sign": "virgo",
       "title": "Başak",
-      "description": "Düzen, plan ve detaylar ön planda. Küçük işleri toparlamak büyük rahatlama sağlayabilir.",
+      "symbol": "♍",
+      "description": "Bugün Başak burcu için düzen, planlama ve detaylar önem kazanıyor. Dağınık kalan işleri toparlamak, eksik bir dosyayı tamamlamak veya günlük rutinini sadeleştirmek sana iyi gelir. Fazla mükemmeliyetçi davranırsan kendini gereksiz yere yorabilirsin. İlişkilerde eleştirel ton yerine yapıcı bir dil kullanmak daha faydalı olur. Para ve iş tarafında küçük hesaplar, uzun vadede rahatlatıcı bir fark yaratabilir.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "2026-05-31"
+      "currentDate": "2026-05-31",
+      "love": "Duygusal konularda acele etmeden, karşındaki kişinin sözleri kadar tavrını da gözlemlemek iyi olur.",
+      "career": "İş ve para tarafında küçük detayları toparlamak, günün sonunda daha güvenli bir zemin oluşturur.",
+      "advice": "Bugünün ana tavsiyesi: enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur."
     },
     {
       "sign": "libra",
       "title": "Terazi",
-      "description": "İlişkilerde denge arayışı öne çıkabilir. Karşındakini dinlemek kadar kendi ihtiyacını da söylemen önemli.",
+      "symbol": "♎",
+      "description": "Bugün Terazi burcu için denge, ilişkiler ve ortak kararlar ön planda. Bir konuda orta yolu bulmak isteyebilirsin fakat kendi ihtiyacını tamamen geri plana atmamalısın. Sosyal temaslar artabilir; nazik ve uyumlu tavrın kapı açar. İş tarafında ekip çalışması veya fikir alışverişi verimli olabilir. Duygusal konularda ise net olmayan beklentileri konuşmak, gereksiz kırgınlıkların önüne geçer.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "2026-05-31"
+      "currentDate": "2026-05-31",
+      "love": "Duygusal konularda acele etmeden, karşındaki kişinin sözleri kadar tavrını da gözlemlemek iyi olur.",
+      "career": "İş ve para tarafında küçük detayları toparlamak, günün sonunda daha güvenli bir zemin oluşturur.",
+      "advice": "Bugünün ana tavsiyesi: enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur."
     },
     {
       "sign": "scorpio",
       "title": "Akrep",
-      "description": "Sezgilerin güçlü çalışabilir. Derin düşündüğün konularda acele karar vermeden gözlem yapmak iyi olur.",
+      "symbol": "♏",
+      "description": "Bugün Akrep burcu için sezgiler güçlü çalışıyor. İnsanların söylediklerinden çok söylemediklerini fark edebilirsin. Bu durum sana avantaj sağlasa da şüpheyi fazla büyütmemek önemli. Derinleşmek istediğin bir konuya odaklanmak için uygun bir gün. İş ve para tarafında gizli kalan bir detay ortaya çıkabilir. İlişkilerde ise kontrol etmeye çalışmak yerine güven alanını güçlendirmek daha iyi sonuç verir.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "2026-05-31"
+      "currentDate": "2026-05-31",
+      "love": "Duygusal konularda acele etmeden, karşındaki kişinin sözleri kadar tavrını da gözlemlemek iyi olur.",
+      "career": "İş ve para tarafında küçük detayları toparlamak, günün sonunda daha güvenli bir zemin oluşturur.",
+      "advice": "Bugünün ana tavsiyesi: enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur."
     },
     {
       "sign": "sagittarius",
       "title": "Yay",
-      "description": "Yeni bir plan, yolculuk fikri veya öğrenme isteği gündeme gelebilir. Ufuk açan konulara yönel.",
+      "symbol": "♐",
+      "description": "Bugün Yay burcu için özgürlük, öğrenme ve yeni planlar öne çıkıyor. Rutin seni sıkabilir; farklı bir konuya yönelmek zihnini açar. Yolculuk, eğitim, yayıncılık veya uzak bağlantılar gündeme gelebilir. Acele vaatlere kapılmadan gerçekçi bir plan yapmak önemli. İlişkilerde açık sözlülüğün güçlü ama tonu iyi ayarlamak gerekiyor. Gün, hedeflerini genişletmek için ilham verici olabilir.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "2026-05-31"
+      "currentDate": "2026-05-31",
+      "love": "Duygusal konularda acele etmeden, karşındaki kişinin sözleri kadar tavrını da gözlemlemek iyi olur.",
+      "career": "İş ve para tarafında küçük detayları toparlamak, günün sonunda daha güvenli bir zemin oluşturur.",
+      "advice": "Bugünün ana tavsiyesi: enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur."
     },
     {
       "sign": "capricorn",
       "title": "Oğlak",
-      "description": "Sorumluluklar ve hedefler ön planda. Planlı ilerlersen günün sonunda somut sonuç alabilirsin.",
+      "symbol": "♑",
+      "description": "Bugün Oğlak burcu için sorumluluklar, hedefler ve somut sonuç alma isteği ön planda. Yapılması gerekenleri ertelemeden sıraya koyarsan gün verimli geçebilir. İş tarafında disiplinli duruşun dikkat çeker. Ancak her şeyi tek başına üstlenmek seni yorabilir; destek istemek zayıflık değil. Para konularında planlı davranmak, ilerleyen günler için güven hissini artırır. Duygusal tarafta ise biraz yumuşamak ilişkileri rahatlatır.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "2026-05-31"
+      "currentDate": "2026-05-31",
+      "love": "Duygusal konularda acele etmeden, karşındaki kişinin sözleri kadar tavrını da gözlemlemek iyi olur.",
+      "career": "İş ve para tarafında küçük detayları toparlamak, günün sonunda daha güvenli bir zemin oluşturur.",
+      "advice": "Bugünün ana tavsiyesi: enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur."
     },
     {
       "sign": "aquarius",
       "title": "Kova",
-      "description": "Farklı düşünceler ve sosyal bağlantılar gününü hareketlendirebilir. Yeni fikirlere açık kal.",
+      "symbol": "♒",
+      "description": "Bugün Kova burcu için farklı fikirler, sosyal bağlantılar ve yenilik arayışı öne çıkıyor. Alışılmışın dışına çıkmak isteyebilirsin. Teknoloji, topluluklar veya arkadaş çevresi üzerinden yeni bir gündem doğabilir. Ancak fazla mesafeli görünmemeye dikkat et. İlişkilerde samimi bir açıklama, yanlış anlaşılmayı önleyebilir. İş tarafında yaratıcı bir çözüm bulma ihtimalin yüksek.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "2026-05-31"
+      "currentDate": "2026-05-31",
+      "love": "Duygusal konularda acele etmeden, karşındaki kişinin sözleri kadar tavrını da gözlemlemek iyi olur.",
+      "career": "İş ve para tarafında küçük detayları toparlamak, günün sonunda daha güvenli bir zemin oluşturur.",
+      "advice": "Bugünün ana tavsiyesi: enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur."
     },
     {
       "sign": "pisces",
       "title": "Balık",
-      "description": "Duygusal hassasiyet artabilir. Sezgini dinle ama net olmayan konularda zaman tanı.",
+      "symbol": "♓",
+      "description": "Bugün Balık burcu için sezgi, duygu ve içsel farkındalık güçlü olabilir. Yoğun ortamlardan uzaklaşıp biraz sakinlik arayabilirsin. Sanatsal işler, yazmak, müzik veya ruhunu besleyen konular iyi gelir. İlişkilerde fazla fedakârlık yapmadan sınırlarını koruman önemli. İş ve para tarafında net olmayan şeyleri yazılı hale getirmek seni korur. Günün sonunda iç sesini dinlemek doğru yönü gösterebilir.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "2026-05-31"
+      "currentDate": "2026-05-31",
+      "love": "Duygusal konularda acele etmeden, karşındaki kişinin sözleri kadar tavrını da gözlemlemek iyi olur.",
+      "career": "İş ve para tarafında küçük detayları toparlamak, günün sonunda daha güvenli bir zemin oluşturur.",
+      "advice": "Bugünün ana tavsiyesi: enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur."
     }
   ]
 }
