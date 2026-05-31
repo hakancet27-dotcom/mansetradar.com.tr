@@ -4,18 +4,18 @@ const DATA_DIR = 'data';
 const updatedAt = new Date().toISOString();
 
 const signs = [
-  ['aries', 'Koç', '♈'],
-  ['taurus', 'Boğa', '♉'],
-  ['gemini', 'İkizler', '♊'],
-  ['cancer', 'Yengeç', '♋'],
-  ['leo', 'Aslan', '♌'],
-  ['virgo', 'Başak', '♍'],
-  ['libra', 'Terazi', '♎'],
-  ['scorpio', 'Akrep', '♏'],
-  ['sagittarius', 'Yay', '♐'],
-  ['capricorn', 'Oğlak', '♑'],
-  ['aquarius', 'Kova', '♒'],
-  ['pisces', 'Balık', '♓'],
+  ['aries', 'Koç', '♈'], ['taurus', 'Boğa', '♉'], ['gemini', 'İkizler', '♊'], ['cancer', 'Yengeç', '♋'],
+  ['leo', 'Aslan', '♌'], ['virgo', 'Başak', '♍'], ['libra', 'Terazi', '♎'], ['scorpio', 'Akrep', '♏'],
+  ['sagittarius', 'Yay', '♐'], ['capricorn', 'Oğlak', '♑'], ['aquarius', 'Kova', '♒'], ['pisces', 'Balık', '♓'],
+];
+
+const footballLeagues = [
+  { id: 'super-lig', name: 'Süper Lig', footballDataCode: 'TR1', sportsDbId: '4339', seasons: ['2025-2026', '2025-26', '2026'] },
+  { id: 'premier-league', name: 'Premier League', footballDataCode: 'PL', sportsDbId: '4328', seasons: ['2025-2026', '2025-26', '2026'] },
+  { id: 'la-liga', name: 'La Liga', footballDataCode: 'PD', sportsDbId: '4335', seasons: ['2025-2026', '2025-26', '2026'] },
+  { id: 'bundesliga', name: 'Bundesliga', footballDataCode: 'BL1', sportsDbId: '4331', seasons: ['2025-2026', '2025-26', '2026'] },
+  { id: 'serie-a', name: 'Serie A', footballDataCode: 'SA', sportsDbId: '4332', seasons: ['2025-2026', '2025-26', '2026'] },
+  { id: 'ligue-1', name: 'Ligue 1', footballDataCode: 'FL1', sportsDbId: '4334', seasons: ['2025-2026', '2025-26', '2026'] },
 ];
 
 const fallbackComments = {
@@ -33,10 +33,14 @@ const fallbackComments = {
   pisces: 'Bugün Balık burcu için sezgi, duygu ve içsel farkındalık güçlü olabilir. Yoğun ortamlardan uzaklaşıp biraz sakinlik arayabilirsin. Sanatsal işler, yazmak, müzik veya ruhunu besleyen konular iyi gelir. İlişkilerde fazla fedakârlık yapmadan sınırlarını koruman önemli. İş ve para tarafında net olmayan şeyleri yazılı hale getirmek seni korur. Günün sonunda iç sesini dinlemek doğru yönü gösterebilir.',
 };
 
-const fallbackStandings = [
-  ['Galatasaray', 0], ['Fenerbahçe', 0], ['Beşiktaş', 0], ['Trabzonspor', 0], ['Başakşehir', 0],
-  ['Samsunspor', 0], ['Göztepe', 0], ['Konyaspor', 0], ['Kasımpaşa', 0], ['Antalyaspor', 0],
-].map(([team, points], index) => ({ position: index + 1, team, played: 0, won: 0, draw: 0, lost: 0, points, goalDifference: 0, fallback: true }));
+const fallbackTables = {
+  'super-lig': ['Galatasaray', 'Fenerbahçe', 'Beşiktaş', 'Trabzonspor', 'Başakşehir', 'Samsunspor', 'Göztepe', 'Konyaspor', 'Kasımpaşa', 'Antalyaspor'],
+  'premier-league': ['Liverpool', 'Arsenal', 'Manchester City', 'Chelsea', 'Manchester United', 'Tottenham', 'Newcastle', 'Aston Villa'],
+  'la-liga': ['Real Madrid', 'Barcelona', 'Atlético Madrid', 'Athletic Club', 'Villarreal', 'Real Sociedad'],
+  'bundesliga': ['Bayern Münih', 'Borussia Dortmund', 'Bayer Leverkusen', 'RB Leipzig', 'Stuttgart', 'Frankfurt'],
+  'serie-a': ['Inter', 'Milan', 'Juventus', 'Napoli', 'Roma', 'Lazio'],
+  'ligue-1': ['PSG', 'Marseille', 'Monaco', 'Lille', 'Lyon', 'Nice'],
+};
 
 async function fetchJson(url, options = {}) {
   const response = await fetch(url, options);
@@ -44,9 +48,7 @@ async function fetchJson(url, options = {}) {
   return response.json();
 }
 
-function getSymbol(sign) {
-  return signs.find(([key]) => key === sign)?.[2] || '✦';
-}
+function getSymbol(sign) { return signs.find(([key]) => key === sign)?.[2] || '✦'; }
 
 function enrichReading(base) {
   const description = String(base.description || fallbackComments[base.sign] || 'Günlük yorum hazırlanıyor.');
@@ -66,15 +68,11 @@ async function fetchHoroscope(sign, title, symbol) {
     const payload = await fetchJson(`https://horoscope-app-api.vercel.app/api/v1/get-horoscope/daily?sign=${encodeURIComponent(sign)}&day=TODAY`);
     const data = payload?.data || payload;
     return enrichReading({ sign, title, symbol, description: String(data?.horoscope_data || data?.description || fallbackComments[sign]), mood: String(data?.mood || '--'), color: String(data?.color || '--'), luckyNumber: String(data?.lucky_number || '--'), currentDate: String(data?.date || data?.current_date || new Date().toLocaleDateString('tr-TR')) });
-  } catch (error) {
-    errors.push(`horoscope-app-api: ${error instanceof Error ? error.message : 'unknown'}`);
-  }
+  } catch (error) { errors.push(`horoscope-app-api: ${error instanceof Error ? error.message : 'unknown'}`); }
   try {
     const data = await fetchJson(`https://aztro.sameerkumar.website/?sign=${encodeURIComponent(sign)}&day=today`, { method: 'POST' });
     return enrichReading({ sign, title, symbol, description: String(data?.description || fallbackComments[sign]), mood: String(data?.mood || '--'), color: String(data?.color || '--'), luckyNumber: String(data?.lucky_number || '--'), currentDate: String(data?.current_date || new Date().toLocaleDateString('tr-TR')) });
-  } catch (error) {
-    errors.push(`aztro: ${error instanceof Error ? error.message : 'unknown'}`);
-  }
+  } catch (error) { errors.push(`aztro: ${error instanceof Error ? error.message : 'unknown'}`); }
   return enrichReading({ sign, title, symbol, description: fallbackComments[sign], mood: '--', color: '--', luckyNumber: '--', currentDate: new Date().toLocaleDateString('tr-TR'), fallback: true, status: errors.join(' | ') });
 }
 
@@ -88,52 +86,52 @@ function normalizeFootballDataRow(row) {
 }
 
 function normalizeSportsDbRow(row, index) {
-  return { position: Number(row.intRank || row.rank || index + 1), team: String(row.strTeam || row.team || 'Takım'), played: Number(row.intPlayed || row.played || 0), won: Number(row.intWin || row.won || 0), draw: Number(row.intDraw || row.draw || 0), lost: Number(row.intLoss || row.lost || 0), points: Number(row.intPoints || row.points || 0), goalDifference: Number(row.intGoalDifference || row.goalDifference || 0) };
+  return { position: Number(row.intRank || row.rank || index + 1), team: String(row.strTeam || row.team || 'Takım'), played: Number(row.intPlayed || row.played || 0), won: Number(row.intWin || row.won || 0), draw: Number(row.intDraw || row.draw || 0), lost: Number(row.intLoss || row.loss || 0), points: Number(row.intPoints || row.points || 0), goalDifference: Number(row.intGoalDifference || row.goalDifference || 0) };
 }
 
-async function fetchStandingsFromFootballData(token) {
-  if (!token) throw new Error('missing SPORTS_API_KEY');
-  const response = await fetch('https://api.football-data.org/v4/competitions/TR1/standings', { headers: { 'X-Auth-Token': token } });
+function fallbackTableFor(league) {
+  return (fallbackTables[league.id] || []).map((team, index) => ({ position: index + 1, team, played: 0, won: 0, draw: 0, lost: 0, points: 0, goalDifference: 0, fallback: true }));
+}
+
+async function fetchLeagueFromFootballData(league, token) {
+  if (!token || !league.footballDataCode) throw new Error('missing football-data source');
+  const response = await fetch(`https://api.football-data.org/v4/competitions/${league.footballDataCode}/standings`, { headers: { 'X-Auth-Token': token } });
   if (!response.ok) throw new Error(`football-data HTTP ${response.status}`);
   const payload = await response.json();
   const table = (payload?.standings?.[0]?.table || []).map(normalizeFootballDataRow);
   if (!table.length) throw new Error('football-data empty table');
-  return { source: 'football-data.org', competition: payload?.competition?.name || 'Süper Lig', table };
+  return { source: 'football-data.org', table };
 }
 
-async function fetchStandingsFromSportsDb() {
-  const seasons = ['2025-2026', '2025-26', '2026'];
-  const leagueIds = ['4339', '4494'];
+async function fetchLeagueFromSportsDb(league) {
   const errors = [];
-  for (const leagueId of leagueIds) {
-    for (const season of seasons) {
-      try {
-        const payload = await fetchJson(`https://www.thesportsdb.com/api/v1/json/3/lookuptable.php?l=${leagueId}&s=${encodeURIComponent(season)}`);
-        const rows = payload?.table || payload?.standings || [];
-        if (!Array.isArray(rows) || !rows.length) throw new Error('empty table');
-        return { source: 'TheSportsDB', competition: 'Süper Lig', table: rows.map(normalizeSportsDbRow) };
-      } catch (error) {
-        errors.push(`${leagueId}/${season}: ${error instanceof Error ? error.message : 'unknown'}`);
-      }
-    }
+  for (const season of league.seasons) {
+    try {
+      const payload = await fetchJson(`https://www.thesportsdb.com/api/v1/json/3/lookuptable.php?l=${league.sportsDbId}&s=${encodeURIComponent(season)}`);
+      const rows = payload?.table || payload?.standings || [];
+      if (!Array.isArray(rows) || !rows.length) throw new Error('empty table');
+      return { source: 'TheSportsDB', table: rows.map(normalizeSportsDbRow) };
+    } catch (error) { errors.push(`${season}: ${error instanceof Error ? error.message : 'unknown'}`); }
   }
   throw new Error(errors.join(' | '));
 }
 
+async function fetchLeagueStandings(league, token) {
+  const errors = [];
+  try { return await fetchLeagueFromFootballData(league, token); } catch (error) { errors.push(error instanceof Error ? error.message : 'unknown'); }
+  try { return await fetchLeagueFromSportsDb(league); } catch (error) { errors.push(error instanceof Error ? error.message : 'unknown'); }
+  return { source: 'fallback', table: fallbackTableFor(league), fallback: true, status: errors.join(' | ') };
+}
+
 async function updateStandings() {
   const token = process.env.SPORTS_API_KEY || '';
-  const errors = [];
-  try {
-    const data = await fetchStandingsFromFootballData(token);
-    await writeFile(`${DATA_DIR}/standings.json`, JSON.stringify({ updatedAt, ...data }, null, 2) + '\n', 'utf8');
-    return;
-  } catch (error) { errors.push(error instanceof Error ? error.message : 'unknown'); }
-  try {
-    const data = await fetchStandingsFromSportsDb();
-    await writeFile(`${DATA_DIR}/standings.json`, JSON.stringify({ updatedAt, ...data }, null, 2) + '\n', 'utf8');
-    return;
-  } catch (error) { errors.push(error instanceof Error ? error.message : 'unknown'); }
-  await writeFile(`${DATA_DIR}/standings.json`, JSON.stringify({ updatedAt, source: 'football-data.org/TheSportsDB/fallback', competition: 'Süper Lig', table: fallbackStandings, fallback: true, status: errors.join(' | ') }, null, 2) + '\n', 'utf8');
+  const leagues = [];
+  for (const league of footballLeagues) {
+    const result = await fetchLeagueStandings(league, token);
+    leagues.push({ id: league.id, name: league.name, updatedAt, ...result });
+  }
+  const defaultLeague = leagues[0];
+  await writeFile(`${DATA_DIR}/standings.json`, JSON.stringify({ updatedAt, source: 'multi-league', defaultLeagueId: 'super-lig', leagues, competition: defaultLeague?.name || 'Süper Lig', table: defaultLeague?.table || [] }, null, 2) + '\n', 'utf8');
 }
 
 await mkdir(DATA_DIR, { recursive: true });
