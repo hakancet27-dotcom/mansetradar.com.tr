@@ -1,71 +1,428 @@
 {
-  "updatedAt": "2026-05-31T17:54:42.926Z",
-  "source": "API-FOOTBALL",
+  "updatedAt": "2026-05-31T18:01:18.009Z",
+  "source": "API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-05-31T17:54:42.926Z",
-      "source": "API-FOOTBALL",
-      "table": [],
+      "updatedAt": "2026-05-31T18:01:18.009Z",
+      "source": "TheSportsDB 2025-2026",
+      "table": [
+        {
+          "position": 1,
+          "team": "Galatasaray",
+          "played": 34,
+          "won": 24,
+          "draw": 5,
+          "lost": 5,
+          "points": 77,
+          "goalDifference": 47
+        },
+        {
+          "position": 2,
+          "team": "Fenerbahçe",
+          "played": 34,
+          "won": 21,
+          "draw": 11,
+          "lost": 2,
+          "points": 74,
+          "goalDifference": 40
+        },
+        {
+          "position": 3,
+          "team": "Trabzonspor",
+          "played": 34,
+          "won": 20,
+          "draw": 9,
+          "lost": 5,
+          "points": 69,
+          "goalDifference": 22
+        },
+        {
+          "position": 4,
+          "team": "Beşiktaş",
+          "played": 34,
+          "won": 17,
+          "draw": 9,
+          "lost": 8,
+          "points": 60,
+          "goalDifference": 19
+        },
+        {
+          "position": 5,
+          "team": "İstanbul Başakşehir",
+          "played": 34,
+          "won": 16,
+          "draw": 9,
+          "lost": 9,
+          "points": 57,
+          "goalDifference": 23
+        }
+      ],
       "fixtures": [],
       "results": [],
-      "status": "empty table"
+      "status": "API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"}"
     },
     {
       "id": "premier-league",
       "name": "Premier League",
-      "updatedAt": "2026-05-31T17:54:42.926Z",
-      "source": "API-FOOTBALL",
-      "table": [],
+      "updatedAt": "2026-05-31T18:01:18.009Z",
+      "source": "TheSportsDB 2025-2026",
+      "table": [
+        {
+          "position": 1,
+          "team": "Arsenal",
+          "played": 38,
+          "won": 26,
+          "draw": 7,
+          "lost": 5,
+          "points": 85,
+          "goalDifference": 44
+        },
+        {
+          "position": 2,
+          "team": "Manchester City",
+          "played": 38,
+          "won": 23,
+          "draw": 9,
+          "lost": 6,
+          "points": 78,
+          "goalDifference": 42
+        },
+        {
+          "position": 3,
+          "team": "Manchester United",
+          "played": 38,
+          "won": 20,
+          "draw": 11,
+          "lost": 7,
+          "points": 71,
+          "goalDifference": 19
+        },
+        {
+          "position": 4,
+          "team": "Aston Villa",
+          "played": 38,
+          "won": 19,
+          "draw": 8,
+          "lost": 11,
+          "points": 65,
+          "goalDifference": 7
+        },
+        {
+          "position": 5,
+          "team": "Liverpool",
+          "played": 38,
+          "won": 17,
+          "draw": 9,
+          "lost": 12,
+          "points": 60,
+          "goalDifference": 10
+        }
+      ],
       "fixtures": [],
       "results": [],
-      "status": "empty table"
+      "status": "API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"}"
     },
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-05-31T17:54:42.926Z",
-      "source": "API-FOOTBALL",
-      "table": [],
+      "updatedAt": "2026-05-31T18:01:18.009Z",
+      "source": "TheSportsDB 2025-2026",
+      "table": [
+        {
+          "position": 1,
+          "team": "Barcelona",
+          "played": 38,
+          "won": 31,
+          "draw": 1,
+          "lost": 6,
+          "points": 94,
+          "goalDifference": 59
+        },
+        {
+          "position": 2,
+          "team": "Real Madrid",
+          "played": 38,
+          "won": 27,
+          "draw": 5,
+          "lost": 6,
+          "points": 86,
+          "goalDifference": 42
+        },
+        {
+          "position": 3,
+          "team": "Villarreal",
+          "played": 38,
+          "won": 22,
+          "draw": 6,
+          "lost": 10,
+          "points": 72,
+          "goalDifference": 26
+        },
+        {
+          "position": 4,
+          "team": "Atlético Madrid",
+          "played": 38,
+          "won": 21,
+          "draw": 6,
+          "lost": 11,
+          "points": 69,
+          "goalDifference": 18
+        },
+        {
+          "position": 5,
+          "team": "Real Betis",
+          "played": 38,
+          "won": 15,
+          "draw": 15,
+          "lost": 8,
+          "points": 60,
+          "goalDifference": 11
+        }
+      ],
       "fixtures": [],
       "results": [],
-      "status": "empty table"
+      "status": "API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"}"
     },
     {
       "id": "bundesliga",
       "name": "Bundesliga",
-      "updatedAt": "2026-05-31T17:54:42.926Z",
-      "source": "API-FOOTBALL",
-      "table": [],
+      "updatedAt": "2026-05-31T18:01:18.009Z",
+      "source": "TheSportsDB 2025-2026",
+      "table": [
+        {
+          "position": 1,
+          "team": "Bayern Munich",
+          "played": 34,
+          "won": 28,
+          "draw": 5,
+          "lost": 1,
+          "points": 89,
+          "goalDifference": 86
+        },
+        {
+          "position": 2,
+          "team": "Borussia Dortmund",
+          "played": 34,
+          "won": 22,
+          "draw": 7,
+          "lost": 5,
+          "points": 73,
+          "goalDifference": 36
+        },
+        {
+          "position": 3,
+          "team": "RB Leipzig",
+          "played": 34,
+          "won": 20,
+          "draw": 5,
+          "lost": 9,
+          "points": 65,
+          "goalDifference": 19
+        },
+        {
+          "position": 4,
+          "team": "Stuttgart",
+          "played": 34,
+          "won": 18,
+          "draw": 8,
+          "lost": 8,
+          "points": 62,
+          "goalDifference": 22
+        },
+        {
+          "position": 5,
+          "team": "Hoffenheim",
+          "played": 34,
+          "won": 18,
+          "draw": 7,
+          "lost": 9,
+          "points": 61,
+          "goalDifference": 13
+        }
+      ],
       "fixtures": [],
       "results": [],
-      "status": "empty table"
+      "status": "API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"}"
     },
     {
       "id": "serie-a",
       "name": "Serie A",
-      "updatedAt": "2026-05-31T17:54:42.926Z",
-      "source": "API-FOOTBALL",
-      "table": [],
+      "updatedAt": "2026-05-31T18:01:18.009Z",
+      "source": "TheSportsDB 2025-2026",
+      "table": [
+        {
+          "position": 1,
+          "team": "Inter Milan",
+          "played": 38,
+          "won": 27,
+          "draw": 6,
+          "lost": 5,
+          "points": 87,
+          "goalDifference": 54
+        },
+        {
+          "position": 2,
+          "team": "Napoli",
+          "played": 38,
+          "won": 23,
+          "draw": 7,
+          "lost": 8,
+          "points": 76,
+          "goalDifference": 22
+        },
+        {
+          "position": 3,
+          "team": "Roma",
+          "played": 38,
+          "won": 23,
+          "draw": 4,
+          "lost": 11,
+          "points": 73,
+          "goalDifference": 28
+        },
+        {
+          "position": 4,
+          "team": "Como",
+          "played": 38,
+          "won": 20,
+          "draw": 11,
+          "lost": 7,
+          "points": 71,
+          "goalDifference": 36
+        },
+        {
+          "position": 5,
+          "team": "AC Milan",
+          "played": 38,
+          "won": 20,
+          "draw": 10,
+          "lost": 8,
+          "points": 70,
+          "goalDifference": 18
+        }
+      ],
       "fixtures": [],
       "results": [],
-      "status": "empty table"
+      "status": "API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"}"
     },
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-05-31T17:54:42.926Z",
-      "source": "API-FOOTBALL",
-      "table": [],
+      "updatedAt": "2026-05-31T18:01:18.009Z",
+      "source": "TheSportsDB 2025-2026",
+      "table": [
+        {
+          "position": 1,
+          "team": "Paris SG",
+          "played": 34,
+          "won": 24,
+          "draw": 4,
+          "lost": 6,
+          "points": 76,
+          "goalDifference": 45
+        },
+        {
+          "position": 2,
+          "team": "Lens",
+          "played": 34,
+          "won": 22,
+          "draw": 4,
+          "lost": 8,
+          "points": 70,
+          "goalDifference": 31
+        },
+        {
+          "position": 3,
+          "team": "Lille",
+          "played": 34,
+          "won": 18,
+          "draw": 7,
+          "lost": 9,
+          "points": 61,
+          "goalDifference": 15
+        },
+        {
+          "position": 4,
+          "team": "Lyon",
+          "played": 34,
+          "won": 18,
+          "draw": 6,
+          "lost": 10,
+          "points": 60,
+          "goalDifference": 13
+        },
+        {
+          "position": 5,
+          "team": "Marseille",
+          "played": 34,
+          "won": 18,
+          "draw": 5,
+          "lost": 11,
+          "points": 59,
+          "goalDifference": 18
+        }
+      ],
       "fixtures": [],
       "results": [],
-      "status": "empty table"
+      "status": "API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"}"
     }
   ],
   "competition": "Süper Lig",
-  "table": [],
+  "table": [
+    {
+      "position": 1,
+      "team": "Galatasaray",
+      "played": 34,
+      "won": 24,
+      "draw": 5,
+      "lost": 5,
+      "points": 77,
+      "goalDifference": 47
+    },
+    {
+      "position": 2,
+      "team": "Fenerbahçe",
+      "played": 34,
+      "won": 21,
+      "draw": 11,
+      "lost": 2,
+      "points": 74,
+      "goalDifference": 40
+    },
+    {
+      "position": 3,
+      "team": "Trabzonspor",
+      "played": 34,
+      "won": 20,
+      "draw": 9,
+      "lost": 5,
+      "points": 69,
+      "goalDifference": 22
+    },
+    {
+      "position": 4,
+      "team": "Beşiktaş",
+      "played": 34,
+      "won": 17,
+      "draw": 9,
+      "lost": 8,
+      "points": 60,
+      "goalDifference": 19
+    },
+    {
+      "position": 5,
+      "team": "İstanbul Başakşehir",
+      "played": 34,
+      "won": 16,
+      "draw": 9,
+      "lost": 9,
+      "points": 57,
+      "goalDifference": 23
+    }
+  ],
   "fixtures": [],
   "results": []
 }
