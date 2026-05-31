@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 
 const DATA_DIR = 'data';
 const updatedAt = new Date().toISOString();
@@ -528,7 +528,34 @@ async function fetchStandings(league) {
   return { id: league.id, name: league.name, updatedAt, source: 'none', table: [], fixtures: [], results: [], status: errors.join(' | ') };
 }
 
+// Kaynaklar geçici olarak 502/boş dönerse canlı sitede lig tablosunu sıfırlamamak için
+// mevcut data/standings.json dosyasındaki son sağlam tabloyu korur. Bu emniyet özellikle
+// Maçkolik arşiv endpoint'i anlık hata verdiğinde Bundesliga/Serie A gibi liglerin boş
+// yayınlanmasını engeller; kaynak tekrar düzelince yeni tablo normal şekilde bunun üstüne yazılır.
+async function loadPreviousStandings() {
+  try {
+    const payload = JSON.parse(await readFile(`${DATA_DIR}/standings.json`, 'utf8'));
+    return Array.isArray(payload?.leagues) ? payload.leagues : [];
+  } catch {
+    return [];
+  }
+}
+
+function keepPreviousIfCurrentEmpty(current, previousLeagues) {
+  if (Array.isArray(current?.table) && current.table.length) return current;
+  const previous = previousLeagues.find((league) => league.id === current.id);
+  if (!previous || !Array.isArray(previous.table) || !previous.table.length) return current;
+  return {
+    ...previous,
+    updatedAt: previous.updatedAt || updatedAt,
+    source: previous.source || 'previous valid table',
+    preservedPreviousTable: true,
+    status: current.status ? `Current refresh failed, previous table preserved. ${current.status}` : 'Current refresh failed, previous table preserved.',
+  };
+}
+
 await mkdir(DATA_DIR, { recursive: true });
-const leaguePayloads = await Promise.all(leagues.map(fetchStandings));
+const previousLeagues = await loadPreviousStandings();
+const leaguePayloads = (await Promise.all(leagues.map(fetchStandings))).map((league) => keepPreviousIfCurrentEmpty(league, previousLeagues));
 const defaultLeague = leaguePayloads[0];
 await writeFile(`${DATA_DIR}/standings.json`, JSON.stringify({ updatedAt, source: 'Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB', defaultLeagueId: 'super-lig', leagues: leaguePayloads, competition: defaultLeague?.name || 'Süper Lig', table: defaultLeague?.table || [], fixtures: defaultLeague?.fixtures || [], results: defaultLeague?.results || [] }, null, 2) + '\n', 'utf8');
