@@ -21,10 +21,16 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Generate sidebar JSON files
+      - name: Generate horoscope and legacy sidebar JSON files
         env:
           SPORTS_API_KEY: ${{ secrets.SPORTS_API_KEY }}
         run: node scripts/update-sidebar-data.mjs
+
+      - name: Generate real football standings with API-FOOTBALL
+        env:
+          APIFOOTBALL_API_KEY: ${{ secrets.APIFOOTBALL_API_KEY }}
+          FOOTBALL_SEASON: '2025'
+        run: node scripts/update-standings-data.mjs
 
       - name: Commit updated sidebar data
         uses: stefanzweifel/git-auto-commit-action@v5
