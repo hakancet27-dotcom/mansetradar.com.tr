@@ -1,0 +1,32 @@
+name: Update sidebar data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update-sidebar-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate sidebar JSON files
+        env:
+          SPORTS_API_KEY: ${{ secrets.SPORTS_API_KEY }}
+        run: node scripts/update-sidebar-data.mjs
+
+      - name: Commit updated sidebar data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update sidebar live data
+          file_pattern: data/horoscope.json data/standings.json
