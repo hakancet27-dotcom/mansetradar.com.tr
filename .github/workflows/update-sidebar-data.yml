@@ -21,9 +21,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Generate horoscope and legacy sidebar JSON files
-        env:
-          SPORTS_API_KEY: ${{ secrets.SPORTS_API_KEY }}
+      - name: Generate horoscope sidebar JSON
         run: node scripts/update-sidebar-data.mjs
 
       - name: Generate real football standings

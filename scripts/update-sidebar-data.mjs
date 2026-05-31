@@ -2,6 +2,7 @@ import { mkdir, writeFile } from 'node:fs/promises';
 
 const DATA_DIR = 'data';
 const updatedAt = new Date().toISOString();
+const turkeyToday = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Europe/Istanbul' }).format(new Date());
 
 const signs = [
   ['aries', 'Koç', '♈'], ['taurus', 'Boğa', '♉'], ['gemini', 'İkizler', '♊'], ['cancer', 'Yengeç', '♋'],
@@ -67,13 +68,13 @@ async function fetchHoroscope(sign, title, symbol) {
   try {
     const payload = await fetchJson(`https://horoscope-app-api.vercel.app/api/v1/get-horoscope/daily?sign=${encodeURIComponent(sign)}&day=TODAY`);
     const data = payload?.data || payload;
-    return enrichReading({ sign, title, symbol, description: String(data?.horoscope_data || data?.description || fallbackComments[sign]), mood: String(data?.mood || '--'), color: String(data?.color || '--'), luckyNumber: String(data?.lucky_number || '--'), currentDate: String(data?.date || data?.current_date || new Date().toLocaleDateString('tr-TR')) });
+    return enrichReading({ sign, title, symbol, description: String(data?.horoscope_data || data?.description || fallbackComments[sign]), mood: String(data?.mood || '--'), color: String(data?.color || '--'), luckyNumber: String(data?.lucky_number || '--'), currentDate: turkeyToday });
   } catch (error) { errors.push(`horoscope-app-api: ${error instanceof Error ? error.message : 'unknown'}`); }
   try {
     const data = await fetchJson(`https://aztro.sameerkumar.website/?sign=${encodeURIComponent(sign)}&day=today`, { method: 'POST' });
-    return enrichReading({ sign, title, symbol, description: String(data?.description || fallbackComments[sign]), mood: String(data?.mood || '--'), color: String(data?.color || '--'), luckyNumber: String(data?.lucky_number || '--'), currentDate: String(data?.current_date || new Date().toLocaleDateString('tr-TR')) });
+    return enrichReading({ sign, title, symbol, description: String(data?.description || fallbackComments[sign]), mood: String(data?.mood || '--'), color: String(data?.color || '--'), luckyNumber: String(data?.lucky_number || '--'), currentDate: turkeyToday });
   } catch (error) { errors.push(`aztro: ${error instanceof Error ? error.message : 'unknown'}`); }
-  return enrichReading({ sign, title, symbol, description: fallbackComments[sign], mood: '--', color: '--', luckyNumber: '--', currentDate: new Date().toLocaleDateString('tr-TR'), fallback: true, status: errors.join(' | ') });
+  return enrichReading({ sign, title, symbol, description: fallbackComments[sign], mood: '--', color: '--', luckyNumber: '--', currentDate: turkeyToday, fallback: true, status: errors.join(' | ') });
 }
 
 async function updateHoroscope() {
@@ -186,4 +187,6 @@ async function updateStandings() {
 
 await mkdir(DATA_DIR, { recursive: true });
 await updateHoroscope();
-await updateStandings();
+// Puan durumu artık scripts/update-standings-data.mjs tarafından Maçkolik ağırlıklı
+// ayrı ve daha güvenilir akışla üretilir. Bu dosya sadece burç JSON'unu günceller;
+// eski standings fonksiyonları olası geri dönüş/karşılaştırma için bırakılmıştır.

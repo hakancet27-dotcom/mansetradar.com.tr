@@ -18,6 +18,7 @@ assets/js/faceracer.dev.js
 
 # Backup
 backup/
+.codex-backups/
 
 # Security plan (internal)
 SECURITY_PLAN.md

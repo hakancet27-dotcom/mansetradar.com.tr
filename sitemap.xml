@@ -20,6 +20,30 @@
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
+    <url>
+        <loc>https://mansetradar.com.tr/weather/</loc>
+        <lastmod>2026-06-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://mansetradar.com.tr/horoscope/</loc>
+        <lastmod>2026-06-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://mansetradar.com.tr/namaz/</loc>
+        <lastmod>2026-06-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://mansetradar.com.tr/piyasa/</loc>
+        <lastmod>2026-06-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
+    </url>
     <!-- ✅ YENİ: Haberler ana sayfası -->
     <!-- Haber makaleleri buraya otomatik eklenecek -->
     <!-- SITEMAP_ARTICLES_START -->

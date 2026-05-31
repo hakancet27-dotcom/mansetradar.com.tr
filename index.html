@@ -1412,7 +1412,7 @@
           <span>Güncel Haber Platformu</span>
         </div>
       </a>
-      <div class="market-strip" aria-label="Canlı piyasa verileri">
+      <div class="market-strip" aria-label="Gecikmeli referans piyasa verileri">
         <span class="market-label">Piyasalar</span>
         <span class="market-item neutral" id="market-usd-item">
           <span class="market-name">USD/TRY</span>
@@ -1434,7 +1434,7 @@
           <strong class="market-value" id="market-btc">4,35 Mn</strong>
           <span class="market-change" id="market-btc-change">Beklemede</span>
         </span>
-        <span class="market-status" id="market-status">Canlı veri yükleniyor</span>
+        <span class="market-status" id="market-status">Referans veri yükleniyor</span>
       </div>
             <div class="header-tools">
         <div class="header-search" role="search" aria-label="Haberlerde ara">
@@ -1731,7 +1731,7 @@
                 <button class="slider-btn" type="button" data-slider-next aria-label="Sonraki manşet">›</button>
               </div>
             </div>
-            <div class="market-strip mobile-market-strip" aria-label="Canlı piyasa verileri">
+            <div class="market-strip mobile-market-strip" aria-label="Gecikmeli referans piyasa verileri">
                     <span class="market-label">Piyasalar</span>
                     <span class="market-item neutral" data-market-item="usd">
                       <span class="market-name">USD/TRY</span>
@@ -1753,7 +1753,7 @@
                       <strong class="market-value" data-market-value="btc">4,35 Mn</strong>
                       <span class="market-change" data-market-change="btc">Beklemede</span>
                     </span>
-                    <span class="market-status" data-market-status>Canlı veri yükleniyor</span>
+                    <span class="market-status" data-market-status>Referans veri yükleniyor</span>
                   </div>
             <div class="side-headlines" aria-label="Öne çıkan Türkiye haberleri">
               <!-- TURKEY_SIDE_START -->
@@ -7071,7 +7071,8 @@
 
       return {
         value,
-        change: previous ? ((value - previous) / previous) * 100 : null
+        change: previous ? ((value - previous) / previous) * 100 : null,
+        date: latest.date
       };
     }
 
@@ -7136,8 +7137,14 @@
         }
 
         if (status) {
-          status.textContent = 'Gecikmeli';
-          status.title = 'Piyasa verileri harici kaynaklardan gecikmeli alınır.';
+          const fiatDates = [usdRes, eurRes, gbpRes]
+            .filter(result => result.status === 'fulfilled' && result.value && result.value.date)
+            .map(result => result.value.date);
+          const latestDate = fiatDates[0] || '';
+          status.textContent = 'Gecikmeli referans';
+          status.title = latestDate
+            ? `Frankfurter referans kuru, son veri: ${latestDate}. BTC CoinGecko verisidir.`
+            : 'Piyasa verileri harici kaynaklardan gecikmeli referans olarak alınır.';
         }
       } catch (error) {
         if (status) status.textContent = 'Veri yok';
@@ -7505,7 +7512,7 @@
       if (marketsLiveStarted) return;
       marketsLiveStarted = true;
       const status = document.getElementById('market-status');
-      if (status) status.textContent = 'Canlı veri yükleniyor';
+      if (status) status.textContent = 'Referans veri yükleniyor';
       updateMarkets();
       setInterval(updateMarkets, 300000);
     }
@@ -7569,7 +7576,7 @@
   <script id="codex-enhancements-script">
     (function() {
       const locale = 'tr-TR';
-      const weatherDetailPath = 'weather.html';
+      const weatherDetailPath = '/weather/';
       const emptyText = 'Araman\u0131za uygun haber bulunamad\u0131.';
       function normalize(value) {
         return (value || '').toLocaleLowerCase(locale).normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/\s+/g, ' ').trim();

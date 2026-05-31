@@ -29,7 +29,7 @@
     var item = root.querySelector('[data-market-item="' + key + '"], #market-' + key + '-item');
     var value = item && item.querySelector('.market-value');
     var change = item && item.querySelector('.market-change');
-    return '/weather.html?rate=' + key.toUpperCase()
+    return '/piyasa/?rate=' + key.toUpperCase()
       + '&value=' + encodeURIComponent(value ? value.textContent.trim() : '')
       + '&change=' + encodeURIComponent(change ? change.textContent.trim() : '');
   }
@@ -137,7 +137,7 @@
       if (!city) return;
       event.preventDefault();
       event.stopImmediatePropagation();
-      location.href = '/weather.html?city=' + encodeURIComponent(city.textContent.trim());
+      location.href = '/weather/?city=' + encodeURIComponent(city.textContent.trim());
     }, true);
   }
 
@@ -199,7 +199,7 @@
       .then(function (payload) {
         var timings = payload && payload.data && payload.data.timings ? payload.data.timings : {};
         var rows = [['İmsak', timings.Imsak], ['Güneş', timings.Sunrise], ['Öğle', timings.Dhuhr], ['İkindi', timings.Asr], ['Akşam', timings.Maghrib], ['Yatsı', timings.Isha]];
-        list.innerHTML = rows.map(function (row) { return '<li class="compact-live-row"><span class="compact-live-name">' + row[0] + '</span><span class="compact-live-value">' + cleanTime(row[1]) + '</span></li>'; }).join('') + '<li class="compact-live-meta">' + esc(cityName) + ' · Diyanet yöntemi</li>';
+        list.innerHTML = rows.map(function (row) { return '<li class="compact-live-row"><span class="compact-live-name">' + row[0] + '</span><span class="compact-live-value">' + cleanTime(row[1]) + '</span></li>'; }).join('') + '<li class="compact-live-meta">' + esc(cityName) + ' · Kaynak: Aladhan</li><li class="compact-live-meta"><a class="compact-live-link" href="/namaz/?city=' + encodeURIComponent(cityName) + '">Tüm vakitleri aç</a></li>';
       })
       .catch(function () { list.innerHTML = '<li class="compact-live-note">Namaz vakitleri şu an alınamadı.</li>'; });
   }
@@ -242,8 +242,8 @@
         target.innerHTML = '<div class="horoscope-mini-list">' + items.map(function (item) {
           var sign = item.sign || '';
           var title = item.title || sign || 'Burç';
-          return '<a class="horoscope-mini-link" href="/horoscope.html?sign=' + encodeURIComponent(sign) + '"><span>' + esc(title) + '</span><span>›</span></a>';
-        }).join('') + '</div><a class="compact-live-link" href="/horoscope.html">Tüm burç yorumlarını aç</a>';
+          return '<a class="horoscope-mini-link" href="/horoscope/?sign=' + encodeURIComponent(sign) + '"><span>' + esc(title) + '</span><span>›</span></a>';
+        }).join('') + '</div><a class="compact-live-link" href="/horoscope/">Tüm burç yorumlarını aç</a>';
       })
       .catch(function () { target.innerHTML = '<p class="compact-live-note">Günlük burç yorumları hazırlanıyor.</p>'; });
   }
