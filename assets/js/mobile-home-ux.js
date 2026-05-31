@@ -5,6 +5,7 @@
   var mobileMarket = document.querySelector('.mobile-market-strip');
   var keys = ['usd', 'eur', 'gbp', 'btc'];
   var detailKeys = ['usd', 'eur', 'gbp'];
+  var turkeyWeatherCities = null;
 
   function rateDetailHref(root, key) {
     var item = root.querySelector('[data-market-item="' + key + '"], #market-' + key + '-item');
@@ -43,6 +44,87 @@
     status.setAttribute('aria-hidden', 'true');
   }
 
+  function weatherCodeToText(code) {
+    var map = {
+      0: 'Açık', 1: 'Az bulutlu', 2: 'Parçalı bulutlu', 3: 'Bulutlu',
+      45: 'Sisli', 48: 'Sisli', 51: 'Çisenti', 53: 'Hafif yağmur', 55: 'Yağmur',
+      61: 'Yağmur', 63: 'Sağanak', 65: 'Kuvvetli yağmur', 71: 'Kar', 73: 'Kar',
+      75: 'Kuvvetli kar', 80: 'Sağanak', 81: 'Yağışlı', 82: 'Kuvvetli sağanak', 95: 'Fırtına'
+    };
+    return map[code] || 'Durum yok';
+  }
+
+  function selectedWeatherCity(cities) {
+    var stored = '';
+    try { stored = localStorage.getItem('manset-weather-city') || ''; } catch (error) { stored = ''; }
+    return cities.find(function (city) { return city.name === stored; }) || cities.find(function (city) { return city.name === 'İstanbul'; }) || cities[0];
+  }
+
+  function renderProvinceWeather(city, list) {
+    if (!city || !list) return;
+    list.dataset.provinceMode = 'true';
+    list.dataset.renderingProvince = 'true';
+    list.innerHTML = '<li><span class="weather-city">' + city.name + '</span><span class="weather-temp">--</span><span class="weather-meta">Yükleniyor</span></li>';
+    fetch('https://api.open-meteo.com/v1/forecast?latitude=' + city.lat + '&longitude=' + city.lon + '&current=temperature_2m,weather_code,wind_speed_10m&timezone=Europe%2FIstanbul', { cache: 'default' })
+      .then(function (response) { if (!response.ok) throw new Error('weather'); return response.json(); })
+      .then(function (payload) {
+        var current = payload && payload.current ? payload.current : {};
+        var temp = typeof current.temperature_2m === 'number' ? Math.round(current.temperature_2m) + '°' : '--';
+        var wind = typeof current.wind_speed_10m === 'number' ? Math.round(current.wind_speed_10m) + ' km/s' : '--';
+        var label = weatherCodeToText(current.weather_code);
+        list.innerHTML = '<li><span class="weather-city">' + city.name + '</span><span class="weather-temp">' + temp + '</span><span class="weather-meta">' + label + ' · Rüzgar ' + wind + '</span></li>';
+      })
+      .catch(function () {
+        list.innerHTML = '<li><span class="weather-city">' + city.name + '</span><span class="weather-temp">--</span><span class="weather-meta">Veri yok</span></li>';
+      })
+      .finally(function () {
+        window.setTimeout(function () { list.dataset.renderingProvince = 'false'; }, 120);
+      });
+  }
+
+  function initWeatherProvinceSelector() {
+    var list = document.getElementById('weather-list');
+    if (!list || list.dataset.provinceSelectorReady === 'true') return;
+    var widget = list.closest('.sidebar-widget');
+    if (!widget) return;
+
+    fetch('/data/turkey-weather-cities.json', { cache: 'default' })
+      .then(function (response) { if (!response.ok) throw new Error('cities'); return response.json(); })
+      .then(function (cities) {
+        if (!Array.isArray(cities) || !cities.length) return;
+        turkeyWeatherCities = cities;
+        list.dataset.provinceSelectorReady = 'true';
+        injectSidebarWidgetStyles();
+
+        var wrap = document.createElement('div');
+        wrap.className = 'weather-province-tools';
+        wrap.innerHTML = '<label class="weather-province-label" for="weather-province-select">İl seç</label><select id="weather-province-select" class="compact-live-select" aria-label="Hava durumu ili seç"></select>';
+        var select = wrap.querySelector('select');
+        select.innerHTML = cities.map(function (city) {
+          return '<option value="' + city.name + '">' + city.name + '</option>';
+        }).join('');
+        var selected = selectedWeatherCity(cities);
+        select.value = selected.name;
+        widget.insertBefore(wrap, list);
+
+        select.addEventListener('change', function () {
+          var city = cities.find(function (item) { return item.name === select.value; }) || selectedWeatherCity(cities);
+          try { localStorage.setItem('manset-weather-city', city.name); } catch (error) {}
+          renderProvinceWeather(city, list);
+        });
+
+        var observer = new MutationObserver(function () {
+          if (list.dataset.renderingProvince === 'true') return;
+          if (list.dataset.provinceMode !== 'true') return;
+          var city = cities.find(function (item) { return item.name === select.value; }) || selectedWeatherCity(cities);
+          window.setTimeout(function () { renderProvinceWeather(city, list); }, 80);
+        });
+        observer.observe(list, { childList: true, subtree: true });
+        renderProvinceWeather(selected, list);
+      })
+      .catch(function () {});
+  }
+
   function fixWeatherLinks() {
     var list = document.getElementById('weather-list');
     if (!list) return;
@@ -70,6 +152,10 @@
       '.compact-live-note{font-size:.78rem;font-weight:700;color:var(--muted);line-height:1.45}',
       '.compact-live-link{display:inline-block;margin-top:10px;color:var(--red);font-size:.78rem;font-weight:900;text-decoration:none}',
       '.compact-live-link:hover{text-decoration:underline}',
+      '.compact-live-select{width:100%;border:1px solid var(--border);border-radius:8px;background:#fbfcfe;color:var(--text);font-size:.82rem;font-weight:800;padding:9px 10px;outline:none}',
+      '.compact-live-select:focus{border-color:var(--red);box-shadow:0 0 0 3px rgba(215,25,32,.09)}',
+      '.weather-province-tools{display:grid;gap:6px;margin-bottom:10px}',
+      '.weather-province-label{font-size:.7rem;color:var(--muted);font-weight:900;text-transform:uppercase;letter-spacing:.5px}',
       '.compact-standings{width:100%;border-collapse:collapse;font-size:.76rem}',
       '.compact-standings th{color:var(--muted);font-size:.68rem;text-transform:uppercase;text-align:left;border-bottom:1px solid var(--border);padding:0 0 7px}',
       '.compact-standings td{border-bottom:1px solid var(--border);padding:7px 0;color:var(--text);font-weight:800}',
@@ -182,6 +268,7 @@
     fixWeatherLinks();
     initSidebarLiveWidgets();
     if (typeof window.startWeatherLive === 'function') window.startWeatherLive();
+    window.setTimeout(initWeatherProvinceSelector, 250);
     return;
   }
 
@@ -234,4 +321,5 @@
   initSidebarLiveWidgets();
   if (typeof window.startMarketsLive === 'function') window.startMarketsLive();
   if (typeof window.startWeatherLive === 'function') window.startWeatherLive();
+  window.setTimeout(initWeatherProvinceSelector, 250);
 })();
