@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-31T19:47:04.374Z",
+  "updatedAt": "2026-05-31T20:22:25.756Z",
   "source": "HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-05-31T19:47:04.374Z",
+      "updatedAt": "2026-05-31T20:22:25.756Z",
       "source": "HTML scrape https://www.mackolik.com/puan-durumu/t%C3%BCrkiye-s%C3%BCper-lig/482ofyysbdbeoxauk19yg7tdt",
       "table": [
         {
@@ -197,18 +197,219 @@
     {
       "id": "premier-league",
       "name": "Premier League",
-      "updatedAt": "2026-05-31T19:47:04.374Z",
-      "source": "none",
-      "table": [],
+      "updatedAt": "2026-05-31T20:22:25.756Z",
+      "source": "HTML scrape https://www.mackolik.com/puan-durumu/ingiltere-premier-lig/2kwbbcootiqqgmrzs6o5inle5",
+      "table": [
+        {
+          "position": 1,
+          "team": "Arsenal",
+          "played": 38,
+          "won": 26,
+          "draw": 7,
+          "lost": 5,
+          "points": 85,
+          "goalDifference": 44
+        },
+        {
+          "position": 2,
+          "team": "Man. City",
+          "played": 38,
+          "won": 23,
+          "draw": 9,
+          "lost": 6,
+          "points": 78,
+          "goalDifference": 42
+        },
+        {
+          "position": 3,
+          "team": "Man. United",
+          "played": 38,
+          "won": 20,
+          "draw": 11,
+          "lost": 7,
+          "points": 71,
+          "goalDifference": 19
+        },
+        {
+          "position": 4,
+          "team": "Aston Villa",
+          "played": 38,
+          "won": 19,
+          "draw": 8,
+          "lost": 11,
+          "points": 65,
+          "goalDifference": 7
+        },
+        {
+          "position": 5,
+          "team": "Liverpool",
+          "played": 38,
+          "won": 17,
+          "draw": 9,
+          "lost": 12,
+          "points": 60,
+          "goalDifference": 10
+        },
+        {
+          "position": 6,
+          "team": "Bournemouth",
+          "played": 38,
+          "won": 13,
+          "draw": 18,
+          "lost": 7,
+          "points": 57,
+          "goalDifference": 4
+        },
+        {
+          "position": 7,
+          "team": "Sunderland",
+          "played": 38,
+          "won": 14,
+          "draw": 12,
+          "lost": 12,
+          "points": 54,
+          "goalDifference": -6
+        },
+        {
+          "position": 8,
+          "team": "Brighton",
+          "played": 38,
+          "won": 14,
+          "draw": 11,
+          "lost": 13,
+          "points": 53,
+          "goalDifference": 6
+        },
+        {
+          "position": 9,
+          "team": "Brentford",
+          "played": 38,
+          "won": 14,
+          "draw": 11,
+          "lost": 13,
+          "points": 53,
+          "goalDifference": 3
+        },
+        {
+          "position": 10,
+          "team": "Chelsea",
+          "played": 38,
+          "won": 14,
+          "draw": 10,
+          "lost": 14,
+          "points": 52,
+          "goalDifference": 6
+        },
+        {
+          "position": 11,
+          "team": "Fulham",
+          "played": 38,
+          "won": 15,
+          "draw": 7,
+          "lost": 16,
+          "points": 52,
+          "goalDifference": -4
+        },
+        {
+          "position": 12,
+          "team": "Newcastle",
+          "played": 38,
+          "won": 14,
+          "draw": 7,
+          "lost": 17,
+          "points": 49,
+          "goalDifference": -2
+        },
+        {
+          "position": 13,
+          "team": "Everton",
+          "played": 38,
+          "won": 13,
+          "draw": 10,
+          "lost": 15,
+          "points": 49,
+          "goalDifference": -3
+        },
+        {
+          "position": 14,
+          "team": "Leeds United",
+          "played": 38,
+          "won": 11,
+          "draw": 14,
+          "lost": 13,
+          "points": 47,
+          "goalDifference": -7
+        },
+        {
+          "position": 15,
+          "team": "Crystal Palace",
+          "played": 38,
+          "won": 11,
+          "draw": 12,
+          "lost": 15,
+          "points": 45,
+          "goalDifference": -10
+        },
+        {
+          "position": 16,
+          "team": "Not. Forest",
+          "played": 38,
+          "won": 11,
+          "draw": 11,
+          "lost": 16,
+          "points": 44,
+          "goalDifference": -3
+        },
+        {
+          "position": 17,
+          "team": "Tottenham",
+          "played": 38,
+          "won": 10,
+          "draw": 11,
+          "lost": 17,
+          "points": 41,
+          "goalDifference": -9
+        },
+        {
+          "position": 18,
+          "team": "West Ham",
+          "played": 38,
+          "won": 10,
+          "draw": 9,
+          "lost": 19,
+          "points": 39,
+          "goalDifference": -19
+        },
+        {
+          "position": 19,
+          "team": "Burnley",
+          "played": 38,
+          "won": 4,
+          "draw": 10,
+          "lost": 24,
+          "points": 22,
+          "goalDifference": -37
+        },
+        {
+          "position": 20,
+          "team": "Wolverhampton",
+          "played": 38,
+          "won": 3,
+          "draw": 11,
+          "lost": 24,
+          "points": 20,
+          "goalDifference": -41
+        }
+      ],
       "fixtures": [],
       "results": [],
-      "status": "HTML scrape: no html scraping source | football-data.org: PL: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input"
+      "status": ""
     },
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-05-31T19:47:04.374Z",
-      "source": "Wikipedia 2025–26 La Liga",
+      "updatedAt": "2026-05-31T20:22:25.756Z",
+      "source": "HTML scrape https://www.mackolik.com/puan-durumu/ispanya-la-liga/34pl8szyvrbwcmfkuocjm3r6t",
       "table": [
         {
           "position": 1,
@@ -217,8 +418,8 @@
           "won": 31,
           "draw": 1,
           "lost": 6,
-          "points": 0,
-          "goalDifference": 95
+          "points": 94,
+          "goalDifference": 59
         },
         {
           "position": 2,
@@ -228,7 +429,7 @@
           "draw": 5,
           "lost": 6,
           "points": 86,
-          "goalDifference": 77
+          "goalDifference": 42
         },
         {
           "position": 3,
@@ -238,17 +439,17 @@
           "draw": 6,
           "lost": 10,
           "points": 72,
-          "goalDifference": 72
+          "goalDifference": 26
         },
         {
           "position": 4,
-          "team": "Atlético Madrid",
+          "team": "Atl. Madrid",
           "played": 38,
           "won": 21,
           "draw": 6,
           "lost": 11,
           "points": 69,
-          "goalDifference": 62
+          "goalDifference": 18
         },
         {
           "position": 5,
@@ -258,7 +459,7 @@
           "draw": 15,
           "lost": 8,
           "points": 60,
-          "goalDifference": 59
+          "goalDifference": 11
         },
         {
           "position": 6,
@@ -267,8 +468,8 @@
           "won": 14,
           "draw": 12,
           "lost": 12,
-          "points": 0,
-          "goalDifference": 53
+          "points": 54,
+          "goalDifference": 5
         },
         {
           "position": 7,
@@ -277,8 +478,8 @@
           "won": 15,
           "draw": 6,
           "lost": 17,
-          "points": 0,
-          "goalDifference": 32
+          "points": 51,
+          "goalDifference": -6
         },
         {
           "position": 8,
@@ -288,7 +489,7 @@
           "draw": 14,
           "lost": 12,
           "points": 50,
-          "goalDifference": 41
+          "goalDifference": -3
         },
         {
           "position": 9,
@@ -298,17 +499,17 @@
           "draw": 10,
           "lost": 15,
           "points": 49,
-          "goalDifference": 46
+          "goalDifference": -9
         },
         {
           "position": 10,
-          "team": "Real Sociedad",
+          "team": "R. Sociedad",
           "played": 38,
           "won": 11,
           "draw": 13,
           "lost": 14,
-          "points": 0,
-          "goalDifference": 59
+          "points": 46,
+          "goalDifference": -2
         },
         {
           "position": 11,
@@ -318,17 +519,17 @@
           "draw": 10,
           "lost": 16,
           "points": 46,
-          "goalDifference": 43
+          "goalDifference": -12
         },
         {
           "position": 12,
-          "team": "Athletic Bilbao",
+          "team": "Ath. Bilbao",
           "played": 38,
           "won": 13,
           "draw": 6,
           "lost": 19,
           "points": 45,
-          "goalDifference": 43
+          "goalDifference": -15
         },
         {
           "position": 13,
@@ -338,17 +539,17 @@
           "draw": 7,
           "lost": 19,
           "points": 43,
-          "goalDifference": 46
+          "goalDifference": -14
         },
         {
           "position": 14,
-          "team": "Alavés",
+          "team": "Alaves",
           "played": 38,
           "won": 11,
           "draw": 10,
           "lost": 17,
           "points": 43,
-          "goalDifference": 44
+          "goalDifference": -12
         },
         {
           "position": 15,
@@ -358,7 +559,7 @@
           "draw": 13,
           "lost": 15,
           "points": 43,
-          "goalDifference": 49
+          "goalDifference": -8
         },
         {
           "position": 16,
@@ -368,7 +569,7 @@
           "draw": 9,
           "lost": 18,
           "points": 42,
-          "goalDifference": 47
+          "goalDifference": -14
         },
         {
           "position": 17,
@@ -378,7 +579,7 @@
           "draw": 9,
           "lost": 18,
           "points": 42,
-          "goalDifference": 44
+          "goalDifference": -6
         },
         {
           "position": 18,
@@ -387,8 +588,8 @@
           "won": 11,
           "draw": 9,
           "lost": 18,
-          "points": 0,
-          "goalDifference": 47
+          "points": 42,
+          "goalDifference": -10
         },
         {
           "position": 19,
@@ -398,7 +599,7 @@
           "draw": 14,
           "lost": 15,
           "points": 41,
-          "goalDifference": 39
+          "goalDifference": -16
         },
         {
           "position": 20,
@@ -408,118 +609,118 @@
           "draw": 11,
           "lost": 21,
           "points": 29,
-          "goalDifference": 26
+          "goalDifference": -34
         }
       ],
       "fixtures": [],
       "results": [],
-      "status": "HTML scrape: no html scraping source | football-data.org: PD: HTTP 400"
+      "status": ""
     },
     {
       "id": "bundesliga",
       "name": "Bundesliga",
-      "updatedAt": "2026-05-31T19:47:04.374Z",
-      "source": "Wikipedia 2025–26 Bundesliga",
+      "updatedAt": "2026-05-31T20:22:25.756Z",
+      "source": "HTML scrape https://www.mackolik.com/puan-durumu/almanya-bundesliga/6by3h89i2eykc341oz7lv1ddd",
       "table": [
         {
           "position": 1,
-          "team": "Bayern Munich",
+          "team": "Bayern Münih",
           "played": 34,
           "won": 28,
           "draw": 5,
           "lost": 1,
-          "points": 0,
-          "goalDifference": 122
+          "points": 89,
+          "goalDifference": 86
         },
         {
           "position": 2,
-          "team": "Borussia Dortmund",
+          "team": "B. Dortmund",
           "played": 34,
           "won": 22,
           "draw": 7,
           "lost": 5,
           "points": 73,
-          "goalDifference": 70
+          "goalDifference": 36
         },
         {
           "position": 3,
-          "team": "RB Leipzig",
+          "team": "Leipzig",
           "played": 34,
           "won": 20,
           "draw": 5,
           "lost": 9,
           "points": 65,
-          "goalDifference": 66
+          "goalDifference": 19
         },
         {
           "position": 4,
-          "team": "VfB Stuttgart",
+          "team": "Stuttgart",
           "played": 34,
           "won": 18,
           "draw": 8,
           "lost": 8,
           "points": 62,
-          "goalDifference": 71
+          "goalDifference": 22
         },
         {
           "position": 5,
-          "team": "TSG Hoffenheim",
+          "team": "Hoffenheim",
           "played": 34,
           "won": 18,
           "draw": 7,
           "lost": 9,
-          "points": 0,
-          "goalDifference": 65
+          "points": 61,
+          "goalDifference": 13
         },
         {
           "position": 6,
-          "team": "Bayer Leverkusen",
+          "team": "B. Leverkusen",
           "played": 34,
           "won": 17,
           "draw": 8,
           "lost": 9,
           "points": 59,
-          "goalDifference": 68
+          "goalDifference": 21
         },
         {
           "position": 7,
-          "team": "SC Freiburg",
+          "team": "Freiburg",
           "played": 34,
           "won": 13,
           "draw": 8,
           "lost": 13,
-          "points": 0,
-          "goalDifference": 51
+          "points": 47,
+          "goalDifference": -6
         },
         {
           "position": 8,
-          "team": "Eintracht Frankfurt",
+          "team": "E. Frankfurt",
           "played": 34,
           "won": 11,
           "draw": 11,
           "lost": 12,
           "points": 44,
-          "goalDifference": 61
+          "goalDifference": -4
         },
         {
           "position": 9,
-          "team": "FC Augsburg",
+          "team": "Augsburg",
           "played": 34,
           "won": 12,
           "draw": 7,
           "lost": 15,
           "points": 43,
-          "goalDifference": 45
+          "goalDifference": -16
         },
         {
           "position": 10,
-          "team": "Mainz 05",
+          "team": "Mainz",
           "played": 34,
           "won": 10,
           "draw": 10,
           "lost": 14,
           "points": 40,
-          "goalDifference": 44
+          "goalDifference": -9
         },
         {
           "position": 11,
@@ -529,37 +730,37 @@
           "draw": 9,
           "lost": 15,
           "points": 39,
-          "goalDifference": 44
+          "goalDifference": -14
         },
         {
           "position": 12,
-          "team": "Borussia Mönchengladbach",
+          "team": "M'gladbach",
           "played": 34,
           "won": 9,
           "draw": 11,
           "lost": 14,
           "points": 38,
-          "goalDifference": 42
+          "goalDifference": -11
         },
         {
           "position": 13,
-          "team": "Hamburger SV",
+          "team": "Hamburg",
           "played": 34,
           "won": 9,
           "draw": 11,
           "lost": 14,
           "points": 38,
-          "goalDifference": 40
+          "goalDifference": -14
         },
         {
           "position": 14,
-          "team": "1. FC Köln",
+          "team": "Köln",
           "played": 34,
           "won": 7,
           "draw": 11,
           "lost": 16,
           "points": 32,
-          "goalDifference": 49
+          "goalDifference": -14
         },
         {
           "position": 15,
@@ -569,58 +770,58 @@
           "draw": 8,
           "lost": 18,
           "points": 32,
-          "goalDifference": 37
+          "goalDifference": -23
         },
         {
           "position": 16,
-          "team": "VfL Wolfsburg",
+          "team": "Wolfsburg",
           "played": 34,
           "won": 7,
           "draw": 8,
           "lost": 19,
-          "points": 0,
-          "goalDifference": 45
+          "points": 29,
+          "goalDifference": -24
         },
         {
           "position": 17,
-          "team": "1. FC Heidenheim",
-          "played": 34,
-          "won": 6,
-          "draw": 8,
-          "lost": 20,
-          "points": 2,
-          "goalDifference": 41
-        },
-        {
-          "position": 18,
-          "team": "FC St. Pauli",
+          "team": "Heidenheim",
           "played": 34,
           "won": 6,
           "draw": 8,
           "lost": 20,
           "points": 26,
-          "goalDifference": 29
+          "goalDifference": -31
+        },
+        {
+          "position": 18,
+          "team": "St. Pauli",
+          "played": 34,
+          "won": 6,
+          "draw": 8,
+          "lost": 20,
+          "points": 26,
+          "goalDifference": -31
         }
       ],
       "fixtures": [],
       "results": [],
-      "status": "HTML scrape: no html scraping source | football-data.org: BL1: HTTP 400"
+      "status": ""
     },
     {
       "id": "serie-a",
       "name": "Serie A",
-      "updatedAt": "2026-05-31T19:47:04.374Z",
-      "source": "Wikipedia 2025–26 Serie A",
+      "updatedAt": "2026-05-31T20:22:25.756Z",
+      "source": "HTML scrape https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao",
       "table": [
         {
           "position": 1,
-          "team": "Inter Milan",
+          "team": "Inter",
           "played": 38,
           "won": 27,
           "draw": 6,
           "lost": 5,
-          "points": 0,
-          "goalDifference": 89
+          "points": 87,
+          "goalDifference": 54
         },
         {
           "position": 2,
@@ -630,7 +831,7 @@
           "draw": 7,
           "lost": 8,
           "points": 76,
-          "goalDifference": 58
+          "goalDifference": 22
         },
         {
           "position": 3,
@@ -640,7 +841,7 @@
           "draw": 4,
           "lost": 11,
           "points": 73,
-          "goalDifference": 59
+          "goalDifference": 28
         },
         {
           "position": 4,
@@ -650,17 +851,17 @@
           "draw": 11,
           "lost": 7,
           "points": 71,
-          "goalDifference": 65
+          "goalDifference": 36
         },
         {
           "position": 5,
-          "team": "AC Milan",
+          "team": "Milan",
           "played": 38,
           "won": 20,
           "draw": 10,
           "lost": 8,
-          "points": 0,
-          "goalDifference": 53
+          "points": 70,
+          "goalDifference": 18
         },
         {
           "position": 6,
@@ -670,7 +871,7 @@
           "draw": 12,
           "lost": 7,
           "points": 69,
-          "goalDifference": 61
+          "goalDifference": 27
         },
         {
           "position": 7,
@@ -679,8 +880,8 @@
           "won": 15,
           "draw": 14,
           "lost": 9,
-          "points": 0,
-          "goalDifference": 51
+          "points": 59,
+          "goalDifference": 15
         },
         {
           "position": 8,
@@ -690,7 +891,7 @@
           "draw": 8,
           "lost": 14,
           "points": 56,
-          "goalDifference": 49
+          "goalDifference": 3
         },
         {
           "position": 9,
@@ -700,7 +901,7 @@
           "draw": 12,
           "lost": 12,
           "points": 54,
-          "goalDifference": 41
+          "goalDifference": 1
         },
         {
           "position": 10,
@@ -710,7 +911,7 @@
           "draw": 8,
           "lost": 16,
           "points": 50,
-          "goalDifference": 45
+          "goalDifference": -3
         },
         {
           "position": 11,
@@ -720,7 +921,7 @@
           "draw": 7,
           "lost": 17,
           "points": 49,
-          "goalDifference": 46
+          "goalDifference": -4
         },
         {
           "position": 12,
@@ -730,7 +931,7 @@
           "draw": 9,
           "lost": 17,
           "points": 45,
-          "goalDifference": 44
+          "goalDifference": -19
         },
         {
           "position": 13,
@@ -740,7 +941,7 @@
           "draw": 12,
           "lost": 15,
           "points": 45,
-          "goalDifference": 28
+          "goalDifference": -18
         },
         {
           "position": 14,
@@ -750,7 +951,7 @@
           "draw": 10,
           "lost": 17,
           "points": 43,
-          "goalDifference": 40
+          "goalDifference": -13
         },
         {
           "position": 15,
@@ -760,7 +961,7 @@
           "draw": 15,
           "lost": 14,
           "points": 42,
-          "goalDifference": 41
+          "goalDifference": -9
         },
         {
           "position": 16,
@@ -770,7 +971,7 @@
           "draw": 11,
           "lost": 17,
           "points": 41,
-          "goalDifference": 41
+          "goalDifference": -10
         },
         {
           "position": 17,
@@ -780,7 +981,7 @@
           "draw": 8,
           "lost": 20,
           "points": 38,
-          "goalDifference": 28
+          "goalDifference": -22
         },
         {
           "position": 18,
@@ -789,8 +990,8 @@
           "won": 8,
           "draw": 10,
           "lost": 20,
-          "points": 0,
-          "goalDifference": 32
+          "points": 34,
+          "goalDifference": -25
         },
         {
           "position": 19,
@@ -800,7 +1001,7 @@
           "draw": 12,
           "lost": 23,
           "points": 21,
-          "goalDifference": 25
+          "goalDifference": -36
         },
         {
           "position": 20,
@@ -810,28 +1011,28 @@
           "draw": 12,
           "lost": 24,
           "points": 18,
-          "goalDifference": 26
+          "goalDifference": -45
         }
       ],
       "fixtures": [],
       "results": [],
-      "status": "HTML scrape: no html scraping source | football-data.org: SA: HTTP 400"
+      "status": ""
     },
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-05-31T19:47:04.374Z",
-      "source": "Wikipedia 2025–26 Ligue 1",
+      "updatedAt": "2026-05-31T20:22:25.756Z",
+      "source": "HTML scrape https://www.mackolik.com/puan-durumu/fransa-ligue-1/dm5ka0os1e3dxcp3vh05kmp33",
       "table": [
         {
           "position": 1,
-          "team": "Paris Saint-Germain",
+          "team": "PSG",
           "played": 34,
           "won": 24,
           "draw": 4,
           "lost": 6,
-          "points": 0,
-          "goalDifference": 74
+          "points": 76,
+          "goalDifference": 45
         },
         {
           "position": 2,
@@ -841,7 +1042,7 @@
           "draw": 4,
           "lost": 8,
           "points": 70,
-          "goalDifference": 66
+          "goalDifference": 31
         },
         {
           "position": 3,
@@ -851,7 +1052,7 @@
           "draw": 7,
           "lost": 9,
           "points": 61,
-          "goalDifference": 52
+          "goalDifference": 15
         },
         {
           "position": 4,
@@ -860,28 +1061,28 @@
           "won": 18,
           "draw": 6,
           "lost": 10,
-          "points": 0,
-          "goalDifference": 53
+          "points": 60,
+          "goalDifference": 13
         },
         {
           "position": 5,
-          "team": "Marseille",
+          "team": "Marsilya",
           "played": 34,
           "won": 18,
           "draw": 5,
           "lost": 11,
-          "points": 0,
-          "goalDifference": 63
+          "points": 59,
+          "goalDifference": 18
         },
         {
           "position": 6,
           "team": "Rennes",
           "played": 34,
-          "won": 17,
-          "draw": 8,
-          "lost": 9,
-          "points": 59,
-          "goalDifference": 59
+          "won": 9,
+          "draw": 17,
+          "lost": 8,
+          "points": 34,
+          "goalDifference": 0
         },
         {
           "position": 7,
@@ -890,18 +1091,18 @@
           "won": 16,
           "draw": 6,
           "lost": 12,
-          "points": 0,
-          "goalDifference": 60
+          "points": 54,
+          "goalDifference": 6
         },
         {
           "position": 8,
           "team": "Strasbourg",
           "played": 34,
-          "won": 15,
-          "draw": 8,
-          "lost": 11,
-          "points": 53,
-          "goalDifference": 58
+          "won": 11,
+          "draw": 15,
+          "lost": 8,
+          "points": 47,
+          "goalDifference": 0
         },
         {
           "position": 9,
@@ -911,7 +1112,7 @@
           "draw": 9,
           "lost": 13,
           "points": 45,
-          "goalDifference": 47
+          "goalDifference": 1
         },
         {
           "position": 10,
@@ -921,7 +1122,7 @@
           "draw": 12,
           "lost": 11,
           "points": 45,
-          "goalDifference": 48
+          "goalDifference": -3
         },
         {
           "position": 11,
@@ -931,7 +1132,7 @@
           "draw": 11,
           "lost": 12,
           "points": 44,
-          "goalDifference": 47
+          "goalDifference": -3
         },
         {
           "position": 12,
@@ -941,7 +1142,7 @@
           "draw": 9,
           "lost": 15,
           "points": 39,
-          "goalDifference": 43
+          "goalDifference": -12
         },
         {
           "position": 13,
@@ -951,7 +1152,7 @@
           "draw": 9,
           "lost": 16,
           "points": 36,
-          "goalDifference": 29
+          "goalDifference": -19
         },
         {
           "position": 14,
@@ -961,17 +1162,17 @@
           "draw": 14,
           "lost": 13,
           "points": 35,
-          "goalDifference": 32
+          "goalDifference": -12
         },
         {
           "position": 15,
-          "team": "Auxerre",
+          "team": "AJ Auxerre",
           "played": 34,
           "won": 8,
           "draw": 10,
           "lost": 16,
           "points": 34,
-          "goalDifference": 34
+          "goalDifference": -10
         },
         {
           "position": 16,
@@ -980,8 +1181,8 @@
           "won": 7,
           "draw": 11,
           "lost": 16,
-          "points": 0,
-          "goalDifference": 37
+          "points": 32,
+          "goalDifference": -23
         },
         {
           "position": 17,
@@ -990,8 +1191,8 @@
           "won": 5,
           "draw": 9,
           "lost": 20,
-          "points": 2,
-          "goalDifference": 29
+          "points": 24,
+          "goalDifference": -23
         },
         {
           "position": 18,
@@ -1001,12 +1202,12 @@
           "draw": 8,
           "lost": 23,
           "points": 17,
-          "goalDifference": 32
+          "goalDifference": -44
         }
       ],
       "fixtures": [],
       "results": [],
-      "status": "HTML scrape: no html scraping source | football-data.org: FL1: HTTP 400"
+      "status": ""
     }
   ],
   "competition": "Süper Lig",
