@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-31T19:04:09.184Z",
+  "updatedAt": "2026-05-31T19:47:04.374Z",
   "source": "HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-05-31T19:04:09.184Z",
+      "updatedAt": "2026-05-31T19:47:04.374Z",
       "source": "HTML scrape https://www.mackolik.com/puan-durumu/t%C3%BCrkiye-s%C3%BCper-lig/482ofyysbdbeoxauk19yg7tdt",
       "table": [
         {
@@ -197,52 +197,816 @@
     {
       "id": "premier-league",
       "name": "Premier League",
-      "updatedAt": "2026-05-31T19:04:09.184Z",
+      "updatedAt": "2026-05-31T19:47:04.374Z",
       "source": "none",
       "table": [],
       "fixtures": [],
       "results": [],
-      "status": "HTML scrape: no html scraping source | football-data.org: PL: HTTP 400 | Wikipedia: no wikipedia source | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input"
+      "status": "HTML scrape: no html scraping source | football-data.org: PL: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input"
     },
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-05-31T19:04:09.184Z",
-      "source": "none",
-      "table": [],
+      "updatedAt": "2026-05-31T19:47:04.374Z",
+      "source": "Wikipedia 2025–26 La Liga",
+      "table": [
+        {
+          "position": 1,
+          "team": "Barcelona",
+          "played": 38,
+          "won": 31,
+          "draw": 1,
+          "lost": 6,
+          "points": 0,
+          "goalDifference": 95
+        },
+        {
+          "position": 2,
+          "team": "Real Madrid",
+          "played": 38,
+          "won": 27,
+          "draw": 5,
+          "lost": 6,
+          "points": 86,
+          "goalDifference": 77
+        },
+        {
+          "position": 3,
+          "team": "Villarreal",
+          "played": 38,
+          "won": 22,
+          "draw": 6,
+          "lost": 10,
+          "points": 72,
+          "goalDifference": 72
+        },
+        {
+          "position": 4,
+          "team": "Atlético Madrid",
+          "played": 38,
+          "won": 21,
+          "draw": 6,
+          "lost": 11,
+          "points": 69,
+          "goalDifference": 62
+        },
+        {
+          "position": 5,
+          "team": "Real Betis",
+          "played": 38,
+          "won": 15,
+          "draw": 15,
+          "lost": 8,
+          "points": 60,
+          "goalDifference": 59
+        },
+        {
+          "position": 6,
+          "team": "Celta Vigo",
+          "played": 38,
+          "won": 14,
+          "draw": 12,
+          "lost": 12,
+          "points": 0,
+          "goalDifference": 53
+        },
+        {
+          "position": 7,
+          "team": "Getafe",
+          "played": 38,
+          "won": 15,
+          "draw": 6,
+          "lost": 17,
+          "points": 0,
+          "goalDifference": 32
+        },
+        {
+          "position": 8,
+          "team": "Rayo Vallecano",
+          "played": 38,
+          "won": 12,
+          "draw": 14,
+          "lost": 12,
+          "points": 50,
+          "goalDifference": 41
+        },
+        {
+          "position": 9,
+          "team": "Valencia",
+          "played": 38,
+          "won": 13,
+          "draw": 10,
+          "lost": 15,
+          "points": 49,
+          "goalDifference": 46
+        },
+        {
+          "position": 10,
+          "team": "Real Sociedad",
+          "played": 38,
+          "won": 11,
+          "draw": 13,
+          "lost": 14,
+          "points": 0,
+          "goalDifference": 59
+        },
+        {
+          "position": 11,
+          "team": "Espanyol",
+          "played": 38,
+          "won": 12,
+          "draw": 10,
+          "lost": 16,
+          "points": 46,
+          "goalDifference": 43
+        },
+        {
+          "position": 12,
+          "team": "Athletic Bilbao",
+          "played": 38,
+          "won": 13,
+          "draw": 6,
+          "lost": 19,
+          "points": 45,
+          "goalDifference": 43
+        },
+        {
+          "position": 13,
+          "team": "Sevilla",
+          "played": 38,
+          "won": 12,
+          "draw": 7,
+          "lost": 19,
+          "points": 43,
+          "goalDifference": 46
+        },
+        {
+          "position": 14,
+          "team": "Alavés",
+          "played": 38,
+          "won": 11,
+          "draw": 10,
+          "lost": 17,
+          "points": 43,
+          "goalDifference": 44
+        },
+        {
+          "position": 15,
+          "team": "Elche",
+          "played": 38,
+          "won": 10,
+          "draw": 13,
+          "lost": 15,
+          "points": 43,
+          "goalDifference": 49
+        },
+        {
+          "position": 16,
+          "team": "Levante",
+          "played": 38,
+          "won": 11,
+          "draw": 9,
+          "lost": 18,
+          "points": 42,
+          "goalDifference": 47
+        },
+        {
+          "position": 17,
+          "team": "Osasuna",
+          "played": 38,
+          "won": 11,
+          "draw": 9,
+          "lost": 18,
+          "points": 42,
+          "goalDifference": 44
+        },
+        {
+          "position": 18,
+          "team": "Mallorca",
+          "played": 38,
+          "won": 11,
+          "draw": 9,
+          "lost": 18,
+          "points": 0,
+          "goalDifference": 47
+        },
+        {
+          "position": 19,
+          "team": "Girona",
+          "played": 38,
+          "won": 9,
+          "draw": 14,
+          "lost": 15,
+          "points": 41,
+          "goalDifference": 39
+        },
+        {
+          "position": 20,
+          "team": "Real Oviedo",
+          "played": 38,
+          "won": 6,
+          "draw": 11,
+          "lost": 21,
+          "points": 29,
+          "goalDifference": 26
+        }
+      ],
       "fixtures": [],
       "results": [],
-      "status": "HTML scrape: no html scraping source | football-data.org: PD: HTTP 400 | Wikipedia: no wikipedia source | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input"
+      "status": "HTML scrape: no html scraping source | football-data.org: PD: HTTP 400"
     },
     {
       "id": "bundesliga",
       "name": "Bundesliga",
-      "updatedAt": "2026-05-31T19:04:09.184Z",
-      "source": "none",
-      "table": [],
+      "updatedAt": "2026-05-31T19:47:04.374Z",
+      "source": "Wikipedia 2025–26 Bundesliga",
+      "table": [
+        {
+          "position": 1,
+          "team": "Bayern Munich",
+          "played": 34,
+          "won": 28,
+          "draw": 5,
+          "lost": 1,
+          "points": 0,
+          "goalDifference": 122
+        },
+        {
+          "position": 2,
+          "team": "Borussia Dortmund",
+          "played": 34,
+          "won": 22,
+          "draw": 7,
+          "lost": 5,
+          "points": 73,
+          "goalDifference": 70
+        },
+        {
+          "position": 3,
+          "team": "RB Leipzig",
+          "played": 34,
+          "won": 20,
+          "draw": 5,
+          "lost": 9,
+          "points": 65,
+          "goalDifference": 66
+        },
+        {
+          "position": 4,
+          "team": "VfB Stuttgart",
+          "played": 34,
+          "won": 18,
+          "draw": 8,
+          "lost": 8,
+          "points": 62,
+          "goalDifference": 71
+        },
+        {
+          "position": 5,
+          "team": "TSG Hoffenheim",
+          "played": 34,
+          "won": 18,
+          "draw": 7,
+          "lost": 9,
+          "points": 0,
+          "goalDifference": 65
+        },
+        {
+          "position": 6,
+          "team": "Bayer Leverkusen",
+          "played": 34,
+          "won": 17,
+          "draw": 8,
+          "lost": 9,
+          "points": 59,
+          "goalDifference": 68
+        },
+        {
+          "position": 7,
+          "team": "SC Freiburg",
+          "played": 34,
+          "won": 13,
+          "draw": 8,
+          "lost": 13,
+          "points": 0,
+          "goalDifference": 51
+        },
+        {
+          "position": 8,
+          "team": "Eintracht Frankfurt",
+          "played": 34,
+          "won": 11,
+          "draw": 11,
+          "lost": 12,
+          "points": 44,
+          "goalDifference": 61
+        },
+        {
+          "position": 9,
+          "team": "FC Augsburg",
+          "played": 34,
+          "won": 12,
+          "draw": 7,
+          "lost": 15,
+          "points": 43,
+          "goalDifference": 45
+        },
+        {
+          "position": 10,
+          "team": "Mainz 05",
+          "played": 34,
+          "won": 10,
+          "draw": 10,
+          "lost": 14,
+          "points": 40,
+          "goalDifference": 44
+        },
+        {
+          "position": 11,
+          "team": "Union Berlin",
+          "played": 34,
+          "won": 10,
+          "draw": 9,
+          "lost": 15,
+          "points": 39,
+          "goalDifference": 44
+        },
+        {
+          "position": 12,
+          "team": "Borussia Mönchengladbach",
+          "played": 34,
+          "won": 9,
+          "draw": 11,
+          "lost": 14,
+          "points": 38,
+          "goalDifference": 42
+        },
+        {
+          "position": 13,
+          "team": "Hamburger SV",
+          "played": 34,
+          "won": 9,
+          "draw": 11,
+          "lost": 14,
+          "points": 38,
+          "goalDifference": 40
+        },
+        {
+          "position": 14,
+          "team": "1. FC Köln",
+          "played": 34,
+          "won": 7,
+          "draw": 11,
+          "lost": 16,
+          "points": 32,
+          "goalDifference": 49
+        },
+        {
+          "position": 15,
+          "team": "Werder Bremen",
+          "played": 34,
+          "won": 8,
+          "draw": 8,
+          "lost": 18,
+          "points": 32,
+          "goalDifference": 37
+        },
+        {
+          "position": 16,
+          "team": "VfL Wolfsburg",
+          "played": 34,
+          "won": 7,
+          "draw": 8,
+          "lost": 19,
+          "points": 0,
+          "goalDifference": 45
+        },
+        {
+          "position": 17,
+          "team": "1. FC Heidenheim",
+          "played": 34,
+          "won": 6,
+          "draw": 8,
+          "lost": 20,
+          "points": 2,
+          "goalDifference": 41
+        },
+        {
+          "position": 18,
+          "team": "FC St. Pauli",
+          "played": 34,
+          "won": 6,
+          "draw": 8,
+          "lost": 20,
+          "points": 26,
+          "goalDifference": 29
+        }
+      ],
       "fixtures": [],
       "results": [],
-      "status": "HTML scrape: no html scraping source | football-data.org: BL1: HTTP 400 | Wikipedia: no wikipedia source | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input"
+      "status": "HTML scrape: no html scraping source | football-data.org: BL1: HTTP 400"
     },
     {
       "id": "serie-a",
       "name": "Serie A",
-      "updatedAt": "2026-05-31T19:04:09.184Z",
-      "source": "none",
-      "table": [],
+      "updatedAt": "2026-05-31T19:47:04.374Z",
+      "source": "Wikipedia 2025–26 Serie A",
+      "table": [
+        {
+          "position": 1,
+          "team": "Inter Milan",
+          "played": 38,
+          "won": 27,
+          "draw": 6,
+          "lost": 5,
+          "points": 0,
+          "goalDifference": 89
+        },
+        {
+          "position": 2,
+          "team": "Napoli",
+          "played": 38,
+          "won": 23,
+          "draw": 7,
+          "lost": 8,
+          "points": 76,
+          "goalDifference": 58
+        },
+        {
+          "position": 3,
+          "team": "Roma",
+          "played": 38,
+          "won": 23,
+          "draw": 4,
+          "lost": 11,
+          "points": 73,
+          "goalDifference": 59
+        },
+        {
+          "position": 4,
+          "team": "Como",
+          "played": 38,
+          "won": 20,
+          "draw": 11,
+          "lost": 7,
+          "points": 71,
+          "goalDifference": 65
+        },
+        {
+          "position": 5,
+          "team": "AC Milan",
+          "played": 38,
+          "won": 20,
+          "draw": 10,
+          "lost": 8,
+          "points": 0,
+          "goalDifference": 53
+        },
+        {
+          "position": 6,
+          "team": "Juventus",
+          "played": 38,
+          "won": 19,
+          "draw": 12,
+          "lost": 7,
+          "points": 69,
+          "goalDifference": 61
+        },
+        {
+          "position": 7,
+          "team": "Atalanta",
+          "played": 38,
+          "won": 15,
+          "draw": 14,
+          "lost": 9,
+          "points": 0,
+          "goalDifference": 51
+        },
+        {
+          "position": 8,
+          "team": "Bologna",
+          "played": 38,
+          "won": 16,
+          "draw": 8,
+          "lost": 14,
+          "points": 56,
+          "goalDifference": 49
+        },
+        {
+          "position": 9,
+          "team": "Lazio",
+          "played": 38,
+          "won": 14,
+          "draw": 12,
+          "lost": 12,
+          "points": 54,
+          "goalDifference": 41
+        },
+        {
+          "position": 10,
+          "team": "Udinese",
+          "played": 38,
+          "won": 14,
+          "draw": 8,
+          "lost": 16,
+          "points": 50,
+          "goalDifference": 45
+        },
+        {
+          "position": 11,
+          "team": "Sassuolo",
+          "played": 38,
+          "won": 14,
+          "draw": 7,
+          "lost": 17,
+          "points": 49,
+          "goalDifference": 46
+        },
+        {
+          "position": 12,
+          "team": "Torino",
+          "played": 38,
+          "won": 12,
+          "draw": 9,
+          "lost": 17,
+          "points": 45,
+          "goalDifference": 44
+        },
+        {
+          "position": 13,
+          "team": "Parma",
+          "played": 38,
+          "won": 11,
+          "draw": 12,
+          "lost": 15,
+          "points": 45,
+          "goalDifference": 28
+        },
+        {
+          "position": 14,
+          "team": "Cagliari",
+          "played": 38,
+          "won": 11,
+          "draw": 10,
+          "lost": 17,
+          "points": 43,
+          "goalDifference": 40
+        },
+        {
+          "position": 15,
+          "team": "Fiorentina",
+          "played": 38,
+          "won": 9,
+          "draw": 15,
+          "lost": 14,
+          "points": 42,
+          "goalDifference": 41
+        },
+        {
+          "position": 16,
+          "team": "Genoa",
+          "played": 38,
+          "won": 10,
+          "draw": 11,
+          "lost": 17,
+          "points": 41,
+          "goalDifference": 41
+        },
+        {
+          "position": 17,
+          "team": "Lecce",
+          "played": 38,
+          "won": 10,
+          "draw": 8,
+          "lost": 20,
+          "points": 38,
+          "goalDifference": 28
+        },
+        {
+          "position": 18,
+          "team": "Cremonese",
+          "played": 38,
+          "won": 8,
+          "draw": 10,
+          "lost": 20,
+          "points": 0,
+          "goalDifference": 32
+        },
+        {
+          "position": 19,
+          "team": "Hellas Verona",
+          "played": 38,
+          "won": 3,
+          "draw": 12,
+          "lost": 23,
+          "points": 21,
+          "goalDifference": 25
+        },
+        {
+          "position": 20,
+          "team": "Pisa",
+          "played": 38,
+          "won": 2,
+          "draw": 12,
+          "lost": 24,
+          "points": 18,
+          "goalDifference": 26
+        }
+      ],
       "fixtures": [],
       "results": [],
-      "status": "HTML scrape: no html scraping source | football-data.org: SA: HTTP 400 | Wikipedia: no wikipedia source | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input"
+      "status": "HTML scrape: no html scraping source | football-data.org: SA: HTTP 400"
     },
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-05-31T19:04:09.184Z",
-      "source": "none",
-      "table": [],
+      "updatedAt": "2026-05-31T19:47:04.374Z",
+      "source": "Wikipedia 2025–26 Ligue 1",
+      "table": [
+        {
+          "position": 1,
+          "team": "Paris Saint-Germain",
+          "played": 34,
+          "won": 24,
+          "draw": 4,
+          "lost": 6,
+          "points": 0,
+          "goalDifference": 74
+        },
+        {
+          "position": 2,
+          "team": "Lens",
+          "played": 34,
+          "won": 22,
+          "draw": 4,
+          "lost": 8,
+          "points": 70,
+          "goalDifference": 66
+        },
+        {
+          "position": 3,
+          "team": "Lille",
+          "played": 34,
+          "won": 18,
+          "draw": 7,
+          "lost": 9,
+          "points": 61,
+          "goalDifference": 52
+        },
+        {
+          "position": 4,
+          "team": "Lyon",
+          "played": 34,
+          "won": 18,
+          "draw": 6,
+          "lost": 10,
+          "points": 0,
+          "goalDifference": 53
+        },
+        {
+          "position": 5,
+          "team": "Marseille",
+          "played": 34,
+          "won": 18,
+          "draw": 5,
+          "lost": 11,
+          "points": 0,
+          "goalDifference": 63
+        },
+        {
+          "position": 6,
+          "team": "Rennes",
+          "played": 34,
+          "won": 17,
+          "draw": 8,
+          "lost": 9,
+          "points": 59,
+          "goalDifference": 59
+        },
+        {
+          "position": 7,
+          "team": "Monaco",
+          "played": 34,
+          "won": 16,
+          "draw": 6,
+          "lost": 12,
+          "points": 0,
+          "goalDifference": 60
+        },
+        {
+          "position": 8,
+          "team": "Strasbourg",
+          "played": 34,
+          "won": 15,
+          "draw": 8,
+          "lost": 11,
+          "points": 53,
+          "goalDifference": 58
+        },
+        {
+          "position": 9,
+          "team": "Toulouse",
+          "played": 34,
+          "won": 12,
+          "draw": 9,
+          "lost": 13,
+          "points": 45,
+          "goalDifference": 47
+        },
+        {
+          "position": 10,
+          "team": "Lorient",
+          "played": 34,
+          "won": 11,
+          "draw": 12,
+          "lost": 11,
+          "points": 45,
+          "goalDifference": 48
+        },
+        {
+          "position": 11,
+          "team": "Paris FC",
+          "played": 34,
+          "won": 11,
+          "draw": 11,
+          "lost": 12,
+          "points": 44,
+          "goalDifference": 47
+        },
+        {
+          "position": 12,
+          "team": "Brest",
+          "played": 34,
+          "won": 10,
+          "draw": 9,
+          "lost": 15,
+          "points": 39,
+          "goalDifference": 43
+        },
+        {
+          "position": 13,
+          "team": "Angers",
+          "played": 34,
+          "won": 9,
+          "draw": 9,
+          "lost": 16,
+          "points": 36,
+          "goalDifference": 29
+        },
+        {
+          "position": 14,
+          "team": "Le Havre",
+          "played": 34,
+          "won": 7,
+          "draw": 14,
+          "lost": 13,
+          "points": 35,
+          "goalDifference": 32
+        },
+        {
+          "position": 15,
+          "team": "Auxerre",
+          "played": 34,
+          "won": 8,
+          "draw": 10,
+          "lost": 16,
+          "points": 34,
+          "goalDifference": 34
+        },
+        {
+          "position": 16,
+          "team": "Nice",
+          "played": 34,
+          "won": 7,
+          "draw": 11,
+          "lost": 16,
+          "points": 0,
+          "goalDifference": 37
+        },
+        {
+          "position": 17,
+          "team": "Nantes",
+          "played": 34,
+          "won": 5,
+          "draw": 9,
+          "lost": 20,
+          "points": 2,
+          "goalDifference": 29
+        },
+        {
+          "position": 18,
+          "team": "Metz",
+          "played": 34,
+          "won": 3,
+          "draw": 8,
+          "lost": 23,
+          "points": 17,
+          "goalDifference": 32
+        }
+      ],
       "fixtures": [],
       "results": [],
-      "status": "HTML scrape: no html scraping source | football-data.org: FL1: HTTP 400 | Wikipedia: no wikipedia source | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input"
+      "status": "HTML scrape: no html scraping source | football-data.org: FL1: HTTP 400"
     }
   ],
   "competition": "Süper Lig",
