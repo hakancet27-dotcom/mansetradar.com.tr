@@ -3,16 +3,17 @@ import { mkdir, writeFile } from 'node:fs/promises';
 const DATA_DIR = 'data';
 const updatedAt = new Date().toISOString();
 const API_KEY = process.env.APIFOOTBALL_API_KEY || process.env.API_FOOTBALL_KEY || process.env.API_SPORTS_KEY || '';
+const FOOTBALLDATA_KEY = process.env.FOOTBALLDATA_KEY || process.env.FOOTBALL_DATA_KEY || '';
 const requestedSeason = process.env.FOOTBALL_SEASON || '';
 const seasons = requestedSeason ? [requestedSeason] : ['2026', '2025', '2024', '2023'];
 
 const leagues = [
-  { id: 'super-lig', name: 'Süper Lig', apiFootballId: 203, sportsDbId: '4339', sportsDbSeasons: ['2025-2026', '2025-26', '2026', '2024-2025'] },
-  { id: 'premier-league', name: 'Premier League', apiFootballId: 39, sportsDbId: '4328', sportsDbSeasons: ['2025-2026', '2025-26', '2026', '2024-2025'] },
-  { id: 'la-liga', name: 'La Liga', apiFootballId: 140, sportsDbId: '4335', sportsDbSeasons: ['2025-2026', '2025-26', '2026', '2024-2025'] },
-  { id: 'bundesliga', name: 'Bundesliga', apiFootballId: 78, sportsDbId: '4331', sportsDbSeasons: ['2025-2026', '2025-26', '2026', '2024-2025'] },
-  { id: 'serie-a', name: 'Serie A', apiFootballId: 135, sportsDbId: '4332', sportsDbSeasons: ['2025-2026', '2025-26', '2026', '2024-2025'] },
-  { id: 'ligue-1', name: 'Ligue 1', apiFootballId: 61, sportsDbId: '4334', sportsDbSeasons: ['2025-2026', '2025-26', '2026', '2024-2025'] },
+  { id: 'super-lig', name: 'Süper Lig', apiFootballId: 203, sportsDbId: '4339', footballDataCodes: ['TSL', 'TUR'], sportsDbSeasons: ['2025-2026', '2025-26', '2026', '2024-2025'] },
+  { id: 'premier-league', name: 'Premier League', apiFootballId: 39, sportsDbId: '4328', footballDataCodes: ['PL'], sportsDbSeasons: ['2025-2026', '2025-26', '2026', '2024-2025'] },
+  { id: 'la-liga', name: 'La Liga', apiFootballId: 140, sportsDbId: '4335', footballDataCodes: ['PD'], sportsDbSeasons: ['2025-2026', '2025-26', '2026', '2024-2025'] },
+  { id: 'bundesliga', name: 'Bundesliga', apiFootballId: 78, sportsDbId: '4331', footballDataCodes: ['BL1'], sportsDbSeasons: ['2025-2026', '2025-26', '2026', '2024-2025'] },
+  { id: 'serie-a', name: 'Serie A', apiFootballId: 135, sportsDbId: '4332', footballDataCodes: ['SA'], sportsDbSeasons: ['2025-2026', '2025-26', '2026', '2024-2025'] },
+  { id: 'ligue-1', name: 'Ligue 1', apiFootballId: 61, sportsDbId: '4334', footballDataCodes: ['FL1'], sportsDbSeasons: ['2025-2026', '2025-26', '2026', '2024-2025'] },
 ];
 
 function normalizeApiFootballRow(row) {
@@ -26,6 +27,19 @@ function normalizeApiFootballRow(row) {
     lost: Number(all.lose || 0),
     points: Number(row?.points || 0),
     goalDifference: Number(row?.goalsDiff || 0),
+  };
+}
+
+function normalizeFootballDataRow(row) {
+  return {
+    position: Number(row?.position || 0),
+    team: String(row?.team?.shortName || row?.team?.name || 'Takım'),
+    played: Number(row?.playedGames || 0),
+    won: Number(row?.won || 0),
+    draw: Number(row?.draw || 0),
+    lost: Number(row?.lost || 0),
+    points: Number(row?.points || 0),
+    goalDifference: Number(row?.goalDifference || 0),
   };
 }
 
@@ -46,6 +60,27 @@ async function fetchJson(url, options = {}) {
   const response = await fetch(url, options);
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   return response.json();
+}
+
+async function fetchFootballDataStandings(league) {
+  if (!FOOTBALLDATA_KEY) throw new Error('FOOTBALLDATA_KEY missing');
+  const errors = [];
+
+  for (const code of league.footballDataCodes || []) {
+    try {
+      const payload = await fetchJson(`https://api.football-data.org/v4/competitions/${encodeURIComponent(code)}/standings`, {
+        headers: { 'X-Auth-Token': FOOTBALLDATA_KEY },
+      });
+      const total = payload?.standings?.find((standing) => standing.type === 'TOTAL') || payload?.standings?.[0];
+      const rows = total?.table || [];
+      if (!Array.isArray(rows) || !rows.length) throw new Error(`empty table code ${code}`);
+      return { source: `football-data.org ${code}`, table: rows.map(normalizeFootballDataRow) };
+    } catch (error) {
+      errors.push(`${code}: ${error instanceof Error ? error.message : 'unknown error'}`);
+    }
+  }
+
+  throw new Error(errors.join(' | '));
 }
 
 async function fetchApiFootballStandings(league) {
@@ -87,8 +122,15 @@ async function fetchSportsDbStandings(league) {
 async function fetchStandings(league) {
   const errors = [];
   try {
-    const result = await fetchApiFootballStandings(league);
+    const result = await fetchFootballDataStandings(league);
     return { id: league.id, name: league.name, updatedAt, ...result, fixtures: [], results: [], status: '' };
+  } catch (error) {
+    errors.push(`football-data.org: ${error instanceof Error ? error.message : 'unknown error'}`);
+  }
+
+  try {
+    const result = await fetchApiFootballStandings(league);
+    return { id: league.id, name: league.name, updatedAt, ...result, fixtures: [], results: [], status: errors.join(' | ') };
   } catch (error) {
     errors.push(`API-FOOTBALL: ${error instanceof Error ? error.message : 'unknown error'}`);
   }
@@ -111,7 +153,7 @@ await writeFile(
   `${DATA_DIR}/standings.json`,
   JSON.stringify({
     updatedAt,
-    source: 'API-FOOTBALL/TheSportsDB',
+    source: 'football-data.org/API-FOOTBALL/TheSportsDB',
     defaultLeagueId: 'super-lig',
     leagues: leaguePayloads,
     competition: defaultLeague?.name || 'Süper Lig',
