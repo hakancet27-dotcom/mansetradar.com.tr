@@ -4,7 +4,15 @@ on:
   workflow_dispatch:
   schedule:
     # GitHub cron UTC çalışır. Türkiye saati 00:01 için UTC 21:01 kullanılır.
+    # Bu günlük çalışma burç verisini yeni güne taşır ve puan durumunu da yeniler.
     - cron: '1 21 * * *'
+    # Hafta sonu maç trafiği için ek puan durumu yenilemesi.
+    # Türkiye saati Cumartesi/Pazar 13:00, 15:00, 17:00, 19:00, 21:00, 23:00.
+    # Bu ek çalışmada burç dosyası güncellenmez; sadece puan durumu yenilenir.
+    - cron: '0 10-20/2 * * 6,0'
+    # Türkiye saati Pazar/Pazartesi 02:00 final kontrolü.
+    # Cumartesi ve Pazar geç biten maçların tabloya yansıması için kullanılır.
+    - cron: '0 23 * * 6,0'
 
 permissions:
   contents: write
@@ -22,6 +30,7 @@ jobs:
           node-version: '20'
 
       - name: Generate horoscope sidebar JSON
+        if: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '1 21 * * *' }}
         run: node scripts/update-sidebar-data.mjs
 
       - name: Generate real football standings
