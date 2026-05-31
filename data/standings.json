@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-31T07:05:27.004Z",
+  "updatedAt": "2026-05-31T14:36:58.716Z",
   "source": "multi-league",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-05-31T07:05:27.004Z",
+      "updatedAt": "2026-05-31T14:36:58.716Z",
       "source": "TheSportsDB",
       "table": [
         {
@@ -64,8 +64,8 @@
     {
       "id": "premier-league",
       "name": "Premier League",
-      "updatedAt": "2026-05-31T07:05:27.004Z",
-      "source": "football-data.org",
+      "updatedAt": "2026-05-31T14:36:58.716Z",
+      "source": "TheSportsDB",
       "table": [
         {
           "position": 1,
@@ -79,7 +79,7 @@
         },
         {
           "position": 2,
-          "team": "Man City",
+          "team": "Manchester City",
           "played": 38,
           "won": 23,
           "draw": 9,
@@ -89,7 +89,7 @@
         },
         {
           "position": 3,
-          "team": "Man United",
+          "team": "Manchester United",
           "played": 38,
           "won": 20,
           "draw": 11,
@@ -116,168 +116,18 @@
           "lost": 12,
           "points": 60,
           "goalDifference": 10
-        },
-        {
-          "position": 6,
-          "team": "Bournemouth",
-          "played": 38,
-          "won": 13,
-          "draw": 18,
-          "lost": 7,
-          "points": 57,
-          "goalDifference": 4
-        },
-        {
-          "position": 7,
-          "team": "Sunderland",
-          "played": 38,
-          "won": 14,
-          "draw": 12,
-          "lost": 12,
-          "points": 54,
-          "goalDifference": -6
-        },
-        {
-          "position": 8,
-          "team": "Brighton Hove",
-          "played": 38,
-          "won": 14,
-          "draw": 11,
-          "lost": 13,
-          "points": 53,
-          "goalDifference": 6
-        },
-        {
-          "position": 9,
-          "team": "Brentford",
-          "played": 38,
-          "won": 14,
-          "draw": 11,
-          "lost": 13,
-          "points": 53,
-          "goalDifference": 3
-        },
-        {
-          "position": 10,
-          "team": "Chelsea",
-          "played": 38,
-          "won": 14,
-          "draw": 10,
-          "lost": 14,
-          "points": 52,
-          "goalDifference": 6
-        },
-        {
-          "position": 11,
-          "team": "Fulham",
-          "played": 38,
-          "won": 15,
-          "draw": 7,
-          "lost": 16,
-          "points": 52,
-          "goalDifference": -4
-        },
-        {
-          "position": 12,
-          "team": "Newcastle",
-          "played": 38,
-          "won": 14,
-          "draw": 7,
-          "lost": 17,
-          "points": 49,
-          "goalDifference": -2
-        },
-        {
-          "position": 13,
-          "team": "Everton",
-          "played": 38,
-          "won": 13,
-          "draw": 10,
-          "lost": 15,
-          "points": 49,
-          "goalDifference": -3
-        },
-        {
-          "position": 14,
-          "team": "Leeds United",
-          "played": 38,
-          "won": 11,
-          "draw": 14,
-          "lost": 13,
-          "points": 47,
-          "goalDifference": -7
-        },
-        {
-          "position": 15,
-          "team": "Crystal Palace",
-          "played": 38,
-          "won": 11,
-          "draw": 12,
-          "lost": 15,
-          "points": 45,
-          "goalDifference": -10
-        },
-        {
-          "position": 16,
-          "team": "Nottingham",
-          "played": 38,
-          "won": 11,
-          "draw": 11,
-          "lost": 16,
-          "points": 44,
-          "goalDifference": -3
-        },
-        {
-          "position": 17,
-          "team": "Tottenham",
-          "played": 38,
-          "won": 10,
-          "draw": 11,
-          "lost": 17,
-          "points": 41,
-          "goalDifference": -9
-        },
-        {
-          "position": 18,
-          "team": "West Ham",
-          "played": 38,
-          "won": 10,
-          "draw": 9,
-          "lost": 19,
-          "points": 39,
-          "goalDifference": -19
-        },
-        {
-          "position": 19,
-          "team": "Burnley",
-          "played": 38,
-          "won": 4,
-          "draw": 10,
-          "lost": 24,
-          "points": 22,
-          "goalDifference": -37
-        },
-        {
-          "position": 20,
-          "team": "Wolverhampton",
-          "played": 38,
-          "won": 3,
-          "draw": 11,
-          "lost": 24,
-          "points": 20,
-          "goalDifference": -41
         }
       ]
     },
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-05-31T07:05:27.004Z",
-      "source": "football-data.org",
+      "updatedAt": "2026-05-31T14:36:58.716Z",
+      "source": "TheSportsDB",
       "table": [
         {
           "position": 1,
-          "team": "Barça",
+          "team": "Barcelona",
           "played": 38,
           "won": 31,
           "draw": 1,
@@ -307,7 +157,7 @@
         },
         {
           "position": 4,
-          "team": "Atleti",
+          "team": "Atlético Madrid",
           "played": 38,
           "won": 21,
           "draw": 6,
@@ -324,168 +174,18 @@
           "lost": 8,
           "points": 60,
           "goalDifference": 11
-        },
-        {
-          "position": 6,
-          "team": "Celta",
-          "played": 38,
-          "won": 14,
-          "draw": 12,
-          "lost": 12,
-          "points": 54,
-          "goalDifference": 5
-        },
-        {
-          "position": 7,
-          "team": "Getafe",
-          "played": 38,
-          "won": 15,
-          "draw": 6,
-          "lost": 17,
-          "points": 51,
-          "goalDifference": -6
-        },
-        {
-          "position": 8,
-          "team": "Rayo Vallecano",
-          "played": 38,
-          "won": 12,
-          "draw": 14,
-          "lost": 12,
-          "points": 50,
-          "goalDifference": -3
-        },
-        {
-          "position": 9,
-          "team": "Valencia",
-          "played": 38,
-          "won": 13,
-          "draw": 10,
-          "lost": 15,
-          "points": 49,
-          "goalDifference": -9
-        },
-        {
-          "position": 10,
-          "team": "Real Sociedad",
-          "played": 38,
-          "won": 11,
-          "draw": 13,
-          "lost": 14,
-          "points": 46,
-          "goalDifference": -2
-        },
-        {
-          "position": 11,
-          "team": "Espanyol",
-          "played": 38,
-          "won": 12,
-          "draw": 10,
-          "lost": 16,
-          "points": 46,
-          "goalDifference": -12
-        },
-        {
-          "position": 12,
-          "team": "Athletic",
-          "played": 38,
-          "won": 13,
-          "draw": 6,
-          "lost": 19,
-          "points": 45,
-          "goalDifference": -15
-        },
-        {
-          "position": 13,
-          "team": "Sevilla FC",
-          "played": 38,
-          "won": 12,
-          "draw": 7,
-          "lost": 19,
-          "points": 43,
-          "goalDifference": -14
-        },
-        {
-          "position": 14,
-          "team": "Alavés",
-          "played": 38,
-          "won": 11,
-          "draw": 10,
-          "lost": 17,
-          "points": 43,
-          "goalDifference": -12
-        },
-        {
-          "position": 15,
-          "team": "Elche",
-          "played": 38,
-          "won": 10,
-          "draw": 13,
-          "lost": 15,
-          "points": 43,
-          "goalDifference": -8
-        },
-        {
-          "position": 16,
-          "team": "Levante",
-          "played": 38,
-          "won": 11,
-          "draw": 9,
-          "lost": 18,
-          "points": 42,
-          "goalDifference": -14
-        },
-        {
-          "position": 17,
-          "team": "Osasuna",
-          "played": 38,
-          "won": 11,
-          "draw": 9,
-          "lost": 18,
-          "points": 42,
-          "goalDifference": -6
-        },
-        {
-          "position": 18,
-          "team": "Mallorca",
-          "played": 38,
-          "won": 11,
-          "draw": 9,
-          "lost": 18,
-          "points": 42,
-          "goalDifference": -10
-        },
-        {
-          "position": 19,
-          "team": "Girona",
-          "played": 38,
-          "won": 9,
-          "draw": 14,
-          "lost": 15,
-          "points": 41,
-          "goalDifference": -16
-        },
-        {
-          "position": 20,
-          "team": "Real Oviedo",
-          "played": 38,
-          "won": 6,
-          "draw": 11,
-          "lost": 21,
-          "points": 29,
-          "goalDifference": -34
         }
       ]
     },
     {
       "id": "bundesliga",
       "name": "Bundesliga",
-      "updatedAt": "2026-05-31T07:05:27.004Z",
-      "source": "football-data.org",
+      "updatedAt": "2026-05-31T14:36:58.716Z",
+      "source": "TheSportsDB",
       "table": [
         {
           "position": 1,
-          "team": "Bayern",
+          "team": "Bayern Munich",
           "played": 34,
           "won": 28,
           "draw": 5,
@@ -495,7 +195,7 @@
         },
         {
           "position": 2,
-          "team": "Dortmund",
+          "team": "Borussia Dortmund",
           "played": 34,
           "won": 22,
           "draw": 7,
@@ -532,148 +232,18 @@
           "lost": 9,
           "points": 61,
           "goalDifference": 13
-        },
-        {
-          "position": 6,
-          "team": "Leverkusen",
-          "played": 34,
-          "won": 17,
-          "draw": 8,
-          "lost": 9,
-          "points": 59,
-          "goalDifference": 21
-        },
-        {
-          "position": 7,
-          "team": "Freiburg",
-          "played": 34,
-          "won": 13,
-          "draw": 8,
-          "lost": 13,
-          "points": 47,
-          "goalDifference": -6
-        },
-        {
-          "position": 8,
-          "team": "Frankfurt",
-          "played": 34,
-          "won": 11,
-          "draw": 11,
-          "lost": 12,
-          "points": 44,
-          "goalDifference": -4
-        },
-        {
-          "position": 9,
-          "team": "Augsburg",
-          "played": 34,
-          "won": 12,
-          "draw": 7,
-          "lost": 15,
-          "points": 43,
-          "goalDifference": -16
-        },
-        {
-          "position": 10,
-          "team": "Mainz",
-          "played": 34,
-          "won": 10,
-          "draw": 10,
-          "lost": 14,
-          "points": 40,
-          "goalDifference": -9
-        },
-        {
-          "position": 11,
-          "team": "Union Berlin",
-          "played": 34,
-          "won": 10,
-          "draw": 9,
-          "lost": 15,
-          "points": 39,
-          "goalDifference": -14
-        },
-        {
-          "position": 12,
-          "team": "M'gladbach",
-          "played": 34,
-          "won": 9,
-          "draw": 11,
-          "lost": 14,
-          "points": 38,
-          "goalDifference": -11
-        },
-        {
-          "position": 13,
-          "team": "HSV",
-          "played": 34,
-          "won": 9,
-          "draw": 11,
-          "lost": 14,
-          "points": 38,
-          "goalDifference": -14
-        },
-        {
-          "position": 14,
-          "team": "1. FC Köln",
-          "played": 34,
-          "won": 7,
-          "draw": 11,
-          "lost": 16,
-          "points": 32,
-          "goalDifference": -14
-        },
-        {
-          "position": 15,
-          "team": "Bremen",
-          "played": 34,
-          "won": 8,
-          "draw": 8,
-          "lost": 18,
-          "points": 32,
-          "goalDifference": -23
-        },
-        {
-          "position": 16,
-          "team": "Wolfsburg",
-          "played": 34,
-          "won": 7,
-          "draw": 8,
-          "lost": 19,
-          "points": 29,
-          "goalDifference": -24
-        },
-        {
-          "position": 17,
-          "team": "Heidenheim",
-          "played": 34,
-          "won": 6,
-          "draw": 8,
-          "lost": 20,
-          "points": 26,
-          "goalDifference": -31
-        },
-        {
-          "position": 18,
-          "team": "St. Pauli",
-          "played": 34,
-          "won": 6,
-          "draw": 8,
-          "lost": 20,
-          "points": 26,
-          "goalDifference": -31
         }
       ]
     },
     {
       "id": "serie-a",
       "name": "Serie A",
-      "updatedAt": "2026-05-31T07:05:27.004Z",
-      "source": "football-data.org",
+      "updatedAt": "2026-05-31T14:36:58.716Z",
+      "source": "TheSportsDB",
       "table": [
         {
           "position": 1,
-          "team": "Inter",
+          "team": "Inter Milan",
           "played": 38,
           "won": 27,
           "draw": 6,
@@ -703,7 +273,7 @@
         },
         {
           "position": 4,
-          "team": "Como 1907",
+          "team": "Como",
           "played": 38,
           "won": 20,
           "draw": 11,
@@ -713,175 +283,25 @@
         },
         {
           "position": 5,
-          "team": "Milan",
+          "team": "AC Milan",
           "played": 38,
           "won": 20,
           "draw": 10,
           "lost": 8,
           "points": 70,
           "goalDifference": 18
-        },
-        {
-          "position": 6,
-          "team": "Juventus",
-          "played": 38,
-          "won": 19,
-          "draw": 12,
-          "lost": 7,
-          "points": 69,
-          "goalDifference": 27
-        },
-        {
-          "position": 7,
-          "team": "Atalanta",
-          "played": 38,
-          "won": 15,
-          "draw": 14,
-          "lost": 9,
-          "points": 59,
-          "goalDifference": 15
-        },
-        {
-          "position": 8,
-          "team": "Bologna",
-          "played": 38,
-          "won": 16,
-          "draw": 8,
-          "lost": 14,
-          "points": 56,
-          "goalDifference": 3
-        },
-        {
-          "position": 9,
-          "team": "Lazio",
-          "played": 38,
-          "won": 14,
-          "draw": 12,
-          "lost": 12,
-          "points": 54,
-          "goalDifference": 1
-        },
-        {
-          "position": 10,
-          "team": "Udinese",
-          "played": 38,
-          "won": 14,
-          "draw": 8,
-          "lost": 16,
-          "points": 50,
-          "goalDifference": -3
-        },
-        {
-          "position": 11,
-          "team": "Sassuolo",
-          "played": 38,
-          "won": 14,
-          "draw": 7,
-          "lost": 17,
-          "points": 49,
-          "goalDifference": -4
-        },
-        {
-          "position": 12,
-          "team": "Torino",
-          "played": 38,
-          "won": 12,
-          "draw": 9,
-          "lost": 17,
-          "points": 45,
-          "goalDifference": -19
-        },
-        {
-          "position": 13,
-          "team": "Parma",
-          "played": 38,
-          "won": 11,
-          "draw": 12,
-          "lost": 15,
-          "points": 45,
-          "goalDifference": -18
-        },
-        {
-          "position": 14,
-          "team": "Cagliari",
-          "played": 38,
-          "won": 11,
-          "draw": 10,
-          "lost": 17,
-          "points": 43,
-          "goalDifference": -13
-        },
-        {
-          "position": 15,
-          "team": "Fiorentina",
-          "played": 38,
-          "won": 9,
-          "draw": 15,
-          "lost": 14,
-          "points": 42,
-          "goalDifference": -9
-        },
-        {
-          "position": 16,
-          "team": "Genoa",
-          "played": 38,
-          "won": 10,
-          "draw": 11,
-          "lost": 17,
-          "points": 41,
-          "goalDifference": -10
-        },
-        {
-          "position": 17,
-          "team": "Lecce",
-          "played": 38,
-          "won": 10,
-          "draw": 8,
-          "lost": 20,
-          "points": 38,
-          "goalDifference": -22
-        },
-        {
-          "position": 18,
-          "team": "Cremonese",
-          "played": 38,
-          "won": 8,
-          "draw": 10,
-          "lost": 20,
-          "points": 34,
-          "goalDifference": -25
-        },
-        {
-          "position": 19,
-          "team": "Verona",
-          "played": 38,
-          "won": 3,
-          "draw": 12,
-          "lost": 23,
-          "points": 21,
-          "goalDifference": -36
-        },
-        {
-          "position": 20,
-          "team": "AC Pisa",
-          "played": 38,
-          "won": 2,
-          "draw": 12,
-          "lost": 24,
-          "points": 18,
-          "goalDifference": -45
         }
       ]
     },
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-05-31T07:05:27.004Z",
-      "source": "football-data.org",
+      "updatedAt": "2026-05-31T14:36:58.716Z",
+      "source": "TheSportsDB",
       "table": [
         {
           "position": 1,
-          "team": "PSG",
+          "team": "Paris SG",
           "played": 34,
           "won": 24,
           "draw": 4,
@@ -891,7 +311,7 @@
         },
         {
           "position": 2,
-          "team": "RC Lens",
+          "team": "Lens",
           "played": 34,
           "won": 22,
           "draw": 4,
@@ -911,7 +331,7 @@
         },
         {
           "position": 4,
-          "team": "Olympique Lyon",
+          "team": "Lyon",
           "played": 34,
           "won": 18,
           "draw": 6,
@@ -928,136 +348,6 @@
           "lost": 11,
           "points": 59,
           "goalDifference": 18
-        },
-        {
-          "position": 6,
-          "team": "Stade Rennais",
-          "played": 34,
-          "won": 17,
-          "draw": 8,
-          "lost": 9,
-          "points": 59,
-          "goalDifference": 9
-        },
-        {
-          "position": 7,
-          "team": "Monaco",
-          "played": 34,
-          "won": 16,
-          "draw": 6,
-          "lost": 12,
-          "points": 54,
-          "goalDifference": 6
-        },
-        {
-          "position": 8,
-          "team": "Strasbourg",
-          "played": 34,
-          "won": 15,
-          "draw": 8,
-          "lost": 11,
-          "points": 53,
-          "goalDifference": 11
-        },
-        {
-          "position": 9,
-          "team": "Toulouse",
-          "played": 34,
-          "won": 12,
-          "draw": 9,
-          "lost": 13,
-          "points": 45,
-          "goalDifference": 1
-        },
-        {
-          "position": 10,
-          "team": "Lorient",
-          "played": 34,
-          "won": 11,
-          "draw": 12,
-          "lost": 11,
-          "points": 45,
-          "goalDifference": -3
-        },
-        {
-          "position": 11,
-          "team": "Paris FC",
-          "played": 34,
-          "won": 11,
-          "draw": 11,
-          "lost": 12,
-          "points": 44,
-          "goalDifference": -3
-        },
-        {
-          "position": 12,
-          "team": "Brest",
-          "played": 34,
-          "won": 10,
-          "draw": 9,
-          "lost": 15,
-          "points": 39,
-          "goalDifference": -12
-        },
-        {
-          "position": 13,
-          "team": "Angers SCO",
-          "played": 34,
-          "won": 9,
-          "draw": 9,
-          "lost": 16,
-          "points": 36,
-          "goalDifference": -19
-        },
-        {
-          "position": 14,
-          "team": "Le Havre",
-          "played": 34,
-          "won": 7,
-          "draw": 14,
-          "lost": 13,
-          "points": 35,
-          "goalDifference": -12
-        },
-        {
-          "position": 15,
-          "team": "Auxerre",
-          "played": 34,
-          "won": 8,
-          "draw": 10,
-          "lost": 16,
-          "points": 34,
-          "goalDifference": -10
-        },
-        {
-          "position": 16,
-          "team": "Nice",
-          "played": 34,
-          "won": 7,
-          "draw": 11,
-          "lost": 16,
-          "points": 32,
-          "goalDifference": -23
-        },
-        {
-          "position": 17,
-          "team": "Nantes",
-          "played": 34,
-          "won": 5,
-          "draw": 9,
-          "lost": 20,
-          "points": 24,
-          "goalDifference": -23
-        },
-        {
-          "position": 18,
-          "team": "FC Metz",
-          "played": 34,
-          "won": 3,
-          "draw": 8,
-          "lost": 23,
-          "points": 17,
-          "goalDifference": -44
         }
       ]
     }
