@@ -13,6 +13,7 @@ const leagues = [
     name: 'Süper Lig',
     apiFootballId: 203,
     sportsDbId: '4339',
+    mackolikArchiveId: 1,
     footballDataCodes: ['TSL', 'TUR'],
     wikipediaTitle: '2025–26 Süper Lig',
     sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
@@ -30,6 +31,7 @@ const leagues = [
     name: 'Premier League',
     apiFootballId: 39,
     sportsDbId: '4328',
+    mackolikArchiveId: 24,
     footballDataCodes: ['PL'],
     wikipediaTitle: '2025–26 Premier League',
     sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
@@ -44,6 +46,7 @@ const leagues = [
     name: 'La Liga',
     apiFootballId: 140,
     sportsDbId: '4335',
+    mackolikArchiveId: 20,
     footballDataCodes: ['PD'],
     wikipediaTitle: '2025–26 La Liga',
     sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
@@ -55,6 +58,7 @@ const leagues = [
     name: 'Bundesliga',
     apiFootballId: 78,
     sportsDbId: '4331',
+    mackolikArchiveId: 3,
     footballDataCodes: ['BL1'],
     wikipediaTitle: '2025–26 Bundesliga',
     sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
@@ -66,6 +70,7 @@ const leagues = [
     name: 'Serie A',
     apiFootballId: 135,
     sportsDbId: '4332',
+    mackolikArchiveId: 15,
     footballDataCodes: ['SA'],
     wikipediaTitle: '2025–26 Serie A',
     sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
@@ -77,6 +82,7 @@ const leagues = [
     name: 'Ligue 1',
     apiFootballId: 61,
     sportsDbId: '4334',
+    mackolikArchiveId: 5,
     footballDataCodes: ['FL1'],
     wikipediaTitle: '2025–26 Ligue 1',
     sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
@@ -174,6 +180,41 @@ function normalizeSportsDbRow(row, index) {
     points: Number(row.intPoints || row.points || 0),
     goalDifference: Number(row.intGoalDifference || row.goalDifference || goalsFor - goalsAgainst || 0),
     logo: row.strTeamBadge || row.strBadge || null,
+    form: [],
+  });
+}
+
+function normalizeMackolikArchiveRow(row, index) {
+  const homePlayed = Number(row?.[2] || 0);
+  const awayPlayed = Number(row?.[3] || 0);
+  const homeWon = Number(row?.[4] || 0);
+  const awayWon = Number(row?.[5] || 0);
+  const homeDraw = Number(row?.[6] || 0);
+  const awayDraw = Number(row?.[7] || 0);
+  const homeLost = Number(row?.[8] || 0);
+  const awayLost = Number(row?.[9] || 0);
+  const homeGoalsFor = Number(row?.[10] || 0);
+  const awayGoalsFor = Number(row?.[11] || 0);
+  const homeGoalsAgainst = Number(row?.[12] || 0);
+  const awayGoalsAgainst = Number(row?.[13] || 0);
+  const homePoints = Number(row?.[14] || 0);
+  const awayPoints = Number(row?.[15] || 0);
+  const extraPoints = Number(row?.[17] || 0);
+  const goalsFor = homeGoalsFor + awayGoalsFor;
+  const goalsAgainst = homeGoalsAgainst + awayGoalsAgainst;
+
+  return enrichRow({
+    position: index + 1,
+    team: String(row?.[1] || 'Takım'),
+    played: homePlayed + awayPlayed,
+    won: homeWon + awayWon,
+    draw: homeDraw + awayDraw,
+    lost: homeLost + awayLost,
+    goalsFor,
+    goalsAgainst,
+    points: homePoints + awayPoints + extraPoints,
+    goalDifference: goalsFor - goalsAgainst,
+    logo: row?.[0] ? `https://im.mackolik.com/img/logo/kucuk/${row[0]}.gif` : null,
     form: [],
   });
 }
@@ -365,7 +406,10 @@ function validateCurrentStandings(table, league) {
   const teams = table.map((row) => normalizeText(row.team)).join(' ');
   const knownTeams = league?.validationTeams?.length ? league.validationTeams : fallbackValidationTeams;
   const hasKnownTeam = knownTeams.some((team) => teams.includes(normalizeText(team)));
-  const rowsArePlausible = table.every((row) => row.played > 0 && row.points > 0 && row.won + row.draw + row.lost === row.played && plausiblePoints(row.won, row.draw, row.points));
+  const rowsArePlausible = table.every((row) => {
+    const resultTotal = row.won + row.draw + row.lost;
+    return row.played > 0 && row.points > 0 && Math.abs(resultTotal - row.played) <= 1 && plausiblePoints(row.won, row.draw, row.points);
+  });
   return hasKnownTeam && rowsArePlausible;
 }
 
@@ -450,8 +494,32 @@ async function fetchSportsDbStandings(league) {
   throw new Error(errors.join(' | '));
 }
 
+async function fetchMackolikArchiveStandings(league) {
+  if (!league.mackolikArchiveId) throw new Error('no Maçkolik archive source');
+
+  // Maçkolik arşiv sayfası HTML tabloyu doğrudan basmıyor; sayfadaki sezon kimliğini
+  // okuyup kendi JSON endpoint'inden gerçek puan durumu dizisini çekiyoruz.
+  const standingPageUrl = `https://arsiv.mackolik.com/Standings/Default.aspx?id=${league.mackolikArchiveId}`;
+  const html = await fetchText(standingPageUrl, { headers: { Referer: 'https://arsiv.mackolik.com/' } });
+  const seasonId = html.match(/seasonId=(\d+)/)?.[1] || html.match(/seasonId:\s*(\d+)/)?.[1];
+  if (!seasonId) throw new Error(`Maçkolik seasonId not found for ${league.name}`);
+
+  const payload = await fetchJson(`https://arsiv.mackolik.com/AjaxHandlers/StandingHandler.ashx?op=standing&id=${seasonId}`, {
+    headers: {
+      Referer: standingPageUrl,
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36',
+      Accept: 'application/json,text/plain,*/*',
+    },
+  });
+  const rows = Array.isArray(payload?.s) ? payload.s : [];
+  const table = rows.map(normalizeMackolikArchiveRow);
+  if (!validateCurrentStandings(table, league)) throw new Error(`invalid Maçkolik archive table ${seasonId}: ${table.length}`);
+  return { source: `Maçkolik arşiv ${league.mackolikArchiveId}/${seasonId}`, table };
+}
+
 async function fetchStandings(league) {
   const errors = [];
+  try { const result = await fetchMackolikArchiveStandings(league); return { id: league.id, name: league.name, updatedAt, ...result, fixtures: [], results: [], status: '' }; } catch (error) { errors.push(`Maçkolik arşiv: ${error instanceof Error ? error.message : 'unknown error'}`); }
   try { const result = await fetchHtmlScrapeStandings(league); return { id: league.id, name: league.name, updatedAt, ...result, fixtures: [], results: [], status: '' }; } catch (error) { errors.push(`HTML scrape: ${error instanceof Error ? error.message : 'unknown error'}`); }
   try { const result = await fetchFootballDataStandings(league); return { id: league.id, name: league.name, updatedAt, ...result, fixtures: [], results: [], status: errors.join(' | ') }; } catch (error) { errors.push(`football-data.org: ${error instanceof Error ? error.message : 'unknown error'}`); }
   try { const result = await fetchWikipediaStandings(league); return { id: league.id, name: league.name, updatedAt, ...result, fixtures: [], results: [], status: errors.join(' | ') }; } catch (error) { errors.push(`Wikipedia: ${error instanceof Error ? error.message : 'unknown error'}`); }
@@ -463,4 +531,4 @@ async function fetchStandings(league) {
 await mkdir(DATA_DIR, { recursive: true });
 const leaguePayloads = await Promise.all(leagues.map(fetchStandings));
 const defaultLeague = leaguePayloads[0];
-await writeFile(`${DATA_DIR}/standings.json`, JSON.stringify({ updatedAt, source: 'HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB', defaultLeagueId: 'super-lig', leagues: leaguePayloads, competition: defaultLeague?.name || 'Süper Lig', table: defaultLeague?.table || [], fixtures: defaultLeague?.fixtures || [], results: defaultLeague?.results || [] }, null, 2) + '\n', 'utf8');
+await writeFile(`${DATA_DIR}/standings.json`, JSON.stringify({ updatedAt, source: 'Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB', defaultLeagueId: 'super-lig', leagues: leaguePayloads, competition: defaultLeague?.name || 'Süper Lig', table: defaultLeague?.table || [], fixtures: defaultLeague?.fixtures || [], results: defaultLeague?.results || [] }, null, 2) + '\n', 'utf8');
