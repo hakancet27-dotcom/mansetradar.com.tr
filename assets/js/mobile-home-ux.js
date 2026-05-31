@@ -5,7 +5,12 @@
   var mobileMarket = document.querySelector('.mobile-market-strip');
   var keys = ['usd', 'eur', 'gbp', 'btc'];
   var detailKeys = ['usd', 'eur', 'gbp'];
-  var turkeyWeatherCities = null;
+
+  function esc(value) {
+    return String(value || '').replace(/[&<>"']/g, function (char) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char];
+    });
+  }
 
   function rateDetailHref(root, key) {
     var item = root.querySelector('[data-market-item="' + key + '"], #market-' + key + '-item');
@@ -64,7 +69,7 @@
     if (!city || !list) return;
     list.dataset.provinceMode = 'true';
     list.dataset.renderingProvince = 'true';
-    list.innerHTML = '<li><span class="weather-city">' + city.name + '</span><span class="weather-temp">--</span><span class="weather-meta">Yükleniyor</span></li>';
+    list.innerHTML = '<li><span class="weather-city">' + esc(city.name) + '</span><span class="weather-temp">--</span><span class="weather-meta">Yükleniyor</span></li>';
     fetch('https://api.open-meteo.com/v1/forecast?latitude=' + city.lat + '&longitude=' + city.lon + '&current=temperature_2m,weather_code,wind_speed_10m&timezone=Europe%2FIstanbul', { cache: 'default' })
       .then(function (response) { if (!response.ok) throw new Error('weather'); return response.json(); })
       .then(function (payload) {
@@ -72,10 +77,10 @@
         var temp = typeof current.temperature_2m === 'number' ? Math.round(current.temperature_2m) + '°' : '--';
         var wind = typeof current.wind_speed_10m === 'number' ? Math.round(current.wind_speed_10m) + ' km/s' : '--';
         var label = weatherCodeToText(current.weather_code);
-        list.innerHTML = '<li><span class="weather-city">' + city.name + '</span><span class="weather-temp">' + temp + '</span><span class="weather-meta">' + label + ' · Rüzgar ' + wind + '</span></li>';
+        list.innerHTML = '<li><span class="weather-city">' + esc(city.name) + '</span><span class="weather-temp">' + temp + '</span><span class="weather-meta">' + label + ' · Rüzgar ' + wind + '</span></li>';
       })
       .catch(function () {
-        list.innerHTML = '<li><span class="weather-city">' + city.name + '</span><span class="weather-temp">--</span><span class="weather-meta">Veri yok</span></li>';
+        list.innerHTML = '<li><span class="weather-city">' + esc(city.name) + '</span><span class="weather-temp">--</span><span class="weather-meta">Veri yok</span></li>';
       })
       .finally(function () {
         window.setTimeout(function () { list.dataset.renderingProvince = 'false'; }, 120);
@@ -92,7 +97,6 @@
       .then(function (response) { if (!response.ok) throw new Error('cities'); return response.json(); })
       .then(function (cities) {
         if (!Array.isArray(cities) || !cities.length) return;
-        turkeyWeatherCities = cities;
         list.dataset.provinceSelectorReady = 'true';
         injectSidebarWidgetStyles();
 
@@ -101,7 +105,7 @@
         wrap.innerHTML = '<label class="weather-province-label" for="weather-province-select">İl seç</label><select id="weather-province-select" class="compact-live-select" aria-label="Hava durumu ili seç"></select>';
         var select = wrap.querySelector('select');
         select.innerHTML = cities.map(function (city) {
-          return '<option value="' + city.name + '">' + city.name + '</option>';
+          return '<option value="' + esc(city.name) + '">' + esc(city.name) + '</option>';
         }).join('');
         var selected = selectedWeatherCity(cities);
         select.value = selected.name;
@@ -156,6 +160,9 @@
       '.compact-live-select:focus{border-color:var(--red);box-shadow:0 0 0 3px rgba(215,25,32,.09)}',
       '.weather-province-tools{display:grid;gap:6px;margin-bottom:10px}',
       '.weather-province-label{font-size:.7rem;color:var(--muted);font-weight:900;text-transform:uppercase;letter-spacing:.5px}',
+      '.horoscope-mini-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin-top:4px}',
+      '.horoscope-mini-link{display:flex;align-items:center;justify-content:space-between;border:1px solid var(--border);border-radius:8px;background:#fbfcfe;padding:8px 9px;color:var(--text);font-size:.78rem;font-weight:900;text-decoration:none}',
+      '.horoscope-mini-link:hover{border-color:var(--red);color:var(--red)}',
       '.compact-standings{width:100%;border-collapse:collapse;font-size:.76rem}',
       '.compact-standings th{color:var(--muted);font-size:.68rem;text-transform:uppercase;text-align:left;border-bottom:1px solid var(--border);padding:0 0 7px}',
       '.compact-standings td{border-bottom:1px solid var(--border);padding:7px 0;color:var(--text);font-weight:800}',
@@ -192,12 +199,8 @@
       .then(function (payload) {
         var timings = payload && payload.data && payload.data.timings ? payload.data.timings : {};
         var rows = [
-          ['İmsak', timings.Imsak],
-          ['Güneş', timings.Sunrise],
-          ['Öğle', timings.Dhuhr],
-          ['İkindi', timings.Asr],
-          ['Akşam', timings.Maghrib],
-          ['Yatsı', timings.Isha]
+          ['İmsak', timings.Imsak], ['Güneş', timings.Sunrise], ['Öğle', timings.Dhuhr],
+          ['İkindi', timings.Asr], ['Akşam', timings.Maghrib], ['Yatsı', timings.Isha]
         ];
         list.innerHTML = rows.map(function (row) {
           var time = String(row[1] || '--').split(' ')[0];
@@ -215,11 +218,13 @@
     fetch('/data/horoscope.json', { cache: 'default' })
       .then(function (response) { if (!response.ok) throw new Error('horoscope'); return response.json(); })
       .then(function (payload) {
-        var item = Array.isArray(payload) ? payload[0] : (payload && payload.items ? payload.items[0] : payload);
-        if (!item) throw new Error('empty');
-        var title = item.title || item.sign || 'Günün Burcu';
-        var text = item.description || item.comment || item.text || 'Günlük yorum hazırlanıyor.';
-        target.innerHTML = '<div class="compact-live-row"><span class="compact-live-name">' + title + '</span><span class="compact-live-value">Bugün</span><span class="compact-live-meta">' + text + '</span></div><a class="compact-live-link" href="/weather.html?service=horoscope">Tüm burçları gör</a>';
+        var items = Array.isArray(payload) ? payload : (payload && Array.isArray(payload.items) ? payload.items : []);
+        if (!items.length) throw new Error('empty');
+        target.innerHTML = '<div class="horoscope-mini-list">' + items.map(function (item) {
+          var sign = item.sign || '';
+          var title = item.title || sign || 'Burç';
+          return '<a class="horoscope-mini-link" href="/horoscope.html?sign=' + encodeURIComponent(sign) + '"><span>' + esc(title) + '</span><span>›</span></a>';
+        }).join('') + '</div><a class="compact-live-link" href="/horoscope.html">Tüm burç yorumlarını aç</a>';
       })
       .catch(function () {
         target.innerHTML = '<p class="compact-live-note">Günlük burç yorumları hazırlanıyor.</p>';
@@ -236,11 +241,11 @@
         rows = rows.slice(0, 5);
         if (!rows.length) throw new Error('empty');
         target.innerHTML = '<table class="compact-standings"><thead><tr><th>#</th><th>Takım</th><th>P</th></tr></thead><tbody>' + rows.map(function (row, index) {
-          return '<tr><td>' + (row.position || index + 1) + '</td><td>' + (row.team || row.name || 'Takım') + '</td><td>' + (row.points || row.pts || 0) + '</td></tr>';
-        }).join('') + '</tbody></table><a class="compact-live-link" href="/weather.html?service=standings">Puan durumunu aç</a>';
+          return '<tr><td>' + (row.position || index + 1) + '</td><td>' + esc(row.team || row.name || 'Takım') + '</td><td>' + (row.points || row.pts || 0) + '</td></tr>';
+        }).join('') + '</tbody></table><a class="compact-live-link" href="/standings.html">Puan durumunu aç</a>';
       })
       .catch(function () {
-        target.innerHTML = '<p class="compact-live-note">Puan durumu için güvenli veri dosyası hazırlanıyor. API anahtarı tarayıcıya yazılmayacak.</p>';
+        target.innerHTML = '<p class="compact-live-note">Puan durumu için güvenli veri dosyası hazırlanıyor.</p>';
       });
   }
 
