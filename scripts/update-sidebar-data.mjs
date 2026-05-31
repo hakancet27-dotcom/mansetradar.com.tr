@@ -34,12 +34,12 @@ const fallbackComments = {
 };
 
 const fallbackTables = {
-  'super-lig': ['Galatasaray', 'Fenerbahçe', 'Beşiktaş', 'Trabzonspor', 'Başakşehir', 'Samsunspor', 'Göztepe', 'Konyaspor', 'Kasımpaşa', 'Antalyaspor'],
-  'premier-league': ['Liverpool', 'Arsenal', 'Manchester City', 'Chelsea', 'Manchester United', 'Tottenham', 'Newcastle', 'Aston Villa'],
-  'la-liga': ['Real Madrid', 'Barcelona', 'Atlético Madrid', 'Athletic Club', 'Villarreal', 'Real Sociedad'],
-  'bundesliga': ['Bayern Münih', 'Borussia Dortmund', 'Bayer Leverkusen', 'RB Leipzig', 'Stuttgart', 'Frankfurt'],
-  'serie-a': ['Inter', 'Milan', 'Juventus', 'Napoli', 'Roma', 'Lazio'],
-  'ligue-1': ['PSG', 'Marseille', 'Monaco', 'Lille', 'Lyon', 'Nice'],
+  'super-lig': ['Galatasaray', 'Fenerbahçe', 'Trabzonspor', 'Beşiktaş', 'İstanbul Başakşehir', 'Samsunspor', 'Göztepe', 'Konyaspor', 'Kasımpaşa', 'Antalyaspor', 'Alanyaspor', 'Çaykur Rizespor', 'Kayserispor', 'Gaziantep FK', 'Eyüpspor', 'Sivasspor', 'Bodrum FK', 'Hatayspor', 'Adana Demirspor'],
+  'premier-league': ['Liverpool', 'Arsenal', 'Manchester City', 'Chelsea', 'Manchester United', 'Tottenham', 'Newcastle', 'Aston Villa', 'Brighton', 'Bournemouth', 'Brentford', 'Crystal Palace', 'Everton', 'Fulham', 'Nottingham Forest', 'West Ham', 'Wolves', 'Leeds United', 'Sunderland', 'Burnley'],
+  'la-liga': ['Real Madrid', 'Barcelona', 'Atlético Madrid', 'Athletic Club', 'Villarreal', 'Real Sociedad', 'Real Betis', 'Valencia', 'Sevilla', 'Girona', 'Getafe', 'Osasuna', 'Celta Vigo', 'Mallorca', 'Rayo Vallecano', 'Espanyol', 'Alavés', 'Levante', 'Elche', 'Real Oviedo'],
+  'bundesliga': ['Bayern Münih', 'Borussia Dortmund', 'Bayer Leverkusen', 'RB Leipzig', 'Stuttgart', 'Frankfurt', 'Freiburg', 'Werder Bremen', 'Wolfsburg', 'Mainz', 'Augsburg', 'Hoffenheim', 'Union Berlin', 'Borussia Mönchengladbach', 'Hamburg', 'St. Pauli', 'Heidenheim', 'Köln'],
+  'serie-a': ['Inter', 'Milan', 'Juventus', 'Napoli', 'Roma', 'Lazio', 'Atalanta', 'Fiorentina', 'Bologna', 'Torino', 'Udinese', 'Genoa', 'Cagliari', 'Parma', 'Lecce', 'Verona', 'Como', 'Sassuolo', 'Pisa', 'Cremonese'],
+  'ligue-1': ['PSG', 'Marseille', 'Monaco', 'Lille', 'Lyon', 'Nice', 'Lens', 'Rennes', 'Strasbourg', 'Nantes', 'Toulouse', 'Montpellier', 'Brest', 'Auxerre', 'Angers', 'Le Havre', 'Lorient', 'Metz'],
 };
 
 async function fetchJson(url, options = {}) {
@@ -93,6 +93,32 @@ function fallbackTableFor(league) {
   return (fallbackTables[league.id] || []).map((team, index) => ({ position: index + 1, team, played: 0, won: 0, draw: 0, lost: 0, points: 0, goalDifference: 0, fallback: true }));
 }
 
+function completeTableForLeague(league, table) {
+  const fallbackTeams = fallbackTables[league.id] || [];
+  if (!fallbackTeams.length) return table;
+  const normalizedExisting = new Set(table.map((row) => String(row.team).toLocaleLowerCase('tr-TR')));
+  const completed = [...table];
+  for (const team of fallbackTeams) {
+    if (normalizedExisting.has(team.toLocaleLowerCase('tr-TR'))) continue;
+    completed.push({ position: completed.length + 1, team, played: 0, won: 0, draw: 0, lost: 0, points: 0, goalDifference: 0, fallback: true });
+  }
+  return completed.map((row, index) => ({ ...row, position: index + 1 }));
+}
+
+function normalizeMatch(row) {
+  const homeScore = row.intHomeScore === null || row.intHomeScore === undefined || row.intHomeScore === '' ? null : Number(row.intHomeScore);
+  const awayScore = row.intAwayScore === null || row.intAwayScore === undefined || row.intAwayScore === '' ? null : Number(row.intAwayScore);
+  return {
+    id: String(row.idEvent || `${row.strHomeTeam}-${row.strAwayTeam}-${row.dateEvent || ''}`),
+    date: String(row.strTimestamp || `${row.dateEvent || ''}T${row.strTime || '00:00:00'}`),
+    homeTeam: String(row.strHomeTeam || 'Ev sahibi'),
+    awayTeam: String(row.strAwayTeam || 'Deplasman'),
+    homeScore: Number.isFinite(homeScore) ? homeScore : null,
+    awayScore: Number.isFinite(awayScore) ? awayScore : null,
+    status: String(row.strStatus || row.strResult || ''),
+  };
+}
+
 async function fetchLeagueFromFootballData(league, token) {
   if (!token || !league.footballDataCode) throw new Error('missing football-data source');
   const response = await fetch(`https://api.football-data.org/v4/competitions/${league.footballDataCode}/standings`, { headers: { 'X-Auth-Token': token } });
@@ -116,11 +142,35 @@ async function fetchLeagueFromSportsDb(league) {
   throw new Error(errors.join(' | '));
 }
 
+async function fetchLeagueEventsFromSportsDb(league) {
+  const [next, past] = await Promise.allSettled([
+    fetchJson(`https://www.thesportsdb.com/api/v1/json/3/eventsnextleague.php?id=${league.sportsDbId}`),
+    fetchJson(`https://www.thesportsdb.com/api/v1/json/3/eventspastleague.php?id=${league.sportsDbId}`),
+  ]);
+  return {
+    fixtures: next.status === 'fulfilled' && Array.isArray(next.value?.events) ? next.value.events.slice(0, 10).map(normalizeMatch) : [],
+    results: past.status === 'fulfilled' && Array.isArray(past.value?.events) ? past.value.events.slice(0, 10).map(normalizeMatch) : [],
+  };
+}
+
 async function fetchLeagueStandings(league, token) {
   const errors = [];
-  try { return await fetchLeagueFromFootballData(league, token); } catch (error) { errors.push(error instanceof Error ? error.message : 'unknown'); }
-  try { return await fetchLeagueFromSportsDb(league); } catch (error) { errors.push(error instanceof Error ? error.message : 'unknown'); }
-  return { source: 'fallback', table: fallbackTableFor(league), fallback: true, status: errors.join(' | ') };
+  let result;
+  try { result = await fetchLeagueFromFootballData(league, token); } catch (error) { errors.push(error instanceof Error ? error.message : 'unknown'); }
+  if (!result) {
+    try { result = await fetchLeagueFromSportsDb(league); } catch (error) { errors.push(error instanceof Error ? error.message : 'unknown'); }
+  }
+  if (!result) result = { source: 'fallback', table: fallbackTableFor(league), fallback: true };
+  const completedTable = completeTableForLeague(league, result.table || []);
+  const events = await fetchLeagueEventsFromSportsDb(league).catch(() => ({ fixtures: [], results: [] }));
+  return {
+    ...result,
+    table: completedTable,
+    fixtures: events.fixtures,
+    results: events.results,
+    fallback: Boolean(result.fallback || completedTable.some((row) => row.fallback)),
+    status: errors.join(' | '),
+  };
 }
 
 async function updateStandings() {
@@ -131,7 +181,7 @@ async function updateStandings() {
     leagues.push({ id: league.id, name: league.name, updatedAt, ...result });
   }
   const defaultLeague = leagues[0];
-  await writeFile(`${DATA_DIR}/standings.json`, JSON.stringify({ updatedAt, source: 'multi-league', defaultLeagueId: 'super-lig', leagues, competition: defaultLeague?.name || 'Süper Lig', table: defaultLeague?.table || [] }, null, 2) + '\n', 'utf8');
+  await writeFile(`${DATA_DIR}/standings.json`, JSON.stringify({ updatedAt, source: 'multi-league', defaultLeagueId: 'super-lig', leagues, competition: defaultLeague?.name || 'Süper Lig', table: defaultLeague?.table || [], fixtures: defaultLeague?.fixtures || [], results: defaultLeague?.results || [] }, null, 2) + '\n', 'utf8');
 }
 
 await mkdir(DATA_DIR, { recursive: true });
