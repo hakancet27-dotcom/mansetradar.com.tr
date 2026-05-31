@@ -57,8 +57,130 @@
     }, true);
   }
 
+  function injectSidebarWidgetStyles() {
+    if (document.getElementById('sidebar-live-widgets-style')) return;
+    var style = document.createElement('style');
+    style.id = 'sidebar-live-widgets-style';
+    style.textContent = [
+      '.compact-live-list{list-style:none;display:grid;gap:9px}',
+      '.compact-live-row{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center;border:1px solid var(--border);border-radius:8px;background:#fbfcfe;padding:9px 11px}',
+      '.compact-live-name{font-size:.82rem;font-weight:900;color:var(--text)}',
+      '.compact-live-value{font-size:.86rem;font-weight:900;color:var(--dark);text-align:right}',
+      '.compact-live-meta{grid-column:1/-1;font-size:.72rem;font-weight:700;color:var(--muted);line-height:1.35}',
+      '.compact-live-note{font-size:.78rem;font-weight:700;color:var(--muted);line-height:1.45}',
+      '.compact-live-link{display:inline-block;margin-top:10px;color:var(--red);font-size:.78rem;font-weight:900;text-decoration:none}',
+      '.compact-live-link:hover{text-decoration:underline}',
+      '.compact-standings{width:100%;border-collapse:collapse;font-size:.76rem}',
+      '.compact-standings th{color:var(--muted);font-size:.68rem;text-transform:uppercase;text-align:left;border-bottom:1px solid var(--border);padding:0 0 7px}',
+      '.compact-standings td{border-bottom:1px solid var(--border);padding:7px 0;color:var(--text);font-weight:800}',
+      '.compact-standings td:last-child,.compact-standings th:last-child{text-align:right}',
+      '.compact-standings tr:last-child td{border-bottom:0}'
+    ].join('');
+    document.head.appendChild(style);
+  }
+
+  function createSidebarWidget(title, innerHtml) {
+    var widget = document.createElement('aside');
+    widget.className = 'sidebar-widget sidebar-live-widget';
+    widget.innerHTML = '<h3 class="widget-title">' + title + '</h3>' + innerHtml;
+    return widget;
+  }
+
+  function findWeatherWidget() {
+    var weatherList = document.getElementById('weather-list');
+    return weatherList ? weatherList.closest('.sidebar-widget') : null;
+  }
+
+  function insertAfterWeather(widget) {
+    var weatherWidget = findWeatherWidget();
+    if (!weatherWidget || !weatherWidget.parentNode) return false;
+    weatherWidget.parentNode.insertBefore(widget, weatherWidget.nextSibling);
+    return true;
+  }
+
+  function loadPrayerWidget(root) {
+    var list = root.querySelector('[data-prayer-list]');
+    if (!list) return;
+    fetch('https://api.aladhan.com/v1/timingsByCity?city=Istanbul&country=Turkey&method=13', { cache: 'default' })
+      .then(function (response) { if (!response.ok) throw new Error('prayer'); return response.json(); })
+      .then(function (payload) {
+        var timings = payload && payload.data && payload.data.timings ? payload.data.timings : {};
+        var rows = [
+          ['İmsak', timings.Imsak],
+          ['Güneş', timings.Sunrise],
+          ['Öğle', timings.Dhuhr],
+          ['İkindi', timings.Asr],
+          ['Akşam', timings.Maghrib],
+          ['Yatsı', timings.Isha]
+        ];
+        list.innerHTML = rows.map(function (row) {
+          var time = String(row[1] || '--').split(' ')[0];
+          return '<li class="compact-live-row"><span class="compact-live-name">' + row[0] + '</span><span class="compact-live-value">' + time + '</span></li>';
+        }).join('') + '<li class="compact-live-meta">İstanbul · Diyanet yöntemi</li>';
+      })
+      .catch(function () {
+        list.innerHTML = '<li class="compact-live-note">Namaz vakitleri şu an alınamadı.</li>';
+      });
+  }
+
+  function loadHoroscopeWidget(root) {
+    var target = root.querySelector('[data-horoscope-box]');
+    if (!target) return;
+    fetch('/data/horoscope.json', { cache: 'default' })
+      .then(function (response) { if (!response.ok) throw new Error('horoscope'); return response.json(); })
+      .then(function (payload) {
+        var item = Array.isArray(payload) ? payload[0] : (payload && payload.items ? payload.items[0] : payload);
+        if (!item) throw new Error('empty');
+        var title = item.title || item.sign || 'Günün Burcu';
+        var text = item.description || item.comment || item.text || 'Günlük yorum hazırlanıyor.';
+        target.innerHTML = '<div class="compact-live-row"><span class="compact-live-name">' + title + '</span><span class="compact-live-value">Bugün</span><span class="compact-live-meta">' + text + '</span></div><a class="compact-live-link" href="/weather.html?service=horoscope">Tüm burçları gör</a>';
+      })
+      .catch(function () {
+        target.innerHTML = '<p class="compact-live-note">Günlük burç yorumları hazırlanıyor.</p>';
+      });
+  }
+
+  function loadStandingsWidget(root) {
+    var target = root.querySelector('[data-standings-box]');
+    if (!target) return;
+    fetch('/data/standings.json', { cache: 'default' })
+      .then(function (response) { if (!response.ok) throw new Error('standings'); return response.json(); })
+      .then(function (payload) {
+        var rows = Array.isArray(payload) ? payload : (payload && payload.table ? payload.table : []);
+        rows = rows.slice(0, 5);
+        if (!rows.length) throw new Error('empty');
+        target.innerHTML = '<table class="compact-standings"><thead><tr><th>#</th><th>Takım</th><th>P</th></tr></thead><tbody>' + rows.map(function (row, index) {
+          return '<tr><td>' + (row.position || index + 1) + '</td><td>' + (row.team || row.name || 'Takım') + '</td><td>' + (row.points || row.pts || 0) + '</td></tr>';
+        }).join('') + '</tbody></table><a class="compact-live-link" href="/weather.html?service=standings">Puan durumunu aç</a>';
+      })
+      .catch(function () {
+        target.innerHTML = '<p class="compact-live-note">Puan durumu için güvenli veri dosyası hazırlanıyor. API anahtarı tarayıcıya yazılmayacak.</p>';
+      });
+  }
+
+  function initSidebarLiveWidgets() {
+    if (document.body.dataset.sidebarLiveWidgetsReady === 'true') return;
+    var weatherWidget = findWeatherWidget();
+    if (!weatherWidget) return;
+    document.body.dataset.sidebarLiveWidgetsReady = 'true';
+    injectSidebarWidgetStyles();
+
+    var horoscope = createSidebarWidget('Burç Yorumları', '<div data-horoscope-box><p class="compact-live-note">Günlük yorumlar yükleniyor.</p></div>');
+    var prayer = createSidebarWidget('Namaz Vakitleri', '<ul class="compact-live-list" data-prayer-list><li class="compact-live-note">Vakitler yükleniyor.</li></ul>');
+    var standings = createSidebarWidget('Puan Durumu', '<div data-standings-box><p class="compact-live-note">Puan durumu yükleniyor.</p></div>');
+
+    if (insertAfterWeather(standings)) {
+      weatherWidget.parentNode.insertBefore(prayer, standings);
+      weatherWidget.parentNode.insertBefore(horoscope, prayer);
+      loadHoroscopeWidget(horoscope);
+      loadPrayerWidget(prayer);
+      loadStandingsWidget(standings);
+    }
+  }
+
   if (!desktopMarket) {
     fixWeatherLinks();
+    initSidebarLiveWidgets();
     if (typeof window.startWeatherLive === 'function') window.startWeatherLive();
     return;
   }
@@ -109,6 +231,7 @@
   }
 
   fixWeatherLinks();
+  initSidebarLiveWidgets();
   if (typeof window.startMarketsLive === 'function') window.startMarketsLive();
   if (typeof window.startWeatherLive === 'function') window.startWeatherLive();
 })();
