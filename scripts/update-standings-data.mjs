@@ -9,13 +9,8 @@ const seasons = [requestedSeason];
 
 const leagues = [
   {
-    id: 'super-lig',
-    name: 'Süper Lig',
-    apiFootballId: 203,
-    sportsDbId: '4339',
-    footballDataCodes: ['TSL', 'TUR'],
-    wikipediaTitle: '2025–26 Süper Lig',
-    sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
+    id: 'super-lig', name: 'Süper Lig', apiFootballId: 203, sportsDbId: '4339', footballDataCodes: ['TSL', 'TUR'], wikipediaTitle: '2025–26 Süper Lig', sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
+    validationTeams: ['Galatasaray', 'Fenerbahçe', 'Fenerbahce', 'Beşiktaş', 'Besiktas', 'Trabzonspor'],
     htmlSources: [
       'https://skorlar.com',
       'https://www.skorlar.com',
@@ -24,14 +19,14 @@ const leagues = [
       'https://www.mackolik.com/puan-durumu/t%C3%BCrkiye-s%C3%BCper-lig/482ofyysbdbeoxauk19yg7tdt',
     ],
   },
-  { id: 'premier-league', name: 'Premier League', apiFootballId: 39, sportsDbId: '4328', footballDataCodes: ['PL'], sportsDbSeasons: ['2025-2026', '2025-26', '2026'] },
-  { id: 'la-liga', name: 'La Liga', apiFootballId: 140, sportsDbId: '4335', footballDataCodes: ['PD'], sportsDbSeasons: ['2025-2026', '2025-26', '2026'] },
-  { id: 'bundesliga', name: 'Bundesliga', apiFootballId: 78, sportsDbId: '4331', footballDataCodes: ['BL1'], sportsDbSeasons: ['2025-2026', '2025-26', '2026'] },
-  { id: 'serie-a', name: 'Serie A', apiFootballId: 135, sportsDbId: '4332', footballDataCodes: ['SA'], sportsDbSeasons: ['2025-2026', '2025-26', '2026'] },
-  { id: 'ligue-1', name: 'Ligue 1', apiFootballId: 61, sportsDbId: '4334', footballDataCodes: ['FL1'], sportsDbSeasons: ['2025-2026', '2025-26', '2026'] },
+  { id: 'premier-league', name: 'Premier League', apiFootballId: 39, sportsDbId: '4328', footballDataCodes: ['PL'], wikipediaTitle: '2025–26 Premier League', sportsDbSeasons: ['2025-2026', '2025-26', '2026'], validationTeams: ['Liverpool', 'Arsenal', 'Manchester City', 'Chelsea', 'Tottenham'] },
+  { id: 'la-liga', name: 'La Liga', apiFootballId: 140, sportsDbId: '4335', footballDataCodes: ['PD'], wikipediaTitle: '2025–26 La Liga', sportsDbSeasons: ['2025-2026', '2025-26', '2026'], validationTeams: ['Real Madrid', 'Barcelona', 'Atletico Madrid', 'Atlético Madrid', 'Villarreal'] },
+  { id: 'bundesliga', name: 'Bundesliga', apiFootballId: 78, sportsDbId: '4331', footballDataCodes: ['BL1'], wikipediaTitle: '2025–26 Bundesliga', sportsDbSeasons: ['2025-2026', '2025-26', '2026'], validationTeams: ['Bayern Munich', 'Borussia Dortmund', 'RB Leipzig', 'Bayer Leverkusen', 'Eintracht Frankfurt'] },
+  { id: 'serie-a', name: 'Serie A', apiFootballId: 135, sportsDbId: '4332', footballDataCodes: ['SA'], wikipediaTitle: '2025–26 Serie A', sportsDbSeasons: ['2025-2026', '2025-26', '2026'], validationTeams: ['Inter Milan', 'Juventus', 'Milan', 'Napoli', 'Roma'] },
+  { id: 'ligue-1', name: 'Ligue 1', apiFootballId: 61, sportsDbId: '4334', footballDataCodes: ['FL1'], wikipediaTitle: '2025–26 Ligue 1', sportsDbSeasons: ['2025-2026', '2025-26', '2026'], validationTeams: ['Paris Saint-Germain', 'PSG', 'Marseille', 'Monaco', 'Lyon'] },
 ];
 
-const validationTeams = ['Galatasaray', 'Fenerbahçe', 'Fenerbahce', 'Beşiktaş', 'Besiktas', 'Trabzonspor'];
+const fallbackValidationTeams = leagues.flatMap((league) => league.validationTeams || []);
 
 function normalizeApiFootballRow(row) {
   const all = row?.all || {};
@@ -142,10 +137,11 @@ function tableToStandingsRows(rawRows) {
   }).filter((row) => row.team && row.played > 0 && row.points >= 0 && row.won >= 0 && row.draw >= 0 && row.lost >= 0 && row.won + row.draw + row.lost === row.played);
 }
 
-function validateCurrentStandings(table) {
+function validateCurrentStandings(table, league) {
   if (!Array.isArray(table) || table.length < 10) return false;
   const teams = table.map((row) => normalizeText(row.team)).join(' ');
-  const hasKnownTeam = validationTeams.some((team) => teams.includes(normalizeText(team)));
+  const knownTeams = league?.validationTeams?.length ? league.validationTeams : fallbackValidationTeams;
+  const hasKnownTeam = knownTeams.some((team) => teams.includes(normalizeText(team)));
   const hasRealMatches = table.some((row) => row.played > 0 && row.points > 0 && row.won + row.draw + row.lost === row.played);
   return hasKnownTeam && hasRealMatches;
 }
@@ -161,7 +157,7 @@ async function fetchHtmlScrapeStandings(league) {
       for (const tableHtml of tables) {
         const rawRows = parseHtmlTable(tableHtml);
         const table = tableToStandingsRows(rawRows);
-        if (validateCurrentStandings(table)) return { source: `HTML scrape ${url}`, table };
+        if (validateCurrentStandings(table, league)) return { source: `HTML scrape ${url}`, table };
       }
       errors.push(`${url}: no valid standings table`);
     } catch (error) { errors.push(`${url}: ${error instanceof Error ? error.message : 'unknown error'}`); }
@@ -178,7 +174,9 @@ async function fetchFootballDataStandings(league) {
       const total = payload?.standings?.find((standing) => standing.type === 'TOTAL') || payload?.standings?.[0];
       const rows = total?.table || [];
       if (!Array.isArray(rows) || !rows.length) throw new Error(`empty table code ${code}`);
-      return { source: `football-data.org ${code}`, table: rows.map(normalizeFootballDataRow) };
+      const table = rows.map(normalizeFootballDataRow);
+      if (!validateCurrentStandings(table, league)) throw new Error(`invalid football-data table ${code}: ${table.length}`);
+      return { source: `football-data.org ${code}`, table };
     } catch (error) { errors.push(`${code}: ${error instanceof Error ? error.message : 'unknown error'}`); }
   }
   throw new Error(errors.join(' | '));
@@ -188,11 +186,12 @@ async function fetchWikipediaStandings(league) {
   if (!league.wikipediaTitle) throw new Error('no wikipedia source');
   const html = await fetchText(`https://en.wikipedia.org/wiki/${encodeURIComponent(league.wikipediaTitle).replace(/%20/g, '_')}`);
   const tables = extractHtmlTables(html);
-  const table = tables.find((item) => item.includes('Galatasaray') && item.includes('Fener') && /Pts|points|Puan/i.test(item));
+  const knownTeams = league.validationTeams || [];
+  const table = tables.find((item) => knownTeams.some((team) => normalizeText(stripHtml(item)).includes(normalizeText(team))) && /Pts|points|Puan|GD/i.test(item));
   if (!table) throw new Error('wikipedia standings table not found');
   const rawRows = parseHtmlTable(table);
   const rows = tableToStandingsRows(rawRows);
-  if (!validateCurrentStandings(rows)) throw new Error(`wikipedia parsed invalid rows: ${rows.length}`);
+  if (!validateCurrentStandings(rows, league)) throw new Error(`wikipedia parsed invalid rows: ${rows.length}`);
   return { source: `Wikipedia ${league.wikipediaTitle}`, table: rows };
 }
 
@@ -205,7 +204,9 @@ async function fetchApiFootballStandings(league) {
       const apiErrors = payload?.errors && Object.keys(payload.errors).length ? JSON.stringify(payload.errors) : '';
       const rows = payload?.response?.[0]?.league?.standings?.[0] || [];
       if (!Array.isArray(rows) || !rows.length) throw new Error(apiErrors || `empty table season ${season}`);
-      return { source: `API-FOOTBALL ${season}`, table: rows.map(normalizeApiFootballRow) };
+      const table = rows.map(normalizeApiFootballRow);
+      if (!validateCurrentStandings(table, league)) throw new Error(`invalid api-football table ${season}: ${table.length}`);
+      return { source: `API-FOOTBALL ${season}`, table };
     } catch (error) { errors.push(error instanceof Error ? error.message : 'unknown error'); }
   }
   throw new Error(errors.join(' | '));
@@ -219,7 +220,7 @@ async function fetchSportsDbStandings(league) {
       const rows = payload?.table || payload?.standings || [];
       if (!Array.isArray(rows) || !rows.length) throw new Error(`empty table ${season}`);
       const table = rows.map(normalizeSportsDbRow);
-      if (!validateCurrentStandings(table)) throw new Error(`incomplete table ${season}: ${table.length} rows`);
+      if (!validateCurrentStandings(table, league)) throw new Error(`incomplete table ${season}: ${table.length} rows`);
       return { source: `TheSportsDB ${season}`, table };
     } catch (error) { errors.push(error instanceof Error ? error.message : 'unknown error'); }
   }
