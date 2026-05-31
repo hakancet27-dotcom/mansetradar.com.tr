@@ -48,9 +48,7 @@ const leagues = [
     wikipediaTitle: '2025–26 La Liga',
     sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
     validationTeams: ['Real Madrid', 'Barcelona', 'Atletico Madrid', 'Atlético Madrid', 'Villarreal'],
-    htmlSources: [
-      'https://www.mackolik.com/puan-durumu/ispanya-la-liga/34pl8szyvrbwcmfkuocjm3r6t',
-    ],
+    htmlSources: ['https://www.mackolik.com/puan-durumu/ispanya-la-liga/34pl8szyvrbwcmfkuocjm3r6t'],
   },
   {
     id: 'bundesliga',
@@ -61,9 +59,7 @@ const leagues = [
     wikipediaTitle: '2025–26 Bundesliga',
     sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
     validationTeams: ['Bayern Munich', 'Bayern Münih', 'Borussia Dortmund', 'RB Leipzig', 'Bayer Leverkusen', 'Eintracht Frankfurt'],
-    htmlSources: [
-      'https://www.mackolik.com/puan-durumu/almanya-bundesliga/6by3h89i2eykc341oz7lv1ddd',
-    ],
+    htmlSources: ['https://www.mackolik.com/puan-durumu/almanya-bundesliga/6by3h89i2eykc341oz7lv1ddd'],
   },
   {
     id: 'serie-a',
@@ -74,9 +70,7 @@ const leagues = [
     wikipediaTitle: '2025–26 Serie A',
     sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
     validationTeams: ['Inter Milan', 'Inter', 'Juventus', 'Milan', 'Napoli', 'Roma'],
-    htmlSources: [
-      'https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao',
-    ],
+    htmlSources: ['https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao'],
   },
   {
     id: 'ligue-1',
@@ -87,25 +81,101 @@ const leagues = [
     wikipediaTitle: '2025–26 Ligue 1',
     sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
     validationTeams: ['Paris Saint-Germain', 'PSG', 'Marseille', 'Monaco', 'Lyon'],
-    htmlSources: [
-      'https://www.mackolik.com/puan-durumu/fransa-ligue-1/dm5ka0os1e3dxcp3vh05kmp33',
-    ],
+    htmlSources: ['https://www.mackolik.com/puan-durumu/fransa-ligue-1/dm5ka0os1e3dxcp3vh05kmp33'],
   },
 ];
 
 const fallbackValidationTeams = leagues.flatMap((league) => league.validationTeams || []);
 
+const TEAM_LOGOS = {
+  Galatasaray: 'https://upload.wikimedia.org/wikipedia/en/2/20/Galatasaray_Sports_Club_Logo.png',
+  'Fenerbahçe': 'https://upload.wikimedia.org/wikipedia/en/8/8a/Fenerbahce_SK_logo.svg',
+  Fenerbahce: 'https://upload.wikimedia.org/wikipedia/en/8/8a/Fenerbahce_SK_logo.svg',
+  'Beşiktaş': 'https://upload.wikimedia.org/wikipedia/en/5/5c/Besiktas_JK_logo.svg',
+  Besiktas: 'https://upload.wikimedia.org/wikipedia/en/5/5c/Besiktas_JK_logo.svg',
+  Trabzonspor: 'https://upload.wikimedia.org/wikipedia/en/4/4e/Trabzonspor_Logo.png',
+  'Başakşehir': 'https://upload.wikimedia.org/wikipedia/en/0/0c/Istanbul_Basaksehir_FK_logo.svg',
+  Liverpool: 'https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg',
+  Arsenal: 'https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg',
+  Chelsea: 'https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg',
+  'Manchester City': 'https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg',
+  Tottenham: 'https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg',
+  'Real Madrid': 'https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg',
+  Barcelona: 'https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg',
+  'Atlético Madrid': 'https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg',
+  'Atletico Madrid': 'https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg',
+  'Bayern Munich': 'https://upload.wikimedia.org/wikipedia/en/1/1f/FC_Bayern_München_logo_%282017%29.svg',
+  'Bayern Münih': 'https://upload.wikimedia.org/wikipedia/en/1/1f/FC_Bayern_München_logo_%282017%29.svg',
+  'Borussia Dortmund': 'https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg',
+  Juventus: 'https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_logo.svg',
+  Inter: 'https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg',
+  'Inter Milan': 'https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg',
+  Milan: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg',
+  Napoli: 'https://upload.wikimedia.org/wikipedia/commons/2/28/S.S.C._Napoli_logo.svg',
+  Roma: 'https://upload.wikimedia.org/wikipedia/en/f/f7/AS_Roma_logo_%282017%29.svg',
+  'Paris Saint-Germain': 'https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg',
+  PSG: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg',
+  Marseille: 'https://upload.wikimedia.org/wikipedia/en/7/7c/Olympique_de_Marseille_logo.svg',
+  Monaco: 'https://upload.wikimedia.org/wikipedia/en/b/ba/AS_Monaco_FC.svg',
+  Lyon: 'https://upload.wikimedia.org/wikipedia/en/c/c6/Olympique_Lyonnais.svg',
+};
+
 function normalizeApiFootballRow(row) {
   const all = row?.all || {};
-  return { position: Number(row?.rank || 0), team: String(row?.team?.name || 'Takım'), played: Number(all.played || 0), won: Number(all.win || 0), draw: Number(all.draw || 0), lost: Number(all.lose || 0), points: Number(row?.points || 0), goalDifference: Number(row?.goalsDiff || 0) };
+  const goalsFor = Number(all.goals?.for || 0);
+  const goalsAgainst = Number(all.goals?.against || 0);
+  return enrichRow({
+    position: Number(row?.rank || 0),
+    team: String(row?.team?.name || 'Takım'),
+    played: Number(all.played || 0),
+    won: Number(all.win || 0),
+    draw: Number(all.draw || 0),
+    lost: Number(all.lose || 0),
+    goalsFor,
+    goalsAgainst,
+    points: Number(row?.points || 0),
+    goalDifference: Number(row?.goalsDiff || goalsFor - goalsAgainst || 0),
+    logo: row?.team?.logo || null,
+    form: parseApiForm(row?.form),
+  });
 }
 
 function normalizeFootballDataRow(row) {
-  return { position: Number(row?.position || 0), team: String(row?.team?.shortName || row?.team?.name || 'Takım'), played: Number(row?.playedGames || 0), won: Number(row?.won || 0), draw: Number(row?.draw || 0), lost: Number(row?.lost || 0), points: Number(row?.points || 0), goalDifference: Number(row?.goalDifference || 0) };
+  const goalsFor = Number(row?.goalsFor || 0);
+  const goalsAgainst = Number(row?.goalsAgainst || 0);
+  return enrichRow({
+    position: Number(row?.position || 0),
+    team: String(row?.team?.shortName || row?.team?.name || 'Takım'),
+    played: Number(row?.playedGames || 0),
+    won: Number(row?.won || 0),
+    draw: Number(row?.draw || 0),
+    lost: Number(row?.lost || 0),
+    goalsFor,
+    goalsAgainst,
+    points: Number(row?.points || 0),
+    goalDifference: Number(row?.goalDifference || goalsFor - goalsAgainst || 0),
+    logo: row?.team?.crest || null,
+    form: [],
+  });
 }
 
 function normalizeSportsDbRow(row, index) {
-  return { position: Number(row.intRank || row.rank || index + 1), team: String(row.strTeam || row.team || 'Takım'), played: Number(row.intPlayed || row.played || 0), won: Number(row.intWin || row.won || 0), draw: Number(row.intDraw || row.draw || 0), lost: Number(row.intLoss || row.loss || 0), points: Number(row.intPoints || row.points || 0), goalDifference: Number(row.intGoalDifference || row.goalDifference || 0) };
+  const goalsFor = Number(row.intGoalsFor || row.goalsFor || 0);
+  const goalsAgainst = Number(row.intGoalsAgainst || row.goalsAgainst || 0);
+  return enrichRow({
+    position: Number(row.intRank || row.rank || index + 1),
+    team: String(row.strTeam || row.team || 'Takım'),
+    played: Number(row.intPlayed || row.played || 0),
+    won: Number(row.intWin || row.won || 0),
+    draw: Number(row.intDraw || row.draw || 0),
+    lost: Number(row.intLoss || row.loss || 0),
+    goalsFor,
+    goalsAgainst,
+    points: Number(row.intPoints || row.points || 0),
+    goalDifference: Number(row.intGoalDifference || row.goalDifference || goalsFor - goalsAgainst || 0),
+    logo: row.strTeamBadge || row.strBadge || null,
+    form: [],
+  });
 }
 
 function decodeEntities(value) {
@@ -133,6 +203,21 @@ function normalizeText(value) {
   return String(value || '').toLocaleLowerCase('tr-TR').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ı/g, 'i').replace(/[^a-z0-9]+/g, ' ').trim();
 }
 
+function getLogoForTeam(team, scrapedLogo = null) {
+  return scrapedLogo || TEAM_LOGOS[team] || TEAM_LOGOS[team?.replace('İstanbul ', '')] || null;
+}
+
+function parseApiForm(value) {
+  return String(value || '').split('').map((item) => item === 'W' ? 'W' : item === 'L' ? 'L' : item === 'D' ? 'D' : '').filter(Boolean).slice(-5);
+}
+
+function enrichRow(row) {
+  const goalsFor = Number(row.goalsFor || 0);
+  const goalsAgainst = Number(row.goalsAgainst || 0);
+  const goalDifference = Number.isFinite(row.goalDifference) && row.goalDifference !== 0 ? Number(row.goalDifference) : goalsFor - goalsAgainst;
+  return { ...row, goalsFor, goalsAgainst, goalDifference, logo: getLogoForTeam(row.team, row.logo), form: Array.isArray(row.form) ? row.form.slice(-5) : [] };
+}
+
 async function fetchJson(url, options = {}) {
   const response = await fetch(url, options);
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -146,14 +231,50 @@ async function fetchText(url, options = {}) {
 }
 
 function extractHtmlTables(html) { return html.match(/<table[\s\S]*?<\/table>/gi) || []; }
-function parseHtmlTable(tableHtml) { return (tableHtml.match(/<tr[\s\S]*?<\/tr>/gi) || []).map((row) => [...row.matchAll(/<t[dh][^>]*>([\s\S]*?)<\/t[dh]>/gi)].map((match) => stripHtml(match[1])).filter(Boolean)).filter((row) => row.length >= 4); }
+
+function parseHtmlTable(tableHtml) {
+  return (tableHtml.match(/<tr[\s\S]*?<\/tr>/gi) || []).map((rowHtml) => {
+    const cells = [...rowHtml.matchAll(/<t[dh][^>]*>([\s\S]*?)<\/t[dh]>/gi)].map((match) => ({ html: match[1], text: stripHtml(match[1]) })).filter((cell) => cell.text || cell.html);
+    return { html: rowHtml, cells };
+  }).filter((row) => row.cells.length >= 4);
+}
+
+function cellText(cells, index) {
+  return cells[index]?.text || '';
+}
+
+function cellHtml(cells, index) {
+  return cells[index]?.html || '';
+}
+
+function extractLogoFromHtml(html) {
+  const srcMatch = String(html || '').match(/<img[^>]+src=["']([^"']+)["']/i);
+  if (!srcMatch) return null;
+  const src = decodeEntities(srcMatch[1]);
+  if (!src || src.startsWith('data:')) return null;
+  if (src.startsWith('//')) return `https:${src}`;
+  if (src.startsWith('/')) return `https://www.mackolik.com${src}`;
+  return src;
+}
+
+function extractFormFromHtml(html) {
+  const lower = String(html || '').toLowerCase();
+  const form = [];
+  const tokenMatches = [...lower.matchAll(/\b(win|won|galibiyet|draw|beraberlik|loss|lost|mağlubiyet|maglubiyet)\b/g)];
+  for (const match of tokenMatches) {
+    if (['win', 'won', 'galibiyet'].includes(match[1])) form.push('W');
+    if (['draw', 'beraberlik'].includes(match[1])) form.push('D');
+    if (['loss', 'lost', 'mağlubiyet', 'maglubiyet'].includes(match[1])) form.push('L');
+  }
+  return form.slice(-5);
+}
 
 function plausiblePoints(won, draw, points) {
   const expected = won * 3 + draw;
   return points > 0 && points <= expected && points >= Math.max(1, expected - 12);
 }
 
-function buildRowFromNumbers(position, team, numbers) {
+function buildRowFromNumbers(position, team, numbers, logo, form) {
   const played = numbers[0] || 0;
   let bestTriplet = null;
 
@@ -173,15 +294,25 @@ function buildRowFromNumbers(position, team, numbers) {
     const points = pointCandidates.length ? pointCandidates[pointCandidates.length - 1] : expectedPoints;
     const pointIndex = numbers.lastIndexOf(points);
     const afterTriplet = numbers.slice(bestTriplet.index + 3, pointIndex >= 0 ? pointIndex : undefined);
-    const beforeTriplet = numbers.slice(1, bestTriplet.index);
-    const goalDifference = afterTriplet.length >= 3 ? afterTriplet[afterTriplet.length - 1] : beforeTriplet.length ? beforeTriplet[beforeTriplet.length - 1] : 0;
-    return { position, team, played, won: bestTriplet.won, draw: bestTriplet.draw, lost: bestTriplet.lost, points, goalDifference };
+    let goalsFor = 0;
+    let goalsAgainst = 0;
+    let goalDifference = 0;
+    if (afterTriplet.length >= 3) {
+      goalsFor = afterTriplet[0];
+      goalsAgainst = afterTriplet[1];
+      goalDifference = afterTriplet[2];
+    } else {
+      goalDifference = numbers[numbers.length - 2] || 0;
+    }
+    return enrichRow({ position, team, played, won: bestTriplet.won, draw: bestTriplet.draw, lost: bestTriplet.lost, goalsFor, goalsAgainst, points, goalDifference, logo, form });
   }
 
   const won = numbers[1] || 0;
   const draw = numbers[2] || 0;
   const lost = numbers[3] || 0;
-  return { position, team, played, won, draw, lost, points: won * 3 + draw, goalDifference: numbers[numbers.length - 2] || 0 };
+  const goalsFor = numbers[4] || 0;
+  const goalsAgainst = numbers[5] || 0;
+  return enrichRow({ position, team, played, won, draw, lost, goalsFor, goalsAgainst, points: won * 3 + draw, goalDifference: goalsFor - goalsAgainst, logo, form });
 }
 
 function findHeaderIndex(header, exactCandidates, containsCandidates = []) {
@@ -192,32 +323,40 @@ function findHeaderIndex(header, exactCandidates, containsCandidates = []) {
 }
 
 function tableToStandingsRows(rawRows) {
-  const headerIndex = rawRows.findIndex((row) => { const joined = normalizeText(row.join(' ')); return (joined.includes('takim') || joined.includes('team')) && (joined.includes('puan') || joined.includes('pts') || joined.includes(' p ')); });
-  const header = headerIndex >= 0 ? rawRows[headerIndex].map(normalizeText) : [];
+  const headerIndex = rawRows.findIndex((row) => { const joined = normalizeText(row.cells.map((cell) => cell.text).join(' ')); return (joined.includes('takim') || joined.includes('team')) && (joined.includes('puan') || joined.includes('pts') || joined.includes(' p ')); });
+  const header = headerIndex >= 0 ? rawRows[headerIndex].cells.map((cell) => normalizeText(cell.text)) : [];
   const body = headerIndex >= 0 ? rawRows.slice(headerIndex + 1) : rawRows;
 
   const teamIndex = findHeaderIndex(header, ['takim', 'team', 'kulup', 'club'], ['takim', 'team', 'kulup', 'club']);
-  const playedIndex = findHeaderIndex(header, ['o', 'pld', 'played', 'mac'], ['played', 'mac']);
+  const playedIndex = findHeaderIndex(header, ['o', 'om', 'pld', 'played', 'mac'], ['played', 'mac']);
   const wonIndex = findHeaderIndex(header, ['g', 'w', 'won'], ['won', 'galibiyet']);
   const drawIndex = findHeaderIndex(header, ['b', 'd', 'draw'], ['draw', 'beraberlik']);
   const lostIndex = findHeaderIndex(header, ['m', 'l', 'lost'], ['lost', 'maglubiyet']);
+  const goalsForIndex = findHeaderIndex(header, ['ag', 'gf', 'a', 'goals for'], ['goals for', 'attigi']);
+  const goalsAgainstIndex = findHeaderIndex(header, ['yg', 'ga', 'goals against'], ['goals against', 'yedigi']);
   const gdIndex = findHeaderIndex(header, ['av', 'gd', 'goal difference'], ['goal difference']);
   const pointsIndex = findHeaderIndex(header, ['p', 'pts', 'puan', 'points'], ['puan', 'points']);
 
-  return body.map((cells, index) => {
+  return body.map((row, index) => {
+    const cells = row.cells;
     const safeTeamIndex = teamIndex >= 0 ? teamIndex : 1;
-    const position = parseNumber(cells[0]) || index + 1;
-    const team = cleanTeam(cells[safeTeamIndex] || '');
-    const played = parseNumber(cells[playedIndex >= 0 ? playedIndex : 2]);
-    const won = parseNumber(cells[wonIndex >= 0 ? wonIndex : 3]);
-    const draw = parseNumber(cells[drawIndex >= 0 ? drawIndex : 4]);
-    const lost = parseNumber(cells[lostIndex >= 0 ? lostIndex : 5]);
-    const points = parseNumber(cells[pointsIndex >= 0 ? pointsIndex : cells.length - 1]);
-    const goalDifference = parseNumber(cells[gdIndex >= 0 ? gdIndex : Math.max(cells.length - 2, 6)]);
-    const headerMapped = { position, team, played, won, draw, lost, points, goalDifference };
+    const position = parseNumber(cellText(cells, 0)) || index + 1;
+    const team = cleanTeam(cellText(cells, safeTeamIndex) || '');
+    const rowHtml = row.html || cells.map((cell) => cell.html).join(' ');
+    const logo = extractLogoFromHtml(rowHtml);
+    const form = extractFormFromHtml(rowHtml);
+    const played = parseNumber(cellText(cells, playedIndex >= 0 ? playedIndex : 2));
+    const won = parseNumber(cellText(cells, wonIndex >= 0 ? wonIndex : 3));
+    const draw = parseNumber(cellText(cells, drawIndex >= 0 ? drawIndex : 4));
+    const lost = parseNumber(cellText(cells, lostIndex >= 0 ? lostIndex : 5));
+    const goalsFor = parseNumber(cellText(cells, goalsForIndex >= 0 ? goalsForIndex : 6));
+    const goalsAgainst = parseNumber(cellText(cells, goalsAgainstIndex >= 0 ? goalsAgainstIndex : 7));
+    const points = parseNumber(cellText(cells, pointsIndex >= 0 ? pointsIndex : cells.length - 1));
+    const goalDifference = parseNumber(cellText(cells, gdIndex >= 0 ? gdIndex : Math.max(cells.length - 2, 6))) || goalsFor - goalsAgainst;
+    const headerMapped = enrichRow({ position, team, played, won, draw, lost, goalsFor, goalsAgainst, points, goalDifference, logo, form });
     if (played > 0 && won >= 0 && draw >= 0 && lost >= 0 && won + draw + lost === played && plausiblePoints(won, draw, points)) return headerMapped;
-    const numbers = cells.slice(safeTeamIndex + 1).map(parseNumber).filter((value) => Number.isFinite(value));
-    return buildRowFromNumbers(position, team, numbers);
+    const numbers = cells.slice(safeTeamIndex + 1).map((cell) => parseNumber(cell.text)).filter((value) => Number.isFinite(value));
+    return buildRowFromNumbers(position, team, numbers, logo, form);
   }).filter((row) => row.team && row.played > 0 && row.points > 0 && row.won >= 0 && row.draw >= 0 && row.lost >= 0 && row.won + row.draw + row.lost === row.played && plausiblePoints(row.won, row.draw, row.points));
 }
 
