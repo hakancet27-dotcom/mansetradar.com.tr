@@ -4,57 +4,39 @@ const DATA_DIR = 'data';
 const updatedAt = new Date().toISOString();
 
 const signs = [
-  ['aries', 'Koç'],
-  ['taurus', 'Boğa'],
-  ['gemini', 'İkizler'],
-  ['cancer', 'Yengeç'],
-  ['leo', 'Aslan'],
-  ['virgo', 'Başak'],
-  ['libra', 'Terazi'],
-  ['scorpio', 'Akrep'],
-  ['sagittarius', 'Yay'],
-  ['capricorn', 'Oğlak'],
-  ['aquarius', 'Kova'],
-  ['pisces', 'Balık'],
+  ['aries', 'Koç', '♈'],
+  ['taurus', 'Boğa', '♉'],
+  ['gemini', 'İkizler', '♊'],
+  ['cancer', 'Yengeç', '♋'],
+  ['leo', 'Aslan', '♌'],
+  ['virgo', 'Başak', '♍'],
+  ['libra', 'Terazi', '♎'],
+  ['scorpio', 'Akrep', '♏'],
+  ['sagittarius', 'Yay', '♐'],
+  ['capricorn', 'Oğlak', '♑'],
+  ['aquarius', 'Kova', '♒'],
+  ['pisces', 'Balık', '♓'],
 ];
 
 const fallbackComments = {
-  aries: 'Bugün hızlı kararlar almak isteyebilirsin. Acele etmeden ilerlemek ve önceliğini netleştirmek sana avantaj sağlar.',
-  taurus: 'Maddi konular ve güven ihtiyacı öne çıkabilir. Sağlam adımlar atmak, günün dengesini korumana yardım eder.',
-  gemini: 'İletişim trafiğin artabilir. Kısa görüşmeler, haberler ve yeni fikirler günün ritmini belirleyebilir.',
-  cancer: 'Ev, aile ve iç huzur ihtiyacı bugün daha belirgin olabilir. Kendine alan açmak iyi gelir.',
-  leo: 'Dikkat çektiğin bir gün olabilir. Kendini ifade ederken net ama ölçülü kalmak faydalı olur.',
-  virgo: 'Düzen, plan ve detaylar ön planda. Küçük işleri toparlamak büyük rahatlama sağlayabilir.',
-  libra: 'İlişkilerde denge arayışı öne çıkabilir. Karşındakini dinlemek kadar kendi ihtiyacını da söylemen önemli.',
-  scorpio: 'Sezgilerin güçlü çalışabilir. Derin düşündüğün konularda acele karar vermeden gözlem yapmak iyi olur.',
-  sagittarius: 'Yeni bir plan, yolculuk fikri veya öğrenme isteği gündeme gelebilir. Ufuk açan konulara yönel.',
-  capricorn: 'Sorumluluklar ve hedefler ön planda. Planlı ilerlersen günün sonunda somut sonuç alabilirsin.',
-  aquarius: 'Farklı düşünceler ve sosyal bağlantılar gününü hareketlendirebilir. Yeni fikirlere açık kal.',
-  pisces: 'Duygusal hassasiyet artabilir. Sezgini dinle ama net olmayan konularda zaman tanı.',
+  aries: 'Bugün Koç burcu için hareketli, karar alma temposu yüksek bir gün olabilir. Önceliğini netleştirirsen enerjini dağınık işlere harcamadan daha etkili kullanabilirsin. Özellikle beklettiğin bir konuda ilk adımı atmak moralini yükseltebilir. İlişkilerde hızlı tepki vermek yerine birkaç saniye durup düşünmek, gereksiz gerilimleri azaltır. İş ve para tarafında ise küçük ama net bir plan yapmak günün sonunda daha somut sonuç almanı sağlar.',
+  taurus: 'Bugün Boğa burcu için güven, konfor ve maddi denge ihtiyacı öne çıkıyor. Aceleyle karar vermek yerine elindeki seçenekleri sakin biçimde tartmak daha doğru olur. Aile, ev veya kişisel düzenle ilgili küçük bir toparlanma sana iyi gelebilir. İlişkilerde netlik arayışındasın; karşındaki kişiden beklentini yumuşak ama açık bir dille söylemen faydalı olur. Para konularında ise gereksiz harcamaları fark etmek günün kazancı olabilir.',
+  gemini: 'Bugün İkizler burcu için iletişim trafiği artabilir. Telefonlar, mesajlar, kısa görüşmeler ve ani haberler gündemini belirleyebilir. Zihnin hızlı çalışıyor; bu da yeni fikir üretmek için avantaj sağlar. Ancak aynı anda çok fazla konuya bölünmek yorucu olabilir. İlişkilerde meraklı ve açık tavrın dikkat çekerken, iş tarafında kısa notlar almak ve yapılacakları sıraya koymak verimini artırır.',
+  cancer: 'Bugün Yengeç burcu için duygusal güvenlik, ev ve aile temaları ön planda. İçinden gelenleri bastırmak yerine sakin bir şekilde ifade etmek rahatlama sağlayabilir. Geçmişten gelen bir konu tekrar aklına düşebilir; bunu büyütmeden değerlendirmek daha sağlıklı olur. İş ve para konularında riskten çok korumacı davranmak isteyebilirsin. Günün sonunda kendine ayıracağın sessiz bir zaman ruh halini dengeleyebilir.',
+  leo: 'Bugün Aslan burcu için görünür olmak, kendini anlatmak ve dikkat çekmek kolaylaşabilir. Ancak güçlü duruşunu korurken karşı tarafı da dinlemek ilişkilerde daha iyi sonuç verir. Sosyal çevrende veya iş ortamında fikrini ortaya koyman gereken bir durum oluşabilir. Kendine güvenmen güzel ama detayları atlamamaya çalış. Günün enerjisi yaratıcı işler, sunumlar ve kişisel hedefler için destekleyici görünüyor.',
+  virgo: 'Bugün Başak burcu için düzen, planlama ve detaylar önem kazanıyor. Dağınık kalan işleri toparlamak, eksik bir dosyayı tamamlamak veya günlük rutinini sadeleştirmek sana iyi gelir. Fazla mükemmeliyetçi davranırsan kendini gereksiz yere yorabilirsin. İlişkilerde eleştirel ton yerine yapıcı bir dil kullanmak daha faydalı olur. Para ve iş tarafında küçük hesaplar, uzun vadede rahatlatıcı bir fark yaratabilir.',
+  libra: 'Bugün Terazi burcu için denge, ilişkiler ve ortak kararlar ön planda. Bir konuda orta yolu bulmak isteyebilirsin fakat kendi ihtiyacını tamamen geri plana atmamalısın. Sosyal temaslar artabilir; nazik ve uyumlu tavrın kapı açar. İş tarafında ekip çalışması veya fikir alışverişi verimli olabilir. Duygusal konularda ise net olmayan beklentileri konuşmak, gereksiz kırgınlıkların önüne geçer.',
+  scorpio: 'Bugün Akrep burcu için sezgiler güçlü çalışıyor. İnsanların söylediklerinden çok söylemediklerini fark edebilirsin. Bu durum sana avantaj sağlasa da şüpheyi fazla büyütmemek önemli. Derinleşmek istediğin bir konuya odaklanmak için uygun bir gün. İş ve para tarafında gizli kalan bir detay ortaya çıkabilir. İlişkilerde ise kontrol etmeye çalışmak yerine güven alanını güçlendirmek daha iyi sonuç verir.',
+  sagittarius: 'Bugün Yay burcu için özgürlük, öğrenme ve yeni planlar öne çıkıyor. Rutin seni sıkabilir; farklı bir konuya yönelmek zihnini açar. Yolculuk, eğitim, yayıncılık veya uzak bağlantılar gündeme gelebilir. Acele vaatlere kapılmadan gerçekçi bir plan yapmak önemli. İlişkilerde açık sözlülüğün güçlü ama tonu iyi ayarlamak gerekiyor. Gün, hedeflerini genişletmek için ilham verici olabilir.',
+  capricorn: 'Bugün Oğlak burcu için sorumluluklar, hedefler ve somut sonuç alma isteği ön planda. Yapılması gerekenleri ertelemeden sıraya koyarsan gün verimli geçebilir. İş tarafında disiplinli duruşun dikkat çeker. Ancak her şeyi tek başına üstlenmek seni yorabilir; destek istemek zayıflık değil. Para konularında planlı davranmak, ilerleyen günler için güven hissini artırır. Duygusal tarafta ise biraz yumuşamak ilişkileri rahatlatır.',
+  aquarius: 'Bugün Kova burcu için farklı fikirler, sosyal bağlantılar ve yenilik arayışı öne çıkıyor. Alışılmışın dışına çıkmak isteyebilirsin. Teknoloji, topluluklar veya arkadaş çevresi üzerinden yeni bir gündem doğabilir. Ancak fazla mesafeli görünmemeye dikkat et. İlişkilerde samimi bir açıklama, yanlış anlaşılmayı önleyebilir. İş tarafında yaratıcı bir çözüm bulma ihtimalin yüksek.',
+  pisces: 'Bugün Balık burcu için sezgi, duygu ve içsel farkındalık güçlü olabilir. Yoğun ortamlardan uzaklaşıp biraz sakinlik arayabilirsin. Sanatsal işler, yazmak, müzik veya ruhunu besleyen konular iyi gelir. İlişkilerde fazla fedakârlık yapmadan sınırlarını koruman önemli. İş ve para tarafında net olmayan şeyleri yazılı hale getirmek seni korur. Günün sonunda iç sesini dinlemek doğru yönü gösterebilir.',
 };
 
 const fallbackStandings = [
-  ['Galatasaray', 0],
-  ['Fenerbahçe', 0],
-  ['Beşiktaş', 0],
-  ['Trabzonspor', 0],
-  ['Başakşehir', 0],
-  ['Samsunspor', 0],
-  ['Göztepe', 0],
-  ['Konyaspor', 0],
-  ['Kasımpaşa', 0],
-  ['Antalyaspor', 0],
-].map(([team, points], index) => ({
-  position: index + 1,
-  team,
-  played: 0,
-  won: 0,
-  draw: 0,
-  lost: 0,
-  points,
-  goalDifference: 0,
-  fallback: true,
-}));
+  ['Galatasaray', 0], ['Fenerbahçe', 0], ['Beşiktaş', 0], ['Trabzonspor', 0], ['Başakşehir', 0],
+  ['Samsunspor', 0], ['Göztepe', 0], ['Konyaspor', 0], ['Kasımpaşa', 0], ['Antalyaspor', 0],
+].map(([team, points], index) => ({ position: index + 1, team, played: 0, won: 0, draw: 0, lost: 0, points, goalDifference: 0, fallback: true }));
 
 async function fetchJson(url, options = {}) {
   const response = await fetch(url, options);
@@ -62,89 +44,56 @@ async function fetchJson(url, options = {}) {
   return response.json();
 }
 
-async function fetchHoroscope(sign, title) {
-  const errors = [];
+function getSymbol(sign) {
+  return signs.find(([key]) => key === sign)?.[2] || '✦';
+}
 
-  try {
-    const payload = await fetchJson(`https://horoscope-app-api.vercel.app/api/v1/get-horoscope/daily?sign=${encodeURIComponent(sign)}&day=TODAY`);
-    const data = payload?.data || payload;
-    return {
-      sign,
-      title,
-      description: String(data?.horoscope_data || data?.description || fallbackComments[sign]),
-      mood: String(data?.mood || '--'),
-      color: String(data?.color || '--'),
-      luckyNumber: String(data?.lucky_number || '--'),
-      currentDate: String(data?.date || data?.current_date || new Date().toLocaleDateString('tr-TR')),
-    };
-  } catch (error) {
-    errors.push(`horoscope-app-api: ${error instanceof Error ? error.message : 'unknown'}`);
-  }
-
-  try {
-    const data = await fetchJson(`https://aztro.sameerkumar.website/?sign=${encodeURIComponent(sign)}&day=today`, { method: 'POST' });
-    return {
-      sign,
-      title,
-      description: String(data?.description || fallbackComments[sign]),
-      mood: String(data?.mood || '--'),
-      color: String(data?.color || '--'),
-      luckyNumber: String(data?.lucky_number || '--'),
-      currentDate: String(data?.current_date || new Date().toLocaleDateString('tr-TR')),
-    };
-  } catch (error) {
-    errors.push(`aztro: ${error instanceof Error ? error.message : 'unknown'}`);
-  }
-
+function enrichReading(base) {
+  const description = String(base.description || fallbackComments[base.sign] || 'Günlük yorum hazırlanıyor.');
   return {
-    sign,
-    title,
-    description: fallbackComments[sign],
-    mood: '--',
-    color: '--',
-    luckyNumber: '--',
-    currentDate: new Date().toLocaleDateString('tr-TR'),
-    fallback: true,
-    status: errors.join(' | '),
+    ...base,
+    symbol: getSymbol(base.sign),
+    description,
+    love: base.love || 'Duygusal konularda acele etmeden, karşındaki kişinin sözleri kadar tavrını da gözlemlemek iyi olur.',
+    career: base.career || 'İş ve para tarafında küçük detayları toparlamak, günün sonunda daha güvenli bir zemin oluşturur.',
+    advice: base.advice || 'Bugünün ana tavsiyesi: enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur.',
   };
 }
 
+async function fetchHoroscope(sign, title, symbol) {
+  const errors = [];
+  try {
+    const payload = await fetchJson(`https://horoscope-app-api.vercel.app/api/v1/get-horoscope/daily?sign=${encodeURIComponent(sign)}&day=TODAY`);
+    const data = payload?.data || payload;
+    return enrichReading({ sign, title, symbol, description: String(data?.horoscope_data || data?.description || fallbackComments[sign]), mood: String(data?.mood || '--'), color: String(data?.color || '--'), luckyNumber: String(data?.lucky_number || '--'), currentDate: String(data?.date || data?.current_date || new Date().toLocaleDateString('tr-TR')) });
+  } catch (error) {
+    errors.push(`horoscope-app-api: ${error instanceof Error ? error.message : 'unknown'}`);
+  }
+  try {
+    const data = await fetchJson(`https://aztro.sameerkumar.website/?sign=${encodeURIComponent(sign)}&day=today`, { method: 'POST' });
+    return enrichReading({ sign, title, symbol, description: String(data?.description || fallbackComments[sign]), mood: String(data?.mood || '--'), color: String(data?.color || '--'), luckyNumber: String(data?.lucky_number || '--'), currentDate: String(data?.current_date || new Date().toLocaleDateString('tr-TR')) });
+  } catch (error) {
+    errors.push(`aztro: ${error instanceof Error ? error.message : 'unknown'}`);
+  }
+  return enrichReading({ sign, title, symbol, description: fallbackComments[sign], mood: '--', color: '--', luckyNumber: '--', currentDate: new Date().toLocaleDateString('tr-TR'), fallback: true, status: errors.join(' | ') });
+}
+
 async function updateHoroscope() {
-  const items = await Promise.all(signs.map(([sign, title]) => fetchHoroscope(sign, title)));
+  const items = await Promise.all(signs.map(([sign, title, symbol]) => fetchHoroscope(sign, title, symbol)));
   await writeFile(`${DATA_DIR}/horoscope.json`, JSON.stringify({ updatedAt, source: 'horoscope-app-api/Aztro/fallback', items }, null, 2) + '\n', 'utf8');
 }
 
 function normalizeFootballDataRow(row) {
-  return {
-    position: Number(row.position || 0),
-    team: String(row.team?.shortName || row.team?.name || 'Takım'),
-    played: Number(row.playedGames || 0),
-    won: Number(row.won || 0),
-    draw: Number(row.draw || 0),
-    lost: Number(row.lost || 0),
-    points: Number(row.points || 0),
-    goalDifference: Number(row.goalDifference || 0),
-  };
+  return { position: Number(row.position || 0), team: String(row.team?.shortName || row.team?.name || 'Takım'), played: Number(row.playedGames || 0), won: Number(row.won || 0), draw: Number(row.draw || 0), lost: Number(row.lost || 0), points: Number(row.points || 0), goalDifference: Number(row.goalDifference || 0) };
 }
 
 function normalizeSportsDbRow(row, index) {
-  return {
-    position: Number(row.intRank || row.rank || index + 1),
-    team: String(row.strTeam || row.team || 'Takım'),
-    played: Number(row.intPlayed || row.played || 0),
-    won: Number(row.intWin || row.won || 0),
-    draw: Number(row.intDraw || row.draw || 0),
-    lost: Number(row.intLoss || row.lost || 0),
-    points: Number(row.intPoints || row.points || 0),
-    goalDifference: Number(row.intGoalDifference || row.goalDifference || 0),
-  };
+  return { position: Number(row.intRank || row.rank || index + 1), team: String(row.strTeam || row.team || 'Takım'), played: Number(row.intPlayed || row.played || 0), won: Number(row.intWin || row.won || 0), draw: Number(row.intDraw || row.draw || 0), lost: Number(row.intLoss || row.lost || 0), points: Number(row.intPoints || row.points || 0), goalDifference: Number(row.intGoalDifference || row.goalDifference || 0) };
 }
 
 async function fetchStandingsFromFootballData(token) {
   if (!token) throw new Error('missing SPORTS_API_KEY');
-  const response = await fetch('https://api.football-data.org/v4/competitions/TR1/standings', {
-    headers: { 'X-Auth-Token': token },
-  });
+  const response = await fetch('https://api.football-data.org/v4/competitions/TR1/standings', { headers: { 'X-Auth-Token': token } });
   if (!response.ok) throw new Error(`football-data HTTP ${response.status}`);
   const payload = await response.json();
   const table = (payload?.standings?.[0]?.table || []).map(normalizeFootballDataRow);
@@ -156,7 +105,6 @@ async function fetchStandingsFromSportsDb() {
   const seasons = ['2025-2026', '2025-26', '2026'];
   const leagueIds = ['4339', '4494'];
   const errors = [];
-
   for (const leagueId of leagueIds) {
     for (const season of seasons) {
       try {
@@ -169,38 +117,23 @@ async function fetchStandingsFromSportsDb() {
       }
     }
   }
-
   throw new Error(errors.join(' | '));
 }
 
 async function updateStandings() {
   const token = process.env.SPORTS_API_KEY || '';
   const errors = [];
-
   try {
     const data = await fetchStandingsFromFootballData(token);
     await writeFile(`${DATA_DIR}/standings.json`, JSON.stringify({ updatedAt, ...data }, null, 2) + '\n', 'utf8');
     return;
-  } catch (error) {
-    errors.push(error instanceof Error ? error.message : 'unknown');
-  }
-
+  } catch (error) { errors.push(error instanceof Error ? error.message : 'unknown'); }
   try {
     const data = await fetchStandingsFromSportsDb();
     await writeFile(`${DATA_DIR}/standings.json`, JSON.stringify({ updatedAt, ...data }, null, 2) + '\n', 'utf8');
     return;
-  } catch (error) {
-    errors.push(error instanceof Error ? error.message : 'unknown');
-  }
-
-  await writeFile(`${DATA_DIR}/standings.json`, JSON.stringify({
-    updatedAt,
-    source: 'football-data.org/TheSportsDB/fallback',
-    competition: 'Süper Lig',
-    table: fallbackStandings,
-    fallback: true,
-    status: errors.join(' | '),
-  }, null, 2) + '\n', 'utf8');
+  } catch (error) { errors.push(error instanceof Error ? error.message : 'unknown'); }
+  await writeFile(`${DATA_DIR}/standings.json`, JSON.stringify({ updatedAt, source: 'football-data.org/TheSportsDB/fallback', competition: 'Süper Lig', table: fallbackStandings, fallback: true, status: errors.join(' | ') }, null, 2) + '\n', 'utf8');
 }
 
 await mkdir(DATA_DIR, { recursive: true });
