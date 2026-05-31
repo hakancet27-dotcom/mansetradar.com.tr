@@ -1,126 +1,114 @@
 {
-  "updatedAt": "2026-05-31T06:17:50.847Z",
-  "source": "Aztro",
+  "updatedAt": "2026-05-31T06:34:15.508Z",
+  "source": "horoscope-app-api/Aztro/fallback",
   "items": [
     {
       "sign": "aries",
       "title": "Koç",
-      "description": "Günlük yorum şu an alınamadı. Kısa süre sonra tekrar güncellenecek.",
+      "description": "Bugün hızlı kararlar almak isteyebilirsin. Acele etmeden ilerlemek ve önceliğini netleştirmek sana avantaj sağlar.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "",
-      "error": "HTTP 404"
+      "currentDate": "2026-05-31"
     },
     {
       "sign": "taurus",
       "title": "Boğa",
-      "description": "Günlük yorum şu an alınamadı. Kısa süre sonra tekrar güncellenecek.",
+      "description": "Maddi konular ve güven ihtiyacı öne çıkabilir. Sağlam adımlar atmak, günün dengesini korumana yardım eder.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "",
-      "error": "HTTP 404"
+      "currentDate": "2026-05-31"
     },
     {
       "sign": "gemini",
       "title": "İkizler",
-      "description": "Günlük yorum şu an alınamadı. Kısa süre sonra tekrar güncellenecek.",
+      "description": "İletişim trafiğin artabilir. Kısa görüşmeler, haberler ve yeni fikirler günün ritmini belirleyebilir.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "",
-      "error": "HTTP 404"
+      "currentDate": "2026-05-31"
     },
     {
       "sign": "cancer",
       "title": "Yengeç",
-      "description": "Günlük yorum şu an alınamadı. Kısa süre sonra tekrar güncellenecek.",
+      "description": "Ev, aile ve iç huzur ihtiyacı bugün daha belirgin olabilir. Kendine alan açmak iyi gelir.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "",
-      "error": "HTTP 404"
+      "currentDate": "2026-05-31"
     },
     {
       "sign": "leo",
       "title": "Aslan",
-      "description": "Günlük yorum şu an alınamadı. Kısa süre sonra tekrar güncellenecek.",
+      "description": "Dikkat çektiğin bir gün olabilir. Kendini ifade ederken net ama ölçülü kalmak faydalı olur.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "",
-      "error": "HTTP 404"
+      "currentDate": "2026-05-31"
     },
     {
       "sign": "virgo",
       "title": "Başak",
-      "description": "Günlük yorum şu an alınamadı. Kısa süre sonra tekrar güncellenecek.",
+      "description": "Düzen, plan ve detaylar ön planda. Küçük işleri toparlamak büyük rahatlama sağlayabilir.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "",
-      "error": "HTTP 404"
+      "currentDate": "2026-05-31"
     },
     {
       "sign": "libra",
       "title": "Terazi",
-      "description": "Günlük yorum şu an alınamadı. Kısa süre sonra tekrar güncellenecek.",
+      "description": "İlişkilerde denge arayışı öne çıkabilir. Karşındakini dinlemek kadar kendi ihtiyacını da söylemen önemli.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "",
-      "error": "HTTP 404"
+      "currentDate": "2026-05-31"
     },
     {
       "sign": "scorpio",
       "title": "Akrep",
-      "description": "Günlük yorum şu an alınamadı. Kısa süre sonra tekrar güncellenecek.",
+      "description": "Sezgilerin güçlü çalışabilir. Derin düşündüğün konularda acele karar vermeden gözlem yapmak iyi olur.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "",
-      "error": "HTTP 404"
+      "currentDate": "2026-05-31"
     },
     {
       "sign": "sagittarius",
       "title": "Yay",
-      "description": "Günlük yorum şu an alınamadı. Kısa süre sonra tekrar güncellenecek.",
+      "description": "Yeni bir plan, yolculuk fikri veya öğrenme isteği gündeme gelebilir. Ufuk açan konulara yönel.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "",
-      "error": "HTTP 404"
+      "currentDate": "2026-05-31"
     },
     {
       "sign": "capricorn",
       "title": "Oğlak",
-      "description": "Günlük yorum şu an alınamadı. Kısa süre sonra tekrar güncellenecek.",
+      "description": "Sorumluluklar ve hedefler ön planda. Planlı ilerlersen günün sonunda somut sonuç alabilirsin.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "",
-      "error": "HTTP 404"
+      "currentDate": "2026-05-31"
     },
     {
       "sign": "aquarius",
       "title": "Kova",
-      "description": "Günlük yorum şu an alınamadı. Kısa süre sonra tekrar güncellenecek.",
+      "description": "Farklı düşünceler ve sosyal bağlantılar gününü hareketlendirebilir. Yeni fikirlere açık kal.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "",
-      "error": "HTTP 404"
+      "currentDate": "2026-05-31"
     },
     {
       "sign": "pisces",
       "title": "Balık",
-      "description": "Günlük yorum şu an alınamadı. Kısa süre sonra tekrar güncellenecek.",
+      "description": "Duygusal hassasiyet artabilir. Sezgini dinle ama net olmayan konularda zaman tanı.",
       "mood": "--",
       "color": "--",
       "luckyNumber": "--",
-      "currentDate": "",
-      "error": "HTTP 404"
+      "currentDate": "2026-05-31"
     }
   ]
 }
