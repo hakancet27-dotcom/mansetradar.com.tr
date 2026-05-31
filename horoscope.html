@@ -14,23 +14,36 @@
     a { color:inherit; text-decoration:none; }
     .brand { font-weight:900; }
     .back { color:#fff; font-weight:800; }
-    .wrap { max-width:1100px; margin:28px auto; padding:0 18px; }
-    .hero { background:linear-gradient(135deg, #e10600, #a80000); color:#fff; border-radius:12px; padding:24px; box-shadow:0 18px 40px rgba(225,6,0,.18); }
+    .wrap { max-width:1120px; margin:28px auto; padding:0 18px; }
+    .hero { background:linear-gradient(135deg, #e10600, #a80000); color:#fff; border-radius:16px; padding:26px; box-shadow:0 18px 40px rgba(225,6,0,.18); }
     h1 { margin:0 0 8px; font-size:clamp(1.8rem,3vw,2.7rem); }
     .meta { margin:0; opacity:.88; }
-    .layout { display:grid; grid-template-columns:280px 1fr; gap:18px; margin-top:18px; }
-    .panel { background:#fff; border:1px solid var(--border); border-radius:12px; padding:18px; box-shadow:0 10px 28px rgba(15,23,42,.06); }
-    .sign-list { display:grid; gap:8px; }
-    .sign-link { border:1px solid var(--border); border-radius:10px; background:#fff; padding:11px 12px; font-weight:900; color:var(--dark); display:flex; justify-content:space-between; align-items:center; }
+    .layout { display:grid; grid-template-columns:300px 1fr; gap:18px; margin-top:18px; align-items:start; }
+    .panel { background:#fff; border:1px solid var(--border); border-radius:16px; padding:18px; box-shadow:0 10px 28px rgba(15,23,42,.06); }
+    .sign-list { display:grid; gap:8px; max-height:calc(100vh - 190px); overflow:auto; padding-right:2px; }
+    .sign-link { border:1px solid var(--border); border-radius:12px; background:#fff; padding:11px 12px; font-weight:900; color:var(--dark); display:flex; justify-content:space-between; align-items:center; transition:.18s ease; }
+    .sign-link:hover { border-color:var(--red); color:var(--red); transform:translateX(2px); }
     .sign-link.active { background:var(--dark); color:#fff; border-color:var(--dark); }
-    .detail-title { margin:0 0 10px; color:var(--dark); font-size:2rem; line-height:1.15; }
-    .comment { color:var(--text); font-size:1.05rem; line-height:1.75; margin:0 0 18px; }
-    .facts { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; }
-    .fact { border:1px solid var(--border); border-radius:10px; padding:12px; background:#fbfcfe; }
-    .fact strong { display:block; color:var(--muted); font-size:.78rem; margin-bottom:6px; text-transform:uppercase; letter-spacing:.4px; }
+    .sign-left { display:flex; align-items:center; gap:10px; }
+    .sign-small-symbol { width:28px; height:28px; border-radius:10px; display:grid; place-items:center; background:#f4f6f8; color:var(--red); font-size:1.05rem; }
+    .sign-link.active .sign-small-symbol { background:rgba(255,255,255,.14); color:#fff; }
+    .detail-hero { display:grid; grid-template-columns:auto 1fr; gap:18px; align-items:center; margin-bottom:18px; padding:18px; border-radius:18px; background:linear-gradient(135deg,#171729,#30384f); color:#fff; overflow:hidden; position:relative; }
+    .detail-hero:after { content:''; position:absolute; right:-40px; top:-50px; width:170px; height:170px; border-radius:50%; background:rgba(225,6,0,.28); }
+    .zodiac-visual { width:118px; height:118px; border-radius:34px; display:grid; place-items:center; background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.18); font-size:4.2rem; font-weight:900; box-shadow:inset 0 0 30px rgba(255,255,255,.08); }
+    .detail-title { margin:0 0 8px; color:#fff; font-size:2.2rem; line-height:1.1; }
+    .detail-sub { margin:0; color:rgba(255,255,255,.78); font-weight:700; line-height:1.55; }
+    .comment { color:var(--text); font-size:1.08rem; line-height:1.85; margin:0 0 18px; }
+    .section-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin:18px 0; }
+    .section-card { border:1px solid var(--border); border-radius:14px; padding:14px; background:#fbfcfe; }
+    .section-card strong { display:block; color:var(--dark); font-size:.95rem; margin-bottom:7px; }
+    .section-card p { margin:0; color:var(--muted); font-size:.9rem; line-height:1.55; font-weight:650; }
+    .facts { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; }
+    .fact { border:1px solid var(--border); border-radius:12px; padding:12px; background:#fff; }
+    .fact strong { display:block; color:var(--muted); font-size:.74rem; margin-bottom:6px; text-transform:uppercase; letter-spacing:.4px; }
     .fact span { color:var(--dark); font-weight:900; }
     .error { color:#b42318; font-weight:800; }
-    @media (max-width:800px){ .layout{grid-template-columns:1fr;} .facts{grid-template-columns:1fr;} }
+    @media (max-width:900px){ .layout{grid-template-columns:1fr;} .sign-list{grid-template-columns:repeat(2,minmax(0,1fr));max-height:none;} .section-grid,.facts{grid-template-columns:1fr;} }
+    @media (max-width:560px){ .detail-hero{grid-template-columns:1fr;text-align:center;} .zodiac-visual{margin:0 auto;width:100px;height:100px;font-size:3.4rem;} .sign-list{grid-template-columns:1fr;} }
   </style>
 </head>
 <body>
@@ -53,14 +66,16 @@
     const params = new URLSearchParams(location.search);
     let selectedSign = params.get('sign') || '';
     let items = [];
+    const symbols = { aries:'♈', taurus:'♉', gemini:'♊', cancer:'♋', leo:'♌', virgo:'♍', libra:'♎', scorpio:'♏', sagittarius:'♐', capricorn:'♑', aquarius:'♒', pisces:'♓' };
 
     function esc(value){ return String(value || '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char])); }
+    function symbolFor(item){ return item.symbol || symbols[item.sign] || '✦'; }
 
     function renderList() {
       const list = document.getElementById('sign-list');
       list.innerHTML = items.map(item => {
         const active = item.sign === selectedSign ? ' active' : '';
-        return '<a class="sign-link' + active + '" href="/horoscope.html?sign=' + encodeURIComponent(item.sign) + '"><span>' + esc(item.title || item.sign) + '</span><span>›</span></a>';
+        return '<a class="sign-link' + active + '" href="/horoscope.html?sign=' + encodeURIComponent(item.sign) + '"><span class="sign-left"><span class="sign-small-symbol">' + esc(symbolFor(item)) + '</span><span>' + esc(item.title || item.sign) + '</span></span><span>›</span></a>';
       }).join('');
     }
 
@@ -70,12 +85,18 @@
       selectedSign = item.sign;
       document.title = (item.title || 'Burç') + ' Günlük Burç Yorumu | mansetradar.com.tr';
       document.getElementById('detail').innerHTML =
-        '<h2 class="detail-title">' + esc(item.title || item.sign) + ' Burcu</h2>' +
+        '<div class="detail-hero"><div class="zodiac-visual">' + esc(symbolFor(item)) + '</div><div><h2 class="detail-title">' + esc(item.title || item.sign) + ' Burcu</h2><p class="detail-sub">Günlük yorum, ruh hali ve öne çıkan başlıklar</p></div></div>' +
         '<p class="comment">' + esc(item.description || 'Günlük yorum hazırlanıyor.') + '</p>' +
+        '<div class="section-grid">' +
+          '<div class="section-card"><strong>Aşk ve ilişkiler</strong><p>' + esc(item.love || 'Duygusal konularda sakin ve açık olmak bugün daha iyi sonuç verir.') + '</p></div>' +
+          '<div class="section-card"><strong>İş ve para</strong><p>' + esc(item.career || 'Planlı ilerlemek ve küçük detayları toparlamak günün verimini artırır.') + '</p></div>' +
+          '<div class="section-card"><strong>Günün tavsiyesi</strong><p>' + esc(item.advice || 'Enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur.') + '</p></div>' +
+        '</div>' +
         '<div class="facts">' +
           '<div class="fact"><strong>Tarih</strong><span>' + esc(item.currentDate || '--') + '</span></div>' +
           '<div class="fact"><strong>Ruh hali</strong><span>' + esc(item.mood || '--') + '</span></div>' +
           '<div class="fact"><strong>Şanslı sayı</strong><span>' + esc(item.luckyNumber || '--') + '</span></div>' +
+          '<div class="fact"><strong>Renk</strong><span>' + esc(item.color || '--') + '</span></div>' +
         '</div>';
       renderList();
     }
