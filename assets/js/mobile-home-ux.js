@@ -5,10 +5,23 @@
   var mobileMarket = document.querySelector('.mobile-market-strip');
   var keys = ['usd', 'eur', 'gbp', 'btc'];
   var detailKeys = ['usd', 'eur', 'gbp'];
+  var MANSET_YOUTUBE_CHANNEL_URL = 'https://www.youtube.com/@ManşetRadar';
 
   function esc(value) {
     return String(value || '').replace(/[&<>"']/g, function (char) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char];
+    });
+  }
+
+  function updateYoutubeChannelLinks() {
+    document.querySelectorAll('a[href*="youtube.com"], a[href*="youtu.be"]').forEach(function (anchor) {
+      var href = anchor.getAttribute('href') || '';
+      if (/youtube\.com\/(?:@|channel\/|c\/|user\/)/i.test(href)) {
+        anchor.setAttribute('href', MANSET_YOUTUBE_CHANNEL_URL);
+        anchor.setAttribute('target', '_blank');
+        anchor.setAttribute('rel', 'noopener');
+        if (!anchor.getAttribute('aria-label')) anchor.setAttribute('aria-label', 'Manşet Radar YouTube kanalını aç');
+      }
     });
   }
 
@@ -290,9 +303,12 @@
     }
   }
 
+  updateYoutubeChannelLinks();
+
   if (!desktopMarket) {
     fixWeatherLinks();
     initSidebarLiveWidgets();
+    updateYoutubeChannelLinks();
     if (typeof window.startWeatherLive === 'function') window.startWeatherLive();
     window.setTimeout(initWeatherProvinceSelector, 250);
     return;
@@ -314,6 +330,7 @@
         if (marker.parentNode) marker.parentNode.insertBefore(desktopMarket, marker.nextSibling);
         document.body.classList.remove('mobile-home-ux-ready');
       }
+      updateYoutubeChannelLinks();
     }
     placeMarket();
     if (media.addEventListener) media.addEventListener('change', placeMarket);
@@ -334,6 +351,7 @@
       });
       hideMobileStatus();
       makeRatesClickable(mobileMarket);
+      updateYoutubeChannelLinks();
     }
     syncValues();
     if ('MutationObserver' in window) new MutationObserver(syncValues).observe(desktopMarket, { childList: true, characterData: true, subtree: true, attributes: true, attributeFilter: ['class'] });
@@ -341,6 +359,7 @@
 
   fixWeatherLinks();
   initSidebarLiveWidgets();
+  updateYoutubeChannelLinks();
   if (typeof window.startMarketsLive === 'function') window.startMarketsLive();
   if (typeof window.startWeatherLive === 'function') window.startWeatherLive();
   window.setTimeout(initWeatherProvinceSelector, 250);
