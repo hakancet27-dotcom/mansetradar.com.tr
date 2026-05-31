@@ -9,21 +9,88 @@ const seasons = [requestedSeason];
 
 const leagues = [
   {
-    id: 'super-lig', name: 'Süper Lig', apiFootballId: 203, sportsDbId: '4339', footballDataCodes: ['TSL', 'TUR'], wikipediaTitle: '2025–26 Süper Lig', sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
+    id: 'super-lig',
+    name: 'Süper Lig',
+    apiFootballId: 203,
+    sportsDbId: '4339',
+    footballDataCodes: ['TSL', 'TUR'],
+    wikipediaTitle: '2025–26 Süper Lig',
+    sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
     validationTeams: ['Galatasaray', 'Fenerbahçe', 'Fenerbahce', 'Beşiktaş', 'Besiktas', 'Trabzonspor'],
     htmlSources: [
-      'https://skorlar.com',
-      'https://www.skorlar.com',
+      'https://www.mackolik.com/puan-durumu/t%C3%BCrkiye-s%C3%BCper-lig/482ofyysbdbeoxauk19yg7tdt',
       'https://www.skorlar.com/futbol/turkiye/super-lig/puan-durumu',
       'https://www.skorlar.com/futbol/turkiye/super-lig',
-      'https://www.mackolik.com/puan-durumu/t%C3%BCrkiye-s%C3%BCper-lig/482ofyysbdbeoxauk19yg7tdt',
+      'https://www.skorlar.com',
+      'https://skorlar.com',
     ],
   },
-  { id: 'premier-league', name: 'Premier League', apiFootballId: 39, sportsDbId: '4328', footballDataCodes: ['PL'], wikipediaTitle: '2025–26 Premier League', sportsDbSeasons: ['2025-2026', '2025-26', '2026'], validationTeams: ['Liverpool', 'Arsenal', 'Manchester City', 'Chelsea', 'Tottenham'] },
-  { id: 'la-liga', name: 'La Liga', apiFootballId: 140, sportsDbId: '4335', footballDataCodes: ['PD'], wikipediaTitle: '2025–26 La Liga', sportsDbSeasons: ['2025-2026', '2025-26', '2026'], validationTeams: ['Real Madrid', 'Barcelona', 'Atletico Madrid', 'Atlético Madrid', 'Villarreal'] },
-  { id: 'bundesliga', name: 'Bundesliga', apiFootballId: 78, sportsDbId: '4331', footballDataCodes: ['BL1'], wikipediaTitle: '2025–26 Bundesliga', sportsDbSeasons: ['2025-2026', '2025-26', '2026'], validationTeams: ['Bayern Munich', 'Borussia Dortmund', 'RB Leipzig', 'Bayer Leverkusen', 'Eintracht Frankfurt'] },
-  { id: 'serie-a', name: 'Serie A', apiFootballId: 135, sportsDbId: '4332', footballDataCodes: ['SA'], wikipediaTitle: '2025–26 Serie A', sportsDbSeasons: ['2025-2026', '2025-26', '2026'], validationTeams: ['Inter Milan', 'Juventus', 'Milan', 'Napoli', 'Roma'] },
-  { id: 'ligue-1', name: 'Ligue 1', apiFootballId: 61, sportsDbId: '4334', footballDataCodes: ['FL1'], wikipediaTitle: '2025–26 Ligue 1', sportsDbSeasons: ['2025-2026', '2025-26', '2026'], validationTeams: ['Paris Saint-Germain', 'PSG', 'Marseille', 'Monaco', 'Lyon'] },
+  {
+    id: 'premier-league',
+    name: 'Premier League',
+    apiFootballId: 39,
+    sportsDbId: '4328',
+    footballDataCodes: ['PL'],
+    wikipediaTitle: '2025–26 Premier League',
+    sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
+    validationTeams: ['Liverpool', 'Arsenal', 'Manchester City', 'Chelsea', 'Tottenham'],
+    htmlSources: [
+      'https://www.mackolik.com/puan-durumu/ingiltere-premier-lig/2kwbbcootiqqgmrzs6o5inle5',
+      'https://www.mackolik.com/puan-durumu/ingiltere-premier-league/2kwbbcootiqqgmrzs6o5inle5',
+    ],
+  },
+  {
+    id: 'la-liga',
+    name: 'La Liga',
+    apiFootballId: 140,
+    sportsDbId: '4335',
+    footballDataCodes: ['PD'],
+    wikipediaTitle: '2025–26 La Liga',
+    sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
+    validationTeams: ['Real Madrid', 'Barcelona', 'Atletico Madrid', 'Atlético Madrid', 'Villarreal'],
+    htmlSources: [
+      'https://www.mackolik.com/puan-durumu/ispanya-la-liga/34pl8szyvrbwcmfkuocjm3r6t',
+    ],
+  },
+  {
+    id: 'bundesliga',
+    name: 'Bundesliga',
+    apiFootballId: 78,
+    sportsDbId: '4331',
+    footballDataCodes: ['BL1'],
+    wikipediaTitle: '2025–26 Bundesliga',
+    sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
+    validationTeams: ['Bayern Munich', 'Bayern Münih', 'Borussia Dortmund', 'RB Leipzig', 'Bayer Leverkusen', 'Eintracht Frankfurt'],
+    htmlSources: [
+      'https://www.mackolik.com/puan-durumu/almanya-bundesliga/6by3h89i2eykc341oz7lv1ddd',
+    ],
+  },
+  {
+    id: 'serie-a',
+    name: 'Serie A',
+    apiFootballId: 135,
+    sportsDbId: '4332',
+    footballDataCodes: ['SA'],
+    wikipediaTitle: '2025–26 Serie A',
+    sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
+    validationTeams: ['Inter Milan', 'Inter', 'Juventus', 'Milan', 'Napoli', 'Roma'],
+    htmlSources: [
+      'https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao',
+    ],
+  },
+  {
+    id: 'ligue-1',
+    name: 'Ligue 1',
+    apiFootballId: 61,
+    sportsDbId: '4334',
+    footballDataCodes: ['FL1'],
+    wikipediaTitle: '2025–26 Ligue 1',
+    sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
+    validationTeams: ['Paris Saint-Germain', 'PSG', 'Marseille', 'Monaco', 'Lyon'],
+    htmlSources: [
+      'https://www.mackolik.com/puan-durumu/fransa-ligue-1/dm5ka0os1e3dxcp3vh05kmp33',
+    ],
+  },
 ];
 
 const fallbackValidationTeams = leagues.flatMap((league) => league.validationTeams || []);
@@ -81,9 +148,13 @@ async function fetchText(url, options = {}) {
 function extractHtmlTables(html) { return html.match(/<table[\s\S]*?<\/table>/gi) || []; }
 function parseHtmlTable(tableHtml) { return (tableHtml.match(/<tr[\s\S]*?<\/tr>/gi) || []).map((row) => [...row.matchAll(/<t[dh][^>]*>([\s\S]*?)<\/t[dh]>/gi)].map((match) => stripHtml(match[1])).filter(Boolean)).filter((row) => row.length >= 4); }
 
+function plausiblePoints(won, draw, points) {
+  const expected = won * 3 + draw;
+  return points > 0 && points <= expected && points >= Math.max(1, expected - 12);
+}
+
 function buildRowFromNumbers(position, team, numbers) {
   const played = numbers[0] || 0;
-  const points = numbers[numbers.length - 1] || 0;
   let bestTriplet = null;
 
   for (let i = 1; i <= numbers.length - 4; i += 1) {
@@ -97,13 +168,27 @@ function buildRowFromNumbers(position, team, numbers) {
   }
 
   if (bestTriplet) {
+    const expectedPoints = bestTriplet.won * 3 + bestTriplet.draw;
+    const pointCandidates = numbers.filter((value) => plausiblePoints(bestTriplet.won, bestTriplet.draw, value));
+    const points = pointCandidates.length ? pointCandidates[pointCandidates.length - 1] : expectedPoints;
+    const pointIndex = numbers.lastIndexOf(points);
+    const afterTriplet = numbers.slice(bestTriplet.index + 3, pointIndex >= 0 ? pointIndex : undefined);
     const beforeTriplet = numbers.slice(1, bestTriplet.index);
-    const afterTriplet = numbers.slice(bestTriplet.index + 3, -1);
-    const goalDifference = beforeTriplet.length ? beforeTriplet[beforeTriplet.length - 1] : afterTriplet.length ? afterTriplet[0] : 0;
+    const goalDifference = afterTriplet.length >= 3 ? afterTriplet[afterTriplet.length - 1] : beforeTriplet.length ? beforeTriplet[beforeTriplet.length - 1] : 0;
     return { position, team, played, won: bestTriplet.won, draw: bestTriplet.draw, lost: bestTriplet.lost, points, goalDifference };
   }
 
-  return { position, team, played, won: numbers[1] || 0, draw: numbers[2] || 0, lost: numbers[3] || 0, points, goalDifference: numbers[numbers.length - 2] || 0 };
+  const won = numbers[1] || 0;
+  const draw = numbers[2] || 0;
+  const lost = numbers[3] || 0;
+  return { position, team, played, won, draw, lost, points: won * 3 + draw, goalDifference: numbers[numbers.length - 2] || 0 };
+}
+
+function findHeaderIndex(header, exactCandidates, containsCandidates = []) {
+  let index = header.findIndex((item) => exactCandidates.includes(item));
+  if (index >= 0) return index;
+  index = header.findIndex((item) => containsCandidates.some((candidate) => item.includes(candidate)));
+  return index;
 }
 
 function tableToStandingsRows(rawRows) {
@@ -111,30 +196,29 @@ function tableToStandingsRows(rawRows) {
   const header = headerIndex >= 0 ? rawRows[headerIndex].map(normalizeText) : [];
   const body = headerIndex >= 0 ? rawRows.slice(headerIndex + 1) : rawRows;
 
-  function findIndex(candidates, fallback) { const index = header.findIndex((item) => candidates.some((candidate) => item === candidate || item.includes(candidate))); return index >= 0 ? index : fallback; }
-
-  const teamIndex = findIndex(['takim', 'team', 'kulup', 'club'], 1);
-  const playedIndex = findIndex(['o', 'played', 'mac'], 2);
-  const wonIndex = findIndex(['g', 'won', 'galibiyet'], 3);
-  const drawIndex = findIndex(['b', 'draw', 'beraberlik'], 4);
-  const lostIndex = findIndex(['m', 'lost', 'maglubiyet'], 5);
-  const gdIndex = findIndex(['av', 'gd', 'goal difference'], Math.max(body[0]?.length - 2 || 6, 6));
-  const pointsIndex = findIndex(['p', 'pts', 'puan', 'points'], Math.max(body[0]?.length - 1 || 7, 7));
+  const teamIndex = findHeaderIndex(header, ['takim', 'team', 'kulup', 'club'], ['takim', 'team', 'kulup', 'club']);
+  const playedIndex = findHeaderIndex(header, ['o', 'pld', 'played', 'mac'], ['played', 'mac']);
+  const wonIndex = findHeaderIndex(header, ['g', 'w', 'won'], ['won', 'galibiyet']);
+  const drawIndex = findHeaderIndex(header, ['b', 'd', 'draw'], ['draw', 'beraberlik']);
+  const lostIndex = findHeaderIndex(header, ['m', 'l', 'lost'], ['lost', 'maglubiyet']);
+  const gdIndex = findHeaderIndex(header, ['av', 'gd', 'goal difference'], ['goal difference']);
+  const pointsIndex = findHeaderIndex(header, ['p', 'pts', 'puan', 'points'], ['puan', 'points']);
 
   return body.map((cells, index) => {
+    const safeTeamIndex = teamIndex >= 0 ? teamIndex : 1;
     const position = parseNumber(cells[0]) || index + 1;
-    const team = cleanTeam(cells[teamIndex] || '');
-    const played = parseNumber(cells[playedIndex]);
-    const won = parseNumber(cells[wonIndex]);
-    const draw = parseNumber(cells[drawIndex]);
-    const lost = parseNumber(cells[lostIndex]);
-    const points = parseNumber(cells[pointsIndex]);
-    const goalDifference = parseNumber(cells[gdIndex]);
+    const team = cleanTeam(cells[safeTeamIndex] || '');
+    const played = parseNumber(cells[playedIndex >= 0 ? playedIndex : 2]);
+    const won = parseNumber(cells[wonIndex >= 0 ? wonIndex : 3]);
+    const draw = parseNumber(cells[drawIndex >= 0 ? drawIndex : 4]);
+    const lost = parseNumber(cells[lostIndex >= 0 ? lostIndex : 5]);
+    const points = parseNumber(cells[pointsIndex >= 0 ? pointsIndex : cells.length - 1]);
+    const goalDifference = parseNumber(cells[gdIndex >= 0 ? gdIndex : Math.max(cells.length - 2, 6)]);
     const headerMapped = { position, team, played, won, draw, lost, points, goalDifference };
-    if (played > 0 && won >= 0 && draw >= 0 && lost >= 0 && won + draw + lost === played) return headerMapped;
-    const numbers = cells.slice(teamIndex + 1).map(parseNumber).filter((value) => Number.isFinite(value));
+    if (played > 0 && won >= 0 && draw >= 0 && lost >= 0 && won + draw + lost === played && plausiblePoints(won, draw, points)) return headerMapped;
+    const numbers = cells.slice(safeTeamIndex + 1).map(parseNumber).filter((value) => Number.isFinite(value));
     return buildRowFromNumbers(position, team, numbers);
-  }).filter((row) => row.team && row.played > 0 && row.points >= 0 && row.won >= 0 && row.draw >= 0 && row.lost >= 0 && row.won + row.draw + row.lost === row.played);
+  }).filter((row) => row.team && row.played > 0 && row.points > 0 && row.won >= 0 && row.draw >= 0 && row.lost >= 0 && row.won + row.draw + row.lost === row.played && plausiblePoints(row.won, row.draw, row.points));
 }
 
 function validateCurrentStandings(table, league) {
@@ -142,8 +226,8 @@ function validateCurrentStandings(table, league) {
   const teams = table.map((row) => normalizeText(row.team)).join(' ');
   const knownTeams = league?.validationTeams?.length ? league.validationTeams : fallbackValidationTeams;
   const hasKnownTeam = knownTeams.some((team) => teams.includes(normalizeText(team)));
-  const hasRealMatches = table.some((row) => row.played > 0 && row.points > 0 && row.won + row.draw + row.lost === row.played);
-  return hasKnownTeam && hasRealMatches;
+  const rowsArePlausible = table.every((row) => row.played > 0 && row.points > 0 && row.won + row.draw + row.lost === row.played && plausiblePoints(row.won, row.draw, row.points));
+  return hasKnownTeam && rowsArePlausible;
 }
 
 async function fetchHtmlScrapeStandings(league) {
@@ -187,7 +271,7 @@ async function fetchWikipediaStandings(league) {
   const html = await fetchText(`https://en.wikipedia.org/wiki/${encodeURIComponent(league.wikipediaTitle).replace(/%20/g, '_')}`);
   const tables = extractHtmlTables(html);
   const knownTeams = league.validationTeams || [];
-  const table = tables.find((item) => knownTeams.some((team) => normalizeText(stripHtml(item)).includes(normalizeText(team))) && /Pts|points|Puan|GD/i.test(item));
+  const table = tables.find((item) => knownTeams.some((team) => normalizeText(stripHtml(item)).includes(normalizeText(team))) && /Pts|points|Puan|GD|Av/i.test(item));
   if (!table) throw new Error('wikipedia standings table not found');
   const rawRows = parseHtmlTable(table);
   const rows = tableToStandingsRows(rawRows);
