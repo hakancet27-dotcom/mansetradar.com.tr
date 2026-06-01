@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "generated_at": "2026-06-01T00:00:00+00:00",
+    "article_count": 443,
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "articles:nvidia-rtx-spark-tanitildi-windows-icin-yapay-zeka-islemcisi-geliyor_20260601",
+    "slug": "nvidia-rtx-spark-tanitildi-windows-icin-yapay-zeka-islemcisi-geliyor_20260601",
+    "title": "Nvidia RTX Spark Tanıtıldı: Windows İçin Yeni Nesil Yapay Zeka İşlemcisi Geliyor",
+    "summary": "Nvidia, Computex fuarında \"en verimli PC işlemcisi\" olarak tanımladığı RTX Spark platformunu duyurdu. Grace Blackwell tabanlı SoC, TSMC'nin 3 nanometre üretim sürecinden çıkıyor ve 70 milyar transistör barındırıyor. Yapay zeka ajanları ve üretken yapay zeka...",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "country": "Turkey",
+    "language": "tr",
+    "language_label": "Turkish",
+    "section": "articles",
+    "section_name": "Haberler",
+    "date": "01.06.2026",
+    "date_iso": "2026-06-01",
+    "url": "/articles/nvidia-rtx-spark-tanitildi-windows-icin-yapay-zeka-islemcisi-geliyor_20260601/",
+    "canonical_url": "https://mansetradar.com.tr/articles/nvidia-rtx-spark-tanitildi-windows-icin-yapay-zeka-islemcisi-geliyor_20260601/",
+    "detail_json_url": "/data/details/articles/nvidia-rtx-spark-tanitildi-windows-icin-yapay-zeka-islemcisi-geliyor_20260601.json",
+    "image_url": "https://image.milimaj.com/i/milliyet/75/460x340/6a1d2b2da15d66caecaa3a4b.jpg",
+    "image_alt": "Nvidia RTX Spark işlemcisinin fütüristik bir görüntüsü.",
+    "image": {
+      "url": "https://image.milimaj.com/i/milliyet/75/460x340/6a1d2b2da15d66caecaa3a4b.jpg",
+      "alt": "Nvidia RTX Spark işlemcisinin fütüristik bir görüntüsü."
+    },
+    "source_name": "Milliyet",
+    "source_url": "https://www.milliyet.com.tr/teknoloji/nvidia-rtx-spark-tanitildi-windows-icin-yeni-nesil-yapay-zeka-islemcisi-geliyor-7597427",
+    "tags": [
+      "Nvidia",
+      "RTX Spark",
+      "Yapay Zeka",
+      "İşlemci",
+      "Teknoloji",
+      "Windows"
+    ],
+    "quality_score": 86,
+    "review_status": "published",
+    "content_html": "<h2>Nvidia RTX Spark Tanıtıldı: Yapay Zeka İçin Yeni Nesil Platform</h2> <p>Nvidia, Computex fuarının açılış gününde RTX Spark adını verdiği yeni nesil işlemci platformunu tanıttı. Şirket tarafından \"şimdiye kadar geliştirilen en verimli PC işlemcisi\" olarak nitelendirilen RTX Spark, Grace Blackwell tabanlı bir sistem yongası (SoC) olarak tasarlandı. TSMC'nin 3 nanometre üretim sürecinden çıkan çip, 70 milyar transistör içeriyor. Sistem, Blackwell tabanlı RTX grafik birimini, MediaTek ile ortak geliştirilen 20 çekirdekli Arm işlemciyi ve 128 GB'a kadar birleşik belleği bir araya getiriyor. Nvidia'nın açıklamalarına göre bu platform, özellikle yapay zeka ajanları ve üretken yapay zeka uygulamaları için optimize edildi.</p> <h2>RTX Spark'ın Teknik Özellikleri ve Birleşik Bellek Teknolojisi</h2> <p>RTX Spark'ın en güçlü sürümü, veri merkezi ve yapay zeka geliştiricileri için tanıtılan DGX Spark sisteminde kullanılan GB10 işlemcisiyle aynı donanımı paylaşıyor. Bu durum, yeni platformun performans potansiyeli hakkında ipuçları verse de, tüketici odaklı Windows cihazlardaki nihai performans sonuçları henüz netleşmiş değil. İşlemcinin grafik tarafındaki en dikkat çekici özelliklerinden biri, 6.144 CUDA çekirdeğini ve 1 petaflop FP4 yapay zeka performansını 20 çekirdekli Grace CPU ile birleştirmesi. İki birim arasındaki iletişim, 600 GB/s bant genişliğine sahip NVLink C2C bağlantısıyla sağlanıyor. Nvidia, sistemin prize bağlı kullanım ile pilde çalışma arasında neredeyse aynı performansı sunacağını iddia ediyor. Bu vaat, dizüstü bilgisayarlarda uzun süredir görülen pil performans düşüşlerinin önemli ölçüde azalabileceği anlamına geliyor.</p> <p>RTX Spark, Apple Silicon işlemcilerde ve oyun konsollarında kullanılan birleşik bellek yaklaşımını Windows ekosistemine taşıyor. Sistem, CPU ve GPU'nun aynı bellek havuzunu paylaşmasını sağlayan 128 GB'a kadar LPDDR5X birleşik bellek desteği sunuyor. Nvidia'ya göre bu yapı, RTX markalı bir sistemde şimdiye kadar sunulan en yüksek GPU erişimli bellek kapasitesini temsil ediyor. Bu sayede ince ve hafif bir dizüstü bilgisayarın, 120 milyar parametreli büyük yapay zeka modellerini yerel olarak çalıştırabilmesi mümkün hale geliyor.</p>",
+    "meta_title": "Nvidia RTX Spark Tanıtıldı: Windows İçin Yapay Zeka...",
+    "meta_description": "Nvidia, Computex'te RTX Spark adlı yeni nesil işlemci platformunu tanıttı. Yapay zeka ve üretken yapay zeka uygulamaları için optimize edilen platform,...",
+    "spot": "Nvidia, Computex fuarında \"en verimli PC işlemcisi\" olarak tanımladığı RTX Spark platformunu duyurdu. Grace Blackwell tabanlı SoC, TSMC'nin 3 nanometre üretim sürecinden çıkıyor ve 70 milyar transistör barındırıyor. Yapay zeka ajanları ve üretken yapay zeka uygulamaları için optimize edilen RTX Spark, Windows ekosistemine birleşik bellek teknolojisini taş...",
+    "word_count": 288,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "Nvidia'dan Yapay Zeka Odaklı Yeni İşlemci: RTX Spark",
+      "Windows Cihazlar İçin RTX Spark Geliyor",
+      "Nvidia RTX Spark ile Yapay Zeka Dönemi Başlıyor"
+    ],
+    "visual_keywords": [
+      "Nvidia RTX Spark",
+      "yapay zeka işlemcisi",
+      "bilgisayar donanımı",
+      "teknoloji fuarı",
+      "birleşik bellek",
+      "GPU"
+    ]
+  }
+}
