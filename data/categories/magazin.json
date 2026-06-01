@@ -3,11 +3,46 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-01T00:00:00+00:00",
-    "article_count": 433,
+    "article_count": 435,
     "schema_version": 2,
     "category_slug": "magazin"
   },
   "articles": [
+    {
+      "id": "articles:marilyn-monroe-mirasi-somuruluyor-mu_20260601",
+      "slug": "marilyn-monroe-mirasi-somuruluyor-mu_20260601",
+      "title": "Marilyn Monroe'nun Mirası: 100 Yaşında Hala Sömürülüyor mu?",
+      "summary": "Marilyn Monroe'nun ölümünün ardından, kişisel eşyalarının ve hatta tıbbi kayıtlarının açık artırmalarda satılması, efsanevi yıldızın mirasının etik sınırları aşan bir şekilde sömürüldüğü iddialarını gündeme getiriyor. Özellikle jinekolojik muayene röntgenle...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/marilyn-monroe-mirasi-somuruluyor-mu_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/marilyn-monroe-mirasi-somuruluyor-mu_20260601/",
+      "detail_json_url": "/data/details/articles/marilyn-monroe-mirasi-somuruluyor-mu_20260601.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/marilyn-monroe-mirasi-somuruluyor-mu_20260601.webp",
+      "image_alt": "Marilyn Monroe'nun mirasının sömürülmesini gösteren kolaj.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/marilyn-monroe-mirasi-somuruluyor-mu_20260601.webp",
+        "alt": "Marilyn Monroe'nun mirasının sömürülmesini gösteren kolaj."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/gogus-rontgeni-mezari-ve-kardashianlar-marilyn-monroe-100-yasinda-hala-somuruluyor-mu-43187629",
+      "tags": [
+        "Marilyn Monroe",
+        "Miras",
+        "Sömürü",
+        "Açık Artırma",
+        "Tarihi Elbiseler"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "articles:tv-yayin-akisi-24-mayis-2026-pazar-gunun-filmleri-ve-dizileri-neler-kanal-d-star-t_20260524_2b5d56ba",
       "slug": "tv-yayin-akisi-24-mayis-2026-pazar-gunun-filmleri-ve-dizileri-neler-kanal-d-star-t_20260524_2b5d56ba",

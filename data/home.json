@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-01T00:00:00+00:00",
-    "article_count": 433,
+    "article_count": 435,
     "schema_version": 2,
     "section": "articles"
   },
@@ -40,6 +40,75 @@
         "tütünle mücadele"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:marilyn-monroe-mirasi-somuruluyor-mu_20260601",
+      "slug": "marilyn-monroe-mirasi-somuruluyor-mu_20260601",
+      "title": "Marilyn Monroe'nun Mirası: 100 Yaşında Hala Sömürülüyor mu?",
+      "summary": "Marilyn Monroe'nun ölümünün ardından, kişisel eşyalarının ve hatta tıbbi kayıtlarının açık artırmalarda satılması, efsanevi yıldızın mirasının etik sınırları aşan bir şekilde sömürüldüğü iddialarını gündeme getiriyor. Özellikle jinekolojik muayene röntgenle...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/marilyn-monroe-mirasi-somuruluyor-mu_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/marilyn-monroe-mirasi-somuruluyor-mu_20260601/",
+      "detail_json_url": "/data/details/articles/marilyn-monroe-mirasi-somuruluyor-mu_20260601.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/marilyn-monroe-mirasi-somuruluyor-mu_20260601.webp",
+      "image_alt": "Marilyn Monroe'nun mirasının sömürülmesini gösteren kolaj.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/marilyn-monroe-mirasi-somuruluyor-mu_20260601.webp",
+        "alt": "Marilyn Monroe'nun mirasının sömürülmesini gösteren kolaj."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/gogus-rontgeni-mezari-ve-kardashianlar-marilyn-monroe-100-yasinda-hala-somuruluyor-mu-43187629",
+      "tags": [
+        "Marilyn Monroe",
+        "Miras",
+        "Sömürü",
+        "Açık Artırma",
+        "Tarihi Elbiseler"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:1-haziran-2026-ev-yemegi-menusu-onerileri_20260601",
+      "slug": "1-haziran-2026-ev-yemegi-menusu-onerileri_20260601",
+      "title": "1 Haziran 2026 Ev Yemeği Menüsü: Serinleten Çorbadan Tatlıya Zengin Seçenekler",
+      "summary": "Hürriyet gazetesi, 1 Haziran 2026 için \"Bugün ne pişirsem?\" sorusuna yanıt arayanlara özel bir ev yemeği menüsü önerisi sundu. Menüde, serinletici soğuk ayran aşı çorbası, doyurucu kıymalı patates yemeği, pratik cevizli peynirli erişte, közlenmiş lezzetleri...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/1-haziran-2026-ev-yemegi-menusu-onerileri_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/1-haziran-2026-ev-yemegi-menusu-onerileri_20260601/",
+      "detail_json_url": "/data/details/articles/1-haziran-2026-ev-yemegi-menusu-onerileri_20260601.json",
+      "image_url": "https://images.unsplash.com/photo-1583063660574-85ea650eb13f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCdWclQzMlQkNuJTIwbmUlMjBwaSVDNSU5Rmlyc2VtJTIwZGl5ZW5sZXJlJTNBJTIwRyVDMyVCQ25sJUMzJUJDayUyMGV2JTIweWVtZSVDNCU5RmklMjBtZW4lQzMlQkNzJUMzJUJDJTIwJTI4MSUyMEhhemlyYW4lMjAyMDI2JTI5JTIwc28lQzQlOUZ1ayUyMCVDMyVBN29yYmF8ZW58MHwwfHx8MTc4MDMyNDQ5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_alt": "1 Haziran 2026 tarihli Türk ev yemeği menüsü sofrası, ayran aşı çorbası, kıymalı patates, erişte, babagannuş, havuç mücver...",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1583063660574-85ea650eb13f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCdWclQzMlQkNuJTIwbmUlMjBwaSVDNSU5Rmlyc2VtJTIwZGl5ZW5sZXJlJTNBJTIwRyVDMyVCQ25sJUMzJUJDayUyMGV2JTIweWVtZSVDNCU5RmklMjBtZW4lQzMlQkNzJUMzJUJDJTIwJTI4MSUyMEhhemlyYW4lMjAyMDI2JTI5JTIwc28lQzQlOUZ1ayUyMCVDMyVBN29yYmF8ZW58MHwwfHx8MTc4MDMyNDQ5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "alt": "1 Haziran 2026 tarihli Türk ev yemeği menüsü sofrası, ayran aşı çorbası, kıymalı patates, erişte, babagannuş, havuç mücver..."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/lezizz/bugun-ne-pisirsem-diyenlere-gunluk-ev-yemegi-menusu-1-haziran-2026-43189309",
+      "tags": [
+        "ev yemeği menüsü",
+        "1 Haziran tarifleri",
+        "ayran aşı çorbası",
+        "höşmerim"
+      ],
+      "quality_score": 80,
       "review_status": "published"
     },
     {
@@ -552,64 +621,6 @@
       "tags": [],
       "quality_score": 72,
       "review_status": "published"
-    },
-    {
-      "id": "articles:mehmetcige-robot-yoldas-efes-2026-ya-damga-vurdu-bigpara_20260524_79be13f2",
-      "slug": "mehmetcige-robot-yoldas-efes-2026-ya-damga-vurdu-bigpara_20260524_79be13f2",
-      "title": "Mehmetçiğe robot yoldaş: EFES-2026’ya damga vurdu - Bigpara",
-      "summary": "Mehmetçiğe robot yoldaş: EFES-2026’ya damga vurdu Bigpara",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "24.05.2026",
-      "date_iso": "2026-05-24",
-      "url": "/articles/mehmetcige-robot-yoldas-efes-2026-ya-damga-vurdu-bigpara_20260524_79be13f2/",
-      "canonical_url": "https://mansetradar.com.tr/articles/mehmetcige-robot-yoldas-efes-2026-ya-damga-vurdu-bigpara_20260524_79be13f2/",
-      "detail_json_url": "/data/details/articles/mehmetcige-robot-yoldas-efes-2026-ya-damga-vurdu-bigpara_20260524_79be13f2.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/mehmetcige-robot-yoldas-efes-2026-ya-damga-vurdu-bigpara_20260524_79be13f2.webp",
-      "image_alt": "Mehmetçiğe robot yoldaş: EFES-2026’ya damga vurdu - Bigpara",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/mehmetcige-robot-yoldas-efes-2026-ya-damga-vurdu-bigpara_20260524_79be13f2.webp",
-        "alt": "Mehmetçiğe robot yoldaş: EFES-2026’ya damga vurdu - Bigpara"
-      },
-      "source_name": "Google News RSS",
-      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaV9uTG5DUXM5eTEtSGdpM2VEZVZwdktTM2RaVTR6OUNkRFdobjQ3alM4WUprMGhaR0x3MDdaczhfVVdQYU1od0k1eGFkZDExSkpDX0dQNl9YUllXdUVrZ2xaR1ozejdYUXlJa1pWNDhjYWFGa0toRGg4OC01OHo1VXhGSkl1ZnNHeVlMRi1WOVVLaWdtYlRJQ0xzeC1TaWdpTnR5cWhEd0JIaVJKaG5ZaFVBUmdGeDEzRUxTUHN3?oc=5",
-      "tags": [],
-      "quality_score": 70,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:matcha-gercekten-saglikli-mi-bilim-ne-diyor-cumhuriyet_20260524_3ee0554f",
-      "slug": "matcha-gercekten-saglikli-mi-bilim-ne-diyor-cumhuriyet_20260524_3ee0554f",
-      "title": "Matcha gerçekten sağlıklı mı, bilim ne diyor? - Cumhuriyet",
-      "summary": "Matcha gerçekten sağlıklı mı, bilim ne diyor? Cumhuriyet",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "24.05.2026",
-      "date_iso": "2026-05-24",
-      "url": "/articles/matcha-gercekten-saglikli-mi-bilim-ne-diyor-cumhuriyet_20260524_3ee0554f/",
-      "canonical_url": "https://mansetradar.com.tr/articles/matcha-gercekten-saglikli-mi-bilim-ne-diyor-cumhuriyet_20260524_3ee0554f/",
-      "detail_json_url": "/data/details/articles/matcha-gercekten-saglikli-mi-bilim-ne-diyor-cumhuriyet_20260524_3ee0554f.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/matcha-gercekten-saglikli-mi-bilim-ne-diyor-cumhuriyet_20260524_3ee0554f.webp",
-      "image_alt": "Matcha gerçekten sağlıklı mı, bilim ne diyor? - Cumhuriyet",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/matcha-gercekten-saglikli-mi-bilim-ne-diyor-cumhuriyet_20260524_3ee0554f.webp",
-        "alt": "Matcha gerçekten sağlıklı mı, bilim ne diyor? - Cumhuriyet"
-      },
-      "source_name": "Google News RSS",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeHgxWUd0RlRveDFNY3BvcU9uTEo1R01nR0xiOXJ6RjVkR1Z0RnZVUEhUb2tzTFBrYXNhWEt3Ym43VlllU0NUeUc1Zkh6YTU3RHdfUVJDaHowTlZrcDRhR3lPaTFxbmtCdDM4NWpOaU5Ob3R0MTV5aDJlSkg1TlVXX1FJdm5YTXpoUlRKaGlfSG5hbjVZYk1xN2FJZEhIQQ?oc=5",
-      "tags": [],
-      "quality_score": 70,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -645,6 +656,75 @@
         "tütünle mücadele"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:marilyn-monroe-mirasi-somuruluyor-mu_20260601",
+      "slug": "marilyn-monroe-mirasi-somuruluyor-mu_20260601",
+      "title": "Marilyn Monroe'nun Mirası: 100 Yaşında Hala Sömürülüyor mu?",
+      "summary": "Marilyn Monroe'nun ölümünün ardından, kişisel eşyalarının ve hatta tıbbi kayıtlarının açık artırmalarda satılması, efsanevi yıldızın mirasının etik sınırları aşan bir şekilde sömürüldüğü iddialarını gündeme getiriyor. Özellikle jinekolojik muayene röntgenle...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/marilyn-monroe-mirasi-somuruluyor-mu_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/marilyn-monroe-mirasi-somuruluyor-mu_20260601/",
+      "detail_json_url": "/data/details/articles/marilyn-monroe-mirasi-somuruluyor-mu_20260601.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/marilyn-monroe-mirasi-somuruluyor-mu_20260601.webp",
+      "image_alt": "Marilyn Monroe'nun mirasının sömürülmesini gösteren kolaj.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/marilyn-monroe-mirasi-somuruluyor-mu_20260601.webp",
+        "alt": "Marilyn Monroe'nun mirasının sömürülmesini gösteren kolaj."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/gogus-rontgeni-mezari-ve-kardashianlar-marilyn-monroe-100-yasinda-hala-somuruluyor-mu-43187629",
+      "tags": [
+        "Marilyn Monroe",
+        "Miras",
+        "Sömürü",
+        "Açık Artırma",
+        "Tarihi Elbiseler"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:1-haziran-2026-ev-yemegi-menusu-onerileri_20260601",
+      "slug": "1-haziran-2026-ev-yemegi-menusu-onerileri_20260601",
+      "title": "1 Haziran 2026 Ev Yemeği Menüsü: Serinleten Çorbadan Tatlıya Zengin Seçenekler",
+      "summary": "Hürriyet gazetesi, 1 Haziran 2026 için \"Bugün ne pişirsem?\" sorusuna yanıt arayanlara özel bir ev yemeği menüsü önerisi sundu. Menüde, serinletici soğuk ayran aşı çorbası, doyurucu kıymalı patates yemeği, pratik cevizli peynirli erişte, közlenmiş lezzetleri...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/1-haziran-2026-ev-yemegi-menusu-onerileri_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/1-haziran-2026-ev-yemegi-menusu-onerileri_20260601/",
+      "detail_json_url": "/data/details/articles/1-haziran-2026-ev-yemegi-menusu-onerileri_20260601.json",
+      "image_url": "https://images.unsplash.com/photo-1583063660574-85ea650eb13f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCdWclQzMlQkNuJTIwbmUlMjBwaSVDNSU5Rmlyc2VtJTIwZGl5ZW5sZXJlJTNBJTIwRyVDMyVCQ25sJUMzJUJDayUyMGV2JTIweWVtZSVDNCU5RmklMjBtZW4lQzMlQkNzJUMzJUJDJTIwJTI4MSUyMEhhemlyYW4lMjAyMDI2JTI5JTIwc28lQzQlOUZ1ayUyMCVDMyVBN29yYmF8ZW58MHwwfHx8MTc4MDMyNDQ5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_alt": "1 Haziran 2026 tarihli Türk ev yemeği menüsü sofrası, ayran aşı çorbası, kıymalı patates, erişte, babagannuş, havuç mücver...",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1583063660574-85ea650eb13f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCdWclQzMlQkNuJTIwbmUlMjBwaSVDNSU5Rmlyc2VtJTIwZGl5ZW5sZXJlJTNBJTIwRyVDMyVCQ25sJUMzJUJDayUyMGV2JTIweWVtZSVDNCU5RmklMjBtZW4lQzMlQkNzJUMzJUJDJTIwJTI4MSUyMEhhemlyYW4lMjAyMDI2JTI5JTIwc28lQzQlOUZ1ayUyMCVDMyVBN29yYmF8ZW58MHwwfHx8MTc4MDMyNDQ5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "alt": "1 Haziran 2026 tarihli Türk ev yemeği menüsü sofrası, ayran aşı çorbası, kıymalı patates, erişte, babagannuş, havuç mücver..."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/lezizz/bugun-ne-pisirsem-diyenlere-gunluk-ev-yemegi-menusu-1-haziran-2026-43189309",
+      "tags": [
+        "ev yemeği menüsü",
+        "1 Haziran tarifleri",
+        "ayran aşı çorbası",
+        "höşmerim"
+      ],
+      "quality_score": 80,
       "review_status": "published"
     },
     {
@@ -1301,64 +1381,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4wVTdrdEN1aXZoSVJLV2RQczE5dDBnSzEwdVdXeUdSei1XSUZaN3pFNG5UTkd3czh0amdmemt0eUFIa0h2ekZ4NEFkdmxZZHdfdVdDRXdMOFRaVHlJbEhuNnBQdG52MVRpYzNwaU5ucFVfVDRPZ2Z5UTdOWUs?oc=5",
       "tags": [],
       "quality_score": 70,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:israil-lubnan-in-guneyinde-ambulansi-vurdu-1-saglik-calisani-hayatini-kaybetti_20260524_2271fd05",
-      "slug": "israil-lubnan-in-guneyinde-ambulansi-vurdu-1-saglik-calisani-hayatini-kaybetti_20260524_2271fd05",
-      "title": "İsrail, Lübnan'ın güneyinde ambulansı vurdu: 1 sağlık çalışanı hayatını kaybetti",
-      "summary": "İsrail ordusunun, Lübnan'ın güneyindeki Nebatiye vilayetine kurtarma görevine giden ambulans ekibine düzenlediği hava saldırısında 1 sağlık personeli yaşamını yitirdi.",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Global",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "24.05.2026",
-      "date_iso": "2026-05-24",
-      "url": "/articles/israil-lubnan-in-guneyinde-ambulansi-vurdu-1-saglik-calisani-hayatini-kaybetti_20260524_2271fd05/",
-      "canonical_url": "https://mansetradar.com.tr/articles/israil-lubnan-in-guneyinde-ambulansi-vurdu-1-saglik-calisani-hayatini-kaybetti_20260524_2271fd05/",
-      "detail_json_url": "/data/details/articles/israil-lubnan-in-guneyinde-ambulansi-vurdu-1-saglik-calisani-hayatini-kaybetti_20260524_2271fd05.json",
-      "image_url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2452000/lubnan-duman-aa-2452924.jpg",
-      "image_alt": "İsrail, Lübnan'ın güneyinde ambulansı vurdu: 1 sağlık çalışanı hayatını kaybetti",
-      "image": {
-        "url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2452000/lubnan-duman-aa-2452924.jpg",
-        "alt": "İsrail, Lübnan'ın güneyinde ambulansı vurdu: 1 sağlık çalışanı hayatını kaybetti"
-      },
-      "source_name": "TRT Haber",
-      "source_url": "https://www.trthaber.com/dunya/israil-lubnanin-guneyinde-ambulansi-vurdu-1-saglik-calisani-hayatini-kaybetti-946155.html",
-      "tags": [],
-      "quality_score": 72,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:iran-devrim-muhafizlari-hurmuz-bogazi-ndan-son-24-saatte-33-gemi-gecti_20260524_65d22899",
-      "slug": "iran-devrim-muhafizlari-hurmuz-bogazi-ndan-son-24-saatte-33-gemi-gecti_20260524_65d22899",
-      "title": "İran Devrim Muhafızları: Hürmüz Boğazı'ndan son 24 saatte 33 gemi geçti",
-      "summary": "İran Devrim Muhafızları Ordusu, son 24 saatte Hürmüz Boğazı'ndan 33 geminin geçiş yaptığını duyurdu.",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Global",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "24.05.2026",
-      "date_iso": "2026-05-24",
-      "url": "/articles/iran-devrim-muhafizlari-hurmuz-bogazi-ndan-son-24-saatte-33-gemi-gecti_20260524_65d22899/",
-      "canonical_url": "https://mansetradar.com.tr/articles/iran-devrim-muhafizlari-hurmuz-bogazi-ndan-son-24-saatte-33-gemi-gecti_20260524_65d22899/",
-      "detail_json_url": "/data/details/articles/iran-devrim-muhafizlari-hurmuz-bogazi-ndan-son-24-saatte-33-gemi-gecti_20260524_65d22899.json",
-      "image_url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2444000/hurmuz-bogaz-gecen-gemi-kaynak-belli-degil-2444084.jpg",
-      "image_alt": "İran Devrim Muhafızları: Hürmüz Boğazı'ndan son 24 saatte 33 gemi geçti",
-      "image": {
-        "url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2444000/hurmuz-bogaz-gecen-gemi-kaynak-belli-degil-2444084.jpg",
-        "alt": "İran Devrim Muhafızları: Hürmüz Boğazı'ndan son 24 saatte 33 gemi geçti"
-      },
-      "source_name": "TRT Haber",
-      "source_url": "https://www.trthaber.com/dunya/iran-devrim-muhafizlari-hurmuz-bogazindan-son-24-saatte-33-gemi-gecti-946149.html",
-      "tags": [],
-      "quality_score": 72,
       "review_status": "published"
     }
   ]
