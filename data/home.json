@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-01T00:00:00+00:00",
-    "article_count": 449,
+    "article_count": 450,
     "schema_version": 2,
     "section": "articles"
   },
@@ -390,6 +390,40 @@
       "review_status": "published"
     },
     {
+      "id": "articles:chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601",
+      "slug": "chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601",
+      "title": "CHP'den İşten Çıkarmalarla İlgili Atakan Sönmez Açıklaması",
+      "summary": "CHP Genel Başkanı Kemal Kılıçdaroğlu'nun basın danışmanı Atakan Sönmez, Ankara Bölge İdare Mahkemesi'nin \"mutlak butlan\" kararı sonrası Genel Merkez'de yaşanan işten çıkarmalarla ilgili açıklama yaptı. Sönmez, 24 kişiyi etkileyen fesih nedenlerinin tekrar i...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601/",
+      "detail_json_url": "/data/details/articles/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601.webp",
+      "image_alt": "CHP Genel Başkanı Kemal Kılıçdaroğlu'nun basın danışmanı Atakan Sönmez, CHP Genel Merkezi'ndeki işten çıkarmalar hakkında...",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601.webp",
+        "alt": "CHP Genel Başkanı Kemal Kılıçdaroğlu'nun basın danışmanı Atakan Sönmez, CHP Genel Merkezi'ndeki işten çıkarmalar hakkında..."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/bircok-kisi-isten-cikarilmisti-chpden-aciklama-geldi-1726692",
+      "tags": [
+        "CHP",
+        "Kemal Kılıçdaroğlu",
+        "Atakan Sönmez",
+        "İşten Çıkarma"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles:borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601",
       "slug": "borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601",
       "title": "Borsa İstanbul Haftaya Yükselişle Başladı: Dolar ve Altında Güncel Durum",
@@ -406,10 +440,10 @@
       "url": "/articles/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601/",
       "canonical_url": "https://mansetradar.com.tr/articles/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601/",
       "detail_json_url": "/data/details/articles/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601.json",
-      "image_url": "https://im.haberturk.com/l/2026/06/01/ver1780327800/3888582/jpg/200x200",
+      "image_url": "https://mansetradar.com.tr/articles/images/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601.webp",
       "image_alt": "Finansal piyasa verilerini gösteren bir grafik.",
       "image": {
-        "url": "https://im.haberturk.com/l/2026/06/01/ver1780327800/3888582/jpg/200x200",
+        "url": "https://mansetradar.com.tr/articles/images/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601.webp",
         "alt": "Finansal piyasa verilerini gösteren bir grafik."
       },
       "source_name": "HABERTURK.COM",
@@ -661,35 +695,6 @@
         "Sırplar",
         "Anma Töreni"
       ],
-      "quality_score": 70,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:yerli-internet-donemi-basliyor-bakan-uraloglu-tarih-verdi-bigpara_20260524_8a300e0b",
-      "slug": "yerli-internet-donemi-basliyor-bakan-uraloglu-tarih-verdi-bigpara_20260524_8a300e0b",
-      "title": "Yerli İnternet Dönemi Başlıyor! Bakan Uraloğlu Tarih Verdi",
-      "summary": "Yerli internet dönemi başlıyor! Bakan Uraloğlu tarih verdi",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "24.05.2026",
-      "date_iso": "2026-05-24",
-      "url": "/articles/yerli-internet-donemi-basliyor-bakan-uraloglu-tarih-verdi-bigpara_20260524_8a300e0b/",
-      "canonical_url": "https://mansetradar.com.tr/articles/yerli-internet-donemi-basliyor-bakan-uraloglu-tarih-verdi-bigpara_20260524_8a300e0b/",
-      "detail_json_url": "/data/details/articles/yerli-internet-donemi-basliyor-bakan-uraloglu-tarih-verdi-bigpara_20260524_8a300e0b.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/yerli-internet-donemi-basliyor-bakan-uraloglu-tarih-verdi-bigpara_20260524_8a300e0b.webp",
-      "image_alt": "Yerli İnternet Dönemi Başlıyor! Bakan Uraloğlu Tarih Verdi",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/yerli-internet-donemi-basliyor-bakan-uraloglu-tarih-verdi-bigpara_20260524_8a300e0b.webp",
-        "alt": "Yerli İnternet Dönemi Başlıyor! Bakan Uraloğlu Tarih Verdi"
-      },
-      "source_name": "Google News RSS",
-      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWWVTSktEaWl5VU8xNnI2WHQzUDNRWWFkdURnUElQdWs0OERydE9oU2lmeGZWOXNVSmJsR2pIOWRteHBMZVJ5UFNDRDY3dUxWbzRQM0JkZElLdGxlV0s5QnA2Z0JmcVhFQ2oyZW1kWHFvakVsd19rcFdIa0JaNEFGZ2tCbUFhN3BDNklpMU1xYXE3NzhON25EbnpEM3BXalUwbHU4SVc1eUVSZFRSWFNlMm1XZ3dvM1lscEdBdVc0ZDhDd3NaeTdYNGVINA?oc=5",
-      "tags": [],
       "quality_score": 70,
       "review_status": "published"
     }
@@ -1077,6 +1082,40 @@
       "review_status": "published"
     },
     {
+      "id": "articles:chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601",
+      "slug": "chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601",
+      "title": "CHP'den İşten Çıkarmalarla İlgili Atakan Sönmez Açıklaması",
+      "summary": "CHP Genel Başkanı Kemal Kılıçdaroğlu'nun basın danışmanı Atakan Sönmez, Ankara Bölge İdare Mahkemesi'nin \"mutlak butlan\" kararı sonrası Genel Merkez'de yaşanan işten çıkarmalarla ilgili açıklama yaptı. Sönmez, 24 kişiyi etkileyen fesih nedenlerinin tekrar i...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601/",
+      "detail_json_url": "/data/details/articles/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601.webp",
+      "image_alt": "CHP Genel Başkanı Kemal Kılıçdaroğlu'nun basın danışmanı Atakan Sönmez, CHP Genel Merkezi'ndeki işten çıkarmalar hakkında...",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601.webp",
+        "alt": "CHP Genel Başkanı Kemal Kılıçdaroğlu'nun basın danışmanı Atakan Sönmez, CHP Genel Merkezi'ndeki işten çıkarmalar hakkında..."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/bircok-kisi-isten-cikarilmisti-chpden-aciklama-geldi-1726692",
+      "tags": [
+        "CHP",
+        "Kemal Kılıçdaroğlu",
+        "Atakan Sönmez",
+        "İşten Çıkarma"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles:borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601",
       "slug": "borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601",
       "title": "Borsa İstanbul Haftaya Yükselişle Başladı: Dolar ve Altında Güncel Durum",
@@ -1093,10 +1132,10 @@
       "url": "/articles/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601/",
       "canonical_url": "https://mansetradar.com.tr/articles/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601/",
       "detail_json_url": "/data/details/articles/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601.json",
-      "image_url": "https://im.haberturk.com/l/2026/06/01/ver1780327800/3888582/jpg/200x200",
+      "image_url": "https://mansetradar.com.tr/articles/images/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601.webp",
       "image_alt": "Finansal piyasa verilerini gösteren bir grafik.",
       "image": {
-        "url": "https://im.haberturk.com/l/2026/06/01/ver1780327800/3888582/jpg/200x200",
+        "url": "https://mansetradar.com.tr/articles/images/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601.webp",
         "alt": "Finansal piyasa verilerini gösteren bir grafik."
       },
       "source_name": "HABERTURK.COM",
@@ -1426,10 +1465,10 @@
       "url": "/articles/ukrayna-rusya-biri-oresnik-olmak-uzere-90-fuze-ve-600-siha-ile-saldiri-duzenledi_20260524_df5fdcb2/",
       "canonical_url": "https://mansetradar.com.tr/articles/ukrayna-rusya-biri-oresnik-olmak-uzere-90-fuze-ve-600-siha-ile-saldiri-duzenledi_20260524_df5fdcb2/",
       "detail_json_url": "/data/details/articles/ukrayna-rusya-biri-oresnik-olmak-uzere-90-fuze-ve-600-siha-ile-saldiri-duzenledi_20260524_df5fdcb2.json",
-      "image_url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2212000/rusya-ukrayna-aa-2212949.jpg",
+      "image_url": "https://mansetradar.com.tr/articles/images/ukrayna-rusya-biri-oresnik-olmak-uzere-90-fuze-ve-600-siha-ile-saldiri-duzenledi_20260524_df5fdcb2.webp",
       "image_alt": "Ukrayna: Rusya, biri Oreşnik olmak üzere 90 füze ve 600 SİHA ile saldırı düzenledi",
       "image": {
-        "url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2212000/rusya-ukrayna-aa-2212949.jpg",
+        "url": "https://mansetradar.com.tr/articles/images/ukrayna-rusya-biri-oresnik-olmak-uzere-90-fuze-ve-600-siha-ile-saldiri-duzenledi_20260524_df5fdcb2.webp",
         "alt": "Ukrayna: Rusya, biri Oreşnik olmak üzere 90 füze ve 600 SİHA ile saldırı düzenledi"
       },
       "source_name": "TRT Haber",
@@ -1484,43 +1523,14 @@
       "url": "/articles/turksat-ile-gokyuzunde-yerli-internet-donemi-basliyor_20260524_79e76bbb/",
       "canonical_url": "https://mansetradar.com.tr/articles/turksat-ile-gokyuzunde-yerli-internet-donemi-basliyor_20260524_79e76bbb/",
       "detail_json_url": "/data/details/articles/turksat-ile-gokyuzunde-yerli-internet-donemi-basliyor_20260524_79e76bbb.json",
-      "image_url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2298000/ajet-2298554.jpg",
+      "image_url": "https://mansetradar.com.tr/articles/images/turksat-ile-gokyuzunde-yerli-internet-donemi-basliyor_20260524_79e76bbb.webp",
       "image_alt": "TÜRKSAT ile gökyüzünde yerli internet dönemi başlıyor",
       "image": {
-        "url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2298000/ajet-2298554.jpg",
+        "url": "https://mansetradar.com.tr/articles/images/turksat-ile-gokyuzunde-yerli-internet-donemi-basliyor_20260524_79e76bbb.webp",
         "alt": "TÜRKSAT ile gökyüzünde yerli internet dönemi başlıyor"
       },
       "source_name": "TRT Haber",
       "source_url": "https://www.trthaber.com/ekonomi/turksat-ile-gokyuzunde-yerli-internet-donemi-basliyor-946131.html",
-      "tags": [],
-      "quality_score": 72,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:turkiye-ve-17-ulkeden-somaliland-in-kuduste-buyukelcilik-acma-adimina-tepki_20260524_57014c9a",
-      "slug": "turkiye-ve-17-ulkeden-somaliland-in-kuduste-buyukelcilik-acma-adimina-tepki_20260524_57014c9a",
-      "title": "Türkiye ve 17 ülkeden Somaliland'in Kudüste 'büyükelçilik' açma adımına tepki",
-      "summary": "Türkiye ve 17 ülkenin dışişleri bakanları, Somaliland bölgesinin işgal altındaki Kudüs’te sözde bir \"büyükelçilik\" açma yönünde attığı yasa dışı ve kabul edilemez adımı en güçlü şekilde kınadı.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "24.05.2026",
-      "date_iso": "2026-05-24",
-      "url": "/articles/turkiye-ve-17-ulkeden-somaliland-in-kuduste-buyukelcilik-acma-adimina-tepki_20260524_57014c9a/",
-      "canonical_url": "https://mansetradar.com.tr/articles/turkiye-ve-17-ulkeden-somaliland-in-kuduste-buyukelcilik-acma-adimina-tepki_20260524_57014c9a/",
-      "detail_json_url": "/data/details/articles/turkiye-ve-17-ulkeden-somaliland-in-kuduste-buyukelcilik-acma-adimina-tepki_20260524_57014c9a.json",
-      "image_url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2426000/somali-aa-2427517.jpg",
-      "image_alt": "Türkiye ve 17 ülkeden Somaliland'in Kudüste 'büyükelçilik' açma adımına tepki",
-      "image": {
-        "url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2426000/somali-aa-2427517.jpg",
-        "alt": "Türkiye ve 17 ülkeden Somaliland'in Kudüste 'büyükelçilik' açma adımına tepki"
-      },
-      "source_name": "TRT Haber",
-      "source_url": "https://www.trthaber.com/gundem/turkiye-ve-17-ulkeden-somalilandin-kuduste-buyukelcilik-acma-adimina-tepki-946145.html",
       "tags": [],
       "quality_score": 72,
       "review_status": "published"
