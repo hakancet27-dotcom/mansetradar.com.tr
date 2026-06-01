@@ -530,6 +530,44 @@
       display: flex;
       gap: 8px;
     }
+    .slider-dots {
+      position: absolute;
+      left: 50%;
+      bottom: 20px;
+      z-index: 5;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      max-width: calc(100% - 140px);
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: rgba(0, 0, 0, 0.34);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      backdrop-filter: blur(8px);
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.18);
+    }
+    .slider-dot {
+      width: 7px;
+      height: 7px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0;
+      background: rgba(255, 255, 255, 0.58);
+      cursor: pointer;
+      transition: width 0.2s ease, background-color 0.2s ease, opacity 0.2s ease;
+    }
+    .slider-dot:hover,
+    .slider-dot:focus-visible {
+      background: #ffffff;
+      outline: none;
+    }
+    .slider-dot.is-active {
+      width: 18px;
+      background: var(--red);
+      box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.22);
+    }
     .slider-btn {
       width: 34px;
       height: 34px;
@@ -1201,7 +1239,7 @@
     }
     /* CODEX_ENHANCEMENTS_END */
 
-  
+
     /* Codex polish: live market strip, modern red system */
     .market-strip {
       max-width: 100%;
@@ -1334,8 +1372,8 @@
     }
 
       .visually-hidden { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
-  
-  
+
+
   </style>
 </head>
 <body>
@@ -1346,7 +1384,7 @@
       <span id="current-time">Loading...</span>
       <div class="top-links" aria-label="Top links">
         <a href="./">Startseite</a>
-        <a href="/haber">TR Nachrichten</a>
+        <a href="/">TR Nachrichten</a>
         <a href="./" aria-current="page">Aktuelle Deutschland Nachrichten</a>
       </div>
     </div>
@@ -1379,7 +1417,7 @@
       </div>
       <nav aria-label="Main menu">
         <a href="./">Startseite</a>
-        <a href="/haber">TR Nachrichten</a>
+        <a href="/">TR Nachrichten</a>
         <a href="./" class="active" aria-current="page">DE</a>
       </nav>
     </div>
@@ -1418,8 +1456,41 @@
           <div class="showcase-grid">
             <div class="headline-slider" aria-label="Aktuelle Deutschland Nachrichten">
               
-              <a class="headline-slide headline-card topic-card is-active" href="/nachrichten/artikel/nato-aussenminister-beraten-in-schweden-ueber-ukraine-unterstuetzung_20260522/" data-topic="dunya" aria-label="NATO-Außenminister beraten in Schweden über Ukraine-Unterstützung">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1647006872171-0d8a19ba96da?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxOQVRPfGVufDB8MHx8fDE3Nzk0MjI5NTB8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="NATO-Außenminister beraten in Schweden über Ukraine-Unterstützung" loading="eager" fetchpriority="high" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card is-active" href="/nachrichten/artikel/schiessen-nahe-weissem-haus_20260524/" data-topic="siyaset" aria-label="Schüsse nahe dem Weißen Haus – Secret Service erschießt Angreifer">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1764166559790-f484cb691c40?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxXZWklQzMlOUZlbiUyMEhhdXN8ZW58MHwwfHx8MTc3OTU5NDkyM3ww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Schüsse nahe dem Weißen Haus – Secret Service erschießt Angreifer" loading="eager" fetchpriority="high" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Topmeldung</span>
+                    <span class="headline-topic">Politik</span>
+                  </div>
+                  <h3 class="headline-title">Schüsse nahe dem Weißen Haus – Secret Service erschießt Angreifer</h3>
+                  <time class="headline-date" datetime="2026-05-24">24.05.2026</time>
+                </div>
+              </a>
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/schwere-russische-luftangriffe-auf-kiew_20260524/" data-topic="saglik" aria-label="Schwere russische Luftangriffe auf die ukrainische Hauptstadt">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1653192317885-b175cdd33f88?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxLaWV3fGVufDB8MHx8fDE3Nzk1OTQ5MTd8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Schwere russische Luftangriffe auf die ukrainische Hauptstadt" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Topmeldung</span>
+                    <span class="headline-topic">Gesundheit</span>
+                  </div>
+                  <h3 class="headline-title">Schwere russische Luftangriffe auf die ukrainische Hauptstadt</h3>
+                  <time class="headline-date" datetime="2026-05-24">24.05.2026</time>
+                </div>
+              </a>
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/ukrainischer-angriff-auf-oellager-in-russland_20260523/" data-topic="siyaset" aria-label="Erneut ukrainischer Angriff auf Öllager in Russland">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1639341267320-2d062b250c0d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVa3JhaW5lfGVufDB8MHx8fDE3Nzk0MjI5NTZ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Erneut ukrainischer Angriff auf Öllager in Russland" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Topmeldung</span>
+                    <span class="headline-topic">Politik</span>
+                  </div>
+                  <h3 class="headline-title">Erneut ukrainischer Angriff auf Öllager in Russland</h3>
+                  <time class="headline-date" datetime="2026-05-23">23.05.2026</time>
+                </div>
+              </a>
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/nato-aussenminister-beraten-in-schweden-ueber-ukraine-unterstuetzung_20260522/" data-topic="dunya" aria-label="NATO-Außenminister beraten in Schweden über Ukraine-Unterstützung">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1647006872171-0d8a19ba96da?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxOQVRPfGVufDB8MHx8fDE3Nzk0MjI5NTB8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="NATO-Außenminister beraten in Schweden über Ukraine-Unterstützung" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
                     <span class="headline-tag">Topmeldung</span>
@@ -1495,23 +1566,23 @@
                   <time class="headline-date" datetime="2026-05-20">20.05.2026</time>
                 </div>
               </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/us-senat-mitsprache-iran-krieg_20260520/" data-topic="dunya" aria-label="US-Senatoren stimmen für mehr Mitsprache im Iran-Krieg">
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/us-senat-mitsprache-iran-krieg_20260520/" data-topic="saglik" aria-label="US-Senatoren stimmen für mehr Mitsprache im Iran-Krieg">
                 <div class="headline-image"><img src="https://images.unsplash.com/photo-1644701743457-d2160f05c6c5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVUy1TZW5hdCUyMEFic3RpbW11bmd8ZW58MHwwfHx8MTc3OTMwMTY5MHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="US-Senatoren stimmen für mehr Mitsprache im Iran-Krieg" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
                     <span class="headline-tag">Topmeldung</span>
-                    <span class="headline-topic">Welt</span>
+                    <span class="headline-topic">Gesundheit</span>
                   </div>
                   <h3 class="headline-title">US-Senatoren stimmen für mehr Mitsprache im Iran-Krieg</h3>
                   <time class="headline-date" datetime="2026-05-20">20.05.2026</time>
                 </div>
               </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/usa-klagen-kubas-ex-staatschef-raul-castro-an_20260520/" data-topic="siyaset" aria-label="USA klagen Kubas Ex-Staatschef Raúl Castro an">
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/usa-klagen-kubas-ex-staatschef-raul-castro-an_20260520/" data-topic="saglik" aria-label="USA klagen Kubas Ex-Staatschef Raúl Castro an">
                 <div class="headline-image"><img src="https://images.unsplash.com/photo-1570299437488-d430e1e677c7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxLdWJhfGVufDB8MHx8fDE3NzkzMDU4MDB8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="USA klagen Kubas Ex-Staatschef Raúl Castro an" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
                     <span class="headline-tag">Topmeldung</span>
-                    <span class="headline-topic">Politik</span>
+                    <span class="headline-topic">Gesundheit</span>
                   </div>
                   <h3 class="headline-title">USA klagen Kubas Ex-Staatschef Raúl Castro an</h3>
                   <time class="headline-date" datetime="2026-05-20">20.05.2026</time>
@@ -1540,7 +1611,7 @@
                 </div>
               </a>
               <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/oesterreich-ex-verfassungsschutzler-spionage-russland-verurteilt_20260520/" data-topic="gundem" aria-label="Österreich: Ex-Verfassungsschützer wegen Spionage für Russland verurteilt">
-                <div class="headline-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/oesterreich-ex-verfassungsschutzler-spionage-russland-verurteilt_20260520.webp" alt="Österreich: Ex-Verfassungsschützer wegen Spionage für Russland verurteilt" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-image"><img src="/nachrichten/artikel/images/oesterreich-ex-verfassungsschutzler-spionage-russland-verurteilt_20260520.webp" alt="Österreich: Ex-Verfassungsschützer wegen Spionage für Russland verurteilt" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
                     <span class="headline-tag">Topmeldung</span>
@@ -1605,39 +1676,6 @@
                   <time class="headline-date" datetime="2026-05-20">20.05.2026</time>
                 </div>
               </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/kolumbianische-kaempfer-ukraine-russische-invasion-kyjiw_20260519/" data-topic="dunya" aria-label="Kolumbianische Kämpfer schließen sich dem Krieg der Ukraine gegen die russische Invasion an">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1639341267320-2d062b250c0d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVa3JhaW5lfGVufDB8MHx8fDE3NzkyMDc0NTJ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Kolumbianische Kämpfer schließen sich dem Krieg der Ukraine gegen die russische Invasion an" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung</span>
-                    <span class="headline-topic">Welt</span>
-                  </div>
-                  <h3 class="headline-title">Kolumbianische Kämpfer schließen sich dem Krieg der Ukraine gegen die russische Invasion an</h3>
-                  <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
-                </div>
-              </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/eu-parlament-blockiert-ermittlungen-gegen-csu-abgeordnete-niebler_20260519/" data-topic="ekonomi" aria-label="EU-Parlament stoppt Ermittlungen gegen CSU-Abgeordnete Niebler">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1602077772102-b7d48e01643c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFdXJvcCVDMyVBNGlzY2hlcyUyMFBhcmxhbWVudHxlbnwwfDB8fHwxNzc5MjI1Mjk3fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="EU-Parlament stoppt Ermittlungen gegen CSU-Abgeordnete Niebler" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung</span>
-                    <span class="headline-topic">Wirtschaft</span>
-                  </div>
-                  <h3 class="headline-title">EU-Parlament stoppt Ermittlungen gegen CSU-Abgeordnete Niebler</h3>
-                  <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
-                </div>
-              </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/trump-angriff-iran-abgesagt_20260519/" data-topic="dunya" aria-label="Trump: Für heute geplanter Angriff auf Iran abgesagt">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1550531996-ff3dcede9477?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxUcnVtcHxlbnwwfDB8fHwxNzc5MTEwNTU1fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Trump: Für heute geplanter Angriff auf Iran abgesagt" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung</span>
-                    <span class="headline-topic">Welt</span>
-                  </div>
-                  <h3 class="headline-title">Trump: Für heute geplanter Angriff auf Iran abgesagt</h3>
-                  <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
-                </div>
-              </a>
               <div class="slider-controls" aria-label="Headline controls">
                 <button class="slider-btn" type="button" data-slider-prev aria-label="Previous">‹</button>
                 <button class="slider-btn" type="button" data-slider-next aria-label="Next">›</button>
@@ -1645,6 +1683,39 @@
             </div>
             <div class="side-headlines" aria-label="Featured stories">
               
+              <a class="headline-card side-headline topic-card" href="/nachrichten/artikel/kolumbianische-kaempfer-ukraine-russische-invasion-kyjiw_20260519/" data-topic="saglik" aria-label="Kolumbianische Kämpfer schließen sich dem Krieg der Ukraine gegen die russische Invasion an">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1639341267320-2d062b250c0d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVa3JhaW5lfGVufDB8MHx8fDE3NzkyMDc0NTJ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Kolumbianische Kämpfer schließen sich dem Krieg der Ukraine gegen die russische Invasion an" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Ausgewählt</span>
+                    <span class="headline-topic">Gesundheit</span>
+                  </div>
+                  <h3 class="headline-title">Kolumbianische Kämpfer schließen sich dem Krieg der Ukraine gegen die russische Invasion an</h3>
+                  <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
+                </div>
+              </a>
+              <a class="headline-card side-headline topic-card" href="/nachrichten/artikel/eu-parlament-blockiert-ermittlungen-gegen-csu-abgeordnete-niebler_20260519/" data-topic="ekonomi" aria-label="EU-Parlament stoppt Ermittlungen gegen CSU-Abgeordnete Niebler">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1602077772102-b7d48e01643c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFdXJvcCVDMyVBNGlzY2hlcyUyMFBhcmxhbWVudHxlbnwwfDB8fHwxNzc5MjI1Mjk3fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="EU-Parlament stoppt Ermittlungen gegen CSU-Abgeordnete Niebler" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Ausgewählt</span>
+                    <span class="headline-topic">Wirtschaft</span>
+                  </div>
+                  <h3 class="headline-title">EU-Parlament stoppt Ermittlungen gegen CSU-Abgeordnete Niebler</h3>
+                  <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
+                </div>
+              </a>
+              <a class="headline-card side-headline topic-card" href="/nachrichten/artikel/trump-angriff-iran-abgesagt_20260519/" data-topic="dunya" aria-label="Trump: Für heute geplanter Angriff auf Iran abgesagt">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1550531996-ff3dcede9477?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxUcnVtcHxlbnwwfDB8fHwxNzc5MTEwNTU1fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Trump: Für heute geplanter Angriff auf Iran abgesagt" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Ausgewählt</span>
+                    <span class="headline-topic">Welt</span>
+                  </div>
+                  <h3 class="headline-title">Trump: Für heute geplanter Angriff auf Iran abgesagt</h3>
+                  <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
+                </div>
+              </a>
               <a class="headline-card side-headline topic-card" href="/nachrichten/artikel/eu-hilfen-landwirte-duengemittelknappheit-iran-konflikt_20260519/" data-topic="dunya" aria-label="EU plant Hilfen für Landwirte wegen Düngemittelknappheit durch Iran-Konflikt">
                 <div class="headline-image"><img src="https://images.unsplash.com/photo-1608817576203-3c27ed168bd2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFVS1GbGFnZ2V8ZW58MHwwfHx8MTc3OTIyMzc5N3ww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="EU plant Hilfen für Landwirte wegen Düngemittelknappheit durch Iran-Konflikt" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
@@ -1700,12 +1771,12 @@
                   <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
                 </div>
               </a>
-              <a class="headline-card side-headline topic-card" href="/nachrichten/artikel/kolumbianische-kaempfer-in-der-ukraine_20260519/" data-topic="teknoloji" aria-label="Kolumbianische Kämpfer in der Ukraine">
+              <a class="headline-card side-headline topic-card" href="/nachrichten/artikel/kolumbianische-kaempfer-in-der-ukraine_20260519/" data-topic="saglik" aria-label="Kolumbianische Kämpfer in der Ukraine">
                 <div class="headline-image"><img src="https://images.unsplash.com/photo-1639341267320-2d062b250c0d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVa3JhaW5lJTIwZmxhZ3xlbnwwfDB8fHwxNzc5MTg0NDIyfDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Kolumbianische Kämpfer in der Ukraine" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
                     <span class="headline-tag">Ausgewählt</span>
-                    <span class="headline-topic">Technologie</span>
+                    <span class="headline-topic">Gesundheit</span>
                   </div>
                   <h3 class="headline-title">Kolumbianische Kämpfer in der Ukraine</h3>
                   <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
@@ -1719,39 +1790,6 @@
                     <span class="headline-topic">Welt</span>
                   </div>
                   <h3 class="headline-title">Düngemittel-Knappheit wegen Iran-Konflikt: EU plant Hilfen für Landwirte</h3>
-                  <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
-                </div>
-              </a>
-              <a class="headline-card side-headline topic-card" href="/nachrichten/artikel/iran-neuer-vorschlag-usa-verhandlungen_20260519/" data-topic="dunya" aria-label="Iran schickt neuen Vorschlag an die USA">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1693139062697-f5f8663217fa?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJcmFuJTIwZmxhZ3xlbnwwfDB8fHwxNzc5MTg0NDQyfDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Iran schickt neuen Vorschlag an die USA" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Ausgewählt</span>
-                    <span class="headline-topic">Welt</span>
-                  </div>
-                  <h3 class="headline-title">Iran schickt neuen Vorschlag an die USA</h3>
-                  <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
-                </div>
-              </a>
-              <a class="headline-card side-headline topic-card" href="/nachrichten/artikel/steuerreform-gering-mitteleinkommen-koalition-plant_20260519/" data-topic="dunya" aria-label="Schwarz-rote Koalition plant Steuerreform für Gering- und Mitteleinkommen">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1598432439250-0330f9130e14?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxTdGV1ZXJyZWZvcm18ZW58MHwwfHx8MTc3OTE4NjUwOXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Schwarz-rote Koalition plant Steuerreform für Gering- und Mitteleinkommen" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Ausgewählt</span>
-                    <span class="headline-topic">Welt</span>
-                  </div>
-                  <h3 class="headline-title">Schwarz-rote Koalition plant Steuerreform für Gering- und Mitteleinkommen</h3>
-                  <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
-                </div>
-              </a>
-              <a class="headline-card side-headline topic-card" href="/nachrichten/artikel/tote-bei-angriff-auf-islamisches-zentrum-in-san-diego_20260519/" data-topic="gundem" aria-label="Tote bei Angriff auf islamisches Zentrum in San Diego">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1519954352454-2d5a7353e277?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxTYW4lMjBEaWVnb3xlbnwwfDB8fHwxNzc5MjA1ODY0fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Tote bei Angriff auf islamisches Zentrum in San Diego" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Ausgewählt</span>
-                    <span class="headline-topic">Themen</span>
-                  </div>
-                  <h3 class="headline-title">Tote bei Angriff auf islamisches Zentrum in San Diego</h3>
                   <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
                 </div>
               </a>
@@ -1769,88 +1807,82 @@
             <div class="country-divider"></div>
           </div>
           <div class="news-grid" id="grid-main">
-
-      <article class="news-card topic-card" data-topic="siyaset">
-        <a class="card-image-link" href="/nachrichten/artikel/ukrainischer-angriff-auf-oellager-in-russland_20260523/" aria-label="Erneut ukrainischer Angriff auf Öllager in Russland"><div class="card-image"><img src="https://images.unsplash.com/photo-1639341267320-2d062b250c0d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVa3JhaW5lfGVufDB8MHx8fDE3Nzk0MjI5NTZ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Öllager in Russland" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Deutschland</span>
-            <span class="card-topic">Siyaset</span>
-            <time class="card-date" datetime="2026-05-23">23.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/ukrainischer-angriff-auf-oellager-in-russland_20260523/">Erneut ukrainischer Angriff auf Öllager in Russland</a>
-          </h3>
-          <p class="card-excerpt">Das ukrainische Militär hat erneut ein Öllager im russischen Noworossijsk ins Visier genommen. Der Angriff auf das Öllager ist der jüngste Vorfall in dem anhaltenden Konflikt zwischen der Ukraine und Russland.</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/ukrainischer-angriff-auf-oellager-in-russland_20260523/" aria-label="Erneut ukrainischer Angriff auf Öllager in Russland">Weiterlesen →</a>
-            
-            <div class="share-mini" aria-label="Paylaş">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fukrainischer-angriff-auf-oellager-in-russland_20260523.html&text=Erneut+ukrainischer+Angriff+auf+%C3%96llager+in+Russland" aria-label="X'te paylaş">X</a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fukrainischer-angriff-auf-oellager-in-russland_20260523.html" aria-label="Facebook'ta paylaş">f</a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Erneut+ukrainischer+Angriff+auf+%C3%96llager+in+Russland%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fukrainischer-angriff-auf-oellager-in-russland_20260523.html" aria-label="WhatsApp'ta paylaş">W</a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fukrainischer-angriff-auf-oellager-in-russland_20260523.html&text=Erneut+ukrainischer+Angriff+auf+%C3%96llager+in+Russland" aria-label="Telegram'da paylaş">T</a>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <article class="news-card topic-card" data-topic="siyaset">
-        <a class="card-image-link" href="/nachrichten/artikel/schwere-russische-luftangriffe-auf-kiew_20260524/" aria-label="Schwere russische Luftangriffe auf die ukrainische Hauptstadt"><div class="card-image"><img src="https://images.unsplash.com/photo-1653192317885-b175cdd33f88?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxLaWV3fGVufDB8MHx8fDE3Nzk1OTQ5MTd8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Zerstörte Gebäude in Kiew" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Deutschland</span>
-            <span class="card-topic">Siyaset</span>
-            <time class="card-date" datetime="2026-05-24">24.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/schwere-russische-luftangriffe-auf-kiew_20260524/">Schwere russische Luftangriffe auf die ukrainische Hauptstadt</a>
-          </h3>
-          <p class="card-excerpt">Kurz nach der Warnung des ukrainischen Präsidenten Selenskyj vor einem schweren russischen Luftangriff ist Kiew von heftigem Beschuss erschüttert worden. Der ukrainische Präsident hatte vor einem solchen Angrif...</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/schwere-russische-luftangriffe-auf-kiew_20260524/" aria-label="Schwere russische Luftangriffe auf die ukrainische Hauptstadt">Weiterlesen →</a>
-            
-            <div class="share-mini" aria-label="Paylaş">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fschwere-russische-luftangriffe-auf-kiew_20260524.html&text=Schwere+russische+Luftangriffe+auf+die+ukrainische+Hauptstadt" aria-label="X'te paylaş">X</a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fschwere-russische-luftangriffe-auf-kiew_20260524.html" aria-label="Facebook'ta paylaş">f</a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Schwere+russische+Luftangriffe+auf+die+ukrainische+Hauptstadt%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fschwere-russische-luftangriffe-auf-kiew_20260524.html" aria-label="WhatsApp'ta paylaş">W</a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fschwere-russische-luftangriffe-auf-kiew_20260524.html&text=Schwere+russische+Luftangriffe+auf+die+ukrainische+Hauptstadt" aria-label="Telegram'da paylaş">T</a>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <article class="news-card topic-card" data-topic="siyaset">
-        <a class="card-image-link" href="/nachrichten/artikel/schiessen-nahe-weissem-haus_20260524/" aria-label="Schüsse nahe dem Weißen Haus – Secret Service erschießt Angreifer"><div class="card-image"><img src="https://images.unsplash.com/photo-1764166559790-f484cb691c40?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxXZWklQzMlOUZlbiUyMEhhdXN8ZW58MHwwfHx8MTc3OTU5NDkyM3ww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Weißen Haus mit Polizei- und Secret-Service-Fahrzeugen" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Deutschland</span>
-            <span class="card-topic">Siyaset</span>
-            <time class="card-date" datetime="2026-05-24">24.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/schiessen-nahe-weissem-haus_20260524/">Schüsse nahe dem Weißen Haus – Secret Service erschießt Angreifer</a>
-          </h3>
-          <p class="card-excerpt">In der Nähe des Amtssitzes von Donald Trump hat eine Person auf Secret-Service-Beamte geschossen. Diese erwiderten das Feuer und töteten den Angreifer.</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/schiessen-nahe-weissem-haus_20260524/" aria-label="Schüsse nahe dem Weißen Haus – Secret Service erschießt Angreifer">Weiterlesen →</a>
-            
-            <div class="share-mini" aria-label="Paylaş">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fschiessen-nahe-weissem-haus_20260524.html&text=Sch%C3%BCsse+nahe+dem+Wei%C3%9Fen+Haus+%E2%80%93+Secret+Service+erschie%C3%9Ft+Angreifer" aria-label="X'te paylaş">X</a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fschiessen-nahe-weissem-haus_20260524.html" aria-label="Facebook'ta paylaş">f</a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Sch%C3%BCsse+nahe+dem+Wei%C3%9Fen+Haus+%E2%80%93+Secret+Service+erschie%C3%9Ft+Angreifer%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fschiessen-nahe-weissem-haus_20260524.html" aria-label="WhatsApp'ta paylaş">W</a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fschiessen-nahe-weissem-haus_20260524.html&text=Sch%C3%BCsse+nahe+dem+Wei%C3%9Fen+Haus+%E2%80%93+Secret+Service+erschie%C3%9Ft+Angreifer" aria-label="Telegram'da paylaş">T</a>
-            </div>
-          </div>
-        </div>
-      </article>
             
       <article class="news-card topic-card" data-topic="dunya">
-        <a class="card-image-link" href="/nachrichten/artikel/klingbeil-iran-krieg-weltwirtschaft_20260518/" aria-label="Klingbeil sieht Weltwirtschaft durch Iran-Krieg bedroht"><div class="card-image"><img src="https://images.unsplash.com/photo-1613930648631-7191115e83d4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJcmFufGVufDB8MHx8fDE3NzkwNTA2MjB8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Klingbeil sieht Weltwirtschaft durch Iran-Krieg bedroht" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/nachrichten/artikel/iran-neuer-vorschlag-usa-verhandlungen_20260519/" aria-label="Iran schickt neuen Vorschlag an die USA"><div class="card-image"><img src="https://images.unsplash.com/photo-1693139062697-f5f8663217fa?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJcmFuJTIwZmxhZ3xlbnwwfDB8fHwxNzc5MTg0NDQyfDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Iran schickt neuen Vorschlag an die USA" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">DE Deutschland</span>
             <span class="card-topic">Welt</span>
+            <time class="card-date" datetime="2026-05-19">19.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/iran-neuer-vorschlag-usa-verhandlungen_20260519/">Iran schickt neuen Vorschlag an die USA</a>
+          </h3>
+          <p class="card-excerpt">Weitere Details finden Sie im Artikel.</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/iran-neuer-vorschlag-usa-verhandlungen_20260519/" aria-label="Iran schickt neuen Vorschlag an die USA Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Paylaş">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Firan-neuer-vorschlag-usa-verhandlungen_20260519%2F&text=Iran+schickt+neuen+Vorschlag+an+die+USA" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Firan-neuer-vorschlag-usa-verhandlungen_20260519%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Iran+schickt+neuen+Vorschlag+an+die+USA%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Firan-neuer-vorschlag-usa-verhandlungen_20260519%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Firan-neuer-vorschlag-usa-verhandlungen_20260519%2F&text=Iran+schickt+neuen+Vorschlag+an+die+USA" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="ekonomi">
+        <a class="card-image-link" href="/nachrichten/artikel/steuerreform-gering-mitteleinkommen-koalition-plant_20260519/" aria-label="Schwarz-rote Koalition plant Steuerreform für Gering- und Mitteleinkommen"><div class="card-image"><img src="https://images.unsplash.com/photo-1598432439250-0330f9130e14?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxTdGV1ZXJyZWZvcm18ZW58MHwwfHx8MTc3OTE4NjUwOXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Schwarz-rote Koalition plant Steuerreform für Gering- und Mitteleinkommen" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Wirtschaft</span>
+            <time class="card-date" datetime="2026-05-19">19.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/steuerreform-gering-mitteleinkommen-koalition-plant_20260519/">Schwarz-rote Koalition plant Steuerreform für Gering- und Mitteleinkommen</a>
+          </h3>
+          <p class="card-excerpt">Weitere Details finden Sie im Artikel.</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/steuerreform-gering-mitteleinkommen-koalition-plant_20260519/" aria-label="Schwarz-rote Koalition plant Steuerreform für Gering- und Mitteleinkommen Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Paylaş">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fsteuerreform-gering-mitteleinkommen-koalition-plant_20260519%2F&text=Schwarz-rote+Koalition+plant+Steuerreform+f%C3%BCr+Gering-+und+Mitteleinkommen" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fsteuerreform-gering-mitteleinkommen-koalition-plant_20260519%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Schwarz-rote+Koalition+plant+Steuerreform+f%C3%BCr+Gering-+und+Mitteleinkommen%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fsteuerreform-gering-mitteleinkommen-koalition-plant_20260519%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fsteuerreform-gering-mitteleinkommen-koalition-plant_20260519%2F&text=Schwarz-rote+Koalition+plant+Steuerreform+f%C3%BCr+Gering-+und+Mitteleinkommen" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="gundem">
+        <a class="card-image-link" href="/nachrichten/artikel/tote-bei-angriff-auf-islamisches-zentrum-in-san-diego_20260519/" aria-label="Tote bei Angriff auf islamisches Zentrum in San Diego"><div class="card-image"><img src="https://images.unsplash.com/photo-1519954352454-2d5a7353e277?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxTYW4lMjBEaWVnb3xlbnwwfDB8fHwxNzc5MjA1ODY0fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Tote bei Angriff auf islamisches Zentrum in San Diego" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Themen</span>
+            <time class="card-date" datetime="2026-05-19">19.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/tote-bei-angriff-auf-islamisches-zentrum-in-san-diego_20260519/">Tote bei Angriff auf islamisches Zentrum in San Diego</a>
+          </h3>
+          <p class="card-excerpt">Weitere Details finden Sie im Artikel.</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/tote-bei-angriff-auf-islamisches-zentrum-in-san-diego_20260519/" aria-label="Tote bei Angriff auf islamisches Zentrum in San Diego Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Paylaş">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftote-bei-angriff-auf-islamisches-zentrum-in-san-diego_20260519%2F&text=Tote+bei+Angriff+auf+islamisches+Zentrum+in+San+Diego" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftote-bei-angriff-auf-islamisches-zentrum-in-san-diego_20260519%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Tote+bei+Angriff+auf+islamisches+Zentrum+in+San+Diego%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftote-bei-angriff-auf-islamisches-zentrum-in-san-diego_20260519%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftote-bei-angriff-auf-islamisches-zentrum-in-san-diego_20260519%2F&text=Tote+bei+Angriff+auf+islamisches+Zentrum+in+San+Diego" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="saglik">
+        <a class="card-image-link" href="/nachrichten/artikel/klingbeil-iran-krieg-weltwirtschaft_20260518/" aria-label="Klingbeil sieht Weltwirtschaft durch Iran-Krieg bedroht"><div class="card-image"><img src="https://images.unsplash.com/photo-1613930648631-7191115e83d4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJcmFufGVufDB8MHx8fDE3NzkwNTA2MjB8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Klingbeil sieht Weltwirtschaft durch Iran-Krieg bedroht" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Gesundheit</span>
             <time class="card-date" datetime="2026-05-18">18.05.2026</time>
           </div>
           <h3 class="card-title">
@@ -1868,12 +1900,12 @@
           </div>
         </div>
       </article>
-      <article class="news-card topic-card" data-topic="teknoloji">
-        <a class="card-image-link" href="/nachrichten/artikel/infineon-halbleiterfabrik-dresden-fertigstellung_20260518/" aria-label="Infineon-Halbleiterfabrik in Dresden fast fertiggestellt"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/infineon-halbleiterfabrik-dresden-fertigstellung_20260518.svg" alt="Infineon-Halbleiterfabrik in Dresden fast fertiggestellt" loading="lazy" width="1080" height="720"></div></a>
+      <article class="news-card topic-card" data-topic="saglik">
+        <a class="card-image-link" href="/nachrichten/artikel/infineon-halbleiterfabrik-dresden-fertigstellung_20260518/" aria-label="Infineon-Halbleiterfabrik in Dresden fast fertiggestellt"><div class="card-image"><img src="/nachrichten/artikel/images/infineon-halbleiterfabrik-dresden-fertigstellung_20260518.svg" alt="Infineon-Halbleiterfabrik in Dresden fast fertiggestellt" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
-            <span class="card-topic">Technologie</span>
+            <span class="card-topic">Gesundheit</span>
             <time class="card-date" datetime="2026-05-18">18.05.2026</time>
           </div>
           <h3 class="card-title">
@@ -1914,12 +1946,12 @@
           </div>
         </div>
       </article>
-      <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/bundestag-cdu-abgeordneter-wilhelm-gebhard-diätenerhohung_20260518/" aria-label="Bundestag: CDU-Abgeordneter Wilhelm Gebhard über Diätenerhöhung"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/bundestag-cdu-abgeordneter-wilhelm-gebhard-diätenerhohung_20260518.svg" alt="Bundestag: CDU-Abgeordneter Wilhelm Gebhard über Diätenerhöhung" loading="lazy" width="1080" height="720"></div></a>
+      <article class="news-card topic-card" data-topic="saglik">
+        <a class="card-image-link" href="/nachrichten/artikel/bundestag-cdu-abgeordneter-wilhelm-gebhard-diätenerhohung_20260518/" aria-label="Bundestag: CDU-Abgeordneter Wilhelm Gebhard über Diätenerhöhung"><div class="card-image"><img src="/nachrichten/artikel/images/bundestag-cdu-abgeordneter-wilhelm-gebhard-diätenerhohung_20260518.svg" alt="Bundestag: CDU-Abgeordneter Wilhelm Gebhard über Diätenerhöhung" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
-            <span class="card-topic">Themen</span>
+            <span class="card-topic">Gesundheit</span>
             <time class="card-date" datetime="2026-05-18">18.05.2026</time>
           </div>
           <h3 class="card-title">
@@ -2007,7 +2039,7 @@
         </div>
       </article>
       <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/westjordanland-israel-e1-siedlung-palastina-staat_20260518/" aria-label="Westjordanland: Israel beginnt mit Umsetzung von Siedlungsprojekt E1 – Aussichten auf palästinensischen Staat schwinden"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/westjordanland-israel-e1-siedlung-palastina-staat_20260518.svg" alt="Westjordanland: Israel beginnt mit Umsetzung von Siedlungsprojekt E1 – Aussichten auf palästinensischen Staat schwinden" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/nachrichten/artikel/westjordanland-israel-e1-siedlung-palastina-staat_20260518/" aria-label="Westjordanland: Israel beginnt mit Umsetzung von Siedlungsprojekt E1 – Aussichten auf palästinensischen Staat schwinden"><div class="card-image"><img src="/nachrichten/artikel/images/westjordanland-israel-e1-siedlung-palastina-staat_20260518.svg" alt="Westjordanland: Israel beginnt mit Umsetzung von Siedlungsprojekt E1 – Aussichten auf palästinensischen Staat schwinden" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">DE Deutschland</span>
@@ -2052,12 +2084,12 @@
           </div>
         </div>
       </article>
-      <article class="news-card topic-card" data-topic="gundem">
+      <article class="news-card topic-card" data-topic="ekonomi">
         <a class="card-image-link" href="/nachrichten/artikel/dax-konzerne-gewinne-umsatzflaute-ey_20260518/" aria-label="DAX-Konzerne trotzen Konjunkturschwäche: Gewinne steigen trotz stagnierender Umsätze"><div class="card-image"><img src="https://images.unsplash.com/photo-1672953966838-e47cbfb4933f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxEQVh8ZW58MHwwfHx8MTc3OTExMDYyNnww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="DAX-Konzerne trotzen Konjunkturschwäche: Gewinne steigen trotz stagnierender Umsätze" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
-            <span class="card-topic">Themen</span>
+            <span class="card-topic">Wirtschaft</span>
             <time class="card-date" datetime="2026-05-18">18.05.2026</time>
           </div>
           <h3 class="card-title">
@@ -2144,12 +2176,12 @@
           </div>
         </div>
       </article>
-      <article class="news-card topic-card" data-topic="siyaset">
-        <a class="card-image-link" href="/nachrichten/artikel/wes-streeting-fordert-keir-starmer-heraus/" aria-label="Wes Streeting fordert Premierminister Keir Starmer heraus"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/wes-streeting-fordert-keir-starmer-heraus.svg" alt="Wes Streeting fordert Premierminister Keir Starmer heraus" loading="lazy" width="1080" height="720"></div></a>
+      <article class="news-card topic-card" data-topic="saglik">
+        <a class="card-image-link" href="/nachrichten/artikel/wes-streeting-fordert-keir-starmer-heraus/" aria-label="Wes Streeting fordert Premierminister Keir Starmer heraus"><div class="card-image"><img src="/nachrichten/artikel/images/wes-streeting-fordert-keir-starmer-heraus.svg" alt="Wes Streeting fordert Premierminister Keir Starmer heraus" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
-            <span class="card-topic">Politik</span>
+            <span class="card-topic">Gesundheit</span>
             <time class="card-date" datetime="2026-05-17">17.05.2026</time>
           </div>
           <h3 class="card-title">
@@ -2167,12 +2199,12 @@
           </div>
         </div>
       </article>
-      <article class="news-card topic-card" data-topic="gundem">
+      <article class="news-card topic-card" data-topic="spor">
         <a class="card-image-link" href="/nachrichten/artikel/wolfsburg-relegt-sich/" aria-label="Wolfsburg rettet sich auf den Relegationsplatz"><div class="card-image"><img src="https://images.unsplash.com/photo-1486286701208-1d58e9338013?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxGdSVDMyU5RmJhbGx8ZW58MHwwfHx8MTc3ODk4NDkxMnww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Wolfsburg rettet sich auf den Relegationsplatz" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
-            <span class="card-topic">Themen</span>
+            <span class="card-topic">Sport</span>
             <time class="card-date" datetime="2026-05-17">17.05.2026</time>
           </div>
           <h3 class="card-title">
@@ -2213,12 +2245,12 @@
           </div>
         </div>
       </article>
-      <article class="news-card topic-card" data-topic="gundem">
+      <article class="news-card topic-card" data-topic="ekonomi">
         <a class="card-image-link" href="/nachrichten/artikel/deutsche-wirtschaft-stabil_20260517/" aria-label="Deutsche Wirtschaft zeigt sich stabil"><div class="card-image"><img src="https://images.unsplash.com/photo-1618259278412-2819cbdea4dc?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxEZXV0c2NoZSUyMFdpcnRzY2hhZnR8ZW58MHwwfHx8MTc3OTAxMjI4N3ww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Deutsche Wirtschaft zeigt sich stabil" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
-            <span class="card-topic">Themen</span>
+            <span class="card-topic">Wirtschaft</span>
             <time class="card-date" datetime="2026-05-17">17.05.2026</time>
           </div>
           <h3 class="card-title">
@@ -2237,7 +2269,7 @@
         </div>
       </article>
       <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/spd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt/" aria-label="SPD-Fraktionschef Miersch sieht keine Zukunft für Tankrabatt"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/spd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt.svg" alt="SPD-Fraktionschef Miersch sieht keine Zukunft für Tankrabatt" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/nachrichten/artikel/spd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt/" aria-label="SPD-Fraktionschef Miersch sieht keine Zukunft für Tankrabatt"><div class="card-image"><img src="/nachrichten/artikel/images/spd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt.svg" alt="SPD-Fraktionschef Miersch sieht keine Zukunft für Tankrabatt" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
@@ -2260,7 +2292,7 @@
         </div>
       </article>
       <article class="news-card topic-card" data-topic="saglik">
-        <a class="card-image-link" href="/nachrichten/artikel/ebola-ausbruch-in-der-demokratischen-republik-kongo/" aria-label="Ebola-Ausbruch in der Demokratischen Republik Kongo"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/ebola-ausbruch-in-der-demokratischen-republik-kongo.svg" alt="Ebola-Ausbruch in der Demokratischen Republik Kongo" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/nachrichten/artikel/ebola-ausbruch-in-der-demokratischen-republik-kongo/" aria-label="Ebola-Ausbruch in der Demokratischen Republik Kongo"><div class="card-image"><img src="/nachrichten/artikel/images/ebola-ausbruch-in-der-demokratischen-republik-kongo.svg" alt="Ebola-Ausbruch in der Demokratischen Republik Kongo" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
@@ -2283,7 +2315,7 @@
         </div>
       </article>
       <article class="news-card topic-card" data-topic="dunya">
-        <a class="card-image-link" href="/nachrichten/artikel/russlands-krieg-gegen-die-ukraine-zahl-der-toten-in-kiew-steigt-auf-24/" aria-label="Russlands Krieg gegen die Ukraine: Zahl der Toten in Kiew steigt auf 24"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/russlands-krieg-gegen-die-ukraine-zahl-der-toten-in-kiew-steigt-auf-24.svg" alt="Russlands Krieg gegen die Ukraine: Zahl der Toten in Kiew steigt auf 24" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/nachrichten/artikel/russlands-krieg-gegen-die-ukraine-zahl-der-toten-in-kiew-steigt-auf-24/" aria-label="Russlands Krieg gegen die Ukraine: Zahl der Toten in Kiew steigt auf 24"><div class="card-image"><img src="/nachrichten/artikel/images/russlands-krieg-gegen-die-ukraine-zahl-der-toten-in-kiew-steigt-auf-24.svg" alt="Russlands Krieg gegen die Ukraine: Zahl der Toten in Kiew steigt auf 24" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
@@ -2306,7 +2338,7 @@
         </div>
       </article>
       <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/regierungskrise-in-grossbritannien/" aria-label="Regierungskrise in Großbritannien"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/regierungskrise-in-grossbritannien.svg" alt="Regierungskrise in Großbritannien" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/nachrichten/artikel/regierungskrise-in-grossbritannien/" aria-label="Regierungskrise in Großbritannien"><div class="card-image"><img src="/nachrichten/artikel/images/regierungskrise-in-grossbritannien.svg" alt="Regierungskrise in Großbritannien" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
@@ -2329,7 +2361,7 @@
         </div>
       </article>
       <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/putin-besucht-xi-jinping-in-china/" aria-label="Wladimir Putin bei Xi Jinping in China"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/putin-besucht-xi-jinping-in-china.svg" alt="Wladimir Putin bei Xi Jinping in China" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/nachrichten/artikel/putin-besucht-xi-jinping-in-china/" aria-label="Wladimir Putin bei Xi Jinping in China"><div class="card-image"><img src="/nachrichten/artikel/images/putin-besucht-xi-jinping-in-china.svg" alt="Wladimir Putin bei Xi Jinping in China" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
@@ -2352,7 +2384,7 @@
         </div>
       </article>
       <article class="news-card topic-card" data-topic="ekonomi">
-        <a class="card-image-link" href="/nachrichten/artikel/euroclear-schadenersatz-russische-gelder/" aria-label="Finanzdienstleister Euroclear soll für eingefrorene russische Gelder Schadenersatz leisten"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/euroclear-schadenersatz-russische-gelder.svg" alt="Finanzdienstleister Euroclear soll für eingefrorene russische Gelder Schadenersatz leisten" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/nachrichten/artikel/euroclear-schadenersatz-russische-gelder/" aria-label="Finanzdienstleister Euroclear soll für eingefrorene russische Gelder Schadenersatz leisten"><div class="card-image"><img src="/nachrichten/artikel/images/euroclear-schadenersatz-russische-gelder.svg" alt="Finanzdienstleister Euroclear soll für eingefrorene russische Gelder Schadenersatz leisten" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
@@ -2374,12 +2406,12 @@
           </div>
         </div>
       </article>
-      <article class="news-card topic-card" data-topic="gundem">
+      <article class="news-card topic-card" data-topic="magazin">
         <a class="card-image-link" href="/nachrichten/artikel/felicia-eriksson-kollabiert-nach-esc-generalprobe/" aria-label="Felicia Eriksson kollabiert nach ESC-Generalprobe"><div class="card-image"><img src="https://images.unsplash.com/photo-1706852523369-c51a4017a57c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFU0N8ZW58MHwwfHx8MTc3ODk1MjI3N3ww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Felicia Eriksson kollabiert nach ESC-Generalprobe" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
-            <span class="card-topic">Themen</span>
+            <span class="card-topic">Kultur</span>
             <time class="card-date" datetime="2026-05-16">16.05.2026</time>
           </div>
           <h3 class="card-title">
@@ -2398,7 +2430,7 @@
         </div>
       </article>
       <article class="news-card topic-card" data-topic="siyaset">
-        <a class="card-image-link" href="/nachrichten/artikel/andy-burnham-moeglicher-nachfolger-fuer-den-britischen-premierminister/" aria-label="Andy Burnham als möglicher Nachfolger für den britischen Premierminister"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/andy-burnham-moeglicher-nachfolger-fuer-den-britischen-premierminister.svg" alt="Andy Burnham als möglicher Nachfolger für den britischen Premierminister" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/nachrichten/artikel/andy-burnham-moeglicher-nachfolger-fuer-den-britischen-premierminister/" aria-label="Andy Burnham als möglicher Nachfolger für den britischen Premierminister"><div class="card-image"><img src="/nachrichten/artikel/images/andy-burnham-moeglicher-nachfolger-fuer-den-britischen-premierminister.svg" alt="Andy Burnham als möglicher Nachfolger für den britischen Premierminister" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
@@ -2421,7 +2453,7 @@
         </div>
       </article>
       <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/rassistische-parolen-am-vatertag-in-hamburg/" aria-label="Rassistische Parolen am Vatertag in Hamburg"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/rassistische-parolen-am-vatertag-in-hamburg.svg" alt="Rassistische Parolen am Vatertag in Hamburg" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/nachrichten/artikel/rassistische-parolen-am-vatertag-in-hamburg/" aria-label="Rassistische Parolen am Vatertag in Hamburg"><div class="card-image"><img src="/nachrichten/artikel/images/rassistische-parolen-am-vatertag-in-hamburg.svg" alt="Rassistische Parolen am Vatertag in Hamburg" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
@@ -2444,7 +2476,7 @@
         </div>
       </article>
       <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/nachbau-des-k-i-t-t-autos-in-new-york-mit-strafzettel-belegt/" aria-label="Nachbau des K.I.T.T.-Autos in New York mit Strafzettel belegt"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/nachbau-des-k-i-t-t-autos-in-new-york-mit-strafzettel-belegt.svg" alt="Nachbau des K.I.T.T.-Autos in New York mit Strafzettel belegt" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/nachrichten/artikel/nachbau-des-k-i-t-t-autos-in-new-york-mit-strafzettel-belegt/" aria-label="Nachbau des K.I.T.T.-Autos in New York mit Strafzettel belegt"><div class="card-image"><img src="/nachrichten/artikel/images/nachbau-des-k-i-t-t-autos-in-new-york-mit-strafzettel-belegt.svg" alt="Nachbau des K.I.T.T.-Autos in New York mit Strafzettel belegt" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
@@ -2489,12 +2521,12 @@
           </div>
         </div>
       </article>
-      <article class="news-card topic-card" data-topic="dunya">
-        <a class="card-image-link" href="/nachrichten/artikel/iran-krieg-regierung-deutlichen-konjunkturdaeumerwartet/" aria-label="Iran-Krieg: Regierung erwartet deutlichen Konjunkturdämpfer"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/iran-krieg-regierung-deutlichen-konjunkturdaeumerwartet.svg" alt="Iran-Krieg: Regierung erwartet deutlichen Konjunkturdämpfer" loading="lazy" width="1080" height="720"></div></a>
+      <article class="news-card topic-card" data-topic="saglik">
+        <a class="card-image-link" href="/nachrichten/artikel/iran-krieg-regierung-deutlichen-konjunkturdaeumerwartet/" aria-label="Iran-Krieg: Regierung erwartet deutlichen Konjunkturdämpfer"><div class="card-image"><img src="/nachrichten/artikel/images/iran-krieg-regierung-deutlichen-konjunkturdaeumerwartet.svg" alt="Iran-Krieg: Regierung erwartet deutlichen Konjunkturdämpfer" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
-            <span class="card-topic">Welt</span>
+            <span class="card-topic">Gesundheit</span>
             <time class="card-date" datetime="2026-05-16">16.05.2026</time>
           </div>
           <h3 class="card-title">
@@ -2513,7 +2545,7 @@
         </div>
       </article>
       <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/depot-insolvent-einrichtungsladen-schliesst-filialen/" aria-label="Depot insolvent: Einrichtungsladen schließt Filialen"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/depot-insolvent-einrichtungsladen-schliesst-filialen.svg" alt="Depot insolvent: Einrichtungsladen schließt Filialen" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/nachrichten/artikel/depot-insolvent-einrichtungsladen-schliesst-filialen/" aria-label="Depot insolvent: Einrichtungsladen schließt Filialen"><div class="card-image"><img src="/nachrichten/artikel/images/depot-insolvent-einrichtungsladen-schliesst-filialen.svg" alt="Depot insolvent: Einrichtungsladen schließt Filialen" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
@@ -2535,12 +2567,12 @@
           </div>
         </div>
       </article>
-      <article class="news-card topic-card" data-topic="dunya">
-        <a class="card-image-link" href="/nachrichten/artikel/internationale-beziehungen-unter-druck/" aria-label="Internationale Beziehungen unter Druck"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/internationale-beziehungen-unter-druck.svg" alt="Internationale Beziehungen unter Druck" loading="lazy" width="1080" height="720"></div></a>
+      <article class="news-card topic-card" data-topic="saglik">
+        <a class="card-image-link" href="/nachrichten/artikel/internationale-beziehungen-unter-druck/" aria-label="Internationale Beziehungen unter Druck"><div class="card-image"><img src="/nachrichten/artikel/images/internationale-beziehungen-unter-druck.svg" alt="Internationale Beziehungen unter Druck" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
-            <span class="card-topic">Welt</span>
+            <span class="card-topic">Gesundheit</span>
             <time class="card-date" datetime="2026-05-16">16.05.2026</time>
           </div>
           <h3 class="card-title">
@@ -2559,7 +2591,7 @@
         </div>
       </article>
       <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/usa-toeten-is-vizechef/" aria-label="USA töten IS-Vizechef"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/usa-toeten-is-vizechef.svg" alt="USA töten IS-Vizechef" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/nachrichten/artikel/usa-toeten-is-vizechef/" aria-label="USA töten IS-Vizechef"><div class="card-image"><img src="/nachrichten/artikel/images/usa-toeten-is-vizechef.svg" alt="USA töten IS-Vizechef" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
@@ -2582,7 +2614,7 @@
         </div>
       </article>
       <article class="news-card topic-card" data-topic="dunya">
-        <a class="card-image-link" href="/nachrichten/artikel/krieg-in-der-ukraine-zahl-der-toten-in-kiew-steigt-auf-24/" aria-label="Krieg in der Ukraine: Zahl der Toten in Kiew steigt auf 24"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/krieg-in-der-ukraine-zahl-der-toten-in-kiew-steigt-auf-24.svg" alt="Krieg in der Ukraine: Zahl der Toten in Kiew steigt auf 24" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/nachrichten/artikel/krieg-in-der-ukraine-zahl-der-toten-in-kiew-steigt-auf-24/" aria-label="Krieg in der Ukraine: Zahl der Toten in Kiew steigt auf 24"><div class="card-image"><img src="/nachrichten/artikel/images/krieg-in-der-ukraine-zahl-der-toten-in-kiew-steigt-auf-24.svg" alt="Krieg in der Ukraine: Zahl der Toten in Kiew steigt auf 24" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
@@ -2605,7 +2637,7 @@
         </div>
       </article>
       <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/wirtschaftskrise-in-deutschland/" aria-label="Wirtschaftskrise in Deutschland"><div class="card-image"><img src="https://mansetradar.com.tr/nachrichten/artikel/images/wirtschaftskrise-in-deutschland.svg" alt="Wirtschaftskrise in Deutschland" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/nachrichten/artikel/wirtschaftskrise-in-deutschland/" aria-label="Wirtschaftskrise in Deutschland"><div class="card-image"><img src="/nachrichten/artikel/images/wirtschaftskrise-in-deutschland.svg" alt="Wirtschaftskrise in Deutschland" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
@@ -2636,7 +2668,7 @@
           <div class="widget-title">Rubriken</div>
           <ul class="country-filter">
             <li><a href="#top-stories"><span aria-hidden="true">DE</span> Deutschland <span class="count" id="count-main">0</span></a></li>
-            <li><a href="/haber">TR Nachrichten</a></li>
+            <li><a href="/">TR Nachrichten</a></li>
             <li><a href="../news/">US News</a></li>
             <li><a href="../nachrichten/">DE Nachrichten</a></li>
           </ul>
@@ -2697,12 +2729,12 @@
         <div>
           <h4>Links</h4>
           <a href="./">Startseite</a>
-          <a href="/haber">TR Nachrichten</a>
+          <a href="/">TR Nachrichten</a>
           <a href="./">Aktuelle Deutschland Nachrichten</a>
         </div>
         <div>
           <h4>Sprachen</h4>
-          <a href="/haber">TR</a>
+          <a href="/">TR</a>
           <a href="../news/">English</a>
           <a href="../nachrichten/">Deutsch</a>
         </div>
@@ -3073,9 +3105,11 @@
       const allSlides = Array.from(slider.querySelectorAll('.headline-slide'));
       const slides = allSlides.filter(slide => !slide.hidden);
       const controls = slider.querySelector('.slider-controls');
+      let dotsWrap = slider.querySelector('.slider-dots');
       const isMobile = window.matchMedia('(max-width: 900px)').matches;
       if (slides.length === 0) {
         if (controls) controls.hidden = true;
+        if (dotsWrap) dotsWrap.hidden = true;
         return;
       }
       if (controls) controls.hidden = isMobile || slides.length <= 1;
@@ -3086,13 +3120,42 @@
       const pauseAuto = (duration = 12000) => {
         autoPausedUntil = Date.now() + duration;
       };
+      if (!dotsWrap) {
+        dotsWrap = document.createElement('div');
+        dotsWrap.className = 'slider-dots';
+        dotsWrap.setAttribute('aria-label', 'Manşet sırası');
+        slider.appendChild(dotsWrap);
+      }
+      dotsWrap.hidden = slides.length <= 1;
+      dotsWrap.replaceChildren();
+      const dots = slides.map((slide, index) => {
+        const dot = document.createElement('button');
+        dot.type = 'button';
+        dot.className = 'slider-dot';
+        dot.setAttribute('aria-label', `${index + 1}. manşete geç`);
+        dot.addEventListener('click', () => {
+          pauseAuto();
+          showSlide(index);
+        });
+        dotsWrap.appendChild(dot);
+        return dot;
+      });
+      const updateDots = () => {
+        dots.forEach((dot, index) => {
+          const active = index === current;
+          dot.classList.toggle('is-active', active);
+          dot.setAttribute('aria-current', active ? 'true' : 'false');
+        });
+      };
       slides[current].classList.add('is-active');
       slider.classList.toggle('has-image-active', Boolean(slides[current].querySelector('.headline-image img')));
+      updateDots();
       const showSlide = (nextIndex) => {
         slides[current].classList.remove('is-active');
         current = (nextIndex + slides.length) % slides.length;
         slides[current].classList.add('is-active');
         slider.classList.toggle('has-image-active', Boolean(slides[current].querySelector('.headline-image img')));
+        updateDots();
       };
       const nextBtn = slider.querySelector('[data-slider-next]');
       const prevBtn = slider.querySelector('[data-slider-prev]');

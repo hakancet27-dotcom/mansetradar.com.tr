@@ -3,11 +3,45 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-05-26T00:00:00+00:00",
-    "article_count": 430,
+    "article_count": 432,
     "schema_version": 2,
     "category_slug": "gundem"
   },
   "articles": [
+    {
+      "id": "articles:abd-de-kimyasal-patlama-panigi_20260526",
+      "slug": "abd-de-kimyasal-patlama-panigi_20260526",
+      "title": "ABD'de Kimyasal Patlama Paniği: 40 Bin Kişi Tahliye Edildi",
+      "summary": "ABD'nin California eyaletinde kimyasal madde depolanan tankta patlama riski bulundu. Bu nedenle yaklaşık 40 bin kişi tahliye edildi. Tahliye edilen kişiler için destek hizmetleri sunuluyor.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "26.05.2026",
+      "date_iso": "2026-05-26",
+      "url": "/articles/abd-de-kimyasal-patlama-panigi_20260526/",
+      "canonical_url": "https://mansetradar.com.tr/articles/abd-de-kimyasal-patlama-panigi_20260526/",
+      "detail_json_url": "/data/details/articles/abd-de-kimyasal-patlama-panigi_20260526.json",
+      "image_url": "https://images.unsplash.com/photo-1612278492349-fa246cf39583?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxLaW15YXNhbHxlbnwwfDB8fHwxNzc5NzY0MzI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_alt": "Tahliye edilen kişiler",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1612278492349-fa246cf39583?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxLaW15YXNhbHxlbnwwfDB8fHwxNzc5NzY0MzI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "alt": "Tahliye edilen kişiler"
+      },
+      "source_name": "",
+      "source_url": "",
+      "tags": [
+        "Kimyasal Patlama",
+        "Tahliye",
+        "California",
+        "ABD"
+      ],
+      "quality_score": 70,
+      "review_status": "published"
+    },
     {
       "id": "articles:bosna-savasindaki-kapiya-katliami-nin-31-yilinda-kurbanlar-anildi_20260525",
       "slug": "bosna-savasindaki-kapiya-katliami-nin-31-yilinda-kurbanlar-anildi_20260525",
@@ -621,6 +655,41 @@
       "source_url": "https://www.trthaber.com/gundem/akcakoca-belediye-baskani-gorevden-uzaklastirildi-946140.html",
       "tags": [],
       "quality_score": 72,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:bagcilar-da-korkunc-olay-otomobilin-bagajinda-olu-bulundu_20260523",
+      "slug": "bagcilar-da-korkunc-olay-otomobilin-bagajinda-olu-bulundu_20260523",
+      "title": "Bağcılar'da İlginç Olay: Otomobilin Bagajında Ölü Bulundu",
+      "summary": "İstanbul Bağcılar'da park halindeki bir otomobilin bagajında Hüseyin Yalçın'ın cansız bedeni bulundu. Olayın araştırması sürüyor ve olay bölgede büyük şok ve korku yaratmış durumda.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "23.05.2026",
+      "date_iso": "2026-05-23",
+      "url": "/articles/bagcilar-da-korkunc-olay-otomobilin-bagajinda-olu-bulundu_20260523/",
+      "canonical_url": "https://mansetradar.com.tr/articles/bagcilar-da-korkunc-olay-otomobilin-bagajinda-olu-bulundu_20260523/",
+      "detail_json_url": "/data/details/articles/bagcilar-da-korkunc-olay-otomobilin-bagajinda-olu-bulundu_20260523.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/uploads/bagcilar-da-korkunc-olay-otomobilin-bagajinda-olu-bulundu_20260523.webp",
+      "image_alt": "Otomobilin bagajında ölü bulunan Hüseyin Yalçın",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/uploads/bagcilar-da-korkunc-olay-otomobilin-bagajinda-olu-bulundu_20260523.webp",
+        "alt": "Otomobilin bagajında ölü bulunan Hüseyin Yalçın"
+      },
+      "source_name": "",
+      "source_url": "",
+      "tags": [
+        "Bağcılar",
+        "İstanbul",
+        "Otomobil",
+        "Ölü Bulundu",
+        "Korkunc Olay"
+      ],
+      "quality_score": 60,
       "review_status": "published"
     },
     {

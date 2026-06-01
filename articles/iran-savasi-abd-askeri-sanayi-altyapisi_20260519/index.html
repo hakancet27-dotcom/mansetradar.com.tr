@@ -44,10 +44,30 @@
     .article-meta span { background:#f8fafc; border:1px solid var(--border); padding:4px 9px; border-radius:5px; }
     h1 { font-size:clamp(1.85rem, 3vw, 2.65rem); line-height:1.14; color:#111827; margin-bottom:16px; letter-spacing:0; }
     .spot { font-size:1.14rem; line-height:1.7; color:#374151; border-left:5px solid var(--red); padding:12px 0 12px 18px; margin:0 0 22px; background:#fff8f7; }
+
     /* ARTICLE_READING_UX_START */
-    .article-image { width:min(100%, 760px); margin:0 auto 25px; border-radius:10px; overflow:hidden; background:#111827; }
-    .article-image img { width:100%; height:auto; display:block; aspect-ratio:16/9; object-fit:cover; object-position:center; }
-    .article-image img[src$=".svg"] { object-fit:contain; background:#111827; }
+    /* Read-first article media: preserve framing while shortening the scroll to the story. */
+    .article-shell { max-width:960px; }
+    .article-image {
+      width:min(100%, 760px);
+      margin:0 auto 25px;
+      border-radius:10px;
+      overflow:hidden;
+      background:#111827;
+    }
+    .article-image img {
+      width:100%;
+      height:auto;
+      display:block;
+      aspect-ratio:16 / 9;
+      object-fit:cover;
+      object-position:center;
+    }
+    .article-image img[src$=".svg"] { object-fit:contain; }
+    @media (max-width:720px) {
+      .article-shell { margin-top:16px; }
+      .article-image { width:100%; margin-bottom:20px; border-radius:8px; }
+    }
     /* ARTICLE_READING_UX_END */
     article h2 { font-size:1.35rem; line-height:1.3; margin:28px 0 10px; color:#111827; padding-top:4px; border-top:1px solid var(--border); }
     article h3 { font-size:1.08rem; margin:20px 0 8px; color:#1f2937; }
@@ -147,7 +167,7 @@
       </div>
       <section class="article-comments" aria-label="article-comments"><h2>Yorumlar</h2><form id="comment-form" class="comment-form"><input id="comment-name" type="text" maxlength="40" placeholder="Ad Soyad"><textarea id="comment-text" rows="4" maxlength="700" placeholder="Yorumunuzu yazın"></textarea><button type="submit">Yorum Gönder</button></form><div id="comment-list" class="comment-list"></div></section>
     </article>
-    <section class="related-news" aria-label="related-news"><h2>İlgili Haberler</h2><div class="related-grid"><article class="related-card"><a href="/articles/guney_lubnanda_insani_kriz_buyuyor_3000_can_kaybi_1_milyon_kisi_yerinden_edildi_20260521/">Güney Lübnan&#x27;da İnsani Kriz Büyüyor: 3.000 Can Kaybı, 1 Milyon Kişi Yerinden Edildi</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">21.05.2026</time></div></article><article class="related-card"><a href="/articles/abd_eski_kuba_lideri_raúl_castroyu_1996_ucak_dusurme_davasinda_sucladi_20260521/">ABD, Eski Küba Lideri Raúl Castro&#x27;yu 1996 Uçak Düşürme Davasında Suçladı</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">21.05.2026</time></div></article><article class="related-card"><a href="/articles/iranin_savasta_stratejik_kaldiraci_20260520/">İran&#x27;ın Savaşta Stratejik Kaldıracı</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">20.05.2026</time></div></article><article class="related-card"><a href="/articles/abd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520/">ABD ve İsrail İran&#x27;da Ahmadinejad&#x27;ı Lider Yapmak İstiyordu</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">20.05.2026</time></div></article><article class="related-card"><a href="/articles/ups_ucagi_kazasinin_sebebi_infrequent_bakim_gereksinimleri_20260520/">UPS Uçağı Kazasının Sebebi İnfrequent Bakım Gereksinimleri</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">20.05.2026</time></div></article><article class="related-card"><a href="/articles/abd_buyuk_jurisi_eski_kuba_lideri_raul_castroya_cinayet_suclamasi_getirdi_20260520/">ABD Büyük Jürisi, Eski Küba Lideri Raul Castro&#x27;ya Cinayet Suçlaması Getirdi</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">20.05.2026</time></div></article><article class="related-card"><a href="/articles/trumpin_18_milyar_dolarlik_fon_anlasmasi_anayasal_sinirlari_zorluyor_20260520/">Trump&#x27;ın 1.8 Milyar Dolarlık Fon Anlaşması Anayasal Sınırları Zorluyor</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">20.05.2026</time></div></article><article class="related-card"><a href="/articles/senato_trumpin_iranla_iliskilerine_sinir_koymaya_hareket_ediyor_20260520/">Senato, Trump&#x27;ın İran&#x27;la İlişkilerine Sınır Koymaya Hareket Ediyor</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">20.05.2026</time></div></article></div></section>
+    <section class="related-news" aria-label="related-news"><h2>İlgili Haberler</h2><div class="related-grid"><article class="related-card"><a href="/articles/trumpin_kirsal_saglik_fonundaki_aciklar_20260522/">Trump&#x27;ın Kırsal Sağlık Fonundaki Açıklar</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">22.05.2026</time></div></article><article class="related-card"><a href="/articles/guclu_bir_el_niño_olusuyor_20260521/">Güçlü Bir El Niño Oluşuyor</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">21.05.2026</time></div></article><article class="related-card"><a href="/articles/guney_lubnanda_insani_kriz_buyuyor_3000_can_kaybi_1_milyon_kisi_yerinden_edildi_20260521/">Güney Lübnan&#x27;da İnsani Kriz Büyüyor: 3.000 Can Kaybı, 1 Milyon Kişi Yerinden Edildi</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">21.05.2026</time></div></article><article class="related-card"><a href="/articles/abd_eski_kuba_lideri_raúl_castroyu_1996_ucak_dusurme_davasinda_sucladi_20260521/">ABD, Eski Küba Lideri Raúl Castro&#x27;yu 1996 Uçak Düşürme Davasında Suçladı</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">21.05.2026</time></div></article><article class="related-card"><a href="/articles/abd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520/">ABD ve İsrail İran&#x27;da Ahmadinejad&#x27;ı Lider Yapmak İstiyordu</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">20.05.2026</time></div></article><article class="related-card"><a href="/articles/ups_ucagi_kazasinin_sebebi_infrequent_bakim_gereksinimleri_20260520/">UPS Uçağı Kazasının Sebebi İnfrequent Bakım Gereksinimleri</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">20.05.2026</time></div></article><article class="related-card"><a href="/articles/abd_buyuk_jurisi_eski_kuba_lideri_raul_castroya_cinayet_suclamasi_getirdi_20260520/">ABD Büyük Jürisi, Eski Küba Lideri Raul Castro&#x27;ya Cinayet Suçlaması Getirdi</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">20.05.2026</time></div></article><article class="related-card"><a href="/articles/trumpin_18_milyar_dolarlik_fon_anlasmasi_anayasal_sinirlari_zorluyor_20260520/">Trump&#x27;ın 1.8 Milyar Dolarlık Fon Anlaşması Anayasal Sınırları Zorluyor</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">20.05.2026</time></div></article></div></section>
   </main>
   <footer>
     <div class="inner">

@@ -44,10 +44,30 @@
     .article-meta span { background:#f8fafc; border:1px solid var(--border); padding:4px 9px; border-radius:5px; }
     h1 { font-size:clamp(1.85rem, 3vw, 2.65rem); line-height:1.14; color:#111827; margin-bottom:16px; letter-spacing:0; }
     .spot { font-size:1.14rem; line-height:1.7; color:#374151; border-left:5px solid var(--red); padding:12px 0 12px 18px; margin:0 0 22px; background:#fff8f7; }
+
     /* ARTICLE_READING_UX_START */
-    .article-image { width:min(100%, 760px); margin:0 auto 25px; border-radius:10px; overflow:hidden; background:#111827; }
-    .article-image img { width:100%; height:auto; display:block; aspect-ratio:16/9; object-fit:cover; object-position:center; }
-    .article-image img[src$=".svg"] { object-fit:contain; background:#111827; }
+    /* Read-first article media: preserve framing while shortening the scroll to the story. */
+    .article-shell { max-width:960px; }
+    .article-image {
+      width:min(100%, 760px);
+      margin:0 auto 25px;
+      border-radius:10px;
+      overflow:hidden;
+      background:#111827;
+    }
+    .article-image img {
+      width:100%;
+      height:auto;
+      display:block;
+      aspect-ratio:16 / 9;
+      object-fit:cover;
+      object-position:center;
+    }
+    .article-image img[src$=".svg"] { object-fit:contain; }
+    @media (max-width:720px) {
+      .article-shell { margin-top:16px; }
+      .article-image { width:100%; margin-bottom:20px; border-radius:8px; }
+    }
     /* ARTICLE_READING_UX_END */
     article h2 { font-size:1.35rem; line-height:1.3; margin:28px 0 10px; color:#111827; padding-top:4px; border-top:1px solid var(--border); }
     article h3 { font-size:1.08rem; margin:20px 0 8px; color:#1f2937; }
@@ -147,7 +167,7 @@
       </div>
       <section class="article-comments" aria-label="article-comments"><h2>Yorumlar</h2><form id="comment-form" class="comment-form"><input id="comment-name" type="text" maxlength="40" placeholder="Ad Soyad"><textarea id="comment-text" rows="4" maxlength="700" placeholder="Yorumunuzu yazın"></textarea><button type="submit">Yorum Gönder</button></form><div id="comment-list" class="comment-list"></div></section>
     </article>
-    <section class="related-news" aria-label="related-news"><h2>İlgili Haberler</h2><div class="related-grid"><article class="related-card"><a href="/articles/pezeskiyan-dunyaya-nukleer-silah-pesinde-olmadigimiza-iliskin-guvence-vermeye-hazi_20260524_3047f3f7/">Pezeşkiyan: Dünyaya, nükleer silah peşinde olmadığımıza ilişkin güvence vermeye hazırız</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">24.05.2026</time></div></article><article class="related-card"><a href="/articles/iran-devrim-muhafizlari-hurmuz-bogazi-ndan-son-24-saatte-33-gemi-gecti_20260524_65d22899/">İran Devrim Muhafızları: Hürmüz Boğazı&#x27;ndan son 24 saatte 33 gemi geçti</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">24.05.2026</time></div></article><article class="related-card"><a href="/articles/iran-basini-mutabakat-zaptinda-petrol-yaptirimlarinin-muzakere-suresince-askiya-al_20260524_d24c679b/">İran basını: Mutabakat zaptında petrol yaptırımlarının müzakere süresince askıya alınmasına dair madde olabilir</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">24.05.2026</time></div></article><article class="related-card"><a href="/articles/california-da-kimyasal-sizinti-riski-nedeniyle-orange-county-bolgesinde-acil-durum_20260524_8db44113/">California&#x27;da kimyasal sızıntı riski nedeniyle Orange County bölgesinde acil durum ilan edildi</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">24.05.2026</time></div></article><article class="related-card"><a href="/articles/abd-iran-arasinda-hurmuz-bogazi-ve-nukleer-muzakereleri-kapsayan-60-gunluk-anlasma_20260524_bf1161dc/">ABD İran arasında Hürmüz Boğazı ve nükleer müzakereleri kapsayan 60 günlük anlaşma iddiası</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">24.05.2026</time></div></article><article class="related-card"><a href="/articles/ukrayna-rusya-biri-oresnik-olmak-uzere-90-fuze-ve-600-siha-ile-saldiri-duzenledi_20260524_df5fdcb2/">Ukrayna: Rusya, biri Oreşnik olmak üzere 90 füze ve 600 SİHA ile saldırı düzenledi</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">24.05.2026</time></div></article><article class="related-card"><a href="/articles/abd-disisleri-bakani-rubio-iran-ile-anlasma-taslaginda-ilerleme-kaydedildi_20260524_112714cd/">ABD Dışişleri Bakanı Rubio: İran ile anlaşma taslağında ilerleme kaydedildi</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">24.05.2026</time></div></article><article class="related-card"><a href="/articles/iran-basini-mutabakat-zaptinda-hurmuz-den-gecislerde-abd-protokolunun-uygulanmasi-_20260524_1315856f/">İran basını: Mutabakat zaptında Hürmüz&#x27;den geçişlerde ABD protokolünün uygulanması yok</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">24.05.2026</time></div></article></div></section>
+    <section class="related-news" aria-label="related-news"><h2>İlgili Haberler</h2><div class="related-grid"><article class="related-card"><a href="/articles/iran-basini-mutabakat-zaptinda-petrol-yaptirimlarinin-muzakere-suresince-askiya-al_20260524_d24c679b/">İran basını: Mutabakat zaptında petrol yaptırımlarının müzakere süresince askıya alınmasına dair madde olabilir</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">24.05.2026</time></div></article><article class="related-card"><a href="/articles/ukrayna-rusya-biri-oresnik-olmak-uzere-90-fuze-ve-600-siha-ile-saldiri-duzenledi_20260524_df5fdcb2/">Ukrayna: Rusya, biri Oreşnik olmak üzere 90 füze ve 600 SİHA ile saldırı düzenledi</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">24.05.2026</time></div></article><article class="related-card"><a href="/articles/abd-disisleri-bakani-rubio-iran-ile-anlasma-taslaginda-ilerleme-kaydedildi_20260524_112714cd/">ABD Dışişleri Bakanı Rubio: İran ile anlaşma taslağında ilerleme kaydedildi</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">24.05.2026</time></div></article><article class="related-card"><a href="/articles/iran-basini-mutabakat-zaptinda-hurmuz-den-gecislerde-abd-protokolunun-uygulanmasi-_20260524_1315856f/">İran basını: Mutabakat zaptında Hürmüz&#x27;den geçişlerde ABD protokolünün uygulanması yok</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">24.05.2026</time></div></article><article class="related-card"><a href="/articles/spor-camiasindan-19-mayis-mesajlari_20260519_5095e8cd/">Spor camiasından 19 Mayıs mesajları</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">19.05.2026</time></div></article><article class="related-card"><a href="/articles/turkiye-kupasi-nda-finalin-adi-belli-oldu_20260513_06fb333a/">Türkiye Kupası&#x27;nda finalin adı belli oldu</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">13.05.2026</time></div></article><article class="related-card"><a href="/articles/pezeskiyan-dunyaya-nukleer-silah-pesinde-olmadigimiza-iliskin-guvence-vermeye-hazi_20260524_3047f3f7/">Pezeşkiyan: Dünyaya, nükleer silah peşinde olmadığımıza ilişkin güvence vermeye hazırız</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">24.05.2026</time></div></article><article class="related-card"><a href="/articles/iran-devrim-muhafizlari-hurmuz-bogazi-ndan-son-24-saatte-33-gemi-gecti_20260524_65d22899/">İran Devrim Muhafızları: Hürmüz Boğazı&#x27;ndan son 24 saatte 33 gemi geçti</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">24.05.2026</time></div></article></div></section>
   </main>
   <footer>
     <div class="inner">

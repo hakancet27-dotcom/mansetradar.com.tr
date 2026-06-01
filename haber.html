@@ -7,21 +7,9 @@
   <meta http-equiv="refresh" content="0; url=/">
   <link rel="canonical" href="https://mansetradar.com.tr/">
   <title>ManSetRadar</title>
-  <script>
-    (function () {
-      var target = "/" + window.location.search + window.location.hash;
-      window.location.replace(target);
-    })();
-  </script>
+  <script>window.location.replace("/" + window.location.search + window.location.hash);</script>
 </head>
 <body>
-  <p><a id="target" href="/">Ana sayfaya gecin</a>.</p>
-  <script>
-    (function () {
-      var target = "/" + window.location.search + window.location.hash;
-      var link = document.getElementById("target");
-      if (link) link.href = target;
-    })();
-  </script>
+  <p><a href="/">Yeni sayfaya gecin</a>.</p>
 </body>
 </html>

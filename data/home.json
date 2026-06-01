@@ -3,11 +3,45 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-05-26T00:00:00+00:00",
-    "article_count": 430,
+    "article_count": 432,
     "schema_version": 2,
     "section": "articles"
   },
   "hero": [
+    {
+      "id": "articles:abd-de-kimyasal-patlama-panigi_20260526",
+      "slug": "abd-de-kimyasal-patlama-panigi_20260526",
+      "title": "ABD'de Kimyasal Patlama Paniği: 40 Bin Kişi Tahliye Edildi",
+      "summary": "ABD'nin California eyaletinde kimyasal madde depolanan tankta patlama riski bulundu. Bu nedenle yaklaşık 40 bin kişi tahliye edildi. Tahliye edilen kişiler için destek hizmetleri sunuluyor.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "26.05.2026",
+      "date_iso": "2026-05-26",
+      "url": "/articles/abd-de-kimyasal-patlama-panigi_20260526/",
+      "canonical_url": "https://mansetradar.com.tr/articles/abd-de-kimyasal-patlama-panigi_20260526/",
+      "detail_json_url": "/data/details/articles/abd-de-kimyasal-patlama-panigi_20260526.json",
+      "image_url": "https://images.unsplash.com/photo-1612278492349-fa246cf39583?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxLaW15YXNhbHxlbnwwfDB8fHwxNzc5NzY0MzI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_alt": "Tahliye edilen kişiler",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1612278492349-fa246cf39583?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxLaW15YXNhbHxlbnwwfDB8fHwxNzc5NzY0MzI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "alt": "Tahliye edilen kişiler"
+      },
+      "source_name": "",
+      "source_url": "",
+      "tags": [
+        "Kimyasal Patlama",
+        "Tahliye",
+        "California",
+        "ABD"
+      ],
+      "quality_score": 70,
+      "review_status": "published"
+    },
     {
       "id": "articles:bosna-savasindaki-kapiya-katliami-nin-31-yilinda-kurbanlar-anildi_20260525",
       "slug": "bosna-savasindaki-kapiya-katliami-nin-31-yilinda-kurbanlar-anildi_20260525",
@@ -571,12 +605,14 @@
       "tags": [],
       "quality_score": 72,
       "review_status": "published"
-    },
+    }
+  ],
+  "latest": [
     {
-      "id": "articles:kilicdaroglu-nun-avukatindan-ankara-emniyet-mudurlugune-basvuru_20260524_f7f0baf6",
-      "slug": "kilicdaroglu-nun-avukatindan-ankara-emniyet-mudurlugune-basvuru_20260524_f7f0baf6",
-      "title": "Kılıçdaroğlu'nun avukatından Ankara Emniyet Müdürlüğüne başvuru",
-      "summary": "Mahkemece CHP Genel Başkanlığı görevine iade edilen Kemal Kılıçdaroğlu'nun avukatı Celal Çelik, CHP avukatı sıfatıyla Ankara İl Emniyet Müdürlüğüne dilekçeyle başvurarak, \"Parti genel merkezinin tarafımıza teslimi konusunda gerekli işlemlerin yapılmasını ta...",
+      "id": "articles:abd-de-kimyasal-patlama-panigi_20260526",
+      "slug": "abd-de-kimyasal-patlama-panigi_20260526",
+      "title": "ABD'de Kimyasal Patlama Paniği: 40 Bin Kişi Tahliye Edildi",
+      "summary": "ABD'nin California eyaletinde kimyasal madde depolanan tankta patlama riski bulundu. Bu nedenle yaklaşık 40 bin kişi tahliye edildi. Tahliye edilen kişiler için destek hizmetleri sunuluyor.",
       "category": "Gündem",
       "category_slug": "gundem",
       "country": "Turkey",
@@ -584,25 +620,28 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
-      "date": "24.05.2026",
-      "date_iso": "2026-05-24",
-      "url": "/articles/kilicdaroglu-nun-avukatindan-ankara-emniyet-mudurlugune-basvuru_20260524_f7f0baf6/",
-      "canonical_url": "https://mansetradar.com.tr/articles/kilicdaroglu-nun-avukatindan-ankara-emniyet-mudurlugune-basvuru_20260524_f7f0baf6/",
-      "detail_json_url": "/data/details/articles/kilicdaroglu-nun-avukatindan-ankara-emniyet-mudurlugune-basvuru_20260524_f7f0baf6.json",
-      "image_url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2378000/chp-2378718.jpg",
-      "image_alt": "Kılıçdaroğlu'nun avukatından Ankara Emniyet Müdürlüğüne başvuru",
+      "date": "26.05.2026",
+      "date_iso": "2026-05-26",
+      "url": "/articles/abd-de-kimyasal-patlama-panigi_20260526/",
+      "canonical_url": "https://mansetradar.com.tr/articles/abd-de-kimyasal-patlama-panigi_20260526/",
+      "detail_json_url": "/data/details/articles/abd-de-kimyasal-patlama-panigi_20260526.json",
+      "image_url": "https://images.unsplash.com/photo-1612278492349-fa246cf39583?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxLaW15YXNhbHxlbnwwfDB8fHwxNzc5NzY0MzI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_alt": "Tahliye edilen kişiler",
       "image": {
-        "url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2378000/chp-2378718.jpg",
-        "alt": "Kılıçdaroğlu'nun avukatından Ankara Emniyet Müdürlüğüne başvuru"
+        "url": "https://images.unsplash.com/photo-1612278492349-fa246cf39583?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxLaW15YXNhbHxlbnwwfDB8fHwxNzc5NzY0MzI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "alt": "Tahliye edilen kişiler"
       },
-      "source_name": "TRT Haber",
-      "source_url": "https://www.trthaber.com/gundem/kilicdaroglunun-avukatindan-ankara-emniyet-mudurlugune-basvuru-946125.html",
-      "tags": [],
-      "quality_score": 72,
+      "source_name": "",
+      "source_url": "",
+      "tags": [
+        "Kimyasal Patlama",
+        "Tahliye",
+        "California",
+        "ABD"
+      ],
+      "quality_score": 70,
       "review_status": "published"
-    }
-  ],
-  "latest": [
+    },
     {
       "id": "articles:bosna-savasindaki-kapiya-katliami-nin-31-yilinda-kurbanlar-anildi_20260525",
       "slug": "bosna-savasindaki-kapiya-katliami-nin-31-yilinda-kurbanlar-anildi_20260525",
@@ -1308,35 +1347,6 @@
       },
       "source_name": "TRT Haber",
       "source_url": "https://www.trthaber.com/dunya/iran-basini-mutabakat-zaptinda-petrol-yaptirimlarinin-muzakere-suresince-askiya-alinmasina-dair-madde-olabilir-946127.html",
-      "tags": [],
-      "quality_score": 72,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:iran-basini-mutabakat-zaptinda-hurmuz-den-gecislerde-abd-protokolunun-uygulanmasi-_20260524_1315856f",
-      "slug": "iran-basini-mutabakat-zaptinda-hurmuz-den-gecislerde-abd-protokolunun-uygulanmasi-_20260524_1315856f",
-      "title": "İran basını: Mutabakat zaptında Hürmüz'den geçişlerde ABD protokolünün uygulanması yok",
-      "summary": "İran basını, Tahran ile Washington arasında imzalanması muhtemel mutabakat zaptında, Hürmüz Boğazı'ndan geçecek İran gemileri için ABD protokolünün uygulanmasına dair herhangi bir maddenin bulunmadığını öne sürdü.",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Global",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "24.05.2026",
-      "date_iso": "2026-05-24",
-      "url": "/articles/iran-basini-mutabakat-zaptinda-hurmuz-den-gecislerde-abd-protokolunun-uygulanmasi-_20260524_1315856f/",
-      "canonical_url": "https://mansetradar.com.tr/articles/iran-basini-mutabakat-zaptinda-hurmuz-den-gecislerde-abd-protokolunun-uygulanmasi-_20260524_1315856f/",
-      "detail_json_url": "/data/details/articles/iran-basini-mutabakat-zaptinda-hurmuz-den-gecislerde-abd-protokolunun-uygulanmasi-_20260524_1315856f.json",
-      "image_url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2440000/trump-iran-hurmuz-2440350.jpg",
-      "image_alt": "İran basını: Mutabakat zaptında Hürmüz'den geçişlerde ABD protokolünün uygulanması yok",
-      "image": {
-        "url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2440000/trump-iran-hurmuz-2440350.jpg",
-        "alt": "İran basını: Mutabakat zaptında Hürmüz'den geçişlerde ABD protokolünün uygulanması yok"
-      },
-      "source_name": "TRT Haber",
-      "source_url": "https://www.trthaber.com/dunya/iran-basini-mutabakat-zaptinda-hurmuzden-gecislerde-abd-protokolunun-uygulanmasi-yok-946143.html",
       "tags": [],
       "quality_score": 72,
       "review_status": "published"
