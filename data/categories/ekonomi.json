@@ -3,11 +3,81 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-01T00:00:00+00:00",
-    "article_count": 444,
+    "article_count": 446,
     "schema_version": 2,
     "category_slug": "ekonomi"
   },
   "articles": [
+    {
+      "id": "articles:borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601",
+      "slug": "borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601",
+      "title": "Borsa İstanbul Haftaya Yükselişle Başladı: Dolar ve Altında Güncel Durum",
+      "summary": "Borsa İstanbul (BIST) 100 endeksi, 01 Haziran 2026 Pazartesi gününü yüzde 0,30'luk bir yükselişle 13.703,96 puandan tamamladı. Gün içinde en yüksek 13.922,45 puanı gören endeks, en düşük 13.675,98 puan seviyesini gördü. Dolar/TL kuru yüzde 0,10 artışla 45,9...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601/",
+      "detail_json_url": "/data/details/articles/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601.json",
+      "image_url": "https://im.haberturk.com/l/2026/06/01/ver1780327800/3888582/jpg/200x200",
+      "image_alt": "Finansal piyasa verilerini gösteren bir grafik.",
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/06/01/ver1780327800/3888582/jpg/200x200",
+        "alt": "Finansal piyasa verilerini gösteren bir grafik."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/piyasa-kapanisi-01-haziran-2026-pazartesi-borsa-dolar-altin-ve-kripto-paralarda-bugun-ne-oldu-fai-3888582-ekonomi",
+      "tags": [
+        "Borsa İstanbul",
+        "Dolar",
+        "Altın",
+        "Kripto Para",
+        "Ekonomi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601",
+      "slug": "bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601",
+      "title": "Bankacı İhbar Etti, Sahte Para Operasyonu Başladı: 1 Milyon Liralık Sahte Paraya El Konuldu",
+      "summary": "Sarıyer'de bir bankacı, döviz bozdurmak isteyen bir müşterinin getirdiği paraların sahte olduğundan şüphelenerek durumu polise bildirdi. İhbar üzerine harekete geçen polis ekipleri, şüpheliyi bir AVM'de gözaltına aldı. Yapılan incelemelerde toplam 227 adet...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601/",
+      "detail_json_url": "/data/details/articles/bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601.webp",
+      "image_alt": "Polis ekipleri tarafından ele geçirilen sahte dolar ve euro banknotları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601.webp",
+        "alt": "Polis ekipleri tarafından ele geçirilen sahte dolar ve euro banknotları."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/bankaci-ihbar-edince-yakalandi-1-milyon-37-bin-lira-sahte-paraya-el-konuldu-43189651",
+      "tags": [
+        "sahte para",
+        "Sarıyer",
+        "banka",
+        "ihbar",
+        "operasyon"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles:turksat-ile-gokyuzunde-yerli-internet-donemi-basliyor_20260524_79e76bbb",
       "slug": "turksat-ile-gokyuzunde-yerli-internet-donemi-basliyor_20260524_79e76bbb",
