@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-01T00:00:00+00:00",
-    "article_count": 443,
+    "article_count": 444,
     "schema_version": 2,
     "section": "articles"
   },
@@ -216,6 +216,41 @@
         "yeni düzenleme"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601",
+      "slug": "foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601",
+      "title": "Foxtron Cavira Tanıtıldı: Tesla Model Y'ye Rakip Elektrikli Crossover",
+      "summary": "iPhone üreticisi Foxconn'un otomotiv markası Foxtron, yeni elektrikli crossover modeli Cavira'yı resmi olarak tanıttı. Araç, 578 km'ye varan menzili ve teknolojik özellikleriyle Tesla Model Y'ye ciddi bir rakip olarak konumlanıyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601/",
+      "detail_json_url": "/data/details/articles/foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/206276/1400x788iphone-ureticisinden-tesla-model-y-ye-rakip-foxtron-cavira.jpg",
+      "image_alt": "Foxtron Cavira elektrikli crossover modeli, modern tasarımı ve LED farlarıyla dikkat çekiyor.",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/206276/1400x788iphone-ureticisinden-tesla-model-y-ye-rakip-foxtron-cavira.jpg",
+        "alt": "Foxtron Cavira elektrikli crossover modeli, modern tasarımı ve LED farlarıyla dikkat çekiyor."
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/iphone-ureticisinden-tesla-model-y-ye-rakip-foxtron-cavira--206276",
+      "tags": [
+        "Foxtron Cavira",
+        "Elektrikli Araç",
+        "Tesla Model Y",
+        "Foxconn",
+        "Otomotiv"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -630,35 +665,6 @@
       "tags": [],
       "quality_score": 72,
       "review_status": "published"
-    },
-    {
-      "id": "articles:turkiye-nin-de-aralarinda-bulundugu-8-ulkeden-israil-e-ortak-tepki_20260524_7a35d4bc",
-      "slug": "turkiye-nin-de-aralarinda-bulundugu-8-ulkeden-israil-e-ortak-tepki_20260524_7a35d4bc",
-      "title": "Türkiye'nin de aralarında bulunduğu 8 ülkeden İsrail'e ortak tepki",
-      "summary": "Türkiye ve 7 ülkenin dışişleri bakanları, İsrail aşırı sağcı Ulusal Güvenlik Bakanı Itamar Ben-Gvir'in alıkonulan Küresel Sumud Filosu katılımcılarına yönelik \"dehşet verici, aşağılayıcı ve kabul edilemez muameleyi\" en güçlü şekilde kınadı.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "24.05.2026",
-      "date_iso": "2026-05-24",
-      "url": "/articles/turkiye-nin-de-aralarinda-bulundugu-8-ulkeden-israil-e-ortak-tepki_20260524_7a35d4bc/",
-      "canonical_url": "https://mansetradar.com.tr/articles/turkiye-nin-de-aralarinda-bulundugu-8-ulkeden-israil-e-ortak-tepki_20260524_7a35d4bc/",
-      "detail_json_url": "/data/details/articles/turkiye-nin-de-aralarinda-bulundugu-8-ulkeden-israil-e-ortak-tepki_20260524_7a35d4bc.json",
-      "image_url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1760000/disisleri-bakanligi-depo-1761807.jpg",
-      "image_alt": "Türkiye'nin de aralarında bulunduğu 8 ülkeden İsrail'e ortak tepki",
-      "image": {
-        "url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1760000/disisleri-bakanligi-depo-1761807.jpg",
-        "alt": "Türkiye'nin de aralarında bulunduğu 8 ülkeden İsrail'e ortak tepki"
-      },
-      "source_name": "TRT Haber",
-      "source_url": "https://www.trthaber.com/gundem/turkiyenin-de-aralarinda-bulundugu-8-ulkeden-israile-ortak-tepki-946166.html",
-      "tags": [],
-      "quality_score": 72,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -870,6 +876,41 @@
         "yeni düzenleme"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601",
+      "slug": "foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601",
+      "title": "Foxtron Cavira Tanıtıldı: Tesla Model Y'ye Rakip Elektrikli Crossover",
+      "summary": "iPhone üreticisi Foxconn'un otomotiv markası Foxtron, yeni elektrikli crossover modeli Cavira'yı resmi olarak tanıttı. Araç, 578 km'ye varan menzili ve teknolojik özellikleriyle Tesla Model Y'ye ciddi bir rakip olarak konumlanıyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601/",
+      "detail_json_url": "/data/details/articles/foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/206276/1400x788iphone-ureticisinden-tesla-model-y-ye-rakip-foxtron-cavira.jpg",
+      "image_alt": "Foxtron Cavira elektrikli crossover modeli, modern tasarımı ve LED farlarıyla dikkat çekiyor.",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/206276/1400x788iphone-ureticisinden-tesla-model-y-ye-rakip-foxtron-cavira.jpg",
+        "alt": "Foxtron Cavira elektrikli crossover modeli, modern tasarımı ve LED farlarıyla dikkat çekiyor."
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/iphone-ureticisinden-tesla-model-y-ye-rakip-foxtron-cavira--206276",
+      "tags": [
+        "Foxtron Cavira",
+        "Elektrikli Araç",
+        "Tesla Model Y",
+        "Foxconn",
+        "Otomotiv"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -1426,35 +1467,6 @@
       },
       "source_name": "Google News RSS",
       "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTXhMeHd0VUV3TUpuc2NySWlCNkhWUVI0R2FzLU05bGtLWmVOVGVZeWszOWUza3BWT2tWZTNOQkppUTg1Tk81S3pTQ0NUUHlvYUhPZDBGd1FEelNWZUpHMndsWlZDOGNmMlVtUEx0ZV95WjZQWFZsUHdzQVhSbVVyMWlLaVpuX2hWOS1ILXdVSzVkTWdFdTFTclNmcw?oc=5",
-      "tags": [],
-      "quality_score": 70,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:sayin-nguyen-quan-stem-yapay-zeka-egitimini-genel-egitime-entegre-etmenin-temelidi_20260524_361b8ffe",
-      "slug": "sayin-nguyen-quan-stem-yapay-zeka-egitimini-genel-egitime-entegre-etmenin-temelidi_20260524_361b8ffe",
-      "title": "Sayın Nguyen Quan: 'STEM, yapay zeka eğitimini genel eğitime entegre etmenin temelidir.' - Vietnam.vn",
-      "summary": "Sayın Nguyen Quan: 'STEM, yapay zeka eğitimini genel eğitime entegre etmenin temelidir.' Vietnam.vn",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "24.05.2026",
-      "date_iso": "2026-05-24",
-      "url": "/articles/sayin-nguyen-quan-stem-yapay-zeka-egitimini-genel-egitime-entegre-etmenin-temelidi_20260524_361b8ffe/",
-      "canonical_url": "https://mansetradar.com.tr/articles/sayin-nguyen-quan-stem-yapay-zeka-egitimini-genel-egitime-entegre-etmenin-temelidi_20260524_361b8ffe/",
-      "detail_json_url": "/data/details/articles/sayin-nguyen-quan-stem-yapay-zeka-egitimini-genel-egitime-entegre-etmenin-temelidi_20260524_361b8ffe.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/sayin-nguyen-quan-stem-yapay-zeka-egitimini-genel-egitime-entegre-etmenin-temelidi_20260524_361b8ffe.webp",
-      "image_alt": "Sayın Nguyen Quan: 'STEM, yapay zeka eğitimini genel eğitime entegre etmenin temelidir.' - Vietnam.vn",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/sayin-nguyen-quan-stem-yapay-zeka-egitimini-genel-egitime-entegre-etmenin-temelidi_20260524_361b8ffe.webp",
-        "alt": "Sayın Nguyen Quan: 'STEM, yapay zeka eğitimini genel eğitime entegre etmenin temelidir.' - Vietnam.vn"
-      },
-      "source_name": "Google News RSS",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX1d1OWtqR3k1UDI2WFl4TzBieXVldmdvUGl4cXRZWmxlTktjTWdRci1xZHU4NUNGSHU1LUdxVERjNnhvNHUzOVdzcU5DdlVndEJMMFpWVlBrbHMzV0ZrUmNxUTRVMmp0eFZvMWF4SjlSekpmWW5XTlVQdmxuT0lDUXJVcUhScW8zOXIzYVJQU2RiMmxoWjVBWVBfUUUtaGdX?oc=5",
       "tags": [],
       "quality_score": 70,
       "review_status": "published"

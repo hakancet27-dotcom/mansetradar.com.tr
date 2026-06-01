@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-01T00:00:00+00:00",
-    "article_count": 443,
+    "article_count": 444,
     "schema_version": 2
   },
   "articles": [
@@ -215,6 +215,41 @@
         "yeni düzenleme"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601",
+      "slug": "foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601",
+      "title": "Foxtron Cavira Tanıtıldı: Tesla Model Y'ye Rakip Elektrikli Crossover",
+      "summary": "iPhone üreticisi Foxconn'un otomotiv markası Foxtron, yeni elektrikli crossover modeli Cavira'yı resmi olarak tanıttı. Araç, 578 km'ye varan menzili ve teknolojik özellikleriyle Tesla Model Y'ye ciddi bir rakip olarak konumlanıyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601/",
+      "detail_json_url": "/data/details/articles/foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/206276/1400x788iphone-ureticisinden-tesla-model-y-ye-rakip-foxtron-cavira.jpg",
+      "image_alt": "Foxtron Cavira elektrikli crossover modeli, modern tasarımı ve LED farlarıyla dikkat çekiyor.",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/206276/1400x788iphone-ureticisinden-tesla-model-y-ye-rakip-foxtron-cavira.jpg",
+        "alt": "Foxtron Cavira elektrikli crossover modeli, modern tasarımı ve LED farlarıyla dikkat çekiyor."
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/iphone-ureticisinden-tesla-model-y-ye-rakip-foxtron-cavira--206276",
+      "tags": [
+        "Foxtron Cavira",
+        "Elektrikli Araç",
+        "Tesla Model Y",
+        "Foxconn",
+        "Otomotiv"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
