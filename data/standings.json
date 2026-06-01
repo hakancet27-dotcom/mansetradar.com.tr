@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-31T22:38:17.840Z",
+  "updatedAt": "2026-06-01T00:05:10.529Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-05-31T21:50:28.042Z",
+      "updatedAt": "2026-06-01T00:05:10.529Z",
       "source": "Maçkolik arşiv 1/70381",
       "table": [
         {
@@ -269,7 +269,7 @@
     {
       "id": "premier-league",
       "name": "Premier League",
-      "updatedAt": "2026-05-31T21:50:28.042Z",
+      "updatedAt": "2026-06-01T00:05:10.529Z",
       "source": "Maçkolik arşiv 24/70266",
       "table": [
         {
@@ -560,7 +560,7 @@
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-05-31T21:50:28.042Z",
+      "updatedAt": "2026-06-01T00:05:10.529Z",
       "source": "Maçkolik arşiv 20/70368",
       "table": [
         {
@@ -851,7 +851,7 @@
     {
       "id": "bundesliga",
       "name": "Bundesliga",
-      "updatedAt": "2026-05-31T22:38:17.840Z",
+      "updatedAt": "2026-06-01T00:05:10.529Z",
       "source": "Maçkolik arşiv 3/70371",
       "table": [
         {
@@ -1109,13 +1109,12 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Kaynak geçici olarak boş/hatalı döndüğü için son sağlam tablo korundu. Kaynak tekrar geçerli tablo döndürünce otomatik yenisiyle değiştirilecek.",
-      "preservedPreviousTable": true
+      "status": ""
     },
     {
       "id": "serie-a",
       "name": "Serie A",
-      "updatedAt": "2026-05-31T22:38:17.840Z",
+      "updatedAt": "2026-06-01T00:05:10.529Z",
       "source": "Maçkolik arşiv 15/70184",
       "table": [
         {
@@ -1401,13 +1400,12 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Kaynak geçici olarak boş/hatalı döndüğü için son sağlam tablo korundu. Kaynak tekrar geçerli tablo döndürünce otomatik yenisiyle değiştirilecek.",
-      "preservedPreviousTable": true
+      "status": ""
     },
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-05-31T21:50:28.042Z",
+      "updatedAt": "2026-06-01T00:05:10.529Z",
       "source": "Maçkolik arşiv 5/70351",
       "table": [
         {
