@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "generated_at": "2026-06-01T00:00:00+00:00",
+    "article_count": 442,
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "articles:nvidia-rtx-spark-pc-islemci-pazarina-giriyor_20260601",
+    "slug": "nvidia-rtx-spark-pc-islemci-pazarina-giriyor_20260601",
+    "title": "NVIDIA, RTX Spark ile PC İşlemci Pazarına Giriyor: Yapay Zeka Odaklı Yeni Çip Ailesi Tanıtıldı",
+    "summary": "NVIDIA, yıllardır hakim olduğu grafik kartları pazarının ötesine geçerek doğrudan PC işlemci alanına adım atıyor. Şirket, Windows dizüstü bilgisayarlar ve mini PC'ler için geliştirdiği yeni Arm tabanlı çip ailesi RTX Spark'ı duyurdu. NVIDIA, RTX Spark'ı \"şi...",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "country": "Turkey",
+    "language": "tr",
+    "language_label": "Turkish",
+    "section": "articles",
+    "section_name": "Haberler",
+    "date": "01.06.2026",
+    "date_iso": "2026-06-01",
+    "url": "/articles/nvidia-rtx-spark-pc-islemci-pazarina-giriyor_20260601/",
+    "canonical_url": "https://mansetradar.com.tr/articles/nvidia-rtx-spark-pc-islemci-pazarina-giriyor_20260601/",
+    "detail_json_url": "/data/details/articles/nvidia-rtx-spark-pc-islemci-pazarina-giriyor_20260601.json",
+    "image_url": "https://images.unsplash.com/photo-1716967318503-05b7064afa41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxOVklESUElMjBQQyUyMHNhdmElQzUlOUYlQzQlQjFuYSUyMGdpcmRpJTNBJTIwWWVuaSUyMCVDMyVBN2lwJTIwUlRYJTIwU3BhcmslMjBuZSUyMHN1bmFjYWslM0YlMjBOVklESUElMjBSVFglMjBTcGFyayUyMCVDMyVBN2lwfGVufDB8MHx8fDE3ODAzMzMyNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "image_alt": "NVIDIA RTX Spark çipli fütüristik dizüstü bilgisayar ve mini PC, yapay zeka yeteneklerini ve yüksek grafik performansını...",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1716967318503-05b7064afa41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxOVklESUElMjBQQyUyMHNhdmElQzUlOUYlQzQlQjFuYSUyMGdpcmRpJTNBJTIwWWVuaSUyMCVDMyVBN2lwJTIwUlRYJTIwU3BhcmslMjBuZSUyMHN1bmFjYWslM0YlMjBOVklESUElMjBSVFglMjBTcGFyayUyMCVDMyVBN2lwfGVufDB8MHx8fDE3ODAzMzMyNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "alt": "NVIDIA RTX Spark çipli fütüristik dizüstü bilgisayar ve mini PC, yapay zeka yeteneklerini ve yüksek grafik performansını..."
+    },
+    "source_name": "Hürriyet",
+    "source_url": "https://www.hurriyet.com.tr/teknoloji/nvidia-pc-savasina-girdi-yeni-cip-rtx-spark-ne-sunacak-43189325",
+    "tags": [
+      "NVIDIA",
+      "RTX Spark",
+      "PC İşlemci",
+      "Yapay Zeka",
+      "Arm Tabanlı Çip",
+      "Windows PC"
+    ],
+    "quality_score": 100,
+    "review_status": "published",
+    "content_html": "<h2>NVIDIA RTX Spark: İşlemci Pazarına Yeni Bir Oyuncu</h2> <p>NVIDIA, grafik kartları alanındaki liderliğini pekiştirdikten sonra şimdi de PC işlemci pazarına iddialı bir giriş yapıyor. Şirketin yeni Arm tabanlı çip ailesi RTX Spark, Windows dizüstü bilgisayarlar ve mini PC'ler için özel olarak geliştirildi. NVIDIA, bu yeni çipi \"şimdiye kadar üretilmiş en verimli PC çipi\" olarak lanse ediyor. RTX Spark, yalnızca bir ekran kartı olmanın ötesinde, merkezi işlem birimi (CPU), grafik işlem birimi (GPU) ve belleği tek bir çipte birleştiren kapsamlı bir bilgisayar çözümü sunuyor. Bu entegre yapı, NVIDIA'yı Intel, AMD, Apple ve Qualcomm gibi mevcut işlemci devlerine doğrudan rakip konumuna getiriyor. RTX Spark ile güçlendirilen ilk Windows cihazların bu yılın sonbahar aylarında teknoloji meraklılarıyla buluşması öngörülüyor.</p> <h2>Yapay Zeka Odaklı Vizyon ve Performans İddiaları</h2> <p>RTX Spark ailesinin en üst düzey sürümü, 20 CPU çekirdeği, 6 bin 144 GPU çekirdeği ve 128 GB'a kadar LPDDR5X birleşik bellek ile dikkat çekiyor. Bu çip, NVIDIA'nın daha önce kişisel yapay zeka bilgisayarı DGX Spark'ta kullandığı GB10 mimarisinin tüketiciye yönelik bir uyarlaması olarak değerlendiriliyor. NVIDIA'ya göre, RTX Spark'lı ince dizüstü bilgisayarlar, 90 GB boyutundaki 3D sahneleri sorunsuz bir şekilde işleyebilecek, 12K çözünürlüğündeki videoları düzenleyebilecek ve yüksek grafik gücü gerektiren oyunları şarj aletine ihtiyaç duymadan çalıştırabilecek. Şirket ayrıca, grafik performansının bazı uygulamalarda RTX 5070 mobil GPU seviyesine yaklaşabileceğini belirtiyor. Ancak bu iddiaların gerçek dünya kullanım testleriyle doğrulanması bekleniyor.</p> <p>RTX Spark'ın en dikkat çekici yönlerinden biri, yalnızca oyun ve yaratıcı işler için değil, aynı zamanda Windows bilgisayarları \"kişisel yapay zeka ajanları\" için bir platform haline getirme vizyonu. NVIDIA ve Microsoft iş birliğiyle, bu yeni çip, Windows üzerinde yerel olarak çalışacak yapay zeka ajanları için güçlü bir altyapı sunacak. Microsoft, bu ajanlar için yeni güvenlik ve kontrol mekanizmaları geliştirirken, NVIDIA'nın OpenShell adlı çalışma ortamı, ajanların kullanıcının kontrolünde bilgisayarda işlem yapmasını sağlayacak. Bu vizyon, kullanıcıların gelecekte karmaşık uygulama arayüzleriyle uğraşmak yerine, bilgisayarlarına doğrudan komutlar verebileceği bir dönemi işaret ediyor. Örneğin, bir yayıncı bilgisayarına ışıkları kapatmasını ve mikrofonu susturmasını söyleyebilecek, bir tasarımcı çizimini görsele, 3D modele ve videoya dönüştürebilecek, bir yazılımcı ise yapay zeka ajanından GitHub projesindeki hataları takip etmesini isteyebilecek. Bu işlemlerin yerel olarak çalışması, hem gizlilik hem de bulut bilişim maliyetleri açısından önemli avantajlar sunacak.</p>",
+    "meta_title": "NVIDIA RTX Spark: PC İşlemci Pazarına Yeni Rakip ve Yapay...",
+    "meta_description": "NVIDIA, yeni Arm tabanlı RTX Spark çip ailesiyle PC işlemci pazarına adım atıyor. Yapay zeka ajanları ve yüksek performanslı grafikler vaat eden çip,...",
+    "spot": "NVIDIA, yıllardır hakim olduğu grafik kartları pazarının ötesine geçerek doğrudan PC işlemci alanına adım atıyor. Şirket, Windows dizüstü bilgisayarlar ve mini PC'ler için geliştirdiği yeni Arm tabanlı çip ailesi RTX Spark'ı duyurdu. NVIDIA, RTX Spark'ı \"şimdiye kadar üretilmiş en verimli PC çipi\" olarak tanımlarken, bu iddiayı destekleyecek bağımsız test...",
+    "word_count": 355,
+    "reading_time_minutes": 2,
+    "discover_titles": [
+      "NVIDIA'dan PC İşlemci Pazarına Giriş: RTX Spark Tanıtıldı",
+      "RTX Spark ile Yapay Zeka Odaklı PC'ler Geliyor",
+      "NVIDIA'nın Yeni Çipi RTX Spark: Performans ve Verimlilik İddiaları"
+    ],
+    "visual_keywords": [
+      "NVIDIA RTX Spark çip",
+      "Windows dizüstü bilgisayar",
+      "mini PC",
+      "yapay zeka ajanı",
+      "CPU",
+      "GPU"
+    ]
+  }
+}
