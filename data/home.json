@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-01T00:00:00+00:00",
-    "article_count": 450,
+    "article_count": 452,
     "schema_version": 2,
     "section": "articles"
   },
@@ -219,6 +219,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601",
+      "slug": "iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601",
+      "title": "İran, Hürmüz Boğazı'ndan Geçiş İzinleri İstatistiklerini Paylaştı",
+      "summary": "İran, Hürmüz Boğazı'ndan geçiş izni başvurusunda bulunan 300'den fazla gemiyle ilgili güncel istatistikleri yayımladı. Nisan ayından bu yana yapılan başvuruların büyük çoğunluğunu petrol tankerleri oluştururken, gemilerin nihai varış noktaları ve türleri ha...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601/",
+      "detail_json_url": "/data/details/articles/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601.webp",
+      "image_alt": "Hürmüz Boğazı'nda seyreden çeşitli gemilerin hava görünümü.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601.webp",
+        "alt": "Hürmüz Boğazı'nda seyreden çeşitli gemilerin hava görünümü."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/iran-hurmuz-bogazindan-gecis-izni-icin-basvuru-yapan-gemilerle-ilgili-istatistikleri-yayimladi-7597869",
+      "tags": [
+        "Hürmüz Boğazı",
+        "İran",
+        "Gemi Trafiği",
+        "Petrol Tankerleri",
+        "Denizcilik İstatistikleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:hakan-safi-kerem-akturkoglu-transfer-aciklamasi_20260601",
       "slug": "hakan-safi-kerem-akturkoglu-transfer-aciklamasi_20260601",
       "title": "Fenerbahçe Başkan Adayı Hakan Safi'den Kerem Aktürkoğlu ve Transfer Açıklaması",
@@ -596,6 +631,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601",
+      "slug": "15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601",
+      "title": "15 Yılda 170 Kez Kanseri Yenen Adam Tıp Dünyasını Hayrete Düşürdü",
+      "summary": "47 yaşındaki Sean Breininger, 15 yıl içinde 170 kez kanseri yenerek tıp dünyasını hayrete düşürdü. Boğaz, dil, mesane, yemek borusu, ağız ve cilt kanserleri dahil olmak üzere çok sayıda farklı türle mücadele eden Breininger'e 2011'de genetik Fanconi anemisi...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601/",
+      "detail_json_url": "/data/details/articles/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601.webp",
+      "image_alt": "15 Yılda 170 Kez Kanseri Yenen Adam Tıp Dünyasını Hayrete Düşürdü",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601.webp",
+        "alt": "15 Yılda 170 Kez Kanseri Yenen Adam Tıp Dünyasını Hayrete Düşürdü"
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/tip-dunyasini-hayrete-dusuruen-adam-15-yilda-170-kez-kanseri-yendi-7597739",
+      "tags": [
+        "Kanser",
+        "Fanconi Anemisi",
+        "Sean Breininger",
+        "Sağlık",
+        "Tıp"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:1-haziran-2026-ev-yemegi-menusu-onerileri_20260601",
       "slug": "1-haziran-2026-ev-yemegi-menusu-onerileri_20260601",
       "title": "1 Haziran 2026 Ev Yemeği Menüsü: Serinleten Çorbadan Tatlıya Zengin Seçenekler",
@@ -627,75 +697,6 @@
         "höşmerim"
       ],
       "quality_score": 80,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:abd-de-kimyasal-patlama-panigi_20260526",
-      "slug": "abd-de-kimyasal-patlama-panigi_20260526",
-      "title": "ABD'de Kimyasal Patlama Paniği: 40 Bin Kişi Tahliye Edildi",
-      "summary": "ABD'nin California eyaletinde kimyasal madde depolanan tankta patlama riski bulundu. Bu nedenle yaklaşık 40 bin kişi tahliye edildi. Tahliye edilen kişiler için destek hizmetleri sunuluyor.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "26.05.2026",
-      "date_iso": "2026-05-26",
-      "url": "/articles/abd-de-kimyasal-patlama-panigi_20260526/",
-      "canonical_url": "https://mansetradar.com.tr/articles/abd-de-kimyasal-patlama-panigi_20260526/",
-      "detail_json_url": "/data/details/articles/abd-de-kimyasal-patlama-panigi_20260526.json",
-      "image_url": "https://images.unsplash.com/photo-1612278492349-fa246cf39583?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxLaW15YXNhbHxlbnwwfDB8fHwxNzc5NzY0MzI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_alt": "Tahliye edilen kişiler",
-      "image": {
-        "url": "https://images.unsplash.com/photo-1612278492349-fa246cf39583?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxLaW15YXNhbHxlbnwwfDB8fHwxNzc5NzY0MzI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "alt": "Tahliye edilen kişiler"
-      },
-      "source_name": "",
-      "source_url": "",
-      "tags": [
-        "Kimyasal Patlama",
-        "Tahliye",
-        "California",
-        "ABD"
-      ],
-      "quality_score": 70,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:bosna-savasindaki-kapiya-katliami-nin-31-yilinda-kurbanlar-anildi_20260525",
-      "slug": "bosna-savasindaki-kapiya-katliami-nin-31-yilinda-kurbanlar-anildi_20260525",
-      "title": "Bosna Savaşı'ndaki Kapiya Katliamı'nın 31. Yılında Kurbanlar Anıldı",
-      "summary": "Bosna Hersek'teki savaşta ülkenin kuzeydoğusundaki Tuzla kentinde, 25 Mayıs 1995'te Sırplar tarafından yapılan katliamda hayatını kaybeden 71 sivili anma töreni düzenlendi. 25 Mayıs 1995'te meydana gelen katliam, Bosna Savaşı'nın en önemli olaylarından biri...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "25.05.2026",
-      "date_iso": "2026-05-25",
-      "url": "/articles/bosna-savasindaki-kapiya-katliami-nin-31-yilinda-kurbanlar-anildi_20260525/",
-      "canonical_url": "https://mansetradar.com.tr/articles/bosna-savasindaki-kapiya-katliami-nin-31-yilinda-kurbanlar-anildi_20260525/",
-      "detail_json_url": "/data/details/articles/bosna-savasindaki-kapiya-katliami-nin-31-yilinda-kurbanlar-anildi_20260525.json",
-      "image_url": "https://images.unsplash.com/photo-1636041417222-1305988d38a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCb3NuYSUyMFNhdmElQzUlOUYlQzQlQjF8ZW58MHwwfHx8MTc3OTczMTMzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_alt": "Tuzla kentinde anma töreni",
-      "image": {
-        "url": "https://images.unsplash.com/photo-1636041417222-1305988d38a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCb3NuYSUyMFNhdmElQzUlOUYlQzQlQjF8ZW58MHwwfHx8MTc3OTczMTMzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "alt": "Tuzla kentinde anma töreni"
-      },
-      "source_name": "",
-      "source_url": "",
-      "tags": [
-        "Bosna Savaşı",
-        "Kapiya Katliamı",
-        "Tuzla Kenti",
-        "Sırplar",
-        "Anma Töreni"
-      ],
-      "quality_score": 70,
       "review_status": "published"
     }
   ],
@@ -911,6 +912,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601",
+      "slug": "iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601",
+      "title": "İran, Hürmüz Boğazı'ndan Geçiş İzinleri İstatistiklerini Paylaştı",
+      "summary": "İran, Hürmüz Boğazı'ndan geçiş izni başvurusunda bulunan 300'den fazla gemiyle ilgili güncel istatistikleri yayımladı. Nisan ayından bu yana yapılan başvuruların büyük çoğunluğunu petrol tankerleri oluştururken, gemilerin nihai varış noktaları ve türleri ha...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601/",
+      "detail_json_url": "/data/details/articles/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601.webp",
+      "image_alt": "Hürmüz Boğazı'nda seyreden çeşitli gemilerin hava görünümü.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601.webp",
+        "alt": "Hürmüz Boğazı'nda seyreden çeşitli gemilerin hava görünümü."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/iran-hurmuz-bogazindan-gecis-izni-icin-basvuru-yapan-gemilerle-ilgili-istatistikleri-yayimladi-7597869",
+      "tags": [
+        "Hürmüz Boğazı",
+        "İran",
+        "Gemi Trafiği",
+        "Petrol Tankerleri",
+        "Denizcilik İstatistikleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:hakan-safi-kerem-akturkoglu-transfer-aciklamasi_20260601",
       "slug": "hakan-safi-kerem-akturkoglu-transfer-aciklamasi_20260601",
       "title": "Fenerbahçe Başkan Adayı Hakan Safi'den Kerem Aktürkoğlu ve Transfer Açıklaması",
@@ -1288,6 +1324,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601",
+      "slug": "15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601",
+      "title": "15 Yılda 170 Kez Kanseri Yenen Adam Tıp Dünyasını Hayrete Düşürdü",
+      "summary": "47 yaşındaki Sean Breininger, 15 yıl içinde 170 kez kanseri yenerek tıp dünyasını hayrete düşürdü. Boğaz, dil, mesane, yemek borusu, ağız ve cilt kanserleri dahil olmak üzere çok sayıda farklı türle mücadele eden Breininger'e 2011'de genetik Fanconi anemisi...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601/",
+      "detail_json_url": "/data/details/articles/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601.webp",
+      "image_alt": "15 Yılda 170 Kez Kanseri Yenen Adam Tıp Dünyasını Hayrete Düşürdü",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601.webp",
+        "alt": "15 Yılda 170 Kez Kanseri Yenen Adam Tıp Dünyasını Hayrete Düşürdü"
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/tip-dunyasini-hayrete-dusuruen-adam-15-yilda-170-kez-kanseri-yendi-7597739",
+      "tags": [
+        "Kanser",
+        "Fanconi Anemisi",
+        "Sean Breininger",
+        "Sağlık",
+        "Tıp"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:1-haziran-2026-ev-yemegi-menusu-onerileri_20260601",
       "slug": "1-haziran-2026-ev-yemegi-menusu-onerileri_20260601",
       "title": "1 Haziran 2026 Ev Yemeği Menüsü: Serinleten Çorbadan Tatlıya Zengin Seçenekler",
@@ -1473,64 +1544,6 @@
       },
       "source_name": "TRT Haber",
       "source_url": "https://www.trthaber.com/dunya/ukrayna-rusya-biri-oresnik-olmak-uzere-90-fuze-ve-600-siha-ile-saldiri-duzenledi-946128.html",
-      "tags": [],
-      "quality_score": 72,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:tv-yayin-akisi-24-mayis-2026-pazar-gunun-filmleri-ve-dizileri-neler-kanal-d-star-t_20260524_2b5d56ba",
-      "slug": "tv-yayin-akisi-24-mayis-2026-pazar-gunun-filmleri-ve-dizileri-neler-kanal-d-star-t_20260524_2b5d56ba",
-      "title": "TV Yayın Akışı 24 Mayıs 2026 Pazar! Günün filmleri ve dizileri neler? Kanal D, Star TV, Show TV, TRT 1, TV8 ve NOW TV yayın akışları - Milliyet",
-      "summary": "TV Yayın Akışı 24 Mayıs 2026 Pazar! Günün filmleri ve dizileri neler? Kanal D, Star TV, Show TV, TRT 1, TV8 ve NOW TV yayın akışları Milliyet",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "24.05.2026",
-      "date_iso": "2026-05-24",
-      "url": "/articles/tv-yayin-akisi-24-mayis-2026-pazar-gunun-filmleri-ve-dizileri-neler-kanal-d-star-t_20260524_2b5d56ba/",
-      "canonical_url": "https://mansetradar.com.tr/articles/tv-yayin-akisi-24-mayis-2026-pazar-gunun-filmleri-ve-dizileri-neler-kanal-d-star-t_20260524_2b5d56ba/",
-      "detail_json_url": "/data/details/articles/tv-yayin-akisi-24-mayis-2026-pazar-gunun-filmleri-ve-dizileri-neler-kanal-d-star-t_20260524_2b5d56ba.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/tv-yayin-akisi-24-mayis-2026-pazar-gunun-filmleri-ve-dizileri-neler-kanal-d-star-t_20260524_2b5d56ba.webp",
-      "image_alt": "TV Yayın Akışı 24 Mayıs 2026 Pazar! Günün filmleri ve dizileri neler? Kanal D, Star TV, Show TV, TRT 1, TV8 ve NOW TV yayın akışları - Milliyet",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/tv-yayin-akisi-24-mayis-2026-pazar-gunun-filmleri-ve-dizileri-neler-kanal-d-star-t_20260524_2b5d56ba.webp",
-        "alt": "TV Yayın Akışı 24 Mayıs 2026 Pazar! Günün filmleri ve dizileri neler? Kanal D, Star TV, Show TV, TRT 1, TV8 ve NOW TV yayın akışları - Milliyet"
-      },
-      "source_name": "Google News RSS",
-      "source_url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOV1Q0QzJXRTNnSndoY3RKWjlhT195aUo3ZnZZUjBNaWtCSTRCTXZxQ250djNjTlVGRmEzbnVHNHlPSjl3S1E4dkd5eHJmcWYyRnN6TE5BdS1INUxMVVhxNjdIcExCVHhyV2pRdDhfS2NsVmprekl4NUVfTnlXOFVFTkYtbzdUSTBqZllDc1l0WkowR2c0U3JUdzByWkZKV0ltaE1VY2FpYVBfVC1rVkNxanFySHJxUzZxT3lfVk5WbE8zblNsTVA5NXByT1RfTkE3VzdMVWppVFVnVWFVZmxMRkxsOS1sMnJxRm94SzdsNGZycEI3bko3UlJn?oc=5",
-      "tags": [],
-      "quality_score": 70,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:turksat-ile-gokyuzunde-yerli-internet-donemi-basliyor_20260524_79e76bbb",
-      "slug": "turksat-ile-gokyuzunde-yerli-internet-donemi-basliyor_20260524_79e76bbb",
-      "title": "TÜRKSAT ile gökyüzünde yerli internet dönemi başlıyor",
-      "summary": "TÜRKSAT tarafından sunulacak uçak içi yüksek hızlı internet hizmeti, bu yıl AJet uçaklarında başlayacak, 2027’de ise Türk Hava Yolları filosunda kullanılacak.",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "24.05.2026",
-      "date_iso": "2026-05-24",
-      "url": "/articles/turksat-ile-gokyuzunde-yerli-internet-donemi-basliyor_20260524_79e76bbb/",
-      "canonical_url": "https://mansetradar.com.tr/articles/turksat-ile-gokyuzunde-yerli-internet-donemi-basliyor_20260524_79e76bbb/",
-      "detail_json_url": "/data/details/articles/turksat-ile-gokyuzunde-yerli-internet-donemi-basliyor_20260524_79e76bbb.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/turksat-ile-gokyuzunde-yerli-internet-donemi-basliyor_20260524_79e76bbb.webp",
-      "image_alt": "TÜRKSAT ile gökyüzünde yerli internet dönemi başlıyor",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/turksat-ile-gokyuzunde-yerli-internet-donemi-basliyor_20260524_79e76bbb.webp",
-        "alt": "TÜRKSAT ile gökyüzünde yerli internet dönemi başlıyor"
-      },
-      "source_name": "TRT Haber",
-      "source_url": "https://www.trthaber.com/ekonomi/turksat-ile-gokyuzunde-yerli-internet-donemi-basliyor-946131.html",
       "tags": [],
       "quality_score": 72,
       "review_status": "published"

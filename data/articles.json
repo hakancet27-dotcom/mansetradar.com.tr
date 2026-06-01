@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-01T00:00:00+00:00",
-    "article_count": 450,
+    "article_count": 452,
     "schema_version": 2
   },
   "articles": [
@@ -213,6 +213,41 @@
         "sosyal medya",
         "çocuk güvenliği",
         "yeni düzenleme"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601",
+      "slug": "iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601",
+      "title": "İran, Hürmüz Boğazı'ndan Geçiş İzinleri İstatistiklerini Paylaştı",
+      "summary": "İran, Hürmüz Boğazı'ndan geçiş izni başvurusunda bulunan 300'den fazla gemiyle ilgili güncel istatistikleri yayımladı. Nisan ayından bu yana yapılan başvuruların büyük çoğunluğunu petrol tankerleri oluştururken, gemilerin nihai varış noktaları ve türleri ha...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601/",
+      "detail_json_url": "/data/details/articles/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601.webp",
+      "image_alt": "Hürmüz Boğazı'nda seyreden çeşitli gemilerin hava görünümü.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601.webp",
+        "alt": "Hürmüz Boğazı'nda seyreden çeşitli gemilerin hava görünümü."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/iran-hurmuz-bogazindan-gecis-izni-icin-basvuru-yapan-gemilerle-ilgili-istatistikleri-yayimladi-7597869",
+      "tags": [
+        "Hürmüz Boğazı",
+        "İran",
+        "Gemi Trafiği",
+        "Petrol Tankerleri",
+        "Denizcilik İstatistikleri"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -590,6 +625,41 @@
         "NASA",
         "ABD",
         "meteor patlaması"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601",
+      "slug": "15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601",
+      "title": "15 Yılda 170 Kez Kanseri Yenen Adam Tıp Dünyasını Hayrete Düşürdü",
+      "summary": "47 yaşındaki Sean Breininger, 15 yıl içinde 170 kez kanseri yenerek tıp dünyasını hayrete düşürdü. Boğaz, dil, mesane, yemek borusu, ağız ve cilt kanserleri dahil olmak üzere çok sayıda farklı türle mücadele eden Breininger'e 2011'de genetik Fanconi anemisi...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601/",
+      "detail_json_url": "/data/details/articles/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601.webp",
+      "image_alt": "15 Yılda 170 Kez Kanseri Yenen Adam Tıp Dünyasını Hayrete Düşürdü",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601.webp",
+        "alt": "15 Yılda 170 Kez Kanseri Yenen Adam Tıp Dünyasını Hayrete Düşürdü"
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/tip-dunyasini-hayrete-dusuruen-adam-15-yilda-170-kez-kanseri-yendi-7597739",
+      "tags": [
+        "Kanser",
+        "Fanconi Anemisi",
+        "Sean Breininger",
+        "Sağlık",
+        "Tıp"
       ],
       "quality_score": 86,
       "review_status": "published"
