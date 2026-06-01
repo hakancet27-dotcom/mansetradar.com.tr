@@ -2,11 +2,25 @@
   'use strict';
 
   const SDK='https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2';
+  const CANONICAL_ORIGIN='https://mansetradar.com.tr';
   let configPromise=null;
 
   function readMeta(root,name){
     const element=root.querySelector('meta[name="'+name+'"]');
     return element?String(element.content||'').trim():'';
+  }
+
+  function authOrigin(){
+    const origin=String(window.location.origin||'').replace(/\/$/,'');
+    const host=String(window.location.hostname||'').toLowerCase();
+    if(host==='localhost'||host==='127.0.0.1'||host.endsWith('.localhost'))return origin;
+    if(host==='mansetradar.com.tr'||host==='www.mansetradar.com.tr')return origin;
+    return CANONICAL_ORIGIN;
+  }
+
+  function authRedirect(path){
+    const safe=typeof path==='string'&&/^\/[A-Za-z0-9/?&=_#.%+-]*$/.test(path)&&path.indexOf('//')!==0?path:'/account.html';
+    return new URL(safe,authOrigin()).toString();
   }
 
   async function memberConfig(){
@@ -91,8 +105,7 @@
 
   async function resetPassword(email){
     const instance=await client();
-    const redirectTo=new URL('/login.html?reset=1',window.location.origin).toString();
-    return instance.auth.resetPasswordForEmail(email,{redirectTo:redirectTo});
+    return instance.auth.resetPasswordForEmail(email,{redirectTo:authRedirect('/login.html?reset=1')});
   }
 
   async function updatePassword(password){
@@ -102,9 +115,8 @@
 
   async function googleLogin(returnTo){
     const instance=await client();
-    const path=typeof returnTo==='string'&&/^\/[A-Za-z0-9/?&=_#.-]*$/.test(returnTo)?returnTo:'/account.html';
-    const redirectTo=new URL(path,window.location.origin).toString();
-    const response=await instance.auth.signInWithOAuth({provider:'google',options:{redirectTo:redirectTo}});
+    const path=typeof returnTo==='string'&&/^\/[A-Za-z0-9/?&=_#.%+-]*$/.test(returnTo)&&returnTo.indexOf('//')!==0?returnTo:'/account.html';
+    const response=await instance.auth.signInWithOAuth({provider:'google',options:{redirectTo:authRedirect(path)}});
     if(response.error)throw response.error;
     return response;
   }
@@ -116,7 +128,7 @@
 
   async function requireMember(){
     const active=await session();
-    if(!active){location.href='/login.html';return null;}
+    if(!active){location.href=authRedirect('/login.html');return null;}
     return active;
   }
 
