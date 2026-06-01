@@ -1,0 +1,60 @@
+{
+  "title": "US Launches New Attacks on Iran Amid Ongoing Conflict Talks",
+  "meta_title": "US Strikes Iran - Latest Updates on Ongoing Conflict",
+  "meta_description": "The US military has launched new attacks on Iran while talks to end the conflict are ongoing. Get the latest updates on the situation.",
+  "discover_titles": [
+    "US Iran Conflict Escalates",
+    "New Attacks on Iran by US",
+    "US Iran Talks Amid Strikes"
+  ],
+  "slug": "us-strikes-iran-amid-ongoing-conflict-talks_20260526",
+  "category": "US News",
+  "spot": "The US military has launched new attacks on Iran while talks to end the conflict are ongoing, with the US being the entity behind the strikes, the action taking place in Iran, and the impact being felt as the conflict continues despite diplomatic efforts.",
+  "content_html": "<h2>Background of the Conflict</h2> <p>The US and Iran have been engaged in a longstanding conflict, with tensions escalating over the years. Despite efforts to resolve the issue through diplomacy, the situation remains volatile.</p> <h2>Latest Developments</h2> <p>The new attacks by the US military on Iran mark a significant escalation in the conflict. The fact that these strikes are happening while talks are ongoing suggests a complex and challenging situation for all parties involved.</p> <h3>Implications of the Attacks</h3> <p>The impact of these attacks on the ongoing talks and the broader region is a subject of concern. The continuation of military action alongside diplomatic efforts complicates the path to a resolution.</p> <h2>International Perspective</h2> <p>The international community is likely to be watching the situation closely, given the potential for the conflict to affect regional and global stability. The response from other nations and international organizations will be crucial in the coming days.</p> <h3>Path Forward</h3> <p>As the situation unfolds, the priority for all involved is to find a way to de-escalate the conflict and move towards a peaceful resolution. This will require careful consideration and cooperation from all parties.</p>",
+  "tags": [
+    "US News",
+    "Iran",
+    "Conflict",
+    "US Military",
+    "Diplomacy"
+  ],
+  "visual_keywords": [
+    "US Flag",
+    "Iran Map",
+    "Military Operations"
+  ],
+  "image_prompt": "A map of the Middle East with the US and Iran highlighted, or an image of a military operation",
+  "image_alt": "US and Iran Conflict",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 3,
+  "word_count": 229,
+  "date": "26.05.2026",
+  "flag": "US",
+  "country": "USA",
+  "display_country": "United States",
+  "image_url": "https://images.unsplash.com/photo-1626836014893-37663794dca7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVUyUyMEZsYWd8ZW58MHwwfHx8MTc3OTgyMDI3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+  "summary": "The US military has launched new attacks on Iran while talks to end the conflict are ongoing, with the US being the entity behind the strikes, the action taking place in Iran, and the impact being felt as the conflict continues despite diplomatic efforts.",
+  "language": "English",
+  "url_prefix": "news/articles",
+  "source_language": "English",
+  "target_language": "English",
+  "quality_score": 66,
+  "quality_status": "blocked_from_index",
+  "review_required": true,
+  "quality_flags": [
+    "short_article",
+    "category_issue"
+  ],
+  "quality_notes": [
+    "Metin hedefin altinda (229 kelime).",
+    "Kategori standart haber kategorileriyle uyumlu degil: US News."
+  ],
+  "quality_word_count": 229,
+  "indexed_on_home": false,
+  "review_status": "pending",
+  "review_source": "quality_gate",
+  "review_run_id": "26467269233"
+}

@@ -1,0 +1,60 @@
+{
+  "title": "Garden Grove Chemical Tank Incident: Evacuation and Emergency Response",
+  "meta_title": "Chemical Tank Explosion Risk in Garden Grove, California",
+  "meta_description": "A chemical tank in Garden Grove, California, is at risk of leaking or exploding, prompting the evacuation of 40,000 residents",
+  "discover_titles": [
+    "Garden Grove Chemical Tank Emergency",
+    "California Chemical Leak Risk",
+    "Evacuation in Garden Grove"
+  ],
+  "slug": "garden-grove-chemical-tank-incident_20260524",
+  "category": "US News",
+  "spot": "Firefighters are working to prevent a tank of toxic chemicals in Garden Grove, Calif., from leaking or exploding, with 40,000 residents evacuated.",
+  "content_html": "<h2>Emergency Response Underway</h2> <p>Firefighters are actively working to mitigate the risk of a chemical tank explosion in Garden Grove, California. The tank, which contains toxic chemicals, poses a significant threat to the surrounding area.</p> <h2>Evacuation Efforts</h2> <p>As a precautionary measure, 40,000 residents have been evacuated from the area. The evacuation is aimed at ensuring the safety of those who may be affected by a potential leak or explosion.</p> <h3>Chemical Tank Details</h3> <p>The chemical tank in question is located in Garden Grove, California. While the exact nature of the toxic chemicals is not specified, the risk of a leak or explosion is being taken seriously by authorities.</p> <h2>Next Steps</h2> <p>Firefighters and emergency responders are working to prevent a disaster. The situation is being closely monitored, and updates will be provided as more information becomes available.</p>",
+  "tags": [
+    "Garden Grove",
+    "California",
+    "Chemical Tank",
+    "Evacuation",
+    "Emergency Response"
+  ],
+  "visual_keywords": [
+    "chemical tank",
+    "firefighters",
+    "evacuation"
+  ],
+  "image_prompt": "Firefighters responding to a chemical tank emergency in Garden Grove, California",
+  "image_alt": "Firefighters in hazmat suits responding to a chemical emergency",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 2,
+  "word_count": 158,
+  "date": "24.05.2026",
+  "flag": "US",
+  "country": "USA",
+  "display_country": "United States",
+  "image_url": "https://images.unsplash.com/photo-1694230155228-cdde50083573?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxjaGVtaWNhbCUyMHRhbmt8ZW58MHwwfHx8MTc3OTU5NDg5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+  "summary": "Firefighters are working to prevent a tank of toxic chemicals in Garden Grove, Calif., from leaking or exploding, with 40,000 residents evacuated.",
+  "language": "English",
+  "url_prefix": "news/articles",
+  "source_language": "English",
+  "target_language": "English",
+  "quality_score": 50,
+  "quality_status": "blocked_from_index",
+  "review_required": true,
+  "quality_flags": [
+    "very_short_article",
+    "category_issue"
+  ],
+  "quality_notes": [
+    "Metin cok kisa (158 kelime).",
+    "Kategori standart haber kategorileriyle uyumlu degil: US News."
+  ],
+  "quality_word_count": 158,
+  "indexed_on_home": false,
+  "review_status": "pending",
+  "review_source": "quality_gate",
+  "review_run_id": "26351195024"
+}

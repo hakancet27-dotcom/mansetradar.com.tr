@@ -1,0 +1,62 @@
+{
+  "title": "Cumhurbaşkanı Erdoğan'dan İran'la Mutabakat Diplomasisi",
+  "meta_title": "Cumhurbaşkanı Erdoğan İran'la Mutabakat Diplomasisi",
+  "meta_description": "Cumhurbaşkanı Recep Tayyip Erdoğan, ABD Başkanı Trump ve birçok mevkidaşıyla telekonferans aracılığıyla görüştü.",
+  "discover_titles": [
+    "Cumhurbaşkanı Erdoğan İran'la Görüştü",
+    "Orta Doğu'da Mutabakat Diplomasisi",
+    "Telekonferans aracılığıyla Görüşme"
+  ],
+  "slug": "cumhurbaskani-erdogan-iranla-mutabakat-diplomasisi_20260524",
+  "category": "Siyasal Haberler",
+  "spot": "Cumhurbaşkanı Recep Tayyip Erdoğan, ABD Başkanı Trump ve birçok mevkidaşıyla telekonferans aracılığıyla görüştü ve İran ile Orta Doğu'daki gelişmeler ele alındı.",
+  "content_html": "<h2>Telekonferans aracılığıyla Görüşme</h2> <h3>Orta Doğu'daki Gelişmeler</h3> <p>Görüşmede İran ile Orta Doğu'daki gelişmeler ele alındı.</p> <h2>Diplomatik Çabalar</h2> <p>Cumhurbaşkanı Erdoğan'ın diplomatik çabaları, bölgedeki gelişmelerin takip edilmesi açısından önemli görülmektedir.</p> <h3>Uluslararası İlişkiler</h3> <p>Telekonferans aracılığıyla gerçekleştirilen görüşme, uluslararası ilişkiler açısından da önemli bir adım olarak değerlendirilmektedir.</p>",
+  "tags": [
+    "Cumhurbaşkanı Erdoğan",
+    "İran",
+    "Orta Doğu",
+    "Diplomasi",
+    "Telekonferans"
+  ],
+  "visual_keywords": [
+    "Cumhurbaşkanı Erdoğan",
+    "İran Bayrağı",
+    "Orta Doğu Haritası"
+  ],
+  "image_prompt": "Cumhurbaşkanı Erdoğan'ın telekonferans aracılığıyla gerçekleştirdiği görüşme",
+  "image_alt": "Cumhurbaşkanı Erdoğan telekonferans görüşmesi",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 2,
+  "word_count": 67,
+  "date": "24.05.2026",
+  "flag": "TR",
+  "country": "Turkey",
+  "display_country": "Türkiye",
+  "image_url": "https://images.unsplash.com/photo-1639596757506-b72126eadbb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxDdW1odXJiYSVDNSU5RmthbiVDNCVCMSUyMEVyZG8lQzQlOUZhbnxlbnwwfDB8fHwxNzc5NTk0ODg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "summary": "Cumhurbaşkanı Recep Tayyip Erdoğan, ABD Başkanı Trump ve birçok mevkidaşıyla telekonferans aracılığıyla görüştü ve İran ile Orta Doğu'daki gelişmeler ele alındı.",
+  "language": "Turkish",
+  "url_prefix": "articles",
+  "source_language": "Turkish",
+  "target_language": "Turkish",
+  "quality_score": 45,
+  "quality_status": "blocked_from_index",
+  "review_required": true,
+  "quality_flags": [
+    "very_short_article",
+    "meta_description_issue",
+    "category_issue"
+  ],
+  "quality_notes": [
+    "Metin cok kisa (67 kelime).",
+    "Meta description ideal aralikta degil.",
+    "Kategori standart haber kategorileriyle uyumlu degil: Siyasal Haberler."
+  ],
+  "quality_word_count": 67,
+  "indexed_on_home": false,
+  "review_status": "pending",
+  "review_source": "quality_gate",
+  "review_run_id": "26351195024"
+}

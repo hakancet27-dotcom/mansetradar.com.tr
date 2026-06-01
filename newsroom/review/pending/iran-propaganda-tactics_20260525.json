@@ -1,0 +1,63 @@
+{
+  "title": "Iran's Novel Propaganda Tactics: A Concerning Trend",
+  "meta_title": "Iran Propaganda Tactics Raise Concerns",
+  "meta_description": "Iran is employing a new form of propaganda, sparking concerns about its impact",
+  "discover_titles": [
+    "Iran's Propaganda Strategy",
+    "The Rise of Iranian Disinformation",
+    "Understanding Iran's Novel Propaganda"
+  ],
+  "slug": "iran-propaganda-tactics_20260525",
+  "category": "US News",
+  "spot": "Iran is engaging in a novel form of propaganda, with the country's actions having a significant impact, although the specifics of who, what, where, when, and the full extent of the impact are not detailed.",
+  "content_html": "<h2>Introduction to Iranian Propaganda</h2> <p>Iran has been identified as engaging in a new form of propaganda. This development is noteworthy as it signifies a potential shift in how the country approaches information dissemination and public opinion influence.</p> <h2>Understanding Propaganda</h2> <p>Propaganda is a form of communication that is aimed at influencing the attitude of a community toward some cause or position. It is often used to promote a particular ideology or point of view, and can be employed by governments, institutions, or other organizations.</p> <h3>Types of Propaganda</h3> <ul> <li>White propaganda: Clearly attributed to the sponsor and is the most common type.</li> <li>Black propaganda: Purposely misattributed to the sponsor and is often used to discredit an opponent.</li> <li>Grey propaganda: A balance between white and black propaganda, where the source is not explicitly stated but can be guessed.</li> </ul> <h2>The Impact of Propaganda</h2> <p>Propaganda can have significant effects on public opinion and behavior. When effectively employed, it can sway people's beliefs, influence their decisions, and even shape cultural norms. However, it can also be countered with critical thinking, media literacy, and fact-based information.</p> <h3>Countering Propaganda</h3> <p>To mitigate the influence of propaganda, it is essential to promote media literacy, encourage critical thinking, and support fact-based reporting. This can involve educating the public on how to identify and analyze propaganda, as well as fostering a culture that values truth and accuracy.</p>",
+  "tags": [
+    "Iran",
+    "Propaganda",
+    "Disinformation",
+    "US News"
+  ],
+  "visual_keywords": [
+    "Iran",
+    "Propaganda",
+    "News"
+  ],
+  "image_prompt": "A relevant image related to Iran or propaganda",
+  "image_alt": "Iran Propaganda Image",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 2,
+  "word_count": 263,
+  "date": "25.05.2026",
+  "flag": "US",
+  "country": "USA",
+  "display_country": "United States",
+  "image_url": "https://images.unsplash.com/photo-1613930648631-7191115e83d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJcmFufGVufDB8MHx8fDE3Nzk3MTAyODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "summary": "Iran is engaging in a novel form of propaganda, with the country's actions having a significant impact, although the specifics of who, what, where, when, and the full extent of the impact are not detailed.",
+  "language": "English",
+  "url_prefix": "news/articles",
+  "source_language": "English",
+  "target_language": "English",
+  "quality_score": 56,
+  "quality_status": "blocked_from_index",
+  "review_required": true,
+  "quality_flags": [
+    "short_article",
+    "meta_title_issue",
+    "meta_description_issue",
+    "category_issue"
+  ],
+  "quality_notes": [
+    "Metin hedefin altinda (263 kelime).",
+    "Meta title ideal aralikta degil.",
+    "Meta description ideal aralikta degil.",
+    "Kategori standart haber kategorileriyle uyumlu degil: US News."
+  ],
+  "quality_word_count": 263,
+  "indexed_on_home": false,
+  "review_status": "pending",
+  "review_source": "quality_gate",
+  "review_run_id": "26399171265"
+}

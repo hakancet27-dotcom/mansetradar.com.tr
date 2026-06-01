@@ -45,30 +45,10 @@
     .article-meta span { background:#f8fafc; border:1px solid var(--border); padding:4px 9px; border-radius:5px; }
     h1 { font-size:clamp(1.85rem, 3vw, 2.65rem); line-height:1.14; color:#111827; margin-bottom:16px; letter-spacing:0; }
     .spot { font-size:1.14rem; line-height:1.7; color:#374151; border-left:5px solid var(--red); padding:12px 0 12px 18px; margin:0 0 22px; background:#fff8f7; }
-
     /* ARTICLE_READING_UX_START */
-    /* Read-first article media: preserve framing while shortening the scroll to the story. */
-    .article-shell { max-width:960px; }
-    .article-image {
-      width:min(100%, 760px);
-      margin:0 auto 25px;
-      border-radius:10px;
-      overflow:hidden;
-      background:#111827;
-    }
-    .article-image img {
-      width:100%;
-      height:auto;
-      display:block;
-      aspect-ratio:16 / 9;
-      object-fit:cover;
-      object-position:center;
-    }
-    .article-image img[src$=".svg"] { object-fit:contain; }
-    @media (max-width:720px) {
-      .article-shell { margin-top:16px; }
-      .article-image { width:100%; margin-bottom:20px; border-radius:8px; }
-    }
+    .article-image { width:min(100%, 760px); margin:0 auto 25px; border-radius:10px; overflow:hidden; background:#111827; }
+    .article-image img { width:100%; height:auto; display:block; aspect-ratio:16/9; object-fit:cover; object-position:center; }
+    .article-image img[src$=".svg"] { object-fit:contain; background:#111827; }
     /* ARTICLE_READING_UX_END */
     article h2 { font-size:1.35rem; line-height:1.3; margin:28px 0 10px; color:#111827; padding-top:4px; border-top:1px solid var(--border); }
     article h3 { font-size:1.08rem; margin:20px 0 8px; color:#1f2937; }
@@ -169,7 +149,7 @@
       </div>
       <section class="article-comments" aria-label="article-comments"><h2>Yorumlar</h2><form id="comment-form" class="comment-form"><input id="comment-name" type="text" maxlength="40" placeholder="Ad Soyad"><textarea id="comment-text" rows="4" maxlength="700" placeholder="Yorumunuzu yazın"></textarea><button type="submit">Yorum Gönder</button></form><div id="comment-list" class="comment-list"></div></section>
     </article>
-    <section class="related-news" aria-label="related-news"><h2>İlgili Haberler</h2><div class="related-grid"><article class="related-card"><a href="/articles/baltiklerde_drone_olayi_20260520/">Baltiklerde Drone Olayı</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">20.05.2026</time></div></article><article class="related-card"><a href="/articles/lubnanda_israil_saldirilarinda_en_az_19_kisi_oldu_20260520/">Lübnan&#x27;da İsrail Saldırılarında En Az 19 Kişi Öldü</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">20.05.2026</time></div></article><article class="related-card"><a href="/articles/ukraynada_olu_ve_yaralilar_-_rus_petrol_rafinerisine_saldiri_20260520/">Ukrayna&#x27;da Ölü ve Yaralılar - Rus Petrol Rafinerisine Saldırı</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">20.05.2026</time></div></article><article class="related-card"><a href="/articles/bundesregierung-startet-uniper-reprivatisierung_20260519/">Almanya, Uniper Icin Yeniden Ozellestirme Surecini Baslatti</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">19.05.2026</time></div></article><article class="related-card"><a href="/articles/nato-jeti-estonya-uzerinde-suslu-ukrayna-insansiz-hava-araci_20260519/">NATO Jeti Estonya Üzerinde Şüpheli Ukrayna İnsansız Hava Aracını Düşürdü</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">19.05.2026</time></div></article><article class="related-card"><a href="/articles/iran-neuer-vorschlag-usa-verhandlungen_20260519/">İran, ABD ile görüşmeler için yeni bir öneri sundu</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">19.05.2026</time></div></article><article class="related-card"><a href="/articles/iran-krieg-teheran-schickt-neuen-vorschlag-an-die-usa_20260518/">İran geriliminde Tahran&#x27;dan ABD&#x27;ye yeni müzakere önerisi</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">18.05.2026</time></div></article><article class="related-card"><a href="/articles/pflegereform-csu-warnt-vor-kurs-in-soziale-kaelte/">CSU, bakım reformunun sosyal adaleti zedeleyeceği uyarısında bulundu</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">17.05.2026</time></div></article></div></section>
+    <section class="related-news" aria-label="related-news"><h2>İlgili Haberler</h2><div class="related-grid"><article class="related-card"><a href="/articles/israil_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521/">İsrail Polis Bakanı&#x27;nın Videosu Uluslararası Eleştiri Topladı</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">21.05.2026</time></div></article><article class="related-card"><a href="/articles/nato_disisleri_bakanlari_isvecte_kritik_toplantida_ukrayna_ve_abd_askerleri_gund_20260521/">NATO Dışişleri Bakanları İsveç&#x27;te Kritik Toplantıda: Ukrayna ve ABD Askerleri Gündemde</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">21.05.2026</time></div></article><article class="related-card"><a href="/articles/avusturyada_eski_istihbaratci_rusya_icin_casusluktan_hapis_cezasina_carptirildi_20260520/">Avusturya&#x27;da Eski İstihbaratçı Rusya İçin Casusluktan Hapis Cezasına Çarptırıldı</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">20.05.2026</time></div></article><article class="related-card"><a href="/articles/baltiklerde_drone_olayi_20260520/">Baltiklerde Drone Olayı</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">20.05.2026</time></div></article><article class="related-card"><a href="/articles/israilin_lubnan_saldirilarinda_en_az_19_kisi_hayatini_kaybetti_20260520/">İsrail&#x27;in Lübnan Saldırılarında En Az 19 Kişi Hayatını Kaybetti</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">20.05.2026</time></div></article><article class="related-card"><a href="/articles/lubnanda_israil_saldirilarinda_en_az_19_kisi_oldu_20260520/">Lübnan&#x27;da İsrail Saldırılarında En Az 19 Kişi Öldü</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">20.05.2026</time></div></article><article class="related-card"><a href="/articles/ukraynada_olu_ve_yaralilar_-_rus_petrol_rafinerisine_saldiri_20260520/">Ukrayna&#x27;da Ölü ve Yaralılar - Rus Petrol Rafinerisine Saldırı</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">20.05.2026</time></div></article><article class="related-card"><a href="/articles/abd_senatosundan_iran_savasi_yetkileri_karari_20260520/">ABD Senatosu&#x27;ndan İran Savaşı Yetkileri Kararı</a><div class="related-meta"><span class="related-topic">Dünya</span><time class="related-date">20.05.2026</time></div></article></div></section>
   </main>
   <footer>
     <div class="inner">

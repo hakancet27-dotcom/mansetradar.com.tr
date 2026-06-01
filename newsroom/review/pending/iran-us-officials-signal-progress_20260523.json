@@ -1,0 +1,62 @@
+{
+  "title": "Iran and U.S. Officials Signal Progress as Cease-Fire Hangs in Balance",
+  "meta_title": "Iran and US Officials Indicate Movement Towards Agreement",
+  "meta_description": "US and Iranian officials show signs of progress in easing Middle East tensions",
+  "discover_titles": [
+    "US Iran Tensions Ease",
+    "Middle East Ceasefire Update",
+    "Iran US Agreement Progress"
+  ],
+  "slug": "iran-us-officials-signal-progress_20260523",
+  "category": "US News",
+  "spot": "US and Iranian officials indicate movement towards an agreement, potentially easing tensions in the Middle East, as a cease-fire hangs in balance, with officials from both countries signaling progress in their negotiations.",
+  "content_html": "<h2>Background on US-Iran Relations</h2> <p>The relationship between the US and Iran has been complex, with periods of heightened tension and attempts at diplomacy.</p> <h2>Current Developments</h2> <p>Recently, there have been indications that both countries are working towards an agreement, which could lead to a reduction in tensions in the Middle East.</p> <h3>Potential Impact</h3> <p>A successful agreement between the US and Iran could have significant implications for the region, potentially leading to increased stability and cooperation.</p> <h2>Next Steps</h2> <p>While progress has been made, the situation remains delicate, and the outcome of the negotiations is still uncertain.</p> <h3>Regional Implications</h3> <p>The Middle East is a region of significant geopolitical importance, and any developments in US-Iran relations are likely to have far-reaching consequences.</p>",
+  "tags": [
+    "US News",
+    "Iran",
+    "Middle East",
+    "Ceasefire",
+    "International Relations"
+  ],
+  "visual_keywords": [
+    "US Flag",
+    "Iran Flag",
+    "Middle East Map"
+  ],
+  "image_prompt": "a photo of a US and Iranian flag together, symbolizing diplomacy",
+  "image_alt": "US and Iranian flags",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 2,
+  "word_count": 154,
+  "date": "23.05.2026",
+  "flag": "US",
+  "country": "USA",
+  "display_country": "United States",
+  "image_url": "https://images.unsplash.com/photo-1626836014893-37663794dca7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVUyUyMEZsYWd8ZW58MHwwfHx8MTc3OTU1NTkzOXww&ixlib=rb-4.1.0&q=80&w=1080",
+  "summary": "US and Iranian officials indicate movement towards an agreement, potentially easing tensions in the Middle East, as a cease-fire hangs in balance, with officials from both countries signaling progress in their negotiations.",
+  "language": "English",
+  "url_prefix": "news/articles",
+  "source_language": "English",
+  "target_language": "English",
+  "quality_score": 45,
+  "quality_status": "blocked_from_index",
+  "review_required": true,
+  "quality_flags": [
+    "very_short_article",
+    "meta_description_issue",
+    "category_issue"
+  ],
+  "quality_notes": [
+    "Metin cok kisa (154 kelime).",
+    "Meta description ideal aralikta degil.",
+    "Kategori standart haber kategorileriyle uyumlu degil: US News."
+  ],
+  "quality_word_count": 154,
+  "indexed_on_home": false,
+  "review_status": "pending",
+  "review_source": "quality_gate",
+  "review_run_id": "26338509695"
+}
