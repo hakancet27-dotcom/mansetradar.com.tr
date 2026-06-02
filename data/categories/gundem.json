@@ -3,11 +3,46 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-02T00:00:00+00:00",
-    "article_count": 461,
+    "article_count": 463,
     "schema_version": 2,
     "category_slug": "gundem"
   },
   "articles": [
+    {
+      "id": "articles:buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602",
+      "slug": "buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602",
+      "title": "Buca Belediyesi'ne Yolsuzluk Operasyonu: Gözaltı Sayısı 54'e Yükseldi",
+      "summary": "İzmir Cumhuriyet Başsavcılığı'nın yürüttüğü soruşturma kapsamında, Buca Belediyesi ve bağlı birimlerine yönelik düzenlenen operasyonda gözaltı sayısı 54'e yükseldi. Operasyonda Buca Belediye Başkanı Görkem Duman ve eski Buca Belediye Başkanı Erhan Kılıç da...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602/",
+      "detail_json_url": "/data/details/articles/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602.webp",
+      "image_alt": "Buca Belediyesi'ne yönelik yolsuzluk operasyonu sırasında polis ekiplerinin belediye binası çevresinde aldığı önlemler.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602.webp",
+        "alt": "Buca Belediyesi'ne yönelik yolsuzluk operasyonu sırasında polis ekiplerinin belediye binası çevresinde aldığı önlemler."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/buca-belediyesine-yonelik-yolsuzluk-operasyonunda-gozalti-sayisi-yukseldi-43190692",
+      "tags": [
+        "Buca Belediyesi",
+        "Yolsuzluk Operasyonu",
+        "Görkem Duman",
+        "Erhan Kılıç",
+        "İzmir"
+      ],
+      "quality_score": 80,
+      "review_status": "published"
+    },
     {
       "id": "articles:enistesi-aracini-yakti-dehset-anlari_20260601",
       "slug": "enistesi-aracini-yakti-dehset-anlari_20260601",

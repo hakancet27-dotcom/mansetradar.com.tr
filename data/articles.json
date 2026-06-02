@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-02T00:00:00+00:00",
-    "article_count": 461,
+    "article_count": 463,
     "schema_version": 2
   },
   "articles": [
@@ -111,6 +111,40 @@
       "review_status": "published"
     },
     {
+      "id": "articles:genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602",
+      "slug": "genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602",
+      "title": "Genç Oyuncu Owain Rhys Davies Hayatını Kaybetti",
+      "summary": "Bilinen bir hastalığı olmayan genç oyuncu Owain Rhys Davies'in ani ölümü, sevenlerini hem şoke etti hem de yasa boğdu. Ölüm haberini erkek kardeşi Rhodri ve babası Conway, ortak bir sosyal medya paylaşımıyla duyurdu. Aile, ölümün koşullarıyla ilgili henüz c...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602/",
+      "detail_json_url": "/data/details/articles/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602.webp",
+      "image_alt": "Genç oyuncu Owain Rhys Davies'in üzüntülü bir portresi.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602.webp",
+        "alt": "Genç oyuncu Owain Rhys Davies'in üzüntülü bir portresi."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/stil/tv-dunyasini-yasa-bogan-haber-genc-oyuncu-aniden-oldu-43190703",
+      "tags": [
+        "Owain Rhys Davies",
+        "Oyuncu Ölümü",
+        "Ani Ölüm",
+        "TV Dünyası"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602",
       "slug": "ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602",
       "title": "Ford Otosan Romanya'da 1 Milyonuncu Puma'yı Üretti",
@@ -177,6 +211,41 @@
         "Futbol"
       ],
       "quality_score": 81,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602",
+      "slug": "buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602",
+      "title": "Buca Belediyesi'ne Yolsuzluk Operasyonu: Gözaltı Sayısı 54'e Yükseldi",
+      "summary": "İzmir Cumhuriyet Başsavcılığı'nın yürüttüğü soruşturma kapsamında, Buca Belediyesi ve bağlı birimlerine yönelik düzenlenen operasyonda gözaltı sayısı 54'e yükseldi. Operasyonda Buca Belediye Başkanı Görkem Duman ve eski Buca Belediye Başkanı Erhan Kılıç da...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602/",
+      "detail_json_url": "/data/details/articles/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602.webp",
+      "image_alt": "Buca Belediyesi'ne yönelik yolsuzluk operasyonu sırasında polis ekiplerinin belediye binası çevresinde aldığı önlemler.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602.webp",
+        "alt": "Buca Belediyesi'ne yönelik yolsuzluk operasyonu sırasında polis ekiplerinin belediye binası çevresinde aldığı önlemler."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/buca-belediyesine-yonelik-yolsuzluk-operasyonunda-gozalti-sayisi-yukseldi-43190692",
+      "tags": [
+        "Buca Belediyesi",
+        "Yolsuzluk Operasyonu",
+        "Görkem Duman",
+        "Erhan Kılıç",
+        "İzmir"
+      ],
+      "quality_score": 80,
       "review_status": "published"
     },
     {

@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-02T00:00:00+00:00",
-    "article_count": 461,
+    "article_count": 463,
     "schema_version": 2,
     "section": "articles"
   },
@@ -112,6 +112,40 @@
       "review_status": "published"
     },
     {
+      "id": "articles:genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602",
+      "slug": "genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602",
+      "title": "Genç Oyuncu Owain Rhys Davies Hayatını Kaybetti",
+      "summary": "Bilinen bir hastalığı olmayan genç oyuncu Owain Rhys Davies'in ani ölümü, sevenlerini hem şoke etti hem de yasa boğdu. Ölüm haberini erkek kardeşi Rhodri ve babası Conway, ortak bir sosyal medya paylaşımıyla duyurdu. Aile, ölümün koşullarıyla ilgili henüz c...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602/",
+      "detail_json_url": "/data/details/articles/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602.webp",
+      "image_alt": "Genç oyuncu Owain Rhys Davies'in üzüntülü bir portresi.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602.webp",
+        "alt": "Genç oyuncu Owain Rhys Davies'in üzüntülü bir portresi."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/stil/tv-dunyasini-yasa-bogan-haber-genc-oyuncu-aniden-oldu-43190703",
+      "tags": [
+        "Owain Rhys Davies",
+        "Oyuncu Ölümü",
+        "Ani Ölüm",
+        "TV Dünyası"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602",
       "slug": "ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602",
       "title": "Ford Otosan Romanya'da 1 Milyonuncu Puma'yı Üretti",
@@ -178,6 +212,41 @@
         "Futbol"
       ],
       "quality_score": 81,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602",
+      "slug": "buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602",
+      "title": "Buca Belediyesi'ne Yolsuzluk Operasyonu: Gözaltı Sayısı 54'e Yükseldi",
+      "summary": "İzmir Cumhuriyet Başsavcılığı'nın yürüttüğü soruşturma kapsamında, Buca Belediyesi ve bağlı birimlerine yönelik düzenlenen operasyonda gözaltı sayısı 54'e yükseldi. Operasyonda Buca Belediye Başkanı Görkem Duman ve eski Buca Belediye Başkanı Erhan Kılıç da...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602/",
+      "detail_json_url": "/data/details/articles/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602.webp",
+      "image_alt": "Buca Belediyesi'ne yönelik yolsuzluk operasyonu sırasında polis ekiplerinin belediye binası çevresinde aldığı önlemler.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602.webp",
+        "alt": "Buca Belediyesi'ne yönelik yolsuzluk operasyonu sırasında polis ekiplerinin belediye binası çevresinde aldığı önlemler."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/buca-belediyesine-yonelik-yolsuzluk-operasyonunda-gozalti-sayisi-yukseldi-43190692",
+      "tags": [
+        "Buca Belediyesi",
+        "Yolsuzluk Operasyonu",
+        "Görkem Duman",
+        "Erhan Kılıç",
+        "İzmir"
+      ],
+      "quality_score": 80,
       "review_status": "published"
     },
     {
@@ -630,74 +699,6 @@
       ],
       "quality_score": 76,
       "review_status": "published"
-    },
-    {
-      "id": "articles:enistesi-aracini-yakti-dehset-anlari_20260601",
-      "slug": "enistesi-aracini-yakti-dehset-anlari_20260601",
-      "title": "Eniştesi tarafından aracı ateşe verilen kişi dehşeti anlattı",
-      "summary": "İstanbul'un Güzelyurt Mahallesi'nde 14 Mayıs Perşembe günü sabaha karşı meydana gelen olayda, Kasım A. isimli vatandaş, bir süre önce telefonda tartıştığı eniştesi Yakup O. tarafından aracının kundaklandığını belirtti. Eniştesinin kendisini ve aracını yakma...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/enistesi-aracini-yakti-dehset-anlari_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/enistesi-aracini-yakti-dehset-anlari_20260601/",
-      "detail_json_url": "/data/details/articles/enistesi-aracini-yakti-dehset-anlari_20260601.json",
-      "image_url": "https://images.unsplash.com/photo-1668409801331-8344e10269e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxQb2xpcyUyMGFyYXklQzQlQjFuY2ElMjB5YW5sJUM0JUIxJUM1JTlGJTIwcGFyayUyMHNhbmQlQzQlQjFsYXIlMkMlMjBnZXIlQzMlQTdlJUM0JTlGaSUyMCVDMyVCNiVDNCU5RnJlbmluY2UlMjBiYSVDNSU5RmxhciVDNCVCMW5kYW4lMjBhJUM1JTlGYSVDNCU5RiVDNCVCMSUyMGtheW5hciUyMHN1JTIwZCVDMyVCNmslQzMlQkNsZCVDMyVCQyUyMCU3QyUyMEthYnVzJTIwc29ucmFzJUM0JUIxJTIwaGFsYWRhbiUyMCVDNSU5Rm9rJTIwbXxlbnwwfDB8fHwxNzgwMzI3MTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_alt": "A car burning intensely on a street at night, with police and fire department vehicles present. Security camera footage...",
-      "image": {
-        "url": "https://images.unsplash.com/photo-1668409801331-8344e10269e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxQb2xpcyUyMGFyYXklQzQlQjFuY2ElMjB5YW5sJUM0JUIxJUM1JTlGJTIwcGFyayUyMHNhbmQlQzQlQjFsYXIlMkMlMjBnZXIlQzMlQTdlJUM0JTlGaSUyMCVDMyVCNiVDNCU5RnJlbmluY2UlMjBiYSVDNSU5RmxhciVDNCVCMW5kYW4lMjBhJUM1JTlGYSVDNCU5RiVDNCVCMSUyMGtheW5hciUyMHN1JTIwZCVDMyVCNmslQzMlQkNsZCVDMyVCQyUyMCU3QyUyMEthYnVzJTIwc29ucmFzJUM0JUIxJTIwaGFsYWRhbiUyMCVDNSU5Rm9rJTIwbXxlbnwwfDB8fHwxNzgwMzI3MTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "alt": "A car burning intensely on a street at night, with police and fire department vehicles present. Security camera footage..."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/istanbulda-eniste-dehseti-43189439",
-      "tags": [
-        "kundaklama",
-        "enişte dehşeti",
-        "güvenlik kamerası",
-        "tehdit"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:dunya-kupasinin-gol-yememe-rekortmeni-zenga_20260601",
-      "slug": "dunya-kupasinin-gol-yememe-rekortmeni-zenga_20260601",
-      "title": "Dünya Kupası'nın Gol Yememe Rekortmeni Zenga",
-      "summary": "FIFA Dünya Kupası tarihinde en uzun süre gol yememe rekoru, 517 dakika ile İtalyan kaleci Walter Zenga'ya ait. Gaziantepspor'da da teknik direktörlük yapmış olan Zenga, 1990'da ülkesinde düzenlenen turnuvada bu başarıya imza attı. Zenga, grup aşamasında Çek...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/dunya-kupasinin-gol-yememe-rekortmeni-zenga_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/dunya-kupasinin-gol-yememe-rekortmeni-zenga_20260601/",
-      "detail_json_url": "/data/details/articles/dunya-kupasinin-gol-yememe-rekortmeni-zenga_20260601.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/dunya-kupasinin-gol-yememe-rekortmeni-zenga_20260601.webp",
-      "image_alt": "Walter Zenga, 1990 Dünya Kupası'nda İtalya kalesini koruyor.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/dunya-kupasinin-gol-yememe-rekortmeni-zenga_20260601.webp",
-        "alt": "Walter Zenga, 1990 Dünya Kupası'nda İtalya kalesini koruyor."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/dunya-kupasinin-en-uzun-sure-gol-yemeyen-kalecisi-zenga-43189638",
-      "tags": [
-        "Walter Zenga",
-        "FIFA Dünya Kupası",
-        "Gol Yememe Rekoru",
-        "Futbol Tarihi"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -805,6 +806,40 @@
       "review_status": "published"
     },
     {
+      "id": "articles:genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602",
+      "slug": "genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602",
+      "title": "Genç Oyuncu Owain Rhys Davies Hayatını Kaybetti",
+      "summary": "Bilinen bir hastalığı olmayan genç oyuncu Owain Rhys Davies'in ani ölümü, sevenlerini hem şoke etti hem de yasa boğdu. Ölüm haberini erkek kardeşi Rhodri ve babası Conway, ortak bir sosyal medya paylaşımıyla duyurdu. Aile, ölümün koşullarıyla ilgili henüz c...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602/",
+      "detail_json_url": "/data/details/articles/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602.webp",
+      "image_alt": "Genç oyuncu Owain Rhys Davies'in üzüntülü bir portresi.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602.webp",
+        "alt": "Genç oyuncu Owain Rhys Davies'in üzüntülü bir portresi."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/stil/tv-dunyasini-yasa-bogan-haber-genc-oyuncu-aniden-oldu-43190703",
+      "tags": [
+        "Owain Rhys Davies",
+        "Oyuncu Ölümü",
+        "Ani Ölüm",
+        "TV Dünyası"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602",
       "slug": "ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602",
       "title": "Ford Otosan Romanya'da 1 Milyonuncu Puma'yı Üretti",
@@ -871,6 +906,41 @@
         "Futbol"
       ],
       "quality_score": 81,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602",
+      "slug": "buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602",
+      "title": "Buca Belediyesi'ne Yolsuzluk Operasyonu: Gözaltı Sayısı 54'e Yükseldi",
+      "summary": "İzmir Cumhuriyet Başsavcılığı'nın yürüttüğü soruşturma kapsamında, Buca Belediyesi ve bağlı birimlerine yönelik düzenlenen operasyonda gözaltı sayısı 54'e yükseldi. Operasyonda Buca Belediye Başkanı Görkem Duman ve eski Buca Belediye Başkanı Erhan Kılıç da...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602/",
+      "detail_json_url": "/data/details/articles/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602.webp",
+      "image_alt": "Buca Belediyesi'ne yönelik yolsuzluk operasyonu sırasında polis ekiplerinin belediye binası çevresinde aldığı önlemler.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602.webp",
+        "alt": "Buca Belediyesi'ne yönelik yolsuzluk operasyonu sırasında polis ekiplerinin belediye binası çevresinde aldığı önlemler."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/buca-belediyesine-yonelik-yolsuzluk-operasyonunda-gozalti-sayisi-yukseldi-43190692",
+      "tags": [
+        "Buca Belediyesi",
+        "Yolsuzluk Operasyonu",
+        "Görkem Duman",
+        "Erhan Kılıç",
+        "İzmir"
+      ],
+      "quality_score": 80,
       "review_status": "published"
     },
     {
@@ -1491,75 +1561,6 @@
         "Altın",
         "Kripto Para",
         "Ekonomi"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:bluetooth-hoparlorun-ismi-kitalararasi-ucus-iptal-ettirdi_20260601",
-      "slug": "bluetooth-hoparlorun-ismi-kitalararasi-ucus-iptal-ettirdi_20260601",
-      "title": "Bluetooth Hoparlörün İsmi Kıtalararası Uçuşu İptal Ettirdi",
-      "summary": "United Airlines'ın New Jersey'den İspanya'ya gitmek üzere havalanan 236 sefer sayılı uçuşu, kalkıştan yaklaşık bir saat sonra Atlantik Okyanusu üzerinde rotasını değiştirerek geri dönme kararı aldı. Uçağın geri dönmesine neden olan olay, bir Bluetooth hopar...",
-      "category": "Son Dakika",
-      "category_slug": "son-dakika",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/bluetooth-hoparlorun-ismi-kitalararasi-ucus-iptal-ettirdi_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/bluetooth-hoparlorun-ismi-kitalararasi-ucus-iptal-ettirdi_20260601/",
-      "detail_json_url": "/data/details/articles/bluetooth-hoparlorun-ismi-kitalararasi-ucus-iptal-ettirdi_20260601.json",
-      "image_url": "https://images.unsplash.com/photo-1767868278134-3575cff151ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCbHVldG9vdGglMjBob3BhcmwlQzMlQjZyZSUyMHZlcmlsZW4lMjBpc2ltJTJDJTIwayVDNCVCMXRhbGFyYXJhcyVDNCVCMSUyMHUlQzMlQTd1JUM1JTlGdSUyMHlhciVDNCVCMWRhJTIwa2VzdGklMjB1JUMzJUE3YWt8ZW58MHwwfHx8MTc4MDMzMzI4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_alt": "Bir United Airlines uçağı ve yanında bir Bluetooth hoparlör ikonu.",
-      "image": {
-        "url": "https://images.unsplash.com/photo-1767868278134-3575cff151ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCbHVldG9vdGglMjBob3BhcmwlQzMlQjZyZSUyMHZlcmlsZW4lMjBpc2ltJTJDJTIwayVDNCVCMXRhbGFyYXJhcyVDNCVCMSUyMHUlQzMlQTd1JUM1JTlGdSUyMHlhciVDNCVCMWRhJTIwa2VzdGklMjB1JUMzJUE3YWt8ZW58MHwwfHx8MTc4MDMzMzI4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "alt": "Bir United Airlines uçağı ve yanında bir Bluetooth hoparlör ikonu."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/teknoloji/bluetooth-hoparlore-verilen-isim-kitalararasi-ucusu-yarida-kesti-7597735",
-      "tags": [
-        "Bluetooth hoparlör",
-        "uçuş iptali",
-        "havacılık güvenliği",
-        "United Airlines"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601",
-      "slug": "bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601",
-      "title": "Bankacı İhbar Etti, Sahte Para Operasyonu Başladı: 1 Milyon Liralık Sahte Paraya El Konuldu",
-      "summary": "Sarıyer'de bir bankacı, döviz bozdurmak isteyen bir müşterinin getirdiği paraların sahte olduğundan şüphelenerek durumu polise bildirdi. İhbar üzerine harekete geçen polis ekipleri, şüpheliyi bir AVM'de gözaltına aldı. Yapılan incelemelerde toplam 227 adet...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601/",
-      "detail_json_url": "/data/details/articles/bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601.webp",
-      "image_alt": "Polis ekipleri tarafından ele geçirilen sahte dolar ve euro banknotları.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601.webp",
-        "alt": "Polis ekipleri tarafından ele geçirilen sahte dolar ve euro banknotları."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/bankaci-ihbar-edince-yakalandi-1-milyon-37-bin-lira-sahte-paraya-el-konuldu-43189651",
-      "tags": [
-        "sahte para",
-        "Sarıyer",
-        "banka",
-        "ihbar",
-        "operasyon"
       ],
       "quality_score": 86,
       "review_status": "published"
