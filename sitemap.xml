@@ -55,29 +55,42 @@
     <!-- SITEMAP_ARTICLES_START -->
     <url>
         <loc>https://mansetradar.com.tr/news/</loc>
-        <lastmod>2026-06-01</lastmod>
+        <lastmod>2026-06-02</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://mansetradar.com.tr/nachrichten/</loc>
-        <lastmod>2026-06-01</lastmod>
+        <lastmod>2026-06-02</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://mansetradar.com.tr/articles/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601/</loc>
-        <lastmod>2026-06-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-        <image:image><image:loc>https://mansetradar.com.tr/articles/images/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601.webp</image:loc></image:image>
+        <loc>https://mansetradar.com.tr/oyunlar/</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://mansetradar.com.tr/articles/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601/</loc>
-        <lastmod>2026-06-01</lastmod>
+        <loc>https://mansetradar.com.tr/articles/montella-uzuntusu-milli-takim-kuzey-makedonya_20260602/</loc>
+        <lastmod>2026-06-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <image:image><image:loc>https://mansetradar.com.tr/articles/images/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601.webp</image:loc></image:image>
+        <image:image><image:loc>https://mansetradar.com.tr/articles/images/montella-uzuntusu-milli-takim-kuzey-makedonya_20260602.webp</image:loc></image:image>
+    </url>
+    <url>
+        <loc>https://mansetradar.com.tr/articles/erzurumspor-fk-3-kez-super-lig-e-yukseldi_20260602/</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image><image:loc>https://mansetradar.com.tr/articles/images/erzurumspor-fk-3-kez-super-lig-e-yukseldi_20260602.webp</image:loc></image:image>
+    </url>
+    <url>
+        <loc>https://mansetradar.com.tr/articles/a-milli-futbol-takimi-kuzey-makedonya-mac-sonucu_20260602/</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image><image:loc>https://mansetradar.com.tr/articles/images/a-milli-futbol-takimi-kuzey-makedonya-mac-sonucu_20260602.webp</image:loc></image:image>
     </url>
     <url>
         <loc>https://mansetradar.com.tr/articles/bluetooth-hoparlorun-ismi-kitalararasi-ucus-iptal-ettirdi_20260601/</loc>
@@ -122,6 +135,13 @@
         <image:image><image:loc>https://images.unsplash.com/photo-1716967318503-05b7064afa41?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxOVklESUElMjBQQyUyMHNhdmElQzUlOUYlQzQlQjFuYSUyMGdpcmRpJTNBJTIwWWVuaSUyMCVDMyVBN2lwJTIwUlRYJTIwU3BhcmslMjBuZSUyMHN1bmFjYWslM0YlMjBOVklESUElMjBSVFglMjBTcGFyayUyMCVDMyVBN2lwfGVufDB8MHx8fDE3ODAzMzMyNzR8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080</image:loc></image:image>
     </url>
     <url>
+        <loc>https://mansetradar.com.tr/articles/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601/</loc>
+        <lastmod>2026-06-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image><image:loc>https://mansetradar.com.tr/articles/images/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601.webp</image:loc></image:image>
+    </url>
+    <url>
         <loc>https://mansetradar.com.tr/articles/dunya-kupasi-tarihinin-en-cok-kart-goren-futbolcusu-mascherano_20260601/</loc>
         <lastmod>2026-06-01</lastmod>
         <changefreq>monthly</changefreq>
@@ -134,6 +154,13 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image><image:loc>https://images.unsplash.com/photo-1668409801331-8344e10269e8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxQb2xpcyUyMGFyYXklQzQlQjFuY2ElMjB5YW5sJUM0JUIxJUM1JTlGJTIwcGFyayUyMHNhbmQlQzQlQjFsYXIlMkMlMjBnZXIlQzMlQTdlJUM0JTlGaSUyMCVDMyVCNiVDNCU5RnJlbmluY2UlMjBiYSVDNSU5RmxhciVDNCVCMW5kYW4lMjBhJUM1JTlGYSVDNCU5RiVDNCVCMSUyMGtheW5hciUyMHN1JTIwZCVDMyVCNmslQzMlQkNsZCVDMyVCQyUyMCU3QyUyMEthYnVzJTIwc29ucmFzJUM0JUIxJTIwaGFsYWRhbiUyMCVDNSU5Rm9rJTIwbXxlbnwwfDB8fHwxNzgwMzI3MTk0fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080</image:loc></image:image>
+    </url>
+    <url>
+        <loc>https://mansetradar.com.tr/articles/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601/</loc>
+        <lastmod>2026-06-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image><image:loc>https://mansetradar.com.tr/articles/images/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601.webp</image:loc></image:image>
     </url>
     <url>
         <loc>https://mansetradar.com.tr/articles/abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601/</loc>
