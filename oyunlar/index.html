@@ -282,7 +282,7 @@
     <section class="games-grid" aria-label="Oyunlar">
       <article class="game-card">
         <h2>Mini Sudoku</h2>
-        <p>4x4 tabloyu 1, 2, 3 ve 4 rakamlarıyla satır ve sütunda tekrar olmadan tamamla.</p>
+        <p>4x4 tabloyu 1, 2, 3 ve 4 rakamlarıyla satır, sütun ve 2x2 kutuda tekrar olmadan tamamla.</p>
         <div class="sudoku" id="sudoku-board"></div>
         <div class="status" id="sudoku-status"></div>
         <div class="button-row">
@@ -293,7 +293,7 @@
 
       <article class="game-card">
         <h2>Kelime Karıştırma</h2>
-        <p>Haber gündeminden seçilen kelimenin doğru halini bul.</p>
+        <p>Türkçe haber gündeminden seçilen kelimenin doğru halini bul.</p>
         <div class="word-display" id="word-display"></div>
         <input class="word-input" id="word-input" type="text" autocomplete="off" placeholder="Cevabı yaz">
         <div class="status" id="word-status"></div>
@@ -305,7 +305,7 @@
 
       <article class="game-card">
         <h2>Hafıza Kartları</h2>
-        <p>Aynı simgeleri eşleştir. Her doğru eşleşme puan kazandırır.</p>
+        <p>Kapalı kartları açıp aynı haber simgelerini eşleştir. Her doğru eşleşme puan kazandırır.</p>
         <div class="memory-grid" id="memory-grid"></div>
         <div class="status" id="memory-status"></div>
         <div class="button-row">
@@ -323,7 +323,7 @@
       scoreEl.textContent = String(totalScore);
     }
 
-    const sudokuPuzzle = [1, 0, 0, 4, 0, 4, 1, 0, 0, 1, 4, 0, 4, 0, 0, 2];
+    const sudokuPuzzle = [1, 0, 0, 4, 0, 4, 0, 0, 0, 0, 4, 0, 4, 0, 0, 1];
     const sudokuSolution = [1, 2, 3, 4, 3, 4, 1, 2, 2, 1, 4, 3, 4, 3, 2, 1];
     const sudokuBoard = document.getElementById('sudoku-board');
     const sudokuStatus = document.getElementById('sudoku-status');
@@ -363,7 +363,7 @@
     });
     renderSudoku();
 
-    const words = ['gundem', 'ekonomi', 'teknoloji', 'manset', 'dunya', 'haber'];
+    const words = ['gündem', 'ekonomi', 'teknoloji', 'manşet', 'dünya', 'siyaset', 'sağlık', 'spor'];
     let currentWord = '';
     const wordDisplay = document.getElementById('word-display');
     const wordInput = document.getElementById('word-input');
@@ -374,7 +374,7 @@
     }
     function nextWord() {
       currentWord = words[Math.floor(Math.random() * words.length)];
-      wordDisplay.innerHTML = shuffleWord(currentWord).split('').map(letter => `<span>${letter.toUpperCase()}</span>`).join('');
+      wordDisplay.innerHTML = shuffleWord(currentWord).split('').map(letter => `<span>${letter.toLocaleUpperCase('tr-TR')}</span>`).join('');
       wordInput.value = '';
       wordStatus.textContent = '';
     }
@@ -407,7 +407,7 @@
         button.className = 'memory-card';
         button.dataset.symbol = symbol;
         button.dataset.index = index;
-        button.textContent = symbol;
+        button.textContent = '?';
         button.setAttribute('aria-label', 'Kapalı hafıza kartı');
         button.addEventListener('click', () => openMemory(button));
         memoryGrid.appendChild(button);
@@ -416,6 +416,8 @@
     function openMemory(button) {
       if (button.classList.contains('done') || button.classList.contains('open') || opened.length === 2) return;
       button.classList.add('open');
+      button.textContent = button.dataset.symbol || '';
+      button.setAttribute('aria-label', 'Açık hafıza kartı');
       opened.push(button);
       if (opened.length === 2) {
         const [first, second] = opened;
@@ -431,6 +433,10 @@
           setTimeout(() => {
             first.classList.remove('open');
             second.classList.remove('open');
+            first.textContent = '?';
+            second.textContent = '?';
+            first.setAttribute('aria-label', 'Kapalı hafıza kartı');
+            second.setAttribute('aria-label', 'Kapalı hafıza kartı');
             opened = [];
           }, 650);
         }
