@@ -3,11 +3,45 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-02T00:00:00+00:00",
-    "article_count": 456,
+    "article_count": 459,
     "schema_version": 2,
     "section": "articles"
   },
   "hero": [
+    {
+      "id": "articles:vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602",
+      "slug": "vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602",
+      "title": "Vergi ve SGK Borçları İçin Faiz İndirimi Yolda: Yeni Yapılandırma Geliyor",
+      "summary": "Hazine ve Maliye Bakanlığı, vergi ve Sosyal Güvenlik Kurumu (SGK) prim borçları için yeni bir yapılandırma çalışması başlattı. Mevcut durumda yüzde 39 olan tecil faiz oranının enflasyon koşullarına göre düşürülmesi hedefleniyor. Yeni düzenleme ile zor durum...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602/",
+      "detail_json_url": "/data/details/articles/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602.webp",
+      "image_alt": "Vergi ve SGK borçları için faiz indirimi ve yapılandırma müjdesini temsil eden finansal rahatlama grafiği.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602.webp",
+        "alt": "Vergi ve SGK borçları için faiz indirimi ve yapılandırma müjdesini temsil eden finansal rahatlama grafiği."
+      },
+      "source_name": "Cumhuriyet Gazetesi - Ekonomi",
+      "source_url": "https://www.cumhuriyet.com.tr/ekonomi/hazine-ve-maliye-bakanligi-dugmeye-basti-vergi-ve-sgk-borclarinda-faiz-indirimi-yolda-2508642",
+      "tags": [
+        "Vergi yapılandırma",
+        "SGK borç yapılandırma",
+        "Faiz indirimi",
+        "Hazine ve Maliye Bakanlığı"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles:montella-uzuntusu-milli-takim-kuzey-makedonya_20260602",
       "slug": "montella-uzuntusu-milli-takim-kuzey-makedonya_20260602",
@@ -41,6 +75,75 @@
         "Spor Yazarları"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602",
+      "slug": "guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602",
+      "title": "Güney Kore Otomotiv Pazarında Düşüş: Sadece Kia Büyüdü",
+      "summary": "Güney Kore iç pazarındaki ekonomik durgunluk, ülkenin en büyük 5 yerli otomobil üreticisini olumsuz etkiledi. Hyundai, Kia, GM Korea, Renault Korea ve KG Mobility'nin mayıs ayı toplam satışları, üst üste ikinci ayda da düşüş trendini sürdürdü. Toplamda %4,0...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602/",
+      "detail_json_url": "/data/details/articles/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602.webp",
+      "image_alt": "Güney Kore otomotiv pazarında düşüş ve Kia'nın büyümesi.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602.webp",
+        "alt": "Güney Kore otomotiv pazarında düşüş ve Kia'nın büyümesi."
+      },
+      "source_name": "Ekonomi haberleri - Son dakika ekonomi haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/5-buyuk-markanin-satislari-cakildi-iste-tek-buyuyen-arac-p324556",
+      "tags": [
+        "Güney Kore otomotiv",
+        "araç satışları",
+        "Kia büyüme",
+        "otomotiv sektörü"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602",
+      "slug": "ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602",
+      "title": "Ford Otosan Romanya'da 1 Milyonuncu Puma'yı Üretti",
+      "summary": "Ford Otosan, Romanya'nın Craiova Fabrikası'nda Ford Puma modelinin üretiminde 1 milyon adetlik kilometre taşını geride bıraktı. Bu önemli başarı, şirketin son yıllardaki stratejik dönüşümünde önemli bir yer tutuyor. Craiova Fabrikası'nın 2022'de Ford Otosan...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602/",
+      "detail_json_url": "/data/details/articles/ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602.webp",
+      "image_alt": "Ford Otosan'ın Romanya'daki Craiova Fabrikası'nda 1 milyonuncu Ford Puma Gen-E'nin üretim hattından çıkışı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602.webp",
+        "alt": "Ford Otosan'ın Romanya'daki Craiova Fabrikası'nda 1 milyonuncu Ford Puma Gen-E'nin üretim hattından çıkışı."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/ford-otosan-romanya-da-1-milyonuncu-puma-yi-uretti-3888736-ekonomi",
+      "tags": [
+        "Ford Otosan",
+        "Ford Puma",
+        "Craiova Fabrikası",
+        "Elektrikli Araç",
+        "Otomotiv Üretimi"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -595,113 +698,43 @@
       ],
       "quality_score": 76,
       "review_status": "published"
-    },
-    {
-      "id": "articles:borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601",
-      "slug": "borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601",
-      "title": "Borsa İstanbul Haftaya Yükselişle Başladı: Dolar ve Altında Güncel Durum",
-      "summary": "Borsa İstanbul (BIST) 100 endeksi, 01 Haziran 2026 Pazartesi gününü yüzde 0,30'luk bir yükselişle 13.703,96 puandan tamamladı. Gün içinde en yüksek 13.922,45 puanı gören endeks, en düşük 13.675,98 puan seviyesini gördü. Dolar/TL kuru yüzde 0,10 artışla 45,9...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601/",
-      "detail_json_url": "/data/details/articles/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601.webp",
-      "image_alt": "Finansal piyasa verilerini gösteren bir grafik.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601.webp",
-        "alt": "Finansal piyasa verilerini gösteren bir grafik."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/piyasa-kapanisi-01-haziran-2026-pazartesi-borsa-dolar-altin-ve-kripto-paralarda-bugun-ne-oldu-fai-3888582-ekonomi",
-      "tags": [
-        "Borsa İstanbul",
-        "Dolar",
-        "Altın",
-        "Kripto Para",
-        "Ekonomi"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:bluetooth-hoparlorun-ismi-kitalararasi-ucus-iptal-ettirdi_20260601",
-      "slug": "bluetooth-hoparlorun-ismi-kitalararasi-ucus-iptal-ettirdi_20260601",
-      "title": "Bluetooth Hoparlörün İsmi Kıtalararası Uçuşu İptal Ettirdi",
-      "summary": "United Airlines'ın New Jersey'den İspanya'ya gitmek üzere havalanan 236 sefer sayılı uçuşu, kalkıştan yaklaşık bir saat sonra Atlantik Okyanusu üzerinde rotasını değiştirerek geri dönme kararı aldı. Uçağın geri dönmesine neden olan olay, bir Bluetooth hopar...",
-      "category": "Son Dakika",
-      "category_slug": "son-dakika",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/bluetooth-hoparlorun-ismi-kitalararasi-ucus-iptal-ettirdi_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/bluetooth-hoparlorun-ismi-kitalararasi-ucus-iptal-ettirdi_20260601/",
-      "detail_json_url": "/data/details/articles/bluetooth-hoparlorun-ismi-kitalararasi-ucus-iptal-ettirdi_20260601.json",
-      "image_url": "https://images.unsplash.com/photo-1767868278134-3575cff151ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCbHVldG9vdGglMjBob3BhcmwlQzMlQjZyZSUyMHZlcmlsZW4lMjBpc2ltJTJDJTIwayVDNCVCMXRhbGFyYXJhcyVDNCVCMSUyMHUlQzMlQTd1JUM1JTlGdSUyMHlhciVDNCVCMWRhJTIwa2VzdGklMjB1JUMzJUE3YWt8ZW58MHwwfHx8MTc4MDMzMzI4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_alt": "Bir United Airlines uçağı ve yanında bir Bluetooth hoparlör ikonu.",
-      "image": {
-        "url": "https://images.unsplash.com/photo-1767868278134-3575cff151ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCbHVldG9vdGglMjBob3BhcmwlQzMlQjZyZSUyMHZlcmlsZW4lMjBpc2ltJTJDJTIwayVDNCVCMXRhbGFyYXJhcyVDNCVCMSUyMHUlQzMlQTd1JUM1JTlGdSUyMHlhciVDNCVCMWRhJTIwa2VzdGklMjB1JUMzJUE3YWt8ZW58MHwwfHx8MTc4MDMzMzI4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "alt": "Bir United Airlines uçağı ve yanında bir Bluetooth hoparlör ikonu."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/teknoloji/bluetooth-hoparlore-verilen-isim-kitalararasi-ucusu-yarida-kesti-7597735",
-      "tags": [
-        "Bluetooth hoparlör",
-        "uçuş iptali",
-        "havacılık güvenliği",
-        "United Airlines"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601",
-      "slug": "bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601",
-      "title": "Bankacı İhbar Etti, Sahte Para Operasyonu Başladı: 1 Milyon Liralık Sahte Paraya El Konuldu",
-      "summary": "Sarıyer'de bir bankacı, döviz bozdurmak isteyen bir müşterinin getirdiği paraların sahte olduğundan şüphelenerek durumu polise bildirdi. İhbar üzerine harekete geçen polis ekipleri, şüpheliyi bir AVM'de gözaltına aldı. Yapılan incelemelerde toplam 227 adet...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601/",
-      "detail_json_url": "/data/details/articles/bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601.webp",
-      "image_alt": "Polis ekipleri tarafından ele geçirilen sahte dolar ve euro banknotları.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601.webp",
-        "alt": "Polis ekipleri tarafından ele geçirilen sahte dolar ve euro banknotları."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/bankaci-ihbar-edince-yakalandi-1-milyon-37-bin-lira-sahte-paraya-el-konuldu-43189651",
-      "tags": [
-        "sahte para",
-        "Sarıyer",
-        "banka",
-        "ihbar",
-        "operasyon"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
+    {
+      "id": "articles:vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602",
+      "slug": "vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602",
+      "title": "Vergi ve SGK Borçları İçin Faiz İndirimi Yolda: Yeni Yapılandırma Geliyor",
+      "summary": "Hazine ve Maliye Bakanlığı, vergi ve Sosyal Güvenlik Kurumu (SGK) prim borçları için yeni bir yapılandırma çalışması başlattı. Mevcut durumda yüzde 39 olan tecil faiz oranının enflasyon koşullarına göre düşürülmesi hedefleniyor. Yeni düzenleme ile zor durum...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602/",
+      "detail_json_url": "/data/details/articles/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602.webp",
+      "image_alt": "Vergi ve SGK borçları için faiz indirimi ve yapılandırma müjdesini temsil eden finansal rahatlama grafiği.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602.webp",
+        "alt": "Vergi ve SGK borçları için faiz indirimi ve yapılandırma müjdesini temsil eden finansal rahatlama grafiği."
+      },
+      "source_name": "Cumhuriyet Gazetesi - Ekonomi",
+      "source_url": "https://www.cumhuriyet.com.tr/ekonomi/hazine-ve-maliye-bakanligi-dugmeye-basti-vergi-ve-sgk-borclarinda-faiz-indirimi-yolda-2508642",
+      "tags": [
+        "Vergi yapılandırma",
+        "SGK borç yapılandırma",
+        "Faiz indirimi",
+        "Hazine ve Maliye Bakanlığı"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles:montella-uzuntusu-milli-takim-kuzey-makedonya_20260602",
       "slug": "montella-uzuntusu-milli-takim-kuzey-makedonya_20260602",
@@ -735,6 +768,75 @@
         "Spor Yazarları"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602",
+      "slug": "guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602",
+      "title": "Güney Kore Otomotiv Pazarında Düşüş: Sadece Kia Büyüdü",
+      "summary": "Güney Kore iç pazarındaki ekonomik durgunluk, ülkenin en büyük 5 yerli otomobil üreticisini olumsuz etkiledi. Hyundai, Kia, GM Korea, Renault Korea ve KG Mobility'nin mayıs ayı toplam satışları, üst üste ikinci ayda da düşüş trendini sürdürdü. Toplamda %4,0...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602/",
+      "detail_json_url": "/data/details/articles/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602.webp",
+      "image_alt": "Güney Kore otomotiv pazarında düşüş ve Kia'nın büyümesi.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602.webp",
+        "alt": "Güney Kore otomotiv pazarında düşüş ve Kia'nın büyümesi."
+      },
+      "source_name": "Ekonomi haberleri - Son dakika ekonomi haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/5-buyuk-markanin-satislari-cakildi-iste-tek-buyuyen-arac-p324556",
+      "tags": [
+        "Güney Kore otomotiv",
+        "araç satışları",
+        "Kia büyüme",
+        "otomotiv sektörü"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602",
+      "slug": "ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602",
+      "title": "Ford Otosan Romanya'da 1 Milyonuncu Puma'yı Üretti",
+      "summary": "Ford Otosan, Romanya'nın Craiova Fabrikası'nda Ford Puma modelinin üretiminde 1 milyon adetlik kilometre taşını geride bıraktı. Bu önemli başarı, şirketin son yıllardaki stratejik dönüşümünde önemli bir yer tutuyor. Craiova Fabrikası'nın 2022'de Ford Otosan...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602/",
+      "detail_json_url": "/data/details/articles/ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602.webp",
+      "image_alt": "Ford Otosan'ın Romanya'daki Craiova Fabrikası'nda 1 milyonuncu Ford Puma Gen-E'nin üretim hattından çıkışı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602.webp",
+        "alt": "Ford Otosan'ın Romanya'daki Craiova Fabrikası'nda 1 milyonuncu Ford Puma Gen-E'nin üretim hattından çıkışı."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/ford-otosan-romanya-da-1-milyonuncu-puma-yi-uretti-3888736-ekonomi",
+      "tags": [
+        "Ford Otosan",
+        "Ford Puma",
+        "Craiova Fabrikası",
+        "Elektrikli Araç",
+        "Otomotiv Üretimi"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -1460,109 +1562,6 @@
         "meteor patlaması"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601",
-      "slug": "15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601",
-      "title": "15 Yılda 170 Kez Kanseri Yenen Adam Tıp Dünyasını Hayrete Düşürdü",
-      "summary": "47 yaşındaki Sean Breininger, 15 yıl içinde 170 kez kanseri yenerek tıp dünyasını hayrete düşürdü. Boğaz, dil, mesane, yemek borusu, ağız ve cilt kanserleri dahil olmak üzere çok sayıda farklı türle mücadele eden Breininger'e 2011'de genetik Fanconi anemisi...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601/",
-      "detail_json_url": "/data/details/articles/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601.webp",
-      "image_alt": "15 Yılda 170 Kez Kanseri Yenen Adam Tıp Dünyasını Hayrete Düşürdü",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601.webp",
-        "alt": "15 Yılda 170 Kez Kanseri Yenen Adam Tıp Dünyasını Hayrete Düşürdü"
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/dunya/tip-dunyasini-hayrete-dusuruen-adam-15-yilda-170-kez-kanseri-yendi-7597739",
-      "tags": [
-        "Kanser",
-        "Fanconi Anemisi",
-        "Sean Breininger",
-        "Sağlık",
-        "Tıp"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:1-haziran-2026-ev-yemegi-menusu-onerileri_20260601",
-      "slug": "1-haziran-2026-ev-yemegi-menusu-onerileri_20260601",
-      "title": "1 Haziran 2026 Ev Yemeği Menüsü: Serinleten Çorbadan Tatlıya Zengin Seçenekler",
-      "summary": "Hürriyet gazetesi, 1 Haziran 2026 için \"Bugün ne pişirsem?\" sorusuna yanıt arayanlara özel bir ev yemeği menüsü önerisi sundu. Menüde, serinletici soğuk ayran aşı çorbası, doyurucu kıymalı patates yemeği, pratik cevizli peynirli erişte, közlenmiş lezzetleri...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/1-haziran-2026-ev-yemegi-menusu-onerileri_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/1-haziran-2026-ev-yemegi-menusu-onerileri_20260601/",
-      "detail_json_url": "/data/details/articles/1-haziran-2026-ev-yemegi-menusu-onerileri_20260601.json",
-      "image_url": "https://images.unsplash.com/photo-1583063660574-85ea650eb13f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCdWclQzMlQkNuJTIwbmUlMjBwaSVDNSU5Rmlyc2VtJTIwZGl5ZW5sZXJlJTNBJTIwRyVDMyVCQ25sJUMzJUJDayUyMGV2JTIweWVtZSVDNCU5RmklMjBtZW4lQzMlQkNzJUMzJUJDJTIwJTI4MSUyMEhhemlyYW4lMjAyMDI2JTI5JTIwc28lQzQlOUZ1ayUyMCVDMyVBN29yYmF8ZW58MHwwfHx8MTc4MDMyNDQ5NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_alt": "1 Haziran 2026 tarihli Türk ev yemeği menüsü sofrası, ayran aşı çorbası, kıymalı patates, erişte, babagannuş, havuç mücver...",
-      "image": {
-        "url": "https://images.unsplash.com/photo-1583063660574-85ea650eb13f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCdWclQzMlQkNuJTIwbmUlMjBwaSVDNSU5Rmlyc2VtJTIwZGl5ZW5sZXJlJTNBJTIwRyVDMyVCQ25sJUMzJUJDayUyMGV2JTIweWVtZSVDNCU5RmklMjBtZW4lQzMlQkNzJUMzJUJDJTIwJTI4MSUyMEhhemlyYW4lMjAyMDI2JTI5JTIwc28lQzQlOUZ1ayUyMCVDMyVBN29yYmF8ZW58MHwwfHx8MTc4MDMyNDQ5NHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "alt": "1 Haziran 2026 tarihli Türk ev yemeği menüsü sofrası, ayran aşı çorbası, kıymalı patates, erişte, babagannuş, havuç mücver..."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/lezizz/bugun-ne-pisirsem-diyenlere-gunluk-ev-yemegi-menusu-1-haziran-2026-43189309",
-      "tags": [
-        "ev yemeği menüsü",
-        "1 Haziran tarifleri",
-        "ayran aşı çorbası",
-        "höşmerim"
-      ],
-      "quality_score": 80,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:abd-de-kimyasal-patlama-panigi_20260526",
-      "slug": "abd-de-kimyasal-patlama-panigi_20260526",
-      "title": "ABD'de Kimyasal Patlama Paniği: 40 Bin Kişi Tahliye Edildi",
-      "summary": "ABD'nin California eyaletinde kimyasal madde depolanan tankta patlama riski bulundu. Bu nedenle yaklaşık 40 bin kişi tahliye edildi. Tahliye edilen kişiler için destek hizmetleri sunuluyor.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "26.05.2026",
-      "date_iso": "2026-05-26",
-      "url": "/articles/abd-de-kimyasal-patlama-panigi_20260526/",
-      "canonical_url": "https://mansetradar.com.tr/articles/abd-de-kimyasal-patlama-panigi_20260526/",
-      "detail_json_url": "/data/details/articles/abd-de-kimyasal-patlama-panigi_20260526.json",
-      "image_url": "https://images.unsplash.com/photo-1612278492349-fa246cf39583?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxLaW15YXNhbHxlbnwwfDB8fHwxNzc5NzY0MzI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_alt": "Tahliye edilen kişiler",
-      "image": {
-        "url": "https://images.unsplash.com/photo-1612278492349-fa246cf39583?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxLaW15YXNhbHxlbnwwfDB8fHwxNzc5NzY0MzI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "alt": "Tahliye edilen kişiler"
-      },
-      "source_name": "",
-      "source_url": "",
-      "tags": [
-        "Kimyasal Patlama",
-        "Tahliye",
-        "California",
-        "ABD"
-      ],
-      "quality_score": 70,
       "review_status": "published"
     }
   ]

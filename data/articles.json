@@ -3,10 +3,44 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-02T00:00:00+00:00",
-    "article_count": 456,
+    "article_count": 459,
     "schema_version": 2
   },
   "articles": [
+    {
+      "id": "articles:vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602",
+      "slug": "vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602",
+      "title": "Vergi ve SGK Borçları İçin Faiz İndirimi Yolda: Yeni Yapılandırma Geliyor",
+      "summary": "Hazine ve Maliye Bakanlığı, vergi ve Sosyal Güvenlik Kurumu (SGK) prim borçları için yeni bir yapılandırma çalışması başlattı. Mevcut durumda yüzde 39 olan tecil faiz oranının enflasyon koşullarına göre düşürülmesi hedefleniyor. Yeni düzenleme ile zor durum...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602/",
+      "detail_json_url": "/data/details/articles/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602.webp",
+      "image_alt": "Vergi ve SGK borçları için faiz indirimi ve yapılandırma müjdesini temsil eden finansal rahatlama grafiği.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602.webp",
+        "alt": "Vergi ve SGK borçları için faiz indirimi ve yapılandırma müjdesini temsil eden finansal rahatlama grafiği."
+      },
+      "source_name": "Cumhuriyet Gazetesi - Ekonomi",
+      "source_url": "https://www.cumhuriyet.com.tr/ekonomi/hazine-ve-maliye-bakanligi-dugmeye-basti-vergi-ve-sgk-borclarinda-faiz-indirimi-yolda-2508642",
+      "tags": [
+        "Vergi yapılandırma",
+        "SGK borç yapılandırma",
+        "Faiz indirimi",
+        "Hazine ve Maliye Bakanlığı"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles:montella-uzuntusu-milli-takim-kuzey-makedonya_20260602",
       "slug": "montella-uzuntusu-milli-takim-kuzey-makedonya_20260602",
@@ -40,6 +74,75 @@
         "Spor Yazarları"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602",
+      "slug": "guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602",
+      "title": "Güney Kore Otomotiv Pazarında Düşüş: Sadece Kia Büyüdü",
+      "summary": "Güney Kore iç pazarındaki ekonomik durgunluk, ülkenin en büyük 5 yerli otomobil üreticisini olumsuz etkiledi. Hyundai, Kia, GM Korea, Renault Korea ve KG Mobility'nin mayıs ayı toplam satışları, üst üste ikinci ayda da düşüş trendini sürdürdü. Toplamda %4,0...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602/",
+      "detail_json_url": "/data/details/articles/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602.webp",
+      "image_alt": "Güney Kore otomotiv pazarında düşüş ve Kia'nın büyümesi.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602.webp",
+        "alt": "Güney Kore otomotiv pazarında düşüş ve Kia'nın büyümesi."
+      },
+      "source_name": "Ekonomi haberleri - Son dakika ekonomi haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/5-buyuk-markanin-satislari-cakildi-iste-tek-buyuyen-arac-p324556",
+      "tags": [
+        "Güney Kore otomotiv",
+        "araç satışları",
+        "Kia büyüme",
+        "otomotiv sektörü"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602",
+      "slug": "ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602",
+      "title": "Ford Otosan Romanya'da 1 Milyonuncu Puma'yı Üretti",
+      "summary": "Ford Otosan, Romanya'nın Craiova Fabrikası'nda Ford Puma modelinin üretiminde 1 milyon adetlik kilometre taşını geride bıraktı. Bu önemli başarı, şirketin son yıllardaki stratejik dönüşümünde önemli bir yer tutuyor. Craiova Fabrikası'nın 2022'de Ford Otosan...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602/",
+      "detail_json_url": "/data/details/articles/ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602.webp",
+      "image_alt": "Ford Otosan'ın Romanya'daki Craiova Fabrikası'nda 1 milyonuncu Ford Puma Gen-E'nin üretim hattından çıkışı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/ford-otosan-romanya-da-1-milyonuncu-puma-uretti_20260602.webp",
+        "alt": "Ford Otosan'ın Romanya'daki Craiova Fabrikası'nda 1 milyonuncu Ford Puma Gen-E'nin üretim hattından çıkışı."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/ford-otosan-romanya-da-1-milyonuncu-puma-yi-uretti-3888736-ekonomi",
+      "tags": [
+        "Ford Otosan",
+        "Ford Puma",
+        "Craiova Fabrikası",
+        "Elektrikli Araç",
+        "Otomotiv Üretimi"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
