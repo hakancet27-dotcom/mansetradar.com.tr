@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-02T00:00:00+00:00",
-    "article_count": 463,
+    "article_count": 466,
     "schema_version": 2,
     "section": "articles"
   },
@@ -75,6 +75,75 @@
         "Spor Yazarları"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602",
+      "slug": "limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602",
+      "title": "Limonlu Su Böbrek Taşlarına İyi Gelir mi? Üroloji Uzmanı Açıklıyor",
+      "summary": "Ülkemizde yaygın bir sorun olan böbrek taşları, her 10 yetişkinden 1'inde görülüyor. İdrardaki mineral ve tuzların kristalleşmesiyle oluşan bu sert yapılar, şiddetli ağrılara neden olabiliyor. Üroloji Uzmanı Prof. Dr. Melih Balcı, böbrek taşlarının oluşum n...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602/",
+      "detail_json_url": "/data/details/articles/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602.webp",
+      "image_alt": "Limonlu su bardağı ve böbrek taşı sembolleri",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602.webp",
+        "alt": "Limonlu su bardağı ve böbrek taşı sembolleri"
+      },
+      "source_name": "Sağlık haberleri - Son dakika sağlık haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/limonlu-su-bobrek-taslarini-dusurur-mu-p324363",
+      "tags": [
+        "böbrek taşı",
+        "limonlu su",
+        "sağlık",
+        "üroloji"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602",
+      "slug": "kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602",
+      "title": "Kanser Aşısı Umut Veriyor: Tümörlerde Küçülme ve Yok Olma Gözlemlendi",
+      "summary": "İngiltere'de Kanser Araştırmaları Enstitüsü öncülüğünde yürütülen OrigAMI-4 çalışmasında, mevcut standart tedavilere yanıt vermeyen 102 baş-boyun kanseri hastasına uygulanan Amivantamab adlı antikor, hastalarda umut verici sonuçlar ortaya koydu. Çalışmada,...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602/",
+      "detail_json_url": "/data/details/articles/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602.webp",
+      "image_alt": "Kanser hücrelerini hedef alan tedavi edici bir antikorun yakın çekim, detaylı görüntüsü.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602.webp",
+        "alt": "Kanser hücrelerini hedef alan tedavi edici bir antikorun yakın çekim, detaylı görüntüsü."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kanser-asisi-mucizesi-tumorleri-kucultup-yok-ediyor-43190088",
+      "tags": [
+        "kanser aşısı",
+        "Amivantamab",
+        "baş-boyun kanseri",
+        "immünoterapi",
+        "tümör tedavisi"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -212,6 +281,40 @@
         "Futbol"
       ],
       "quality_score": 81,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602",
+      "slug": "dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602",
+      "title": "DSÖ'den Kalp Krizini Önlemenin Altın Kuralları Açıklandı",
+      "summary": "Kalp ve damar hastalıkları artık sadece ileri yaş problemi değil. Modern yaşamın getirdiği alışkanlıklar, stres ve hareketsizlik, gençleri de tehdit ediyor. Dünya Sağlık Örgütü (DSÖ) ve ABD Hastalık Kontrol ve Önleme Merkezi (CDC), kalp krizlerini ve damar...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602/",
+      "detail_json_url": "/data/details/articles/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602.webp",
+      "image_alt": "Sağlıklı bir kalp, beslenme ve egzersiz unsurlarıyla korunan bir kalkanla tasvir edilmiştir.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602.webp",
+        "alt": "Sağlıklı bir kalp, beslenme ve egzersiz unsurlarıyla korunan bir kalkanla tasvir edilmiştir."
+      },
+      "source_name": "Sağlık haberleri - Son dakika sağlık haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/dunya-saglik-orgutu-kalp-krizini-baslamadan-bitirmenin-yolunu-acikladi-p324423",
+      "tags": [
+        "kalp krizi",
+        "kalp sağlığı",
+        "DSÖ",
+        "sağlıklı yaşam"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -595,110 +698,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles:iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601",
-      "slug": "iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601",
-      "title": "İran, Hürmüz Boğazı'ndan Geçiş İzinleri İstatistiklerini Paylaştı",
-      "summary": "İran, Hürmüz Boğazı'ndan geçiş izni başvurusunda bulunan 300'den fazla gemiyle ilgili güncel istatistikleri yayımladı. Nisan ayından bu yana yapılan başvuruların büyük çoğunluğunu petrol tankerleri oluştururken, gemilerin nihai varış noktaları ve türleri ha...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601/",
-      "detail_json_url": "/data/details/articles/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601.webp",
-      "image_alt": "Hürmüz Boğazı'nda seyreden çeşitli gemilerin hava görünümü.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601.webp",
-        "alt": "Hürmüz Boğazı'nda seyreden çeşitli gemilerin hava görünümü."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/dunya/iran-hurmuz-bogazindan-gecis-izni-icin-basvuru-yapan-gemilerle-ilgili-istatistikleri-yayimladi-7597869",
-      "tags": [
-        "Hürmüz Boğazı",
-        "İran",
-        "Gemi Trafiği",
-        "Petrol Tankerleri",
-        "Denizcilik İstatistikleri"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:hakan-safi-kerem-akturkoglu-transfer-aciklamasi_20260601",
-      "slug": "hakan-safi-kerem-akturkoglu-transfer-aciklamasi_20260601",
-      "title": "Fenerbahçe Başkan Adayı Hakan Safi'den Kerem Aktürkoğlu ve Transfer Açıklaması",
-      "summary": "Fenerbahçe Başkan Adayı Hakan Safi, 6-7 Haziran'da yapılacak kongre öncesinde projelerini tanıttı. Safi, gelecek sezon için iddialı bir kadro kuracaklarını belirterek, '2 yerli milli oyuncu ve 2-3 dünya yıldızı getireceğiz. Çarşamba'dan itibaren her gün bay...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/hakan-safi-kerem-akturkoglu-transfer-aciklamasi_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/hakan-safi-kerem-akturkoglu-transfer-aciklamasi_20260601/",
-      "detail_json_url": "/data/details/articles/hakan-safi-kerem-akturkoglu-transfer-aciklamasi_20260601.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/hakan-safi-kerem-akturkoglu-transfer-aciklamasi_20260601.webp",
-      "image_alt": "Fenerbahçe Başkan Adayı Hakan Safi, stadyumda taraftarlara sesleniyor.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/hakan-safi-kerem-akturkoglu-transfer-aciklamasi_20260601.webp",
-        "alt": "Fenerbahçe Başkan Adayı Hakan Safi, stadyumda taraftarlara sesleniyor."
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/sporskor/fenerbahce-baskan-adayi-hakan-safi-carsambadan-itibaren-her-gun-bayram-havasi-yasatacagiz-1726623",
-      "tags": [
-        "Hakan Safi",
-        "Fenerbahçe Başkan Adayı",
-        "Kerem Aktürkoğlu",
-        "Transfer"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601",
-      "slug": "foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601",
-      "title": "Foxtron Cavira Tanıtıldı: Tesla Model Y'ye Rakip Elektrikli Crossover",
-      "summary": "iPhone üreticisi Foxconn'un otomotiv markası Foxtron, yeni elektrikli crossover modeli Cavira'yı resmi olarak tanıttı. Araç, 578 km'ye varan menzili ve teknolojik özellikleriyle Tesla Model Y'ye ciddi bir rakip olarak konumlanıyor.",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601/",
-      "detail_json_url": "/data/details/articles/foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601.webp",
-      "image_alt": "Foxtron Cavira elektrikli crossover modeli, modern tasarımı ve LED farlarıyla dikkat çekiyor.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/foxtron-cavira-tanitildi-tesla-model-y-rakibi_20260601.webp",
-        "alt": "Foxtron Cavira elektrikli crossover modeli, modern tasarımı ve LED farlarıyla dikkat çekiyor."
-      },
-      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
-      "source_url": "https://www.donanimhaber.com/iphone-ureticisinden-tesla-model-y-ye-rakip-foxtron-cavira--206276",
-      "tags": [
-        "Foxtron Cavira",
-        "Elektrikli Araç",
-        "Tesla Model Y",
-        "Foxconn",
-        "Otomotiv"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -769,6 +768,75 @@
         "Spor Yazarları"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602",
+      "slug": "limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602",
+      "title": "Limonlu Su Böbrek Taşlarına İyi Gelir mi? Üroloji Uzmanı Açıklıyor",
+      "summary": "Ülkemizde yaygın bir sorun olan böbrek taşları, her 10 yetişkinden 1'inde görülüyor. İdrardaki mineral ve tuzların kristalleşmesiyle oluşan bu sert yapılar, şiddetli ağrılara neden olabiliyor. Üroloji Uzmanı Prof. Dr. Melih Balcı, böbrek taşlarının oluşum n...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602/",
+      "detail_json_url": "/data/details/articles/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602.webp",
+      "image_alt": "Limonlu su bardağı ve böbrek taşı sembolleri",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602.webp",
+        "alt": "Limonlu su bardağı ve böbrek taşı sembolleri"
+      },
+      "source_name": "Sağlık haberleri - Son dakika sağlık haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/limonlu-su-bobrek-taslarini-dusurur-mu-p324363",
+      "tags": [
+        "böbrek taşı",
+        "limonlu su",
+        "sağlık",
+        "üroloji"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602",
+      "slug": "kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602",
+      "title": "Kanser Aşısı Umut Veriyor: Tümörlerde Küçülme ve Yok Olma Gözlemlendi",
+      "summary": "İngiltere'de Kanser Araştırmaları Enstitüsü öncülüğünde yürütülen OrigAMI-4 çalışmasında, mevcut standart tedavilere yanıt vermeyen 102 baş-boyun kanseri hastasına uygulanan Amivantamab adlı antikor, hastalarda umut verici sonuçlar ortaya koydu. Çalışmada,...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602/",
+      "detail_json_url": "/data/details/articles/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602.webp",
+      "image_alt": "Kanser hücrelerini hedef alan tedavi edici bir antikorun yakın çekim, detaylı görüntüsü.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602.webp",
+        "alt": "Kanser hücrelerini hedef alan tedavi edici bir antikorun yakın çekim, detaylı görüntüsü."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kanser-asisi-mucizesi-tumorleri-kucultup-yok-ediyor-43190088",
+      "tags": [
+        "kanser aşısı",
+        "Amivantamab",
+        "baş-boyun kanseri",
+        "immünoterapi",
+        "tümör tedavisi"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -906,6 +974,40 @@
         "Futbol"
       ],
       "quality_score": 81,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602",
+      "slug": "dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602",
+      "title": "DSÖ'den Kalp Krizini Önlemenin Altın Kuralları Açıklandı",
+      "summary": "Kalp ve damar hastalıkları artık sadece ileri yaş problemi değil. Modern yaşamın getirdiği alışkanlıklar, stres ve hareketsizlik, gençleri de tehdit ediyor. Dünya Sağlık Örgütü (DSÖ) ve ABD Hastalık Kontrol ve Önleme Merkezi (CDC), kalp krizlerini ve damar...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602/",
+      "detail_json_url": "/data/details/articles/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602.webp",
+      "image_alt": "Sağlıklı bir kalp, beslenme ve egzersiz unsurlarıyla korunan bir kalkanla tasvir edilmiştir.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602.webp",
+        "alt": "Sağlıklı bir kalp, beslenme ve egzersiz unsurlarıyla korunan bir kalkanla tasvir edilmiştir."
+      },
+      "source_name": "Sağlık haberleri - Son dakika sağlık haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/dunya-saglik-orgutu-kalp-krizini-baslamadan-bitirmenin-yolunu-acikladi-p324423",
+      "tags": [
+        "kalp krizi",
+        "kalp sağlığı",
+        "DSÖ",
+        "sağlıklı yaşam"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -1458,109 +1560,6 @@
         "FIFA Dünya Kupası",
         "Gol Yememe Rekoru",
         "Futbol Tarihi"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:dunya-kupasi-tarihinin-en-cok-kart-goren-futbolcusu-mascherano_20260601",
-      "slug": "dunya-kupasi-tarihinin-en-cok-kart-goren-futbolcusu-mascherano_20260601",
-      "title": "Dünya Kupası Tarihinin En Çok Kart Gören Oyuncusu Mascherano Oldu",
-      "summary": "Arjantinli futbolcu Javier Mascherano, Dünya Kupası tarihinde gördüğü toplam 7 sarı kartla en çok kart gören oyuncu olarak kayıtlara geçti. Mascherano, 4 turnuvada çıktığı 20 maçta hiç kırmızı kart görmedi.",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/dunya-kupasi-tarihinin-en-cok-kart-goren-futbolcusu-mascherano_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/dunya-kupasi-tarihinin-en-cok-kart-goren-futbolcusu-mascherano_20260601/",
-      "detail_json_url": "/data/details/articles/dunya-kupasi-tarihinin-en-cok-kart-goren-futbolcusu-mascherano_20260601.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/dunya-kupasi-tarihinin-en-cok-kart-goren-futbolcusu-mascherano_20260601.webp",
-      "image_alt": "Javier Mascherano Dünya Kupası maçında sarı kart görürken",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/dunya-kupasi-tarihinin-en-cok-kart-goren-futbolcusu-mascherano_20260601.webp",
-        "alt": "Javier Mascherano Dünya Kupası maçında sarı kart görürken"
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/dunya-kupasi-tarihinin-en-cok-kart-goren-futbolcusu-mascherano-43189644",
-      "tags": [
-        "Javier Mascherano",
-        "Dünya Kupası",
-        "Futbol Rekorları",
-        "Sarı Kart"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601",
-      "slug": "chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601",
-      "title": "CHP'den İşten Çıkarmalarla İlgili Atakan Sönmez Açıklaması",
-      "summary": "CHP Genel Başkanı Kemal Kılıçdaroğlu'nun basın danışmanı Atakan Sönmez, Ankara Bölge İdare Mahkemesi'nin \"mutlak butlan\" kararı sonrası Genel Merkez'de yaşanan işten çıkarmalarla ilgili açıklama yaptı. Sönmez, 24 kişiyi etkileyen fesih nedenlerinin tekrar i...",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601/",
-      "detail_json_url": "/data/details/articles/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601.webp",
-      "image_alt": "CHP Genel Başkanı Kemal Kılıçdaroğlu'nun basın danışmanı Atakan Sönmez, CHP Genel Merkezi'ndeki işten çıkarmalar hakkında...",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601.webp",
-        "alt": "CHP Genel Başkanı Kemal Kılıçdaroğlu'nun basın danışmanı Atakan Sönmez, CHP Genel Merkezi'ndeki işten çıkarmalar hakkında..."
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/turkiye/bircok-kisi-isten-cikarilmisti-chpden-aciklama-geldi-1726692",
-      "tags": [
-        "CHP",
-        "Kemal Kılıçdaroğlu",
-        "Atakan Sönmez",
-        "İşten Çıkarma"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601",
-      "slug": "borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601",
-      "title": "Borsa İstanbul Haftaya Yükselişle Başladı: Dolar ve Altında Güncel Durum",
-      "summary": "Borsa İstanbul (BIST) 100 endeksi, 01 Haziran 2026 Pazartesi gününü yüzde 0,30'luk bir yükselişle 13.703,96 puandan tamamladı. Gün içinde en yüksek 13.922,45 puanı gören endeks, en düşük 13.675,98 puan seviyesini gördü. Dolar/TL kuru yüzde 0,10 artışla 45,9...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601/",
-      "detail_json_url": "/data/details/articles/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601.webp",
-      "image_alt": "Finansal piyasa verilerini gösteren bir grafik.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/borsa-istanbul-haftaya-yukselisle-basladi-dolar-ve-altinda-guncel-durum_20260601.webp",
-        "alt": "Finansal piyasa verilerini gösteren bir grafik."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/piyasa-kapanisi-01-haziran-2026-pazartesi-borsa-dolar-altin-ve-kripto-paralarda-bugun-ne-oldu-fai-3888582-ekonomi",
-      "tags": [
-        "Borsa İstanbul",
-        "Dolar",
-        "Altın",
-        "Kripto Para",
-        "Ekonomi"
       ],
       "quality_score": 86,
       "review_status": "published"

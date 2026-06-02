@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-02T00:00:00+00:00",
-    "article_count": 463,
+    "article_count": 466,
     "schema_version": 2,
     "section": "articles"
   },
@@ -75,6 +75,75 @@
         "Spor Yazarları"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602",
+      "slug": "limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602",
+      "title": "Limonlu Su Böbrek Taşlarına İyi Gelir mi? Üroloji Uzmanı Açıklıyor",
+      "summary": "Ülkemizde yaygın bir sorun olan böbrek taşları, her 10 yetişkinden 1'inde görülüyor. İdrardaki mineral ve tuzların kristalleşmesiyle oluşan bu sert yapılar, şiddetli ağrılara neden olabiliyor. Üroloji Uzmanı Prof. Dr. Melih Balcı, böbrek taşlarının oluşum n...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602/",
+      "detail_json_url": "/data/details/articles/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602.webp",
+      "image_alt": "Limonlu su bardağı ve böbrek taşı sembolleri",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602.webp",
+        "alt": "Limonlu su bardağı ve böbrek taşı sembolleri"
+      },
+      "source_name": "Sağlık haberleri - Son dakika sağlık haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/limonlu-su-bobrek-taslarini-dusurur-mu-p324363",
+      "tags": [
+        "böbrek taşı",
+        "limonlu su",
+        "sağlık",
+        "üroloji"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602",
+      "slug": "kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602",
+      "title": "Kanser Aşısı Umut Veriyor: Tümörlerde Küçülme ve Yok Olma Gözlemlendi",
+      "summary": "İngiltere'de Kanser Araştırmaları Enstitüsü öncülüğünde yürütülen OrigAMI-4 çalışmasında, mevcut standart tedavilere yanıt vermeyen 102 baş-boyun kanseri hastasına uygulanan Amivantamab adlı antikor, hastalarda umut verici sonuçlar ortaya koydu. Çalışmada,...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602/",
+      "detail_json_url": "/data/details/articles/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602.webp",
+      "image_alt": "Kanser hücrelerini hedef alan tedavi edici bir antikorun yakın çekim, detaylı görüntüsü.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602.webp",
+        "alt": "Kanser hücrelerini hedef alan tedavi edici bir antikorun yakın çekim, detaylı görüntüsü."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kanser-asisi-mucizesi-tumorleri-kucultup-yok-ediyor-43190088",
+      "tags": [
+        "kanser aşısı",
+        "Amivantamab",
+        "baş-boyun kanseri",
+        "immünoterapi",
+        "tümör tedavisi"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -212,6 +281,40 @@
         "Futbol"
       ],
       "quality_score": 81,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602",
+      "slug": "dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602",
+      "title": "DSÖ'den Kalp Krizini Önlemenin Altın Kuralları Açıklandı",
+      "summary": "Kalp ve damar hastalıkları artık sadece ileri yaş problemi değil. Modern yaşamın getirdiği alışkanlıklar, stres ve hareketsizlik, gençleri de tehdit ediyor. Dünya Sağlık Örgütü (DSÖ) ve ABD Hastalık Kontrol ve Önleme Merkezi (CDC), kalp krizlerini ve damar...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602/",
+      "detail_json_url": "/data/details/articles/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602.webp",
+      "image_alt": "Sağlıklı bir kalp, beslenme ve egzersiz unsurlarıyla korunan bir kalkanla tasvir edilmiştir.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602.webp",
+        "alt": "Sağlıklı bir kalp, beslenme ve egzersiz unsurlarıyla korunan bir kalkanla tasvir edilmiştir."
+      },
+      "source_name": "Sağlık haberleri - Son dakika sağlık haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/dunya-saglik-orgutu-kalp-krizini-baslamadan-bitirmenin-yolunu-acikladi-p324423",
+      "tags": [
+        "kalp krizi",
+        "kalp sağlığı",
+        "DSÖ",
+        "sağlıklı yaşam"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
