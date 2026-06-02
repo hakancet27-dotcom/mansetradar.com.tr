@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oyunlar ve Bulmacalar | Manşet Radar</title>
+  <meta name="description" content="Manşet Radar oyunlar bölümünde mini sudoku, kelime bulmacası ve hafıza kartlarıyla kısa haber molaları verin.">
+  <link rel="canonical" href="https://mansetradar.com.tr/oyunlar/">
+  <meta name="robots" content="index,follow">
+  <style>
+    :root {
+      --red: #e10600;
+      --dark: #111827;
+      --page: #f4f6f8;
+      --card: #ffffff;
+      --border: #e5e7eb;
+      --muted: #667085;
+      --text: #1f2937;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: var(--page);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    a { color: inherit; }
+    .site-header {
+      background: #fff;
+      border-bottom: 3px solid var(--red);
+      box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
+    }
+    .header-inner,
+    .shell {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    .header-inner {
+      min-height: 78px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      font-weight: 900;
+      color: var(--dark);
+    }
+    .brand-mark {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      display: grid;
+      place-items: center;
+      background: var(--red);
+      color: #fff;
+      font-size: 1.35rem;
+    }
+    .nav {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+    .nav a {
+      text-decoration: none;
+      font-weight: 800;
+      padding: 9px 13px;
+      border-radius: 8px;
+    }
+    .nav a.active,
+    .nav a:hover { background: var(--red); color: #fff; }
+    .hero {
+      padding: 38px 0 22px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 28px;
+      align-items: end;
+    }
+    .kicker {
+      color: var(--red);
+      font-size: .78rem;
+      font-weight: 900;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 6px 0 8px;
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+    .hero p {
+      margin: 0;
+      max-width: 680px;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+    .score-card {
+      min-width: 210px;
+      border-radius: 18px;
+      background: var(--dark);
+      color: white;
+      padding: 18px;
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.18);
+    }
+    .score-card span {
+      display: block;
+      color: #cbd5e1;
+      font-size: .78rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+    .score-card strong {
+      display: block;
+      margin-top: 4px;
+      font-size: 2rem;
+    }
+    .games-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      padding-bottom: 46px;
+    }
+    .game-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.07);
+      min-width: 0;
+    }
+    .game-card h2 {
+      margin: 0 0 6px;
+      color: var(--dark);
+      font-size: 1.25rem;
+    }
+    .game-card p {
+      margin: 0 0 16px;
+      color: var(--muted);
+      font-size: .92rem;
+    }
+    .btn {
+      border: 0;
+      border-radius: 999px;
+      padding: 10px 14px;
+      background: var(--red);
+      color: #fff;
+      font-weight: 900;
+      cursor: pointer;
+    }
+    .btn.secondary {
+      background: #eef2f7;
+      color: var(--dark);
+    }
+    .button-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+    .sudoku {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border: 2px solid var(--dark);
+      border-radius: 12px;
+      overflow: hidden;
+      max-width: 300px;
+    }
+    .sudoku input {
+      width: 100%;
+      aspect-ratio: 1;
+      border: 1px solid var(--border);
+      text-align: center;
+      font-size: 1.35rem;
+      font-weight: 900;
+      color: var(--dark);
+      background: #fff;
+    }
+    .sudoku input:nth-child(2n) { border-right-color: var(--dark); }
+    .sudoku input:nth-child(n+5):nth-child(-n+8) { border-bottom-color: var(--dark); }
+    .sudoku input[readonly] {
+      background: #f1f5f9;
+      color: var(--red);
+    }
+    .status {
+      min-height: 22px;
+      margin-top: 12px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+    .word-display {
+      display: inline-flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin: 8px 0 14px;
+    }
+    .word-display span {
+      min-width: 34px;
+      height: 38px;
+      border-radius: 10px;
+      display: grid;
+      place-items: center;
+      background: var(--dark);
+      color: #fff;
+      font-weight: 900;
+      font-size: 1.1rem;
+    }
+    .word-input {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px;
+      font-size: 1rem;
+      font-weight: 800;
+    }
+    .memory-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      max-width: 320px;
+    }
+    .memory-card {
+      aspect-ratio: 1;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: #111827;
+      color: #111827;
+      font-size: 1.45rem;
+      cursor: pointer;
+      transition: transform .16s, background .16s, color .16s;
+    }
+    .memory-card.open,
+    .memory-card.done {
+      background: #fff;
+      color: var(--dark);
+      transform: translateY(-2px);
+    }
+    @media (max-width: 920px) {
+      .hero { grid-template-columns: 1fr; }
+      .score-card { min-width: 0; }
+      .games-grid { grid-template-columns: 1fr; }
+      .header-inner { align-items: flex-start; flex-direction: column; padding: 14px 0; }
+      .nav { justify-content: flex-start; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/" aria-label="Manşet Radar ana sayfa">
+        <span class="brand-mark">H</span>
+        <span>mansetradar.com.tr</span>
+      </a>
+      <nav class="nav" aria-label="Oyun sayfası bağlantıları">
+        <a href="/">Haberler</a>
+        <a href="/video/">Video</a>
+        <a href="/oyunlar/" class="active" aria-current="page">Oyunlar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero" aria-labelledby="page-title">
+      <div>
+        <div class="kicker">Haber Molası</div>
+        <h1 id="page-title">Oyunlar ve Bulmacalar</h1>
+        <p>Günün haber akışına kısa bir ara vermek için hafif, hızlı ve tarayıcıda çalışan bulmacalar.</p>
+      </div>
+      <div class="score-card" aria-live="polite">
+        <span>Bugünkü toplam puan</span>
+        <strong id="total-score">0</strong>
+      </div>
+    </section>
+
+    <section class="games-grid" aria-label="Oyunlar">
+      <article class="game-card">
+        <h2>Mini Sudoku</h2>
+        <p>4x4 tabloyu 1, 2, 3 ve 4 rakamlarıyla satır ve sütunda tekrar olmadan tamamla.</p>
+        <div class="sudoku" id="sudoku-board"></div>
+        <div class="status" id="sudoku-status"></div>
+        <div class="button-row">
+          <button class="btn" type="button" id="sudoku-check">Kontrol Et</button>
+          <button class="btn secondary" type="button" id="sudoku-reset">Sıfırla</button>
+        </div>
+      </article>
+
+      <article class="game-card">
+        <h2>Kelime Karıştırma</h2>
+        <p>Haber gündeminden seçilen kelimenin doğru halini bul.</p>
+        <div class="word-display" id="word-display"></div>
+        <input class="word-input" id="word-input" type="text" autocomplete="off" placeholder="Cevabı yaz">
+        <div class="status" id="word-status"></div>
+        <div class="button-row">
+          <button class="btn" type="button" id="word-check">Kontrol Et</button>
+          <button class="btn secondary" type="button" id="word-next">Yeni Kelime</button>
+        </div>
+      </article>
+
+      <article class="game-card">
+        <h2>Hafıza Kartları</h2>
+        <p>Aynı simgeleri eşleştir. Her doğru eşleşme puan kazandırır.</p>
+        <div class="memory-grid" id="memory-grid"></div>
+        <div class="status" id="memory-status"></div>
+        <div class="button-row">
+          <button class="btn secondary" type="button" id="memory-reset">Yeniden Başlat</button>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script>
+    const scoreEl = document.getElementById('total-score');
+    let totalScore = 0;
+    function addScore(amount) {
+      totalScore += amount;
+      scoreEl.textContent = String(totalScore);
+    }
+
+    const sudokuPuzzle = [1, 0, 0, 4, 0, 4, 1, 0, 0, 1, 4, 0, 4, 0, 0, 2];
+    const sudokuSolution = [1, 2, 3, 4, 3, 4, 1, 2, 2, 1, 4, 3, 4, 3, 2, 1];
+    const sudokuBoard = document.getElementById('sudoku-board');
+    const sudokuStatus = document.getElementById('sudoku-status');
+    function renderSudoku() {
+      sudokuBoard.innerHTML = '';
+      sudokuPuzzle.forEach((value, index) => {
+        const input = document.createElement('input');
+        input.inputMode = 'numeric';
+        input.maxLength = 1;
+        input.dataset.index = index;
+        if (value) {
+          input.value = value;
+          input.readOnly = true;
+          input.setAttribute('aria-label', value + ' sabit');
+        } else {
+          input.setAttribute('aria-label', 'Boş sudoku hücresi');
+          input.addEventListener('input', () => {
+            input.value = input.value.replace(/[^1-4]/g, '').slice(0, 1);
+          });
+        }
+        sudokuBoard.appendChild(input);
+      });
+      sudokuStatus.textContent = '';
+    }
+    document.getElementById('sudoku-check').addEventListener('click', () => {
+      const values = Array.from(sudokuBoard.querySelectorAll('input')).map(input => Number(input.value || 0));
+      const solved = values.every((value, index) => value === sudokuSolution[index]);
+      sudokuStatus.textContent = solved ? 'Tebrikler, sudoku çözüldü.' : 'Bazı hücreler henüz doğru değil.';
+      if (solved && !sudokuBoard.dataset.scored) {
+        sudokuBoard.dataset.scored = '1';
+        addScore(40);
+      }
+    });
+    document.getElementById('sudoku-reset').addEventListener('click', () => {
+      delete sudokuBoard.dataset.scored;
+      renderSudoku();
+    });
+    renderSudoku();
+
+    const words = ['gundem', 'ekonomi', 'teknoloji', 'manset', 'dunya', 'haber'];
+    let currentWord = '';
+    const wordDisplay = document.getElementById('word-display');
+    const wordInput = document.getElementById('word-input');
+    const wordStatus = document.getElementById('word-status');
+    function shuffleWord(word) {
+      const shuffled = word.split('').sort(() => Math.random() - 0.5).join('');
+      return shuffled === word ? word.split('').reverse().join('') : shuffled;
+    }
+    function nextWord() {
+      currentWord = words[Math.floor(Math.random() * words.length)];
+      wordDisplay.innerHTML = shuffleWord(currentWord).split('').map(letter => `<span>${letter.toUpperCase()}</span>`).join('');
+      wordInput.value = '';
+      wordStatus.textContent = '';
+    }
+    document.getElementById('word-check').addEventListener('click', () => {
+      const answer = wordInput.value.trim().toLocaleLowerCase('tr-TR');
+      if (answer === currentWord) {
+        wordStatus.textContent = 'Doğru cevap.';
+        addScore(15);
+        nextWord();
+      } else {
+        wordStatus.textContent = 'Tekrar dene.';
+      }
+    });
+    document.getElementById('word-next').addEventListener('click', nextWord);
+    nextWord();
+
+    const memoryGrid = document.getElementById('memory-grid');
+    const memoryStatus = document.getElementById('memory-status');
+    const symbols = ['📰', '📌', '⚡', '🌍', '📰', '📌', '⚡', '🌍'];
+    let opened = [];
+    let matched = 0;
+    function renderMemory() {
+      matched = 0;
+      opened = [];
+      memoryStatus.textContent = '';
+      memoryGrid.innerHTML = '';
+      symbols.slice().sort(() => Math.random() - 0.5).forEach((symbol, index) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'memory-card';
+        button.dataset.symbol = symbol;
+        button.dataset.index = index;
+        button.textContent = symbol;
+        button.setAttribute('aria-label', 'Kapalı hafıza kartı');
+        button.addEventListener('click', () => openMemory(button));
+        memoryGrid.appendChild(button);
+      });
+    }
+    function openMemory(button) {
+      if (button.classList.contains('done') || button.classList.contains('open') || opened.length === 2) return;
+      button.classList.add('open');
+      opened.push(button);
+      if (opened.length === 2) {
+        const [first, second] = opened;
+        if (first.dataset.symbol === second.dataset.symbol) {
+          first.classList.add('done');
+          second.classList.add('done');
+          opened = [];
+          matched += 1;
+          addScore(10);
+          memoryStatus.textContent = matched === symbols.length / 2 ? 'Tüm kartlar eşleşti.' : 'Eşleşme bulundu.';
+        } else {
+          memoryStatus.textContent = 'Eşleşmedi.';
+          setTimeout(() => {
+            first.classList.remove('open');
+            second.classList.remove('open');
+            opened = [];
+          }, 650);
+        }
+      }
+    }
+    document.getElementById('memory-reset').addEventListener('click', renderMemory);
+    renderMemory();
+  </script>
+</body>
+</html>

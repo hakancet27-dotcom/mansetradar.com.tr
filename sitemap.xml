@@ -46,6 +46,12 @@
     </url>
     <!-- ✅ YENİ: Haberler ana sayfası -->
     <!-- Haber makaleleri buraya otomatik eklenecek -->
+    <url>
+        <loc>https://mansetradar.com.tr/oyunlar/</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
     <!-- SITEMAP_ARTICLES_START -->
     <url>
         <loc>https://mansetradar.com.tr/news/</loc>
