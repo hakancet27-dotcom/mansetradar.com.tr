@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-02T00:00:00+00:00",
-    "article_count": 455,
+    "article_count": 456,
     "schema_version": 2,
     "section": "articles"
   },
@@ -109,6 +109,41 @@
         "Futbol"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602",
+      "slug": "6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602",
+      "title": "6 Belde ve 362 Mahallede 7 Haziran'da Seçim Var",
+      "summary": "Tokat, Gümüşhane ve Nevşehir'de belde statüsü kazanan 6 yerleşim yeri ile yurdun çeşitli bölgelerindeki 362 mahallede 7 Haziran Pazar günü yerel seçimler yapılacak. Yüksek Seçim Kurulu'nun (YSK) kararıyla yapılacak olan bu seçimlerde, 6 beldenin belediye ba...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602/",
+      "detail_json_url": "/data/details/articles/6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602.webp",
+      "image_alt": "Türkiye'de seçim günü bir sandık kurulu önünde oy kullanan seçmenler.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602.webp",
+        "alt": "Türkiye'de seçim günü bir sandık kurulu önünde oy kullanan seçmenler."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/galeri-7-haziranda-secim-var-bu-beldelerde-yasayanlar-sandiga-gidiyor-1726848",
+      "tags": [
+        "yerel seçimler",
+        "YSK",
+        "belde seçimleri",
+        "muhtarlık seçimleri",
+        "7 Haziran"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -664,40 +699,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles:apple-gozluk-pazarina-giriyor-geleneksel-gozluk-sektorunu-hedefliyor_20260601",
-      "slug": "apple-gozluk-pazarina-giriyor-geleneksel-gozluk-sektorunu-hedefliyor_20260601",
-      "title": "Apple'ın Gözlük Pazarına Giriş Stratejisi Belli Oldu",
-      "summary": "Apple'ın uzun süredir üzerinde çalıştığı akıllı gözlük projesinin, yalnızca teknoloji meraklılarını değil, geleneksel gözlük pazarını da hedefleyeceği belirtiliyor. Şirketin 2026 veya 2027'de piyasaya sürmesi beklenen AR özelliği bulunmayan akıllı gözlük mo...",
-      "category": "Son Dakika",
-      "category_slug": "son-dakika",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/apple-gozluk-pazarina-giriyor-geleneksel-gozluk-sektorunu-hedefliyor_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/apple-gozluk-pazarina-giriyor-geleneksel-gozluk-sektorunu-hedefliyor_20260601/",
-      "detail_json_url": "/data/details/articles/apple-gozluk-pazarina-giriyor-geleneksel-gozluk-sektorunu-hedefliyor_20260601.json",
-      "image_url": "https://images.unsplash.com/photo-1707227547719-1438d26b8754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxBcHBsZSUyNyVDNCVCMW4lMjBhayVDNCVCMWxsJUM0JUIxJTIwZyVDMyVCNnpsJUMzJUJDayUyMHBsYW4lQzQlQjElMjB0JUMzJUJDbSUyMHNla3QlQzMlQjZyJUMzJUJDJTIwaGVkZWYlMjBhbCVDNCVCMXlvciUyMEFwcGxlJTIwYWslQzQlQjFsbCVDNCVCMSUyMGclQzMlQjZ6bCVDMyVCQ2t8ZW58MHwwfHx8MTc4MDMzMTgwNnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_alt": "Apple akıllı gözlük modeli",
-      "image": {
-        "url": "https://images.unsplash.com/photo-1707227547719-1438d26b8754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxBcHBsZSUyNyVDNCVCMW4lMjBhayVDNCVCMWxsJUM0JUIxJTIwZyVDMyVCNnpsJUMzJUJDayUyMHBsYW4lQzQlQjElMjB0JUMzJUJDbSUyMHNla3QlQzMlQjZyJUMzJUJDJTIwaGVkZWYlMjBhbCVDNCVCMXlvciUyMEFwcGxlJTIwYWslQzQlQjFsbCVDNCVCMSUyMGclQzMlQjZ6bCVDMyVCQ2t8ZW58MHwwfHx8MTc4MDMzMTgwNnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "alt": "Apple akıllı gözlük modeli"
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/teknoloji/applein-akilli-gozluk-plani-tum-sektoru-hedef-aliyor-7597536",
-      "tags": [
-        "Apple",
-        "Akıllı Gözlük",
-        "Gözlük Pazarı",
-        "Teknoloji"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -802,6 +803,41 @@
         "Futbol"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602",
+      "slug": "6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602",
+      "title": "6 Belde ve 362 Mahallede 7 Haziran'da Seçim Var",
+      "summary": "Tokat, Gümüşhane ve Nevşehir'de belde statüsü kazanan 6 yerleşim yeri ile yurdun çeşitli bölgelerindeki 362 mahallede 7 Haziran Pazar günü yerel seçimler yapılacak. Yüksek Seçim Kurulu'nun (YSK) kararıyla yapılacak olan bu seçimlerde, 6 beldenin belediye ba...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602/",
+      "detail_json_url": "/data/details/articles/6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602.webp",
+      "image_alt": "Türkiye'de seçim günü bir sandık kurulu önünde oy kullanan seçmenler.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602.webp",
+        "alt": "Türkiye'de seçim günü bir sandık kurulu önünde oy kullanan seçmenler."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/galeri-7-haziranda-secim-var-bu-beldelerde-yasayanlar-sandiga-gidiyor-1726848",
+      "tags": [
+        "yerel seçimler",
+        "YSK",
+        "belde seçimleri",
+        "muhtarlık seçimleri",
+        "7 Haziran"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -1525,41 +1561,6 @@
         "Tahliye",
         "California",
         "ABD"
-      ],
-      "quality_score": 70,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:bosna-savasindaki-kapiya-katliami-nin-31-yilinda-kurbanlar-anildi_20260525",
-      "slug": "bosna-savasindaki-kapiya-katliami-nin-31-yilinda-kurbanlar-anildi_20260525",
-      "title": "Bosna Savaşı'ndaki Kapiya Katliamı'nın 31. Yılında Kurbanlar Anıldı",
-      "summary": "Bosna Hersek'teki savaşta ülkenin kuzeydoğusundaki Tuzla kentinde, 25 Mayıs 1995'te Sırplar tarafından yapılan katliamda hayatını kaybeden 71 sivili anma töreni düzenlendi. 25 Mayıs 1995'te meydana gelen katliam, Bosna Savaşı'nın en önemli olaylarından biri...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "25.05.2026",
-      "date_iso": "2026-05-25",
-      "url": "/articles/bosna-savasindaki-kapiya-katliami-nin-31-yilinda-kurbanlar-anildi_20260525/",
-      "canonical_url": "https://mansetradar.com.tr/articles/bosna-savasindaki-kapiya-katliami-nin-31-yilinda-kurbanlar-anildi_20260525/",
-      "detail_json_url": "/data/details/articles/bosna-savasindaki-kapiya-katliami-nin-31-yilinda-kurbanlar-anildi_20260525.json",
-      "image_url": "https://images.unsplash.com/photo-1636041417222-1305988d38a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCb3NuYSUyMFNhdmElQzUlOUYlQzQlQjF8ZW58MHwwfHx8MTc3OTczMTMzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_alt": "Tuzla kentinde anma töreni",
-      "image": {
-        "url": "https://images.unsplash.com/photo-1636041417222-1305988d38a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCb3NuYSUyMFNhdmElQzUlOUYlQzQlQjF8ZW58MHwwfHx8MTc3OTczMTMzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "alt": "Tuzla kentinde anma töreni"
-      },
-      "source_name": "",
-      "source_url": "",
-      "tags": [
-        "Bosna Savaşı",
-        "Kapiya Katliamı",
-        "Tuzla Kenti",
-        "Sırplar",
-        "Anma Töreni"
       ],
       "quality_score": 70,
       "review_status": "published"
