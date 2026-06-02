@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-02T00:00:00+00:00",
-    "article_count": 459,
+    "article_count": 461,
     "schema_version": 2,
     "section": "articles"
   },
@@ -215,6 +215,40 @@
       "review_status": "published"
     },
     {
+      "id": "articles:a-milli-futbol-takimi-abd-ye-gitti-2026-dunya-kupasi_20260602",
+      "slug": "a-milli-futbol-takimi-abd-ye-gitti-2026-dunya-kupasi_20260602",
+      "title": "A Milli Futbol Takımı, 2026 FIFA Dünya Kupası İçin ABD'ye Hareket Etti",
+      "summary": "2026 FIFA Dünya Kupası'nda mücadele edecek A Milli Futbol Takımı, hazırlıklarını sürdürmek üzere ABD'ye ulaştı. Riva Hasan Doğan Milli Takımlar Kamp ve Eğitim Tesisleri'nden hareket eden kafile, İstanbul Havalimanı'ndan kalkan özel uçakla ABD'ye vardı. Mill...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/a-milli-futbol-takimi-abd-ye-gitti-2026-dunya-kupasi_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/a-milli-futbol-takimi-abd-ye-gitti-2026-dunya-kupasi_20260602/",
+      "detail_json_url": "/data/details/articles/a-milli-futbol-takimi-abd-ye-gitti-2026-dunya-kupasi_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/a-milli-futbol-takimi-abd-ye-gitti-2026-dunya-kupasi_20260602.webp",
+      "image_alt": "A Milli Futbol Takımı, 2026 FIFA Dünya Kupası için ABD'ye hareket ederken",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/a-milli-futbol-takimi-abd-ye-gitti-2026-dunya-kupasi_20260602.webp",
+        "alt": "A Milli Futbol Takımı, 2026 FIFA Dünya Kupası için ABD'ye hareket ederken"
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/a-milli-futbol-takimi-abd-ye-gitti-bakan-bak-milli-futbolculari-ugurladi-3888789-spor",
+      "tags": [
+        "A Milli Futbol Takımı",
+        "2026 FIFA Dünya Kupası",
+        "ABD",
+        "Osman Aşkın Bak"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602",
       "slug": "6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602",
       "title": "6 Belde ve 362 Mahallede 7 Haziran'da Seçim Var",
@@ -247,6 +281,40 @@
         "7 Haziran"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602",
+      "slug": "2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602",
+      "title": "2026 FIFA Dünya Kupası C Grubu'nda Brezilya'nın Rakibi Fas, İskoçya ve Haiti",
+      "summary": "2026 FIFA Dünya Kupası'nda Brezilya Milli Takımı, C Grubu'nda Fas, İskoçya ve Haiti ile eşleşti. Turnuva tarihinde tüm finallerde yer alma başarısı gösteren tek takım olan Brezilya, ABD, Kanada ve Meksika'nın ev sahipliği yapacağı dev organizasyona katılma...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602/",
+      "detail_json_url": "/data/details/articles/2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602.webp",
+      "image_alt": "2026 FIFA Dünya Kupası C Grubu'nda Brezilya'nın rakipleri.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602.webp",
+        "alt": "2026 FIFA Dünya Kupası C Grubu'nda Brezilya'nın rakipleri."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/2026-fifa-dunya-kupasinda-c-grubu-brezilya-3888749-spor",
+      "tags": [
+        "FIFA Dünya Kupası",
+        "Brezilya Milli Takımı",
+        "2026 Dünya Kupası",
+        "C Grubu"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -630,74 +698,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles:dunya-kupasi-tarihinin-en-cok-kart-goren-futbolcusu-mascherano_20260601",
-      "slug": "dunya-kupasi-tarihinin-en-cok-kart-goren-futbolcusu-mascherano_20260601",
-      "title": "Dünya Kupası Tarihinin En Çok Kart Gören Oyuncusu Mascherano Oldu",
-      "summary": "Arjantinli futbolcu Javier Mascherano, Dünya Kupası tarihinde gördüğü toplam 7 sarı kartla en çok kart gören oyuncu olarak kayıtlara geçti. Mascherano, 4 turnuvada çıktığı 20 maçta hiç kırmızı kart görmedi.",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/dunya-kupasi-tarihinin-en-cok-kart-goren-futbolcusu-mascherano_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/dunya-kupasi-tarihinin-en-cok-kart-goren-futbolcusu-mascherano_20260601/",
-      "detail_json_url": "/data/details/articles/dunya-kupasi-tarihinin-en-cok-kart-goren-futbolcusu-mascherano_20260601.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/dunya-kupasi-tarihinin-en-cok-kart-goren-futbolcusu-mascherano_20260601.webp",
-      "image_alt": "Javier Mascherano Dünya Kupası maçında sarı kart görürken",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/dunya-kupasi-tarihinin-en-cok-kart-goren-futbolcusu-mascherano_20260601.webp",
-        "alt": "Javier Mascherano Dünya Kupası maçında sarı kart görürken"
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/dunya-kupasi-tarihinin-en-cok-kart-goren-futbolcusu-mascherano-43189644",
-      "tags": [
-        "Javier Mascherano",
-        "Dünya Kupası",
-        "Futbol Rekorları",
-        "Sarı Kart"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601",
-      "slug": "chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601",
-      "title": "CHP'den İşten Çıkarmalarla İlgili Atakan Sönmez Açıklaması",
-      "summary": "CHP Genel Başkanı Kemal Kılıçdaroğlu'nun basın danışmanı Atakan Sönmez, Ankara Bölge İdare Mahkemesi'nin \"mutlak butlan\" kararı sonrası Genel Merkez'de yaşanan işten çıkarmalarla ilgili açıklama yaptı. Sönmez, 24 kişiyi etkileyen fesih nedenlerinin tekrar i...",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601/",
-      "detail_json_url": "/data/details/articles/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601.webp",
-      "image_alt": "CHP Genel Başkanı Kemal Kılıçdaroğlu'nun basın danışmanı Atakan Sönmez, CHP Genel Merkezi'ndeki işten çıkarmalar hakkında...",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/chp-isten-cikarmalar-atakan-sonmez-aciklama_20260601.webp",
-        "alt": "CHP Genel Başkanı Kemal Kılıçdaroğlu'nun basın danışmanı Atakan Sönmez, CHP Genel Merkezi'ndeki işten çıkarmalar hakkında..."
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/turkiye/bircok-kisi-isten-cikarilmisti-chpden-aciklama-geldi-1726692",
-      "tags": [
-        "CHP",
-        "Kemal Kılıçdaroğlu",
-        "Atakan Sönmez",
-        "İşten Çıkarma"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -908,6 +908,40 @@
       "review_status": "published"
     },
     {
+      "id": "articles:a-milli-futbol-takimi-abd-ye-gitti-2026-dunya-kupasi_20260602",
+      "slug": "a-milli-futbol-takimi-abd-ye-gitti-2026-dunya-kupasi_20260602",
+      "title": "A Milli Futbol Takımı, 2026 FIFA Dünya Kupası İçin ABD'ye Hareket Etti",
+      "summary": "2026 FIFA Dünya Kupası'nda mücadele edecek A Milli Futbol Takımı, hazırlıklarını sürdürmek üzere ABD'ye ulaştı. Riva Hasan Doğan Milli Takımlar Kamp ve Eğitim Tesisleri'nden hareket eden kafile, İstanbul Havalimanı'ndan kalkan özel uçakla ABD'ye vardı. Mill...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/a-milli-futbol-takimi-abd-ye-gitti-2026-dunya-kupasi_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/a-milli-futbol-takimi-abd-ye-gitti-2026-dunya-kupasi_20260602/",
+      "detail_json_url": "/data/details/articles/a-milli-futbol-takimi-abd-ye-gitti-2026-dunya-kupasi_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/a-milli-futbol-takimi-abd-ye-gitti-2026-dunya-kupasi_20260602.webp",
+      "image_alt": "A Milli Futbol Takımı, 2026 FIFA Dünya Kupası için ABD'ye hareket ederken",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/a-milli-futbol-takimi-abd-ye-gitti-2026-dunya-kupasi_20260602.webp",
+        "alt": "A Milli Futbol Takımı, 2026 FIFA Dünya Kupası için ABD'ye hareket ederken"
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/a-milli-futbol-takimi-abd-ye-gitti-bakan-bak-milli-futbolculari-ugurladi-3888789-spor",
+      "tags": [
+        "A Milli Futbol Takımı",
+        "2026 FIFA Dünya Kupası",
+        "ABD",
+        "Osman Aşkın Bak"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602",
       "slug": "6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602",
       "title": "6 Belde ve 362 Mahallede 7 Haziran'da Seçim Var",
@@ -940,6 +974,40 @@
         "7 Haziran"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602",
+      "slug": "2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602",
+      "title": "2026 FIFA Dünya Kupası C Grubu'nda Brezilya'nın Rakibi Fas, İskoçya ve Haiti",
+      "summary": "2026 FIFA Dünya Kupası'nda Brezilya Milli Takımı, C Grubu'nda Fas, İskoçya ve Haiti ile eşleşti. Turnuva tarihinde tüm finallerde yer alma başarısı gösteren tek takım olan Brezilya, ABD, Kanada ve Meksika'nın ev sahipliği yapacağı dev organizasyona katılma...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "02.06.2026",
+      "date_iso": "2026-06-02",
+      "url": "/articles/2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602/",
+      "detail_json_url": "/data/details/articles/2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602.webp",
+      "image_alt": "2026 FIFA Dünya Kupası C Grubu'nda Brezilya'nın rakipleri.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602.webp",
+        "alt": "2026 FIFA Dünya Kupası C Grubu'nda Brezilya'nın rakipleri."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/2026-fifa-dunya-kupasinda-c-grubu-brezilya-3888749-spor",
+      "tags": [
+        "FIFA Dünya Kupası",
+        "Brezilya Milli Takımı",
+        "2026 Dünya Kupası",
+        "C Grubu"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -1492,74 +1560,6 @@
         "banka",
         "ihbar",
         "operasyon"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:apple-gozluk-pazarina-giriyor-geleneksel-gozluk-sektorunu-hedefliyor_20260601",
-      "slug": "apple-gozluk-pazarina-giriyor-geleneksel-gozluk-sektorunu-hedefliyor_20260601",
-      "title": "Apple'ın Gözlük Pazarına Giriş Stratejisi Belli Oldu",
-      "summary": "Apple'ın uzun süredir üzerinde çalıştığı akıllı gözlük projesinin, yalnızca teknoloji meraklılarını değil, geleneksel gözlük pazarını da hedefleyeceği belirtiliyor. Şirketin 2026 veya 2027'de piyasaya sürmesi beklenen AR özelliği bulunmayan akıllı gözlük mo...",
-      "category": "Son Dakika",
-      "category_slug": "son-dakika",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/apple-gozluk-pazarina-giriyor-geleneksel-gozluk-sektorunu-hedefliyor_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/apple-gozluk-pazarina-giriyor-geleneksel-gozluk-sektorunu-hedefliyor_20260601/",
-      "detail_json_url": "/data/details/articles/apple-gozluk-pazarina-giriyor-geleneksel-gozluk-sektorunu-hedefliyor_20260601.json",
-      "image_url": "https://images.unsplash.com/photo-1707227547719-1438d26b8754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxBcHBsZSUyNyVDNCVCMW4lMjBhayVDNCVCMWxsJUM0JUIxJTIwZyVDMyVCNnpsJUMzJUJDayUyMHBsYW4lQzQlQjElMjB0JUMzJUJDbSUyMHNla3QlQzMlQjZyJUMzJUJDJTIwaGVkZWYlMjBhbCVDNCVCMXlvciUyMEFwcGxlJTIwYWslQzQlQjFsbCVDNCVCMSUyMGclQzMlQjZ6bCVDMyVCQ2t8ZW58MHwwfHx8MTc4MDMzMTgwNnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_alt": "Apple akıllı gözlük modeli",
-      "image": {
-        "url": "https://images.unsplash.com/photo-1707227547719-1438d26b8754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxBcHBsZSUyNyVDNCVCMW4lMjBhayVDNCVCMWxsJUM0JUIxJTIwZyVDMyVCNnpsJUMzJUJDayUyMHBsYW4lQzQlQjElMjB0JUMzJUJDbSUyMHNla3QlQzMlQjZyJUMzJUJDJTIwaGVkZWYlMjBhbCVDNCVCMXlvciUyMEFwcGxlJTIwYWslQzQlQjFsbCVDNCVCMSUyMGclQzMlQjZ6bCVDMyVCQ2t8ZW58MHwwfHx8MTc4MDMzMTgwNnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "alt": "Apple akıllı gözlük modeli"
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/teknoloji/applein-akilli-gozluk-plani-tum-sektoru-hedef-aliyor-7597536",
-      "tags": [
-        "Apple",
-        "Akıllı Gözlük",
-        "Gözlük Pazarı",
-        "Teknoloji"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601",
-      "slug": "abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601",
-      "title": "ABD'yi Sarsan Göktaşı Patlaması: 300 Ton TNT'ye Eşdeğer Enerji Açığa Çıktı",
-      "summary": "ABD'nin kuzeydoğusunda cumartesi günü yerel saatle 14.06'da atmosfere giren bir göktaşı, Massachusetts'in kuzeydoğusu ile New Hampshire'ın güneydoğusu üzerinde parçalandı. NASA'ya göre, parçalanma sırasında saatte 120 bin kilometreden fazla hızla ilerleyen...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601/",
-      "detail_json_url": "/data/details/articles/abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601.json",
-      "image_url": "https://images.unsplash.com/photo-1583063660574-85ea650eb13f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxHJUMzJUI2a3RhJUM1JTlGJUM0JUIxJTIwQUJEJUUyJTgwJTk5eWklMjBzYXJzdCVDNCVCMSUyMGclQzMlQjZrdGElQzUlOUYlQzQlQjF8ZW58MHwwfHx8MTc4MDMzMzI2NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_alt": "ABD'nin kuzeydoğusunda gökyüzünde parlak bir iz bırakan göktaşı.",
-      "image": {
-        "url": "https://images.unsplash.com/photo-1583063660574-85ea650eb13f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxHJUMzJUI2a3RhJUM1JTlGJUM0JUIxJTIwQUJEJUUyJTgwJTk5eWklMjBzYXJzdCVDNCVCMSUyMGclQzMlQjZrdGElQzUlOUYlQzQlQjF8ZW58MHwwfHx8MTc4MDMzMzI2NHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "alt": "ABD'nin kuzeydoğusunda gökyüzünde parlak bir iz bırakan göktaşı."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/teknoloji/uzay/goktasi-abdyi-sarsti-43189403",
-      "tags": [
-        "göktaşı",
-        "NASA",
-        "ABD",
-        "meteor patlaması"
       ],
       "quality_score": 86,
       "review_status": "published"
