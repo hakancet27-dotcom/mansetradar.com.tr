@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-03T00:00:00+00:00",
-    "article_count": 476,
+    "article_count": 478,
     "schema_version": 2,
     "section": "articles"
   },
@@ -38,6 +38,40 @@
         "cep telefonu yasağı",
         "okul",
         "eğitim"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603",
+      "slug": "nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603",
+      "title": "Nişantaşı'nda Eğlence Mekanına İki Gün Arayla Silahlı Saldırı: 4 Yaralı, 6 Gözaltı",
+      "summary": "İstanbul'un Nişantaşı semtinde bir eğlence mekanına iki gün arayla iki ayrı silahlı saldırı düzenlendi. İlk olayda 3 kişi ayağından yaralanırken, ikinci saldırıda ise bir güvenlik görevlisi kasığından yaralandı. Toplam 4 kişinin yaralandığı olaylarla ilgili...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603/",
+      "detail_json_url": "/data/details/articles/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603.webp",
+      "image_alt": "Nişantaşı'nda silahlı saldırı sonrası polis incelemesi",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603.webp",
+        "alt": "Nişantaşı'nda silahlı saldırı sonrası polis incelemesi"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/nisantasinda-eglence-mekanina-iki-gun-arayla-2-silahli-saldiri-4-kisi-yaralandi-6-supheli-gozaltinda-43191531",
+      "tags": [
+        "Nişantaşı",
+        "Silahlı Saldırı",
+        "Eğlence Mekanı",
+        "Gözaltı"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -142,6 +176,40 @@
         "Callum Turner",
         "Düğün",
         "Magazin Haberleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603",
+      "slug": "basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603",
+      "title": "Başak Gürkan Cinayeti Davasında Kan Donduran İfade: 'Babam Üstüne Oturdu, Bıçaklamaya Başladı'",
+      "summary": "Milli Savunma Bakanlığı'nda sivil memur olarak görev yapan yüksek mühendis Başak Gürkan Arslan'ın geçen yıl 9 Eylül'de kayınpederi Kudret Arslan ve boşanma aşamasındaki eşi Barış Arslan tarafından 5 yaşındaki kızının gözü önünde bıçaklanarak öldürülmesine i...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603/",
+      "detail_json_url": "/data/details/articles/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603.webp",
+      "image_alt": "Mahkeme salonunda duruşma.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603.webp",
+        "alt": "Mahkeme salonunda duruşma."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/basak-gurkan-cinayeti-davasindan-tutuklu-esten-kan-donduran-ifade-babam-ustune-oturdu-bicaklamaya-basladi-43192190",
+      "tags": [
+        "Başak Gürkan Cinayeti",
+        "Barış Arslan",
+        "Kudret Arslan",
+        "Cinayet Davası"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -632,77 +700,6 @@
       ],
       "quality_score": 76,
       "review_status": "published"
-    },
-    {
-      "id": "articles:buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602",
-      "slug": "buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602",
-      "title": "Buca Belediyesi'ne Yolsuzluk Operasyonu: Gözaltı Sayısı 54'e Yükseldi",
-      "summary": "İzmir Cumhuriyet Başsavcılığı'nın yürüttüğü soruşturma kapsamında, Buca Belediyesi ve bağlı birimlerine yönelik düzenlenen operasyonda gözaltı sayısı 54'e yükseldi. Operasyonda Buca Belediye Başkanı Görkem Duman ve eski Buca Belediye Başkanı Erhan Kılıç da...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "02.06.2026",
-      "date_iso": "2026-06-02",
-      "url": "/articles/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602/",
-      "canonical_url": "https://mansetradar.com.tr/articles/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602/",
-      "detail_json_url": "/data/details/articles/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602.webp",
-      "image_alt": "Buca Belediyesi'ne yönelik yolsuzluk operasyonu sırasında polis ekiplerinin belediye binası çevresinde aldığı önlemler.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/buca-belediyesi-yolsuzluk-operasyonu-gozalti-sayisi-yukseldi_20260602.webp",
-        "alt": "Buca Belediyesi'ne yönelik yolsuzluk operasyonu sırasında polis ekiplerinin belediye binası çevresinde aldığı önlemler."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/buca-belediyesine-yonelik-yolsuzluk-operasyonunda-gozalti-sayisi-yukseldi-43190692",
-      "tags": [
-        "Buca Belediyesi",
-        "Yolsuzluk Operasyonu",
-        "Görkem Duman",
-        "Erhan Kılıç",
-        "İzmir"
-      ],
-      "quality_score": 80,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:abd-hurmuz-bogazinda-tankeri-vurdu_20260602",
-      "slug": "abd-hurmuz-bogazinda-tankeri-vurdu_20260602",
-      "title": "ABD, Hürmüz Boğazı'nda Ablukayı Aşmaya Çalışan Tankeri Vurdu",
-      "summary": "ABD Merkez Kuvvetler Komutanlığı (CENTCOM), Hürmüz Boğazı'nda uluslararası sularda seyreden Botsvana bayraklı \"M/T Lexie\" adlı petrol tankerini vurduğunu açıkladı. CENTCOM, tankerin \"abluka tedbirleri\" uygulandığını ve mürettebatının ABD güçlerinin talimatl...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "02.06.2026",
-      "date_iso": "2026-06-02",
-      "url": "/articles/abd-hurmuz-bogazinda-tankeri-vurdu_20260602/",
-      "canonical_url": "https://mansetradar.com.tr/articles/abd-hurmuz-bogazinda-tankeri-vurdu_20260602/",
-      "detail_json_url": "/data/details/articles/abd-hurmuz-bogazinda-tankeri-vurdu_20260602.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/abd-hurmuz-bogazinda-tankeri-vurdu_20260602.webp",
-      "image_alt": "Botsvana bayraklı petrol tankeri Hürmüz Boğazı'nda vuruldu.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/abd-hurmuz-bogazinda-tankeri-vurdu_20260602.webp",
-        "alt": "Botsvana bayraklı petrol tankeri Hürmüz Boğazı'nda vuruldu."
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/dunya/abd-bir-tankeri-daha-hedef-aldi-ablukayi-asmaya-calisan-gemi-vuruldu-1726898",
-      "tags": [
-        "ABD",
-        "İran",
-        "Hürmüz Boğazı",
-        "Petrol Tankeri",
-        "CENTCOM",
-        "Donald Trump"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -736,6 +733,40 @@
         "cep telefonu yasağı",
         "okul",
         "eğitim"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603",
+      "slug": "nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603",
+      "title": "Nişantaşı'nda Eğlence Mekanına İki Gün Arayla Silahlı Saldırı: 4 Yaralı, 6 Gözaltı",
+      "summary": "İstanbul'un Nişantaşı semtinde bir eğlence mekanına iki gün arayla iki ayrı silahlı saldırı düzenlendi. İlk olayda 3 kişi ayağından yaralanırken, ikinci saldırıda ise bir güvenlik görevlisi kasığından yaralandı. Toplam 4 kişinin yaralandığı olaylarla ilgili...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603/",
+      "detail_json_url": "/data/details/articles/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603.webp",
+      "image_alt": "Nişantaşı'nda silahlı saldırı sonrası polis incelemesi",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603.webp",
+        "alt": "Nişantaşı'nda silahlı saldırı sonrası polis incelemesi"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/nisantasinda-eglence-mekanina-iki-gun-arayla-2-silahli-saldiri-4-kisi-yaralandi-6-supheli-gozaltinda-43191531",
+      "tags": [
+        "Nişantaşı",
+        "Silahlı Saldırı",
+        "Eğlence Mekanı",
+        "Gözaltı"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -840,6 +871,40 @@
         "Callum Turner",
         "Düğün",
         "Magazin Haberleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603",
+      "slug": "basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603",
+      "title": "Başak Gürkan Cinayeti Davasında Kan Donduran İfade: 'Babam Üstüne Oturdu, Bıçaklamaya Başladı'",
+      "summary": "Milli Savunma Bakanlığı'nda sivil memur olarak görev yapan yüksek mühendis Başak Gürkan Arslan'ın geçen yıl 9 Eylül'de kayınpederi Kudret Arslan ve boşanma aşamasındaki eşi Barış Arslan tarafından 5 yaşındaki kızının gözü önünde bıçaklanarak öldürülmesine i...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603/",
+      "detail_json_url": "/data/details/articles/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603.webp",
+      "image_alt": "Mahkeme salonunda duruşma.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603.webp",
+        "alt": "Mahkeme salonunda duruşma."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/basak-gurkan-cinayeti-davasindan-tutuklu-esten-kan-donduran-ifade-babam-ustune-oturdu-bicaklamaya-basladi-43192190",
+      "tags": [
+        "Başak Gürkan Cinayeti",
+        "Barış Arslan",
+        "Kudret Arslan",
+        "Cinayet Davası"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1503,74 +1568,6 @@
         "7 Haziran"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602",
-      "slug": "2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602",
-      "title": "2026 FIFA Dünya Kupası C Grubu'nda Brezilya'nın Rakibi Fas, İskoçya ve Haiti",
-      "summary": "2026 FIFA Dünya Kupası'nda Brezilya Milli Takımı, C Grubu'nda Fas, İskoçya ve Haiti ile eşleşti. Turnuva tarihinde tüm finallerde yer alma başarısı gösteren tek takım olan Brezilya, ABD, Kanada ve Meksika'nın ev sahipliği yapacağı dev organizasyona katılma...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "02.06.2026",
-      "date_iso": "2026-06-02",
-      "url": "/articles/2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602/",
-      "detail_json_url": "/data/details/articles/2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602.webp",
-      "image_alt": "2026 FIFA Dünya Kupası C Grubu'nda Brezilya'nın rakipleri.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602.webp",
-        "alt": "2026 FIFA Dünya Kupası C Grubu'nda Brezilya'nın rakipleri."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/2026-fifa-dunya-kupasinda-c-grubu-brezilya-3888749-spor",
-      "tags": [
-        "FIFA Dünya Kupası",
-        "Brezilya Milli Takımı",
-        "2026 Dünya Kupası",
-        "C Grubu"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:sigara-birakma-polikliniklerinde-4-milyon-muayene_20260601",
-      "slug": "sigara-birakma-polikliniklerinde-4-milyon-muayene_20260601",
-      "title": "Sigara Bırakma Polikliniklerinde 4 Milyon Muayene Gerçekleştirildi",
-      "summary": "Sağlık Bakanlığı'ndan yapılan açıklamada, Türkiye genelindeki 1501 sigara bırakma polikliniğinde bugüne kadar toplam 4 milyonu aşan muayene gerçekleştirildiği bildirildi. \"31 Mayıs Dünya Tütünsüz Günü\" dolayısıyla yapılan açıklamada, sigara bırakma poliklin...",
-      "category": "Sağlık",
-      "category_slug": "saglik",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/sigara-birakma-polikliniklerinde-4-milyon-muayene_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/sigara-birakma-polikliniklerinde-4-milyon-muayene_20260601/",
-      "detail_json_url": "/data/details/articles/sigara-birakma-polikliniklerinde-4-milyon-muayene_20260601.json",
-      "image_url": "https://images.unsplash.com/photo-1606377637394-2b0a8506038d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHwxNTAxJTIwc2lnYXJhJTIwYiVDNCVCMXJha21hJTIwcG9saWtsaW5pJUM0JTlGaW5kZSUyMDQlMjBtaWx5b24lMjBtdWF5ZW5lJTIwc2lnYXJhJTIwYiVDNCVCMXJha21hJTIwcG9saWtsaW5pJUM0JTlGaXxlbnwwfDB8fHwxNzgwMzIzNzk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_alt": "Bir doktor, sigara bırakma polikliniğinde bir hastayla konuşuyor.",
-      "image": {
-        "url": "https://images.unsplash.com/photo-1606377637394-2b0a8506038d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHwxNTAxJTIwc2lnYXJhJTIwYiVDNCVCMXJha21hJTIwcG9saWtsaW5pJUM0JTlGaW5kZSUyMDQlMjBtaWx5b24lMjBtdWF5ZW5lJTIwc2lnYXJhJTIwYiVDNCVCMXJha21hJTIwcG9saWtsaW5pJUM0JTlGaXxlbnwwfDB8fHwxNzgwMzIzNzk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "alt": "Bir doktor, sigara bırakma polikliniğinde bir hastayla konuşuyor."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/1501-sigara-birakma-polikliniginde-4-milyon-muayene-43189196",
-      "tags": [
-        "sigara bırakma",
-        "sağlık",
-        "tütünle mücadele",
-        "ALO 171"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]

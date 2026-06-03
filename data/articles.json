@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-03T00:00:00+00:00",
-    "article_count": 476,
+    "article_count": 478,
     "schema_version": 2
   },
   "articles": [
@@ -37,6 +37,40 @@
         "cep telefonu yasağı",
         "okul",
         "eğitim"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603",
+      "slug": "nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603",
+      "title": "Nişantaşı'nda Eğlence Mekanına İki Gün Arayla Silahlı Saldırı: 4 Yaralı, 6 Gözaltı",
+      "summary": "İstanbul'un Nişantaşı semtinde bir eğlence mekanına iki gün arayla iki ayrı silahlı saldırı düzenlendi. İlk olayda 3 kişi ayağından yaralanırken, ikinci saldırıda ise bir güvenlik görevlisi kasığından yaralandı. Toplam 4 kişinin yaralandığı olaylarla ilgili...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603/",
+      "detail_json_url": "/data/details/articles/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603.webp",
+      "image_alt": "Nişantaşı'nda silahlı saldırı sonrası polis incelemesi",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603.webp",
+        "alt": "Nişantaşı'nda silahlı saldırı sonrası polis incelemesi"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/nisantasinda-eglence-mekanina-iki-gun-arayla-2-silahli-saldiri-4-kisi-yaralandi-6-supheli-gozaltinda-43191531",
+      "tags": [
+        "Nişantaşı",
+        "Silahlı Saldırı",
+        "Eğlence Mekanı",
+        "Gözaltı"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -141,6 +175,40 @@
         "Callum Turner",
         "Düğün",
         "Magazin Haberleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603",
+      "slug": "basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603",
+      "title": "Başak Gürkan Cinayeti Davasında Kan Donduran İfade: 'Babam Üstüne Oturdu, Bıçaklamaya Başladı'",
+      "summary": "Milli Savunma Bakanlığı'nda sivil memur olarak görev yapan yüksek mühendis Başak Gürkan Arslan'ın geçen yıl 9 Eylül'de kayınpederi Kudret Arslan ve boşanma aşamasındaki eşi Barış Arslan tarafından 5 yaşındaki kızının gözü önünde bıçaklanarak öldürülmesine i...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603/",
+      "detail_json_url": "/data/details/articles/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603.webp",
+      "image_alt": "Mahkeme salonunda duruşma.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603.webp",
+        "alt": "Mahkeme salonunda duruşma."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/basak-gurkan-cinayeti-davasindan-tutuklu-esten-kan-donduran-ifade-babam-ustune-oturdu-bicaklamaya-basladi-43192190",
+      "tags": [
+        "Başak Gürkan Cinayeti",
+        "Barış Arslan",
+        "Kudret Arslan",
+        "Cinayet Davası"
       ],
       "quality_score": 86,
       "review_status": "published"
