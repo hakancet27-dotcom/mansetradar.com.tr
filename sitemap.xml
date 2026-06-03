@@ -55,21 +55,28 @@
     <!-- SITEMAP_ARTICLES_START -->
     <url>
         <loc>https://mansetradar.com.tr/news/</loc>
-        <lastmod>2026-06-02</lastmod>
+        <lastmod>2026-06-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://mansetradar.com.tr/nachrichten/</loc>
-        <lastmod>2026-06-02</lastmod>
+        <lastmod>2026-06-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://mansetradar.com.tr/oyunlar/</loc>
-        <lastmod>2026-06-02</lastmod>
+        <lastmod>2026-06-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://mansetradar.com.tr/articles/dua-lipa-callum-turner-evlendi_20260603/</loc>
+        <lastmod>2026-06-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image><image:loc>https://mansetradar.com.tr/articles/images/dua-lipa-callum-turner-evlendi_20260603.webp</image:loc></image:image>
     </url>
     <url>
         <loc>https://mansetradar.com.tr/articles/vogue-turkiye-kenan-yildiz-5-kapak_20260602/</loc>
@@ -77,13 +84,6 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image><image:loc>https://mansetradar.com.tr/articles/images/vogue-turkiye-kenan-yildiz-5-kapak_20260602.webp</image:loc></image:image>
-    </url>
-    <url>
-        <loc>https://mansetradar.com.tr/articles/survivor-2026-2-haziran-dokunulmazlik-eleme-adaylari_20260602/</loc>
-        <lastmod>2026-06-02</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-        <image:image><image:loc>https://mansetradar.com.tr/articles/images/survivor-2026-2-haziran-dokunulmazlik-eleme-adaylari_20260602.webp</image:loc></image:image>
     </url>
     <url>
         <loc>https://mansetradar.com.tr/articles/montella-uzuntusu-milli-takim-kuzey-makedonya_20260602/</loc>
@@ -140,6 +140,13 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image><image:loc>https://mansetradar.com.tr/articles/images/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602.webp</image:loc></image:image>
+    </url>
+    <url>
+        <loc>https://mansetradar.com.tr/articles/survivor-2026-2-haziran-dokunulmazlik-eleme-adaylari_20260602/</loc>
+        <lastmod>2026-06-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image><image:loc>https://mansetradar.com.tr/articles/images/survivor-2026-2-haziran-dokunulmazlik-eleme-adaylari_20260602.webp</image:loc></image:image>
     </url>
     <url>
         <loc>https://mansetradar.com.tr/articles/2026-fifa-dunya-kupasi-c-grubu-brezilya_20260602/</loc>
