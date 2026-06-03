@@ -4,8 +4,7 @@
   var sidebar = document.querySelector('.side-headlines');
   if (!sidebar) return;
 
-  var allCards = Array.prototype.slice.call(sidebar.querySelectorAll('.side-headline')).slice(0, 10);
-  if (!allCards.length) return;
+  var allCards = [];
 
   var pageSize = 2;
   var visibleCards = allCards.slice();
@@ -24,6 +23,10 @@
 
   function selectedTopic() {
     return new URLSearchParams(window.location.search).get('kategori') || 'son-dakika';
+  }
+
+  function collectCards() {
+    allCards = Array.prototype.slice.call(sidebar.querySelectorAll('.side-headline')).slice(0, 10);
   }
 
   function eligibleCards() {
@@ -75,6 +78,8 @@
 
   function refresh() {
     stop();
+    collectCards();
+    sidebar.appendChild(status);
     visibleCards = eligibleCards();
     pageCount = Math.max(1, Math.ceil(visibleCards.length / pageSize));
     page = 0;

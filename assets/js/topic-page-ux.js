@@ -131,6 +131,36 @@
     return node;
   }
 
+  var categoryFeedCache = {};
+  var categorySliderTimer = null;
+
+  async function loadCategoryArticles(topic) {
+    if (!topic || topic === 'son-dakika') return [];
+    if (!categoryFeedCache[topic]) {
+      categoryFeedCache[topic] = fetch('/data/categories/' + encodeURIComponent(topic) + '.json', { cache: 'no-store' })
+        .then(function (response) {
+          if (!response.ok) return [];
+          return response.json();
+        })
+        .then(function (payload) {
+          var articles = Array.isArray(payload) ? payload : (payload.articles || []);
+          var seen = new Set();
+          return articles.filter(function (article) {
+            var href = articleUrl(article);
+            var key = articleKey(href);
+            if (!key || seen.has(key) || !(article.title || '').trim()) return false;
+            seen.add(key);
+            return true;
+          });
+        })
+        .catch(function (error) {
+          console.warn('Kategori haberleri yuklenemedi:', error);
+          return [];
+        });
+    }
+    return categoryFeedCache[topic];
+  }
+
   function buildHeroFromFeedCard(source, topic) {
     var sourceLink = source.querySelector('.card-title a[href], .card-image-link[href]');
     var sourceTitle = source.querySelector('.card-title');
@@ -216,6 +246,10 @@
     return article.image_url || article.thumbnail || '';
   }
 
+  function articleDateText(article) {
+    return article.date || article.date_iso || '';
+  }
+
   function articleKey(href) {
     if (!href) return '';
     try {
@@ -282,6 +316,239 @@
     return card;
   }
 
+  function buildHeadlineSlideFromArticle(article, topic, index) {
+    var href = articleUrl(article);
+    var title = (article.title || '').trim();
+    if (!href || !title) return null;
+
+    var slide = makeElement('a', 'headline-slide headline-card topic-card is-json-category-hero');
+    if (index === 0) slide.classList.add('is-active');
+    slide.href = href;
+    slide.dataset.topic = topic;
+    slide.dataset.dynamicCategory = 'true';
+    slide.setAttribute('aria-label', title);
+
+    var imageUrl = articleImageUrl(article);
+    if (imageUrl) {
+      var media = makeElement('div', 'headline-image');
+      var image = document.createElement('img');
+      image.src = imageUrl;
+      image.alt = article.image_alt || (article.image && article.image.alt) || title;
+      image.loading = index === 0 ? 'eager' : 'lazy';
+      if (index === 0) image.setAttribute('fetchpriority', 'high');
+      image.width = 1080;
+      image.height = 720;
+      media.appendChild(image);
+      slide.appendChild(media);
+    } else {
+      var placeholder = makeElement('div', 'headline-placeholder');
+      placeholder.setAttribute('aria-hidden', 'true');
+      placeholder.appendChild(makeElement('span', '', topics[topic].label));
+      slide.appendChild(placeholder);
+    }
+
+    var content = makeElement('div', 'headline-content');
+    var meta = makeElement('div', 'headline-meta');
+    meta.appendChild(makeElement('span', 'headline-tag', 'Öne Çıkan'));
+    meta.appendChild(makeElement('span', 'headline-topic', topics[topic].label));
+    content.appendChild(meta);
+    content.appendChild(makeElement('h3', 'headline-title', title));
+    var date = makeElement('time', 'headline-date', articleDateText(article));
+    if (article.date_iso) date.setAttribute('datetime', article.date_iso);
+    content.appendChild(date);
+    slide.appendChild(content);
+    return slide;
+  }
+
+  function buildSideHeadlineFromArticle(article, topic) {
+    var href = articleUrl(article);
+    var title = (article.title || '').trim();
+    if (!href || !title) return null;
+
+    var card = makeElement('a', 'headline-card side-headline topic-card is-json-category-side');
+    card.href = href;
+    card.dataset.topic = topic;
+    card.dataset.dynamicCategory = 'true';
+    card.setAttribute('aria-label', title);
+
+    var imageUrl = articleImageUrl(article);
+    if (imageUrl) {
+      var media = makeElement('div', 'headline-image');
+      var image = document.createElement('img');
+      image.src = imageUrl;
+      image.alt = article.image_alt || (article.image && article.image.alt) || title;
+      image.loading = 'lazy';
+      image.width = 1080;
+      image.height = 720;
+      media.appendChild(image);
+      card.appendChild(media);
+    } else {
+      var placeholder = makeElement('div', 'headline-placeholder');
+      placeholder.setAttribute('aria-hidden', 'true');
+      placeholder.appendChild(makeElement('span', '', topics[topic].label));
+      card.appendChild(placeholder);
+    }
+
+    var content = makeElement('div', 'headline-content');
+    var meta = makeElement('div', 'headline-meta');
+    meta.appendChild(makeElement('span', 'headline-tag', 'Öne Çıkan'));
+    meta.appendChild(makeElement('span', 'headline-topic', topics[topic].label));
+    content.appendChild(meta);
+    content.appendChild(makeElement('h3', 'headline-title', title));
+    var date = makeElement('time', 'headline-date', articleDateText(article));
+    if (article.date_iso) date.setAttribute('datetime', article.date_iso);
+    content.appendChild(date);
+    card.appendChild(content);
+    return card;
+  }
+
+  function initCategoryHeadlineSlider(slider) {
+    if (!slider) return;
+    var slides = Array.prototype.slice.call(slider.querySelectorAll('.is-json-category-hero'));
+    var controls = slider.querySelector('.slider-controls');
+    var nextBtn = slider.querySelector('[data-slider-next]');
+    var prevBtn = slider.querySelector('[data-slider-prev]');
+    var dotsWrap = slider.querySelector('.slider-dots');
+    var current = 0;
+    var autoPausedUntil = 0;
+    var reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (categorySliderTimer) {
+      window.clearInterval(categorySliderTimer);
+      categorySliderTimer = null;
+    }
+    if (!slides.length) return;
+    if (controls) controls.hidden = slides.length <= 1;
+    if (!dotsWrap) {
+      dotsWrap = makeElement('div', 'slider-dots');
+      dotsWrap.setAttribute('aria-label', 'Manşet sırası');
+      slider.appendChild(dotsWrap);
+    }
+    dotsWrap.hidden = slides.length <= 1;
+    dotsWrap.replaceChildren();
+
+    function pauseAuto(duration) {
+      autoPausedUntil = Date.now() + (duration || 12000);
+    }
+
+    function updateDots() {
+      Array.prototype.slice.call(dotsWrap.querySelectorAll('.slider-dot')).forEach(function (dot, index) {
+        var active = index === current;
+        dot.classList.toggle('is-active', active);
+        dot.setAttribute('aria-current', active ? 'true' : 'false');
+      });
+    }
+
+    function showSlide(nextIndex) {
+      slides[current].classList.remove('is-active');
+      current = (nextIndex + slides.length) % slides.length;
+      slides[current].classList.add('is-active');
+      slider.classList.toggle('has-image-active', Boolean(slides[current].querySelector('.headline-image img')));
+      updateDots();
+    }
+
+    slides.forEach(function (slide, index) {
+      slide.classList.toggle('is-active', index === 0);
+      var dot = makeElement('button', 'slider-dot');
+      dot.type = 'button';
+      dot.setAttribute('aria-label', String(index + 1) + '. manşete geç');
+      dot.addEventListener('click', function () {
+        pauseAuto();
+        showSlide(index);
+      });
+      dotsWrap.appendChild(dot);
+    });
+
+    slider.classList.toggle('has-image-active', Boolean(slides[0].querySelector('.headline-image img')));
+    updateDots();
+
+    if (nextBtn) nextBtn.onclick = function () {
+      pauseAuto();
+      showSlide(current + 1);
+    };
+    if (prevBtn) prevBtn.onclick = function () {
+      pauseAuto();
+      showSlide(current - 1);
+    };
+
+    var touchStartX = 0;
+    var touchDeltaX = 0;
+    slider.ontouchstart = function (event) {
+      if (slides.length <= 1) return;
+      pauseAuto();
+      touchStartX = event.changedTouches[0].clientX;
+      touchDeltaX = 0;
+    };
+    slider.ontouchmove = function (event) {
+      if (slides.length <= 1) return;
+      touchDeltaX = event.changedTouches[0].clientX - touchStartX;
+    };
+    slider.ontouchend = function () {
+      if (slides.length <= 1 || Math.abs(touchDeltaX) < 45) return;
+      pauseAuto();
+      showSlide(touchDeltaX < 0 ? current + 1 : current - 1);
+    };
+
+    if (!reducedMotion && slides.length > 1) {
+      categorySliderTimer = window.setInterval(function () {
+        if (Date.now() < autoPausedUntil) return;
+        showSlide(current + 1);
+      }, 3000);
+    }
+  }
+
+  function renderCategoryShowcase(articles, topic) {
+    var slider = document.querySelector('.headline-slider');
+    var side = document.querySelector('.side-headlines');
+    if (!slider || !side || !articles.length) return;
+
+    var controls = slider.querySelector('.slider-controls');
+    var dots = slider.querySelector('.slider-dots');
+    Array.prototype.slice.call(slider.querySelectorAll('.headline-slide')).forEach(function (slide) {
+      slide.remove();
+    });
+    if (dots) dots.remove();
+
+    articles.slice(0, 20).forEach(function (article, index) {
+      var slide = buildHeadlineSlideFromArticle(article, topic, index);
+      if (slide) slider.insertBefore(slide, controls || null);
+    });
+    initCategoryHeadlineSlider(slider);
+
+    Array.prototype.slice.call(side.querySelectorAll('.side-headline')).forEach(function (card) {
+      card.remove();
+    });
+    var sideArticles = articles.length > 20 ? articles.slice(20, 30) : articles.slice(0, 10);
+    if (sideArticles.length < 10) {
+      var usedSide = new Set(sideArticles.map(function (article) {
+        return articleKey(articleUrl(article));
+      }));
+      articles.some(function (article) {
+        var key = articleKey(articleUrl(article));
+        if (!key || usedSide.has(key)) return false;
+        sideArticles.push(article);
+        usedSide.add(key);
+        return sideArticles.length >= 10;
+      });
+    }
+    sideArticles.forEach(function (article) {
+      var card = buildSideHeadlineFromArticle(article, topic);
+      if (card) side.appendChild(card);
+    });
+    if (typeof window.refreshSideHeadlineRotation === 'function') window.refreshSideHeadlineRotation();
+  }
+
+  async function ensureCategoryShowcase() {
+    var topic = selectedTopic();
+    if (topic === 'son-dakika') return;
+    var slider = document.querySelector('.headline-slider');
+    if (slider && slider.dataset.categoryShowcase === topic) return;
+    var articles = await loadCategoryArticles(topic);
+    if (!articles.length) return;
+    renderCategoryShowcase(articles, topic);
+    if (slider) slider.dataset.categoryShowcase = topic;
+  }
+
   async function hydrateSelectedCategoryFeed() {
     var topic = selectedTopic();
     if (topic === 'son-dakika') return;
@@ -290,10 +557,7 @@
     if (!grid || grid.dataset.categoryHydrated === topic) return;
 
     try {
-      var response = await fetch('/data/categories/' + encodeURIComponent(topic) + '.json', { cache: 'no-store' });
-      if (!response.ok) return;
-      var payload = await response.json();
-      var articles = Array.isArray(payload) ? payload : (payload.articles || []);
+      var articles = await loadCategoryArticles(topic);
       if (!articles.length) return;
 
       var seen = new Set();
@@ -351,7 +615,7 @@
     selected.classList.add('is-active');
     slider.classList.toggle('has-image-active', Boolean(selected.querySelector('.headline-image img')));
     var controls = slider.querySelector('.slider-controls');
-    if (controls) controls.hidden = true;
+    if (controls) controls.hidden = slider.querySelectorAll('.headline-slide:not([hidden])').length <= 1;
   }
 
   function installAccurateCount() {
@@ -391,13 +655,13 @@
   function refreshTopicDisplay() {
     normalizeCategoryLinks();
     repairClearCategoryErrors();
-    ensureCategoryHero();
     installAccurateCount();
     applyCategoryHeading();
     if (typeof window.applyTopicFilter === 'function') window.applyTopicFilter();
     activateCategoryHero();
     if (typeof window.countCards === 'function') window.countCards();
     if (typeof window.refreshSideHeadlineRotation === 'function') window.refreshSideHeadlineRotation();
+    ensureCategoryShowcase();
     hydrateSelectedCategoryFeed();
   }
 
