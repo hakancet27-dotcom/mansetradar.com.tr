@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-03T00:00:00+00:00",
-    "article_count": 493,
+    "article_count": 496,
     "schema_version": 2,
     "section": "articles"
   },
@@ -75,6 +75,42 @@
         "Özgür Özel",
         "Veli Ağbaba",
         "Siyaset"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603",
+      "slug": "trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603",
+      "title": "Trump: İran'la Müzakereler Çok İyi Gidiyor, Anlaşma Hafta Sonu Olabilir",
+      "summary": "ABD Başkanı Donald Trump, İran ile müzakerelerin \"çok çok iyi gittiğini\" ve bir anlaşmanın bu hafta sonu sağlanabileceğini belirtti. Trump, anlaşma durumunda İran'ın nükleer silah geliştirmemeyi kabul edeceğini vurguladı. Ayrıca İsrail-Lübnan gerilimini \"ko...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603/",
+      "detail_json_url": "/data/details/articles/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603.json",
+      "image_url": "https://images.pexels.com/photos/29178431/pexels-photo-29178431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image_alt": "ABD Başkanı Donald Trump, Oval Ofis'te basın mensuplarına açıklama yaparken görülüyor.",
+      "image": {
+        "url": "https://images.pexels.com/photos/29178431/pexels-photo-29178431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "ABD Başkanı Donald Trump, Oval Ofis'te basın mensuplarına açıklama yaparken görülüyor."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/dunya/trump-iranla-muzakerelerin-cok-iyi-gittigini-ve-hafta-sonu-anlasma-saglanabilecegini-belirtti/3955905",
+      "tags": [
+        "İran",
+        "Donald Trump",
+        "Nükleer Anlaşma",
+        "Hürmüz Boğazı",
+        "İsrail",
+        "Lübnan"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -430,6 +466,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles:gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603",
+      "slug": "gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603",
+      "title": "Gazze Barış Planı Uygulanmadı, Vaat Edilen Bağışlar Yapılmadı",
+      "summary": "ABD Başkanı Donald Trump'ın damadı Jared Kushner tarafından açıklanan Gazze barış planının üzerinden 7 ay geçmesine rağmen hala uygulamaya konulamadığı bildirildi. Plan kapsamında Gazze için vadedilen bağışların da yapılmadığı belirtildi. Planın önemli bir...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603/",
+      "detail_json_url": "/data/details/articles/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603.webp",
+      "image_alt": "Gazze Şeridi'nin hava görünümü, hasarlı binalar ve çadırlar, devam eden insani krizi ve durmuş barış çabalarını sembolize...",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603.webp",
+        "alt": "Gazze Şeridi'nin hava görünümü, hasarlı binalar ve çadırlar, devam eden insani krizi ve durmuş barış çabalarını sembolize..."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/dunya/gazze-baris-plani-hala-uygulamaya-girmedi-vadedilen-bagislar-da-yapilmadi-1726965",
+      "tags": [
+        "Gazze Barış Planı",
+        "Donald Trump",
+        "Jared Kushner",
+        "Hamas",
+        "Bağışlar",
+        "Gazze Yeniden Yapılanma"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles:fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603",
       "slug": "fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603",
       "title": "Fetih Kupası İstanbul'da Başladı: Dünyanın En Büyük Sivil Okçuluk Organizasyonu",
@@ -633,76 +705,6 @@
         "Adil Yargılama",
         "Gizli Tanık",
         "Polis Soruşturması"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603",
-      "slug": "abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603",
-      "title": "ABD'de Banka Soygunu Girişimi: FBI Devrede",
-      "summary": "ABD'nin California eyaletine bağlı Bakersfield kentinde bir banka şubesinde bomba tehdidi ve rehine krizi yaşandı. Olay yerine sevk edilen polis ekipleri, bir erkeğin banka içerisinde çok sayıda kişiyle birlikte kendisini binaya kilitlediğini tespit etti. K...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603/",
-      "detail_json_url": "/data/details/articles/abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603.webp",
-      "image_alt": "ABD'nin California eyaletine bağlı Bakersfield kentinde bir banka şubesinde bomba tehdidi ve rehine krizi nedeniyle geniş...",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603.webp",
-        "alt": "ABD'nin California eyaletine bağlı Bakersfield kentinde bir banka şubesinde bomba tehdidi ve rehine krizi nedeniyle geniş..."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/dunya/abdde-bombali-soygun-girisimi-fbi-alarma-gecti-43191314",
-      "tags": [
-        "Bakersfield",
-        "California",
-        "Banka Soygunu",
-        "Rehine Krizi",
-        "FBI"
-      ],
-      "quality_score": 75,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:a-milli-kadin-voleybol-takimi-vnl-yeni-hedefler-2026_20260603",
-      "slug": "a-milli-kadin-voleybol-takimi-vnl-yeni-hedefler-2026_20260603",
-      "title": "A Milli Kadın Voleybol Takımı VNL'de Yeni Hedeflerle Mücadele Edecek",
-      "summary": "Türkiye Voleybol Federasyonu Başkanı Mehmet Akif Üstündağ, A Milli Kadın Voleybol Takımı'nın 2026 FIVB Milletler Ligi'nde (VNL) yeni hedeflerle mücadele edeceğini açıkladı. Üstündağ, takımın geçmiş başarılarla yetinmeyip her turnuvaya yeni hedeflerle çıktığ...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/a-milli-kadin-voleybol-takimi-vnl-yeni-hedefler-2026_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/a-milli-kadin-voleybol-takimi-vnl-yeni-hedefler-2026_20260603/",
-      "detail_json_url": "/data/details/articles/a-milli-kadin-voleybol-takimi-vnl-yeni-hedefler-2026_20260603.json",
-      "image_url": "https://images.pexels.com/photos/31762350/pexels-photo-31762350.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "image_alt": "A Milli Kadın Voleybol Takımı oyuncuları ve Federasyon Başkanı Mehmet Akif Üstündağ, 2026 VNL hedeflerini açıklıyor.",
-      "image": {
-        "url": "https://images.pexels.com/photos/31762350/pexels-photo-31762350.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "alt": "A Milli Kadın Voleybol Takımı oyuncuları ve Federasyon Başkanı Mehmet Akif Üstündağ, 2026 VNL hedeflerini açıklıyor."
-      },
-      "source_name": "Anadolu Ajansı Güncel Haberler",
-      "source_url": "https://www.aa.com.tr/tr/spor/a-milli-kadin-voleybol-takiminin-yeni-vnl-hedefleri/3955027",
-      "tags": [
-        "A Milli Kadın Voleybol Takımı",
-        "Milletler Ligi",
-        "Mehmet Akif Üstündağ",
-        "Voleybol",
-        "Filenin Sultanları"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -781,6 +783,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles:trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603",
+      "slug": "trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603",
+      "title": "Trump: İran'la Müzakereler Çok İyi Gidiyor, Anlaşma Hafta Sonu Olabilir",
+      "summary": "ABD Başkanı Donald Trump, İran ile müzakerelerin \"çok çok iyi gittiğini\" ve bir anlaşmanın bu hafta sonu sağlanabileceğini belirtti. Trump, anlaşma durumunda İran'ın nükleer silah geliştirmemeyi kabul edeceğini vurguladı. Ayrıca İsrail-Lübnan gerilimini \"ko...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603/",
+      "detail_json_url": "/data/details/articles/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603.json",
+      "image_url": "https://images.pexels.com/photos/29178431/pexels-photo-29178431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image_alt": "ABD Başkanı Donald Trump, Oval Ofis'te basın mensuplarına açıklama yaparken görülüyor.",
+      "image": {
+        "url": "https://images.pexels.com/photos/29178431/pexels-photo-29178431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "ABD Başkanı Donald Trump, Oval Ofis'te basın mensuplarına açıklama yaparken görülüyor."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/dunya/trump-iranla-muzakerelerin-cok-iyi-gittigini-ve-hafta-sonu-anlasma-saglanabilecegini-belirtti/3955905",
+      "tags": [
+        "İran",
+        "Donald Trump",
+        "Nükleer Anlaşma",
+        "Hürmüz Boğazı",
+        "İsrail",
+        "Lübnan"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:tbmm-komisyonu-siber-zorbalik-cocuklar-dijital-riskler_20260603",
       "slug": "tbmm-komisyonu-siber-zorbalik-cocuklar-dijital-riskler_20260603",
       "title": "TBMM Komisyonu'nda Siber Zorbalık Uyarısı: Her 5 Çocuktan 1'i Mağdur",
@@ -1131,6 +1169,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles:gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603",
+      "slug": "gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603",
+      "title": "Gazze Barış Planı Uygulanmadı, Vaat Edilen Bağışlar Yapılmadı",
+      "summary": "ABD Başkanı Donald Trump'ın damadı Jared Kushner tarafından açıklanan Gazze barış planının üzerinden 7 ay geçmesine rağmen hala uygulamaya konulamadığı bildirildi. Plan kapsamında Gazze için vadedilen bağışların da yapılmadığı belirtildi. Planın önemli bir...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603/",
+      "detail_json_url": "/data/details/articles/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603.webp",
+      "image_alt": "Gazze Şeridi'nin hava görünümü, hasarlı binalar ve çadırlar, devam eden insani krizi ve durmuş barış çabalarını sembolize...",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603.webp",
+        "alt": "Gazze Şeridi'nin hava görünümü, hasarlı binalar ve çadırlar, devam eden insani krizi ve durmuş barış çabalarını sembolize..."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/dunya/gazze-baris-plani-hala-uygulamaya-girmedi-vadedilen-bagislar-da-yapilmadi-1726965",
+      "tags": [
+        "Gazze Barış Planı",
+        "Donald Trump",
+        "Jared Kushner",
+        "Hamas",
+        "Bağışlar",
+        "Gazze Yeniden Yapılanma"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles:fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603",
       "slug": "fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603",
       "title": "Fetih Kupası İstanbul'da Başladı: Dünyanın En Büyük Sivil Okçuluk Organizasyonu",
@@ -1371,6 +1445,42 @@
         "FBI"
       ],
       "quality_score": 75,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603",
+      "slug": "abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603",
+      "title": "ABD'de Banka Soygunu Girişimi: Rehine Krizi ve FBI Operasyonu",
+      "summary": "ABD'nin California eyaletine bağlı Bakersfield kentinde bir Chase Bank şubesinde salı günü yerel saatle 13.00 sıralarında bomba tehdidi ve rehine krizi yaşandı. Olay yerine çok sayıda güvenlik gücü sevk edilirken, FBI ajanları da operasyona dahil oldu. Kriz...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603/",
+      "detail_json_url": "/data/details/articles/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603.webp",
+      "image_alt": "California'daki bir Chase Bank şubesinin çevresinde konuşlanmış polis, FBI ve acil müdahale ekipleri, geniş güvenlik...",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603.webp",
+        "alt": "California'daki bir Chase Bank şubesinin çevresinde konuşlanmış polis, FBI ve acil müdahale ekipleri, geniş güvenlik..."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/abdde-bombali-soygun-girisimi-fbi-alarma-gecti-43191314",
+      "tags": [
+        "FBI",
+        "Rehine Krizi",
+        "Bakersfield",
+        "California",
+        "Banka Soygunu",
+        "Bomba Tehdidi"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -1473,113 +1583,6 @@
         "1 Milyon TL Getiri",
         "Vadeli Hesap",
         "Ekonomi Haberleri"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:vogue-turkiye-kenan-yildiz-5-kapak_20260602",
-      "slug": "vogue-turkiye-kenan-yildiz-5-kapak_20260602",
-      "title": "Vogue Türkiye'den Tarihi Kapak: Kenan Yıldız 5 Farklı Kapağa Konuk Oldu",
-      "summary": "Vogue Türkiye, başarılı futbolcu Kenan Yıldız ile tarihinde bir ilke imza atarak onu 5 ayrı kapakta okuyucularıyla buluşturdu. Bu özel sayı, Kenan Yıldız'ı Vogue Türkiye'nin ana kapağında yer alan ilk futbolcu ve ilk erkek olarak tarihe geçirdi. Aynı zamand...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "02.06.2026",
-      "date_iso": "2026-06-02",
-      "url": "/articles/vogue-turkiye-kenan-yildiz-5-kapak_20260602/",
-      "canonical_url": "https://mansetradar.com.tr/articles/vogue-turkiye-kenan-yildiz-5-kapak_20260602/",
-      "detail_json_url": "/data/details/articles/vogue-turkiye-kenan-yildiz-5-kapak_20260602.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/vogue-turkiye-kenan-yildiz-5-kapak_20260602.webp",
-      "image_alt": "Kenan Yıldız, Vogue Türkiye'nin Haziran sayısı için çekilen beş farklı kapaktan birinde.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/vogue-turkiye-kenan-yildiz-5-kapak_20260602.webp",
-        "alt": "Kenan Yıldız, Vogue Türkiye'nin Haziran sayısı için çekilen beş farklı kapaktan birinde."
-      },
-      "source_name": "SABAH",
-      "source_url": "https://www.sabah.com.tr/magazin/vogue-turkiye-kenan-yildiz-ile-tarihinde-bir-ilke-imza-atiyor-basarili-futbolcu-5-ayri-kapakla-dunya-moda-ve-spor-gundeminin-merkezinde-7595178",
-      "tags": [
-        "Kenan Yıldız",
-        "Vogue Türkiye",
-        "Moda",
-        "Futbol",
-        "Kapak",
-        "Tarihi An"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602",
-      "slug": "vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602",
-      "title": "Vergi ve SGK Borçları İçin Faiz İndirimi Yolda: Yeni Yapılandırma Geliyor",
-      "summary": "Hazine ve Maliye Bakanlığı, vergi ve Sosyal Güvenlik Kurumu (SGK) prim borçları için yeni bir yapılandırma çalışması başlattı. Mevcut durumda yüzde 39 olan tecil faiz oranının enflasyon koşullarına göre düşürülmesi hedefleniyor. Yeni düzenleme ile zor durum...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "02.06.2026",
-      "date_iso": "2026-06-02",
-      "url": "/articles/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602/",
-      "canonical_url": "https://mansetradar.com.tr/articles/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602/",
-      "detail_json_url": "/data/details/articles/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602.webp",
-      "image_alt": "Vergi ve SGK borçları için faiz indirimi ve yapılandırma müjdesini temsil eden finansal rahatlama grafiği.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602.webp",
-        "alt": "Vergi ve SGK borçları için faiz indirimi ve yapılandırma müjdesini temsil eden finansal rahatlama grafiği."
-      },
-      "source_name": "Cumhuriyet Gazetesi - Ekonomi",
-      "source_url": "https://www.cumhuriyet.com.tr/ekonomi/hazine-ve-maliye-bakanligi-dugmeye-basti-vergi-ve-sgk-borclarinda-faiz-indirimi-yolda-2508642",
-      "tags": [
-        "Vergi yapılandırma",
-        "SGK borç yapılandırma",
-        "Faiz indirimi",
-        "Hazine ve Maliye Bakanlığı"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:survivor-2026-2-haziran-dokunulmazlik-eleme-adaylari_20260602",
-      "slug": "survivor-2026-2-haziran-dokunulmazlik-eleme-adaylari_20260602",
-      "title": "Survivor 2026: 2 Haziran Dokunulmazlığı Kim Kazandı? Eleme Adayları Belli Oldu",
-      "summary": "Survivor 2026'da 2 Haziran Salı akşamı ekrana gelen bölümde haftanın 3. dokunulmazlık oyununu Ünlüler takımı kazandı. Dokunulmazlığı kaybeden Gönüllüler takımı ada konseyinde eleme adayı belirlemek zorunda kalırken, en çok oyu alan Nagihan Karadere haftanın...",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "02.06.2026",
-      "date_iso": "2026-06-02",
-      "url": "/articles/survivor-2026-2-haziran-dokunulmazlik-eleme-adaylari_20260602/",
-      "canonical_url": "https://mansetradar.com.tr/articles/survivor-2026-2-haziran-dokunulmazlik-eleme-adaylari_20260602/",
-      "detail_json_url": "/data/details/articles/survivor-2026-2-haziran-dokunulmazlik-eleme-adaylari_20260602.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/survivor-2026-2-haziran-dokunulmazlik-eleme-adaylari_20260602.webp",
-      "image_alt": "Survivor 2026: 2 Haziran Dokunulmazlığı Kim Kazandı? Eleme Adayları Belli Oldu",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/survivor-2026-2-haziran-dokunulmazlik-eleme-adaylari_20260602.webp",
-        "alt": "Survivor 2026: 2 Haziran Dokunulmazlığı Kim Kazandı? Eleme Adayları Belli Oldu"
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/magazin/2-haziran-2026-survivor-dokunulmazlik-oyununu-kim-kazandi-eleme-adayi-kim-oldu-7598451",
-      "tags": [
-        "Survivor 2026",
-        "Dokunulmazlık Oyunu",
-        "Eleme Adayları",
-        "Nagihan Karadere",
-        "Sude",
-        "Murat Arkın",
-        "Deniz"
       ],
       "quality_score": 86,
       "review_status": "published"

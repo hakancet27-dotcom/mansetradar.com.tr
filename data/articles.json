@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-03T00:00:00+00:00",
-    "article_count": 493,
+    "article_count": 496,
     "schema_version": 2
   },
   "articles": [
@@ -74,6 +74,42 @@
         "Özgür Özel",
         "Veli Ağbaba",
         "Siyaset"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603",
+      "slug": "trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603",
+      "title": "Trump: İran'la Müzakereler Çok İyi Gidiyor, Anlaşma Hafta Sonu Olabilir",
+      "summary": "ABD Başkanı Donald Trump, İran ile müzakerelerin \"çok çok iyi gittiğini\" ve bir anlaşmanın bu hafta sonu sağlanabileceğini belirtti. Trump, anlaşma durumunda İran'ın nükleer silah geliştirmemeyi kabul edeceğini vurguladı. Ayrıca İsrail-Lübnan gerilimini \"ko...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603/",
+      "detail_json_url": "/data/details/articles/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603.json",
+      "image_url": "https://images.pexels.com/photos/29178431/pexels-photo-29178431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image_alt": "ABD Başkanı Donald Trump, Oval Ofis'te basın mensuplarına açıklama yaparken görülüyor.",
+      "image": {
+        "url": "https://images.pexels.com/photos/29178431/pexels-photo-29178431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "ABD Başkanı Donald Trump, Oval Ofis'te basın mensuplarına açıklama yaparken görülüyor."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/dunya/trump-iranla-muzakerelerin-cok-iyi-gittigini-ve-hafta-sonu-anlasma-saglanabilecegini-belirtti/3955905",
+      "tags": [
+        "İran",
+        "Donald Trump",
+        "Nükleer Anlaşma",
+        "Hürmüz Boğazı",
+        "İsrail",
+        "Lübnan"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -429,6 +465,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles:gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603",
+      "slug": "gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603",
+      "title": "Gazze Barış Planı Uygulanmadı, Vaat Edilen Bağışlar Yapılmadı",
+      "summary": "ABD Başkanı Donald Trump'ın damadı Jared Kushner tarafından açıklanan Gazze barış planının üzerinden 7 ay geçmesine rağmen hala uygulamaya konulamadığı bildirildi. Plan kapsamında Gazze için vadedilen bağışların da yapılmadığı belirtildi. Planın önemli bir...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603/",
+      "detail_json_url": "/data/details/articles/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603.webp",
+      "image_alt": "Gazze Şeridi'nin hava görünümü, hasarlı binalar ve çadırlar, devam eden insani krizi ve durmuş barış çabalarını sembolize...",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603.webp",
+        "alt": "Gazze Şeridi'nin hava görünümü, hasarlı binalar ve çadırlar, devam eden insani krizi ve durmuş barış çabalarını sembolize..."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/dunya/gazze-baris-plani-hala-uygulamaya-girmedi-vadedilen-bagislar-da-yapilmadi-1726965",
+      "tags": [
+        "Gazze Barış Planı",
+        "Donald Trump",
+        "Jared Kushner",
+        "Hamas",
+        "Bağışlar",
+        "Gazze Yeniden Yapılanma"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles:fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603",
       "slug": "fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603",
       "title": "Fetih Kupası İstanbul'da Başladı: Dünyanın En Büyük Sivil Okçuluk Organizasyonu",
@@ -669,6 +741,42 @@
         "FBI"
       ],
       "quality_score": 75,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603",
+      "slug": "abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603",
+      "title": "ABD'de Banka Soygunu Girişimi: Rehine Krizi ve FBI Operasyonu",
+      "summary": "ABD'nin California eyaletine bağlı Bakersfield kentinde bir Chase Bank şubesinde salı günü yerel saatle 13.00 sıralarında bomba tehdidi ve rehine krizi yaşandı. Olay yerine çok sayıda güvenlik gücü sevk edilirken, FBI ajanları da operasyona dahil oldu. Kriz...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603/",
+      "detail_json_url": "/data/details/articles/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603.webp",
+      "image_alt": "California'daki bir Chase Bank şubesinin çevresinde konuşlanmış polis, FBI ve acil müdahale ekipleri, geniş güvenlik...",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603.webp",
+        "alt": "California'daki bir Chase Bank şubesinin çevresinde konuşlanmış polis, FBI ve acil müdahale ekipleri, geniş güvenlik..."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/abdde-bombali-soygun-girisimi-fbi-alarma-gecti-43191314",
+      "tags": [
+        "FBI",
+        "Rehine Krizi",
+        "Bakersfield",
+        "California",
+        "Banka Soygunu",
+        "Bomba Tehdidi"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
