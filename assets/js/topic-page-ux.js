@@ -216,19 +216,13 @@
     return article.image_url || article.thumbnail || '';
   }
 
-  function existingArticleHrefs() {
-    var seen = new Set();
-    document.querySelectorAll('.topic-card a[href], a.topic-card[href]').forEach(function (link) {
-      var href = link.getAttribute('href') || '';
-      if (!href) return;
-      try {
-        href = new URL(href, window.location.origin).pathname.replace(/\/+$/, '/') || '/';
-      } catch (error) {
-        href = href.replace(/\/+$/, '/') || '/';
-      }
-      seen.add(href);
-    });
-    return seen;
+  function articleKey(href) {
+    if (!href) return '';
+    try {
+      return new URL(href, window.location.origin).pathname.replace(/\/+$/, '/') || '/';
+    } catch (error) {
+      return href.replace(/\/+$/, '/') || '/';
+    }
   }
 
   function buildCategoryCard(article, topic) {
@@ -302,16 +296,11 @@
       var articles = Array.isArray(payload) ? payload : (payload.articles || []);
       if (!articles.length) return;
 
-      var seen = existingArticleHrefs();
+      var seen = new Set();
       var fragment = document.createDocumentFragment();
       articles.forEach(function (article) {
         var href = articleUrl(article);
-        var key = '';
-        try {
-          key = new URL(href, window.location.origin).pathname.replace(/\/+$/, '/') || '/';
-        } catch (error) {
-          key = href.replace(/\/+$/, '/') || '/';
-        }
+        var key = articleKey(href);
         if (!key || seen.has(key)) return;
         var card = buildCategoryCard(article, topic);
         if (!card) return;
@@ -320,8 +309,10 @@
       });
 
       if (!fragment.childNodes.length) return;
+      grid.innerHTML = '';
       grid.appendChild(fragment);
       grid.dataset.categoryHydrated = topic;
+      grid.dataset.categoryMode = 'json';
 
       if (typeof window.applyTopicFilter === 'function') window.applyTopicFilter();
       if (typeof window.countCards === 'function') window.countCards();
