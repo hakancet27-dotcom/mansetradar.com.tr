@@ -3,11 +3,46 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-03T00:00:00+00:00",
-    "article_count": 487,
+    "article_count": 490,
     "schema_version": 2,
     "section": "articles"
   },
   "hero": [
+    {
+      "id": "articles:turgut-koctan-chp-kurultay-itiraflari-ozel-ve-agbabanin-bilgisi-vardi_20260603",
+      "slug": "turgut-koctan-chp-kurultay-itiraflari-ozel-ve-agbabanin-bilgisi-vardi_20260603",
+      "title": "Turgut Koç'tan CHP Kurultayı İtirafı: 'Özgür Özel ve Veli Ağbaba'nın Bilgisi Vardı'",
+      "summary": "Özgür Özel ve Veli Ağbaba'ya yakınlığıyla bilinen ve geçtiğimiz ay uyuşturucu ve fuhuş soruşturması kapsamında tutuklanan iş insanı Turgut Koç, CHP 38. Olağan Kurultay soruşturması kapsamında savcılığa ifade verdi. Koç, ifadesinde kurultay sürecinde Özgür Ö...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/turgut-koctan-chp-kurultay-itiraflari-ozel-ve-agbabanin-bilgisi-vardi_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/turgut-koctan-chp-kurultay-itiraflari-ozel-ve-agbabanin-bilgisi-vardi_20260603/",
+      "detail_json_url": "/data/details/articles/turgut-koctan-chp-kurultay-itiraflari-ozel-ve-agbabanin-bilgisi-vardi_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/turgut-koctan-chp-kurultay-itiraflari-ozel-ve-agbabanin-bilgisi-vardi_20260603.webp",
+      "image_alt": "İş insanı Turgut Koç, CHP kurultayı soruşturmasında savcılığa ifade verirken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/turgut-koctan-chp-kurultay-itiraflari-ozel-ve-agbabanin-bilgisi-vardi_20260603.webp",
+        "alt": "İş insanı Turgut Koç, CHP kurultayı soruşturmasında savcılığa ifade verirken."
+      },
+      "source_name": "SABAH",
+      "source_url": "https://www.sabah.com.tr/gundem/2026/06/03/turgut-koctan-chp-kurultay-itiraflari-ozel-ve-agbabanin-bilgisi-vardi-delegelere-verilen-rusvetler",
+      "tags": [
+        "Turgut Koç",
+        "CHP Kurultayı",
+        "Özgür Özel",
+        "Veli Ağbaba",
+        "Siyaset"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles:polonya-okul-cep-telefonu-yasagi_20260603",
       "slug": "polonya-okul-cep-telefonu-yasagi_20260603",
@@ -394,6 +429,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603",
+      "slug": "chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603",
+      "title": "İstanbul Soruşturmasında Tutuklanan CHP Kilis İl Başkanı Umut Mehmet Sapan İstifa Etti",
+      "summary": "CHP Kilis İl Başkanı Umut Mehmet Sapan, İstanbul merkezli bir soruşturma kapsamında 11 gün tutuklu kaldıktan sonra tahliye edilmesinin ertesi günü görevinden istifa ettiğini açıkladı. Sapan, istifa gerekçeleri arasında ailevi ve süregelen sağlık sorunlarını...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603/",
+      "detail_json_url": "/data/details/articles/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603.webp",
+      "image_alt": "CHP Kilis İl Başkanı Umut Mehmet Sapan'ın istifa açıklamasının ardından çekilmiş bir portresi.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603.webp",
+        "alt": "CHP Kilis İl Başkanı Umut Mehmet Sapan'ın istifa açıklamasının ardından çekilmiş bir portresi."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/gundem/istanbul-merkezli-sorusturmada-11-gun-tutuklu-kalmisti-chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti-7599017",
+      "tags": [
+        "CHP",
+        "Umut Mehmet Sapan",
+        "Kilis",
+        "İstifa",
+        "Siyaset"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603",
       "slug": "basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603",
       "title": "Başak Gürkan Cinayeti Davasında Kan Donduran İfade: 'Babam Üstüne Oturdu, Bıçaklamaya Başladı'",
@@ -423,6 +493,40 @@
         "Barış Arslan",
         "Kudret Arslan",
         "Cinayet Davası"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603",
+      "slug": "ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603",
+      "title": "Ayhan Bora Kaplan Davasında Sanık Kaplan: \"Sadece Adil Yargılama İstiyoruz\"",
+      "summary": "Ayhan Bora Kaplan suç örgütüne yönelik davada sanık Ayhan Bora Kaplan, \"Kimseden torpil falan istemiyoruz, sadece adil yargılama istiyoruz\" diyerek, operasyonu düzenleyen polisleri, soruşturma savcısını ve eski mahkeme başkanını suçladı. Kaplan, polisler ar...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603/",
+      "detail_json_url": "/data/details/articles/ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603.webp",
+      "image_alt": "Ayhan Bora Kaplan davasında sanık Ayhan Bora Kaplan mahkemede savunma yaparken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603.webp",
+        "alt": "Ayhan Bora Kaplan davasında sanık Ayhan Bora Kaplan mahkemede savunma yaparken."
+      },
+      "source_name": "Cumhuriyet Gazetesi",
+      "source_url": "https://www.cumhuriyet.com.tr/turkiye/ayhan-bora-kaplan-davasi-sanik-kaplan-kimseden-torpil-falan-istemiyoruz-sadece-adil-yargilama-istiyoruz-2509042",
+      "tags": [
+        "Ayhan Bora Kaplan",
+        "Adil Yargılama",
+        "Gizli Tanık",
+        "Polis Soruşturması"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -601,115 +705,44 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles:vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602",
-      "slug": "vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602",
-      "title": "Vergi ve SGK Borçları İçin Faiz İndirimi Yolda: Yeni Yapılandırma Geliyor",
-      "summary": "Hazine ve Maliye Bakanlığı, vergi ve Sosyal Güvenlik Kurumu (SGK) prim borçları için yeni bir yapılandırma çalışması başlattı. Mevcut durumda yüzde 39 olan tecil faiz oranının enflasyon koşullarına göre düşürülmesi hedefleniyor. Yeni düzenleme ile zor durum...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "02.06.2026",
-      "date_iso": "2026-06-02",
-      "url": "/articles/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602/",
-      "canonical_url": "https://mansetradar.com.tr/articles/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602/",
-      "detail_json_url": "/data/details/articles/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602.webp",
-      "image_alt": "Vergi ve SGK borçları için faiz indirimi ve yapılandırma müjdesini temsil eden finansal rahatlama grafiği.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/vergi-sgk-borc-faiz-indirimi-yapilandirma_20260602.webp",
-        "alt": "Vergi ve SGK borçları için faiz indirimi ve yapılandırma müjdesini temsil eden finansal rahatlama grafiği."
-      },
-      "source_name": "Cumhuriyet Gazetesi - Ekonomi",
-      "source_url": "https://www.cumhuriyet.com.tr/ekonomi/hazine-ve-maliye-bakanligi-dugmeye-basti-vergi-ve-sgk-borclarinda-faiz-indirimi-yolda-2508642",
-      "tags": [
-        "Vergi yapılandırma",
-        "SGK borç yapılandırma",
-        "Faiz indirimi",
-        "Hazine ve Maliye Bakanlığı"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:survivor-2026-2-haziran-dokunulmazlik-eleme-adaylari_20260602",
-      "slug": "survivor-2026-2-haziran-dokunulmazlik-eleme-adaylari_20260602",
-      "title": "Survivor 2026: 2 Haziran Dokunulmazlığı Kim Kazandı? Eleme Adayları Belli Oldu",
-      "summary": "Survivor 2026'da 2 Haziran Salı akşamı ekrana gelen bölümde haftanın 3. dokunulmazlık oyununu Ünlüler takımı kazandı. Dokunulmazlığı kaybeden Gönüllüler takımı ada konseyinde eleme adayı belirlemek zorunda kalırken, en çok oyu alan Nagihan Karadere haftanın...",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "02.06.2026",
-      "date_iso": "2026-06-02",
-      "url": "/articles/survivor-2026-2-haziran-dokunulmazlik-eleme-adaylari_20260602/",
-      "canonical_url": "https://mansetradar.com.tr/articles/survivor-2026-2-haziran-dokunulmazlik-eleme-adaylari_20260602/",
-      "detail_json_url": "/data/details/articles/survivor-2026-2-haziran-dokunulmazlik-eleme-adaylari_20260602.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/survivor-2026-2-haziran-dokunulmazlik-eleme-adaylari_20260602.webp",
-      "image_alt": "Survivor 2026: 2 Haziran Dokunulmazlığı Kim Kazandı? Eleme Adayları Belli Oldu",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/survivor-2026-2-haziran-dokunulmazlik-eleme-adaylari_20260602.webp",
-        "alt": "Survivor 2026: 2 Haziran Dokunulmazlığı Kim Kazandı? Eleme Adayları Belli Oldu"
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/magazin/2-haziran-2026-survivor-dokunulmazlik-oyununu-kim-kazandi-eleme-adayi-kim-oldu-7598451",
-      "tags": [
-        "Survivor 2026",
-        "Dokunulmazlık Oyunu",
-        "Eleme Adayları",
-        "Nagihan Karadere",
-        "Sude",
-        "Murat Arkın",
-        "Deniz"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:pankreas-kanseri-tedavisinde-cigir-acyan-yeni-ilac-daraxonrasib_20260602",
-      "slug": "pankreas-kanseri-tedavisinde-cigir-acyan-yeni-ilac-daraxonrasib_20260602",
-      "title": "Pankreas Kanseri Tedavisinde Çığır Açan Yeni İlaç: Daraxonrasib",
-      "summary": "Pankreas kanseri tedavisinde son yılların en dikkat çekici gelişmelerinden biri duyuruldu. Dünyanın en büyük kanser kongresi olan Amerikan Klinik Onkoloji Derneği toplantısında, tıp dünyasında çığır açacak bir pankreas kanseri ilacının Faz-3 sonuçları açıkl...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "02.06.2026",
-      "date_iso": "2026-06-02",
-      "url": "/articles/pankreas-kanseri-tedavisinde-cigir-acyan-yeni-ilac-daraxonrasib_20260602/",
-      "canonical_url": "https://mansetradar.com.tr/articles/pankreas-kanseri-tedavisinde-cigir-acyan-yeni-ilac-daraxonrasib_20260602/",
-      "detail_json_url": "/data/details/articles/pankreas-kanseri-tedavisinde-cigir-acyan-yeni-ilac-daraxonrasib_20260602.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/pankreas-kanseri-tedavisinde-cigir-acyan-yeni-ilac-daraxonrasib_20260602.webp",
-      "image_alt": "Daraxonrasib adlı akıllı ilacın Kras gen mutasyonu üzerindeki etkisini gösteren bilimsel bir illüstrasyon.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/pankreas-kanseri-tedavisinde-cigir-acyan-yeni-ilac-daraxonrasib_20260602.webp",
-        "alt": "Daraxonrasib adlı akıllı ilacın Kras gen mutasyonu üzerindeki etkisini gösteren bilimsel bir illüstrasyon."
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/dunya/kanser-kongresinde-ayakta-alkis-tip-dunyasi-yeni-ilaci-kutluyor-1726837",
-      "tags": [
-        "Pankreas Kanseri",
-        "Daraxonrasib",
-        "Akıllı İlaç",
-        "Kanser Tedavisi",
-        "Sağlık Gelişmeleri"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
     }
   ],
   "latest": [
+    {
+      "id": "articles:turgut-koctan-chp-kurultay-itiraflari-ozel-ve-agbabanin-bilgisi-vardi_20260603",
+      "slug": "turgut-koctan-chp-kurultay-itiraflari-ozel-ve-agbabanin-bilgisi-vardi_20260603",
+      "title": "Turgut Koç'tan CHP Kurultayı İtirafı: 'Özgür Özel ve Veli Ağbaba'nın Bilgisi Vardı'",
+      "summary": "Özgür Özel ve Veli Ağbaba'ya yakınlığıyla bilinen ve geçtiğimiz ay uyuşturucu ve fuhuş soruşturması kapsamında tutuklanan iş insanı Turgut Koç, CHP 38. Olağan Kurultay soruşturması kapsamında savcılığa ifade verdi. Koç, ifadesinde kurultay sürecinde Özgür Ö...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/turgut-koctan-chp-kurultay-itiraflari-ozel-ve-agbabanin-bilgisi-vardi_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/turgut-koctan-chp-kurultay-itiraflari-ozel-ve-agbabanin-bilgisi-vardi_20260603/",
+      "detail_json_url": "/data/details/articles/turgut-koctan-chp-kurultay-itiraflari-ozel-ve-agbabanin-bilgisi-vardi_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/turgut-koctan-chp-kurultay-itiraflari-ozel-ve-agbabanin-bilgisi-vardi_20260603.webp",
+      "image_alt": "İş insanı Turgut Koç, CHP kurultayı soruşturmasında savcılığa ifade verirken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/turgut-koctan-chp-kurultay-itiraflari-ozel-ve-agbabanin-bilgisi-vardi_20260603.webp",
+        "alt": "İş insanı Turgut Koç, CHP kurultayı soruşturmasında savcılığa ifade verirken."
+      },
+      "source_name": "SABAH",
+      "source_url": "https://www.sabah.com.tr/gundem/2026/06/03/turgut-koctan-chp-kurultay-itiraflari-ozel-ve-agbabanin-bilgisi-vardi-delegelere-verilen-rusvetler",
+      "tags": [
+        "Turgut Koç",
+        "CHP Kurultayı",
+        "Özgür Özel",
+        "Veli Ağbaba",
+        "Siyaset"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles:polonya-okul-cep-telefonu-yasagi_20260603",
       "slug": "polonya-okul-cep-telefonu-yasagi_20260603",
@@ -1096,6 +1129,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603",
+      "slug": "chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603",
+      "title": "İstanbul Soruşturmasında Tutuklanan CHP Kilis İl Başkanı Umut Mehmet Sapan İstifa Etti",
+      "summary": "CHP Kilis İl Başkanı Umut Mehmet Sapan, İstanbul merkezli bir soruşturma kapsamında 11 gün tutuklu kaldıktan sonra tahliye edilmesinin ertesi günü görevinden istifa ettiğini açıkladı. Sapan, istifa gerekçeleri arasında ailevi ve süregelen sağlık sorunlarını...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603/",
+      "detail_json_url": "/data/details/articles/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603.webp",
+      "image_alt": "CHP Kilis İl Başkanı Umut Mehmet Sapan'ın istifa açıklamasının ardından çekilmiş bir portresi.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603.webp",
+        "alt": "CHP Kilis İl Başkanı Umut Mehmet Sapan'ın istifa açıklamasının ardından çekilmiş bir portresi."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/gundem/istanbul-merkezli-sorusturmada-11-gun-tutuklu-kalmisti-chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti-7599017",
+      "tags": [
+        "CHP",
+        "Umut Mehmet Sapan",
+        "Kilis",
+        "İstifa",
+        "Siyaset"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603",
       "slug": "basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603",
       "title": "Başak Gürkan Cinayeti Davasında Kan Donduran İfade: 'Babam Üstüne Oturdu, Bıçaklamaya Başladı'",
@@ -1125,6 +1193,40 @@
         "Barış Arslan",
         "Kudret Arslan",
         "Cinayet Davası"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603",
+      "slug": "ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603",
+      "title": "Ayhan Bora Kaplan Davasında Sanık Kaplan: \"Sadece Adil Yargılama İstiyoruz\"",
+      "summary": "Ayhan Bora Kaplan suç örgütüne yönelik davada sanık Ayhan Bora Kaplan, \"Kimseden torpil falan istemiyoruz, sadece adil yargılama istiyoruz\" diyerek, operasyonu düzenleyen polisleri, soruşturma savcısını ve eski mahkeme başkanını suçladı. Kaplan, polisler ar...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603/",
+      "detail_json_url": "/data/details/articles/ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603.webp",
+      "image_alt": "Ayhan Bora Kaplan davasında sanık Ayhan Bora Kaplan mahkemede savunma yaparken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603.webp",
+        "alt": "Ayhan Bora Kaplan davasında sanık Ayhan Bora Kaplan mahkemede savunma yaparken."
+      },
+      "source_name": "Cumhuriyet Gazetesi",
+      "source_url": "https://www.cumhuriyet.com.tr/turkiye/ayhan-bora-kaplan-davasi-sanik-kaplan-kimseden-torpil-falan-istemiyoruz-sadece-adil-yargilama-istiyoruz-2509042",
+      "tags": [
+        "Ayhan Bora Kaplan",
+        "Adil Yargılama",
+        "Gizli Tanık",
+        "Polis Soruşturması"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1477,109 +1579,6 @@
         "üroloji"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602",
-      "slug": "kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602",
-      "title": "Kanser Aşısı Umut Veriyor: Tümörlerde Küçülme ve Yok Olma Gözlemlendi",
-      "summary": "İngiltere'de Kanser Araştırmaları Enstitüsü öncülüğünde yürütülen OrigAMI-4 çalışmasında, mevcut standart tedavilere yanıt vermeyen 102 baş-boyun kanseri hastasına uygulanan Amivantamab adlı antikor, hastalarda umut verici sonuçlar ortaya koydu. Çalışmada,...",
-      "category": "Sağlık",
-      "category_slug": "saglik",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "02.06.2026",
-      "date_iso": "2026-06-02",
-      "url": "/articles/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602/",
-      "canonical_url": "https://mansetradar.com.tr/articles/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602/",
-      "detail_json_url": "/data/details/articles/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602.webp",
-      "image_alt": "Kanser hücrelerini hedef alan tedavi edici bir antikorun yakın çekim, detaylı görüntüsü.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602.webp",
-        "alt": "Kanser hücrelerini hedef alan tedavi edici bir antikorun yakın çekim, detaylı görüntüsü."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/kanser-asisi-mucizesi-tumorleri-kucultup-yok-ediyor-43190088",
-      "tags": [
-        "kanser aşısı",
-        "Amivantamab",
-        "baş-boyun kanseri",
-        "immünoterapi",
-        "tümör tedavisi"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602",
-      "slug": "guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602",
-      "title": "Güney Kore Otomotiv Pazarında Düşüş: Sadece Kia Büyüdü",
-      "summary": "Güney Kore iç pazarındaki ekonomik durgunluk, ülkenin en büyük 5 yerli otomobil üreticisini olumsuz etkiledi. Hyundai, Kia, GM Korea, Renault Korea ve KG Mobility'nin mayıs ayı toplam satışları, üst üste ikinci ayda da düşüş trendini sürdürdü. Toplamda %4,0...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "02.06.2026",
-      "date_iso": "2026-06-02",
-      "url": "/articles/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602/",
-      "canonical_url": "https://mansetradar.com.tr/articles/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602/",
-      "detail_json_url": "/data/details/articles/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602.webp",
-      "image_alt": "Güney Kore otomotiv pazarında düşüş ve Kia'nın büyümesi.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/guney-kore-otomotiv-pazarinda-dusus-sadece-kia-buyudu_20260602.webp",
-        "alt": "Güney Kore otomotiv pazarında düşüş ve Kia'nın büyümesi."
-      },
-      "source_name": "Ekonomi haberleri - Son dakika ekonomi haberleri - Sözcü",
-      "source_url": "https://www.sozcu.com.tr/5-buyuk-markanin-satislari-cakildi-iste-tek-buyuyen-arac-p324556",
-      "tags": [
-        "Güney Kore otomotiv",
-        "araç satışları",
-        "Kia büyüme",
-        "otomotiv sektörü"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602",
-      "slug": "genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602",
-      "title": "Genç Oyuncu Owain Rhys Davies Hayatını Kaybetti",
-      "summary": "Bilinen bir hastalığı olmayan genç oyuncu Owain Rhys Davies'in ani ölümü, sevenlerini hem şoke etti hem de yasa boğdu. Ölüm haberini erkek kardeşi Rhodri ve babası Conway, ortak bir sosyal medya paylaşımıyla duyurdu. Aile, ölümün koşullarıyla ilgili henüz c...",
-      "category": "Son Dakika",
-      "category_slug": "son-dakika",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "02.06.2026",
-      "date_iso": "2026-06-02",
-      "url": "/articles/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602/",
-      "canonical_url": "https://mansetradar.com.tr/articles/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602/",
-      "detail_json_url": "/data/details/articles/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602.webp",
-      "image_alt": "Genç oyuncu Owain Rhys Davies'in üzüntülü bir portresi.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/genc-oyuncu-owain-rhys-davies-hayatini-kaybetti_20260602.webp",
-        "alt": "Genç oyuncu Owain Rhys Davies'in üzüntülü bir portresi."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/kelebek/stil/tv-dunyasini-yasa-bogan-haber-genc-oyuncu-aniden-oldu-43190703",
-      "tags": [
-        "Owain Rhys Davies",
-        "Oyuncu Ölümü",
-        "Ani Ölüm",
-        "TV Dünyası"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]
