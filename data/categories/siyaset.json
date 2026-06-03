@@ -3,11 +3,46 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-03T00:00:00+00:00",
-    "article_count": 490,
+    "article_count": 493,
     "schema_version": 2,
     "category_slug": "siyaset"
   },
   "articles": [
+    {
+      "id": "articles:fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603",
+      "slug": "fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603",
+      "title": "Fetih Kupası İstanbul'da Başladı: Dünyanın En Büyük Sivil Okçuluk Organizasyonu",
+      "summary": "İstanbul'da Okçular Vakfı'nda başlayan Fetih Kupası, dünyanın en büyük sivil okçuluk organizasyonu olarak dikkat çekiyor. Cumhurbaşkanlığı himayelerinde beş gün sürecek etkinliğin açılışına Kültür ve Turizm Bakanı Mehmet Nuri Ersoy, Gençlik ve Spor Bakanı O...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603/",
+      "detail_json_url": "/data/details/articles/fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603.webp",
+      "image_alt": "Fetih Kupası İstanbul'da Başladı: Dünyanın En Büyük Sivil Okçuluk Organizasyonu",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603.webp",
+        "alt": "Fetih Kupası İstanbul'da Başladı: Dünyanın En Büyük Sivil Okçuluk Organizasyonu"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/dunyanin-en-buyuk-sivil-okculuk-organizasyonu-istanbulda-basladi-43192420",
+      "tags": [
+        "Fetih Kupası",
+        "Okçuluk",
+        "Okçular Vakfı",
+        "Mehmet Nuri Ersoy",
+        "İstanbul"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles:6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602",
       "slug": "6-belde-ve-362-mahallede-7-haziranda-secim-var_20260602",
