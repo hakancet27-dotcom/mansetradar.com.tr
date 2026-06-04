@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-04T00:00:00+00:00",
-    "article_count": 517,
+    "article_count": 519,
     "schema_version": 2
   },
   "articles": [
@@ -177,6 +177,41 @@
         "Vitoria SC"
       ],
       "quality_score": 80,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604",
+      "slug": "suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604",
+      "title": "Suudi Arabistan, 2026 FIFA Dünya Kupası'nda H Grubu'nda Mücadele Edecek",
+      "summary": "ABD, Meksika ve Kanada'nın ev sahipliğindeki 2026 FIFA Dünya Kupası'nda H Grubu'nda yer alacak Suudi Arabistan Milli Takımı, tarihinde 7. kez turnuvaya katılacak. İspanya, Uruguay ve Yeşil Burun Adaları ile aynı grupta mücadele edecek olan Suudi Arabistan,...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604/",
+      "detail_json_url": "/data/details/articles/suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604.webp",
+      "image_alt": "Suudi Arabistan Milli Takımı oyuncuları, kaptan Salem Al-Dawsari'nin önderliğinde bir golü kutlarken",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604.webp",
+        "alt": "Suudi Arabistan Milli Takımı oyuncuları, kaptan Salem Al-Dawsari'nin önderliğinde bir golü kutlarken"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/2026-fifa-dunya-kupasinda-h-grubu-suudi-arabistan-43193170",
+      "tags": [
+        "Suudi Arabistan Milli Takımı",
+        "2026 FIFA Dünya Kupası",
+        "Salem Al-Dawsari",
+        "H Grubu",
+        "Futbol"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -420,6 +455,40 @@
         "COMPUTEX 2026"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:misir-2026-fifa-dunya-kupasi-g-grubu_20260604",
+      "slug": "misir-2026-fifa-dunya-kupasi-g-grubu_20260604",
+      "title": "Mısır, 2026 FIFA Dünya Kupası'nda G Grubu'nda Mücadele Edecek",
+      "summary": "ABD, Meksika ve Kanada'nın ev sahipliği yapacağı 2026 FIFA Dünya Kupası'nda mücadele edecek Mısır Milli Takımı, G Grubu'nda Belçika, İran ve Yeni Zelanda ile karşılaşacak. Bu turnuva, Mısır'ın Dünya Kupası tarihindeki dördüncü katılımı olacak. Mısır, Afrika...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/misir-2026-fifa-dunya-kupasi-g-grubu_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/misir-2026-fifa-dunya-kupasi-g-grubu_20260604/",
+      "detail_json_url": "/data/details/articles/misir-2026-fifa-dunya-kupasi-g-grubu_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/misir-2026-fifa-dunya-kupasi-g-grubu_20260604.webp",
+      "image_alt": "Mısır Milli Takımı'nın 2026 FIFA Dünya Kupası'ndaki temsili görseli.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/misir-2026-fifa-dunya-kupasi-g-grubu_20260604.webp",
+        "alt": "Mısır Milli Takımı'nın 2026 FIFA Dünya Kupası'ndaki temsili görseli."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/2026-fifa-dunya-kupasinda-g-grubu-misir-43193177",
+      "tags": [
+        "2026 FIFA Dünya Kupası",
+        "Mısır Milli Takımı",
+        "G Grubu",
+        "Futbol"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {

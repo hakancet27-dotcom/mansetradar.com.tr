@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-04T00:00:00+00:00",
-    "article_count": 517,
+    "article_count": 519,
     "schema_version": 2,
     "section": "articles"
   },
@@ -178,6 +178,41 @@
         "Vitoria SC"
       ],
       "quality_score": 80,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604",
+      "slug": "suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604",
+      "title": "Suudi Arabistan, 2026 FIFA Dünya Kupası'nda H Grubu'nda Mücadele Edecek",
+      "summary": "ABD, Meksika ve Kanada'nın ev sahipliğindeki 2026 FIFA Dünya Kupası'nda H Grubu'nda yer alacak Suudi Arabistan Milli Takımı, tarihinde 7. kez turnuvaya katılacak. İspanya, Uruguay ve Yeşil Burun Adaları ile aynı grupta mücadele edecek olan Suudi Arabistan,...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604/",
+      "detail_json_url": "/data/details/articles/suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604.webp",
+      "image_alt": "Suudi Arabistan Milli Takımı oyuncuları, kaptan Salem Al-Dawsari'nin önderliğinde bir golü kutlarken",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604.webp",
+        "alt": "Suudi Arabistan Milli Takımı oyuncuları, kaptan Salem Al-Dawsari'nin önderliğinde bir golü kutlarken"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/2026-fifa-dunya-kupasinda-h-grubu-suudi-arabistan-43193170",
+      "tags": [
+        "Suudi Arabistan Milli Takımı",
+        "2026 FIFA Dünya Kupası",
+        "Salem Al-Dawsari",
+        "H Grubu",
+        "Futbol"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -421,6 +456,40 @@
         "COMPUTEX 2026"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:misir-2026-fifa-dunya-kupasi-g-grubu_20260604",
+      "slug": "misir-2026-fifa-dunya-kupasi-g-grubu_20260604",
+      "title": "Mısır, 2026 FIFA Dünya Kupası'nda G Grubu'nda Mücadele Edecek",
+      "summary": "ABD, Meksika ve Kanada'nın ev sahipliği yapacağı 2026 FIFA Dünya Kupası'nda mücadele edecek Mısır Milli Takımı, G Grubu'nda Belçika, İran ve Yeni Zelanda ile karşılaşacak. Bu turnuva, Mısır'ın Dünya Kupası tarihindeki dördüncü katılımı olacak. Mısır, Afrika...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/misir-2026-fifa-dunya-kupasi-g-grubu_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/misir-2026-fifa-dunya-kupasi-g-grubu_20260604/",
+      "detail_json_url": "/data/details/articles/misir-2026-fifa-dunya-kupasi-g-grubu_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/misir-2026-fifa-dunya-kupasi-g-grubu_20260604.webp",
+      "image_alt": "Mısır Milli Takımı'nın 2026 FIFA Dünya Kupası'ndaki temsili görseli.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/misir-2026-fifa-dunya-kupasi-g-grubu_20260604.webp",
+        "alt": "Mısır Milli Takımı'nın 2026 FIFA Dünya Kupası'ndaki temsili görseli."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/2026-fifa-dunya-kupasinda-g-grubu-misir-43193177",
+      "tags": [
+        "2026 FIFA Dünya Kupası",
+        "Mısır Milli Takımı",
+        "G Grubu",
+        "Futbol"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -633,75 +702,6 @@
       ],
       "quality_score": 76,
       "review_status": "published"
-    },
-    {
-      "id": "articles:chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604",
-      "slug": "chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604",
-      "title": "Chikungunya Virüsü Avrupa ve Kuzey Amerika'ya Yayılabilir: İklim Değişikliği Tehlikesi",
-      "summary": "Çin'deki Zhejiang Çin Tıp Üniversitesi tarafından yapılan yeni bir araştırma, iklim değişikliğinin neden olduğu sıcaklık artışları nedeniyle Chikungunya virüsünün Avrupa ve Kuzey Amerika'daki büyük şehirlere sıçrama riskinin arttığını ortaya koydu. 'Eklemle...",
-      "category": "Sağlık",
-      "category_slug": "saglik",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "04.06.2026",
-      "date_iso": "2026-06-04",
-      "url": "/articles/chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604/",
-      "canonical_url": "https://mansetradar.com.tr/articles/chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604/",
-      "detail_json_url": "/data/details/articles/chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604.webp",
-      "image_alt": "Chikungunya virüsünün yayılma riski altındaki dünya haritası, sivrisinek ve iklim değişikliği unsurlarıyla.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604.webp",
-        "alt": "Chikungunya virüsünün yayılma riski altındaki dünya haritası, sivrisinek ve iklim değişikliği unsurlarıyla."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/aile/yataga-mahkum-eden-gizli-tehlike-kapimiza-dayandi-dunyanin-en-buyuk-metropolleri-buyuk-risk-altinda-43186470",
-      "tags": [
-        "Chikungunya",
-        "İklim Değişikliği",
-        "Sivrisinek",
-        "Sağlık Riski",
-        "Virüs Yayılımı"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:anayasa-mahkemesi-suresiz-nafakayi-iptal-etti-simdi-ne-olacak_20260604",
-      "slug": "anayasa-mahkemesi-suresiz-nafakayi-iptal-etti-simdi-ne-olacak_20260604",
-      "title": "Anayasa Mahkemesi Süresiz Nafakayı İptal Etti: Yeni Dönem Başlıyor",
-      "summary": "Anayasa Mahkemesi (AYM), uzun süredir tartışılan süresiz nafaka uygulamasını iptal etti. Antalya 12. Aile Mahkemesi'nin başvurusu üzerine esastan görüşülen konu karara bağlandı. AYM, Türk Medeni Kanunu'nun 175. maddesinde yer alan yoksulluk nafakasının süre...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "04.06.2026",
-      "date_iso": "2026-06-04",
-      "url": "/articles/anayasa-mahkemesi-suresiz-nafakayi-iptal-etti-simdi-ne-olacak_20260604/",
-      "canonical_url": "https://mansetradar.com.tr/articles/anayasa-mahkemesi-suresiz-nafakayi-iptal-etti-simdi-ne-olacak_20260604/",
-      "detail_json_url": "/data/details/articles/anayasa-mahkemesi-suresiz-nafakayi-iptal-etti-simdi-ne-olacak_20260604.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/anayasa-mahkemesi-suresiz-nafakayi-iptal-etti-simdi-ne-olacak_20260604.webp",
-      "image_alt": "Anayasa Mahkemesi'nin süresiz nafaka kararını simgeleyen mahkeme salonu.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/anayasa-mahkemesi-suresiz-nafakayi-iptal-etti-simdi-ne-olacak_20260604.webp",
-        "alt": "Anayasa Mahkemesi'nin süresiz nafaka kararını simgeleyen mahkeme salonu."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/suresiz-nafakaya-iptal-simdi-ne-olacak-iste-tum-merak-edilenler-6-soru-6-yanit-43192977",
-      "tags": [
-        "süresiz nafaka",
-        "Anayasa Mahkemesi",
-        "nafaka iptali",
-        "yoksulluk nafakası"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -875,6 +875,41 @@
         "Vitoria SC"
       ],
       "quality_score": 80,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604",
+      "slug": "suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604",
+      "title": "Suudi Arabistan, 2026 FIFA Dünya Kupası'nda H Grubu'nda Mücadele Edecek",
+      "summary": "ABD, Meksika ve Kanada'nın ev sahipliğindeki 2026 FIFA Dünya Kupası'nda H Grubu'nda yer alacak Suudi Arabistan Milli Takımı, tarihinde 7. kez turnuvaya katılacak. İspanya, Uruguay ve Yeşil Burun Adaları ile aynı grupta mücadele edecek olan Suudi Arabistan,...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604/",
+      "detail_json_url": "/data/details/articles/suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604.webp",
+      "image_alt": "Suudi Arabistan Milli Takımı oyuncuları, kaptan Salem Al-Dawsari'nin önderliğinde bir golü kutlarken",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/suudi-arabistan-2026-dunya-kupasinda-h-grubunda_20260604.webp",
+        "alt": "Suudi Arabistan Milli Takımı oyuncuları, kaptan Salem Al-Dawsari'nin önderliğinde bir golü kutlarken"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/2026-fifa-dunya-kupasinda-h-grubu-suudi-arabistan-43193170",
+      "tags": [
+        "Suudi Arabistan Milli Takımı",
+        "2026 FIFA Dünya Kupası",
+        "Salem Al-Dawsari",
+        "H Grubu",
+        "Futbol"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -1118,6 +1153,40 @@
         "COMPUTEX 2026"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:misir-2026-fifa-dunya-kupasi-g-grubu_20260604",
+      "slug": "misir-2026-fifa-dunya-kupasi-g-grubu_20260604",
+      "title": "Mısır, 2026 FIFA Dünya Kupası'nda G Grubu'nda Mücadele Edecek",
+      "summary": "ABD, Meksika ve Kanada'nın ev sahipliği yapacağı 2026 FIFA Dünya Kupası'nda mücadele edecek Mısır Milli Takımı, G Grubu'nda Belçika, İran ve Yeni Zelanda ile karşılaşacak. Bu turnuva, Mısır'ın Dünya Kupası tarihindeki dördüncü katılımı olacak. Mısır, Afrika...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/misir-2026-fifa-dunya-kupasi-g-grubu_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/misir-2026-fifa-dunya-kupasi-g-grubu_20260604/",
+      "detail_json_url": "/data/details/articles/misir-2026-fifa-dunya-kupasi-g-grubu_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/misir-2026-fifa-dunya-kupasi-g-grubu_20260604.webp",
+      "image_alt": "Mısır Milli Takımı'nın 2026 FIFA Dünya Kupası'ndaki temsili görseli.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/misir-2026-fifa-dunya-kupasi-g-grubu_20260604.webp",
+        "alt": "Mısır Milli Takımı'nın 2026 FIFA Dünya Kupası'ndaki temsili görseli."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/2026-fifa-dunya-kupasinda-g-grubu-misir-43193177",
+      "tags": [
+        "2026 FIFA Dünya Kupası",
+        "Mısır Milli Takımı",
+        "G Grubu",
+        "Futbol"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -1503,77 +1572,6 @@
         "Siyaset"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603",
-      "slug": "trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603",
-      "title": "Trump: İran'la Müzakereler Çok İyi Gidiyor, Anlaşma Hafta Sonu Olabilir",
-      "summary": "ABD Başkanı Donald Trump, İran ile müzakerelerin \"çok çok iyi gittiğini\" ve bir anlaşmanın bu hafta sonu sağlanabileceğini belirtti. Trump, anlaşma durumunda İran'ın nükleer silah geliştirmemeyi kabul edeceğini vurguladı. Ayrıca İsrail-Lübnan gerilimini \"ko...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603/",
-      "detail_json_url": "/data/details/articles/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603.json",
-      "image_url": "https://images.pexels.com/photos/29178431/pexels-photo-29178431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "image_alt": "ABD Başkanı Donald Trump, Oval Ofis'te basın mensuplarına açıklama yaparken görülüyor.",
-      "image": {
-        "url": "https://images.pexels.com/photos/29178431/pexels-photo-29178431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "alt": "ABD Başkanı Donald Trump, Oval Ofis'te basın mensuplarına açıklama yaparken görülüyor."
-      },
-      "source_name": "Anadolu Ajansı Güncel Haberler",
-      "source_url": "https://www.aa.com.tr/tr/dunya/trump-iranla-muzakerelerin-cok-iyi-gittigini-ve-hafta-sonu-anlasma-saglanabilecegini-belirtti/3955905",
-      "tags": [
-        "İran",
-        "Donald Trump",
-        "Nükleer Anlaşma",
-        "Hürmüz Boğazı",
-        "İsrail",
-        "Lübnan"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:tbmm-komisyonu-siber-zorbalik-cocuklar-dijital-riskler_20260603",
-      "slug": "tbmm-komisyonu-siber-zorbalik-cocuklar-dijital-riskler_20260603",
-      "title": "TBMM Komisyonu'nda Siber Zorbalık Uyarısı: Her 5 Çocuktan 1'i Mağdur",
-      "summary": "TBMM Okul Saldırılarının Nedenlerini Araştırma Komisyonu, akademisyenleri dinledi. Toplantıda, Türkiye'de her 5 çocuktan 1'inin siber zorbalığa maruz kaldığı ve çocukların fiziksel kavgadan çok siber zorbalıktan korktuğu belirtildi.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/tbmm-komisyonu-siber-zorbalik-cocuklar-dijital-riskler_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/tbmm-komisyonu-siber-zorbalik-cocuklar-dijital-riskler_20260603/",
-      "detail_json_url": "/data/details/articles/tbmm-komisyonu-siber-zorbalik-cocuklar-dijital-riskler_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/tbmm-komisyonu-siber-zorbalik-cocuklar-dijital-riskler_20260603.webp",
-      "image_alt": "TBMM Komisyonu'nda Siber Zorbalık Uyarısı: Her 5 Çocuktan 1'i Mağdur",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/tbmm-komisyonu-siber-zorbalik-cocuklar-dijital-riskler_20260603.webp",
-        "alt": "TBMM Komisyonu'nda Siber Zorbalık Uyarısı: Her 5 Çocuktan 1'i Mağdur"
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/turkiye/okul-saldirilarini-arastirma-komisyonunda-akademisyenler-dinlendi-her-5-cocuktan-1i-siber-zorbaliga-maruz-kaliyor-1727054",
-      "tags": [
-        "Siber Zorbalık",
-        "TBMM",
-        "Dijital Riskler",
-        "Çocuklar",
-        "Okul Saldırıları"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]
