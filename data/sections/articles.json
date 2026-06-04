@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-04T00:00:00+00:00",
-    "article_count": 522,
+    "article_count": 525,
     "schema_version": 2,
     "section": "articles"
   },
@@ -142,6 +142,40 @@
         "Ekonomik İşbirliği",
         "HEK Protokolü",
         "Orta Koridor"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:turkiye-rekor-sicaklar-el-nino-temmuz-agustos_20260604",
+      "slug": "turkiye-rekor-sicaklar-el-nino-temmuz-agustos_20260604",
+      "title": "Türkiye'ye Afrika'dan Rekor Sıcaklar Geliyor: İstanbul'da 38 Derece Bekleniyor",
+      "summary": "Afrika üzerinden gelen sıcak hava dalgası Türkiye'yi etkisi altına almaya hazırlanıyor. Meteoroloji Uzmanı Dr. Güven Özdemir, bazı bölgelerde sıcaklıkların 40 dereceyi aşabileceği uyarısında bulunurken, İstanbul için 36-38 derecelik sıcaklıklar öngördü. Özd...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/turkiye-rekor-sicaklar-el-nino-temmuz-agustos_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/turkiye-rekor-sicaklar-el-nino-temmuz-agustos_20260604/",
+      "detail_json_url": "/data/details/articles/turkiye-rekor-sicaklar-el-nino-temmuz-agustos_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/turkiye-rekor-sicaklar-el-nino-temmuz-agustos_20260604.webp",
+      "image_alt": "Türkiye'ye Afrika'dan Rekor Sıcaklar Geliyor: İstanbul'da 38 Derece Bekleniyor",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/turkiye-rekor-sicaklar-el-nino-temmuz-agustos_20260604.webp",
+        "alt": "Türkiye'ye Afrika'dan Rekor Sıcaklar Geliyor: İstanbul'da 38 Derece Bekleniyor"
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/son-dakika-haberi-bu-yaz-rekor-uzerine-rekor-gelecek-temmuz-agustos-ates-gibi-3889223",
+      "tags": [
+        "Sıcak hava dalgası",
+        "El Nino",
+        "İstanbul hava durumu",
+        "Dr. Güven Özdemir"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -528,6 +562,40 @@
       "review_status": "published"
     },
     {
+      "id": "articles:milyonluk-haci-baba-dolandiriciliginda-karar-3-saniga-42ser-yil-hapis_20260604",
+      "slug": "milyonluk-haci-baba-dolandiriciliginda-karar-3-saniga-42ser-yil-hapis_20260604",
+      "title": "Milyonluk 'Hacı Baba' Dolandırıcılığında Karar: 3 Sanığa 42'şer Yıl Hapis",
+      "summary": "Kocaeli'de, dini inanç ve duyguları istismar ederek vatandaşları yaklaşık 2 milyon lira dolandıran bir dolandırıcılık şebekesiyle ilgili davada karar çıktı. Mahkeme, 'hacı baba' adı altında insanları kandıran 3 sanığa toplamda 42'şer yıl hapis cezası verdi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/milyonluk-haci-baba-dolandiriciliginda-karar-3-saniga-42ser-yil-hapis_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/milyonluk-haci-baba-dolandiriciliginda-karar-3-saniga-42ser-yil-hapis_20260604/",
+      "detail_json_url": "/data/details/articles/milyonluk-haci-baba-dolandiriciliginda-karar-3-saniga-42ser-yil-hapis_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/milyonluk-haci-baba-dolandiriciliginda-karar-3-saniga-42ser-yil-hapis_20260604.webp",
+      "image_alt": "Mahkeme salonunda adalet ve yargılamayı simgeleyen bir sahne.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/milyonluk-haci-baba-dolandiriciliginda-karar-3-saniga-42ser-yil-hapis_20260604.webp",
+        "alt": "Mahkeme salonunda adalet ve yargılamayı simgeleyen bir sahne."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/milyonlarca-liralik-haci-baba-vurgununda-karar-cikti-3-saniga-42ser-yil-hapis-cezasi-43193582",
+      "tags": [
+        "dolandırıcılık",
+        "hapis cezası",
+        "hacı baba",
+        "Kocaeli"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:mehmet-akif-ersoy-iddianamesi-mahkemeden-geri-dondu_20260604",
       "slug": "mehmet-akif-ersoy-iddianamesi-mahkemeden-geri-dondu_20260604",
       "title": "Mehmet Akif Ersoy Hakkındaki İddianame Mahkemeden Geri Döndü",
@@ -699,6 +767,41 @@
         "Bodrum"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:futbolcu-ugurcan-bekci-cinayetinde-yasadisi-bahis-iddiasi_20260604",
+      "slug": "futbolcu-ugurcan-bekci-cinayetinde-yasadisi-bahis-iddiasi_20260604",
+      "title": "Futbolcu Uğurcan Bekçi Cinayetinde Yeni Gelişme: Yasadışı Bahis İddiası",
+      "summary": "Kocaeli'de 17 Aralık 2025'te meydana gelen ve futbolcu Uğurcan Bekçi'nin hayatını kaybettiği silahlı kavgaya ilişkin davada yeni bir gelişme yaşandı. Davanın ilk duruşmasında sanık Ertuğrul S., olayın başlangıcının yasadışı bahis faaliyetleri ve para anlaşm...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/futbolcu-ugurcan-bekci-cinayetinde-yasadisi-bahis-iddiasi_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/futbolcu-ugurcan-bekci-cinayetinde-yasadisi-bahis-iddiasi_20260604/",
+      "detail_json_url": "/data/details/articles/futbolcu-ugurcan-bekci-cinayetinde-yasadisi-bahis-iddiasi_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/futbolcu-ugurcan-bekci-cinayetinde-yasadisi-bahis-iddiasi_20260604.webp",
+      "image_alt": "Mahkeme salonu ve futbolcu silüeti ile gergin bir atmosferi gösteren görsel.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/futbolcu-ugurcan-bekci-cinayetinde-yasadisi-bahis-iddiasi_20260604.webp",
+        "alt": "Mahkeme salonu ve futbolcu silüeti ile gergin bir atmosferi gösteren görsel."
+      },
+      "source_name": "Cumhuriyet Gazetesi",
+      "source_url": "https://www.cumhuriyet.com.tr/turkiye/futbolcu-ugurcan-bekci-cinayetinde-yeni-gelisme-yasadisi-bahis-iddiasi-2509420",
+      "tags": [
+        "Uğurcan Bekçi",
+        "cinayet",
+        "yasadışı bahis",
+        "Kocaeli",
+        "dava"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
