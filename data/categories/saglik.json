@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-04T00:00:00+00:00",
-    "article_count": 504,
+    "article_count": 508,
     "schema_version": 2,
     "category_slug": "saglik"
   },
@@ -40,6 +40,41 @@
         "Bodrum"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604",
+      "slug": "chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604",
+      "title": "Chikungunya Virüsü Avrupa ve Kuzey Amerika'ya Yayılabilir: İklim Değişikliği Tehlikesi",
+      "summary": "Çin'deki Zhejiang Çin Tıp Üniversitesi tarafından yapılan yeni bir araştırma, iklim değişikliğinin neden olduğu sıcaklık artışları nedeniyle Chikungunya virüsünün Avrupa ve Kuzey Amerika'daki büyük şehirlere sıçrama riskinin arttığını ortaya koydu. 'Eklemle...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604/",
+      "detail_json_url": "/data/details/articles/chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604.webp",
+      "image_alt": "Chikungunya virüsünün yayılma riski altındaki dünya haritası, sivrisinek ve iklim değişikliği unsurlarıyla.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604.webp",
+        "alt": "Chikungunya virüsünün yayılma riski altındaki dünya haritası, sivrisinek ve iklim değişikliği unsurlarıyla."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/aile/yataga-mahkum-eden-gizli-tehlike-kapimiza-dayandi-dunyanin-en-buyuk-metropolleri-buyuk-risk-altinda-43186470",
+      "tags": [
+        "Chikungunya",
+        "İklim Değişikliği",
+        "Sivrisinek",
+        "Sağlık Riski",
+        "Virüs Yayılımı"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
