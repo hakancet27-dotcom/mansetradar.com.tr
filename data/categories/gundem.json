@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-04T00:00:00+00:00",
-    "article_count": 519,
+    "article_count": 522,
     "schema_version": 2,
     "category_slug": "gundem"
   },
@@ -40,6 +40,41 @@
         "Arkeoloji"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:turkiyede-depozito-iade-sistemi-1-temmuzda-basliyor_20260604",
+      "slug": "turkiyede-depozito-iade-sistemi-1-temmuzda-basliyor_20260604",
+      "title": "1 Temmuz'da Depozito İade Sistemi Başlıyor: Şişelerden 1 TL İade Edilecek",
+      "summary": "Çevre, Şehircilik ve İklim Değişikliği Bakanı Murat Kurum'un duyurusuna göre, Türkiye'de uzun süredir hazırlıkları süren Depozito İade Sistemi, 1 Temmuz'dan itibaren 81 ilde tam kapsamlı olarak hayata geçiyor. Vatandaşlar, DOA logolu şişeleri depozito iade...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/turkiyede-depozito-iade-sistemi-1-temmuzda-basliyor_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/turkiyede-depozito-iade-sistemi-1-temmuzda-basliyor_20260604/",
+      "detail_json_url": "/data/details/articles/turkiyede-depozito-iade-sistemi-1-temmuzda-basliyor_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/turkiyede-depozito-iade-sistemi-1-temmuzda-basliyor_20260604.webp",
+      "image_alt": "1 Temmuz'da Depozito İade Sistemi Başlıyor: Şişelerden 1 TL İade Edilecek",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/turkiyede-depozito-iade-sistemi-1-temmuzda-basliyor_20260604.webp",
+        "alt": "1 Temmuz'da Depozito İade Sistemi Başlıyor: Şişelerden 1 TL İade Edilecek"
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/1-temmuz-dan-itibaren-depozito-donemi-basliyor-1-tl-yuklenecek--206416",
+      "tags": [
+        "Depozito İade Sistemi",
+        "Murat Kurum",
+        "Çevre",
+        "Geri Dönüşüm",
+        "DOA"
+      ],
+      "quality_score": 70,
       "review_status": "published"
     },
     {
