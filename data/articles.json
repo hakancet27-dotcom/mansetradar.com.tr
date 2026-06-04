@@ -3,10 +3,44 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-04T00:00:00+00:00",
-    "article_count": 508,
+    "article_count": 510,
     "schema_version": 2
   },
   "articles": [
+    {
+      "id": "articles:yunanistan-1055-sikke-kacak-eserlere-karsi-ortak-irade_20260604",
+      "slug": "yunanistan-1055-sikke-kacak-eserlere-karsi-ortak-irade_20260604",
+      "title": "Türkiye ve Yunanistan'dan Kaçak Eserlere Karşı Ortak İrade: 1055 Sikke Geri Döndü",
+      "summary": "Türkiye ve Yunanistan, kültür varlığı kaçakçılığıyla mücadelede ortak irade sergileyerek önemli bir adım attı. Kapadokya'da düzenlenen Türkiye-Yunanistan 1. Kültür Forumu'nda bir araya gelen Kültür ve Turizm Bakanı Mehmet Nuri Ersoy ve Yunanistan Kültür Bak...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/yunanistan-1055-sikke-kacak-eserlere-karsi-ortak-irade_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/yunanistan-1055-sikke-kacak-eserlere-karsi-ortak-irade_20260604/",
+      "detail_json_url": "/data/details/articles/yunanistan-1055-sikke-kacak-eserlere-karsi-ortak-irade_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/yunanistan-1055-sikke-kacak-eserlere-karsi-ortak-irade_20260604.webp",
+      "image_alt": "Türkiye ve Yunanistan kültür bakanları Kapadokya'da bir araya geldi, kaçak eserler masada.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/yunanistan-1055-sikke-kacak-eserlere-karsi-ortak-irade_20260604.webp",
+        "alt": "Türkiye ve Yunanistan kültür bakanları Kapadokya'da bir araya geldi, kaçak eserler masada."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/yunanistandan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade-43192896",
+      "tags": [
+        "Kültür Forumu",
+        "Kültürel İş Birliği",
+        "Kaçak Eserler",
+        "Arkeoloji"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles:yilin-yildizlari-odul-toreni_20260604",
       "slug": "yilin-yildizlari-odul-toreni_20260604",
@@ -420,6 +454,40 @@
         "Sivrisinek",
         "Sağlık Riski",
         "Virüs Yayılımı"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:anayasa-mahkemesi-suresiz-nafakayi-iptal-etti-simdi-ne-olacak_20260604",
+      "slug": "anayasa-mahkemesi-suresiz-nafakayi-iptal-etti-simdi-ne-olacak_20260604",
+      "title": "Anayasa Mahkemesi Süresiz Nafakayı İptal Etti: Yeni Dönem Başlıyor",
+      "summary": "Anayasa Mahkemesi (AYM), uzun süredir tartışılan süresiz nafaka uygulamasını iptal etti. Antalya 12. Aile Mahkemesi'nin başvurusu üzerine esastan görüşülen konu karara bağlandı. AYM, Türk Medeni Kanunu'nun 175. maddesinde yer alan yoksulluk nafakasının süre...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/anayasa-mahkemesi-suresiz-nafakayi-iptal-etti-simdi-ne-olacak_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/anayasa-mahkemesi-suresiz-nafakayi-iptal-etti-simdi-ne-olacak_20260604/",
+      "detail_json_url": "/data/details/articles/anayasa-mahkemesi-suresiz-nafakayi-iptal-etti-simdi-ne-olacak_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/anayasa-mahkemesi-suresiz-nafakayi-iptal-etti-simdi-ne-olacak_20260604.webp",
+      "image_alt": "Anayasa Mahkemesi'nin süresiz nafaka kararını simgeleyen mahkeme salonu.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/anayasa-mahkemesi-suresiz-nafakayi-iptal-etti-simdi-ne-olacak_20260604.webp",
+        "alt": "Anayasa Mahkemesi'nin süresiz nafaka kararını simgeleyen mahkeme salonu."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/suresiz-nafakaya-iptal-simdi-ne-olacak-iste-tum-merak-edilenler-6-soru-6-yanit-43192977",
+      "tags": [
+        "süresiz nafaka",
+        "Anayasa Mahkemesi",
+        "nafaka iptali",
+        "yoksulluk nafakası"
       ],
       "quality_score": 86,
       "review_status": "published"
