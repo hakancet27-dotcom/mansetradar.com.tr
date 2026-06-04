@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-04T00:00:00+00:00",
-    "article_count": 501,
+    "article_count": 504,
     "schema_version": 2,
     "category_slug": "magazin"
   },
@@ -38,6 +38,75 @@
         "Kanal D",
         "Uzak Şehir",
         "Arka Sokaklar"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604",
+      "slug": "sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604",
+      "title": "Şebnem Ferah 6 Yıl Sonra Sahnelere Döndü: Ünlüler Akın Etti",
+      "summary": "Türk rock müziğinin güçlü sesi Şebnem Ferah, 6 yıllık aranın ardından hayranlarıyla yeniden buluştu. İstanbul KüçükÇiftlik Park'ta gerçekleşen konser, sanatçının sahnelere dönüşüne tanıklık etmek isteyen binlerce müzikseveri bir araya getirdi. Yoğun alkışla...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604/",
+      "detail_json_url": "/data/details/articles/sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604.webp",
+      "image_alt": "Şebnem Ferah'ın 6 yıl sonra verdiği konserde sahne performansı ve kalabalık.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604.webp",
+        "alt": "Şebnem Ferah'ın 6 yıl sonra verdiği konserde sahne performansı ve kalabalık."
+      },
+      "source_name": "Magazin haberleri - Son dakika magazin haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/sebnem-ferah-6-yil-sonra-sahneye-cikti-konsere-unluler-akin-etti-p325020",
+      "tags": [
+        "Şebnem Ferah",
+        "Konser",
+        "Magazin",
+        "Ünlüler"
+      ],
+      "quality_score": 70,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604",
+      "slug": "sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604",
+      "title": "Sanatçı Baba Cenazede Yıkıldı: Kızının Hayatını Kurtaran Oğlunu Kaybetti",
+      "summary": "Erzurum'da kahvaltı sırasında kız kardeşi Şeyma Tutaş'ın (22) nefessiz kalması üzerine dilini çıkararak hayatını kurtaran ağabeyi Ömer Tutaş (25), sonrasında geçirdiği kalp krizi sonucu hayatını kaybetti. Tedavisi yoğun bakımda devam eden Şeyma Tutaş'ın dur...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604/",
+      "detail_json_url": "/data/details/articles/sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604.webp",
+      "image_alt": "Sanatçı baba, oğlunun cenazesinde gözyaşlarına boğuluyor, kızı yoğun bakımda.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604.webp",
+        "alt": "Sanatçı baba, oğlunun cenazesinde gözyaşlarına boğuluyor, kızı yoğun bakımda."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kahvalti-masasinda-aci-olay-kiz-kardesini-kurtaran-agabey-hayatini-kaybetti-arkadaslari-suphelenip-doktor-randevusu-almis-43192652",
+      "tags": [
+        "kalp krizi",
+        "kardeş",
+        "sanatçı",
+        "cenaze",
+        "Erzurum"
       ],
       "quality_score": 86,
       "review_status": "published"

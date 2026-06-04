@@ -3,11 +3,45 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-04T00:00:00+00:00",
-    "article_count": 501,
+    "article_count": 504,
     "schema_version": 2,
     "category_slug": "saglik"
   },
   "articles": [
+    {
+      "id": "articles:gazeteci-reha-muhtar-hayatini-kaybetti_20260604",
+      "slug": "gazeteci-reha-muhtar-hayatini-kaybetti_20260604",
+      "title": "Gazeteci Reha Muhtar Hayatını Kaybetti",
+      "summary": "Gazeteci Reha Muhtar, 28 Mayıs'ta rahatsızlanarak kaldırıldığı Acıbadem Bodrum Hastanesi'nde tedavi altına alındı. Yoğun bakımda çoklu organ yetmezliği gelişen Muhtar, 3 Haziran'da saat 02.15'te hayatını kaybetti. Hastane başhekimi, Muhtar'ın ileri derece k...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/gazeteci-reha-muhtar-hayatini-kaybetti_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/gazeteci-reha-muhtar-hayatini-kaybetti_20260604/",
+      "detail_json_url": "/data/details/articles/gazeteci-reha-muhtar-hayatini-kaybetti_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/gazeteci-reha-muhtar-hayatini-kaybetti_20260604.webp",
+      "image_alt": "Gazeteci Reha Muhtar'ın fotoğrafı",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/gazeteci-reha-muhtar-hayatini-kaybetti_20260604.webp",
+        "alt": "Gazeteci Reha Muhtar'ın fotoğrafı"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/hayat/reha-muhtarin-sozleri-yeniden-gundemde-vaisyetimdir-deniz-ugur-cenazeme-gelmesin-43192683",
+      "tags": [
+        "Reha Muhtar",
+        "Gazeteci",
+        "Vefat",
+        "Bodrum"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "articles:limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602",
       "slug": "limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602",

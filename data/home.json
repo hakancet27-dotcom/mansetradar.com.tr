@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-04T00:00:00+00:00",
-    "article_count": 501,
+    "article_count": 504,
     "schema_version": 2,
     "section": "articles"
   },
@@ -112,6 +112,75 @@
       "review_status": "published"
     },
     {
+      "id": "articles:sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604",
+      "slug": "sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604",
+      "title": "Şebnem Ferah 6 Yıl Sonra Sahnelere Döndü: Ünlüler Akın Etti",
+      "summary": "Türk rock müziğinin güçlü sesi Şebnem Ferah, 6 yıllık aranın ardından hayranlarıyla yeniden buluştu. İstanbul KüçükÇiftlik Park'ta gerçekleşen konser, sanatçının sahnelere dönüşüne tanıklık etmek isteyen binlerce müzikseveri bir araya getirdi. Yoğun alkışla...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604/",
+      "detail_json_url": "/data/details/articles/sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604.webp",
+      "image_alt": "Şebnem Ferah'ın 6 yıl sonra verdiği konserde sahne performansı ve kalabalık.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604.webp",
+        "alt": "Şebnem Ferah'ın 6 yıl sonra verdiği konserde sahne performansı ve kalabalık."
+      },
+      "source_name": "Magazin haberleri - Son dakika magazin haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/sebnem-ferah-6-yil-sonra-sahneye-cikti-konsere-unluler-akin-etti-p325020",
+      "tags": [
+        "Şebnem Ferah",
+        "Konser",
+        "Magazin",
+        "Ünlüler"
+      ],
+      "quality_score": 70,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604",
+      "slug": "sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604",
+      "title": "Sanatçı Baba Cenazede Yıkıldı: Kızının Hayatını Kurtaran Oğlunu Kaybetti",
+      "summary": "Erzurum'da kahvaltı sırasında kız kardeşi Şeyma Tutaş'ın (22) nefessiz kalması üzerine dilini çıkararak hayatını kurtaran ağabeyi Ömer Tutaş (25), sonrasında geçirdiği kalp krizi sonucu hayatını kaybetti. Tedavisi yoğun bakımda devam eden Şeyma Tutaş'ın dur...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604/",
+      "detail_json_url": "/data/details/articles/sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604.webp",
+      "image_alt": "Sanatçı baba, oğlunun cenazesinde gözyaşlarına boğuluyor, kızı yoğun bakımda.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604.webp",
+        "alt": "Sanatçı baba, oğlunun cenazesinde gözyaşlarına boğuluyor, kızı yoğun bakımda."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kahvalti-masasinda-aci-olay-kiz-kardesini-kurtaran-agabey-hayatini-kaybetti-arkadaslari-suphelenip-doktor-randevusu-almis-43192652",
+      "tags": [
+        "kalp krizi",
+        "kardeş",
+        "sanatçı",
+        "cenaze",
+        "Erzurum"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604",
       "slug": "real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604",
       "title": "Real Madrid Başkan Adayı Riquelme'den Haaland ve Rodri Transferi Sözü",
@@ -143,6 +212,40 @@
         "Enrique Riquelme",
         "Başkanlık Seçimi",
         "Transfer"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:gazeteci-reha-muhtar-hayatini-kaybetti_20260604",
+      "slug": "gazeteci-reha-muhtar-hayatini-kaybetti_20260604",
+      "title": "Gazeteci Reha Muhtar Hayatını Kaybetti",
+      "summary": "Gazeteci Reha Muhtar, 28 Mayıs'ta rahatsızlanarak kaldırıldığı Acıbadem Bodrum Hastanesi'nde tedavi altına alındı. Yoğun bakımda çoklu organ yetmezliği gelişen Muhtar, 3 Haziran'da saat 02.15'te hayatını kaybetti. Hastane başhekimi, Muhtar'ın ileri derece k...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/gazeteci-reha-muhtar-hayatini-kaybetti_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/gazeteci-reha-muhtar-hayatini-kaybetti_20260604/",
+      "detail_json_url": "/data/details/articles/gazeteci-reha-muhtar-hayatini-kaybetti_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/gazeteci-reha-muhtar-hayatini-kaybetti_20260604.webp",
+      "image_alt": "Gazeteci Reha Muhtar'ın fotoğrafı",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/gazeteci-reha-muhtar-hayatini-kaybetti_20260604.webp",
+        "alt": "Gazeteci Reha Muhtar'ın fotoğrafı"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/hayat/reha-muhtarin-sozleri-yeniden-gundemde-vaisyetimdir-deniz-ugur-cenazeme-gelmesin-43192683",
+      "tags": [
+        "Reha Muhtar",
+        "Gazeteci",
+        "Vefat",
+        "Bodrum"
       ],
       "quality_score": 76,
       "review_status": "published"
@@ -603,113 +706,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles:hull-city-taraftarlari-premier-lig-kutlamasini-antalyada-yapiyor_20260603",
-      "slug": "hull-city-taraftarlari-premier-lig-kutlamasini-antalyada-yapiyor_20260603",
-      "title": "Hull City Taraftarları Premier Lig Kutlamasını Antalya'da Yapıyor",
-      "summary": "Acun Ilıcalı'nın sahibi olduğu Hull City'nin Premier Lig'e yükselmesi, 200 şanslı taraftarın Ilıcalı'nın davetiyle Antalya'da ağırlanmasına vesile oldu. İngiltere'den özel uçakla Türkiye'ye gelen taraftarlar, Kemer'de 5 yıldızlı bir otelde konaklayarak Akde...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/hull-city-taraftarlari-premier-lig-kutlamasini-antalyada-yapiyor_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/hull-city-taraftarlari-premier-lig-kutlamasini-antalyada-yapiyor_20260603/",
-      "detail_json_url": "/data/details/articles/hull-city-taraftarlari-premier-lig-kutlamasini-antalyada-yapiyor_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/hull-city-taraftarlari-premier-lig-kutlamasini-antalyada-yapiyor_20260603.webp",
-      "image_alt": "Hull City Taraftarları Premier Lig Kutlamasını Antalya'da Yapıyor",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/hull-city-taraftarlari-premier-lig-kutlamasini-antalyada-yapiyor_20260603.webp",
-        "alt": "Hull City Taraftarları Premier Lig Kutlamasını Antalya'da Yapıyor"
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/sporskor/sampiyonluk-sonrasi-tatil-hull-city-taraftari-turkiyede-1726980",
-      "tags": [
-        "Acun Ilıcalı",
-        "Hull City",
-        "Premier Lig",
-        "Antalya",
-        "Kemer",
-        "Futbol"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603",
-      "slug": "gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603",
-      "title": "Gazze Barış Planı Uygulanmadı, Vaat Edilen Bağışlar Yapılmadı",
-      "summary": "ABD Başkanı Donald Trump'ın damadı Jared Kushner tarafından açıklanan Gazze barış planının üzerinden 7 ay geçmesine rağmen hala uygulamaya konulamadığı bildirildi. Plan kapsamında Gazze için vadedilen bağışların da yapılmadığı belirtildi. Planın önemli bir...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603/",
-      "detail_json_url": "/data/details/articles/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603.webp",
-      "image_alt": "Gazze Şeridi'nin hava görünümü, hasarlı binalar ve çadırlar, devam eden insani krizi ve durmuş barış çabalarını sembolize...",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603.webp",
-        "alt": "Gazze Şeridi'nin hava görünümü, hasarlı binalar ve çadırlar, devam eden insani krizi ve durmuş barış çabalarını sembolize..."
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/dunya/gazze-baris-plani-hala-uygulamaya-girmedi-vadedilen-bagislar-da-yapilmadi-1726965",
-      "tags": [
-        "Gazze Barış Planı",
-        "Donald Trump",
-        "Jared Kushner",
-        "Hamas",
-        "Bağışlar",
-        "Gazze Yeniden Yapılanma"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603",
-      "slug": "fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603",
-      "title": "Fetih Kupası İstanbul'da Başladı: Dünyanın En Büyük Sivil Okçuluk Organizasyonu",
-      "summary": "İstanbul'da Okçular Vakfı'nda başlayan Fetih Kupası, dünyanın en büyük sivil okçuluk organizasyonu olarak dikkat çekiyor. Cumhurbaşkanlığı himayelerinde beş gün sürecek etkinliğin açılışına Kültür ve Turizm Bakanı Mehmet Nuri Ersoy, Gençlik ve Spor Bakanı O...",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603/",
-      "detail_json_url": "/data/details/articles/fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603.webp",
-      "image_alt": "Fetih Kupası İstanbul'da Başladı: Dünyanın En Büyük Sivil Okçuluk Organizasyonu",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603.webp",
-        "alt": "Fetih Kupası İstanbul'da Başladı: Dünyanın En Büyük Sivil Okçuluk Organizasyonu"
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/dunyanin-en-buyuk-sivil-okculuk-organizasyonu-istanbulda-basladi-43192420",
-      "tags": [
-        "Fetih Kupası",
-        "Okçuluk",
-        "Okçular Vakfı",
-        "Mehmet Nuri Ersoy",
-        "İstanbul"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -817,6 +813,75 @@
       "review_status": "published"
     },
     {
+      "id": "articles:sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604",
+      "slug": "sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604",
+      "title": "Şebnem Ferah 6 Yıl Sonra Sahnelere Döndü: Ünlüler Akın Etti",
+      "summary": "Türk rock müziğinin güçlü sesi Şebnem Ferah, 6 yıllık aranın ardından hayranlarıyla yeniden buluştu. İstanbul KüçükÇiftlik Park'ta gerçekleşen konser, sanatçının sahnelere dönüşüne tanıklık etmek isteyen binlerce müzikseveri bir araya getirdi. Yoğun alkışla...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604/",
+      "detail_json_url": "/data/details/articles/sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604.webp",
+      "image_alt": "Şebnem Ferah'ın 6 yıl sonra verdiği konserde sahne performansı ve kalabalık.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/sebnem-ferah-6-yil-sonra-sahneye-cikti-unluler-akin-etti_20260604.webp",
+        "alt": "Şebnem Ferah'ın 6 yıl sonra verdiği konserde sahne performansı ve kalabalık."
+      },
+      "source_name": "Magazin haberleri - Son dakika magazin haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/sebnem-ferah-6-yil-sonra-sahneye-cikti-konsere-unluler-akin-etti-p325020",
+      "tags": [
+        "Şebnem Ferah",
+        "Konser",
+        "Magazin",
+        "Ünlüler"
+      ],
+      "quality_score": 70,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604",
+      "slug": "sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604",
+      "title": "Sanatçı Baba Cenazede Yıkıldı: Kızının Hayatını Kurtaran Oğlunu Kaybetti",
+      "summary": "Erzurum'da kahvaltı sırasında kız kardeşi Şeyma Tutaş'ın (22) nefessiz kalması üzerine dilini çıkararak hayatını kurtaran ağabeyi Ömer Tutaş (25), sonrasında geçirdiği kalp krizi sonucu hayatını kaybetti. Tedavisi yoğun bakımda devam eden Şeyma Tutaş'ın dur...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604/",
+      "detail_json_url": "/data/details/articles/sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604.webp",
+      "image_alt": "Sanatçı baba, oğlunun cenazesinde gözyaşlarına boğuluyor, kızı yoğun bakımda.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/sanatci-baba-cenazede-yikildi-kizinin-hayatini-kurtaran-oglundan-oldu_20260604.webp",
+        "alt": "Sanatçı baba, oğlunun cenazesinde gözyaşlarına boğuluyor, kızı yoğun bakımda."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kahvalti-masasinda-aci-olay-kiz-kardesini-kurtaran-agabey-hayatini-kaybetti-arkadaslari-suphelenip-doktor-randevusu-almis-43192652",
+      "tags": [
+        "kalp krizi",
+        "kardeş",
+        "sanatçı",
+        "cenaze",
+        "Erzurum"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604",
       "slug": "real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604",
       "title": "Real Madrid Başkan Adayı Riquelme'den Haaland ve Rodri Transferi Sözü",
@@ -848,6 +913,40 @@
         "Enrique Riquelme",
         "Başkanlık Seçimi",
         "Transfer"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:gazeteci-reha-muhtar-hayatini-kaybetti_20260604",
+      "slug": "gazeteci-reha-muhtar-hayatini-kaybetti_20260604",
+      "title": "Gazeteci Reha Muhtar Hayatını Kaybetti",
+      "summary": "Gazeteci Reha Muhtar, 28 Mayıs'ta rahatsızlanarak kaldırıldığı Acıbadem Bodrum Hastanesi'nde tedavi altına alındı. Yoğun bakımda çoklu organ yetmezliği gelişen Muhtar, 3 Haziran'da saat 02.15'te hayatını kaybetti. Hastane başhekimi, Muhtar'ın ileri derece k...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/gazeteci-reha-muhtar-hayatini-kaybetti_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/gazeteci-reha-muhtar-hayatini-kaybetti_20260604/",
+      "detail_json_url": "/data/details/articles/gazeteci-reha-muhtar-hayatini-kaybetti_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/gazeteci-reha-muhtar-hayatini-kaybetti_20260604.webp",
+      "image_alt": "Gazeteci Reha Muhtar'ın fotoğrafı",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/gazeteci-reha-muhtar-hayatini-kaybetti_20260604.webp",
+        "alt": "Gazeteci Reha Muhtar'ın fotoğrafı"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/hayat/reha-muhtarin-sozleri-yeniden-gundemde-vaisyetimdir-deniz-ugur-cenazeme-gelmesin-43192683",
+      "tags": [
+        "Reha Muhtar",
+        "Gazeteci",
+        "Vefat",
+        "Bodrum"
       ],
       "quality_score": 76,
       "review_status": "published"
@@ -1482,109 +1581,6 @@
         "Callum Turner",
         "Düğün",
         "Magazin Haberleri"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603",
-      "slug": "chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603",
-      "title": "İstanbul Soruşturmasında Tutuklanan CHP Kilis İl Başkanı Umut Mehmet Sapan İstifa Etti",
-      "summary": "CHP Kilis İl Başkanı Umut Mehmet Sapan, İstanbul merkezli bir soruşturma kapsamında 11 gün tutuklu kaldıktan sonra tahliye edilmesinin ertesi günü görevinden istifa ettiğini açıkladı. Sapan, istifa gerekçeleri arasında ailevi ve süregelen sağlık sorunlarını...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603/",
-      "detail_json_url": "/data/details/articles/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603.webp",
-      "image_alt": "CHP Kilis İl Başkanı Umut Mehmet Sapan'ın istifa açıklamasının ardından çekilmiş bir portresi.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603.webp",
-        "alt": "CHP Kilis İl Başkanı Umut Mehmet Sapan'ın istifa açıklamasının ardından çekilmiş bir portresi."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/gundem/istanbul-merkezli-sorusturmada-11-gun-tutuklu-kalmisti-chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti-7599017",
-      "tags": [
-        "CHP",
-        "Umut Mehmet Sapan",
-        "Kilis",
-        "İstifa",
-        "Siyaset"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603",
-      "slug": "basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603",
-      "title": "Başak Gürkan Cinayeti Davasında Kan Donduran İfade: 'Babam Üstüne Oturdu, Bıçaklamaya Başladı'",
-      "summary": "Milli Savunma Bakanlığı'nda sivil memur olarak görev yapan yüksek mühendis Başak Gürkan Arslan'ın geçen yıl 9 Eylül'de kayınpederi Kudret Arslan ve boşanma aşamasındaki eşi Barış Arslan tarafından 5 yaşındaki kızının gözü önünde bıçaklanarak öldürülmesine i...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603/",
-      "detail_json_url": "/data/details/articles/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603.webp",
-      "image_alt": "Mahkeme salonunda duruşma.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/basak-gurkan-cinayeti-davasinda-esten-kan-donduran-ifade_20260603.webp",
-        "alt": "Mahkeme salonunda duruşma."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/basak-gurkan-cinayeti-davasindan-tutuklu-esten-kan-donduran-ifade-babam-ustune-oturdu-bicaklamaya-basladi-43192190",
-      "tags": [
-        "Başak Gürkan Cinayeti",
-        "Barış Arslan",
-        "Kudret Arslan",
-        "Cinayet Davası"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603",
-      "slug": "ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603",
-      "title": "Ayhan Bora Kaplan Davasında Sanık Kaplan: \"Sadece Adil Yargılama İstiyoruz\"",
-      "summary": "Ayhan Bora Kaplan suç örgütüne yönelik davada sanık Ayhan Bora Kaplan, \"Kimseden torpil falan istemiyoruz, sadece adil yargılama istiyoruz\" diyerek, operasyonu düzenleyen polisleri, soruşturma savcısını ve eski mahkeme başkanını suçladı. Kaplan, polisler ar...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603/",
-      "detail_json_url": "/data/details/articles/ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603.webp",
-      "image_alt": "Ayhan Bora Kaplan davasında sanık Ayhan Bora Kaplan mahkemede savunma yaparken.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603.webp",
-        "alt": "Ayhan Bora Kaplan davasında sanık Ayhan Bora Kaplan mahkemede savunma yaparken."
-      },
-      "source_name": "Cumhuriyet Gazetesi",
-      "source_url": "https://www.cumhuriyet.com.tr/turkiye/ayhan-bora-kaplan-davasi-sanik-kaplan-kimseden-torpil-falan-istemiyoruz-sadece-adil-yargilama-istiyoruz-2509042",
-      "tags": [
-        "Ayhan Bora Kaplan",
-        "Adil Yargılama",
-        "Gizli Tanık",
-        "Polis Soruşturması"
       ],
       "quality_score": 86,
       "review_status": "published"
