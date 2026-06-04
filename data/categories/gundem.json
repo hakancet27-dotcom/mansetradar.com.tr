@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-04T00:00:00+00:00",
-    "article_count": 514,
+    "article_count": 517,
     "schema_version": 2,
     "category_slug": "gundem"
   },
@@ -40,6 +40,109 @@
         "Arkeoloji"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:sariyerde-rehin-alinan-kisi-abdden-yapilan-ihbarla-kurtarildi_20260604",
+      "slug": "sariyerde-rehin-alinan-kisi-abdden-yapilan-ihbarla-kurtarildi_20260604",
+      "title": "ABD'den Gelen İhbarla Sarıyer'de Rehin Alınan Kişi Kurtarıldı",
+      "summary": "Sarıyer'de bir kişi, ABD'den gelen bir ihbar ve paylaşılan canlı konum bilgisi sayesinde kurtarıldı. Olay, 28 Mayıs Perşembe günü saat 18.15 sıralarında Ayazağa Mahallesi'nde meydana geldi. Kendisini 'Serdar' olarak tanıtan bir kişi, ABD telefon kodlu bir n...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/sariyerde-rehin-alinan-kisi-abdden-yapilan-ihbarla-kurtarildi_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/sariyerde-rehin-alinan-kisi-abdden-yapilan-ihbarla-kurtarildi_20260604/",
+      "detail_json_url": "/data/details/articles/sariyerde-rehin-alinan-kisi-abdden-yapilan-ihbarla-kurtarildi_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/sariyerde-rehin-alinan-kisi-abdden-yapilan-ihbarla-kurtarildi_20260604.webp",
+      "image_alt": "Polis ekipleri Sarıyer'de bir iş yerinde operasyon düzenliyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/sariyerde-rehin-alinan-kisi-abdden-yapilan-ihbarla-kurtarildi_20260604.webp",
+        "alt": "Polis ekipleri Sarıyer'de bir iş yerinde operasyon düzenliyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/sariyerde-rehin-alinan-kisi-abdden-yapilan-ihbarla-kurtarildi-yeri-canli-konumdan-tespit-edildi-43192772",
+      "tags": [
+        "Sarıyer",
+        "Rehin Alma",
+        "Kurtarma Operasyonu",
+        "ABD İhbarı"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:mehmet-akif-ersoy-iddianamesi-mahkemeden-geri-dondu_20260604",
+      "slug": "mehmet-akif-ersoy-iddianamesi-mahkemeden-geri-dondu_20260604",
+      "title": "Mehmet Akif Ersoy Hakkındaki İddianame Mahkemeden Geri Döndü",
+      "summary": "Eski Habertürk TV Genel Yayın Yönetmeni Mehmet Akif Ersoy'un da aralarında bulunduğu 8 kişi hakkında, İstanbul Cumhuriyet Başsavcılığı'nca yürütülen \"uyuşturucu\" soruşturması kapsamında hazırlanan iddianame, İstanbul 19. Ağır Ceza Mahkemesi tarafından savcı...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/mehmet-akif-ersoy-iddianamesi-mahkemeden-geri-dondu_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/mehmet-akif-ersoy-iddianamesi-mahkemeden-geri-dondu_20260604/",
+      "detail_json_url": "/data/details/articles/mehmet-akif-ersoy-iddianamesi-mahkemeden-geri-dondu_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/mehmet-akif-ersoy-iddianamesi-mahkemeden-geri-dondu_20260604.webp",
+      "image_alt": "Mahkeme salonunda iddianame ve adalet temalı bir sahne.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/mehmet-akif-ersoy-iddianamesi-mahkemeden-geri-dondu_20260604.webp",
+        "alt": "Mahkeme salonunda iddianame ve adalet temalı bir sahne."
+      },
+      "source_name": "Cumhuriyet Gazetesi",
+      "source_url": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-mehmet-akif-ersoy-hakkindaki-iddianame-mahkemeden-geri-dondu-2509279",
+      "tags": [
+        "Mehmet Akif Ersoy",
+        "Uyuşturucu Soruşturması",
+        "İddianame",
+        "Mahkeme"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:dorukhan-buyukisik-sorusturmasinda-yeni-gelisme-olay-yeri-inceleme-komiseri-hava_20260604",
+      "slug": "dorukhan-buyukisik-sorusturmasinda-yeni-gelisme-olay-yeri-inceleme-komiseri-hava_20260604",
+      "title": "Dorukhan Büyükışık Soruşturmasında Yeni Gelişme: Olay Yeri İnceleme Komiseri Havalimanında...",
+      "summary": "İzmir'de 2018 yılında şüpheli bir şekilde hayatını kaybeden Emekli Tümgeneral Ethem Büyükışık'ın oğlu Dorukhan Büyükışık'ın ölümüyle ilgili soruşturmada yeni bir gelişme yaşandı. Soruşturma kapsamında, olay tarihinde Olay Yeri İnceleme Ekibi Komiseri olarak...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/dorukhan-buyukisik-sorusturmasinda-yeni-gelisme-olay-yeri-inceleme-komiseri-hava_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/dorukhan-buyukisik-sorusturmasinda-yeni-gelisme-olay-yeri-inceleme-komiseri-hava_20260604/",
+      "detail_json_url": "/data/details/articles/dorukhan-buyukisik-sorusturmasinda-yeni-gelisme-olay-yeri-inceleme-komiseri-hava_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/dorukhan-buyukisik-sorusturmasinda-yeni-gelisme-olay-yeri-inceleme-komiseri-hava_20260604.webp",
+      "image_alt": "Olay Yeri İnceleme Ekibi Komiseri Atakan Kaçar'ın Havalimanında Gözaltına Alınması",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/dorukhan-buyukisik-sorusturmasinda-yeni-gelisme-olay-yeri-inceleme-komiseri-hava_20260604.webp",
+        "alt": "Olay Yeri İnceleme Ekibi Komiseri Atakan Kaçar'ın Havalimanında Gözaltına Alınması"
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/dorukhan-buyukisik-sorusturmasinda-yeni-gelisme-olay-yeri-inceleme-ekibi-komiseri-havalimaninda-yakalandi-1727155",
+      "tags": [
+        "Dorukhan Büyükışık",
+        "Atakan Kaçar",
+        "İzmir",
+        "Soruşturma",
+        "Gözaltı"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
