@@ -3,11 +3,81 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-04T00:00:00+00:00",
-    "article_count": 498,
+    "article_count": 501,
     "schema_version": 2,
     "category_slug": "spor"
   },
   "articles": [
+    {
+      "id": "articles:trabzonspor-noah-saviolo-transferi_20260604",
+      "slug": "trabzonspor-noah-saviolo-transferi_20260604",
+      "title": "Trabzonspor'dan Bir Transfer Daha: Noah Saviolo Vitoria'dan Geliyor",
+      "summary": "Trabzonspor, sol kanat transferi için Portekiz'den bir ismi daha kadrosuna katıyor. Bordo-mavililer, Vitoria SC ile 22 yaşındaki Portekizli sol kanat oyuncusu Noah Saviolo'nun transferi konusunda anlaşmaya vardı. Anlaşma gereği Vitoria'ya 11.5 milyon Euro b...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/trabzonspor-noah-saviolo-transferi_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/trabzonspor-noah-saviolo-transferi_20260604/",
+      "detail_json_url": "/data/details/articles/trabzonspor-noah-saviolo-transferi_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/trabzonspor-noah-saviolo-transferi_20260604.webp",
+      "image_alt": "Noah Saviolo Trabzonspor ile sözleşme imzalıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/trabzonspor-noah-saviolo-transferi_20260604.webp",
+        "alt": "Noah Saviolo Trabzonspor ile sözleşme imzalıyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/trabzonspor-cabrali-getirdi-sira-noah-saviolada-43192515",
+      "tags": [
+        "Trabzonspor",
+        "Noah Saviolo",
+        "Transfer",
+        "Vitoria SC"
+      ],
+      "quality_score": 80,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604",
+      "slug": "real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604",
+      "title": "Real Madrid Başkan Adayı Riquelme'den Haaland ve Rodri Transferi Sözü",
+      "summary": "Real Madrid'de 7 Haziran'da yapılacak başkanlık seçimleri öncesinde adaylardan Enrique Riquelme, Manchester City'de forma giyen Erling Haaland ve Rodri'yi kadroya katacağını duyurdu. Riquelme, bu transferlerin gerçekleşmemesi durumunda kulübün 100.000 üyesi...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604/",
+      "detail_json_url": "/data/details/articles/real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604.webp",
+      "image_alt": "Real Madrid başkan adayı Enrique Riquelme, Erling Haaland forması ve noter tasdikli belge ile.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604.webp",
+        "alt": "Real Madrid başkan adayı Enrique Riquelme, Erling Haaland forması ve noter tasdikli belge ile."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/sporskor/galeri-dunya-futbolunu-degistirecek-transfer-real-madridin-baskan-adayi-erling-haalandi-noter-tasdikli-belgeyle-duyurdu-1727096",
+      "tags": [
+        "Real Madrid",
+        "Erling Haaland",
+        "Rodri",
+        "Enrique Riquelme",
+        "Başkanlık Seçimi",
+        "Transfer"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "articles:nba-europe-ekim-2027-basliyor-tarihi-yatirim_20260603",
       "slug": "nba-europe-ekim-2027-basliyor-tarihi-yatirim_20260603",

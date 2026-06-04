@@ -3,11 +3,45 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-04T00:00:00+00:00",
-    "article_count": 498,
+    "article_count": 501,
     "schema_version": 2,
     "section": "articles"
   },
   "hero": [
+    {
+      "id": "articles:yilin-yildizlari-odul-toreni_20260604",
+      "slug": "yilin-yildizlari-odul-toreni_20260604",
+      "title": "Yılın Yıldızları Ödül Töreni'nde Buluştu",
+      "summary": "Kanal D'nin sevilen yüzleri ve başarılı yapımları, 'Yılın Yıldızları' ödül töreninde öne çıktı. Kanal D Ana Haber sunucusu Deniz Bayramoğlu 'yılın en star erkek ana haber sunucusu' seçilirken, reyting rekortmeni 'Uzak Şehir' dizisi de üç ödülle geceye damga...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/yilin-yildizlari-odul-toreni_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/yilin-yildizlari-odul-toreni_20260604/",
+      "detail_json_url": "/data/details/articles/yilin-yildizlari-odul-toreni_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/yilin-yildizlari-odul-toreni_20260604.webp",
+      "image_alt": "Yılın Yıldızları ödül töreninde Kanal D'nin sevilen isimleri ödüllerini alırken",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/yilin-yildizlari-odul-toreni_20260604.webp",
+        "alt": "Yılın Yıldızları ödül töreninde Kanal D'nin sevilen isimleri ödüllerini alırken"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/hayat/yilin-yildizlari-bir-arada-43192557",
+      "tags": [
+        "Yılın Yıldızları Ödülleri",
+        "Kanal D",
+        "Uzak Şehir",
+        "Arka Sokaklar"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles:trump-bill-pulte-ulusal-istihbarat-direktoru-atamasi_20260604",
       "slug": "trump-bill-pulte-ulusal-istihbarat-direktoru-atamasi_20260604",
@@ -41,6 +75,76 @@
         "FHFA"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:trabzonspor-noah-saviolo-transferi_20260604",
+      "slug": "trabzonspor-noah-saviolo-transferi_20260604",
+      "title": "Trabzonspor'dan Bir Transfer Daha: Noah Saviolo Vitoria'dan Geliyor",
+      "summary": "Trabzonspor, sol kanat transferi için Portekiz'den bir ismi daha kadrosuna katıyor. Bordo-mavililer, Vitoria SC ile 22 yaşındaki Portekizli sol kanat oyuncusu Noah Saviolo'nun transferi konusunda anlaşmaya vardı. Anlaşma gereği Vitoria'ya 11.5 milyon Euro b...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/trabzonspor-noah-saviolo-transferi_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/trabzonspor-noah-saviolo-transferi_20260604/",
+      "detail_json_url": "/data/details/articles/trabzonspor-noah-saviolo-transferi_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/trabzonspor-noah-saviolo-transferi_20260604.webp",
+      "image_alt": "Noah Saviolo Trabzonspor ile sözleşme imzalıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/trabzonspor-noah-saviolo-transferi_20260604.webp",
+        "alt": "Noah Saviolo Trabzonspor ile sözleşme imzalıyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/trabzonspor-cabrali-getirdi-sira-noah-saviolada-43192515",
+      "tags": [
+        "Trabzonspor",
+        "Noah Saviolo",
+        "Transfer",
+        "Vitoria SC"
+      ],
+      "quality_score": 80,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604",
+      "slug": "real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604",
+      "title": "Real Madrid Başkan Adayı Riquelme'den Haaland ve Rodri Transferi Sözü",
+      "summary": "Real Madrid'de 7 Haziran'da yapılacak başkanlık seçimleri öncesinde adaylardan Enrique Riquelme, Manchester City'de forma giyen Erling Haaland ve Rodri'yi kadroya katacağını duyurdu. Riquelme, bu transferlerin gerçekleşmemesi durumunda kulübün 100.000 üyesi...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604/",
+      "detail_json_url": "/data/details/articles/real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604.webp",
+      "image_alt": "Real Madrid başkan adayı Enrique Riquelme, Erling Haaland forması ve noter tasdikli belge ile.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604.webp",
+        "alt": "Real Madrid başkan adayı Enrique Riquelme, Erling Haaland forması ve noter tasdikli belge ile."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/sporskor/galeri-dunya-futbolunu-degistirecek-transfer-real-madridin-baskan-adayi-erling-haalandi-noter-tasdikli-belgeyle-duyurdu-1727096",
+      "tags": [
+        "Real Madrid",
+        "Erling Haaland",
+        "Rodri",
+        "Enrique Riquelme",
+        "Başkanlık Seçimi",
+        "Transfer"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -606,48 +710,14 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
+    }
+  ],
+  "latest": [
     {
-      "id": "articles:fenerbahce-baskanlik-secimi-2026-tarihleri-aday-listeleri_20260603",
-      "slug": "fenerbahce-baskanlik-secimi-2026-tarihleri-aday-listeleri_20260603",
-      "title": "Fenerbahçe Başkanlık Seçimi 2026 Tarihleri ve Aday Listeleri Belli Oldu",
-      "summary": "Fenerbahçe Spor Kulübü'nün 2026 başkanlık seçimi tarihleri ve adayları resmi olarak duyuruldu. Eski Fenerbahçe Başkanı Aziz Yıldırım ile Hakan Safi arasında geçecek olan seçim yarışı için ilk toplantı Mayıs ayının son haftasında yapılacak. Yeterli çoğunluk...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/fenerbahce-baskanlik-secimi-2026-tarihleri-aday-listeleri_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/fenerbahce-baskanlik-secimi-2026-tarihleri-aday-listeleri_20260603/",
-      "detail_json_url": "/data/details/articles/fenerbahce-baskanlik-secimi-2026-tarihleri-aday-listeleri_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/fenerbahce-baskanlik-secimi-2026-tarihleri-aday-listeleri_20260603.webp",
-      "image_alt": "Fenerbahçe Başkanlık Seçimi 2026 Tarihleri ve Aday Listeleri Belli Oldu",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/fenerbahce-baskanlik-secimi-2026-tarihleri-aday-listeleri_20260603.webp",
-        "alt": "Fenerbahçe Başkanlık Seçimi 2026 Tarihleri ve Aday Listeleri Belli Oldu"
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/sporskor/galeri-fenerbahce-baskanlik-secimi-tarihi-2026-fenerbahce-baskanlik-secimi-ne-zaman-yapilacak-1727029",
-      "tags": [
-        "Fenerbahçe",
-        "Başkanlık Seçimi",
-        "Aziz Yıldırım",
-        "Hakan Safi",
-        "Spor Kulübü",
-        "2026 Seçim"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:dua-lipa-callum-turner-evlendi_20260603",
-      "slug": "dua-lipa-callum-turner-evlendi_20260603",
-      "title": "Dua Lipa ve Callum Turner Evlendi: Londra'da Sade Nikah, Sicilya'da Büyük Kutlama",
-      "summary": "Arnavut kökenli İngiliz pop yıldızı Dua Lipa, uzun süredir birlikte olduğu İngiliz oyuncu Callum Turner ile dünyaevine girdi. 31 Mayıs'ta Londra'daki Old Marylebone Belediye Binası'nda gerçekleşen sade nikah törenine sekiz kişi katıldı. Ünlü şarkıcı, sosyal...",
+      "id": "articles:yilin-yildizlari-odul-toreni_20260604",
+      "slug": "yilin-yildizlari-odul-toreni_20260604",
+      "title": "Yılın Yıldızları Ödül Töreni'nde Buluştu",
+      "summary": "Kanal D'nin sevilen yüzleri ve başarılı yapımları, 'Yılın Yıldızları' ödül töreninde öne çıktı. Kanal D Ana Haber sunucusu Deniz Bayramoğlu 'yılın en star erkek ana haber sunucusu' seçilirken, reyting rekortmeni 'Uzak Şehir' dizisi de üç ödülle geceye damga...",
       "category": "Magazin",
       "category_slug": "magazin",
       "country": "Turkey",
@@ -655,65 +725,28 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/dua-lipa-callum-turner-evlendi_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/dua-lipa-callum-turner-evlendi_20260603/",
-      "detail_json_url": "/data/details/articles/dua-lipa-callum-turner-evlendi_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/dua-lipa-callum-turner-evlendi_20260603.webp",
-      "image_alt": "Dua Lipa ve Callum Turner'ın romantik düğün anı.",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/yilin-yildizlari-odul-toreni_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/yilin-yildizlari-odul-toreni_20260604/",
+      "detail_json_url": "/data/details/articles/yilin-yildizlari-odul-toreni_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/yilin-yildizlari-odul-toreni_20260604.webp",
+      "image_alt": "Yılın Yıldızları ödül töreninde Kanal D'nin sevilen isimleri ödüllerini alırken",
       "image": {
-        "url": "https://mansetradar.com.tr/articles/images/dua-lipa-callum-turner-evlendi_20260603.webp",
-        "alt": "Dua Lipa ve Callum Turner'ın romantik düğün anı."
+        "url": "https://mansetradar.com.tr/articles/images/yilin-yildizlari-odul-toreni_20260604.webp",
+        "alt": "Yılın Yıldızları ödül töreninde Kanal D'nin sevilen isimleri ödüllerini alırken"
       },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/dua-lipa-nikahtan-fotograflar-paylasti-magazin-haberleri-3888869-magazin",
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/hayat/yilin-yildizlari-bir-arada-43192557",
       "tags": [
-        "Dua Lipa",
-        "Callum Turner",
-        "Düğün",
-        "Magazin Haberleri"
+        "Yılın Yıldızları Ödülleri",
+        "Kanal D",
+        "Uzak Şehir",
+        "Arka Sokaklar"
       ],
       "quality_score": 86,
       "review_status": "published"
     },
-    {
-      "id": "articles:chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603",
-      "slug": "chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603",
-      "title": "İstanbul Soruşturmasında Tutuklanan CHP Kilis İl Başkanı Umut Mehmet Sapan İstifa Etti",
-      "summary": "CHP Kilis İl Başkanı Umut Mehmet Sapan, İstanbul merkezli bir soruşturma kapsamında 11 gün tutuklu kaldıktan sonra tahliye edilmesinin ertesi günü görevinden istifa ettiğini açıkladı. Sapan, istifa gerekçeleri arasında ailevi ve süregelen sağlık sorunlarını...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603/",
-      "detail_json_url": "/data/details/articles/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603.webp",
-      "image_alt": "CHP Kilis İl Başkanı Umut Mehmet Sapan'ın istifa açıklamasının ardından çekilmiş bir portresi.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti_20260603.webp",
-        "alt": "CHP Kilis İl Başkanı Umut Mehmet Sapan'ın istifa açıklamasının ardından çekilmiş bir portresi."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/gundem/istanbul-merkezli-sorusturmada-11-gun-tutuklu-kalmisti-chp-kilis-il-baskani-umut-mehmet-sapan-istifa-etti-7599017",
-      "tags": [
-        "CHP",
-        "Umut Mehmet Sapan",
-        "Kilis",
-        "İstifa",
-        "Siyaset"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    }
-  ],
-  "latest": [
     {
       "id": "articles:trump-bill-pulte-ulusal-istihbarat-direktoru-atamasi_20260604",
       "slug": "trump-bill-pulte-ulusal-istihbarat-direktoru-atamasi_20260604",
@@ -747,6 +780,76 @@
         "FHFA"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:trabzonspor-noah-saviolo-transferi_20260604",
+      "slug": "trabzonspor-noah-saviolo-transferi_20260604",
+      "title": "Trabzonspor'dan Bir Transfer Daha: Noah Saviolo Vitoria'dan Geliyor",
+      "summary": "Trabzonspor, sol kanat transferi için Portekiz'den bir ismi daha kadrosuna katıyor. Bordo-mavililer, Vitoria SC ile 22 yaşındaki Portekizli sol kanat oyuncusu Noah Saviolo'nun transferi konusunda anlaşmaya vardı. Anlaşma gereği Vitoria'ya 11.5 milyon Euro b...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/trabzonspor-noah-saviolo-transferi_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/trabzonspor-noah-saviolo-transferi_20260604/",
+      "detail_json_url": "/data/details/articles/trabzonspor-noah-saviolo-transferi_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/trabzonspor-noah-saviolo-transferi_20260604.webp",
+      "image_alt": "Noah Saviolo Trabzonspor ile sözleşme imzalıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/trabzonspor-noah-saviolo-transferi_20260604.webp",
+        "alt": "Noah Saviolo Trabzonspor ile sözleşme imzalıyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/trabzonspor-cabrali-getirdi-sira-noah-saviolada-43192515",
+      "tags": [
+        "Trabzonspor",
+        "Noah Saviolo",
+        "Transfer",
+        "Vitoria SC"
+      ],
+      "quality_score": 80,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604",
+      "slug": "real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604",
+      "title": "Real Madrid Başkan Adayı Riquelme'den Haaland ve Rodri Transferi Sözü",
+      "summary": "Real Madrid'de 7 Haziran'da yapılacak başkanlık seçimleri öncesinde adaylardan Enrique Riquelme, Manchester City'de forma giyen Erling Haaland ve Rodri'yi kadroya katacağını duyurdu. Riquelme, bu transferlerin gerçekleşmemesi durumunda kulübün 100.000 üyesi...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604/",
+      "detail_json_url": "/data/details/articles/real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604.webp",
+      "image_alt": "Real Madrid başkan adayı Enrique Riquelme, Erling Haaland forması ve noter tasdikli belge ile.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/real-madrid-baskan-adayi-riquelme-haaland-rodri-transferi_20260604.webp",
+        "alt": "Real Madrid başkan adayı Enrique Riquelme, Erling Haaland forması ve noter tasdikli belge ile."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/sporskor/galeri-dunya-futbolunu-degistirecek-transfer-real-madridin-baskan-adayi-erling-haalandi-noter-tasdikli-belgeyle-duyurdu-1727096",
+      "tags": [
+        "Real Madrid",
+        "Erling Haaland",
+        "Rodri",
+        "Enrique Riquelme",
+        "Başkanlık Seçimi",
+        "Transfer"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -1482,112 +1585,6 @@
         "Adil Yargılama",
         "Gizli Tanık",
         "Polis Soruşturması"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603",
-      "slug": "abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603",
-      "title": "ABD'de Banka Soygunu Girişimi: FBI Devrede",
-      "summary": "ABD'nin California eyaletine bağlı Bakersfield kentinde bir banka şubesinde bomba tehdidi ve rehine krizi yaşandı. Olay yerine sevk edilen polis ekipleri, bir erkeğin banka içerisinde çok sayıda kişiyle birlikte kendisini binaya kilitlediğini tespit etti. K...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603/",
-      "detail_json_url": "/data/details/articles/abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603.webp",
-      "image_alt": "ABD'nin California eyaletine bağlı Bakersfield kentinde bir banka şubesinde bomba tehdidi ve rehine krizi nedeniyle geniş...",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603.webp",
-        "alt": "ABD'nin California eyaletine bağlı Bakersfield kentinde bir banka şubesinde bomba tehdidi ve rehine krizi nedeniyle geniş..."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/dunya/abdde-bombali-soygun-girisimi-fbi-alarma-gecti-43191314",
-      "tags": [
-        "Bakersfield",
-        "California",
-        "Banka Soygunu",
-        "Rehine Krizi",
-        "FBI"
-      ],
-      "quality_score": 75,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603",
-      "slug": "abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603",
-      "title": "ABD'de Banka Soygunu Girişimi: Rehine Krizi ve FBI Operasyonu",
-      "summary": "ABD'nin California eyaletine bağlı Bakersfield kentinde bir Chase Bank şubesinde salı günü yerel saatle 13.00 sıralarında bomba tehdidi ve rehine krizi yaşandı. Olay yerine çok sayıda güvenlik gücü sevk edilirken, FBI ajanları da operasyona dahil oldu. Kriz...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603/",
-      "detail_json_url": "/data/details/articles/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603.webp",
-      "image_alt": "California'daki bir Chase Bank şubesinin çevresinde konuşlanmış polis, FBI ve acil müdahale ekipleri, geniş güvenlik...",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603.webp",
-        "alt": "California'daki bir Chase Bank şubesinin çevresinde konuşlanmış polis, FBI ve acil müdahale ekipleri, geniş güvenlik..."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/dunya/abdde-bombali-soygun-girisimi-fbi-alarma-gecti-43191314",
-      "tags": [
-        "FBI",
-        "Rehine Krizi",
-        "Bakersfield",
-        "California",
-        "Banka Soygunu",
-        "Bomba Tehdidi"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:a-milli-kadin-voleybol-takimi-vnl-yeni-hedefler-2026_20260603",
-      "slug": "a-milli-kadin-voleybol-takimi-vnl-yeni-hedefler-2026_20260603",
-      "title": "A Milli Kadın Voleybol Takımı VNL'de Yeni Hedeflerle Mücadele Edecek",
-      "summary": "Türkiye Voleybol Federasyonu Başkanı Mehmet Akif Üstündağ, A Milli Kadın Voleybol Takımı'nın 2026 FIVB Milletler Ligi'nde (VNL) yeni hedeflerle mücadele edeceğini açıkladı. Üstündağ, takımın geçmiş başarılarla yetinmeyip her turnuvaya yeni hedeflerle çıktığ...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/a-milli-kadin-voleybol-takimi-vnl-yeni-hedefler-2026_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/a-milli-kadin-voleybol-takimi-vnl-yeni-hedefler-2026_20260603/",
-      "detail_json_url": "/data/details/articles/a-milli-kadin-voleybol-takimi-vnl-yeni-hedefler-2026_20260603.json",
-      "image_url": "https://images.pexels.com/photos/31762350/pexels-photo-31762350.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "image_alt": "A Milli Kadın Voleybol Takımı oyuncuları ve Federasyon Başkanı Mehmet Akif Üstündağ, 2026 VNL hedeflerini açıklıyor.",
-      "image": {
-        "url": "https://images.pexels.com/photos/31762350/pexels-photo-31762350.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "alt": "A Milli Kadın Voleybol Takımı oyuncuları ve Federasyon Başkanı Mehmet Akif Üstündağ, 2026 VNL hedeflerini açıklıyor."
-      },
-      "source_name": "Anadolu Ajansı Güncel Haberler",
-      "source_url": "https://www.aa.com.tr/tr/spor/a-milli-kadin-voleybol-takiminin-yeni-vnl-hedefleri/3955027",
-      "tags": [
-        "A Milli Kadın Voleybol Takımı",
-        "Milletler Ligi",
-        "Mehmet Akif Üstündağ",
-        "Voleybol",
-        "Filenin Sultanları"
       ],
       "quality_score": 86,
       "review_status": "published"
