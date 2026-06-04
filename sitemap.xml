@@ -55,42 +55,35 @@
     <!-- SITEMAP_ARTICLES_START -->
     <url>
         <loc>https://mansetradar.com.tr/news/</loc>
-        <lastmod>2026-06-03</lastmod>
+        <lastmod>2026-06-04</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://mansetradar.com.tr/nachrichten/</loc>
-        <lastmod>2026-06-03</lastmod>
+        <lastmod>2026-06-04</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://mansetradar.com.tr/oyunlar/</loc>
-        <lastmod>2026-06-03</lastmod>
+        <lastmod>2026-06-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://mansetradar.com.tr/articles/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603/</loc>
-        <lastmod>2026-06-03</lastmod>
+        <loc>https://mansetradar.com.tr/articles/trump-bill-pulte-ulusal-istihbarat-direktoru-atamasi_20260604/</loc>
+        <lastmod>2026-06-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <image:image><image:loc>https://mansetradar.com.tr/articles/images/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603.webp</image:loc></image:image>
+        <image:image><image:loc>https://mansetradar.com.tr/articles/images/trump-bill-pulte-ulusal-istihbarat-direktoru-atamasi_20260604.webp</image:loc></image:image>
     </url>
     <url>
-        <loc>https://mansetradar.com.tr/articles/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603/</loc>
-        <lastmod>2026-06-03</lastmod>
+        <loc>https://mansetradar.com.tr/articles/emekli-temmuz-zam-orani-hesaplamasi_20260604/</loc>
+        <lastmod>2026-06-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <image:image><image:loc>https://mansetradar.com.tr/articles/images/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603.webp</image:loc></image:image>
-    </url>
-    <url>
-        <loc>https://mansetradar.com.tr/articles/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603/</loc>
-        <lastmod>2026-06-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-        <image:image><image:loc>https://images.pexels.com/photos/29178431/pexels-photo-29178431.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940</image:loc></image:image>
+        <image:image><image:loc>https://mansetradar.com.tr/articles/images/emekli-temmuz-zam-orani-hesaplamasi_20260604.webp</image:loc></image:image>
     </url>
     <url>
         <loc>https://mansetradar.com.tr/articles/fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603/</loc>
@@ -163,6 +156,20 @@
         <image:image><image:loc>https://mansetradar.com.tr/articles/images/ayhan-bora-kaplan-davasi-adil-yargilama-talebi_20260603.webp</image:loc></image:image>
     </url>
     <url>
+        <loc>https://mansetradar.com.tr/articles/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603/</loc>
+        <lastmod>2026-06-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image><image:loc>https://mansetradar.com.tr/articles/images/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603.webp</image:loc></image:image>
+    </url>
+    <url>
+        <loc>https://mansetradar.com.tr/articles/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603/</loc>
+        <lastmod>2026-06-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image><image:loc>https://mansetradar.com.tr/articles/images/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603.webp</image:loc></image:image>
+    </url>
+    <url>
         <loc>https://mansetradar.com.tr/articles/2026-en-iyi-robot-supurgeler_20260603/</loc>
         <lastmod>2026-06-03</lastmod>
         <changefreq>monthly</changefreq>
@@ -196,6 +203,13 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image><image:loc>https://mansetradar.com.tr/articles/images/polonya-okul-cep-telefonu-yasagi_20260603.webp</image:loc></image:image>
+    </url>
+    <url>
+        <loc>https://mansetradar.com.tr/articles/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603/</loc>
+        <lastmod>2026-06-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image><image:loc>https://images.pexels.com/photos/29178431/pexels-photo-29178431.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940</image:loc></image:image>
     </url>
     <url>
         <loc>https://mansetradar.com.tr/articles/jeffrey-epstein-sperm-bankasi-gizli-sozlesme-ortaya-cikti_20260603/</loc>
