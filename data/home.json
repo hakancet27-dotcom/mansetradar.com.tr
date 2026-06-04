@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-04T00:00:00+00:00",
-    "article_count": 510,
+    "article_count": 514,
     "schema_version": 2,
     "section": "articles"
   },
@@ -72,6 +72,41 @@
         "Kanal D",
         "Uzak Şehir",
         "Arka Sokaklar"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:turkiye-turkmenistan-9-donem-hek-protokolu-imzalandi_20260604",
+      "slug": "turkiye-turkmenistan-9-donem-hek-protokolu-imzalandi_20260604",
+      "title": "Türkiye ve Türkmenistan Arasında 9. Dönem HEK Protokolü ve Eylem Planı İmzalandı",
+      "summary": "Türkiye ile Türkmenistan arasında, Aşkabat'ta düzenlenen 9. Dönem Hükümetler Arası Ekonomik Komisyon (HEK) Toplantısı'nın ardından ekonomik işbirliğine dair 9. Dönem HEK Protokolü ve bu kapsamdaki 71 maddelik eylem planı imzalandı. Protokol, iki ülke arasın...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/turkiye-turkmenistan-9-donem-hek-protokolu-imzalandi_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/turkiye-turkmenistan-9-donem-hek-protokolu-imzalandi_20260604/",
+      "detail_json_url": "/data/details/articles/turkiye-turkmenistan-9-donem-hek-protokolu-imzalandi_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/turkiye-turkmenistan-9-donem-hek-protokolu-imzalandi_20260604.webp",
+      "image_alt": "Türkiye ve Türkmenistan heyetleri, Aşkabat'ta ekonomik işbirliği protokolünü imzalıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/turkiye-turkmenistan-9-donem-hek-protokolu-imzalandi_20260604.webp",
+        "alt": "Türkiye ve Türkmenistan heyetleri, Aşkabat'ta ekonomik işbirliği protokolünü imzalıyor."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/ekonomi/turkiye-ile-turkmenistan-arasinda-9-donem-hek-protokolu-imzalandi-7599447",
+      "tags": [
+        "Türkiye",
+        "Türkmenistan",
+        "Ekonomik İşbirliği",
+        "HEK Protokolü",
+        "Orta Koridor"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -355,6 +390,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles:ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604",
+      "slug": "ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604",
+      "title": "ING: Dolar Güçleniyor, DXY 100 Seviyesi Ulaşılabilir Görünüyor",
+      "summary": "ING stratejistleri Frantisek Taborsky, Francesco Pesole ve Chris Turner, ABD'den gelen güçlü istihdam ve hizmet endeksi verileri ile ABD-İran çatışmalarının tetiklediği riskten kaçış eğiliminin doları desteklediğini belirtti. Değerlendirmede, doların gücüne...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604/",
+      "detail_json_url": "/data/details/articles/ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604.json",
+      "image_url": "https://images.pexels.com/photos/37673840/pexels-photo-37673840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image_alt": "ING: Dolar Güçleniyor, DXY 100 Seviyesi Ulaşılabilir Görünüyor",
+      "image": {
+        "url": "https://images.pexels.com/photos/37673840/pexels-photo-37673840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "ING: Dolar Güçleniyor, DXY 100 Seviyesi Ulaşılabilir Görünüyor"
+      },
+      "source_name": "BloombergHT.COM",
+      "source_url": "https://www.bloomberght.com/ing-orta-dogudaki-durum-ve-abd-verileri-dolari-destekliyor-3779047",
+      "tags": [
+        "Dolar",
+        "DXY",
+        "ECB",
+        "Orta Doğu",
+        "ABD Ekonomisi",
+        "Faiz Artışı"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:gazeteci-reha-muhtar-hayatini-kaybetti_20260604",
       "slug": "gazeteci-reha-muhtar-hayatini-kaybetti_20260604",
       "title": "Gazeteci Reha Muhtar Hayatını Kaybetti",
@@ -386,6 +457,42 @@
         "Bodrum"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604",
+      "slug": "finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604",
+      "title": "Finlandiya Cumhurbaşkanı Stubb'dan AB'de Türkiye Çıkışı: 'Ciddi Düşünmeliyiz'",
+      "summary": "Finlandiya Cumhurbaşkanı Stubb, Helsinki'de düzenlenen bir konferansta Avrupa Birliği'nin (AB) 40 üyeye genişlemesi gerektiğini savundu. Stubb, Türkiye'yi potansiyel üye adayları arasında göstererek, \"Türkiye'yi de ciddi olarak düşünmemiz gerekiyor. Güvenli...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604/",
+      "detail_json_url": "/data/details/articles/finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604.webp",
+      "image_alt": "Finlandiya Cumhurbaşkanı Stubb'dan AB'de Türkiye Çıkışı: 'Ciddi Düşünmeliyiz'",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604.webp",
+        "alt": "Finlandiya Cumhurbaşkanı Stubb'dan AB'de Türkiye Çıkışı: 'Ciddi Düşünmeliyiz'"
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/abde-40-uye-ulke-hedefinde-dikkat-ceken-turkiye-sozleri-ciddi-sekilde-dusunmeliyiz-7599401",
+      "tags": [
+        "AB",
+        "Avrupa Birliği",
+        "Finlandiya",
+        "Alexander Stubb",
+        "Türkiye",
+        "Genişleme"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -494,6 +601,40 @@
       "review_status": "published"
     },
     {
+      "id": "articles:alphabet-yapay-zeka-85-milyar-dolar-sermaye-artirimi_20260604",
+      "slug": "alphabet-yapay-zeka-85-milyar-dolar-sermaye-artirimi_20260604",
+      "title": "Alphabet'ten Yapay Zeka İçin Rekor 85 Milyar Dolarlık Sermaye Artırımı",
+      "summary": "Google'ın ana şirketi Alphabet, yapay zeka alanındaki çalışmalarını hızlandırmak ve artan talebi karşılamak amacıyla rekor seviyede bir sermaye artırımı gerçekleştirdi. İlk etapta 40 milyar dolar olarak planlanan hisse satışı, yüksek yatırımcı ilgisiyle 45...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/alphabet-yapay-zeka-85-milyar-dolar-sermaye-artirimi_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/alphabet-yapay-zeka-85-milyar-dolar-sermaye-artirimi_20260604/",
+      "detail_json_url": "/data/details/articles/alphabet-yapay-zeka-85-milyar-dolar-sermaye-artirimi_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/alphabet-yapay-zeka-85-milyar-dolar-sermaye-artirimi_20260604.webp",
+      "image_alt": "Yapay zeka ve finansal yatırımı temsil eden dinamik bir illüstrasyon.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/alphabet-yapay-zeka-85-milyar-dolar-sermaye-artirimi_20260604.webp",
+        "alt": "Yapay zeka ve finansal yatırımı temsil eden dinamik bir illüstrasyon."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/85-milyar-dolarlik-yapay-zeka-bombasi-alphabet-googlein-yapay-zeka-hamlesini-85-milyar-dolarlik-rekor-sermaye-artisiyla-guclendiriyor-3889231-teknoloji",
+      "tags": [
+        "Alphabet",
+        "Yapay Zeka",
+        "Sermaye Artırımı",
+        "Teknoloji Yatırımları"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:unluler-uyusturucu-sorusturmasi-test-sonuclari-belli-oldu_20260603",
       "slug": "unluler-uyusturucu-sorusturmasi-test-sonuclari-belli-oldu_20260603",
       "title": "Ünlülere Uyuşturucu Soruşturmasında 7 Şüphelinin Test Sonuçları Açıklandı",
@@ -560,145 +701,6 @@
         "Özgür Özel",
         "Veli Ağbaba",
         "Siyaset"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603",
-      "slug": "trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603",
-      "title": "Trump: İran'la Müzakereler Çok İyi Gidiyor, Anlaşma Hafta Sonu Olabilir",
-      "summary": "ABD Başkanı Donald Trump, İran ile müzakerelerin \"çok çok iyi gittiğini\" ve bir anlaşmanın bu hafta sonu sağlanabileceğini belirtti. Trump, anlaşma durumunda İran'ın nükleer silah geliştirmemeyi kabul edeceğini vurguladı. Ayrıca İsrail-Lübnan gerilimini \"ko...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603/",
-      "detail_json_url": "/data/details/articles/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603.json",
-      "image_url": "https://images.pexels.com/photos/29178431/pexels-photo-29178431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "image_alt": "ABD Başkanı Donald Trump, Oval Ofis'te basın mensuplarına açıklama yaparken görülüyor.",
-      "image": {
-        "url": "https://images.pexels.com/photos/29178431/pexels-photo-29178431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "alt": "ABD Başkanı Donald Trump, Oval Ofis'te basın mensuplarına açıklama yaparken görülüyor."
-      },
-      "source_name": "Anadolu Ajansı Güncel Haberler",
-      "source_url": "https://www.aa.com.tr/tr/dunya/trump-iranla-muzakerelerin-cok-iyi-gittigini-ve-hafta-sonu-anlasma-saglanabilecegini-belirtti/3955905",
-      "tags": [
-        "İran",
-        "Donald Trump",
-        "Nükleer Anlaşma",
-        "Hürmüz Boğazı",
-        "İsrail",
-        "Lübnan"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:tbmm-komisyonu-siber-zorbalik-cocuklar-dijital-riskler_20260603",
-      "slug": "tbmm-komisyonu-siber-zorbalik-cocuklar-dijital-riskler_20260603",
-      "title": "TBMM Komisyonu'nda Siber Zorbalık Uyarısı: Her 5 Çocuktan 1'i Mağdur",
-      "summary": "TBMM Okul Saldırılarının Nedenlerini Araştırma Komisyonu, akademisyenleri dinledi. Toplantıda, Türkiye'de her 5 çocuktan 1'inin siber zorbalığa maruz kaldığı ve çocukların fiziksel kavgadan çok siber zorbalıktan korktuğu belirtildi.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/tbmm-komisyonu-siber-zorbalik-cocuklar-dijital-riskler_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/tbmm-komisyonu-siber-zorbalik-cocuklar-dijital-riskler_20260603/",
-      "detail_json_url": "/data/details/articles/tbmm-komisyonu-siber-zorbalik-cocuklar-dijital-riskler_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/tbmm-komisyonu-siber-zorbalik-cocuklar-dijital-riskler_20260603.webp",
-      "image_alt": "TBMM Komisyonu'nda Siber Zorbalık Uyarısı: Her 5 Çocuktan 1'i Mağdur",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/tbmm-komisyonu-siber-zorbalik-cocuklar-dijital-riskler_20260603.webp",
-        "alt": "TBMM Komisyonu'nda Siber Zorbalık Uyarısı: Her 5 Çocuktan 1'i Mağdur"
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/turkiye/okul-saldirilarini-arastirma-komisyonunda-akademisyenler-dinlendi-her-5-cocuktan-1i-siber-zorbaliga-maruz-kaliyor-1727054",
-      "tags": [
-        "Siber Zorbalık",
-        "TBMM",
-        "Dijital Riskler",
-        "Çocuklar",
-        "Okul Saldırıları"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:polonya-okul-cep-telefonu-yasagi_20260603",
-      "slug": "polonya-okul-cep-telefonu-yasagi_20260603",
-      "title": "Polonya'da Okullarda Cep Telefonu Yasağı Kapsamı Genişliyor",
-      "summary": "Polonya hükümeti, ilkokul öğrencilerinin okul binaları ve eğitim faaliyetleri sırasında cep telefonları ile görüntü ve ses kaydı yapabilen diğer elektronik cihazları kullanmasını yasaklayan bir yasa tasarısını kabul etti. Düzenleme, 1 Eylül'de yürürlüğe gir...",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/polonya-okul-cep-telefonu-yasagi_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/polonya-okul-cep-telefonu-yasagi_20260603/",
-      "detail_json_url": "/data/details/articles/polonya-okul-cep-telefonu-yasagi_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/polonya-okul-cep-telefonu-yasagi_20260603.webp",
-      "image_alt": "Polonya'da bir sınıfta öğrencilerin cep telefonlarını belirlenmiş bir saklama kutusuna koyduğu sahne.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/polonya-okul-cep-telefonu-yasagi_20260603.webp",
-        "alt": "Polonya'da bir sınıfta öğrencilerin cep telefonlarını belirlenmiş bir saklama kutusuna koyduğu sahne."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/avrupa-da-okullarda-cep-telefonu-yasagi-buyuyor-bir-ulke-daha-kisitlama-getirdi-3888920-teknoloji",
-      "tags": [
-        "Polonya",
-        "cep telefonu yasağı",
-        "okul",
-        "eğitim"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603",
-      "slug": "nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603",
-      "title": "Nişantaşı'nda Eğlence Mekanına İki Gün Arayla Silahlı Saldırı: 4 Yaralı, 6 Gözaltı",
-      "summary": "İstanbul'un Nişantaşı semtinde bir eğlence mekanına iki gün arayla iki ayrı silahlı saldırı düzenlendi. İlk olayda 3 kişi ayağından yaralanırken, ikinci saldırıda ise bir güvenlik görevlisi kasığından yaralandı. Toplam 4 kişinin yaralandığı olaylarla ilgili...",
-      "category": "Son Dakika",
-      "category_slug": "son-dakika",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603/",
-      "detail_json_url": "/data/details/articles/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603.webp",
-      "image_alt": "Nişantaşı'nda silahlı saldırı sonrası polis incelemesi",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/nisantasinda-silahli-saldiri-4-yarali-6-gozalti_20260603.webp",
-        "alt": "Nişantaşı'nda silahlı saldırı sonrası polis incelemesi"
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/nisantasinda-eglence-mekanina-iki-gun-arayla-2-silahli-saldiri-4-kisi-yaralandi-6-supheli-gozaltinda-43191531",
-      "tags": [
-        "Nişantaşı",
-        "Silahlı Saldırı",
-        "Eğlence Mekanı",
-        "Gözaltı"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -774,6 +776,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:turkiye-turkmenistan-9-donem-hek-protokolu-imzalandi_20260604",
+      "slug": "turkiye-turkmenistan-9-donem-hek-protokolu-imzalandi_20260604",
+      "title": "Türkiye ve Türkmenistan Arasında 9. Dönem HEK Protokolü ve Eylem Planı İmzalandı",
+      "summary": "Türkiye ile Türkmenistan arasında, Aşkabat'ta düzenlenen 9. Dönem Hükümetler Arası Ekonomik Komisyon (HEK) Toplantısı'nın ardından ekonomik işbirliğine dair 9. Dönem HEK Protokolü ve bu kapsamdaki 71 maddelik eylem planı imzalandı. Protokol, iki ülke arasın...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/turkiye-turkmenistan-9-donem-hek-protokolu-imzalandi_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/turkiye-turkmenistan-9-donem-hek-protokolu-imzalandi_20260604/",
+      "detail_json_url": "/data/details/articles/turkiye-turkmenistan-9-donem-hek-protokolu-imzalandi_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/turkiye-turkmenistan-9-donem-hek-protokolu-imzalandi_20260604.webp",
+      "image_alt": "Türkiye ve Türkmenistan heyetleri, Aşkabat'ta ekonomik işbirliği protokolünü imzalıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/turkiye-turkmenistan-9-donem-hek-protokolu-imzalandi_20260604.webp",
+        "alt": "Türkiye ve Türkmenistan heyetleri, Aşkabat'ta ekonomik işbirliği protokolünü imzalıyor."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/ekonomi/turkiye-ile-turkmenistan-arasinda-9-donem-hek-protokolu-imzalandi-7599447",
+      "tags": [
+        "Türkiye",
+        "Türkmenistan",
+        "Ekonomik İşbirliği",
+        "HEK Protokolü",
+        "Orta Koridor"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:trump-bill-pulte-ulusal-istihbarat-direktoru-atamasi_20260604",
       "slug": "trump-bill-pulte-ulusal-istihbarat-direktoru-atamasi_20260604",
       "title": "Trump'tan Sürpriz Atama: Bill Pulte Ulusal İstihbarat Direktörü Oldu",
@@ -1052,6 +1089,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles:ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604",
+      "slug": "ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604",
+      "title": "ING: Dolar Güçleniyor, DXY 100 Seviyesi Ulaşılabilir Görünüyor",
+      "summary": "ING stratejistleri Frantisek Taborsky, Francesco Pesole ve Chris Turner, ABD'den gelen güçlü istihdam ve hizmet endeksi verileri ile ABD-İran çatışmalarının tetiklediği riskten kaçış eğiliminin doları desteklediğini belirtti. Değerlendirmede, doların gücüne...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604/",
+      "detail_json_url": "/data/details/articles/ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604.json",
+      "image_url": "https://images.pexels.com/photos/37673840/pexels-photo-37673840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image_alt": "ING: Dolar Güçleniyor, DXY 100 Seviyesi Ulaşılabilir Görünüyor",
+      "image": {
+        "url": "https://images.pexels.com/photos/37673840/pexels-photo-37673840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "ING: Dolar Güçleniyor, DXY 100 Seviyesi Ulaşılabilir Görünüyor"
+      },
+      "source_name": "BloombergHT.COM",
+      "source_url": "https://www.bloomberght.com/ing-orta-dogudaki-durum-ve-abd-verileri-dolari-destekliyor-3779047",
+      "tags": [
+        "Dolar",
+        "DXY",
+        "ECB",
+        "Orta Doğu",
+        "ABD Ekonomisi",
+        "Faiz Artışı"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:gazeteci-reha-muhtar-hayatini-kaybetti_20260604",
       "slug": "gazeteci-reha-muhtar-hayatini-kaybetti_20260604",
       "title": "Gazeteci Reha Muhtar Hayatını Kaybetti",
@@ -1083,6 +1156,42 @@
         "Bodrum"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604",
+      "slug": "finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604",
+      "title": "Finlandiya Cumhurbaşkanı Stubb'dan AB'de Türkiye Çıkışı: 'Ciddi Düşünmeliyiz'",
+      "summary": "Finlandiya Cumhurbaşkanı Stubb, Helsinki'de düzenlenen bir konferansta Avrupa Birliği'nin (AB) 40 üyeye genişlemesi gerektiğini savundu. Stubb, Türkiye'yi potansiyel üye adayları arasında göstererek, \"Türkiye'yi de ciddi olarak düşünmemiz gerekiyor. Güvenli...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604/",
+      "detail_json_url": "/data/details/articles/finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604.webp",
+      "image_alt": "Finlandiya Cumhurbaşkanı Stubb'dan AB'de Türkiye Çıkışı: 'Ciddi Düşünmeliyiz'",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604.webp",
+        "alt": "Finlandiya Cumhurbaşkanı Stubb'dan AB'de Türkiye Çıkışı: 'Ciddi Düşünmeliyiz'"
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/abde-40-uye-ulke-hedefinde-dikkat-ceken-turkiye-sozleri-ciddi-sekilde-dusunmeliyiz-7599401",
+      "tags": [
+        "AB",
+        "Avrupa Birliği",
+        "Finlandiya",
+        "Alexander Stubb",
+        "Türkiye",
+        "Genişleme"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -1186,6 +1295,40 @@
         "Anayasa Mahkemesi",
         "nafaka iptali",
         "yoksulluk nafakası"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:alphabet-yapay-zeka-85-milyar-dolar-sermaye-artirimi_20260604",
+      "slug": "alphabet-yapay-zeka-85-milyar-dolar-sermaye-artirimi_20260604",
+      "title": "Alphabet'ten Yapay Zeka İçin Rekor 85 Milyar Dolarlık Sermaye Artırımı",
+      "summary": "Google'ın ana şirketi Alphabet, yapay zeka alanındaki çalışmalarını hızlandırmak ve artan talebi karşılamak amacıyla rekor seviyede bir sermaye artırımı gerçekleştirdi. İlk etapta 40 milyar dolar olarak planlanan hisse satışı, yüksek yatırımcı ilgisiyle 45...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/alphabet-yapay-zeka-85-milyar-dolar-sermaye-artirimi_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/alphabet-yapay-zeka-85-milyar-dolar-sermaye-artirimi_20260604/",
+      "detail_json_url": "/data/details/articles/alphabet-yapay-zeka-85-milyar-dolar-sermaye-artirimi_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/alphabet-yapay-zeka-85-milyar-dolar-sermaye-artirimi_20260604.webp",
+      "image_alt": "Yapay zeka ve finansal yatırımı temsil eden dinamik bir illüstrasyon.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/alphabet-yapay-zeka-85-milyar-dolar-sermaye-artirimi_20260604.webp",
+        "alt": "Yapay zeka ve finansal yatırımı temsil eden dinamik bir illüstrasyon."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/85-milyar-dolarlik-yapay-zeka-bombasi-alphabet-googlein-yapay-zeka-hamlesini-85-milyar-dolarlik-rekor-sermaye-artisiyla-guclendiriyor-3889231-teknoloji",
+      "tags": [
+        "Alphabet",
+        "Yapay Zeka",
+        "Sermaye Artırımı",
+        "Teknoloji Yatırımları"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1431,147 +1574,6 @@
         "Avrupa Basketbolu",
         "FIBA",
         "Spor Yatırımı"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:nba-avrupa-ligi-projesi-ekim-2027-mark-tatum-aciklamasi_20260603",
-      "slug": "nba-avrupa-ligi-projesi-ekim-2027-mark-tatum-aciklamasi_20260603",
-      "title": "NBA Avrupa Ligi Projesi Ekim 2027'de Başlıyor: Mark Tatum'dan Açıklamalar",
-      "summary": "NBA Başkan Yardımcısı Mark Tatum, NBA ve FIBA ortaklığında Avrupa'da kurulması planlanan yeni lig projesinin Ekim 2027'deki lansmanı öncesinde son aşamada olduğunu duyurdu. Tatum, projenin Avrupa basketboluna erişimi genişleteceğini ve seviyesini yükseltece...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/nba-avrupa-ligi-projesi-ekim-2027-mark-tatum-aciklamasi_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/nba-avrupa-ligi-projesi-ekim-2027-mark-tatum-aciklamasi_20260603/",
-      "detail_json_url": "/data/details/articles/nba-avrupa-ligi-projesi-ekim-2027-mark-tatum-aciklamasi_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/nba-avrupa-ligi-projesi-ekim-2027-mark-tatum-aciklamasi_20260603.webp",
-      "image_alt": "NBA Başkan Yardımcısı Mark Tatum, Avrupa'da kurulacak yeni basketbol ligi projesini açıklarken.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/nba-avrupa-ligi-projesi-ekim-2027-mark-tatum-aciklamasi_20260603.webp",
-        "alt": "NBA Başkan Yardımcısı Mark Tatum, Avrupa'da kurulacak yeni basketbol ligi projesini açıklarken."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/mark-tatum-dan-nba-avrupa-aciklamasi-3889026-spor",
-      "tags": [
-        "NBA",
-        "FIBA",
-        "Avrupa Basketbolu",
-        "Mark Tatum",
-        "Basketbol Şampiyonlar Ligi"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:motorola-edge-2026-turkiyede-tanitildi-ozellikleri-ve-fiyati_20260603",
-      "slug": "motorola-edge-2026-turkiyede-tanitildi-ozellikleri-ve-fiyati_20260603",
-      "title": "Motorola Edge 2026 Türkiye'de Tanıtıldı: İşte Özellikleri ve Fiyatı",
-      "summary": "Motorola'nın Türkiye pazarındaki yenilikçi adımlarından biri olan Edge serisi, yeni modeli Edge 2026 ile güncellendi. Bir önceki modele göre daha yüksek bir fiyat etiketine sahip olması beklenen Motorola Edge 2026, tatmin edici özellikleriyle dikkat çekiyor...",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/motorola-edge-2026-turkiyede-tanitildi-ozellikleri-ve-fiyati_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/motorola-edge-2026-turkiyede-tanitildi-ozellikleri-ve-fiyati_20260603/",
-      "detail_json_url": "/data/details/articles/motorola-edge-2026-turkiyede-tanitildi-ozellikleri-ve-fiyati_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/motorola-edge-2026-turkiyede-tanitildi-ozellikleri-ve-fiyati_20260603.webp",
-      "image_alt": "Motorola Edge 2026 akıllı telefonun ön ve arka yüzünü gösteren stüdyo çekimi.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/motorola-edge-2026-turkiyede-tanitildi-ozellikleri-ve-fiyati_20260603.webp",
-        "alt": "Motorola Edge 2026 akıllı telefonun ön ve arka yüzünü gösteren stüdyo çekimi."
-      },
-      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
-      "source_url": "https://www.donanimhaber.com/motorola-edge-2026-tanitildi-iste-ozellikleri-ve-fiyati--206347",
-      "tags": [
-        "Motorola Edge 2026",
-        "Teknoloji",
-        "Akıllı Telefon",
-        "Motorola Türkiye"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:microsoft-build-2026-yapay-zeka-yenilikler_20260603",
-      "slug": "microsoft-build-2026-yapay-zeka-yenilikler_20260603",
-      "title": "Microsoft Build 2026'da Yapay Zeka Odaklı Yenilikler Tanıtıldı",
-      "summary": "Microsoft Build 2026 etkinliği, yapay zeka alanındaki son gelişmeleri ve yeni donanım duyurularını beraberinde getirdi. Etkinlikte öne çıkan yenilikler arasında, geliştiricilere yönelik tasarlanan Surface RTX Spark Dev Box, farklı cihazlarda ajanları çalışt...",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/microsoft-build-2026-yapay-zeka-yenilikler_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/microsoft-build-2026-yapay-zeka-yenilikler_20260603/",
-      "detail_json_url": "/data/details/articles/microsoft-build-2026-yapay-zeka-yenilikler_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/microsoft-build-2026-yapay-zeka-yenilikler_20260603.webp",
-      "image_alt": "Surface RTX Spark Dev Box ve yapay zeka arayüzlerinin yer aldığı fütüristik bir geliştirici istasyonu.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/microsoft-build-2026-yapay-zeka-yenilikler_20260603.webp",
-        "alt": "Surface RTX Spark Dev Box ve yapay zeka arayüzlerinin yer aldığı fütüristik bir geliştirici istasyonu."
-      },
-      "source_name": "Webrazzi",
-      "source_url": "https://webrazzi.com/2026/06/03/microsoft-build-2026-da-one-cikan-yenilikler/",
-      "tags": [
-        "Microsoft Build 2026",
-        "Yapay Zeka",
-        "Surface RTX Spark Dev Box",
-        "Project Solara",
-        "Microsoft Scout",
-        "Geliştirici Araçları"
-      ],
-      "quality_score": 80,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:jeffrey-epstein-sperm-bankasi-gizli-sozlesme-ortaya-cikti_20260603",
-      "slug": "jeffrey-epstein-sperm-bankasi-gizli-sozlesme-ortaya-cikti_20260603",
-      "title": "Jeffrey Epstein'in Sperm Bankasıyla Gizli Sözleşmesi Ortaya Çıktı",
-      "summary": "Jeffrey Epstein'in ölümünden yıllar önce spermlerini dondurduğu ve bir sperm bankasıyla gizli bir sözleşme imzaladığı ortaya çıktı. New York Times'ın ABD Adalet Bakanlığı kayıtlarına dayandırdığı habere göre, Epstein, spermlerinin ölümü halinde imha edilmem...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/jeffrey-epstein-sperm-bankasi-gizli-sozlesme-ortaya-cikti_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/jeffrey-epstein-sperm-bankasi-gizli-sozlesme-ortaya-cikti_20260603/",
-      "detail_json_url": "/data/details/articles/jeffrey-epstein-sperm-bankasi-gizli-sozlesme-ortaya-cikti_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/jeffrey-epstein-sperm-bankasi-gizli-sozlesme-ortaya-cikti_20260603.webp",
-      "image_alt": "Jeffrey Epstein'in Sperm Bankasıyla Gizli Sözleşmesi Ortaya Çıktı",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/jeffrey-epstein-sperm-bankasi-gizli-sozlesme-ortaya-cikti_20260603.webp",
-        "alt": "Jeffrey Epstein'in Sperm Bankasıyla Gizli Sözleşmesi Ortaya Çıktı"
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/dunya/jeffrey-epsteinin-sperm-bankasiyla-gizli-sozlesme-imzaladigi-ortaya-cikti-7598982",
-      "tags": [
-        "Jeffrey Epstein",
-        "Sperm Bankası",
-        "New York Times",
-        "ABD Adalet Bakanlığı",
-        "California Cryobank",
-        "Epstein Soruşturması"
       ],
       "quality_score": 86,
       "review_status": "published"
