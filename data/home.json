@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-04T00:00:00+00:00",
-    "article_count": 530,
+    "article_count": 533,
     "schema_version": 2,
     "section": "articles"
   },
@@ -176,6 +176,43 @@
         "El Nino",
         "İstanbul hava durumu",
         "Dr. Güven Özdemir"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604",
+      "slug": "trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604",
+      "title": "Trump'tan Savaş Tehdidi, İran'dan Beyrut İçin Kırmızı Çizgi",
+      "summary": "ABD Başkanı Donald Trump, bir ABD askeri personelinin öldürülmesinin savaşa geri dönülmesine güçlü bir neden olacağını ve hızlı karşılık vereceğini belirtti. İran Dışişleri Bakanı Abbas Arakçi ise, Beyrut'a yönelik herhangi bir saldırının ciddi sonuçlar doğ...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604/",
+      "detail_json_url": "/data/details/articles/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604.webp",
+      "image_alt": "Trump'tan Savaş Tehdidi, İran'dan Beyrut İçin Kırmızı Çizgi",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604.webp",
+        "alt": "Trump'tan Savaş Tehdidi, İran'dan Beyrut İçin Kırmızı Çizgi"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/live-son-dakika-trumptan-iran-karari-kirmizi-cizgisini-acikladi-iste-ateskesi-sona-erdirecek-talimat-43192547",
+      "tags": [
+        "Donald Trump",
+        "İran",
+        "Lübnan",
+        "Beyrut",
+        "Savaş",
+        "Diplomasi",
+        "Abbas Arakçi"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -663,42 +700,6 @@
         "Nebatiye",
         "UNIFIL",
         "Ateşkes"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604",
-      "slug": "ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604",
-      "title": "ING: Dolar Güçleniyor, DXY 100 Seviyesi Ulaşılabilir Görünüyor",
-      "summary": "ING stratejistleri Frantisek Taborsky, Francesco Pesole ve Chris Turner, ABD'den gelen güçlü istihdam ve hizmet endeksi verileri ile ABD-İran çatışmalarının tetiklediği riskten kaçış eğiliminin doları desteklediğini belirtti. Değerlendirmede, doların gücüne...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "04.06.2026",
-      "date_iso": "2026-06-04",
-      "url": "/articles/ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604/",
-      "canonical_url": "https://mansetradar.com.tr/articles/ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604/",
-      "detail_json_url": "/data/details/articles/ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604.json",
-      "image_url": "https://images.pexels.com/photos/37673840/pexels-photo-37673840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "image_alt": "ING: Dolar Güçleniyor, DXY 100 Seviyesi Ulaşılabilir Görünüyor",
-      "image": {
-        "url": "https://images.pexels.com/photos/37673840/pexels-photo-37673840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "alt": "ING: Dolar Güçleniyor, DXY 100 Seviyesi Ulaşılabilir Görünüyor"
-      },
-      "source_name": "BloombergHT.COM",
-      "source_url": "https://www.bloomberght.com/ing-orta-dogudaki-durum-ve-abd-verileri-dolari-destekliyor-3779047",
-      "tags": [
-        "Dolar",
-        "DXY",
-        "ECB",
-        "Orta Doğu",
-        "ABD Ekonomisi",
-        "Faiz Artışı"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -878,6 +879,43 @@
       "review_status": "published"
     },
     {
+      "id": "articles:trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604",
+      "slug": "trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604",
+      "title": "Trump'tan Savaş Tehdidi, İran'dan Beyrut İçin Kırmızı Çizgi",
+      "summary": "ABD Başkanı Donald Trump, bir ABD askeri personelinin öldürülmesinin savaşa geri dönülmesine güçlü bir neden olacağını ve hızlı karşılık vereceğini belirtti. İran Dışişleri Bakanı Abbas Arakçi ise, Beyrut'a yönelik herhangi bir saldırının ciddi sonuçlar doğ...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604/",
+      "detail_json_url": "/data/details/articles/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604.webp",
+      "image_alt": "Trump'tan Savaş Tehdidi, İran'dan Beyrut İçin Kırmızı Çizgi",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604.webp",
+        "alt": "Trump'tan Savaş Tehdidi, İran'dan Beyrut İçin Kırmızı Çizgi"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/live-son-dakika-trumptan-iran-karari-kirmizi-cizgisini-acikladi-iste-ateskesi-sona-erdirecek-talimat-43192547",
+      "tags": [
+        "Donald Trump",
+        "İran",
+        "Lübnan",
+        "Beyrut",
+        "Savaş",
+        "Diplomasi",
+        "Abbas Arakçi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:trump-bill-pulte-ulusal-istihbarat-direktoru-atamasi_20260604",
       "slug": "trump-bill-pulte-ulusal-istihbarat-direktoru-atamasi_20260604",
       "title": "Trump'tan Sürpriz Atama: Bill Pulte Ulusal İstihbarat Direktörü Oldu",
@@ -1365,6 +1403,40 @@
       "review_status": "published"
     },
     {
+      "id": "articles:ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604",
+      "slug": "ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604",
+      "title": "İngiltere Donanması'nın Tek Kadın Komandosu Helikopter Kazasında Hayatını Kaybetti",
+      "summary": "İngiltere'de Çarşamba günü yerel saatle 04.00 sıralarında eğitim sırasında meydana gelen helikopter kazasında, İngiltere Kraliyet Donanması'nın tek kadın komandosu 31 yaşındaki Lily-Mae Fisher ile 42 yaşındaki Chris Gayson ve 24 yaşındaki Owen Green hayatın...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604/",
+      "detail_json_url": "/data/details/articles/ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604.webp",
+      "image_alt": "İngiltere Kraliyet Donanması'nın tek kadın komandosu Lily-Mae Fisher'in fotoğrafı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604.webp",
+        "alt": "İngiltere Kraliyet Donanması'nın tek kadın komandosu Lily-Mae Fisher'in fotoğrafı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/ingiltere-donanmasinin-tek-kadin-komandosu-idi-helikopter-kazasinda-hayatini-kaybetti-43193795",
+      "tags": [
+        "İngiltere Donanması",
+        "Helikopter Kazası",
+        "Lily-Mae Fisher",
+        "Askeri Kaza"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604",
       "slug": "ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604",
       "title": "ING: Dolar Güçleniyor, DXY 100 Seviyesi Ulaşılabilir Görünüyor",
@@ -1501,75 +1573,6 @@
         "Türkiye",
         "Kamu Hizmetleri",
         "Deprem"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:gazeteci-reha-muhtar-hayatini-kaybetti_20260604",
-      "slug": "gazeteci-reha-muhtar-hayatini-kaybetti_20260604",
-      "title": "Gazeteci Reha Muhtar Hayatını Kaybetti",
-      "summary": "Gazeteci Reha Muhtar, 28 Mayıs'ta rahatsızlanarak kaldırıldığı Acıbadem Bodrum Hastanesi'nde tedavi altına alındı. Yoğun bakımda çoklu organ yetmezliği gelişen Muhtar, 3 Haziran'da saat 02.15'te hayatını kaybetti. Hastane başhekimi, Muhtar'ın ileri derece k...",
-      "category": "Sağlık",
-      "category_slug": "saglik",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "04.06.2026",
-      "date_iso": "2026-06-04",
-      "url": "/articles/gazeteci-reha-muhtar-hayatini-kaybetti_20260604/",
-      "canonical_url": "https://mansetradar.com.tr/articles/gazeteci-reha-muhtar-hayatini-kaybetti_20260604/",
-      "detail_json_url": "/data/details/articles/gazeteci-reha-muhtar-hayatini-kaybetti_20260604.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/gazeteci-reha-muhtar-hayatini-kaybetti_20260604.webp",
-      "image_alt": "Gazeteci Reha Muhtar'ın fotoğrafı",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/gazeteci-reha-muhtar-hayatini-kaybetti_20260604.webp",
-        "alt": "Gazeteci Reha Muhtar'ın fotoğrafı"
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/kelebek/hayat/reha-muhtarin-sozleri-yeniden-gundemde-vaisyetimdir-deniz-ugur-cenazeme-gelmesin-43192683",
-      "tags": [
-        "Reha Muhtar",
-        "Gazeteci",
-        "Vefat",
-        "Bodrum"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:futbolcu-ugurcan-bekci-cinayetinde-yasadisi-bahis-iddiasi_20260604",
-      "slug": "futbolcu-ugurcan-bekci-cinayetinde-yasadisi-bahis-iddiasi_20260604",
-      "title": "Futbolcu Uğurcan Bekçi Cinayetinde Yeni Gelişme: Yasadışı Bahis İddiası",
-      "summary": "Kocaeli'de 17 Aralık 2025'te meydana gelen ve futbolcu Uğurcan Bekçi'nin hayatını kaybettiği silahlı kavgaya ilişkin davada yeni bir gelişme yaşandı. Davanın ilk duruşmasında sanık Ertuğrul S., olayın başlangıcının yasadışı bahis faaliyetleri ve para anlaşm...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "04.06.2026",
-      "date_iso": "2026-06-04",
-      "url": "/articles/futbolcu-ugurcan-bekci-cinayetinde-yasadisi-bahis-iddiasi_20260604/",
-      "canonical_url": "https://mansetradar.com.tr/articles/futbolcu-ugurcan-bekci-cinayetinde-yasadisi-bahis-iddiasi_20260604/",
-      "detail_json_url": "/data/details/articles/futbolcu-ugurcan-bekci-cinayetinde-yasadisi-bahis-iddiasi_20260604.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/futbolcu-ugurcan-bekci-cinayetinde-yasadisi-bahis-iddiasi_20260604.webp",
-      "image_alt": "Mahkeme salonu ve futbolcu silüeti ile gergin bir atmosferi gösteren görsel.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/futbolcu-ugurcan-bekci-cinayetinde-yasadisi-bahis-iddiasi_20260604.webp",
-        "alt": "Mahkeme salonu ve futbolcu silüeti ile gergin bir atmosferi gösteren görsel."
-      },
-      "source_name": "Cumhuriyet Gazetesi",
-      "source_url": "https://www.cumhuriyet.com.tr/turkiye/futbolcu-ugurcan-bekci-cinayetinde-yeni-gelisme-yasadisi-bahis-iddiasi-2509420",
-      "tags": [
-        "Uğurcan Bekçi",
-        "cinayet",
-        "yasadışı bahis",
-        "Kocaeli",
-        "dava"
       ],
       "quality_score": 86,
       "review_status": "published"

@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-04T00:00:00+00:00",
-    "article_count": 530,
+    "article_count": 533,
     "schema_version": 2,
     "category_slug": "gundem"
   },
@@ -209,6 +209,40 @@
         "Uyuşturucu Soruşturması",
         "İddianame",
         "Mahkeme"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604",
+      "slug": "ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604",
+      "title": "İngiltere Donanması'nın Tek Kadın Komandosu Helikopter Kazasında Hayatını Kaybetti",
+      "summary": "İngiltere'de Çarşamba günü yerel saatle 04.00 sıralarında eğitim sırasında meydana gelen helikopter kazasında, İngiltere Kraliyet Donanması'nın tek kadın komandosu 31 yaşındaki Lily-Mae Fisher ile 42 yaşındaki Chris Gayson ve 24 yaşındaki Owen Green hayatın...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604/",
+      "detail_json_url": "/data/details/articles/ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604.webp",
+      "image_alt": "İngiltere Kraliyet Donanması'nın tek kadın komandosu Lily-Mae Fisher'in fotoğrafı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604.webp",
+        "alt": "İngiltere Kraliyet Donanması'nın tek kadın komandosu Lily-Mae Fisher'in fotoğrafı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/ingiltere-donanmasinin-tek-kadin-komandosu-idi-helikopter-kazasinda-hayatini-kaybetti-43193795",
+      "tags": [
+        "İngiltere Donanması",
+        "Helikopter Kazası",
+        "Lily-Mae Fisher",
+        "Askeri Kaza"
       ],
       "quality_score": 86,
       "review_status": "published"

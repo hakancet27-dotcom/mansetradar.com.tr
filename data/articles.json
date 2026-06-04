@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-04T00:00:00+00:00",
-    "article_count": 530,
+    "article_count": 533,
     "schema_version": 2
   },
   "articles": [
@@ -175,6 +175,43 @@
         "El Nino",
         "İstanbul hava durumu",
         "Dr. Güven Özdemir"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604",
+      "slug": "trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604",
+      "title": "Trump'tan Savaş Tehdidi, İran'dan Beyrut İçin Kırmızı Çizgi",
+      "summary": "ABD Başkanı Donald Trump, bir ABD askeri personelinin öldürülmesinin savaşa geri dönülmesine güçlü bir neden olacağını ve hızlı karşılık vereceğini belirtti. İran Dışişleri Bakanı Abbas Arakçi ise, Beyrut'a yönelik herhangi bir saldırının ciddi sonuçlar doğ...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604/",
+      "detail_json_url": "/data/details/articles/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604.webp",
+      "image_alt": "Trump'tan Savaş Tehdidi, İran'dan Beyrut İçin Kırmızı Çizgi",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604.webp",
+        "alt": "Trump'tan Savaş Tehdidi, İran'dan Beyrut İçin Kırmızı Çizgi"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/live-son-dakika-trumptan-iran-karari-kirmizi-cizgisini-acikladi-iste-ateskesi-sona-erdirecek-talimat-43192547",
+      "tags": [
+        "Donald Trump",
+        "İran",
+        "Lübnan",
+        "Beyrut",
+        "Savaş",
+        "Diplomasi",
+        "Abbas Arakçi"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -667,6 +704,40 @@
       "review_status": "published"
     },
     {
+      "id": "articles:ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604",
+      "slug": "ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604",
+      "title": "İngiltere Donanması'nın Tek Kadın Komandosu Helikopter Kazasında Hayatını Kaybetti",
+      "summary": "İngiltere'de Çarşamba günü yerel saatle 04.00 sıralarında eğitim sırasında meydana gelen helikopter kazasında, İngiltere Kraliyet Donanması'nın tek kadın komandosu 31 yaşındaki Lily-Mae Fisher ile 42 yaşındaki Chris Gayson ve 24 yaşındaki Owen Green hayatın...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604/",
+      "detail_json_url": "/data/details/articles/ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604.webp",
+      "image_alt": "İngiltere Kraliyet Donanması'nın tek kadın komandosu Lily-Mae Fisher'in fotoğrafı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/ingiltere-donanmasi-tek-kadin-komando-helikopter-kazasi-lily-mae-fisher_20260604.webp",
+        "alt": "İngiltere Kraliyet Donanması'nın tek kadın komandosu Lily-Mae Fisher'in fotoğrafı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/ingiltere-donanmasinin-tek-kadin-komandosu-idi-helikopter-kazasinda-hayatini-kaybetti-43193795",
+      "tags": [
+        "İngiltere Donanması",
+        "Helikopter Kazası",
+        "Lily-Mae Fisher",
+        "Askeri Kaza"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604",
       "slug": "ing-dolar-gucleniyor-dxy-100-seviyesi-ulasilabilir-gorunuyor_20260604",
       "title": "ING: Dolar Güçleniyor, DXY 100 Seviyesi Ulaşılabilir Görünüyor",
@@ -1083,6 +1154,42 @@
         "Küresel İslami Ekonomi Zirvesi",
         "Hazine ve Maliye Bakanlığı",
         "İstanbul Finans Merkezi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:ankara-nato-zirvesi-trump-ziyareti-guvenlik-operasyonu_20260604",
+      "slug": "ankara-nato-zirvesi-trump-ziyareti-guvenlik-operasyonu_20260604",
+      "title": "Ankara'da NATO Zirvesi: Trump'ın Ziyareti Büyük Güvenlik Operasyonu Başlattı",
+      "summary": "ABD Başkanı Donald Trump'ın 7-8 Temmuz'daki NATO Zirvesi için Ankara'ya yapacağı ziyaret, başkentte devasa bir güvenlik ve lojistik operasyonunu tetikledi. Zirve hazırlıkları kapsamında kamu personelinin idari izinli sayılacağı ve birçok etkinliğin iptal ed...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "04.06.2026",
+      "date_iso": "2026-06-04",
+      "url": "/articles/ankara-nato-zirvesi-trump-ziyareti-guvenlik-operasyonu_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/ankara-nato-zirvesi-trump-ziyareti-guvenlik-operasyonu_20260604/",
+      "detail_json_url": "/data/details/articles/ankara-nato-zirvesi-trump-ziyareti-guvenlik-operasyonu_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/ankara-nato-zirvesi-trump-ziyareti-guvenlik-operasyonu_20260604.webp",
+      "image_alt": "Ankara'da NATO Zirvesi: Trump'ın Ziyareti Büyük Güvenlik Operasyonu Başlattı",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/ankara-nato-zirvesi-trump-ziyareti-guvenlik-operasyonu_20260604.webp",
+        "alt": "Ankara'da NATO Zirvesi: Trump'ın Ziyareti Büyük Güvenlik Operasyonu Başlattı"
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/nato-zirvesi-nin-gorunmeyen-yuzu-air-force-one-gizli-konvoylar-ve-abdnin-seyyar-beyaz-sarayi-3889301",
+      "tags": [
+        "Donald Trump",
+        "NATO Zirvesi",
+        "Ankara",
+        "Air Force One",
+        "The Beast",
+        "ABD Başkanı"
       ],
       "quality_score": 86,
       "review_status": "published"
