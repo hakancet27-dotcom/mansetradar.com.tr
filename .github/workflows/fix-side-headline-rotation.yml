@@ -18,7 +18,7 @@ jobs:
       - name: Checkout site repo
         uses: actions/checkout@v4
 
-      - name: Patch topic page side headline rotation
+      - name: Patch category side pair rotation safely
         run: |
           python - <<'PY'
           from pathlib import Path
@@ -30,86 +30,106 @@ jobs:
           text = path.read_text(encoding='utf-8')
           original = text
 
-          sentinel = 'function refreshCategorySideHeadlineRotation()'
+          # Eski hatali denemenin izleri varsa once temizle. Bu blok global
+          # window.refreshSideHeadlineRotation fonksiyonunu ezdigi icin tekrar
+          # kullanilmayacak.
+          text = text.replace("  var sideHeadlineRotationTimer = null;\n", "")
+          old_start = text.find("\n  function ensureCategorySideHeadlineRotationStyles() {")
+          old_end_marker = "\n  async function loadCategoryArticles(topic) {"
+          if old_start != -1:
+              old_end = text.find(old_end_marker, old_start)
+              if old_end == -1:
+                  raise SystemExit('Eski global rotasyon blogu bulundu ama temizleme siniri bulunamadi')
+              text = text[:old_start] + old_end_marker + text[old_end + len(old_end_marker):]
+
           var_anchor = "  var categoryFeedCache = {};\n  var categorySliderTimer = null;\n"
-          func_anchor = "\n  async function loadCategoryArticles(topic) {"
+          func_anchor = "\n  function renderCategoryShowcase(articles, topic) {"
+          call_anchor = "    if (typeof window.refreshSideHeadlineRotation === 'function') window.refreshSideHeadlineRotation();\n  }"
+          local_sentinel = 'function installCategorySidePairRotation(side, topic)'
+          call_line = "    installCategorySidePairRotation(side, topic);\n"
 
-          rotation_lines = [
-              "  function ensureCategorySideHeadlineRotationStyles() {",
-              "    if (document.getElementById('category-side-headline-rotation-style')) return;",
-              "    var style = document.createElement('style');",
-              "    style.id = 'category-side-headline-rotation-style';",
-              "    style.textContent = '.side-headline.is-side-rotated-out{display:none!important;}';",
-              "    document.head.appendChild(style);",
-              "  }",
-              "",
-              "  function stopCategorySideHeadlineRotation() {",
-              "    if (sideHeadlineRotationTimer) {",
-              "      window.clearInterval(sideHeadlineRotationTimer);",
-              "      sideHeadlineRotationTimer = null;",
-              "    }",
-              "  }",
-              "",
-              "  function setCategorySideHeadlinePage(cards, pageIndex) {",
-              "    var start = pageIndex * 2;",
-              "    var end = start + 2;",
-              "    cards.forEach(function (card, index) {",
-              "      var visible = index >= start && index < end;",
-              "      card.classList.toggle('is-side-rotated-out', !visible);",
-              "      card.setAttribute('aria-hidden', visible ? 'false' : 'true');",
-              "    });",
-              "  }",
-              "",
-              "  function refreshCategorySideHeadlineRotation() {",
-              "    stopCategorySideHeadlineRotation();",
-              "    var rail = document.querySelector('.side-headlines');",
-              "    if (!rail) return;",
-              "",
-              "    var cards = Array.prototype.slice.call(rail.querySelectorAll('.side-headline'));",
-              "    cards.forEach(function (card) {",
-              "      card.classList.remove('is-side-rotated-out');",
-              "      card.removeAttribute('aria-hidden');",
-              "    });",
-              "",
-              "    if (selectedTopic() === 'son-dakika' || cards.length <= 2) return;",
-              "",
-              "    ensureCategorySideHeadlineRotationStyles();",
-              "    var pageCount = Math.ceil(cards.length / 2);",
-              "    var pageIndex = 0;",
-              "    setCategorySideHeadlinePage(cards, pageIndex);",
-              "",
-              "    sideHeadlineRotationTimer = window.setInterval(function () {",
-              "      pageIndex = (pageIndex + 1) % pageCount;",
-              "      setCategorySideHeadlinePage(cards, pageIndex);",
-              "    }, 4000);",
-              "  }",
-              "",
-              "  window.refreshSideHeadlineRotation = refreshCategorySideHeadlineRotation;",
-          ]
-          rotation_block = "\n".join(rotation_lines) + "\n"
-
-          if sentinel not in text:
+          if local_sentinel not in text:
               if var_anchor not in text:
                   raise SystemExit('Degisken yerlesim noktasi bulunamadi; dosya degismedi')
-              text = text.replace(var_anchor, var_anchor + "  var sideHeadlineRotationTimer = null;\n", 1)
+              text = text.replace(var_anchor, var_anchor + "  var categorySidePairTimer = null;\n", 1)
+
+              local_lines = [
+                  "  function ensureCategorySidePairRotationStyles() {",
+                  "    if (document.getElementById('category-side-pair-rotation-style')) return;",
+                  "    var style = document.createElement('style');",
+                  "    style.id = 'category-side-pair-rotation-style';",
+                  "    style.textContent = '.side-headline.is-category-side-pair-hidden{display:none!important;}';",
+                  "    document.head.appendChild(style);",
+                  "  }",
+                  "",
+                  "  function stopCategorySidePairRotation() {",
+                  "    if (categorySidePairTimer) {",
+                  "      window.clearInterval(categorySidePairTimer);",
+                  "      categorySidePairTimer = null;",
+                  "    }",
+                  "  }",
+                  "",
+                  "  function setCategorySidePairPage(cards, pageIndex) {",
+                  "    var start = pageIndex * 2;",
+                  "    var end = start + 2;",
+                  "    cards.forEach(function (card, index) {",
+                  "      var visible = index >= start && index < end;",
+                  "      card.classList.toggle('is-category-side-pair-hidden', !visible);",
+                  "      card.setAttribute('aria-hidden', visible ? 'false' : 'true');",
+                  "    });",
+                  "  }",
+                  "",
+                  "  function installCategorySidePairRotation(side, topic) {",
+                  "    stopCategorySidePairRotation();",
+                  "    if (!side) return;",
+                  "",
+                  "    var cards = Array.prototype.slice.call(side.querySelectorAll('.side-headline'));",
+                  "    cards.forEach(function (card) {",
+                  "      card.classList.remove('is-category-side-pair-hidden');",
+                  "      card.removeAttribute('aria-hidden');",
+                  "    });",
+                  "",
+                  "    if (topic === 'son-dakika' || cards.length <= 2) return;",
+                  "",
+                  "    ensureCategorySidePairRotationStyles();",
+                  "    var pageCount = Math.ceil(cards.length / 2);",
+                  "    var pageIndex = 0;",
+                  "    setCategorySidePairPage(cards, pageIndex);",
+                  "",
+                  "    categorySidePairTimer = window.setInterval(function () {",
+                  "      pageIndex = (pageIndex + 1) % pageCount;",
+                  "      setCategorySidePairPage(cards, pageIndex);",
+                  "    }, 4000);",
+                  "  }",
+              ]
+              local_block = "\n".join(local_lines) + "\n"
 
               if func_anchor not in text:
-                  raise SystemExit('Fonksiyon yerlesim noktasi bulunamadi; dosya degismedi')
-              text = text.replace(func_anchor, '\n' + rotation_block + func_anchor, 1)
-          else:
-              print('Rotasyon blogu zaten var; tekrar eklenmedi')
+                  raise SystemExit('renderCategoryShowcase yerlesim noktasi bulunamadi; dosya degismedi')
+              text = text.replace(func_anchor, '\n' + local_block + func_anchor, 1)
+
+          if call_line not in text:
+              if call_anchor not in text:
+                  raise SystemExit('Side rotasyon cagrisi icin hedef satir bulunamadi; dosya degismedi')
+              text = text.replace(call_anchor, "    if (typeof window.refreshSideHeadlineRotation === 'function') window.refreshSideHeadlineRotation();\n" + call_line + "  }", 1)
 
           if text != original:
               path.write_text(text, encoding='utf-8')
-              print('topic-page-ux.js hedefli rotasyon blogu ile guncellendi')
+              print('topic-page-ux.js lokal kategori sag manset rotasyonu ile guncellendi')
           else:
               print('Degisiklik yok')
           PY
 
-      - name: Validate JavaScript syntax
+      - name: Validate JavaScript syntax and patch scope
         run: |
           node --check assets/js/topic-page-ux.js
           git diff --check
+          if grep -q "refreshCategorySideHeadlineRotation\|sideHeadlineRotationTimer\|is-side-rotated-out" assets/js/topic-page-ux.js; then
+            echo "Eski global rotasyon izleri bulundu; durduruluyor."
+            exit 1
+          fi
+          grep -q "installCategorySidePairRotation(side, topic)" assets/js/topic-page-ux.js
+          grep -q "is-category-side-pair-hidden" assets/js/topic-page-ux.js
 
       - name: Commit patch if changed
         run: |
@@ -120,5 +140,5 @@ jobs:
           git config user.name "ManşetRadar Fix Bot"
           git config user.email "bot@mansetradar.com.tr"
           git add assets/js/topic-page-ux.js
-          git commit -m "Fix category side headline rotation"
+          git commit -m "Fix category side pair rotation"
           git push
