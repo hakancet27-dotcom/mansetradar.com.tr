@@ -561,11 +561,17 @@
     if (topic === 'son-dakika') return;
 
     var grid = document.getElementById('grid-turkey');
-    if (!grid || grid.dataset.categoryHydrated === topic) return;
+    if (!grid || grid.dataset.categoryHydrated === topic) {
+      document.documentElement.classList.add('category-feed-ready');
+      return;
+    }
 
     try {
       var articles = await loadCategoryArticles(topic);
-      if (!articles.length) return;
+      if (!articles.length) {
+        document.documentElement.classList.add('category-feed-ready');
+        return;
+      }
 
       var seen = new Set();
       var fragment = document.createDocumentFragment();
@@ -579,16 +585,21 @@
         fragment.appendChild(card);
       });
 
-      if (!fragment.childNodes.length) return;
+      if (!fragment.childNodes.length) {
+        document.documentElement.classList.add('category-feed-ready');
+        return;
+      }
       grid.innerHTML = '';
       grid.appendChild(fragment);
       grid.dataset.categoryHydrated = topic;
       grid.dataset.categoryMode = 'json';
+      document.documentElement.classList.add('category-feed-ready');
 
       if (typeof window.applyTopicFilter === 'function') window.applyTopicFilter();
       if (typeof window.countCards === 'function') window.countCards();
       if (typeof window.refreshSideHeadlineRotation === 'function') window.refreshSideHeadlineRotation();
     } catch (error) {
+      document.documentElement.classList.add('category-feed-ready');
       console.warn('Kategori haberleri yüklenemedi:', error);
     }
   }
