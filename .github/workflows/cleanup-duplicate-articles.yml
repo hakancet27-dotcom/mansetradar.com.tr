@@ -98,6 +98,35 @@ jobs:
                   text = re.sub(r'\n?\s*<url>.*?' + re.escape(slug) + r'.*?</url>', '', text, flags=re.S)
               return text, text != original
 
+          def remove_related_html_blocks(text: str) -> tuple[str, bool]:
+              original = text
+              for slug in TARGET_SLUGS:
+                  text = re.sub(
+                      r'<article class="related-card">.*?' + re.escape(f'/articles/{slug}/') + r'.*?</article>',
+                      '',
+                      text,
+                      flags=re.S,
+                  )
+                  text = re.sub(
+                      r'<article class="related-card">.*?' + re.escape(slug) + r'.*?</article>',
+                      '',
+                      text,
+                      flags=re.S,
+                  )
+                  text = re.sub(
+                      r'<li[^>]*>.*?' + re.escape(f'/articles/{slug}/') + r'.*?</li>',
+                      '',
+                      text,
+                      flags=re.S,
+                  )
+                  text = re.sub(
+                      r'<li[^>]*>.*?' + re.escape(slug) + r'.*?</li>',
+                      '',
+                      text,
+                      flags=re.S,
+                  )
+              return text, text != original
+
           def scrub_loose_text(text: str) -> tuple[str, bool]:
               if not any(slug in text for slug in TARGET_SLUGS):
                   return text, False
@@ -141,6 +170,8 @@ jobs:
                   continue
               if path.suffix.lower() == '.xml':
                   new_text, changed = remove_xml_url_blocks(text)
+              elif path.suffix.lower() == '.html':
+                  new_text, changed = remove_related_html_blocks(text)
               elif path.suffix.lower() in {'.txt'}:
                   new_text, changed = scrub_loose_text(text)
               else:
@@ -161,8 +192,8 @@ jobs:
           print('Guncellenen JSON sayisi:', len(updated_json))
           for p in updated_json[:120]:
               print('  json', p)
-          print('Guncellenen XML/TXT sayisi:', len(updated_text))
-          for p in updated_text:
+          print('Guncellenen HTML/XML/TXT sayisi:', len(updated_text))
+          for p in updated_text[:200]:
               print('  text', p)
 
           search_index = root / 'data' / 'search-index.json'
