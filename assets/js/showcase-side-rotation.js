@@ -12,6 +12,7 @@
   var page = 0;
   var timer = null;
   var paused = false;
+  var hiddenClass = 'is-side-rotation-hidden';
   var reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   sidebar.classList.add('is-rotating');
@@ -26,7 +27,11 @@
   }
 
   function collectCards() {
-    allCards = Array.prototype.slice.call(sidebar.querySelectorAll('.side-headline')).slice(0, 10);
+    var cards = Array.prototype.slice.call(sidebar.querySelectorAll('.side-headline'));
+    allCards = cards.slice(0, 10);
+    cards.slice(10).forEach(function (card) {
+      setCardVisible(card, false);
+    });
   }
 
   function eligibleCards() {
@@ -37,12 +42,19 @@
     });
   }
 
+  function setCardVisible(card, visible) {
+    card.hidden = false;
+    card.classList.toggle(hiddenClass, !visible);
+    card.dataset.sideRotationVisible = visible ? 'true' : 'false';
+    card.setAttribute('aria-hidden', visible ? 'false' : 'true');
+    if (!visible) card.setAttribute('tabindex', '-1');
+    else card.removeAttribute('tabindex');
+  }
+
   function showPage(index) {
     if (!visibleCards.length) {
       allCards.forEach(function (card) {
-        card.hidden = true;
-        card.setAttribute('aria-hidden', 'true');
-        card.setAttribute('tabindex', '-1');
+        setCardVisible(card, false);
       });
       status.hidden = true;
       return;
@@ -52,10 +64,7 @@
     allCards.forEach(function (card) {
       var position = visibleCards.indexOf(card);
       var visible = position >= 0 && Math.floor(position / pageSize) === page;
-      card.hidden = !visible;
-      card.setAttribute('aria-hidden', visible ? 'false' : 'true');
-      if (!visible) card.setAttribute('tabindex', '-1');
-      else card.removeAttribute('tabindex');
+      setCardVisible(card, visible);
     });
     status.hidden = pageCount <= 1;
     status.textContent = String(page + 1) + ' / ' + String(pageCount);

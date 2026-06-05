@@ -1,4 +1,8 @@
 /* Compact rotating secondary headlines beside the desktop hero. */
+.side-headlines.is-rotating .side-headline.is-side-rotation-hidden {
+  display: none !important;
+}
+
 @media (min-width: 901px) {
   .side-headlines.is-rotating {
     position: relative;
@@ -15,7 +19,8 @@
     animation: side-card-enter .24s ease both;
   }
 
-  .side-headlines.is-rotating .side-headline[hidden] {
+  .side-headlines.is-rotating .side-headline[hidden],
+  .side-headlines.is-rotating .side-headline.is-side-rotation-hidden {
     display: none !important;
   }
 

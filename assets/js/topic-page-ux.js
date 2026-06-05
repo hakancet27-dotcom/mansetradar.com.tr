@@ -133,7 +133,6 @@
 
   var categoryFeedCache = {};
   var categorySliderTimer = null;
-  var categorySidePairTimer = null;
 
   function markCategoryPartReady(className) {
     document.documentElement.classList.add(className);
@@ -508,54 +507,6 @@
     }
   }
 
-  function ensureCategorySidePairRotationStyles() {
-    if (document.getElementById('category-side-pair-rotation-style')) return;
-    var style = document.createElement('style');
-    style.id = 'category-side-pair-rotation-style';
-    style.textContent = '.side-headline.is-category-side-pair-hidden{display:none!important;}';
-    document.head.appendChild(style);
-  }
-
-  function stopCategorySidePairRotation() {
-    if (categorySidePairTimer) {
-      window.clearInterval(categorySidePairTimer);
-      categorySidePairTimer = null;
-    }
-  }
-
-  function setCategorySidePairPage(cards, pageIndex) {
-    var start = pageIndex * 2;
-    var end = start + 2;
-    cards.forEach(function (card, index) {
-      var visible = index >= start && index < end;
-      card.classList.toggle('is-category-side-pair-hidden', !visible);
-      card.setAttribute('aria-hidden', visible ? 'false' : 'true');
-    });
-  }
-
-  function installCategorySidePairRotation(side, topic) {
-    stopCategorySidePairRotation();
-    if (!side) return;
-
-    var cards = Array.prototype.slice.call(side.querySelectorAll('.side-headline'));
-    cards.forEach(function (card) {
-      card.classList.remove('is-category-side-pair-hidden');
-      card.removeAttribute('aria-hidden');
-    });
-
-    if (topic === 'son-dakika' || cards.length <= 2) return;
-
-    ensureCategorySidePairRotationStyles();
-    var pageCount = Math.ceil(cards.length / 2);
-    var pageIndex = 0;
-    setCategorySidePairPage(cards, pageIndex);
-
-    categorySidePairTimer = window.setInterval(function () {
-      pageIndex = (pageIndex + 1) % pageCount;
-      setCategorySidePairPage(cards, pageIndex);
-    }, 4000);
-  }
-
   function renderCategoryShowcase(articles, topic) {
     var slider = document.querySelector('.headline-slider');
     var side = document.querySelector('.side-headlines');
@@ -595,7 +546,6 @@
       if (card) side.appendChild(card);
     });
     if (typeof window.refreshSideHeadlineRotation === 'function') window.refreshSideHeadlineRotation();
-    installCategorySidePairRotation(side, topic);
   }
 
   async function ensureCategoryShowcase() {

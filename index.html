@@ -1446,7 +1446,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
 /* FIRST_PAINT_TOPIC_FILTER_END */
   </style>
 <link rel="stylesheet" href="/assets/css/mobile-home-ux.css?v=20260525e">
-  <link rel="stylesheet" href="/assets/css/showcase-side-rotation.css?v=20260525a">
+  <link rel="stylesheet" href="/assets/css/showcase-side-rotation.css?v=20260605e">
   <link rel="stylesheet" href="/assets/css/mobile-market-static.css?v=20260526a">
 </head>
 <body>
@@ -10268,7 +10268,9 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       document.querySelectorAll('.topic-card').forEach(card => {
         const keep = showAll || card.dataset.topic === activeTopic;
         card.dataset.filteredOut = keep ? 'false' : 'true';
-        card.hidden = !keep;
+        if (!(card.classList.contains('side-headline') && card.closest('.side-headlines'))) {
+          card.hidden = !keep;
+        }
       });
 
       let visibleTotal = 0;
@@ -10540,7 +10542,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         const status = document.getElementById('news-search-status');
         if (status) {
           const hasSearch = Boolean((document.getElementById('news-search-input') || {}).value || '');
-          const hasVisible = Boolean(document.querySelector('.topic-card:not([hidden])'));
+          const hasVisible = Boolean(document.querySelector('.topic-card:not(.side-headline):not([hidden])'));
           status.textContent = hasSearch && !hasVisible ? emptyText : '';
         }
       }
@@ -10552,11 +10554,13 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         document.querySelectorAll('.topic-card').forEach((card) => {
           const hiddenByTopic = card.dataset.filteredOut === 'true';
           const hiddenBySearch = Boolean(term) && !(card.dataset.searchText || '').includes(term);
+          const isSideHeadline = card.classList.contains('side-headline') && card.closest('.side-headlines');
           card.dataset.searchHidden = hiddenBySearch ? 'true' : 'false';
-          card.hidden = hiddenByTopic || hiddenBySearch;
+          if (!isSideHeadline) card.hidden = hiddenByTopic || hiddenBySearch;
         });
         updateVisibleSections();
         if (typeof countCards === 'function') countCards();
+        if (typeof window.refreshSideHeadlineRotation === 'function') window.refreshSideHeadlineRotation();
       }
       function initSearch() {
         const shell = document.querySelector('.header-search');
@@ -10637,7 +10641,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
 <script defer src="/assets/js/member-home-menu.js?v=20260525b"></script>
 <script defer src="/assets/js/json-search.js?v=20260528a"></script>
 <script defer src="/assets/js/mobile-home-ux.js?v=20260527a"></script>
-  <script defer src="/assets/js/showcase-side-rotation.js?v=20260603c"></script>
-  <script defer src="/assets/js/topic-page-ux.js?v=20260605d"></script>
+  <script defer src="/assets/js/showcase-side-rotation.js?v=20260605e"></script>
+  <script defer src="/assets/js/topic-page-ux.js?v=20260605e"></script>
 </body>
 </html>
