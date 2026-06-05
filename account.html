@@ -12,6 +12,9 @@
 <body class="member-page">
   <header class="member-top">
     <div>
+      <div class="member-card-nav" aria-label="Hesap sayfası gezinme">
+        <a class="member-back-home" href="/">← Ana sayfaya dön</a>
+      </div>
       <a class="member-brand" href="/">mansetradar.com.tr</a>
       <p class="member-eyebrow">Üye Merkezi</p>
       <h1>Hesabım</h1>
@@ -19,7 +22,10 @@
       <p class="member-muted" id="member-email"></p>
       <p id="member-error" class="member-message error"></p>
     </div>
-    <button id="logout" class="member-btn secondary" type="button">Çıkış Yap</button>
+    <div class="member-header-actions">
+      <a class="member-inline-btn" href="/">Haberler</a>
+      <button id="logout" class="member-btn secondary" type="button">Çıkış Yap</button>
+    </div>
   </header>
   <nav class="member-tabs" aria-label="Üyelik bölümleri">
     <a href="/">Haberler</a>
