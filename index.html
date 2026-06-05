@@ -3,15 +3,27 @@
 <head>
   <script id="early-topic-filter">
     (function () {
+      var allowed = ['son-dakika','gundem','siyaset','ekonomi','dunya','spor','magazin','teknoloji','saglik'];
+      function hideDuringCategoryNavigation(event) {
+        var target = event.target;
+        var link = target && target.closest ? target.closest('a.topic-link[data-topic]') : null;
+        if (!link) return;
+        if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+        if (typeof event.button === 'number' && event.button > 0) return;
+        if (allowed.indexOf(link.getAttribute('data-topic') || '') === -1) return;
+        document.documentElement.classList.add('category-navigation-pending');
+      }
+      document.addEventListener('pointerdown', hideDuringCategoryNavigation, true);
+      document.addEventListener('click', hideDuringCategoryNavigation, true);
       try {
-        var allowed = ['son-dakika','gundem','siyaset','ekonomi','dunya','spor','magazin','teknoloji','saglik'];
         var topic = new URLSearchParams(location.search).get('kategori') || 'son-dakika';
         if (allowed.indexOf(topic) === -1) topic = 'son-dakika';
         document.documentElement.dataset.activeTopic = topic;
         document.documentElement.classList.add('has-topic-filter');
+        if (topic === 'son-dakika') document.documentElement.classList.add('category-page-ready');
       } catch (error) {
         document.documentElement.dataset.activeTopic = 'son-dakika';
-        document.documentElement.classList.add('has-topic-filter');
+        document.documentElement.classList.add('has-topic-filter', 'category-page-ready');
       }
     })();
   </script>
@@ -1414,6 +1426,11 @@ html.has-topic-filter[data-active-topic="saglik"] .topic-card[data-topic="saglik
 }
 html.has-topic-filter .topic-card[hidden] {
   display: none !important;
+}
+html.category-navigation-pending .container,
+html.has-topic-filter:not(.category-page-ready) .container {
+  visibility: hidden;
+  pointer-events: none;
 }
 html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):not(.category-page-ready) .page-layout {
   visibility: hidden;
@@ -10335,6 +10352,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
 <script defer src="/assets/js/json-search.js?v=20260528a"></script>
 <script defer src="/assets/js/mobile-home-ux.js?v=20260527a"></script>
   <script defer src="/assets/js/showcase-side-rotation.js?v=20260603c"></script>
-  <script defer src="/assets/js/topic-page-ux.js?v=20260605c"></script>
+  <script defer src="/assets/js/topic-page-ux.js?v=20260605d"></script>
 </body>
 </html>
