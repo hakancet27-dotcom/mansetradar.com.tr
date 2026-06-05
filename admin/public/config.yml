@@ -16,7 +16,7 @@ collections:
   - name: published_tr
     label: "Yayindaki Haberler / Turkce"
     label_singular: "Yayindaki Turkce Haber"
-    folder: articles
+    folder: data/details/articles
     create: false
     extension: json
     format: json
@@ -47,7 +47,7 @@ collections:
   - name: published_en
     label: "Published News / English"
     label_singular: "Published English News"
-    folder: news/articles
+    folder: data/details/news/articles
     create: false
     extension: json
     format: json
@@ -58,7 +58,7 @@ collections:
   - name: published_de
     label: "Veroeffentlichte Nachrichten / Deutsch"
     label_singular: "Veroeffentlichte Nachricht"
-    folder: nachrichten/artikel
+    folder: data/details/nachrichten/artikel
     create: false
     extension: json
     format: json
