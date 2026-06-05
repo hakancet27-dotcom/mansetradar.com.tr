@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-05T00:00:00+00:00",
-    "article_count": 561,
+    "article_count": 562,
     "schema_version": 2,
     "section": "articles"
   },
@@ -185,6 +185,42 @@
         "MTB Eliminatör"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605",
+      "slug": "pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605",
+      "title": "Paşinyan'ın Seçim Videoları: Siyasi Tartışmadan Ekonomik Fırsata",
+      "summary": "Ermenistan Başbakanı Nikol Paşinyan'ın 7 Haziran seçimleri öncesinde paylaştığı videolar, hem siyasi eleştirilerin hedefi oldu hem de ülkenin yerel ürünleri için beklenmedik bir tanıtım fırsatı yarattı. İran Savaşı sırasında seçim gezilerine devam etmesi mu...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605/",
+      "detail_json_url": "/data/details/articles/pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605.webp",
+      "image_alt": "Paşinyan'ın Seçim Videoları: Siyasi Tartışmadan Ekonomik Fırsata",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605.webp",
+        "alt": "Paşinyan'ın Seçim Videoları: Siyasi Tartışmadan Ekonomik Fırsata"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/nikol-pasinyan-o-videolari-neden-paylasiyor-43194613",
+      "tags": [
+        "Nikol Paşinyan",
+        "Ermenistan Seçimleri",
+        "İran Savaşı",
+        "Ermeni Ekonomisi",
+        "Yerel Ürünler",
+        "Siyaset"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -679,40 +715,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles:dunyanin-gunu-uzuyor-gezegenimizin-donusu-yavasliyor_20260605",
-      "slug": "dunyanin-gunu-uzuyor-gezegenimizin-donusu-yavasliyor_20260605",
-      "title": "Dünya'nın Dönüşü Yavaşlıyor: Günler Milisaniyelerle Uzuyor",
-      "summary": "Bilim insanları, Dünya'nın dönüş hızının zaman içinde değiştiğini ve günlerin çok küçük ölçekte uzadığını belirtiyor. Bu değişim günlük hayatta hissedilecek kadar büyük olmasa da, milisaniyelik farklar hassas zaman ölçümüne bağlı sistemler için önemli olabi...",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "05.06.2026",
-      "date_iso": "2026-06-05",
-      "url": "/articles/dunyanin-gunu-uzuyor-gezegenimizin-donusu-yavasliyor_20260605/",
-      "canonical_url": "https://mansetradar.com.tr/articles/dunyanin-gunu-uzuyor-gezegenimizin-donusu-yavasliyor_20260605/",
-      "detail_json_url": "/data/details/articles/dunyanin-gunu-uzuyor-gezegenimizin-donusu-yavasliyor_20260605.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/dunyanin-gunu-uzuyor-gezegenimizin-donusu-yavasliyor_20260605.webp",
-      "image_alt": "Dünya'nın dönüşünün yavaşladığını gösteren stilize bir illüstrasyon, kutuplardaki eriyen buzlar ve okyanuslara akan sularla.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/dunyanin-gunu-uzuyor-gezegenimizin-donusu-yavasliyor_20260605.webp",
-        "alt": "Dünya'nın dönüşünün yavaşladığını gösteren stilize bir illüstrasyon, kutuplardaki eriyen buzlar ve okyanuslara akan sularla."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/galeri-dunyanin-gunu-artik-uzuyor-gezegenimizin-donusu-yavasliyor-43193017",
-      "tags": [
-        "Dünya'nın dönüşü",
-        "gün uzunluğu",
-        "iklim değişikliği",
-        "buzulların erimesi"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -893,6 +895,42 @@
         "MTB Eliminatör"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605",
+      "slug": "pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605",
+      "title": "Paşinyan'ın Seçim Videoları: Siyasi Tartışmadan Ekonomik Fırsata",
+      "summary": "Ermenistan Başbakanı Nikol Paşinyan'ın 7 Haziran seçimleri öncesinde paylaştığı videolar, hem siyasi eleştirilerin hedefi oldu hem de ülkenin yerel ürünleri için beklenmedik bir tanıtım fırsatı yarattı. İran Savaşı sırasında seçim gezilerine devam etmesi mu...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605/",
+      "detail_json_url": "/data/details/articles/pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605.webp",
+      "image_alt": "Paşinyan'ın Seçim Videoları: Siyasi Tartışmadan Ekonomik Fırsata",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605.webp",
+        "alt": "Paşinyan'ın Seçim Videoları: Siyasi Tartışmadan Ekonomik Fırsata"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/nikol-pasinyan-o-videolari-neden-paylasiyor-43194613",
+      "tags": [
+        "Nikol Paşinyan",
+        "Ermenistan Seçimleri",
+        "İran Savaşı",
+        "Ermeni Ekonomisi",
+        "Yerel Ürünler",
+        "Siyaset"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -1558,41 +1596,6 @@
         "Spor"
       ],
       "quality_score": 80,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:aysegul-yildiz-mhp-katildi-siyasete-adim-atti_20260605",
-      "slug": "aysegul-yildiz-mhp-katildi-siyasete-adim-atti_20260605",
-      "title": "Ayşegül Yıldız MHP'ye Katıldı: Siyasete Adım Attı",
-      "summary": "İbrahim Tatlıses'in 2011-2013 yılları arasında evli kaldığı Ayşegül Yıldız, Milliyetçi Hareket Partisi'ne (MHP) katılarak siyaset dünyasına adım attı. Yıldız'ın MHP Eyüpsultan İlçe Yönetim Kurulu Üyesi olduğu öğrenildi.",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "05.06.2026",
-      "date_iso": "2026-06-05",
-      "url": "/articles/aysegul-yildiz-mhp-katildi-siyasete-adim-atti_20260605/",
-      "canonical_url": "https://mansetradar.com.tr/articles/aysegul-yildiz-mhp-katildi-siyasete-adim-atti_20260605/",
-      "detail_json_url": "/data/details/articles/aysegul-yildiz-mhp-katildi-siyasete-adim-atti_20260605.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/aysegul-yildiz-mhp-katildi-siyasete-adim-atti_20260605.webp",
-      "image_alt": "Ayşegül Yıldız MHP'ye Katıldı: Siyasete Adım Attı",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/aysegul-yildiz-mhp-katildi-siyasete-adim-atti_20260605.webp",
-        "alt": "Ayşegül Yıldız MHP'ye Katıldı: Siyasete Adım Attı"
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/turkiye/galeri-ibrahim-tatlisesin-eski-esi-aysegul-yildiz-mhpye-katildi-1727271",
-      "tags": [
-        "Ayşegül Yıldız",
-        "MHP",
-        "Devlet Bahçeli",
-        "Siyaset",
-        "İbrahim Tatlıses"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]
