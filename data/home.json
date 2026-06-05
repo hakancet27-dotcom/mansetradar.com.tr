@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-05T00:00:00+00:00",
-    "article_count": 534,
+    "article_count": 535,
     "schema_version": 2,
     "section": "articles"
   },
@@ -39,6 +39,41 @@
         "Kaçak Eser",
         "Sikke İadesi",
         "Türkiye-Yunanistan İlişkileri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605",
+      "slug": "iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605",
+      "title": "İran'ın 'Sessiz Zaferi': Hürmüz Boğazı Üzerindeki Etkisi Yeni Bir Nükleer Seçenek Haline Geldi",
+      "summary": "Hürriyet'in haberine göre, son çatışmaların ardından İran, Hürmüz Boğazı'nı kapatma kapasitesini uluslararası kamuoyuna göstererek sessiz ama son derece önemli bir kazanım elde etti. Eurasia Group kıdemli analisti Gregory Brew, bu durumu Tahran için adeta y...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605/",
+      "detail_json_url": "/data/details/articles/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605.webp",
+      "image_alt": "İran'ın 'Sessiz Zaferi': Hürmüz Boğazı Üzerindeki Etkisi Yeni Bir Nükleer Seçenek Haline Geldi",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605.webp",
+        "alt": "İran'ın 'Sessiz Zaferi': Hürmüz Boğazı Üzerindeki Etkisi Yeni Bir Nükleer Seçenek Haline Geldi"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/tablo-tersine-dondu-iranin-sessiz-zaferi-yeni-bir-nukleer-secenek-43193135",
+      "tags": [
+        "İran",
+        "Hürmüz Boğazı",
+        "Nükleer Seçenek",
+        "Enerji Piyasaları",
+        "Jeopolitik"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -666,40 +701,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles:mehmet-akif-ersoy-iddianamesi-mahkemeden-geri-dondu_20260604",
-      "slug": "mehmet-akif-ersoy-iddianamesi-mahkemeden-geri-dondu_20260604",
-      "title": "Mehmet Akif Ersoy Hakkındaki İddianame Mahkemeden Geri Döndü",
-      "summary": "Eski Habertürk TV Genel Yayın Yönetmeni Mehmet Akif Ersoy'un da aralarında bulunduğu 8 kişi hakkında, İstanbul Cumhuriyet Başsavcılığı'nca yürütülen \"uyuşturucu\" soruşturması kapsamında hazırlanan iddianame, İstanbul 19. Ağır Ceza Mahkemesi tarafından savcı...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "04.06.2026",
-      "date_iso": "2026-06-04",
-      "url": "/articles/mehmet-akif-ersoy-iddianamesi-mahkemeden-geri-dondu_20260604/",
-      "canonical_url": "https://mansetradar.com.tr/articles/mehmet-akif-ersoy-iddianamesi-mahkemeden-geri-dondu_20260604/",
-      "detail_json_url": "/data/details/articles/mehmet-akif-ersoy-iddianamesi-mahkemeden-geri-dondu_20260604.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/mehmet-akif-ersoy-iddianamesi-mahkemeden-geri-dondu_20260604.webp",
-      "image_alt": "Mahkeme salonunda iddianame ve adalet temalı bir sahne.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/mehmet-akif-ersoy-iddianamesi-mahkemeden-geri-dondu_20260604.webp",
-        "alt": "Mahkeme salonunda iddianame ve adalet temalı bir sahne."
-      },
-      "source_name": "Cumhuriyet Gazetesi",
-      "source_url": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-mehmet-akif-ersoy-hakkindaki-iddianame-mahkemeden-geri-dondu-2509279",
-      "tags": [
-        "Mehmet Akif Ersoy",
-        "Uyuşturucu Soruşturması",
-        "İddianame",
-        "Mahkeme"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -734,6 +735,41 @@
         "Kaçak Eser",
         "Sikke İadesi",
         "Türkiye-Yunanistan İlişkileri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605",
+      "slug": "iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605",
+      "title": "İran'ın 'Sessiz Zaferi': Hürmüz Boğazı Üzerindeki Etkisi Yeni Bir Nükleer Seçenek Haline Geldi",
+      "summary": "Hürriyet'in haberine göre, son çatışmaların ardından İran, Hürmüz Boğazı'nı kapatma kapasitesini uluslararası kamuoyuna göstererek sessiz ama son derece önemli bir kazanım elde etti. Eurasia Group kıdemli analisti Gregory Brew, bu durumu Tahran için adeta y...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605/",
+      "detail_json_url": "/data/details/articles/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605.webp",
+      "image_alt": "İran'ın 'Sessiz Zaferi': Hürmüz Boğazı Üzerindeki Etkisi Yeni Bir Nükleer Seçenek Haline Geldi",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605.webp",
+        "alt": "İran'ın 'Sessiz Zaferi': Hürmüz Boğazı Üzerindeki Etkisi Yeni Bir Nükleer Seçenek Haline Geldi"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/tablo-tersine-dondu-iranin-sessiz-zaferi-yeni-bir-nukleer-secenek-43193135",
+      "tags": [
+        "İran",
+        "Hürmüz Boğazı",
+        "Nükleer Seçenek",
+        "Enerji Piyasaları",
+        "Jeopolitik"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1535,41 +1571,6 @@
         "Adalet",
         "Erzurum",
         "Sosyal Medya"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:gunesten-pes-pese-patlamalar-radyo-kesintileri-ve-jeomanyetik-firtina-uyarisi_20260604",
-      "slug": "gunesten-pes-pese-patlamalar-radyo-kesintileri-ve-jeomanyetik-firtina-uyarisi_20260604",
-      "title": "Güneş'ten Peş Peşe Patlamalar: Radyo Kesintileri ve Jeomanyetik Fırtına Uyarısı",
-      "summary": "Güneş'te bu hafta yaşanan hareketlilik, Dünya'da radyo kesintilerine yol açtı. Dünya'ya bakan 4455 numaralı güneş lekesi bölgesinden kısa süre içinde M9.3, M7.9 ve X1 sınıfı olmak üzere üç güçlü güneş patlaması meydana geldi. Bu patlamalar, farklı bölgelerd...",
-      "category": "Son Dakika",
-      "category_slug": "son-dakika",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "04.06.2026",
-      "date_iso": "2026-06-04",
-      "url": "/articles/gunesten-pes-pese-patlamalar-radyo-kesintileri-ve-jeomanyetik-firtina-uyarisi_20260604/",
-      "canonical_url": "https://mansetradar.com.tr/articles/gunesten-pes-pese-patlamalar-radyo-kesintileri-ve-jeomanyetik-firtina-uyarisi_20260604/",
-      "detail_json_url": "/data/details/articles/gunesten-pes-pese-patlamalar-radyo-kesintileri-ve-jeomanyetik-firtina-uyarisi_20260604.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/gunesten-pes-pese-patlamalar-radyo-kesintileri-ve-jeomanyetik-firtina-uyarisi_20260604.webp",
-      "image_alt": "Güneş'ten güçlü bir patlama ve koronal kütle atımları, uzayda yayılan plazma bulutları.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/gunesten-pes-pese-patlamalar-radyo-kesintileri-ve-jeomanyetik-firtina-uyarisi_20260604.webp",
-        "alt": "Güneş'ten güçlü bir patlama ve koronal kütle atımları, uzayda yayılan plazma bulutları."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/teknoloji/uzay/gunesten-pes-pese-patlamalar-43193242",
-      "tags": [
-        "Güneş patlaması",
-        "Güneş lekesi",
-        "Radyo kesintisi",
-        "Jeomanyetik fırtına",
-        "Kuzey ışıkları"
       ],
       "quality_score": 86,
       "review_status": "published"
