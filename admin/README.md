@@ -1,18 +1,19 @@
 # Sveltia CMS Kurulumu
 
-Bu panel iki ayrı amaçla kullanılır ve bu iki yapı birbirini tetiklemez.
+Bu panel yayindaki public haberleri editoryal bakim icin kullanilir.
+Private haber uretim ve inceleme akisi ayri newsroom panelindedir.
 
 - Panel adresi: `https://mansetradar.com.tr/admin/`
+- Newsroom paneli: `https://mansetradar.com.tr/admin/newsroom/`
 - Backend: `hakancet27-dotcom/mansetradar.com.tr`
 - Koleksiyonlar:
-- `1 - Bekleyen İncelemeler`: `newsroom/review/pending/*.json`
-  - `2.1 - Yayındaki Haberler / Türkçe`: `articles/*.json`
-  - `2.2 - Published News / English`: `news/articles/*.json`
-  - `2.3 - Veröffentlichte Nachrichten / Deutsch`: `nachrichten/artikel/*.json`
+  - `1 - Yayindaki Haberler / Turkce`: `articles/*.json`
+  - `2 - Published News / English`: `news/articles/*.json`
+  - `3 - Veroeffentlichte Nachrichten / Deutsch`: `nachrichten/artikel/*.json`
 
 Notlar:
 
-- Haber üretim otomasyonu `haber-botu` reposunda kalır.
-- `newsroom/review/pending` içinde `review_status: approved_to_publish` yapılan haberler otomatik yayına alınır.
-- Yayındaki haber koleksiyonları hiçbir otomasyonu tetiklemez; sadece editoryal bakım içindir.
-- İlk aşamada GitHub token ile giriş en hızlı yoldur. Çok kullanıcılı rahat giriş için daha sonra OAuth client eklenebilir.
+- Haber uretim otomasyonu `haber-botu` reposunda kalir.
+- `newsroom/review/pending` kuyrugu public site reposunda tutulmaz; `haber-botu` reposundaki `/admin/newsroom/` panelinden yonetilir.
+- Yayindaki haber koleksiyonlari hicbir otomasyonu tetiklemez; sadece editoryal bakim icindir.
+- Ilk asamada GitHub token ile giris en hizli yoldur. Cok kullanicili rahat giris icin daha sonra OAuth client eklenebilir.

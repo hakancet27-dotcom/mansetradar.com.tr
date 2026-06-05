@@ -13,35 +13,6 @@ display_url: https://mansetradar.com.tr
 locale: tr
 
 collections:
-  - name: review_pending
-    label: "Bekleyen Haberler"
-    label_singular: "Bekleyen Haber"
-    folder: newsroom/review/pending
-    create: false
-    extension: json
-    format: json
-    identifier_field: title
-    summary: "Durum: {{review_status}} | Skor: {{quality_score}} | Risk: {{quality_status}} | Bayrak: {{flag}} | {{category}} | {{title}}"
-    fields:
-      - { label: Durum, name: review_status, widget: select, default: pending, options: [{ label: Beklemede, value: pending }, { label: Onayla ve Yayinla, value: approved_to_publish }, { label: Reddedildi, value: rejected }, { label: Yayinlandi, value: published }] }
-      - { label: Baslik, name: title, widget: string }
-      - { label: Slug, name: slug, widget: string, required: false, readonly: true }
-      - { label: Tarih, name: date, widget: string, required: false }
-      - { label: Kategori, name: category, widget: string, required: false }
-      - { label: Spot, name: spot, widget: text, required: false }
-      - { label: Ozet, name: summary, widget: text, required: false }
-      - { label: Haber Govdesi HTML, name: content_html, widget: text, required: false }
-      - { label: Gorsel URL, name: image_url, widget: string, required: false }
-      - { label: Meta Title, name: meta_title, widget: string, required: false }
-      - { label: Meta Description, name: meta_description, widget: text, required: false }
-      - { label: Quality Score, name: quality_score, widget: number, required: false, readonly: true }
-      - { label: Quality Status, name: quality_status, widget: string, required: false, readonly: true }
-      - { label: Risk Bayragi, name: flag, widget: string, required: false, readonly: true }
-      - { label: Quality Flags, name: quality_flags, widget: list, required: false, readonly: true, field: { label: Flag, widget: string } }
-      - { label: Quality Notes, name: quality_notes, widget: list, required: false, readonly: true, field: { label: Not, widget: string } }
-      - { label: Kelime Sayisi, name: quality_word_count, widget: number, required: false, readonly: true }
-      - { label: Islem Sonucu, name: processor_result, widget: text, required: false, readonly: true }
-
   - name: published_tr
     label: "Yayindaki Haberler / Turkce"
     label_singular: "Yayindaki Turkce Haber"
