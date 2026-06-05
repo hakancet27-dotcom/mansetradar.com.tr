@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-05T00:00:00+00:00",
-    "article_count": 555,
+    "article_count": 558,
     "schema_version": 2,
     "category_slug": "spor"
   },
@@ -41,6 +41,40 @@
         "MTB Eliminatör"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:hakan-safi-mason-greenwood-transferini-acikladi_20260605",
+      "slug": "hakan-safi-mason-greenwood-transferini-acikladi_20260605",
+      "title": "Hakan Safi'den Mason Greenwood Açıklaması: '4 Yıllığına Anlaştık'",
+      "summary": "Fenerbahçe başkan adayı Hakan Safi, Faruk Ilgaz Tesisleri'nde yaptığı açıklamalarda, Marsilya'dan yıldız oyuncu Mason Greenwood ile 4 yıllık anlaşma sağladıklarını duyurdu. Safi, Greenwood'un kariyerinin en değerli ve verimli yıllarında Fenerbahçe'ye gelmey...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/hakan-safi-mason-greenwood-transferini-acikladi_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/hakan-safi-mason-greenwood-transferini-acikladi_20260605/",
+      "detail_json_url": "/data/details/articles/hakan-safi-mason-greenwood-transferini-acikladi_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/hakan-safi-mason-greenwood-transferini-acikladi_20260605.webp",
+      "image_alt": "Fenerbahçe forması üzerinde 'Greenwood' yazısı ve 10 numarası.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/hakan-safi-mason-greenwood-transferini-acikladi_20260605.webp",
+        "alt": "Fenerbahçe forması üzerinde 'Greenwood' yazısı ve 10 numarası."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/hakan-safi-mason-greenwoodu-acikladi-4-yilligina-anlastik-43195084",
+      "tags": [
+        "Hakan Safi",
+        "Mason Greenwood",
+        "Fenerbahçe",
+        "Transfer Haberleri"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -181,6 +215,41 @@
         "hatıra",
         "duygu",
         "spor"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:fenerbahce-baskan-adayi-hakan-safiden-iddiali-kadro-vaadi-real-madridin-ustune-c_20260605",
+      "slug": "fenerbahce-baskan-adayi-hakan-safiden-iddiali-kadro-vaadi-real-madridin-ustune-c_20260605",
+      "title": "Fenerbahçe Başkan Adayı Hakan Safi'den İddialı Kadro Vaadi: 'Real Madrid'in Üstüne Çıkaracağız'",
+      "summary": "Fenerbahçe Başkan Adayı Hakan Safi, 7 Haziran Pazar günü yapılacak seçim öncesinde Habertürk ve HT Spor ortak yayınında önemli açıklamalarda bulundu. Selen Gül Dayıoğlu'nun moderatörlüğünde Ahmet Selim Kul ve Gürcan Bilgiç'in sorularını yanıtlayan Safi, \"Ce...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/fenerbahce-baskan-adayi-hakan-safiden-iddiali-kadro-vaadi-real-madridin-ustune-c_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/fenerbahce-baskan-adayi-hakan-safiden-iddiali-kadro-vaadi-real-madridin-ustune-c_20260605/",
+      "detail_json_url": "/data/details/articles/fenerbahce-baskan-adayi-hakan-safiden-iddiali-kadro-vaadi-real-madridin-ustune-c_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/fenerbahce-baskan-adayi-hakan-safiden-iddiali-kadro-vaadi-real-madridin-ustune-c_20260605.webp",
+      "image_alt": "Fenerbahçe Başkan Adayı Hakan Safi, stadyum atmosferinde iddialı açıklamalarda bulunuyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/fenerbahce-baskan-adayi-hakan-safiden-iddiali-kadro-vaadi-real-madridin-ustune-c_20260605.webp",
+        "alt": "Fenerbahçe Başkan Adayı Hakan Safi, stadyum atmosferinde iddialı açıklamalarda bulunuyor."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/hakan-safi-ht-spor-ve-haberturk-e-konustu-fenerbahce-yi-real-madrid-in-ustune-cikaracagiz-3889654-spor",
+      "tags": [
+        "Fenerbahçe",
+        "Hakan Safi",
+        "Başkan Adayı",
+        "Transfer",
+        "Futbol"
       ],
       "quality_score": 86,
       "review_status": "published"

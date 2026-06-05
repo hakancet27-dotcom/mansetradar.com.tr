@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-05T00:00:00+00:00",
-    "article_count": 555,
+    "article_count": 558,
     "schema_version": 2,
     "category_slug": "son-dakika"
   },
@@ -41,6 +41,42 @@
         "Türkiye-Yunanistan İlişkileri"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:fransa-acik-zverev-cobolli-final_20260605",
+      "slug": "fransa-acik-zverev-cobolli-final_20260605",
+      "title": "Fransa Açık'ta Final Bileti Zverev ve Cobolli'nin",
+      "summary": "Fransa Açık'ta tek erkekler yarı final maçlarının ardından Alman Alexander Zverev ve İtalyan Flavio Cobolli finale yükseldi. Paris'teki Roland Garros'ta Pazar günü oynanacak finalde, iki tenisçi de kariyerlerinin ilk grand slam şampiyonluğunu kazanmak için...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/fransa-acik-zverev-cobolli-final_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/fransa-acik-zverev-cobolli-final_20260605/",
+      "detail_json_url": "/data/details/articles/fransa-acik-zverev-cobolli-final_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/fransa-acik-zverev-cobolli-final_20260605.webp",
+      "image_alt": "Fransa Açık tek erkekler finaline yükselen Alexander Zverev ve Flavio Cobolli.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/fransa-acik-zverev-cobolli-final_20260605.webp",
+        "alt": "Fransa Açık tek erkekler finaline yükselen Alexander Zverev ve Flavio Cobolli."
+      },
+      "source_name": "Spor haberleri - Son dakika spor haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/fransa-acik-ta-final-bileti-zverev-in-p325580",
+      "tags": [
+        "Tenis",
+        "Fransa Açık",
+        "Roland Garros",
+        "Alexander Zverev",
+        "Flavio Cobolli",
+        "Grand Slam"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
