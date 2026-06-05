@@ -2,12 +2,47 @@
   "meta": {
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
-    "generated_at": "2026-06-04T00:00:00+00:00",
-    "article_count": 533,
+    "generated_at": "2026-06-05T00:00:00+00:00",
+    "article_count": 534,
     "schema_version": 2,
     "section": "articles"
   },
   "hero": [
+    {
+      "id": "articles:yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605",
+      "slug": "yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605",
+      "title": "Türkiye ve Yunanistan'dan Kaçak Eserlere Karşı Ortak İrade: 1055 Sikke Geri Döndü",
+      "summary": "Kapadokya'da düzenlenen Türkiye-Yunanistan 1. Kültür Forumu'nda önemli bir gelişme yaşandı. İki ülke arasındaki kültürel ilişkilerin ele alındığı forumda, kaçak yollarla yurt dışına çıkarılan 1055 adet sikke Türkiye'ye iade edildi. Bu iade, iki ülke arasınd...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605/",
+      "detail_json_url": "/data/details/articles/yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605.webp",
+      "image_alt": "Kapadokya'da Türkiye ve Yunanistan kültür bakanlarının tarihi eserler üzerine yaptığı toplantı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605.webp",
+        "alt": "Kapadokya'da Türkiye ve Yunanistan kültür bakanlarının tarihi eserler üzerine yaptığı toplantı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/yunanistandan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade-43192896",
+      "tags": [
+        "Kültür Forumu",
+        "Kültürel İş Birliği",
+        "Kaçak Eser",
+        "Sikke İadesi",
+        "Türkiye-Yunanistan İlişkileri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles:yunanistan-1055-sikke-kacak-eserlere-karsi-ortak-irade_20260604",
       "slug": "yunanistan-1055-sikke-kacak-eserlere-karsi-ortak-irade_20260604",
@@ -665,47 +700,44 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
+    }
+  ],
+  "latest": [
     {
-      "id": "articles:israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604",
-      "slug": "israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604",
-      "title": "İsrail'in Lübnan Saldırılarında Can Kaybı 12'ye Yükseldi",
-      "summary": "İsrail ordusunun Lübnan'ın güneyine yönelik hava saldırıları devam ederken, ateşkese rağmen gerçekleştirilen bu saldırılarda hayatını kaybedenlerin sayısı 12'ye yükseldi. Lübnan resmi ajansı NNA'nın bildirdiğine göre, Sur ve Nebatiye kentlerine bağlı beldel...",
-      "category": "Dünya",
-      "category_slug": "dunya",
+      "id": "articles:yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605",
+      "slug": "yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605",
+      "title": "Türkiye ve Yunanistan'dan Kaçak Eserlere Karşı Ortak İrade: 1055 Sikke Geri Döndü",
+      "summary": "Kapadokya'da düzenlenen Türkiye-Yunanistan 1. Kültür Forumu'nda önemli bir gelişme yaşandı. İki ülke arasındaki kültürel ilişkilerin ele alındığı forumda, kaçak yollarla yurt dışına çıkarılan 1055 adet sikke Türkiye'ye iade edildi. Bu iade, iki ülke arasınd...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
       "country": "Turkey",
       "language": "tr",
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
-      "date": "04.06.2026",
-      "date_iso": "2026-06-04",
-      "url": "/articles/israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604/",
-      "canonical_url": "https://mansetradar.com.tr/articles/israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604/",
-      "detail_json_url": "/data/details/articles/israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604.webp",
-      "image_alt": "İsrail'in hava saldırıları sonrası Lübnan'ın güneyindeki bir kasabada hasar görmüş binalar ve enkaz.",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605/",
+      "detail_json_url": "/data/details/articles/yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605.webp",
+      "image_alt": "Kapadokya'da Türkiye ve Yunanistan kültür bakanlarının tarihi eserler üzerine yaptığı toplantı.",
       "image": {
-        "url": "https://mansetradar.com.tr/articles/images/israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604.webp",
-        "alt": "İsrail'in hava saldırıları sonrası Lübnan'ın güneyindeki bir kasabada hasar görmüş binalar ve enkaz."
+        "url": "https://mansetradar.com.tr/articles/images/yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605.webp",
+        "alt": "Kapadokya'da Türkiye ve Yunanistan kültür bakanlarının tarihi eserler üzerine yaptığı toplantı."
       },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/dunya/israil-ordusunun-lubnana-yonelik-saldirilarinda-olenlerin-sayisi-12ye-yukseldi-7599704",
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/yunanistandan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade-43192896",
       "tags": [
-        "İsrail",
-        "Lübnan",
-        "Hava Saldırısı",
-        "NNA",
-        "Sur",
-        "Nebatiye",
-        "UNIFIL",
-        "Ateşkes"
+        "Kültür Forumu",
+        "Kültürel İş Birliği",
+        "Kaçak Eser",
+        "Sikke İadesi",
+        "Türkiye-Yunanistan İlişkileri"
       ],
       "quality_score": 86,
       "review_status": "published"
-    }
-  ],
-  "latest": [
+    },
     {
       "id": "articles:yunanistan-1055-sikke-kacak-eserlere-karsi-ortak-irade_20260604",
       "slug": "yunanistan-1055-sikke-kacak-eserlere-karsi-ortak-irade_20260604",
@@ -1538,41 +1570,6 @@
         "Radyo kesintisi",
         "Jeomanyetik fırtına",
         "Kuzey ışıkları"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:google-turkiye-kamu-yapay-zeka-yol-haritasi-2-milyon-dolar-destek_20260604",
-      "slug": "google-turkiye-kamu-yapay-zeka-yol-haritasi-2-milyon-dolar-destek_20260604",
-      "title": "Google, Türkiye'de Kamu Hizmetleri İçin Yapay Zeka Yol Haritası ve 2 Milyon Dolarlık Destek...",
-      "summary": "Google, Türkiye'nin kamu yönetimi ve hizmetlerinde yapay zeka destekli dönüşümünü hızlandırmak amacıyla \"Kamu için Yapay Zeka\" politika yol haritasını ve google.org çatısı altında 2 milyon dolarlık yeni desteğini duyurdu. Bu girişim, Yapay Zeka Politikaları...",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "04.06.2026",
-      "date_iso": "2026-06-04",
-      "url": "/articles/google-turkiye-kamu-yapay-zeka-yol-haritasi-2-milyon-dolar-destek_20260604/",
-      "canonical_url": "https://mansetradar.com.tr/articles/google-turkiye-kamu-yapay-zeka-yol-haritasi-2-milyon-dolar-destek_20260604/",
-      "detail_json_url": "/data/details/articles/google-turkiye-kamu-yapay-zeka-yol-haritasi-2-milyon-dolar-destek_20260604.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/google-turkiye-kamu-yapay-zeka-yol-haritasi-2-milyon-dolar-destek_20260604.webp",
-      "image_alt": "Google, Türkiye'de Kamu Hizmetleri İçin Yapay Zeka Yol Haritası ve 2 Milyon Dolarlık Destek...",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/google-turkiye-kamu-yapay-zeka-yol-haritasi-2-milyon-dolar-destek_20260604.webp",
-        "alt": "Google, Türkiye'de Kamu Hizmetleri İçin Yapay Zeka Yol Haritası ve 2 Milyon Dolarlık Destek..."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/teknoloji/google-turkiyedeki-kamu-hizmetleri-icin-yapay-zeka-yol-haritasi-acikladi-7599444",
-      "tags": [
-        "Google",
-        "Yapay Zeka",
-        "Türkiye",
-        "Kamu Hizmetleri",
-        "Deprem"
       ],
       "quality_score": 86,
       "review_status": "published"
