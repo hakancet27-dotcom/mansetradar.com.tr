@@ -134,6 +134,16 @@
   var categoryFeedCache = {};
   var categorySliderTimer = null;
 
+  function markCategoryPartReady(className) {
+    document.documentElement.classList.add(className);
+    if (
+      document.documentElement.classList.contains('category-showcase-ready') &&
+      document.documentElement.classList.contains('category-feed-ready')
+    ) {
+      document.documentElement.classList.add('category-page-ready');
+    }
+  }
+
   async function loadCategoryArticles(topic) {
     if (!topic || topic === 'son-dakika') return [];
     if (!categoryFeedCache[topic]) {
@@ -543,17 +553,17 @@
     if (topic === 'son-dakika') return;
     var slider = document.querySelector('.headline-slider');
     if (slider && slider.dataset.categoryShowcase === topic) {
-      document.documentElement.classList.add('category-showcase-ready');
+      markCategoryPartReady('category-showcase-ready');
       return;
     }
     var articles = await loadCategoryArticles(topic);
     if (!articles.length) {
-      document.documentElement.classList.add('category-showcase-ready');
+      markCategoryPartReady('category-showcase-ready');
       return;
     }
     renderCategoryShowcase(articles, topic);
     if (slider) slider.dataset.categoryShowcase = topic;
-    document.documentElement.classList.add('category-showcase-ready');
+    markCategoryPartReady('category-showcase-ready');
   }
 
   async function hydrateSelectedCategoryFeed() {
@@ -562,14 +572,14 @@
 
     var grid = document.getElementById('grid-turkey');
     if (!grid || grid.dataset.categoryHydrated === topic) {
-      document.documentElement.classList.add('category-feed-ready');
+      markCategoryPartReady('category-feed-ready');
       return;
     }
 
     try {
       var articles = await loadCategoryArticles(topic);
       if (!articles.length) {
-        document.documentElement.classList.add('category-feed-ready');
+        markCategoryPartReady('category-feed-ready');
         return;
       }
 
@@ -586,20 +596,20 @@
       });
 
       if (!fragment.childNodes.length) {
-        document.documentElement.classList.add('category-feed-ready');
+        markCategoryPartReady('category-feed-ready');
         return;
       }
       grid.innerHTML = '';
       grid.appendChild(fragment);
       grid.dataset.categoryHydrated = topic;
       grid.dataset.categoryMode = 'json';
-      document.documentElement.classList.add('category-feed-ready');
 
       if (typeof window.applyTopicFilter === 'function') window.applyTopicFilter();
       if (typeof window.countCards === 'function') window.countCards();
       if (typeof window.refreshSideHeadlineRotation === 'function') window.refreshSideHeadlineRotation();
+      markCategoryPartReady('category-feed-ready');
     } catch (error) {
-      document.documentElement.classList.add('category-feed-ready');
+      markCategoryPartReady('category-feed-ready');
       console.warn('Kategori haberleri yüklenemedi:', error);
     }
   }
