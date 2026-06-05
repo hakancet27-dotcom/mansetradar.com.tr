@@ -20,8 +20,8 @@ collections:
     create: false
     extension: json
     format: json
-    identifier_field: title
-    summary: "{{date}} | {{category}} | {{title}}"
+    identifier_field: slug
+    summary: "{{slug}}"
     fields: &published_fields
       - { label: Baslik, name: title, widget: string }
       - { label: Slug, name: slug, widget: string, readonly: true }
@@ -51,8 +51,8 @@ collections:
     create: false
     extension: json
     format: json
-    identifier_field: title
-    summary: "{{date}} | {{category}} | {{title}}"
+    identifier_field: slug
+    summary: "{{slug}}"
     fields: *published_fields
 
   - name: published_de
@@ -62,6 +62,6 @@ collections:
     create: false
     extension: json
     format: json
-    identifier_field: title
-    summary: "{{date}} | {{category}} | {{title}}"
+    identifier_field: slug
+    summary: "{{slug}}"
     fields: *published_fields
