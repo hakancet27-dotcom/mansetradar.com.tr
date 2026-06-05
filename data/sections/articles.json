@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-05T00:00:00+00:00",
-    "article_count": 554,
+    "article_count": 555,
     "schema_version": 2,
     "section": "articles"
   },
@@ -395,6 +395,41 @@
         "hatıra",
         "duygu",
         "spor"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:fatih-terim-dunya-kupasi-montella-yorum_20260605",
+      "slug": "fatih-terim-dunya-kupasi-montella-yorum_20260605",
+      "title": "Fatih Terim'den 2026 Dünya Kupası ve Montella Yorumu: \"Türkiye İçin Sınır Yok\"",
+      "summary": "A Milli Futbol Takımı'nın eski teknik direktörü Fatih Terim, İtalyan basınına verdiği röportajda 2026 Dünya Kupası'nda mücadele edecek ay-yıldızlı takımın potansiyelini değerlendirdi. Terim, Türkiye için Dünya Kupası'nda \"hiçbir sınır olmadığını\" belirtirke...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/fatih-terim-dunya-kupasi-montella-yorum_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/fatih-terim-dunya-kupasi-montella-yorum_20260605/",
+      "detail_json_url": "/data/details/articles/fatih-terim-dunya-kupasi-montella-yorum_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/fatih-terim-dunya-kupasi-montella-yorum_20260605.webp",
+      "image_alt": "Fatih Terim'den 2026 Dünya Kupası ve Montella Yorumu: \"Türkiye İçin Sınır Yok\"",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/fatih-terim-dunya-kupasi-montella-yorum_20260605.webp",
+        "alt": "Fatih Terim'den 2026 Dünya Kupası ve Montella Yorumu: \"Türkiye İçin Sınır Yok\""
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/fatih-terim-italya-basinina-konustu-turkiye-icin-dunya-kupasi-nda-hicbir-sinir-yok-3889685-spor",
+      "tags": [
+        "Fatih Terim",
+        "A Milli Takım",
+        "Dünya Kupası",
+        "Vincenzo Montella",
+        "Futbol"
       ],
       "quality_score": 86,
       "review_status": "published"
