@@ -16,12 +16,12 @@ collections:
   - name: published_tr
     label: "Yayindaki Haberler / Turkce"
     label_singular: "Yayindaki Turkce Haber"
-    folder: data/details/articles
+    folder: articles
     create: false
     extension: json
     format: json
     identifier_field: slug
-    summary: "{{slug}}"
+    summary: "{{date}} | {{category}} | {{title}}"
     fields: &published_fields
       - { label: Baslik, name: title, widget: string }
       - { label: Slug, name: slug, widget: string, readonly: true }
@@ -31,37 +31,32 @@ collections:
       - { label: Kategori, name: category, widget: string, required: false }
       - { label: Spot, name: spot, widget: text, required: false }
       - { label: Ozet, name: summary, widget: text, required: false }
-      - { label: Haber Govdesi HTML, name: content_html, widget: text, required: false }
       - { label: Gorsel URL, name: image_url, widget: string, required: false }
       - { label: Gorsel Alt Metni, name: image_alt, widget: string, required: false }
       - { label: Meta Title, name: meta_title, widget: string, required: false }
       - { label: Meta Description, name: meta_description, widget: text, required: false }
       - { label: Discover Basliklari, name: discover_titles, widget: list, required: false, field: { label: Baslik, widget: string } }
       - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, widget: string } }
-      - { label: Quality Score, name: quality_score, widget: number, required: false, readonly: true }
-      - { label: Quality Status, name: quality_status, widget: string, required: false, readonly: true }
-      - { label: Risk Bayragi, name: flag, widget: string, required: false, readonly: true }
-      - { label: Quality Flags, name: quality_flags, widget: list, required: false, readonly: true, field: { label: Flag, widget: string } }
       - { label: Indexed On Home, name: indexed_on_home, widget: boolean, required: false, readonly: true }
 
   - name: published_en
     label: "Published News / English"
     label_singular: "Published English News"
-    folder: data/details/news/articles
+    folder: news/articles
     create: false
     extension: json
     format: json
     identifier_field: slug
-    summary: "{{slug}}"
+    summary: "{{date}} | {{category}} | {{title}}"
     fields: *published_fields
 
   - name: published_de
     label: "Veroeffentlichte Nachrichten / Deutsch"
     label_singular: "Veroeffentlichte Nachricht"
-    folder: data/details/nachrichten/artikel
+    folder: nachrichten/artikel
     create: false
     extension: json
     format: json
     identifier_field: slug
-    summary: "{{slug}}"
+    summary: "{{date}} | {{category}} | {{title}}"
     fields: *published_fields

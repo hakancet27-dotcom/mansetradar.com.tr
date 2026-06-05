@@ -15,6 +15,7 @@ Private haber uretim ve inceleme akisi ayri newsroom panelindedir.
 Notlar:
 
 - Haber uretim otomasyonu `haber-botu` reposunda kalir.
+- Public panel generated `data/details/**` cache dosyalarini degil, duzenlenebilir kaynak `articles/**`, `news/articles/**` ve `nachrichten/artikel/**` JSON dosyalarini kullanir.
 - `newsroom/review/pending` kuyrugu public site reposunda tutulmaz; `haber-botu` reposundaki `/admin/newsroom/` panelinden yonetilir.
 - Yayindaki haber koleksiyonlari hicbir otomasyonu tetiklemez; sadece editoryal bakim icindir.
 - Ilk asamada GitHub token ile giris en hizli yoldur. Cok kullanicili rahat giris icin daha sonra OAuth client eklenebilir.
