@@ -4,6 +4,7 @@ Bu panel yayindaki public haberleri editoryal bakim icin kullanilir.
 Private haber uretim ve inceleme akisi ayri newsroom panelindedir.
 
 - Panel adresi: `https://mansetradar.com.tr/admin/`
+- Public haber bakim paneli: `https://mansetradar.com.tr/admin/public/`
 - Newsroom paneli: `https://mansetradar.com.tr/admin/newsroom/`
 - Backend: `hakancet27-dotcom/mansetradar.com.tr`
 - Koleksiyonlar:
