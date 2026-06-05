@@ -12,28 +12,35 @@
 <body class="member-page">
   <main class="member-shell">
     <section class="member-card">
+      <div class="member-card-nav" aria-label="Üyelik sayfası gezinme">
+        <a class="member-back-home" href="/">← Ana sayfaya dön</a>
+      </div>
       <a class="member-brand" href="/">mansetradar.com.tr</a>
       <h1>Üye Girişi</h1>
       <p class="member-muted">Haberleri kaydetmek, yorum yapmak ve üyelik tercihlerinizi yönetmek için giriş yapın.</p>
-      <form id="login-form" class="member-form">
-        <label>E-posta<input id="login-email" type="email" autocomplete="email" required></label>
+      <p id="member-message" class="member-message" role="status" aria-live="polite" tabindex="-1"></p>
+      <form id="login-form" class="member-form" novalidate>
+        <label>E-posta<input id="login-email" type="email" autocomplete="email" inputmode="email" required placeholder="ornek@mail.com"></label>
         <label>Şifre<input id="login-password" type="password" autocomplete="current-password" required></label>
         <button class="member-btn" type="submit">Giriş Yap</button>
       </form>
-      <p style="margin:10px 0 0"><a id="forgot-password-link" href="/forgot-password.html" style="color:#e10600;font-weight:900">Şifremi unuttum</a></p>
+      <p class="member-helper-link"><a id="forgot-password-link" href="/forgot-password.html">Şifremi unuttum</a></p>
       <div class="member-divider">veya</div>
       <button id="google-login" class="member-btn secondary" type="button">Google ile devam et</button>
       <h2>Yeni üyelik</h2>
-      <form id="signup-form" class="member-form">
-        <label>Ad Soyad<input id="signup-name" type="text" autocomplete="name"></label>
-        <label>E-posta<input id="signup-email" type="email" autocomplete="email" required></label>
-        <label>Şifre<input id="signup-password" type="password" autocomplete="new-password" minlength="8" required></label>
+      <form id="signup-form" class="member-form" novalidate>
+        <label>Ad Soyad<input id="signup-name" type="text" autocomplete="name" placeholder="Adınız Soyadınız"></label>
+        <label>E-posta<input id="signup-email" type="email" autocomplete="email" inputmode="email" required placeholder="ornek@mail.com"></label>
+        <label>Şifre<input id="signup-password" type="password" autocomplete="new-password" minlength="8" required placeholder="En az 8 karakter"></label>
         <button class="member-btn" type="submit">Üye Ol</button>
       </form>
-      <p id="member-message" class="member-message" role="status" aria-live="polite"></p>
+      <div class="member-card-actions">
+        <a class="member-inline-btn" href="/">Ana sayfaya dön</a>
+        <a class="member-inline-btn" href="/account.html">Hesabıma git</a>
+      </div>
     </section>
   </main>
-  <script src="/assets/js/member-auth.js?v=20260530c"></script>
-  <script src="/assets/js/login-page.js?v=20260530c"></script>
+  <script src="/assets/js/member-auth.js?v=20260530d"></script>
+  <script src="/assets/js/login-page.js?v=20260605a"></script>
 </body>
 </html>
