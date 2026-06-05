@@ -1374,6 +1374,24 @@
       .visually-hidden { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
 
 
+  /* FIRST_PAINT_TOPIC_FILTER_START */
+html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]) .topic-card {
+  display: none !important;
+}
+html.has-topic-filter[data-active-topic="gundem"] .topic-card[data-topic="gundem"],
+html.has-topic-filter[data-active-topic="siyaset"] .topic-card[data-topic="siyaset"],
+html.has-topic-filter[data-active-topic="ekonomi"] .topic-card[data-topic="ekonomi"],
+html.has-topic-filter[data-active-topic="dunya"] .topic-card[data-topic="dunya"],
+html.has-topic-filter[data-active-topic="spor"] .topic-card[data-topic="spor"],
+html.has-topic-filter[data-active-topic="magazin"] .topic-card[data-topic="magazin"],
+html.has-topic-filter[data-active-topic="teknoloji"] .topic-card[data-topic="teknoloji"],
+html.has-topic-filter[data-active-topic="saglik"] .topic-card[data-topic="saglik"] {
+  display: block !important;
+}
+html.has-topic-filter .topic-card[hidden] {
+  display: none !important;
+}
+/* FIRST_PAINT_TOPIC_FILTER_END */
   </style>
 </head>
 <body>

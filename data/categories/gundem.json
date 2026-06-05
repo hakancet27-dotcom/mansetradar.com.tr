@@ -3,11 +3,45 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-05T00:00:00+00:00",
-    "article_count": 537,
+    "article_count": 539,
     "schema_version": 2,
     "category_slug": "gundem"
   },
   "articles": [
+    {
+      "id": "articles:aym-suresiz-nafaka-iptal-yeni-donem_20260605",
+      "slug": "aym-suresiz-nafaka-iptal-yeni-donem_20260605",
+      "title": "AYM Süresiz Nafakayı İptal Etti: Yeni Dönem Başlıyor",
+      "summary": "Anayasa Mahkemesi (AYM), Türk Medeni Kanunu'nun (TMK) 175. maddesindeki \"süresiz olarak\" ibaresini Anayasa'ya aykırı bularak iptal etti. Bu tarihi karar, boşanma davalarında nafaka düzenlemelerinde önemli değişikliklere yol açacak. Antalya'dan gelen bir baş...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/aym-suresiz-nafaka-iptal-yeni-donem_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/aym-suresiz-nafaka-iptal-yeni-donem_20260605/",
+      "detail_json_url": "/data/details/articles/aym-suresiz-nafaka-iptal-yeni-donem_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/aym-suresiz-nafaka-iptal-yeni-donem_20260605.webp",
+      "image_alt": "Anayasa Mahkemesi binası ve adalet sembolleri.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/aym-suresiz-nafaka-iptal-yeni-donem_20260605.webp",
+        "alt": "Anayasa Mahkemesi binası ve adalet sembolleri."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/aymden-tarihi-karar-suresiz-nafaka-iptal-simdi-ne-olacak-43193875",
+      "tags": [
+        "Anayasa Mahkemesi",
+        "Süresiz Nafaka",
+        "Nafaka İptali",
+        "Türk Medeni Kanunu"
+      ],
+      "quality_score": 81,
+      "review_status": "published"
+    },
     {
       "id": "articles:yunanistan-1055-sikke-kacak-eserlere-karsi-ortak-irade_20260604",
       "slug": "yunanistan-1055-sikke-kacak-eserlere-karsi-ortak-irade_20260604",
