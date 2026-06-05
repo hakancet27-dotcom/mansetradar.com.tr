@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-05T00:00:00+00:00",
-    "article_count": 558,
+    "article_count": 561,
     "schema_version": 2
   },
   "articles": [
@@ -78,6 +78,77 @@
         "Google Cloud"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:trump-bolton-savas-duskunu-gizli-bilgi-davasi_20260605",
+      "slug": "trump-bolton-savas-duskunu-gizli-bilgi-davasi_20260605",
+      "title": "Trump'tan Eski Danışmanı Bolton'a Sert Eleştiriler: 'Savaş Düşkünü'",
+      "summary": "ABD Başkanı Trump, Washington'dan Wisconsin eyaletine giderken uçakta basın mensuplarının sorularını yanıtlarken, eski Ulusal Güvenlik Danışmanı John Bolton'ı 'savaş düşkünü' olarak nitelendirdi. Trump, Bolton'ın gizli bilgileri usulsüz kullandığını ve bunu...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/trump-bolton-savas-duskunu-gizli-bilgi-davasi_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/trump-bolton-savas-duskunu-gizli-bilgi-davasi_20260605/",
+      "detail_json_url": "/data/details/articles/trump-bolton-savas-duskunu-gizli-bilgi-davasi_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/trump-bolton-savas-duskunu-gizli-bilgi-davasi_20260605.webp",
+      "image_alt": "Donald Trump'ın uçakta basın mensuplarına konuşurken çekilmiş fotoğrafı, John Bolton'ın ise ayrı bir karede, muhtemelen...",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/trump-bolton-savas-duskunu-gizli-bilgi-davasi_20260605.webp",
+        "alt": "Donald Trump'ın uçakta basın mensuplarına konuşurken çekilmiş fotoğrafı, John Bolton'ın ise ayrı bir karede, muhtemelen..."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/trump-eski-ulusal-guvenlik-danismani-boltonin-savas-duskunu-oldugunu-savundu-7600198",
+      "tags": [
+        "Trump",
+        "John Bolton",
+        "ABD",
+        "Ulusal Güvenlik Danışmanı",
+        "Gizli Bilgi Davası"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:savcilarin-sifresiyle-feto-dosyalarini-kapatti-4-saniga-hapis-cezasi_20260605",
+      "slug": "savcilarin-sifresiyle-feto-dosyalarini-kapatti-4-saniga-hapis-cezasi_20260605",
+      "title": "Savcıların Şifresiyle FETÖ Dosyalarını Kapattı: 4 Sanığa Hapis Cezası",
+      "summary": "Ankara Adliyesi'nde savcılara ait şifreleri kullanarak Ulusal Yargı Ağı Sistemi'ne (UYAP) giren ve FETÖ soruşturma dosyalarını kapattığı iddia edilen zabıt katibi Ahmet Yılmaz'ın da aralarında bulunduğu 15 sanıklı davada karar açıklandı. Mahkeme, Ahmet Yılm...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/savcilarin-sifresiyle-feto-dosyalarini-kapatti-4-saniga-hapis-cezasi_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/savcilarin-sifresiyle-feto-dosyalarini-kapatti-4-saniga-hapis-cezasi_20260605/",
+      "detail_json_url": "/data/details/articles/savcilarin-sifresiyle-feto-dosyalarini-kapatti-4-saniga-hapis-cezasi_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/savcilarin-sifresiyle-feto-dosyalarini-kapatti-4-saniga-hapis-cezasi_20260605.webp",
+      "image_alt": "Ankara'da savcı şifrelerini kullanarak FETÖ dosyalarını kapattığı iddia edilen zabıt katibine hapis cezası verildiği...",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/savcilarin-sifresiyle-feto-dosyalarini-kapatti-4-saniga-hapis-cezasi_20260605.webp",
+        "alt": "Ankara'da savcı şifrelerini kullanarak FETÖ dosyalarını kapattığı iddia edilen zabıt katibine hapis cezası verildiği..."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/savcilarin-sifresiyle-feto-dosyalarini-kapatti-4-saniga-hapis-cezasi-1727370",
+      "tags": [
+        "Son Dakika",
+        "FETÖ",
+        "UYAP",
+        "Zabıt Katibi",
+        "Ankara Adliyesi",
+        "Hapis Cezası"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -183,6 +254,40 @@
         "Ferdi Zeyrek",
         "Antalya Büyükşehir Belediyesi",
         "Rüşvet Soruşturması"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:kultur-ve-turizm-bakani-ersoy-sifir-atik-bir-zorunluluktur_20260605",
+      "slug": "kultur-ve-turizm-bakani-ersoy-sifir-atik-bir-zorunluluktur_20260605",
+      "title": "Bakan Ersoy: Sıfır Atık Bir Zorunluluktur, Çevreye 12,3 Milyar TL Yatırım Yapıldı",
+      "summary": "Kültür ve Turizm Bakanı Mehmet Nuri Ersoy, 5 Haziran 2026 tarihinde İstanbul'da düzenlenen Sıfır Atık Forumu 2026'da konuştu. Bakan Ersoy, sıfır atık yaklaşımının artık bir seçenek değil, bir zorunluluk olduğunu vurgulayarak çevre krizleriyle mücadelede ort...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/kultur-ve-turizm-bakani-ersoy-sifir-atik-bir-zorunluluktur_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/kultur-ve-turizm-bakani-ersoy-sifir-atik-bir-zorunluluktur_20260605/",
+      "detail_json_url": "/data/details/articles/kultur-ve-turizm-bakani-ersoy-sifir-atik-bir-zorunluluktur_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/kultur-ve-turizm-bakani-ersoy-sifir-atik-bir-zorunluluktur_20260605.webp",
+      "image_alt": "Kültür ve Turizm Bakanı Mehmet Nuri Ersoy, Sıfır Atık Forumu 2026'da konuşma yapıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/kultur-ve-turizm-bakani-ersoy-sifir-atik-bir-zorunluluktur_20260605.webp",
+        "alt": "Kültür ve Turizm Bakanı Mehmet Nuri Ersoy, Sıfır Atık Forumu 2026'da konuşma yapıyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kultur-ve-turizm-bakani-ersoy-konaklama-tesislerine-bu-standartlara-uyma-zorunlulugu-getirdik-43194908",
+      "tags": [
+        "Sıfır Atık",
+        "Mehmet Nuri Ersoy",
+        "Kültür ve Turizm Bakanlığı",
+        "Çevre Sorunları"
       ],
       "quality_score": 86,
       "review_status": "published"
