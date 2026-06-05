@@ -23,6 +23,42 @@ body.member-page {
   border-radius: 18px;
   padding: 28px;
 }
+.member-card-nav {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 14px;
+}
+.member-back-home,
+.member-auth-link,
+.member-helper-link a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  color: #e10600;
+  text-decoration: none;
+  font-weight: 900;
+}
+.member-back-home {
+  border: 1px solid #ffd1cf;
+  border-radius: 999px;
+  background: #fff5f5;
+  padding: 7px 12px;
+}
+.member-back-home:hover,
+.member-auth-link:hover,
+.member-helper-link a:hover {
+  color: #b42318;
+  text-decoration: underline;
+}
+.member-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+.member-helper-link {
+  margin: 10px 0 0;
+}
 .member-brand {
   display: inline-block;
   color: #e10600;
@@ -79,11 +115,28 @@ body.member-page {
   background: #f8fafc;
   font-weight: 800;
 }
+.member-form label:focus-within {
+  border-color: #e10600;
+  box-shadow: 0 0 0 4px rgba(225, 6, 0, .10);
+}
 .member-form input:not([type=checkbox]) {
   border: 1px solid #d6dce5;
   border-radius: 12px;
   padding: 13px 14px;
   font: inherit;
+}
+.member-form input[aria-invalid="true"] {
+  border-color: #d92d20;
+  background: #fff5f5;
+  box-shadow: 0 0 0 3px rgba(217, 45, 32, .12);
+}
+.member-field-error {
+  display: block;
+  margin: -8px 0 2px 4px;
+  color: #b42318;
+  font-size: .86rem;
+  font-weight: 900;
+  line-height: 1.35;
 }
 .member-form input[type=checkbox] {
   width: 20px;
@@ -121,11 +174,29 @@ body.member-page {
 }
 .member-message {
   min-height: 22px;
-  color: #667085;
-  margin-top: 10px;
+  color: #344054;
+  margin: 14px 0 0;
+  border-radius: 14px;
+  padding: 12px 14px;
+  background: #f2f4f7;
+  border: 1px solid #e4e7ec;
+  font-weight: 800;
+  line-height: 1.45;
+}
+.member-message:empty,
+.member-message[hidden] {
+  display: none;
 }
 .member-message.error {
-  color: #b42318;
+  color: #7a271a;
+  background: #fffbfa;
+  border-color: #fecdca;
+  box-shadow: 0 8px 22px rgba(217, 45, 32, .14);
+}
+.member-message.success {
+  color: #05603a;
+  background: #ecfdf3;
+  border-color: #abefc6;
 }
 .member-top {
   max-width: 980px;
@@ -278,158 +349,36 @@ body.member-page {
   border-color: #e10600;
   color: #e10600;
 }
-.member-inline-btn.danger {
-  color: #b42318;
-}
-.member-inline-btn:disabled {
-  opacity: .5;
-  cursor: not-allowed;
-}
-.member-notice {
-  background: #fff7ed;
-  border: 1px solid #fed7aa;
-  color: #7c2d12;
-  border-radius: 12px;
-  padding: 12px;
-  font-size: .92rem;
-  line-height: 1.5;
-}
-.member-interest-panel {
-  grid-column: 1 / -1;
-}
-.member-interest-grid {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 8px;
-}
-.member-interest {
-  display: flex !important;
-  align-items: center;
-  gap: 7px;
-  border: 1px solid #e1e5ea;
-  background: #f8fafc;
-  border-radius: 10px;
-  padding: 10px;
-  font-size: .9rem;
-}
-.member-interest input {
-  margin: 0;
-  padding: 0;
-}
-@media (max-width: 760px) {
-  .member-page {
-    background: #f5f6f8;
-  }
-  .member-page::before {
-    content: "";
-    display: block;
-    height: 4px;
-    background: #e10600;
-  }
+@media (max-width: 640px) {
   .member-shell {
-    padding: 16px;
+    align-items: start;
+    padding: 14px;
   }
   .member-card {
-    padding: 22px;
-  }
-  .member-top {
-    margin: 10px 12px 0;
-    padding: 16px;
+    padding: 20px;
     border-radius: 16px;
-    align-items: stretch;
-    flex-direction: column;
-    gap: 12px;
-  }
-  .member-brand {
-    margin-bottom: 6px;
-  }
-  .member-eyebrow {
-    margin-bottom: 5px;
-    font-size: .74rem;
-  }
-  .member-top h1 {
-    font-size: 1.95rem;
-    margin-bottom: 5px;
-  }
-  .member-greeting {
-    font-size: .95rem;
-  }
-  #member-email {
-    margin: 0;
-    font-size: .88rem;
-  }
-  .member-top .member-btn.secondary {
-    width: auto;
-    align-self: flex-start;
-    min-height: 42px;
-    padding: 10px 14px;
-  }
-  .member-grid {
-    grid-template-columns: 1fr;
-    padding: 12px;
-    gap: 12px;
-  }
-  .member-tabs {
-    margin-top: 10px;
-    padding: 0 12px;
-    gap: 7px;
-  }
-  .member-tabs a {
-    padding: 8px 10px;
-    font-size: .8rem;
-  }
-  .member-panel {
-    padding: 15px;
-    border-radius: 16px;
-  }
-  .member-panel h2 {
-    font-size: 1.34rem;
-  }
-  .member-form {
-    gap: 10px;
-    margin-top: 12px;
   }
   .member-form label {
-    min-height: 40px;
-    padding: 9px 10px;
-    border-radius: 10px;
-    font-size: .94rem;
+    display: grid;
+    gap: 8px;
   }
-  .member-btn {
-    min-height: 44px;
+  .member-form input:not([type=checkbox]),
+  .member-btn,
+  .member-inline-btn {
+    width: 100%;
+    box-sizing: border-box;
   }
+  .member-card-actions {
+    display: grid;
+  }
+  .member-top {
+    margin: 12px;
+    display: grid;
+  }
+  .member-grid,
   .member-summary {
-    padding: 0 12px;
-    margin-top: 12px;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 7px;
-  }
-  .member-summary div {
-    padding: 10px 8px;
-    border-radius: 12px;
-  }
-  .member-summary strong {
-    font-size: 1rem;
-  }
-  .member-summary span {
-    font-size: .68rem;
-    line-height: 1.2;
-  }
-  .member-notice {
-    padding: 10px;
-    font-size: .86rem;
-  }
-  .member-list {
-    margin-top: 8px;
-  }
-  .member-message {
-    min-height: 16px;
-    margin-top: 7px;
-  }
-  .member-interest-panel {
-    grid-column: auto;
-  }
-  .member-interest-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    padding-left: 14px;
+    padding-right: 14px;
   }
 }
