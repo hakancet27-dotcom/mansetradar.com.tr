@@ -4,11 +4,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Puan Durumu | Manşet Radar</title>
-  <meta name="description" content="Süper Lig ve popüler liglerin güncel puan durumu.">
+  <meta name="description" content="Süper Lig ve popüler liglerin güncel puan durumu, sıralama, oynanan maç, galibiyet, averaj ve puan bilgileri. Lig seçerek tabloyu takip edin.">
   <link rel="canonical" href="https://mansetradar.com.tr/puan-durumu/">
   <style>
     :root{--red:#e10600;--dark:#171727;--page:#f4f6f8;--line:#e5e7eb;--muted:#667085;--text:#24292f}
     *{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--text);font-family:Segoe UI,Arial,sans-serif;line-height:1.45}.wrap{max-width:960px;margin:0 auto;padding:18px}header{background:#fff;border-bottom:3px solid var(--red);box-shadow:0 2px 10px rgba(15,23,42,.07)}header .wrap{display:flex;align-items:center;justify-content:space-between;gap:14px}.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--dark);font-weight:900}.mark{width:38px;height:38px;border-radius:8px;background:var(--red);color:#fff;display:flex;align-items:center;justify-content:center}.home{color:var(--red);font-weight:800;text-decoration:none}.hero{background:#080b12;color:#fff;border-radius:18px;padding:22px;margin:20px 0;box-shadow:0 16px 36px rgba(15,23,42,.16)}.kicker{color:#ffb4ae;font-size:.76rem;font-weight:900;letter-spacing:.7px;text-transform:uppercase}.hero h1{margin:5px 0 6px;font-size:clamp(1.8rem,5vw,3rem);line-height:1.05}.hero p{margin:0;color:rgba(255,255,255,.78)}.panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px;box-shadow:0 2px 10px rgba(15,23,42,.07)}.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;margin-bottom:12px}.chip{border:1px solid var(--line);background:#f8fafc;color:#111827;border-radius:999px;padding:9px 12px;font-weight:900;white-space:nowrap;cursor:pointer}.chip.active{background:var(--red);border-color:var(--red);color:#fff}.meta{color:var(--muted);font-size:.82rem;font-weight:700;margin-bottom:12px}.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px}table{width:100%;border-collapse:collapse;background:#fff;min-width:650px}th,td{padding:11px 10px;border-bottom:1px solid var(--line);text-align:center;font-size:.88rem}th{background:#f1f5f9;color:#334155;font-weight:900}td.team{text-align:left;font-weight:900;color:#111827}td.points{color:var(--red);font-weight:900}.empty{background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;border-radius:14px;padding:14px;font-weight:800}.status{margin-top:10px;color:var(--muted);font-size:.8rem}.back{display:inline-flex;margin-top:16px;color:var(--red);font-weight:900;text-decoration:none}@media(max-width:640px){.wrap{padding:12px}.panel{padding:10px}th,td{padding:9px 8px;font-size:.82rem}}
+  </style>
+  <style>
+    .seo-panel{margin-top:18px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 2px 10px rgba(15,23,42,.06)}
+    .seo-panel h2{margin:0 0 10px;color:var(--dark);font-size:1.35rem}
+    .seo-panel h3{margin:0 0 6px;color:var(--dark);font-size:1rem}
+    .seo-panel p{margin:0;color:var(--muted);line-height:1.7}
+    .seo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px}
+    .seo-card{border:1px solid var(--line);border-radius:12px;padding:14px;background:#fbfcfe}
+    @media(max-width:760px){.seo-grid{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
@@ -20,6 +29,24 @@
       <div id="meta" class="meta">Veri yükleniyor...</div>
       <div id="content" class="empty">Puan durumu yükleniyor...</div>
       <a class="back" href="/">← Ana sayfaya dön</a>
+    </section>
+    <section class="seo-panel" aria-labelledby="puan-rehberi">
+      <h2 id="puan-rehberi">Puan durumu tablosu nasıl okunur?</h2>
+      <p>Puan durumu sayfası Süper Lig ve popüler Avrupa ligleri için sıralama, oynanan maç, galibiyet, beraberlik, mağlubiyet, averaj ve puan bilgisini tek tabloda gösterir. Lig seçimi üstteki düğmelerden yapılır; aktif lig kırmızı renkle işaretlenir.</p>
+      <div class="seo-grid">
+        <article class="seo-card">
+          <h3>Sıralama ve puan</h3>
+          <p>Takımlar puana göre listelenir. Puan eşitliğinde averaj ve lig kurallarına göre ek kriterler belirleyici olabilir.</p>
+        </article>
+        <article class="seo-card">
+          <h3>Averaj bilgisi</h3>
+          <p>Av sütunu takımın attığı ve yediği goller arasındaki farkı gösterir; sezon takibinde yalnızca puan kadar önemlidir.</p>
+        </article>
+        <article class="seo-card">
+          <h3>Veri güncelliği</h3>
+          <p>Tablo kaynak servislerden alınır ve güncellenme zamanı üst bölümde gösterilir. Maç sonrası kısa gecikmeler yaşanabilir.</p>
+        </article>
+      </div>
     </section>
   </main>
   <script>

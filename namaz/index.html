@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Türkiye illeri için güncel namaz vakitleri.">
+  <meta name="description" content="Türkiye illeri için günlük namaz vakitleri, imsak, güneş, öğle, ikindi, akşam ve yatsı saatleri. İl seçerek bugünün vakitlerini hızlıca takip edin.">
   <title>Namaz Vakitleri | mansetradar.com.tr</title>
   <style>
     :root { --red:#e10600; --dark:#171729; --text:#20242a; --muted:#667085; --bg:#f4f6f8; --border:#e5e7eb; }
@@ -27,9 +27,15 @@
     .time-card span { display:block; color:var(--muted); font-size:.78rem; font-weight:900; text-transform:uppercase; letter-spacing:.4px; }
     .time-card strong { display:block; margin-top:8px; color:var(--dark); font-size:1.45rem; }
     .note { margin-top:14px; color:var(--muted); font-size:.9rem; line-height:1.55; }
+    .seo-panel { margin-top:18px; background:#fff; border:1px solid var(--border); border-radius:12px; padding:20px; box-shadow:0 10px 28px rgba(15,23,42,.05); }
+    .seo-panel h2 { margin:0 0 10px; color:var(--dark); font-size:1.35rem; }
+    .seo-panel h3 { margin:0 0 6px; color:var(--dark); font-size:1rem; }
+    .seo-panel p { margin:0; color:var(--muted); line-height:1.7; }
+    .seo-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin-top:16px; }
+    .seo-card { border:1px solid var(--border); border-radius:10px; padding:14px; background:#fbfcfe; }
     .error { color:#b42318; font-weight:900; }
-    @media (max-width:720px){ .grid{grid-template-columns:repeat(2,minmax(0,1fr));} }
-    @media (max-width:460px){ .grid{grid-template-columns:1fr;} .hero{padding:20px;} }
+    @media (max-width:720px){ .grid,.seo-grid{grid-template-columns:repeat(2,minmax(0,1fr));} }
+    @media (max-width:460px){ .grid,.seo-grid{grid-template-columns:1fr;} .hero{padding:20px;} }
   </style>
 </head>
 <body>
@@ -46,6 +52,24 @@
       </div>
       <div class="grid" id="time-grid"></div>
       <p class="note">Vakitler Aladhan servisi üzerinden gösterilir. Yerel kurumların resmi duyuruları esas alınmalıdır.</p>
+    </section>
+    <section class="seo-panel" aria-labelledby="namaz-rehberi">
+      <h2 id="namaz-rehberi">Namaz vakitleri nasıl takip edilir?</h2>
+      <p>Manşet Radar namaz vakitleri sayfasında il seçerek imsak, güneş, öğle, ikindi, akşam ve yatsı saatlerini tek ekranda görebilirsiniz. Sayfa günlük kullanım için hızlı açılacak şekilde sade tutulur; özellikle mobilde il seçimi ve vakit kartları kolay okunur.</p>
+      <div class="seo-grid">
+        <article class="seo-card">
+          <h3>İl seçimi</h3>
+          <p>Bulunduğunuz ili seçtiğinizde URL güncellenir ve aynı bağlantıya tekrar döndüğünüzde ilgili şehrin vakitleri açılır.</p>
+        </article>
+        <article class="seo-card">
+          <h3>Günlük plan</h3>
+          <p>İmsak ve akşam saatleri oruç takibi için, öğle ve ikindi vakitleri ise gün içi planlama için hızlı referans sağlar.</p>
+        </article>
+        <article class="seo-card">
+          <h3>Veri notu</h3>
+          <p>Vakitler referans servislerden alınır; resmi duyuru veya yerel farklılık gereken durumlarda ilgili kurum açıklamaları esas alınmalıdır.</p>
+        </article>
+      </div>
     </section>
   </main>
   <script>

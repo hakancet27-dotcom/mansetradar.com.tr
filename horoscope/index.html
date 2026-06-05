@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Günlük burç yorumları ve burç detayları.">
+  <meta name="description" content="Günlük burç yorumları, aşk ve ilişkiler, iş ve para, günün tavsiyesi, ruh hali, şanslı sayı ve renk bilgileri. Burcunuzu seçerek bugünkü yorumu okuyun.">
   <link rel="canonical" href="https://mansetradar.com.tr/horoscope/">
   <title>Günlük Burç Yorumları | mansetradar.com.tr</title>
   <style>
@@ -42,8 +42,14 @@
     .fact { border:1px solid var(--border); border-radius:12px; padding:12px; background:#fff; }
     .fact strong { display:block; color:var(--muted); font-size:.74rem; margin-bottom:6px; text-transform:uppercase; letter-spacing:.4px; }
     .fact span { color:var(--dark); font-weight:900; }
+    .seo-panel { margin-top:18px; background:#fff; border:1px solid var(--border); border-radius:16px; padding:20px; box-shadow:0 10px 28px rgba(15,23,42,.05); }
+    .seo-panel h2 { margin:0 0 10px; color:var(--dark); font-size:1.35rem; }
+    .seo-panel h3 { margin:0 0 6px; color:var(--dark); font-size:1rem; }
+    .seo-panel p { margin:0; color:var(--muted); line-height:1.7; }
+    .seo-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin-top:16px; }
+    .seo-card { border:1px solid var(--border); border-radius:12px; padding:14px; background:#fbfcfe; }
     .error { color:#b42318; font-weight:800; }
-    @media (max-width:900px){ .layout{grid-template-columns:1fr;} .sign-list{grid-template-columns:repeat(2,minmax(0,1fr));max-height:none;} .section-grid,.facts{grid-template-columns:1fr;} }
+    @media (max-width:900px){ .layout{grid-template-columns:1fr;} .sign-list{grid-template-columns:repeat(2,minmax(0,1fr));max-height:none;} .section-grid,.facts,.seo-grid{grid-template-columns:1fr;} }
     @media (max-width:560px){ .detail-hero{grid-template-columns:1fr;text-align:center;} .zodiac-visual{margin:0 auto;width:100px;height:100px;font-size:3.4rem;} .sign-list{grid-template-columns:1fr;} }
   </style>
 </head>
@@ -62,15 +68,62 @@
         <p class="meta">Bir burç seçerek günlük yorumu görüntüleyin.</p>
       </article>
     </section>
+    <section class="seo-panel" aria-labelledby="burc-rehberi">
+      <h2 id="burc-rehberi">Günlük burç yorumları nasıl kullanılmalı?</h2>
+      <p>Burç sayfasında her burç için günlük yorumun yanında aşk ve ilişkiler, iş ve para, günün tavsiyesi, ruh hali, şanslı sayı ve renk bilgileri ayrı ayrı gösterilir. Amaç uzun metin içinde kaybolmadan günün öne çıkan başlıklarını hızlıca okumaktır.</p>
+      <div class="seo-grid">
+        <article class="seo-card">
+          <h3>Aşk ve ilişkiler</h3>
+          <p>Seçilen burcun iletişim dili, beklenti ve duygu akışına göre kısa bir ilişki notu sunulur; tüm burçlara aynı kalıp metin gösterilmez.</p>
+        </article>
+        <article class="seo-card">
+          <h3>İş ve para</h3>
+          <p>Günün iş temposu, karar alma şekli ve maddi konularda dikkat edilmesi gereken başlıklar burca göre ayrıştırılır.</p>
+        </article>
+        <article class="seo-card">
+          <h3>Günün tavsiyesi</h3>
+          <p>Yorumun sonunda tek cümlelik pratik öneri bulunur; bu alan hızlı okuyan kullanıcı için özet niteliği taşır.</p>
+        </article>
+      </div>
+    </section>
   </main>
   <script>
     const params = new URLSearchParams(location.search);
     let selectedSign = params.get('sign') || '';
     let items = [];
     const symbols = { aries:'♈', taurus:'♉', gemini:'♊', cancer:'♋', leo:'♌', virgo:'♍', libra:'♎', scorpio:'♏', sagittarius:'♐', capricorn:'♑', aquarius:'♒', pisces:'♓' };
+    const genericInsights = {
+      love: 'Duygusal konularda acele etmeden, karşındaki kişinin sözleri kadar tavrını da gözlemlemek iyi olur.',
+      career: 'İş ve para tarafında küçük detayları toparlamak, günün sonunda daha güvenli bir zemin oluşturur.',
+      advice: 'Bugünün ana tavsiyesi: enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur.',
+    };
+    const fallbackInsights = {
+      love: 'Duygusal konularda sakin ve açık olmak bugün daha iyi sonuç verir.',
+      career: 'Planlı ilerlemek ve küçük detayları toparlamak günün verimini artırır.',
+      advice: 'Enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur.',
+    };
+    const signInsights = {
+      aries: { love:'Duygusal konularda hızlı tepki vermeden önce niyetini açık söylemek Koç için bugün daha yapıcı olur.', career:'İş ve para tarafında cesur bir adım atmadan önce kısa bir kontrol listesi yapmak riskleri azaltır.', advice:'Bugün enerjini tek hedefe yönelt; başladığın işi bitirmek sana en hızlı rahatlamayı getirir.' },
+      taurus: { love:'Boğa için ilişkilerde güven ihtiyacı öne çıkıyor; beklentini yumuşak ama net ifade etmek bağı güçlendirir.', career:'Harcamaları ve bekleyen ödemeleri sakin biçimde gözden geçirmek maddi tarafta kontrol hissi verir.', advice:'Konfor alanını korurken küçük bir yeniliğe yer aç; günün dengesi burada.' },
+      gemini: { love:'İkizler için iletişim belirleyici; kısa ama samimi bir konuşma yanlış anlaşılmaları hızla toparlayabilir.', career:'Dağınık fikirleri not almak ve önceliklendirmek iş tarafında verimi yükseltir.', advice:'Aynı anda her yere yetişmeye çalışma; zihnini en çok açan konuyu seç.' },
+      cancer: { love:'Yengeç için duygusal güven önemli; alınganlık yükselirse konuşmayı sakin bir zamana taşımak iyi gelir.', career:'İş ve para konularında korumacı davranmak mantıklı; riskli kararları net veriyle destekle.', advice:'Kendine sessiz bir alan aç; içini toparladığında kararların daha berraklaşır.' },
+      leo: { love:'Aslan için ilgi ve takdir ihtiyacı artabilir; sevgini gösterirken karşı tarafı da dinlemek denge sağlar.', career:'Görünür olduğun işlerde parlayabilirsin; sunum, toplantı veya fikir paylaşımı için hazırlıklı ol.', advice:'Özgüvenini detay kontrolüyle birleştir; etkini kalıcı yapan şey bu olacak.' },
+      virgo: { love:'Başak için ilişkilerde yapıcı dil önemli; eleştiri yerine çözüm önerisi sunmak yakınlığı artırır.', career:'Eksik dosya, ödeme veya planları toparlamak iş ve para tarafında rahatlama sağlar.', advice:'Mükemmeli bekleme; bugün düzenli ve tamamlanmış olan yeterince değerli.' },
+      libra: { love:'Terazi için denge arayışı güçlü; kendi ihtiyacını da masaya koyarsan ilişki daha adil ilerler.', career:'Ekip çalışması ve ortak kararlar para/iş tarafında daha verimli sonuç verebilir.', advice:'Herkesi memnun etmeye çalışma; net bir tercih yapmak seni hafifletir.' },
+      scorpio: { love:'Akrep için sezgiler güçlü; şüpheyi büyütmeden güven veren açık bir konuşma daha iyi sonuç getirir.', career:'Gizli kalan bir detay ya da mali başlık görünür olabilir; sakin inceleme avantaj sağlar.', advice:'Kontrolü artırmak yerine odağını derinleştir; gereksiz güç savaşlarından uzak dur.' },
+      sagittarius: { love:'Yay için açık sözlülük çekici ama tonu iyi ayarlamak ilişkiyi daha rahat akıtır.', career:'Eğitim, yolculuk, yayıncılık veya yeni bağlantılar iş tarafında fırsat yaratabilir.', advice:'Büyük fikri küçük bir plana çevir; bugün ilhamı uygulanabilir hale getir.' },
+      capricorn: { love:'Oğlak için duygusal tarafta yumuşamak faydalı; sorumluluk kadar sıcaklık da ilişkiyi besler.', career:'Plan, bütçe ve takvim konularında disiplinli hareket etmek maddi güveni artırır.', advice:'Her şeyi tek başına taşımaya çalışma; doğru destek zamanı kazandırır.' },
+      aquarius: { love:'Kova için samimi ve doğrudan bir açıklama mesafeli algıyı azaltabilir.', career:'Teknoloji, topluluk veya yaratıcı fikirler iş tarafında yeni çözüm kapısı açabilir.', advice:'Farklı düşün ama uygulanabilir adımı seç; yenilik bugün pratikleşirse değer kazanır.' },
+      pisces: { love:'Balık için fedakârlık sınırını korumak önemli; sevgi gösterirken kendi ihtiyacını unutma.', career:'Net olmayan iş ve para başlıklarını yazılı hale getirmek seni korur.', advice:'Sezgini dinle ama kararını somut bilgiyle destekle; sakinlik en iyi pusulan.' },
+    };
 
     function esc(value){ return String(value || '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char])); }
     function symbolFor(item){ return item.symbol || symbols[item.sign] || '✦'; }
+    function insightFor(item, key) {
+      const value = String(item && item[key] || '').trim();
+      if (value && value !== genericInsights[key]) return value;
+      return (signInsights[item.sign] && signInsights[item.sign][key]) || fallbackInsights[key];
+    }
 
     function renderList() {
       const list = document.getElementById('sign-list');
@@ -89,9 +142,9 @@
         '<div class="detail-hero"><div class="zodiac-visual">' + esc(symbolFor(item)) + '</div><div><h2 class="detail-title">' + esc(item.title || item.sign) + ' Burcu</h2><p class="detail-sub">Günlük yorum, ruh hali ve öne çıkan başlıklar</p></div></div>' +
         '<p class="comment">' + esc(item.description || 'Günlük yorum hazırlanıyor.') + '</p>' +
         '<div class="section-grid">' +
-          '<div class="section-card"><strong>Aşk ve ilişkiler</strong><p>' + esc(item.love || 'Duygusal konularda sakin ve açık olmak bugün daha iyi sonuç verir.') + '</p></div>' +
-          '<div class="section-card"><strong>İş ve para</strong><p>' + esc(item.career || 'Planlı ilerlemek ve küçük detayları toparlamak günün verimini artırır.') + '</p></div>' +
-          '<div class="section-card"><strong>Günün tavsiyesi</strong><p>' + esc(item.advice || 'Enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur.') + '</p></div>' +
+          '<div class="section-card"><strong>Aşk ve ilişkiler</strong><p>' + esc(insightFor(item, 'love')) + '</p></div>' +
+          '<div class="section-card"><strong>İş ve para</strong><p>' + esc(insightFor(item, 'career')) + '</p></div>' +
+          '<div class="section-card"><strong>Günün tavsiyesi</strong><p>' + esc(insightFor(item, 'advice')) + '</p></div>' +
         '</div>' +
         '<div class="facts">' +
           '<div class="fact"><strong>Tarih</strong><span>' + esc(item.currentDate || '--') + '</span></div>' +

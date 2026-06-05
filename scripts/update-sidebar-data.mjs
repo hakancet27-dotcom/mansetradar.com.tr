@@ -34,6 +34,69 @@ const fallbackComments = {
   pisces: 'Bugün Balık burcu için sezgi, duygu ve içsel farkındalık güçlü olabilir. Yoğun ortamlardan uzaklaşıp biraz sakinlik arayabilirsin. Sanatsal işler, yazmak, müzik veya ruhunu besleyen konular iyi gelir. İlişkilerde fazla fedakârlık yapmadan sınırlarını koruman önemli. İş ve para tarafında net olmayan şeyleri yazılı hale getirmek seni korur. Günün sonunda iç sesini dinlemek doğru yönü gösterebilir.',
 };
 
+const fallbackDetails = {
+  aries: {
+    love: 'Duygusal konularda hızlı tepki vermeden önce niyetini açık söylemek Koç için bugün daha yapıcı olur.',
+    career: 'İş ve para tarafında cesur bir adım atmadan önce kısa bir kontrol listesi yapmak riskleri azaltır.',
+    advice: 'Bugün enerjini tek hedefe yönelt; başladığın işi bitirmek sana en hızlı rahatlamayı getirir.',
+  },
+  taurus: {
+    love: 'Boğa için ilişkilerde güven ihtiyacı öne çıkıyor; beklentini yumuşak ama net ifade etmek bağı güçlendirir.',
+    career: 'Harcamaları ve bekleyen ödemeleri sakin biçimde gözden geçirmek maddi tarafta kontrol hissi verir.',
+    advice: 'Konfor alanını korurken küçük bir yeniliğe yer aç; günün dengesi burada.',
+  },
+  gemini: {
+    love: 'İkizler için iletişim belirleyici; kısa ama samimi bir konuşma yanlış anlaşılmaları hızla toparlayabilir.',
+    career: 'Dağınık fikirleri not almak ve önceliklendirmek iş tarafında verimi yükseltir.',
+    advice: 'Aynı anda her yere yetişmeye çalışma; zihnini en çok açan konuyu seç.',
+  },
+  cancer: {
+    love: 'Yengeç için duygusal güven önemli; alınganlık yükselirse konuşmayı sakin bir zamana taşımak iyi gelir.',
+    career: 'İş ve para konularında korumacı davranmak mantıklı; riskli kararları net veriyle destekle.',
+    advice: 'Kendine sessiz bir alan aç; içini toparladığında kararların daha berraklaşır.',
+  },
+  leo: {
+    love: 'Aslan için ilgi ve takdir ihtiyacı artabilir; sevgini gösterirken karşı tarafı da dinlemek denge sağlar.',
+    career: 'Görünür olduğun işlerde parlayabilirsin; sunum, toplantı veya fikir paylaşımı için hazırlıklı ol.',
+    advice: 'Özgüvenini detay kontrolüyle birleştir; etkini kalıcı yapan şey bu olacak.',
+  },
+  virgo: {
+    love: 'Başak için ilişkilerde yapıcı dil önemli; eleştiri yerine çözüm önerisi sunmak yakınlığı artırır.',
+    career: 'Eksik dosya, ödeme veya planları toparlamak iş ve para tarafında rahatlama sağlar.',
+    advice: 'Mükemmeli bekleme; bugün düzenli ve tamamlanmış olan yeterince değerli.',
+  },
+  libra: {
+    love: 'Terazi için denge arayışı güçlü; kendi ihtiyacını da masaya koyarsan ilişki daha adil ilerler.',
+    career: 'Ekip çalışması ve ortak kararlar para/iş tarafında daha verimli sonuç verebilir.',
+    advice: 'Herkesi memnun etmeye çalışma; net bir tercih yapmak seni hafifletir.',
+  },
+  scorpio: {
+    love: 'Akrep için sezgiler güçlü; şüpheyi büyütmeden güven veren açık bir konuşma daha iyi sonuç getirir.',
+    career: 'Gizli kalan bir detay ya da mali başlık görünür olabilir; sakin inceleme avantaj sağlar.',
+    advice: 'Kontrolü artırmak yerine odağını derinleştir; gereksiz güç savaşlarından uzak dur.',
+  },
+  sagittarius: {
+    love: 'Yay için açık sözlülük çekici ama tonu iyi ayarlamak ilişkiyi daha rahat akıtır.',
+    career: 'Eğitim, yolculuk, yayıncılık veya yeni bağlantılar iş tarafında fırsat yaratabilir.',
+    advice: 'Büyük fikri küçük bir plana çevir; bugün ilhamı uygulanabilir hale getir.',
+  },
+  capricorn: {
+    love: 'Oğlak için duygusal tarafta yumuşamak faydalı; sorumluluk kadar sıcaklık da ilişkiyi besler.',
+    career: 'Plan, bütçe ve takvim konularında disiplinli hareket etmek maddi güveni artırır.',
+    advice: 'Her şeyi tek başına taşımaya çalışma; doğru destek zamanı kazandırır.',
+  },
+  aquarius: {
+    love: 'Kova için samimi ve doğrudan bir açıklama mesafeli algıyı azaltabilir.',
+    career: 'Teknoloji, topluluk veya yaratıcı fikirler iş tarafında yeni çözüm kapısı açabilir.',
+    advice: 'Farklı düşün ama uygulanabilir adımı seç; yenilik bugün pratikleşirse değer kazanır.',
+  },
+  pisces: {
+    love: 'Balık için fedakârlık sınırını korumak önemli; sevgi gösterirken kendi ihtiyacını unutma.',
+    career: 'Net olmayan iş ve para başlıklarını yazılı hale getirmek seni korur.',
+    advice: 'Sezgini dinle ama kararını somut bilgiyle destekle; sakinlik en iyi pusulan.',
+  },
+};
+
 const fallbackTables = {
   'super-lig': ['Galatasaray', 'Fenerbahçe', 'Trabzonspor', 'Beşiktaş', 'İstanbul Başakşehir', 'Samsunspor', 'Göztepe', 'Konyaspor', 'Kasımpaşa', 'Antalyaspor', 'Alanyaspor', 'Çaykur Rizespor', 'Kayserispor', 'Gaziantep FK', 'Eyüpspor', 'Sivasspor', 'Bodrum FK', 'Hatayspor', 'Adana Demirspor'],
   'premier-league': ['Liverpool', 'Arsenal', 'Manchester City', 'Chelsea', 'Manchester United', 'Tottenham', 'Newcastle', 'Aston Villa', 'Brighton', 'Bournemouth', 'Brentford', 'Crystal Palace', 'Everton', 'Fulham', 'Nottingham Forest', 'West Ham', 'Wolves', 'Leeds United', 'Sunderland', 'Burnley'],
@@ -53,13 +116,14 @@ function getSymbol(sign) { return signs.find(([key]) => key === sign)?.[2] || '�
 
 function enrichReading(base) {
   const description = String(base.description || fallbackComments[base.sign] || 'Günlük yorum hazırlanıyor.');
+  const details = fallbackDetails[base.sign] || {};
   return {
     ...base,
     symbol: getSymbol(base.sign),
     description,
-    love: base.love || 'Duygusal konularda acele etmeden, karşındaki kişinin sözleri kadar tavrını da gözlemlemek iyi olur.',
-    career: base.career || 'İş ve para tarafında küçük detayları toparlamak, günün sonunda daha güvenli bir zemin oluşturur.',
-    advice: base.advice || 'Bugünün ana tavsiyesi: enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur.',
+    love: base.love || details.love || 'Duygusal konularda sakin ve açık olmak bugün daha iyi sonuç verir.',
+    career: base.career || details.career || 'Planlı ilerlemek ve küçük detayları toparlamak günün verimini artırır.',
+    advice: base.advice || details.advice || 'Enerjini tek bir önceliğe odakla ve gereksiz tartışmalardan uzak dur.',
   };
 }
 
