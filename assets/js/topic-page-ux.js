@@ -375,7 +375,7 @@
     var title = (article.title || '').trim();
     if (!href || !title) return null;
 
-    var card = makeElement('a', 'headline-card side-headline topic-card is-json-category-side');
+    var card = makeElement('a', 'headline-card side-headline is-json-category-side');
     card.href = href;
     card.dataset.topic = topic;
     card.dataset.dynamicCategory = 'true';
