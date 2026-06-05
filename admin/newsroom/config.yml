@@ -175,14 +175,14 @@ collections:
     identifier_field: topic
     summary: "{{request_status}} | {{mode}} | {{topic}}"
     fields:
-      - { label: Durum, name: request_status, widget: select, default: queued, options: [queued, running, completed, needs_attention, hold, cancelled] }
-      - { label: Konu / Input, name: topic, widget: string }
-      - { label: Uretim Modu, name: mode, widget: select, default: full_seo_article, options: [full_seo_article, short_breaking, source_based, rewrite, discover] }
-      - { label: Kategori, name: category, widget: select, default: auto, options: [auto, son-dakika, gundem, siyaset, ekonomi, dunya, spor, magazin, teknoloji, saglik] }
+      - { label: Durum, name: request_status, widget: select, default: queued, hint: "Yeni kayit normalde queued olarak acilir; bot isledikce durum guncellenir.", options: [queued, running, completed, needs_attention, hold, cancelled] }
+      - { label: Konu / Input, name: topic, widget: string, hint: "AI'ye verilecek ana konu veya haber fikri." }
+      - { label: Uretim Modu, name: mode, widget: select, default: full_seo_article, hint: "Genelde full_seo_article veya source_based yeterlidir.", options: [full_seo_article, short_breaking, source_based, rewrite, discover] }
+      - { label: Kategori, name: category, widget: select, default: auto, hint: "Emin degilsen auto birak.", options: [auto, son-dakika, gundem, siyaset, ekonomi, dunya, spor, magazin, teknoloji, saglik] }
       - { label: Kaynak URL'leri, name: source_urls, widget: list, required: false, field: { label: URL, widget: string } }
-      - { label: Dogrulanmis Ham Bilgi, name: raw_notes, widget: text, required: false, hint: "AI ciktisi dogrudan yayinlanmaz; inceleme kuyruguna gider." }
+      - { label: Dogrulanmis Ham Bilgi, name: raw_notes, widget: text, required: false, hint: "En kritik alan burasi. Kaynak notu ne kadar iyi olursa AI taslagi o kadar saglikli olur." }
       - { label: Gorsel Olustur / Bul, name: create_image, widget: boolean, default: true }
-      - { label: Gorsel Talimati, name: image_instruction, widget: text, required: false }
+      - { label: Gorsel Talimati, name: image_instruction, widget: text, required: false, hint: "Gorsel icin ekstra yonlendirme gerekiyorsa doldur." }
       - { label: Dil, name: language, widget: select, default: Turkish, options: [Turkish, English, German] }
       - { label: Cikti Yolu, name: output_path, widget: string, required: false, readonly: true }
       - { label: Quality Score, name: quality_score, widget: number, required: false, readonly: true }
@@ -207,7 +207,7 @@ collections:
       - { label: Son Kontrol, name: checked_at, widget: string, required: false, readonly: true }
 
   - name: newsroom_workflow_requests
-    label: "5 - Inputlu Workflow"
+    label: "5 - Inputlu Workflow (Operasyon)"
     folder: newsroom/requests/workflow
     create: true
     extension: json
@@ -220,6 +220,7 @@ collections:
         name: status
         widget: select
         default: queued
+        hint: "Yeni kayitlar bot tarafinda approval_required durumuna cekilebilir."
         options:
           - { label: Kaydet, value: queued }
           - { label: Onay Bekliyor, value: approval_required }
@@ -227,23 +228,24 @@ collections:
           - { label: Tamamlandi, value: completed }
           - { label: Hata, value: failed }
           - { label: Iptal, value: cancelled }
-      - { label: Talep Adi, name: request_name, widget: string }
+      - { label: Talep Adi, name: request_name, widget: string, hint: "Ornek: Gece reindex kontrolu, Spor kategori yeniden calistir." }
       - label: Calisma Modu
         name: run_mode
         widget: select
         default: reindex_only
+        hint: "En guvenli secenek reindex_only. Diger modlari bilincli kullan."
         options:
           - { label: Yeniden Indeksle, value: reindex_only }
           - { label: Haber Uretimi - guvenli faz bekliyor, value: website_only }
           - { label: Tum Pipeline - guvenli faz bekliyor, value: all }
-      - { label: Konu Filtresi, name: selected_topic, widget: select, default: all, options: [all, gundem, siyaset, ekonomi, dunya, spor, magazin, teknoloji, saglik] }
+      - { label: Konu Filtresi, name: selected_topic, widget: select, default: all, hint: "Tum siteyi calistirmak istemiyorsan konu sec.", options: [all, gundem, siyaset, ekonomi, dunya, spor, magazin, teknoloji, saglik] }
       - { label: Geriye Donuk Saat, name: hours_back, widget: number, default: 24, min: 1, max: 168 }
       - { label: YouTube Yuklemeyi Atla, name: skip_youtube_upload, widget: boolean, default: true }
-      - { label: Ek Talimat, name: input_prompt, widget: text, required: false }
+      - { label: Ek Talimat, name: input_prompt, widget: text, required: false, hint: "Cok gerekli degilse bos birak; kisa ve net yaz." }
       - { label: Sonuc, name: execution_result, widget: text, required: false, readonly: true }
 
   - name: newsroom_bulk_actions
-    label: "6 - Toplu Islemler"
+    label: "6 - Toplu Islemler (Yuksek Etki)"
     folder: newsroom/requests/bulk
     create: true
     extension: json
@@ -252,11 +254,12 @@ collections:
     identifier_field: action_name
     summary: "{{status}} | {{operation}} | {{action_name}}"
     fields:
-      - { label: Islem Adi, name: action_name, widget: string }
+      - { label: Islem Adi, name: action_name, widget: string, hint: "Ornek: 5 spor haberini teknoloji yerine spor yap." }
       - label: Durum
         name: status
         widget: select
         default: queued
+        hint: "Toplu islemler onay mantigi ile ilerlemeli."
         options:
           - { label: Kuyruga Ekle, value: queued }
           - { label: Onay Bekliyor, value: approval_required }
@@ -265,10 +268,10 @@ collections:
           - { label: Hata, value: failed }
           - { label: Beklet, value: hold }
           - { label: Iptal, value: cancelled }
-      - { label: Islem, name: operation, widget: select, options: [change_category, quality_recheck, seo_rebuild, noindex, reindex, set_featured] }
-      - { label: Hedef Haber Sluglari, name: slugs, widget: list, field: { label: Slug, widget: string } }
-      - { label: Yeni Kategori, name: category, widget: select, required: false, options: [Gundem, Siyaset, Ekonomi, Dunya, Spor, Magazin, Teknoloji, Saglik] }
-      - { label: Not, name: note, widget: text, required: false }
+      - { label: Islem, name: operation, widget: select, hint: "Yanlis secim birden fazla haberi etkiler.", options: [change_category, quality_recheck, seo_rebuild, noindex, reindex, set_featured] }
+      - { label: Hedef Haber Sluglari, name: slugs, widget: list, hint: "Her satira bir slug gir.", field: { label: Slug, widget: string } }
+      - { label: Yeni Kategori, name: category, widget: select, required: false, hint: "Sadece change_category isleminde kullanilir.", options: [Gundem, Siyaset, Ekonomi, Dunya, Spor, Magazin, Teknoloji, Saglik] }
+      - { label: Not, name: note, widget: text, required: false, hint: "Neden bu toplu islemi yaptigini kisaca yazmak iyi olur." }
       - { label: Sonuc, name: result, widget: text, required: false, readonly: true }
 
   - name: newsroom_image_jobs
@@ -305,3 +308,17 @@ collections:
         file: newsroom/reports/category-topic-conflicts.md
         fields:
           - { label: Rapor, name: body, widget: text, required: false, readonly: true }
+
+  - name: newsroom_guides
+    label: "9 - Kullanim Rehberi"
+    files:
+      - name: panel_guide
+        label: "Panel Kullanim Ozeti"
+        file: newsroom/status/panel-guide.md
+        fields:
+          - { label: Icerik, name: body, widget: text, required: false, readonly: true }
+      - name: action_rules
+        label: "Operasyon Kurallari"
+        file: newsroom/status/action-rules.md
+        fields:
+          - { label: Icerik, name: body, widget: text, required: false, readonly: true }
