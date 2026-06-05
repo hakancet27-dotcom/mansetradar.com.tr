@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-05T00:00:00+00:00",
-    "article_count": 534,
+    "article_count": 537,
     "schema_version": 2
   },
   "articles": [
@@ -43,6 +43,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:sakarya-bisiklet-sampiyonasi-dunya-kupasi_20260605",
+      "slug": "sakarya-bisiklet-sampiyonasi-dunya-kupasi_20260605",
+      "title": "Sakarya'da Bisiklet Heyecanı: Avrupa Şampiyonası ve Dünya Kupası Başlıyor",
+      "summary": "Sakarya Ayçiçeği Bisiklet Vadisi, dünyanın en prestijli yarışlarından MTB Eliminatör Avrupa Şampiyonası ve Dünya Kupası'na ev sahipliği yapacak. Cumhurbaşkanlığı himayelerinde düzenlenecek organizasyonlar kapsamında 7 Haziran'da Avrupa Şampiyonası, 14 Hazir...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/sakarya-bisiklet-sampiyonasi-dunya-kupasi_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/sakarya-bisiklet-sampiyonasi-dunya-kupasi_20260605/",
+      "detail_json_url": "/data/details/articles/sakarya-bisiklet-sampiyonasi-dunya-kupasi_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/sakarya-bisiklet-sampiyonasi-dunya-kupasi_20260605.webp",
+      "image_alt": "Sakarya Ayçiçeği Bisiklet Vadisi'nde düzenlenen uluslararası dağ bisikleti yarışından genel görünüm.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/sakarya-bisiklet-sampiyonasi-dunya-kupasi_20260605.webp",
+        "alt": "Sakarya Ayçiçeği Bisiklet Vadisi'nde düzenlenen uluslararası dağ bisikleti yarışından genel görünüm."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/sporskor/dunya-sahnesi-bir-kez-daha-sakaryada-aciliyor-avrupa-sampiyonasi-ve-dunya-kupasi-icin-nefesler-tutuldu-1727252",
+      "tags": [
+        "Sakarya",
+        "Bisiklet",
+        "Avrupa Şampiyonası",
+        "Dünya Kupası",
+        "MTB Eliminatör"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles:iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605",
       "slug": "iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605",
       "title": "İran'ın 'Sessiz Zaferi': Hürmüz Boğazı Üzerindeki Etkisi Yeni Bir Nükleer Seçenek Haline Geldi",
@@ -73,6 +108,76 @@
         "Nükleer Seçenek",
         "Enerji Piyasaları",
         "Jeopolitik"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:galatasaray-milli-yildiz-can-uzun-transferi-detaylari_20260605",
+      "slug": "galatasaray-milli-yildiz-can-uzun-transferi-detaylari_20260605",
+      "title": "Galatasaray'dan Milli Yıldız Can Uzun İçin Girişim: Bonservis ve Detaylar Ortaya Çıktı",
+      "summary": "Süper Lig'de son dört yılın şampiyonu Galatasaray, kadrosunu Türk bir yıldızla güçlendirmek için Eintracht Frankfurt'un 20 yaşındaki milli oyuncusu Can Uzun'u gündemine aldı. Teknik Direktör Okan Buruk'un öncelikli transfer hedefleri arasında yer alan genç...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/galatasaray-milli-yildiz-can-uzun-transferi-detaylari_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/galatasaray-milli-yildiz-can-uzun-transferi-detaylari_20260605/",
+      "detail_json_url": "/data/details/articles/galatasaray-milli-yildiz-can-uzun-transferi-detaylari_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/galatasaray-milli-yildiz-can-uzun-transferi-detaylari_20260605.webp",
+      "image_alt": "Galatasaray forması giyen milli futbolcu Can Uzun gol sevincini yaşıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/galatasaray-milli-yildiz-can-uzun-transferi-detaylari_20260605.webp",
+        "alt": "Galatasaray forması giyen milli futbolcu Can Uzun gol sevincini yaşıyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/galatasaray-milli-yildizi-aliyor-iste-bonservisi-43193713",
+      "tags": [
+        "Galatasaray",
+        "Can Uzun",
+        "Transfer",
+        "Eintracht Frankfurt",
+        "Süper Lig"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:futbol-maclari-neden-hafizamizda-yer-eder_20260605",
+      "slug": "futbol-maclari-neden-hafizamizda-yer-eder_20260605",
+      "title": "Futbol Maçları Neden Hafızamızda Yer Eder?",
+      "summary": "Futbolun hayatımızdaki yeri, sadece bir spor olmanın ötesine geçerek anılarımızda derin izler bırakır. Üzerinden yıllar geçse de bazı maçlar, yaşandığı anın duygusuyla birlikte zihnimizde canlılığını korur. Bu durumun temelinde, maçların sadece skorlarıyla...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/futbol-maclari-neden-hafizamizda-yer-eder_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/futbol-maclari-neden-hafizamizda-yer-eder_20260605/",
+      "detail_json_url": "/data/details/articles/futbol-maclari-neden-hafizamizda-yer-eder_20260605.json",
+      "image_url": "https://images.pexels.com/photos/15859044/pexels-photo-15859044.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image_alt": "Eski bir televizyonda futbol maçı izleyen insanların nostaljik ve duygusal anları.",
+      "image": {
+        "url": "https://images.pexels.com/photos/15859044/pexels-photo-15859044.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Eski bir televizyonda futbol maçı izleyen insanların nostaljik ve duygusal anları."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/yazarlar/emre-karabulut/bir-maci-neden-bazen-sadece-hatirlamak-isteriz-1727204",
+      "tags": [
+        "futbol",
+        "anı",
+        "hatıra",
+        "duygu",
+        "spor"
       ],
       "quality_score": 86,
       "review_status": "published"
