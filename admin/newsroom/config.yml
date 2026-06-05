@@ -34,6 +34,53 @@ collections:
               - { label: Taslak, name: drafts, widget: number, required: false }
               - { label: AI, name: ai_requests, widget: number, required: false }
               - { label: Yayin, name: published, widget: number, required: false }
+      - name: dashboard
+        label: "Panel Ozeti"
+        file: newsroom/status/dashboard.json
+        fields:
+          - { label: Uretildi, name: generated_at, widget: string, required: false, readonly: true }
+          - { label: Site Degisikligi, name: site_changed, widget: boolean, required: false, readonly: true }
+          - label: Kuyruklar
+            name: queues
+            widget: object
+            required: false
+            readonly: true
+            fields:
+              - { label: Taslaklar, name: drafts_total, widget: number, required: false }
+              - { label: Inceleme Bekleyen, name: review_pending_total, widget: number, required: false }
+              - { label: Inceleme Arsivi, name: review_archive_total, widget: number, required: false }
+              - { label: Inceleme Gorselleri, name: review_pending_images_total, widget: number, required: false }
+              - { label: AI Talepleri, name: ai_requests_total, widget: number, required: false }
+              - { label: Workflow Talepleri, name: workflow_requests_total, widget: number, required: false }
+              - { label: Toplu Islemler, name: bulk_requests_total, widget: number, required: false }
+              - { label: Gorsel Islemleri, name: image_requests_total, widget: number, required: false }
+              - { label: Trend Kayitlari, name: trends_total, widget: number, required: false }
+          - label: Aksiyon Gerektirenler
+            name: actionable
+            widget: object
+            required: false
+            readonly: true
+            fields:
+              - { label: Taslak - Incelemeye Gonder, name: drafts_submit_for_review, widget: number, required: false }
+              - { label: Taslak - Yayin Hazir, name: drafts_ready_to_publish, widget: number, required: false }
+              - { label: Inceleme - Bekleyen, name: review_pending_waiting, widget: number, required: false }
+              - { label: Inceleme - Yayin Hazir, name: review_ready_to_publish, widget: number, required: false }
+              - { label: AI - Dikkat Gerekiyor, name: ai_needs_attention, widget: number, required: false }
+              - { label: Workflow - Onay Bekliyor, name: workflow_approval_required, widget: number, required: false }
+              - { label: Workflow - Calismaya Hazir, name: workflow_ready_to_run, widget: number, required: false }
+              - { label: Toplu - Onay Bekliyor, name: bulk_approval_required, widget: number, required: false }
+              - { label: Toplu - Calismaya Hazir, name: bulk_ready_to_run, widget: number, required: false }
+              - { label: Gorsel - Basarisiz, name: image_failed, widget: number, required: false }
+              - { label: Trend - Makale Isteyen, name: trend_generate_article, widget: number, required: false }
+          - label: Saglik
+            name: health
+            widget: object
+            required: false
+            readonly: true
+            fields:
+              - { label: CMS Kaynak Hata, name: cms_source_errors, widget: number, required: false }
+              - { label: CMS Kaynak Uyari, name: cms_source_warnings, widget: number, required: false }
+              - { label: Kategori Topic Uyusmazligi, name: category_topic_conflicts, widget: number, required: false }
 
   - name: newsroom_create_article
     label: "1 - Sifirdan Haber Yaz"
