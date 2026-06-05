@@ -34,58 +34,59 @@ jobs:
           var_anchor = "  var categoryFeedCache = {};\n  var categorySliderTimer = null;\n"
           func_anchor = "\n  async function loadCategoryArticles(topic) {"
 
-          rotation_block = r'''
-  function ensureCategorySideHeadlineRotationStyles() {
-    if (document.getElementById('category-side-headline-rotation-style')) return;
-    var style = document.createElement('style');
-    style.id = 'category-side-headline-rotation-style';
-    style.textContent = '.side-headline.is-side-rotated-out{display:none!important;}';
-    document.head.appendChild(style);
-  }
-
-  function stopCategorySideHeadlineRotation() {
-    if (sideHeadlineRotationTimer) {
-      window.clearInterval(sideHeadlineRotationTimer);
-      sideHeadlineRotationTimer = null;
-    }
-  }
-
-  function setCategorySideHeadlinePage(cards, pageIndex) {
-    var start = pageIndex * 2;
-    var end = start + 2;
-    cards.forEach(function (card, index) {
-      var visible = index >= start && index < end;
-      card.classList.toggle('is-side-rotated-out', !visible);
-      card.setAttribute('aria-hidden', visible ? 'false' : 'true');
-    });
-  }
-
-  function refreshCategorySideHeadlineRotation() {
-    stopCategorySideHeadlineRotation();
-    var rail = document.querySelector('.side-headlines');
-    if (!rail) return;
-
-    var cards = Array.prototype.slice.call(rail.querySelectorAll('.side-headline'));
-    cards.forEach(function (card) {
-      card.classList.remove('is-side-rotated-out');
-      card.removeAttribute('aria-hidden');
-    });
-
-    if (selectedTopic() === 'son-dakika' || cards.length <= 2) return;
-
-    ensureCategorySideHeadlineRotationStyles();
-    var pageCount = Math.ceil(cards.length / 2);
-    var pageIndex = 0;
-    setCategorySideHeadlinePage(cards, pageIndex);
-
-    sideHeadlineRotationTimer = window.setInterval(function () {
-      pageIndex = (pageIndex + 1) % pageCount;
-      setCategorySideHeadlinePage(cards, pageIndex);
-    }, 4000);
-  }
-
-  window.refreshSideHeadlineRotation = refreshCategorySideHeadlineRotation;
-'''
+          rotation_lines = [
+              "  function ensureCategorySideHeadlineRotationStyles() {",
+              "    if (document.getElementById('category-side-headline-rotation-style')) return;",
+              "    var style = document.createElement('style');",
+              "    style.id = 'category-side-headline-rotation-style';",
+              "    style.textContent = '.side-headline.is-side-rotated-out{display:none!important;}';",
+              "    document.head.appendChild(style);",
+              "  }",
+              "",
+              "  function stopCategorySideHeadlineRotation() {",
+              "    if (sideHeadlineRotationTimer) {",
+              "      window.clearInterval(sideHeadlineRotationTimer);",
+              "      sideHeadlineRotationTimer = null;",
+              "    }",
+              "  }",
+              "",
+              "  function setCategorySideHeadlinePage(cards, pageIndex) {",
+              "    var start = pageIndex * 2;",
+              "    var end = start + 2;",
+              "    cards.forEach(function (card, index) {",
+              "      var visible = index >= start && index < end;",
+              "      card.classList.toggle('is-side-rotated-out', !visible);",
+              "      card.setAttribute('aria-hidden', visible ? 'false' : 'true');",
+              "    });",
+              "  }",
+              "",
+              "  function refreshCategorySideHeadlineRotation() {",
+              "    stopCategorySideHeadlineRotation();",
+              "    var rail = document.querySelector('.side-headlines');",
+              "    if (!rail) return;",
+              "",
+              "    var cards = Array.prototype.slice.call(rail.querySelectorAll('.side-headline'));",
+              "    cards.forEach(function (card) {",
+              "      card.classList.remove('is-side-rotated-out');",
+              "      card.removeAttribute('aria-hidden');",
+              "    });",
+              "",
+              "    if (selectedTopic() === 'son-dakika' || cards.length <= 2) return;",
+              "",
+              "    ensureCategorySideHeadlineRotationStyles();",
+              "    var pageCount = Math.ceil(cards.length / 2);",
+              "    var pageIndex = 0;",
+              "    setCategorySideHeadlinePage(cards, pageIndex);",
+              "",
+              "    sideHeadlineRotationTimer = window.setInterval(function () {",
+              "      pageIndex = (pageIndex + 1) % pageCount;",
+              "      setCategorySideHeadlinePage(cards, pageIndex);",
+              "    }, 4000);",
+              "  }",
+              "",
+              "  window.refreshSideHeadlineRotation = refreshCategorySideHeadlineRotation;",
+          ]
+          rotation_block = "\n".join(rotation_lines) + "\n"
 
           if sentinel not in text:
               if var_anchor not in text:
