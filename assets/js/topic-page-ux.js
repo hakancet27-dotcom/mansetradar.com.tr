@@ -542,11 +542,18 @@
     var topic = selectedTopic();
     if (topic === 'son-dakika') return;
     var slider = document.querySelector('.headline-slider');
-    if (slider && slider.dataset.categoryShowcase === topic) return;
+    if (slider && slider.dataset.categoryShowcase === topic) {
+      document.documentElement.classList.add('category-showcase-ready');
+      return;
+    }
     var articles = await loadCategoryArticles(topic);
-    if (!articles.length) return;
+    if (!articles.length) {
+      document.documentElement.classList.add('category-showcase-ready');
+      return;
+    }
     renderCategoryShowcase(articles, topic);
     if (slider) slider.dataset.categoryShowcase = topic;
+    document.documentElement.classList.add('category-showcase-ready');
   }
 
   async function hydrateSelectedCategoryFeed() {

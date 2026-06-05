@@ -1415,6 +1415,11 @@ html.has-topic-filter[data-active-topic="saglik"] .topic-card[data-topic="saglik
 html.has-topic-filter .topic-card[hidden] {
   display: none !important;
 }
+html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):not(.category-showcase-ready) .headline-slider,
+html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):not(.category-showcase-ready) .side-headlines {
+  visibility: hidden;
+  pointer-events: none;
+}
 /* FIRST_PAINT_TOPIC_FILTER_END */
   </style>
 <link rel="stylesheet" href="/assets/css/mobile-home-ux.css?v=20260525e">
@@ -10322,6 +10327,6 @@ html.has-topic-filter .topic-card[hidden] {
 <script defer src="/assets/js/json-search.js?v=20260528a"></script>
 <script defer src="/assets/js/mobile-home-ux.js?v=20260527a"></script>
   <script defer src="/assets/js/showcase-side-rotation.js?v=20260603c"></script>
-  <script defer src="/assets/js/topic-page-ux.js?v=20260603c"></script>
+  <script defer src="/assets/js/topic-page-ux.js?v=20260605a"></script>
 </body>
 </html>
