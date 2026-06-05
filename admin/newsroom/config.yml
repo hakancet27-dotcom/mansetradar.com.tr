@@ -3,6 +3,7 @@ backend:
   name: github
   repo: hakancet27-dotcom/haber-botu
   branch: main
+
 media_folder: newsroom/media/uploads
 public_folder: /newsroom/media/uploads
 publish_mode: simple
@@ -51,14 +52,14 @@ collections:
       - { label: Sonuç, name: processor_result, widget: text, required: false, readonly: true }
 
   - name: newsroom_review
-    label: "2 - İnceleme Kuyruğu"
+    label: "2 - Onay Bekleyen / İnceleme Kuyruğu"
     folder: newsroom/review/pending
     create: false
     extension: json
     format: json
     identifier_field: title
     summary: "Durum: {{review_status}} | Skor: {{quality_score}} | Risk: {{quality_status}} | Bayrak: {{flag}} | {{title}}"
-    fields:
+    fields: &review_fields
       - { label: Durum, name: review_status, widget: select, default: pending, options: [{ label: Beklemede, value: pending }, { label: Onayla ve Yayınla, value: approved_to_publish }, { label: Reddedildi, value: rejected }, { label: Yayınlandı, value: published }] }
       - { label: Başlık, name: title, widget: string }
       - { label: Slug, name: slug, widget: string, readonly: true }
@@ -70,11 +71,21 @@ collections:
       - { label: Meta Açıklama, name: meta_description, widget: text, required: false }
       - { label: Quality Score, name: quality_score, widget: number, required: false, readonly: true }
       - { label: Quality Status, name: quality_status, widget: string, required: false, readonly: true }
-      - { label: Risk Bayragi, name: flag, widget: string, required: false, readonly: true }
+      - { label: Risk Bayrağı, name: flag, widget: string, required: false, readonly: true }
       - { label: Quality Flags, name: quality_flags, widget: list, required: false, readonly: true, field: { label: Flag, widget: string } }
-      - { label: Kelime Sayisi, name: quality_word_count, widget: number, required: false, readonly: true }
+      - { label: Kelime Sayısı, name: quality_word_count, widget: number, required: false, readonly: true }
       - { label: Notlar, name: quality_notes, widget: list, required: false, readonly: true, field: { label: Not, widget: string } }
       - { label: Sonuç, name: processor_result, widget: text, required: false, readonly: true }
+
+  - name: newsroom_review_archive
+    label: "2b - İnceleme Arşivi"
+    folder: newsroom/review/archive
+    create: false
+    extension: json
+    format: json
+    identifier_field: title
+    summary: "Arşiv: {{review_status}} | Skor: {{quality_score}} | Risk: {{quality_status}} | {{title}}"
+    fields: *review_fields
 
   - name: newsroom_ai_requests
     label: "3 - AI Haber Üretimi"
@@ -174,4 +185,3 @@ collections:
       - { label: Alt Metin, name: image_alt, widget: string, required: false }
       - { label: Çıktılar, name: outputs, widget: list, required: false, readonly: true, field: { label: Dosya, widget: string } }
       - { label: Sonuç, name: result, widget: text, required: false, readonly: true }
-
