@@ -589,6 +589,9 @@
       grid-template-columns: 1fr;
       gap: 14px;
     }
+    .side-headlines.is-rotating .side-headline.is-side-rotation-hidden {
+      display: none !important;
+    }
     .side-headline {
       min-height: 100px;
       border-radius: 8px;
@@ -1037,6 +1040,27 @@
       .news-card:first-child .card-title { font-size: 1.1rem; }
     }
 
+    @media (min-width: 901px) {
+      .showcase-grid .side-headlines {
+        position: relative;
+        height: 456px;
+        max-height: 456px;
+        display: grid;
+        grid-template-rows: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+        overflow: hidden;
+      }
+      .showcase-grid .side-headlines .side-headline {
+        min-height: 0;
+        height: 221px;
+        overflow: hidden;
+      }
+      .showcase-grid .side-headlines:not(.is-rotating) .side-headline:nth-of-type(n+3),
+      .showcase-grid .side-headlines.is-rotating .side-headline.is-side-rotation-hidden {
+        display: none !important;
+      }
+    }
+
 
     /* CODEX_ENHANCEMENTS_START */
     .header-tools {
@@ -1387,6 +1411,10 @@ html.has-topic-filter[data-active-topic="saglik"] .topic-card[data-topic="saglik
   display: block !important;
 }
 html.has-topic-filter .topic-card[hidden] {
+  display: none !important;
+}
+html.has-topic-filter .showcase-grid .side-headlines.is-rotating .side-headline.is-side-rotation-hidden,
+html.has-topic-filter .showcase-grid .side-headlines:not(.is-rotating) .side-headline:nth-of-type(n+3) {
   display: none !important;
 }
 html.category-navigation-pending .container,
@@ -2844,7 +2872,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       const node = document.getElementById('count-main');
       if (!node) return;
       node.textContent = Array.from(document.querySelectorAll('.topic-card'))
-        .filter(card => !card.hidden).length;
+        .filter(card => !card.hidden && !(card.classList.contains('side-headline') && card.closest('.side-headlines'))).length;
     }
 
     function applyTopicFilter() {
@@ -2864,21 +2892,22 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       const hasSearch = activeSearchTerm.length > 0;
       document.body.dataset.searchActive = hasSearch ? 'true' : 'false';
       document.querySelectorAll('.topic-card').forEach((card) => {
+        const isSideHeadline = card.classList.contains('side-headline') && card.closest('.side-headlines');
         const baseVisible = card.dataset.filteredOut !== 'true';
         if (!baseVisible) {
           card.dataset.searchHidden = 'true';
-          card.hidden = true;
+          if (!isSideHeadline) card.hidden = true;
           return;
         }
         if (!hasSearch) {
           card.dataset.searchHidden = 'false';
-          card.hidden = false;
+          if (!isSideHeadline) card.hidden = false;
           return;
         }
         const haystack = card.dataset.searchText || '';
         const matched = haystack.includes(activeSearchTerm);
         card.dataset.searchHidden = matched ? 'false' : 'true';
-        card.hidden = !matched;
+        if (!isSideHeadline) card.hidden = !matched;
       });
 
       document.querySelectorAll('[data-news-section]').forEach((section) => {
@@ -2886,14 +2915,15 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       });
 
       const empty = document.getElementById('empty-topic');
-      if (empty) empty.hidden = document.querySelectorAll('.topic-card:not([hidden])').length > 0;
+      if (empty) empty.hidden = document.querySelectorAll('.topic-card:not(.side-headline):not([hidden])').length > 0;
 
       const searchState = document.getElementById('news-search-status');
       if (searchState) {
-        searchState.textContent = hasSearch && document.querySelectorAll('.topic-card:not([hidden])').length === 0
+        searchState.textContent = hasSearch && document.querySelectorAll('.topic-card:not(.side-headline):not([hidden])').length === 0
           ? searchNoResultsText
           : '';
       }
+      if (typeof window.refreshSideHeadlineRotation === 'function') window.refreshSideHeadlineRotation();
     }
 
     function refreshNewsGrid() {

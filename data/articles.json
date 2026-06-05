@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-05T00:00:00+00:00",
-    "article_count": 551,
+    "article_count": 554,
     "schema_version": 2
   },
   "articles": [
@@ -43,6 +43,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles:yapay-zeka-gundemi-microsoft-nvidia-openai-gelismeleri_20260605",
+      "slug": "yapay-zeka-gundemi-microsoft-nvidia-openai-gelismeleri_20260605",
+      "title": "Yapay Zeka Dünyasında Yeni Gelişmeler: Microsoft, NVIDIA, OpenAI ve Daha Fazlası",
+      "summary": "Yapay zeka dünyasında bu hafta Microsoft Build 2026'da tanıtılan Microsoft Scout ve Project Solara öne çıktı. NVIDIA'nın RTX Spark çipi, OpenAI'ın Michigan'daki Stargate veri merkezi yatırımı, Meta'nın yeni yapay zeka ürünleri, Google Labs'in Dreambeans uyg...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/yapay-zeka-gundemi-microsoft-nvidia-openai-gelismeleri_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/yapay-zeka-gundemi-microsoft-nvidia-openai-gelismeleri_20260605/",
+      "detail_json_url": "/data/details/articles/yapay-zeka-gundemi-microsoft-nvidia-openai-gelismeleri_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/yapay-zeka-gundemi-microsoft-nvidia-openai-gelismeleri_20260605.webp",
+      "image_alt": "Yapay Zeka Dünyasında Yeni Gelişmeler: Microsoft, NVIDIA, OpenAI ve Daha Fazlası",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/yapay-zeka-gundemi-microsoft-nvidia-openai-gelismeleri_20260605.webp",
+        "alt": "Yapay Zeka Dünyasında Yeni Gelişmeler: Microsoft, NVIDIA, OpenAI ve Daha Fazlası"
+      },
+      "source_name": "Webrazzi",
+      "source_url": "https://webrazzi.com/2026/06/05/yapay-zeka-gundemi-53/",
+      "tags": [
+        "Yapay Zeka",
+        "Microsoft",
+        "NVIDIA",
+        "OpenAI",
+        "Meta",
+        "Amazon",
+        "Anthropic",
+        "Google Cloud"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:sakarya-bisiklet-sampiyonasi-dunya-kupasi_20260605",
       "slug": "sakarya-bisiklet-sampiyonasi-dunya-kupasi_20260605",
       "title": "Sakarya'da Bisiklet Heyecanı: Avrupa Şampiyonası ve Dünya Kupası Başlıyor",
@@ -75,6 +113,43 @@
         "MTB Eliminatör"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:nvidianin-kore-ziyareti-robotik-ve-yapay-zeka-yatirimlari_20260605",
+      "slug": "nvidianin-kore-ziyareti-robotik-ve-yapay-zeka-yatirimlari_20260605",
+      "title": "Nvidia CEO'su Huang'dan Kore'ye Robotik ve Yapay Zeka Yatırımı Sinyali",
+      "summary": "Nvidia CEO'su Jensen Huang, Güney Kore ziyaretinde yapay zekanın bir sonraki büyük adımının robotik ve \"fiziksel AI\" olacağını belirtti. Huang, ülkenin güçlü üretim altyapısı sayesinde bu dönüşümde kilit rol oynayabileceğini vurguladı. Huang, Hyundai Motor,...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/nvidianin-kore-ziyareti-robotik-ve-yapay-zeka-yatirimlari_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/nvidianin-kore-ziyareti-robotik-ve-yapay-zeka-yatirimlari_20260605/",
+      "detail_json_url": "/data/details/articles/nvidianin-kore-ziyareti-robotik-ve-yapay-zeka-yatirimlari_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/nvidianin-kore-ziyareti-robotik-ve-yapay-zeka-yatirimlari_20260605.webp",
+      "image_alt": "Nvidia CEO'su Jensen Huang, Güney Kore'de robotik ve yapay zeka teknolojilerini tanıtıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/nvidianin-kore-ziyareti-robotik-ve-yapay-zeka-yatirimlari_20260605.webp",
+        "alt": "Nvidia CEO'su Jensen Huang, Güney Kore'de robotik ve yapay zeka teknolojilerini tanıtıyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/teknoloji/nvidiadan-koreye-robotik-mesaji-43194536",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Yapay Zeka",
+        "Robotik",
+        "Güney Kore",
+        "Teknoloji Yatırımları",
+        "HBM Bellek"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -355,6 +430,40 @@
         "Temmuz Zammı",
         "SGK",
         "Bağ-Kur"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:dunyanin-gunu-uzuyor-gezegenimizin-donusu-yavasliyor_20260605",
+      "slug": "dunyanin-gunu-uzuyor-gezegenimizin-donusu-yavasliyor_20260605",
+      "title": "Dünya'nın Dönüşü Yavaşlıyor: Günler Milisaniyelerle Uzuyor",
+      "summary": "Bilim insanları, Dünya'nın dönüş hızının zaman içinde değiştiğini ve günlerin çok küçük ölçekte uzadığını belirtiyor. Bu değişim günlük hayatta hissedilecek kadar büyük olmasa da, milisaniyelik farklar hassas zaman ölçümüne bağlı sistemler için önemli olabi...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/dunyanin-gunu-uzuyor-gezegenimizin-donusu-yavasliyor_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/dunyanin-gunu-uzuyor-gezegenimizin-donusu-yavasliyor_20260605/",
+      "detail_json_url": "/data/details/articles/dunyanin-gunu-uzuyor-gezegenimizin-donusu-yavasliyor_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/dunyanin-gunu-uzuyor-gezegenimizin-donusu-yavasliyor_20260605.webp",
+      "image_alt": "Dünya'nın dönüşünün yavaşladığını gösteren stilize bir illüstrasyon, kutuplardaki eriyen buzlar ve okyanuslara akan sularla.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/dunyanin-gunu-uzuyor-gezegenimizin-donusu-yavasliyor_20260605.webp",
+        "alt": "Dünya'nın dönüşünün yavaşladığını gösteren stilize bir illüstrasyon, kutuplardaki eriyen buzlar ve okyanuslara akan sularla."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/galeri-dunyanin-gunu-artik-uzuyor-gezegenimizin-donusu-yavasliyor-43193017",
+      "tags": [
+        "Dünya'nın dönüşü",
+        "gün uzunluğu",
+        "iklim değişikliği",
+        "buzulların erimesi"
       ],
       "quality_score": 86,
       "review_status": "published"
