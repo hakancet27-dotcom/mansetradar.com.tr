@@ -97,6 +97,7 @@ collections:
         name: workflow_status
         widget: select
         default: draft
+        hint: "Bu alan taslagin bir sonraki adimini belirler."
         options:
           - { label: Taslak, value: draft }
           - { label: AI ile Gelistir, value: ai_enhance_requested }
@@ -104,19 +105,19 @@ collections:
           - { label: Onayla ve Yayinla, value: approved_to_publish }
           - { label: Islendi, value: processed }
           - { label: Dikkat Gerekiyor, value: needs_attention }
-      - { label: Baslik, name: title, widget: string }
       - { label: Kategori, name: category, widget: select, default: Gundem, options: [Son Dakika, Gundem, Siyaset, Ekonomi, Dunya, Spor, Magazin, Teknoloji, Saglik, Video] }
-      - { label: Spot, name: spot, widget: text, required: false }
+      - { label: One Cikar, name: featured, widget: boolean, default: false, required: false }
+      - { label: Baslik, name: title, widget: string }
+      - { label: Spot, name: spot, widget: text, required: false, hint: "Haberi bir iki cumlede ozetleyen kisa giris." }
+      - { label: Haber Govdesi HTML, name: content_html, widget: text, required: false }
       - { label: Dogrulanmis Ham Bilgi, name: source_note, widget: text, required: false }
       - { label: Kaynak Linkleri, name: source_urls, widget: list, required: false, field: { label: URL, widget: string } }
-      - { label: Haber Govdesi HTML, name: content_html, widget: text, required: false }
+      - { label: AI Talimati, name: editor_ai_instruction, widget: text, required: false }
       - { label: Gorsel, name: uploaded_image, widget: image, required: false }
       - { label: Gorsel Alt Metni, name: image_alt, widget: string, required: false }
+      - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, widget: string } }
       - { label: Meta Baslik, name: meta_title, widget: string, required: false }
       - { label: Meta Aciklama, name: meta_description, widget: text, required: false }
-      - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, widget: string } }
-      - { label: One Cikar, name: featured, widget: boolean, default: false, required: false }
-      - { label: AI Talimati, name: editor_ai_instruction, widget: text, required: false }
       - { label: Sonuc, name: processor_result, widget: text, required: false, readonly: true }
 
   - name: newsroom_review
@@ -132,21 +133,22 @@ collections:
         name: review_status
         widget: select
         default: pending
+        hint: "Editor karari burada verilir."
         options:
           - { label: Beklemede, value: pending }
           - { label: Onayla ve Yayinla, value: approved_to_publish }
           - { label: Reddedildi, value: rejected }
           - { label: Yayinlandi, value: published }
-      - { label: Baslik, name: title, widget: string }
-      - { label: Slug, name: slug, widget: string, readonly: true }
       - { label: Kategori, name: category, widget: select, options: [Son Dakika, Gundem, Siyaset, Ekonomi, Dunya, Spor, Magazin, Teknoloji, Saglik, Video] }
-      - { label: Spot, name: spot, widget: text, required: false }
+      - { label: Baslik, name: title, widget: string }
+      - { label: Spot, name: spot, widget: text, required: false, hint: "Yayina gidecek kisa giris metni." }
       - { label: Haber Govdesi HTML, name: content_html, widget: text, required: false }
       - { label: Gorsel URL, name: image_url, widget: string, required: false }
       - { label: Gorsel Alt Metni, name: image_alt, widget: string, required: false }
+      - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, widget: string } }
       - { label: Meta Baslik, name: meta_title, widget: string, required: false }
       - { label: Meta Aciklama, name: meta_description, widget: text, required: false }
-      - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, widget: string } }
+      - { label: Slug, name: slug, widget: string, readonly: true }
       - { label: Quality Score, name: quality_score, widget: number, required: false, readonly: true }
       - { label: Quality Status, name: quality_status, widget: string, required: false, readonly: true }
       - { label: Risk Bayragi, name: flag, widget: string, required: false, readonly: true }
