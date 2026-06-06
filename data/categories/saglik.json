@@ -3,11 +3,83 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-06T00:00:00+00:00",
-    "article_count": 583,
+    "article_count": 586,
     "schema_version": 2,
     "category_slug": "saglik"
   },
   "articles": [
+    {
+      "id": "articles:mersin-markette-dehset-esini-tufekle-vurmaya-calisti-calisanlar-tarafindan-engel_20260606",
+      "slug": "mersin-markette-dehset-esini-tufekle-vurmaya-calisti-calisanlar-tarafindan-engel_20260606",
+      "title": "Mersin'de Market İçinde Dehşet: Eşini Tüfekle Vurmaya Çalıştı, Bıçakla Ağır Yaraladı",
+      "summary": "Mersin'in Silifke ilçesinde dün gece saatlerinde bir markette yaşanan olayda, boşanma aşamasındaki eşi Latife D.'yi takip eden Ulaş D., marketin içine girerek eşini tüfekle vurmaya çalıştı. Market çalışanlarının müdahalesiyle tüfek elinden alınan şüpheli, b...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "06.06.2026",
+      "date_iso": "2026-06-06",
+      "url": "/articles/mersin-markette-dehset-esini-tufekle-vurmaya-calisti-calisanlar-tarafindan-engel_20260606/",
+      "canonical_url": "https://mansetradar.com.tr/articles/mersin-markette-dehset-esini-tufekle-vurmaya-calisti-calisanlar-tarafindan-engel_20260606/",
+      "detail_json_url": "/data/details/articles/mersin-markette-dehset-esini-tufekle-vurmaya-calisti-calisanlar-tarafindan-engel_20260606.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/mersin-markette-dehset-esini-tufekle-vurmaya-calisti-calisanlar-tarafindan-engel_20260606.webp",
+      "image_alt": "Market çalışanları tarafından engellenen bir şahsın eşini bıçakla ağır yaraladığı dehşet anı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/mersin-markette-dehset-esini-tufekle-vurmaya-calisti-calisanlar-tarafindan-engel_20260606.webp",
+        "alt": "Market çalışanları tarafından engellenen bir şahsın eşini bıçakla ağır yaraladığı dehşet anı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/mersinde-markette-dehset-esini-tufekle-vurmaya-calisti-calisanlar-tarafindan-engellenince-bicakladi-43195963",
+      "tags": [
+        "Son Dakika",
+        "Mersin",
+        "Silifke",
+        "Market Saldırısı",
+        "Kadına Şiddet",
+        "Tüfekli Saldırı",
+        "Bıçaklı Saldırı"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:menopozda-hafiza-neden-zayiflar_20260606",
+      "slug": "menopozda-hafiza-neden-zayiflar_20260606",
+      "title": "Menopozda Hafıza Kaybı Neden Olur? Nörolog Açıklıyor",
+      "summary": "Menopoz döneminde kadınların yaklaşık yüzde 60 ila 70'inde görülebilen hafıza zayıflığı, odaklanma güçlüğü ve unutkanlık hissi, genellikle geçici biyolojik süreçlerle ilişkilidir. Nöroloji Uzmanı Prof. Dr. Derya Uludüz, bu durumun beyinde kalıcı hasara yol...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "06.06.2026",
+      "date_iso": "2026-06-06",
+      "url": "/articles/menopozda-hafiza-neden-zayiflar_20260606/",
+      "canonical_url": "https://mansetradar.com.tr/articles/menopozda-hafiza-neden-zayiflar_20260606/",
+      "detail_json_url": "/data/details/articles/menopozda-hafiza-neden-zayiflar_20260606.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/menopozda-hafiza-neden-zayiflar_20260606.webp",
+      "image_alt": "Menopoz döneminde hafıza zayıflığı yaşayan bir kadın.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/menopozda-hafiza-neden-zayiflar_20260606.webp",
+        "alt": "Menopoz döneminde hafıza zayıflığı yaşayan bir kadın."
+      },
+      "source_name": "Sağlık haberleri - Son dakika sağlık haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/menopozda-hafiza-neden-zayiflar-p325608",
+      "tags": [
+        "menopoz",
+        "hafıza kaybı",
+        "unutkanlık",
+        "nöroloji",
+        "östrojen"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "articles:dso-gida-guvensizligi-uyarisi-2026_20260606",
       "slug": "dso-gida-guvensizligi-uyarisi-2026_20260606",
@@ -42,6 +114,41 @@
         "Tek Sağlık"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:aydin-67-yasindaki-karnindan-40-kilogram-kitle-cikarildi_20260606",
+      "slug": "aydin-67-yasindaki-karnindan-40-kilogram-kitle-cikarildi_20260606",
+      "title": "Aydın'da 67 Yaşındaki Kadının Karnından 40 Kilogramlık Kitle Çıkarıldı",
+      "summary": "Aydın'da yaşayan ve 1993 yılından bu yana karnındaki şişlikle mücadele eden 67 yaşındaki Leyla Demirkafa'nın karnından, yapılan başarılı bir ameliyatla 40 kilogramlık dev bir kitle çıkarıldı. Aydın Valisi Dr. Osman Varol'un talimatıyla hastaneye kaldırılan...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "06.06.2026",
+      "date_iso": "2026-06-06",
+      "url": "/articles/aydin-67-yasindaki-karnindan-40-kilogram-kitle-cikarildi_20260606/",
+      "canonical_url": "https://mansetradar.com.tr/articles/aydin-67-yasindaki-karnindan-40-kilogram-kitle-cikarildi_20260606/",
+      "detail_json_url": "/data/details/articles/aydin-67-yasindaki-karnindan-40-kilogram-kitle-cikarildi_20260606.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/aydin-67-yasindaki-karnindan-40-kilogram-kitle-cikarildi_20260606.webp",
+      "image_alt": "Aydın'da 67 yaşındaki bir kadının karnından 40 kilogramlık kitle çıkarılması ameliyatı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/aydin-67-yasindaki-karnindan-40-kilogram-kitle-cikarildi_20260606.webp",
+        "alt": "Aydın'da 67 yaşındaki bir kadının karnından 40 kilogramlık kitle çıkarılması ameliyatı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/aydinda-67-yasindaki-karnindan-40-kilogram-kitle-cikarildi-43195299",
+      "tags": [
+        "Aydın",
+        "Leyla Demirkafa",
+        "Kitle",
+        "Ameliyat",
+        "Sağlık"
+      ],
+      "quality_score": 80,
       "review_status": "published"
     },
     {
