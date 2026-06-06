@@ -45,30 +45,10 @@
     .article-meta span { background:#f8fafc; border:1px solid var(--border); padding:4px 9px; border-radius:5px; }
     h1 { font-size:clamp(1.85rem, 3vw, 2.65rem); line-height:1.14; color:#111827; margin-bottom:16px; letter-spacing:0; }
     .spot { font-size:1.14rem; line-height:1.7; color:#374151; border-left:5px solid var(--red); padding:12px 0 12px 18px; margin:0 0 22px; background:#fff8f7; }
-
     /* ARTICLE_READING_UX_START */
-    /* Read-first article media: preserve framing while shortening the scroll to the story. */
-    .article-shell { max-width:960px; }
-    .article-image {
-      width:min(100%, 760px);
-      margin:0 auto 25px;
-      border-radius:10px;
-      overflow:hidden;
-      background:#111827;
-    }
-    .article-image img {
-      width:100%;
-      height:auto;
-      display:block;
-      aspect-ratio:16 / 9;
-      object-fit:cover;
-      object-position:center;
-    }
-    .article-image img[src$=".svg"] { object-fit:contain; }
-    @media (max-width:720px) {
-      .article-shell { margin-top:16px; }
-      .article-image { width:100%; margin-bottom:20px; border-radius:8px; }
-    }
+    .article-image { width:min(100%, 760px); margin:0 auto 25px; border-radius:10px; overflow:hidden; background:#111827; }
+    .article-image img { width:100%; height:auto; display:block; aspect-ratio:16/9; object-fit:cover; object-position:center; }
+    .article-image img[src$=".svg"] { object-fit:contain; background:#111827; }
     /* ARTICLE_READING_UX_END */
     article h2 { font-size:1.35rem; line-height:1.3; margin:28px 0 10px; color:#111827; padding-top:4px; border-top:1px solid var(--border); }
     article h3 { font-size:1.08rem; margin:20px 0 8px; color:#1f2937; }
@@ -171,7 +151,7 @@
       </div>
       <section class="article-comments" aria-label="article-comments"><h2>Yorumlar</h2><form id="comment-form" class="comment-form"><input id="comment-name" type="text" maxlength="40" placeholder="Ad Soyad"><textarea id="comment-text" rows="4" maxlength="700" placeholder="Yorumunuzu yazın"></textarea><button type="submit">Yorum Gönder</button></form><div id="comment-list" class="comment-list"></div></section>
     </article>
-    <section class="related-news" aria-label="related-news"><h2>İlgili Haberler</h2><div class="related-grid"><article class="related-card"><a href="/articles/los_angeles_yakinlarinda_2_yangin_tahliyelere_neden_oldu_20260520/">Los Angeles Yakınlarında 2 Yangın Tahliyelere Neden Oldu</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">20.05.2026</time></div></article><article class="related-card"><a href="/articles/trump-administration-proposes-10000-white-south-african-refugees-100-million-cos_20260519/">Trump yönetimi 10 bin beyaz Güney Afrikalı mülteci kabulünü gündeme aldı</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">19.05.2026</time></div></article><article class="related-card"><a href="/articles/pollock-brancusi-artworks-100-million-christies-auction_20260519/">Pollock ve Brancusi eserleri müzayedede 100 milyon doları aştı</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">19.05.2026</time></div></article><article class="related-card"><a href="/articles/nextera-energy-acquires-dominion_20260518/">NextEra Energy, Dominion&#x27;ı satın alarak enerji devini büyütüyor</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">18.05.2026</time></div></article><article class="related-card"><a href="/articles/trump-announces-death-of-top-isis-leader/">Trump, üst düzey IŞİD liderinin öldürüldüğünü duyurdu</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">16.05.2026</time></div></article><article class="related-card"><a href="/articles/us-china-relations-new-era-cooperation/">ABD-Çin ilişkilerinde yeni işbirliği dönemi tartışılıyor</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">16.05.2026</time></div></article><article class="related-card"><a href="/articles/us-troop-withdrawal-germany/">ABD asker çekme tehdidi Almanya&#x27;daki kentte endişe yarattı</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">16.05.2026</time></div></article><article class="related-card"><a href="/articles/trumpin_kirsal_saglik_fonundaki_aciklar_20260522/">Trump&#x27;ın Kırsal Sağlık Fonundaki Açıklar</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">22.05.2026</time></div></article></div></section>
+    <section class="related-news" aria-label="related-news"><h2>İlgili Haberler</h2><div class="related-grid"><article class="related-card"><a href="/articles/los_angeles_yakinlarinda_2_yangin_tahliyelere_neden_oldu_20260520/">Los Angeles Yakınlarında 2 Yangın Tahliyelere Neden Oldu</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">20.05.2026</time></div></article><article class="related-card"><a href="/articles/trump-administration-proposes-10000-white-south-african-refugees-100-million-cos_20260519/">Trump yönetimi 10 bin beyaz Güney Afrikalı mülteci kabulünü gündeme aldı</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">19.05.2026</time></div></article><article class="related-card"><a href="/articles/pollock-brancusi-artworks-100-million-christies-auction_20260519/">Pollock ve Brancusi eserleri müzayedede 100 milyon doları aştı</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">19.05.2026</time></div></article><article class="related-card"><a href="/articles/the-fighting-never-ends-post-hostilities-challenges_20260518/">Ateşkes sonrası dönemde çatışmanın izleri sürüyor</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">18.05.2026</time></div></article><article class="related-card"><a href="/articles/nextera-energy-acquires-dominion_20260518/">NextEra Energy, Dominion&#x27;ı satın alarak enerji devini büyütüyor</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">18.05.2026</time></div></article><article class="related-card"><a href="/articles/trump-drops-irs-lawsuit_20260518/">Trump, IRS davasını geri çekerek uzlaşma yolunu açtı</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">18.05.2026</time></div></article><article class="related-card"><a href="/articles/supreme-court-avoids-voting-rights-act-case_20260518/">ABD Yüksek Mahkemesi Seçim Hakları Yasası davasına girmedi</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">18.05.2026</time></div></article><article class="related-card"><a href="/articles/post-cessation-of-hostilities_20260518/">Ateşkes sonrası dönemin kırılgan dengesi analiz ediliyor</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">18.05.2026</time></div></article></div></section>
   </main>
   <footer>
     <div class="inner">
