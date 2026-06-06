@@ -15,6 +15,7 @@ locale: tr
 collections:
   - name: newsroom_status
     label: "0 - Sistem Durumu"
+    delete: false
     files:
       - name: last_run
         label: "Son Newsroom Calismasi"
@@ -92,6 +93,7 @@ collections:
     label_singular: "Haber Taslagi"
     folder: newsroom/drafts
     create: true
+    delete: false
     extension: json
     format: json
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -129,6 +131,7 @@ collections:
     label: "2 - Onay Bekleyen / Inceleme Kuyrugu"
     folder: newsroom/review/pending
     create: false
+    delete: false
     extension: json
     format: json
     identifier_field: title
@@ -172,6 +175,7 @@ collections:
     label: "2b - Inceleme Arsivi"
     folder: newsroom/review/archive
     create: false
+    delete: false
     extension: json
     format: json
     identifier_field: title
@@ -182,6 +186,7 @@ collections:
     label: "3 - AI Haber Uretimi"
     folder: newsroom/requests/ai-article
     create: true
+    delete: false
     extension: json
     format: json
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -209,6 +214,7 @@ collections:
     label: "4 - Google Trend Radar"
     folder: newsroom/trends
     create: true
+    delete: false
     extension: json
     format: json
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -231,6 +237,7 @@ collections:
     label: "5 - Inputlu Workflow (Operasyon)"
     folder: newsroom/requests/workflow
     create: true
+    delete: false
     extension: json
     format: json
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -273,6 +280,7 @@ collections:
     label: "6 - Toplu Islemler (Yuksek Etki)"
     folder: newsroom/requests/bulk
     create: true
+    delete: false
     extension: json
     format: json
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -300,13 +308,14 @@ collections:
       - { label: Islem, name: operation, widget: select, hint: "Yanlis secim birden fazla haberi etkiler.", options: [change_category, quality_recheck, seo_rebuild, noindex, reindex, set_featured] }
       - { label: Hedef Haber Sluglari, name: slugs, widget: list, hint: "Her satira bir slug gir.", field: { label: Slug, widget: string } }
       - { label: Yeni Kategori, name: category, widget: select, required: false, hint: "Sadece change_category isleminde kullanilir.", options: [Gundem, Siyaset, Ekonomi, Dunya, Spor, Magazin, Teknoloji, Saglik] }
-      - { label: Not, name: note, widget: text, required: false, hint: "Neden bu toplu islemi yaptigini kisaca yazmak iyi olur." }
+      - { label: Not, name: note, widget: text, required: false, hint: "Neden bu toplu islemi yaptigini kisaca yazmak iyi olur. Silmek yerine bekletme veya iptal akisini kullan." }
       - { label: Sonuc, name: result, widget: text, required: false, readonly: true }
 
   - name: newsroom_image_jobs
     label: "7 - Gorsel Isleme"
     folder: newsroom/requests/images
     create: true
+    delete: false
     extension: json
     format: json
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -330,6 +339,7 @@ collections:
 
   - name: newsroom_reports
     label: "8 - Sistem Raporlari"
+    delete: false
     files:
       - name: cms_source_health
         label: "CMS Kaynak Saglik Raporu"
@@ -344,6 +354,7 @@ collections:
 
   - name: newsroom_guides
     label: "9 - Kullanim Rehberi"
+    delete: false
     files:
       - name: panel_guide
         label: "Panel Kullanim Ozeti"

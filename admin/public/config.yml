@@ -18,6 +18,7 @@ collections:
     label_singular: "Yayindaki Turkce Haber"
     folder: articles
     create: false
+    delete: false
     extension: json
     format: json
     identifier_field: slug
@@ -44,6 +45,7 @@ collections:
     label_singular: "Published English News"
     folder: news/articles
     create: false
+    delete: false
     extension: json
     format: json
     identifier_field: slug
@@ -55,6 +57,7 @@ collections:
     label_singular: "Veroeffentlichte Nachricht"
     folder: nachrichten/artikel
     create: false
+    delete: false
     extension: json
     format: json
     identifier_field: slug
