@@ -45,10 +45,30 @@
     .article-meta span { background:#f8fafc; border:1px solid var(--border); padding:4px 9px; border-radius:5px; }
     h1 { font-size:clamp(1.85rem, 3vw, 2.65rem); line-height:1.14; color:#111827; margin-bottom:16px; letter-spacing:0; }
     .spot { font-size:1.14rem; line-height:1.7; color:#374151; border-left:5px solid var(--red); padding:12px 0 12px 18px; margin:0 0 22px; background:#fff8f7; }
+
     /* ARTICLE_READING_UX_START */
-    .article-image { width:min(100%, 760px); margin:0 auto 25px; border-radius:10px; overflow:hidden; background:#111827; }
-    .article-image img { width:100%; height:auto; display:block; aspect-ratio:16/9; object-fit:cover; object-position:center; }
-    .article-image img[src$=".svg"] { object-fit:contain; background:#111827; }
+    /* Read-first article media: preserve framing while shortening the scroll to the story. */
+    .article-shell { max-width:960px; }
+    .article-image {
+      width:min(100%, 760px);
+      margin:0 auto 25px;
+      border-radius:10px;
+      overflow:hidden;
+      background:#111827;
+    }
+    .article-image img {
+      width:100%;
+      height:auto;
+      display:block;
+      aspect-ratio:16 / 9;
+      object-fit:cover;
+      object-position:center;
+    }
+    .article-image img[src$=".svg"] { object-fit:contain; }
+    @media (max-width:720px) {
+      .article-shell { margin-top:16px; }
+      .article-image { width:100%; margin-bottom:20px; border-radius:8px; }
+    }
     /* ARTICLE_READING_UX_END */
     article h2 { font-size:1.35rem; line-height:1.3; margin:28px 0 10px; color:#111827; padding-top:4px; border-top:1px solid var(--border); }
     article h3 { font-size:1.08rem; margin:20px 0 8px; color:#1f2937; }
@@ -151,7 +171,7 @@
       </div>
       <section class="article-comments" aria-label="article-comments"><h2>Yorumlar</h2><form id="comment-form" class="comment-form"><input id="comment-name" type="text" maxlength="40" placeholder="Ad Soyad"><textarea id="comment-text" rows="4" maxlength="700" placeholder="Yorumunuzu yazın"></textarea><button type="submit">Yorum Gönder</button></form><div id="comment-list" class="comment-list"></div></section>
     </article>
-    <section class="related-news" aria-label="related-news"><h2>İlgili Haberler</h2><div class="related-grid"><article class="related-card"><a href="/articles/besiktas-vincenzo-italiano-oyun-felsefesi_20260606/">Beşiktaş&#x27;ın Yeni Teknik Direktörü Vincenzo Italiano: Hücum Odaklı ve Dinamik Oyun Anlayışı</a><div class="related-meta"><span class="related-topic">Spor</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/fenerbahce-baskan-adayi-hakan-safiden-iddiali-kadro-vaadi-real-madridin-ustune-c_20260605/">Fenerbahçe Başkan Adayı Hakan Safi&#x27;den İddialı Kadro Vaadi: &#x27;Real Madrid&#x27;in Üstüne Çıkaracağız&#x27;</a><div class="related-meta"><span class="related-topic">Spor</span><time class="related-date">05.06.2026</time></div></article><article class="related-card"><a href="/articles/montella-futbolda-kolay-diye-bir-sey-yok-dunya-kupasi-hazirliklari_20260605/">Montella: &quot;Futbolda Kolay Diye Bir Şey Yok&quot;</a><div class="related-meta"><span class="related-topic">Spor</span><time class="related-date">05.06.2026</time></div></article><article class="related-card"><a href="/articles/sakarya-bisiklet-sampiyonasi-dunya-kupasi_20260605/">Sakarya&#x27;da Bisiklet Heyecanı: Avrupa Şampiyonası ve Dünya Kupası Başlıyor</a><div class="related-meta"><span class="related-topic">Spor</span><time class="related-date">05.06.2026</time></div></article><article class="related-card"><a href="/articles/hakan-safi-mason-greenwood-transferini-acikladi_20260605/">Hakan Safi&#x27;den Mason Greenwood Açıklaması: &#x27;4 Yıllığına Anlaştık&#x27;</a><div class="related-meta"><span class="related-topic">Spor</span><time class="related-date">05.06.2026</time></div></article><article class="related-card"><a href="/articles/galatasaray-milli-yildiz-can-uzun-transferi-detaylari_20260605/">Galatasaray&#x27;dan Milli Yıldız Can Uzun İçin Girişim: Bonservis ve Detaylar Ortaya Çıktı</a><div class="related-meta"><span class="related-topic">Spor</span><time class="related-date">05.06.2026</time></div></article><article class="related-card"><a href="/articles/gokceada-ultra-trail-heyecani-basliyor_20260605/">Gökçeada Ultra Trail Yarışları Başlıyor: Sporcular Eşsiz Manzaralarda Ter Dökecek</a><div class="related-meta"><span class="related-topic">Spor</span><time class="related-date">05.06.2026</time></div></article><article class="related-card"><a href="/articles/futbol-maclari-neden-hafizamizda-yer-eder_20260605/">Futbol Maçları Neden Hafızamızda Yer Eder?</a><div class="related-meta"><span class="related-topic">Spor</span><time class="related-date">05.06.2026</time></div></article></div></section>
+    <section class="related-news" aria-label="related-news"><h2>İlgili Haberler</h2><div class="related-grid"><article class="related-card"><a href="/articles/cagan-efe-ak-elimden-gelen-her-seyi-yapacagim-gerisi-kismet_20260606/">Çağan Efe Ak: &#x27;Elimden gelen her şeyi yapacağım, gerisi kısmet&#x27;</a><div class="related-meta"><span class="related-topic">Spor</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/besiktas-vincenzo-italiano-oyun-felsefesi_20260606/">Beşiktaş&#x27;ın Yeni Teknik Direktörü Vincenzo Italiano: Hücum Odaklı ve Dinamik Oyun Anlayışı</a><div class="related-meta"><span class="related-topic">Spor</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/fenerbahce-baskan-adayi-hakan-safiden-iddiali-kadro-vaadi-real-madridin-ustune-c_20260605/">Fenerbahçe Başkan Adayı Hakan Safi&#x27;den İddialı Kadro Vaadi: &#x27;Real Madrid&#x27;in Üstüne Çıkaracağız&#x27;</a><div class="related-meta"><span class="related-topic">Spor</span><time class="related-date">05.06.2026</time></div></article><article class="related-card"><a href="/articles/montella-futbolda-kolay-diye-bir-sey-yok-dunya-kupasi-hazirliklari_20260605/">Montella: &quot;Futbolda Kolay Diye Bir Şey Yok&quot;</a><div class="related-meta"><span class="related-topic">Spor</span><time class="related-date">05.06.2026</time></div></article><article class="related-card"><a href="/articles/sakarya-bisiklet-sampiyonasi-dunya-kupasi_20260605/">Sakarya&#x27;da Bisiklet Heyecanı: Avrupa Şampiyonası ve Dünya Kupası Başlıyor</a><div class="related-meta"><span class="related-topic">Spor</span><time class="related-date">05.06.2026</time></div></article><article class="related-card"><a href="/articles/galatasaray-milli-yildiz-can-uzun-transferi-detaylari_20260605/">Galatasaray&#x27;dan Milli Yıldız Can Uzun İçin Girişim: Bonservis ve Detaylar Ortaya Çıktı</a><div class="related-meta"><span class="related-topic">Spor</span><time class="related-date">05.06.2026</time></div></article><article class="related-card"><a href="/articles/futbol-maclari-neden-hafizamizda-yer-eder_20260605/">Futbol Maçları Neden Hafızamızda Yer Eder?</a><div class="related-meta"><span class="related-topic">Spor</span><time class="related-date">05.06.2026</time></div></article><article class="related-card"><a href="/articles/fatih-terim-dunya-kupasi-montella-yorum_20260605/">Fatih Terim&#x27;den 2026 Dünya Kupası ve Montella Yorumu: &quot;Türkiye İçin Sınır Yok&quot;</a><div class="related-meta"><span class="related-topic">Spor</span><time class="related-date">05.06.2026</time></div></article></div></section>
   </main>
   <footer>
     <div class="inner">
