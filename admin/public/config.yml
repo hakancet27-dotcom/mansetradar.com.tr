@@ -13,6 +13,57 @@ display_url: https://mansetradar.com.tr
 locale: tr
 
 collections:
+  - name: delete_flow_published
+    label: "0 - Canli Haberler (Delete = Yayindan Kaldir)"
+    folder: cms-delete-flow/published
+    create: false
+    delete: true
+    extension: json
+    format: json
+    identifier_field: title
+    summary: "{{title}} | {{next_delete_action}}"
+    fields: &delete_flow_fields
+      - { label: Baslik, name: title, widget: string, readonly: true }
+      - { label: Slug, name: slug, widget: string, readonly: true }
+      - { label: Tarih, name: date, widget: string, required: false, readonly: true }
+      - { label: Kategori, name: category, widget: string, required: false, readonly: true }
+      - { label: Dil, name: language, widget: string, required: false, readonly: true }
+      - { label: Simdiki Asama, name: current_stage, widget: string, readonly: true }
+      - { label: "Delete Ne Yapar?", name: next_delete_action, widget: string, readonly: true }
+
+  - name: delete_flow_unpublished
+    label: "0b - Yayindan Kaldirilanlar (Delete = Arsive Tasi)"
+    folder: cms-delete-flow/unpublished
+    create: false
+    delete: true
+    extension: json
+    format: json
+    identifier_field: title
+    summary: "{{title}} | {{next_delete_action}}"
+    fields: *delete_flow_fields
+
+  - name: delete_flow_archived
+    label: "0c - Arsiv (Delete = Cop Kutusuna Gonder)"
+    folder: cms-delete-flow/archived
+    create: false
+    delete: true
+    extension: json
+    format: json
+    identifier_field: title
+    summary: "{{title}} | {{next_delete_action}}"
+    fields: *delete_flow_fields
+
+  - name: delete_flow_trash
+    label: "0d - Cop Kutusu (Delete = Kalici Sil)"
+    folder: cms-delete-flow/trash
+    create: false
+    delete: true
+    extension: json
+    format: json
+    identifier_field: title
+    summary: "{{title}} | {{next_delete_action}}"
+    fields: *delete_flow_fields
+
   - name: published_tr
     label: "Yayindaki Haberler / Turkce (Bakim)"
     label_singular: "Yayindaki Turkce Haber"
@@ -39,7 +90,7 @@ collections:
       - { label: Meta Description, name: meta_description, widget: text, required: false }
       - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, widget: string } }
       - { label: Indexed On Home, name: indexed_on_home, widget: boolean, required: false, readonly: true }
-      - { label: Yayin Asamasi, name: publication_lifecycle, widget: string, required: false, readonly: true, hint: "Yayindan kaldirma, arsiv ve cop kutusu islemleri newsroom panelindeki Yayin Yonetimi ekranindan yapilir." }
+      - { label: Yayin Asamasi, name: publication_lifecycle, widget: string, required: false, readonly: true, hint: "Silme zinciri icin ustteki 0 / 0b / 0c / 0d koleksiyonlarini kullan. Delete her adimda haberi bir sonraki asamaya tasir." }
       - { label: Yayin Notu, name: publication_note, widget: text, required: false, readonly: true }
 
   - name: published_en

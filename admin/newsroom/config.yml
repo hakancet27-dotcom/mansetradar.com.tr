@@ -88,6 +88,57 @@ collections:
         fields:
           - { label: Ozet, name: body, widget: text, required: false, readonly: true }
 
+  - name: delete_flow_published
+    label: "0a - Canli Haberler (Delete = Yayindan Kaldir)"
+    folder: newsroom/delete-flow/published
+    create: false
+    delete: true
+    extension: json
+    format: json
+    identifier_field: title
+    summary: "{{title}} | {{next_delete_action}}"
+    fields: &delete_flow_fields
+      - { label: Baslik, name: title, widget: string, readonly: true }
+      - { label: Slug, name: slug, widget: string, readonly: true }
+      - { label: Tarih, name: date, widget: string, required: false, readonly: true }
+      - { label: Kategori, name: category, widget: string, required: false, readonly: true }
+      - { label: Dil, name: language, widget: string, required: false, readonly: true }
+      - { label: Simdiki Asama, name: current_stage, widget: string, readonly: true }
+      - { label: "Delete Ne Yapar?", name: next_delete_action, widget: string, readonly: true }
+
+  - name: delete_flow_unpublished
+    label: "0b - Yayindan Kaldirilanlar (Delete = Arsive Tasi)"
+    folder: newsroom/delete-flow/unpublished
+    create: false
+    delete: true
+    extension: json
+    format: json
+    identifier_field: title
+    summary: "{{title}} | {{next_delete_action}}"
+    fields: *delete_flow_fields
+
+  - name: delete_flow_archived
+    label: "0c - Arsiv (Delete = Cop Kutusuna Gonder)"
+    folder: newsroom/delete-flow/archived
+    create: false
+    delete: true
+    extension: json
+    format: json
+    identifier_field: title
+    summary: "{{title}} | {{next_delete_action}}"
+    fields: *delete_flow_fields
+
+  - name: delete_flow_trash
+    label: "0d - Cop Kutusu (Delete = Kalici Sil)"
+    folder: newsroom/delete-flow/trash
+    create: false
+    delete: true
+    extension: json
+    format: json
+    identifier_field: title
+    summary: "{{title}} | {{next_delete_action}}"
+    fields: *delete_flow_fields
+
   - name: newsroom_create_article
     label: "1 - Sifirdan Haber Yaz"
     label_singular: "Haber Taslagi"
@@ -278,7 +329,7 @@ collections:
       - { label: Sonuc, name: execution_result, widget: text, required: false, readonly: true }
 
   - name: newsroom_bulk_actions
-    label: "6 - Haber Kaldir / Geri Al"
+    label: "6 - Toplu Duzeltmeler"
     folder: newsroom/requests/bulk
     create: true
     delete: false
@@ -292,13 +343,8 @@ collections:
       - label: Ne olsun?
         name: operation
         widget: select
-        hint: "Kararsizsan en guvenli secenek Yayindan Kaldir. Bu dosyayi silmez."
+        hint: "Bu ekran sadece toplu duzeltmeler icin. Haber silme/kaldirma icin ustteki 0a / 0b / 0c / 0d koleksiyonlarini kullan."
         options:
-          - { label: Yayindan Kaldir (dosya kalsin), value: unpublish }
-          - { label: Arsive Tasi (elde kalsin), value: archive }
-          - { label: Cop Kutusuna Gonder (beklesin), value: move_to_trash }
-          - { label: Yayina Geri Al, value: restore_published }
-          - { label: Cop Kutusundan Kalici Sil, value: delete_from_trash }
           - { label: Kategori Degistir, value: change_category }
           - { label: One Cikar, value: set_featured }
           - { label: Noindex Yap, value: noindex }
@@ -324,8 +370,7 @@ collections:
       - { label: Kisa Ozet, name: operator_summary, widget: text, required: false, readonly: true }
       - { label: Sonraki Adim, name: operator_next_step, widget: text, required: false, readonly: true }
       - { label: Liste Ipuclari, name: operator_list_hint, widget: string, required: false, readonly: true }
-      - { label: Yazili Onay, name: safety_confirmation, widget: string, required: false, hint: "Calistirmak icin tam olarak ONAYLIYORUM TOPLU yaz." }
-      - { label: Son Silme Onayi, name: final_delete_confirmation, widget: string, required: false, hint: "Sadece kalici silme icin kullanilir. Tam olarak KALICI SIL yaz." }
+      - { label: Yazili Onay, name: safety_confirmation, widget: string, required: false, hint: "Toplu bir islem calisacaksa tam olarak ONAYLIYORUM TOPLU yaz." }
       - { label: Yeni Kategori, name: category, widget: select, required: false, hint: "Sadece change_category isleminde kullanilir.", options: [Gundem, Siyaset, Ekonomi, Dunya, Spor, Magazin, Teknoloji, Saglik] }
       - { label: Sonuc, name: result, widget: text, required: false, readonly: true }
 

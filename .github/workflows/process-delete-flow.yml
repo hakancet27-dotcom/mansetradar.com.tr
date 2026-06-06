@@ -1,0 +1,36 @@
+name: Process CMS Delete Flow
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'cms-delete-flow/**'
+      - 'tools/process_delete_flow.py'
+
+permissions:
+  contents: write
+
+jobs:
+  process-delete-flow:
+    if: ${{ github.actor != 'github-actions[bot]' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Process delete flow transitions
+        run: python tools/process_delete_flow.py --before "${{ github.event.before }}" --head "${{ github.sha }}"
+
+      - name: Commit delete flow updates
+        run: |
+          git config user.name "Delete Flow Bot"
+          git config user.email "delete-flow@mansetradar.com.tr"
+          git add articles news nachrichten cms-delete-flow
+          git diff --staged --quiet || (git commit -m "Process CMS delete flow" && git push)
