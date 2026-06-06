@@ -81,6 +81,11 @@ collections:
               - { label: CMS Kaynak Hata, name: cms_source_errors, widget: number, required: false }
               - { label: CMS Kaynak Uyari, name: cms_source_warnings, widget: number, required: false }
               - { label: Kategori Topic Uyusmazligi, name: category_topic_conflicts, widget: number, required: false }
+      - name: editor_focus
+        label: "Bugun Once Bunlara Bak"
+        file: newsroom/status/editor-focus.md
+        fields:
+          - { label: Ozet, name: body, widget: text, required: false, readonly: true }
 
   - name: newsroom_create_article
     label: "1 - Sifirdan Haber Yaz"
