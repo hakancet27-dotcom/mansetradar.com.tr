@@ -139,6 +139,10 @@ collections:
           - { label: Onayla ve Yayinla, value: approved_to_publish }
           - { label: Reddedildi, value: rejected }
           - { label: Yayinlandi, value: published }
+      - { label: Insani Durum, name: editor_badge, widget: string, required: false, readonly: true }
+      - { label: Kisa Ozet, name: editor_summary, widget: text, required: false, readonly: true }
+      - { label: Sonraki Adim, name: editor_next_step, widget: text, required: false, readonly: true }
+      - { label: Editor Kontrol Listesi, name: editor_checklist, widget: list, required: false, readonly: true, field: { label: Madde, widget: string } }
       - { label: Kategori, name: category, widget: select, options: [Son Dakika, Gundem, Siyaset, Ekonomi, Dunya, Spor, Magazin, Teknoloji, Saglik, Video] }
       - { label: Baslik, name: title, widget: string }
       - { label: Spot, name: spot, widget: text, required: false, hint: "Yayina gidecek kisa giris metni." }
