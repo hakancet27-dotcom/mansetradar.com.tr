@@ -260,6 +260,7 @@ collections:
       - { label: Kisa Ozet, name: operator_summary, widget: text, required: false, readonly: true }
       - { label: Sonraki Adim, name: operator_next_step, widget: text, required: false, readonly: true }
       - { label: Liste Ipuclari, name: operator_list_hint, widget: string, required: false, readonly: true }
+      - { label: Guvenlik Onayi, name: safety_confirmation, widget: string, required: false, hint: "Calistirmadan once tam olarak ONAYLIYORUM WORKFLOW yaz." }
       - { label: Talep Adi, name: request_name, widget: string, hint: "Ornek: Gece reindex kontrolu, Spor kategori yeniden calistir." }
       - label: Calisma Modu
         name: run_mode
@@ -305,6 +306,7 @@ collections:
       - { label: Kisa Ozet, name: operator_summary, widget: text, required: false, readonly: true }
       - { label: Sonraki Adim, name: operator_next_step, widget: text, required: false, readonly: true }
       - { label: Liste Ipuclari, name: operator_list_hint, widget: string, required: false, readonly: true }
+      - { label: Guvenlik Onayi, name: safety_confirmation, widget: string, required: false, hint: "Toplu islemi calistirmadan once tam olarak ONAYLIYORUM TOPLU yaz." }
       - { label: Islem, name: operation, widget: select, hint: "Yanlis secim birden fazla haberi etkiler.", options: [change_category, quality_recheck, seo_rebuild, noindex, reindex, set_featured] }
       - { label: Hedef Haber Sluglari, name: slugs, widget: list, hint: "Her satira bir slug gir.", field: { label: Slug, widget: string } }
       - { label: Yeni Kategori, name: category, widget: select, required: false, hint: "Sadece change_category isleminde kullanilir.", options: [Gundem, Siyaset, Ekonomi, Dunya, Spor, Magazin, Teknoloji, Saglik] }
