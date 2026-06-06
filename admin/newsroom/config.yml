@@ -278,7 +278,7 @@ collections:
       - { label: Sonuc, name: execution_result, widget: text, required: false, readonly: true }
 
   - name: newsroom_bulk_actions
-    label: "6 - Toplu Islemler (Yuksek Etki)"
+    label: "6 - Yayin Yonetimi / Toplu Islemler"
     folder: newsroom/requests/bulk
     create: true
     delete: false
@@ -307,10 +307,26 @@ collections:
       - { label: Sonraki Adim, name: operator_next_step, widget: text, required: false, readonly: true }
       - { label: Liste Ipuclari, name: operator_list_hint, widget: string, required: false, readonly: true }
       - { label: Guvenlik Onayi, name: safety_confirmation, widget: string, required: false, hint: "Toplu islemi calistirmadan once tam olarak ONAYLIYORUM TOPLU yaz." }
-      - { label: Islem, name: operation, widget: select, hint: "Yanlis secim birden fazla haberi etkiler.", options: [change_category, quality_recheck, seo_rebuild, noindex, reindex, set_featured] }
+      - label: Islem
+        name: operation
+        widget: select
+        hint: "En guvenli akis: once yayindan kaldir, sonra gerekiyorsa arsive al, en son cop kutusuna gonder."
+        options:
+          - { label: Yayindan Kaldir, value: unpublish }
+          - { label: Arsive Tasi, value: archive }
+          - { label: Cop Kutusuna Gonder, value: move_to_trash }
+          - { label: Yayina Geri Al, value: restore_published }
+          - { label: Kategori Degistir, value: change_category }
+          - { label: One Cikar, value: set_featured }
+          - { label: Noindex Yap, value: noindex }
+          - { label: Kaliteyi Yeniden Kontrol Et, value: quality_recheck }
+          - { label: SEO Yeniden Isleme, value: seo_rebuild }
+          - { label: Yeniden Indeksle, value: reindex }
+          - { label: Cop Kutusundan Kalici Sil, value: delete_from_trash }
       - { label: Hedef Haber Sluglari, name: slugs, widget: list, hint: "Her satira bir slug gir.", field: { label: Slug, widget: string } }
       - { label: Yeni Kategori, name: category, widget: select, required: false, hint: "Sadece change_category isleminde kullanilir.", options: [Gundem, Siyaset, Ekonomi, Dunya, Spor, Magazin, Teknoloji, Saglik] }
-      - { label: Not, name: note, widget: text, required: false, hint: "Neden bu toplu islemi yaptigini kisaca yazmak iyi olur. Silmek yerine bekletme veya iptal akisini kullan." }
+      - { label: Editor Notu, name: note, widget: text, required: false, hint: "Neden bu yayindan kaldirma veya tasima kararini verdigini kisaca yaz. Bu not kayda islenir." }
+      - { label: Kalici Silme Onayi, name: final_delete_confirmation, widget: string, required: false, hint: "Sadece Cop Kutusundan Kalici Sil icin kullanilir. Tam olarak KALICI SIL yaz." }
       - { label: Sonuc, name: result, widget: text, required: false, readonly: true }
 
   - name: newsroom_image_jobs

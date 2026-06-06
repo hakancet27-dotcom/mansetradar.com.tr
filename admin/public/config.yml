@@ -39,6 +39,8 @@ collections:
       - { label: Meta Description, name: meta_description, widget: text, required: false }
       - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, widget: string } }
       - { label: Indexed On Home, name: indexed_on_home, widget: boolean, required: false, readonly: true }
+      - { label: Yayin Asamasi, name: publication_lifecycle, widget: string, required: false, readonly: true, hint: "Yayindan kaldirma, arsiv ve cop kutusu islemleri newsroom panelindeki Yayin Yonetimi ekranindan yapilir." }
+      - { label: Yayin Notu, name: publication_note, widget: text, required: false, readonly: true }
 
   - name: published_en
     label: "Published News / English (Maintenance)"
