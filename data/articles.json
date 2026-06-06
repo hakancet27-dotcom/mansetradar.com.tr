@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-06T00:00:00+00:00",
-    "article_count": 580,
+    "article_count": 581,
     "schema_version": 2
   },
   "articles": [
@@ -597,6 +597,40 @@
         "Beşiktaş",
         "Teknik Direktör",
         "Futbol"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:ay-yildizli-forma-cumhuriyet-2026-dunya-kupasi_20260606",
+      "slug": "ay-yildizli-forma-cumhuriyet-2026-dunya-kupasi_20260606",
+      "title": "Ay-Yıldızlı Forma: Cumhuriyet'ten 2026 Dünya Kupası'na Uzanan Tarihi Yolculuk",
+      "summary": "Türkiye A Milli Futbol Takımı'nın ikonik ay-yıldızlı forması, Cumhuriyet'in ilanından üç gün önce, 26 Ekim 1923'te Romanya ile oynanan ilk maçtan bu yana tarihi dönüm noktalarının tanıklığını yapıyor. Bu forma, 2026 yılında Amerika Kıtası'nda düzenlenecek D...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "06.06.2026",
+      "date_iso": "2026-06-06",
+      "url": "/articles/ay-yildizli-forma-cumhuriyet-2026-dunya-kupasi_20260606/",
+      "canonical_url": "https://mansetradar.com.tr/articles/ay-yildizli-forma-cumhuriyet-2026-dunya-kupasi_20260606/",
+      "detail_json_url": "/data/details/articles/ay-yildizli-forma-cumhuriyet-2026-dunya-kupasi_20260606.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/ay-yildizli-forma-cumhuriyet-2026-dunya-kupasi_20260606.webp",
+      "image_alt": "Türkiye A Milli Futbol Takımı'nın forma tarihini gösteren kolaj: 1923'teki ilk formadan 2026 Dünya Kupası için ebru sanatı...",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/ay-yildizli-forma-cumhuriyet-2026-dunya-kupasi_20260606.webp",
+        "alt": "Türkiye A Milli Futbol Takımı'nın forma tarihini gösteren kolaj: 1923'teki ilk formadan 2026 Dünya Kupası için ebru sanatı..."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/sporskor/a-milli-takimin-forma-tarihi-ilk-mac-cumhuriyetin-ilanindan-uc-gun-once-oynandi-1727493",
+      "tags": [
+        "A Milli Takım",
+        "Ay-Yıldızlı Forma",
+        "Dünya Kupası",
+        "Cumhuriyet Tarihi"
       ],
       "quality_score": 86,
       "review_status": "published"
