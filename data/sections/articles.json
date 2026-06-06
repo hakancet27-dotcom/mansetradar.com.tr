@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-06T00:00:00+00:00",
-    "article_count": 566,
+    "article_count": 568,
     "schema_version": 2,
     "section": "articles"
   },
@@ -41,6 +41,77 @@
         "Barış Görüşmeleri"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606",
+      "slug": "tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606",
+      "title": "TSMC CEO'su Samsung'a Yanıt Verdi: \"Rakiplerimiz Hayal Kuruyor\"",
+      "summary": "Dünyanın en büyük sözleşmeli çip üreticisi TSMC'nin CEO'su C.C. Wei, rakibi Samsung'a yönelik üstü kapalı bir göndermede bulundu. Wei, \"Rakiplerimiz hayal kuruyor\" diyerek, Samsung'un yıllardır tekrarladığı \"10 yıl içinde TSMC'yi yakalayacağız\" söylemini al...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "06.06.2026",
+      "date_iso": "2026-06-06",
+      "url": "/articles/tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606/",
+      "canonical_url": "https://mansetradar.com.tr/articles/tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606/",
+      "detail_json_url": "/data/details/articles/tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606.webp",
+      "image_alt": "TSMC ve Samsung logoları, ortada bir mikroçip görseli ile rekabeti temsil ediyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606.webp",
+        "alt": "TSMC ve Samsung logoları, ortada bir mikroçip görseli ile rekabeti temsil ediyor."
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar--206479",
+      "tags": [
+        "TSMC",
+        "Samsung",
+        "Yarı İletken",
+        "Çip Üretimi",
+        "C.C. Wei",
+        "Yapay Zeka"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606",
+      "slug": "tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606",
+      "title": "Tomb Raider: Legacy of Atlantis PC Sistem Gereksinimleri Açıklandı",
+      "summary": "Crystal Dynamics ve Flying Wild Hog tarafından geliştirilen ve Amazon Game Studios tarafından yayınlanacak olan Tomb Raider: Legacy of Atlantis'in PC sistem gereksinimleri açıklandı. Unreal Engine 5 ile hazırlanan oyun, 12 Şubat 2027 tarihinde oyuncularla b...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "06.06.2026",
+      "date_iso": "2026-06-06",
+      "url": "/articles/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606/",
+      "canonical_url": "https://mansetradar.com.tr/articles/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606/",
+      "detail_json_url": "/data/details/articles/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606.webp",
+      "image_alt": "Lara Croft, Tomb Raider: Legacy of Atlantis oyununda antik Atlantis kalıntılarını keşfederken gösteriliyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606.webp",
+        "alt": "Lara Croft, Tomb Raider: Legacy of Atlantis oyununda antik Atlantis kalıntılarını keşfederken gösteriliyor."
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/tomb-raider-legacy-of-atlantis-sistem-gereksinimleri-aciklandi--206494",
+      "tags": [
+        "Tomb Raider",
+        "Legacy of Atlantis",
+        "Sistem Gereksinimleri",
+        "PC Oyunu",
+        "Teknoloji"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {

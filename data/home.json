@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-06T00:00:00+00:00",
-    "article_count": 566,
+    "article_count": 568,
     "schema_version": 2,
     "section": "articles"
   },
@@ -41,6 +41,77 @@
         "Barış Görüşmeleri"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606",
+      "slug": "tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606",
+      "title": "TSMC CEO'su Samsung'a Yanıt Verdi: \"Rakiplerimiz Hayal Kuruyor\"",
+      "summary": "Dünyanın en büyük sözleşmeli çip üreticisi TSMC'nin CEO'su C.C. Wei, rakibi Samsung'a yönelik üstü kapalı bir göndermede bulundu. Wei, \"Rakiplerimiz hayal kuruyor\" diyerek, Samsung'un yıllardır tekrarladığı \"10 yıl içinde TSMC'yi yakalayacağız\" söylemini al...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "06.06.2026",
+      "date_iso": "2026-06-06",
+      "url": "/articles/tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606/",
+      "canonical_url": "https://mansetradar.com.tr/articles/tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606/",
+      "detail_json_url": "/data/details/articles/tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606.webp",
+      "image_alt": "TSMC ve Samsung logoları, ortada bir mikroçip görseli ile rekabeti temsil ediyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606.webp",
+        "alt": "TSMC ve Samsung logoları, ortada bir mikroçip görseli ile rekabeti temsil ediyor."
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar--206479",
+      "tags": [
+        "TSMC",
+        "Samsung",
+        "Yarı İletken",
+        "Çip Üretimi",
+        "C.C. Wei",
+        "Yapay Zeka"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606",
+      "slug": "tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606",
+      "title": "Tomb Raider: Legacy of Atlantis PC Sistem Gereksinimleri Açıklandı",
+      "summary": "Crystal Dynamics ve Flying Wild Hog tarafından geliştirilen ve Amazon Game Studios tarafından yayınlanacak olan Tomb Raider: Legacy of Atlantis'in PC sistem gereksinimleri açıklandı. Unreal Engine 5 ile hazırlanan oyun, 12 Şubat 2027 tarihinde oyuncularla b...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "06.06.2026",
+      "date_iso": "2026-06-06",
+      "url": "/articles/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606/",
+      "canonical_url": "https://mansetradar.com.tr/articles/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606/",
+      "detail_json_url": "/data/details/articles/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606.webp",
+      "image_alt": "Lara Croft, Tomb Raider: Legacy of Atlantis oyununda antik Atlantis kalıntılarını keşfederken gösteriliyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606.webp",
+        "alt": "Lara Croft, Tomb Raider: Legacy of Atlantis oyununda antik Atlantis kalıntılarını keşfederken gösteriliyor."
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/tomb-raider-legacy-of-atlantis-sistem-gereksinimleri-aciklandi--206494",
+      "tags": [
+        "Tomb Raider",
+        "Legacy of Atlantis",
+        "Sistem Gereksinimleri",
+        "PC Oyunu",
+        "Teknoloji"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -642,79 +713,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles:gazetelerin-spor-sayfalarindan-one-cikanlar-5-haziran-2026_20260605",
-      "slug": "gazetelerin-spor-sayfalarindan-one-cikanlar-5-haziran-2026_20260605",
-      "title": "Gazetelerin Spor Sayfalarından Öne Çıkanlar (5 Haziran 2026)",
-      "summary": "5 Haziran 2026 tarihli spor gazetelerinin öne çıkan başlıkları, futbol dünyasındaki güncel gelişmeler ve transfer iddialarını mercek altına alıyor. Fenerbahçe, Galatasaray, Beşiktaş ve Trabzonspor ile ilgili önemli haberler yer alırken, Dünya Kupası'nda Lio...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "05.06.2026",
-      "date_iso": "2026-06-05",
-      "url": "/articles/gazetelerin-spor-sayfalarindan-one-cikanlar-5-haziran-2026_20260605/",
-      "canonical_url": "https://mansetradar.com.tr/articles/gazetelerin-spor-sayfalarindan-one-cikanlar-5-haziran-2026_20260605/",
-      "detail_json_url": "/data/details/articles/gazetelerin-spor-sayfalarindan-one-cikanlar-5-haziran-2026_20260605.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/gazetelerin-spor-sayfalarindan-one-cikanlar-5-haziran-2026_20260605.webp",
-      "image_alt": "5 Haziran 2026 tarihli spor gazetelerinin manşetlerinden oluşan kolaj.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/gazetelerin-spor-sayfalarindan-one-cikanlar-5-haziran-2026_20260605.webp",
-        "alt": "5 Haziran 2026 tarihli spor gazetelerinin manşetlerinden oluşan kolaj."
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/sporskor/gunun-spor-sayfalarindan-one-cikanlar-1727242",
-      "tags": [
-        "Spor Haberleri",
-        "Transfer Haberleri",
-        "Fenerbahçe",
-        "Galatasaray",
-        "Beşiktaş",
-        "Lionel Messi",
-        "Vincenzo İtaliano",
-        "TFF Başkanı"
-      ],
-      "quality_score": 70,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:galatasaray-milli-yildiz-can-uzun-transferi-detaylari_20260605",
-      "slug": "galatasaray-milli-yildiz-can-uzun-transferi-detaylari_20260605",
-      "title": "Galatasaray'dan Milli Yıldız Can Uzun İçin Girişim: Bonservis ve Detaylar Ortaya Çıktı",
-      "summary": "Süper Lig'de son dört yılın şampiyonu Galatasaray, kadrosunu Türk bir yıldızla güçlendirmek için Eintracht Frankfurt'un 20 yaşındaki milli oyuncusu Can Uzun'u gündemine aldı. Teknik Direktör Okan Buruk'un öncelikli transfer hedefleri arasında yer alan genç...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "05.06.2026",
-      "date_iso": "2026-06-05",
-      "url": "/articles/galatasaray-milli-yildiz-can-uzun-transferi-detaylari_20260605/",
-      "canonical_url": "https://mansetradar.com.tr/articles/galatasaray-milli-yildiz-can-uzun-transferi-detaylari_20260605/",
-      "detail_json_url": "/data/details/articles/galatasaray-milli-yildiz-can-uzun-transferi-detaylari_20260605.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/galatasaray-milli-yildiz-can-uzun-transferi-detaylari_20260605.webp",
-      "image_alt": "Galatasaray forması giyen milli futbolcu Can Uzun gol sevincini yaşıyor.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/galatasaray-milli-yildiz-can-uzun-transferi-detaylari_20260605.webp",
-        "alt": "Galatasaray forması giyen milli futbolcu Can Uzun gol sevincini yaşıyor."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/galatasaray-milli-yildizi-aliyor-iste-bonservisi-43193713",
-      "tags": [
-        "Galatasaray",
-        "Can Uzun",
-        "Transfer",
-        "Eintracht Frankfurt",
-        "Süper Lig"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -751,6 +749,77 @@
         "Barış Görüşmeleri"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606",
+      "slug": "tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606",
+      "title": "TSMC CEO'su Samsung'a Yanıt Verdi: \"Rakiplerimiz Hayal Kuruyor\"",
+      "summary": "Dünyanın en büyük sözleşmeli çip üreticisi TSMC'nin CEO'su C.C. Wei, rakibi Samsung'a yönelik üstü kapalı bir göndermede bulundu. Wei, \"Rakiplerimiz hayal kuruyor\" diyerek, Samsung'un yıllardır tekrarladığı \"10 yıl içinde TSMC'yi yakalayacağız\" söylemini al...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "06.06.2026",
+      "date_iso": "2026-06-06",
+      "url": "/articles/tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606/",
+      "canonical_url": "https://mansetradar.com.tr/articles/tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606/",
+      "detail_json_url": "/data/details/articles/tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606.webp",
+      "image_alt": "TSMC ve Samsung logoları, ortada bir mikroçip görseli ile rekabeti temsil ediyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar_20260606.webp",
+        "alt": "TSMC ve Samsung logoları, ortada bir mikroçip görseli ile rekabeti temsil ediyor."
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/tsmc-ceo-su-samsung-u-alaya-aldi-10-yildir-bizi-yakaliyorlar--206479",
+      "tags": [
+        "TSMC",
+        "Samsung",
+        "Yarı İletken",
+        "Çip Üretimi",
+        "C.C. Wei",
+        "Yapay Zeka"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606",
+      "slug": "tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606",
+      "title": "Tomb Raider: Legacy of Atlantis PC Sistem Gereksinimleri Açıklandı",
+      "summary": "Crystal Dynamics ve Flying Wild Hog tarafından geliştirilen ve Amazon Game Studios tarafından yayınlanacak olan Tomb Raider: Legacy of Atlantis'in PC sistem gereksinimleri açıklandı. Unreal Engine 5 ile hazırlanan oyun, 12 Şubat 2027 tarihinde oyuncularla b...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "06.06.2026",
+      "date_iso": "2026-06-06",
+      "url": "/articles/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606/",
+      "canonical_url": "https://mansetradar.com.tr/articles/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606/",
+      "detail_json_url": "/data/details/articles/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606.webp",
+      "image_alt": "Lara Croft, Tomb Raider: Legacy of Atlantis oyununda antik Atlantis kalıntılarını keşfederken gösteriliyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606.webp",
+        "alt": "Lara Croft, Tomb Raider: Legacy of Atlantis oyununda antik Atlantis kalıntılarını keşfederken gösteriliyor."
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/tomb-raider-legacy-of-atlantis-sistem-gereksinimleri-aciklandi--206494",
+      "tags": [
+        "Tomb Raider",
+        "Legacy of Atlantis",
+        "Sistem Gereksinimleri",
+        "PC Oyunu",
+        "Teknoloji"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -1528,77 +1597,6 @@
         "Başkan Adayı",
         "Transfer",
         "Futbol"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:fatih-terim-dunya-kupasi-montella-yorum_20260605",
-      "slug": "fatih-terim-dunya-kupasi-montella-yorum_20260605",
-      "title": "Fatih Terim'den 2026 Dünya Kupası ve Montella Yorumu: \"Türkiye İçin Sınır Yok\"",
-      "summary": "A Milli Futbol Takımı'nın eski teknik direktörü Fatih Terim, İtalyan basınına verdiği röportajda 2026 Dünya Kupası'nda mücadele edecek ay-yıldızlı takımın potansiyelini değerlendirdi. Terim, Türkiye için Dünya Kupası'nda \"hiçbir sınır olmadığını\" belirtirke...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "05.06.2026",
-      "date_iso": "2026-06-05",
-      "url": "/articles/fatih-terim-dunya-kupasi-montella-yorum_20260605/",
-      "canonical_url": "https://mansetradar.com.tr/articles/fatih-terim-dunya-kupasi-montella-yorum_20260605/",
-      "detail_json_url": "/data/details/articles/fatih-terim-dunya-kupasi-montella-yorum_20260605.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/a-milli-futbol-takimi-nin-2026-dunya-kupasi-genis-kadrosu-aciklandi_20260518_31d557c5.webp",
-      "image_alt": "Fatih Terim'den 2026 Dünya Kupası ve Montella Yorumu: \"Türkiye İçin Sınır Yok\"",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/a-milli-futbol-takimi-nin-2026-dunya-kupasi-genis-kadrosu-aciklandi_20260518_31d557c5.webp",
-        "alt": "Fatih Terim'den 2026 Dünya Kupası ve Montella Yorumu: \"Türkiye İçin Sınır Yok\""
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/fatih-terim-italya-basinina-konustu-turkiye-icin-dunya-kupasi-nda-hicbir-sinir-yok-3889685-spor",
-      "tags": [
-        "Fatih Terim",
-        "A Milli Takım",
-        "Dünya Kupası",
-        "Vincenzo Montella",
-        "Futbol"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:emekli-memur-zammi-mayis-enflasyonu-oranlari-2026_20260605",
-      "slug": "emekli-memur-zammi-mayis-enflasyonu-oranlari-2026_20260605",
-      "title": "Emekli ve Memur Zammında İlk Oranlar Belli Oldu: İşte 5 Aylık Enflasyon Verileri",
-      "summary": "Mayıs ayı enflasyon verilerinin açıklanmasıyla birlikte SGK ve Bağ-Kur emeklileri için 5 aylık zam oranı yüzde 16,60'a ulaştı. Memur ve memur emeklileri için ise 5 aylık enflasyon farkı ve toplu sözleşme zammı ile kümülatif artış yüzde 12,40 olarak hesaplan...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "05.06.2026",
-      "date_iso": "2026-06-05",
-      "url": "/articles/emekli-memur-zammi-mayis-enflasyonu-oranlari-2026_20260605/",
-      "canonical_url": "https://mansetradar.com.tr/articles/emekli-memur-zammi-mayis-enflasyonu-oranlari-2026_20260605/",
-      "detail_json_url": "/data/details/articles/emekli-memur-zammi-mayis-enflasyonu-oranlari-2026_20260605.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/emekli-memur-zammi-mayis-enflasyonu-oranlari-2026_20260605.webp",
-      "image_alt": "Temmuz 2026 emekli ve memur maaş zammını gösteren grafik ve Türk Lirası banknotları.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/emekli-memur-zammi-mayis-enflasyonu-oranlari-2026_20260605.webp",
-        "alt": "Temmuz 2026 emekli ve memur maaş zammını gösteren grafik ve Türk Lirası banknotları."
-      },
-      "source_name": "Cumhuriyet Gazetesi - Ekonomi",
-      "source_url": "https://www.cumhuriyet.com.tr/ekonomi/emeklilerin-garantiledigi-maas-zammi-belli-oldu-ayliklar-kac-tl-olacak-2509548",
-      "tags": [
-        "Emekli Zammı",
-        "Memur Zammı",
-        "Enflasyon",
-        "Temmuz Zammı",
-        "SGK",
-        "Bağ-Kur"
       ],
       "quality_score": 86,
       "review_status": "published"
