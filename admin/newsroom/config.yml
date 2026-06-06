@@ -181,9 +181,13 @@ collections:
     format: json
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     identifier_field: topic
-    summary: "{{request_status}} | {{mode}} | {{topic}}"
+    summary: "{{operator_badge}} | {{operator_list_hint}} | {{topic}}"
     fields:
       - { label: Durum, name: request_status, widget: select, default: queued, hint: "Yeni kayit normalde queued olarak acilir; bot isledikce durum guncellenir.", options: [queued, running, completed, needs_attention, hold, cancelled] }
+      - { label: Insani Durum, name: operator_badge, widget: string, required: false, readonly: true }
+      - { label: Kisa Ozet, name: operator_summary, widget: text, required: false, readonly: true }
+      - { label: Sonraki Adim, name: operator_next_step, widget: text, required: false, readonly: true }
+      - { label: Liste Ipuclari, name: operator_list_hint, widget: string, required: false, readonly: true }
       - { label: Konu / Input, name: topic, widget: string, hint: "AI'ye verilecek ana konu veya haber fikri." }
       - { label: Uretim Modu, name: mode, widget: select, default: full_seo_article, hint: "Genelde full_seo_article veya source_based yeterlidir.", options: [full_seo_article, short_breaking, source_based, rewrite, discover] }
       - { label: Kategori, name: category, widget: select, default: auto, hint: "Emin degilsen auto birak.", options: [auto, son-dakika, gundem, siyaset, ekonomi, dunya, spor, magazin, teknoloji, saglik] }
@@ -222,7 +226,7 @@ collections:
     format: json
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     identifier_field: request_name
-    summary: "{{status}} | {{run_mode}} | {{request_name}}"
+    summary: "{{operator_badge}} | {{operator_list_hint}} | {{request_name}}"
     fields:
       - label: Durum
         name: status
@@ -236,6 +240,10 @@ collections:
           - { label: Tamamlandi, value: completed }
           - { label: Hata, value: failed }
           - { label: Iptal, value: cancelled }
+      - { label: Insani Durum, name: operator_badge, widget: string, required: false, readonly: true }
+      - { label: Kisa Ozet, name: operator_summary, widget: text, required: false, readonly: true }
+      - { label: Sonraki Adim, name: operator_next_step, widget: text, required: false, readonly: true }
+      - { label: Liste Ipuclari, name: operator_list_hint, widget: string, required: false, readonly: true }
       - { label: Talep Adi, name: request_name, widget: string, hint: "Ornek: Gece reindex kontrolu, Spor kategori yeniden calistir." }
       - label: Calisma Modu
         name: run_mode
@@ -260,7 +268,7 @@ collections:
     format: json
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     identifier_field: action_name
-    summary: "{{status}} | {{operation}} | {{action_name}}"
+    summary: "{{operator_badge}} | {{operator_list_hint}} | {{action_name}}"
     fields:
       - { label: Islem Adi, name: action_name, widget: string, hint: "Ornek: 5 spor haberini teknoloji yerine spor yap." }
       - label: Durum
@@ -276,6 +284,10 @@ collections:
           - { label: Hata, value: failed }
           - { label: Beklet, value: hold }
           - { label: Iptal, value: cancelled }
+      - { label: Insani Durum, name: operator_badge, widget: string, required: false, readonly: true }
+      - { label: Kisa Ozet, name: operator_summary, widget: text, required: false, readonly: true }
+      - { label: Sonraki Adim, name: operator_next_step, widget: text, required: false, readonly: true }
+      - { label: Liste Ipuclari, name: operator_list_hint, widget: string, required: false, readonly: true }
       - { label: Islem, name: operation, widget: select, hint: "Yanlis secim birden fazla haberi etkiler.", options: [change_category, quality_recheck, seo_rebuild, noindex, reindex, set_featured] }
       - { label: Hedef Haber Sluglari, name: slugs, widget: list, hint: "Her satira bir slug gir.", field: { label: Slug, widget: string } }
       - { label: Yeni Kategori, name: category, widget: select, required: false, hint: "Sadece change_category isleminde kullanilir.", options: [Gundem, Siyaset, Ekonomi, Dunya, Spor, Magazin, Teknoloji, Saglik] }
