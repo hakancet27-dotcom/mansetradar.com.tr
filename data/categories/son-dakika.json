@@ -3,11 +3,45 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-06T00:00:00+00:00",
-    "article_count": 573,
+    "article_count": 575,
     "schema_version": 2,
     "category_slug": "son-dakika"
   },
   "articles": [
+    {
+      "id": "articles:kafede-zorbalik-once-taciz-sonra-siddet_20260606",
+      "slug": "kafede-zorbalik-once-taciz-sonra-siddet_20260606",
+      "title": "İstanbul'da Kafede Zorbalık: Önce Taciz Sonra Şiddet",
+      "summary": "İstanbul'un Avcılar ilçesinde bir kafede perşembe gecesi yaşanan olayda, iki genç müşteri olarak geldikleri kafede barista S.Y.'ye sarkıntılık yaptı. Tepki gösteren baristaya hakaret ve tehditler savuran bir kişi, ardından mekanı dağıtarak malzemeleri fırla...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "06.06.2026",
+      "date_iso": "2026-06-06",
+      "url": "/articles/kafede-zorbalik-once-taciz-sonra-siddet_20260606/",
+      "canonical_url": "https://mansetradar.com.tr/articles/kafede-zorbalik-once-taciz-sonra-siddet_20260606/",
+      "detail_json_url": "/data/details/articles/kafede-zorbalik-once-taciz-sonra-siddet_20260606.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/kafede-zorbalik-once-taciz-sonra-siddet_20260606.webp",
+      "image_alt": "Kafede yaşanan şiddet olayının ardından polis inceleme yapıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/kafede-zorbalik-once-taciz-sonra-siddet_20260606.webp",
+        "alt": "Kafede yaşanan şiddet olayının ardından polis inceleme yapıyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kafede-zorbalik-once-taciz-sonra-siddet-43195106",
+      "tags": [
+        "Avcılar",
+        "Kafede Şiddet",
+        "Barista",
+        "Taciz"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles:yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605",
       "slug": "yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605",

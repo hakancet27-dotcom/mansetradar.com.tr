@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-06T00:00:00+00:00",
-    "article_count": 573,
+    "article_count": 575,
     "schema_version": 2,
     "section": "articles"
   },
@@ -220,6 +220,40 @@
       "review_status": "published"
     },
     {
+      "id": "articles:kafede-zorbalik-once-taciz-sonra-siddet_20260606",
+      "slug": "kafede-zorbalik-once-taciz-sonra-siddet_20260606",
+      "title": "İstanbul'da Kafede Zorbalık: Önce Taciz Sonra Şiddet",
+      "summary": "İstanbul'un Avcılar ilçesinde bir kafede perşembe gecesi yaşanan olayda, iki genç müşteri olarak geldikleri kafede barista S.Y.'ye sarkıntılık yaptı. Tepki gösteren baristaya hakaret ve tehditler savuran bir kişi, ardından mekanı dağıtarak malzemeleri fırla...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "06.06.2026",
+      "date_iso": "2026-06-06",
+      "url": "/articles/kafede-zorbalik-once-taciz-sonra-siddet_20260606/",
+      "canonical_url": "https://mansetradar.com.tr/articles/kafede-zorbalik-once-taciz-sonra-siddet_20260606/",
+      "detail_json_url": "/data/details/articles/kafede-zorbalik-once-taciz-sonra-siddet_20260606.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/kafede-zorbalik-once-taciz-sonra-siddet_20260606.webp",
+      "image_alt": "Kafede yaşanan şiddet olayının ardından polis inceleme yapıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/kafede-zorbalik-once-taciz-sonra-siddet_20260606.webp",
+        "alt": "Kafede yaşanan şiddet olayının ardından polis inceleme yapıyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kafede-zorbalik-once-taciz-sonra-siddet-43195106",
+      "tags": [
+        "Avcılar",
+        "Kafede Şiddet",
+        "Barista",
+        "Taciz"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:irem-helvacioglu-mahallenin-deli-teyzesi-gibiyim-itirafi_20260606",
       "slug": "irem-helvacioglu-mahallenin-deli-teyzesi-gibiyim-itirafi_20260606",
       "title": "İrem Helvacıoğlu'ndan Travmatik Kazalar Sonrası Şaşırtan İtiraf: 'Mahallenin Deli Teyzesi...",
@@ -285,6 +319,42 @@
         "Dolandırıcılık",
         "Altın",
         "Nakit Para"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:dso-gida-guvensizligi-uyarisi-2026_20260606",
+      "slug": "dso-gida-guvensizligi-uyarisi-2026_20260606",
+      "title": "DSÖ: Her 9 Kişiden 1'i Gıda Güvensizliğiyle Karşı Karşıya",
+      "summary": "Dünya Sağlık Örgütü (DSÖ) Beslenme ve Gıda Güvenliği Departmanı İzleme ve Gözetim Birimi Başkanı Elaine Borghi, Birleşmiş Milletler (BM) Cenevre Ofisi'nde yaptığı açıklamada, küresel olarak her 9 kişiden 1'ini etkileyen gıda güvensizliği krizine dikkat çekt...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "06.06.2026",
+      "date_iso": "2026-06-06",
+      "url": "/articles/dso-gida-guvensizligi-uyarisi-2026_20260606/",
+      "canonical_url": "https://mansetradar.com.tr/articles/dso-gida-guvensizligi-uyarisi-2026_20260606/",
+      "detail_json_url": "/data/details/articles/dso-gida-guvensizligi-uyarisi-2026_20260606.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/dso-gida-guvensizligi-uyarisi-2026_20260606.webp",
+      "image_alt": "DSÖ: Her 9 Kişiden 1'i Gıda Güvensizliğiyle Karşı Karşıya",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/dso-gida-guvensizligi-uyarisi-2026_20260606.webp",
+        "alt": "DSÖ: Her 9 Kişiden 1'i Gıda Güvensizliğiyle Karşı Karşıya"
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/dso-her-9-kisiden-1-i-gida-guvensizligiyle-karsi-karsiya-3889597",
+      "tags": [
+        "Gıda Güvenliği",
+        "DSÖ",
+        "Dünya Gıda Güvenliği Günü",
+        "Gıda Güvensizliği",
+        "Elaine Borghi",
+        "Tek Sağlık"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -644,79 +714,6 @@
       ],
       "quality_score": 100,
       "review_status": "published"
-    },
-    {
-      "id": "articles:muhittin-bocek-ozgur-ozel-ferdi-zeyrek-950-bin-euro-iddiasi_20260605",
-      "slug": "muhittin-bocek-ozgur-ozel-ferdi-zeyrek-950-bin-euro-iddiasi_20260605",
-      "title": "Muhittin Böcek'ten Ek İfade: Özel İstedi, Zeyrek'e 950 Bin Euro Verdim",
-      "summary": "Antalya Büyükşehir Belediyesi'ne yönelik “rüşvet” ve “yolsuzluk” soruşturması kapsamında tutuklanıp görevinden uzaklaştırılan Muhittin Böcek, verdiği ek ifadede Özgür Özel'in talebiyle seçim döneminde Ferdi Zeyrek'e 950 bin Euro verdiğini ve oğlunun da CHP...",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "05.06.2026",
-      "date_iso": "2026-06-05",
-      "url": "/articles/muhittin-bocek-ozgur-ozel-ferdi-zeyrek-950-bin-euro-iddiasi_20260605/",
-      "canonical_url": "https://mansetradar.com.tr/articles/muhittin-bocek-ozgur-ozel-ferdi-zeyrek-950-bin-euro-iddiasi_20260605/",
-      "detail_json_url": "/data/details/articles/muhittin-bocek-ozgur-ozel-ferdi-zeyrek-950-bin-euro-iddiasi_20260605.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/muhittin-bocek-ozgur-ozel-ferdi-zeyrek-950-bin-euro-iddiasi_20260605.webp",
-      "image_alt": "Antalya Büyükşehir Belediyesi soruşturmasında ifade veren Muhittin Böcek, yanında bir çanta ile.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/muhittin-bocek-ozgur-ozel-ferdi-zeyrek-950-bin-euro-iddiasi_20260605.webp",
-        "alt": "Antalya Büyükşehir Belediyesi soruşturmasında ifade veren Muhittin Böcek, yanında bir çanta ile."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/muhittin-bocekten-ek-ifade-ozel-istedi-zeyreke-950-bin-euro-verdim-43193872",
-      "tags": [
-        "Muhittin Böcek",
-        "Özgür Özel",
-        "Ferdi Zeyrek",
-        "Antalya Büyükşehir Belediyesi",
-        "Rüşvet Soruşturması"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:montella-futbolda-kolay-diye-bir-sey-yok-dunya-kupasi-hazirliklari_20260605",
-      "slug": "montella-futbolda-kolay-diye-bir-sey-yok-dunya-kupasi-hazirliklari_20260605",
-      "title": "Montella: \"Futbolda Kolay Diye Bir Şey Yok\"",
-      "summary": "CMS NOT A Milli Futbol Takımı Teknik Direktörü Vincenzo Montella, 2026 FIFA Dünya Kupası hazırlıkları kapsamındaki Venezuela maçı öncesi basın toplantısında konuştu. Montella, D Grubu'nu \"kolay diye bir şey yok\" sözleriyle değerlendirirken, hazırlık maçları...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "05.06.2026",
-      "date_iso": "2026-06-05",
-      "url": "/articles/montella-futbolda-kolay-diye-bir-sey-yok-dunya-kupasi-hazirliklari_20260605/",
-      "canonical_url": "https://mansetradar.com.tr/articles/montella-futbolda-kolay-diye-bir-sey-yok-dunya-kupasi-hazirliklari_20260605/",
-      "detail_json_url": "/data/details/articles/montella-futbolda-kolay-diye-bir-sey-yok-dunya-kupasi-hazirliklari_20260605.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/montella-futbolda-kolay-diye-bir-sey-yok-dunya-kupasi-hazirliklari_20260605.webp",
-      "image_alt": "Montella: \"Futbolda Kolay Diye Bir Şey Yok\"",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/montella-futbolda-kolay-diye-bir-sey-yok-dunya-kupasi-hazirliklari_20260605.webp",
-        "alt": "Montella: \"Futbolda Kolay Diye Bir Şey Yok\""
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/vinconzo-montella-futbolda-kolay-diye-bir-sey-yok-43195114",
-      "tags": [
-        "Vincenzo Montella",
-        "A Milli Futbol Takımı",
-        "Dünya Kupası",
-        "Venezuela maçı",
-        "Hakan Çalhanoğlu",
-        "Kenan Yıldız",
-        "Kerem Aktürkoğlu",
-        "Ferdi Kadıoğlu"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -932,6 +929,40 @@
       "review_status": "published"
     },
     {
+      "id": "articles:kafede-zorbalik-once-taciz-sonra-siddet_20260606",
+      "slug": "kafede-zorbalik-once-taciz-sonra-siddet_20260606",
+      "title": "İstanbul'da Kafede Zorbalık: Önce Taciz Sonra Şiddet",
+      "summary": "İstanbul'un Avcılar ilçesinde bir kafede perşembe gecesi yaşanan olayda, iki genç müşteri olarak geldikleri kafede barista S.Y.'ye sarkıntılık yaptı. Tepki gösteren baristaya hakaret ve tehditler savuran bir kişi, ardından mekanı dağıtarak malzemeleri fırla...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "06.06.2026",
+      "date_iso": "2026-06-06",
+      "url": "/articles/kafede-zorbalik-once-taciz-sonra-siddet_20260606/",
+      "canonical_url": "https://mansetradar.com.tr/articles/kafede-zorbalik-once-taciz-sonra-siddet_20260606/",
+      "detail_json_url": "/data/details/articles/kafede-zorbalik-once-taciz-sonra-siddet_20260606.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/kafede-zorbalik-once-taciz-sonra-siddet_20260606.webp",
+      "image_alt": "Kafede yaşanan şiddet olayının ardından polis inceleme yapıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/kafede-zorbalik-once-taciz-sonra-siddet_20260606.webp",
+        "alt": "Kafede yaşanan şiddet olayının ardından polis inceleme yapıyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kafede-zorbalik-once-taciz-sonra-siddet-43195106",
+      "tags": [
+        "Avcılar",
+        "Kafede Şiddet",
+        "Barista",
+        "Taciz"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:irem-helvacioglu-mahallenin-deli-teyzesi-gibiyim-itirafi_20260606",
       "slug": "irem-helvacioglu-mahallenin-deli-teyzesi-gibiyim-itirafi_20260606",
       "title": "İrem Helvacıoğlu'ndan Travmatik Kazalar Sonrası Şaşırtan İtiraf: 'Mahallenin Deli Teyzesi...",
@@ -997,6 +1028,42 @@
         "Dolandırıcılık",
         "Altın",
         "Nakit Para"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:dso-gida-guvensizligi-uyarisi-2026_20260606",
+      "slug": "dso-gida-guvensizligi-uyarisi-2026_20260606",
+      "title": "DSÖ: Her 9 Kişiden 1'i Gıda Güvensizliğiyle Karşı Karşıya",
+      "summary": "Dünya Sağlık Örgütü (DSÖ) Beslenme ve Gıda Güvenliği Departmanı İzleme ve Gözetim Birimi Başkanı Elaine Borghi, Birleşmiş Milletler (BM) Cenevre Ofisi'nde yaptığı açıklamada, küresel olarak her 9 kişiden 1'ini etkileyen gıda güvensizliği krizine dikkat çekt...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "06.06.2026",
+      "date_iso": "2026-06-06",
+      "url": "/articles/dso-gida-guvensizligi-uyarisi-2026_20260606/",
+      "canonical_url": "https://mansetradar.com.tr/articles/dso-gida-guvensizligi-uyarisi-2026_20260606/",
+      "detail_json_url": "/data/details/articles/dso-gida-guvensizligi-uyarisi-2026_20260606.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/dso-gida-guvensizligi-uyarisi-2026_20260606.webp",
+      "image_alt": "DSÖ: Her 9 Kişiden 1'i Gıda Güvensizliğiyle Karşı Karşıya",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/dso-gida-guvensizligi-uyarisi-2026_20260606.webp",
+        "alt": "DSÖ: Her 9 Kişiden 1'i Gıda Güvensizliğiyle Karşı Karşıya"
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/dso-her-9-kisiden-1-i-gida-guvensizligiyle-karsi-karsiya-3889597",
+      "tags": [
+        "Gıda Güvenliği",
+        "DSÖ",
+        "Dünya Gıda Güvenliği Günü",
+        "Gıda Güvensizliği",
+        "Elaine Borghi",
+        "Tek Sağlık"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1529,74 +1596,6 @@
         "Petrol Fiyatları",
         "Enerji Şirketleri",
         "İlk Çeyrek Karları"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:hakan-safi-mason-greenwood-transferini-acikladi_20260605",
-      "slug": "hakan-safi-mason-greenwood-transferini-acikladi_20260605",
-      "title": "Hakan Safi'den Mason Greenwood Açıklaması: '4 Yıllığına Anlaştık'",
-      "summary": "Fenerbahçe başkan adayı Hakan Safi, Faruk Ilgaz Tesisleri'nde yaptığı açıklamalarda, Marsilya'dan yıldız oyuncu Mason Greenwood ile 4 yıllık anlaşma sağladıklarını duyurdu. Safi, Greenwood'un kariyerinin en değerli ve verimli yıllarında Fenerbahçe'ye gelmey...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "05.06.2026",
-      "date_iso": "2026-06-05",
-      "url": "/articles/hakan-safi-mason-greenwood-transferini-acikladi_20260605/",
-      "canonical_url": "https://mansetradar.com.tr/articles/hakan-safi-mason-greenwood-transferini-acikladi_20260605/",
-      "detail_json_url": "/data/details/articles/hakan-safi-mason-greenwood-transferini-acikladi_20260605.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/hakan-safi-mason-greenwood-transferini-acikladi_20260605.webp",
-      "image_alt": "Fenerbahçe forması üzerinde 'Greenwood' yazısı ve 10 numarası.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/hakan-safi-mason-greenwood-transferini-acikladi_20260605.webp",
-        "alt": "Fenerbahçe forması üzerinde 'Greenwood' yazısı ve 10 numarası."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/hakan-safi-mason-greenwoodu-acikladi-4-yilligina-anlastik-43195084",
-      "tags": [
-        "Hakan Safi",
-        "Mason Greenwood",
-        "Fenerbahçe",
-        "Transfer Haberleri"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:gokceada-ultra-trail-heyecani-basliyor_20260605",
-      "slug": "gokceada-ultra-trail-heyecani-basliyor_20260605",
-      "title": "Gökçeada Ultra Trail Yarışları Başlıyor: Sporcular Eşsiz Manzaralarda Ter Dökecek",
-      "summary": "Türkiye'nin en batı noktasında, güneşin son battığı topraklarda gerçekleştirilecek olan Gökçeada Ultra Trail yarışları başlıyor. Yarışlar, 44K ImrozUltra, 33K Midgut, 11K Funimroz ve 5K Minimode parkurlarında hem amatör hem de deneyimli sporcuları bir araya...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "05.06.2026",
-      "date_iso": "2026-06-05",
-      "url": "/articles/gokceada-ultra-trail-heyecani-basliyor_20260605/",
-      "canonical_url": "https://mansetradar.com.tr/articles/gokceada-ultra-trail-heyecani-basliyor_20260605/",
-      "detail_json_url": "/data/details/articles/gokceada-ultra-trail-heyecani-basliyor_20260605.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/gokceada-ultra-trail-heyecani-basliyor_20260605.webp",
-      "image_alt": "Gökçeada'da düzenlenen Ultra Trail yarışından genel bir görünüm.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/gokceada-ultra-trail-heyecani-basliyor_20260605.webp",
-        "alt": "Gökçeada'da düzenlenen Ultra Trail yarışından genel bir görünüm."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/gokceadada-ultra-trail-heyecani-basliyor-43194803",
-      "tags": [
-        "Gökçeada Ultra Trail",
-        "Ultra Maraton",
-        "Patika Koşusu",
-        "Spor Turizmi"
       ],
       "quality_score": 86,
       "review_status": "published"
