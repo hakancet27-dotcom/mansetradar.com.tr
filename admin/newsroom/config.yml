@@ -127,7 +127,7 @@ collections:
     extension: json
     format: json
     identifier_field: title
-    summary: "Durum: {{review_status}} | Skor: {{quality_score}} | Risk: {{quality_status}} | Bayrak: {{flag}} | {{title}}"
+    summary: "{{editor_badge}} | {{editor_list_hint}} | {{title}}"
     fields: &review_fields
       - label: Durum
         name: review_status
@@ -142,6 +142,7 @@ collections:
       - { label: Insani Durum, name: editor_badge, widget: string, required: false, readonly: true }
       - { label: Kisa Ozet, name: editor_summary, widget: text, required: false, readonly: true }
       - { label: Sonraki Adim, name: editor_next_step, widget: text, required: false, readonly: true }
+      - { label: Liste Ipuclari, name: editor_list_hint, widget: string, required: false, readonly: true }
       - { label: Editor Kontrol Listesi, name: editor_checklist, widget: list, required: false, readonly: true, field: { label: Madde, widget: string } }
       - { label: Kategori, name: category, widget: select, options: [Son Dakika, Gundem, Siyaset, Ekonomi, Dunya, Spor, Magazin, Teknoloji, Saglik, Video] }
       - { label: Baslik, name: title, widget: string }
@@ -169,7 +170,7 @@ collections:
     extension: json
     format: json
     identifier_field: title
-    summary: "Arsiv: {{review_status}} | Skor: {{quality_score}} | Risk: {{quality_status}} | {{title}}"
+    summary: "{{editor_badge}} | {{editor_list_hint}} | {{title}}"
     fields: *review_fields
 
   - name: newsroom_ai_requests
