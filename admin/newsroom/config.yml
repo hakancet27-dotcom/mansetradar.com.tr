@@ -208,9 +208,13 @@ collections:
     format: json
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     identifier_field: query
-    summary: "{{status}} | {{region}} | {{query}}"
+    summary: "{{operator_badge}} | {{operator_list_hint}} | {{query}}"
     fields:
       - { label: Durum, name: status, widget: select, default: watching, options: [watching, suggest_articles, generate_article, checked, article_request_created, archived] }
+      - { label: Insani Durum, name: operator_badge, widget: string, required: false, readonly: true }
+      - { label: Kisa Ozet, name: operator_summary, widget: text, required: false, readonly: true }
+      - { label: Sonraki Adim, name: operator_next_step, widget: text, required: false, readonly: true }
+      - { label: Liste Ipuclari, name: operator_list_hint, widget: string, required: false, readonly: true }
       - { label: Aranacak Konu, name: query, widget: string }
       - { label: Bolge, name: region, widget: select, default: TR, options: [TR, US, DE, WORLD] }
       - { label: Kategori, name: category, widget: select, default: auto, options: [auto, gundem, siyaset, ekonomi, dunya, spor, magazin, teknoloji, saglik] }
@@ -302,10 +306,14 @@ collections:
     format: json
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     identifier_field: job_name
-    summary: "{{status}} | {{preset}} | {{job_name}}"
+    summary: "{{operator_badge}} | {{operator_list_hint}} | {{job_name}}"
     fields:
       - { label: Islem Adi, name: job_name, widget: string }
       - { label: Durum, name: status, widget: select, default: queued, options: [queued, completed, failed, hold, cancelled] }
+      - { label: Insani Durum, name: operator_badge, widget: string, required: false, readonly: true }
+      - { label: Kisa Ozet, name: operator_summary, widget: text, required: false, readonly: true }
+      - { label: Sonraki Adim, name: operator_next_step, widget: text, required: false, readonly: true }
+      - { label: Liste Ipuclari, name: operator_list_hint, widget: string, required: false, readonly: true }
       - { label: Kaynak Gorsel, name: source_image, widget: image }
       - { label: Preset, name: preset, widget: select, default: article_hero, options: [article_hero, discover, social_share, thumbnail] }
       - { label: WebP Donustur, name: convert_webp, widget: boolean, default: true }
