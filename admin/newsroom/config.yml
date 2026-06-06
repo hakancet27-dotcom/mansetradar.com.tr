@@ -113,8 +113,8 @@ collections:
       - { label: Dogrulanmis Ham Bilgi, name: source_note, widget: text, required: false }
       - { label: Kaynak Linkleri, name: source_urls, widget: list, required: false, field: { label: URL, widget: string } }
       - { label: AI Talimati, name: editor_ai_instruction, widget: text, required: false }
-      - { label: Gorsel, name: uploaded_image, widget: image, required: false }
-      - { label: Gorsel Alt Metni, name: image_alt, widget: string, required: false }
+      - { label: Gorsel Yukle, name: uploaded_image, widget: image, required: false, hint: "Haberde gorsel yoksa buradan dosya secip ekleyebilirsin." }
+      - { label: Gorsel Alt Metni, name: image_alt, widget: string, required: false, hint: "Gorseli bir insan gibi kisa ve net tarif et." }
       - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, widget: string } }
       - { label: Meta Baslik, name: meta_title, widget: string, required: false }
       - { label: Meta Aciklama, name: meta_description, widget: text, required: false }
@@ -143,8 +143,9 @@ collections:
       - { label: Baslik, name: title, widget: string }
       - { label: Spot, name: spot, widget: text, required: false, hint: "Yayina gidecek kisa giris metni." }
       - { label: Haber Govdesi HTML, name: content_html, widget: text, required: false }
-      - { label: Gorsel URL, name: image_url, widget: string, required: false }
-      - { label: Gorsel Alt Metni, name: image_alt, widget: string, required: false }
+      - { label: Gorsel Yukle, name: uploaded_image, widget: image, required: false, hint: "Haberde gorsel yoksa en kolay yol buradan gorsel yuklemek." }
+      - { label: Gorsel URL, name: image_url, widget: string, required: false, hint: "Hazir bir gorsel URL'i varsa kullan; yoksa yukaridaki alan daha pratiktir." }
+      - { label: Gorsel Alt Metni, name: image_alt, widget: string, required: false, hint: "Okuyucuya ve Google'a gorselin ne anlattigini kisaca yaz." }
       - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, widget: string } }
       - { label: Meta Baslik, name: meta_title, widget: string, required: false }
       - { label: Meta Aciklama, name: meta_description, widget: text, required: false }

@@ -32,8 +32,8 @@ collections:
       - { label: Spot, name: spot, widget: text, required: false }
       - { label: Ozet, name: summary, widget: text, required: false }
       - { label: Haber Govdesi HTML, name: content_html, widget: text, required: false }
-      - { label: Gorsel URL, name: image_url, widget: string, required: false }
-      - { label: Gorsel Alt Metni, name: image_alt, widget: string, required: false }
+      - { label: Gorsel URL / Yukleme Yolu, name: image_url, widget: image, required: false, hint: "Gorselsiz bir habere en kolay buradan dosya yukleyebilirsin. Mevcut path de burada tutulur." }
+      - { label: Gorsel Alt Metni, name: image_alt, widget: string, required: false, hint: "Gorseli kisa, acik ve insani bir dille tarif et." }
       - { label: Meta Title, name: meta_title, widget: string, required: false }
       - { label: Meta Description, name: meta_description, widget: text, required: false }
       - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, widget: string } }
