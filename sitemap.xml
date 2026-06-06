@@ -49,28 +49,21 @@
 <!-- SITEMAP_ARTICLES_START -->
     <url>
         <loc>https://mansetradar.com.tr/news/</loc>
-        <lastmod>2026-06-05</lastmod>
+        <lastmod>2026-06-06</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://mansetradar.com.tr/nachrichten/</loc>
-        <lastmod>2026-06-05</lastmod>
+        <lastmod>2026-06-06</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://mansetradar.com.tr/oyunlar/</loc>
-        <lastmod>2026-06-05</lastmod>
+        <lastmod>2026-06-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://mansetradar.com.tr/articles/montella-futbolda-kolay-diye-bir-sey-yok-dunya-kupasi-hazirliklari_20260605/</loc>
-        <lastmod>2026-06-05</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-        <image:image><image:loc>https://mansetradar.com.tr/articles/images/montella-futbolda-kolay-diye-bir-sey-yok-dunya-kupasi-hazirliklari_20260605.webp</image:loc></image:image>
     </url>
     <url>
         <loc>https://mansetradar.com.tr/articles/aysegul-yildiz-mhp-katildi-siyasete-adim-atti_20260605/</loc>
@@ -148,6 +141,13 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image><image:loc>https://mansetradar.com.tr/articles/images/nvidianin-kore-ziyareti-robotik-ve-yapay-zeka-yatirimlari_20260605.webp</image:loc></image:image>
+    </url>
+    <url>
+        <loc>https://mansetradar.com.tr/articles/montella-futbolda-kolay-diye-bir-sey-yok-dunya-kupasi-hazirliklari_20260605/</loc>
+        <lastmod>2026-06-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image><image:loc>https://mansetradar.com.tr/articles/images/montella-futbolda-kolay-diye-bir-sey-yok-dunya-kupasi-hazirliklari_20260605.webp</image:loc></image:image>
     </url>
     <url>
         <loc>https://mansetradar.com.tr/articles/ankara-powerbank-yangini-pegasus-ucak-tahliye_20260605/</loc>
@@ -252,7 +252,7 @@
         <lastmod>2026-06-05</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <image:image><image:loc>https://mansetradar.com.tr/articles/images/fatih-terim-dunya-kupasi-montella-yorum_20260605.webp</image:loc></image:image>
+        <image:image><image:loc>https://mansetradar.com.tr/articles/images/a-milli-futbol-takimi-nin-2026-dunya-kupasi-genis-kadrosu-aciklandi_20260518_31d557c5.webp</image:loc></image:image>
     </url>
     <url>
         <loc>https://mansetradar.com.tr/articles/adalet-bakani-gurlekten-nevsehir-mustafapasaya-cifte-mujde-toki-dogalgaz_20260605/</loc>
