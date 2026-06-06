@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-06T00:00:00+00:00",
-    "article_count": 581,
+    "article_count": 582,
     "schema_version": 2,
     "section": "articles"
   },
@@ -181,6 +181,41 @@
         "İsveç"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606",
+      "slug": "sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606",
+      "title": "Şengül Gezer'in Yürek Yakan Hikayesi: 5 Büyük Acı",
+      "summary": "Ardanuç ilçesine bağlı Yolüstü köyünde yaşayan Şengül Gezer, yıllar boyunca peş peşe gelen kayıplarla sarsıldı. 1982'de kız bebeği Yeşim'i, 2005'te kızı Gözde'yi, 2012'de büyük oğlu Savaş'ı (33), 2021'de eşi Yalçın Gezer'i (60) ve son olarak 5 ay önce Artvi...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "06.06.2026",
+      "date_iso": "2026-06-06",
+      "url": "/articles/sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606/",
+      "canonical_url": "https://mansetradar.com.tr/articles/sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606/",
+      "detail_json_url": "/data/details/articles/sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606.webp",
+      "image_alt": "Şengül Gezer'in Yürek Yakan Hikayesi: 5 Büyük Acı",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606.webp",
+        "alt": "Şengül Gezer'in Yürek Yakan Hikayesi: 5 Büyük Acı"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/sengul-gezerin-yurek-yakan-hikayesi-art-arda-5-buyuk-aci-1i-bebek-4-cocugunu-ve-esini-kaybetti-43195859",
+      "tags": [
+        "Şengül Gezer",
+        "Artvin",
+        "Ardanuç",
+        "Aile Dramı",
+        "Kayıp"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -670,41 +705,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles:yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605",
-      "slug": "yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605",
-      "title": "Türkiye ve Yunanistan'dan Kaçak Eserlere Karşı Ortak İrade: 1055 Sikke Geri Döndü",
-      "summary": "Kapadokya'da düzenlenen Türkiye-Yunanistan 1. Kültür Forumu'nda önemli bir gelişme yaşandı. İki ülke arasındaki kültürel ilişkilerin ele alındığı forumda, kaçak yollarla yurt dışına çıkarılan 1055 adet sikke Türkiye'ye iade edildi. Bu iade, iki ülke arasınd...",
-      "category": "Son Dakika",
-      "category_slug": "son-dakika",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "05.06.2026",
-      "date_iso": "2026-06-05",
-      "url": "/articles/yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605/",
-      "canonical_url": "https://mansetradar.com.tr/articles/yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605/",
-      "detail_json_url": "/data/details/articles/yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605.webp",
-      "image_alt": "Kapadokya'da Türkiye ve Yunanistan kültür bakanlarının tarihi eserler üzerine yaptığı toplantı.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/yunanistan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade_20260605.webp",
-        "alt": "Kapadokya'da Türkiye ve Yunanistan kültür bakanlarının tarihi eserler üzerine yaptığı toplantı."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/yunanistandan-1055-sikke-geri-dondu-kacak-eserlere-karsi-ortak-irade-43192896",
-      "tags": [
-        "Kültür Forumu",
-        "Kültürel İş Birliği",
-        "Kaçak Eser",
-        "Sikke İadesi",
-        "Türkiye-Yunanistan İlişkileri"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -881,6 +881,41 @@
         "İsveç"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606",
+      "slug": "sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606",
+      "title": "Şengül Gezer'in Yürek Yakan Hikayesi: 5 Büyük Acı",
+      "summary": "Ardanuç ilçesine bağlı Yolüstü köyünde yaşayan Şengül Gezer, yıllar boyunca peş peşe gelen kayıplarla sarsıldı. 1982'de kız bebeği Yeşim'i, 2005'te kızı Gözde'yi, 2012'de büyük oğlu Savaş'ı (33), 2021'de eşi Yalçın Gezer'i (60) ve son olarak 5 ay önce Artvi...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "06.06.2026",
+      "date_iso": "2026-06-06",
+      "url": "/articles/sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606/",
+      "canonical_url": "https://mansetradar.com.tr/articles/sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606/",
+      "detail_json_url": "/data/details/articles/sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606.webp",
+      "image_alt": "Şengül Gezer'in Yürek Yakan Hikayesi: 5 Büyük Acı",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606.webp",
+        "alt": "Şengül Gezer'in Yürek Yakan Hikayesi: 5 Büyük Acı"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/sengul-gezerin-yurek-yakan-hikayesi-art-arda-5-buyuk-aci-1i-bebek-4-cocugunu-ve-esini-kaybetti-43195859",
+      "tags": [
+        "Şengül Gezer",
+        "Artvin",
+        "Ardanuç",
+        "Aile Dramı",
+        "Kayıp"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -1548,42 +1583,6 @@
         "MTB Eliminatör"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605",
-      "slug": "pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605",
-      "title": "Paşinyan'ın Seçim Videoları: Siyasi Tartışmadan Ekonomik Fırsata",
-      "summary": "Ermenistan Başbakanı Nikol Paşinyan'ın 7 Haziran seçimleri öncesinde paylaştığı videolar, hem siyasi eleştirilerin hedefi oldu hem de ülkenin yerel ürünleri için beklenmedik bir tanıtım fırsatı yarattı. İran Savaşı sırasında seçim gezilerine devam etmesi mu...",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "05.06.2026",
-      "date_iso": "2026-06-05",
-      "url": "/articles/pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605/",
-      "canonical_url": "https://mansetradar.com.tr/articles/pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605/",
-      "detail_json_url": "/data/details/articles/pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605.webp",
-      "image_alt": "Paşinyan'ın Seçim Videoları: Siyasi Tartışmadan Ekonomik Fırsata",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/pasinyanin-secim-videolari-siyasi-tartismadan-ekonomik-firsata_20260605.webp",
-        "alt": "Paşinyan'ın Seçim Videoları: Siyasi Tartışmadan Ekonomik Fırsata"
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/dunya/nikol-pasinyan-o-videolari-neden-paylasiyor-43194613",
-      "tags": [
-        "Nikol Paşinyan",
-        "Ermenistan Seçimleri",
-        "İran Savaşı",
-        "Ermeni Ekonomisi",
-        "Yerel Ürünler",
-        "Siyaset"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]
