@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-07T00:00:00+00:00",
-    "article_count": 351,
+    "article_count": 354,
     "schema_version": 2,
     "section": "articles"
   },
@@ -323,6 +323,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607",
+      "slug": "one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607",
+      "title": "One Run Koşusu 2.500'ü Aşkın Katılımcıyla İlk Kez Düzenlendi",
+      "summary": "Türkiye'nin en kapsayıcı koşu organizasyonlarından biri olma yolunda ilk kez düzenlenen One Run, 2.500'ü aşkın katılımcıyla büyük bir coşkuyla gerçekleştirildi. Gençlik ve Spor Bakanı Osman Aşkın Bak ile Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu'nun d...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607/",
+      "detail_json_url": "/data/details/articles/one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607.webp",
+      "image_alt": "One Run koşu organizasyonunda bir arada koşan katılımcılar ve sporcular.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607.webp",
+        "alt": "One Run koşu organizasyonunda bir arada koşan katılımcılar ve sporcular."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/one-run-2-500u-askin-katilimciyla-ilk-kez-buyuk-bir-coskuyla-gerceklesti-43196779",
+      "tags": [
+        "One Run",
+        "Osman Aşkın Bak",
+        "Abdulkadir Uraloğlu",
+        "Engelsiz Koşu",
+        "Koşu Organizasyonu"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:nasa-nancy-grace-roman-uzay-teleskobu-firlatma-tarihi_20260607",
       "slug": "nasa-nancy-grace-roman-uzay-teleskobu-firlatma-tarihi_20260607",
       "title": "NASA'nın Nancy Grace Roman Uzay Teleskobu için fırlatma tarihi öne çekildi",
@@ -533,6 +568,40 @@
       "review_status": "published"
     },
     {
+      "id": "articles:hakan-safi-aziz-yildirimi-tebrik-ederim_20260607",
+      "slug": "hakan-safi-aziz-yildirimi-tebrik-ederim_20260607",
+      "title": "Hakan Safi'den Seçim Açıklaması: 'Aziz Yıldırım'ı Tebrik Ederim'",
+      "summary": "Fenerbahçe Olağanüstü Seçimli Genel Kurul Toplantısı'nda Aziz Yıldırım 8 yıl sonra yeniden başkanlığa seçilirken, rakibi Hakan Safi oyların açıklandığı dakikalarda basın mensuplarına açıklamalarda bulunarak Yıldırım'ı tebrik etti.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/hakan-safi-aziz-yildirimi-tebrik-ederim_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/hakan-safi-aziz-yildirimi-tebrik-ederim_20260607/",
+      "detail_json_url": "/data/details/articles/hakan-safi-aziz-yildirimi-tebrik-ederim_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/hakan-safi-aziz-yildirimi-tebrik-ederim_20260607.webp",
+      "image_alt": "Hakan Safi Fenerbahçe Olağanüstü Seçimli Genel Kurul Toplantısı'nda açıklama yapıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/hakan-safi-aziz-yildirimi-tebrik-ederim_20260607.webp",
+        "alt": "Hakan Safi Fenerbahçe Olağanüstü Seçimli Genel Kurul Toplantısı'nda açıklama yapıyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/hakan-safi-aziz-yildirimi-tebrik-ederim-43197033",
+      "tags": [
+        "Fenerbahçe",
+        "Hakan Safi",
+        "Aziz Yıldırım",
+        "Fenerbahçe Seçim Sonuçları"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607",
       "slug": "hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607",
       "title": "Bakan Fidan Açıkladı: Türkiye ve Güney Kore Sinop Nükleer Santrali İçin Görüşüyor",
@@ -633,75 +702,6 @@
         "Hakan Safi",
         "Seçim",
         "Spor"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:fenerbahce-baskanlik-secimi-oy-verme-tamamlandi-yildirim-safi-sandik-basinda_20260607",
-      "slug": "fenerbahce-baskanlik-secimi-oy-verme-tamamlandi-yildirim-safi-sandik-basinda_20260607",
-      "title": "CANLI - Fenerbahçe'de seçim günü",
-      "summary": "Fenerbahçe Kulübü'nde gerçekleştirilen olağanüstü seçimli genel kurulda oy verme işlemi tamamlandı. Saat 10.00'da başlayan oy verme süreci, saat 17.00'de sona erdi. Kongre üyeleri, kulübün 35. başkanı olacak Aziz Yıldırım veya Hakan Safi için sandık başına...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/fenerbahce-baskanlik-secimi-oy-verme-tamamlandi-yildirim-safi-sandik-basinda_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/fenerbahce-baskanlik-secimi-oy-verme-tamamlandi-yildirim-safi-sandik-basinda_20260607/",
-      "detail_json_url": "/data/details/articles/fenerbahce-baskanlik-secimi-oy-verme-tamamlandi-yildirim-safi-sandik-basinda_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/fenerbahce-baskanlik-secimi-oy-verme-tamamlandi-yildirim-safi-sandik-basinda_20260607.webp",
-      "image_alt": "CANLI - Fenerbahçe'de seçim günü",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/fenerbahce-baskanlik-secimi-oy-verme-tamamlandi-yildirim-safi-sandik-basinda_20260607.webp",
-        "alt": "CANLI - Fenerbahçe'de seçim günü"
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/fenerbahce-baskanlik-secimi-son-durum-aziz-yildirim-mi-hakan-safi-mi-kazanacak-oy-verme-islemi-basladi-3889914-spor",
-      "tags": [
-        "Fenerbahçe",
-        "Başkanlık Seçimi",
-        "Aziz Yıldırım",
-        "Hakan Safi",
-        "Spor"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:ermenistan-parlamento-secimi-yarin_20260607",
-      "slug": "ermenistan-parlamento-secimi-yarin_20260607",
-      "title": "Ermenistan'da Yarın Parlamento Seçimi Yapılacak",
-      "summary": "Ermenistan'da halk, yarın düzenlenecek parlamento seçimlerinde oy kullanacak. Yaklaşık 3 milyon nüfusa sahip ülkede, 2 milyon 485 bin 232 kayıtlı seçmen bulunuyor. Seçimler öncesinde Rusya yanlısı \"Güçlü Ermenistan\" hareketine üye 6 aday gözaltına alındı. A...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/ermenistan-parlamento-secimi-yarin_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/ermenistan-parlamento-secimi-yarin_20260607/",
-      "detail_json_url": "/data/details/articles/ermenistan-parlamento-secimi-yarin_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/ermenistan-parlamento-secimi-yarin_20260607.webp",
-      "image_alt": "Ermenistan parlamento seçimleri öncesi oy sandığı ve bayrak görseli.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/ermenistan-parlamento-secimi-yarin_20260607.webp",
-        "alt": "Ermenistan parlamento seçimleri öncesi oy sandığı ve bayrak görseli."
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/dunya/ermenistan-yarin-secime-gidiyor-1727464",
-      "tags": [
-        "Ermenistan",
-        "Parlamento Seçimi",
-        "Nikol Paşinyan",
-        "Sivil Sözleşme Partisi"
       ],
       "quality_score": 76,
       "review_status": "published"
@@ -1023,6 +1023,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607",
+      "slug": "one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607",
+      "title": "One Run Koşusu 2.500'ü Aşkın Katılımcıyla İlk Kez Düzenlendi",
+      "summary": "Türkiye'nin en kapsayıcı koşu organizasyonlarından biri olma yolunda ilk kez düzenlenen One Run, 2.500'ü aşkın katılımcıyla büyük bir coşkuyla gerçekleştirildi. Gençlik ve Spor Bakanı Osman Aşkın Bak ile Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu'nun d...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607/",
+      "detail_json_url": "/data/details/articles/one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607.webp",
+      "image_alt": "One Run koşu organizasyonunda bir arada koşan katılımcılar ve sporcular.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607.webp",
+        "alt": "One Run koşu organizasyonunda bir arada koşan katılımcılar ve sporcular."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/one-run-2-500u-askin-katilimciyla-ilk-kez-buyuk-bir-coskuyla-gerceklesti-43196779",
+      "tags": [
+        "One Run",
+        "Osman Aşkın Bak",
+        "Abdulkadir Uraloğlu",
+        "Engelsiz Koşu",
+        "Koşu Organizasyonu"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:nasa-nancy-grace-roman-uzay-teleskobu-firlatma-tarihi_20260607",
       "slug": "nasa-nancy-grace-roman-uzay-teleskobu-firlatma-tarihi_20260607",
       "title": "NASA'nın Nancy Grace Roman Uzay Teleskobu için fırlatma tarihi öne çekildi",
@@ -1233,6 +1268,40 @@
       "review_status": "published"
     },
     {
+      "id": "articles:hakan-safi-aziz-yildirimi-tebrik-ederim_20260607",
+      "slug": "hakan-safi-aziz-yildirimi-tebrik-ederim_20260607",
+      "title": "Hakan Safi'den Seçim Açıklaması: 'Aziz Yıldırım'ı Tebrik Ederim'",
+      "summary": "Fenerbahçe Olağanüstü Seçimli Genel Kurul Toplantısı'nda Aziz Yıldırım 8 yıl sonra yeniden başkanlığa seçilirken, rakibi Hakan Safi oyların açıklandığı dakikalarda basın mensuplarına açıklamalarda bulunarak Yıldırım'ı tebrik etti.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/hakan-safi-aziz-yildirimi-tebrik-ederim_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/hakan-safi-aziz-yildirimi-tebrik-ederim_20260607/",
+      "detail_json_url": "/data/details/articles/hakan-safi-aziz-yildirimi-tebrik-ederim_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/hakan-safi-aziz-yildirimi-tebrik-ederim_20260607.webp",
+      "image_alt": "Hakan Safi Fenerbahçe Olağanüstü Seçimli Genel Kurul Toplantısı'nda açıklama yapıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/hakan-safi-aziz-yildirimi-tebrik-ederim_20260607.webp",
+        "alt": "Hakan Safi Fenerbahçe Olağanüstü Seçimli Genel Kurul Toplantısı'nda açıklama yapıyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/hakan-safi-aziz-yildirimi-tebrik-ederim-43197033",
+      "tags": [
+        "Fenerbahçe",
+        "Hakan Safi",
+        "Aziz Yıldırım",
+        "Fenerbahçe Seçim Sonuçları"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607",
       "slug": "hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607",
       "title": "Bakan Fidan Açıkladı: Türkiye ve Güney Kore Sinop Nükleer Santrali İçin Görüşüyor",
@@ -1333,6 +1402,41 @@
         "Hakan Safi",
         "Seçim",
         "Spor"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:fenerbahce-beko-anadolu-efesi-uzatmada-yenerek-finale-yukseldi_20260607",
+      "slug": "fenerbahce-beko-anadolu-efesi-uzatmada-yenerek-finale-yukseldi_20260607",
+      "title": "Fenerbahçe Beko, Anadolu Efes'i Uzatmada Devirerek Finale Yükseldi",
+      "summary": "Türkiye Sigorta Basketbol Süper Ligi play-off yarı final serisi dördüncü maçında Fenerbahçe Beko, normal süresi 87-87 biten mücadelede Anadolu Efes'i uzatma sonunda 102-93 yenerek seriyi 3-1 kazandı ve finale yükseldi.",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/fenerbahce-beko-anadolu-efesi-uzatmada-yenerek-finale-yukseldi_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/fenerbahce-beko-anadolu-efesi-uzatmada-yenerek-finale-yukseldi_20260607/",
+      "detail_json_url": "/data/details/articles/fenerbahce-beko-anadolu-efesi-uzatmada-yenerek-finale-yukseldi_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/fenerbahce-beko-anadolu-efesi-uzatmada-yenerek-finale-yukseldi_20260607.webp",
+      "image_alt": "Fenerbahçe Beko ve Anadolu Efes basketbol maçından bir enstantane.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/fenerbahce-beko-anadolu-efesi-uzatmada-yenerek-finale-yukseldi_20260607.webp",
+        "alt": "Fenerbahçe Beko ve Anadolu Efes basketbol maçından bir enstantane."
+      },
+      "source_name": "Spor haberleri - Son dakika spor haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/potada-ilk-finalist-fenerbahce-beko-p325994",
+      "tags": [
+        "Fenerbahçe Beko",
+        "Anadolu Efes",
+        "Basketbol Süper Ligi",
+        "Play-off",
+        "Shane Larkin"
       ],
       "quality_score": 76,
       "review_status": "published"
@@ -1473,111 +1577,6 @@
         "Spor Tarihi"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:dua-lipa-callum-turner-sicilya-dugun_20260607",
-      "slug": "dua-lipa-callum-turner-sicilya-dugun_20260607",
-      "title": "Dua Lipa ve Callum Turner'dan Sicilya'da Görkemli Düğün",
-      "summary": "Dünyaca ünlü İngiliz şarkıcı Dua Lipa ve oyuncu Callum Turner, Londra'daki sade nikahlarının ardından İtalya'nın Sicilya adasında üç gün sürecek görkemli bir düğünle evlendi. Yaklaşık 1,73 milyon dolara mal olduğu bildirilen kutlamalar, Cuma günü başladı ve...",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/dua-lipa-callum-turner-sicilya-dugun_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/dua-lipa-callum-turner-sicilya-dugun_20260607/",
-      "detail_json_url": "/data/details/articles/dua-lipa-callum-turner-sicilya-dugun_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/pexels-the-earthy-jay-30727325.jpg",
-      "image_alt": "Dua Lipa ve Callum Turner'ın Sicilya'daki görkemli düğününden bir kare.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/pexels-the-earthy-jay-30727325.jpg",
-        "alt": "Dua Lipa ve Callum Turner'ın Sicilya'daki görkemli düğününden bir kare."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/dua-lipa-ve-callum-turner-dan-sicilya-da-gorkemli-dugun-3889912-magazin",
-      "tags": [
-        "Dua Lipa",
-        "Callum Turner",
-        "Sicilya Düğünü",
-        "Magazin"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607",
-      "slug": "diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607",
-      "title": "Diyarbakır'da Güran Ailesi İçin Adalet Çağrısı: \"Nevzat Bahtiyar Katildir\"",
-      "summary": "Diyarbakır’da kurulan “Narin Güran ve Ailesine Adalet Platformu”, Dağkapı Meydanı’nda gerçekleştirdiği basın açıklamasıyla Güran ailesi için adalet çağrısında bulundu. Platform adına konuşan Barışçılar Kulübü Başkanı Ömer Aydın, Narin Güran cinayetinde aile...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607/",
-      "detail_json_url": "/data/details/articles/diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607.webp",
-      "image_alt": "Diyarbakır Dağkapı Meydanı'nda Narin Güran ve ailesi için düzenlenen adalet platformu basın açıklaması.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607.webp",
-        "alt": "Diyarbakır Dağkapı Meydanı'nda Narin Güran ve ailesi için düzenlenen adalet platformu basın açıklaması."
-      },
-      "source_name": "Cumhuriyet Gazetesi",
-      "source_url": "https://www.cumhuriyet.com.tr/turkiye/diyarbakir-da-guran-ailesi-icin-adalet-talebinde-bulundular-gelin-narin-in-ailesinden-helallik-isteyin-2510149",
-      "tags": [
-        "Narin Güran",
-        "Güran Ailesi",
-        "Ömer Aydın",
-        "Diyarbakır",
-        "Nevzat Bahtiyar",
-        "Adalet Platformu"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:dilan-polat-instagram-hesabi-kapatildi-ilk-aciklama_20260607",
-      "slug": "dilan-polat-instagram-hesabi-kapatildi-ilk-aciklama_20260607",
-      "title": "Dilan Polat'ın Instagram Hesabı Kapatıldı: İlk Açıklama Geldi",
-      "summary": "Sosyal medya paylaşımlarıyla gündeme gelen Dilan Polat'ın 6,3 milyon takipçili Instagram hesabı, Ankara Sulh Ceza Hakimliği kararıyla erişime kapatıldı. Kararın ardından aileden yedek hesap açıklaması gelirken, Dilan Polat da konuyla ilgili ilk kez konuştu.",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/dilan-polat-instagram-hesabi-kapatildi-ilk-aciklama_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/dilan-polat-instagram-hesabi-kapatildi-ilk-aciklama_20260607/",
-      "detail_json_url": "/data/details/articles/dilan-polat-instagram-hesabi-kapatildi-ilk-aciklama_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/dilan-polat-instagram-hesabi-kapatildi-ilk-aciklama_20260607.webp",
-      "image_alt": "Dilan Polat'ın Instagram hesabının kapatılmasına ilişkin temsilî görsel",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/dilan-polat-instagram-hesabi-kapatildi-ilk-aciklama_20260607.webp",
-        "alt": "Dilan Polat'ın Instagram hesabının kapatılmasına ilişkin temsilî görsel"
-      },
-      "source_name": "Magazin haberleri - Son dakika magazin haberleri - Sözcü",
-      "source_url": "https://www.sozcu.com.tr/6-3-milyon-takipcili-hesabi-kapatilmisti-dilan-polat-tan-yeni-aciklama-p325959",
-      "tags": [
-        "Dilan Polat",
-        "Şükran Polat",
-        "Instagram",
-        "Sosyal Medya",
-        "Erişim Engeli"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]

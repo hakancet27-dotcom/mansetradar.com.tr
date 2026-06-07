@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-07T00:00:00+00:00",
-    "article_count": 351,
+    "article_count": 354,
     "schema_version": 2,
     "category_slug": "siyaset"
   },
@@ -74,6 +74,40 @@
         "TBMM",
         "İlim Yayma Cemiyeti",
         "Vefa Lisesi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:hakan-safi-aziz-yildirimi-tebrik-ederim_20260607",
+      "slug": "hakan-safi-aziz-yildirimi-tebrik-ederim_20260607",
+      "title": "Hakan Safi'den Seçim Açıklaması: 'Aziz Yıldırım'ı Tebrik Ederim'",
+      "summary": "Fenerbahçe Olağanüstü Seçimli Genel Kurul Toplantısı'nda Aziz Yıldırım 8 yıl sonra yeniden başkanlığa seçilirken, rakibi Hakan Safi oyların açıklandığı dakikalarda basın mensuplarına açıklamalarda bulunarak Yıldırım'ı tebrik etti.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/hakan-safi-aziz-yildirimi-tebrik-ederim_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/hakan-safi-aziz-yildirimi-tebrik-ederim_20260607/",
+      "detail_json_url": "/data/details/articles/hakan-safi-aziz-yildirimi-tebrik-ederim_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/hakan-safi-aziz-yildirimi-tebrik-ederim_20260607.webp",
+      "image_alt": "Hakan Safi Fenerbahçe Olağanüstü Seçimli Genel Kurul Toplantısı'nda açıklama yapıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/hakan-safi-aziz-yildirimi-tebrik-ederim_20260607.webp",
+        "alt": "Hakan Safi Fenerbahçe Olağanüstü Seçimli Genel Kurul Toplantısı'nda açıklama yapıyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/hakan-safi-aziz-yildirimi-tebrik-ederim-43197033",
+      "tags": [
+        "Fenerbahçe",
+        "Hakan Safi",
+        "Aziz Yıldırım",
+        "Fenerbahçe Seçim Sonuçları"
       ],
       "quality_score": 86,
       "review_status": "published"
