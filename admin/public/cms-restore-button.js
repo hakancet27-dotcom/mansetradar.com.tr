@@ -1,8 +1,5 @@
 (() => {
-  const workflowRepo = "hakancet27-dotcom/haber-botu";
-  const workflowFile = "restore-single-article.yml";
   const branch = "main";
-  const publicRestoreRequestFolder = "cms-restore-requests";
   const dataRepoByPanel = {
     public: "hakancet27-dotcom/mansetradar.com.tr",
     newsroom: "hakancet27-dotcom/haber-botu",
@@ -28,15 +25,22 @@
   const disabledButtonStyle = `${buttonStyle}opacity:.55;cursor:not-allowed;`;
   const collectionFolders = {
     public: {
+      delete_flow_published: "cms-delete-flow/published",
       delete_flow_unpublished: "cms-delete-flow/unpublished",
       delete_flow_archived: "cms-delete-flow/archived",
       delete_flow_trash: "cms-delete-flow/trash",
     },
     newsroom: {
+      delete_flow_published: "newsroom/delete-flow/published",
       delete_flow_unpublished: "newsroom/delete-flow/unpublished",
       delete_flow_archived: "newsroom/delete-flow/archived",
       delete_flow_trash: "newsroom/delete-flow/trash",
     },
+  };
+  const restoreStageMap = {
+    unpublished: "published",
+    archived: "unpublished",
+    trash: "archived",
   };
   const entryCache = new Map();
 
@@ -66,7 +70,8 @@
 
   function markerToArticlePath(marker) {
     if (!marker) return "";
-    return marker.replace(/__/g, "/").replace(/\.json$/, ".json");
+    const path = marker.replace(/__/g, "/");
+    return path.endsWith(".json") ? path : `${path}.json`;
   }
 
   function isEntryPage() {
@@ -134,6 +139,140 @@
     return response.status === 204 ? null : response.json();
   }
 
+  function utf8ToBase64(text) {
+    return btoa(unescape(encodeURIComponent(text)));
+  }
+
+  function base64ToUtf8(text) {
+    return decodeURIComponent(escape(atob(text)));
+  }
+
+  function markerFileName(articlePath) {
+    return articlePath.replace(/\//g, "__").replace(/\.json$/i, "") + ".json";
+  }
+
+  function nextDeleteAction(stage) {
+    return {
+      published: "Delete = Yayindan Kaldir",
+      unpublished: "Delete = Arsive Tasi",
+      archived: "Delete = Cop Kutusuna Gonder",
+      trash: "Delete = Kalici Sil",
+    }[stage] || "";
+  }
+
+  async function fetchContentFile(repo, path, token) {
+    return githubRequest(
+      `/repos/${repo}/contents/${encodeURIComponent(path).replace(/%2F/g, "/")}?ref=${encodeURIComponent(branch)}`,
+      token
+    );
+  }
+
+  async function putContentFile(repo, path, payload, token, sha = "") {
+    const body = {
+      message: payload.message,
+      content: utf8ToBase64(payload.content),
+      branch,
+    };
+    if (sha) body.sha = sha;
+    return githubRequest(
+      `/repos/${repo}/contents/${encodeURIComponent(path).replace(/%2F/g, "/")}`,
+      token,
+      {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      }
+    );
+  }
+
+  async function deleteContentFile(repo, path, token, message) {
+    const current = await fetchContentFile(repo, path, token);
+    return githubRequest(
+      `/repos/${repo}/contents/${encodeURIComponent(path).replace(/%2F/g, "/")}`,
+      token,
+      {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          message,
+          sha: current.sha,
+          branch,
+        }),
+      }
+    );
+  }
+
+  async function upsertMarker(repo, articlePath, stage, articlePayload, token) {
+    const folder = collectionFolders.public[`delete_flow_${stage}`];
+    const path = `${folder}/${markerFileName(articlePath)}`;
+    const marker = {
+      title: articlePayload.title || articlePayload.slug || articlePath,
+      slug: articlePayload.slug || "",
+      date: articlePayload.date || "",
+      category: articlePayload.category || "",
+      language: articlePayload.language || "",
+      article_path: articlePath,
+      current_stage: stage,
+      next_delete_action: nextDeleteAction(stage),
+      publication_lifecycle: articlePayload.publication_lifecycle || stage,
+    };
+    let sha = "";
+    try {
+      const existing = await fetchContentFile(repo, path, token);
+      sha = existing.sha || "";
+    } catch (_error) {
+      sha = "";
+    }
+    await putContentFile(
+      repo,
+      path,
+      {
+        message: `Sync delete flow marker for ${articlePath}`,
+        content: `${JSON.stringify(marker, null, 2)}\n`,
+      },
+      token,
+      sha
+    );
+  }
+
+  async function restoreViaPublicRepo(articlePath, stage, token) {
+    const repo = dataRepo();
+    const nextStage = restoreStageMap[stage];
+    if (!nextStage) {
+      throw new Error(`Desteklenmeyen asama: ${stage}`);
+    }
+
+    const articleFile = await fetchContentFile(repo, articlePath, token);
+    const articlePayload = JSON.parse(base64ToUtf8((articleFile.content || "").replace(/\n/g, "")));
+    const now = new Date().toISOString();
+    articlePayload.publication_lifecycle = nextStage;
+    articlePayload.publication_changed_at = now;
+    articlePayload.publication_changed_by = "cms_restore_button_public";
+    articlePayload.manual_noindex = nextStage !== "published";
+    articlePayload.indexed_on_home = nextStage === "published";
+    articlePayload.publication_note = `CMS restore button applied: ${stage} -> ${nextStage}`;
+    if (nextStage !== "trash") {
+      delete articlePayload.trashed_at;
+      delete articlePayload.trash_delete_after;
+    }
+
+    await putContentFile(
+      repo,
+      articlePath,
+      {
+        message: `Restore article to ${nextStage}: ${articlePath}`,
+        content: `${JSON.stringify(articlePayload, null, 2)}\n`,
+      },
+      token,
+      articleFile.sha
+    );
+
+    const currentMarkerPath = `${collectionFolders.public[`delete_flow_${stage}`]}/${markerFileName(articlePath)}`;
+    await deleteContentFile(repo, currentMarkerPath, token, `Remove ${stage} marker for ${articlePath}`);
+    await upsertMarker(repo, articlePath, nextStage, articlePayload, token);
+    entryCache.clear();
+  }
+
   async function triggerRestore(articlePath, stage) {
     const token = readStoredToken();
     if (!token) {
@@ -141,50 +280,11 @@
     }
 
     if (panelKind() === "public") {
-      const fileSafe = articlePath.replace(/[/.]/g, "__");
-      const requestPath = `${publicRestoreRequestFolder}/${Date.now()}-${fileSafe}.json`;
-      const payload = {
-        article_path: articlePath,
-        current_stage: stage,
-        requested_at: new Date().toISOString(),
-        requested_by: "cms_restore_button_public",
-      };
-      const content = btoa(unescape(encodeURIComponent(JSON.stringify(payload, null, 2) + "\n")));
-      await githubRequest(
-        `/repos/${dataRepo()}/contents/${encodeURIComponent(requestPath).replace(/%2F/g, "/")}`,
-        token,
-        {
-          method: "PUT",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            message: `Queue CMS restore request for ${articlePath}`,
-            content,
-            branch,
-          }),
-        }
-      );
+      await restoreViaPublicRepo(articlePath, stage, token);
       return;
     }
 
-    await githubRequest(
-      `/repos/${workflowRepo}/actions/workflows/${workflowFile}/dispatches`,
-      token,
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          ref: branch,
-          inputs: {
-            article_path: articlePath,
-            current_stage: stage,
-          },
-        }),
-      }
-    );
+    throw new Error("Newsroom geri al akisi henuz public kadar sade degil. Simdilik public panelden geri al.");
   }
 
   async function loadFolderEntries(folder) {
