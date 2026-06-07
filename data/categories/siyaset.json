@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-07T00:00:00+00:00",
-    "article_count": 338,
+    "article_count": 340,
     "schema_version": 2,
     "category_slug": "siyaset"
   },
@@ -40,6 +40,41 @@
         "Kiryakos Miçotakis",
         "Doğu Ege",
         "Girit"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607",
+      "slug": "hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607",
+      "title": "Bakan Fidan Açıkladı: Türkiye ve Güney Kore Sinop Nükleer Santrali İçin Görüşüyor",
+      "summary": "Dışişleri Bakanı Hakan Fidan, Güney Kore ziyareti kapsamında gerçekleştirdiği mülakatta, iki ülke arasındaki köklü müttefiklik ilişkilerini ele alarak Sinop Nükleer Santrali projesinde olası bir işbirliği için görüşmelerin başladığını duyurdu.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607/",
+      "detail_json_url": "/data/details/articles/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607.webp",
+      "image_alt": "Dışişleri Bakanı Hakan Fidan Güney Kore ziyareti kapsamında mülakat verirken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607.webp",
+        "alt": "Dışişleri Bakanı Hakan Fidan Güney Kore ziyareti kapsamında mülakat verirken."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/disisleri-bakani-hakan-fidan-turkiye-cozum-icin-yardima-hazir-7601109",
+      "tags": [
+        "Hakan Fidan",
+        "Güney Kore",
+        "Sinop Nükleer Santrali",
+        "Türkiye Güney Kore ilişkileri",
+        "KEPCO"
       ],
       "quality_score": 86,
       "review_status": "published"

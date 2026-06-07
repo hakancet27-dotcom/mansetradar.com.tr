@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-07T00:00:00+00:00",
-    "article_count": 338,
+    "article_count": 340,
     "schema_version": 2,
     "section": "articles"
   },
@@ -255,6 +255,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607",
+      "slug": "hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607",
+      "title": "Bakan Fidan Açıkladı: Türkiye ve Güney Kore Sinop Nükleer Santrali İçin Görüşüyor",
+      "summary": "Dışişleri Bakanı Hakan Fidan, Güney Kore ziyareti kapsamında gerçekleştirdiği mülakatta, iki ülke arasındaki köklü müttefiklik ilişkilerini ele alarak Sinop Nükleer Santrali projesinde olası bir işbirliği için görüşmelerin başladığını duyurdu.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607/",
+      "detail_json_url": "/data/details/articles/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607.webp",
+      "image_alt": "Dışişleri Bakanı Hakan Fidan Güney Kore ziyareti kapsamında mülakat verirken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607.webp",
+        "alt": "Dışişleri Bakanı Hakan Fidan Güney Kore ziyareti kapsamında mülakat verirken."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/disisleri-bakani-hakan-fidan-turkiye-cozum-icin-yardima-hazir-7601109",
+      "tags": [
+        "Hakan Fidan",
+        "Güney Kore",
+        "Sinop Nükleer Santrali",
+        "Türkiye Güney Kore ilişkileri",
+        "KEPCO"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:guller-ve-gunahlar-sezon-finali-gelismeler_20260607",
       "slug": "guller-ve-gunahlar-sezon-finali-gelismeler_20260607",
       "title": "Güller ve Günahlar Dizisinde Şok Gelişmeler: Sezon Finaline Doğru Geri Sayım",
@@ -497,6 +532,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles:diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607",
+      "slug": "diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607",
+      "title": "Diyarbakır'da Güran Ailesi İçin Adalet Çağrısı: \"Nevzat Bahtiyar Katildir\"",
+      "summary": "Diyarbakır’da kurulan “Narin Güran ve Ailesine Adalet Platformu”, Dağkapı Meydanı’nda gerçekleştirdiği basın açıklamasıyla Güran ailesi için adalet çağrısında bulundu. Platform adına konuşan Barışçılar Kulübü Başkanı Ömer Aydın, Narin Güran cinayetinde aile...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607/",
+      "detail_json_url": "/data/details/articles/diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607.webp",
+      "image_alt": "Diyarbakır Dağkapı Meydanı'nda Narin Güran ve ailesi için düzenlenen adalet platformu basın açıklaması.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607.webp",
+        "alt": "Diyarbakır Dağkapı Meydanı'nda Narin Güran ve ailesi için düzenlenen adalet platformu basın açıklaması."
+      },
+      "source_name": "Cumhuriyet Gazetesi",
+      "source_url": "https://www.cumhuriyet.com.tr/turkiye/diyarbakir-da-guran-ailesi-icin-adalet-talebinde-bulundular-gelin-narin-in-ailesinden-helallik-isteyin-2510149",
+      "tags": [
+        "Narin Güran",
+        "Güran Ailesi",
+        "Ömer Aydın",
+        "Diyarbakır",
+        "Nevzat Bahtiyar",
+        "Adalet Platformu"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:dilan-polat-instagram-hesabi-kapatildi-ilk-aciklama_20260607",
       "slug": "dilan-polat-instagram-hesabi-kapatildi-ilk-aciklama_20260607",
       "title": "Dilan Polat'ın Instagram Hesabı Kapatıldı: İlk Açıklama Geldi",
@@ -630,75 +701,6 @@
         "silahlı saldırı",
         "kasten yaralama",
         "Ataşehir"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:a-milli-futbol-takimi-hazirlik-maclarinda-galip-geldi_20260607",
-      "slug": "a-milli-futbol-takimi-hazirlik-maclarinda-galip-geldi_20260607",
-      "title": "A Milli Futbol Takımı, Venezuela'yı da Mağlup Ederek Hazırlık Maçlarını Galibiyetle Tamamladı",
-      "summary": "A Milli Futbol Takımı, FIFA Dünya Kupası hazırlıkları kapsamında ABD'de karşılaştığı Venezuela'yı 2-1 mağlup etti. Bu galibiyetle hazırlık dönemindeki iki maçını da kazanan Milliler, Dünya Kupası ana kamp merkezi olan Arizona Mesa'ya geçecek.",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/a-milli-futbol-takimi-hazirlik-maclarinda-galip-geldi_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/a-milli-futbol-takimi-hazirlik-maclarinda-galip-geldi_20260607/",
-      "detail_json_url": "/data/details/articles/a-milli-futbol-takimi-hazirlik-maclarinda-galip-geldi_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/pexels-anil-sharma-32099033.jpg",
-      "image_alt": "A Milli Futbol Takımı oyuncusu Venezuela'ya karşı gol atıyor.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/pexels-anil-sharma-32099033.jpg",
-        "alt": "A Milli Futbol Takımı oyuncusu Venezuela'ya karşı gol atıyor."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/a-milli-futbol-takimi-dunya-kupasi-oncesi-son-hazirlik-macinda-galip-geldi-3889892-spor",
-      "tags": [
-        "A Milli Futbol Takımı",
-        "Hazırlık Maçı",
-        "Venezuela",
-        "FIFA Dünya Kupası"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:zelenskiy-putin-gorusme-cagrisi-red_20260606",
-      "slug": "zelenskiy-putin-gorusme-cagrisi-red_20260606",
-      "title": "Zelenskiy'den Putin'e Mektup: Görüşelim, Putin'den Yanıt: Manası Yok",
-      "summary": "Ukrayna Devlet Başkanı Volodimir Zelenskiy, Rusya Devlet Başkanı Vladimir Putin'e açık bir mektup yazarak yüz yüze görüşme ve tam kapsamlı ateşkes önerisinde bulundu. Zelenskiy'nin bu çağrısına yanıt veren Putin ise mevcut koşullarda böyle bir görüşmenin 'a...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "06.06.2026",
-      "date_iso": "2026-06-06",
-      "url": "/articles/zelenskiy-putin-gorusme-cagrisi-red_20260606/",
-      "canonical_url": "https://mansetradar.com.tr/articles/zelenskiy-putin-gorusme-cagrisi-red_20260606/",
-      "detail_json_url": "/data/details/articles/zelenskiy-putin-gorusme-cagrisi-red_20260606.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/zelenskiy-putin-gorusme-cagrisi-red_20260606.webp",
-      "image_alt": "Zelenskiy'den Putin'e mektup ve Putin'den yanıt.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/zelenskiy-putin-gorusme-cagrisi-red_20260606.webp",
-        "alt": "Zelenskiy'den Putin'e mektup ve Putin'den yanıt."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/dunya/zelenskiy-goruselim-putin-manasi-yok-7600256",
-      "tags": [
-        "Zelenskiy",
-        "Putin",
-        "Ukrayna",
-        "Rusya",
-        "Barış Görüşmeleri"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -952,6 +954,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607",
+      "slug": "hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607",
+      "title": "Bakan Fidan Açıkladı: Türkiye ve Güney Kore Sinop Nükleer Santrali İçin Görüşüyor",
+      "summary": "Dışişleri Bakanı Hakan Fidan, Güney Kore ziyareti kapsamında gerçekleştirdiği mülakatta, iki ülke arasındaki köklü müttefiklik ilişkilerini ele alarak Sinop Nükleer Santrali projesinde olası bir işbirliği için görüşmelerin başladığını duyurdu.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607/",
+      "detail_json_url": "/data/details/articles/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607.webp",
+      "image_alt": "Dışişleri Bakanı Hakan Fidan Güney Kore ziyareti kapsamında mülakat verirken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607.webp",
+        "alt": "Dışişleri Bakanı Hakan Fidan Güney Kore ziyareti kapsamında mülakat verirken."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/disisleri-bakani-hakan-fidan-turkiye-cozum-icin-yardima-hazir-7601109",
+      "tags": [
+        "Hakan Fidan",
+        "Güney Kore",
+        "Sinop Nükleer Santrali",
+        "Türkiye Güney Kore ilişkileri",
+        "KEPCO"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:guller-ve-gunahlar-sezon-finali-gelismeler_20260607",
       "slug": "guller-ve-gunahlar-sezon-finali-gelismeler_20260607",
       "title": "Güller ve Günahlar Dizisinde Şok Gelişmeler: Sezon Finaline Doğru Geri Sayım",
@@ -1189,6 +1226,42 @@
         "Callum Turner",
         "Sicilya Düğünü",
         "Magazin"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607",
+      "slug": "diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607",
+      "title": "Diyarbakır'da Güran Ailesi İçin Adalet Çağrısı: \"Nevzat Bahtiyar Katildir\"",
+      "summary": "Diyarbakır’da kurulan “Narin Güran ve Ailesine Adalet Platformu”, Dağkapı Meydanı’nda gerçekleştirdiği basın açıklamasıyla Güran ailesi için adalet çağrısında bulundu. Platform adına konuşan Barışçılar Kulübü Başkanı Ömer Aydın, Narin Güran cinayetinde aile...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607/",
+      "detail_json_url": "/data/details/articles/diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607.webp",
+      "image_alt": "Diyarbakır Dağkapı Meydanı'nda Narin Güran ve ailesi için düzenlenen adalet platformu basın açıklaması.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607.webp",
+        "alt": "Diyarbakır Dağkapı Meydanı'nda Narin Güran ve ailesi için düzenlenen adalet platformu basın açıklaması."
+      },
+      "source_name": "Cumhuriyet Gazetesi",
+      "source_url": "https://www.cumhuriyet.com.tr/turkiye/diyarbakir-da-guran-ailesi-icin-adalet-talebinde-bulundular-gelin-narin-in-ailesinden-helallik-isteyin-2510149",
+      "tags": [
+        "Narin Güran",
+        "Güran Ailesi",
+        "Ömer Aydın",
+        "Diyarbakır",
+        "Nevzat Bahtiyar",
+        "Adalet Platformu"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1504,75 +1577,6 @@
         "Yapay Zeka"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606",
-      "slug": "tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606",
-      "title": "Tomb Raider: Legacy of Atlantis PC Sistem Gereksinimleri Açıklandı",
-      "summary": "Crystal Dynamics ve Flying Wild Hog tarafından geliştirilen ve Amazon Game Studios tarafından yayınlanacak olan Tomb Raider: Legacy of Atlantis'in PC sistem gereksinimleri açıklandı. Unreal Engine 5 ile hazırlanan oyun, 12 Şubat 2027 tarihinde oyuncularla b...",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "06.06.2026",
-      "date_iso": "2026-06-06",
-      "url": "/articles/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606/",
-      "canonical_url": "https://mansetradar.com.tr/articles/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606/",
-      "detail_json_url": "/data/details/articles/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606.webp",
-      "image_alt": "Lara Croft, Tomb Raider: Legacy of Atlantis oyununda antik Atlantis kalıntılarını keşfederken gösteriliyor.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/tomb-raider-legacy-of-atlantis-pc-sistem-gereksinimleri-aciklandi_20260606.webp",
-        "alt": "Lara Croft, Tomb Raider: Legacy of Atlantis oyununda antik Atlantis kalıntılarını keşfederken gösteriliyor."
-      },
-      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
-      "source_url": "https://www.donanimhaber.com/tomb-raider-legacy-of-atlantis-sistem-gereksinimleri-aciklandi--206494",
-      "tags": [
-        "Tomb Raider",
-        "Legacy of Atlantis",
-        "Sistem Gereksinimleri",
-        "PC Oyunu",
-        "Teknoloji"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:tbmm-baskani-kurtulmustan-nato-zirvesi-ve-finlandiya-isvec-ziyareti-aciklamalari_20260606",
-      "slug": "tbmm-baskani-kurtulmustan-nato-zirvesi-ve-finlandiya-isvec-ziyareti-aciklamalari_20260606",
-      "title": "TBMM Başkanı Kurtulmuş'tan NATO Zirvesi ve Finlandiya-İsveç Ziyareti Hakkında Açıklamalar",
-      "summary": "TBMM Başkanı Numan Kurtulmuş, Finlandiya ve İsveç ziyaretlerinin ardından yaptığı açıklamada, her iki ülkenin de Türkiye'ye verdiği önemin altını çizdi. Kurtulmuş, 28-29 Haziran'da İstanbul'da düzenlenecek NATO Parlamenter Zirvesi'ne 20'den fazla meclis baş...",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "06.06.2026",
-      "date_iso": "2026-06-06",
-      "url": "/articles/tbmm-baskani-kurtulmustan-nato-zirvesi-ve-finlandiya-isvec-ziyareti-aciklamalari_20260606/",
-      "canonical_url": "https://mansetradar.com.tr/articles/tbmm-baskani-kurtulmustan-nato-zirvesi-ve-finlandiya-isvec-ziyareti-aciklamalari_20260606/",
-      "detail_json_url": "/data/details/articles/tbmm-baskani-kurtulmustan-nato-zirvesi-ve-finlandiya-isvec-ziyareti-aciklamalari_20260606.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/tbmm-baskani-kurtulmustan-nato-zirvesi-ve-finlandiya-isvec-ziyareti-aciklamalari_20260606.webp",
-      "image_alt": "TBMM Başkanı Numan Kurtulmuş, Finlandiya ve İsveç ziyaretleri sonrası açıklama yaparken",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/tbmm-baskani-kurtulmustan-nato-zirvesi-ve-finlandiya-isvec-ziyareti-aciklamalari_20260606.webp",
-        "alt": "TBMM Başkanı Numan Kurtulmuş, Finlandiya ve İsveç ziyaretleri sonrası açıklama yaparken"
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/gundem/sali-gunu-chp-grubunda-kim-konusacak-tbmm-baskani-kurtulmustan-aciklama-7600527",
-      "tags": [
-        "Numan Kurtulmuş",
-        "NATO Parlamenter Zirvesi",
-        "Finlandiya",
-        "İsveç"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]
