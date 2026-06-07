@@ -3,11 +3,82 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-07T00:00:00+00:00",
-    "article_count": 340,
+    "article_count": 342,
     "schema_version": 2,
     "section": "nachrichten-artikel"
   },
   "articles": [
+    {
+      "id": "nachrichten/artikel:kosovo-wahl-parlament-blockade-kurti_20260607",
+      "slug": "kosovo-wahl-parlament-blockade-kurti_20260607",
+      "title": "Neuwahlen im Kosovo: Drittes Parlament in 16 Monaten gesucht",
+      "summary": "Im Kosovo hat am Sonntag die Wahl für ein neues Parlament begonnen. Es ist der dritte Urnengang innerhalb von knapp anderthalb Jahren, nachdem sich Regierung und Opposition seit Monaten gegenseitig blockieren. Als Favorit gilt die Partei von Premierminister...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/nachrichten/artikel/kosovo-wahl-parlament-blockade-kurti_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/kosovo-wahl-parlament-blockade-kurti_20260607/",
+      "detail_json_url": "/data/details/nachrichten/artikel/kosovo-wahl-parlament-blockade-kurti_20260607.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/images/kosovo-wahl-parlament-blockade-kurti_20260607.webp",
+      "image_alt": "Eine Person wirft einen Stimmzettel in eine Wahlurne im Kosovo.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/images/kosovo-wahl-parlament-blockade-kurti_20260607.webp",
+        "alt": "Eine Person wirft einen Stimmzettel in eine Wahlurne im Kosovo."
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/ausland/europa/kosovo-wahl-114.html",
+      "tags": [
+        "Kosovo",
+        "Albin Kurti",
+        "Parlamentswahl",
+        "Vetevendosje",
+        "Pristina"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel:israel-angriffe-beirut-hisbollah-waffenruhe_20260607",
+      "slug": "israel-angriffe-beirut-hisbollah-waffenruhe_20260607",
+      "title": "Israel greift erneut Hisbollah-Ziele in Beirut an",
+      "summary": "Israels Armee hat erneut Vororte der libanesischen Hauptstadt Beirut angegriffen. Laut Premierminister Benjamin Netanjahu und Verteidigungsminister Israel Katz handelte es sich um einen Schlag gegen terroristische Kommandozentralen der Hisbollah, nachdem zu...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/nachrichten/artikel/israel-angriffe-beirut-hisbollah-waffenruhe_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/israel-angriffe-beirut-hisbollah-waffenruhe_20260607/",
+      "detail_json_url": "/data/details/nachrichten/artikel/israel-angriffe-beirut-hisbollah-waffenruhe_20260607.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/images/israel-angriffe-beirut-hisbollah-waffenruhe_20260607.webp",
+      "image_alt": "Rauch steigt nach israelischen Luftangriffen über den Vororten von Beirut auf.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/images/israel-angriffe-beirut-hisbollah-waffenruhe_20260607.webp",
+        "alt": "Rauch steigt nach israelischen Luftangriffen über den Vororten von Beirut auf."
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/ausland/asien/libanon-israel-hisbollah-angriffe-beirut-100.html",
+      "tags": [
+        "Israel",
+        "Libanon",
+        "Beirut",
+        "Hisbollah",
+        "Donald Trump",
+        "Benjamin Netanjahu"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "nachrichten/artikel:schwere-russische-luftangriffe-auf-kiew_20260524",
       "slug": "schwere-russische-luftangriffe-auf-kiew_20260524",
