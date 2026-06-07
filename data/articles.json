@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-07T00:00:00+00:00",
-    "article_count": 356,
+    "article_count": 357,
     "schema_version": 2
   },
   "articles": [
@@ -1087,6 +1087,40 @@
         "Erişim Engeli"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:daha-17-dizisi-2-bolum-ozeti_20260607",
+      "slug": "daha-17-dizisi-2-bolum-ozeti_20260607",
+      "title": "Daha 17 dizisinin 2. bölümünde sırlar açığa çıkıyor",
+      "summary": "Daha 17 dizisinin 2. bölümünde Teoman tarafından bıçaklanan Aras hastaneye kaldırılırken, Şebnem oğlunu korumak için suçu Kutay'ın üstlenmesini sağladı. Aras'ın hastanede yaşadığı olaylar ve 'Demir' yazılı kolye, yıllardır saklanan sırların açığa çıkmasına...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/daha-17-dizisi-2-bolum-ozeti_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/daha-17-dizisi-2-bolum-ozeti_20260607/",
+      "detail_json_url": "/data/details/articles/daha-17-dizisi-2-bolum-ozeti_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/daha-17-dizisi-2-bolum-ozeti_20260607.webp",
+      "image_alt": "Daha 17 dizisi 2. bölümünden bir sahne",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/daha-17-dizisi-2-bolum-ozeti_20260607.webp",
+        "alt": "Daha 17 dizisi 2. bölümünden bir sahne"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/televizyon/daha-17nin-2-bolumunde-neler-oldu-43197119",
+      "tags": [
+        "Daha 17",
+        "Dizi özeti",
+        "Televizyon",
+        "Hürriyet"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
