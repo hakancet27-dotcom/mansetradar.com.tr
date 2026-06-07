@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-07T00:00:00+00:00",
-    "article_count": 328,
+    "article_count": 330,
     "schema_version": 2,
     "category_slug": "gundem"
   },
@@ -941,6 +941,40 @@
         "tehdit"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:1-haziran-2026-ev-yemegi-menusu-onerileri_20260601",
+      "slug": "1-haziran-2026-ev-yemegi-menusu-onerileri_20260601",
+      "title": "1 Haziran 2026 Ev Yemeği Menüsü: Serinleten Çorbadan Tatlıya Zengin Seçenekler",
+      "summary": "Hürriyet gazetesi, 1 Haziran 2026 için \"Bugün ne pişirsem?\" sorusuna yanıt arayanlara özel bir ev yemeği menüsü önerisi sundu. Menüde, serinletici soğuk ayran aşı çorbası, doyurucu kıymalı patates yemeği, pratik cevizli peynirli erişte, közlenmiş lezzetleri...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/1-haziran-2026-ev-yemegi-menusu-onerileri_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/1-haziran-2026-ev-yemegi-menusu-onerileri_20260601/",
+      "detail_json_url": "/data/details/articles/1-haziran-2026-ev-yemegi-menusu-onerileri_20260601.json",
+      "image_url": "https://images.unsplash.com/photo-1583063660574-85ea650eb13f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCdWclQzMlQkNuJTIwbmUlMjBwaSVDNSU5Rmlyc2VtJTIwZGl5ZW5sZXJlJTNBJTIwRyVDMyVCQ25sJUMzJUJDayUyMGV2JTIweWVtZSVDNCU5RmklMjBtZW4lQzMlQkNzJUMzJUJDJTIwJTI4MSUyMEhhemlyYW4lMjAyMDI2JTI5JTIwc28lQzQlOUZ1ayUyMCVDMyVBN29yYmF8ZW58MHwwfHx8MTc4MDMyNDQ5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "image_alt": "1 Haziran 2026 tarihli Türk ev yemeği menüsü sofrası, ayran aşı çorbası, kıymalı patates, erişte, babagannuş, havuç mücver...",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1583063660574-85ea650eb13f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCdWclQzMlQkNuJTIwbmUlMjBwaSVDNSU5Rmlyc2VtJTIwZGl5ZW5sZXJlJTNBJTIwRyVDMyVCQ25sJUMzJUJDayUyMGV2JTIweWVtZSVDNCU5RmklMjBtZW4lQzMlQkNzJUMzJUJDJTIwJTI4MSUyMEhhemlyYW4lMjAyMDI2JTI5JTIwc28lQzQlOUZ1ayUyMCVDMyVBN29yYmF8ZW58MHwwfHx8MTc4MDMyNDQ5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "alt": "1 Haziran 2026 tarihli Türk ev yemeği menüsü sofrası, ayran aşı çorbası, kıymalı patates, erişte, babagannuş, havuç mücver..."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/lezizz/bugun-ne-pisirsem-diyenlere-gunluk-ev-yemegi-menusu-1-haziran-2026-43189309",
+      "tags": [
+        "ev yemeği menüsü",
+        "1 Haziran tarifleri",
+        "ayran aşı çorbası",
+        "höşmerim"
+      ],
+      "quality_score": 80,
       "review_status": "published"
     },
     {
