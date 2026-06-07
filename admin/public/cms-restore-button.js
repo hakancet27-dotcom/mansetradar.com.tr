@@ -12,7 +12,7 @@
     delete_flow_trash: "trash",
   };
   const buttonId = "mr-restore-button";
-  const buttonStyle = "display:inline-flex;align-items:center;margin-left:8px;padding:8px 12px;border:0;border-radius:6px;background:#16a34a;color:#fff;font-weight:700;text-decoration:none;line-height:1;cursor:pointer;";
+  const buttonStyle = "display:inline-flex;align-items:center;padding:8px 12px;border:0;border-radius:6px;background:#16a34a;color:#fff;font-weight:700;text-decoration:none;line-height:1;cursor:pointer;position:fixed;z-index:2147483647;box-shadow:0 2px 10px rgba(0,0,0,.18);";
   const disabledButtonStyle = `${buttonStyle}opacity:.55;cursor:not-allowed;`;
   const collectionFolders = {
     public: {
@@ -215,6 +215,24 @@
     return Array.from(new Set(texts));
   }
 
+  function isVisibleElement(element) {
+    if (!element) return false;
+    const rect = element.getBoundingClientRect();
+    const style = window.getComputedStyle(element);
+    return rect.width > 0 && rect.height > 0 && style.visibility !== "hidden" && style.display !== "none";
+  }
+
+  function actionDeleteButton() {
+    const candidates = Array.from(document.querySelectorAll("button"));
+    return candidates.find((button) => {
+      const text = normalizeText(`${button.innerText || ""} ${button.getAttribute("aria-label") || ""}`);
+      if (!text.includes("delete")) return false;
+      if (!isVisibleElement(button)) return false;
+      const rect = button.getBoundingClientRect();
+      return rect.top < window.innerHeight * 0.45 && rect.left > window.innerWidth * 0.55;
+    });
+  }
+
   async function selectedArticlePaths() {
     if (isEntryPage()) {
       const marker = markerSlugFromHash();
@@ -281,38 +299,33 @@
       return;
     }
 
-    const deleteButton = Array.from(document.querySelectorAll("button")).find((button) => {
-      const text = `${button.innerText || ""} ${button.getAttribute("aria-label") || ""}`.toLowerCase();
-      return text.includes("delete") || text.includes("sil");
-    });
+    const deleteButton = actionDeleteButton();
     if (!deleteButton) return;
 
     const canRestoreFromHere = isEntryPage() || selectedRowTexts().length > 0;
-    const target = deleteButton.parentElement || document.body;
 
     let button = existing;
     if (!button) {
       button = document.createElement("button");
       button.id = buttonId;
       button.type = "button";
-      target.appendChild(button);
+      document.body.appendChild(button);
     }
 
+    const rect = deleteButton.getBoundingClientRect();
     button.textContent = "Geri Al";
     button.title = canRestoreFromHere
       ? "Bu haberi bir onceki asamaya geri alir."
       : "Once geri alinacak haberi sec.";
     button.disabled = !canRestoreFromHere;
     button.style.cssText = canRestoreFromHere ? buttonStyle : disabledButtonStyle;
+    button.style.top = `${Math.max(12, rect.top)}px`;
+    button.style.left = `${Math.max(12, rect.left - 120)}px`;
     button.onclick = () => {
       if (!button.disabled) {
         handleRestore(button, stage);
       }
     };
-
-    if (deleteButton.nextSibling !== button) {
-      target.insertBefore(button, deleteButton.nextSibling);
-    }
   }
 
   function tick() {
