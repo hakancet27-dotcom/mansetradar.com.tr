@@ -2,6 +2,7 @@
   const workflowRepo = "hakancet27-dotcom/haber-botu";
   const workflowFile = "restore-single-article.yml";
   const branch = "main";
+  const publicRestoreRequestFolder = "cms-restore-requests";
   const dataRepoByPanel = {
     public: "hakancet27-dotcom/mansetradar.com.tr",
     newsroom: "hakancet27-dotcom/haber-botu",
@@ -137,6 +138,34 @@
     const token = readStoredToken();
     if (!token) {
       throw new Error("GitHub oturumu bulunamadi. Panelden yeniden giris yap.");
+    }
+
+    if (panelKind() === "public") {
+      const fileSafe = articlePath.replace(/[/.]/g, "__");
+      const requestPath = `${publicRestoreRequestFolder}/${Date.now()}-${fileSafe}.json`;
+      const payload = {
+        article_path: articlePath,
+        current_stage: stage,
+        requested_at: new Date().toISOString(),
+        requested_by: "cms_restore_button_public",
+      };
+      const content = btoa(unescape(encodeURIComponent(JSON.stringify(payload, null, 2) + "\n")));
+      await githubRequest(
+        `/repos/${dataRepo()}/contents/${encodeURIComponent(requestPath).replace(/%2F/g, "/")}`,
+        token,
+        {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            message: `Queue CMS restore request for ${articlePath}`,
+            content,
+            branch,
+          }),
+        }
+      );
+      return;
     }
 
     await githubRequest(
