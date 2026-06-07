@@ -3,11 +3,82 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-07T00:00:00+00:00",
-    "article_count": 334,
+    "article_count": 336,
     "schema_version": 2,
     "category_slug": "siyaset"
   },
   "articles": [
+    {
+      "id": "articles:turkiyenin-mavi-vatan-hazirligi-atinada-4-senaryo-gundemde_20260607",
+      "slug": "turkiyenin-mavi-vatan-hazirligi-atinada-4-senaryo-gundemde_20260607",
+      "title": "Türkiye'nin Mavi Vatan Hazırlığı Atina'yı Harekete Geçirdi: 4 Senaryo Masada",
+      "summary": "Türkiye'nin yakında meclise sunması beklenen Mavi Vatan düzenlemesine karşı Atina yönetimi hazırlık yapıyor. Yunanistan'ın olası bir Türk hamlesine karşı 4 farklı senaryo üzerinde çalıştığı belirtilirken, Doğu Ege'de deniz parkı kurulması ve Girit'in güneyi...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/turkiyenin-mavi-vatan-hazirligi-atinada-4-senaryo-gundemde_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/turkiyenin-mavi-vatan-hazirligi-atinada-4-senaryo-gundemde_20260607/",
+      "detail_json_url": "/data/details/articles/turkiyenin-mavi-vatan-hazirligi-atinada-4-senaryo-gundemde_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/turkiyenin-mavi-vatan-hazirligi-atinada-4-senaryo-gundemde_20260607.webp",
+      "image_alt": "Yunanistan'ın Türkiye'nin Mavi Vatan hazırlığına karşı üzerinde çalıştığı senaryoları gösteren temsili Ege Denizi haritası...",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/turkiyenin-mavi-vatan-hazirligi-atinada-4-senaryo-gundemde_20260607.webp",
+        "alt": "Yunanistan'ın Türkiye'nin Mavi Vatan hazırlığına karşı üzerinde çalıştığı senaryoları gösteren temsili Ege Denizi haritası..."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/turkiyenin-mavi-vatan-hazirligi-yunanistani-koseye-sikistirdi-atinada-4-senaryo-gundemde-43196438",
+      "tags": [
+        "Mavi Vatan",
+        "Yunanistan",
+        "Ege Denizi",
+        "Kiryakos Miçotakis",
+        "Doğu Ege",
+        "Girit"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:erdogan-sifir-atik-forumu-aciklamalari_20260607",
+      "slug": "erdogan-sifir-atik-forumu-aciklamalari_20260607",
+      "title": "Cumhurbaşkanı Erdoğan Sıfır Atık Forumu Kapanışında Konuştu",
+      "summary": "Cumhurbaşkanı Erdoğan, İstanbul'da gerçekleştirilen Sıfır Atık Forumu'nun kapanış töreninde yaptığı konuşmada, küresel iklim krizinin etkilerine, çevre diplomasisine ve dünyadaki gıda israfına dikkat çekti.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/erdogan-sifir-atik-forumu-aciklamalari_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/erdogan-sifir-atik-forumu-aciklamalari_20260607/",
+      "detail_json_url": "/data/details/articles/erdogan-sifir-atik-forumu-aciklamalari_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/erdogan-sifir-atik-forumu-aciklamalari_20260607.webp",
+      "image_alt": "Cumhurbaşkanı Erdoğan İstanbul'daki Sıfır Atık Forumu kapanışında konuşma yapıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/erdogan-sifir-atik-forumu-aciklamalari_20260607.webp",
+        "alt": "Cumhurbaşkanı Erdoğan İstanbul'daki Sıfır Atık Forumu kapanışında konuşma yapıyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/cumhurbaskani-erdogandan-onemli-aciklamalar-43196872",
+      "tags": [
+        "Cumhurbaşkanı Erdoğan",
+        "Sıfır Atık Forumu",
+        "Çevre Diplomasisi",
+        "Gıda İsrafı",
+        "İstanbul"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles:tbmm-baskani-kurtulmustan-nato-zirvesi-ve-finlandiya-isvec-ziyareti-aciklamalari_20260606",
       "slug": "tbmm-baskani-kurtulmustan-nato-zirvesi-ve-finlandiya-isvec-ziyareti-aciklamalari_20260606",
