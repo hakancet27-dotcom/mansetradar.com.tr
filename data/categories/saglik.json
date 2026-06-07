@@ -3,11 +3,81 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-07T00:00:00+00:00",
-    "article_count": 325,
+    "article_count": 328,
     "schema_version": 2,
     "category_slug": "saglik"
   },
   "articles": [
+    {
+      "id": "articles:turk-cerrah-prof-dr-oktar-asoglu-ingiltere-canli-ameliyat_20260607",
+      "slug": "turk-cerrah-prof-dr-oktar-asoglu-ingiltere-canli-ameliyat_20260607",
+      "title": "Türk Cerrah Prof. Dr. Oktar Asoğlu İngiltere'de Canlı Ameliyat Yapacak",
+      "summary": "Uluslararası alanda kanser hastalıkları ve robotik cerrahi üzerine çalışmalarıyla tanınan Prof. Dr. Oktar Asoğlu, İngiltere'de düzenlenecek olan 10. Portsmouth Colorectal Kongresi'ne davet edildi. Prof. Dr. Asoğlu, kongre kapsamında dünyanın dört bir yanınd...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/turk-cerrah-prof-dr-oktar-asoglu-ingiltere-canli-ameliyat_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/turk-cerrah-prof-dr-oktar-asoglu-ingiltere-canli-ameliyat_20260607/",
+      "detail_json_url": "/data/details/articles/turk-cerrah-prof-dr-oktar-asoglu-ingiltere-canli-ameliyat_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/turk-cerrah-prof-dr-oktar-asoglu-ingiltere-canli-ameliyat_20260607.webp",
+      "image_alt": "Prof. Dr. Oktar Asoğlu, Türk cerrah, İngiltere'de canlı robotik ameliyat gerçekleştiriyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/turk-cerrah-prof-dr-oktar-asoglu-ingiltere-canli-ameliyat_20260607.webp",
+        "alt": "Prof. Dr. Oktar Asoğlu, Türk cerrah, İngiltere'de canlı robotik ameliyat gerçekleştiriyor."
+      },
+      "source_name": "Sağlık haberleri - Son dakika sağlık haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/turk-doktor-dunyanin-gozu-onunde-canli-ameliyat-yapacak-p325922",
+      "tags": [
+        "Prof. Dr. Oktar Asoğlu",
+        "Canlı Ameliyat",
+        "Robotik Cerrahi",
+        "10. Portsmouth Colorectal Kongresi",
+        "İngiltere"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607",
+      "slug": "klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607",
+      "title": "Klimalar Kalp Sağlığını Tehdit Ediyor: Uzmanlardan Önemli Uyarılar",
+      "summary": "Yaz aylarında artan sıcaklıklarla birlikte klimaların yaygın kullanımı, ani sıcaklık değişimleri nedeniyle kalp ve damar sağlığı üzerinde olumsuz etkilere yol açabiliyor. İç Hastalıkları Uzmanı Prof. Dr. Osman Erk, özellikle kalp-damar hastalığı olanların d...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607/",
+      "detail_json_url": "/data/details/articles/klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607.webp",
+      "image_alt": "Klima kullanımı ve kalp sağlığına etkileri üzerine uyarıcı görsel.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607.webp",
+        "alt": "Klima kullanımı ve kalp sağlığına etkileri üzerine uyarıcı görsel."
+      },
+      "source_name": "Sağlık haberleri - Son dakika sağlık haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/klimalar-kalbi-nasil-etkiler-p325827",
+      "tags": [
+        "klima",
+        "kalp sağlığı",
+        "kalp krizi",
+        "sıcaklık değişimi",
+        "sağlık uyarıları"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "articles:mersin-markette-dehset-esini-tufekle-vurmaya-calisti-calisanlar-tarafindan-engel_20260606",
       "slug": "mersin-markette-dehset-esini-tufekle-vurmaya-calisti-calisanlar-tarafindan-engel_20260606",
