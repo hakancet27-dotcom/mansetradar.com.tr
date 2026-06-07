@@ -3,11 +3,46 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-07T00:00:00+00:00",
-    "article_count": 354,
+    "article_count": 356,
     "schema_version": 2,
     "category_slug": "gundem"
   },
   "articles": [
+    {
+      "id": "articles:istanbul-ve-antalyada-otokoc-binalarina-silahli-saldiri_20260607",
+      "slug": "istanbul-ve-antalyada-otokoc-binalarina-silahli-saldiri_20260607",
+      "title": "İstanbul ve Antalya'da Otokoç binalarına silahlı saldırı",
+      "summary": "İstanbul Maltepe'deki Otokoç Genel Müdürlüğü binası ile Antalya Kepez'deki yetkili servise eş zamanlıya yakın silahlı saldırılar düzenlendi. Olaylarla bağlantılı toplam 5 şüpheli gözaltına alınırken, saldırılara ilişkin soruşturmalar başlatıldı.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/istanbul-ve-antalyada-otokoc-binalarina-silahli-saldiri_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/istanbul-ve-antalyada-otokoc-binalarina-silahli-saldiri_20260607/",
+      "detail_json_url": "/data/details/articles/istanbul-ve-antalyada-otokoc-binalarina-silahli-saldiri_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/istanbul-ve-antalyada-otokoc-binalarina-silahli-saldiri_20260607.webp",
+      "image_alt": "Otokoç binasına düzenlenen silahlı saldırı sonrası olay yeri inceleme ekipleri çalışıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/istanbul-ve-antalyada-otokoc-binalarina-silahli-saldiri_20260607.webp",
+        "alt": "Otokoç binasına düzenlenen silahlı saldırı sonrası olay yeri inceleme ekipleri çalışıyor."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/otokoc-genel-mudurlugu-binasina-silahli-saldiri-omer-celik-saldiriyi-lanetliyoruz-1727585",
+      "tags": [
+        "Otokoç",
+        "İstanbul",
+        "Antalya",
+        "Silahlı Saldırı",
+        "Asayiş"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "articles:diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607",
       "slug": "diyarbakirda-guran-ailesi-icin-adalet-talebi-nevzat-bahtiyar-iddiasi_20260607",
