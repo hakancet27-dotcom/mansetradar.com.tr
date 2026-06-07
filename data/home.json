@@ -2,12 +2,46 @@
   "meta": {
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
-    "generated_at": "2026-06-06T00:00:00+00:00",
+    "generated_at": "2026-06-07T00:00:00+00:00",
     "article_count": 319,
     "schema_version": 2,
     "section": "articles"
   },
   "hero": [
+    {
+      "id": "articles:ermenistan-parlamento-secimi-yarin_20260607",
+      "slug": "ermenistan-parlamento-secimi-yarin_20260607",
+      "title": "Ermenistan'da Yarın Parlamento Seçimi Yapılacak",
+      "summary": "Ermenistan'da halk, yarın düzenlenecek parlamento seçimlerinde oy kullanacak. Yaklaşık 3 milyon nüfusa sahip ülkede, 2 milyon 485 bin 232 kayıtlı seçmen bulunuyor. Seçimler öncesinde Rusya yanlısı \"Güçlü Ermenistan\" hareketine üye 6 aday gözaltına alındı. A...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/ermenistan-parlamento-secimi-yarin_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/ermenistan-parlamento-secimi-yarin_20260607/",
+      "detail_json_url": "/data/details/articles/ermenistan-parlamento-secimi-yarin_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/ermenistan-parlamento-secimi-yarin_20260607.webp",
+      "image_alt": "Ermenistan parlamento seçimleri öncesi oy sandığı ve bayrak görseli.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/ermenistan-parlamento-secimi-yarin_20260607.webp",
+        "alt": "Ermenistan parlamento seçimleri öncesi oy sandığı ve bayrak görseli."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/dunya/ermenistan-yarin-secime-gidiyor-1727464",
+      "tags": [
+        "Ermenistan",
+        "Parlamento Seçimi",
+        "Nikol Paşinyan",
+        "Sivil Sözleşme Partisi"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "articles:zelenskiy-putin-gorusme-cagrisi-red_20260606",
       "slug": "zelenskiy-putin-gorusme-cagrisi-red_20260606",
@@ -673,44 +707,43 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
+    }
+  ],
+  "latest": [
     {
-      "id": "articles:cagan-efe-ak-elimden-gelen-her-seyi-yapacagim-gerisi-kismet_20260606",
-      "slug": "cagan-efe-ak-elimden-gelen-her-seyi-yapacagim-gerisi-kismet_20260606",
-      "title": "Çağan Efe Ak: 'Elimden gelen her şeyi yapacağım, gerisi kısmet'",
-      "summary": "Genç yetenek Çağan Efe Ak, oyunculuk kariyerine 8 yaşında başladığını ve bu mesleğin kendisini olgunlaştırdığını belirtti. Beşiktaş altyapısında 10-15 yaşları arasında kalecilik yaptığını da söyleyen Ak, pandemi nedeniyle futbolu bıraktığını ve oyunculuğa o...",
-      "category": "Magazin",
-      "category_slug": "magazin",
+      "id": "articles:ermenistan-parlamento-secimi-yarin_20260607",
+      "slug": "ermenistan-parlamento-secimi-yarin_20260607",
+      "title": "Ermenistan'da Yarın Parlamento Seçimi Yapılacak",
+      "summary": "Ermenistan'da halk, yarın düzenlenecek parlamento seçimlerinde oy kullanacak. Yaklaşık 3 milyon nüfusa sahip ülkede, 2 milyon 485 bin 232 kayıtlı seçmen bulunuyor. Seçimler öncesinde Rusya yanlısı \"Güçlü Ermenistan\" hareketine üye 6 aday gözaltına alındı. A...",
+      "category": "Dünya",
+      "category_slug": "dunya",
       "country": "Turkey",
       "language": "tr",
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
-      "date": "06.06.2026",
-      "date_iso": "2026-06-06",
-      "url": "/articles/cagan-efe-ak-elimden-gelen-her-seyi-yapacagim-gerisi-kismet_20260606/",
-      "canonical_url": "https://mansetradar.com.tr/articles/cagan-efe-ak-elimden-gelen-her-seyi-yapacagim-gerisi-kismet_20260606/",
-      "detail_json_url": "/data/details/articles/cagan-efe-ak-elimden-gelen-her-seyi-yapacagim-gerisi-kismet_20260606.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/cagan-efe-ak-elimden-gelen-her-seyi-yapacagim-gerisi-kismet_20260606.webp",
-      "image_alt": "Çağan Efe Ak, Türkbükü'nde bir otelde röportaj verirken.",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/ermenistan-parlamento-secimi-yarin_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/ermenistan-parlamento-secimi-yarin_20260607/",
+      "detail_json_url": "/data/details/articles/ermenistan-parlamento-secimi-yarin_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/ermenistan-parlamento-secimi-yarin_20260607.webp",
+      "image_alt": "Ermenistan parlamento seçimleri öncesi oy sandığı ve bayrak görseli.",
       "image": {
-        "url": "https://mansetradar.com.tr/articles/images/cagan-efe-ak-elimden-gelen-her-seyi-yapacagim-gerisi-kismet_20260606.webp",
-        "alt": "Çağan Efe Ak, Türkbükü'nde bir otelde röportaj verirken."
+        "url": "https://mansetradar.com.tr/articles/images/ermenistan-parlamento-secimi-yarin_20260607.webp",
+        "alt": "Ermenistan parlamento seçimleri öncesi oy sandığı ve bayrak görseli."
       },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/kelebek/hurriyet-cumartesi/cagan-efe-ak-elimden-gelen-her-seyi-yapacagim-gerisi-kismet-43195154",
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/dunya/ermenistan-yarin-secime-gidiyor-1727464",
       "tags": [
-        "Çağan Efe Ak",
-        "oyunculuk",
-        "Beşiktaş",
-        "futbol",
-        "röportaj"
+        "Ermenistan",
+        "Parlamento Seçimi",
+        "Nikol Paşinyan",
+        "Sivil Sözleşme Partisi"
       ],
-      "quality_score": 86,
+      "quality_score": 76,
       "review_status": "published"
-    }
-  ],
-  "latest": [
+    },
     {
       "id": "articles:zelenskiy-putin-gorusme-cagrisi-red_20260606",
       "slug": "zelenskiy-putin-gorusme-cagrisi-red_20260606",
@@ -1546,41 +1579,6 @@
         "Ay-Yıldızlı Forma",
         "Dünya Kupası",
         "Cumhuriyet Tarihi"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:ak-parti-yeni-anayasa-referandum-hayati-yazici_20260606",
-      "slug": "ak-parti-yeni-anayasa-referandum-hayati-yazici_20260606",
-      "title": "Yeni Anayasa Referandumla Hayat Bulacak: AK Parti'den Açıklama",
-      "summary": "AK Parti Genel Başkan Yardımcısı ve Siyasi ve Hukuki İşler Başkanı Hayati Yazıcı, yeni anayasanın referandumla hayata geçeceğini açıkladı. Yazıcı, anayasa yapma hakkının millete ait olduğunu vurgulayarak, Türkiye'nin ikinci yüzyılına yakışacak yeni bir anay...",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "06.06.2026",
-      "date_iso": "2026-06-06",
-      "url": "/articles/ak-parti-yeni-anayasa-referandum-hayati-yazici_20260606/",
-      "canonical_url": "https://mansetradar.com.tr/articles/ak-parti-yeni-anayasa-referandum-hayati-yazici_20260606/",
-      "detail_json_url": "/data/details/articles/ak-parti-yeni-anayasa-referandum-hayati-yazici_20260606.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/cumhurbaskani-erdogan-super-lig-e-yukselen-corum-fk-yi-tebrik-etti_20260524_e8398bc7.webp",
-      "image_alt": "Yeni Anayasa Referandumla Hayat Bulacak: AK Parti'den Açıklama",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/cumhurbaskani-erdogan-super-lig-e-yukselen-corum-fk-yi-tebrik-etti_20260524_e8398bc7.webp",
-        "alt": "Yeni Anayasa Referandumla Hayat Bulacak: AK Parti'den Açıklama"
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/son-dakika-ak-parti-genel-baskan-yardimcisi-yazici-yeni-anayasa-referandumla-hayat-bulacak-3889800",
-      "tags": [
-        "AK Parti",
-        "Hayati Yazıcı",
-        "Yeni Anayasa",
-        "Referandum",
-        "Türkiye Yüzyılı"
       ],
       "quality_score": 86,
       "review_status": "published"

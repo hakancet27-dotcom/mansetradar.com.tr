@@ -45,30 +45,10 @@
     .article-meta span { background:#f8fafc; border:1px solid var(--border); padding:4px 9px; border-radius:5px; }
     h1 { font-size:clamp(1.85rem, 3vw, 2.65rem); line-height:1.14; color:#111827; margin-bottom:16px; letter-spacing:0; }
     .spot { font-size:1.14rem; line-height:1.7; color:#374151; border-left:5px solid var(--red); padding:12px 0 12px 18px; margin:0 0 22px; background:#fff8f7; }
-
     /* ARTICLE_READING_UX_START */
-    /* Read-first article media: preserve framing while shortening the scroll to the story. */
-    .article-shell { max-width:960px; }
-    .article-image {
-      width:min(100%, 760px);
-      margin:0 auto 25px;
-      border-radius:10px;
-      overflow:hidden;
-      background:#111827;
-    }
-    .article-image img {
-      width:100%;
-      height:auto;
-      display:block;
-      aspect-ratio:16 / 9;
-      object-fit:cover;
-      object-position:center;
-    }
-    .article-image img[src$=".svg"] { object-fit:contain; }
-    @media (max-width:720px) {
-      .article-shell { margin-top:16px; }
-      .article-image { width:100%; margin-bottom:20px; border-radius:8px; }
-    }
+    .article-image { width:min(100%, 760px); margin:0 auto 25px; border-radius:10px; overflow:hidden; background:#111827; }
+    .article-image img { width:100%; height:auto; display:block; aspect-ratio:16/9; object-fit:cover; object-position:center; }
+    .article-image img[src$=".svg"] { object-fit:contain; background:#111827; }
     /* ARTICLE_READING_UX_END */
     article h2 { font-size:1.35rem; line-height:1.3; margin:28px 0 10px; color:#111827; padding-top:4px; border-top:1px solid var(--border); }
     article h3 { font-size:1.08rem; margin:20px 0 8px; color:#1f2937; }
@@ -171,7 +151,7 @@
       </div>
       <section class="article-comments" aria-label="article-comments"><h2>Yorumlar</h2><form id="comment-form" class="comment-form"><input id="comment-name" type="text" maxlength="40" placeholder="Ad Soyad"><textarea id="comment-text" rows="4" maxlength="700" placeholder="Yorumunuzu yazın"></textarea><button type="submit">Yorum Gönder</button></form><div id="comment-list" class="comment-list"></div></section>
     </article>
-    <section class="related-news" aria-label="related-news"><h2>İlgili Haberler</h2><div class="related-grid"><article class="related-card"><a href="/articles/fenerbahce-baskanlik-secimi-aziz-yildirim-hakan-safi_20260606/">Fenerbahçe&#x27;de Başkanlık Seçimi: Aziz Yıldırım ve Hakan Safi Yarışıyor</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/kafede-zorbalik-once-taciz-sonra-siddet_20260606/">İstanbul&#x27;da Kafede Zorbalık: Önce Taciz Sonra Şiddet</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/papa-14-leo-ispanya-ziyareti-basladi-siyasi-dini-gundem_20260606/">Papa 14. Leo&#x27;nun İspanya Ziyareti Başladı: Siyasi ve Dini Gündem</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/ozgur-ozel-corum-riza-sehri-alevi-canlar-bulusmasi_20260606/">Özgür Özel, Çorum&#x27;da Alevi Canlar Buluşması&#x27;nda Konuştu: &#x27;Dört Koldan Saldırı Altındayız&#x27;</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/ak-parti-yeni-anayasa-referandum-hayati-yazici_20260606/">Yeni Anayasa Referandumla Hayat Bulacak: AK Parti&#x27;den Açıklama</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/istanbul-canakkale-arasi-ulasim-suresi-2-saate-inecek_20260606/">İstanbul-Çanakkale Arası Ulaşım Süresi 2 Saate İnecek</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/bursada-kayip-nazarin-kurtarilma-operasyonunun-detaylari-ortaya-cikti_20260606/">7 Yıl Sonra Bulunan Nazar&#x27;ın Kurtarılma Operasyonunun Detayları Ortaya Çıktı</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/kuzey-kore-10-bin-tonluk-savas-gemisi_20260606/">Kuzey Kore&#x27;den 10 Bin Tonluk Dev Savaş Gemisi Hamlesi</a><div class="related-meta"><span class="related-topic">Sağlık</span><time class="related-date">06.06.2026</time></div></article></div></section>
+    <section class="related-news" aria-label="related-news"><h2>İlgili Haberler</h2><div class="related-grid"><article class="related-card"><a href="/articles/bursada-kayip-nazarin-kurtarilma-operasyonunun-detaylari-ortaya-cikti_20260606/">7 Yıl Sonra Bulunan Nazar&#x27;ın Kurtarılma Operasyonunun Detayları Ortaya Çıktı</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/eski-cia-ajani-david-rush-sorusturmasi-milyonlarca-dolarlik-varlik_20260606/">Eski CIA Ajanı David Rush&#x27;ın Evinde Milyonlarca Dolarlık Varlık Bulundu</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606/">Şengül Gezer&#x27;in Yürek Yakan Hikayesi: 5 Büyük Acı</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/savcilarin-sifresiyle-feto-dosyalarini-kapatti-4-saniga-hapis-cezasi_20260605/">Savcıların Şifresiyle FETÖ Dosyalarını Kapattı: 4 Sanığa Hapis Cezası</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">05.06.2026</time></div></article><article class="related-card"><a href="/articles/aym-suresiz-nafaka-iptal-yeni-donem_20260605/">AYM Süresiz Nafakayı İptal Etti: Yeni Dönem Başlıyor</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">05.06.2026</time></div></article><article class="related-card"><a href="/articles/trump-bolton-savas-duskunu-gizli-bilgi-davasi_20260605/">Trump&#x27;tan Eski Danışmanı Bolton&#x27;a Sert Eleştiriler: &#x27;Savaş Düşkünü&#x27;</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">05.06.2026</time></div></article><article class="related-card"><a href="/articles/milyonluk-haci-baba-dolandiriciliginda-karar-3-saniga-42ser-yil-hapis_20260604/">Milyonluk &#x27;Hacı Baba&#x27; Dolandırıcılığında Karar: 3 Sanığa 42&#x27;şer Yıl Hapis</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">04.06.2026</time></div></article><article class="related-card"><a href="/articles/mehmet-akif-ersoy-iddianamesi-mahkemeden-geri-dondu_20260604/">Mehmet Akif Ersoy Hakkındaki İddianame Mahkemeden Geri Döndü</a><div class="related-meta"><span class="related-topic">Gündem</span><time class="related-date">04.06.2026</time></div></article></div></section>
   </main>
   <footer>
     <div class="inner">

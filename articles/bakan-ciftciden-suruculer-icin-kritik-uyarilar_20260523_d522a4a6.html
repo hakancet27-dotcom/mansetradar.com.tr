@@ -44,30 +44,10 @@
     .article-meta span { background:#f8fafc; border:1px solid var(--border); padding:4px 9px; border-radius:5px; }
     h1 { font-size:clamp(1.85rem, 3vw, 2.65rem); line-height:1.14; color:#111827; margin-bottom:16px; letter-spacing:0; }
     .spot { font-size:1.14rem; line-height:1.7; color:#374151; border-left:5px solid var(--red); padding:12px 0 12px 18px; margin:0 0 22px; background:#fff8f7; }
-
     /* ARTICLE_READING_UX_START */
-    /* Read-first article media: preserve framing while shortening the scroll to the story. */
-    .article-shell { max-width:960px; }
-    .article-image {
-      width:min(100%, 760px);
-      margin:0 auto 25px;
-      border-radius:10px;
-      overflow:hidden;
-      background:#111827;
-    }
-    .article-image img {
-      width:100%;
-      height:auto;
-      display:block;
-      aspect-ratio:16 / 9;
-      object-fit:cover;
-      object-position:center;
-    }
-    .article-image img[src$=".svg"] { object-fit:contain; }
-    @media (max-width:720px) {
-      .article-shell { margin-top:16px; }
-      .article-image { width:100%; margin-bottom:20px; border-radius:8px; }
-    }
+    .article-image { width:min(100%, 760px); margin:0 auto 25px; border-radius:10px; overflow:hidden; background:#111827; }
+    .article-image img { width:100%; height:auto; display:block; aspect-ratio:16/9; object-fit:cover; object-position:center; }
+    .article-image img[src$=".svg"] { object-fit:contain; background:#111827; }
     /* ARTICLE_READING_UX_END */
     article h2 { font-size:1.35rem; line-height:1.3; margin:28px 0 10px; color:#111827; padding-top:4px; border-top:1px solid var(--border); }
     article h3 { font-size:1.08rem; margin:20px 0 8px; color:#1f2937; }
@@ -169,7 +149,7 @@
       </div>
       <section class="article-comments" aria-label="article-comments"><h2>Yorumlar</h2><form id="comment-form" class="comment-form"><input id="comment-name" type="text" maxlength="40" placeholder="Ad Soyad"><textarea id="comment-text" rows="4" maxlength="700" placeholder="Yorumunuzu yazın"></textarea><button type="submit">Yorum Gönder</button></form><div id="comment-list" class="comment-list"></div></section>
     </article>
-    <section class="related-news" aria-label="related-news"><h2>İlgili Haberler</h2><div class="related-grid"><article class="related-card"><a href="/articles/tbmm-baskani-kurtulmustan-nato-zirvesi-ve-finlandiya-isvec-ziyareti-aciklamalari_20260606/">TBMM Başkanı Kurtulmuş&#x27;tan NATO Zirvesi ve Finlandiya-İsveç Ziyareti Hakkında Açıklamalar</a><div class="related-meta"><span class="related-topic">Siyaset</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/aym-den-suresiz-nafakaya-iptal-meclise-9-ay-sure-3-yeni-model-gundemde_20260605/">AYM&#x27;den Süresiz Nafakaya İptal: Meclis&#x27;e 9 Ay Süre, 3 Yeni Model Gündemde</a><div class="related-meta"><span class="related-topic">Siyaset</span><time class="related-date">05.06.2026</time></div></article><article class="related-card"><a href="/articles/ankara-powerbank-yangini-pegasus-ucak-tahliye_20260605/">Ankara&#x27;da Powerbank Yangını: Pegasus Uçağı Tahliye Edildi</a><div class="related-meta"><span class="related-topic">Siyaset</span><time class="related-date">05.06.2026</time></div></article><article class="related-card"><a href="/articles/bakan-bolat-yasli-bakim-merkezi-ve-cocuk-evleri-sitesini-ziyaret-etti_20260524_99e96d2d/">Bakan Bolat, yaşlı bakım merkezi ve çocuk evleri sitesini ziyaret etti</a><div class="related-meta"><span class="related-topic">Siyaset</span><time class="related-date">24.05.2026</time></div></article><article class="related-card"><a href="/articles/kilicdaroglu-chp-yi-kurulusundaki-kodlara-yeniden-kavusturacagiz_20260523_cf2ff278/">Kılıçdaroğlu: CHP&#x27;yi kuruluşundaki kodlara yeniden kavuşturacağız</a><div class="related-meta"><span class="related-topic">Siyaset</span><time class="related-date">23.05.2026</time></div></article><article class="related-card"><a href="/articles/yskdan-31-mart-secimleri-icin-iptal-talebine-ret_20260523_329891ec/">YSKdan 31 Mart seçimleri için iptal talebine ret</a><div class="related-meta"><span class="related-topic">Siyaset</span><time class="related-date">23.05.2026</time></div></article><article class="related-card"><a href="/articles/bakan-goktas-aile-degerlerini-hedef-gosteren-her-turlu-ideolojinin-karsisindayiz_20260523_f973734a/">Bakan Göktaş: Aile değerlerini hedef gösteren her türlü ideolojinin karşısındayız</a><div class="related-meta"><span class="related-topic">Siyaset</span><time class="related-date">23.05.2026</time></div></article><article class="related-card"><a href="/articles/icisleri-bakani-ciftci-down-sendromlu-kismet-i-bakanlikta-agirladi_20260523_b2410378/">İçişleri Bakanı Çiftçi, Down sendromlu Kısmet&#x27;i Bakanlıkta ağırladı</a><div class="related-meta"><span class="related-topic">Siyaset</span><time class="related-date">23.05.2026</time></div></article></div></section>
+    <section class="related-news" aria-label="related-news"><h2>İlgili Haberler</h2><div class="related-grid"><article class="related-card"><a href="/articles/fenerbahce-baskanlik-secimi-aziz-yildirim-hakan-safi_20260606/">Fenerbahçe&#x27;de Başkanlık Seçimi: Aziz Yıldırım ve Hakan Safi Yarışıyor</a><div class="related-meta"><span class="related-topic">Siyaset</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/papa-14-leo-ispanya-ziyareti-basladi-siyasi-dini-gundem_20260606/">Papa 14. Leo&#x27;nun İspanya Ziyareti Başladı: Siyasi ve Dini Gündem</a><div class="related-meta"><span class="related-topic">Siyaset</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/ozgur-ozel-corum-riza-sehri-alevi-canlar-bulusmasi_20260606/">Özgür Özel, Çorum&#x27;da Alevi Canlar Buluşması&#x27;nda Konuştu: &#x27;Dört Koldan Saldırı Altındayız&#x27;</a><div class="related-meta"><span class="related-topic">Siyaset</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/ak-parti-yeni-anayasa-referandum-hayati-yazici_20260606/">Yeni Anayasa Referandumla Hayat Bulacak: AK Parti&#x27;den Açıklama</a><div class="related-meta"><span class="related-topic">Siyaset</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/tbmm-baskani-kurtulmustan-nato-zirvesi-ve-finlandiya-isvec-ziyareti-aciklamalari_20260606/">TBMM Başkanı Kurtulmuş&#x27;tan NATO Zirvesi ve Finlandiya-İsveç Ziyareti Hakkında Açıklamalar</a><div class="related-meta"><span class="related-topic">Siyaset</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/istanbul-canakkale-arasi-ulasim-suresi-2-saate-inecek_20260606/">İstanbul-Çanakkale Arası Ulaşım Süresi 2 Saate İnecek</a><div class="related-meta"><span class="related-topic">Siyaset</span><time class="related-date">06.06.2026</time></div></article><article class="related-card"><a href="/articles/aysegul-yildiz-mhp-katildi-siyasete-adim-atti_20260605/">Ayşegül Yıldız MHP&#x27;ye Katıldı: Siyasete Adım Attı</a><div class="related-meta"><span class="related-topic">Siyaset</span><time class="related-date">05.06.2026</time></div></article><article class="related-card"><a href="/articles/aym-den-suresiz-nafakaya-iptal-meclise-9-ay-sure-3-yeni-model-gundemde_20260605/">AYM&#x27;den Süresiz Nafakaya İptal: Meclis&#x27;e 9 Ay Süre, 3 Yeni Model Gündemde</a><div class="related-meta"><span class="related-topic">Siyaset</span><time class="related-date">05.06.2026</time></div></article></div></section>
   </main>
   <footer>
     <div class="inner">
