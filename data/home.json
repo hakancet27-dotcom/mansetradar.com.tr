@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-07T00:00:00+00:00",
-    "article_count": 348,
+    "article_count": 351,
     "schema_version": 2,
     "section": "articles"
   },
@@ -74,6 +74,41 @@
         "Kiryakos Miçotakis",
         "Doğu Ege",
         "Girit"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607",
+      "slug": "turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607",
+      "title": "Türkiye’nin İlk CAR-T Hücresel Tedavi Merkezi Ruhsat Aldı",
+      "summary": "Akdeniz Üniversitesi bünyesinde kurulan Türkiye’nin ilk CAR-T ve Hücresel Tedaviler Üretim Merkezi’nde ruhsat süreci tamamlandı. Kanser tedavisinde yeni bir dönem başlatacak olan merkez, ilk hastasını bekliyor.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607/",
+      "detail_json_url": "/data/details/articles/turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607.webp",
+      "image_alt": "Akdeniz Üniversitesi bünyesinde kurulan Türkiye'nin ilk CAR-T ve Hücresel Tedaviler Üretim Merkezi laboratuvarı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607.webp",
+        "alt": "Akdeniz Üniversitesi bünyesinde kurulan Türkiye'nin ilk CAR-T ve Hücresel Tedaviler Üretim Merkezi laboratuvarı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/hurriyet-turkiyenin-ilk-hucresel-tedaviler-uretim-merkezinde-umut-merkezi-ilk-hastasini-bekliyor-43196204",
+      "tags": [
+        "CAR-T tedavisi",
+        "hücresel tedavi",
+        "Akdeniz Üniversitesi",
+        "kanser tedavisi",
+        "Özlenen Özkan"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -213,6 +248,41 @@
         "Atatürk Havalimanı",
         "Geri Dönüşüm",
         "Sürdürülebilirlik"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607",
+      "slug": "rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607",
+      "title": "Rebecca Gayheart, kızı Georgia’nın mezuniyet sevincini paylaştı",
+      "summary": "Ünlü oyuncu Rebecca Gayheart, 19 Şubat'ta ALS hastalığı nedeniyle hayatını kaybeden eşi Eric Dane'in ardından, kızı Georgia'nın ortaokul mezuniyet töreninde duygusal anlar yaşadı.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607/",
+      "detail_json_url": "/data/details/articles/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607.webp",
+      "image_alt": "Rebecca Gayheart ve kızı Georgia Dane mezuniyet töreninde.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607.webp",
+        "alt": "Rebecca Gayheart ve kızı Georgia Dane mezuniyet töreninde."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/magazin/unlu-ailenin-buruk-sevinci-genc-yasinda-olen-yildiz-oyuncu-kizinin-mezuniyetini-goremedi-43196720",
+      "tags": [
+        "Rebecca Gayheart",
+        "Eric Dane",
+        "Georgia Dane",
+        "Magazin",
+        "ALS"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -635,75 +705,6 @@
       ],
       "quality_score": 76,
       "review_status": "published"
-    },
-    {
-      "id": "articles:erdogan-sifir-atik-forumu-aciklamalari_20260607",
-      "slug": "erdogan-sifir-atik-forumu-aciklamalari_20260607",
-      "title": "Cumhurbaşkanı Erdoğan Sıfır Atık Forumu Kapanışında Konuştu",
-      "summary": "Cumhurbaşkanı Erdoğan, İstanbul'da gerçekleştirilen Sıfır Atık Forumu'nun kapanış töreninde yaptığı konuşmada, küresel iklim krizinin etkilerine, çevre diplomasisine ve dünyadaki gıda israfına dikkat çekti.",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/erdogan-sifir-atik-forumu-aciklamalari_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/erdogan-sifir-atik-forumu-aciklamalari_20260607/",
-      "detail_json_url": "/data/details/articles/erdogan-sifir-atik-forumu-aciklamalari_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/erdogan-sifir-atik-forumu-aciklamalari_20260607.webp",
-      "image_alt": "Cumhurbaşkanı Erdoğan İstanbul'daki Sıfır Atık Forumu kapanışında konuşma yapıyor.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/erdogan-sifir-atik-forumu-aciklamalari_20260607.webp",
-        "alt": "Cumhurbaşkanı Erdoğan İstanbul'daki Sıfır Atık Forumu kapanışında konuşma yapıyor."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/cumhurbaskani-erdogandan-onemli-aciklamalar-43196872",
-      "tags": [
-        "Cumhurbaşkanı Erdoğan",
-        "Sıfır Atık Forumu",
-        "Çevre Diplomasisi",
-        "Gıda İsrafı",
-        "İstanbul"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:dunya-kupasi-maskotlari-tarihten-2026ya_20260607",
-      "slug": "dunya-kupasi-maskotlari-tarihten-2026ya_20260607",
-      "title": "Dünya Kupası Maskotları: Tarihten 2026'ya Eğlenceli Yüzler",
-      "summary": "FIFA Dünya Kupaları'nın eğlenceli yüzleri olan maskotlar, turnuva tarihine damga vurmaya devam ediyor. İlk resmi maskotun 1966'da \"World Cup Willie\" ile ortaya çıkmasından bu yana, aslan, köpek, horoz gibi hayvan figürleri ve Katar 2022'deki \"La'eeb\" gibi ö...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/dunya-kupasi-maskotlari-tarihten-2026ya_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/dunya-kupasi-maskotlari-tarihten-2026ya_20260607/",
-      "detail_json_url": "/data/details/articles/dunya-kupasi-maskotlari-tarihten-2026ya_20260607.json",
-      "image_url": "https://images.pexels.com/photos/31762310/pexels-photo-31762310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "image_alt": "Dünya Kupası Maskotları: Tarihten 2026'ya Eğlenceli Yüzler",
-      "image": {
-        "url": "https://images.pexels.com/photos/31762310/pexels-photo-31762310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "alt": "Dünya Kupası Maskotları: Tarihten 2026'ya Eğlenceli Yüzler"
-      },
-      "source_name": "Anadolu Ajansı Güncel Haberler",
-      "source_url": "https://www.aa.com.tr/tr/spor/dunya-kupalarinin-eglenceli-yuzleri-maskotlar/3958925",
-      "tags": [
-        "FIFA Dünya Kupası",
-        "Maskot",
-        "2026 Dünya Kupası",
-        "Spor Tarihi"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -773,6 +774,41 @@
         "Kiryakos Miçotakis",
         "Doğu Ege",
         "Girit"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607",
+      "slug": "turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607",
+      "title": "Türkiye’nin İlk CAR-T Hücresel Tedavi Merkezi Ruhsat Aldı",
+      "summary": "Akdeniz Üniversitesi bünyesinde kurulan Türkiye’nin ilk CAR-T ve Hücresel Tedaviler Üretim Merkezi’nde ruhsat süreci tamamlandı. Kanser tedavisinde yeni bir dönem başlatacak olan merkez, ilk hastasını bekliyor.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607/",
+      "detail_json_url": "/data/details/articles/turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607.webp",
+      "image_alt": "Akdeniz Üniversitesi bünyesinde kurulan Türkiye'nin ilk CAR-T ve Hücresel Tedaviler Üretim Merkezi laboratuvarı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607.webp",
+        "alt": "Akdeniz Üniversitesi bünyesinde kurulan Türkiye'nin ilk CAR-T ve Hücresel Tedaviler Üretim Merkezi laboratuvarı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/hurriyet-turkiyenin-ilk-hucresel-tedaviler-uretim-merkezinde-umut-merkezi-ilk-hastasini-bekliyor-43196204",
+      "tags": [
+        "CAR-T tedavisi",
+        "hücresel tedavi",
+        "Akdeniz Üniversitesi",
+        "kanser tedavisi",
+        "Özlenen Özkan"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -912,6 +948,41 @@
         "Atatürk Havalimanı",
         "Geri Dönüşüm",
         "Sürdürülebilirlik"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607",
+      "slug": "rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607",
+      "title": "Rebecca Gayheart, kızı Georgia’nın mezuniyet sevincini paylaştı",
+      "summary": "Ünlü oyuncu Rebecca Gayheart, 19 Şubat'ta ALS hastalığı nedeniyle hayatını kaybeden eşi Eric Dane'in ardından, kızı Georgia'nın ortaokul mezuniyet töreninde duygusal anlar yaşadı.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607/",
+      "detail_json_url": "/data/details/articles/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607.webp",
+      "image_alt": "Rebecca Gayheart ve kızı Georgia Dane mezuniyet töreninde.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607.webp",
+        "alt": "Rebecca Gayheart ve kızı Georgia Dane mezuniyet töreninde."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/magazin/unlu-ailenin-buruk-sevinci-genc-yasinda-olen-yildiz-oyuncu-kizinin-mezuniyetini-goremedi-43196720",
+      "tags": [
+        "Rebecca Gayheart",
+        "Eric Dane",
+        "Georgia Dane",
+        "Magazin",
+        "ALS"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1507,75 +1578,6 @@
         "Erişim Engeli"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:brad-pitt-ve-ines-de-ramon-fransa-acik-ask-tazelerken-goruntulendi_20260607",
-      "slug": "brad-pitt-ve-ines-de-ramon-fransa-acik-ask-tazelerken-goruntulendi_20260607",
-      "title": "Brad Pitt ve Ines de Ramon Aşk Tazelerken Görüntülendi",
-      "summary": "Ünlü oyuncu Brad Pitt ve mücevher tasarımcısı kız arkadaşı Ines de Ramon, Fransa Açık tenis turnuvasında ilk kez kameralar karşısında birbirlerine yakınlık gösterirken görüntülendi. Çift, maçın heyecanına kendilerini kaptırarak romantik anlar yaşadı.",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/brad-pitt-ve-ines-de-ramon-fransa-acik-ask-tazelerken-goruntulendi_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/brad-pitt-ve-ines-de-ramon-fransa-acik-ask-tazelerken-goruntulendi_20260607/",
-      "detail_json_url": "/data/details/articles/brad-pitt-ve-ines-de-ramon-fransa-acik-ask-tazelerken-goruntulendi_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/ines-de-ramos-brad-pitt-new-york-city-090924-1-6d265456857d41ef93c3f5dce8ba1213.webp",
-      "image_alt": "Brad Pitt ve Ines de Ramon Fransa Açık'ta romantik anlar yaşarken.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/ines-de-ramos-brad-pitt-new-york-city-090924-1-6d265456857d41ef93c3f5dce8ba1213.webp",
-        "alt": "Brad Pitt ve Ines de Ramon Fransa Açık'ta romantik anlar yaşarken."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/brad-pitt-ve-kiz-arkadasi-ines-de-ramon-un-romantik-anlari-3889935-magazin",
-      "tags": [
-        "Brad Pitt",
-        "Ines de Ramon",
-        "Fransa Açık",
-        "Tenis",
-        "Magazin"
-      ],
-      "quality_score": 80,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:besiktas-vincenzo-italiano-sozlesme-imzaladi_20260607",
-      "slug": "besiktas-vincenzo-italiano-sozlesme-imzaladi_20260607",
-      "title": "Beşiktaş'ta Vincenzo Italiano Dönemi Başladı: Futbol Direktörü Önder Özden'den Açıklamalar",
-      "summary": "Beşiktaş, yeni teknik direktörü Vincenzo Italiano ile 2 yıllık sözleşme imzaladı. BJK Nevzat Demir Tesisleri'nde düzenlenen imza törenine Beşiktaş Başkanı Serdal Adalı ve Futbol Direktörü Önder Özden katıldı. Törende konuşan Özden, Italiano'nun transfer sür...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/besiktas-vincenzo-italiano-sozlesme-imzaladi_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/besiktas-vincenzo-italiano-sozlesme-imzaladi_20260607/",
-      "detail_json_url": "/data/details/articles/besiktas-vincenzo-italiano-sozlesme-imzaladi_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/pexels-ahmed-؜-8157611.jpg",
-      "image_alt": "Vincenzo Italiano, Serdal Adalı ve Önder Özden imza töreninde",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/pexels-ahmed-؜-8157611.jpg",
-        "alt": "Vincenzo Italiano, Serdal Adalı ve Önder Özden imza töreninde"
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/onder-ozen-6-7-mevki-icin-oyuncu-ihtiyaci-var-3889851-spor",
-      "tags": [
-        "Beşiktaş",
-        "Vincenzo Italiano",
-        "Önder Özden",
-        "Futbol Transferleri"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]
