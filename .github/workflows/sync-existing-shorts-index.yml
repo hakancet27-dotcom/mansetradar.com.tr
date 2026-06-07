@@ -3,7 +3,7 @@ name: Sync Existing Shorts Index
 # YOUTUBE SHORTS İNDEKS SENKRONİZASYONU WORKFLOW'U
 #
 # Ne yapar?
-# - `yt-dlp` ile Nartanesi Haber YouTube kanalındaki Shorts/video listesini okur.
+# - `yt-dlp` ile Mansetradar Haber YouTube kanalındaki Shorts/video listesini okur.
 # - Site içindeki Shorts/video indeks JSON dosyasını günceller.
 # - Değişiklik varsa public site reposuna commit/push yapabilir.
 #
@@ -38,8 +38,8 @@ jobs:
           import json, subprocess, datetime
           from pathlib import Path
           urls = [
-              'https://www.youtube.com/@NartanesiHaber/shorts',
-              'https://www.youtube.com/@NartanesiHaber/videos'
+              'https://www.youtube.com/@mansetradar/shorts',
+              'https://www.youtube.com/@mansetradar/videos'
           ]
           found = {}
           errors = []
@@ -54,7 +54,7 @@ jobs:
                   except Exception:
                       continue
                   vid = item.get('id')
-                  title = item.get('title') or 'Nartanesi Haber Shorts'
+                  title = item.get('title') or 'Mansetradar Shorts'
                   page_url = item.get('url') or ''
                   if not vid:
                       continue
@@ -62,7 +62,7 @@ jobs:
                   found[vid] = {
                       'video_id': vid,
                       'title': title,
-                      'description': 'Nartanesi Haber Shorts içeriği.',
+                      'description': 'MansatRadar Haber Shorts içeriği.',
                       'shorts_url': 'https://www.youtube.com/shorts/' + vid,
                       'embed_url': 'https://www.youtube.com/embed/' + vid,
                       'news_url': '/'
@@ -73,7 +73,7 @@ jobs:
           Path('haber/video').mkdir(parents=True, exist_ok=True)
           Path('haber/video/shorts-feed.json').write_text(json.dumps({
               'updated_at': datetime.datetime.utcnow().isoformat() + 'Z',
-              'channel': 'https://www.youtube.com/@NartanesiHaber/shorts',
+              'channel': 'https://www.youtube.com/@Mansetradar/shorts',
               'source_urls': urls,
               'count': len(videos),
               'videos': videos,
