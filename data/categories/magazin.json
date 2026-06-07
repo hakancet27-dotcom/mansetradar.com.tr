@@ -3,11 +3,46 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-07T00:00:00+00:00",
-    "article_count": 330,
+    "article_count": 332,
     "schema_version": 2,
     "category_slug": "magazin"
   },
   "articles": [
+    {
+      "id": "articles:harper-beckham-guzellik-markasi_20260607",
+      "slug": "harper-beckham-guzellik-markasi_20260607",
+      "title": "Harper Beckham'dan Büyük Güzellik Lansmanı: 14 Yaşında Kendi Markasıyla Piyasada",
+      "summary": "Victoria Beckham'ın kızı Harper Beckham, henüz 14 yaşındayken kendi güzellik markasıyla moda ve güzellik sektörüne iddialı bir giriş yapıyor. Annesi Victoria Beckham'ın kurduğu şirket aracılığıyla piyasaya sürülecek olan \"HIKU by Harper\" adlı marka, 2026'nı...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/harper-beckham-guzellik-markasi_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/harper-beckham-guzellik-markasi_20260607/",
+      "detail_json_url": "/data/details/articles/harper-beckham-guzellik-markasi_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/harper-beckham-guzellik-markasi_20260607.webp",
+      "image_alt": "Harper Beckham ve annesi Victoria Beckham, yeni güzellik markaları HIKU by Harper'ın lansmanında.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/harper-beckham-guzellik-markasi_20260607.webp",
+        "alt": "Harper Beckham ve annesi Victoria Beckham, yeni güzellik markaları HIKU by Harper'ın lansmanında."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/magazin/ailesi-onun-hem-tahtini-hem-de-bahtini-yapti-daha-14-yasinda-ama-anne-babasindan-daha-zengin-olacak-43196684",
+      "tags": [
+        "Harper Beckham",
+        "Victoria Beckham",
+        "Güzellik Markası",
+        "Moda",
+        "CGC Global"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles:guller-ve-gunahlar-sezon-finali-gelismeler_20260607",
       "slug": "guller-ve-gunahlar-sezon-finali-gelismeler_20260607",
@@ -75,6 +110,41 @@
         "Magazin"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:dilan-polat-instagram-hesabi-kapatildi-ilk-aciklama_20260607",
+      "slug": "dilan-polat-instagram-hesabi-kapatildi-ilk-aciklama_20260607",
+      "title": "Dilan Polat'ın Instagram Hesabı Kapatıldı: İlk Açıklama Geldi",
+      "summary": "Sosyal medya paylaşımlarıyla gündeme gelen Dilan Polat'ın 6,3 milyon takipçili Instagram hesabı, Ankara Sulh Ceza Hakimliği kararıyla erişime kapatıldı. Kararın ardından aileden yedek hesap açıklaması gelirken, Dilan Polat da konuyla ilgili ilk kez konuştu.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/dilan-polat-instagram-hesabi-kapatildi-ilk-aciklama_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/dilan-polat-instagram-hesabi-kapatildi-ilk-aciklama_20260607/",
+      "detail_json_url": "/data/details/articles/dilan-polat-instagram-hesabi-kapatildi-ilk-aciklama_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/dilan-polat-instagram-hesabi-kapatildi-ilk-aciklama_20260607.webp",
+      "image_alt": "Dilan Polat'ın Instagram hesabının kapatılmasına ilişkin temsilî görsel",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/dilan-polat-instagram-hesabi-kapatildi-ilk-aciklama_20260607.webp",
+        "alt": "Dilan Polat'ın Instagram hesabının kapatılmasına ilişkin temsilî görsel"
+      },
+      "source_name": "Magazin haberleri - Son dakika magazin haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/6-3-milyon-takipcili-hesabi-kapatilmisti-dilan-polat-tan-yeni-aciklama-p325959",
+      "tags": [
+        "Dilan Polat",
+        "Şükran Polat",
+        "Instagram",
+        "Sosyal Medya",
+        "Erişim Engeli"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
