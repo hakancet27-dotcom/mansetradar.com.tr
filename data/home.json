@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-07T00:00:00+00:00",
-    "article_count": 336,
+    "article_count": 338,
     "schema_version": 2,
     "section": "articles"
   },
@@ -290,6 +290,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:fenerbahce-tarihi-secim-sayim-basladi_20260607",
+      "slug": "fenerbahce-tarihi-secim-sayim-basladi_20260607",
+      "title": "Fenerbahçe'de Tarihi Seçim: Oy Sayımı Başladı, Sonuçlar Bekleniyor",
+      "summary": "Fenerbahçe'de Aziz Yıldırım ve Hakan Safi'nin aday olduğu tarihi seçimde oy verme işlemi saat 17.00'de sona erdi. Sandıklar kapandı ve Yüksek Divan Kurulu ile sandık kurulları gözetiminde sayım işlemine geçildi. Toplam 27 bin 138 üyenin oy kullandığı kayded...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/fenerbahce-tarihi-secim-sayim-basladi_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/fenerbahce-tarihi-secim-sayim-basladi_20260607/",
+      "detail_json_url": "/data/details/articles/fenerbahce-tarihi-secim-sayim-basladi_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/fenerbahce-tarihi-secim-sayim-basladi_20260607.webp",
+      "image_alt": "Fenerbahçe'de Tarihi Seçim: Oy Sayımı Başladı, Sonuçlar Bekleniyor",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/fenerbahce-tarihi-secim-sayim-basladi_20260607.webp",
+        "alt": "Fenerbahçe'de Tarihi Seçim: Oy Sayımı Başladı, Sonuçlar Bekleniyor"
+      },
+      "source_name": "Spor haberleri - Son dakika spor haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/canli-veya-fenerbahce-de-tarihi-secim-oy-verme-islemi-suruyor-p325909",
+      "tags": [
+        "Fenerbahçe",
+        "Aziz Yıldırım",
+        "Hakan Safi",
+        "Seçim",
+        "Spor"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles:fenerbahce-baskanlik-secimi-oy-verme-tamamlandi-yildirim-safi-sandik-basinda_20260607",
       "slug": "fenerbahce-baskanlik-secimi-oy-verme-tamamlandi-yildirim-safi-sandik-basinda_20260607",
       "title": "CANLI - Fenerbahçe'de seçim günü",
@@ -389,6 +424,40 @@
         "Çevre Diplomasisi",
         "Gıda İsrafı",
         "İstanbul"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:dunya-kupasi-maskotlari-tarihten-2026ya_20260607",
+      "slug": "dunya-kupasi-maskotlari-tarihten-2026ya_20260607",
+      "title": "Dünya Kupası Maskotları: Tarihten 2026'ya Eğlenceli Yüzler",
+      "summary": "FIFA Dünya Kupaları'nın eğlenceli yüzleri olan maskotlar, turnuva tarihine damga vurmaya devam ediyor. İlk resmi maskotun 1966'da \"World Cup Willie\" ile ortaya çıkmasından bu yana, aslan, köpek, horoz gibi hayvan figürleri ve Katar 2022'deki \"La'eeb\" gibi ö...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/dunya-kupasi-maskotlari-tarihten-2026ya_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/dunya-kupasi-maskotlari-tarihten-2026ya_20260607/",
+      "detail_json_url": "/data/details/articles/dunya-kupasi-maskotlari-tarihten-2026ya_20260607.json",
+      "image_url": "https://images.pexels.com/photos/31762310/pexels-photo-31762310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image_alt": "Dünya Kupası Maskotları: Tarihten 2026'ya Eğlenceli Yüzler",
+      "image": {
+        "url": "https://images.pexels.com/photos/31762310/pexels-photo-31762310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Dünya Kupası Maskotları: Tarihten 2026'ya Eğlenceli Yüzler"
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/spor/dunya-kupalarinin-eglenceli-yuzleri-maskotlar/3958925",
+      "tags": [
+        "FIFA Dünya Kupası",
+        "Maskot",
+        "2026 Dünya Kupası",
+        "Spor Tarihi"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -630,76 +699,6 @@
         "Ukrayna",
         "Rusya",
         "Barış Görüşmeleri"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:unlu-oyuncu-anthony-head-sevdigi-kadindan-6-ay-sonra-vefat-etti_20260606",
-      "slug": "unlu-oyuncu-anthony-head-sevdigi-kadindan-6-ay-sonra-vefat-etti_20260606",
-      "title": "Ünlü Oyuncu Anthony Head, Sevdiği Kadından 6 Ay Sonra Vefat Etti",
-      "summary": "Ünlü oyuncu Anthony Head, hayatının aşkı Sarah Fisher'ı kanser nedeniyle kaybetmesinden altı ay sonra, 72 yaşında zatürreeye bağlı komplikasyonlar yüzünden hayata veda etti. \"Buffy the Vampire Slayer\" ve \"Ted Lasso\" gibi yapımlardaki rolleriyle tanınan İngi...",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "06.06.2026",
-      "date_iso": "2026-06-06",
-      "url": "/articles/unlu-oyuncu-anthony-head-sevdigi-kadindan-6-ay-sonra-vefat-etti_20260606/",
-      "canonical_url": "https://mansetradar.com.tr/articles/unlu-oyuncu-anthony-head-sevdigi-kadindan-6-ay-sonra-vefat-etti_20260606/",
-      "detail_json_url": "/data/details/articles/unlu-oyuncu-anthony-head-sevdigi-kadindan-6-ay-sonra-vefat-etti_20260606.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/unlu-oyuncu-anthony-head-sevdigi-kadindan-6-ay-sonra-vefat-etti_20260606.webp",
-      "image_alt": "Ünlü Oyuncu Anthony Head, Sevdiği Kadından 6 Ay Sonra Vefat Etti",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/unlu-oyuncu-anthony-head-sevdigi-kadindan-6-ay-sonra-vefat-etti_20260606.webp",
-        "alt": "Ünlü Oyuncu Anthony Head, Sevdiği Kadından 6 Ay Sonra Vefat Etti"
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/kelebek/magazin/unlu-oyuncu-sevdigi-kadindan-alti-ay-sonra-oldu-43195448",
-      "tags": [
-        "Anthony Head",
-        "Sarah Fisher",
-        "Buffy the Vampire Slayer",
-        "Ted Lasso",
-        "Magazin Haberleri"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:turkiye-enflasyonda-g20-zirvesinde-dunyada-4-sirada-mayis-2026_20260606",
-      "slug": "turkiye-enflasyonda-g20-zirvesinde-dunyada-4-sirada-mayis-2026_20260606",
-      "title": "Türkiye, Küresel Enflasyon Sıralamasında Arjantin'i Geride Bırakarak Dünyada 4. Sıraya Yükseldi",
-      "summary": "Türkiye İstatistik Kurumu (TÜİK) tarafından açıklanan mayıs ayı tüketici fiyat endeksi (TÜFE) verilerine göre, yıllık enflasyon yüzde 32,61 olarak gerçekleşti. Bu güncel verilerle Türkiye, küresel enflasyon sıralamasında Arjantin'i geride bırakarak dünya ge...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "06.06.2026",
-      "date_iso": "2026-06-06",
-      "url": "/articles/turkiye-enflasyonda-g20-zirvesinde-dunyada-4-sirada-mayis-2026_20260606/",
-      "canonical_url": "https://mansetradar.com.tr/articles/turkiye-enflasyonda-g20-zirvesinde-dunyada-4-sirada-mayis-2026_20260606/",
-      "detail_json_url": "/data/details/articles/turkiye-enflasyonda-g20-zirvesinde-dunyada-4-sirada-mayis-2026_20260606.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/turkiye-enflasyonda-g20-zirvesinde-dunyada-4-sirada-mayis-2026_20260606.webp",
-      "image_alt": "Türkiye, Küresel Enflasyon Sıralamasında Arjantin'i Geride Bırakarak Dünyada 4. Sıraya Yükseldi",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/turkiye-enflasyonda-g20-zirvesinde-dunyada-4-sirada-mayis-2026_20260606.webp",
-        "alt": "Türkiye, Küresel Enflasyon Sıralamasında Arjantin'i Geride Bırakarak Dünyada 4. Sıraya Yükseldi"
-      },
-      "source_name": "Cumhuriyet Gazetesi - Ekonomi",
-      "source_url": "https://www.cumhuriyet.com.tr/ekonomi/kuresel-enflasyon-siralamasi-degisti-turkiye-g20-nin-zirvesinde-dunyada-4-sirada-2509885",
-      "tags": [
-        "Türkiye Enflasyon",
-        "TÜİK Mayıs 2026",
-        "Küresel Enflasyon Sıralaması",
-        "G20 Enflasyon",
-        "Arjantin Enflasyon"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -988,6 +987,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:fenerbahce-tarihi-secim-sayim-basladi_20260607",
+      "slug": "fenerbahce-tarihi-secim-sayim-basladi_20260607",
+      "title": "Fenerbahçe'de Tarihi Seçim: Oy Sayımı Başladı, Sonuçlar Bekleniyor",
+      "summary": "Fenerbahçe'de Aziz Yıldırım ve Hakan Safi'nin aday olduğu tarihi seçimde oy verme işlemi saat 17.00'de sona erdi. Sandıklar kapandı ve Yüksek Divan Kurulu ile sandık kurulları gözetiminde sayım işlemine geçildi. Toplam 27 bin 138 üyenin oy kullandığı kayded...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/fenerbahce-tarihi-secim-sayim-basladi_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/fenerbahce-tarihi-secim-sayim-basladi_20260607/",
+      "detail_json_url": "/data/details/articles/fenerbahce-tarihi-secim-sayim-basladi_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/fenerbahce-tarihi-secim-sayim-basladi_20260607.webp",
+      "image_alt": "Fenerbahçe'de Tarihi Seçim: Oy Sayımı Başladı, Sonuçlar Bekleniyor",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/fenerbahce-tarihi-secim-sayim-basladi_20260607.webp",
+        "alt": "Fenerbahçe'de Tarihi Seçim: Oy Sayımı Başladı, Sonuçlar Bekleniyor"
+      },
+      "source_name": "Spor haberleri - Son dakika spor haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/canli-veya-fenerbahce-de-tarihi-secim-oy-verme-islemi-suruyor-p325909",
+      "tags": [
+        "Fenerbahçe",
+        "Aziz Yıldırım",
+        "Hakan Safi",
+        "Seçim",
+        "Spor"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles:fenerbahce-baskanlik-secimi-oy-verme-tamamlandi-yildirim-safi-sandik-basinda_20260607",
       "slug": "fenerbahce-baskanlik-secimi-oy-verme-tamamlandi-yildirim-safi-sandik-basinda_20260607",
       "title": "CANLI - Fenerbahçe'de seçim günü",
@@ -1087,6 +1121,40 @@
         "Çevre Diplomasisi",
         "Gıda İsrafı",
         "İstanbul"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:dunya-kupasi-maskotlari-tarihten-2026ya_20260607",
+      "slug": "dunya-kupasi-maskotlari-tarihten-2026ya_20260607",
+      "title": "Dünya Kupası Maskotları: Tarihten 2026'ya Eğlenceli Yüzler",
+      "summary": "FIFA Dünya Kupaları'nın eğlenceli yüzleri olan maskotlar, turnuva tarihine damga vurmaya devam ediyor. İlk resmi maskotun 1966'da \"World Cup Willie\" ile ortaya çıkmasından bu yana, aslan, köpek, horoz gibi hayvan figürleri ve Katar 2022'deki \"La'eeb\" gibi ö...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/dunya-kupasi-maskotlari-tarihten-2026ya_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/dunya-kupasi-maskotlari-tarihten-2026ya_20260607/",
+      "detail_json_url": "/data/details/articles/dunya-kupasi-maskotlari-tarihten-2026ya_20260607.json",
+      "image_url": "https://images.pexels.com/photos/31762310/pexels-photo-31762310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image_alt": "Dünya Kupası Maskotları: Tarihten 2026'ya Eğlenceli Yüzler",
+      "image": {
+        "url": "https://images.pexels.com/photos/31762310/pexels-photo-31762310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Dünya Kupası Maskotları: Tarihten 2026'ya Eğlenceli Yüzler"
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/spor/dunya-kupalarinin-eglenceli-yuzleri-maskotlar/3958925",
+      "tags": [
+        "FIFA Dünya Kupası",
+        "Maskot",
+        "2026 Dünya Kupası",
+        "Spor Tarihi"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1503,76 +1571,6 @@
         "NATO Parlamenter Zirvesi",
         "Finlandiya",
         "İsveç"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606",
-      "slug": "sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606",
-      "title": "Şengül Gezer'in Yürek Yakan Hikayesi: 5 Büyük Acı",
-      "summary": "Ardanuç ilçesine bağlı Yolüstü köyünde yaşayan Şengül Gezer, yıllar boyunca peş peşe gelen kayıplarla sarsıldı. 1982'de kız bebeği Yeşim'i, 2005'te kızı Gözde'yi, 2012'de büyük oğlu Savaş'ı (33), 2021'de eşi Yalçın Gezer'i (60) ve son olarak 5 ay önce Artvi...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "06.06.2026",
-      "date_iso": "2026-06-06",
-      "url": "/articles/sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606/",
-      "canonical_url": "https://mansetradar.com.tr/articles/sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606/",
-      "detail_json_url": "/data/details/articles/sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606.webp",
-      "image_alt": "Şengül Gezer'in Yürek Yakan Hikayesi: 5 Büyük Acı",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/sengul-gezerin-yurek-yakan-hikayesi-5-buyuk-aci_20260606.webp",
-        "alt": "Şengül Gezer'in Yürek Yakan Hikayesi: 5 Büyük Acı"
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/sengul-gezerin-yurek-yakan-hikayesi-art-arda-5-buyuk-aci-1i-bebek-4-cocugunu-ve-esini-kaybetti-43195859",
-      "tags": [
-        "Şengül Gezer",
-        "Artvin",
-        "Ardanuç",
-        "Aile Dramı",
-        "Kayıp"
-      ],
-      "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:raul-castro-30-yil-sonra-halkin-karsisina-cikti_20260606",
-      "slug": "raul-castro-30-yil-sonra-halkin-karsisina-cikti_20260606",
-      "title": "Raul Castro 30 Yıl Sonra İlk Kez Halkın Karşısına Çıktı",
-      "summary": "Eski Küba Devlet Başkanı Raul Castro, 1996'daki uçak düşürme olayıyla ilgili ABD'de hakkında açılan ceza davasının ardından 30 yıl sonra ilk kez kamuoyu önüne çıktı. Castro, başkent Havana'da düzenlenen 95. yaş günü töreninde yer alırken, mesajını İçişleri...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "06.06.2026",
-      "date_iso": "2026-06-06",
-      "url": "/articles/raul-castro-30-yil-sonra-halkin-karsisina-cikti_20260606/",
-      "canonical_url": "https://mansetradar.com.tr/articles/raul-castro-30-yil-sonra-halkin-karsisina-cikti_20260606/",
-      "detail_json_url": "/data/details/articles/raul-castro-30-yil-sonra-halkin-karsisina-cikti_20260606.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/raul-castro-30-yil-sonra-halkin-karsisina-cikti_20260606.webp",
-      "image_alt": "Raul Castro 30 Yıl Sonra İlk Kez Halkın Karşısına Çıktı",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/raul-castro-30-yil-sonra-halkin-karsisina-cikti_20260606.webp",
-        "alt": "Raul Castro 30 Yıl Sonra İlk Kez Halkın Karşısına Çıktı"
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-30-yil-sonra-ilk-kez-halkin-karsisina-cikti-95-yas-gununu-kutladi-7600362",
-      "tags": [
-        "Raul Castro",
-        "Küba",
-        "Miguel Diaz-Canel",
-        "ABD",
-        "Havana"
       ],
       "quality_score": 86,
       "review_status": "published"
