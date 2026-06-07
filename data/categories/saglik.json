@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-07T00:00:00+00:00",
-    "article_count": 345,
+    "article_count": 348,
     "schema_version": 2,
     "category_slug": "saglik"
   },
@@ -41,6 +41,40 @@
         "İngiltere"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607",
+      "slug": "kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607",
+      "title": "Kortizol Hakkındaki Yanlış Bilinenler: Vücudun Hayati Hormonu",
+      "summary": "Sosyal medyada sıkça 'stres hormonu' olarak nitelendirilen ve kilo alımı, uyku sorunları gibi pek çok olumsuzluğun sorumlusu tutulan kortizol, aslında yaşam için vazgeçilmez bir mekanizmaya sahip. Uzmanlar, bu hormonun vücut fonksiyonları üzerindeki hayati...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607/",
+      "detail_json_url": "/data/details/articles/kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607.webp",
+      "image_alt": "Kortizol hormonu ve insan sağlığı üzerine tıbbi bir görsel.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607.webp",
+        "alt": "Kortizol hormonu ve insan sağlığı üzerine tıbbi bir görsel."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/hurriyet-pazar/yanlis-anlasilan-bir-hormon-kortizol-43196260",
+      "tags": [
+        "Kortizol",
+        "Hormonlar",
+        "Sağlık",
+        "Endokrinoloji"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
