@@ -13,6 +13,27 @@ display_url: https://mansetradar.com.tr
 locale: tr
 
 collections:
+  - name: stock_image_pool
+    label: "0 - Stok Gorsel Havuzu"
+    label_singular: "Stok Gorsel"
+    folder: cms-stock-images
+    create: true
+    delete: true
+    extension: json
+    format: json
+    slug: "{{slug}}"
+    identifier_field: title
+    summary: "{{category}} | {{title}}"
+    media_folder: articles/images/stock
+    public_folder: /articles/images/stock
+    fields:
+      - { label: Baslik, name: title, widget: string, hint: "Havuzda bu gorseli kolay bulmak icin kisa bir ad ver." }
+      - { label: Kategori, name: category, widget: select, default: Gundem, options: [Son Dakika, Gundem, Siyaset, Ekonomi, Dunya, Spor, Magazin, Teknoloji, Saglik, Video, Genel] }
+      - { label: Gorsel Yukle, name: image_url, widget: image, required: true, hint: "Buradan dosya sec; gorsel dogrudan stok havuzuna atilir." }
+      - { label: Gorsel Alt Metni, name: image_alt, widget: string, required: false, hint: "Gorseli kisaca anlat. Sonra haberlerde kullanmak daha kolay olur." }
+      - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, widget: string } }
+      - { label: Not, name: note, widget: text, required: false, hint: "Ornek: spor genel kullanima uygun, insan kalabaligi yok." }
+
   - name: delete_flow_published
     label: "0 - Canli Haberler (Delete = Yayindan Kaldir)"
     folder: cms-delete-flow/published
