@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-07T00:00:00+00:00",
-    "article_count": 342,
+    "article_count": 344,
     "schema_version": 2,
     "section": "articles"
   },
@@ -111,6 +111,76 @@
         "İngiltere"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:sifir-atik-festivali-ataturk-havalimaninda-sona-erdi_20260607",
+      "slug": "sifir-atik-festivali-ataturk-havalimaninda-sona-erdi_20260607",
+      "title": "Sıfır Atık Festivali Atatürk Havalimanı'nda Kapsamlı Etkinliklerle Sona Erdi",
+      "summary": "Sıfır Atık Festivali, Birleşmiş Milletler Sıfır Atık Yüksek Düzeyli Şahsiyetler Danışma Kurulu Başkanı Emine Erdoğan'ın himayelerinde, Sıfır Atık Vakfı ile Enerji ve Tabii Kaynaklar Bakanlığı işbirliğiyle Atatürk Havalimanı'nda düzenlendi. \"Enerjide Verimli...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/sifir-atik-festivali-ataturk-havalimaninda-sona-erdi_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/sifir-atik-festivali-ataturk-havalimaninda-sona-erdi_20260607/",
+      "detail_json_url": "/data/details/articles/sifir-atik-festivali-ataturk-havalimaninda-sona-erdi_20260607.json",
+      "image_url": "https://images.pexels.com/photos/12131137/pexels-photo-12131137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image_alt": "Sıfır Atık Festivali Atatürk Havalimanı'nda Kapsamlı Etkinliklerle Sona Erdi",
+      "image": {
+        "url": "https://images.pexels.com/photos/12131137/pexels-photo-12131137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Sıfır Atık Festivali Atatürk Havalimanı'nda Kapsamlı Etkinliklerle Sona Erdi"
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/gundem/sifir-atik-festivali-farkindalik-etkinlikleriyle-devam-ediyor/3958941",
+      "tags": [
+        "Sıfır Atık Festivali",
+        "Emine Erdoğan",
+        "Atatürk Havalimanı",
+        "Geri Dönüşüm",
+        "Sürdürülebilirlik"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:ozan-guven-yargi-sureci-ve-toplumsal-linc-kulturu-aciklamalari_20260607",
+      "slug": "ozan-guven-yargi-sureci-ve-toplumsal-linc-kulturu-aciklamalari_20260607",
+      "title": "Ozan Güven'den Yargı Süreci ve Toplumsal Linç Kültürü Üzerine Açıklamalar",
+      "summary": "Oyuncu Ozan Güven, eski sevgilisi Deniz Bulutsuz'u darp ettiği iddiasıyla yargılandığı davada 'kasten yaralama' suçundan hapis cezasına çarptırılmasının ardından ilk kez konuştu. A Para'da yayınlanan 'Biz Bize' programına konuk olan Güven, 5 buçuk yıl süren...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/ozan-guven-yargi-sureci-ve-toplumsal-linc-kulturu-aciklamalari_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/ozan-guven-yargi-sureci-ve-toplumsal-linc-kulturu-aciklamalari_20260607/",
+      "detail_json_url": "/data/details/articles/ozan-guven-yargi-sureci-ve-toplumsal-linc-kulturu-aciklamalari_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/ozan-guven-yargi-sureci-ve-toplumsal-linc-kulturu-aciklamalari_20260607.webp",
+      "image_alt": "Ozan Güven, oyuncu, televizyon programında açıklamalarda bulunuyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/ozan-guven-yargi-sureci-ve-toplumsal-linc-kulturu-aciklamalari_20260607.webp",
+        "alt": "Ozan Güven, oyuncu, televizyon programında açıklamalarda bulunuyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/hayat/yasananlari-ilk-kez-anlatti-artik-asansore-bir-kadinla-binmiyorum-43196291",
+      "tags": [
+        "Ozan Güven",
+        "Deniz Bulutsuz",
+        "Yargı Süreci",
+        "Linç Kültürü",
+        "Magazin"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
