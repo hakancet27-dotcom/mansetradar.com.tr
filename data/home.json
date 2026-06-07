@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-07T00:00:00+00:00",
-    "article_count": 344,
+    "article_count": 345,
     "schema_version": 2,
     "section": "articles"
   },
@@ -111,6 +111,40 @@
         "İngiltere"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607",
+      "slug": "tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607",
+      "title": "TBMM Başkanı Kurtulmuş: Türkiye'nin sözü her alanda en güçlü noktaya taşınmalı",
+      "summary": "TBMM Başkanı Numan Kurtulmuş, Fatih Vefa Lisesi'nde düzenlenen 20'nci Geleneksel İlim Yaymalılar Buluşması'na katıldı. Programda Türkiye'nin uluslararası alandaki artan itibarına vurgu yapan Kurtulmuş, hedeflerin daha da yükseltilmesi gerektiğini belirtti.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607/",
+      "detail_json_url": "/data/details/articles/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607.webp",
+      "image_alt": "TBMM Başkanı Numan Kurtulmuş, 20'nci Geleneksel İlim Yaymalılar Buluşması'nda konuşma yaparken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607.webp",
+        "alt": "TBMM Başkanı Numan Kurtulmuş, 20'nci Geleneksel İlim Yaymalılar Buluşması'nda konuşma yaparken."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/tbmm-baskani-kurtulmus-bize-dusen-her-alanda-turkiyenin-sozunu-en-guclu-noktaya-cikarabilmek-43196949",
+      "tags": [
+        "Numan Kurtulmuş",
+        "TBMM",
+        "İlim Yayma Cemiyeti",
+        "Vefa Lisesi"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -671,41 +705,6 @@
       ],
       "quality_score": 76,
       "review_status": "published"
-    },
-    {
-      "id": "articles:brad-pitt-ve-ines-de-ramon-fransa-acik-ask-tazelerken-goruntulendi_20260607",
-      "slug": "brad-pitt-ve-ines-de-ramon-fransa-acik-ask-tazelerken-goruntulendi_20260607",
-      "title": "Brad Pitt ve Ines de Ramon Aşk Tazelerken Görüntülendi",
-      "summary": "Ünlü oyuncu Brad Pitt ve mücevher tasarımcısı kız arkadaşı Ines de Ramon, Fransa Açık tenis turnuvasında ilk kez kameralar karşısında birbirlerine yakınlık gösterirken görüntülendi. Çift, maçın heyecanına kendilerini kaptırarak romantik anlar yaşadı.",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/brad-pitt-ve-ines-de-ramon-fransa-acik-ask-tazelerken-goruntulendi_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/brad-pitt-ve-ines-de-ramon-fransa-acik-ask-tazelerken-goruntulendi_20260607/",
-      "detail_json_url": "/data/details/articles/brad-pitt-ve-ines-de-ramon-fransa-acik-ask-tazelerken-goruntulendi_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/ines-de-ramos-brad-pitt-new-york-city-090924-1-6d265456857d41ef93c3f5dce8ba1213.webp",
-      "image_alt": "Brad Pitt ve Ines de Ramon Fransa Açık'ta romantik anlar yaşarken.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/ines-de-ramos-brad-pitt-new-york-city-090924-1-6d265456857d41ef93c3f5dce8ba1213.webp",
-        "alt": "Brad Pitt ve Ines de Ramon Fransa Açık'ta romantik anlar yaşarken."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/brad-pitt-ve-kiz-arkadasi-ines-de-ramon-un-romantik-anlari-3889935-magazin",
-      "tags": [
-        "Brad Pitt",
-        "Ines de Ramon",
-        "Fransa Açık",
-        "Tenis",
-        "Magazin"
-      ],
-      "quality_score": 80,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -812,6 +811,40 @@
         "İngiltere"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607",
+      "slug": "tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607",
+      "title": "TBMM Başkanı Kurtulmuş: Türkiye'nin sözü her alanda en güçlü noktaya taşınmalı",
+      "summary": "TBMM Başkanı Numan Kurtulmuş, Fatih Vefa Lisesi'nde düzenlenen 20'nci Geleneksel İlim Yaymalılar Buluşması'na katıldı. Programda Türkiye'nin uluslararası alandaki artan itibarına vurgu yapan Kurtulmuş, hedeflerin daha da yükseltilmesi gerektiğini belirtti.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607/",
+      "detail_json_url": "/data/details/articles/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607.webp",
+      "image_alt": "TBMM Başkanı Numan Kurtulmuş, 20'nci Geleneksel İlim Yaymalılar Buluşması'nda konuşma yaparken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607.webp",
+        "alt": "TBMM Başkanı Numan Kurtulmuş, 20'nci Geleneksel İlim Yaymalılar Buluşması'nda konuşma yaparken."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/tbmm-baskani-kurtulmus-bize-dusen-her-alanda-turkiyenin-sozunu-en-guclu-noktaya-cikarabilmek-43196949",
+      "tags": [
+        "Numan Kurtulmuş",
+        "TBMM",
+        "İlim Yayma Cemiyeti",
+        "Vefa Lisesi"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -1541,41 +1574,6 @@
         "Ukrayna",
         "Rusya",
         "Barış Görüşmeleri"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:unlu-oyuncu-anthony-head-sevdigi-kadindan-6-ay-sonra-vefat-etti_20260606",
-      "slug": "unlu-oyuncu-anthony-head-sevdigi-kadindan-6-ay-sonra-vefat-etti_20260606",
-      "title": "Ünlü Oyuncu Anthony Head, Sevdiği Kadından 6 Ay Sonra Vefat Etti",
-      "summary": "Ünlü oyuncu Anthony Head, hayatının aşkı Sarah Fisher'ı kanser nedeniyle kaybetmesinden altı ay sonra, 72 yaşında zatürreeye bağlı komplikasyonlar yüzünden hayata veda etti. \"Buffy the Vampire Slayer\" ve \"Ted Lasso\" gibi yapımlardaki rolleriyle tanınan İngi...",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "06.06.2026",
-      "date_iso": "2026-06-06",
-      "url": "/articles/unlu-oyuncu-anthony-head-sevdigi-kadindan-6-ay-sonra-vefat-etti_20260606/",
-      "canonical_url": "https://mansetradar.com.tr/articles/unlu-oyuncu-anthony-head-sevdigi-kadindan-6-ay-sonra-vefat-etti_20260606/",
-      "detail_json_url": "/data/details/articles/unlu-oyuncu-anthony-head-sevdigi-kadindan-6-ay-sonra-vefat-etti_20260606.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/unlu-oyuncu-anthony-head-sevdigi-kadindan-6-ay-sonra-vefat-etti_20260606.webp",
-      "image_alt": "Ünlü Oyuncu Anthony Head, Sevdiği Kadından 6 Ay Sonra Vefat Etti",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/unlu-oyuncu-anthony-head-sevdigi-kadindan-6-ay-sonra-vefat-etti_20260606.webp",
-        "alt": "Ünlü Oyuncu Anthony Head, Sevdiği Kadından 6 Ay Sonra Vefat Etti"
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/kelebek/magazin/unlu-oyuncu-sevdigi-kadindan-alti-ay-sonra-oldu-43195448",
-      "tags": [
-        "Anthony Head",
-        "Sarah Fisher",
-        "Buffy the Vampire Slayer",
-        "Ted Lasso",
-        "Magazin Haberleri"
       ],
       "quality_score": 86,
       "review_status": "published"

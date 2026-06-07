@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-07T00:00:00+00:00",
-    "article_count": 344,
+    "article_count": 345,
     "schema_version": 2,
     "section": "articles"
   },
@@ -111,6 +111,40 @@
         "İngiltere"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607",
+      "slug": "tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607",
+      "title": "TBMM Başkanı Kurtulmuş: Türkiye'nin sözü her alanda en güçlü noktaya taşınmalı",
+      "summary": "TBMM Başkanı Numan Kurtulmuş, Fatih Vefa Lisesi'nde düzenlenen 20'nci Geleneksel İlim Yaymalılar Buluşması'na katıldı. Programda Türkiye'nin uluslararası alandaki artan itibarına vurgu yapan Kurtulmuş, hedeflerin daha da yükseltilmesi gerektiğini belirtti.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607/",
+      "detail_json_url": "/data/details/articles/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607.webp",
+      "image_alt": "TBMM Başkanı Numan Kurtulmuş, 20'nci Geleneksel İlim Yaymalılar Buluşması'nda konuşma yaparken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607.webp",
+        "alt": "TBMM Başkanı Numan Kurtulmuş, 20'nci Geleneksel İlim Yaymalılar Buluşması'nda konuşma yaparken."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/tbmm-baskani-kurtulmus-bize-dusen-her-alanda-turkiyenin-sozunu-en-guclu-noktaya-cikarabilmek-43196949",
+      "tags": [
+        "Numan Kurtulmuş",
+        "TBMM",
+        "İlim Yayma Cemiyeti",
+        "Vefa Lisesi"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
