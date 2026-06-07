@@ -11,6 +11,17 @@
     delete_flow_archived: "archived",
     delete_flow_trash: "trash",
   };
+  const deleteFlowCollections = new Set([
+    "delete_flow_published",
+    "delete_flow_unpublished",
+    "delete_flow_archived",
+    "delete_flow_trash",
+  ]);
+  const stockEnabledCollections = new Set([
+    "published_tr",
+    "published_en",
+    "published_de",
+  ]);
   const buttonId = "mr-restore-button";
   const buttonStyle = "display:inline-flex;align-items:center;padding:8px 12px;border:0;border-radius:6px;background:#16a34a;color:#fff;font-weight:700;text-decoration:none;line-height:1;cursor:pointer;position:fixed;z-index:2147483647;box-shadow:0 2px 10px rgba(0,0,0,.18);";
   const disabledButtonStyle = `${buttonStyle}opacity:.55;cursor:not-allowed;`;
@@ -198,21 +209,65 @@
       .trim();
   }
 
-  function selectedRowTexts() {
-    const checked = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'));
-    const texts = [];
-
-    for (const input of checked) {
-      const row = input.closest('[role="row"], li, article, div');
-      if (!row) continue;
-      const text = normalizeText(row.innerText || "");
-      if (!text) continue;
-      if (text.includes("of 1 selected") || text.includes("selected")) continue;
-      if (text === "delete" || text === "new") continue;
-      texts.push(text);
+  function deleteFlowRowForCheckbox(input) {
+    let current = input?.parentElement || null;
+    while (current && current !== document.body) {
+      const text = `${current.innerText || ""}`.trim();
+      if (/\|\s*delete\s*=/i.test(text)) {
+        return current;
+      }
+      current = current.parentElement;
     }
+    return null;
+  }
 
-    return Array.from(new Set(texts));
+  function rawRowTitle(text) {
+    return `${text || ""}`
+      .replace(/\s+/g, " ")
+      .replace(/\|\s*Delete\s*=.*/i, "")
+      .trim();
+  }
+
+  function selectedDeleteFlowRows() {
+    if (!deleteFlowCollections.has(collectionName()) || isEntryPage()) return [];
+    const seen = new Set();
+    const rows = [];
+    const checked = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'));
+    for (const input of checked) {
+      const row = deleteFlowRowForCheckbox(input);
+      if (!row || seen.has(row)) continue;
+      seen.add(row);
+      rows.push(row);
+    }
+    return rows;
+  }
+
+  function selectedTitles() {
+    if (isEntryPage()) {
+      return [];
+    }
+    return selectedDeleteFlowRows()
+      .map((row) => rawRowTitle(row.innerText || ""))
+      .filter(Boolean);
+  }
+
+  function selectedCountFromBanner() {
+    const nodes = Array.from(document.querySelectorAll("body *"));
+    for (const node of nodes) {
+      const text = `${node.textContent || ""}`.trim();
+      const match = text.match(/^(\d+)\s+of\s+\d+\s+selected$/i);
+      if (match) {
+        return Number(match[1]);
+      }
+    }
+    return null;
+  }
+
+  function selectedCount() {
+    if (isEntryPage()) return 1;
+    const bannerCount = selectedCountFromBanner();
+    if (bannerCount !== null) return bannerCount;
+    return selectedDeleteFlowRows().length;
   }
 
   function isVisibleElement(element) {
@@ -243,8 +298,11 @@
     const folder = collectionFolder();
     if (!folder) return [];
 
-    const selectedTexts = selectedRowTexts();
-    if (!selectedTexts.length) return [];
+    const selectedTexts = selectedTitles();
+    if (!selectedTexts.length) {
+      const entries = await loadFolderEntries(folder);
+      return entries.length === 1 ? [entries[0].articlePath].filter(Boolean) : [];
+    }
 
     const entries = await loadFolderEntries(folder);
     const matches = [];
@@ -254,8 +312,8 @@
         const title = normalizeText(entry.title);
         const slug = normalizeText(entry.slug);
         return (
+          (title && rowText === title) ||
           (title && rowText.includes(title)) ||
-          (title && title.includes(rowText)) ||
           (slug && rowText.includes(slug))
         );
       });
@@ -290,6 +348,69 @@
     }
   }
 
+  function fieldInputByNameOrLabel(name, label) {
+    const direct = document.querySelector(`[name="${name}"]`);
+    if (direct) return direct;
+
+    const labelledBlocks = Array.from(document.querySelectorAll("body *")).filter((node) => {
+      const text = normalizeText(node.textContent || "");
+      return text === normalizeText(label || "");
+    });
+
+    for (const block of labelledBlocks) {
+      let current = block.parentElement;
+      while (current && current !== document.body) {
+        const candidate = current.querySelector('input, textarea');
+        if (candidate) return candidate;
+        current = current.parentElement;
+      }
+    }
+    return null;
+  }
+
+  function stockSourceInput() {
+    return fieldInputByNameOrLabel("stock_image_pick", "Stok Havuzundan Sec");
+  }
+
+  function imageUrlInput() {
+    return fieldInputByNameOrLabel("image_url", "Gorsel URL / Yukleme Yolu");
+  }
+
+  function setNativeValue(element, value) {
+    const descriptor = Object.getOwnPropertyDescriptor(Object.getPrototypeOf(element), "value");
+    if (descriptor?.set) {
+      descriptor.set.call(element, value);
+    } else {
+      element.value = value;
+    }
+    element.dispatchEvent(new Event("input", { bubbles: true }));
+    element.dispatchEvent(new Event("change", { bubbles: true }));
+  }
+
+  function syncStockImageSelection() {
+    if (!stockEnabledCollections.has(collectionName()) || !isEntryPage()) return;
+    const source = stockSourceInput();
+    const target = imageUrlInput();
+    if (!source || !target) return;
+    const value = `${source.value || ""}`.trim();
+    if (!value || source.dataset.mrAppliedValue === value) return;
+    source.dataset.mrAppliedValue = value;
+    if (`${target.value || ""}`.trim() !== value) {
+      setNativeValue(target, value);
+    }
+  }
+
+  function updateDeleteButton(deleteButton) {
+    if (!deleteButton || !deleteFlowCollections.has(collectionName()) || isEntryPage()) return;
+    const canDelete = selectedCount() === 1;
+    deleteButton.disabled = !canDelete;
+    deleteButton.style.opacity = canDelete ? "1" : "0.55";
+    deleteButton.style.cursor = canDelete ? "pointer" : "not-allowed";
+    deleteButton.title = canDelete
+      ? "Secili haberi bir sonraki asamaya tasir."
+      : "Delete yalnizca tek haber seciliyken calisir.";
+  }
+
   function insertButton() {
     const col = collectionName();
     const stage = stageByCollection[col];
@@ -302,7 +423,8 @@
     const deleteButton = actionDeleteButton();
     if (!deleteButton) return;
 
-    const canRestoreFromHere = isEntryPage() || selectedRowTexts().length > 0;
+    updateDeleteButton(deleteButton);
+    const canRestoreFromHere = selectedCount() === 1;
 
     let button = existing;
     if (!button) {
@@ -330,6 +452,7 @@
 
   function tick() {
     try {
+      syncStockImageSelection();
       insertButton();
     } catch (error) {
       console.warn("restore button failed", error);

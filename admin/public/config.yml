@@ -101,13 +101,22 @@ collections:
     fields: &published_fields
       - { label: Baslik, name: title, widget: string }
       - { label: Slug, name: slug, widget: string, readonly: true }
-      - { label: Tarih, name: date, widget: string }
+      - { label: Tarih, name: date, widget: datetime, format: "DD.MM.YYYY", date_format: "DD.MM.YYYY", time_format: false, picker_utc: false }
       - { label: Dil, name: language, widget: string, required: false, readonly: true }
       - { label: Ulke, name: country, widget: string, required: false, readonly: true }
       - { label: Kategori, name: category, widget: string, required: false }
       - { label: Spot, name: spot, widget: text, required: false }
       - { label: Ozet, name: summary, widget: text, required: false }
       - { label: Haber Govdesi HTML, name: content_html, widget: text, required: false }
+      - label: Stok Havuzundan Sec
+        name: stock_image_pick
+        widget: relation
+        required: false
+        collection: stock_image_pool
+        search_fields: [title, category, image_alt, provider, note]
+        display_fields: [category, title, image_alt]
+        value_field: image_url
+        hint: "Havuzdaki gorsellerden birini sec; secim alttaki gorsel alanina otomatik yazilir."
       - { label: Gorsel URL / Yukleme Yolu, name: image_url, widget: image, required: false, hint: "Gorselsiz bir habere en kolay buradan dosya yukleyebilirsin. Mevcut path de burada tutulur." }
       - { label: Gorsel Alt Metni, name: image_alt, widget: string, required: false, hint: "Gorseli kisa, acik ve insani bir dille tarif et." }
       - { label: Meta Title, name: meta_title, widget: string, required: false }
