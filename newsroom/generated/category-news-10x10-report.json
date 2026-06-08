@@ -442,12 +442,12 @@
     },
     {
       "category": "Video",
-      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNartanesiHaber",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCManşetRadarHaber",
       "error": "HTTP Error 404: Not Found"
     },
     {
       "category": "Video",
-      "feed": "https://www.youtube.com/feeds/videos.xml?user=NartanesiHaber",
+      "feed": "https://www.youtube.com/feeds/videos.xml?user=ManşetRadarHaber",
       "error": "HTTP Error 404: Not Found"
     }
   ]
