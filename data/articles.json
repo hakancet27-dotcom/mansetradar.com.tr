@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-08T00:00:00+00:00",
-    "article_count": 372,
+    "article_count": 376,
     "schema_version": 2
   },
   "articles": [
@@ -286,6 +286,40 @@
       "review_status": "published"
     },
     {
+      "id": "articles:ferdi-kadioglu-dunya-kupasi-aciklamalari_20260608",
+      "slug": "ferdi-kadioglu-dunya-kupasi-aciklamalari_20260608",
+      "title": "Ferdi Kadıoğlu'ndan Dünya Kupası Açıklaması: 'Önceliğimiz Gruptan Çıkabilmek'",
+      "summary": "2026 FIFA Dünya Kupası öncesi son hazırlık maçında Venezuela'yı 2-1 mağlup eden A Milli Futbol Takımı'nda Ferdi Kadıoğlu; kamp ortamı, takımın hedefleri ve D Grubu'ndaki rakipleri hakkında açıklamalarda bulundu.",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/ferdi-kadioglu-dunya-kupasi-aciklamalari_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/ferdi-kadioglu-dunya-kupasi-aciklamalari_20260608/",
+      "detail_json_url": "/data/details/articles/ferdi-kadioglu-dunya-kupasi-aciklamalari_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/ferdi-kadioglu-dunya-kupasi-aciklamalari_20260608.webp",
+      "image_alt": "Ferdi Kadıoğlu milli takım formasıyla açıklamalarda bulunuyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/ferdi-kadioglu-dunya-kupasi-aciklamalari_20260608.webp",
+        "alt": "Ferdi Kadıoğlu milli takım formasıyla açıklamalarda bulunuyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/ferdi-kadioglundan-dunya-kupasi-mesaji-yeni-bir-hikaye-yazacagiz-43197352",
+      "tags": [
+        "Ferdi Kadıoğlu",
+        "A Milli Futbol Takımı",
+        "2026 FIFA Dünya Kupası",
+        "Brighton & Hove Albion"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608",
       "slug": "ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608",
       "title": "Ermenistan'dan Türkiye ile normalleşme mesajı: Somut ilerleme beklentisi",
@@ -318,6 +352,76 @@
         "Normalleşme"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:dunya-kupasi-tarihinin-en-iyi-savunmacilari_20260608",
+      "slug": "dunya-kupasi-tarihinin-en-iyi-savunmacilari_20260608",
+      "title": "Dünya Kupası Tarihinin En İyi Savunmacıları: Efsane İsimler",
+      "summary": "11 Haziran-19 Temmuz tarihlerinde ABD, Kanada ve Meksika'nın ev sahipliğinde düzenlenecek 2026 FIFA Dünya Kupası öncesinde, turnuva tarihine damga vuran efsanevi savunma oyuncuları öne çıkıyor. Franz Beckenbauer, Bobby Moore, Paolo Maldini ve Fabio Cannavar...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/dunya-kupasi-tarihinin-en-iyi-savunmacilari_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/dunya-kupasi-tarihinin-en-iyi-savunmacilari_20260608/",
+      "detail_json_url": "/data/details/articles/dunya-kupasi-tarihinin-en-iyi-savunmacilari_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/dunya-kupasi-tarihinin-en-iyi-savunmacilari_20260608.webp",
+      "image_alt": "Dünya Kupası tarihinin en iyi savunma oyuncuları",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/dunya-kupasi-tarihinin-en-iyi-savunmacilari_20260608.webp",
+        "alt": "Dünya Kupası tarihinin en iyi savunma oyuncuları"
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/dunya-kupasi-tarihinin-en-iyi-savunmacilari-3888767-spor",
+      "tags": [
+        "Dünya Kupası",
+        "Efsane Savunmacılar",
+        "Cafu",
+        "Bobby Moore",
+        "Nilton Santos",
+        "Giacinto Facchetti"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:dunya-kupasi-tarihinde-hat-trick-yapan-futbolcular_20260608",
+      "slug": "dunya-kupasi-tarihinde-hat-trick-yapan-futbolcular_20260608",
+      "title": "Dünya Kupası Tarihinde 54 Hat-Trick: Listede Sadece Bir Türk Var",
+      "summary": "1930'dan bu yana düzenlenen Dünya Kupası tarihinde bugüne kadar 54 kez hat-trick yapıldı. Bu başarıya ulaşan tek Türk futbolcu Burhan Sargın olurken, turnuva tarihinde sadece üç isim ikişer kez hat-trick yapmayı başardı.",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/dunya-kupasi-tarihinde-hat-trick-yapan-futbolcular_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/dunya-kupasi-tarihinde-hat-trick-yapan-futbolcular_20260608/",
+      "detail_json_url": "/data/details/articles/dunya-kupasi-tarihinde-hat-trick-yapan-futbolcular_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/dunya-kupasi-tarihinde-hat-trick-yapan-futbolcular_20260608.webp",
+      "image_alt": "Dünya Kupası tarihinde hat-trick yapan futbolcuları temsil eden retro futbol görseli.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/dunya-kupasi-tarihinde-hat-trick-yapan-futbolcular_20260608.webp",
+        "alt": "Dünya Kupası tarihinde hat-trick yapan futbolcuları temsil eden retro futbol görseli."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/sporskor/dunya-kupasinda-54-kez-hat-trick-yapildi-turkiyeden-sadece-1-isim-var-1727725",
+      "tags": [
+        "Dünya Kupası",
+        "Hat-trick",
+        "Burhan Sargın",
+        "Futbol Tarihi"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -528,6 +632,40 @@
         "Alışveriş"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:altay-baskani-sinan-kanli-ahmet-nur-cebi-ile-bulustu_20260608",
+      "slug": "altay-baskani-sinan-kanli-ahmet-nur-cebi-ile-bulustu_20260608",
+      "title": "Altay Başkanı Sinan Kanlı ve Ahmet Nur Çebi Yeniden Bir Araya Geldi",
+      "summary": "Altay Başkanı Sinan Kanlı, daha önce iki kez İstanbul'da görüştüğü Ahmet Nur Çebi ile Bornova'daki şirket ofisinde bir araya geldi. Yapılan görüşmeden olumlu ya da olumsuz bir sonuç çıkmadığı belirtilirken, iki ismin ilerleyen süreçte tekrar bir araya gelec...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/altay-baskani-sinan-kanli-ahmet-nur-cebi-ile-bulustu_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/altay-baskani-sinan-kanli-ahmet-nur-cebi-ile-bulustu_20260608/",
+      "detail_json_url": "/data/details/articles/altay-baskani-sinan-kanli-ahmet-nur-cebi-ile-bulustu_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/altay-baskani-sinan-kanli-ahmet-nur-cebi-ile-bulustu_20260608.webp",
+      "image_alt": "Altay Başkanı Sinan Kanlı ve Ahmet Nur Çebi'nin toplantıdaki fotoğrafı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/altay-baskani-sinan-kanli-ahmet-nur-cebi-ile-bulustu_20260608.webp",
+        "alt": "Altay Başkanı Sinan Kanlı ve Ahmet Nur Çebi'nin toplantıdaki fotoğrafı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/altay-baskani-sinan-kanli-ahmet-nur-cebi-ile-bulustu-43197921",
+      "tags": [
+        "Altay",
+        "Sinan Kanlı",
+        "Ahmet Nur Çebi",
+        "Futbol"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
