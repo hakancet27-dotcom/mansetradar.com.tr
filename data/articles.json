@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-08T00:00:00+00:00",
-    "article_count": 366,
+    "article_count": 370,
     "schema_version": 2
   },
   "articles": [
@@ -43,6 +43,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:tim-cook-apple-ceo-degisimi-wwdc-2026_20260608",
+      "slug": "tim-cook-apple-ceo-degisimi-wwdc-2026_20260608",
+      "title": "Tim Cook için veda vakti: Apple’da CEO değişimi başlıyor",
+      "summary": "Apple'ın 2012'den bu yana CEO'su olan Tim Cook'un, WWDC 2026 açılışında son kez sahne alacağı iddia ediliyor. Şirket içerisinde başlayan CEO geçiş sürecinde, donanım sorumlusu John Ternus'un yeni lider olması bekleniyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608/",
+      "detail_json_url": "/data/details/articles/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608.webp",
+      "image_alt": "Tim Cook, Apple WWDC etkinliğinde sahnede konuşma yaparken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608.webp",
+        "alt": "Tim Cook, Apple WWDC etkinliğinde sahnede konuşma yaparken."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/teknoloji/tim-cook-son-kez-sahneye-cikiyor-gozler-appledaki-ceo-degisiminde-7601431",
+      "tags": [
+        "Apple",
+        "Tim Cook",
+        "WWDC 2026",
+        "John Ternus",
+        "Teknoloji"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:sean-penn-odul-torenlerini-birakti_20260608",
       "slug": "sean-penn-odul-torenlerini-birakti_20260608",
       "title": "Sean Penn: Bir Daha Asla Ödül Törenine Katılmayacağım",
@@ -72,6 +107,76 @@
         "Oscar",
         "Magazin",
         "Sinema"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:openai-chatgpt-lockdown-mode-ozelligi_20260608",
+      "slug": "openai-chatgpt-lockdown-mode-ozelligi_20260608",
+      "title": "OpenAI, ChatGPT için Veri Güvenliğini Artıran 'Lockdown Mode' Özelliğini Tanıttı",
+      "summary": "OpenAI, yapay zeka ekosistemindeki veri güvenliği endişelerini gidermek amacıyla ChatGPT için yeni bir güvenlik katmanı olan 'Lockdown Mode' özelliğini resmi olarak duyurdu. Bu yeni mod, özellikle sistemin güvenlik açıklarını hedef alan prompt injection sal...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/openai-chatgpt-lockdown-mode-ozelligi_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/openai-chatgpt-lockdown-mode-ozelligi_20260608/",
+      "detail_json_url": "/data/details/articles/openai-chatgpt-lockdown-mode-ozelligi_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/openai-chatgpt-lockdown-mode-ozelligi_20260608.webp",
+      "image_alt": "OpenAI ChatGPT Lockdown Mode güvenlik özelliği görseli",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/openai-chatgpt-lockdown-mode-ozelligi_20260608.webp",
+        "alt": "OpenAI ChatGPT Lockdown Mode güvenlik özelliği görseli"
+      },
+      "source_name": "Webrazzi",
+      "source_url": "https://webrazzi.com/2026/06/08/openai-chatgpt-icin-veri-guvenligini-artiran-lockdown-mode-ozelligini-tanitti/",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Lockdown Mode",
+        "Siber Güvenlik",
+        "Yapay Zeka"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608",
+      "slug": "meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608",
+      "title": "Meta’dan 2026 FIFA Dünya Kupası için Kapsamlı Güvenlik Hamlesi",
+      "summary": "2026 FIFA Dünya Kupası yaklaşırken Meta, platformlarında dolandırıcılık faaliyetlerini engellemek ve kullanıcı güvenliğini sağlamak amacıyla yapay zeka destekli yeni bir eylem planını uygulamaya koydu.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608/",
+      "detail_json_url": "/data/details/articles/meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608.json",
+      "image_url": "https://images.pexels.com/photos/58461/pexels-photo-58461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image_alt": "Meta'nın 2026 FIFA Dünya Kupası güvenlik önlemlerini temsil eden dijital grafik.",
+      "image": {
+        "url": "https://images.pexels.com/photos/58461/pexels-photo-58461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Meta'nın 2026 FIFA Dünya Kupası güvenlik önlemlerini temsil eden dijital grafik."
+      },
+      "source_name": "Teknoloji Haberleri – ShiftDelete.Net",
+      "source_url": "https://shiftdelete.net/metadan-2026-fifa-dunya-kupasi-oncesi-buyuk-guvenlik-hamlesi",
+      "tags": [
+        "Meta",
+        "2026 FIFA Dünya Kupası",
+        "Siber Güvenlik",
+        "Dolandırıcılıkla Mücadele",
+        "Yapay Zeka"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -318,6 +423,41 @@
         "kabızlık"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608",
+      "slug": "amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608",
+      "title": "Amazon Yaz Fırsatları Başladı: Yılın En Düşük Fiyatları",
+      "summary": "Amazon Türkiye, yaz mevsimine özel büyük indirim kampanyasını başlattı. 11 Haziran tarihine kadar sürecek olan 'Yaz Fırsatları' kapsamında, teknoloji ürünlerinden kişisel bakıma kadar pek çok kategoride yılın en düşük fiyatları sunuluyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608/",
+      "detail_json_url": "/data/details/articles/amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608.webp",
+      "image_alt": "Amazon Yaz Fırsatları kampanya görseli",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608.webp",
+        "alt": "Amazon Yaz Fırsatları kampanya görseli"
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari--206559",
+      "tags": [
+        "Amazon",
+        "İndirim",
+        "Teknoloji",
+        "Kampanya",
+        "Alışveriş"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {

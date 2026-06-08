@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "generated_at": "2026-06-08T00:00:00+00:00",
+    "article_count": 370,
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "articles:openai-chatgpt-lockdown-mode-ozelligi_20260608",
+    "slug": "openai-chatgpt-lockdown-mode-ozelligi_20260608",
+    "title": "OpenAI, ChatGPT için Veri Güvenliğini Artıran 'Lockdown Mode' Özelliğini Tanıttı",
+    "summary": "OpenAI, yapay zeka ekosistemindeki veri güvenliği endişelerini gidermek amacıyla ChatGPT için yeni bir güvenlik katmanı olan 'Lockdown Mode' özelliğini resmi olarak duyurdu. Bu yeni mod, özellikle sistemin güvenlik açıklarını hedef alan prompt injection sal...",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "country": "Turkey",
+    "language": "tr",
+    "language_label": "Turkish",
+    "section": "articles",
+    "section_name": "Haberler",
+    "date": "08.06.2026",
+    "date_iso": "2026-06-08",
+    "url": "/articles/openai-chatgpt-lockdown-mode-ozelligi_20260608/",
+    "canonical_url": "https://mansetradar.com.tr/articles/openai-chatgpt-lockdown-mode-ozelligi_20260608/",
+    "detail_json_url": "/data/details/articles/openai-chatgpt-lockdown-mode-ozelligi_20260608.json",
+    "image_url": "https://mansetradar.com.tr/articles/images/openai-chatgpt-lockdown-mode-ozelligi_20260608.webp",
+    "image_alt": "OpenAI ChatGPT Lockdown Mode güvenlik özelliği görseli",
+    "image": {
+      "url": "https://mansetradar.com.tr/articles/images/openai-chatgpt-lockdown-mode-ozelligi_20260608.webp",
+      "alt": "OpenAI ChatGPT Lockdown Mode güvenlik özelliği görseli"
+    },
+    "source_name": "Webrazzi",
+    "source_url": "https://webrazzi.com/2026/06/08/openai-chatgpt-icin-veri-guvenligini-artiran-lockdown-mode-ozelligini-tanitti/",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "Lockdown Mode",
+      "Siber Güvenlik",
+      "Yapay Zeka"
+    ],
+    "quality_score": 86,
+    "review_status": "published",
+    "content_html": "<h2>Prompt Injection Saldırılarına Karşı Yeni Güvenlik Katmanı</h2> <p>OpenAI, yapay zeka modellerine yönelik artan siber tehditlere karşı önemli bir adım atarak Lockdown Mode özelliğini hayata geçirdi. Son dönemde sıkça karşılaşılan ve sistemin güvenlik açıklarını hedef alan prompt injection (komut manipülasyonu) saldırıları, kötü niyetli kişilerin özel tasarlanmış metinler aracılığıyla modelin güvenlik kurallarını çiğnemesine neden olabiliyordu. Yeni geliştirilen Lockdown Mode, bu tür manipülatif girişimleri engellemek için devreye giren özel bir güvenlik mimarisi olarak öne çıkıyor.</p> <h2>Veri Akışında Sıkı Denetim ve Koruma</h2> <p>Kullanıcılar yapay zeka asistanını Lockdown Mode altında çalıştırdıklarında, arka plandaki tüm veri akışı çok daha katı bir denetim sürecinden geçiyor. Bu mod, modelin aldığı komutları standart işleyişinden çok daha sıkı bir filtreleme mekanizmasıyla analiz ediyor. Sistem, şüpheli bir komut dizisi veya veritabanından bilgi sızdırmaya yönelik bir yönlendirme algıladığı anda sohbeti anında donduruyor veya talebi doğrudan reddediyor.</p> <p>Bu yeni güvenlik mimarisi, özellikle müşteri verileri veya şirket içi gizli belgeler üzerinde çalışan profesyoneller için korunaklı bir çalışma alanı sunuyor. Yapay zeka destekli araçların kurumsal iş akışlarına entegrasyonunun hız kazandığı bu dönemde, kritik veri sızıntılarını sıfıra indirmeyi hedefleyen OpenAI, bu altyapı ile platformun güvenilirliğini siber güvenlik standartlarının üst sınırlarına taşımayı amaçlıyor. Lockdown Mode, kötü niyetli kullanıcıların sohbet robotunu manipüle ederek sistemdeki hassas verilere ulaşmasını tamamen engellemeyi başarıyor.</p>",
+    "meta_title": "OpenAI, ChatGPT İçin Yeni 'Lockdown Mode' Özelliğini Duyurdu",
+    "meta_description": "OpenAI, ChatGPT'de prompt injection saldırılarını engellemek ve veri güvenliğini en üst düzeye çıkarmak için geliştirdiği Lockdown Mode özelliğini tanıttı.",
+    "spot": "OpenAI, yapay zeka ekosistemindeki veri güvenliği endişelerini gidermek amacıyla ChatGPT için yeni bir güvenlik katmanı olan 'Lockdown Mode' özelliğini resmi olarak duyurdu. Bu yeni mod, özellikle sistemin güvenlik açıklarını hedef alan prompt injection saldırılarını engellemek ve hassas verileri korumak için tasarlandı.",
+    "word_count": 202,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "ChatGPT'ye Yeni Güvenlik Katmanı: Lockdown Mode",
+      "OpenAI'dan Veri Güvenliği İçin Kritik Adım",
+      "ChatGPT'de Prompt Injection Saldırılarına Karşı Lockdown Mode"
+    ],
+    "visual_keywords": [
+      "OpenAI logo",
+      "ChatGPT interface",
+      "Cyber security shield",
+      "Data protection concept",
+      "Artificial intelligence technology"
+    ]
+  }
+}

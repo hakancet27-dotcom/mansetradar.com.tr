@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-08T00:00:00+00:00",
-    "article_count": 366,
+    "article_count": 370,
     "schema_version": 2,
     "section": "articles"
   },
@@ -44,6 +44,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:tim-cook-apple-ceo-degisimi-wwdc-2026_20260608",
+      "slug": "tim-cook-apple-ceo-degisimi-wwdc-2026_20260608",
+      "title": "Tim Cook için veda vakti: Apple’da CEO değişimi başlıyor",
+      "summary": "Apple'ın 2012'den bu yana CEO'su olan Tim Cook'un, WWDC 2026 açılışında son kez sahne alacağı iddia ediliyor. Şirket içerisinde başlayan CEO geçiş sürecinde, donanım sorumlusu John Ternus'un yeni lider olması bekleniyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608/",
+      "detail_json_url": "/data/details/articles/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608.webp",
+      "image_alt": "Tim Cook, Apple WWDC etkinliğinde sahnede konuşma yaparken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608.webp",
+        "alt": "Tim Cook, Apple WWDC etkinliğinde sahnede konuşma yaparken."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/teknoloji/tim-cook-son-kez-sahneye-cikiyor-gozler-appledaki-ceo-degisiminde-7601431",
+      "tags": [
+        "Apple",
+        "Tim Cook",
+        "WWDC 2026",
+        "John Ternus",
+        "Teknoloji"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:sean-penn-odul-torenlerini-birakti_20260608",
       "slug": "sean-penn-odul-torenlerini-birakti_20260608",
       "title": "Sean Penn: Bir Daha Asla Ödül Törenine Katılmayacağım",
@@ -73,6 +108,76 @@
         "Oscar",
         "Magazin",
         "Sinema"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:openai-chatgpt-lockdown-mode-ozelligi_20260608",
+      "slug": "openai-chatgpt-lockdown-mode-ozelligi_20260608",
+      "title": "OpenAI, ChatGPT için Veri Güvenliğini Artıran 'Lockdown Mode' Özelliğini Tanıttı",
+      "summary": "OpenAI, yapay zeka ekosistemindeki veri güvenliği endişelerini gidermek amacıyla ChatGPT için yeni bir güvenlik katmanı olan 'Lockdown Mode' özelliğini resmi olarak duyurdu. Bu yeni mod, özellikle sistemin güvenlik açıklarını hedef alan prompt injection sal...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/openai-chatgpt-lockdown-mode-ozelligi_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/openai-chatgpt-lockdown-mode-ozelligi_20260608/",
+      "detail_json_url": "/data/details/articles/openai-chatgpt-lockdown-mode-ozelligi_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/openai-chatgpt-lockdown-mode-ozelligi_20260608.webp",
+      "image_alt": "OpenAI ChatGPT Lockdown Mode güvenlik özelliği görseli",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/openai-chatgpt-lockdown-mode-ozelligi_20260608.webp",
+        "alt": "OpenAI ChatGPT Lockdown Mode güvenlik özelliği görseli"
+      },
+      "source_name": "Webrazzi",
+      "source_url": "https://webrazzi.com/2026/06/08/openai-chatgpt-icin-veri-guvenligini-artiran-lockdown-mode-ozelligini-tanitti/",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Lockdown Mode",
+        "Siber Güvenlik",
+        "Yapay Zeka"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608",
+      "slug": "meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608",
+      "title": "Meta’dan 2026 FIFA Dünya Kupası için Kapsamlı Güvenlik Hamlesi",
+      "summary": "2026 FIFA Dünya Kupası yaklaşırken Meta, platformlarında dolandırıcılık faaliyetlerini engellemek ve kullanıcı güvenliğini sağlamak amacıyla yapay zeka destekli yeni bir eylem planını uygulamaya koydu.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608/",
+      "detail_json_url": "/data/details/articles/meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608.json",
+      "image_url": "https://images.pexels.com/photos/58461/pexels-photo-58461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image_alt": "Meta'nın 2026 FIFA Dünya Kupası güvenlik önlemlerini temsil eden dijital grafik.",
+      "image": {
+        "url": "https://images.pexels.com/photos/58461/pexels-photo-58461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Meta'nın 2026 FIFA Dünya Kupası güvenlik önlemlerini temsil eden dijital grafik."
+      },
+      "source_name": "Teknoloji Haberleri – ShiftDelete.Net",
+      "source_url": "https://shiftdelete.net/metadan-2026-fifa-dunya-kupasi-oncesi-buyuk-guvenlik-hamlesi",
+      "tags": [
+        "Meta",
+        "2026 FIFA Dünya Kupası",
+        "Siber Güvenlik",
+        "Dolandırıcılıkla Mücadele",
+        "Yapay Zeka"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -319,6 +424,41 @@
         "kabızlık"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608",
+      "slug": "amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608",
+      "title": "Amazon Yaz Fırsatları Başladı: Yılın En Düşük Fiyatları",
+      "summary": "Amazon Türkiye, yaz mevsimine özel büyük indirim kampanyasını başlattı. 11 Haziran tarihine kadar sürecek olan 'Yaz Fırsatları' kapsamında, teknoloji ürünlerinden kişisel bakıma kadar pek çok kategoride yılın en düşük fiyatları sunuluyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608/",
+      "detail_json_url": "/data/details/articles/amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608.webp",
+      "image_alt": "Amazon Yaz Fırsatları kampanya görseli",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608.webp",
+        "alt": "Amazon Yaz Fırsatları kampanya görseli"
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari--206559",
+      "tags": [
+        "Amazon",
+        "İndirim",
+        "Teknoloji",
+        "Kampanya",
+        "Alışveriş"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -564,146 +704,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles:rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607",
-      "slug": "rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607",
-      "title": "Rebecca Gayheart, kızı Georgia’nın mezuniyet sevincini paylaştı",
-      "summary": "Ünlü oyuncu Rebecca Gayheart, 19 Şubat'ta ALS hastalığı nedeniyle hayatını kaybeden eşi Eric Dane'in ardından, kızı Georgia'nın ortaokul mezuniyet töreninde duygusal anlar yaşadı.",
-      "category": "Sağlık",
-      "category_slug": "saglik",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607/",
-      "detail_json_url": "/data/details/articles/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607.webp",
-      "image_alt": "Rebecca Gayheart ve kızı Georgia Dane mezuniyet töreninde.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607.webp",
-        "alt": "Rebecca Gayheart ve kızı Georgia Dane mezuniyet töreninde."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/kelebek/magazin/unlu-ailenin-buruk-sevinci-genc-yasinda-olen-yildiz-oyuncu-kizinin-mezuniyetini-goremedi-43196720",
-      "tags": [
-        "Rebecca Gayheart",
-        "Eric Dane",
-        "Georgia Dane",
-        "Magazin",
-        "ALS"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:ozan-guven-yargi-sureci-ve-toplumsal-linc-kulturu-aciklamalari_20260607",
-      "slug": "ozan-guven-yargi-sureci-ve-toplumsal-linc-kulturu-aciklamalari_20260607",
-      "title": "Ozan Güven'den Yargı Süreci ve Toplumsal Linç Kültürü Üzerine Açıklamalar",
-      "summary": "Oyuncu Ozan Güven, eski sevgilisi Deniz Bulutsuz'u darp ettiği iddiasıyla yargılandığı davada 'kasten yaralama' suçundan hapis cezasına çarptırılmasının ardından ilk kez konuştu. A Para'da yayınlanan 'Biz Bize' programına konuk olan Güven, 5 buçuk yıl süren...",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/ozan-guven-yargi-sureci-ve-toplumsal-linc-kulturu-aciklamalari_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/ozan-guven-yargi-sureci-ve-toplumsal-linc-kulturu-aciklamalari_20260607/",
-      "detail_json_url": "/data/details/articles/ozan-guven-yargi-sureci-ve-toplumsal-linc-kulturu-aciklamalari_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/ozan-guven-yargi-sureci-ve-toplumsal-linc-kulturu-aciklamalari_20260607.webp",
-      "image_alt": "Ozan Güven, oyuncu, televizyon programında açıklamalarda bulunuyor.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/ozan-guven-yargi-sureci-ve-toplumsal-linc-kulturu-aciklamalari_20260607.webp",
-        "alt": "Ozan Güven, oyuncu, televizyon programında açıklamalarda bulunuyor."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/kelebek/hayat/yasananlari-ilk-kez-anlatti-artik-asansore-bir-kadinla-binmiyorum-43196291",
-      "tags": [
-        "Ozan Güven",
-        "Deniz Bulutsuz",
-        "Yargı Süreci",
-        "Linç Kültürü",
-        "Magazin"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607",
-      "slug": "one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607",
-      "title": "One Run Koşusu 2.500'ü Aşkın Katılımcıyla İlk Kez Düzenlendi",
-      "summary": "Türkiye'nin en kapsayıcı koşu organizasyonlarından biri olma yolunda ilk kez düzenlenen One Run, 2.500'ü aşkın katılımcıyla büyük bir coşkuyla gerçekleştirildi. Gençlik ve Spor Bakanı Osman Aşkın Bak ile Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu'nun d...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607/",
-      "detail_json_url": "/data/details/articles/one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607.webp",
-      "image_alt": "One Run koşu organizasyonunda bir arada koşan katılımcılar ve sporcular.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/one-run-kosusu-ilk-kez-buyuk-bir-coskuyla-gerceklesti_20260607.webp",
-        "alt": "One Run koşu organizasyonunda bir arada koşan katılımcılar ve sporcular."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/one-run-2-500u-askin-katilimciyla-ilk-kez-buyuk-bir-coskuyla-gerceklesti-43196779",
-      "tags": [
-        "One Run",
-        "Osman Aşkın Bak",
-        "Abdulkadir Uraloğlu",
-        "Engelsiz Koşu",
-        "Koşu Organizasyonu"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:nasa-nancy-grace-roman-uzay-teleskobu-firlatma-tarihi_20260607",
-      "slug": "nasa-nancy-grace-roman-uzay-teleskobu-firlatma-tarihi_20260607",
-      "title": "NASA'nın Nancy Grace Roman Uzay Teleskobu için fırlatma tarihi öne çekildi",
-      "summary": "NASA, Nancy Grace Roman Uzay Teleskobu için planlanan fırlatma tarihini güncelledi. Daha önce Eylül 2026 olarak açıklanan takvim, yaklaşık sekiz ay öne çekilerek 30 Ağustos 2026 olarak belirlendi.",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/nasa-nancy-grace-roman-uzay-teleskobu-firlatma-tarihi_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/nasa-nancy-grace-roman-uzay-teleskobu-firlatma-tarihi_20260607/",
-      "detail_json_url": "/data/details/articles/nasa-nancy-grace-roman-uzay-teleskobu-firlatma-tarihi_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/nasa-nancy-grace-roman-uzay-teleskobu-firlatma-tarihi_20260607.webp",
-      "image_alt": "NASA mühendisleri Nancy Grace Roman Uzay Teleskobu üzerinde çalışırken.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/nasa-nancy-grace-roman-uzay-teleskobu-firlatma-tarihi_20260607.webp",
-        "alt": "NASA mühendisleri Nancy Grace Roman Uzay Teleskobu üzerinde çalışırken."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/teknoloji/nasanin-nancy-grace-roman-uzay-teleskobu-icin-firlatma-tarihi-aciklandi-7600937",
-      "tags": [
-        "NASA",
-        "Nancy Grace Roman Uzay Teleskobu",
-        "Uzay Teknolojileri",
-        "SpaceX",
-        "Astronomi"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -743,6 +743,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:tim-cook-apple-ceo-degisimi-wwdc-2026_20260608",
+      "slug": "tim-cook-apple-ceo-degisimi-wwdc-2026_20260608",
+      "title": "Tim Cook için veda vakti: Apple’da CEO değişimi başlıyor",
+      "summary": "Apple'ın 2012'den bu yana CEO'su olan Tim Cook'un, WWDC 2026 açılışında son kez sahne alacağı iddia ediliyor. Şirket içerisinde başlayan CEO geçiş sürecinde, donanım sorumlusu John Ternus'un yeni lider olması bekleniyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608/",
+      "detail_json_url": "/data/details/articles/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608.webp",
+      "image_alt": "Tim Cook, Apple WWDC etkinliğinde sahnede konuşma yaparken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608.webp",
+        "alt": "Tim Cook, Apple WWDC etkinliğinde sahnede konuşma yaparken."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/teknoloji/tim-cook-son-kez-sahneye-cikiyor-gozler-appledaki-ceo-degisiminde-7601431",
+      "tags": [
+        "Apple",
+        "Tim Cook",
+        "WWDC 2026",
+        "John Ternus",
+        "Teknoloji"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:sean-penn-odul-torenlerini-birakti_20260608",
       "slug": "sean-penn-odul-torenlerini-birakti_20260608",
       "title": "Sean Penn: Bir Daha Asla Ödül Törenine Katılmayacağım",
@@ -772,6 +807,76 @@
         "Oscar",
         "Magazin",
         "Sinema"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:openai-chatgpt-lockdown-mode-ozelligi_20260608",
+      "slug": "openai-chatgpt-lockdown-mode-ozelligi_20260608",
+      "title": "OpenAI, ChatGPT için Veri Güvenliğini Artıran 'Lockdown Mode' Özelliğini Tanıttı",
+      "summary": "OpenAI, yapay zeka ekosistemindeki veri güvenliği endişelerini gidermek amacıyla ChatGPT için yeni bir güvenlik katmanı olan 'Lockdown Mode' özelliğini resmi olarak duyurdu. Bu yeni mod, özellikle sistemin güvenlik açıklarını hedef alan prompt injection sal...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/openai-chatgpt-lockdown-mode-ozelligi_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/openai-chatgpt-lockdown-mode-ozelligi_20260608/",
+      "detail_json_url": "/data/details/articles/openai-chatgpt-lockdown-mode-ozelligi_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/openai-chatgpt-lockdown-mode-ozelligi_20260608.webp",
+      "image_alt": "OpenAI ChatGPT Lockdown Mode güvenlik özelliği görseli",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/openai-chatgpt-lockdown-mode-ozelligi_20260608.webp",
+        "alt": "OpenAI ChatGPT Lockdown Mode güvenlik özelliği görseli"
+      },
+      "source_name": "Webrazzi",
+      "source_url": "https://webrazzi.com/2026/06/08/openai-chatgpt-icin-veri-guvenligini-artiran-lockdown-mode-ozelligini-tanitti/",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Lockdown Mode",
+        "Siber Güvenlik",
+        "Yapay Zeka"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608",
+      "slug": "meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608",
+      "title": "Meta’dan 2026 FIFA Dünya Kupası için Kapsamlı Güvenlik Hamlesi",
+      "summary": "2026 FIFA Dünya Kupası yaklaşırken Meta, platformlarında dolandırıcılık faaliyetlerini engellemek ve kullanıcı güvenliğini sağlamak amacıyla yapay zeka destekli yeni bir eylem planını uygulamaya koydu.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608/",
+      "detail_json_url": "/data/details/articles/meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608.json",
+      "image_url": "https://images.pexels.com/photos/58461/pexels-photo-58461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image_alt": "Meta'nın 2026 FIFA Dünya Kupası güvenlik önlemlerini temsil eden dijital grafik.",
+      "image": {
+        "url": "https://images.pexels.com/photos/58461/pexels-photo-58461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Meta'nın 2026 FIFA Dünya Kupası güvenlik önlemlerini temsil eden dijital grafik."
+      },
+      "source_name": "Teknoloji Haberleri – ShiftDelete.Net",
+      "source_url": "https://shiftdelete.net/metadan-2026-fifa-dunya-kupasi-oncesi-buyuk-guvenlik-hamlesi",
+      "tags": [
+        "Meta",
+        "2026 FIFA Dünya Kupası",
+        "Siber Güvenlik",
+        "Dolandırıcılıkla Mücadele",
+        "Yapay Zeka"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1018,6 +1123,41 @@
         "kabızlık"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608",
+      "slug": "amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608",
+      "title": "Amazon Yaz Fırsatları Başladı: Yılın En Düşük Fiyatları",
+      "summary": "Amazon Türkiye, yaz mevsimine özel büyük indirim kampanyasını başlattı. 11 Haziran tarihine kadar sürecek olan 'Yaz Fırsatları' kapsamında, teknoloji ürünlerinden kişisel bakıma kadar pek çok kategoride yılın en düşük fiyatları sunuluyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608/",
+      "detail_json_url": "/data/details/articles/amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608.webp",
+      "image_alt": "Amazon Yaz Fırsatları kampanya görseli",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari_20260608.webp",
+        "alt": "Amazon Yaz Fırsatları kampanya görseli"
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/amazon-yaz-firsatlari-basladi-yilin-en-dusuk-fiyatlari--206559",
+      "tags": [
+        "Amazon",
+        "İndirim",
+        "Teknoloji",
+        "Kampanya",
+        "Alışveriş"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -1437,146 +1577,6 @@
         "2026 Dünya Kupası"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607",
-      "slug": "kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607",
-      "title": "Kortizol Hakkındaki Yanlış Bilinenler: Vücudun Hayati Hormonu",
-      "summary": "Sosyal medyada sıkça 'stres hormonu' olarak nitelendirilen ve kilo alımı, uyku sorunları gibi pek çok olumsuzluğun sorumlusu tutulan kortizol, aslında yaşam için vazgeçilmez bir mekanizmaya sahip. Uzmanlar, bu hormonun vücut fonksiyonları üzerindeki hayati...",
-      "category": "Sağlık",
-      "category_slug": "saglik",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607/",
-      "detail_json_url": "/data/details/articles/kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607.webp",
-      "image_alt": "Kortizol hormonu ve insan sağlığı üzerine tıbbi bir görsel.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607.webp",
-        "alt": "Kortizol hormonu ve insan sağlığı üzerine tıbbi bir görsel."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/kelebek/hurriyet-pazar/yanlis-anlasilan-bir-hormon-kortizol-43196260",
-      "tags": [
-        "Kortizol",
-        "Hormonlar",
-        "Sağlık",
-        "Endokrinoloji"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607",
-      "slug": "klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607",
-      "title": "Klimalar Kalp Sağlığını Tehdit Ediyor: Uzmanlardan Önemli Uyarılar",
-      "summary": "Yaz aylarında artan sıcaklıklarla birlikte klimaların yaygın kullanımı, ani sıcaklık değişimleri nedeniyle kalp ve damar sağlığı üzerinde olumsuz etkilere yol açabiliyor. İç Hastalıkları Uzmanı Prof. Dr. Osman Erk, özellikle kalp-damar hastalığı olanların d...",
-      "category": "Sağlık",
-      "category_slug": "saglik",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607/",
-      "detail_json_url": "/data/details/articles/klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607.webp",
-      "image_alt": "Klima kullanımı ve kalp sağlığına etkileri üzerine uyarıcı görsel.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607.webp",
-        "alt": "Klima kullanımı ve kalp sağlığına etkileri üzerine uyarıcı görsel."
-      },
-      "source_name": "Sağlık haberleri - Son dakika sağlık haberleri - Sözcü",
-      "source_url": "https://www.sozcu.com.tr/klimalar-kalbi-nasil-etkiler-p325827",
-      "tags": [
-        "klima",
-        "kalp sağlığı",
-        "kalp krizi",
-        "sıcaklık değişimi",
-        "sağlık uyarıları"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:kktc-milli-takimi-conifa-avrupa-sampiyonu-oldu-padania-6-1_20260607",
-      "slug": "kktc-milli-takimi-conifa-avrupa-sampiyonu-oldu-padania-6-1_20260607",
-      "title": "KKTC Milli Takımı, CONIFA Avrupa Şampiyonu Oldu",
-      "summary": "Kuzey Kıbrıs Türk Cumhuriyeti (KKTC) A Milli Futbol Takımı, İtalya’da düzenlenen 2026 CONIFA Avrupa Futbol Şampiyonası finalinde Padania’yı 6-1 mağlup ederek tarihinde ilk kez Avrupa şampiyonu oldu. Bu tarihi zafer, Kıbrıs Türk spor tarihinin en önemli başa...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/kktc-milli-takimi-conifa-avrupa-sampiyonu-oldu-padania-6-1_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/kktc-milli-takimi-conifa-avrupa-sampiyonu-oldu-padania-6-1_20260607/",
-      "detail_json_url": "/data/details/articles/kktc-milli-takimi-conifa-avrupa-sampiyonu-oldu-padania-6-1_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/kktc-milli-takimi-conifa-avrupa-sampiyonu-oldu-padania-6-1_20260607.webp",
-      "image_alt": "KKTC Milli Takımı, CONIFA Avrupa Şampiyonu Oldu",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/kktc-milli-takimi-conifa-avrupa-sampiyonu-oldu-padania-6-1_20260607.webp",
-        "alt": "KKTC Milli Takımı, CONIFA Avrupa Şampiyonu Oldu"
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/kktc-milli-futbol-takimi-padaniayi-6-1-yenerek-conifa-avrupa-sampiyonu-oldu-3889954-spor",
-      "tags": [
-        "KKTC Milli Takımı",
-        "CONIFA Avrupa Şampiyonası",
-        "Futbol",
-        "Erhun Aksel Öztümer",
-        "Ersin Tatar",
-        "Padania"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:istanbul-ve-antalyada-otokoc-binalarina-silahli-saldiri_20260607",
-      "slug": "istanbul-ve-antalyada-otokoc-binalarina-silahli-saldiri_20260607",
-      "title": "İstanbul ve Antalya'da Otokoç binalarına silahlı saldırı",
-      "summary": "İstanbul Maltepe'deki Otokoç Genel Müdürlüğü binası ile Antalya Kepez'deki yetkili servise eş zamanlıya yakın silahlı saldırılar düzenlendi. Olaylarla bağlantılı toplam 5 şüpheli gözaltına alınırken, saldırılara ilişkin soruşturmalar başlatıldı.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/istanbul-ve-antalyada-otokoc-binalarina-silahli-saldiri_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/istanbul-ve-antalyada-otokoc-binalarina-silahli-saldiri_20260607/",
-      "detail_json_url": "/data/details/articles/istanbul-ve-antalyada-otokoc-binalarina-silahli-saldiri_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/istanbul-ve-antalyada-otokoc-binalarina-silahli-saldiri_20260607.webp",
-      "image_alt": "Otokoç binasına düzenlenen silahlı saldırı sonrası olay yeri inceleme ekipleri çalışıyor.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/istanbul-ve-antalyada-otokoc-binalarina-silahli-saldiri_20260607.webp",
-        "alt": "Otokoç binasına düzenlenen silahlı saldırı sonrası olay yeri inceleme ekipleri çalışıyor."
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/turkiye/otokoc-genel-mudurlugu-binasina-silahli-saldiri-omer-celik-saldiriyi-lanetliyoruz-1727585",
-      "tags": [
-        "Otokoç",
-        "İstanbul",
-        "Antalya",
-        "Silahlı Saldırı",
-        "Asayiş"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]
