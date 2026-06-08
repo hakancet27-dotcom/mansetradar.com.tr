@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-08T00:00:00+00:00",
-    "article_count": 376,
+    "article_count": 377,
     "schema_version": 2
   },
   "articles": [
@@ -281,6 +281,41 @@
         "Operasyon",
         "Dolandırıcılık",
         "Yasa Dışı Bahis"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:fransa-acik-tenis-turnuvasinda-sampiyon-alexander-zverev_20260608",
+      "slug": "fransa-acik-tenis-turnuvasinda-sampiyon-alexander-zverev_20260608",
+      "title": "Fransa Açık'ta tarihi zafer: Alexander Zverev şampiyon oldu",
+      "summary": "Fransa Açık Tenis Turnuvası’nda tek erkekler finalinde İtalyan Flavio Cobolli’yi 3-2 mağlup eden Alexander Zverev, kariyerinin ilk Grand Slam şampiyonluğuna ulaştı. Turnuvada çift kadınlarda ise Katerina Siniakova ve Taylor Townsend ikilisi mutlu sona ulaştı.",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/fransa-acik-tenis-turnuvasinda-sampiyon-alexander-zverev_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/fransa-acik-tenis-turnuvasinda-sampiyon-alexander-zverev_20260608/",
+      "detail_json_url": "/data/details/articles/fransa-acik-tenis-turnuvasinda-sampiyon-alexander-zverev_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/fransa-acik-tenis-turnuvasinda-sampiyon-alexander-zverev_20260608.webp",
+      "image_alt": "Alexander Zverev, Fransa Açık şampiyonluk kupasıyla kortta.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/fransa-acik-tenis-turnuvasinda-sampiyon-alexander-zverev_20260608.webp",
+        "alt": "Alexander Zverev, Fransa Açık şampiyonluk kupasıyla kortta."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/fransanin-krali-zverev-43197179",
+      "tags": [
+        "Alexander Zverev",
+        "Fransa Açık",
+        "Roland Garros",
+        "Tenis",
+        "Katerina Siniakova"
       ],
       "quality_score": 86,
       "review_status": "published"
