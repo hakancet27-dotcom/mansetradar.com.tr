@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-08T00:00:00+00:00",
-    "article_count": 370,
+    "article_count": 372,
     "schema_version": 2,
     "section": "articles"
   },
@@ -41,6 +41,41 @@
         "Kadir Kara"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:toki-64-ilde-20-bin-konut-satisi-basliyor_20260608",
+      "slug": "toki-64-ilde-20-bin-konut-satisi-basliyor_20260608",
+      "title": "TOKİ'den 64 İlde 20 Bin Konutluk Dev Satış Hamlesi",
+      "summary": "Toplu Konut İdaresi Başkanlığı (TOKİ), Türkiye genelinde 64 ili kapsayan 20 bin konutluk yeni açık satış programını duyurdu. Kurasız olarak gerçekleştirilecek satışlar için başvurular 15 Haziran ile 17 Temmuz 2026 tarihleri arasında kabul edilecek.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/toki-64-ilde-20-bin-konut-satisi-basliyor_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/toki-64-ilde-20-bin-konut-satisi-basliyor_20260608/",
+      "detail_json_url": "/data/details/articles/toki-64-ilde-20-bin-konut-satisi-basliyor_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/toki-64-ilde-20-bin-konut-satisi-basliyor_20260608.webp",
+      "image_alt": "TOKİ tarafından inşa edilen konut projeleri",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/toki-64-ilde-20-bin-konut-satisi-basliyor_20260608.webp",
+        "alt": "TOKİ tarafından inşa edilen konut projeleri"
+      },
+      "source_name": "Ekonomim",
+      "source_url": "https://www.ekonomim.com/foto-galeri/aktuel/toki-64-ilde-konut-satisi-mahalle-mahalle-tam-liste-belli-oldu-toki-acik-satis-kampanyasi-hangi-il-galeri-898539",
+      "tags": [
+        "TOKİ",
+        "konut satışı",
+        "TOKİ başvuruları",
+        "ekonomi",
+        "emlak"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -247,6 +282,41 @@
         "Operasyon",
         "Dolandırıcılık",
         "Yasa Dışı Bahis"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608",
+      "slug": "ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608",
+      "title": "Ermenistan'dan Türkiye ile normalleşme mesajı: Somut ilerleme beklentisi",
+      "summary": "Ermenistan Dışişleri Bakanı Ararat Mirzoyan, Türkiye ile yürütülen normalleşme sürecine ilişkin değerlendirmelerde bulundu. Mirzoyan, yakın gelecekte ilişkilerin tam normalleşmesi konusunda somut ilerlemeler kaydedileceğine dair inancını dile getirdi.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608/",
+      "detail_json_url": "/data/details/articles/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608.webp",
+      "image_alt": "Ermenistan Dışişleri Bakanı Ararat Mirzoyan meclis toplantısında konuşma yaparken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608.webp",
+        "alt": "Ermenistan Dışişleri Bakanı Ararat Mirzoyan meclis toplantısında konuşma yaparken."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz-7601588",
+      "tags": [
+        "Ermenistan",
+        "Türkiye",
+        "Ararat Mirzoyan",
+        "Dış Politika",
+        "Normalleşme"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -635,75 +705,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles:tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607",
-      "slug": "tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607",
-      "title": "TBMM Başkanı Kurtulmuş: Türkiye'nin sözü her alanda en güçlü noktaya taşınmalı",
-      "summary": "TBMM Başkanı Numan Kurtulmuş, Fatih Vefa Lisesi'nde düzenlenen 20'nci Geleneksel İlim Yaymalılar Buluşması'na katıldı. Programda Türkiye'nin uluslararası alandaki artan itibarına vurgu yapan Kurtulmuş, hedeflerin daha da yükseltilmesi gerektiğini belirtti.",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607/",
-      "detail_json_url": "/data/details/articles/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607.webp",
-      "image_alt": "TBMM Başkanı Numan Kurtulmuş, 20'nci Geleneksel İlim Yaymalılar Buluşması'nda konuşma yaparken.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/tbmm-baskani-kurtulmus-turkiyenin-sozu-her-alanda-guclenmeli_20260607.webp",
-        "alt": "TBMM Başkanı Numan Kurtulmuş, 20'nci Geleneksel İlim Yaymalılar Buluşması'nda konuşma yaparken."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/tbmm-baskani-kurtulmus-bize-dusen-her-alanda-turkiyenin-sozunu-en-guclu-noktaya-cikarabilmek-43196949",
-      "tags": [
-        "Numan Kurtulmuş",
-        "TBMM",
-        "İlim Yayma Cemiyeti",
-        "Vefa Lisesi"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:sifir-atik-festivali-ataturk-havalimaninda-sona-erdi_20260607",
-      "slug": "sifir-atik-festivali-ataturk-havalimaninda-sona-erdi_20260607",
-      "title": "Sıfır Atık Festivali Atatürk Havalimanı'nda Kapsamlı Etkinliklerle Sona Erdi",
-      "summary": "Sıfır Atık Festivali, Birleşmiş Milletler Sıfır Atık Yüksek Düzeyli Şahsiyetler Danışma Kurulu Başkanı Emine Erdoğan'ın himayelerinde, Sıfır Atık Vakfı ile Enerji ve Tabii Kaynaklar Bakanlığı işbirliğiyle Atatürk Havalimanı'nda düzenlendi. \"Enerjide Verimli...",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/sifir-atik-festivali-ataturk-havalimaninda-sona-erdi_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/sifir-atik-festivali-ataturk-havalimaninda-sona-erdi_20260607/",
-      "detail_json_url": "/data/details/articles/sifir-atik-festivali-ataturk-havalimaninda-sona-erdi_20260607.json",
-      "image_url": "https://images.pexels.com/photos/12131137/pexels-photo-12131137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "image_alt": "Sıfır Atık Festivali Atatürk Havalimanı'nda Kapsamlı Etkinliklerle Sona Erdi",
-      "image": {
-        "url": "https://images.pexels.com/photos/12131137/pexels-photo-12131137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "alt": "Sıfır Atık Festivali Atatürk Havalimanı'nda Kapsamlı Etkinliklerle Sona Erdi"
-      },
-      "source_name": "Anadolu Ajansı Güncel Haberler",
-      "source_url": "https://www.aa.com.tr/tr/gundem/sifir-atik-festivali-farkindalik-etkinlikleriyle-devam-ediyor/3958941",
-      "tags": [
-        "Sıfır Atık Festivali",
-        "Emine Erdoğan",
-        "Atatürk Havalimanı",
-        "Geri Dönüşüm",
-        "Sürdürülebilirlik"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -740,6 +741,41 @@
         "Kadir Kara"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:toki-64-ilde-20-bin-konut-satisi-basliyor_20260608",
+      "slug": "toki-64-ilde-20-bin-konut-satisi-basliyor_20260608",
+      "title": "TOKİ'den 64 İlde 20 Bin Konutluk Dev Satış Hamlesi",
+      "summary": "Toplu Konut İdaresi Başkanlığı (TOKİ), Türkiye genelinde 64 ili kapsayan 20 bin konutluk yeni açık satış programını duyurdu. Kurasız olarak gerçekleştirilecek satışlar için başvurular 15 Haziran ile 17 Temmuz 2026 tarihleri arasında kabul edilecek.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/toki-64-ilde-20-bin-konut-satisi-basliyor_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/toki-64-ilde-20-bin-konut-satisi-basliyor_20260608/",
+      "detail_json_url": "/data/details/articles/toki-64-ilde-20-bin-konut-satisi-basliyor_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/toki-64-ilde-20-bin-konut-satisi-basliyor_20260608.webp",
+      "image_alt": "TOKİ tarafından inşa edilen konut projeleri",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/toki-64-ilde-20-bin-konut-satisi-basliyor_20260608.webp",
+        "alt": "TOKİ tarafından inşa edilen konut projeleri"
+      },
+      "source_name": "Ekonomim",
+      "source_url": "https://www.ekonomim.com/foto-galeri/aktuel/toki-64-ilde-konut-satisi-mahalle-mahalle-tam-liste-belli-oldu-toki-acik-satis-kampanyasi-hangi-il-galeri-898539",
+      "tags": [
+        "TOKİ",
+        "konut satışı",
+        "TOKİ başvuruları",
+        "ekonomi",
+        "emlak"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -946,6 +982,41 @@
         "Operasyon",
         "Dolandırıcılık",
         "Yasa Dışı Bahis"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608",
+      "slug": "ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608",
+      "title": "Ermenistan'dan Türkiye ile normalleşme mesajı: Somut ilerleme beklentisi",
+      "summary": "Ermenistan Dışişleri Bakanı Ararat Mirzoyan, Türkiye ile yürütülen normalleşme sürecine ilişkin değerlendirmelerde bulundu. Mirzoyan, yakın gelecekte ilişkilerin tam normalleşmesi konusunda somut ilerlemeler kaydedileceğine dair inancını dile getirdi.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608/",
+      "detail_json_url": "/data/details/articles/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608.webp",
+      "image_alt": "Ermenistan Dışişleri Bakanı Ararat Mirzoyan meclis toplantısında konuşma yaparken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608.webp",
+        "alt": "Ermenistan Dışişleri Bakanı Ararat Mirzoyan meclis toplantısında konuşma yaparken."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz-7601588",
+      "tags": [
+        "Ermenistan",
+        "Türkiye",
+        "Ararat Mirzoyan",
+        "Dış Politika",
+        "Normalleşme"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1505,76 +1576,6 @@
         "Abdulkadir Uraloğlu",
         "Engelsiz Koşu",
         "Koşu Organizasyonu"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:nasa-nancy-grace-roman-uzay-teleskobu-firlatma-tarihi_20260607",
-      "slug": "nasa-nancy-grace-roman-uzay-teleskobu-firlatma-tarihi_20260607",
-      "title": "NASA'nın Nancy Grace Roman Uzay Teleskobu için fırlatma tarihi öne çekildi",
-      "summary": "NASA, Nancy Grace Roman Uzay Teleskobu için planlanan fırlatma tarihini güncelledi. Daha önce Eylül 2026 olarak açıklanan takvim, yaklaşık sekiz ay öne çekilerek 30 Ağustos 2026 olarak belirlendi.",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/nasa-nancy-grace-roman-uzay-teleskobu-firlatma-tarihi_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/nasa-nancy-grace-roman-uzay-teleskobu-firlatma-tarihi_20260607/",
-      "detail_json_url": "/data/details/articles/nasa-nancy-grace-roman-uzay-teleskobu-firlatma-tarihi_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/nasa-nancy-grace-roman-uzay-teleskobu-firlatma-tarihi_20260607.webp",
-      "image_alt": "NASA mühendisleri Nancy Grace Roman Uzay Teleskobu üzerinde çalışırken.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/nasa-nancy-grace-roman-uzay-teleskobu-firlatma-tarihi_20260607.webp",
-        "alt": "NASA mühendisleri Nancy Grace Roman Uzay Teleskobu üzerinde çalışırken."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/teknoloji/nasanin-nancy-grace-roman-uzay-teleskobu-icin-firlatma-tarihi-aciklandi-7600937",
-      "tags": [
-        "NASA",
-        "Nancy Grace Roman Uzay Teleskobu",
-        "Uzay Teknolojileri",
-        "SpaceX",
-        "Astronomi"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:nagelsmann-sane-sinirlarini-zorlamali_20260607",
-      "slug": "nagelsmann-sane-sinirlarini-zorlamali_20260607",
-      "title": "Nagelsmann'dan Sane'ye Övgü: 'Sınırlarını Zorlaması Gerekiyor!'",
-      "summary": "Almanya Milli Takım Teknik Direktörü Julian Nagelsmann, ABD ile oynanan hazırlık maçında 2-1'lik galibiyette payı olan Leroy Sane'nin performansı hakkında açıklamalarda bulundu. Nagelsmann, Sane'nin harika bir maç oynadığını ve önemli bir gol attığını belir...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "07.06.2026",
-      "date_iso": "2026-06-07",
-      "url": "/articles/nagelsmann-sane-sinirlarini-zorlamali_20260607/",
-      "canonical_url": "https://mansetradar.com.tr/articles/nagelsmann-sane-sinirlarini-zorlamali_20260607/",
-      "detail_json_url": "/data/details/articles/nagelsmann-sane-sinirlarini-zorlamali_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/nagelsmann-sane-sinirlarini-zorlamali_20260607.webp",
-      "image_alt": "Almanya Teknik Direktörü Julian Nagelsmann, oyuncusu Leroy Sane ile saha kenarında konuşuyor.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/nagelsmann-sane-sinirlarini-zorlamali_20260607.webp",
-        "alt": "Almanya Teknik Direktörü Julian Nagelsmann, oyuncusu Leroy Sane ile saha kenarında konuşuyor."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/julian-nagelsmanndan-leroy-sane-aciklamasi-sinirlarini-zorlamasi-gerekiyor-43196397",
-      "tags": [
-        "Julian Nagelsmann",
-        "Leroy Sane",
-        "Almanya Milli Takımı",
-        "Hazırlık Maçı",
-        "2026 Dünya Kupası"
       ],
       "quality_score": 86,
       "review_status": "published"
