@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-08T00:00:00+00:00",
-    "article_count": 377,
+    "article_count": 381,
     "schema_version": 2
   },
   "articles": [
@@ -38,6 +38,41 @@
         "Osmaniye",
         "Deprem Davası",
         "Kadir Kara"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:van-kadin-sagligi-tarama-egitim-projesi_20260608",
+      "slug": "van-kadin-sagligi-tarama-egitim-projesi_20260608",
+      "title": "Van'da Kadın Sağlığına Yönelik Kapsamlı Ücretsiz Tarama ve Eğitim Projesi",
+      "summary": "Türkiye’nin köklü jinekoloji kurumlarından TAJEV, yaklaşık 20 yıldır sürdürdüğü “Sadece Benim İçin” projesini Van’a taşıdı. 4 Haziran’da gerçekleştirilen etkinlikte kadınlara ücretsiz kanser taramaları yapılırken, uzman hekimler tarafından halkı bilgilendir...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/van-kadin-sagligi-tarama-egitim-projesi_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/van-kadin-sagligi-tarama-egitim-projesi_20260608/",
+      "detail_json_url": "/data/details/articles/van-kadin-sagligi-tarama-egitim-projesi_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/van-kadin-sagligi-tarama-egitim-projesi_20260608.webp",
+      "image_alt": "Van'da düzenlenen kadın sağlığı seminerinden bir görünüm.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/van-kadin-sagligi-tarama-egitim-projesi_20260608.webp",
+        "alt": "Van'da düzenlenen kadın sağlığı seminerinden bir görünüm."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/sosyal-medyadaki-tavsiyeler-uzerinden-tedavi-uygulanmaz-3890201",
+      "tags": [
+        "Van",
+        "TAJEV",
+        "Kadın Sağlığı",
+        "Kanser Taraması",
+        "Sağlık"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -212,6 +247,75 @@
         "Siber Güvenlik",
         "Dolandırıcılıkla Mücadele",
         "Yapay Zeka"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:kene-isirigi-hayati-risk-uyarisi_20260608",
+      "slug": "kene-isirigi-hayati-risk-uyarisi_20260608",
+      "title": "Kene Isırıklarına Karşı Kritik Uyarı: Hangi Bölgeler Risk Altında?",
+      "summary": "Yaz aylarının gelmesiyle birlikte artış gösteren kene vakalarına karşı Enfeksiyon Hastalıkları ve Mikrobiyoloji Uzmanı Dr. Fatih Yıldız, vatandaşları uyardı. Kene ısırıklarının basit bir cilt problemi olarak görülmemesi gerektiğini belirten uzmanlar, yanlış...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/kene-isirigi-hayati-risk-uyarisi_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/kene-isirigi-hayati-risk-uyarisi_20260608/",
+      "detail_json_url": "/data/details/articles/kene-isirigi-hayati-risk-uyarisi_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/kene-isirigi-hayati-risk-uyarisi_20260608.webp",
+      "image_alt": "Kene ısırığı ve sağlık riskleri hakkında uyarıcı görsel.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/kene-isirigi-hayati-risk-uyarisi_20260608.webp",
+        "alt": "Kene ısırığı ve sağlık riskleri hakkında uyarıcı görsel."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/kene-isiriginda-en-buyuk-tehlike-3890076",
+      "tags": [
+        "kene",
+        "kırım kongo kanamalı ateşi",
+        "sağlık",
+        "kene ısırığı"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:izmirde-restoranda-korkunc-kaza-kizgin-yag-2-yasindaki-bebegi-yakti_20260608",
+      "slug": "izmirde-restoranda-korkunc-kaza-kizgin-yag-2-yasindaki-bebegi-yakti_20260608",
+      "title": "İzmir'de restoranda korkunç kaza: Kızgın yağ 2 yaşındaki bebeği yaktı",
+      "summary": "İzmir'de bir restoranda İskender döner servisi yapıldığı sırada garsonun elindeki tavanın sapı koptu. İçerisinde kaynar tereyağı bulunan tavanın devrilmesi sonucu 2 yaşındaki Mercan bebek ağır yaralandı.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/izmirde-restoranda-korkunc-kaza-kizgin-yag-2-yasindaki-bebegi-yakti_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/izmirde-restoranda-korkunc-kaza-kizgin-yag-2-yasindaki-bebegi-yakti_20260608/",
+      "detail_json_url": "/data/details/articles/izmirde-restoranda-korkunc-kaza-kizgin-yag-2-yasindaki-bebegi-yakti_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/izmirde-restoranda-korkunc-kaza-kizgin-yag-2-yasindaki-bebegi-yakti_20260608.webp",
+      "image_alt": "İzmir'de restoranda yaşanan kaza sonrası inceleme.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/izmirde-restoranda-korkunc-kaza-kizgin-yag-2-yasindaki-bebegi-yakti_20260608.webp",
+        "alt": "İzmir'de restoranda yaşanan kaza sonrası inceleme."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/izmirde-korkunc-ihmal-unlu-donercideki-tereyagi-sovu-faciaya-dondu-2-yasindaki-bebegi-yakti-43197959",
+      "tags": [
+        "İzmir",
+        "restoran",
+        "kaza",
+        "yanık",
+        "ihmal"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -632,6 +736,41 @@
         "kabızlık"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:bakan-memisoglu-yerli-ilac-ve-asi-uretiminde-sonuc-almaya-basladik_20260608",
+      "slug": "bakan-memisoglu-yerli-ilac-ve-asi-uretiminde-sonuc-almaya-basladik_20260608",
+      "title": "Bakan Memişoğlu: Yerli ilaç ve aşı üretiminde sonuç almaya başladık",
+      "summary": "Sağlık Bakanı Kemal Memişoğlu, İstanbul'da düzenlenen Uluslararası Sağlık Teknolojileri Değerlendirme Birliği Kongresi'nde yaptığı konuşmada, yerli ilaç, aşı ve kit üretiminde somut sonuçlar elde etmeye başladıklarını duyurdu.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/bakan-memisoglu-yerli-ilac-ve-asi-uretiminde-sonuc-almaya-basladik_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/bakan-memisoglu-yerli-ilac-ve-asi-uretiminde-sonuc-almaya-basladik_20260608/",
+      "detail_json_url": "/data/details/articles/bakan-memisoglu-yerli-ilac-ve-asi-uretiminde-sonuc-almaya-basladik_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/bakan-memisoglu-yerli-ilac-ve-asi-uretiminde-sonuc-almaya-basladik_20260608.webp",
+      "image_alt": "Sağlık Bakanı Kemal Memişoğlu bir kongrede konuşma yaparken",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/bakan-memisoglu-yerli-ilac-ve-asi-uretiminde-sonuc-almaya-basladik_20260608.webp",
+        "alt": "Sağlık Bakanı Kemal Memişoğlu bir kongrede konuşma yaparken"
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/saglik/saglik-bakani-memisoglu-yerli-ilac-asi-ve-kitlerde-sonuc-almaya-basladik-1727735",
+      "tags": [
+        "Sağlık Bakanlığı",
+        "Kemal Memişoğlu",
+        "yerli ilaç",
+        "şehir hastaneleri",
+        "sağlık teknolojileri"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
