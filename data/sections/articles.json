@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-09T00:00:00+00:00",
-    "article_count": 403,
+    "article_count": 405,
     "schema_version": 2,
     "section": "articles"
   },
@@ -38,6 +38,41 @@
         "turizm",
         "kültür",
         "istatistik"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609",
+      "slug": "trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609",
+      "title": "Trump ve Netanyahu Arasında 'İran' Krizi: Washington'da Yeni Yol Ayrımı",
+      "summary": "İran'ın Lübnan'daki saldırılara karşılık İsrail'e yönelik başlattığı 24 saatlik savaş, ABD Başkanı Donald Trump ile İsrail Başbakanı Binyamin Netanyahu arasındaki stratejik görüş ayrılıklarını derinleştirdi. Al Jazeera'nin analizine göre, Washington yönetim...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "09.06.2026",
+      "date_iso": "2026-06-09",
+      "url": "/articles/trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609/",
+      "canonical_url": "https://mansetradar.com.tr/articles/trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609/",
+      "detail_json_url": "/data/details/articles/trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609.webp",
+      "image_alt": "ABD Başkanı Donald Trump ve İsrail Başbakanı Binyamin Netanyahu bir görüşme sırasında.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609.webp",
+        "alt": "ABD Başkanı Donald Trump ve İsrail Başbakanı Binyamin Netanyahu bir görüşme sırasında."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/oyun-bitti-trumpin-tek-caresi-kaldi-uzmanlar-hurriyete-degerlendirdi-en-buyuk-suc-ortagi-abd-43198801",
+      "tags": [
+        "Donald Trump",
+        "Binyamin Netanyahu",
+        "İran",
+        "İsrail",
+        "ABD"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -212,6 +247,41 @@
         "Mahmut Uslu",
         "Transfer Haberleri",
         "Süper Lig"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:laboratuvarda-nukleer-patlama-simulasyonu-sezyumun-sasirtan-davranisi_20260609",
+      "slug": "laboratuvarda-nukleer-patlama-simulasyonu-sezyumun-sasirtan-davranisi_20260609",
+      "title": "Laboratuvarda Nükleer Patlama Simülasyonu: Sezyumun Şaşırtan Davranışı",
+      "summary": "ABD'deki Lawrence Livermore Ulusal Laboratuvarı'ndan araştırmacılar, yüksek sıcaklıklı bir plazma tüpü kullanarak nükleer bir ateş topunu laboratuvar ortamında simüle etti. Deneyde, nükleer serpintiye dair yerleşik teorileri sarsan bulgulara ulaşıldı.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "09.06.2026",
+      "date_iso": "2026-06-09",
+      "url": "/articles/laboratuvarda-nukleer-patlama-simulasyonu-sezyumun-sasirtan-davranisi_20260609/",
+      "canonical_url": "https://mansetradar.com.tr/articles/laboratuvarda-nukleer-patlama-simulasyonu-sezyumun-sasirtan-davranisi_20260609/",
+      "detail_json_url": "/data/details/articles/laboratuvarda-nukleer-patlama-simulasyonu-sezyumun-sasirtan-davranisi_20260609.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/laboratuvarda-nukleer-patlama-simulasyonu-sezyumun-sasirtan-davranisi_20260609.webp",
+      "image_alt": "Laboratuvar ortamında gerçekleştirilen plazma akış deneyi.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/laboratuvarda-nukleer-patlama-simulasyonu-sezyumun-sasirtan-davranisi_20260609.webp",
+        "alt": "Laboratuvar ortamında gerçekleştirilen plazma akış deneyi."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/laboratuvar-ortaminda-nukleer-patlama-simulasyonu-beklenmedik-davranislar-7602349",
+      "tags": [
+        "nükleer",
+        "laboratuvar",
+        "bilim",
+        "sezyum",
+        "radyoaktif"
       ],
       "quality_score": 86,
       "review_status": "published"
