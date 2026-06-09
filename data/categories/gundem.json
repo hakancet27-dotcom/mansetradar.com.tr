@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-09T00:00:00+00:00",
-    "article_count": 405,
+    "article_count": 410,
     "schema_version": 2,
     "category_slug": "gundem"
   },
@@ -39,6 +39,41 @@
         "silahlı saldırı",
         "asayiş",
         "çocuk parkı"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:bugun-ne-pisirsem-9-haziran-2026-gunluk-ev-yemegi-menusu_20260609",
+      "slug": "bugun-ne-pisirsem-9-haziran-2026-gunluk-ev-yemegi-menusu_20260609",
+      "title": "Bugün Ne Pişirsem? 9 Haziran 2026 İçin İdeal Ev Yemeği Menüsü",
+      "summary": "Akşam yemeği planı yapmakta zorlananlar için 9 Haziran 2026 tarihine özel olarak hazırlanan günlük ev yemeği menüsü; çorbadan tatlıya kadar geleneksel ve doyurucu lezzetleri bir araya getiriyor.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "09.06.2026",
+      "date_iso": "2026-06-09",
+      "url": "/articles/bugun-ne-pisirsem-9-haziran-2026-gunluk-ev-yemegi-menusu_20260609/",
+      "canonical_url": "https://mansetradar.com.tr/articles/bugun-ne-pisirsem-9-haziran-2026-gunluk-ev-yemegi-menusu_20260609/",
+      "detail_json_url": "/data/details/articles/bugun-ne-pisirsem-9-haziran-2026-gunluk-ev-yemegi-menusu_20260609.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/bugun-ne-pisirsem-9-haziran-2026-gunluk-ev-yemegi-menusu_20260609.webp",
+      "image_alt": "9 Haziran 2026 için hazırlanan günlük ev yemeği menüsü içerikleri.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/bugun-ne-pisirsem-9-haziran-2026-gunluk-ev-yemegi-menusu_20260609.webp",
+        "alt": "9 Haziran 2026 için hazırlanan günlük ev yemeği menüsü içerikleri."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/lezizz/bugun-ne-pisirsem-diyenlere-gunluk-ev-yemegi-menusu-9-haziran-2026-43198444",
+      "tags": [
+        "bugün ne pişirsem",
+        "yemek tarifleri",
+        "akşam yemeği",
+        "ev yemekleri",
+        "9 Haziran 2026"
       ],
       "quality_score": 86,
       "review_status": "published"
