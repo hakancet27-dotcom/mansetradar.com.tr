@@ -1,0 +1,74 @@
+{
+  "title": "San Francisco'da Robotaksiyle Kaçan Hırsız 6 Aydır Bulunamadı",
+  "meta_title": "San Francisco'da Robotaksiyle Kaçan Hırsız 6 Aydır...",
+  "meta_description": "San Francisco'da bir yoga stüdyosundan hırsızlık yaptıktan sonra Waymo robotaksisiyle kaçan şüpheli, 6 aydır süren soruşturmaya rağmen tespit edilemedi.",
+  "discover_titles": [
+    "Robotaksiyle Kaçan Hırsız 6 Aydır Kayıp",
+    "Waymo Aracıyla Kaçan Şüpheli Bulunamıyor",
+    "San Francisco'da Sıra Dışı Hırsızlık Vakası"
+  ],
+  "slug": "san-franciscoda-robotaksiyle-kacan-hirsiz-6-aydir-bulunamadi_20260609",
+  "category": "Teknoloji",
+  "spot": "San Francisco'da Ocak ayında bir yoga stüdyosundan spor kıyafetleri çaldıktan sonra Waymo marka otonom bir araca binerek olay yerinden uzaklaşan şüpheli, aradan geçen altı aya rağmen polis tarafından yakalanamadı.",
+  "content_html": "<h2>Soruşturmayı Tıkayan Gizlilik ve Veri Engelleri</h2> <p>Ocak ayında San Francisco'nun Marina District bölgesinde gerçekleşen hırsızlık olayı, teknolojik imkanlara rağmen çözülemeyen bir vaka haline geldi. Bir yoga stüdyosuna girerek spor kıyafetleri çalan şüpheli, kaçış aracı olarak dışarıda bekleyen bir Waymo robotaksisini kullandı. Yüzlerce kamerayla donatılmış otonom bir aracın olayı aydınlatması beklenirken, San Francisco polisi altı aydır herhangi bir şüpheliye ulaşamadı.</p> <p>Soruşturmanın ilerleyememesindeki en büyük engel, araç içi görüntülerin erişilebilir olmamasıdır. Polis, mahkeme kararıyla veri talep etse de, iç kamera kayıtlarının olaydan önce silinmiş olabileceği veya sistemde tutulmadığı belirlendi. Dış kamera görüntüleri mevcut olsa da, Waymo'nun gizlilik politikaları gereği araç içindeki kişilerin yüzleri bulanıklaştırıldığı için kimlik tespiti yapılamıyor.</p> <h2>Teknolojik İz Sürme Neden Başarısız Oldu?</h2> <p>Waymo araçlarının kullanıcı hesaplarına bağlı olması, teoride kimlik tespiti için bir avantaj gibi görünse de, uygulamada bu durum farklı sonuçlar doğurabiliyor. Yetkililer, şüphelinin çalıntı kartlar veya geçici hesaplar kullanarak bu izi kırmış olabileceğini değerlendiriyor. Şirket ise yüz tanıma teknolojisi kullanmadığını ve veri taleplerini yalnızca yasal çerçevede değerlendirdiğini vurguluyor.</p> <p>Soruşturmayı yürüten dedektif Sgt. Tim Faye, bir insansız aracın kaçış aracı olarak kullanılmasının başlı başına şaşırtıcı bir durum olduğunu belirtti. San Francisco polisi, olayın alışılmadık yapısı nedeniyle soruşturmayı sürdürmeye devam ediyor.</p>",
+  "tags": [
+    "Waymo",
+    "Robotaksi",
+    "San Francisco",
+    "Hırsızlık",
+    "Teknoloji"
+  ],
+  "visual_keywords": [
+    "Waymo robotaksi",
+    "San Francisco sokakları",
+    "otonom araç",
+    "polis soruşturması"
+  ],
+  "image_prompt": "A Waymo autonomous vehicle driving on a street in San Francisco, high-tech sensors visible on the roof, urban setting, realistic style.",
+  "image_alt": "San Francisco sokaklarında ilerleyen bir Waymo robotaksisi.",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 3,
+  "word_count": 223,
+  "date": "09.06.2026",
+  "flag": "TR",
+  "country": "Turkey",
+  "display_country": "Türkiye",
+  "image_url": "https://mansetradar.com.tr/articles/2026/06/images/san-franciscoda-robotaksiyle-kacan-hirsiz-6-aydir-bulunamadi_20260609.webp",
+  "real_image_required": true,
+  "real_image_status": "approved_real_image",
+  "image_kind": "licensed_real_photo",
+  "image_license_status": "source_provided",
+  "image_license_note": "RSS source image: Milliyet",
+  "image_source_url": "https://www.milliyet.com.tr/teknoloji/insansiz-taksiyi-calan-hirsiz-6-aydir-yakalanamiyor-7602307",
+  "image_provider": "rss",
+  "image_score": 84,
+  "image_query": "Şoförü olmayan robotaksiyi çalan hırsız 6 aydır yakalanamıyor",
+  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
+  "summary": "San Francisco'da Ocak ayında bir yoga stüdyosundan spor kıyafetleri çaldıktan sonra Waymo marka otonom bir araca binerek olay yerinden uzaklaşan şüpheli, aradan geçen altı aya rağmen polis tarafından yakalanamadı.",
+  "language": "Turkish",
+  "url_prefix": "articles/2026/06",
+  "source_language": "Turkish",
+  "target_language": "Turkish",
+  "source_name": "Milliyet",
+  "source_url": "https://www.milliyet.com.tr/teknoloji/insansiz-taksiyi-calan-hirsiz-6-aydir-yakalanamiyor-7602307",
+  "source_published_at": "2026-06-09T13:10:46+00:00",
+  "source_fact_score": 11,
+  "source_fact_word_count": 311,
+  "quality_score": 86,
+  "quality_status": "published",
+  "review_required": false,
+  "quality_flags": [
+    "short_article"
+  ],
+  "quality_notes": [
+    "Metin hedefin altinda (223 kelime)."
+  ],
+  "quality_word_count": 223,
+  "indexed_on_home": true,
+  "source_image_url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2810b45c71a7a8153d4cff.jpg",
+  "image_storage": "local_webp_cache",
+  "image_localized_at": "2026-06-09T17:18:38Z"
+}
