@@ -3,11 +3,81 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-09T00:00:00+00:00",
-    "article_count": 401,
+    "article_count": 403,
     "schema_version": 2,
     "category_slug": "saglik"
   },
   "articles": [
+    {
+      "id": "articles:kabizligin-tehlike-isaretleri_20260609",
+      "slug": "kabizligin-tehlike-isaretleri_20260609",
+      "title": "Kabızlıkta 'Tehlike' İşaretleri: Ne Zaman Doktora Gidilmeli?",
+      "summary": "Gastroenteroloji Uzmanı Prof. Dr. Özlem Özer, yaşam tarzı değişiklikleri ve stresle sıkça karşılaşılan kabızlığın, bazen ciddi hastalıkların habercisi olabileceği konusunda uyarılarda bulundu.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "09.06.2026",
+      "date_iso": "2026-06-09",
+      "url": "/articles/kabizligin-tehlike-isaretleri_20260609/",
+      "canonical_url": "https://mansetradar.com.tr/articles/kabizligin-tehlike-isaretleri_20260609/",
+      "detail_json_url": "/data/details/articles/kabizligin-tehlike-isaretleri_20260609.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/kabizligin-tehlike-isaretleri_20260609.webp",
+      "image_alt": "Gastroenteroloji uzmanı ve bağırsak sağlığı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/kabizligin-tehlike-isaretleri_20260609.webp",
+        "alt": "Gastroenteroloji uzmanı ve bağırsak sağlığı."
+      },
+      "source_name": "Sağlık haberleri - Son dakika sağlık haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/kabizligin-tehlike-isaretleri-p326334",
+      "tags": [
+        "kabızlık",
+        "bağırsak sağlığı",
+        "kolonoskopi",
+        "sindirim sistemi",
+        "sağlık"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609",
+      "slug": "domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609",
+      "title": "Domates ve Soya İçeren İçeceğin İltihaplanma Üzerindeki Etkisi Araştırıldı",
+      "summary": "Yapılan yeni bir bilimsel çalışma, domatesin likopen içeriği ile soyanın izoflavonlarını birleştiren özel bir içeceğin, vücuttaki kronik iltihaplanma düzeylerini düşürmede etkili olabileceğini gösterdi.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "09.06.2026",
+      "date_iso": "2026-06-09",
+      "url": "/articles/domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609/",
+      "canonical_url": "https://mansetradar.com.tr/articles/domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609/",
+      "detail_json_url": "/data/details/articles/domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609.webp",
+      "image_alt": "Domates ve soya içeren sağlıklı bir içecek bardağı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609.webp",
+        "alt": "Domates ve soya içeren sağlıklı bir içecek bardağı."
+      },
+      "source_name": "Sağlık haberleri - Son dakika sağlık haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/meger-bu-basit-icecek-vucuttaki-iltihaplanmayi-ortadan-kaldiriyormus-p326319",
+      "tags": [
+        "sağlık",
+        "beslenme",
+        "iltihaplanma",
+        "domates",
+        "soya"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "articles:van-kadin-sagligi-tarama-egitim-projesi_20260608",
       "slug": "van-kadin-sagligi-tarama-egitim-projesi_20260608",
