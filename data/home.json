@@ -3,11 +3,46 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-09T00:00:00+00:00",
-    "article_count": 410,
+    "article_count": 414,
     "schema_version": 2,
     "section": "articles"
   },
   "hero": [
+    {
+      "id": "articles:turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609",
+      "slug": "turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609",
+      "title": "Türkiye’nin Kıtalararası Balistik Füzesi YILDIRIMHAN Tanıtıldı",
+      "summary": "Türkiye'nin savunma sanayiindeki en yeni hamlesi olan kıtalararası balistik füze YILDIRIMHAN, İstanbul'da düzenlenen SAHA 2026 Savunma, Havacılık ve Uzay Sanayi Fuarı'nda ilk kez sergilendi. Yaklaşık 6 bin kilometre menzile ve 25 Mach hıza sahip olan füze,...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "09.06.2026",
+      "date_iso": "2026-06-09",
+      "url": "/articles/turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609/",
+      "canonical_url": "https://mansetradar.com.tr/articles/turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609/",
+      "detail_json_url": "/data/details/articles/turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609.webp",
+      "image_alt": "SAHA 2026 fuarında sergilenen YILDIRIMHAN balistik füzesi.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609.webp",
+        "alt": "SAHA 2026 fuarında sergilenen YILDIRIMHAN balistik füzesi."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-al-jazeera-turkiyenin-balistik-fuze-yolculugunu-yazdi-dusman-topraklarinin-derinliklerine-tasiyabilecek-kapasite-7602397",
+      "tags": [
+        "YILDIRIMHAN",
+        "SAHA 2026",
+        "Roketsan",
+        "Savunma Sanayii",
+        "Balistik Füze"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles:turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609",
       "slug": "turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609",
@@ -252,6 +287,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609",
+      "slug": "mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609",
+      "title": "MHP Lideri Bahçeli'den Grup Toplantısında Önemli Açıklamalar",
+      "summary": "MHP Genel Başkanı Devlet Bahçeli, partisinin TBMM grup toplantısında yaptığı konuşmada milli takımın ABD yolculuğu, bölgesel güvenlik tehditleri ve CHP'li belediyelerdeki iddialara ilişkin değerlendirmelerde bulundu.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "09.06.2026",
+      "date_iso": "2026-06-09",
+      "url": "/articles/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609/",
+      "canonical_url": "https://mansetradar.com.tr/articles/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609/",
+      "detail_json_url": "/data/details/articles/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609.webp",
+      "image_alt": "MHP Genel Başkanı Devlet Bahçeli TBMM'de konuşma yaparken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609.webp",
+        "alt": "MHP Genel Başkanı Devlet Bahçeli TBMM'de konuşma yaparken."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/mhp-lideri-bahceli-den-aciklamalar-son-dakika-haberler-3890327",
+      "tags": [
+        "Devlet Bahçeli",
+        "MHP",
+        "TBMM",
+        "Siyaset",
+        "CHP"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:mahmut-uslu-marco-asensio-aciklamasi_20260609",
       "slug": "mahmut-uslu-marco-asensio-aciklamasi_20260609",
       "title": "Mahmut Uslu'dan Marco Asensio açıklaması: 'Hiçbir sorun yok'",
@@ -317,6 +387,41 @@
         "bilim",
         "sezyum",
         "radyoaktif"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:kilicdaroglu-yonetimindeki-chpde-ihrac-gundemli-myk-toplantisi_20260609",
+      "slug": "kilicdaroglu-yonetimindeki-chpde-ihrac-gundemli-myk-toplantisi_20260609",
+      "title": "Kılıçdaroğlu yönetimindeki CHP'de 'ihraç' gündemli MYK toplantısı",
+      "summary": "Mahkeme kararıyla CHP yönetimine atanan Kemal Kılıçdaroğlu, Meclis'te yaşanan grup toplantısı krizi sonrası MYK'yı yarın saat 13:00'te toplantıya çağırdı. Kılıçdaroğlu, parti içinde 'arınma' sürecinin başlayacağını ve ihraçların gündemde olduğunu duyurdu.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "09.06.2026",
+      "date_iso": "2026-06-09",
+      "url": "/articles/kilicdaroglu-yonetimindeki-chpde-ihrac-gundemli-myk-toplantisi_20260609/",
+      "canonical_url": "https://mansetradar.com.tr/articles/kilicdaroglu-yonetimindeki-chpde-ihrac-gundemli-myk-toplantisi_20260609/",
+      "detail_json_url": "/data/details/articles/kilicdaroglu-yonetimindeki-chpde-ihrac-gundemli-myk-toplantisi_20260609.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/kilicdaroglu-yonetimindeki-chpde-ihrac-gundemli-myk-toplantisi_20260609.webp",
+      "image_alt": "Kemal Kılıçdaroğlu, CHP Genel Merkezi'nde kurmaylarıyla bir araya geliyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/kilicdaroglu-yonetimindeki-chpde-ihrac-gundemli-myk-toplantisi_20260609.webp",
+        "alt": "Kemal Kılıçdaroğlu, CHP Genel Merkezi'nde kurmaylarıyla bir araya geliyor."
+      },
+      "source_name": "Cumhuriyet Gazetesi",
+      "source_url": "https://www.cumhuriyet.com.tr/siyaset/butlan-yonetimi-yarin-myk-yi-topluyor-gundem-grup-toplantisi-krizi-ve-ihraclar-2510859",
+      "tags": [
+        "Kemal Kılıçdaroğlu",
+        "CHP",
+        "MYK",
+        "Siyaset",
+        "İhraç"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -596,110 +701,6 @@
         "akşam yemeği",
         "ev yemekleri",
         "9 Haziran 2026"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:aynur-kanbur-cinayeti-suphelileri-yakalandi_20260609",
-      "slug": "aynur-kanbur-cinayeti-suphelileri-yakalandi_20260609",
-      "title": "Mezdeke grubundan Aynur Kanbur cinayetinde 10 yıl sonra flaş gelişme",
-      "summary": "2016 yılında Şişli'de uğradığı silahlı saldırı sonucu hayatını kaybeden Mezdeke grubu dansçısı Aynur Kanbur'un faili meçhul kalan cinayet dosyası, 10 yıl sonra Cinayet Büro Amirliği ekiplerince yeniden açıldı. Yapılan teknik ve saha çalışmaları sonucunda te...",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "09.06.2026",
-      "date_iso": "2026-06-09",
-      "url": "/articles/aynur-kanbur-cinayeti-suphelileri-yakalandi_20260609/",
-      "canonical_url": "https://mansetradar.com.tr/articles/aynur-kanbur-cinayeti-suphelileri-yakalandi_20260609/",
-      "detail_json_url": "/data/details/articles/aynur-kanbur-cinayeti-suphelileri-yakalandi_20260609.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/aynur-kanbur-cinayeti-suphelileri-yakalandi_20260609.webp",
-      "image_alt": "Aynur Kanbur cinayeti soruşturması kapsamında polis ekipleri çalışmalarını sürdürüyor.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/aynur-kanbur-cinayeti-suphelileri-yakalandi_20260609.webp",
-        "alt": "Aynur Kanbur cinayeti soruşturması kapsamında polis ekipleri çalışmalarını sürdürüyor."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/son-dakika-mezdeke-grubunun-danscisi-aynur-kanbur-un-katilleri-yakalandi-3890311",
-      "tags": [
-        "Aynur Kanbur",
-        "Mezdeke",
-        "Cinayet",
-        "Asayiş",
-        "İstanbul Emniyet Müdürlüğü"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:atm-sahte-dolar-vurgunu-9-gozalti_20260609",
-      "slug": "atm-sahte-dolar-vurgunu-9-gozalti_20260609",
-      "title": "ATM'lerde 100 Bin Dolarlık Vurgun: Sahte Banknotlarla Dolandırdılar",
-      "summary": "İstanbul merkezli 6 ilde düzenlenen operasyonda, ATM'lere sahte 50 dolarlık banknotlar yatırıp bunları farklı bankalardan Türk lirası olarak çekerek 102 bin 750 dolar haksız kazanç sağlayan 9 şüpheli gözaltına alındı.",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "09.06.2026",
-      "date_iso": "2026-06-09",
-      "url": "/articles/atm-sahte-dolar-vurgunu-9-gozalti_20260609/",
-      "canonical_url": "https://mansetradar.com.tr/articles/atm-sahte-dolar-vurgunu-9-gozalti_20260609/",
-      "detail_json_url": "/data/details/articles/atm-sahte-dolar-vurgunu-9-gozalti_20260609.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/atm-sahte-dolar-vurgunu-9-gozalti_20260609.webp",
-      "image_alt": "ATM'ye yatırılan sahte 50 dolarlık banknot görseli.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/atm-sahte-dolar-vurgunu-9-gozalti_20260609.webp",
-        "alt": "ATM'ye yatırılan sahte 50 dolarlık banknot görseli."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/100-bin-dolarlik-atm-vurgunu-nasil-gerceklesti-bu-isaretlere-dikkat-43198559",
-      "tags": [
-        "ATM dolandırıcılığı",
-        "sahte dolar",
-        "İstanbul Emniyeti",
-        "Ömer Erdem"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:apple-ios-27-tanitildi-ozellikleri_20260609",
-      "slug": "apple-ios-27-tanitildi-ozellikleri_20260609",
-      "title": "Apple, WWDC 2026'da iOS 27'yi Tanıttı: Siri AI ve Yeni Tasarım Detayları",
-      "summary": "Apple, WWDC 2026 kapsamında yeni mobil işletim sistemi iOS 27'yi tanıttı. Apple Intelligence mimarisiyle güçlendirilen Siri AI, gelişmiş arama özellikleri ve yenilenen Liquid Glass tasarım diliyle dikkat çeken güncelleme, performans artışları ve kullanıcı d...",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "09.06.2026",
-      "date_iso": "2026-06-09",
-      "url": "/articles/apple-ios-27-tanitildi-ozellikleri_20260609/",
-      "canonical_url": "https://mansetradar.com.tr/articles/apple-ios-27-tanitildi-ozellikleri_20260609/",
-      "detail_json_url": "/data/details/articles/apple-ios-27-tanitildi-ozellikleri_20260609.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/apple-ios-27-tanitildi-ozellikleri_20260609.webp",
-      "image_alt": "Apple WWDC 2026 etkinliğinde tanıtılan iOS 27 işletim sistemi arayüzü.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/apple-ios-27-tanitildi-ozellikleri_20260609.webp",
-        "alt": "Apple WWDC 2026 etkinliğinde tanıtılan iOS 27 işletim sistemi arayüzü."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/teknoloji/apple/apple-yeni-ios-27yi-tanitti-43198633",
-      "tags": [
-        "Apple",
-        "iOS 27",
-        "WWDC 2026",
-        "Siri AI",
-        "Teknoloji"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -707,6 +708,41 @@
   ],
   "latest": [
     {
+      "id": "articles:turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609",
+      "slug": "turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609",
+      "title": "Türkiye’nin Kıtalararası Balistik Füzesi YILDIRIMHAN Tanıtıldı",
+      "summary": "Türkiye'nin savunma sanayiindeki en yeni hamlesi olan kıtalararası balistik füze YILDIRIMHAN, İstanbul'da düzenlenen SAHA 2026 Savunma, Havacılık ve Uzay Sanayi Fuarı'nda ilk kez sergilendi. Yaklaşık 6 bin kilometre menzile ve 25 Mach hıza sahip olan füze,...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "09.06.2026",
+      "date_iso": "2026-06-09",
+      "url": "/articles/turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609/",
+      "canonical_url": "https://mansetradar.com.tr/articles/turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609/",
+      "detail_json_url": "/data/details/articles/turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609.webp",
+      "image_alt": "SAHA 2026 fuarında sergilenen YILDIRIMHAN balistik füzesi.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609.webp",
+        "alt": "SAHA 2026 fuarında sergilenen YILDIRIMHAN balistik füzesi."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-al-jazeera-turkiyenin-balistik-fuze-yolculugunu-yazdi-dusman-topraklarinin-derinliklerine-tasiyabilecek-kapasite-7602397",
+      "tags": [
+        "YILDIRIMHAN",
+        "SAHA 2026",
+        "Roketsan",
+        "Savunma Sanayii",
+        "Balistik Füze"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609",
       "slug": "turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609",
       "title": "Türkiye Müze Ziyaretçi Sayısında Avrupa'yı Geride Bıraktı",
@@ -950,6 +986,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles:mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609",
+      "slug": "mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609",
+      "title": "MHP Lideri Bahçeli'den Grup Toplantısında Önemli Açıklamalar",
+      "summary": "MHP Genel Başkanı Devlet Bahçeli, partisinin TBMM grup toplantısında yaptığı konuşmada milli takımın ABD yolculuğu, bölgesel güvenlik tehditleri ve CHP'li belediyelerdeki iddialara ilişkin değerlendirmelerde bulundu.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "09.06.2026",
+      "date_iso": "2026-06-09",
+      "url": "/articles/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609/",
+      "canonical_url": "https://mansetradar.com.tr/articles/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609/",
+      "detail_json_url": "/data/details/articles/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609.webp",
+      "image_alt": "MHP Genel Başkanı Devlet Bahçeli TBMM'de konuşma yaparken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609.webp",
+        "alt": "MHP Genel Başkanı Devlet Bahçeli TBMM'de konuşma yaparken."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/mhp-lideri-bahceli-den-aciklamalar-son-dakika-haberler-3890327",
+      "tags": [
+        "Devlet Bahçeli",
+        "MHP",
+        "TBMM",
+        "Siyaset",
+        "CHP"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles:mahmut-uslu-marco-asensio-aciklamasi_20260609",
       "slug": "mahmut-uslu-marco-asensio-aciklamasi_20260609",
       "title": "Mahmut Uslu'dan Marco Asensio açıklaması: 'Hiçbir sorun yok'",
@@ -1015,6 +1086,41 @@
         "bilim",
         "sezyum",
         "radyoaktif"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:kilicdaroglu-yonetimindeki-chpde-ihrac-gundemli-myk-toplantisi_20260609",
+      "slug": "kilicdaroglu-yonetimindeki-chpde-ihrac-gundemli-myk-toplantisi_20260609",
+      "title": "Kılıçdaroğlu yönetimindeki CHP'de 'ihraç' gündemli MYK toplantısı",
+      "summary": "Mahkeme kararıyla CHP yönetimine atanan Kemal Kılıçdaroğlu, Meclis'te yaşanan grup toplantısı krizi sonrası MYK'yı yarın saat 13:00'te toplantıya çağırdı. Kılıçdaroğlu, parti içinde 'arınma' sürecinin başlayacağını ve ihraçların gündemde olduğunu duyurdu.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "09.06.2026",
+      "date_iso": "2026-06-09",
+      "url": "/articles/kilicdaroglu-yonetimindeki-chpde-ihrac-gundemli-myk-toplantisi_20260609/",
+      "canonical_url": "https://mansetradar.com.tr/articles/kilicdaroglu-yonetimindeki-chpde-ihrac-gundemli-myk-toplantisi_20260609/",
+      "detail_json_url": "/data/details/articles/kilicdaroglu-yonetimindeki-chpde-ihrac-gundemli-myk-toplantisi_20260609.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/kilicdaroglu-yonetimindeki-chpde-ihrac-gundemli-myk-toplantisi_20260609.webp",
+      "image_alt": "Kemal Kılıçdaroğlu, CHP Genel Merkezi'nde kurmaylarıyla bir araya geliyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/kilicdaroglu-yonetimindeki-chpde-ihrac-gundemli-myk-toplantisi_20260609.webp",
+        "alt": "Kemal Kılıçdaroğlu, CHP Genel Merkezi'nde kurmaylarıyla bir araya geliyor."
+      },
+      "source_name": "Cumhuriyet Gazetesi",
+      "source_url": "https://www.cumhuriyet.com.tr/siyaset/butlan-yonetimi-yarin-myk-yi-topluyor-gundem-grup-toplantisi-krizi-ve-ihraclar-2510859",
+      "tags": [
+        "Kemal Kılıçdaroğlu",
+        "CHP",
+        "MYK",
+        "Siyaset",
+        "İhraç"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1363,6 +1469,41 @@
         "sahte dolar",
         "İstanbul Emniyeti",
         "Ömer Erdem"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:atlas-caglayan-cinayeti-davasi-basliyor_20260609",
+      "slug": "atlas-caglayan-cinayeti-davasi-basliyor_20260609",
+      "title": "Atlas Çağlayan cinayeti davası başlıyor: 14 yaşındaki sanık hakim karşısında",
+      "summary": "İstanbul Güngören'de 17 yaşındaki Atlas Çağlayan'ın bıçaklanarak öldürülmesiyle ilgili davanın ilk duruşması bugün görülüyor. Olay tarihinde 14 yaşında olan sanık E.Ç. ilk kez hakim karşısına çıkıyor.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "09.06.2026",
+      "date_iso": "2026-06-09",
+      "url": "/articles/atlas-caglayan-cinayeti-davasi-basliyor_20260609/",
+      "canonical_url": "https://mansetradar.com.tr/articles/atlas-caglayan-cinayeti-davasi-basliyor_20260609/",
+      "detail_json_url": "/data/details/articles/atlas-caglayan-cinayeti-davasi-basliyor_20260609.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/atlas-caglayan-cinayeti-davasi-basliyor_20260609.webp",
+      "image_alt": "Bakırköy Adliyesi binası.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/atlas-caglayan-cinayeti-davasi-basliyor_20260609.webp",
+        "alt": "Bakırköy Adliyesi binası."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/son-dakika-atlas-caglayanin-davasi-bugun-baslayacak-son-dakika-haberi-3890322",
+      "tags": [
+        "Atlas Çağlayan",
+        "Güngören",
+        "Bakırköy Adliyesi",
+        "dava",
+        "kasten öldürme"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1435,146 +1576,6 @@
         "Destatis"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:yargitay-bilge-sitesi-davasi-beraat-talebi_20260608",
-      "slug": "yargitay-bilge-sitesi-davasi-beraat-talebi_20260608",
-      "title": "Yargıtay Başsavcılığı'ndan Bilge Sitesi Davasında Dikkat Çeken Tebliğname",
-      "summary": "Kahramanmaraş merkezli 6 Şubat 2023 depremlerinde Osmaniye'de yıkılan ve 105 kişinin hayatını kaybettiği Bilge Sitesi A Blok davasında, yerel mahkemenin 21 yıl hapis cezası verdiği eski Belediye Başkanı Kadir Kara ve diğer üç sanık için Yargıtay Cumhuriyet...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "08.06.2026",
-      "date_iso": "2026-06-08",
-      "url": "/articles/yargitay-bilge-sitesi-davasi-beraat-talebi_20260608/",
-      "canonical_url": "https://mansetradar.com.tr/articles/yargitay-bilge-sitesi-davasi-beraat-talebi_20260608/",
-      "detail_json_url": "/data/details/articles/yargitay-bilge-sitesi-davasi-beraat-talebi_20260608.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/yargitay-bilge-sitesi-davasi-beraat-talebi_20260608.webp",
-      "image_alt": "Yargıtay binası ve hukuk dosyaları.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/yargitay-bilge-sitesi-davasi-beraat-talebi_20260608.webp",
-        "alt": "Yargıtay binası ve hukuk dosyaları."
-      },
-      "source_name": "Cumhuriyet Gazetesi",
-      "source_url": "https://www.cumhuriyet.com.tr/turkiye/yargitay-depremde-yikilan-bilge-sitesi-davasinda-21-yil-alan-saniga-beraat-istedi-2510356",
-      "tags": [
-        "Bilge Sitesi",
-        "Yargıtay",
-        "Osmaniye",
-        "Deprem Davası",
-        "Kadir Kara"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:van-kadin-sagligi-tarama-egitim-projesi_20260608",
-      "slug": "van-kadin-sagligi-tarama-egitim-projesi_20260608",
-      "title": "Van'da Kadın Sağlığına Yönelik Kapsamlı Ücretsiz Tarama ve Eğitim Projesi",
-      "summary": "Türkiye’nin köklü jinekoloji kurumlarından TAJEV, yaklaşık 20 yıldır sürdürdüğü “Sadece Benim İçin” projesini Van’a taşıdı. 4 Haziran’da gerçekleştirilen etkinlikte kadınlara ücretsiz kanser taramaları yapılırken, uzman hekimler tarafından halkı bilgilendir...",
-      "category": "Sağlık",
-      "category_slug": "saglik",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "08.06.2026",
-      "date_iso": "2026-06-08",
-      "url": "/articles/van-kadin-sagligi-tarama-egitim-projesi_20260608/",
-      "canonical_url": "https://mansetradar.com.tr/articles/van-kadin-sagligi-tarama-egitim-projesi_20260608/",
-      "detail_json_url": "/data/details/articles/van-kadin-sagligi-tarama-egitim-projesi_20260608.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/van-kadin-sagligi-tarama-egitim-projesi_20260608.webp",
-      "image_alt": "Van'da düzenlenen kadın sağlığı seminerinden bir görünüm.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/van-kadin-sagligi-tarama-egitim-projesi_20260608.webp",
-        "alt": "Van'da düzenlenen kadın sağlığı seminerinden bir görünüm."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/sosyal-medyadaki-tavsiyeler-uzerinden-tedavi-uygulanmaz-3890201",
-      "tags": [
-        "Van",
-        "TAJEV",
-        "Kadın Sağlığı",
-        "Kanser Taraması",
-        "Sağlık"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:toki-64-ilde-20-bin-konut-satisi-basliyor_20260608",
-      "slug": "toki-64-ilde-20-bin-konut-satisi-basliyor_20260608",
-      "title": "TOKİ'den 64 İlde 20 Bin Konutluk Dev Satış Hamlesi",
-      "summary": "Toplu Konut İdaresi Başkanlığı (TOKİ), Türkiye genelinde 64 ili kapsayan 20 bin konutluk yeni açık satış programını duyurdu. Kurasız olarak gerçekleştirilecek satışlar için başvurular 15 Haziran ile 17 Temmuz 2026 tarihleri arasında kabul edilecek.",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "08.06.2026",
-      "date_iso": "2026-06-08",
-      "url": "/articles/toki-64-ilde-20-bin-konut-satisi-basliyor_20260608/",
-      "canonical_url": "https://mansetradar.com.tr/articles/toki-64-ilde-20-bin-konut-satisi-basliyor_20260608/",
-      "detail_json_url": "/data/details/articles/toki-64-ilde-20-bin-konut-satisi-basliyor_20260608.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/toki-64-ilde-20-bin-konut-satisi-basliyor_20260608.webp",
-      "image_alt": "TOKİ tarafından inşa edilen konut projeleri",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/toki-64-ilde-20-bin-konut-satisi-basliyor_20260608.webp",
-        "alt": "TOKİ tarafından inşa edilen konut projeleri"
-      },
-      "source_name": "Ekonomim",
-      "source_url": "https://www.ekonomim.com/foto-galeri/aktuel/toki-64-ilde-konut-satisi-mahalle-mahalle-tam-liste-belli-oldu-toki-acik-satis-kampanyasi-hangi-il-galeri-898539",
-      "tags": [
-        "TOKİ",
-        "konut satışı",
-        "TOKİ başvuruları",
-        "ekonomi",
-        "emlak"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles:tim-cook-apple-ceo-degisimi-wwdc-2026_20260608",
-      "slug": "tim-cook-apple-ceo-degisimi-wwdc-2026_20260608",
-      "title": "Tim Cook için veda vakti: Apple’da CEO değişimi başlıyor",
-      "summary": "Apple'ın 2012'den bu yana CEO'su olan Tim Cook'un, WWDC 2026 açılışında son kez sahne alacağı iddia ediliyor. Şirket içerisinde başlayan CEO geçiş sürecinde, donanım sorumlusu John Ternus'un yeni lider olması bekleniyor.",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "date": "08.06.2026",
-      "date_iso": "2026-06-08",
-      "url": "/articles/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608/",
-      "canonical_url": "https://mansetradar.com.tr/articles/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608/",
-      "detail_json_url": "/data/details/articles/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608.webp",
-      "image_alt": "Tim Cook, Apple WWDC etkinliğinde sahnede konuşma yaparken.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/tim-cook-apple-ceo-degisimi-wwdc-2026_20260608.webp",
-        "alt": "Tim Cook, Apple WWDC etkinliğinde sahnede konuşma yaparken."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/teknoloji/tim-cook-son-kez-sahneye-cikiyor-gozler-appledaki-ceo-degisiminde-7601431",
-      "tags": [
-        "Apple",
-        "Tim Cook",
-        "WWDC 2026",
-        "John Ternus",
-        "Teknoloji"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]
