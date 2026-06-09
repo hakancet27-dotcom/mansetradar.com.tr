@@ -2,12 +2,47 @@
   "meta": {
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
-    "generated_at": "2026-06-08T00:00:00+00:00",
-    "article_count": 389,
+    "generated_at": "2026-06-09T00:00:00+00:00",
+    "article_count": 393,
     "schema_version": 2,
     "category_slug": "gundem"
   },
   "articles": [
+    {
+      "id": "articles:inegol-cocuk-parkinda-pompali-saldiri_20260609",
+      "slug": "inegol-cocuk-parkinda-pompali-saldiri_20260609",
+      "title": "İnegöl'deki çocuk parkında pompalı saldırı: 10 yaralı",
+      "summary": "Bursa’nın İnegöl ilçesinde bir çocuk parkına araçla gelen şüpheliler, pompalı tüfekle ateş açtı. Olayda 6’sı çocuk olmak üzere toplam 10 kişi yaralanırken, saldırının taraflar arasındaki bir husumetten kaynaklandığı belirlendi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "09.06.2026",
+      "date_iso": "2026-06-09",
+      "url": "/articles/inegol-cocuk-parkinda-pompali-saldiri_20260609/",
+      "canonical_url": "https://mansetradar.com.tr/articles/inegol-cocuk-parkinda-pompali-saldiri_20260609/",
+      "detail_json_url": "/data/details/articles/inegol-cocuk-parkinda-pompali-saldiri_20260609.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/inegol-cocuk-parkinda-pompali-saldiri_20260609.webp",
+      "image_alt": "İnegöl'de silahlı saldırının gerçekleştiği çocuk parkı",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/inegol-cocuk-parkinda-pompali-saldiri_20260609.webp",
+        "alt": "İnegöl'de silahlı saldırının gerçekleştiği çocuk parkı"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/cocuk-parkinda-pompali-dehseti-6si-cocuk-10-yarali-43198293",
+      "tags": [
+        "Bursa",
+        "İnegöl",
+        "silahlı saldırı",
+        "asayiş",
+        "çocuk parkı"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles:yargitay-bilge-sitesi-davasi-beraat-talebi_20260608",
       "slug": "yargitay-bilge-sitesi-davasi-beraat-talebi_20260608",
