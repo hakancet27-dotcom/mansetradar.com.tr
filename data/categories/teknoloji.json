@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-09T00:00:00+00:00",
-    "article_count": 414,
+    "article_count": 418,
     "schema_version": 2,
     "category_slug": "teknoloji"
   },
@@ -109,6 +109,41 @@
         "iPhone",
         "Katlanabilir Telefon",
         "Teknoloji"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles:elon-muskin-mars-hayali-wall-streeti-fethetti_20260609",
+      "slug": "elon-muskin-mars-hayali-wall-streeti-fethetti_20260609",
+      "title": "Elon Musk’ın Mars Vizyonu Wall Street’te Tarihi Dönüm Noktası",
+      "summary": "Elon Musk’ın 2002 yılında Mars’ta çok gezegenli bir yaşam kurma hedefiyle temellerini attığı SpaceX, Wall Street’te gerçekleştirdiği halka arz ile finans dünyasında tarihi bir dönüm noktasına imza attı.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "date": "09.06.2026",
+      "date_iso": "2026-06-09",
+      "url": "/articles/elon-muskin-mars-hayali-wall-streeti-fethetti_20260609/",
+      "canonical_url": "https://mansetradar.com.tr/articles/elon-muskin-mars-hayali-wall-streeti-fethetti_20260609/",
+      "detail_json_url": "/data/details/articles/elon-muskin-mars-hayali-wall-streeti-fethetti_20260609.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/elon-muskin-mars-hayali-wall-streeti-fethetti_20260609.webp",
+      "image_alt": "SpaceX roketi fırlatılışı ve Wall Street finansal grafiklerini temsil eden görsel.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/elon-muskin-mars-hayali-wall-streeti-fethetti_20260609.webp",
+        "alt": "SpaceX roketi fırlatılışı ve Wall Street finansal grafiklerini temsil eden görsel."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/elon-muskin-mars-hayali-wall-streeti-fethetti-3890434-teknoloji",
+      "tags": [
+        "SpaceX",
+        "Elon Musk",
+        "Mars",
+        "Wall Street",
+        "Halka Arz"
       ],
       "quality_score": 86,
       "review_status": "published"
