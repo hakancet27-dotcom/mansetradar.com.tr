@@ -23,12 +23,11 @@ collections:
     extension: json
     format: json
     identifier_field: slug
-    summary: "{{date}} {{time}} | {{category}} | {{title}}"
+    summary: "{{date}} | {{category}} | {{title}}"
     fields: &published_fields
       - { label: Baslik, name: title, widget: string }
       - { label: Slug, name: slug, widget: string, readonly: true }
-      - { label: Tarih, name: date, widget: string, required: false }
-      - { label: Saat, name: time, widget: string, required: false }
+      - { label: Tarih, name: date, widget: datetime, format: "DD.MM.YYYY", date_format: "DD.MM.YYYY", time_format: false, picker_utc: false }
       - { label: Dil, name: language, widget: string, required: false, readonly: true }
       - { label: Ulke, name: country, widget: string, required: false, readonly: true }
       - { label: Kategori, name: category, widget: string, required: false }
@@ -56,7 +55,7 @@ collections:
       - { label: Indexed On Home, name: indexed_on_home, widget: boolean, required: false, readonly: true }
       - { label: Kaynak JSON, name: source_json_path, widget: string, required: false, readonly: true }
       - { label: Canli URL, name: public_url, widget: string, required: false, readonly: true }
-      - { label: Yayin Asamasi, name: publication_lifecycle, widget: string, required: false, readonly: true, hint: "Bu listeden Delete yaparsan kaynak haber arsive tasinir; sonraki workflowda geri uretilmez. Tek run'da en fazla 5 silme islenir." }
+      - { label: Yayin Asamasi, name: publication_lifecycle, widget: string, required: false, readonly: true }
 
   - name: published_en
     label: "Published News / English"
@@ -67,7 +66,7 @@ collections:
     extension: json
     format: json
     identifier_field: slug
-    summary: "{{date}} {{time}} | {{category}} | {{title}}"
+    summary: "{{date}} | {{category}} | {{title}}"
     fields: *published_fields
 
   - name: published_de
@@ -79,5 +78,5 @@ collections:
     extension: json
     format: json
     identifier_field: slug
-    summary: "{{date}} {{time}} | {{category}} | {{title}}"
+    summary: "{{date}} | {{category}} | {{title}}"
     fields: *published_fields
