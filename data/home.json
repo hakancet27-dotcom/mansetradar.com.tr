@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-10T00:00:00+00:00",
-    "article_count": 448,
+    "article_count": 447,
     "schema_version": 2
   },
   "hero": [
@@ -652,41 +652,6 @@
       "review_status": "published"
     },
     {
-      "id": "articles/2026/06:bursada-korkunc-cinayet-68-yasindaki-kadin-esini-parcalara-ayirdi_20260610",
-      "slug": "bursada-korkunc-cinayet-68-yasindaki-kadin-esini-parcalara-ayirdi_20260610",
-      "title": "Bursa'da vahşet: Eşini öldürüp 15 parçaya ayırdı",
-      "summary": "Bursa'nın Osmangazi ilçesinde 68 yaşındaki Adalet Uzunoğlu, eşi Ali Fuat Uzunoğlu'nu öldürerek cesedini 15 parçaya ayırdı. Kayıp ihbarında bulunan kadının, cinayeti işledikten sonra cesedi çöp konteynerlerine attığı ortaya çıktı.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "10.06.2026",
-      "date_iso": "2026-06-10",
-      "url": "/articles/2026/06/bursada-korkunc-cinayet-68-yasindaki-kadin-esini-parcalara-ayirdi_20260610/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/bursada-korkunc-cinayet-68-yasindaki-kadin-esini-parcalara-ayirdi_20260610/",
-      "detail_json_url": "/data/details/articles/2026/06/bursada-korkunc-cinayet-68-yasindaki-kadin-esini-parcalara-ayirdi_20260610.json",
-      "image_url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2936d8ef07a3815584d851.jpg",
-      "image_alt": "Bursa'da cinayetin işlendiği sokakta polis ekipleri inceleme yapıyor.",
-      "image": {
-        "url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2936d8ef07a3815584d851.jpg",
-        "alt": "Bursa'da cinayetin işlendiği sokakta polis ekipleri inceleme yapıyor."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/gundem/68-yasindaki-kadin-esini-oldurdu-15-parcaya-ayirdi-iddianamede-korkunc-detaylar-7602884",
-      "tags": [
-        "Bursa",
-        "cinayet",
-        "Osmangazi",
-        "adli olay"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
       "id": "articles/2026/06:bakan-tekin-acikladi-12-haziran-cuma-gunu-okullar-tatil_20260610",
       "slug": "bakan-tekin-acikladi-12-haziran-cuma-gunu-okullar-tatil_20260610",
       "title": "Bakan Tekin duyurdu: LGS öncesi 12 Haziran Cuma günü okullar tatil",
@@ -718,6 +683,42 @@
         "Milli Eğitim Bakanlığı",
         "LGS sınavı",
         "okullar tatil"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:atlas-caglayan-davasinda-ilk-durusma-sanik-icin-hapis-talebi_20260610",
+      "slug": "atlas-caglayan-davasinda-ilk-durusma-sanik-icin-hapis-talebi_20260610",
+      "title": "Atlas Çağlayan davasında ilk duruşma: Sanık için 21 yıl 7 ay hapis talebi",
+      "summary": "Bakırköy 2’nci Çocuk Ağır Ceza Mahkemesi’nde görülen Atlas Çağlayan cinayeti davasının ilk duruşmasında sanık E.Ç. savunmasını yaptı. Savcı, sanık için 21 yıl 7 ay 15 güne kadar hapis cezası talep etti.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/atlas-caglayan-davasinda-ilk-durusma-sanik-icin-hapis-talebi_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/atlas-caglayan-davasinda-ilk-durusma-sanik-icin-hapis-talebi_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/atlas-caglayan-davasinda-ilk-durusma-sanik-icin-hapis-talebi_20260610.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/atlas-caglayan-davasinda-ilk-durusma-sanik-icin-hapis-talebi_20260610.webp",
+      "image_alt": "Bakırköy Adliyesi binası",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/atlas-caglayan-davasinda-ilk-durusma-sanik-icin-hapis-talebi_20260610.webp",
+        "alt": "Bakırköy Adliyesi binası"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/atlasin-katili-hakim-karsisinda-43199551",
+      "tags": [
+        "Atlas Çağlayan",
+        "Bakırköy Adliyesi",
+        "Gülhan Ünlü",
+        "Dava",
+        "Mahkeme"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1366,41 +1367,6 @@
         "Grup Toplantısı"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:bursada-korkunc-cinayet-68-yasindaki-kadin-esini-parcalara-ayirdi_20260610",
-      "slug": "bursada-korkunc-cinayet-68-yasindaki-kadin-esini-parcalara-ayirdi_20260610",
-      "title": "Bursa'da vahşet: Eşini öldürüp 15 parçaya ayırdı",
-      "summary": "Bursa'nın Osmangazi ilçesinde 68 yaşındaki Adalet Uzunoğlu, eşi Ali Fuat Uzunoğlu'nu öldürerek cesedini 15 parçaya ayırdı. Kayıp ihbarında bulunan kadının, cinayeti işledikten sonra cesedi çöp konteynerlerine attığı ortaya çıktı.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "10.06.2026",
-      "date_iso": "2026-06-10",
-      "url": "/articles/2026/06/bursada-korkunc-cinayet-68-yasindaki-kadin-esini-parcalara-ayirdi_20260610/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/bursada-korkunc-cinayet-68-yasindaki-kadin-esini-parcalara-ayirdi_20260610/",
-      "detail_json_url": "/data/details/articles/2026/06/bursada-korkunc-cinayet-68-yasindaki-kadin-esini-parcalara-ayirdi_20260610.json",
-      "image_url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2936d8ef07a3815584d851.jpg",
-      "image_alt": "Bursa'da cinayetin işlendiği sokakta polis ekipleri inceleme yapıyor.",
-      "image": {
-        "url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2936d8ef07a3815584d851.jpg",
-        "alt": "Bursa'da cinayetin işlendiği sokakta polis ekipleri inceleme yapıyor."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/gundem/68-yasindaki-kadin-esini-oldurdu-15-parcaya-ayirdi-iddianamede-korkunc-detaylar-7602884",
-      "tags": [
-        "Bursa",
-        "cinayet",
-        "Osmangazi",
-        "adli olay"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -2868,6 +2834,42 @@
         "Osmaniye",
         "Deprem Davası",
         "Kadir Kara"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:van-kadin-sagligi-tarama-egitim-projesi_20260608",
+      "slug": "van-kadin-sagligi-tarama-egitim-projesi_20260608",
+      "title": "Van'da Kadın Sağlığına Yönelik Kapsamlı Ücretsiz Tarama ve Eğitim Projesi",
+      "summary": "Türkiye’nin köklü jinekoloji kurumlarından TAJEV, yaklaşık 20 yıldır sürdürdüğü “Sadece Benim İçin” projesini Van’a taşıdı. 4 Haziran’da gerçekleştirilen etkinlikte kadınlara ücretsiz kanser taramaları yapılırken, uzman hekimler tarafından halkı bilgilendir...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "08.06.2026",
+      "date_iso": "2026-06-08",
+      "url": "/articles/2026/06/van-kadin-sagligi-tarama-egitim-projesi_20260608/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/van-kadin-sagligi-tarama-egitim-projesi_20260608/",
+      "detail_json_url": "/data/details/articles/2026/06/van-kadin-sagligi-tarama-egitim-projesi_20260608.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/van-kadin-sagligi-tarama-egitim-projesi_20260608.webp",
+      "image_alt": "Van'da düzenlenen kadın sağlığı seminerinden bir görünüm.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/van-kadin-sagligi-tarama-egitim-projesi_20260608.webp",
+        "alt": "Van'da düzenlenen kadın sağlığı seminerinden bir görünüm."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/sosyal-medyadaki-tavsiyeler-uzerinden-tedavi-uygulanmaz-3890201",
+      "tags": [
+        "Van",
+        "TAJEV",
+        "Kadın Sağlığı",
+        "Kanser Taraması",
+        "Sağlık"
       ],
       "quality_score": 86,
       "review_status": "published"

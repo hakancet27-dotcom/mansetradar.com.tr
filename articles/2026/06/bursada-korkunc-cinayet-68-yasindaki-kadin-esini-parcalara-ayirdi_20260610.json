@@ -66,9 +66,10 @@
     "Metin hedefin altinda (246 kelime)."
   ],
   "quality_word_count": 246,
-  "indexed_on_home": true,
-  "publication_changed_at": "2026-06-10T19:55:13+00:00",
+  "indexed_on_home": false,
+  "publication_changed_at": "2026-06-10T20:18:09+00:00",
   "publication_changed_by": "newsroom_delete_flow",
-  "manual_noindex": false,
-  "publication_lifecycle": "published"
+  "manual_noindex": true,
+  "publication_lifecycle": "archived",
+  "archived_at": "2026-06-10T20:18:09+00:00"
 }
