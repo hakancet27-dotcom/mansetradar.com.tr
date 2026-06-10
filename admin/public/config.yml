@@ -91,7 +91,7 @@ collections:
   - name: published_tr
     label: "Yayindaki Haberler / Turkce (Bakim)"
     label_singular: "Yayindaki Turkce Haber"
-    folder: articles
+    folder: data/cms-published/articles
     create: false
     delete: false
     extension: json
@@ -119,17 +119,27 @@ collections:
         hint: "Havuzdaki gorsellerden birini sec; secim alttaki gorsel alanina otomatik yazilir."
       - { label: Gorsel URL / Yukleme Yolu, name: image_url, widget: image, required: false, hint: "Gorselsiz bir habere en kolay buradan dosya yukleyebilirsin. Mevcut path de burada tutulur." }
       - { label: Gorsel Alt Metni, name: image_alt, widget: string, required: false, hint: "Gorseli kisa, acik ve insani bir dille tarif et." }
+      - label: Ek Gorseller
+        name: image_gallery
+        widget: list
+        required: false
+        fields:
+          - { label: Gorsel, name: image_url, widget: image, required: true }
+          - { label: Alt Metin, name: image_alt, widget: string, required: false }
+          - { label: Aciklama, name: caption, widget: string, required: false }
       - { label: Meta Title, name: meta_title, widget: string, required: false }
       - { label: Meta Description, name: meta_description, widget: text, required: false }
       - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, widget: string } }
       - { label: Indexed On Home, name: indexed_on_home, widget: boolean, required: false, readonly: true }
+      - { label: Kaynak JSON, name: source_json_path, widget: string, required: false, readonly: true }
+      - { label: Canli URL, name: public_url, widget: string, required: false, readonly: true }
       - { label: Yayin Asamasi, name: publication_lifecycle, widget: string, required: false, readonly: true, hint: "Silme zinciri icin ustteki 0 / 0b / 0c / 0d koleksiyonlarini kullan. Delete her adimda haberi bir sonraki asamaya tasir." }
       - { label: Yayin Notu, name: publication_note, widget: text, required: false, readonly: true }
 
   - name: published_en
     label: "Published News / English (Maintenance)"
     label_singular: "Published English News"
-    folder: news/articles
+    folder: data/cms-published/news/articles
     create: false
     delete: false
     extension: json
@@ -141,7 +151,7 @@ collections:
   - name: published_de
     label: "Veroeffentlichte Nachrichten / Deutsch (Pflege)"
     label_singular: "Veroeffentlichte Nachricht"
-    folder: nachrichten/artikel
+    folder: data/cms-published/nachrichten/artikel
     create: false
     delete: false
     extension: json
