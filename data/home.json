@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-10T00:00:00+00:00",
-    "article_count": 436,
+    "article_count": 438,
     "schema_version": 2
   },
   "hero": [
@@ -258,6 +258,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/06:istanbul-ayazagada-kene-istilasi-uzmanlardan-kritik-uyari_20260610",
+      "slug": "istanbul-ayazagada-kene-istilasi-uzmanlardan-kritik-uyari_20260610",
+      "title": "İstanbul Ayazağa’da Kene İstilası: Uzmanlardan Kritik Uyarı",
+      "summary": "İstanbul Sarıyer’in Ayazağa mahallesinde akşam saatlerinde ortaya çıkan ve sayıları binleri bulan keneler, mahalle sakinleri arasında büyük korkuya yol açtı. Bölge halkı, bir hafta içinde 500’den fazla kene öldürdüklerini belirtirken, uzmanlar kene popülasy...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/istanbul-ayazagada-kene-istilasi-uzmanlardan-kritik-uyari_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/istanbul-ayazagada-kene-istilasi-uzmanlardan-kritik-uyari_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/istanbul-ayazagada-kene-istilasi-uzmanlardan-kritik-uyari_20260610.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a27f96cbd0c561d1de24733.jpg",
+      "image_alt": "İstanbul'da kene artışı nedeniyle bölge halkı tedirgin.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a27f96cbd0c561d1de24733.jpg",
+        "alt": "İstanbul'da kene artışı nedeniyle bölge halkı tedirgin."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/istanbulda-panik-buyuyor-neden-bu-kadar-cogaldilar-ve-hangi-riskleri-tasiyorlar-kene-populasyonunda-daha-da-artis-gorecegiz-43199027",
+      "tags": [
+        "İstanbul",
+        "Ayazağa",
+        "kene",
+        "sağlık",
+        "Yavuz Turan"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/06:ibrahim-haciosmanoglu-a-milli-takim-dunya-kupasi-hazirliklari_20260610",
       "slug": "ibrahim-haciosmanoglu-a-milli-takim-dunya-kupasi-hazirliklari_20260610",
       "title": "İbrahim Hacıosmanoğlu'ndan Milli Takım'a ziyaret: Hedefimiz belli",
@@ -361,6 +397,42 @@
         "Johan Cruyff",
         "Futbol",
         "2026 Dünya Kupası"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:bursa-vahset-adalet-uzunoglu-cinayet_20260610",
+      "slug": "bursa-vahset-adalet-uzunoglu-cinayet_20260610",
+      "title": "Bursa'da vahşi cinayet: Eşini 15 parçaya ayırıp çöpe atmış",
+      "summary": "Bursa'nın Osmangazi ilçesinde 28 Ocak tarihinde meydana gelen olayda, Adalet Uzunoğlu isimli kadın, eşi Ali Fuat Uzunoğlu'nu öldürerek cesedini 15 parçaya ayırdı ve çöp konteynerlerine attı. Olayla ilgili yürütülen soruşturmada kan donduran detaylara ulaşıldı.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/bursa-vahset-adalet-uzunoglu-cinayet_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/bursa-vahset-adalet-uzunoglu-cinayet_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/bursa-vahset-adalet-uzunoglu-cinayet_20260610.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2932430e7043a30c9da17f.jpg",
+      "image_alt": "Bursa'da cinayet soruşturması yürütülen sokak.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2932430e7043a30c9da17f.jpg",
+        "alt": "Bursa'da cinayet soruşturması yürütülen sokak."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/yasli-kadin-esini-15-parcaya-ayirip-cope-atmisti-vahsette-cok-carpici-detaylar-ortaya-cikti-kan-sicramasin-diye-etrafa-poset-sermis-43200033",
+      "tags": [
+        "Bursa",
+        "cinayet",
+        "Adalet Uzunoğlu",
+        "Osmangazi",
+        "asayiş"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -651,77 +723,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609",
-      "slug": "turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609",
-      "title": "Türkiye Müze Ziyaretçi Sayısında Avrupa'yı Geride Bıraktı",
-      "summary": "Türkiye'de müze ve ören yerlerini ziyaret edenlerin sayısı 2024 yılında bir önceki yıla göre yüzde 12,3 artarak 62,6 milyona ulaştı. Bu büyüme oranıyla Türkiye, Avrupa'nın önde gelen kültür destinasyonlarını geride bırakarak dikkat çekici bir başarıya imza...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "09.06.2026",
-      "date_iso": "2026-06-09",
-      "url": "/articles/2026/06/turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609/",
-      "detail_json_url": "/data/details/articles/2026/06/turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609.webp",
-      "image_alt": "Türkiye'deki müze ve ören yerlerini ziyaret eden turistler.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609.webp",
-        "alt": "Türkiye'deki müze ve ören yerlerini ziyaret eden turistler."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/gundem/turkiye-muzecilikte-avrupanin-onune-gecti-7602121",
-      "tags": [
-        "müzecilik",
-        "turizm",
-        "kültür",
-        "istatistik"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609",
-      "slug": "trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609",
-      "title": "Trump ve Netanyahu Arasında 'İran' Krizi: Washington'da Yeni Yol Ayrımı",
-      "summary": "İran'ın Lübnan'daki saldırılara karşılık İsrail'e yönelik başlattığı 24 saatlik savaş, ABD Başkanı Donald Trump ile İsrail Başbakanı Binyamin Netanyahu arasındaki stratejik görüş ayrılıklarını derinleştirdi. Al Jazeera'nin analizine göre, Washington yönetim...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "09.06.2026",
-      "date_iso": "2026-06-09",
-      "url": "/articles/2026/06/trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609/",
-      "detail_json_url": "/data/details/articles/2026/06/trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609.webp",
-      "image_alt": "ABD Başkanı Donald Trump ve İsrail Başbakanı Binyamin Netanyahu bir görüşme sırasında.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609.webp",
-        "alt": "ABD Başkanı Donald Trump ve İsrail Başbakanı Binyamin Netanyahu bir görüşme sırasında."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/dunya/oyun-bitti-trumpin-tek-caresi-kaldi-uzmanlar-hurriyete-degerlendirdi-en-buyuk-suc-ortagi-abd-43198801",
-      "tags": [
-        "Donald Trump",
-        "Binyamin Netanyahu",
-        "İran",
-        "İsrail",
-        "ABD"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -976,6 +977,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/06:istanbul-ayazagada-kene-istilasi-uzmanlardan-kritik-uyari_20260610",
+      "slug": "istanbul-ayazagada-kene-istilasi-uzmanlardan-kritik-uyari_20260610",
+      "title": "İstanbul Ayazağa’da Kene İstilası: Uzmanlardan Kritik Uyarı",
+      "summary": "İstanbul Sarıyer’in Ayazağa mahallesinde akşam saatlerinde ortaya çıkan ve sayıları binleri bulan keneler, mahalle sakinleri arasında büyük korkuya yol açtı. Bölge halkı, bir hafta içinde 500’den fazla kene öldürdüklerini belirtirken, uzmanlar kene popülasy...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/istanbul-ayazagada-kene-istilasi-uzmanlardan-kritik-uyari_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/istanbul-ayazagada-kene-istilasi-uzmanlardan-kritik-uyari_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/istanbul-ayazagada-kene-istilasi-uzmanlardan-kritik-uyari_20260610.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a27f96cbd0c561d1de24733.jpg",
+      "image_alt": "İstanbul'da kene artışı nedeniyle bölge halkı tedirgin.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a27f96cbd0c561d1de24733.jpg",
+        "alt": "İstanbul'da kene artışı nedeniyle bölge halkı tedirgin."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/istanbulda-panik-buyuyor-neden-bu-kadar-cogaldilar-ve-hangi-riskleri-tasiyorlar-kene-populasyonunda-daha-da-artis-gorecegiz-43199027",
+      "tags": [
+        "İstanbul",
+        "Ayazağa",
+        "kene",
+        "sağlık",
+        "Yavuz Turan"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/06:ibrahim-haciosmanoglu-a-milli-takim-dunya-kupasi-hazirliklari_20260610",
       "slug": "ibrahim-haciosmanoglu-a-milli-takim-dunya-kupasi-hazirliklari_20260610",
       "title": "İbrahim Hacıosmanoğlu'ndan Milli Takım'a ziyaret: Hedefimiz belli",
@@ -1079,6 +1116,42 @@
         "Johan Cruyff",
         "Futbol",
         "2026 Dünya Kupası"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:bursa-vahset-adalet-uzunoglu-cinayet_20260610",
+      "slug": "bursa-vahset-adalet-uzunoglu-cinayet_20260610",
+      "title": "Bursa'da vahşi cinayet: Eşini 15 parçaya ayırıp çöpe atmış",
+      "summary": "Bursa'nın Osmangazi ilçesinde 28 Ocak tarihinde meydana gelen olayda, Adalet Uzunoğlu isimli kadın, eşi Ali Fuat Uzunoğlu'nu öldürerek cesedini 15 parçaya ayırdı ve çöp konteynerlerine attı. Olayla ilgili yürütülen soruşturmada kan donduran detaylara ulaşıldı.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/bursa-vahset-adalet-uzunoglu-cinayet_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/bursa-vahset-adalet-uzunoglu-cinayet_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/bursa-vahset-adalet-uzunoglu-cinayet_20260610.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2932430e7043a30c9da17f.jpg",
+      "image_alt": "Bursa'da cinayet soruşturması yürütülen sokak.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2932430e7043a30c9da17f.jpg",
+        "alt": "Bursa'da cinayet soruşturması yürütülen sokak."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/yasli-kadin-esini-15-parcaya-ayirip-cope-atmisti-vahsette-cok-carpici-detaylar-ortaya-cikti-kan-sicramasin-diye-etrafa-poset-sermis-43200033",
+      "tags": [
+        "Bursa",
+        "cinayet",
+        "Adalet Uzunoğlu",
+        "Osmangazi",
+        "asayiş"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -2799,77 +2872,6 @@
         "kırım kongo kanamalı ateşi",
         "sağlık",
         "kene ısırığı"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:izmirde-restoranda-korkunc-kaza-kizgin-yag-2-yasindaki-bebegi-yakti_20260608",
-      "slug": "izmirde-restoranda-korkunc-kaza-kizgin-yag-2-yasindaki-bebegi-yakti_20260608",
-      "title": "İzmir'de restoranda korkunç kaza: Kızgın yağ 2 yaşındaki bebeği yaktı",
-      "summary": "İzmir'de bir restoranda İskender döner servisi yapıldığı sırada garsonun elindeki tavanın sapı koptu. İçerisinde kaynar tereyağı bulunan tavanın devrilmesi sonucu 2 yaşındaki Mercan bebek ağır yaralandı.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "08.06.2026",
-      "date_iso": "2026-06-08",
-      "url": "/articles/2026/06/izmirde-restoranda-korkunc-kaza-kizgin-yag-2-yasindaki-bebegi-yakti_20260608/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/izmirde-restoranda-korkunc-kaza-kizgin-yag-2-yasindaki-bebegi-yakti_20260608/",
-      "detail_json_url": "/data/details/articles/2026/06/izmirde-restoranda-korkunc-kaza-kizgin-yag-2-yasindaki-bebegi-yakti_20260608.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/izmirde-restoranda-korkunc-kaza-kizgin-yag-2-yasindaki-bebegi-yakti_20260608.webp",
-      "image_alt": "İzmir'de restoranda yaşanan kaza sonrası inceleme.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/izmirde-restoranda-korkunc-kaza-kizgin-yag-2-yasindaki-bebegi-yakti_20260608.webp",
-        "alt": "İzmir'de restoranda yaşanan kaza sonrası inceleme."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/izmirde-korkunc-ihmal-unlu-donercideki-tereyagi-sovu-faciaya-dondu-2-yasindaki-bebegi-yakti-43197959",
-      "tags": [
-        "İzmir",
-        "restoran",
-        "kaza",
-        "yanık",
-        "ihmal"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:israil-tvsinde-canli-yayinda-turkiye-rahatsizligi_20260608",
-      "slug": "israil-tvsinde-canli-yayinda-turkiye-rahatsizligi_20260608",
-      "title": "İsrail TV'sinde Türkiye tartışması: 'Kendimizle çeliştik'",
-      "summary": "İsrail'de Kanal 13 televizyonunda yayımlanan bir programda, Gazze'ye ulaşan Türk insani yardım konvoyları tartışma konusu oldu. İsrailli yetkililer, bu sevkiyatların daha önce belirlenen 'kırmızı çizgilerle' çeliştiğini belirterek tepki gösterdi.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "08.06.2026",
-      "date_iso": "2026-06-08",
-      "url": "/articles/2026/06/israil-tvsinde-canli-yayinda-turkiye-rahatsizligi_20260608/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/israil-tvsinde-canli-yayinda-turkiye-rahatsizligi_20260608/",
-      "detail_json_url": "/data/details/articles/2026/06/israil-tvsinde-canli-yayinda-turkiye-rahatsizligi_20260608.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/israil-tvsinde-canli-yayinda-turkiye-rahatsizligi_20260608.webp",
-      "image_alt": "İsrail Kanal 13 televizyonunda Gazze yardımlarının tartışıldığı program.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/israil-tvsinde-canli-yayinda-turkiye-rahatsizligi_20260608.webp",
-        "alt": "İsrail Kanal 13 televizyonunda Gazze yardımlarının tartışıldığı program."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-israil-tvsinde-canli-yayinda-turkiye-rahatsizligi-kuplere-bindiler-kendimizle-celistik-7601549",
-      "tags": [
-        "İsrail",
-        "Türkiye",
-        "Gazze",
-        "İnsani Yardım"
       ],
       "quality_score": 86,
       "review_status": "published"
