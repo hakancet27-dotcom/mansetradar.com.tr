@@ -122,10 +122,10 @@ jobs:
                   '  <meta name="robots" content="noindex,follow">',
                   f'  <link rel="canonical" href="{escaped}">',
                   f'  <meta http-equiv="refresh" content="0; url={escaped}">',
-                  '  <title>Yönlendiriliyor...</title>',
+                  '  <title>Yonlendiriliyor...</title>',
                   '</head>',
                   '<body>',
-                  f'  <p>Haber yeni adresine taşındı: <a href="{escaped}">{escaped}</a></p>',
+                  f'  <p>Haber yeni adresine tasindi: <a href="{escaped}">{escaped}</a></p>',
                   '</body>',
                   '</html>',
                   '',
@@ -217,7 +217,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A articles newsroom/reports/root-articles-organize.md
+          git add -A articles
           git status --short
           if git diff --cached --quiet; then
             echo "Commit edilecek staged degisiklik yok."
