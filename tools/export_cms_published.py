@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 import json
-import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -56,42 +55,23 @@ def url_prefix(source_name: str, source_root: Path, path: Path, data: dict) -> s
     return f'{source_name}/{parent.as_posix()}'.strip('/')
 
 
-def parse_dt(raw: str) -> datetime | None:
-    value = str(raw or '').strip()
-    if not value:
-        return None
-    normalized = value.replace('Z', '+00:00')
-    try:
-        dt = datetime.fromisoformat(normalized)
-        return dt.astimezone(timezone.utc) if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
-    except ValueError:
-        pass
-    for fmt in ('%d.%m.%Y %H:%M', '%d.%m.%Y', '%Y-%m-%d %H:%M', '%Y-%m-%d'):
+def extract_time(data: dict) -> str:
+    explicit = str(data.get('time') or '').strip()
+    if explicit:
+        return explicit
+    for key in ('source_published_at', 'published_at', 'created_at', 'publication_changed_at'):
+        raw = str(data.get(key) or '').strip()
+        if not raw:
+            continue
+        normalized = raw.replace('Z', '+00:00')
         try:
-            dt = datetime.strptime(value, fmt)
-            return dt.replace(tzinfo=timezone.utc)
+            dt = datetime.fromisoformat(normalized)
         except ValueError:
             continue
-    return None
-
-
-def source_datetime(data: dict, path: Path) -> datetime:
-    for key in ('source_published_at', 'published_at', 'created_at', 'publication_changed_at'):
-        dt = parse_dt(str(data.get(key) or ''))
-        if dt:
-            return dt
-    date_text = str(data.get('date') or '').strip()
-    time_text = str(data.get('time') or '').strip()
-    dt = parse_dt(f'{date_text} {time_text}'.strip()) or parse_dt(date_text)
-    if dt:
-        return dt
-    match = re.search(r'_(20\d{6})(?:\D|$)', path.stem)
-    if match:
-        try:
-            return datetime.strptime(match.group(1), '%Y%m%d').replace(tzinfo=timezone.utc)
-        except ValueError:
-            pass
-    return datetime.now(timezone.utc)
+        if dt.tzinfo is not None:
+            dt = dt.astimezone(timezone.utc)
+        return dt.strftime('%H:%M')
+    return ''
 
 
 def write_json(path: Path, data: dict) -> bool:
@@ -129,12 +109,9 @@ def main() -> None:
                 continue
             slug = str(data.get('slug') or path.stem).strip() or path.stem
             prefix = url_prefix(source_name, source_root, path, data)
-            dt = source_datetime(data, path)
             flat = dict(data)
             flat['slug'] = slug
-            flat['published_at'] = dt.isoformat().replace('+00:00', 'Z')
-            flat['sort_date'] = dt.strftime('%Y-%m-%dT%H:%M:%SZ')
-            flat['time'] = dt.strftime('%H:%M')
+            flat['time'] = extract_time(data)
             flat['url_prefix'] = prefix
             flat['public_url'] = f'/{prefix}/{slug}/'
             flat['source_json_path'] = path.as_posix()
