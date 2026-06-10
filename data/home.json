@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-10T00:00:00+00:00",
-    "article_count": 441,
+    "article_count": 443,
     "schema_version": 2
   },
   "hero": [
@@ -291,6 +291,42 @@
         "Nissan"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:mide-agrisi-sikayetiyle-gitti-midesinden-bocek-cikti_20260610",
+      "slug": "mide-agrisi-sikayetiyle-gitti-midesinden-bocek-cikti_20260610",
+      "title": "Mide ağrısıyla hastaneye gitmişti: Midesinden canlı böcek çıktı",
+      "summary": "Aydın'ın Efeler ilçesinde yaşayan Sabri Kocaçoban, şiddetli mide ağrısı şikayetiyle başvurduğu hastanede yaşadığı sıra dışı olayla tıp dünyasını şaşırttı. Yapılan tetkiklerde Kocaçoban'ın midesine giren bir böceğin mide duvarına yapışarak zarar verdiği tesp...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/mide-agrisi-sikayetiyle-gitti-midesinden-bocek-cikti_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/mide-agrisi-sikayetiyle-gitti-midesinden-bocek-cikti_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/mide-agrisi-sikayetiyle-gitti-midesinden-bocek-cikti_20260610.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2920795a781208840b26ed.jpg",
+      "image_alt": "Hastanede tedavi gören bir hasta ve doktor görseli",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2920795a781208840b26ed.jpg",
+        "alt": "Hastanede tedavi gören bir hasta ve doktor görseli"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/mide-agrisi-sikayetiyle-doktora-gitti-hayatinin-sokunu-yasadi-sebebi-bocek-cikti-aklimiza-gelmeyen-sey-basimiza-geldi-43199903",
+      "tags": [
+        "Aydın",
+        "sağlık",
+        "mide ağrısı",
+        "nadir vaka",
+        "Atatürk Devlet Hastanesi"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -685,42 +721,6 @@
         "Bıçaklı saldırı",
         "Asayiş",
         "Platonik aşk"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:abd-chagos-adalari-stratejik-plan_20260610",
-      "slug": "abd-chagos-adalari-stratejik-plan_20260610",
-      "title": "ABD'den Chagos Adaları için yeni strateji: Diego Garcia'nın geleceği masada",
-      "summary": "Beyaz Saray, Hint Okyanusu'ndaki stratejik öneme sahip Chagos Adaları ve üzerindeki Diego Garcia üssünün geleceği için İngiltere'den bağımsız yeni senaryolar hazırlıyor. ABD yönetimi, bölgedeki askeri varlığını güvence altına almak amacıyla doğrudan müzaker...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "10.06.2026",
-      "date_iso": "2026-06-10",
-      "url": "/articles/2026/06/abd-chagos-adalari-stratejik-plan_20260610/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/abd-chagos-adalari-stratejik-plan_20260610/",
-      "detail_json_url": "/data/details/articles/2026/06/abd-chagos-adalari-stratejik-plan_20260610.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/abd-chagos-adalari-stratejik-plan_20260610.webp",
-      "image_alt": "Hint Okyanusu'ndaki Diego Garcia askeri üssünün havadan görünümü.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/abd-chagos-adalari-stratejik-plan_20260610.webp",
-        "alt": "Hint Okyanusu'ndaki Diego Garcia askeri üssünün havadan görünümü."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/dunya/iran-golgesinde-buyuk-hesaplasma-stratejik-us-alarm-veriyor-bu-tam-bir-derin-devlet-mantigi-43198770",
-      "tags": [
-        "ABD",
-        "Chagos Adaları",
-        "Diego Garcia",
-        "İngiltere",
-        "Hint Okyanusu"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1014,6 +1014,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/06:mide-agrisi-sikayetiyle-gitti-midesinden-bocek-cikti_20260610",
+      "slug": "mide-agrisi-sikayetiyle-gitti-midesinden-bocek-cikti_20260610",
+      "title": "Mide ağrısıyla hastaneye gitmişti: Midesinden canlı böcek çıktı",
+      "summary": "Aydın'ın Efeler ilçesinde yaşayan Sabri Kocaçoban, şiddetli mide ağrısı şikayetiyle başvurduğu hastanede yaşadığı sıra dışı olayla tıp dünyasını şaşırttı. Yapılan tetkiklerde Kocaçoban'ın midesine giren bir böceğin mide duvarına yapışarak zarar verdiği tesp...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/mide-agrisi-sikayetiyle-gitti-midesinden-bocek-cikti_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/mide-agrisi-sikayetiyle-gitti-midesinden-bocek-cikti_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/mide-agrisi-sikayetiyle-gitti-midesinden-bocek-cikti_20260610.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2920795a781208840b26ed.jpg",
+      "image_alt": "Hastanede tedavi gören bir hasta ve doktor görseli",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2920795a781208840b26ed.jpg",
+        "alt": "Hastanede tedavi gören bir hasta ve doktor görseli"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/mide-agrisi-sikayetiyle-doktora-gitti-hayatinin-sokunu-yasadi-sebebi-bocek-cikti-aklimiza-gelmeyen-sey-basimiza-geldi-43199903",
+      "tags": [
+        "Aydın",
+        "sağlık",
+        "mide ağrısı",
+        "nadir vaka",
+        "Atatürk Devlet Hastanesi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/06:kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610",
       "slug": "kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610",
       "title": "Kasko sigortasında dikkat edilmesi gereken kritik detaylar",
@@ -1405,6 +1441,41 @@
         "Bıçaklı saldırı",
         "Asayiş",
         "Platonik aşk"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:abd-et-yiyen-parazit-yeni-dunya-vida-kurdu-alarm_20260610",
+      "slug": "abd-et-yiyen-parazit-yeni-dunya-vida-kurdu-alarm_20260610",
+      "title": "ABD’de 'et yiyen parazit' alarmı: Yeni vaka tespit edildi",
+      "summary": "ABD’de “et yiyen parazit” olarak bilinen Yeni Dünya vida kurdu sineği kaynaklı vaka sayısı 5’e yükseldi. Teksas’ın ardından New Mexico’da da ilk vakanın doğrulanmasıyla birlikte bölgedeki endişe arttı.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/abd-et-yiyen-parazit-yeni-dunya-vida-kurdu-alarm_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/abd-et-yiyen-parazit-yeni-dunya-vida-kurdu-alarm_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/abd-et-yiyen-parazit-yeni-dunya-vida-kurdu-alarm_20260610.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a27d4d909712aa7c8d140d7.jpg",
+      "image_alt": "Yeni Dünya vida kurdu sineği görseli",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a27d4d909712aa7c8d140d7.jpg",
+        "alt": "Yeni Dünya vida kurdu sineği görseli"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/galeri-et-yiyen-parazit-alarmi-buyuyor-sinekten-yayilan-hastaliktan-nasil-korunulur-43198738",
+      "tags": [
+        "ABD",
+        "Yeni Dünya vida kurdu",
+        "sağlık",
+        "parazit"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -2805,77 +2876,6 @@
         "Sinema"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:openai-chatgpt-lockdown-mode-ozelligi_20260608",
-      "slug": "openai-chatgpt-lockdown-mode-ozelligi_20260608",
-      "title": "OpenAI, ChatGPT için Veri Güvenliğini Artıran 'Lockdown Mode' Özelliğini Tanıttı",
-      "summary": "OpenAI, yapay zeka ekosistemindeki veri güvenliği endişelerini gidermek amacıyla ChatGPT için yeni bir güvenlik katmanı olan 'Lockdown Mode' özelliğini resmi olarak duyurdu. Bu yeni mod, özellikle sistemin güvenlik açıklarını hedef alan prompt injection sal...",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "08.06.2026",
-      "date_iso": "2026-06-08",
-      "url": "/articles/2026/06/openai-chatgpt-lockdown-mode-ozelligi_20260608/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/openai-chatgpt-lockdown-mode-ozelligi_20260608/",
-      "detail_json_url": "/data/details/articles/2026/06/openai-chatgpt-lockdown-mode-ozelligi_20260608.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/pexels-cottonbro-studio-5473956.jpg",
-      "image_alt": "OpenAI ChatGPT Lockdown Mode güvenlik özelliği görseli",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/pexels-cottonbro-studio-5473956.jpg",
-        "alt": "OpenAI ChatGPT Lockdown Mode güvenlik özelliği görseli"
-      },
-      "source_name": "Webrazzi",
-      "source_url": "https://webrazzi.com/2026/06/08/openai-chatgpt-icin-veri-guvenligini-artiran-lockdown-mode-ozelligini-tanitti/",
-      "tags": [
-        "OpenAI",
-        "ChatGPT",
-        "Lockdown Mode",
-        "Siber Güvenlik",
-        "Yapay Zeka"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "nachrichten/artikel:nahost-konflikt-iran-israel-eskallation_20260608",
-      "slug": "nahost-konflikt-iran-israel-eskallation_20260608",
-      "title": "Nahost-Konflikt: Eskalation zwischen Iran und Israel",
-      "summary": "Nach einer zweimonatigen Waffenruhe ist der Konflikt zwischen dem Iran und Israel erneut eskaliert. Teheran feuerte mindestens 20 ballistische Raketen auf Israel ab, nachdem Israel zuvor Ziele im Libanon und militärische Anlagen im Iran bombardiert hatte. U...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Germany",
-      "language": "de",
-      "language_label": "German",
-      "section": "nachrichten/artikel",
-      "section_name": "Deutschland Nachrichten",
-      "url_prefix": "nachrichten/artikel",
-      "date": "08.06.2026",
-      "date_iso": "2026-06-08",
-      "url": "/nachrichten/artikel/nahost-konflikt-iran-israel-eskallation_20260608/",
-      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/nahost-konflikt-iran-israel-eskallation_20260608/",
-      "detail_json_url": "/data/details/nachrichten/artikel/nahost-konflikt-iran-israel-eskallation_20260608.json",
-      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/images/nahost-konflikt-iran-israel-eskallation_20260608.webp",
-      "image_alt": "Symbolbild zur Eskalation im Nahost-Konflikt",
-      "image": {
-        "url": "https://mansetradar.com.tr/nachrichten/artikel/images/nahost-konflikt-iran-israel-eskallation_20260608.webp",
-        "alt": "Symbolbild zur Eskalation im Nahost-Konflikt"
-      },
-      "source_name": "DER SPIEGEL - Schlagzeilen",
-      "source_url": "https://www.spiegel.de/politik/deutschland/news-des-tages-irankrieg-stromausfall-in-reutlingen-bildungspolitik-a-f9290e82-14a1-4e64-9c6c-bfcebbc5070e#ref=rss",
-      "tags": [
-        "Nahostkonflikt",
-        "Iran",
-        "Israel",
-        "Donald Trump"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]

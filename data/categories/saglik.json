@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-10T00:00:00+00:00",
-    "article_count": 441,
+    "article_count": 443,
     "schema_version": 2,
     "category_slug": "saglik"
   },
@@ -45,6 +45,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/06:mide-agrisi-sikayetiyle-gitti-midesinden-bocek-cikti_20260610",
+      "slug": "mide-agrisi-sikayetiyle-gitti-midesinden-bocek-cikti_20260610",
+      "title": "Mide ağrısıyla hastaneye gitmişti: Midesinden canlı böcek çıktı",
+      "summary": "Aydın'ın Efeler ilçesinde yaşayan Sabri Kocaçoban, şiddetli mide ağrısı şikayetiyle başvurduğu hastanede yaşadığı sıra dışı olayla tıp dünyasını şaşırttı. Yapılan tetkiklerde Kocaçoban'ın midesine giren bir böceğin mide duvarına yapışarak zarar verdiği tesp...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/mide-agrisi-sikayetiyle-gitti-midesinden-bocek-cikti_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/mide-agrisi-sikayetiyle-gitti-midesinden-bocek-cikti_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/mide-agrisi-sikayetiyle-gitti-midesinden-bocek-cikti_20260610.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2920795a781208840b26ed.jpg",
+      "image_alt": "Hastanede tedavi gören bir hasta ve doktor görseli",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2920795a781208840b26ed.jpg",
+        "alt": "Hastanede tedavi gören bir hasta ve doktor görseli"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/mide-agrisi-sikayetiyle-doktora-gitti-hayatinin-sokunu-yasadi-sebebi-bocek-cikti-aklimiza-gelmeyen-sey-basimiza-geldi-43199903",
+      "tags": [
+        "Aydın",
+        "sağlık",
+        "mide ağrısı",
+        "nadir vaka",
+        "Atatürk Devlet Hastanesi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/06:adana-seyhan-platonik-ask-saldirisi_20260610",
       "slug": "adana-seyhan-platonik-ask-saldirisi_20260610",
       "title": "Adana'da dehşet: İlkokul arkadaşını sokak ortasında bıçakladı",
@@ -76,6 +112,41 @@
         "Bıçaklı saldırı",
         "Asayiş",
         "Platonik aşk"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:abd-et-yiyen-parazit-yeni-dunya-vida-kurdu-alarm_20260610",
+      "slug": "abd-et-yiyen-parazit-yeni-dunya-vida-kurdu-alarm_20260610",
+      "title": "ABD’de 'et yiyen parazit' alarmı: Yeni vaka tespit edildi",
+      "summary": "ABD’de “et yiyen parazit” olarak bilinen Yeni Dünya vida kurdu sineği kaynaklı vaka sayısı 5’e yükseldi. Teksas’ın ardından New Mexico’da da ilk vakanın doğrulanmasıyla birlikte bölgedeki endişe arttı.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/abd-et-yiyen-parazit-yeni-dunya-vida-kurdu-alarm_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/abd-et-yiyen-parazit-yeni-dunya-vida-kurdu-alarm_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/abd-et-yiyen-parazit-yeni-dunya-vida-kurdu-alarm_20260610.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a27d4d909712aa7c8d140d7.jpg",
+      "image_alt": "Yeni Dünya vida kurdu sineği görseli",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a27d4d909712aa7c8d140d7.jpg",
+        "alt": "Yeni Dünya vida kurdu sineği görseli"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/galeri-et-yiyen-parazit-alarmi-buyuyor-sinekten-yayilan-hastaliktan-nasil-korunulur-43198738",
+      "tags": [
+        "ABD",
+        "Yeni Dünya vida kurdu",
+        "sağlık",
+        "parazit"
       ],
       "quality_score": 86,
       "review_status": "published"
