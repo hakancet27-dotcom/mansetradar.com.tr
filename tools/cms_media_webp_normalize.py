@@ -2,18 +2,30 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 from typing import Any
 
 from PIL import Image, ImageOps
 
 ARTICLE_DIRS = (Path('articles'), Path('news/articles'), Path('nachrichten/artikel'))
+MEDIA_DIRS = (Path('articles/images'), Path('cms-stock-images'))
 SKIP_PARTS = {'images', 'review', 'pending', 'duplicates', 'archive'}
 CONVERTIBLE_SUFFIXES = {'.jpg', '.jpeg', '.png', '.avif'}
+LOCAL_IMAGE_RE = re.compile(r'(?P<prefix>["\'(=\s]|^)(?P<path>/?(?:articles/images|cms-stock-images)/[^"\'()<>\s?#]+\.(?:jpg|jpeg|png|avif))(?P<suffix>[?#][^"\'()<>\s]*)?', re.IGNORECASE)
+
+
+class Stats:
+    def __init__(self) -> None:
+        self.converted_files = 0
+        self.deleted_sources = 0
+        self.updated_articles = 0
+        self.scanned_articles = 0
+        self.skipped = 0
 
 
 def is_remote(value: str) -> bool:
-    return value.startswith('http://') or value.startswith('https://')
+    return value.startswith('http://') or value.startswith('https://') or value.startswith('//')
 
 
 def clean(value: Any) -> str:
@@ -33,6 +45,17 @@ def article_json_paths() -> list[Path]:
     return sorted(paths, key=lambda item: item.as_posix())
 
 
+def all_media_paths() -> list[Path]:
+    paths: list[Path] = []
+    for folder in MEDIA_DIRS:
+        if not folder.exists():
+            continue
+        for path in folder.rglob('*'):
+            if path.is_file() and path.suffix.lower() in CONVERTIBLE_SUFFIXES:
+                paths.append(path)
+    return sorted(paths, key=lambda item: item.as_posix())
+
+
 def site_file(value: Any) -> Path | None:
     raw = clean(value)
     if not raw or is_remote(raw):
@@ -46,7 +69,11 @@ def site_file(value: Any) -> Path | None:
     return path
 
 
-def convert(path: Path, quality: int) -> Path | None:
+def public_path(path: Path) -> str:
+    return '/' + path.resolve().relative_to(Path('.').resolve()).as_posix()
+
+
+def convert(path: Path, quality: int, stats: Stats) -> Path | None:
     if path.suffix.lower() == '.webp':
         return path
     if path.suffix.lower() not in CONVERTIBLE_SUFFIXES:
@@ -62,77 +89,111 @@ def convert(path: Path, quality: int) -> Path | None:
             target.parent.mkdir(parents=True, exist_ok=True)
             img.save(target, 'WEBP', quality=quality, method=6)
         if target.exists() and target.stat().st_size > 0:
+            stats.converted_files += 1
             path.unlink()
-        return target
+            stats.deleted_sources += 1
+            return target
     except Exception as exc:
+        stats.skipped += 1
         print(f'WebP skipped {path}: {exc}')
-        return None
+    return None
 
 
-def public_path(path: Path) -> str:
-    return '/' + path.resolve().relative_to(Path('.').resolve()).as_posix()
-
-
-def normalize_value(value: Any, quality: int) -> tuple[Any, bool]:
+def normalize_exact_value(value: Any, quality: int, stats: Stats) -> tuple[Any, bool]:
     source = site_file(value)
     if source is None:
         return value, False
-    target = convert(source, quality)
+    target = convert(source, quality, stats)
     if target is None:
         return value, False
     new_value = public_path(target)
     return new_value, new_value != clean(value)
 
 
-def normalize_article(path: Path, quality: int) -> bool:
+def normalize_text_value(value: str, quality: int, stats: Stats) -> tuple[str, bool]:
+    changed = False
+
+    def repl(match: re.Match[str]) -> str:
+        nonlocal changed
+        prefix = match.group('prefix') or ''
+        raw_path = match.group('path') or ''
+        suffix = match.group('suffix') or ''
+        source = site_file(raw_path)
+        if source is None:
+            return match.group(0)
+        target = convert(source, quality, stats)
+        if target is None:
+            return match.group(0)
+        new_path = public_path(target)
+        changed = changed or new_path != raw_path
+        return f'{prefix}{new_path}{suffix}'
+
+    normalized = LOCAL_IMAGE_RE.sub(repl, value)
+    return normalized, changed
+
+
+def normalize_any(value: Any, quality: int, stats: Stats) -> tuple[Any, bool]:
+    if isinstance(value, dict):
+        changed = False
+        updated: dict[str, Any] = {}
+        for key, item in value.items():
+            new_item, item_changed = normalize_any(item, quality, stats)
+            updated[key] = new_item
+            changed = changed or item_changed
+        return updated, changed
+    if isinstance(value, list):
+        changed = False
+        updated_list: list[Any] = []
+        for item in value:
+            new_item, item_changed = normalize_any(item, quality, stats)
+            updated_list.append(new_item)
+            changed = changed or item_changed
+        return updated_list, changed
+    if isinstance(value, str):
+        exact, exact_changed = normalize_exact_value(value, quality, stats)
+        if exact_changed:
+            return exact, True
+        return normalize_text_value(value, quality, stats)
+    return value, False
+
+
+def normalize_article(path: Path, quality: int, stats: Stats) -> bool:
     try:
         data = json.loads(path.read_text(encoding='utf-8-sig'))
     except Exception as exc:
+        stats.skipped += 1
         print(f'JSON skipped {path}: {exc}')
         return False
     if not isinstance(data, dict):
         return False
-    changed = False
-    new_image, image_changed = normalize_value(data.get('image_url'), quality)
-    if image_changed:
-        data['image_url'] = new_image
-        changed = True
-    gallery = data.get('image_gallery') or []
-    if isinstance(gallery, list):
-        normalized = []
-        for item in gallery:
-            if isinstance(item, str):
-                new_value, item_changed = normalize_value(item, quality)
-                normalized.append({'image_url': new_value, 'image_alt': '', 'caption': ''})
-                changed = changed or item_changed or True
-            elif isinstance(item, dict):
-                updated = dict(item)
-                key = 'image_url' if 'image_url' in updated else 'url' if 'url' in updated else 'image'
-                if key in updated:
-                    new_value, item_changed = normalize_value(updated.get(key), quality)
-                    updated[key] = new_value
-                    changed = changed or item_changed
-                normalized.append(updated)
-            else:
-                normalized.append(item)
-        if normalized != gallery:
-            data['image_gallery'] = normalized
-            changed = True
+    normalized, changed = normalize_any(data, quality, stats)
     if not changed:
         return False
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    path.write_text(json.dumps(normalized, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f'CMS media normalized: {path}')
     return True
 
 
+def convert_unreferenced_media(quality: int, stats: Stats) -> None:
+    for path in all_media_paths():
+        convert(path, quality, stats)
+
+
 def main() -> None:
-    changed = 0
-    scanned = 0
+    stats = Stats()
     for path in article_json_paths():
-        scanned += 1
-        if normalize_article(path, 82):
-            changed += 1
-    print(f'CMS media WebP normalize completed: scanned={scanned} changed={changed}')
+        stats.scanned_articles += 1
+        if normalize_article(path, 82, stats):
+            stats.updated_articles += 1
+    convert_unreferenced_media(82, stats)
+    print(
+        'CMS media WebP normalize completed: '
+        f'scanned={stats.scanned_articles} '
+        f'changed={stats.updated_articles} '
+        f'converted_files={stats.converted_files} '
+        f'deleted_sources={stats.deleted_sources} '
+        f'skipped={stats.skipped}'
+    )
 
 
 if __name__ == '__main__':
