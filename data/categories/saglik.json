@@ -2,14 +2,50 @@
   "meta": {
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
-    "generated_at": "2026-06-09T00:00:00+00:00",
-    "article_count": 418,
+    "generated_at": "2026-06-10T00:00:00+00:00",
+    "article_count": 426,
     "schema_version": 2,
     "category_slug": "saglik"
   },
   "articles": [
     {
-      "id": "articles:kabizligin-tehlike-isaretleri_20260609",
+      "id": "articles/2026/06:adana-seyhan-platonik-ask-saldirisi_20260610",
+      "slug": "adana-seyhan-platonik-ask-saldirisi_20260610",
+      "title": "Adana'da dehşet: İlkokul arkadaşını sokak ortasında bıçakladı",
+      "summary": "Adana’nın Seyhan ilçesinde, ilkokul yıllarından beri platonik aşk beslediği Nursel S.’yi takip eden Ramazan S., genç kadını sokak ortasında 7 yerinden bıçakladı. Güvenlik kameralarına yansıyan saldırının ardından gözaltına alınan şüpheli tutuklandı.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/adana-seyhan-platonik-ask-saldirisi_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/adana-seyhan-platonik-ask-saldirisi_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/adana-seyhan-platonik-ask-saldirisi_20260610.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/adana-seyhan-platonik-ask-saldirisi_20260610.webp",
+      "image_alt": "Adana'da bıçaklı saldırının gerçekleştiği sokakta polis ekipleri inceleme yapıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/adana-seyhan-platonik-ask-saldirisi_20260610.webp",
+        "alt": "Adana'da bıçaklı saldırının gerçekleştiği sokakta polis ekipleri inceleme yapıyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/cocuk-yastan-beri-platonik-ask-besliyordu-yolda-gorunce-7-yerinden-bicakladi-saldirgandan-akilalmaz-ifade-43199745",
+      "tags": [
+        "Adana",
+        "Seyhan",
+        "Bıçaklı saldırı",
+        "Asayiş",
+        "Platonik aşk"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:kabizligin-tehlike-isaretleri_20260609",
       "slug": "kabizligin-tehlike-isaretleri_20260609",
       "title": "Kabızlıkta 'Tehlike' İşaretleri: Ne Zaman Doktora Gidilmeli?",
       "summary": "Gastroenteroloji Uzmanı Prof. Dr. Özlem Özer, yaşam tarzı değişiklikleri ve stresle sıkça karşılaşılan kabızlığın, bazen ciddi hastalıkların habercisi olabileceği konusunda uyarılarda bulundu.",
@@ -20,11 +56,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "09.06.2026",
       "date_iso": "2026-06-09",
       "url": "/articles/2026/06/kabizligin-tehlike-isaretleri_20260609/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/kabizligin-tehlike-isaretleri_20260609/",
-      "detail_json_url": "/data/details/articles/kabizligin-tehlike-isaretleri_20260609.json",
+      "detail_json_url": "/data/details/articles/2026/06/kabizligin-tehlike-isaretleri_20260609.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/kabizligin-tehlike-isaretleri_20260609.webp",
       "image_alt": "Gastroenteroloji uzmanı ve bağırsak sağlığı.",
       "image": {
@@ -44,7 +81,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609",
+      "id": "articles/2026/06:domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609",
       "slug": "domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609",
       "title": "Domates ve Soya İçeren İçeceğin İltihaplanma Üzerindeki Etkisi Araştırıldı",
       "summary": "Yapılan yeni bir bilimsel çalışma, domatesin likopen içeriği ile soyanın izoflavonlarını birleştiren özel bir içeceğin, vücuttaki kronik iltihaplanma düzeylerini düşürmede etkili olabileceğini gösterdi.",
@@ -55,11 +92,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "09.06.2026",
       "date_iso": "2026-06-09",
       "url": "/articles/2026/06/domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609/",
-      "detail_json_url": "/data/details/articles/domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609.json",
+      "detail_json_url": "/data/details/articles/2026/06/domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609.webp",
       "image_alt": "Domates ve soya içeren sağlıklı bir içecek bardağı.",
       "image": {
@@ -79,7 +117,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:van-kadin-sagligi-tarama-egitim-projesi_20260608",
+      "id": "articles/2026/06:van-kadin-sagligi-tarama-egitim-projesi_20260608",
       "slug": "van-kadin-sagligi-tarama-egitim-projesi_20260608",
       "title": "Van'da Kadın Sağlığına Yönelik Kapsamlı Ücretsiz Tarama ve Eğitim Projesi",
       "summary": "Türkiye’nin köklü jinekoloji kurumlarından TAJEV, yaklaşık 20 yıldır sürdürdüğü “Sadece Benim İçin” projesini Van’a taşıdı. 4 Haziran’da gerçekleştirilen etkinlikte kadınlara ücretsiz kanser taramaları yapılırken, uzman hekimler tarafından halkı bilgilendir...",
@@ -90,11 +128,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "08.06.2026",
       "date_iso": "2026-06-08",
       "url": "/articles/2026/06/van-kadin-sagligi-tarama-egitim-projesi_20260608/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/van-kadin-sagligi-tarama-egitim-projesi_20260608/",
-      "detail_json_url": "/data/details/articles/van-kadin-sagligi-tarama-egitim-projesi_20260608.json",
+      "detail_json_url": "/data/details/articles/2026/06/van-kadin-sagligi-tarama-egitim-projesi_20260608.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/van-kadin-sagligi-tarama-egitim-projesi_20260608.webp",
       "image_alt": "Van'da düzenlenen kadın sağlığı seminerinden bir görünüm.",
       "image": {
@@ -114,7 +153,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:kene-isirigi-hayati-risk-uyarisi_20260608",
+      "id": "articles/2026/06:kene-isirigi-hayati-risk-uyarisi_20260608",
       "slug": "kene-isirigi-hayati-risk-uyarisi_20260608",
       "title": "Kene Isırıklarına Karşı Kritik Uyarı: Hangi Bölgeler Risk Altında?",
       "summary": "Yaz aylarının gelmesiyle birlikte artış gösteren kene vakalarına karşı Enfeksiyon Hastalıkları ve Mikrobiyoloji Uzmanı Dr. Fatih Yıldız, vatandaşları uyardı. Kene ısırıklarının basit bir cilt problemi olarak görülmemesi gerektiğini belirten uzmanlar, yanlış...",
@@ -125,11 +164,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "08.06.2026",
       "date_iso": "2026-06-08",
       "url": "/articles/2026/06/kene-isirigi-hayati-risk-uyarisi_20260608/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/kene-isirigi-hayati-risk-uyarisi_20260608/",
-      "detail_json_url": "/data/details/articles/kene-isirigi-hayati-risk-uyarisi_20260608.json",
+      "detail_json_url": "/data/details/articles/2026/06/kene-isirigi-hayati-risk-uyarisi_20260608.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/kene-isirigi-hayati-risk-uyarisi_20260608.webp",
       "image_alt": "Kene ısırığı ve sağlık riskleri hakkında uyarıcı görsel.",
       "image": {
@@ -148,7 +188,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:basur-nedir-neden-olur-nasil-gecer_20260608",
+      "id": "articles/2026/06:basur-nedir-neden-olur-nasil-gecer_20260608",
       "slug": "basur-nedir-neden-olur-nasil-gecer_20260608",
       "title": "Basur (Hemoroid) Nedir? Belirtileri, Nedenleri ve Doğal Çözüm Yolları",
       "summary": "Halk arasında hemoroid olarak bilinen basur, makat bölgesindeki toplardamarların şişmesiyle oluşan yaygın bir hastalıktır. Uzmanlar, bu durumun temelinde genellikle bölgeye uygulanan baskının artmasının yattığını belirtiyor.",
@@ -159,11 +199,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "08.06.2026",
       "date_iso": "2026-06-08",
       "url": "/articles/2026/06/basur-nedir-neden-olur-nasil-gecer_20260608/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/basur-nedir-neden-olur-nasil-gecer_20260608/",
-      "detail_json_url": "/data/details/articles/basur-nedir-neden-olur-nasil-gecer_20260608.json",
+      "detail_json_url": "/data/details/articles/2026/06/basur-nedir-neden-olur-nasil-gecer_20260608.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/basur-nedir-neden-olur-nasil-gecer_20260608.webp",
       "image_alt": "Basur tedavisi için sağlıklı beslenme ve su tüketimi.",
       "image": {
@@ -183,7 +224,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:bakan-memisoglu-yerli-ilac-ve-asi-uretiminde-sonuc-almaya-basladik_20260608",
+      "id": "articles/2026/06:bakan-memisoglu-yerli-ilac-ve-asi-uretiminde-sonuc-almaya-basladik_20260608",
       "slug": "bakan-memisoglu-yerli-ilac-ve-asi-uretiminde-sonuc-almaya-basladik_20260608",
       "title": "Bakan Memişoğlu: Yerli ilaç ve aşı üretiminde sonuç almaya başladık",
       "summary": "Sağlık Bakanı Kemal Memişoğlu, İstanbul'da düzenlenen Uluslararası Sağlık Teknolojileri Değerlendirme Birliği Kongresi'nde yaptığı konuşmada, yerli ilaç, aşı ve kit üretiminde somut sonuçlar elde etmeye başladıklarını duyurdu.",
@@ -194,11 +235,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "08.06.2026",
       "date_iso": "2026-06-08",
       "url": "/articles/2026/06/bakan-memisoglu-yerli-ilac-ve-asi-uretiminde-sonuc-almaya-basladik_20260608/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/bakan-memisoglu-yerli-ilac-ve-asi-uretiminde-sonuc-almaya-basladik_20260608/",
-      "detail_json_url": "/data/details/articles/bakan-memisoglu-yerli-ilac-ve-asi-uretiminde-sonuc-almaya-basladik_20260608.json",
+      "detail_json_url": "/data/details/articles/2026/06/bakan-memisoglu-yerli-ilac-ve-asi-uretiminde-sonuc-almaya-basladik_20260608.json",
       "image_url": "https://mansetradar.com.tr/articles/images/pexels-ivan-babydov-7788345.jpg",
       "image_alt": "Sağlık Bakanı Kemal Memişoğlu bir kongrede konuşma yaparken",
       "image": {
@@ -218,7 +260,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607",
+      "id": "articles/2026/06:turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607",
       "slug": "turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607",
       "title": "Türkiye’nin İlk CAR-T Hücresel Tedavi Merkezi Ruhsat Aldı",
       "summary": "Akdeniz Üniversitesi bünyesinde kurulan Türkiye’nin ilk CAR-T ve Hücresel Tedaviler Üretim Merkezi’nde ruhsat süreci tamamlandı. Kanser tedavisinde yeni bir dönem başlatacak olan merkez, ilk hastasını bekliyor.",
@@ -229,11 +271,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "07.06.2026",
       "date_iso": "2026-06-07",
       "url": "/articles/2026/06/turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607/",
-      "detail_json_url": "/data/details/articles/turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607.json",
+      "detail_json_url": "/data/details/articles/2026/06/turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/turkiyenin-ilk-car-t-hucresel-tedavi-merkezi-ruhsat-aldi_20260607.webp",
       "image_alt": "Akdeniz Üniversitesi bünyesinde kurulan Türkiye'nin ilk CAR-T ve Hücresel Tedaviler Üretim Merkezi laboratuvarı.",
       "image": {
@@ -253,7 +296,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:turk-cerrah-prof-dr-oktar-asoglu-ingiltere-canli-ameliyat_20260607",
+      "id": "articles/2026/06:turk-cerrah-prof-dr-oktar-asoglu-ingiltere-canli-ameliyat_20260607",
       "slug": "turk-cerrah-prof-dr-oktar-asoglu-ingiltere-canli-ameliyat_20260607",
       "title": "Türk Cerrah Prof. Dr. Oktar Asoğlu İngiltere'de Canlı Ameliyat Yapacak",
       "summary": "Uluslararası alanda kanser hastalıkları ve robotik cerrahi üzerine çalışmalarıyla tanınan Prof. Dr. Oktar Asoğlu, İngiltere'de düzenlenecek olan 10. Portsmouth Colorectal Kongresi'ne davet edildi. Prof. Dr. Asoğlu, kongre kapsamında dünyanın dört bir yanınd...",
@@ -264,11 +307,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "07.06.2026",
       "date_iso": "2026-06-07",
       "url": "/articles/2026/06/turk-cerrah-prof-dr-oktar-asoglu-ingiltere-canli-ameliyat_20260607/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/turk-cerrah-prof-dr-oktar-asoglu-ingiltere-canli-ameliyat_20260607/",
-      "detail_json_url": "/data/details/articles/turk-cerrah-prof-dr-oktar-asoglu-ingiltere-canli-ameliyat_20260607.json",
+      "detail_json_url": "/data/details/articles/2026/06/turk-cerrah-prof-dr-oktar-asoglu-ingiltere-canli-ameliyat_20260607.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/turk-cerrah-prof-dr-oktar-asoglu-ingiltere-canli-ameliyat_20260607.webp",
       "image_alt": "Prof. Dr. Oktar Asoğlu, Türk cerrah, İngiltere'de canlı robotik ameliyat gerçekleştiriyor.",
       "image": {
@@ -288,7 +332,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607",
+      "id": "articles/2026/06:rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607",
       "slug": "rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607",
       "title": "Rebecca Gayheart, kızı Georgia’nın mezuniyet sevincini paylaştı",
       "summary": "Ünlü oyuncu Rebecca Gayheart, 19 Şubat'ta ALS hastalığı nedeniyle hayatını kaybeden eşi Eric Dane'in ardından, kızı Georgia'nın ortaokul mezuniyet töreninde duygusal anlar yaşadı.",
@@ -299,11 +343,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "07.06.2026",
       "date_iso": "2026-06-07",
       "url": "/articles/2026/06/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607/",
-      "detail_json_url": "/data/details/articles/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607.json",
+      "detail_json_url": "/data/details/articles/2026/06/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/rebecca-gayheart-kizi-georgianin-mezuniyet-sevincini-paylasti_20260607.webp",
       "image_alt": "Rebecca Gayheart ve kızı Georgia Dane mezuniyet töreninde.",
       "image": {
@@ -323,7 +368,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607",
+      "id": "articles/2026/06:kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607",
       "slug": "kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607",
       "title": "Kortizol Hakkındaki Yanlış Bilinenler: Vücudun Hayati Hormonu",
       "summary": "Sosyal medyada sıkça 'stres hormonu' olarak nitelendirilen ve kilo alımı, uyku sorunları gibi pek çok olumsuzluğun sorumlusu tutulan kortizol, aslında yaşam için vazgeçilmez bir mekanizmaya sahip. Uzmanlar, bu hormonun vücut fonksiyonları üzerindeki hayati...",
@@ -334,11 +379,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "07.06.2026",
       "date_iso": "2026-06-07",
       "url": "/articles/2026/06/kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607/",
-      "detail_json_url": "/data/details/articles/kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607.json",
+      "detail_json_url": "/data/details/articles/2026/06/kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/kortizol-hormonu-hakkindaki-yanlis-bilinenler_20260607.webp",
       "image_alt": "Kortizol hormonu ve insan sağlığı üzerine tıbbi bir görsel.",
       "image": {
@@ -357,7 +403,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607",
+      "id": "articles/2026/06:klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607",
       "slug": "klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607",
       "title": "Klimalar Kalp Sağlığını Tehdit Ediyor: Uzmanlardan Önemli Uyarılar",
       "summary": "Yaz aylarında artan sıcaklıklarla birlikte klimaların yaygın kullanımı, ani sıcaklık değişimleri nedeniyle kalp ve damar sağlığı üzerinde olumsuz etkilere yol açabiliyor. İç Hastalıkları Uzmanı Prof. Dr. Osman Erk, özellikle kalp-damar hastalığı olanların d...",
@@ -368,11 +414,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "07.06.2026",
       "date_iso": "2026-06-07",
       "url": "/articles/2026/06/klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607/",
-      "detail_json_url": "/data/details/articles/klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607.json",
+      "detail_json_url": "/data/details/articles/2026/06/klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/klimalar-kalp-sagligini-nasil-etkiler-uzman-uyarisi_20260607.webp",
       "image_alt": "Klima kullanımı ve kalp sağlığına etkileri üzerine uyarıcı görsel.",
       "image": {
@@ -392,7 +439,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:daha-17-dizisi-2-bolum-ozeti_20260607",
+      "id": "articles/2026/06:daha-17-dizisi-2-bolum-ozeti_20260607",
       "slug": "daha-17-dizisi-2-bolum-ozeti_20260607",
       "title": "Daha 17 dizisinin 2. bölümünde sırlar açığa çıkıyor",
       "summary": "Daha 17 dizisinin 2. bölümünde Teoman tarafından bıçaklanan Aras hastaneye kaldırılırken, Şebnem oğlunu korumak için suçu Kutay'ın üstlenmesini sağladı. Aras'ın hastanede yaşadığı olaylar ve 'Demir' yazılı kolye, yıllardır saklanan sırların açığa çıkmasına...",
@@ -403,11 +450,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "07.06.2026",
       "date_iso": "2026-06-07",
       "url": "/articles/2026/06/daha-17-dizisi-2-bolum-ozeti_20260607/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/daha-17-dizisi-2-bolum-ozeti_20260607/",
-      "detail_json_url": "/data/details/articles/daha-17-dizisi-2-bolum-ozeti_20260607.json",
+      "detail_json_url": "/data/details/articles/2026/06/daha-17-dizisi-2-bolum-ozeti_20260607.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/daha-17-dizisi-2-bolum-ozeti_20260607.webp",
       "image_alt": "Daha 17 dizisi 2. bölümünden bir sahne",
       "image": {
@@ -426,7 +474,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:agirlik-kaldirmak-erken-olum-riskini-azaltiyor_20260607",
+      "id": "articles/2026/06:agirlik-kaldirmak-erken-olum-riskini-azaltiyor_20260607",
       "slug": "agirlik-kaldirmak-erken-olum-riskini-azaltiyor_20260607",
       "title": "Uzun Yaşamın Sırrı Ağırlık Kaldırmak mı? Yeni Araştırma Sonuçları",
       "summary": "Yeni bir araştırmaya göre, haftada 90 dakika ile iki saat arasında ağırlık egzersizi yapmak erken ölüm riskini azaltıyor. İngiliz Spor Hekimliği Dergisi'nde yayımlanan çalışma, düzenli direnç antrenmanlarının kalp ve nörolojik hastalıklardan ölüm olasılığın...",
@@ -437,11 +485,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "07.06.2026",
       "date_iso": "2026-06-07",
       "url": "/articles/2026/06/agirlik-kaldirmak-erken-olum-riskini-azaltiyor_20260607/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/agirlik-kaldirmak-erken-olum-riskini-azaltiyor_20260607/",
-      "detail_json_url": "/data/details/articles/agirlik-kaldirmak-erken-olum-riskini-azaltiyor_20260607.json",
+      "detail_json_url": "/data/details/articles/2026/06/agirlik-kaldirmak-erken-olum-riskini-azaltiyor_20260607.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/agirlik-kaldirmak-erken-olum-riskini-azaltiyor_20260607.webp",
       "image_alt": "Spor salonunda ağırlık kaldıran bir kişi",
       "image": {
@@ -461,7 +510,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:mersin-markette-dehset-esini-tufekle-vurmaya-calisti-calisanlar-tarafindan-engel_20260606",
+      "id": "articles/2026/06:mersin-markette-dehset-esini-tufekle-vurmaya-calisti-calisanlar-tarafindan-engel_20260606",
       "slug": "mersin-markette-dehset-esini-tufekle-vurmaya-calisti-calisanlar-tarafindan-engel_20260606",
       "title": "Mersin'de Market İçinde Dehşet: Eşini Tüfekle Vurmaya Çalıştı, Bıçakla Ağır Yaraladı",
       "summary": "Mersin'in Silifke ilçesinde dün gece saatlerinde bir markette yaşanan olayda, boşanma aşamasındaki eşi Latife D.'yi takip eden Ulaş D., marketin içine girerek eşini tüfekle vurmaya çalıştı. Market çalışanlarının müdahalesiyle tüfek elinden alınan şüpheli, b...",
@@ -472,11 +521,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "06.06.2026",
       "date_iso": "2026-06-06",
       "url": "/articles/2026/06/mersin-markette-dehset-esini-tufekle-vurmaya-calisti-calisanlar-tarafindan-engel_20260606/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/mersin-markette-dehset-esini-tufekle-vurmaya-calisti-calisanlar-tarafindan-engel_20260606/",
-      "detail_json_url": "/data/details/articles/mersin-markette-dehset-esini-tufekle-vurmaya-calisti-calisanlar-tarafindan-engel_20260606.json",
+      "detail_json_url": "/data/details/articles/2026/06/mersin-markette-dehset-esini-tufekle-vurmaya-calisti-calisanlar-tarafindan-engel_20260606.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/mersin-markette-dehset-esini-tufekle-vurmaya-calisti-calisanlar-tarafindan-engel_20260606.webp",
       "image_alt": "Market çalışanları tarafından engellenen bir şahsın eşini bıçakla ağır yaraladığı dehşet anı.",
       "image": {
@@ -498,7 +548,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:menopozda-hafiza-neden-zayiflar_20260606",
+      "id": "articles/2026/06:menopozda-hafiza-neden-zayiflar_20260606",
       "slug": "menopozda-hafiza-neden-zayiflar_20260606",
       "title": "Menopozda Hafıza Kaybı Neden Olur? Nörolog Açıklıyor",
       "summary": "Menopoz döneminde kadınların yaklaşık yüzde 60 ila 70'inde görülebilen hafıza zayıflığı, odaklanma güçlüğü ve unutkanlık hissi, genellikle geçici biyolojik süreçlerle ilişkilidir. Nöroloji Uzmanı Prof. Dr. Derya Uludüz, bu durumun beyinde kalıcı hasara yol...",
@@ -509,11 +559,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "06.06.2026",
       "date_iso": "2026-06-06",
       "url": "/articles/2026/06/menopozda-hafiza-neden-zayiflar_20260606/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/menopozda-hafiza-neden-zayiflar_20260606/",
-      "detail_json_url": "/data/details/articles/menopozda-hafiza-neden-zayiflar_20260606.json",
+      "detail_json_url": "/data/details/articles/2026/06/menopozda-hafiza-neden-zayiflar_20260606.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/menopozda-hafiza-neden-zayiflar_20260606.webp",
       "image_alt": "Menopoz döneminde hafıza zayıflığı yaşayan bir kadın.",
       "image": {
@@ -533,7 +584,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:dso-gida-guvensizligi-uyarisi-2026_20260606",
+      "id": "articles/2026/06:dso-gida-guvensizligi-uyarisi-2026_20260606",
       "slug": "dso-gida-guvensizligi-uyarisi-2026_20260606",
       "title": "DSÖ: Her 9 Kişiden 1'i Gıda Güvensizliğiyle Karşı Karşıya",
       "summary": "Dünya Sağlık Örgütü (DSÖ) Beslenme ve Gıda Güvenliği Departmanı İzleme ve Gözetim Birimi Başkanı Elaine Borghi, Birleşmiş Milletler (BM) Cenevre Ofisi'nde yaptığı açıklamada, küresel olarak her 9 kişiden 1'ini etkileyen gıda güvensizliği krizine dikkat çekt...",
@@ -544,11 +595,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "06.06.2026",
       "date_iso": "2026-06-06",
       "url": "/articles/2026/06/dso-gida-guvensizligi-uyarisi-2026_20260606/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/dso-gida-guvensizligi-uyarisi-2026_20260606/",
-      "detail_json_url": "/data/details/articles/dso-gida-guvensizligi-uyarisi-2026_20260606.json",
+      "detail_json_url": "/data/details/articles/2026/06/dso-gida-guvensizligi-uyarisi-2026_20260606.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/05/images/asiri-tuz-tuketiminin-bilinmeyen-zararlari_20260516_f4ce248f.webp",
       "image_alt": "DSÖ: Her 9 Kişiden 1'i Gıda Güvensizliğiyle Karşı Karşıya",
       "image": {
@@ -569,7 +621,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:aydin-67-yasindaki-karnindan-40-kilogram-kitle-cikarildi_20260606",
+      "id": "articles/2026/06:aydin-67-yasindaki-karnindan-40-kilogram-kitle-cikarildi_20260606",
       "slug": "aydin-67-yasindaki-karnindan-40-kilogram-kitle-cikarildi_20260606",
       "title": "Aydın'da 67 Yaşındaki Kadının Karnından 40 Kilogramlık Kitle Çıkarıldı",
       "summary": "Aydın'da yaşayan ve 1993 yılından bu yana karnındaki şişlikle mücadele eden 67 yaşındaki Leyla Demirkafa'nın karnından, yapılan başarılı bir ameliyatla 40 kilogramlık dev bir kitle çıkarıldı. Aydın Valisi Dr. Osman Varol'un talimatıyla hastaneye kaldırılan...",
@@ -580,11 +632,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "06.06.2026",
       "date_iso": "2026-06-06",
       "url": "/articles/2026/06/aydin-67-yasindaki-karnindan-40-kilogram-kitle-cikarildi_20260606/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/aydin-67-yasindaki-karnindan-40-kilogram-kitle-cikarildi_20260606/",
-      "detail_json_url": "/data/details/articles/aydin-67-yasindaki-karnindan-40-kilogram-kitle-cikarildi_20260606.json",
+      "detail_json_url": "/data/details/articles/2026/06/aydin-67-yasindaki-karnindan-40-kilogram-kitle-cikarildi_20260606.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/aydin-67-yasindaki-karnindan-40-kilogram-kitle-cikarildi_20260606.webp",
       "image_alt": "Aydın'da 67 yaşındaki bir kadının karnından 40 kilogramlık kitle çıkarılması ameliyatı.",
       "image": {
@@ -604,7 +657,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604",
+      "id": "articles/2026/06:chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604",
       "slug": "chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604",
       "title": "Chikungunya Virüsü Avrupa ve Kuzey Amerika'ya Yayılabilir: İklim Değişikliği Tehlikesi",
       "summary": "Çin'deki Zhejiang Çin Tıp Üniversitesi tarafından yapılan yeni bir araştırma, iklim değişikliğinin neden olduğu sıcaklık artışları nedeniyle Chikungunya virüsünün Avrupa ve Kuzey Amerika'daki büyük şehirlere sıçrama riskinin arttığını ortaya koydu. 'Eklemle...",
@@ -615,11 +668,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "04.06.2026",
       "date_iso": "2026-06-04",
       "url": "/articles/2026/06/chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604/",
-      "detail_json_url": "/data/details/articles/chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604.json",
+      "detail_json_url": "/data/details/articles/2026/06/chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/chikungunya-virusu-avrupa-kuzey-amerika-yayilma-riski_20260604.webp",
       "image_alt": "Chikungunya virüsünün yayılma riski altındaki dünya haritası, sivrisinek ve iklim değişikliği unsurlarıyla.",
       "image": {
@@ -639,7 +693,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602",
+      "id": "articles/2026/06:limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602",
       "slug": "limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602",
       "title": "Limonlu Su Böbrek Taşlarına İyi Gelir mi? Üroloji Uzmanı Açıklıyor",
       "summary": "Ülkemizde yaygın bir sorun olan böbrek taşları, her 10 yetişkinden 1'inde görülüyor. İdrardaki mineral ve tuzların kristalleşmesiyle oluşan bu sert yapılar, şiddetli ağrılara neden olabiliyor. Üroloji Uzmanı Prof. Dr. Melih Balcı, böbrek taşlarının oluşum n...",
@@ -650,11 +704,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "02.06.2026",
       "date_iso": "2026-06-02",
       "url": "/articles/2026/06/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602/",
-      "detail_json_url": "/data/details/articles/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602.json",
+      "detail_json_url": "/data/details/articles/2026/06/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/limonlu-su-bobrek-taslarini-dusurur-mu-uzman-aciklamasi_20260602.webp",
       "image_alt": "Limonlu su bardağı ve böbrek taşı sembolleri",
       "image": {
@@ -673,7 +728,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602",
+      "id": "articles/2026/06:kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602",
       "slug": "kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602",
       "title": "Kanser Aşısı Umut Veriyor: Tümörlerde Küçülme ve Yok Olma Gözlemlendi",
       "summary": "İngiltere'de Kanser Araştırmaları Enstitüsü öncülüğünde yürütülen OrigAMI-4 çalışmasında, mevcut standart tedavilere yanıt vermeyen 102 baş-boyun kanseri hastasına uygulanan Amivantamab adlı antikor, hastalarda umut verici sonuçlar ortaya koydu. Çalışmada,...",
@@ -684,11 +739,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "02.06.2026",
       "date_iso": "2026-06-02",
       "url": "/articles/2026/06/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602/",
-      "detail_json_url": "/data/details/articles/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602.json",
+      "detail_json_url": "/data/details/articles/2026/06/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/kanser-asisi-tumorde-kuculme-ve-yok-olma_20260602.webp",
       "image_alt": "Kanser hücrelerini hedef alan tedavi edici bir antikorun yakın çekim, detaylı görüntüsü.",
       "image": {
@@ -708,7 +764,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602",
+      "id": "articles/2026/06:dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602",
       "slug": "dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602",
       "title": "DSÖ'den Kalp Krizini Önlemenin Altın Kuralları Açıklandı",
       "summary": "Kalp ve damar hastalıkları artık sadece ileri yaş problemi değil. Modern yaşamın getirdiği alışkanlıklar, stres ve hareketsizlik, gençleri de tehdit ediyor. Dünya Sağlık Örgütü (DSÖ) ve ABD Hastalık Kontrol ve Önleme Merkezi (CDC), kalp krizlerini ve damar...",
@@ -719,11 +775,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "02.06.2026",
       "date_iso": "2026-06-02",
       "url": "/articles/2026/06/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602/",
-      "detail_json_url": "/data/details/articles/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602.json",
+      "detail_json_url": "/data/details/articles/2026/06/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/dso-kalp-krizini-baslamadan-bitirmenin-yolu_20260602.webp",
       "image_alt": "Sağlıklı bir kalp, beslenme ve egzersiz unsurlarıyla korunan bir kalkanla tasvir edilmiştir.",
       "image": {
@@ -742,7 +799,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:sigara-birakma-polikliniklerinde-4-milyon-muayene_20260601",
+      "id": "articles/2026/06:sigara-birakma-polikliniklerinde-4-milyon-muayene_20260601",
       "slug": "sigara-birakma-polikliniklerinde-4-milyon-muayene_20260601",
       "title": "Sigara Bırakma Polikliniklerinde 4 Milyon Muayene Gerçekleştirildi",
       "summary": "Sağlık Bakanlığı'ndan yapılan açıklamada, Türkiye genelindeki 1501 sigara bırakma polikliniğinde bugüne kadar toplam 4 milyonu aşan muayene gerçekleştirildiği bildirildi. \"31 Mayıs Dünya Tütünsüz Günü\" dolayısıyla yapılan açıklamada, sigara bırakma poliklin...",
@@ -753,11 +810,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "01.06.2026",
       "date_iso": "2026-06-01",
       "url": "/articles/2026/06/sigara-birakma-polikliniklerinde-4-milyon-muayene_20260601/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/sigara-birakma-polikliniklerinde-4-milyon-muayene_20260601/",
-      "detail_json_url": "/data/details/articles/sigara-birakma-polikliniklerinde-4-milyon-muayene_20260601.json",
+      "detail_json_url": "/data/details/articles/2026/06/sigara-birakma-polikliniklerinde-4-milyon-muayene_20260601.json",
       "image_url": "https://images.unsplash.com/photo-1606377637394-2b0a8506038d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHwxNTAxJTIwc2lnYXJhJTIwYiVDNCVCMXJha21hJTIwcG9saWtsaW5pJUM0JTlGaW5kZSUyMDQlMjBtaWx5b24lMjBtdWF5ZW5lJTIwc2lnYXJhJTIwYiVDNCVCMXJha21hJTIwcG9saWtsaW5pJUM0JTlGaXxlbnwwfDB8fHwxNzgwMzIzNzk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "image_alt": "Bir doktor, sigara bırakma polikliniğinde bir hastayla konuşuyor.",
       "image": {
@@ -776,7 +834,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:trumpin_kirsal_saglik_fonundaki_aciklar_20260522",
+      "id": "articles/2026/05:trumpin_kirsal_saglik_fonundaki_aciklar_20260522",
       "slug": "trumpin_kirsal_saglik_fonundaki_aciklar_20260522",
       "title": "Trump'ın Kırsal Sağlık Fonundaki Açıklar",
       "summary": "Cumhuriyetçiler, kırsal Amerika'ya 50 milyar dolarlık yeni sağlık fonu vaat etti, ancak bu fonun Kuzey Carolina'nın Martin County'deki tek hastanenin yeniden açılmasına yardımcı olmayacağı öngörülüyor. Bu, Trump'ın kırsal sağlık fonundaki açıkları vurguluyo...",
@@ -787,11 +845,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/05",
       "date": "22.05.2026",
       "date_iso": "2026-05-22",
       "url": "/articles/2026/05/trumpin_kirsal_saglik_fonundaki_aciklar_20260522/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/05/trumpin_kirsal_saglik_fonundaki_aciklar_20260522/",
-      "detail_json_url": "/data/details/articles/trumpin_kirsal_saglik_fonundaki_aciklar_20260522.json",
+      "detail_json_url": "/data/details/articles/2026/05/trumpin_kirsal_saglik_fonundaki_aciklar_20260522.json",
       "image_url": "https://images.unsplash.com/photo-1761941077063-d50843a5e62d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxydXJhbCUyMGhvc3BpdGFsfGVufDB8MHx8fDE3Nzk0OTE1NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "image_alt": "Kapalı bir hastane binası",
       "image": {

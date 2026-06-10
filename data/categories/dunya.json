@@ -2,14 +2,50 @@
   "meta": {
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
-    "generated_at": "2026-06-09T00:00:00+00:00",
-    "article_count": 418,
+    "generated_at": "2026-06-10T00:00:00+00:00",
+    "article_count": 426,
     "schema_version": 2,
     "category_slug": "dunya"
   },
   "articles": [
     {
-      "id": "articles:turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609",
+      "id": "articles/2026/06:abd-chagos-adalari-stratejik-plan_20260610",
+      "slug": "abd-chagos-adalari-stratejik-plan_20260610",
+      "title": "ABD'den Chagos Adaları için yeni strateji: Diego Garcia'nın geleceği masada",
+      "summary": "Beyaz Saray, Hint Okyanusu'ndaki stratejik öneme sahip Chagos Adaları ve üzerindeki Diego Garcia üssünün geleceği için İngiltere'den bağımsız yeni senaryolar hazırlıyor. Washington'ın, bölgedeki askeri varlığını güvence altına almak amacıyla Mauritius ile d...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/abd-chagos-adalari-stratejik-plan_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/abd-chagos-adalari-stratejik-plan_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/abd-chagos-adalari-stratejik-plan_20260610.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/abd-chagos-adalari-stratejik-plan_20260610.webp",
+      "image_alt": "Hint Okyanusu'ndaki Diego Garcia askeri üssünün havadan görünümü.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/abd-chagos-adalari-stratejik-plan_20260610.webp",
+        "alt": "Hint Okyanusu'ndaki Diego Garcia askeri üssünün havadan görünümü."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/iran-golgesinde-buyuk-hesaplasma-stratejik-us-alarm-veriyor-bu-tam-bir-derin-devlet-mantigi-43198770",
+      "tags": [
+        "ABD",
+        "Chagos Adaları",
+        "Diego Garcia",
+        "İngiltere",
+        "Hint Okyanusu"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609",
       "slug": "turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609",
       "title": "Türkiye Müze Ziyaretçi Sayısında Avrupa'yı Geride Bıraktı",
       "summary": "Türkiye'de müze ve ören yerlerini ziyaret edenlerin sayısı 2024 yılında bir önceki yıla göre yüzde 12,3 artarak 62,6 milyona ulaştı. Bu büyüme oranıyla Türkiye, Avrupa'nın önde gelen kültür destinasyonlarını geride bırakarak dikkat çekici bir başarıya imza...",
@@ -20,11 +56,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "09.06.2026",
       "date_iso": "2026-06-09",
       "url": "/articles/2026/06/turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609/",
-      "detail_json_url": "/data/details/articles/turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609.json",
+      "detail_json_url": "/data/details/articles/2026/06/turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/turkiye-muze-ziyaretci-sayisi-avrupa-zirvesinde_20260609.webp",
       "image_alt": "Türkiye'deki müze ve ören yerlerini ziyaret eden turistler.",
       "image": {
@@ -43,7 +80,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609",
+      "id": "articles/2026/06:trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609",
       "slug": "trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609",
       "title": "Trump ve Netanyahu Arasında 'İran' Krizi: Washington'da Yeni Yol Ayrımı",
       "summary": "İran'ın Lübnan'daki saldırılara karşılık İsrail'e yönelik başlattığı 24 saatlik savaş, ABD Başkanı Donald Trump ile İsrail Başbakanı Binyamin Netanyahu arasındaki stratejik görüş ayrılıklarını derinleştirdi. Al Jazeera'nin analizine göre, Washington yönetim...",
@@ -54,11 +91,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "09.06.2026",
       "date_iso": "2026-06-09",
       "url": "/articles/2026/06/trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609/",
-      "detail_json_url": "/data/details/articles/trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609.json",
+      "detail_json_url": "/data/details/articles/2026/06/trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/trump-netanyahu-iran-krizi-yeni-yol-ayrimi_20260609.webp",
       "image_alt": "ABD Başkanı Donald Trump ve İsrail Başbakanı Binyamin Netanyahu bir görüşme sırasında.",
       "image": {
@@ -78,7 +116,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:rum-yonetiminin-taciz-iddiasina-turkiye-den-yalanlama_20260609",
+      "id": "articles/2026/06:rum-yonetiminin-taciz-iddiasina-turkiye-den-yalanlama_20260609",
       "slug": "rum-yonetiminin-taciz-iddiasina-turkiye-den-yalanlama_20260609",
       "title": "Rum yönetiminin 'taciz' iddiasına Türkiye'den yalanlama",
       "summary": "Güney Kıbrıs Rum Yönetimi'nin, Yunanistan ve diğer Avrupa ülkeleri heyetlerini taşıyan uçaklara Türk F-16'ları tarafından taciz yapıldığı yönündeki iddiaları, İletişim Başkanlığı Dezenformasyonla Mücadele Merkezi tarafından yalanlandı.",
@@ -89,11 +127,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "09.06.2026",
       "date_iso": "2026-06-09",
       "url": "/articles/2026/06/rum-yonetiminin-taciz-iddiasina-turkiye-den-yalanlama_20260609/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/rum-yonetiminin-taciz-iddiasina-turkiye-den-yalanlama_20260609/",
-      "detail_json_url": "/data/details/articles/rum-yonetiminin-taciz-iddiasina-turkiye-den-yalanlama_20260609.json",
+      "detail_json_url": "/data/details/articles/2026/06/rum-yonetiminin-taciz-iddiasina-turkiye-den-yalanlama_20260609.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/rum-yonetiminin-taciz-iddiasina-turkiye-den-yalanlama_20260609.webp",
       "image_alt": "Kıbrıs hava sahasında uçuş yapan Türk F-16 uçağı.",
       "image": {
@@ -113,7 +152,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:laboratuvarda-nukleer-patlama-simulasyonu-sezyumun-sasirtan-davranisi_20260609",
+      "id": "articles/2026/06:laboratuvarda-nukleer-patlama-simulasyonu-sezyumun-sasirtan-davranisi_20260609",
       "slug": "laboratuvarda-nukleer-patlama-simulasyonu-sezyumun-sasirtan-davranisi_20260609",
       "title": "Laboratuvarda Nükleer Patlama Simülasyonu: Sezyumun Şaşırtan Davranışı",
       "summary": "ABD'deki Lawrence Livermore Ulusal Laboratuvarı'ndan araştırmacılar, yüksek sıcaklıklı bir plazma tüpü kullanarak nükleer bir ateş topunu laboratuvar ortamında simüle etti. Deneyde, nükleer serpintiye dair yerleşik teorileri sarsan bulgulara ulaşıldı.",
@@ -124,11 +163,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "09.06.2026",
       "date_iso": "2026-06-09",
       "url": "/articles/2026/06/laboratuvarda-nukleer-patlama-simulasyonu-sezyumun-sasirtan-davranisi_20260609/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/laboratuvarda-nukleer-patlama-simulasyonu-sezyumun-sasirtan-davranisi_20260609/",
-      "detail_json_url": "/data/details/articles/laboratuvarda-nukleer-patlama-simulasyonu-sezyumun-sasirtan-davranisi_20260609.json",
+      "detail_json_url": "/data/details/articles/2026/06/laboratuvarda-nukleer-patlama-simulasyonu-sezyumun-sasirtan-davranisi_20260609.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/laboratuvarda-nukleer-patlama-simulasyonu-sezyumun-sasirtan-davranisi_20260609.webp",
       "image_alt": "Laboratuvar ortamında gerçekleştirilen plazma akış deneyi.",
       "image": {
@@ -148,7 +188,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608",
+      "id": "articles/2026/06:ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608",
       "slug": "ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608",
       "title": "Ermenistan'dan Türkiye ile normalleşme mesajı: Somut ilerleme beklentisi",
       "summary": "Ermenistan Dışişleri Bakanı Ararat Mirzoyan, Türkiye ile yürütülen normalleşme sürecine ilişkin değerlendirmelerde bulundu. Mirzoyan, yakın gelecekte ilişkilerin tam normalleşmesi konusunda somut ilerlemeler kaydedileceğine dair inancını dile getirdi.",
@@ -159,11 +199,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "08.06.2026",
       "date_iso": "2026-06-08",
       "url": "/articles/2026/06/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608/",
-      "detail_json_url": "/data/details/articles/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608.json",
+      "detail_json_url": "/data/details/articles/2026/06/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608.webp",
       "image_alt": "Ermenistan Dışişleri Bakanı Ararat Mirzoyan meclis toplantısında konuşma yaparken.",
       "image": {
@@ -183,7 +224,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:cin-lideri-si-kuzey-kore-ziyareti_20260608",
+      "id": "articles/2026/06:cin-lideri-si-kuzey-kore-ziyareti_20260608",
       "slug": "cin-lideri-si-kuzey-kore-ziyareti_20260608",
       "title": "Çin lideri Şi'den Kuzey Kore'ye kritik ziyaret",
       "summary": "Çin Devlet Başkanı Şi Cinping, Kovid-19 salgını öncesindeki 2019 yılından bu yana ilk kez Kuzey Kore'ye resmi bir ziyaret gerçekleştiriyor. 7 yıl aradan sonra Pyongyang'a ulaşan Şi, iki gün sürecek temasları kapsamında Kuzey Kore lideri Kim Jong-un ile bir...",
@@ -194,11 +235,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "08.06.2026",
       "date_iso": "2026-06-08",
       "url": "/articles/2026/06/cin-lideri-si-kuzey-kore-ziyareti_20260608/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/cin-lideri-si-kuzey-kore-ziyareti_20260608/",
-      "detail_json_url": "/data/details/articles/cin-lideri-si-kuzey-kore-ziyareti_20260608.json",
+      "detail_json_url": "/data/details/articles/2026/06/cin-lideri-si-kuzey-kore-ziyareti_20260608.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/cin-lideri-si-kuzey-kore-ziyareti_20260608.webp",
       "image_alt": "Çin Devlet Başkanı Şi Cinping ve Kuzey Kore lideri Kim Jong-un bir araya geliyor.",
       "image": {
@@ -218,7 +260,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:bati-seriada-israil-baskinlari-evler-yikildi-su-sebekeleri-tahrip-edildi_20260608",
+      "id": "articles/2026/06:bati-seriada-israil-baskinlari-evler-yikildi-su-sebekeleri-tahrip-edildi_20260608",
       "slug": "bati-seriada-israil-baskinlari-evler-yikildi-su-sebekeleri-tahrip-edildi_20260608",
       "title": "Batı Şeria'da İsrail baskınları: Evler yıkıldı, su şebekeleri tahrip edildi",
       "summary": "İsrail ordusu, Batı Şeria'nın Kalkas beldesinde Filistinlilere ait bir evi ve marangoz atölyesini yıktı, çok sayıda ağacı söktü. Aynı dönemde Beytüllahim yakınlarında ise su şebekeleri ve kuyular tahrip edildi.",
@@ -229,11 +271,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "08.06.2026",
       "date_iso": "2026-06-08",
       "url": "/articles/2026/06/bati-seriada-israil-baskinlari-evler-yikildi-su-sebekeleri-tahrip-edildi_20260608/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/bati-seriada-israil-baskinlari-evler-yikildi-su-sebekeleri-tahrip-edildi_20260608/",
-      "detail_json_url": "/data/details/articles/bati-seriada-israil-baskinlari-evler-yikildi-su-sebekeleri-tahrip-edildi_20260608.json",
+      "detail_json_url": "/data/details/articles/2026/06/bati-seriada-israil-baskinlari-evler-yikildi-su-sebekeleri-tahrip-edildi_20260608.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/bati-seriada-israil-baskinlari-evler-yikildi-su-sebekeleri-tahrip-edildi_20260608.webp",
       "image_alt": "İsrail ordusunun yıktığı bir Filistin evi ve çevresindeki enkaz.",
       "image": {
@@ -253,7 +296,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:ermenistan-parlamento-secimi-yarin_20260607",
+      "id": "articles/2026/06:ermenistan-parlamento-secimi-yarin_20260607",
       "slug": "ermenistan-parlamento-secimi-yarin_20260607",
       "title": "Ermenistan'da Yarın Parlamento Seçimi Yapılacak",
       "summary": "Ermenistan'da halk, yarın düzenlenecek parlamento seçimlerinde oy kullanacak. Yaklaşık 3 milyon nüfusa sahip ülkede, 2 milyon 485 bin 232 kayıtlı seçmen bulunuyor. Seçimler öncesinde Rusya yanlısı \"Güçlü Ermenistan\" hareketine üye 6 aday gözaltına alındı. A...",
@@ -264,11 +307,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "07.06.2026",
       "date_iso": "2026-06-07",
       "url": "/articles/2026/06/ermenistan-parlamento-secimi-yarin_20260607/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/ermenistan-parlamento-secimi-yarin_20260607/",
-      "detail_json_url": "/data/details/articles/ermenistan-parlamento-secimi-yarin_20260607.json",
+      "detail_json_url": "/data/details/articles/2026/06/ermenistan-parlamento-secimi-yarin_20260607.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/ermenistan-parlamento-secimi-yarin_20260607.webp",
       "image_alt": "Ermenistan parlamento seçimleri öncesi oy sandığı ve bayrak görseli.",
       "image": {
@@ -287,7 +331,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:zelenskiy-putin-gorusme-cagrisi-red_20260606",
+      "id": "articles/2026/06:zelenskiy-putin-gorusme-cagrisi-red_20260606",
       "slug": "zelenskiy-putin-gorusme-cagrisi-red_20260606",
       "title": "Zelenskiy'den Putin'e Mektup: Görüşelim, Putin'den Yanıt: Manası Yok",
       "summary": "Ukrayna Devlet Başkanı Volodimir Zelenskiy, Rusya Devlet Başkanı Vladimir Putin'e açık bir mektup yazarak yüz yüze görüşme ve tam kapsamlı ateşkes önerisinde bulundu. Zelenskiy'nin bu çağrısına yanıt veren Putin ise mevcut koşullarda böyle bir görüşmenin 'a...",
@@ -298,11 +342,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "06.06.2026",
       "date_iso": "2026-06-06",
       "url": "/articles/2026/06/zelenskiy-putin-gorusme-cagrisi-red_20260606/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/zelenskiy-putin-gorusme-cagrisi-red_20260606/",
-      "detail_json_url": "/data/details/articles/zelenskiy-putin-gorusme-cagrisi-red_20260606.json",
+      "detail_json_url": "/data/details/articles/2026/06/zelenskiy-putin-gorusme-cagrisi-red_20260606.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/zelenskiy-putin-gorusme-cagrisi-red_20260606.webp",
       "image_alt": "Zelenskiy'den Putin'e mektup ve Putin'den yanıt.",
       "image": {
@@ -322,7 +367,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:raul-castro-30-yil-sonra-halkin-karsisina-cikti_20260606",
+      "id": "articles/2026/06:raul-castro-30-yil-sonra-halkin-karsisina-cikti_20260606",
       "slug": "raul-castro-30-yil-sonra-halkin-karsisina-cikti_20260606",
       "title": "Raul Castro 30 Yıl Sonra İlk Kez Halkın Karşısına Çıktı",
       "summary": "Eski Küba Devlet Başkanı Raul Castro, 1996'daki uçak düşürme olayıyla ilgili ABD'de hakkında açılan ceza davasının ardından 30 yıl sonra ilk kez kamuoyu önüne çıktı. Castro, başkent Havana'da düzenlenen 95. yaş günü töreninde yer alırken, mesajını İçişleri...",
@@ -333,11 +378,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "06.06.2026",
       "date_iso": "2026-06-06",
       "url": "/articles/2026/06/raul-castro-30-yil-sonra-halkin-karsisina-cikti_20260606/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/raul-castro-30-yil-sonra-halkin-karsisina-cikti_20260606/",
-      "detail_json_url": "/data/details/articles/raul-castro-30-yil-sonra-halkin-karsisina-cikti_20260606.json",
+      "detail_json_url": "/data/details/articles/2026/06/raul-castro-30-yil-sonra-halkin-karsisina-cikti_20260606.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/raul-castro-30-yil-sonra-halkin-karsisina-cikti_20260606.webp",
       "image_alt": "Raul Castro 30 Yıl Sonra İlk Kez Halkın Karşısına Çıktı",
       "image": {
@@ -357,7 +403,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:kuzey-kore-10-bin-tonluk-savas-gemisi_20260606",
+      "id": "articles/2026/06:kuzey-kore-10-bin-tonluk-savas-gemisi_20260606",
       "slug": "kuzey-kore-10-bin-tonluk-savas-gemisi_20260606",
       "title": "Kuzey Kore'den 10 Bin Tonluk Dev Savaş Gemisi Hamlesi",
       "summary": "Kuzey Kore yönetimi, 10 bin tonluk yeni bir destroyer inşa etme ve gizli su altı silah sistemleri geliştirme planlarını duyurdu. Bu, ülkenin ilk kez bu büyüklükte bir destroyer inşa etme planı olarak kayıtlara geçecek. Lider Kim Jong Un, donanmaya yeni sava...",
@@ -368,11 +414,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "06.06.2026",
       "date_iso": "2026-06-06",
       "url": "/articles/2026/06/kuzey-kore-10-bin-tonluk-savas-gemisi_20260606/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/kuzey-kore-10-bin-tonluk-savas-gemisi_20260606/",
-      "detail_json_url": "/data/details/articles/kuzey-kore-10-bin-tonluk-savas-gemisi_20260606.json",
+      "detail_json_url": "/data/details/articles/2026/06/kuzey-kore-10-bin-tonluk-savas-gemisi_20260606.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/kuzey-kore-10-bin-tonluk-savas-gemisi_20260606.webp",
       "image_alt": "Kuzey Kore'nin 10 bin tonluk yeni savaş gemisi destroyerinin denizde ilerleyişi.",
       "image": {
@@ -392,7 +439,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605",
+      "id": "articles/2026/06:iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605",
       "slug": "iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605",
       "title": "İran'ın 'Sessiz Zaferi': Hürmüz Boğazı Üzerindeki Etkisi Yeni Bir Nükleer Seçenek Haline Geldi",
       "summary": "Hürriyet'in haberine göre, son çatışmaların ardından İran, Hürmüz Boğazı'nı kapatma kapasitesini uluslararası kamuoyuna göstererek sessiz ama son derece önemli bir kazanım elde etti. Eurasia Group kıdemli analisti Gregory Brew, bu durumu Tahran için adeta y...",
@@ -403,11 +450,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "05.06.2026",
       "date_iso": "2026-06-05",
       "url": "/articles/2026/06/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605/",
-      "detail_json_url": "/data/details/articles/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605.json",
+      "detail_json_url": "/data/details/articles/2026/06/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605.webp",
       "image_alt": "İran'ın 'Sessiz Zaferi': Hürmüz Boğazı Üzerindeki Etkisi Yeni Bir Nükleer Seçenek Haline Geldi",
       "image": {
@@ -427,7 +475,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604",
+      "id": "articles/2026/06:trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604",
       "slug": "trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604",
       "title": "Trump'tan Savaş Tehdidi, İran'dan Beyrut İçin Kırmızı Çizgi",
       "summary": "ABD Başkanı Donald Trump, bir ABD askeri personelinin öldürülmesinin savaşa geri dönülmesine güçlü bir neden olacağını ve hızlı karşılık vereceğini belirtti. İran Dışişleri Bakanı Abbas Arakçi ise, Beyrut'a yönelik herhangi bir saldırının ciddi sonuçlar doğ...",
@@ -438,11 +486,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "04.06.2026",
       "date_iso": "2026-06-04",
       "url": "/articles/2026/06/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604/",
-      "detail_json_url": "/data/details/articles/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604.json",
+      "detail_json_url": "/data/details/articles/2026/06/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604.webp",
       "image_alt": "Trump'tan Savaş Tehdidi, İran'dan Beyrut İçin Kırmızı Çizgi",
       "image": {
@@ -464,7 +513,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604",
+      "id": "articles/2026/06:israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604",
       "slug": "israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604",
       "title": "İsrail'in Lübnan Saldırılarında Can Kaybı 12'ye Yükseldi",
       "summary": "İsrail ordusunun Lübnan'ın güneyine yönelik hava saldırıları devam ederken, ateşkese rağmen gerçekleştirilen bu saldırılarda hayatını kaybedenlerin sayısı 12'ye yükseldi. Lübnan resmi ajansı NNA'nın bildirdiğine göre, Sur ve Nebatiye kentlerine bağlı beldel...",
@@ -475,11 +524,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "04.06.2026",
       "date_iso": "2026-06-04",
       "url": "/articles/2026/06/israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604/",
-      "detail_json_url": "/data/details/articles/israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604.json",
+      "detail_json_url": "/data/details/articles/2026/06/israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604.webp",
       "image_alt": "İsrail'in hava saldırıları sonrası Lübnan'ın güneyindeki bir kasabada hasar görmüş binalar ve enkaz.",
       "image": {
@@ -502,7 +552,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604",
+      "id": "articles/2026/06:finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604",
       "slug": "finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604",
       "title": "Finlandiya Cumhurbaşkanı Stubb'dan AB'de Türkiye Çıkışı: 'Ciddi Düşünmeliyiz'",
       "summary": "Finlandiya Cumhurbaşkanı Stubb, Helsinki'de düzenlenen bir konferansta Avrupa Birliği'nin (AB) 40 üyeye genişlemesi gerektiğini savundu. Stubb, Türkiye'yi potansiyel üye adayları arasında göstererek, \"Türkiye'yi de ciddi olarak düşünmemiz gerekiyor. Güvenli...",
@@ -513,11 +563,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "04.06.2026",
       "date_iso": "2026-06-04",
       "url": "/articles/2026/06/finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604/",
-      "detail_json_url": "/data/details/articles/finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604.json",
+      "detail_json_url": "/data/details/articles/2026/06/finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/finlandiya-cumhurbaskani-stubbdan-abde-turkiye-cikisi-ciddi-dusunmeliyiz_20260604.webp",
       "image_alt": "Finlandiya Cumhurbaşkanı Stubb'dan AB'de Türkiye Çıkışı: 'Ciddi Düşünmeliyiz'",
       "image": {
@@ -538,7 +589,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:ankara-nato-zirvesi-trump-ziyareti-guvenlik-operasyonu_20260604",
+      "id": "articles/2026/06:ankara-nato-zirvesi-trump-ziyareti-guvenlik-operasyonu_20260604",
       "slug": "ankara-nato-zirvesi-trump-ziyareti-guvenlik-operasyonu_20260604",
       "title": "Ankara'da NATO Zirvesi: Trump'ın Ziyareti Büyük Güvenlik Operasyonu Başlattı",
       "summary": "ABD Başkanı Donald Trump'ın 7-8 Temmuz'daki NATO Zirvesi için Ankara'ya yapacağı ziyaret, başkentte devasa bir güvenlik ve lojistik operasyonunu tetikledi. Zirve hazırlıkları kapsamında kamu personelinin idari izinli sayılacağı ve birçok etkinliğin iptal ed...",
@@ -549,11 +600,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "04.06.2026",
       "date_iso": "2026-06-04",
       "url": "/articles/2026/06/ankara-nato-zirvesi-trump-ziyareti-guvenlik-operasyonu_20260604/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/ankara-nato-zirvesi-trump-ziyareti-guvenlik-operasyonu_20260604/",
-      "detail_json_url": "/data/details/articles/ankara-nato-zirvesi-trump-ziyareti-guvenlik-operasyonu_20260604.json",
+      "detail_json_url": "/data/details/articles/2026/06/ankara-nato-zirvesi-trump-ziyareti-guvenlik-operasyonu_20260604.json",
       "image_url": "https://mansetradar.com.tr/articles/images/pexels-sides-imagery-32874353.jpg",
       "image_alt": "Ankara'da NATO Zirvesi: Trump'ın Ziyareti Büyük Güvenlik Operasyonu Başlattı",
       "image": {
@@ -574,7 +626,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603",
+      "id": "articles/2026/06:trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603",
       "slug": "trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603",
       "title": "Trump: İran'la Müzakereler Çok İyi Gidiyor, Anlaşma Hafta Sonu Olabilir",
       "summary": "ABD Başkanı Donald Trump, İran ile müzakerelerin \"çok çok iyi gittiğini\" ve bir anlaşmanın bu hafta sonu sağlanabileceğini belirtti. Trump, anlaşma durumunda İran'ın nükleer silah geliştirmemeyi kabul edeceğini vurguladı. Ayrıca İsrail-Lübnan gerilimini \"ko...",
@@ -585,11 +637,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "03.06.2026",
       "date_iso": "2026-06-03",
       "url": "/articles/2026/06/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603/",
-      "detail_json_url": "/data/details/articles/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603.json",
+      "detail_json_url": "/data/details/articles/2026/06/trump-iran-muzakereleri-hurmuz-bogazi-israil-lubnan_20260603.json",
       "image_url": "https://images.pexels.com/photos/29178431/pexels-photo-29178431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "image_alt": "ABD Başkanı Donald Trump, Oval Ofis'te basın mensuplarına açıklama yaparken görülüyor.",
       "image": {
@@ -610,7 +663,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603",
+      "id": "articles/2026/06:gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603",
       "slug": "gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603",
       "title": "Gazze Barış Planı Uygulanmadı, Vaat Edilen Bağışlar Yapılmadı",
       "summary": "ABD Başkanı Donald Trump'ın damadı Jared Kushner tarafından açıklanan Gazze barış planının üzerinden 7 ay geçmesine rağmen hala uygulamaya konulamadığı bildirildi. Plan kapsamında Gazze için vadedilen bağışların da yapılmadığı belirtildi. Planın önemli bir...",
@@ -621,11 +674,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "03.06.2026",
       "date_iso": "2026-06-03",
       "url": "/articles/2026/06/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603/",
-      "detail_json_url": "/data/details/articles/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603.json",
+      "detail_json_url": "/data/details/articles/2026/06/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/gazze-baris-plani-uygulanmadi-vadedilen-bagislar-yapilmadi_20260603.webp",
       "image_alt": "Gazze Şeridi'nin hava görünümü, hasarlı binalar ve çadırlar, devam eden insani krizi ve durmuş barış çabalarını sembolize...",
       "image": {
@@ -646,7 +700,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603",
+      "id": "articles/2026/06:abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603",
       "slug": "abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603",
       "title": "ABD'de Banka Soygunu Girişimi: Rehine Krizi ve FBI Operasyonu",
       "summary": "ABD'nin California eyaletine bağlı Bakersfield kentinde bir Chase Bank şubesinde salı günü yerel saatle 13.00 sıralarında bomba tehdidi ve rehine krizi yaşandı. Olay yerine çok sayıda güvenlik gücü sevk edilirken, FBI ajanları da operasyona dahil oldu. Kriz...",
@@ -657,11 +711,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "03.06.2026",
       "date_iso": "2026-06-03",
       "url": "/articles/2026/06/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603/",
-      "detail_json_url": "/data/details/articles/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603.json",
+      "detail_json_url": "/data/details/articles/2026/06/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/abd-california-bakersfield-banka-soygunu-rehine-krizi-fbi_20260603.webp",
       "image_alt": "California'daki bir Chase Bank şubesinin çevresinde konuşlanmış polis, FBI ve acil müdahale ekipleri, geniş güvenlik...",
       "image": {
@@ -682,7 +737,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:pankreas-kanseri-tedavisinde-cigir-acyan-yeni-ilac-daraxonrasib_20260602",
+      "id": "articles/2026/06:pankreas-kanseri-tedavisinde-cigir-acyan-yeni-ilac-daraxonrasib_20260602",
       "slug": "pankreas-kanseri-tedavisinde-cigir-acyan-yeni-ilac-daraxonrasib_20260602",
       "title": "Pankreas Kanseri Tedavisinde Çığır Açan Yeni İlaç: Daraxonrasib",
       "summary": "Pankreas kanseri tedavisinde son yılların en dikkat çekici gelişmelerinden biri duyuruldu. Dünyanın en büyük kanser kongresi olan Amerikan Klinik Onkoloji Derneği toplantısında, tıp dünyasında çığır açacak bir pankreas kanseri ilacının Faz-3 sonuçları açıkl...",
@@ -693,11 +748,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "02.06.2026",
       "date_iso": "2026-06-02",
       "url": "/articles/2026/06/pankreas-kanseri-tedavisinde-cigir-acyan-yeni-ilac-daraxonrasib_20260602/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/pankreas-kanseri-tedavisinde-cigir-acyan-yeni-ilac-daraxonrasib_20260602/",
-      "detail_json_url": "/data/details/articles/pankreas-kanseri-tedavisinde-cigir-acyan-yeni-ilac-daraxonrasib_20260602.json",
+      "detail_json_url": "/data/details/articles/2026/06/pankreas-kanseri-tedavisinde-cigir-acyan-yeni-ilac-daraxonrasib_20260602.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/pankreas-kanseri-tedavisinde-cigir-acyan-yeni-ilac-daraxonrasib_20260602.webp",
       "image_alt": "Daraxonrasib adlı akıllı ilacın Kras gen mutasyonu üzerindeki etkisini gösteren bilimsel bir illüstrasyon.",
       "image": {
@@ -717,7 +773,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:erdogan-irana-karsi-pkk-hamlesini-engelledi-israilli-eski-istihbaratci-acikladi_20260602",
+      "id": "articles/2026/06:erdogan-irana-karsi-pkk-hamlesini-engelledi-israilli-eski-istihbaratci-acikladi_20260602",
       "slug": "erdogan-irana-karsi-pkk-hamlesini-engelledi-israilli-eski-istihbaratci-acikladi_20260602",
       "title": "İsrailli Eski İstihbaratçı: Erdoğan, İran'a Karşı PKK Hamlesini Engelledi",
       "summary": "İsrail ordusu eski İstihbarat Dairesi (AMAN) Başkanı Emekli Tümgeneral Tamir Hayman, ABD ve İsrail'in, aralarında terör örgütü PKK uzantılarının da bulunduğu bazı grupları İran'a saldırtma planının, Cumhurbaşkanı Recep Tayyip Erdoğan'ın ABD Başkanı Donald T...",
@@ -728,11 +784,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "02.06.2026",
       "date_iso": "2026-06-02",
       "url": "/articles/2026/06/erdogan-irana-karsi-pkk-hamlesini-engelledi-israilli-eski-istihbaratci-acikladi_20260602/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/erdogan-irana-karsi-pkk-hamlesini-engelledi-israilli-eski-istihbaratci-acikladi_20260602/",
-      "detail_json_url": "/data/details/articles/erdogan-irana-karsi-pkk-hamlesini-engelledi-israilli-eski-istihbaratci-acikladi_20260602.json",
+      "detail_json_url": "/data/details/articles/2026/06/erdogan-irana-karsi-pkk-hamlesini-engelledi-israilli-eski-istihbaratci-acikladi_20260602.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/erdogan-irana-karsi-pkk-hamlesini-engelledi-israilli-eski-istihbaratci-acikladi_20260602.webp",
       "image_alt": "İran haritası üzerinde PKK ve diğer grupları temsil eden gölgeli figürler. Cumhurbaşkanı Erdoğan, Donald Trump ve İsrail'i...",
       "image": {
@@ -753,7 +810,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:abd-hurmuz-bogazinda-tankeri-vurdu_20260602",
+      "id": "articles/2026/06:abd-hurmuz-bogazinda-tankeri-vurdu_20260602",
       "slug": "abd-hurmuz-bogazinda-tankeri-vurdu_20260602",
       "title": "ABD, Hürmüz Boğazı'nda Ablukayı Aşmaya Çalışan Tankeri Vurdu",
       "summary": "ABD Merkez Kuvvetler Komutanlığı (CENTCOM), Hürmüz Boğazı'nda uluslararası sularda seyreden Botsvana bayraklı \"M/T Lexie\" adlı petrol tankerini vurduğunu açıkladı. CENTCOM, tankerin \"abluka tedbirleri\" uygulandığını ve mürettebatının ABD güçlerinin talimatl...",
@@ -764,11 +821,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "02.06.2026",
       "date_iso": "2026-06-02",
       "url": "/articles/2026/06/abd-hurmuz-bogazinda-tankeri-vurdu_20260602/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/abd-hurmuz-bogazinda-tankeri-vurdu_20260602/",
-      "detail_json_url": "/data/details/articles/abd-hurmuz-bogazinda-tankeri-vurdu_20260602.json",
+      "detail_json_url": "/data/details/articles/2026/06/abd-hurmuz-bogazinda-tankeri-vurdu_20260602.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/abd-hurmuz-bogazinda-tankeri-vurdu_20260602.webp",
       "image_alt": "Botsvana bayraklı petrol tankeri Hürmüz Boğazı'nda vuruldu.",
       "image": {
@@ -789,7 +847,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601",
+      "id": "articles/2026/06:iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601",
       "slug": "iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601",
       "title": "İran, Hürmüz Boğazı'ndan Geçiş İzinleri İstatistiklerini Paylaştı",
       "summary": "İran, Hürmüz Boğazı'ndan geçiş izni başvurusunda bulunan 300'den fazla gemiyle ilgili güncel istatistikleri yayımladı. Nisan ayından bu yana yapılan başvuruların büyük çoğunluğunu petrol tankerleri oluştururken, gemilerin nihai varış noktaları ve türleri ha...",
@@ -800,11 +858,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "01.06.2026",
       "date_iso": "2026-06-01",
       "url": "/articles/2026/06/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601/",
-      "detail_json_url": "/data/details/articles/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601.json",
+      "detail_json_url": "/data/details/articles/2026/06/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/iran-hurmuz-bogazindan-gecis-izinleri-istatistikleri_20260601.webp",
       "image_alt": "Hürmüz Boğazı'nda seyreden çeşitli gemilerin hava görünümü.",
       "image": {
@@ -824,7 +883,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601",
+      "id": "articles/2026/06:abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601",
       "slug": "abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601",
       "title": "ABD'yi Sarsan Göktaşı Patlaması: 300 Ton TNT'ye Eşdeğer Enerji Açığa Çıktı",
       "summary": "ABD'nin kuzeydoğusunda cumartesi günü yerel saatle 14.06'da atmosfere giren bir göktaşı, Massachusetts'in kuzeydoğusu ile New Hampshire'ın güneydoğusu üzerinde parçalandı. NASA'ya göre, parçalanma sırasında saatte 120 bin kilometreden fazla hızla ilerleyen...",
@@ -835,11 +894,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "01.06.2026",
       "date_iso": "2026-06-01",
       "url": "/articles/2026/06/abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601/",
-      "detail_json_url": "/data/details/articles/abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601.json",
+      "detail_json_url": "/data/details/articles/2026/06/abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601.json",
       "image_url": "https://mansetradar.com.tr/articles/images/pexels-pixabay-39896.jpg",
       "image_alt": "ABD'nin kuzeydoğusunda gökyüzünde parlak bir iz bırakan göktaşı.",
       "image": {
@@ -858,7 +918,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601",
+      "id": "articles/2026/06:15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601",
       "slug": "15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601",
       "title": "15 Yılda 170 Kez Kanseri Yenen Adam Tıp Dünyasını Hayrete Düşürdü",
       "summary": "47 yaşındaki Sean Breininger, 15 yıl içinde 170 kez kanseri yenerek tıp dünyasını hayrete düşürdü. Boğaz, dil, mesane, yemek borusu, ağız ve cilt kanserleri dahil olmak üzere çok sayıda farklı türle mücadele eden Breininger'e 2011'de genetik Fanconi anemisi...",
@@ -869,11 +929,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
       "date": "01.06.2026",
       "date_iso": "2026-06-01",
       "url": "/articles/2026/06/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601/",
-      "detail_json_url": "/data/details/articles/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601.json",
+      "detail_json_url": "/data/details/articles/2026/06/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/06/images/15-yilda-170-kez-kanseri-yenen-adam-tip-dunyasini-sasirtti_20260601.webp",
       "image_alt": "15 Yılda 170 Kez Kanseri Yenen Adam Tıp Dünyasını Hayrete Düşürdü",
       "image": {
@@ -893,7 +954,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:nato_disisleri_bakanlari_isvecte_kritik_toplantida_ukrayna_ve_abd_askerleri_gund_20260521",
+      "id": "articles/2026/05:nato_disisleri_bakanlari_isvecte_kritik_toplantida_ukrayna_ve_abd_askerleri_gund_20260521",
       "slug": "nato_disisleri_bakanlari_isvecte_kritik_toplantida_ukrayna_ve_abd_askerleri_gund_20260521",
       "title": "NATO Dışişleri Bakanları İsveç'te Kritik Toplantıda: Ukrayna ve ABD Askerleri Gündemde",
       "summary": "NATO Dışişleri Bakanları, İsveç'in Helsingborg kentinde iki günlük kritik bir toplantı için bir araya geldi. Görüşmelerde, Ukrayna'ya yönelik devam eden destek ve Avrupa'daki ABD askerlerinin stratejik geleceği ele alınarak, Avrupa ve transatlantik güvenliğ...",
@@ -904,11 +965,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/05",
       "date": "21.05.2026",
       "date_iso": "2026-05-21",
       "url": "/articles/2026/05/nato_disisleri_bakanlari_isvecte_kritik_toplantida_ukrayna_ve_abd_askerleri_gund_20260521/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/05/nato_disisleri_bakanlari_isvecte_kritik_toplantida_ukrayna_ve_abd_askerleri_gund_20260521/",
-      "detail_json_url": "/data/details/articles/nato_disisleri_bakanlari_isvecte_kritik_toplantida_ukrayna_ve_abd_askerleri_gund_20260521.json",
+      "detail_json_url": "/data/details/articles/2026/05/nato_disisleri_bakanlari_isvecte_kritik_toplantida_ukrayna_ve_abd_askerleri_gund_20260521.json",
       "image_url": "https://images.unsplash.com/photo-1745774941054-7fb1fd0e841a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxOQVRPLVRyZWZmZW58ZW58MHwwfHx8MTc3OTM4NzEwOHww&ixlib=rb-4.1.0&q=80&w=1080",
       "image_alt": "NATO Dışişleri Bakanları, İsveç'in Helsingborg kentinde Ukrayna'ya destek ve Avrupa'daki ABD askerlerinin geleceğini...",
       "image": {
@@ -931,7 +993,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:israil-istanbul-konsoloslugu-kapatma-tartismasi_20260521",
+      "id": "articles/2026/05:israil-istanbul-konsoloslugu-kapatma-tartismasi_20260521",
       "slug": "israil-istanbul-konsoloslugu-kapatma-tartismasi_20260521",
       "title": "İsrail, İstanbul'daki Konsolosluğu Kapatmayı Tartışıyor",
       "summary": "İsrail, Türkiye ile diplomatik kriz nedeniyle İstanbul Başkonsolosluğu'nu kapatmayı değerlendiriyor. İsrail'in bu kararı alması, iki ülke arasındaki ilişkilerin daha da gerilmesine neden olabilir.",
@@ -942,11 +1004,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/05",
       "date": "21.05.2026",
       "date_iso": "2026-05-21",
       "url": "/articles/2026/05/israil-istanbul-konsoloslugu-kapatma-tartismasi_20260521/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/05/israil-istanbul-konsoloslugu-kapatma-tartismasi_20260521/",
-      "detail_json_url": "/data/details/articles/israil-istanbul-konsoloslugu-kapatma-tartismasi_20260521.json",
+      "detail_json_url": "/data/details/articles/2026/05/israil-istanbul-konsoloslugu-kapatma-tartismasi_20260521.json",
       "image_url": "https://images.unsplash.com/photo-1730196564678-5c7cb13abb22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHwlQzQlQjBzcmFpbCUyMEJheXJhJUM0JTlGJUM0JUIxfGVufDB8MHx8fDE3NzkzNjYyNzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "image_alt": "İsrail ve Türkiye bayrakları",
       "image": {
@@ -966,7 +1029,7 @@
       "review_status": "needs_editorial_review"
     },
     {
-      "id": "articles:abd_eski_kuba_lideri_raúl_castroyu_1996_ucak_dusurme_davasinda_sucladi_20260521",
+      "id": "articles/2026/05:abd_eski_kuba_lideri_raúl_castroyu_1996_ucak_dusurme_davasinda_sucladi_20260521",
       "slug": "abd_eski_kuba_lideri_raúl_castroyu_1996_ucak_dusurme_davasinda_sucladi_20260521",
       "title": "ABD, Eski Küba Lideri Raúl Castro'yu 1996 Uçak Düşürme Davasında Suçladı",
       "summary": "Amerika Birleşik Devletleri, 1996 yılında iki uçağın düşürülmesi olayındaki iddia edilen rolü nedeniyle eski Küba Devlet Başkanı Raúl Castro'yu resmen suçladı. Bu hukuki adım, eski bir devlet başkanına karşı atılan nadir ve önemli bir eylem olarak uluslarar...",
@@ -977,11 +1040,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/05",
       "date": "21.05.2026",
       "date_iso": "2026-05-21",
       "url": "/articles/2026/05/abd_eski_kuba_lideri_raúl_castroyu_1996_ucak_dusurme_davasinda_sucladi_20260521/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/05/abd_eski_kuba_lideri_raúl_castroyu_1996_ucak_dusurme_davasinda_sucladi_20260521/",
-      "detail_json_url": "/data/details/articles/abd_eski_kuba_lideri_raúl_castroyu_1996_ucak_dusurme_davasinda_sucladi_20260521.json",
+      "detail_json_url": "/data/details/articles/2026/05/abd_eski_kuba_lideri_raúl_castroyu_1996_ucak_dusurme_davasinda_sucladi_20260521.json",
       "image_url": "https://mansetradar.com.tr/news/articles/images/us-indicts-raul-castro-1996-plane-downing_20260521.webp",
       "image_alt": "Eski Küba Devlet Başkanı Raúl Castro'nun ABD tarafından 1996 uçak düşürme davasında suçlanmasını simgeleyen, adalet temalı...",
       "image": {
@@ -1004,7 +1068,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:trumpin_18_milyar_dolarlik_fon_anlasmasi_anayasal_sinirlari_zorluyor_20260520",
+      "id": "articles/2026/05:trumpin_18_milyar_dolarlik_fon_anlasmasi_anayasal_sinirlari_zorluyor_20260520",
       "slug": "trumpin_18_milyar_dolarlik_fon_anlasmasi_anayasal_sinirlari_zorluyor_20260520",
       "title": "Trump'ın 1.8 Milyar Dolarlık Fon Anlaşması Anayasal Sınırları Zorluyor",
       "summary": "ABD Başkanı'nın, Kongre tarafından oluşturulan ve daha önce hukuki uzmanlar tarafından manipülasyona açık olduğu uyarısı yapılan bir mekanizmayı kullanarak, kendi astlarıyla 1.8 milyar dolarlık bir fon anlaşmasına girmesi, mevcut anayasal sınırları zorluyor.",
@@ -1015,11 +1079,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/05",
       "date": "20.05.2026",
       "date_iso": "2026-05-20",
       "url": "/articles/2026/05/trumpin_18_milyar_dolarlik_fon_anlasmasi_anayasal_sinirlari_zorluyor_20260520/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/05/trumpin_18_milyar_dolarlik_fon_anlasmasi_anayasal_sinirlari_zorluyor_20260520/",
-      "detail_json_url": "/data/details/articles/trumpin_18_milyar_dolarlik_fon_anlasmasi_anayasal_sinirlari_zorluyor_20260520.json",
+      "detail_json_url": "/data/details/articles/2026/05/trumpin_18_milyar_dolarlik_fon_anlasmasi_anayasal_sinirlari_zorluyor_20260520.json",
       "image_url": "https://images.unsplash.com/photo-1676181739859-08330dea8999?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxHYXZlbHxlbnwwfDB8fHwxNzc5MzA4OTg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "image_alt": "ABD Başkanı'nın 1.8 milyar dolarlık fon anlaşması ve anayasal sınırları zorlayan sembolik bir görsel.",
       "image": {
@@ -1042,7 +1107,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:israilin_lubnan_saldirilarinda_en_az_19_kisi_hayatini_kaybetti_20260520",
+      "id": "articles/2026/05:israilin_lubnan_saldirilarinda_en_az_19_kisi_hayatini_kaybetti_20260520",
       "slug": "israilin_lubnan_saldirilarinda_en_az_19_kisi_hayatini_kaybetti_20260520",
       "title": "İsrail'in Lübnan Saldırılarında En Az 19 Kişi Hayatını Kaybetti",
       "summary": "İsrail'in Lübnan'a düzenlediği son saldırılarda, Lübnan kaynaklarına göre en az 19 kişi hayatını kaybetti. Bu olaylar, İsrail'in daha önce bazı köylerin sakinlerini tahliye etmeye çağırmasının ardından, İsrail ile Lübnan arasındaki ateşkesin devam eden kırı...",
@@ -1053,11 +1118,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/05",
       "date": "20.05.2026",
       "date_iso": "2026-05-20",
       "url": "/articles/2026/05/israilin_lubnan_saldirilarinda_en_az_19_kisi_hayatini_kaybetti_20260520/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/05/israilin_lubnan_saldirilarinda_en_az_19_kisi_hayatini_kaybetti_20260520/",
-      "detail_json_url": "/data/details/articles/israilin_lubnan_saldirilarinda_en_az_19_kisi_hayatini_kaybetti_20260520.json",
+      "detail_json_url": "/data/details/articles/2026/05/israilin_lubnan_saldirilarinda_en_az_19_kisi_hayatini_kaybetti_20260520.json",
       "image_url": "https://images.unsplash.com/photo-1521327895744-46e309d005b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxMaWJhbm9ufGVufDB8MHx8fDE3NzkzMDE3Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "image_alt": "İsrail saldırısı sonrası Lübnan'da yıkılmış bir köyün havadan görünümü.",
       "image": {
@@ -1080,7 +1146,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:irandan_abdye_orta_dogu_otesi_saldiri_tehdidi_20260520",
+      "id": "articles/2026/05:irandan_abdye_orta_dogu_otesi_saldiri_tehdidi_20260520",
       "slug": "irandan_abdye_orta_dogu_otesi_saldiri_tehdidi_20260520",
       "title": "İran'dan ABD'ye Orta Doğu Ötesi Saldırı Tehdidi",
       "summary": "ABD Başkanı Trump ve Başkan Yardımcısı JD Vance'in bir anlaşmaya doğru ilerleme kaydedildiğini belirtmelerine rağmen, yeni saldırı tehdidinin açık tutulduğu bir dönemde, İran ABD'nin saldırılarını yeniden başlatması halinde Orta Doğu ötesine saldırı düzenle...",
@@ -1091,11 +1157,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/05",
       "date": "20.05.2026",
       "date_iso": "2026-05-20",
       "url": "/articles/2026/05/irandan_abdye_orta_dogu_otesi_saldiri_tehdidi_20260520/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/05/irandan_abdye_orta_dogu_otesi_saldiri_tehdidi_20260520/",
-      "detail_json_url": "/data/details/articles/irandan_abdye_orta_dogu_otesi_saldiri_tehdidi_20260520.json",
+      "detail_json_url": "/data/details/articles/2026/05/irandan_abdye_orta_dogu_otesi_saldiri_tehdidi_20260520.json",
       "image_url": "https://images.unsplash.com/photo-1613930648631-7191115e83d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJcmFufGVufDB8MHx8fDE3NzkyMDczNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "image_alt": "İran ve ABD bayrakları arasında Orta Doğu haritası üzerinde gerilimi gösteren bir görsel",
       "image": {
@@ -1118,7 +1185,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:avusturyada_eski_istihbaratci_rusya_icin_casusluktan_hapis_cezasina_carptirildi_20260520",
+      "id": "articles/2026/05:avusturyada_eski_istihbaratci_rusya_icin_casusluktan_hapis_cezasina_carptirildi_20260520",
       "slug": "avusturyada_eski_istihbaratci_rusya_icin_casusluktan_hapis_cezasina_carptirildi_20260520",
       "title": "Avusturya'da Eski İstihbaratçı Rusya İçin Casusluktan Hapis Cezasına Çarptırıldı",
       "summary": "Avusturya'nın başkenti Viyana'da, eski bir istihbarat görevlisi Rusya adına firari Rus vatandaşları hakkında bilgi topladığı suçlamasıyla hapis cezasına çarptırıldı. Davada, Wirecard'ın eski yöneticisi Jan Marsalek ile olası bağlantılar da ortaya çıktı.",
@@ -1129,11 +1196,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/05",
       "date": "20.05.2026",
       "date_iso": "2026-05-20",
       "url": "/articles/2026/05/avusturyada_eski_istihbaratci_rusya_icin_casusluktan_hapis_cezasina_carptirildi_20260520/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/05/avusturyada_eski_istihbaratci_rusya_icin_casusluktan_hapis_cezasina_carptirildi_20260520/",
-      "detail_json_url": "/data/details/articles/avusturyada_eski_istihbaratci_rusya_icin_casusluktan_hapis_cezasina_carptirildi_20260520.json",
+      "detail_json_url": "/data/details/articles/2026/05/avusturyada_eski_istihbaratci_rusya_icin_casusluktan_hapis_cezasina_carptirildi_20260520.json",
       "image_url": "https://mansetradar.com.tr/nachrichten/artikel/images/oesterreich-ex-verfassungsschutzler-spionage-russland-verurteilt_20260520.jpg",
       "image_alt": "Viyana'da bir mahkeme salonunda eski bir istihbarat görevlisinin yargılanması.",
       "image": {
@@ -1155,7 +1223,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:abdden_sok_iddia_iran_icin_erken_savas_hedefi_ahmedinejadi_lider_yapmakti_20260520",
+      "id": "articles/2026/05:abdden_sok_iddia_iran_icin_erken_savas_hedefi_ahmedinejadi_lider_yapmakti_20260520",
       "slug": "abdden_sok_iddia_iran_icin_erken_savas_hedefi_ahmedinejadi_lider_yapmakti_20260520",
       "title": "ABD'den Şok İddia: İran İçin Erken Savaş Hedefi Ahmedinejad'ı Lider Yapmaktı",
       "summary": "ABD'li yetkililer, İran'da rejim değişikliği ve Mahmud Ahmedinejad'ın lider olarak atanması amacıyla, Ahmedinejad'ı Tahran'daki ev hapsinden kurtarmak için İsrail'in bir saldırısını içeren erken bir savaş hedefi açıkladı. Bu plan, bölgesel istikrar ve ulusl...",
@@ -1166,11 +1234,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/05",
       "date": "20.05.2026",
       "date_iso": "2026-05-20",
       "url": "/articles/2026/05/abdden_sok_iddia_iran_icin_erken_savas_hedefi_ahmedinejadi_lider_yapmakti_20260520/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/05/abdden_sok_iddia_iran_icin_erken_savas_hedefi_ahmedinejadi_lider_yapmakti_20260520/",
-      "detail_json_url": "/data/details/articles/abdden_sok_iddia_iran_icin_erken_savas_hedefi_ahmedinejadi_lider_yapmakti_20260520.json",
+      "detail_json_url": "/data/details/articles/2026/05/abdden_sok_iddia_iran_icin_erken_savas_hedefi_ahmedinejadi_lider_yapmakti_20260520.json",
       "image_url": "https://images.unsplash.com/photo-1599751969826-c0f5503e4f92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxNYWhtb3VkJTIwQWhtYWRpbmVqYWR8ZW58MHwwfHx8MTc3OTMwNTY0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "image_alt": "Mahmud Ahmedinejad'ın, ABD ve İsrail'in İran'daki rejim değişikliği planlarında kilit rol oynadığı iddia edilen bir...",
       "image": {
@@ -1193,7 +1262,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:abd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520",
+      "id": "articles/2026/05:abd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520",
       "slug": "abd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520",
       "title": "ABD ve İsrail İran'da Ahmadinejad'ı Lider Yapmak İstiyordu",
       "summary": "ABD'li yetkililer, İsrail'in bir saldırısının İran'da Mahmud Ahmedinecad'ı lider yapmak için rejim değişikliği çabasının bir parçası olduğunu söyledi. Bu, ABD ve İsrail'in erken savaş hedefleri hakkında önemli bir açıklamayı içeriyor.",
@@ -1204,11 +1273,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/05",
       "date": "20.05.2026",
       "date_iso": "2026-05-20",
       "url": "/articles/2026/05/abd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/05/abd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520/",
-      "detail_json_url": "/data/details/articles/abd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520.json",
+      "detail_json_url": "/data/details/articles/2026/05/abd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520.json",
       "image_url": "https://images.unsplash.com/photo-1613930648631-7191115e83d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJcmFufGVufDB8MHx8fDE3NzkyMDczNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "image_alt": "İran bayrağı",
       "image": {
@@ -1229,7 +1299,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:abd_senatosundan_iran_savasi_yetkileri_karari_20260520",
+      "id": "articles/2026/05:abd_senatosundan_iran_savasi_yetkileri_karari_20260520",
       "slug": "abd_senatosundan_iran_savasi_yetkileri_karari_20260520",
       "title": "ABD Senatosu'ndan İran Savaşı Yetkileri Kararı",
       "summary": "ABD Senatosu'ndaki Demokratlar, dört Cumhuriyetçinin de desteğiyle, Kongre'ye İran ile olası bir savaşta daha fazla söz hakkı tanımayı amaçlayan bir karar tasarısını kabul etti. ABD Senatosu'nda alınan bu önlem, denetimi artırmayı hedeflese de, Başkan Trump...",
@@ -1240,11 +1310,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/05",
       "date": "20.05.2026",
       "date_iso": "2026-05-20",
       "url": "/articles/2026/05/abd_senatosundan_iran_savasi_yetkileri_karari_20260520/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/05/abd_senatosundan_iran_savasi_yetkileri_karari_20260520/",
-      "detail_json_url": "/data/details/articles/abd_senatosundan_iran_savasi_yetkileri_karari_20260520.json",
+      "detail_json_url": "/data/details/articles/2026/05/abd_senatosundan_iran_savasi_yetkileri_karari_20260520.json",
       "image_url": "https://images.unsplash.com/photo-1644701743457-d2160f05c6c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVUy1TZW5hdCUyMEFic3RpbW11bmd8ZW58MHwwfHx8MTc3OTMwMTY5MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "image_alt": "ABD Senatosu'nda İran savaşı yetkileri üzerine yapılan oylamayı gösteren bir sahne.",
       "image": {
@@ -1267,7 +1338,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:abd_buyuk_jurisi_eski_kuba_lideri_raul_castroya_cinayet_suclamasi_getirdi_20260520",
+      "id": "articles/2026/05:abd_buyuk_jurisi_eski_kuba_lideri_raul_castroya_cinayet_suclamasi_getirdi_20260520",
       "slug": "abd_buyuk_jurisi_eski_kuba_lideri_raul_castroya_cinayet_suclamasi_getirdi_20260520",
       "title": "ABD Büyük Jürisi, Eski Küba Lideri Raul Castro'ya Cinayet Suçlaması Getirdi",
       "summary": "ABD'de bir büyük jüri, Küba'nın 94 yaşındaki eski lideri Raul Castro hakkında, 30 yıldan uzun süre önce bir insani yardım grubuna düzenlenen saldırıyla ilgili dört cinayet suçlaması da dahil olmak üzere çeşitli suçlamalarla iddianame hazırladı. Bu gelişme,...",
@@ -1278,11 +1349,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/05",
       "date": "20.05.2026",
       "date_iso": "2026-05-20",
       "url": "/articles/2026/05/abd_buyuk_jurisi_eski_kuba_lideri_raul_castroya_cinayet_suclamasi_getirdi_20260520/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/05/abd_buyuk_jurisi_eski_kuba_lideri_raul_castroya_cinayet_suclamasi_getirdi_20260520/",
-      "detail_json_url": "/data/details/articles/abd_buyuk_jurisi_eski_kuba_lideri_raul_castroya_cinayet_suclamasi_getirdi_20260520.json",
+      "detail_json_url": "/data/details/articles/2026/05/abd_buyuk_jurisi_eski_kuba_lideri_raul_castroya_cinayet_suclamasi_getirdi_20260520.json",
       "image_url": "https://mansetradar.com.tr/news/articles/images/us-grand-jury-indicts-raul-castro_20260520.jpg",
       "image_alt": "Küba'nın eski lideri Raul Castro'nun portresi",
       "image": {
@@ -1305,7 +1377,7 @@
       "review_status": "needs_editorial_review"
     },
     {
-      "id": "articles:6_ocak_polisleri_trumpin_odul_fonunu_engellemek_icin_dava_acti_20260520",
+      "id": "articles/2026/05:6_ocak_polisleri_trumpin_odul_fonunu_engellemek_icin_dava_acti_20260520",
       "slug": "6_ocak_polisleri_trumpin_odul_fonunu_engellemek_icin_dava_acti_20260520",
       "title": "6 Ocak Polisleri, Trump'ın Ödül Fonunu Engellemek İçin Dava Açtı",
       "summary": "İki ABD Kongre Polisi memuru, Trump yönetiminin, 6 Ocak Kongre baskını sırasında eski Başkan Donald Trump adına şiddet uygulayan göstericilere ve gruplara ödül vermek amacıyla kurduğu iddia edilen bir fonu engellemek için dava açtı. Memurlar, fonun 'kara pa...",
@@ -1316,11 +1388,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/05",
       "date": "20.05.2026",
       "date_iso": "2026-05-20",
       "url": "/articles/2026/05/6_ocak_polisleri_trumpin_odul_fonunu_engellemek_icin_dava_acti_20260520/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/05/6_ocak_polisleri_trumpin_odul_fonunu_engellemek_icin_dava_acti_20260520/",
-      "detail_json_url": "/data/details/articles/6_ocak_polisleri_trumpin_odul_fonunu_engellemek_icin_dava_acti_20260520.json",
+      "detail_json_url": "/data/details/articles/2026/05/6_ocak_polisleri_trumpin_odul_fonunu_engellemek_icin_dava_acti_20260520.json",
       "image_url": "https://images.unsplash.com/photo-1598134115217-a2fd543030f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVLlMuJTIwQ2FwaXRvbCUyMEJ1aWxkaW5nfGVufDB8MHx8fDE3NzkzMDkwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "image_alt": "ABD Kongre Polisi memurları, ABD Kongre Binası önünde kararlı bir şekilde duruyor.",
       "image": {
@@ -1342,7 +1415,7 @@
       "review_status": "published"
     },
     {
-      "id": "articles:abd-ve-israil-in-iran-a-saldirilari-yeniden-baslama-ihtimali_20260518",
+      "id": "articles/2026/05:abd-ve-israil-in-iran-a-saldirilari-yeniden-baslama-ihtimali_20260518",
       "slug": "abd-ve-israil-in-iran-a-saldirilari-yeniden-baslama-ihtimali_20260518",
       "title": "ABD ve İsrail'den İran'a Yönelik Olası Saldırı Hazırlıkları: Bölgesel Gerilim Tırmanıyor",
       "summary": "ABD ve İsrail'in, İran'a yönelik saldırıları yeniden başlatma ihtimali üzerine yoğun hazırlıklar içinde olduğu iddia edildi. Bu hazırlıkların en erken bu hafta içinde başlayabileceği belirtiliyor. Gelişme, İran'ın nükleer programı ve bölgedeki faaliyetleri...",
@@ -1353,11 +1426,12 @@
       "language_label": "Turkish",
       "section": "articles",
       "section_name": "Haberler",
+      "url_prefix": "articles/2026/05",
       "date": "18.05.2026",
       "date_iso": "2026-05-18",
       "url": "/articles/2026/05/abd-ve-israil-in-iran-a-saldirilari-yeniden-baslama-ihtimali_20260518/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/05/abd-ve-israil-in-iran-a-saldirilari-yeniden-baslama-ihtimali_20260518/",
-      "detail_json_url": "/data/details/articles/abd-ve-israil-in-iran-a-saldirilari-yeniden-baslama-ihtimali_20260518.json",
+      "detail_json_url": "/data/details/articles/2026/05/abd-ve-israil-in-iran-a-saldirilari-yeniden-baslama-ihtimali_20260518.json",
       "image_url": "https://images.unsplash.com/photo-1631270315847-f418bde47ca6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxBQkR8ZW58MHwwfHx8MTc3ODk5MDQ1NXww&ixlib=rb-4.1.0&q=80&w=1080",
       "image_alt": "ABD, İsrail ve İran arasındaki jeopolitik gerilimi yansıtan, askeri hazırlık ve nükleer endişe sembollerini içeren bir...",
       "image": {
