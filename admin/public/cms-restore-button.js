@@ -5,20 +5,23 @@
     newsroom: "hakancet27-dotcom/haber-botu",
   };
   const stageByCollection = {
-    delete_flow_unpublished: "unpublished",
     delete_flow_archived: "archived",
-    delete_flow_trash: "trash",
   };
   const deleteFlowCollections = new Set([
     "delete_flow_published",
-    "delete_flow_unpublished",
     "delete_flow_archived",
-    "delete_flow_trash",
   ]);
   const stockEnabledCollections = new Set([
     "published_tr",
     "published_en",
     "published_de",
+  ]);
+  const forceNativeDeleteCollections = new Set([
+    "published_tr",
+    "published_en",
+    "published_de",
+    "delete_flow_published",
+    "delete_flow_archived",
   ]);
   const buttonId = "mr-restore-button";
   const buttonStyle = "display:inline-flex;align-items:center;padding:8px 12px;border:0;border-radius:6px;background:#16a34a;color:#fff;font-weight:700;text-decoration:none;line-height:1;cursor:pointer;position:fixed;z-index:2147483647;box-shadow:0 2px 10px rgba(0,0,0,.18);";
@@ -26,21 +29,15 @@
   const collectionFolders = {
     public: {
       delete_flow_published: "cms-delete-flow/published",
-      delete_flow_unpublished: "cms-delete-flow/unpublished",
       delete_flow_archived: "cms-delete-flow/archived",
-      delete_flow_trash: "cms-delete-flow/trash",
     },
     newsroom: {
       delete_flow_published: "newsroom/delete-flow/published",
-      delete_flow_unpublished: "newsroom/delete-flow/unpublished",
       delete_flow_archived: "newsroom/delete-flow/archived",
-      delete_flow_trash: "newsroom/delete-flow/trash",
     },
   };
   const restoreStageMap = {
-    unpublished: "published",
-    archived: "unpublished",
-    trash: "archived",
+    archived: "published",
   };
   const entryCache = new Map();
 
@@ -153,10 +150,8 @@
 
   function nextDeleteAction(stage) {
     return {
-      published: "Delete = Yayindan Kaldir",
-      unpublished: "Delete = Arsive Tasi",
-      archived: "Delete = Cop Kutusuna Gonder",
-      trash: "Delete = Kalici Sil",
+      published: "Delete = Arsive Tasi",
+      archived: "Delete = Geri Al",
     }[stage] || "";
   }
 
@@ -251,10 +246,7 @@
     articlePayload.manual_noindex = nextStage !== "published";
     articlePayload.indexed_on_home = nextStage === "published";
     articlePayload.publication_note = `CMS restore button applied: ${stage} -> ${nextStage}`;
-    if (nextStage !== "trash") {
-      delete articlePayload.trashed_at;
-      delete articlePayload.trash_delete_after;
-    }
+    delete articlePayload.archived_at;
 
     await putContentFile(
       repo,
@@ -417,6 +409,22 @@
     });
   }
 
+  function forceNativeDeleteButton() {
+    if (!forceNativeDeleteCollections.has(collectionName())) return;
+    const deleteButton = actionDeleteButton();
+    if (!deleteButton) return;
+    const count = selectedCount();
+    const canDelete = isEntryPage() || count > 0;
+    deleteButton.disabled = !canDelete;
+    deleteButton.removeAttribute("disabled");
+    deleteButton.setAttribute("aria-disabled", canDelete ? "false" : "true");
+    deleteButton.style.opacity = canDelete ? "1" : "0.55";
+    deleteButton.style.cursor = canDelete ? "pointer" : "not-allowed";
+    deleteButton.title = canDelete
+      ? "Secili kayitlari isler. Workflow tek run'da 5'ten fazla arsiv/geri alma islemini durdurur."
+      : "Once haber sec.";
+  }
+
   async function selectedArticlePaths() {
     if (isEntryPage()) {
       const marker = markerSlugFromHash();
@@ -529,17 +537,6 @@
     }
   }
 
-  function updateDeleteButton(deleteButton) {
-    if (!deleteButton || !deleteFlowCollections.has(collectionName()) || isEntryPage()) return;
-    const canDelete = selectedCount() === 1;
-    deleteButton.disabled = !canDelete;
-    deleteButton.style.opacity = canDelete ? "1" : "0.55";
-    deleteButton.style.cursor = canDelete ? "pointer" : "not-allowed";
-    deleteButton.title = canDelete
-      ? "Secili haberi bir sonraki asamaya tasir."
-      : "Delete yalnizca tek haber seciliyken calisir.";
-  }
-
   function insertButton() {
     const col = collectionName();
     const stage = stageByCollection[col];
@@ -552,7 +549,7 @@
     const deleteButton = actionDeleteButton();
     if (!deleteButton) return;
 
-    updateDeleteButton(deleteButton);
+    forceNativeDeleteButton();
     const canRestoreFromHere = selectedCount() === 1;
 
     let button = existing;
@@ -566,8 +563,8 @@
     const rect = deleteButton.getBoundingClientRect();
     button.textContent = "Geri Al";
     button.title = canRestoreFromHere
-      ? "Bu haberi bir onceki asamaya geri alir."
-      : "Once geri alinacak haberi sec.";
+      ? "Bu haberi arsivden tekrar canliya alir."
+      : "Once geri alinacak tek haberi sec.";
     button.disabled = !canRestoreFromHere;
     button.style.cssText = canRestoreFromHere ? buttonStyle : disabledButtonStyle;
     button.style.top = `${Math.max(12, rect.top)}px`;
@@ -582,6 +579,7 @@
   function tick() {
     try {
       syncStockImageSelection();
+      forceNativeDeleteButton();
       insertButton();
     } catch (error) {
       console.warn("restore button failed", error);
