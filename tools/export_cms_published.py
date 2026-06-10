@@ -36,6 +36,11 @@ def read_json(path: Path):
     return data if isinstance(data, dict) else None
 
 
+def should_skip_public_export(data: dict) -> bool:
+    lifecycle = str(data.get('publication_lifecycle') or '').strip().lower()
+    return lifecycle == 'archived'
+
+
 def url_prefix(source_name: str, source_root: Path, path: Path, data: dict) -> str:
     explicit = str(data.get('url_prefix') or '').strip().strip('/')
     if explicit:
@@ -70,6 +75,7 @@ def prune(folder: Path, expected: set[Path]) -> None:
 def main() -> None:
     scanned = 0
     written = 0
+    skipped = 0
     for source_root, target_root in ARTICLE_SOURCES:
         expected: set[Path] = set()
         source_name = source_root.as_posix()
@@ -77,6 +83,9 @@ def main() -> None:
             scanned += 1
             data = read_json(path)
             if not data:
+                continue
+            if should_skip_public_export(data):
+                skipped += 1
                 continue
             slug = str(data.get('slug') or path.stem).strip() or path.stem
             prefix = url_prefix(source_name, source_root, path, data)
@@ -91,7 +100,7 @@ def main() -> None:
             if write_json(target, flat):
                 written += 1
         prune(target_root, expected)
-    print(f'CMS published export done: scanned={scanned} written={written}')
+    print(f'CMS published export done: scanned={scanned} written={written} skipped={skipped}')
 
 
 if __name__ == '__main__':
