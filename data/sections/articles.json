@@ -3,11 +3,47 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-10T00:00:00+00:00",
-    "article_count": 430,
+    "article_count": 433,
     "schema_version": 2,
     "section": "articles"
   },
   "articles": [
+    {
+      "id": "articles/2026/06:yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610",
+      "slug": "yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610",
+      "title": "Yunanistan'dan 800 Milyon Euro'luk Savunma Paketi: Türkiye Vurgusu",
+      "summary": "Yunanistan, Türkiye'ye karşı askeri kapasitesini güçlendirme hedefiyle 800 milyon euroyu aşan yeni bir savunma paketini devreye alıyor. Yunan basınında geniş yer bulan bu adım, 'her türlü olasılığa hazırlık' olarak nitelendiriliyor.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610.webp",
+      "image_alt": "Yunanistan'ın yeni savunma paketi kapsamında planlanan askeri ekipmanlar.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610.webp",
+        "alt": "Yunanistan'ın yeni savunma paketi kapsamında planlanan askeri ekipmanlar."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-yunan-basini-acik-acik-itiraf-etti-turkiyeye-karsi-aldigimiz-silahlar-diyerek-duyurdular-her-turlu-olasiliga-hazirlik-7602829",
+      "tags": [
+        "Yunanistan",
+        "Türkiye",
+        "Savunma Sanayii",
+        "Silahlanma",
+        "Doğu Akdeniz"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/06:yapay-zeka-videolari-cocuklari-nasil-etkiliyor_20260610",
       "slug": "yapay-zeka-videolari-cocuklari-nasil-etkiliyor_20260610",
@@ -113,6 +149,42 @@
         "Nissan"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610",
+      "slug": "kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610",
+      "title": "Kasko sigortasında dikkat edilmesi gereken kritik detaylar",
+      "summary": "Türkiye Sigorta Ekonomik Araştırmalar Müdürü Lokman Yücedağ ve Doç. Dr. Gökhan Işıl, kasko sigortası yaptırırken dikkat edilmesi gerekenleri açıkladı. Uzmanlar, alkollü araç kullanmak gibi kasıtlı durumlarda hasarın karşılanmadığını ve araç teknolojisine gö...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610.webp",
+      "image_alt": "Kasko sigortası poliçesi ve araç anahtarı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610.webp",
+        "alt": "Kasko sigortası poliçesi ve araç anahtarı."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/aracinizin-teknolojisi-yeniyse-tam-kasko-yapilmali-3890480-ekonomi",
+      "tags": [
+        "kasko",
+        "sigorta",
+        "ekonomi",
+        "trafik sigortası",
+        "araç sigortası"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -401,6 +473,41 @@
         "Türkiye Futbol Federasyonu"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610",
+      "slug": "2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610",
+      "title": "2026 Dünya Kupası'nda bilet krizi: Fiyatlar rekor kırdı",
+      "summary": "ABD, Kanada ve Meksika'nın ev sahipliğinde yarın başlayacak 2026 FIFA Dünya Kupası, bilet fiyatlarıyla turnuva tarihinin en pahalı organizasyonu oldu. 2022 Katar Dünya Kupası'na kıyasla grup maçlarında 5, final maçında ise 10 kat artış gösteren bilet fiyatl...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610.webp",
+      "image_alt": "2026 FIFA Dünya Kupası stadyum atmosferi",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610.webp",
+        "alt": "2026 FIFA Dünya Kupası stadyum atmosferi"
+      },
+      "source_name": "Ekonomi haberleri - Son dakika ekonomi haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/2026-dunya-kupasi-taraftarinin-cebi-yanacak-bilet-fiyatlari-rekor-seviyede-p326761",
+      "tags": [
+        "2026 Dünya Kupası",
+        "FIFA",
+        "bilet fiyatları",
+        "spor ekonomisi"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {

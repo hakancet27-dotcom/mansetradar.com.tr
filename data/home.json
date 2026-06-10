@@ -3,10 +3,46 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-10T00:00:00+00:00",
-    "article_count": 430,
+    "article_count": 433,
     "schema_version": 2
   },
   "hero": [
+    {
+      "id": "articles/2026/06:yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610",
+      "slug": "yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610",
+      "title": "Yunanistan'dan 800 Milyon Euro'luk Savunma Paketi: Türkiye Vurgusu",
+      "summary": "Yunanistan, Türkiye'ye karşı askeri kapasitesini güçlendirme hedefiyle 800 milyon euroyu aşan yeni bir savunma paketini devreye alıyor. Yunan basınında geniş yer bulan bu adım, 'her türlü olasılığa hazırlık' olarak nitelendiriliyor.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610.webp",
+      "image_alt": "Yunanistan'ın yeni savunma paketi kapsamında planlanan askeri ekipmanlar.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610.webp",
+        "alt": "Yunanistan'ın yeni savunma paketi kapsamında planlanan askeri ekipmanlar."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-yunan-basini-acik-acik-itiraf-etti-turkiyeye-karsi-aldigimiz-silahlar-diyerek-duyurdular-her-turlu-olasiliga-hazirlik-7602829",
+      "tags": [
+        "Yunanistan",
+        "Türkiye",
+        "Savunma Sanayii",
+        "Silahlanma",
+        "Doğu Akdeniz"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/06:yapay-zeka-videolari-cocuklari-nasil-etkiliyor_20260610",
       "slug": "yapay-zeka-videolari-cocuklari-nasil-etkiliyor_20260610",
@@ -112,6 +148,42 @@
         "Nissan"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610",
+      "slug": "kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610",
+      "title": "Kasko sigortasında dikkat edilmesi gereken kritik detaylar",
+      "summary": "Türkiye Sigorta Ekonomik Araştırmalar Müdürü Lokman Yücedağ ve Doç. Dr. Gökhan Işıl, kasko sigortası yaptırırken dikkat edilmesi gerekenleri açıkladı. Uzmanlar, alkollü araç kullanmak gibi kasıtlı durumlarda hasarın karşılanmadığını ve araç teknolojisine gö...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610.webp",
+      "image_alt": "Kasko sigortası poliçesi ve araç anahtarı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610.webp",
+        "alt": "Kasko sigortası poliçesi ve araç anahtarı."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/aracinizin-teknolojisi-yeniyse-tam-kasko-yapilmali-3890480-ekonomi",
+      "tags": [
+        "kasko",
+        "sigorta",
+        "ekonomi",
+        "trafik sigortası",
+        "araç sigortası"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -400,6 +472,41 @@
         "Türkiye Futbol Federasyonu"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610",
+      "slug": "2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610",
+      "title": "2026 Dünya Kupası'nda bilet krizi: Fiyatlar rekor kırdı",
+      "summary": "ABD, Kanada ve Meksika'nın ev sahipliğinde yarın başlayacak 2026 FIFA Dünya Kupası, bilet fiyatlarıyla turnuva tarihinin en pahalı organizasyonu oldu. 2022 Katar Dünya Kupası'na kıyasla grup maçlarında 5, final maçında ise 10 kat artış gösteren bilet fiyatl...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610.webp",
+      "image_alt": "2026 FIFA Dünya Kupası stadyum atmosferi",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610.webp",
+        "alt": "2026 FIFA Dünya Kupası stadyum atmosferi"
+      },
+      "source_name": "Ekonomi haberleri - Son dakika ekonomi haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/2026-dunya-kupasi-taraftarinin-cebi-yanacak-bilet-fiyatlari-rekor-seviyede-p326761",
+      "tags": [
+        "2026 Dünya Kupası",
+        "FIFA",
+        "bilet fiyatları",
+        "spor ekonomisi"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -616,116 +723,45 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:ortadogudaki-gerilim-piyasalari-sarsti_20260609",
-      "slug": "ortadogudaki-gerilim-piyasalari-sarsti_20260609",
-      "title": "Ortadoğu'daki gerilim piyasaları sarstı: Petrol ve borsalarda hareketlilik",
-      "summary": "Ortadoğu'da artan jeopolitik gerilim ve İsrail'in İran'daki petrokimya tesisine yönelik saldırısı, küresel piyasalarda dalgalanmalara yol açtı. Petrol fiyatları yükselirken, Asya teknoloji hisselerinde sert düşüşler gözlendi.",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "09.06.2026",
-      "date_iso": "2026-06-09",
-      "url": "/articles/2026/06/ortadogudaki-gerilim-piyasalari-sarsti_20260609/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/ortadogudaki-gerilim-piyasalari-sarsti_20260609/",
-      "detail_json_url": "/data/details/articles/2026/06/ortadogudaki-gerilim-piyasalari-sarsti_20260609.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/ortadogudaki-gerilim-piyasalari-sarsti_20260609.webp",
-      "image_alt": "Piyasalardaki hareketliliği temsil eden borsa grafikleri ve petrol tesisi görseli.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/ortadogudaki-gerilim-piyasalari-sarsti_20260609.webp",
-        "alt": "Piyasalardaki hareketliliği temsil eden borsa grafikleri ve petrol tesisi görseli."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/ekonomi/karsilikli-saldirilar-piyasalari-karistirdi-7601888",
-      "tags": [
-        "Ekonomi",
-        "Petrol",
-        "Borsa",
-        "Altın",
-        "Jeopolitik"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:nitelikli-hizmet-personeli-vergi-istisnasi_20260609",
-      "slug": "nitelikli-hizmet-personeli-vergi-istisnasi_20260609",
-      "title": "Nitelikli Hizmet Personeline Vergi İstisnası Getirildi",
-      "summary": "Varlık Barışı Kanunu kapsamında yapılan yeni düzenlemeyle, nitelikli hizmet merkezlerinde çalışan personelin ücretlerine brüt asgari ücretin 3 ila 5 katına kadar gelir vergisi ve damga vergisi istisnası getirildi.",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "09.06.2026",
-      "date_iso": "2026-06-09",
-      "url": "/articles/2026/06/nitelikli-hizmet-personeli-vergi-istisnasi_20260609/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/nitelikli-hizmet-personeli-vergi-istisnasi_20260609/",
-      "detail_json_url": "/data/details/articles/2026/06/nitelikli-hizmet-personeli-vergi-istisnasi_20260609.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/nitelikli-hizmet-personeli-vergi-istisnasi_20260609.webp",
-      "image_alt": "İstanbul Finans Merkezi'nde çalışan nitelikli hizmet personeli ve modern ofis ortamı.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/nitelikli-hizmet-personeli-vergi-istisnasi_20260609.webp",
-        "alt": "İstanbul Finans Merkezi'nde çalışan nitelikli hizmet personeli ve modern ofis ortamı."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/o-personele-vergi-indirimi-3890229-ekonomi",
-      "tags": [
-        "vergi istisnası",
-        "nitelikli hizmet personeli",
-        "Varlık Barışı Kanunu",
-        "İstanbul Finans Merkezi"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609",
-      "slug": "mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609",
-      "title": "MHP Lideri Bahçeli'den Grup Toplantısında Önemli Açıklamalar",
-      "summary": "MHP Genel Başkanı Devlet Bahçeli, partisinin TBMM grup toplantısında yaptığı konuşmada milli takımın ABD yolculuğu, bölgesel güvenlik tehditleri ve CHP'li belediyelerdeki iddialara ilişkin değerlendirmelerde bulundu.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "09.06.2026",
-      "date_iso": "2026-06-09",
-      "url": "/articles/2026/06/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609/",
-      "detail_json_url": "/data/details/articles/2026/06/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609.webp",
-      "image_alt": "MHP Genel Başkanı Devlet Bahçeli TBMM'de konuşma yaparken.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609.webp",
-        "alt": "MHP Genel Başkanı Devlet Bahçeli TBMM'de konuşma yaparken."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/mhp-lideri-bahceli-den-aciklamalar-son-dakika-haberler-3890327",
-      "tags": [
-        "Devlet Bahçeli",
-        "MHP",
-        "TBMM",
-        "Siyaset",
-        "CHP"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
+    {
+      "id": "articles/2026/06:yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610",
+      "slug": "yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610",
+      "title": "Yunanistan'dan 800 Milyon Euro'luk Savunma Paketi: Türkiye Vurgusu",
+      "summary": "Yunanistan, Türkiye'ye karşı askeri kapasitesini güçlendirme hedefiyle 800 milyon euroyu aşan yeni bir savunma paketini devreye alıyor. Yunan basınında geniş yer bulan bu adım, 'her türlü olasılığa hazırlık' olarak nitelendiriliyor.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610.webp",
+      "image_alt": "Yunanistan'ın yeni savunma paketi kapsamında planlanan askeri ekipmanlar.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/yunanistan-yeni-savunma-paketi-turkiye-vurgusu_20260610.webp",
+        "alt": "Yunanistan'ın yeni savunma paketi kapsamında planlanan askeri ekipmanlar."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-yunan-basini-acik-acik-itiraf-etti-turkiyeye-karsi-aldigimiz-silahlar-diyerek-duyurdular-her-turlu-olasiliga-hazirlik-7602829",
+      "tags": [
+        "Yunanistan",
+        "Türkiye",
+        "Savunma Sanayii",
+        "Silahlanma",
+        "Doğu Akdeniz"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/06:yapay-zeka-videolari-cocuklari-nasil-etkiliyor_20260610",
       "slug": "yapay-zeka-videolari-cocuklari-nasil-etkiliyor_20260610",
@@ -831,6 +867,42 @@
         "Nissan"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610",
+      "slug": "kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610",
+      "title": "Kasko sigortasında dikkat edilmesi gereken kritik detaylar",
+      "summary": "Türkiye Sigorta Ekonomik Araştırmalar Müdürü Lokman Yücedağ ve Doç. Dr. Gökhan Işıl, kasko sigortası yaptırırken dikkat edilmesi gerekenleri açıkladı. Uzmanlar, alkollü araç kullanmak gibi kasıtlı durumlarda hasarın karşılanmadığını ve araç teknolojisine gö...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610.webp",
+      "image_alt": "Kasko sigortası poliçesi ve araç anahtarı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/kasko-sigortasi-kapsam-ve-kullanici-rehberi_20260610.webp",
+        "alt": "Kasko sigortası poliçesi ve araç anahtarı."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/aracinizin-teknolojisi-yeniyse-tam-kasko-yapilmali-3890480-ekonomi",
+      "tags": [
+        "kasko",
+        "sigorta",
+        "ekonomi",
+        "trafik sigortası",
+        "araç sigortası"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -1119,6 +1191,41 @@
         "Türkiye Futbol Federasyonu"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610",
+      "slug": "2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610",
+      "title": "2026 Dünya Kupası'nda bilet krizi: Fiyatlar rekor kırdı",
+      "summary": "ABD, Kanada ve Meksika'nın ev sahipliğinde yarın başlayacak 2026 FIFA Dünya Kupası, bilet fiyatlarıyla turnuva tarihinin en pahalı organizasyonu oldu. 2022 Katar Dünya Kupası'na kıyasla grup maçlarında 5, final maçında ise 10 kat artış gösteren bilet fiyatl...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610.webp",
+      "image_alt": "2026 FIFA Dünya Kupası stadyum atmosferi",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610.webp",
+        "alt": "2026 FIFA Dünya Kupası stadyum atmosferi"
+      },
+      "source_name": "Ekonomi haberleri - Son dakika ekonomi haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/2026-dunya-kupasi-taraftarinin-cebi-yanacak-bilet-fiyatlari-rekor-seviyede-p326761",
+      "tags": [
+        "2026 Dünya Kupası",
+        "FIFA",
+        "bilet fiyatları",
+        "spor ekonomisi"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -2764,112 +2871,6 @@
         "A Milli Futbol Takımı",
         "2026 FIFA Dünya Kupası",
         "Brighton & Hove Albion"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "nachrichten/artikel:eu-zahlt-weitere-2-8-milliarden-euro-an-die-ukraine-aus_20260608",
-      "slug": "eu-zahlt-weitere-2-8-milliarden-euro-an-die-ukraine-aus_20260608",
-      "title": "EU zahlt weitere 2,8 Milliarden Euro an die Ukraine aus",
-      "summary": "Die Europäische Union hat der Ukraine weitere Finanzhilfen in Höhe von knapp 2,8 Milliarden Euro bereitgestellt. Die Auszahlung erfolgt im Rahmen der sogenannten Ukraine-Fazilität, die bis Ende 2027 insgesamt bis zu 50 Milliarden Euro für das Land vorsieht.",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Germany",
-      "language": "de",
-      "language_label": "German",
-      "section": "nachrichten/artikel",
-      "section_name": "Deutschland Nachrichten",
-      "url_prefix": "nachrichten/artikel",
-      "date": "08.06.2026",
-      "date_iso": "2026-06-08",
-      "url": "/nachrichten/artikel/eu-zahlt-weitere-2-8-milliarden-euro-an-die-ukraine-aus_20260608/",
-      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/eu-zahlt-weitere-2-8-milliarden-euro-an-die-ukraine-aus_20260608/",
-      "detail_json_url": "/data/details/nachrichten/artikel/eu-zahlt-weitere-2-8-milliarden-euro-an-die-ukraine-aus_20260608.json",
-      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/images/eu-zahlt-weitere-2-8-milliarden-euro-an-die-ukraine-aus_20260608.webp",
-      "image_alt": "EU- und Ukraine-Flaggen als Symbol für die finanzielle Unterstützung.",
-      "image": {
-        "url": "https://mansetradar.com.tr/nachrichten/artikel/images/eu-zahlt-weitere-2-8-milliarden-euro-an-die-ukraine-aus_20260608.webp",
-        "alt": "EU- und Ukraine-Flaggen als Symbol für die finanzielle Unterstützung."
-      },
-      "source_name": "tagesschau.de - Die Nachrichten der ARD",
-      "source_url": "https://www.tagesschau.de/ausland/europa/eu-verteidigungsminister-ukraine-100.html",
-      "tags": [
-        "Ukraine",
-        "Europäische Union",
-        "Finanzhilfe",
-        "Verteidigung"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608",
-      "slug": "ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608",
-      "title": "Ermenistan'dan Türkiye ile normalleşme mesajı: Somut ilerleme beklentisi",
-      "summary": "Ermenistan Dışişleri Bakanı Ararat Mirzoyan, Türkiye ile yürütülen normalleşme sürecine ilişkin değerlendirmelerde bulundu. Mirzoyan, yakın gelecekte ilişkilerin tam normalleşmesi konusunda somut ilerlemeler kaydedileceğine dair inancını dile getirdi.",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "08.06.2026",
-      "date_iso": "2026-06-08",
-      "url": "/articles/2026/06/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608/",
-      "detail_json_url": "/data/details/articles/2026/06/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608.webp",
-      "image_alt": "Ermenistan Dışişleri Bakanı Ararat Mirzoyan meclis toplantısında konuşma yaparken.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz_20260608.webp",
-        "alt": "Ermenistan Dışişleri Bakanı Ararat Mirzoyan meclis toplantısında konuşma yaparken."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-ermenistandan-turkiye-mesaji-somut-ilerleme-kaydedecegiz-7601588",
-      "tags": [
-        "Ermenistan",
-        "Türkiye",
-        "Ararat Mirzoyan",
-        "Dış Politika",
-        "Normalleşme"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "nachrichten/artikel:erdbeben-philippinen-mindanao-19-tote_20260608",
-      "slug": "erdbeben-philippinen-mindanao-19-tote_20260608",
-      "title": "Schweres Erdbeben auf den Philippinen: Mindestens 19 Tote",
-      "summary": "Ein schweres Erdbeben hat die südphilippinische Insel Mindanao erschüttert. Nach offiziellen Angaben kamen dabei mindestens 19 Menschen ums Leben, mehr als 120 weitere wurden verletzt. Zudem werden derzeit mindestens zwölf Personen vermisst.",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Germany",
-      "language": "de",
-      "language_label": "German",
-      "section": "nachrichten/artikel",
-      "section_name": "Deutschland Nachrichten",
-      "url_prefix": "nachrichten/artikel",
-      "date": "08.06.2026",
-      "date_iso": "2026-06-08",
-      "url": "/nachrichten/artikel/erdbeben-philippinen-mindanao-19-tote_20260608/",
-      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/erdbeben-philippinen-mindanao-19-tote_20260608/",
-      "detail_json_url": "/data/details/nachrichten/artikel/erdbeben-philippinen-mindanao-19-tote_20260608.json",
-      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/images/erdbeben-philippinen-mindanao-19-tote_20260608.webp",
-      "image_alt": "Zerstörte Gebäude und Trümmer auf einer Straße nach dem Erdbeben auf den Philippinen.",
-      "image": {
-        "url": "https://mansetradar.com.tr/nachrichten/artikel/images/erdbeben-philippinen-mindanao-19-tote_20260608.webp",
-        "alt": "Zerstörte Gebäude und Trümmer auf einer Straße nach dem Erdbeben auf den Philippinen."
-      },
-      "source_name": "tagesschau.de - Die Nachrichten der ARD",
-      "source_url": "https://www.tagesschau.de/ausland/asien/erdbeben-philippinen-136.html",
-      "tags": [
-        "Philippinen",
-        "Erdbeben",
-        "Mindanao",
-        "Naturkatastrophe"
       ],
       "quality_score": 86,
       "review_status": "published"
