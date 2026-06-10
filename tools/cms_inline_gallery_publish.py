@@ -145,22 +145,44 @@ def inject_article_body(body: str, gallery: list[dict[str, str]]) -> str:
     return ''.join(result)
 
 
-def update_html(path: Path, gallery: list[dict[str, str]]) -> bool:
-    original = path.read_text(encoding='utf-8-sig')
-    content = original
+def add_or_remove_css(content: str, gallery: list[dict[str, str]]) -> str:
     if gallery and '.article-inline-gallery' not in content:
-        content = content.replace('    article p { margin:0 0 16px; font-size:1.02rem; }', '    article p { margin:0 0 16px; font-size:1.02rem; }' + INLINE_CSS)
+        return content.replace('    article p { margin:0 0 16px; font-size:1.02rem; }', '    article p { margin:0 0 16px; font-size:1.02rem; }' + INLINE_CSS)
     if not gallery:
-        content = content.replace(INLINE_CSS, '')
+        return content.replace(INLINE_CSS, '')
+    return content
+
+
+def inject_content(content: str, gallery: list[dict[str, str]]) -> str:
     if '<div class="article-content">' in content:
-        content = re.sub(
+        return re.sub(
             r'(<div class="article-content">)([\s\S]*?)(</div>\s*(?:<div class="tag-list"|<p class="article-source"|<div class="article-share"|<section class="article-comments"|<section class="related-news"))',
             lambda m: m.group(1) + inject_article_body(m.group(2), gallery) + m.group(3),
             content,
             count=1,
         )
-    else:
-        content = strip_blocks(content)
+    # Older/static article template has no article-content wrapper. In that case,
+    # the article body starts after the lead image and ends before tags/share/source.
+    body_pattern = (
+        r'(<figure class="article-image">[\s\S]*?</figure>\s*)'
+        r'([\s\S]*?)'
+        r'(\s*(?:<div class="tag-list"|<p class="article-source"|<div class="article-share"|<section class="article-comments"|<section class="related-news"))'
+    )
+    updated, count = re.subn(
+        body_pattern,
+        lambda m: m.group(1) + inject_article_body(m.group(2), gallery) + m.group(3),
+        content,
+        count=1,
+    )
+    if count:
+        return updated
+    return strip_blocks(content)
+
+
+def update_html(path: Path, gallery: list[dict[str, str]]) -> bool:
+    original = path.read_text(encoding='utf-8-sig')
+    content = add_or_remove_css(original, gallery)
+    content = inject_content(content, gallery)
     if content == original:
         return False
     path.write_text(content, encoding='utf-8')
