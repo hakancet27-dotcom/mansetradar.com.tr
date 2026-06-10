@@ -1,5 +1,6 @@
 name: Refresh CMS Published
 
+# Sveltia /admin/public panelinin duz haber listesini gunceller.
 on:
   workflow_dispatch:
   push:
