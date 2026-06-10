@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 
 ARTICLE_SOURCES = (
@@ -54,6 +55,25 @@ def url_prefix(source_name: str, source_root: Path, path: Path, data: dict) -> s
     return f'{source_name}/{parent.as_posix()}'.strip('/')
 
 
+def extract_time(data: dict) -> str:
+    explicit = str(data.get('time') or '').strip()
+    if explicit:
+        return explicit
+    for key in ('source_published_at', 'published_at', 'created_at', 'publication_changed_at'):
+        raw = str(data.get(key) or '').strip()
+        if not raw:
+            continue
+        normalized = raw.replace('Z', '+00:00')
+        try:
+            dt = datetime.fromisoformat(normalized)
+        except ValueError:
+            continue
+        if dt.tzinfo is not None:
+            dt = dt.astimezone(timezone.utc)
+        return dt.strftime('%H:%M')
+    return ''
+
+
 def write_json(path: Path, data: dict) -> bool:
     path.parent.mkdir(parents=True, exist_ok=True)
     content = json.dumps(data, ensure_ascii=False, indent=2) + '\n'
@@ -91,6 +111,7 @@ def main() -> None:
             prefix = url_prefix(source_name, source_root, path, data)
             flat = dict(data)
             flat['slug'] = slug
+            flat['time'] = extract_time(data)
             flat['url_prefix'] = prefix
             flat['public_url'] = f'/{prefix}/{slug}/'
             flat['source_json_path'] = path.as_posix()
