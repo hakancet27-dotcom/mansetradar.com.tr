@@ -17,7 +17,7 @@ collections:
   - name: published_tr
     label: "Yayindaki Haberler / Turkce"
     label_singular: "Yayindaki Turkce Haber"
-    folder: articles
+    folder: cms-published/articles
     create: false
     extension: json
     format: json
@@ -52,11 +52,14 @@ collections:
       - { label: Risk Bayragi, name: flag, widget: string, required: false, readonly: true }
       - { label: Quality Flags, name: quality_flags, widget: list, required: false, readonly: true, field: { label: Flag, widget: string } }
       - { label: Indexed On Home, name: indexed_on_home, widget: boolean, required: false, readonly: true }
+      - { label: Kaynak JSON, name: source_json_path, widget: string, required: false, readonly: true }
+      - { label: Canli URL, name: public_url, widget: string, required: false, readonly: true }
+      - { label: Yayin Asamasi, name: publication_lifecycle, widget: string, required: false, readonly: true }
 
   - name: published_en
     label: "Published News / English"
     label_singular: "Published English News"
-    folder: news/articles
+    folder: cms-published/news/articles
     create: false
     extension: json
     format: json
@@ -67,7 +70,7 @@ collections:
   - name: published_de
     label: "Veroeffentlichte Nachrichten / Deutsch"
     label_singular: "Veroeffentlichte Nachricht"
-    folder: nachrichten/artikel
+    folder: cms-published/nachrichten/artikel
     create: false
     extension: json
     format: json
