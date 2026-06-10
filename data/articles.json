@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-10T00:00:00+00:00",
-    "article_count": 456,
+    "article_count": 458,
     "schema_version": 2
   },
   "articles": [
@@ -401,6 +401,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/06:mustehcen-icerik-paylasan-27-supheliye-10ar-yil-hapis-talebi_20260610",
+      "slug": "mustehcen-icerik-paylasan-27-supheliye-10ar-yil-hapis-talebi_20260610",
+      "title": "OnlyFans üzerinden müstehcen içerik paylaşan 27 şüpheliye hapis talebi",
+      "summary": "İstanbul Cumhuriyet Başsavcılığı, erişime engelli olan 'OnlyFans' platformu üzerinden müstehcen içerik paylaşarak gelir elde ettikleri iddia edilen 27 şüpheli hakkında soruşturmayı tamamladı. Terörizmin Finansmanı ve Aklama Suçları Soruşturma Bürosu tarafın...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/mustehcen-icerik-paylasan-27-supheliye-10ar-yil-hapis-talebi_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/mustehcen-icerik-paylasan-27-supheliye-10ar-yil-hapis-talebi_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/mustehcen-icerik-paylasan-27-supheliye-10ar-yil-hapis-talebi_20260610.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a29b12b613bd91eccb07821.jpg",
+      "image_alt": "İstanbul Adliyesi önünde hukuk ve adalet temalı görsel.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a29b12b613bd91eccb07821.jpg",
+        "alt": "İstanbul Adliyesi önünde hukuk ve adalet temalı görsel."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/mustehcen-icerik-paylasan-27-supheliye-10ar-yil-hapis-talebi-43200809",
+      "tags": [
+        "OnlyFans",
+        "İstanbul Cumhuriyet Başsavcılığı",
+        "MASAK",
+        "Siber Suçlar",
+        "Müstehcenlik"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/06:mitsubishi-elektrikli-eclipse-sportback-gorselleri_20260610",
       "slug": "mitsubishi-elektrikli-eclipse-sportback-gorselleri_20260610",
       "title": "Mitsubishi, Tamamen Elektrikli Eclipse Sportback'i Duyurdu",
@@ -790,6 +826,42 @@
         "Esad rejimi",
         "Kilis",
         "cezaevi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:emekli-maaslarinda-temmuz-zammi-ve-refah-payi-beklentisi_20260610",
+      "slug": "emekli-maaslarinda-temmuz-zammi-ve-refah-payi-beklentisi_20260610",
+      "title": "Emekli maaşlarında Temmuz beklentisi: Refah payı ve zam oranları netleşiyor",
+      "summary": "Temmuz ayında yapılacak maaş zamları öncesinde emekliler ve memur emeklileri, açıklanacak yeni oranlara odaklandı. 3 Temmuz'da açıklanacak enflasyon verileriyle birlikte, refah payı düzenlemesi ve en düşük emekli aylığına yönelik olası artışlar netlik kazan...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/emekli-maaslarinda-temmuz-zammi-ve-refah-payi-beklentisi_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/emekli-maaslarinda-temmuz-zammi-ve-refah-payi-beklentisi_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/emekli-maaslarinda-temmuz-zammi-ve-refah-payi-beklentisi_20260610.json",
+      "image_url": "https://media.cumhuriyet.com.tr/Archive/8535705d-fa9e-4ade-948a-4f6c7598572b.jpeg",
+      "image_alt": "Emekli maaşı zammı ve enflasyon verilerini takip eden ekonomi ekranı.",
+      "image": {
+        "url": "https://media.cumhuriyet.com.tr/Archive/8535705d-fa9e-4ade-948a-4f6c7598572b.jpeg",
+        "alt": "Emekli maaşı zammı ve enflasyon verilerini takip eden ekonomi ekranı."
+      },
+      "source_name": "Cumhuriyet Gazetesi - Ekonomi",
+      "source_url": "https://www.cumhuriyet.com.tr/ekonomi/memur-ve-isci-emeklisi-arasindaki-fark-kapaniyor-mu-iste-kulislerdeki-refah-payi-hesabi-2511001",
+      "tags": [
+        "emekli maaşı",
+        "enflasyon",
+        "temmuz zammı",
+        "refah payı",
+        "TÜİK"
       ],
       "quality_score": 86,
       "review_status": "published"
