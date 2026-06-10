@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-10T00:00:00+00:00",
-    "article_count": 450,
+    "article_count": 447,
     "schema_version": 2,
     "section": "articles"
   },
@@ -545,42 +545,6 @@
       "review_status": "published"
     },
     {
-      "id": "articles/2026/06:esad-zindanlarinda-23-yil-mehmet-erturk-anlatti_20260610",
-      "slug": "esad-zindanlarinda-23-yil-mehmet-erturk-anlatti_20260610",
-      "title": "Esad zindanlarında 23 yıl: Mehmet Ertürk'ün yaşadığı dehşet",
-      "summary": "Suriye'de Esad rejiminin yıkılmasıyla özgürlüğüne kavuşan Kilisli Mehmet Ertürk, 23 yıl boyunca tutulduğu cezaevlerinde yaşadığı insanlık dışı koşulları ve maruz kaldığı işkenceleri anlattı.",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "10.06.2026",
-      "date_iso": "2026-06-10",
-      "url": "/articles/2026/06/esad-zindanlarinda-23-yil-mehmet-erturk-anlatti_20260610/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/esad-zindanlarinda-23-yil-mehmet-erturk-anlatti_20260610/",
-      "detail_json_url": "/data/details/articles/2026/06/esad-zindanlarinda-23-yil-mehmet-erturk-anlatti_20260610.json",
-      "image_url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2939e2a657aa4a44e520c9.jpg",
-      "image_alt": "Suriye cezaevlerinden kurtulan Mehmet Ertürk",
-      "image": {
-        "url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2939e2a657aa4a44e520c9.jpg",
-        "alt": "Suriye cezaevlerinden kurtulan Mehmet Ertürk"
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/dunya/esad-zindanlarinda-23-yil-geciren-turk-akilalmaz-iskenceyi-anlatti-hamam-bocegi-ve-kedi-eti-yedik-oldurun-bizi-dedik-7602885",
-      "tags": [
-        "Suriye",
-        "Mehmet Ertürk",
-        "Esad rejimi",
-        "Kilis",
-        "cezaevi"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
       "id": "articles/2026/06:dunya-kupasi-tarihinin-unutulmaz-orta-sahalari_20260610",
       "slug": "dunya-kupasi-tarihinin-unutulmaz-orta-sahalari_20260610",
       "title": "Dünya Kupası tarihine damga vuran efsanevi orta sahalar",
@@ -684,77 +648,6 @@
         "Adalet Uzunoğlu",
         "Osmangazi",
         "Asayiş"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:bursada-korkunc-cinayet-68-yasindaki-kadin-esini-parcalara-ayirdi_20260610",
-      "slug": "bursada-korkunc-cinayet-68-yasindaki-kadin-esini-parcalara-ayirdi_20260610",
-      "title": "Bursa'da vahşet: Eşini öldürüp 15 parçaya ayırdı",
-      "summary": "Bursa'nın Osmangazi ilçesinde 68 yaşındaki Adalet Uzunoğlu, eşi Ali Fuat Uzunoğlu'nu öldürerek cesedini 15 parçaya ayırdı. Kayıp ihbarında bulunan kadının, cinayeti işledikten sonra cesedi çöp konteynerlerine attığı ortaya çıktı.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "10.06.2026",
-      "date_iso": "2026-06-10",
-      "url": "/articles/2026/06/bursada-korkunc-cinayet-68-yasindaki-kadin-esini-parcalara-ayirdi_20260610/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/bursada-korkunc-cinayet-68-yasindaki-kadin-esini-parcalara-ayirdi_20260610/",
-      "detail_json_url": "/data/details/articles/2026/06/bursada-korkunc-cinayet-68-yasindaki-kadin-esini-parcalara-ayirdi_20260610.json",
-      "image_url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2936d8ef07a3815584d851.jpg",
-      "image_alt": "Bursa'da cinayetin işlendiği sokakta polis ekipleri inceleme yapıyor.",
-      "image": {
-        "url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2936d8ef07a3815584d851.jpg",
-        "alt": "Bursa'da cinayetin işlendiği sokakta polis ekipleri inceleme yapıyor."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/gundem/68-yasindaki-kadin-esini-oldurdu-15-parcaya-ayirdi-iddianamede-korkunc-detaylar-7602884",
-      "tags": [
-        "Bursa",
-        "cinayet",
-        "Osmangazi",
-        "adli olay"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:bursa-vahset-adalet-uzunoglu-cinayet_20260610",
-      "slug": "bursa-vahset-adalet-uzunoglu-cinayet_20260610",
-      "title": "Bursa'da vahşi cinayet: Eşini 15 parçaya ayırıp çöpe atmış",
-      "summary": "Bursa'nın Osmangazi ilçesinde 28 Ocak tarihinde meydana gelen olayda, Adalet Uzunoğlu isimli kadın, eşi Ali Fuat Uzunoğlu'nu öldürerek cesedini 15 parçaya ayırdı ve çöp konteynerlerine attı. Olayla ilgili yürütülen soruşturmada kan donduran detaylara ulaşıldı.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "10.06.2026",
-      "date_iso": "2026-06-10",
-      "url": "/articles/2026/06/bursa-vahset-adalet-uzunoglu-cinayet_20260610/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/bursa-vahset-adalet-uzunoglu-cinayet_20260610/",
-      "detail_json_url": "/data/details/articles/2026/06/bursa-vahset-adalet-uzunoglu-cinayet_20260610.json",
-      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2932430e7043a30c9da17f.jpg",
-      "image_alt": "Bursa'da cinayet soruşturması yürütülen sokak.",
-      "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2932430e7043a30c9da17f.jpg",
-        "alt": "Bursa'da cinayet soruşturması yürütülen sokak."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/yasli-kadin-esini-15-parcaya-ayirip-cope-atmisti-vahsette-cok-carpici-detaylar-ortaya-cikti-kan-sicramasin-diye-etrafa-poset-sermis-43200033",
-      "tags": [
-        "Bursa",
-        "cinayet",
-        "Adalet Uzunoğlu",
-        "Osmangazi",
-        "asayiş"
       ],
       "quality_score": 86,
       "review_status": "published"
