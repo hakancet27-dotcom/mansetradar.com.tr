@@ -7,9 +7,9 @@ name: Sync Existing Shorts Index
 # - Site içindeki Shorts/video indeks JSON dosyasını günceller.
 # - Değişiklik varsa public site reposuna commit/push yapabilir.
 #
-# Yeni mansetradar.com.tr taşımasında neden sadece manuel?
-# - İlk repo taşımasında günlük schedule veya push tetiği beklenmedik ek commit üretmesin.
-# - Video bölümü yeni alan adında test edildikten sonra schedule tekrar açılabilir.
+# Not:
+# - Canli /video/ sayfasi /video/shorts-feed.json okur.
+# - Eski /haber/video/ yolu geriye donuk uyumluluk icin ayni JSON'u tutar.
 #
 # Yetki ve risk notu:
 # - `contents: write` yetkisine sahiptir.
@@ -18,6 +18,11 @@ name: Sync Existing Shorts Index
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/sync-existing-shorts-index.yml'
 
 permissions:
   contents: write
@@ -85,15 +90,19 @@ jobs:
                   + json.dumps(errors, ensure_ascii=False)
               )
 
-          Path('haber/video').mkdir(parents=True, exist_ok=True)
-          Path('haber/video/shorts-feed.json').write_text(json.dumps({
+          payload = json.dumps({
               'updated_at': datetime.datetime.utcnow().isoformat() + 'Z',
               'channel': 'https://www.youtube.com/@ManşetRadar/shorts',
               'source_urls': urls,
               'count': len(videos),
               'videos': videos,
               'errors': errors
-          }, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          }, ensure_ascii=False, indent=2) + '\n'
+
+          for target in ('video/shorts-feed.json', 'haber/video/shorts-feed.json'):
+              path = Path(target)
+              path.parent.mkdir(parents=True, exist_ok=True)
+              path.write_text(payload, encoding='utf-8')
 
           print('shorts_count', len(videos))
           PY
@@ -102,7 +111,7 @@ jobs:
         run: |
           git config user.name "Shorts Index Sync"
           git config user.email "shorts-index-sync@users.noreply.github.com"
-          git add haber/video/shorts-feed.json
+          git add video/shorts-feed.json haber/video/shorts-feed.json
 
           if git diff --staged --quiet; then
             echo "No Shorts index changes."
