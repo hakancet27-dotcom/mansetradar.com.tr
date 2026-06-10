@@ -105,21 +105,23 @@ jobs:
 
           def redirect_html(target_url: str) -> str:
               escaped = target_url.replace('"', '%22')
-              return f'''<!DOCTYPE html>
-<html lang="tr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="{escaped}">
-  <meta http-equiv="refresh" content="0; url={escaped}">
-  <title>Yönlendiriliyor...</title>
-</head>
-<body>
-  <p>Haber yeni adresine taşındı: <a href="{escaped}">{escaped}</a></p>
-</body>
-</html>
-'''
+              return "\n".join([
+                  '<!DOCTYPE html>',
+                  '<html lang="tr">',
+                  '<head>',
+                  '  <meta charset="UTF-8">',
+                  '  <meta name="viewport" content="width=device-width, initial-scale=1.0">',
+                  '  <meta name="robots" content="noindex,follow">',
+                  f'  <link rel="canonical" href="{escaped}">',
+                  f'  <meta http-equiv="refresh" content="0; url={escaped}">',
+                  '  <title>Yönlendiriliyor...</title>',
+                  '</head>',
+                  '<body>',
+                  f'  <p>Haber yeni adresine taşındı: <a href="{escaped}">{escaped}</a></p>',
+                  '</body>',
+                  '</html>',
+                  '',
+              ])
 
           if not root.exists():
               skipped.append("articles klasoru yok")
