@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-10T00:00:00+00:00",
-    "article_count": 458,
+    "article_count": 461,
     "schema_version": 2
   },
   "hero": [
@@ -437,6 +437,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/06:musavat-dervisoglu-tandogan-mitingi-27-haziran_20260610",
+      "slug": "musavat-dervisoglu-tandogan-mitingi-27-haziran_20260610",
+      "title": "Müsavat Dervişoğlu'ndan Tandoğan Çağrısı: 27 Haziran'da Meydanlardayız",
+      "summary": "İYİ Parti Genel Başkanı Müsavat Dervişoğlu, 27 Haziran Cumartesi günü Tandoğan Meydanı'nda miting düzenleyeceğini açıkladı. Dervişoğlu, tüm vatandaşları bayraklarıyla birlikte meydana davet etti.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/musavat-dervisoglu-tandogan-mitingi-27-haziran_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/musavat-dervisoglu-tandogan-mitingi-27-haziran_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/musavat-dervisoglu-tandogan-mitingi-27-haziran_20260610.json",
+      "image_url": "https://im.haberturk.com/l/2026/06/10/ver1781085754/3890682/jpg/200x200",
+      "image_alt": "İYİ Parti Genel Başkanı Müsavat Dervişoğlu kürsüde konuşma yaparken.",
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/06/10/ver1781085754/3890682/jpg/200x200",
+        "alt": "İYİ Parti Genel Başkanı Müsavat Dervişoğlu kürsüde konuşma yaparken."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/son-dakika-iyi-parti-genel-baskani-musavat-dervisoglu-27-haziran-da-turk-milletini-arkama-alip-tandogan-meydani-na-cikacagim-haberler-3890682",
+      "tags": [
+        "Müsavat Dervişoğlu",
+        "İYİ Parti",
+        "Tandoğan Meydanı",
+        "Siyaset",
+        "Miting"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/06:mitsubishi-elektrikli-eclipse-sportback-gorselleri_20260610",
       "slug": "mitsubishi-elektrikli-eclipse-sportback-gorselleri_20260610",
       "title": "Mitsubishi, Tamamen Elektrikli Eclipse Sportback'i Duyurdu",
@@ -683,41 +719,6 @@
         "Dünya Kupası",
         "Elif Nur Turhan",
         "TFF"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:galatasaray-gstatil-tanitimi_20260610",
-      "slug": "galatasaray-gstatil-tanitimi_20260610",
-      "title": "Galatasaray'dan yeni girişim: GStatil tanıtıldı",
-      "summary": "Galatasaray Teknoloji AŞ tarafından Tatilsepeti altyapısıyla geliştirilen seyahat platformu GStatil, Galatasaray Adası'nda düzenlenen bir etkinlikle tanıtıldı. Başkan Dursun Özbek, projenin kulübün ekonomik bağımsızlığını güçlendirme stratejisinin bir parça...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "10.06.2026",
-      "date_iso": "2026-06-10",
-      "url": "/articles/2026/06/galatasaray-gstatil-tanitimi_20260610/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/galatasaray-gstatil-tanitimi_20260610/",
-      "detail_json_url": "/data/details/articles/2026/06/galatasaray-gstatil-tanitimi_20260610.json",
-      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a29c62af67bd186f7d4714d.jpg",
-      "image_alt": "Galatasaray Başkanı Dursun Özbek, GStatil tanıtım toplantısında konuşma yaparken.",
-      "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a29c62af67bd186f7d4714d.jpg",
-        "alt": "Galatasaray Başkanı Dursun Özbek, GStatil tanıtım toplantısında konuşma yaparken."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/dursun-ozbek-galatasaray-vizyonuyla-turk-sporuna-yon-vermistir-43200867",
-      "tags": [
-        "Galatasaray",
-        "Dursun Özbek",
-        "GStatil",
-        "Spor Ekonomisi"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1149,6 +1150,42 @@
         "MASAK",
         "Siber Suçlar",
         "Müstehcenlik"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:musavat-dervisoglu-tandogan-mitingi-27-haziran_20260610",
+      "slug": "musavat-dervisoglu-tandogan-mitingi-27-haziran_20260610",
+      "title": "Müsavat Dervişoğlu'ndan Tandoğan Çağrısı: 27 Haziran'da Meydanlardayız",
+      "summary": "İYİ Parti Genel Başkanı Müsavat Dervişoğlu, 27 Haziran Cumartesi günü Tandoğan Meydanı'nda miting düzenleyeceğini açıkladı. Dervişoğlu, tüm vatandaşları bayraklarıyla birlikte meydana davet etti.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/musavat-dervisoglu-tandogan-mitingi-27-haziran_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/musavat-dervisoglu-tandogan-mitingi-27-haziran_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/musavat-dervisoglu-tandogan-mitingi-27-haziran_20260610.json",
+      "image_url": "https://im.haberturk.com/l/2026/06/10/ver1781085754/3890682/jpg/200x200",
+      "image_alt": "İYİ Parti Genel Başkanı Müsavat Dervişoğlu kürsüde konuşma yaparken.",
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/06/10/ver1781085754/3890682/jpg/200x200",
+        "alt": "İYİ Parti Genel Başkanı Müsavat Dervişoğlu kürsüde konuşma yaparken."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/son-dakika-iyi-parti-genel-baskani-musavat-dervisoglu-27-haziran-da-turk-milletini-arkama-alip-tandogan-meydani-na-cikacagim-haberler-3890682",
+      "tags": [
+        "Müsavat Dervişoğlu",
+        "İYİ Parti",
+        "Tandoğan Meydanı",
+        "Siyaset",
+        "Miting"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1724,6 +1761,78 @@
         "okullar tatil"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:bakan-kurum-bonnda-cop31-diplomasisini-surdurdu_20260610",
+      "slug": "bakan-kurum-bonnda-cop31-diplomasisini-surdurdu_20260610",
+      "title": "Bakan Kurum, Bonn’da COP31 Diplomasisini Yoğunlaştırdı",
+      "summary": "COP31 Başkanı ve Çevre, Şehircilik ve İklim Değişikliği Bakanı Murat Kurum, Almanya'nın Bonn kentindeki temaslarının üçüncü ve son gününde, küresel iklim hedefleri doğrultusunda bir dizi diplomatik görüşme gerçekleştirdi.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/bakan-kurum-bonnda-cop31-diplomasisini-surdurdu_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/bakan-kurum-bonnda-cop31-diplomasisini-surdurdu_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/bakan-kurum-bonnda-cop31-diplomasisini-surdurdu_20260610.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a29a823613bd91eccb07803.jpg",
+      "image_alt": "Bakan Murat Kurum, Bonn'da düzenlenen COP31 hazırlık toplantılarında.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a29a823613bd91eccb07803.jpg",
+        "alt": "Bakan Murat Kurum, Bonn'da düzenlenen COP31 hazırlık toplantılarında."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/bakan-kurum-bonnda-cop31-diplomasisini-surdurdu-43200789",
+      "tags": [
+        "Murat Kurum",
+        "COP31",
+        "Bonn",
+        "İklim Değişikliği",
+        "Çevre Bakanlığı"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:bakan-guler-terorsuz-turkiye-hedefine-kararlilikla-yuruyoruz_20260610",
+      "slug": "bakan-guler-terorsuz-turkiye-hedefine-kararlilikla-yuruyoruz_20260610",
+      "title": "Bakan Güler: Terörsüz Türkiye hedefine kararlılıkla yürüyoruz",
+      "summary": "Milli Savunma Bakanı Yaşar Güler, Kahramanmaraş'ta Türkiye Muharip Gaziler Derneği'ni ziyaret etti. Terörsüz Türkiye hedefine yönelik kararlı bir yürüyüş içinde olduklarını belirten Güler, atılan tüm adımların şehitlerin hatırasına ve gazilerin onuruna uygu...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/bakan-guler-terorsuz-turkiye-hedefine-kararlilikla-yuruyoruz_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/bakan-guler-terorsuz-turkiye-hedefine-kararlilikla-yuruyoruz_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/bakan-guler-terorsuz-turkiye-hedefine-kararlilikla-yuruyoruz_20260610.json",
+      "image_url": "https://images.ntv.com.tr/images/yaşargüler-847595.jpg",
+      "image_alt": "Milli Savunma Bakanı Yaşar Güler, Kahramanmaraş'ta gazilerle bir araya geldi.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/yaşargüler-847595.jpg",
+        "alt": "Milli Savunma Bakanı Yaşar Güler, Kahramanmaraş'ta gazilerle bir araya geldi."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/bakan-guler-terorsuz-turkiye-hedefine-dogru-kararli-bir-yuruyus-icindeyiz-1728058",
+      "tags": [
+        "Yaşar Güler",
+        "Milli Savunma Bakanlığı",
+        "Kahramanmaraş",
+        "Terörle Mücadele",
+        "Gaziler"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -2763,113 +2872,6 @@
         "çocuk parkı"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:ergin-ataman-ihrac-edildi-olympiakos-panathinaikos-maci_20260609",
-      "slug": "ergin-ataman-ihrac-edildi-olympiakos-panathinaikos-maci_20260609",
-      "title": "Ergin Ataman ihraç edildi, Olympiakos seride öne geçti",
-      "summary": "Yunanistan Basketbol Ligi final serisinin üçüncü maçında Olympiakos, sahasında Panathinaikos'u 102-92 mağlup ederek seride durumu 2-1'e getirdi. Panathinaikos başantrenörü Ergin Ataman, maçın bitimine 51 saniye kala hakeme yönelik itirazları nedeniyle iki t...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "09.06.2026",
-      "date_iso": "2026-06-09",
-      "url": "/articles/2026/06/ergin-ataman-ihrac-edildi-olympiakos-panathinaikos-maci_20260609/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/ergin-ataman-ihrac-edildi-olympiakos-panathinaikos-maci_20260609/",
-      "detail_json_url": "/data/details/articles/2026/06/ergin-ataman-ihrac-edildi-olympiakos-panathinaikos-maci_20260609.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/ergin-ataman-ihrac-edildi-olympiakos-panathinaikos-maci_20260609.webp",
-      "image_alt": "Ergin Ataman ve Olympiakos-Panathinaikos maçı",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/ergin-ataman-ihrac-edildi-olympiakos-panathinaikos-maci_20260609.webp",
-        "alt": "Ergin Ataman ve Olympiakos-Panathinaikos maçı"
-      },
-      "source_name": "Spor haberleri - Son dakika spor haberleri - Sözcü",
-      "source_url": "https://www.sozcu.com.tr/ergin-ataman-ihrac-edildi-panathinaikos-kaybetti-p326309",
-      "tags": [
-        "Ergin Ataman",
-        "Panathinaikos",
-        "Olympiakos",
-        "Yunanistan Basketbol Ligi"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:elon-muskin-mars-hayali-wall-streeti-fethetti_20260609",
-      "slug": "elon-muskin-mars-hayali-wall-streeti-fethetti_20260609",
-      "title": "Elon Musk’ın Mars Vizyonu Wall Street’te Tarihi Dönüm Noktası",
-      "summary": "Elon Musk’ın 2002 yılında Mars’ta çok gezegenli bir yaşam kurma hedefiyle temellerini attığı SpaceX, Wall Street’te gerçekleştirdiği halka arz ile finans dünyasında tarihi bir dönüm noktasına imza attı.",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "09.06.2026",
-      "date_iso": "2026-06-09",
-      "url": "/articles/2026/06/elon-muskin-mars-hayali-wall-streeti-fethetti_20260609/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/elon-muskin-mars-hayali-wall-streeti-fethetti_20260609/",
-      "detail_json_url": "/data/details/articles/2026/06/elon-muskin-mars-hayali-wall-streeti-fethetti_20260609.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/elon-muskin-mars-hayali-wall-streeti-fethetti_20260609.webp",
-      "image_alt": "SpaceX roketi fırlatılışı ve Wall Street finansal grafiklerini temsil eden görsel.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/elon-muskin-mars-hayali-wall-streeti-fethetti_20260609.webp",
-        "alt": "SpaceX roketi fırlatılışı ve Wall Street finansal grafiklerini temsil eden görsel."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/elon-muskin-mars-hayali-wall-streeti-fethetti-3890434-teknoloji",
-      "tags": [
-        "SpaceX",
-        "Elon Musk",
-        "Mars",
-        "Wall Street",
-        "Halka Arz"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609",
-      "slug": "domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609",
-      "title": "Domates ve Soya İçeren İçeceğin İltihaplanma Üzerindeki Etkisi Araştırıldı",
-      "summary": "Yapılan yeni bir bilimsel çalışma, domatesin likopen içeriği ile soyanın izoflavonlarını birleştiren özel bir içeceğin, vücuttaki kronik iltihaplanma düzeylerini düşürmede etkili olabileceğini gösterdi.",
-      "category": "Sağlık",
-      "category_slug": "saglik",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "09.06.2026",
-      "date_iso": "2026-06-09",
-      "url": "/articles/2026/06/domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609/",
-      "detail_json_url": "/data/details/articles/2026/06/domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609.webp",
-      "image_alt": "Domates ve soya içeren sağlıklı bir içecek bardağı.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/domates-ve-soya-icerikli-icecegin-iltihaplanma-etkisi_20260609.webp",
-        "alt": "Domates ve soya içeren sağlıklı bir içecek bardağı."
-      },
-      "source_name": "Sağlık haberleri - Son dakika sağlık haberleri - Sözcü",
-      "source_url": "https://www.sozcu.com.tr/meger-bu-basit-icecek-vucuttaki-iltihaplanmayi-ortadan-kaldiriyormus-p326319",
-      "tags": [
-        "sağlık",
-        "beslenme",
-        "iltihaplanma",
-        "domates",
-        "soya"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]
