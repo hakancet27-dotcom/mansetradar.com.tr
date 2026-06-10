@@ -1,0 +1,42 @@
+name: Fix CMS Published Paths
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Move CMS published paths to root folder
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          files = [
+              Path('admin/public/config.yml'),
+              Path('tools/export_cms_published.py'),
+              Path('.github/workflows/cms-published-refresh.yml'),
+          ]
+          for path in files:
+              text = path.read_text(encoding='utf-8')
+              text = text.replace('data/cms-published', 'cms-published')
+              text = text.replace('git add data/cms-published', 'git add cms-published')
+              path.write_text(text, encoding='utf-8')
+          PY
+
+      - name: Commit path fix
+        run: |
+          git config user.name "Haber Botu"
+          git config user.email "bot@mansetradar.com.tr"
+          git add admin/public/config.yml tools/export_cms_published.py .github/workflows/cms-published-refresh.yml
+          if ! git diff --staged --quiet; then
+            git commit -m "CMS bakim listesi root klasore alindi"
+            git push
+          else
+            echo "Degisiklik yok."
+          fi
