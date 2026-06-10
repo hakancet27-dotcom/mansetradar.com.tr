@@ -1,0 +1,51 @@
+name: Refresh CMS Published
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'articles/**/*.json'
+      - 'news/articles/**/*.json'
+      - 'nachrichten/artikel/**/*.json'
+      - 'tools/export_cms_published.py'
+      - '.github/workflows/refresh-cms-published.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-cms-published
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout site
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Export flat CMS published records
+        run: python tools/export_cms_published.py
+
+      - name: Commit CMS published records
+        run: |
+          git config user.name "CMS Published Refresh"
+          git config user.email "cms-published-refresh@users.noreply.github.com"
+          git add cms-published
+
+          if git diff --staged --quiet; then
+            echo "CMS published icin commitlenecek degisiklik yok."
+            exit 0
+          fi
+
+          git commit -m "Refresh CMS published records"
+          git push
