@@ -1,0 +1,65 @@
+{
+  "review_status": "published",
+  "title": "ABD'de Kimyasal Patlama Paniği: 40 Bin Kişi Tahliye Edildi",
+  "slug": "abd-de-kimyasal-patlama-panigi_20260526",
+  "category": "Gündem",
+  "spot": "ABD'nin California eyaletinde kimyasal madde depolanan tankta patlama riski bulundu. Bu nedenle yaklaşık 40 bin kişi tahliye edildi. Tahliye edilen kişiler için destek hizmetleri sunuluyor.",
+  "content_html": "<h2>Kimyasal Patlama Tehlikesi</h2> <h2>Tahliye İşlemleri</h2> <p>Tahliye edilen kişiler için gerekli önlemler alındı. Bölgede bulunan kimselerin güvenliği için tüm tedbirler hayata geçirildi.</p> <h3>Destek Hizmetleri</h3> <p>Tahliye edilen kişiler için destek hizmetleri sunuluyor. Bölgede yaşayanların sağlığı ve güvenliği için gerekli tüm adımlar atılıyor.</p> <h2>Önlemler ve Tedbirler</h2> <p>Tahliye edilen kişiler için gerekli önlemler alındı. Bölgede bulunan kimselerin güvenliği için tüm tedbirler hayata geçirildi.</p> <ul> <li>Tahliye edilen kişiler için destek hizmetleri sunuluyor.</li> <li>Bölgede yaşayanların sağlığı ve güvenliği için gerekli tüm adımlar atılıyor. Gelişmeler ve oluşabilecek diğer tüm detaylar için bizi takip edip üye olmayı unutmayın.</li> </ul>",
+  "image_url": "https://images.unsplash.com/photo-1612278492349-fa246cf39583?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxLaW15YXNhbHxlbnwwfDB8fHwxNzc5NzY0MzI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "meta_title": "ABD'de Kimyasal Patlama Tehlikesi: 40 Bin Kişi Tahliye",
+  "meta_description": "ABD'nin California eyaletinde kimyasal madde depolanan tankta patlama riski bulundu. Bu nedenle yaklaşık 40 bin kişi tahliye edildi.",
+  "quality_score": 70,
+  "quality_status": "approved",
+  "flag": "TR",
+  "quality_flags": [
+    "very_short_article"
+  ],
+  "quality_word_count": 102,
+  "quality_notes": [
+    "Metin cok kisa (102 kelime).",
+    "Editör onayı nedeniyle kalite bariyeri manuel olarak aşıldı."
+  ],
+  "processor_result": "Rewrite yapildi ancak kalite kapisindan gecmedi: score=70 status=blocked_from_index",
+  "indexed_on_home": true,
+  "summary": "ABD'nin California eyaletinde kimyasal madde depolanan tankta patlama riski bulundu. Bu nedenle yaklaşık 40 bin kişi tahliye edildi. Tahliye edilen kişiler için destek hizmetleri sunuluyor.",
+  "display_country": "Türkiye",
+  "country": "Turkey",
+  "image_alt": "Tahliye edilen kişiler",
+  "image_prompt": "Kimyasal patlama tehlikesi nedeniyle tahliye edilen kişiler",
+  "discover_titles": [
+    "ABD'de Kimyasal Patlama Paniği",
+    "California'da Kimyasal Tehlike",
+    "ABD'de Tahliye"
+  ],
+  "tags": [
+    "Kimyasal Patlama",
+    "Tahliye",
+    "California",
+    "ABD"
+  ],
+  "visual_keywords": [
+    "Kimyasal",
+    "Patlama",
+    "Tahliye"
+  ],
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 3,
+  "word_count": 102,
+  "date": "26.05.2026",
+  "language": "Turkish",
+  "url_prefix": "articles/2026/05",
+  "source_language": "Turkish",
+  "target_language": "Turkish",
+  "review_required": false,
+  "review_source": "quality_gate",
+  "review_run_id": "26429591240",
+  "editor_quality_override": true,
+  "published_from_newsroom": true,
+  "published_at": "2026-06-01T02:00:51+00:00",
+  "public_url": "/articles/2026/05/abd-de-kimyasal-patlama-panigi_20260526/",
+  "source_json_path": "articles/2026/05/abd-de-kimyasal-patlama-panigi_20260526.json",
+  "cms_generated_from_monthly_source": true
+}

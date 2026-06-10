@@ -1,0 +1,64 @@
+{
+  "review_status": "published",
+  "title": "Anklage: Anschlag in Berlin im Auftrag der Revolutionsgarde geplant?",
+  "slug": "anklage-anschlag-berlin-revolutionsgarde_20260521",
+  "date": "21.05.2026",
+  "language": "German",
+  "country": "Germany",
+  "category": "Dünya",
+  "spot": "Der Generalbundesanwalt hat zwei Männer angeklagt, die in iranischem Auftrag einen Anschlag in Berlin geplant haben sollen. Die Anklage wirft den beiden Männern vor, im Auftrag der iranischen Revolutionsgarde gehandelt zu haben.",
+  "summary": "Der Generalbundesanwalt hat zwei Männer angeklagt, die in iranischem Auftrag einen Anschlag in Berlin geplant haben sollen. Die Anklage wirft den beiden Männern vor, im Auftrag der iranischen Revolutionsgarde gehandelt zu haben.",
+  "content_html": "<h2>Hintergrund der Anklage</h2> <p>Der Generalbundesanwalt hat die Anklage gegen die beiden Männer erhoben, nachdem sie verdächtigt wurden, einen Anschlag in Berlin geplant zu haben. Die Ermittlungen ergaben, dass die beiden Männer möglicherweise im Auftrag der iranischen Revolutionsgarde gehandelt haben.</p> <h2>Die Rolle der iranischen Revolutionsgarde</h2> <p>Die iranische Revolutionsgarde ist eine Elite-Einheit der iranischen Streitkräfte, die für ihre enge Verbundenheit mit dem iranischen Regime bekannt ist. Die Revolutionsgarde ist in verschiedenen Ländern für ihre Unterstützung von Terrorgruppen und ihre Beteiligung an internationalen Konflikten verantwortlich gemacht worden.</p> <h2>Folgen der Anklage</h2> <p>Die Anklage gegen die beiden Männer wirft ein schlechtes Licht auf die Beziehungen zwischen Deutschland und dem Iran. Die deutsche Regierung hat bereits angekündigt, die Anklage genau zu verfolgen und alle notwendigen Schritte zu unternehmen, um die Sicherheit in Deutschland zu gewährleisten.</p>",
+  "image_url": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCZXJsaW58ZW58MHwwfHx8MTc3OTM4MTAwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+  "image_alt": "Berlin - Iranische Revolutionsgarde",
+  "image_prompt": "Ein Bild von der Berliner Stadtansicht mit einem Hinweis auf die iranische Revolutionsgarde",
+  "meta_title": "Anklage wegen geplantem Anschlag in Berlin - Iranische...",
+  "meta_description": "Der Generalbundesanwalt hat zwei Männer angeklagt, die in iranischem Auftrag einen Anschlag geplant haben sollen. Lesen Sie mehr über die Anklage und die...",
+  "discover_titles": [
+    "Anklage wegen Anschlag in Berlin",
+    "Iranische Revolutionsgarde im Visier",
+    "Geplanter Anschlag in Deutschland"
+  ],
+  "tags": [
+    "Anklage",
+    "Anschlag",
+    "Berlin",
+    "Iran",
+    "Revolutionsgarde",
+    "Terrorismus"
+  ],
+  "visual_keywords": [
+    "Berlin",
+    "Iran",
+    "Revolutionsgarde"
+  ],
+  "url_prefix": "nachrichten/artikel",
+  "word_count": 162,
+  "quality_score": 62,
+  "quality_status": "approved",
+  "review_required": false,
+  "indexed_on_home": true,
+  "quality_word_count": 162,
+  "quality_notes": [
+    "Metin cok kisa (162 kelime).",
+    "Kategori standart haber kategorileriyle uyumlu degil: Politik."
+  ],
+  "quality_flags": [
+    "very_short_article",
+    "category_issue"
+  ],
+  "display_country": "Deutschland",
+  "flag": "DE",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 2,
+  "source_language": "German",
+  "target_language": "German",
+  "review_source": "quality_gate",
+  "review_run_id": "26238927192",
+  "public_url": "/nachrichten/artikel/anklage-anschlag-berlin-revolutionsgarde_20260521/",
+  "source_json_path": "nachrichten/artikel/anklage-anschlag-berlin-revolutionsgarde_20260521.json",
+  "cms_generated_from_monthly_source": true
+}

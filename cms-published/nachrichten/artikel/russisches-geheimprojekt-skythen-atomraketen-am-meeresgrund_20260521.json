@@ -1,0 +1,62 @@
+{
+  "review_status": "published",
+  "title": "Russisches Geheimprojekt 'Skythen' - Atomraketen am Meeresgrund?",
+  "slug": "russisches-geheimprojekt-skythen-atomraketen-am-meeresgrund_20260521",
+  "date": "21.05.2026",
+  "language": "German",
+  "country": "Germany",
+  "category": "Dünya",
+  "spot": "Ein russisches Militärprojekt wird von der NATO mit Sorge betrachtet. Nach Recherchen von WDR und NDR geht es dabei um die Stationierung von Atomraketen am Meeresgrund.",
+  "summary": "Ein russisches Militärprojekt wird von der NATO mit Sorge betrachtet. Nach Recherchen von WDR und NDR geht es dabei um die Stationierung von Atomraketen am Meeresgrund.",
+  "content_html": "<h2>Das russische Militärprojekt 'Skythen'</h2> <h2>Die Bedrohung durch Atomraketen</h2> <p>Die Stationierung von Atomraketen am Meeresgrund stellt eine erhebliche Bedrohung für die globale Sicherheit dar. Die NATO ist besorgt über die möglichen Folgen eines solchen Projekts.</p> <h3>Mögliche Auswirkungen</h3> <ul> <li>Erhöhte Spannungen zwischen Russland und der NATO</li> <li>Bedrohung der globalen Sicherheit</li> <li>Mögliche Auswirkungen auf die Umwelt</li> </ul> <p>Es ist noch unklar, wie das russische Militärprojekt 'Skythen' umgesetzt werden soll. Die NATO wird das Projekt weiterhin genau beobachten.</p>",
+  "image_url": "https://images.unsplash.com/photo-1563451201592-10dd888363ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxSdXNzbGFuZHxlbnwwfDB8fHwxNzc5MzM2ODg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "image_alt": "Russisches Militärschiff oder Atomrakete",
+  "image_prompt": "Ein Bild von einem russischen Militärschiff oder einer Atomrakete",
+  "meta_title": "Russisches Militärprojekt 'Skythen' - Bedrohung durch...",
+  "meta_description": "Ein russisches Militärprojekt wird von der NATO mit Sorge betrachtet. Es geht um die Stationierung von Atomraketen am Meeresgrund.",
+  "discover_titles": [
+    "Russisches Geheimprojekt 'Skythen'",
+    "Atomraketen am Meeresgrund",
+    "NATO besorgt über russisches Militärprojekt"
+  ],
+  "tags": [
+    "Russisches Militär",
+    "Atomraketen",
+    "NATO",
+    "Geheimprojekt"
+  ],
+  "visual_keywords": [
+    "Russland",
+    "Militär",
+    "Atomraketen"
+  ],
+  "url_prefix": "nachrichten/artikel",
+  "word_count": 98,
+  "quality_score": 62,
+  "quality_status": "approved",
+  "review_required": false,
+  "indexed_on_home": true,
+  "quality_word_count": 98,
+  "quality_notes": [
+    "Metin cok kisa (98 kelime).",
+    "Kategori standart haber kategorileriyle uyumlu degil: Politik."
+  ],
+  "quality_flags": [
+    "very_short_article",
+    "category_issue"
+  ],
+  "display_country": "Deutschland",
+  "flag": "DE",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 2,
+  "source_language": "German",
+  "target_language": "German",
+  "review_source": "quality_gate",
+  "review_run_id": "26204920611",
+  "public_url": "/nachrichten/artikel/russisches-geheimprojekt-skythen-atomraketen-am-meeresgrund_20260521/",
+  "source_json_path": "nachrichten/artikel/russisches-geheimprojekt-skythen-atomraketen-am-meeresgrund_20260521.json",
+  "cms_generated_from_monthly_source": true
+}
