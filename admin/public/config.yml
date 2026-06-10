@@ -91,7 +91,7 @@ collections:
   - name: published_tr
     label: "Yayindaki Haberler / Turkce (Bakim)"
     label_singular: "Yayindaki Turkce Haber"
-    folder: data/cms-published/articles
+    folder: cms-published/articles
     create: false
     delete: false
     extension: json
@@ -139,7 +139,7 @@ collections:
   - name: published_en
     label: "Published News / English (Maintenance)"
     label_singular: "Published English News"
-    folder: data/cms-published/news/articles
+    folder: cms-published/news/articles
     create: false
     delete: false
     extension: json
@@ -151,7 +151,7 @@ collections:
   - name: published_de
     label: "Veroeffentlichte Nachrichten / Deutsch (Pflege)"
     label_singular: "Veroeffentlichte Nachricht"
-    folder: data/cms-published/nachrichten/artikel
+    folder: cms-published/nachrichten/artikel
     create: false
     delete: false
     extension: json

@@ -5,9 +5,9 @@ import json
 from pathlib import Path
 
 ARTICLE_SOURCES = (
-    (Path('articles'), Path('data/cms-published/articles')),
-    (Path('news/articles'), Path('data/cms-published/news/articles')),
-    (Path('nachrichten/artikel'), Path('data/cms-published/nachrichten/artikel')),
+    (Path('articles'), Path('cms-published/articles')),
+    (Path('news/articles'), Path('cms-published/news/articles')),
+    (Path('nachrichten/artikel'), Path('cms-published/nachrichten/artikel')),
 )
 SKIP_PARTS = {'images', 'review', 'pending', 'duplicates', 'archive'}
 
