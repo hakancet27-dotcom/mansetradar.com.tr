@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-10T00:00:00+00:00",
-    "article_count": 448,
+    "article_count": 451,
     "schema_version": 2,
     "category_slug": "magazin"
   },
@@ -45,6 +45,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/06:survivor-elenen-sude-demir-paylasim_20260610",
+      "slug": "survivor-elenen-sude-demir-paylasim_20260610",
+      "title": "Survivor'dan elenen Sude Demir'den duygusal veda paylaşımı",
+      "summary": "Survivor 2026 Ünlüler Gönüllüler yarışmasında 3 Haziran'daki eleme düellosunda adaya veda eden Sude Demir, sosyal medya hesabından duygusal bir veda mesajı yayımladı.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/survivor-elenen-sude-demir-paylasim_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/survivor-elenen-sude-demir-paylasim_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/survivor-elenen-sude-demir-paylasim_20260610.json",
+      "image_url": "https://image.milimaj.com/i/milliyet/75/460x340/6a298688a657aa4a44e52290.jpg",
+      "image_alt": "Survivor yarışmacısı Sude Demir parkurda mücadele ederken.",
+      "image": {
+        "url": "https://image.milimaj.com/i/milliyet/75/460x340/6a298688a657aa4a44e52290.jpg",
+        "alt": "Survivor yarışmacısı Sude Demir parkurda mücadele ederken."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/magazin/survivor-hayali-yarim-kalan-sude-demirden-paylasim-elimden-gelenin-en-iyisini-vermek-icin-savastim-7603082",
+      "tags": [
+        "Survivor 2026",
+        "Sude Demir",
+        "Acun Ilıcalı",
+        "Survivor veda"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/06:naomi-watts-ve-billy-crudup-evlilik-yil-donumu_20260610",
       "slug": "naomi-watts-ve-billy-crudup-evlilik-yil-donumu_20260610",
       "title": "Naomi Watts ve Billy Crudup'tan 3. yıl dönümü kutlaması",
@@ -75,6 +110,77 @@
         "Billy Crudup",
         "Magazin",
         "Evlilik"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:livanur-aydin-dan-ayrilik-sonrasi-ilk-aciklama_20260610",
+      "slug": "livanur-aydin-dan-ayrilik-sonrasi-ilk-aciklama_20260610",
+      "title": "Livanur Aydın'dan ayrılık sonrası ilk açıklama: İyileşiyorum",
+      "summary": "Oyuncu Ali Öner ile nişanlısı Livanur Aydın'ın ayrılığının ardından, Aydın sessizliğini bozdu. Sosyal medyada gelen destek mesajlarına teşekkür eden Aydın, \"İyileşiyorum\" diyerek süreci geride bırakmaya çalıştığını ifade etti.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/livanur-aydin-dan-ayrilik-sonrasi-ilk-aciklama_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/livanur-aydin-dan-ayrilik-sonrasi-ilk-aciklama_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/livanur-aydin-dan-ayrilik-sonrasi-ilk-aciklama_20260610.json",
+      "image_url": "https://im.haberturk.com/l/2026/06/10/ver1781094279/3890710/jpg/200x200",
+      "image_alt": "Livanur Aydın",
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/06/10/ver1781094279/3890710/jpg/200x200",
+        "alt": "Livanur Aydın"
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/ali-oner-in-eski-nisanlisi-livanur-aydin-dan-aciklama-iyilesiyorum-magazin-haberleri-3890710-magazin",
+      "tags": [
+        "Livanur Aydın",
+        "Ali Öner",
+        "Zeynep Atılgan",
+        "Magazin"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:esref-ruya-final-yapiyor_20260610",
+      "slug": "esref-ruya-final-yapiyor_20260610",
+      "title": "Eşref Rüya final yapıyor: Ekranların fenomen dizisi veda ediyor",
+      "summary": "Çarşamba akşamlarının vazgeçilmezi olan ve 70'i aşkın ülkeye satılarak küresel bir başarı yakalayan Eşref Rüya, bu akşam saat 20.00'de Kanal D ekranlarında yayınlanacak özetsiz final bölümüyle izleyicilerine veda ediyor.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/esref-ruya-final-yapiyor_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/esref-ruya-final-yapiyor_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/esref-ruya-final-yapiyor_20260610.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2931eaf67bd186f7d46f53.jpg",
+      "image_alt": "Eşref Rüya dizisinin başrol oyuncuları Çağatay Ulusoy ve Demet Özdemir.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2931eaf67bd186f7d46f53.jpg",
+        "alt": "Eşref Rüya dizisinin başrol oyuncuları Çağatay Ulusoy ve Demet Özdemir."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/televizyon/ekranlardan-bir-esref-ruya-gecti-43200065",
+      "tags": [
+        "Eşref Rüya",
+        "Kanal D",
+        "Çağatay Ulusoy",
+        "Demet Özdemir",
+        "Televizyon"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -348,10 +454,10 @@
       "url": "/articles/2026/06/dua-lipa-callum-turner-sicilya-dugun_20260607/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/dua-lipa-callum-turner-sicilya-dugun_20260607/",
       "detail_json_url": "/data/details/articles/2026/06/dua-lipa-callum-turner-sicilya-dugun_20260607.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/pexels-the-earthy-jay-30727325.jpg",
+      "image_url": "https://mansetradar.com.tr/articles/images/pexels-the-earthy-jay-30727325.webp",
       "image_alt": "Dua Lipa ve Callum Turner'ın Sicilya'daki görkemli düğününden bir kare.",
       "image": {
-        "url": "https://mansetradar.com.tr/articles/images/pexels-the-earthy-jay-30727325.jpg",
+        "url": "https://mansetradar.com.tr/articles/images/pexels-the-earthy-jay-30727325.webp",
         "alt": "Dua Lipa ve Callum Turner'ın Sicilya'daki görkemli düğününden bir kare."
       },
       "source_name": "HABERTURK.COM",
@@ -814,10 +920,10 @@
       "url": "/articles/2026/06/marilyn-monroe-mirasi-somuruluyor-mu_20260601/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/06/marilyn-monroe-mirasi-somuruluyor-mu_20260601/",
       "detail_json_url": "/data/details/articles/2026/06/marilyn-monroe-mirasi-somuruluyor-mu_20260601.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/pexels-adrian-vieriu-11654496.jpg",
+      "image_url": "https://mansetradar.com.tr/articles/images/pexels-adrian-vieriu-11654496.webp",
       "image_alt": "Marilyn Monroe'nun mirasının sömürülmesini gösteren kolaj.",
       "image": {
-        "url": "https://mansetradar.com.tr/articles/images/pexels-adrian-vieriu-11654496.jpg",
+        "url": "https://mansetradar.com.tr/articles/images/pexels-adrian-vieriu-11654496.webp",
         "alt": "Marilyn Monroe'nun mirasının sömürülmesini gösteren kolaj."
       },
       "source_name": "Hürriyet",
