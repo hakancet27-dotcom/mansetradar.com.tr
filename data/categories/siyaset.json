@@ -3,11 +3,47 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-10T00:00:00+00:00",
-    "article_count": 443,
+    "article_count": 448,
     "schema_version": 2,
     "category_slug": "siyaset"
   },
   "articles": [
+    {
+      "id": "articles/2026/06:cumhurbaskani-erdogan-sikayet-eden-de-dava-acan-da-chpli_20260610",
+      "slug": "cumhurbaskani-erdogan-sikayet-eden-de-dava-acan-da-chpli_20260610",
+      "title": "Cumhurbaşkanı Erdoğan'dan CHP'deki tartışmalara ilişkin açıklama",
+      "summary": "Cumhurbaşkanı Recep Tayyip Erdoğan, AK Parti Grup Toplantısı'nda yaptığı konuşmada, CHP'de yaşanan mutlak butlan ve grup toplantısı tartışmalarına değinerek, \"Şikayet eden de dava açan da CHP'li. Biz bu girdabın içine girmeyeceğiz\" ifadelerini kullandı.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/cumhurbaskani-erdogan-sikayet-eden-de-dava-acan-da-chpli_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/cumhurbaskani-erdogan-sikayet-eden-de-dava-acan-da-chpli_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/cumhurbaskani-erdogan-sikayet-eden-de-dava-acan-da-chpli_20260610.json",
+      "image_url": "https://images.ntv.com.tr/images/AA-20260610-41629950-41629943-AK_PARTI_TBMM_GRUP_TOPLANTISI-197625(2).jpg",
+      "image_alt": "Cumhurbaşkanı Recep Tayyip Erdoğan AK Parti Grup Toplantısı'nda konuşuyor.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/AA-20260610-41629950-41629943-AK_PARTI_TBMM_GRUP_TOPLANTISI-197625(2).jpg",
+        "alt": "Cumhurbaşkanı Recep Tayyip Erdoğan AK Parti Grup Toplantısı'nda konuşuyor."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-siyasete-yakismayan-olaylar-yasaniyor-1728023",
+      "tags": [
+        "Recep Tayyip Erdoğan",
+        "CHP",
+        "AK Parti",
+        "Siyaset",
+        "Grup Toplantısı"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/06:bakan-tekin-acikladi-12-haziran-cuma-gunu-okullar-tatil_20260610",
       "slug": "bakan-tekin-acikladi-12-haziran-cuma-gunu-okullar-tatil_20260610",
