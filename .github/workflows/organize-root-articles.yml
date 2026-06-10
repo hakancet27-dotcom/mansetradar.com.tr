@@ -1,0 +1,223 @@
+name: Organize Root Articles
+
+# ROOT ARTICLES TEMIZLEME / TASIMA WORKFLOW'U
+#
+# Ne yapar?
+# - articles/ kokunde duran slug.html, slug.json ve slug/index.html kalintilarini tarar.
+# - Tarihi JSON icinden veya slug sonundaki _YYYYMMDD bilgisinden bulur.
+# - Uygun aylik klasore tasir: articles/YYYY/MM/slug.*
+# - Eski /articles/slug/ URL'leri 404 vermesin diye kokte redirect index.html birakir.
+# - apply=false ile sadece rapor/diff, apply=true ile commit/push yapar.
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Degisikligi commit/push yap"
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+permissions:
+  contents: write
+
+jobs:
+  organize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Organize root article files
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from __future__ import annotations
+
+          import json
+          import re
+          from pathlib import Path
+
+          root = Path("articles")
+          report_dir = Path("newsroom/reports")
+          report_dir.mkdir(parents=True, exist_ok=True)
+          report_path = report_dir / "root-articles-organize.md"
+
+          skip_names = {"2026", "images", "review", "pending", "duplicates", "archive"}
+          moved = []
+          redirects = []
+          conflicts = []
+          skipped = []
+
+          def read_json(path: Path) -> dict:
+              try:
+                  return json.loads(path.read_text(encoding="utf-8-sig"))
+              except Exception:
+                  return {}
+
+          def detect_date(slug: str, data: dict) -> str | None:
+              for key in ("date_iso", "published_at", "date"):
+                  value = str(data.get(key) or "").strip()
+                  m = re.search(r"(20\d{2})[-./](\d{1,2})[-./](\d{1,2})", value)
+                  if m:
+                      y, mo, d = m.groups()
+                      return f"{y}-{int(mo):02d}-{int(d):02d}"
+                  m = re.search(r"(\d{1,2})\.(\d{1,2})\.(20\d{2})", value)
+                  if m:
+                      d, mo, y = m.groups()
+                      return f"{y}-{int(mo):02d}-{int(d):02d}"
+              m = re.search(r"_(20\d{2})(\d{2})(\d{2})$", slug)
+              if m:
+                  y, mo, d = m.groups()
+                  return f"{y}-{mo}-{d}"
+              return None
+
+          def write_if_changed(path: Path, content: str) -> None:
+              path.parent.mkdir(parents=True, exist_ok=True)
+              if path.exists():
+                  try:
+                      if path.read_text(encoding="utf-8") == content:
+                          return
+                  except UnicodeError:
+                      pass
+              path.write_text(content, encoding="utf-8")
+
+          def move_file(src: Path, dst: Path) -> bool:
+              if not src.exists():
+                  return True
+              dst.parent.mkdir(parents=True, exist_ok=True)
+              if dst.exists():
+                  if dst.read_bytes() == src.read_bytes():
+                      src.unlink()
+                      moved.append(f"same-delete {src} -> {dst}")
+                      return True
+                  conflicts.append(f"CONFLICT {src} -> {dst}")
+                  return False
+              dst.write_bytes(src.read_bytes())
+              src.unlink()
+              moved.append(f"move {src} -> {dst}")
+              return True
+
+          def redirect_html(target_url: str) -> str:
+              escaped = target_url.replace('"', '%22')
+              return f'''<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,follow">
+  <link rel="canonical" href="{escaped}">
+  <meta http-equiv="refresh" content="0; url={escaped}">
+  <title>Yönlendiriliyor...</title>
+</head>
+<body>
+  <p>Haber yeni adresine taşındı: <a href="{escaped}">{escaped}</a></p>
+</body>
+</html>
+'''
+
+          if not root.exists():
+              skipped.append("articles klasoru yok")
+          else:
+              root_html_files = sorted(p for p in root.glob("*.html") if p.name != "index.html")
+              root_dirs = sorted(p for p in root.iterdir() if p.is_dir() and p.name not in skip_names)
+              slugs = {p.stem for p in root_html_files} | {p.name for p in root_dirs}
+
+              for slug in sorted(slugs):
+                  json_path = root / f"{slug}.json"
+                  html_path = root / f"{slug}.html"
+                  dir_path = root / slug
+                  index_path = dir_path / "index.html"
+
+                  data = read_json(json_path)
+                  date_iso = detect_date(slug, data)
+                  if not date_iso:
+                      skipped.append(f"date-missing {slug}")
+                      continue
+                  year, month, _ = date_iso.split("-")
+                  dest_dir = root / year / month
+                  dest_slug_dir = dest_dir / slug
+                  target_url = f"/articles/{year}/{month}/{slug}/"
+
+                  ok = True
+                  ok = move_file(html_path, dest_dir / f"{slug}.html") and ok
+                  ok = move_file(json_path, dest_dir / f"{slug}.json") and ok
+                  ok = move_file(index_path, dest_slug_dir / "index.html") and ok
+
+                  if not ok:
+                      continue
+
+                  if dir_path.exists():
+                      for leftover in sorted(dir_path.rglob("*"), reverse=True):
+                          if leftover.is_file():
+                              skipped.append(f"leftover-file {leftover}")
+                          elif leftover.is_dir():
+                              try:
+                                  leftover.rmdir()
+                              except OSError:
+                                  pass
+                      try:
+                          dir_path.rmdir()
+                      except OSError:
+                          pass
+
+                  write_if_changed(index_path, redirect_html(target_url))
+                  redirects.append(f"redirect {index_path} -> {target_url}")
+
+          lines = [
+              "# Root Articles Organize Report",
+              "",
+              "## Moved",
+              *(f"- {item}" for item in moved),
+              "",
+              "## Redirects",
+              *(f"- {item}" for item in redirects),
+              "",
+              "## Conflicts",
+              *(f"- {item}" for item in conflicts),
+              "",
+              "## Skipped",
+              *(f"- {item}" for item in skipped),
+              "",
+          ]
+          report_path.write_text("\n".join(lines), encoding="utf-8")
+          print(report_path.read_text(encoding="utf-8"))
+
+          if conflicts:
+              raise SystemExit("Conflict var; once raporu kontrol et.")
+          PY
+
+      - name: Show diff
+        shell: bash
+        run: |
+          set -euo pipefail
+          git status --short
+          git diff --stat
+          git diff --check
+
+      - name: Commit changes
+        if: ${{ github.event.inputs.apply == 'true' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet; then
+            echo "Commit edilecek degisiklik yok."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add articles newsroom/reports/root-articles-organize.md
+          git commit -m "Organize root article files"
+          git pull --rebase
+          git push
+
+      - name: Dry run notice
+        if: ${{ github.event.inputs.apply != 'true' }}
+        shell: bash
+        run: |
+          echo "apply=false: commit/push yapilmadi. Rapor ve diff temizse apply=true ile tekrar calistir."
