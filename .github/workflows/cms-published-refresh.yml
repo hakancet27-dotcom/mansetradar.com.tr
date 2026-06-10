@@ -1,0 +1,33 @@
+name: CMS Published Refresh
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Export CMS published list
+        run: python tools/export_cms_published.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "Haber Botu"
+          git config user.email "bot@mansetradar.com.tr"
+          git add data/cms-published
+          if ! git diff --staged --quiet; then
+            git commit -m "CMS yayindaki haber bakim listesi guncellendi"
+            git push
+          else
+            echo "Degisiklik yok."
+          fi
