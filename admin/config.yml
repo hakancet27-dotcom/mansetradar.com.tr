@@ -14,6 +14,20 @@ display_url: https://mansetradar.com.tr
 locale: tr
 
 collections:
+  - name: workflow_requests
+    label: "Workflow Calistir"
+    label_singular: "Workflow Calistirma Istegi"
+    folder: cms-workflow-requests
+    create: true
+    extension: json
+    format: json
+    identifier_field: title
+    summary: "{{created_at}} | {{title}}"
+    fields:
+      - { label: Baslik, name: title, widget: string, default: "Newsroom workflow calistir" }
+      - { label: Tarih/Saat, name: created_at, widget: datetime, required: true }
+      - { label: Aciklama, name: note, widget: text, required: false, default: "Sveltia uzerinden haber-botu newsroom workflow tetikleme istegi." }
+
   - name: published_tr
     label: "Yayindaki Haberler / Turkce"
     label_singular: "Yayindaki Turkce Haber"
