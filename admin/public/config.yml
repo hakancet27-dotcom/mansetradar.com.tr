@@ -94,7 +94,7 @@ collections:
     label_singular: "Yayindaki Turkce Haber"
     folder: cms-published/articles
     create: false
-    delete: false
+    delete: true
     extension: json
     format: json
     identifier_field: slug
@@ -142,7 +142,7 @@ collections:
     label_singular: "Published English News"
     folder: cms-published/news/articles
     create: false
-    delete: false
+    delete: true
     extension: json
     format: json
     identifier_field: slug
@@ -154,7 +154,7 @@ collections:
     label_singular: "Veroeffentlichte Nachricht"
     folder: cms-published/nachrichten/artikel
     create: false
-    delete: false
+    delete: true
     extension: json
     format: json
     identifier_field: slug
