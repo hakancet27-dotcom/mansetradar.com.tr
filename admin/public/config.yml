@@ -38,37 +38,8 @@ collections:
       - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, widget: string } }
       - { label: Not, name: note, widget: text, required: false, hint: "Ornek: spor genel kullanima uygun, insan kalabaligi yok." }
 
-  - name: delete_flow_published
-    label: "0 - Canli Haberler (Delete = Arsive Tasi)"
-    folder: cms-delete-flow/published
-    create: false
-    delete: true
-    extension: json
-    format: json
-    identifier_field: title
-    summary: "{{title}} | {{next_delete_action}}"
-    fields: &delete_flow_fields
-      - { label: Baslik, name: title, widget: string, readonly: true }
-      - { label: Slug, name: slug, widget: string, readonly: true }
-      - { label: Tarih, name: date, widget: string, required: false, readonly: true }
-      - { label: Kategori, name: category, widget: string, required: false, readonly: true }
-      - { label: Dil, name: language, widget: string, required: false, readonly: true }
-      - { label: Simdiki Asama, name: current_stage, widget: string, readonly: true }
-      - { label: "Delete Ne Yapar?", name: next_delete_action, widget: string, readonly: true }
-
-  - name: delete_flow_archived
-    label: "Arsiv (Delete = Geri Al)"
-    folder: cms-delete-flow/archived
-    create: false
-    delete: true
-    extension: json
-    format: json
-    identifier_field: title
-    summary: "{{title}} | {{next_delete_action}}"
-    fields: *delete_flow_fields
-
   - name: published_tr
-    label: "Yayindaki Haberler / Turkce (Bakim)"
+    label: "Yayindaki Haberler / Turkce"
     label_singular: "Yayindaki Turkce Haber"
     folder: data/cms-published/articles
     create: false
@@ -113,11 +84,11 @@ collections:
       - { label: Indexed On Home, name: indexed_on_home, widget: boolean, required: false, readonly: true }
       - { label: Kaynak JSON, name: source_json_path, widget: string, required: false, readonly: true }
       - { label: Canli URL, name: public_url, widget: string, required: false, readonly: true }
-      - { label: Yayin Asamasi, name: publication_lifecycle, widget: string, required: false, readonly: true, hint: "Delete-flow: Canli Haberler Delete = Arsive Tasi, Arsiv Delete = Geri Al. Tek run'da en fazla 5 islem uygulanir." }
+      - { label: Yayin Asamasi, name: publication_lifecycle, widget: string, required: false, readonly: true, hint: "Bu listeden Delete yaparsan kaynak haber arsive tasinir; sonraki workflowda geri uretilmez. Tek run'da en fazla 5 silme islenir." }
       - { label: Yayin Notu, name: publication_note, widget: text, required: false, readonly: true }
 
   - name: published_en
-    label: "Published News / English (Maintenance)"
+    label: "Published News / English"
     label_singular: "Published English News"
     folder: data/cms-published/news/articles
     create: false
@@ -129,7 +100,7 @@ collections:
     fields: *published_fields
 
   - name: published_de
-    label: "Veroeffentlichte Nachrichten / Deutsch (Pflege)"
+    label: "Veroeffentlichte Nachrichten / Deutsch"
     label_singular: "Veroeffentlichte Nachricht"
     folder: data/cms-published/nachrichten/artikel
     create: false
