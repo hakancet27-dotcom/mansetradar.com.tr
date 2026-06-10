@@ -47,12 +47,11 @@ collections:
     extension: json
     format: json
     identifier_field: slug
-    summary: "{{date}} {{time}} | {{category}} | {{title}}"
+    summary: "{{date}} | {{category}} | {{title}}"
     fields: &published_fields
       - { label: Baslik, name: title, widget: string }
       - { label: Slug, name: slug, widget: string, readonly: true }
-      - { label: Tarih, name: date, widget: string, required: false }
-      - { label: Saat, name: time, widget: string, required: false }
+      - { label: Tarih, name: date, widget: datetime, format: "DD.MM.YYYY", date_format: "DD.MM.YYYY", time_format: false, picker_utc: false }
       - { label: Dil, name: language, widget: string, required: false, readonly: true }
       - { label: Ulke, name: country, widget: string, required: false, readonly: true }
       - { label: Kategori, name: category, widget: string, required: false }
@@ -96,7 +95,7 @@ collections:
     extension: json
     format: json
     identifier_field: slug
-    summary: "{{date}} {{time}} | {{category}} | {{title}}"
+    summary: "{{date}} | {{category}} | {{title}}"
     fields: *published_fields
 
   - name: published_de
@@ -108,5 +107,5 @@ collections:
     extension: json
     format: json
     identifier_field: slug
-    summary: "{{date}} {{time}} | {{category}} | {{title}}"
+    summary: "{{date}} | {{category}} | {{title}}"
     fields: *published_fields
