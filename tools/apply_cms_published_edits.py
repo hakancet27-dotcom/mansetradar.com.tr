@@ -6,9 +6,9 @@ from pathlib import Path
 from typing import Any
 
 CMS_ROOTS = (
-    Path('cms-published/articles'),
-    Path('cms-published/news/articles'),
-    Path('cms-published/nachrichten/artikel'),
+    Path('data/cms-published/articles'),
+    Path('data/cms-published/news/articles'),
+    Path('data/cms-published/nachrichten/artikel'),
 )
 EDITABLE_FIELDS = {
     'title', 'date', 'category', 'spot', 'summary', 'content_html',
