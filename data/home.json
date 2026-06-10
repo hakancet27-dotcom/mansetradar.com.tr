@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-10T00:00:00+00:00",
-    "article_count": 438,
+    "article_count": 441,
     "schema_version": 2
   },
   "hero": [
@@ -110,6 +110,78 @@
         "çocuk gelişimi",
         "sosyal medya",
         "dijital medya"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:yapay-zeka-asi-insanlarda-ilk-kez-test-edildi_20260610",
+      "slug": "yapay-zeka-asi-insanlarda-ilk-kez-test-edildi_20260610",
+      "title": "Yapay Zeka Tarafından Tasarlanan Aşı İnsanlarda İlk Kez Test Edildi",
+      "summary": "Bilim insanları, temel bileşeni tamamen yapay zeka tarafından tasarlanan bir aşıyı ilk kez insanlar üzerinde test etti. Amaç, mevcut ve yeni virüslere karşı koruma sağlayabilecek evrensel bir aşı geliştirmek. İlk sonuçlar, aşının güvenli olduğunu ve farklı...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/yapay-zeka-asi-insanlarda-ilk-kez-test-edildi_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/yapay-zeka-asi-insanlarda-ilk-kez-test-edildi_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/yapay-zeka-asi-insanlarda-ilk-kez-test-edildi_20260610.json",
+      "image_url": "https://images.ntv.com.tr/images/iStock-1364749006-344371(2).jpg",
+      "image_alt": "Yapay zeka tarafından tasarlanan bir aşının insanlarda test edilmesi.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/iStock-1364749006-344371(2).jpg",
+        "alt": "Yapay zeka tarafından tasarlanan bir aşının insanlarda test edilmesi."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/dunya/yapay-zeka-asi-tasarladi-insanlarda-ilk-kez-test-edildi-1728001",
+      "tags": [
+        "Yapay Zeka",
+        "Aşı Geliştirme",
+        "Coronavirüs",
+        "Pandemi",
+        "Sağlık Teknolojileri"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:suriye-zindanlarinda-23-yil-mehmet-erturk-esaret-hikayesi_20260610",
+      "slug": "suriye-zindanlarinda-23-yil-mehmet-erturk-esaret-hikayesi_20260610",
+      "title": "Suriye zindanlarında 23 yıl: Mehmet Ertürk'ün kabus dolu esaret günleri",
+      "summary": "Suriye'de Esad rejiminin yıkılmasının ardından 23 yıllık esareti sona eren Kilisli Mehmet Ertürk, cezaevinde yaşadığı dehşeti anlattı. İstihbaratçı sanılarak tutulduğu zindanlarda açlıktan kedi eti ve hamam böceği yemek zorunda kaldığını belirten Ertürk, gü...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/suriye-zindanlarinda-23-yil-mehmet-erturk-esaret-hikayesi_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/suriye-zindanlarinda-23-yil-mehmet-erturk-esaret-hikayesi_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/suriye-zindanlarinda-23-yil-mehmet-erturk-esaret-hikayesi_20260610.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2926160e7043a30c9da067.jpg",
+      "image_alt": "Suriye'de 23 yıl esir tutulan Mehmet Ertürk",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2926160e7043a30c9da067.jpg",
+        "alt": "Suriye'de 23 yıl esir tutulan Mehmet Ertürk"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/acliktan-kedi-eti-yedik-oldurun-bizi-diyorduk-istihbaratci-sanip-23-yil-zindanda-tuttular-kanli-rejimin-esiri-olan-turk-43199985",
+      "tags": [
+        "Mehmet Ertürk",
+        "Suriye",
+        "Esad rejimi",
+        "Kilis",
+        "esaret"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -361,6 +433,42 @@
         "Çağatay Ulusoy",
         "Demet Özdemir",
         "Dizi Finali"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:esad-zindanlarinda-23-yil-mehmet-erturk-anlatti_20260610",
+      "slug": "esad-zindanlarinda-23-yil-mehmet-erturk-anlatti_20260610",
+      "title": "Esad zindanlarında 23 yıl: Mehmet Ertürk'ün yaşadığı dehşet",
+      "summary": "Suriye'de Esad rejiminin yıkılmasıyla özgürlüğüne kavuşan Kilisli Mehmet Ertürk, 23 yıl boyunca tutulduğu cezaevlerinde yaşadığı insanlık dışı koşulları ve maruz kaldığı işkenceleri anlattı.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/esad-zindanlarinda-23-yil-mehmet-erturk-anlatti_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/esad-zindanlarinda-23-yil-mehmet-erturk-anlatti_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/esad-zindanlarinda-23-yil-mehmet-erturk-anlatti_20260610.json",
+      "image_url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2939e2a657aa4a44e520c9.jpg",
+      "image_alt": "Suriye cezaevlerinden kurtulan Mehmet Ertürk",
+      "image": {
+        "url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2939e2a657aa4a44e520c9.jpg",
+        "alt": "Suriye cezaevlerinden kurtulan Mehmet Ertürk"
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/esad-zindanlarinda-23-yil-geciren-turk-akilalmaz-iskenceyi-anlatti-hamam-bocegi-ve-kedi-eti-yedik-oldurun-bizi-dedik-7602885",
+      "tags": [
+        "Suriye",
+        "Mehmet Ertürk",
+        "Esad rejimi",
+        "Kilis",
+        "cezaevi"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -616,113 +724,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:a-milli-futbol-takimi-beste-yarismasi-birincisi-bizim-cocuklar_20260610",
-      "slug": "a-milli-futbol-takimi-beste-yarismasi-birincisi-bizim-cocuklar_20260610",
-      "title": "A Milli Futbol Takımı'nın yeni marşı belli oldu: 'Bizim Çocuklar' birinci seçildi",
-      "summary": "A Milli Futbol Takımı'nın Dünya Kupası Finalleri sürecinde kullanılacak marşı belirlemek amacıyla düzenlenen beste yarışmasının kazananı belli oldu. Halk oylaması sonucunda Bursa Zeki Müren Güzel Sanatlar Lisesi öğrencilerinin hazırladığı \"Bizim Çocuklar\" a...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "10.06.2026",
-      "date_iso": "2026-06-10",
-      "url": "/articles/2026/06/a-milli-futbol-takimi-beste-yarismasi-birincisi-bizim-cocuklar_20260610/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/a-milli-futbol-takimi-beste-yarismasi-birincisi-bizim-cocuklar_20260610/",
-      "detail_json_url": "/data/details/articles/2026/06/a-milli-futbol-takimi-beste-yarismasi-birincisi-bizim-cocuklar_20260610.json",
-      "image_url": "https://images.pexels.com/photos/14928746/pexels-photo-14928746.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "image_alt": "Bursa Zeki Müren Güzel Sanatlar Lisesi öğrencileri stadyumda marş klibi çekiminde.",
-      "image": {
-        "url": "https://images.pexels.com/photos/14928746/pexels-photo-14928746.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "alt": "Bursa Zeki Müren Güzel Sanatlar Lisesi öğrencileri stadyumda marş klibi çekiminde."
-      },
-      "source_name": "Anadolu Ajansı Güncel Haberler",
-      "source_url": "https://www.aa.com.tr/tr/spor/a-milli-futbol-takimi-beste-yarismasinda-bizim-cocuklar-birinci-oldu/3962217",
-      "tags": [
-        "A Milli Futbol Takımı",
-        "Beste Yarışması",
-        "Bizim Çocuklar",
-        "Milli Eğitim Bakanlığı",
-        "Türkiye Futbol Federasyonu"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610",
-      "slug": "2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610",
-      "title": "2026 Dünya Kupası'nda bilet krizi: Fiyatlar rekor kırdı",
-      "summary": "ABD, Kanada ve Meksika'nın ev sahipliğinde yarın başlayacak 2026 FIFA Dünya Kupası, bilet fiyatlarıyla turnuva tarihinin en pahalı organizasyonu oldu. 2022 Katar Dünya Kupası'na kıyasla grup maçlarında 5, final maçında ise 10 kat artış gösteren bilet fiyatl...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "10.06.2026",
-      "date_iso": "2026-06-10",
-      "url": "/articles/2026/06/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610/",
-      "detail_json_url": "/data/details/articles/2026/06/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610.webp",
-      "image_alt": "2026 FIFA Dünya Kupası stadyum atmosferi",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610.webp",
-        "alt": "2026 FIFA Dünya Kupası stadyum atmosferi"
-      },
-      "source_name": "Ekonomi haberleri - Son dakika ekonomi haberleri - Sözcü",
-      "source_url": "https://www.sozcu.com.tr/2026-dunya-kupasi-taraftarinin-cebi-yanacak-bilet-fiyatlari-rekor-seviyede-p326761",
-      "tags": [
-        "2026 Dünya Kupası",
-        "FIFA",
-        "bilet fiyatları",
-        "spor ekonomisi"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609",
-      "slug": "turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609",
-      "title": "Türkiye’nin Kıtalararası Balistik Füzesi YILDIRIMHAN Tanıtıldı",
-      "summary": "Türkiye'nin savunma sanayiindeki en yeni hamlesi olan kıtalararası balistik füze YILDIRIMHAN, İstanbul'da düzenlenen SAHA 2026 Savunma, Havacılık ve Uzay Sanayi Fuarı'nda ilk kez sergilendi. Yaklaşık 6 bin kilometre menzile ve 25 Mach hıza sahip olan füze,...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "09.06.2026",
-      "date_iso": "2026-06-09",
-      "url": "/articles/2026/06/turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609/",
-      "detail_json_url": "/data/details/articles/2026/06/turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609.webp",
-      "image_alt": "SAHA 2026 fuarında sergilenen YILDIRIMHAN balistik füzesi.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/turkiyenin-kitalararasi-balistik-fuze-yildirimhan-tanitildi_20260609.webp",
-        "alt": "SAHA 2026 fuarında sergilenen YILDIRIMHAN balistik füzesi."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-al-jazeera-turkiyenin-balistik-fuze-yolculugunu-yazdi-dusman-topraklarinin-derinliklerine-tasiyabilecek-kapasite-7602397",
-      "tags": [
-        "YILDIRIMHAN",
-        "SAHA 2026",
-        "Roketsan",
-        "Savunma Sanayii",
-        "Balistik Füze"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -829,6 +830,78 @@
         "çocuk gelişimi",
         "sosyal medya",
         "dijital medya"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:yapay-zeka-asi-insanlarda-ilk-kez-test-edildi_20260610",
+      "slug": "yapay-zeka-asi-insanlarda-ilk-kez-test-edildi_20260610",
+      "title": "Yapay Zeka Tarafından Tasarlanan Aşı İnsanlarda İlk Kez Test Edildi",
+      "summary": "Bilim insanları, temel bileşeni tamamen yapay zeka tarafından tasarlanan bir aşıyı ilk kez insanlar üzerinde test etti. Amaç, mevcut ve yeni virüslere karşı koruma sağlayabilecek evrensel bir aşı geliştirmek. İlk sonuçlar, aşının güvenli olduğunu ve farklı...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/yapay-zeka-asi-insanlarda-ilk-kez-test-edildi_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/yapay-zeka-asi-insanlarda-ilk-kez-test-edildi_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/yapay-zeka-asi-insanlarda-ilk-kez-test-edildi_20260610.json",
+      "image_url": "https://images.ntv.com.tr/images/iStock-1364749006-344371(2).jpg",
+      "image_alt": "Yapay zeka tarafından tasarlanan bir aşının insanlarda test edilmesi.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/iStock-1364749006-344371(2).jpg",
+        "alt": "Yapay zeka tarafından tasarlanan bir aşının insanlarda test edilmesi."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/dunya/yapay-zeka-asi-tasarladi-insanlarda-ilk-kez-test-edildi-1728001",
+      "tags": [
+        "Yapay Zeka",
+        "Aşı Geliştirme",
+        "Coronavirüs",
+        "Pandemi",
+        "Sağlık Teknolojileri"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:suriye-zindanlarinda-23-yil-mehmet-erturk-esaret-hikayesi_20260610",
+      "slug": "suriye-zindanlarinda-23-yil-mehmet-erturk-esaret-hikayesi_20260610",
+      "title": "Suriye zindanlarında 23 yıl: Mehmet Ertürk'ün kabus dolu esaret günleri",
+      "summary": "Suriye'de Esad rejiminin yıkılmasının ardından 23 yıllık esareti sona eren Kilisli Mehmet Ertürk, cezaevinde yaşadığı dehşeti anlattı. İstihbaratçı sanılarak tutulduğu zindanlarda açlıktan kedi eti ve hamam böceği yemek zorunda kaldığını belirten Ertürk, gü...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/suriye-zindanlarinda-23-yil-mehmet-erturk-esaret-hikayesi_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/suriye-zindanlarinda-23-yil-mehmet-erturk-esaret-hikayesi_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/suriye-zindanlarinda-23-yil-mehmet-erturk-esaret-hikayesi_20260610.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2926160e7043a30c9da067.jpg",
+      "image_alt": "Suriye'de 23 yıl esir tutulan Mehmet Ertürk",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2926160e7043a30c9da067.jpg",
+        "alt": "Suriye'de 23 yıl esir tutulan Mehmet Ertürk"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/acliktan-kedi-eti-yedik-oldurun-bizi-diyorduk-istihbaratci-sanip-23-yil-zindanda-tuttular-kanli-rejimin-esiri-olan-turk-43199985",
+      "tags": [
+        "Mehmet Ertürk",
+        "Suriye",
+        "Esad rejimi",
+        "Kilis",
+        "esaret"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1080,6 +1153,42 @@
         "Çağatay Ulusoy",
         "Demet Özdemir",
         "Dizi Finali"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:esad-zindanlarinda-23-yil-mehmet-erturk-anlatti_20260610",
+      "slug": "esad-zindanlarinda-23-yil-mehmet-erturk-anlatti_20260610",
+      "title": "Esad zindanlarında 23 yıl: Mehmet Ertürk'ün yaşadığı dehşet",
+      "summary": "Suriye'de Esad rejiminin yıkılmasıyla özgürlüğüne kavuşan Kilisli Mehmet Ertürk, 23 yıl boyunca tutulduğu cezaevlerinde yaşadığı insanlık dışı koşulları ve maruz kaldığı işkenceleri anlattı.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/esad-zindanlarinda-23-yil-mehmet-erturk-anlatti_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/esad-zindanlarinda-23-yil-mehmet-erturk-anlatti_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/esad-zindanlarinda-23-yil-mehmet-erturk-anlatti_20260610.json",
+      "image_url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2939e2a657aa4a44e520c9.jpg",
+      "image_alt": "Suriye cezaevlerinden kurtulan Mehmet Ertürk",
+      "image": {
+        "url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2939e2a657aa4a44e520c9.jpg",
+        "alt": "Suriye cezaevlerinden kurtulan Mehmet Ertürk"
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/esad-zindanlarinda-23-yil-geciren-turk-akilalmaz-iskenceyi-anlatti-hamam-bocegi-ve-kedi-eti-yedik-oldurun-bizi-dedik-7602885",
+      "tags": [
+        "Suriye",
+        "Mehmet Ertürk",
+        "Esad rejimi",
+        "Kilis",
+        "cezaevi"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -2767,113 +2876,6 @@
         "Donald Trump"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608",
-      "slug": "meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608",
-      "title": "Meta’dan 2026 FIFA Dünya Kupası için Kapsamlı Güvenlik Hamlesi",
-      "summary": "2026 FIFA Dünya Kupası yaklaşırken Meta, platformlarında dolandırıcılık faaliyetlerini engellemek ve kullanıcı güvenliğini sağlamak amacıyla yapay zeka destekli yeni bir eylem planını uygulamaya koydu.",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "08.06.2026",
-      "date_iso": "2026-06-08",
-      "url": "/articles/2026/06/meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608/",
-      "detail_json_url": "/data/details/articles/2026/06/meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608.json",
-      "image_url": "https://images.pexels.com/photos/58461/pexels-photo-58461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "image_alt": "Meta'nın 2026 FIFA Dünya Kupası güvenlik önlemlerini temsil eden dijital grafik.",
-      "image": {
-        "url": "https://images.pexels.com/photos/58461/pexels-photo-58461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "alt": "Meta'nın 2026 FIFA Dünya Kupası güvenlik önlemlerini temsil eden dijital grafik."
-      },
-      "source_name": "Teknoloji Haberleri – ShiftDelete.Net",
-      "source_url": "https://shiftdelete.net/metadan-2026-fifa-dunya-kupasi-oncesi-buyuk-guvenlik-hamlesi",
-      "tags": [
-        "Meta",
-        "2026 FIFA Dünya Kupası",
-        "Siber Güvenlik",
-        "Dolandırıcılıkla Mücadele",
-        "Yapay Zeka"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "nachrichten/artikel:landgericht-bremen-urteil-anschlagsplaene-bremerhaven_20260608",
-      "slug": "landgericht-bremen-urteil-anschlagsplaene-bremerhaven_20260608",
-      "title": "Landgericht Bremen verurteilt zwei Männer wegen Anschlagsplänen",
-      "summary": "Das Landgericht Bremen hat zwei Männer wegen konkreter Anschlagspläne in Bremerhaven verurteilt. Während ein 35-Jähriger eine mehrjährige Haftstrafe erhielt, muss sein 20-jähriger Komplize aufgrund einer psychischen Erkrankung in die Psychiatrie.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Germany",
-      "language": "de",
-      "language_label": "German",
-      "section": "nachrichten/artikel",
-      "section_name": "Deutschland Nachrichten",
-      "url_prefix": "nachrichten/artikel",
-      "date": "08.06.2026",
-      "date_iso": "2026-06-08",
-      "url": "/nachrichten/artikel/landgericht-bremen-urteil-anschlagsplaene-bremerhaven_20260608/",
-      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/landgericht-bremen-urteil-anschlagsplaene-bremerhaven_20260608/",
-      "detail_json_url": "/data/details/nachrichten/artikel/landgericht-bremen-urteil-anschlagsplaene-bremerhaven_20260608.json",
-      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/images/landgericht-bremen-urteil-anschlagsplaene-bremerhaven_20260608.webp",
-      "image_alt": "Das Landgericht Bremen, vor dem das Urteil gegen die beiden Männer gefällt wurde.",
-      "image": {
-        "url": "https://mansetradar.com.tr/nachrichten/artikel/images/landgericht-bremen-urteil-anschlagsplaene-bremerhaven_20260608.webp",
-        "alt": "Das Landgericht Bremen, vor dem das Urteil gegen die beiden Männer gefällt wurde."
-      },
-      "source_name": "DER SPIEGEL - Schlagzeilen",
-      "source_url": "https://www.spiegel.de/panorama/landgericht-bremen-jahrelange-haft-und-psychiatrie-fuer-anschlagsplaene-in-bremerhaven-a-42829e5d-ec0c-4f98-bb30-5a4e8a4106e1#ref=rss",
-      "tags": [
-        "Bremerhaven",
-        "Landgericht Bremen",
-        "Terrorismus",
-        "Urteil",
-        "Kriminalität"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:kene-isirigi-hayati-risk-uyarisi_20260608",
-      "slug": "kene-isirigi-hayati-risk-uyarisi_20260608",
-      "title": "Kene Isırıklarına Karşı Kritik Uyarı: Hangi Bölgeler Risk Altında?",
-      "summary": "Yaz aylarının gelmesiyle birlikte artış gösteren kene vakalarına karşı Enfeksiyon Hastalıkları ve Mikrobiyoloji Uzmanı Dr. Fatih Yıldız, vatandaşları uyardı. Kene ısırıklarının basit bir cilt problemi olarak görülmemesi gerektiğini belirten uzmanlar, yanlış...",
-      "category": "Sağlık",
-      "category_slug": "saglik",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "08.06.2026",
-      "date_iso": "2026-06-08",
-      "url": "/articles/2026/06/kene-isirigi-hayati-risk-uyarisi_20260608/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/kene-isirigi-hayati-risk-uyarisi_20260608/",
-      "detail_json_url": "/data/details/articles/2026/06/kene-isirigi-hayati-risk-uyarisi_20260608.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/kene-isirigi-hayati-risk-uyarisi_20260608.webp",
-      "image_alt": "Kene ısırığı ve sağlık riskleri hakkında uyarıcı görsel.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/kene-isirigi-hayati-risk-uyarisi_20260608.webp",
-        "alt": "Kene ısırığı ve sağlık riskleri hakkında uyarıcı görsel."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/kene-isiriginda-en-buyuk-tehlike-3890076",
-      "tags": [
-        "kene",
-        "kırım kongo kanamalı ateşi",
-        "sağlık",
-        "kene ısırığı"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]

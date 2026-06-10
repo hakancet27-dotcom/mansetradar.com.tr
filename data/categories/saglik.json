@@ -3,11 +3,47 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-10T00:00:00+00:00",
-    "article_count": 438,
+    "article_count": 441,
     "schema_version": 2,
     "category_slug": "saglik"
   },
   "articles": [
+    {
+      "id": "articles/2026/06:yapay-zeka-asi-insanlarda-ilk-kez-test-edildi_20260610",
+      "slug": "yapay-zeka-asi-insanlarda-ilk-kez-test-edildi_20260610",
+      "title": "Yapay Zeka Tarafından Tasarlanan Aşı İnsanlarda İlk Kez Test Edildi",
+      "summary": "Bilim insanları, temel bileşeni tamamen yapay zeka tarafından tasarlanan bir aşıyı ilk kez insanlar üzerinde test etti. Amaç, mevcut ve yeni virüslere karşı koruma sağlayabilecek evrensel bir aşı geliştirmek. İlk sonuçlar, aşının güvenli olduğunu ve farklı...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/yapay-zeka-asi-insanlarda-ilk-kez-test-edildi_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/yapay-zeka-asi-insanlarda-ilk-kez-test-edildi_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/yapay-zeka-asi-insanlarda-ilk-kez-test-edildi_20260610.json",
+      "image_url": "https://images.ntv.com.tr/images/iStock-1364749006-344371(2).jpg",
+      "image_alt": "Yapay zeka tarafından tasarlanan bir aşının insanlarda test edilmesi.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/iStock-1364749006-344371(2).jpg",
+        "alt": "Yapay zeka tarafından tasarlanan bir aşının insanlarda test edilmesi."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/dunya/yapay-zeka-asi-tasarladi-insanlarda-ilk-kez-test-edildi-1728001",
+      "tags": [
+        "Yapay Zeka",
+        "Aşı Geliştirme",
+        "Coronavirüs",
+        "Pandemi",
+        "Sağlık Teknolojileri"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/06:adana-seyhan-platonik-ask-saldirisi_20260610",
       "slug": "adana-seyhan-platonik-ask-saldirisi_20260610",
