@@ -68,9 +68,13 @@
     "Metin hedefin altinda (243 kelime)."
   ],
   "quality_word_count": 243,
-  "indexed_on_home": true,
+  "indexed_on_home": false,
   "source_image_url": "https://im.haberturk.com/l/2026/06/09/ver1780992695/3890327/jpg/200x200",
   "image_storage": "local_webp_cache",
   "image_localized_at": "2026-06-09T19:42:20Z",
-  "time": "13:38"
+  "time": "13:38",
+  "manual_noindex": true,
+  "publication_lifecycle": "archived",
+  "archived_at": "2026-06-10T23:06:26+00:00",
+  "publication_note": "Sveltia yayin listesinden kaldirildi."
 }
