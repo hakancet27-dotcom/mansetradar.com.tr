@@ -32,7 +32,7 @@ collections:
       - { label: Spot, name: spot, widget: text, required: false }
       - { label: Ozet, name: summary, widget: text, required: false }
       - { label: Haber Govdesi HTML, name: content_html, widget: text, required: false }
-      - { label: Gorsel URL, name: image_url, widget: string, required: false }
+      - { label: Ana Gorsel, name: image_url, widget: image, required: false }
       - { label: Gorsel Alt Metni, name: image_alt, widget: string, required: false }
       - { label: Meta Title, name: meta_title, widget: string, required: false }
       - { label: Meta Description, name: meta_description, widget: text, required: false }
