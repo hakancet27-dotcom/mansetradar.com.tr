@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-10T00:00:00+00:00",
-    "article_count": 461,
+    "article_count": 464,
     "schema_version": 2
   },
   "articles": [
@@ -366,6 +366,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/06:nasa-artemis-iii-astronotlarini-tanitti_20260610",
+      "slug": "nasa-artemis-iii-astronotlarini-tanitti_20260610",
+      "title": "NASA, Artemis III Görevi İçin Astronot Ekibini Açıkladı",
+      "summary": "NASA, Artemis III görevi için görev yapacak astronot ekibini resmen açıkladı. Gelecek yılın sonlarına doğru fırlatılması planlanan görev, Ay'a insanlı iniş öncesindeki en kritik testlerden biri olarak öne çıkıyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/nasa-artemis-iii-astronotlarini-tanitti_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/nasa-artemis-iii-astronotlarini-tanitti_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/nasa-artemis-iii-astronotlarini-tanitti_20260610.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a29409c5a781208840b2814.jpg",
+      "image_alt": "NASA Artemis III görevi için kullanılan uzay araçlarının yörüngedeki temsili görüntüsü.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a29409c5a781208840b2814.jpg",
+        "alt": "NASA Artemis III görevi için kullanılan uzay araçlarının yörüngedeki temsili görüntüsü."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/teknoloji/uzay/nasa-artemis-iii-astronotlarini-tanitti-43200203",
+      "tags": [
+        "NASA",
+        "Artemis III",
+        "Uzay",
+        "Ay",
+        "Teknoloji"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/06:naomi-watts-ve-billy-crudup-evlilik-yil-donumu_20260610",
       "slug": "naomi-watts-ve-billy-crudup-evlilik-yil-donumu_20260610",
       "title": "Naomi Watts ve Billy Crudup'tan 3. yıl dönümü kutlaması",
@@ -542,6 +578,42 @@
         "Atatürk Devlet Hastanesi"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610",
+      "slug": "microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610",
+      "title": "Microsoft destekli D-Matrix'ten Nvidia'ya meydan okuyan yeni çip: Corsair",
+      "summary": "Microsoft'un yatırım yaptığı D-Matrix, yapay zeka çıkarım işlemlerinde Nvidia GPU'larına kıyasla 10 kata kadar daha hızlı ve beş kat daha verimli olduğunu iddia ettiği yeni çipi Corsair'i tanıttı.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/206666/1400x788d-matrix-yeni-yapay-zek-cipiyle-nvidia-ya-meydan-okuyor.jpg",
+      "image_alt": "D-Matrix tarafından geliştirilen yeni yapay zeka çipi Corsair",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/206666/1400x788d-matrix-yeni-yapay-zek-cipiyle-nvidia-ya-meydan-okuyor.jpg",
+        "alt": "D-Matrix tarafından geliştirilen yeni yapay zeka çipi Corsair"
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/d-matrix-yeni-yapay-zek-cipiyle-nvidia-ya-meydan-okuyor--206666",
+      "tags": [
+        "D-Matrix",
+        "Nvidia",
+        "Yapay Zeka",
+        "Microsoft",
+        "Corsair"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -1221,6 +1293,42 @@
         "iPhone 17",
         "iOS 27",
         "RAM"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:apple-yapay-zeka-12-gb-ram-gereksinimi_20260610",
+      "slug": "apple-yapay-zeka-12-gb-ram-gereksinimi_20260610",
+      "title": "Apple'ın Yeni Yapay Zeka Özellikleri İçin 12 GB RAM Şartı",
+      "summary": "Apple, iOS 27, iPadOS 27 ve macOS 27 beta sürümleriyle birlikte yeni nesil Apple Intelligence özelliklerini duyurdu. Şirket, gelişmiş yapay zeka araçlarının çalışabilmesi için cihazlarda en az 12 GB RAM bulunması gerektiğini açıkladı.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/apple-yapay-zeka-12-gb-ram-gereksinimi_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/apple-yapay-zeka-12-gb-ram-gereksinimi_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/apple-yapay-zeka-12-gb-ram-gereksinimi_20260610.json",
+      "image_url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2708ec462b1286b33eec10.jpg",
+      "image_alt": "Apple'ın yeni nesil cihazları ve yapay zeka teknolojisi",
+      "image": {
+        "url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2708ec462b1286b33eec10.jpg",
+        "alt": "Apple'ın yeni nesil cihazları ve yapay zeka teknolojisi"
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/teknoloji/applein-onundeki-en-buyuk-engel-12-gb-ram-cogu-iphone-modelinde-yok-7602643",
+      "tags": [
+        "Apple",
+        "iOS 27",
+        "Yapay Zeka",
+        "iPhone 17",
+        "Teknoloji"
       ],
       "quality_score": 86,
       "review_status": "published"

@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-10T00:00:00+00:00",
-    "article_count": 461,
+    "article_count": 464,
     "schema_version": 2
   },
   "hero": [
@@ -366,6 +366,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/06:nasa-artemis-iii-astronotlarini-tanitti_20260610",
+      "slug": "nasa-artemis-iii-astronotlarini-tanitti_20260610",
+      "title": "NASA, Artemis III Görevi İçin Astronot Ekibini Açıkladı",
+      "summary": "NASA, Artemis III görevi için görev yapacak astronot ekibini resmen açıkladı. Gelecek yılın sonlarına doğru fırlatılması planlanan görev, Ay'a insanlı iniş öncesindeki en kritik testlerden biri olarak öne çıkıyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/nasa-artemis-iii-astronotlarini-tanitti_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/nasa-artemis-iii-astronotlarini-tanitti_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/nasa-artemis-iii-astronotlarini-tanitti_20260610.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a29409c5a781208840b2814.jpg",
+      "image_alt": "NASA Artemis III görevi için kullanılan uzay araçlarının yörüngedeki temsili görüntüsü.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a29409c5a781208840b2814.jpg",
+        "alt": "NASA Artemis III görevi için kullanılan uzay araçlarının yörüngedeki temsili görüntüsü."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/teknoloji/uzay/nasa-artemis-iii-astronotlarini-tanitti-43200203",
+      "tags": [
+        "NASA",
+        "Artemis III",
+        "Uzay",
+        "Ay",
+        "Teknoloji"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/06:naomi-watts-ve-billy-crudup-evlilik-yil-donumu_20260610",
       "slug": "naomi-watts-ve-billy-crudup-evlilik-yil-donumu_20260610",
       "title": "Naomi Watts ve Billy Crudup'tan 3. yıl dönümü kutlaması",
@@ -545,6 +581,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/06:microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610",
+      "slug": "microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610",
+      "title": "Microsoft destekli D-Matrix'ten Nvidia'ya meydan okuyan yeni çip: Corsair",
+      "summary": "Microsoft'un yatırım yaptığı D-Matrix, yapay zeka çıkarım işlemlerinde Nvidia GPU'larına kıyasla 10 kata kadar daha hızlı ve beş kat daha verimli olduğunu iddia ettiği yeni çipi Corsair'i tanıttı.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/206666/1400x788d-matrix-yeni-yapay-zek-cipiyle-nvidia-ya-meydan-okuyor.jpg",
+      "image_alt": "D-Matrix tarafından geliştirilen yeni yapay zeka çipi Corsair",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/206666/1400x788d-matrix-yeni-yapay-zek-cipiyle-nvidia-ya-meydan-okuyor.jpg",
+        "alt": "D-Matrix tarafından geliştirilen yeni yapay zeka çipi Corsair"
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/d-matrix-yeni-yapay-zek-cipiyle-nvidia-ya-meydan-okuyor--206666",
+      "tags": [
+        "D-Matrix",
+        "Nvidia",
+        "Yapay Zeka",
+        "Microsoft",
+        "Corsair"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/06:manisada-cenaze-toreninde-kalp-krizi_20260610",
       "slug": "manisada-cenaze-toreninde-kalp-krizi_20260610",
       "title": "Manisa'da cenaze töreninde acı olay: Arkadaşının vedasına geldi, kalp krizi geçirdi",
@@ -647,78 +719,6 @@
         "ekonomi",
         "trafik sigortası",
         "araç sigortası"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:istanbul-ayazagada-kene-istilasi-uzmanlardan-kritik-uyari_20260610",
-      "slug": "istanbul-ayazagada-kene-istilasi-uzmanlardan-kritik-uyari_20260610",
-      "title": "İstanbul Ayazağa’da Kene İstilası: Uzmanlardan Kritik Uyarı",
-      "summary": "İstanbul Sarıyer’in Ayazağa mahallesinde akşam saatlerinde ortaya çıkan ve sayıları binleri bulan keneler, mahalle sakinleri arasında büyük korkuya yol açtı. Bölge halkı, bir hafta içinde 500’den fazla kene öldürdüklerini belirtirken, uzmanlar kene popülasy...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "10.06.2026",
-      "date_iso": "2026-06-10",
-      "url": "/articles/2026/06/istanbul-ayazagada-kene-istilasi-uzmanlardan-kritik-uyari_20260610/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/istanbul-ayazagada-kene-istilasi-uzmanlardan-kritik-uyari_20260610/",
-      "detail_json_url": "/data/details/articles/2026/06/istanbul-ayazagada-kene-istilasi-uzmanlardan-kritik-uyari_20260610.json",
-      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a27f96cbd0c561d1de24733.jpg",
-      "image_alt": "İstanbul'da kene artışı nedeniyle bölge halkı tedirgin.",
-      "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a27f96cbd0c561d1de24733.jpg",
-        "alt": "İstanbul'da kene artışı nedeniyle bölge halkı tedirgin."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/istanbulda-panik-buyuyor-neden-bu-kadar-cogaldilar-ve-hangi-riskleri-tasiyorlar-kene-populasyonunda-daha-da-artis-gorecegiz-43199027",
-      "tags": [
-        "İstanbul",
-        "Ayazağa",
-        "kene",
-        "sağlık",
-        "Yavuz Turan"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:ibrahim-haciosmanoglu-a-milli-takim-dunya-kupasi-hazirliklari_20260610",
-      "slug": "ibrahim-haciosmanoglu-a-milli-takim-dunya-kupasi-hazirliklari_20260610",
-      "title": "İbrahim Hacıosmanoğlu'ndan Milli Takım'a ziyaret: Hedefimiz belli",
-      "summary": "TFF Başkanı İbrahim Hacıosmanoğlu, 2026 Dünya Kupası D Grubu hazırlıklarını ABD'nin Arizona eyaletinde sürdüren A Milli Futbol Takımı'nın antrenmanını ziyaret etti. Hacıosmanoğlu, hedeflerinin gruptan lider çıkmak olduğunu vurguladı.",
-      "category": "Spor",
-      "category_slug": "spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "10.06.2026",
-      "date_iso": "2026-06-10",
-      "url": "/articles/2026/06/ibrahim-haciosmanoglu-a-milli-takim-dunya-kupasi-hazirliklari_20260610/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/ibrahim-haciosmanoglu-a-milli-takim-dunya-kupasi-hazirliklari_20260610/",
-      "detail_json_url": "/data/details/articles/2026/06/ibrahim-haciosmanoglu-a-milli-takim-dunya-kupasi-hazirliklari_20260610.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/ibrahim-haciosmanoglu-a-milli-takim-dunya-kupasi-hazirliklari_20260610.webp",
-      "image_alt": "TFF Başkanı İbrahim Hacıosmanoğlu, A Milli Futbol Takımı'nın ABD'deki antrenmanını takip ederken.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/ibrahim-haciosmanoglu-a-milli-takim-dunya-kupasi-hazirliklari_20260610.webp",
-        "alt": "TFF Başkanı İbrahim Hacıosmanoğlu, A Milli Futbol Takımı'nın ABD'deki antrenmanını takip ederken."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/ibrahim-haciosmanoglu-hedefimiz-belli-ama-adim-adim-gitmek-lazim-43199738",
-      "tags": [
-        "İbrahim Hacıosmanoğlu",
-        "A Milli Takım",
-        "Dünya Kupası",
-        "Elif Nur Turhan",
-        "TFF"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1084,6 +1084,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/06:nasa-artemis-iii-astronotlarini-tanitti_20260610",
+      "slug": "nasa-artemis-iii-astronotlarini-tanitti_20260610",
+      "title": "NASA, Artemis III Görevi İçin Astronot Ekibini Açıkladı",
+      "summary": "NASA, Artemis III görevi için görev yapacak astronot ekibini resmen açıkladı. Gelecek yılın sonlarına doğru fırlatılması planlanan görev, Ay'a insanlı iniş öncesindeki en kritik testlerden biri olarak öne çıkıyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/nasa-artemis-iii-astronotlarini-tanitti_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/nasa-artemis-iii-astronotlarini-tanitti_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/nasa-artemis-iii-astronotlarini-tanitti_20260610.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a29409c5a781208840b2814.jpg",
+      "image_alt": "NASA Artemis III görevi için kullanılan uzay araçlarının yörüngedeki temsili görüntüsü.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a29409c5a781208840b2814.jpg",
+        "alt": "NASA Artemis III görevi için kullanılan uzay araçlarının yörüngedeki temsili görüntüsü."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/teknoloji/uzay/nasa-artemis-iii-astronotlarini-tanitti-43200203",
+      "tags": [
+        "NASA",
+        "Artemis III",
+        "Uzay",
+        "Ay",
+        "Teknoloji"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/06:naomi-watts-ve-billy-crudup-evlilik-yil-donumu_20260610",
       "slug": "naomi-watts-ve-billy-crudup-evlilik-yil-donumu_20260610",
       "title": "Naomi Watts ve Billy Crudup'tan 3. yıl dönümü kutlaması",
@@ -1260,6 +1296,42 @@
         "Atatürk Devlet Hastanesi"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610",
+      "slug": "microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610",
+      "title": "Microsoft destekli D-Matrix'ten Nvidia'ya meydan okuyan yeni çip: Corsair",
+      "summary": "Microsoft'un yatırım yaptığı D-Matrix, yapay zeka çıkarım işlemlerinde Nvidia GPU'larına kıyasla 10 kata kadar daha hızlı ve beş kat daha verimli olduğunu iddia ettiği yeni çipi Corsair'i tanıttı.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/206666/1400x788d-matrix-yeni-yapay-zek-cipiyle-nvidia-ya-meydan-okuyor.jpg",
+      "image_alt": "D-Matrix tarafından geliştirilen yeni yapay zeka çipi Corsair",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/206666/1400x788d-matrix-yeni-yapay-zek-cipiyle-nvidia-ya-meydan-okuyor.jpg",
+        "alt": "D-Matrix tarafından geliştirilen yeni yapay zeka çipi Corsair"
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/d-matrix-yeni-yapay-zek-cipiyle-nvidia-ya-meydan-okuyor--206666",
+      "tags": [
+        "D-Matrix",
+        "Nvidia",
+        "Yapay Zeka",
+        "Microsoft",
+        "Corsair"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -1939,6 +2011,42 @@
         "iPhone 17",
         "iOS 27",
         "RAM"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:apple-yapay-zeka-12-gb-ram-gereksinimi_20260610",
+      "slug": "apple-yapay-zeka-12-gb-ram-gereksinimi_20260610",
+      "title": "Apple'ın Yeni Yapay Zeka Özellikleri İçin 12 GB RAM Şartı",
+      "summary": "Apple, iOS 27, iPadOS 27 ve macOS 27 beta sürümleriyle birlikte yeni nesil Apple Intelligence özelliklerini duyurdu. Şirket, gelişmiş yapay zeka araçlarının çalışabilmesi için cihazlarda en az 12 GB RAM bulunması gerektiğini açıkladı.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "10.06.2026",
+      "date_iso": "2026-06-10",
+      "url": "/articles/2026/06/apple-yapay-zeka-12-gb-ram-gereksinimi_20260610/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/apple-yapay-zeka-12-gb-ram-gereksinimi_20260610/",
+      "detail_json_url": "/data/details/articles/2026/06/apple-yapay-zeka-12-gb-ram-gereksinimi_20260610.json",
+      "image_url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2708ec462b1286b33eec10.jpg",
+      "image_alt": "Apple'ın yeni nesil cihazları ve yapay zeka teknolojisi",
+      "image": {
+        "url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2708ec462b1286b33eec10.jpg",
+        "alt": "Apple'ın yeni nesil cihazları ve yapay zeka teknolojisi"
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/teknoloji/applein-onundeki-en-buyuk-engel-12-gb-ram-cogu-iphone-modelinde-yok-7602643",
+      "tags": [
+        "Apple",
+        "iOS 27",
+        "Yapay Zeka",
+        "iPhone 17",
+        "Teknoloji"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -2764,114 +2872,6 @@
         "İstanbul Bildirisi"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:ipados-27-alacak-cihazlar-listesi_20260609",
-      "slug": "ipados-27-alacak-cihazlar-listesi_20260609",
-      "title": "iPadOS 27 Hangi Cihazlara Gelecek? İşte Güncellemeyi Alacak Modeller",
-      "summary": "Apple, WWDC etkinliğinde tanıttığı yeni iPadOS 27 güncellemesiyle performans odaklı iyileştirmeler sunuyor. Liquid Glass geliştirmeleri ve Siri AI gibi yenilikleri beraberinde getiren güncellemenin hangi cihazlara geleceği ve destek desteği kesilen modeller...",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "09.06.2026",
-      "date_iso": "2026-06-09",
-      "url": "/articles/2026/06/ipados-27-alacak-cihazlar-listesi_20260609/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/ipados-27-alacak-cihazlar-listesi_20260609/",
-      "detail_json_url": "/data/details/articles/2026/06/ipados-27-alacak-cihazlar-listesi_20260609.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/ipados-27-alacak-cihazlar-listesi_20260609.webp",
-      "image_alt": "iPadOS 27 güncellemesi alan yeni nesil iPad modelleri",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/ipados-27-alacak-cihazlar-listesi_20260609.webp",
-        "alt": "iPadOS 27 güncellemesi alan yeni nesil iPad modelleri"
-      },
-      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
-      "source_url": "https://www.donanimhaber.com/ipados-27-alacak-cihazlar-ipados-27-destekleyen-modeller--206637",
-      "tags": [
-        "iPadOS 27",
-        "Apple",
-        "iPad",
-        "WWDC",
-        "Teknoloji"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:ios-27-beta-surumu-katlanabilir-iphone-planlarini-ortaya-cikardi_20260609",
-      "slug": "ios-27-beta-surumu-katlanabilir-iphone-planlarini-ortaya-cikardi_20260609",
-      "title": "iOS 27 Beta Sürümünde Katlanabilir iPhone İzleri",
-      "summary": "Apple'ın iOS 27 geliştirici beta sürümünde keşfedilen teknik kodlar, şirketin katlanabilir bir iPhone modeli üzerinde çalıştığına dair güçlü ipuçları sunuyor. Geliştiriciler tarafından fark edilen yeni sistem referansları, Apple'ın bu form faktörü için yazı...",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "09.06.2026",
-      "date_iso": "2026-06-09",
-      "url": "/articles/2026/06/ios-27-beta-surumu-katlanabilir-iphone-planlarini-ortaya-cikardi_20260609/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/ios-27-beta-surumu-katlanabilir-iphone-planlarini-ortaya-cikardi_20260609/",
-      "detail_json_url": "/data/details/articles/2026/06/ios-27-beta-surumu-katlanabilir-iphone-planlarini-ortaya-cikardi_20260609.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/ios-27-beta-surumu-katlanabilir-iphone-planlarini-ortaya-cikardi_20260609.webp",
-      "image_alt": "iOS 27 beta sürümünde katlanabilir iPhone'a dair teknik kodlar.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/ios-27-beta-surumu-katlanabilir-iphone-planlarini-ortaya-cikardi_20260609.webp",
-        "alt": "iOS 27 beta sürümünde katlanabilir iPhone'a dair teknik kodlar."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/teknoloji/ios-27-beta-surumu-katlanabilir-iphone-planlarini-ortaya-cikardi-7602261",
-      "tags": [
-        "Apple",
-        "iOS 27",
-        "iPhone",
-        "Katlanabilir Telefon",
-        "Teknoloji"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:inegol-cocuk-parkinda-pompali-saldiri_20260609",
-      "slug": "inegol-cocuk-parkinda-pompali-saldiri_20260609",
-      "title": "İnegöl'deki çocuk parkında pompalı saldırı: 10 yaralı",
-      "summary": "Bursa’nın İnegöl ilçesinde bir çocuk parkına araçla gelen şüpheliler, pompalı tüfekle ateş açtı. Olayda 6’sı çocuk olmak üzere toplam 10 kişi yaralanırken, saldırının taraflar arasındaki bir husumetten kaynaklandığı belirlendi.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "09.06.2026",
-      "date_iso": "2026-06-09",
-      "url": "/articles/2026/06/inegol-cocuk-parkinda-pompali-saldiri_20260609/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/inegol-cocuk-parkinda-pompali-saldiri_20260609/",
-      "detail_json_url": "/data/details/articles/2026/06/inegol-cocuk-parkinda-pompali-saldiri_20260609.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/inegol-cocuk-parkinda-pompali-saldiri_20260609.webp",
-      "image_alt": "İnegöl'de silahlı saldırının gerçekleştiği çocuk parkı",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/inegol-cocuk-parkinda-pompali-saldiri_20260609.webp",
-        "alt": "İnegöl'de silahlı saldırının gerçekleştiği çocuk parkı"
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/cocuk-parkinda-pompali-dehseti-6si-cocuk-10-yarali-43198293",
-      "tags": [
-        "Bursa",
-        "İnegöl",
-        "silahlı saldırı",
-        "asayiş",
-        "çocuk parkı"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]

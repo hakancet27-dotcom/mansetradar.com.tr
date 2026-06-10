@@ -1,0 +1,77 @@
+{
+  "title": "Microsoft destekli D-Matrix'ten Nvidia'ya meydan okuyan yeni çip: Corsair",
+  "meta_title": "Microsoft Destekli D-Matrix, Yeni AI Çipi Corsair'i Tanıttı",
+  "meta_description": "Microsoft yatırımıyla dikkat çeken D-Matrix, yapay zeka çıkarım işlemlerinde Nvidia GPU'larından 10 kat hızlı olduğunu iddia ettiği Corsair çipini duyurdu.",
+  "discover_titles": [
+    "D-Matrix'in yeni AI çipi Nvidia'ya rakip mi?",
+    "Microsoft destekli girişimden 10 kat hızlı AI çipi",
+    "D-Matrix, Corsair ile yapay zeka pazarında iddialı"
+  ],
+  "slug": "microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610",
+  "category": "Teknoloji",
+  "spot": "Microsoft'un yatırım yaptığı D-Matrix, yapay zeka çıkarım işlemlerinde Nvidia GPU'larına kıyasla 10 kata kadar daha hızlı ve beş kat daha verimli olduğunu iddia ettiği yeni çipi Corsair'i tanıttı.",
+  "content_html": "<h2>Yapay Zeka Çıkarım Pazarında Yeni Bir Oyuncu</h2> <p>Yapay zeka teknolojilerinin hızla geliştiği günümüzde, AI çipleri sektörün en stratejik bileşenlerinden biri haline geldi. Nvidia'nın H100 ve Blackwell gibi GPU modelleriyle domine ettiği pazara, Microsoft'un desteklediği D-Matrix girişimi iddialı bir çözümle dahil oluyor. Şirket, Corsair adını verdiği yeni yapay zeka çipinin, özellikle çıkarım (inference) süreçlerinde Nvidia'nın bağımsız GPU'larına göre çok daha yüksek performans sunduğunu belirtiyor.</p> <h2>Corsair'in Teknik Avantajları ve Odak Noktası</h2> <p>D-Matrix tarafından paylaşılan verilere göre Corsair, belirli yapay zeka iş yüklerinde Nvidia GPU'larına kıyasla 10 kata kadar daha hızlı çalışabiliyor. Bu yüksek performansın yanı sıra, çipin yaklaşık beş kat daha düşük enerji tüketimi ile operasyonel verimlilik sağladığı ifade ediliyor. Şirket, bu avantajların özellikle küçük ve düşük gecikme süreli yapay zeka işlemleri için geçerli olduğunun altını çiziyor.</p> <p>Corsair, devasa dil modellerini eğitmek yerine, mevcut modellerin çalıştırılması ve kullanıcılara gerçek zamanlı cevap üretilmesi süreçlerine odaklanıyor. Geleneksel DRAM yerine SRAM tabanlı bir mimari kullanan Corsair, sohbet botları, sesli asistanlar ve agent tabanlı yapay zeka araçları gibi düşük gecikmeli sistemlerin ihtiyaç duyduğu yüksek verimliliği hedefliyor. D-Matrix'in bu stratejisi, ChatGPT, Gemini veya Claude gibi sistemlerin milyonlarca kullanıcıya hizmet verirken karşılaştığı en büyük maliyet kalemlerinden biri olan çıkarım işlemlerini optimize etmeyi amaçlıyor.</p>",
+  "tags": [
+    "D-Matrix",
+    "Nvidia",
+    "Yapay Zeka",
+    "Microsoft",
+    "Corsair"
+  ],
+  "visual_keywords": [
+    "AI chip",
+    "D-Matrix logo",
+    "semiconductor technology",
+    "data center hardware"
+  ],
+  "image_prompt": "A high-tech, professional close-up of a modern semiconductor AI chip on a circuit board, sleek design, blue and silver lighting, tech industry aesthetic.",
+  "image_alt": "D-Matrix tarafından geliştirilen yeni yapay zeka çipi Corsair",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 3,
+  "word_count": 237,
+  "date": "10.06.2026",
+  "flag": "TR",
+  "country": "Turkey",
+  "display_country": "Türkiye",
+  "image_url": "https://www.donanimhaber.com/images/images/haber/206666/1400x788d-matrix-yeni-yapay-zek-cipiyle-nvidia-ya-meydan-okuyor.jpg",
+  "real_image_required": true,
+  "real_image_status": "approved_real_image",
+  "image_kind": "licensed_real_photo",
+  "image_license_status": "source_provided",
+  "image_license_note": "RSS source image: DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+  "image_source_url": "https://www.donanimhaber.com/d-matrix-yeni-yapay-zek-cipiyle-nvidia-ya-meydan-okuyor--206666",
+  "image_provider": "rss",
+  "image_score": 90,
+  "image_query": "Microsoft destekli D-Matrix, yeni AI çipinin Nvidia'lardan 10 kat hızlı olduğunu",
+  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
+  "summary": "Microsoft'un yatırım yaptığı D-Matrix, yapay zeka çıkarım işlemlerinde Nvidia GPU'larına kıyasla 10 kata kadar daha hızlı ve beş kat daha verimli olduğunu iddia ettiği yeni çipi Corsair'i tanıttı.",
+  "language": "Turkish",
+  "url_prefix": "articles/2026/06",
+  "source_language": "Turkish",
+  "target_language": "Turkish",
+  "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+  "source_url": "https://www.donanimhaber.com/d-matrix-yeni-yapay-zek-cipiyle-nvidia-ya-meydan-okuyor--206666",
+  "source_published_at": "2026-06-10T19:25:00+00:00",
+  "source_fact_score": 11,
+  "source_fact_word_count": 334,
+  "quality_score": 76,
+  "quality_status": "published_with_warning",
+  "review_required": false,
+  "quality_flags": [
+    "short_article",
+    "generated_image"
+  ],
+  "quality_notes": [
+    "Metin hedefin altinda (237 kelime).",
+    "Haber stok/gercek fotograf yerine uretilmis gorsel kullaniyor."
+  ],
+  "quality_word_count": 237,
+  "indexed_on_home": true,
+  "time": "19:25",
+  "public_url": "/articles/2026/06/microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610/",
+  "source_json_path": "articles/2026/06/microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610.json",
+  "cms_generated_from_monthly_source": true
+}
