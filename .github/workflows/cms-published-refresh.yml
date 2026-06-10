@@ -1,4 +1,4 @@
-name: CMS Published Refresh
+name: Newsroom CMS Publish
 
 on:
   workflow_dispatch:
@@ -6,10 +6,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: newsroom-cms-publish
+  cancel-in-progress: false
+
 jobs:
-  refresh:
+  publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
@@ -17,17 +21,29 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Export CMS published list
+      - name: Install image tools
+        run: python -m pip install --disable-pip-version-check pillow
+
+      - name: Apply Sveltia edits to live article sources
+        run: python tools/apply_cms_published_edits.py
+
+      - name: Normalize CMS images to WebP
+        run: python tools/cms_media_webp_normalize.py
+
+      - name: Refresh CMS published list
         run: python tools/export_cms_published.py
 
-      - name: Commit changes
+      - name: Publish inline image galleries
+        run: python tools/cms_inline_gallery_publish.py
+
+      - name: Commit CMS changes to live site
         run: |
           git config user.name "Haber Botu"
           git config user.email "bot@mansetradar.com.tr"
-          git add cms-published
+          git add articles news nachrichten cms-published cms-stock-images
           if ! git diff --staged --quiet; then
-            git commit -m "CMS yayindaki haber bakim listesi guncellendi"
+            git commit -m "Newsroom CMS degisiklikleri yayina alindi"
             git push
           else
-            echo "Degisiklik yok."
+            echo "Yayina alinacak CMS degisikligi yok."
           fi
