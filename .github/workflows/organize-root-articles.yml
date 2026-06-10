@@ -32,6 +32,14 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: Sync latest main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main --depth=1
+          git reset --hard origin/main
+          git log -1 --format=%H
+
       - name: Organize root article files
         shell: bash
         run: |
@@ -215,7 +223,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add articles newsroom/reports/root-articles-organize.md
           git commit -m "Organize root article files"
-          git pull --rebase
           git push
 
       - name: Dry run notice
