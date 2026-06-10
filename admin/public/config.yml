@@ -4,6 +4,7 @@ backend:
   name: github
   repo: hakancet27-dotcom/mansetradar.com.tr
   branch: main
+  auth_methods: [token]
 
 media_folder: articles/images
 public_folder: /articles/images
