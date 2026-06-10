@@ -47,10 +47,13 @@ collections:
     extension: json
     format: json
     identifier_field: slug
+    sortable_fields: [published_at, sort_date, date, time, title, category]
     summary: "{{date}} {{time}} | {{category}} | {{title}}"
     fields: &published_fields
       - { label: Baslik, name: title, widget: string }
       - { label: Slug, name: slug, widget: string, readonly: true }
+      - { label: Sira Tarihi, name: published_at, widget: datetime, required: false, readonly: true }
+      - { label: Sira Anahtari, name: sort_date, widget: hidden, required: false }
       - { label: Tarih, name: date, widget: string, required: false }
       - { label: Saat, name: time, widget: string, required: false }
       - { label: Dil, name: language, widget: string, required: false, readonly: true }
@@ -96,6 +99,7 @@ collections:
     extension: json
     format: json
     identifier_field: slug
+    sortable_fields: [published_at, sort_date, date, time, title, category]
     summary: "{{date}} {{time}} | {{category}} | {{title}}"
     fields: *published_fields
 
@@ -108,5 +112,6 @@ collections:
     extension: json
     format: json
     identifier_field: slug
+    sortable_fields: [published_at, sort_date, date, time, title, category]
     summary: "{{date}} {{time}} | {{category}} | {{title}}"
     fields: *published_fields
