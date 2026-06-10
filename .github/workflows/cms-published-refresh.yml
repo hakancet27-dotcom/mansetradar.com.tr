@@ -24,7 +24,7 @@ jobs:
         run: |
           git config user.name "Haber Botu"
           git config user.email "bot@mansetradar.com.tr"
-          git add data/cms-published
+          git add cms-published
           if ! git diff --staged --quiet; then
             git commit -m "CMS yayindaki haber bakim listesi guncellendi"
             git push
