@@ -1,0 +1,61 @@
+{
+  "title": "A Powerful El Niño Is Forming",
+  "meta_title": "El Niño Formation: Potential Severe Impacts Ahead",
+  "meta_description": "Researchers warn of a powerful El Niño forming, which could have severe impacts on human events",
+  "discover_titles": [
+    "El Niño Warning",
+    "Severe Weather Ahead",
+    "Powerful El Niño Forms"
+  ],
+  "slug": "el-nino-formation_20260521",
+  "category": "US/news",
+  "spot": "Researchers warn that a powerful El Niño is forming, which could have severe impacts on human events, with potential effects on various parts of the world, at this time, and may influence human activities in the coming period",
+  "content_html": "<h2>Introduction to El Niño</h2> <p>El Niño is a complex weather phenomenon that occurs when the surface temperature of the Pacific Ocean warms up more than usual. This warming of the ocean water can have significant effects on the climate and weather patterns around the world.</p> <h2>Potential Impacts of El Niño</h2> <p>The formation of a powerful El Niño can have severe impacts on human events, including extreme weather conditions, such as heavy rainfall, droughts, and heatwaves. These events can affect various aspects of human life, including agriculture, water supply, and human health.</p> <h3>Effects on Global Climate</h3> <p>The effects of El Niño on the global climate can be far-reaching, with potential consequences for food production, economic stability, and social well-being. Understanding the potential impacts of El Niño is crucial for preparing for and mitigating its effects.</p> <h2>Importance of Monitoring El Niño</h2> <p>Monitoring the formation and development of El Niño is essential for predicting its potential impacts and taking necessary precautions. Researchers and scientists closely watch the Pacific Ocean's surface temperature and other climate indicators to provide early warnings and updates on the status of El Niño.</p>",
+  "tags": [
+    "El Niño",
+    "weather",
+    "climate",
+    "US/news"
+  ],
+  "visual_keywords": [
+    "El Niño",
+    "Pacific Ocean",
+    "climate change"
+  ],
+  "image_prompt": "an image of the Pacific Ocean with a graph showing the warming of the ocean water",
+  "image_alt": "El Niño formation in the Pacific Ocean",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 2,
+  "word_count": 225,
+  "date": "21.05.2026",
+  "flag": "US",
+  "country": "USA",
+  "display_country": "United States",
+  "image_url": "https://images.unsplash.com/photo-1700569861349-266929be3d4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFbCUyME5pJUMzJUIxb3xlbnwwfDB8fHwxNzc5MzcwMjQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "summary": "Researchers warn that a powerful El Niño is forming, which could have severe impacts on human events, with potential effects on various parts of the world, at this time, and may influence human activities in the coming period",
+  "language": "English",
+  "url_prefix": "news/articles",
+  "source_language": "English",
+  "target_language": "English",
+  "quality_score": 73,
+  "quality_status": "published_with_warning",
+  "review_required": false,
+  "quality_flags": [
+    "short_article",
+    "meta_description_issue",
+    "category_issue"
+  ],
+  "quality_notes": [
+    "Metin hedefin altinda (225 kelime).",
+    "Meta description ideal aralikta degil.",
+    "Kategori standart haber kategorileriyle uyumlu degil: US/news."
+  ],
+  "quality_word_count": 225,
+  "indexed_on_home": true,
+  "public_url": "/news/articles/el-nino-formation_20260521/",
+  "source_json_path": "news/articles/el-nino-formation_20260521.json",
+  "cms_generated_from_monthly_source": true
+}
