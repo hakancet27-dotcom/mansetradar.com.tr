@@ -17,11 +17,11 @@ collections:
   - name: published_tr
     label: "Yayindaki Haberler / Turkce"
     label_singular: "Yayindaki Turkce Haber"
-    folder: cms-published/articles
+    folder: data/cms-published/articles
     create: false
     extension: json
     format: json
-    identifier_field: title
+    identifier_field: slug
     summary: "{{date}} | {{category}} | {{title}}"
     fields: &published_fields
       - { label: Baslik, name: title, widget: string }
@@ -59,21 +59,21 @@ collections:
   - name: published_en
     label: "Published News / English"
     label_singular: "Published English News"
-    folder: cms-published/news/articles
+    folder: data/cms-published/news/articles
     create: false
     extension: json
     format: json
-    identifier_field: title
+    identifier_field: slug
     summary: "{{date}} | {{category}} | {{title}}"
     fields: *published_fields
 
   - name: published_de
     label: "Veroeffentlichte Nachrichten / Deutsch"
     label_singular: "Veroeffentlichte Nachricht"
-    folder: cms-published/nachrichten/artikel
+    folder: data/cms-published/nachrichten/artikel
     create: false
     extension: json
     format: json
-    identifier_field: title
+    identifier_field: slug
     summary: "{{date}} | {{category}} | {{title}}"
     fields: *published_fields
