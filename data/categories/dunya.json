@@ -3,11 +3,47 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-11T00:00:00+00:00",
-    "article_count": 479,
+    "article_count": 481,
     "schema_version": 2,
     "category_slug": "dunya"
   },
   "articles": [
+    {
+      "id": "articles/2026/06:yunan-basini-turkiyenin-8-katmanli-savunma-agini-yazdi_20260611",
+      "slug": "yunan-basini-turkiyenin-8-katmanli-savunma-agini-yazdi_20260611",
+      "title": "Yunan basınından Türkiye’nin 8 katmanlı savunma ağına yakın takip",
+      "summary": "Yunanistan merkezli Pentapostagma, ASELSAN tarafından geliştirilen ve İHA tehditlerine karşı 8 katmanlı koruma sağlayan DRONDEF sisteminin Ege'deki güvenlik dengeleri açısından kritik bir kapasiteye ulaştığını yazdı.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "11.06.2026",
+      "date_iso": "2026-06-11",
+      "url": "/articles/2026/06/yunan-basini-turkiyenin-8-katmanli-savunma-agini-yazdi_20260611/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/yunan-basini-turkiyenin-8-katmanli-savunma-agini-yazdi_20260611/",
+      "detail_json_url": "/data/details/articles/2026/06/yunan-basini-turkiyenin-8-katmanli-savunma-agini-yazdi_20260611.json",
+      "image_url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2a9303a657aa4a44e52732.jpg",
+      "image_alt": "ASELSAN tarafından geliştirilen DRONDEF İHA savunma sistemi.",
+      "image": {
+        "url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2a9303a657aa4a44e52732.jpg",
+        "alt": "ASELSAN tarafından geliştirilen DRONDEF İHA savunma sistemi."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/yunan-basini-turkiyenin-8-katmanli-savunma-agini-yazdi-atinayi-kor-edebilir-7603533",
+      "tags": [
+        "ASELSAN",
+        "DRONDEF",
+        "Savunma Sanayii",
+        "Türkiye",
+        "Yunanistan"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/06:israil-bati-seria-350-milyon-dolar-yerlesim-plani_20260611",
       "slug": "israil-bati-seria-350-milyon-dolar-yerlesim-plani_20260611",
@@ -42,6 +78,42 @@
         "Dış politika"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:iran-yeni-patlamalar-savunma-kapasitesi-aciklamasi_20260611",
+      "slug": "iran-yeni-patlamalar-savunma-kapasitesi-aciklamasi_20260611",
+      "title": "İran'da yeni patlamalar: Tahran'dan savunma kapasitesi açıklaması",
+      "summary": "İran'ın Kerec, Bender Abbas ve Kazvin kentlerinde patlama sesleri duyuldu. Tahran yönetimi, savunma sistemlerinin zayıflatıldığı iddialarını reddederek askeri kapasitesinin çatışmaların başlangıcına göre daha ileri seviyede olduğunu açıkladı.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "11.06.2026",
+      "date_iso": "2026-06-11",
+      "url": "/articles/2026/06/iran-yeni-patlamalar-savunma-kapasitesi-aciklamasi_20260611/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/iran-yeni-patlamalar-savunma-kapasitesi-aciklamasi_20260611/",
+      "detail_json_url": "/data/details/articles/2026/06/iran-yeni-patlamalar-savunma-kapasitesi-aciklamasi_20260611.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2a72055a781208840b2df1.jpg",
+      "image_alt": "İran'da yaşanan gelişmeler sonrası Tahran'dan bir görünüm.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2a72055a781208840b2df1.jpg",
+        "alt": "İran'da yaşanan gelişmeler sonrası Tahran'dan bir görünüm."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/live-iran-ile-abd-arasinda-ateskes-coktu-abd-ussune-saldiri-hizbullahtan-israile-roketlerle-misilleme-43200968",
+      "tags": [
+        "İran",
+        "ABD",
+        "Orta Doğu",
+        "Hizbullah",
+        "Giorgia Meloni"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
