@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-11T00:00:00+00:00",
-    "article_count": 494,
+    "article_count": 496,
     "schema_version": 2
   },
   "articles": [
@@ -41,6 +41,42 @@
         "Yunanistan"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:volkswagen-yeni-erev-suv-id-era-8x_20260611",
+      "slug": "volkswagen-yeni-erev-suv-id-era-8x_20260611",
+      "title": "Volkswagen'den Yeni EREV SUV: ID.Era 8X Tanıtıldı",
+      "summary": "Volkswagen, Çin pazarına yönelik geliştirdiği yeni nesil uzatılmış menzilli (EREV) SUV modeli ID.Era 8X'i tanıtmaya hazırlanıyor. Çin Sanayi ve Bilgi Teknolojileri Bakanlığı (MIIT) tarafından paylaşılan verilerle detayları netleşen araç, markanın ID.9X mode...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "11.06.2026",
+      "date_iso": "2026-06-11",
+      "url": "/articles/2026/06/volkswagen-yeni-erev-suv-id-era-8x_20260611/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/volkswagen-yeni-erev-suv-id-era-8x_20260611/",
+      "detail_json_url": "/data/details/articles/2026/06/volkswagen-yeni-erev-suv-id-era-8x_20260611.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/206725/1400x788volkswagen-den-suv-hamlesi-hem-elektrikli-hem-menzil-uzatici.jpg",
+      "image_alt": "Volkswagen ID.Era 8X SUV modelinin dış görünümü",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/206725/1400x788volkswagen-den-suv-hamlesi-hem-elektrikli-hem-menzil-uzatici.jpg",
+        "alt": "Volkswagen ID.Era 8X SUV modelinin dış görünümü"
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/volkswagen-den-suv-hamlesi-hem-elektrikli-hem-menzil-uzatici--206725",
+      "tags": [
+        "Volkswagen",
+        "ID.Era 8X",
+        "EREV",
+        "Elektrikli Araç",
+        "Otomobil"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -1183,6 +1219,42 @@
         "2026 Babalar Günü",
         "Babalar Günü ne zaman",
         "Özel günler"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:1998-model-passat-ile-2400-km-rekoru_20260611",
+      "slug": "1998-model-passat-ile-2400-km-rekoru_20260611",
+      "title": "1998 Model Passat ile İnanılmaz Rekor: Tek Depoyla 2.400 Kilometre",
+      "summary": "Alman YouTuber Elias Rischmüller, 1998 model Volkswagen Passat 1.9 TDI aracıyla gerçekleştirdiği yolculukta, tek depo yakıtla 2.400 kilometre mesafe katederek yeni bir dünya rekoruna imza attı.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "11.06.2026",
+      "date_iso": "2026-06-11",
+      "url": "/articles/2026/06/1998-model-passat-ile-2400-km-rekoru_20260611/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/1998-model-passat-ile-2400-km-rekoru_20260611/",
+      "detail_json_url": "/data/details/articles/2026/06/1998-model-passat-ile-2400-km-rekoru_20260611.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/206720/1400x7881998-model-passat-tdi-dan-inanilmaz-rekor-tek-depoyla-2-400-km.jpg",
+      "image_alt": "1998 model Volkswagen Passat, rekor denemesi sırasında yolda ilerlerken.",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/206720/1400x7881998-model-passat-tdi-dan-inanilmaz-rekor-tek-depoyla-2-400-km.jpg",
+        "alt": "1998 model Volkswagen Passat, rekor denemesi sırasında yolda ilerlerken."
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/1998-model-passat-tdi-dan-inanilmaz-rekor-tek-depoyla-2-400-km--206720",
+      "tags": [
+        "Volkswagen Passat",
+        "Dünya Rekoru",
+        "Elias Rischmüller",
+        "Yakıt Tasarrufu",
+        "Otomobil"
       ],
       "quality_score": 76,
       "review_status": "published"
