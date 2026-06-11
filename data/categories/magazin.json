@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-11T00:00:00+00:00",
-    "article_count": 490,
+    "article_count": 491,
     "schema_version": 2,
     "category_slug": "magazin"
   },
@@ -112,6 +112,41 @@
         "Klaus Meine",
         "Matthias Jabs",
         "Rock müzik"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:hafta-sonu-icin-cocuklara-ozel-etkinlik-rehberi-13-haziran_20260611",
+      "slug": "hafta-sonu-icin-cocuklara-ozel-etkinlik-rehberi-13-haziran_20260611",
+      "title": "Hafta sonu için çocuklara özel etkinlik rehberi: 13 Haziran",
+      "summary": "13 Haziran Cumartesi günü, İstanbul, Ankara ve İzmir'de çocuklar için tiyatrodan festivale, seslendirme atölyesinden interaktif masallara kadar pek çok farklı etkinlik düzenleniyor. İşte minikler için öne çıkan hafta sonu programı.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "11.06.2026",
+      "date_iso": "2026-06-11",
+      "url": "/articles/2026/06/hafta-sonu-icin-cocuklara-ozel-etkinlik-rehberi-13-haziran_20260611/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/hafta-sonu-icin-cocuklara-ozel-etkinlik-rehberi-13-haziran_20260611/",
+      "detail_json_url": "/data/details/articles/2026/06/hafta-sonu-icin-cocuklara-ozel-etkinlik-rehberi-13-haziran_20260611.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2ab55a4f5bd434a7202769.jpg",
+      "image_alt": "Çocuklar için düzenlenen bir tiyatro etkinliğinden renkli bir kare.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2ab55a4f5bd434a7202769.jpg",
+        "alt": "Çocuklar için düzenlenen bir tiyatro etkinliğinden renkli bir kare."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/cocukla-hayat/hadi-okuyalim-hadi-gidelim-43201779",
+      "tags": [
+        "çocuk etkinlikleri",
+        "hafta sonu",
+        "tiyatro",
+        "etkinlik rehberi"
       ],
       "quality_score": 86,
       "review_status": "published"
