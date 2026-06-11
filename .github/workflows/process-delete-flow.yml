@@ -1,4 +1,4 @@
-name: Process CMS Delete Flow
+name: Process CMS Article Deletes
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - 'cms-delete-flow/**'
+      - 'data/cms-published/**'
       - 'tools/process_delete_flow.py'
 
 permissions:
@@ -25,12 +25,12 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Process delete flow transitions
+      - name: Process CMS article deletes
         run: python tools/process_delete_flow.py --before "${{ github.event.before }}" --head "${{ github.sha }}"
 
-      - name: Commit delete flow updates
+      - name: Commit article delete cleanup
         run: |
-          git config user.name "Delete Flow Bot"
-          git config user.email "delete-flow@mansetradar.com.tr"
-          git add articles news nachrichten cms-delete-flow
-          git diff --staged --quiet || (git commit -m "Process CMS delete flow" && git push)
+          git config user.name "Delete Cleanup Bot"
+          git config user.email "delete-cleanup@mansetradar.com.tr"
+          git add articles news nachrichten data
+          git diff --staged --quiet || (git commit -m "Clean deleted CMS article outputs" && git push)
