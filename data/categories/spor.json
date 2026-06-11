@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-11T00:00:00+00:00",
-    "article_count": 490,
+    "article_count": 492,
     "schema_version": 2,
     "category_slug": "spor"
   },
@@ -39,6 +39,42 @@
         "A Milli Takım",
         "Dünya Kupası",
         "Futbol"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:okan-buruktan-yabanci-kurali-elestirisi-akil-disi_20260611",
+      "slug": "okan-buruktan-yabanci-kurali-elestirisi-akil-disi_20260611",
+      "title": "Okan Buruk'tan yabancı kuralı eleştirisi: 'Akıl dışı!'",
+      "summary": "Galatasaray Teknik Direktörü Okan Buruk, kulübün YouTube kanalına verdiği röportajda yeni yabancı kuralını eleştirdi. Kuralın transfer hedeflerini zorlaştırdığını belirten Buruk, kararı 'akıl dışı' olarak tanımladı.",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "11.06.2026",
+      "date_iso": "2026-06-11",
+      "url": "/articles/2026/06/okan-buruktan-yabanci-kurali-elestirisi-akil-disi_20260611/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/okan-buruktan-yabanci-kurali-elestirisi-akil-disi_20260611/",
+      "detail_json_url": "/data/details/articles/2026/06/okan-buruktan-yabanci-kurali-elestirisi-akil-disi_20260611.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2afe984f5bd434a7202857.jpg",
+      "image_alt": "Galatasaray Teknik Direktörü Okan Buruk bir basın toplantısında konuşurken.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2afe984f5bd434a7202857.jpg",
+        "alt": "Galatasaray Teknik Direktörü Okan Buruk bir basın toplantısında konuşurken."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/okan-buruktan-yabanci-kurali-tepkisi-akil-disi-43202099",
+      "tags": [
+        "Okan Buruk",
+        "Galatasaray",
+        "Yabancı Kuralı",
+        "Süper Lig",
+        "Transfer"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -145,6 +181,41 @@
         "Futbol kuralları",
         "VAR",
         "IFAB"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:2026-dunya-kupasi-basladi-tarihi-anlar_20260611",
+      "slug": "2026-dunya-kupasi-basladi-tarihi-anlar_20260611",
+      "title": "2026 FIFA Dünya Kupası Görkemli Bir Törenle Başladı",
+      "summary": "2026 FIFA Dünya Kupası, Meksika ile Güney Afrika arasındaki açılış maçı öncesinde Mexico City Stadı'nda (Estadio Azteca) gerçekleştirilen görkemli törenle resmen başladı. Meksika, üç kez Dünya Kupası'na ev sahipliği yapan ilk ülke olarak tarihe geçti.",
+      "category": "Spor",
+      "category_slug": "spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "11.06.2026",
+      "date_iso": "2026-06-11",
+      "url": "/articles/2026/06/2026-dunya-kupasi-basladi-tarihi-anlar_20260611/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/2026-dunya-kupasi-basladi-tarihi-anlar_20260611/",
+      "detail_json_url": "/data/details/articles/2026/06/2026-dunya-kupasi-basladi-tarihi-anlar_20260611.json",
+      "image_url": "https://images.ntv.com.tr/images/wc4-225926(2).jpg",
+      "image_alt": "2026 FIFA Dünya Kupası açılış töreni Estadio Azteca'da gerçekleşti.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/wc4-225926(2).jpg",
+        "alt": "2026 FIFA Dünya Kupası açılış töreni Estadio Azteca'da gerçekleşti."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/sporskor/galeri-2026-dunya-kupasi-ilklerle-basladi-tarihe-gecen-anlar-1728215",
+      "tags": [
+        "2026 Dünya Kupası",
+        "Meksika",
+        "Estadio Azteca",
+        "FIFA"
       ],
       "quality_score": 76,
       "review_status": "published"
