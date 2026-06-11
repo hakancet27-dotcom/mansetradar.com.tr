@@ -13,17 +13,66 @@
   <script>
     (function () {
       var path = window.location.pathname || "/";
-      var match = path.match(/^\/articles\/([^\/]+_(\d{4})(\d{2})\d{2})\/?$/);
-      if (!match) return;
-      var target = "/articles/" + match[2] + "/" + match[3] + "/" + match[1] + "/" + window.location.search + window.location.hash;
-      window.location.replace(target);
+      var articleMatch = path.match(/^\/articles\/([^\/]+)\/?$/);
+      var datedMatch = path.match(/^\/articles\/([^\/]+_(\d{4})(\d{2})\d{2})\/?$/);
+
+      if (datedMatch) {
+        window.location.replace("/articles/" + datedMatch[2] + "/" + datedMatch[3] + "/" + datedMatch[1] + "/" + window.location.search + window.location.hash);
+        return;
+      }
+
+      if (!articleMatch) return;
+      var slug = articleMatch[1];
+
+      function normalizeUrl(value) {
+        if (!value || typeof value !== "string") return "";
+        try {
+          var url = new URL(value, window.location.origin);
+          if (url.origin !== window.location.origin) return "";
+          return url.pathname + window.location.search + window.location.hash;
+        } catch (error) {
+          return "";
+        }
+      }
+
+      function findArticleUrl(payload) {
+        var articles = [];
+        if (Array.isArray(payload)) articles = payload;
+        else if (payload && Array.isArray(payload.articles)) articles = payload.articles;
+        else if (payload && Array.isArray(payload.items)) articles = payload.items;
+        for (var i = 0; i < articles.length; i += 1) {
+          var item = articles[i] || {};
+          if (item.slug === slug) {
+            return normalizeUrl(item.url || item.canonical_url || item.href);
+          }
+        }
+        return "";
+      }
+
+      function lookup(index) {
+        var files = ["/data/articles.json", "/data/search-index.json", "/data/home.json"];
+        if (index >= files.length) return;
+        fetch(files[index], {cache:"no-store"})
+          .then(function (response) { return response.ok ? response.json() : null; })
+          .then(function (payload) {
+            var target = findArticleUrl(payload);
+            if (target && target !== path) {
+              window.location.replace(target);
+              return;
+            }
+            lookup(index + 1);
+          })
+          .catch(function () { lookup(index + 1); });
+      }
+
+      lookup(0);
     })();
   </script>
 </head>
 <body>
   <main>
     <h1>Sayfa bulunamadı</h1>
-    <p>Aradığınız haber yeni arşiv düzenine taşınmış olabilir. Eski haber bağlantısı otomatik olarak yeni aylık haber yoluna yönlendirilmeye çalışılıyor.</p>
+    <p>Aradığınız haber yeni arşiv düzenine taşınmış olabilir. Bağlantı, haber indeksinde aranıyor ve bulunursa doğru adrese açılacak.</p>
     <p class="muted"><a href="/">Ana sayfaya dön</a></p>
   </main>
 </body>
