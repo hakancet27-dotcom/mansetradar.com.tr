@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-11T00:00:00+00:00",
-    "article_count": 488,
+    "article_count": 490,
     "schema_version": 2
   },
   "hero": [
@@ -510,6 +510,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/06:chpde-ozgur-ozelin-ekibi-pmden-istifa-etti_20260611",
+      "slug": "chpde-ozgur-ozelin-ekibi-pmden-istifa-etti_20260611",
+      "title": "CHP'de kritik gün: Özgür Özel'in ekibi PM'den istifa etti",
+      "summary": "CHP'de sular durulmuyor. Özgür Özel'in A takımında yer alan 9 ismin kesin ihraç talebiyle Yüksek Disiplin Kurulu'na sevk edilmesinin ardından, Özel'in ekibi Parti Meclisi'nden (PM) istifa ettiğini duyurdu.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "11.06.2026",
+      "date_iso": "2026-06-11",
+      "url": "/articles/2026/06/chpde-ozgur-ozelin-ekibi-pmden-istifa-etti_20260611/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/chpde-ozgur-ozelin-ekibi-pmden-istifa-etti_20260611/",
+      "detail_json_url": "/data/details/articles/2026/06/chpde-ozgur-ozelin-ekibi-pmden-istifa-etti_20260611.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2a55220e7043a30c9da6f7.jpg",
+      "image_alt": "CHP genel merkezi önünde hareketli bir gün.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2a55220e7043a30c9da6f7.jpg",
+        "alt": "CHP genel merkezi önünde hareketli bir gün."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/live-kilicdaroglu-ve-ozel-destekcileri-ilk-defa-bir-araya-geliyor-chpde-gozler-pm-toplantisinda-43201006",
+      "tags": [
+        "CHP",
+        "Özgür Özel",
+        "Kemal Kılıçdaroğlu",
+        "Parti Meclisi",
+        "Siyaset"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/06:chpde-kurultay-toplanmazsa-ne-olacak_20260611",
       "slug": "chpde-kurultay-toplanmazsa-ne-olacak_20260611",
       "title": "CHP'de Parti Meclisi İstifaları Sonrası Kurultay Tartışması",
@@ -571,6 +607,42 @@
       },
       "source_name": "Hürriyet",
       "source_url": "https://www.hurriyet.com.tr/gundem/chp-krizinde-yeni-perde-kurultay-hamlesi-ne-anlatiyor-uc-kritik-asama-var-43201453",
+      "tags": [
+        "CHP",
+        "Özgür Özel",
+        "Kemal Kılıçdaroğlu",
+        "Parti Meclisi",
+        "Siyaset"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:chpde-istifa-depremi-28-pm-uyesi-istifa-etti_20260611",
+      "slug": "chpde-istifa-depremi-28-pm-uyesi-istifa-etti_20260611",
+      "title": "CHP'de İstifa Depremi: Parti Meclisi'nde Sayı 40'ın Altına Düştü",
+      "summary": "CHP'de 21 Mayıs'taki 'mutlak butlan' kararının ardından derinleşen iç kriz, Parti Meclisi'ndeki (PM) toplu istifalarla yeni bir boyuta taşındı. 57 üyeli PM'den 28 ismin ayrılmasıyla üye sayısı 40'ın altına geriledi.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "11.06.2026",
+      "date_iso": "2026-06-11",
+      "url": "/articles/2026/06/chpde-istifa-depremi-28-pm-uyesi-istifa-etti_20260611/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/chpde-istifa-depremi-28-pm-uyesi-istifa-etti_20260611/",
+      "detail_json_url": "/data/details/articles/2026/06/chpde-istifa-depremi-28-pm-uyesi-istifa-etti_20260611.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2a6f500e7043a30c9da8e4.jpg",
+      "image_alt": "CHP Genel Merkezi binası",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2a6f500e7043a30c9da8e4.jpg",
+        "alt": "CHP Genel Merkezi binası"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/ozgur-ozel-ekibinden-kritik-hamle-28-isim-pmden-istifa-etti-simdi-ne-olacak-43201262",
       "tags": [
         "CHP",
         "Özgür Özel",
@@ -651,78 +723,6 @@
         "Manisa"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:bakan-ciftci-yeni-nesil-suc-ceteleri-ile-mucadele-kararlilik_20260611",
-      "slug": "bakan-ciftci-yeni-nesil-suc-ceteleri-ile-mucadele-kararlilik_20260611",
-      "title": "Bakan Çiftçi: Yeni nesil suç çetelerini eylem yapamaz hale getireceğiz",
-      "summary": "İçişleri Bakanı Mustafa Çiftçi, vatandaşın huzurunu bozan ve 'yeni nesil suç örgütleri' olarak adlandırdığı oluşumlara karşı kararlı bir mücadele yürüttüklerini belirterek, 100 gün içerisinde Türkiye genelinde 50 bin operasyon düzenlediklerini açıkladı.",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "11.06.2026",
-      "date_iso": "2026-06-11",
-      "url": "/articles/2026/06/bakan-ciftci-yeni-nesil-suc-ceteleri-ile-mucadele-kararlilik_20260611/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/bakan-ciftci-yeni-nesil-suc-ceteleri-ile-mucadele-kararlilik_20260611/",
-      "detail_json_url": "/data/details/articles/2026/06/bakan-ciftci-yeni-nesil-suc-ceteleri-ile-mucadele-kararlilik_20260611.json",
-      "image_url": "https://im.haberturk.com/l/2026/06/11/ver1781161501/3890864/jpg/200x200",
-      "image_alt": "İçişleri Bakanı Mustafa Çiftçi açıklamalarda bulunuyor.",
-      "image": {
-        "url": "https://im.haberturk.com/l/2026/06/11/ver1781161501/3890864/jpg/200x200",
-        "alt": "İçişleri Bakanı Mustafa Çiftçi açıklamalarda bulunuyor."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/bakan-ciftci-yeni-nesil-suc-cetelerini-eylem-yapamaz-hale-getirecegiz-3890864",
-      "tags": [
-        "Mustafa Çiftçi",
-        "İçişleri Bakanlığı",
-        "suç örgütleri",
-        "operasyon",
-        "güvenlik"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:bahcede-bulunan-siradan-tas-2000-yillik-roma-mezar-tasi-cikti_20260611",
-      "slug": "bahcede-bulunan-siradan-tas-2000-yillik-roma-mezar-tasi-cikti_20260611",
-      "title": "Bahçede Bulunan Sıradan Taş 2000 Yıllık Roma Mezar Taşı Çıktı",
-      "summary": "ABD’nin New Orleans kentinde bir evin bahçesinde tesadüfen bulunan mermer plakanın, 2. Dünya Savaşı sırasında İtalya’daki bir müzeden kaybolan 2.000 yıllık Roma askeri mezar steli olduğu belirlendi.",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "11.06.2026",
-      "date_iso": "2026-06-11",
-      "url": "/articles/2026/06/bahcede-bulunan-siradan-tas-2000-yillik-roma-mezar-tasi-cikti_20260611/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/bahcede-bulunan-siradan-tas-2000-yillik-roma-mezar-tasi-cikti_20260611/",
-      "detail_json_url": "/data/details/articles/2026/06/bahcede-bulunan-siradan-tas-2000-yillik-roma-mezar-tasi-cikti_20260611.json",
-      "image_url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2a8b0fa657aa4a44e52719.jpg",
-      "image_alt": "New Orleans'ta bulunan 2000 yıllık Roma askeri mezar steli.",
-      "image": {
-        "url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2a8b0fa657aa4a44e52719.jpg",
-        "alt": "New Orleans'ta bulunan 2000 yıllık Roma askeri mezar steli."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/dunya/bahcede-yari-gomulu-bulundu-tam-2000-yillik-ev-sahipleri-siradan-bir-tas-sanmisti-7603522",
-      "tags": [
-        "Roma İmparatorluğu",
-        "Arkeoloji",
-        "New Orleans",
-        "Tarihi Eser",
-        "İtalya"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ],
@@ -1230,6 +1230,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/06:chpde-ozgur-ozelin-ekibi-pmden-istifa-etti_20260611",
+      "slug": "chpde-ozgur-ozelin-ekibi-pmden-istifa-etti_20260611",
+      "title": "CHP'de kritik gün: Özgür Özel'in ekibi PM'den istifa etti",
+      "summary": "CHP'de sular durulmuyor. Özgür Özel'in A takımında yer alan 9 ismin kesin ihraç talebiyle Yüksek Disiplin Kurulu'na sevk edilmesinin ardından, Özel'in ekibi Parti Meclisi'nden (PM) istifa ettiğini duyurdu.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "11.06.2026",
+      "date_iso": "2026-06-11",
+      "url": "/articles/2026/06/chpde-ozgur-ozelin-ekibi-pmden-istifa-etti_20260611/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/chpde-ozgur-ozelin-ekibi-pmden-istifa-etti_20260611/",
+      "detail_json_url": "/data/details/articles/2026/06/chpde-ozgur-ozelin-ekibi-pmden-istifa-etti_20260611.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2a55220e7043a30c9da6f7.jpg",
+      "image_alt": "CHP genel merkezi önünde hareketli bir gün.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2a55220e7043a30c9da6f7.jpg",
+        "alt": "CHP genel merkezi önünde hareketli bir gün."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/live-kilicdaroglu-ve-ozel-destekcileri-ilk-defa-bir-araya-geliyor-chpde-gozler-pm-toplantisinda-43201006",
+      "tags": [
+        "CHP",
+        "Özgür Özel",
+        "Kemal Kılıçdaroğlu",
+        "Parti Meclisi",
+        "Siyaset"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/06:chpde-kurultay-toplanmazsa-ne-olacak_20260611",
       "slug": "chpde-kurultay-toplanmazsa-ne-olacak_20260611",
       "title": "CHP'de Parti Meclisi İstifaları Sonrası Kurultay Tartışması",
@@ -1291,6 +1327,42 @@
       },
       "source_name": "Hürriyet",
       "source_url": "https://www.hurriyet.com.tr/gundem/chp-krizinde-yeni-perde-kurultay-hamlesi-ne-anlatiyor-uc-kritik-asama-var-43201453",
+      "tags": [
+        "CHP",
+        "Özgür Özel",
+        "Kemal Kılıçdaroğlu",
+        "Parti Meclisi",
+        "Siyaset"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:chpde-istifa-depremi-28-pm-uyesi-istifa-etti_20260611",
+      "slug": "chpde-istifa-depremi-28-pm-uyesi-istifa-etti_20260611",
+      "title": "CHP'de İstifa Depremi: Parti Meclisi'nde Sayı 40'ın Altına Düştü",
+      "summary": "CHP'de 21 Mayıs'taki 'mutlak butlan' kararının ardından derinleşen iç kriz, Parti Meclisi'ndeki (PM) toplu istifalarla yeni bir boyuta taşındı. 57 üyeli PM'den 28 ismin ayrılmasıyla üye sayısı 40'ın altına geriledi.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "11.06.2026",
+      "date_iso": "2026-06-11",
+      "url": "/articles/2026/06/chpde-istifa-depremi-28-pm-uyesi-istifa-etti_20260611/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/chpde-istifa-depremi-28-pm-uyesi-istifa-etti_20260611/",
+      "detail_json_url": "/data/details/articles/2026/06/chpde-istifa-depremi-28-pm-uyesi-istifa-etti_20260611.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2a6f500e7043a30c9da8e4.jpg",
+      "image_alt": "CHP Genel Merkezi binası",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2a6f500e7043a30c9da8e4.jpg",
+        "alt": "CHP Genel Merkezi binası"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/ozgur-ozel-ekibinden-kritik-hamle-28-isim-pmden-istifa-etti-simdi-ne-olacak-43201262",
       "tags": [
         "CHP",
         "Özgür Özel",
@@ -2802,78 +2874,6 @@
         "Gaziler"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:atlas-caglayan-davasinda-ilk-durusma-sanik-icin-hapis-talebi_20260610",
-      "slug": "atlas-caglayan-davasinda-ilk-durusma-sanik-icin-hapis-talebi_20260610",
-      "title": "Atlas Çağlayan davasında ilk duruşma: Sanık için 21 yıl 7 ay hapis talebi",
-      "summary": "Bakırköy 2’nci Çocuk Ağır Ceza Mahkemesi’nde görülen Atlas Çağlayan cinayeti davasının ilk duruşmasında sanık E.Ç. savunmasını yaptı. Savcı, sanık için 21 yıl 7 ay 15 güne kadar hapis cezası talep etti.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "10.06.2026",
-      "date_iso": "2026-06-10",
-      "url": "/articles/2026/06/atlas-caglayan-davasinda-ilk-durusma-sanik-icin-hapis-talebi_20260610/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/atlas-caglayan-davasinda-ilk-durusma-sanik-icin-hapis-talebi_20260610/",
-      "detail_json_url": "/data/details/articles/2026/06/atlas-caglayan-davasinda-ilk-durusma-sanik-icin-hapis-talebi_20260610.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/atlas-caglayan-davasinda-ilk-durusma-sanik-icin-hapis-talebi_20260610.webp",
-      "image_alt": "Bakırköy Adliyesi binası",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/atlas-caglayan-davasinda-ilk-durusma-sanik-icin-hapis-talebi_20260610.webp",
-        "alt": "Bakırköy Adliyesi binası"
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/atlasin-katili-hakim-karsisinda-43199551",
-      "tags": [
-        "Atlas Çağlayan",
-        "Bakırköy Adliyesi",
-        "Gülhan Ünlü",
-        "Dava",
-        "Mahkeme"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:askerlik-borclanmasi-ile-eyt-kapsamina-girme-rehberi_20260610",
-      "slug": "askerlik-borclanmasi-ile-eyt-kapsamina-girme-rehberi_20260610",
-      "title": "Askerlik borçlanması ile EYT kapsamına girme rehberi",
-      "summary": "Sosyal güvenlik uzmanı Nergis Şimşek, sigorta başlangıç tarihini geri çekerek EYT kapsamına girmek isteyenler için askerlik borçlanmasının kritik detaylarını paylaştı. Şimşek, doğru planlama ile daha düşük maliyetle emeklilik şartlarının nasıl iyileştirileb...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "10.06.2026",
-      "date_iso": "2026-06-10",
-      "url": "/articles/2026/06/askerlik-borclanmasi-ile-eyt-kapsamina-girme-rehberi_20260610/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/askerlik-borclanmasi-ile-eyt-kapsamina-girme-rehberi_20260610/",
-      "detail_json_url": "/data/details/articles/2026/06/askerlik-borclanmasi-ile-eyt-kapsamina-girme-rehberi_20260610.json",
-      "image_url": "https://media.cumhuriyet.com.tr/Archive/0bfbb707-40ef-47d6-8d70-bc065001e8f8.jpg",
-      "image_alt": "Sosyal güvenlik uzmanı emeklilik planlaması yapıyor",
-      "image": {
-        "url": "https://media.cumhuriyet.com.tr/Archive/0bfbb707-40ef-47d6-8d70-bc065001e8f8.jpg",
-        "alt": "Sosyal güvenlik uzmanı emeklilik planlaması yapıyor"
-      },
-      "source_name": "Cumhuriyet Gazetesi",
-      "source_url": "https://www.cumhuriyet.com.tr/ekonomi/sosyal-guvenlik-uzmani-simsek-uyardi-daha-az-borclanma-bedeli-odeyerek-daha-yuksek-aylik-alabilirsiniz-2510946",
-      "tags": [
-        "EYT",
-        "askerlik borçlanması",
-        "sosyal güvenlik",
-        "emeklilik",
-        "Nergis Şimşek"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]

@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-11T00:00:00+00:00",
-    "article_count": 488,
+    "article_count": 490,
     "schema_version": 2,
     "section": "articles"
   },
@@ -511,6 +511,42 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/06:chpde-ozgur-ozelin-ekibi-pmden-istifa-etti_20260611",
+      "slug": "chpde-ozgur-ozelin-ekibi-pmden-istifa-etti_20260611",
+      "title": "CHP'de kritik gün: Özgür Özel'in ekibi PM'den istifa etti",
+      "summary": "CHP'de sular durulmuyor. Özgür Özel'in A takımında yer alan 9 ismin kesin ihraç talebiyle Yüksek Disiplin Kurulu'na sevk edilmesinin ardından, Özel'in ekibi Parti Meclisi'nden (PM) istifa ettiğini duyurdu.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "11.06.2026",
+      "date_iso": "2026-06-11",
+      "url": "/articles/2026/06/chpde-ozgur-ozelin-ekibi-pmden-istifa-etti_20260611/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/chpde-ozgur-ozelin-ekibi-pmden-istifa-etti_20260611/",
+      "detail_json_url": "/data/details/articles/2026/06/chpde-ozgur-ozelin-ekibi-pmden-istifa-etti_20260611.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2a55220e7043a30c9da6f7.jpg",
+      "image_alt": "CHP genel merkezi önünde hareketli bir gün.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2a55220e7043a30c9da6f7.jpg",
+        "alt": "CHP genel merkezi önünde hareketli bir gün."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/live-kilicdaroglu-ve-ozel-destekcileri-ilk-defa-bir-araya-geliyor-chpde-gozler-pm-toplantisinda-43201006",
+      "tags": [
+        "CHP",
+        "Özgür Özel",
+        "Kemal Kılıçdaroğlu",
+        "Parti Meclisi",
+        "Siyaset"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/06:chpde-kurultay-toplanmazsa-ne-olacak_20260611",
       "slug": "chpde-kurultay-toplanmazsa-ne-olacak_20260611",
       "title": "CHP'de Parti Meclisi İstifaları Sonrası Kurultay Tartışması",
@@ -572,6 +608,42 @@
       },
       "source_name": "Hürriyet",
       "source_url": "https://www.hurriyet.com.tr/gundem/chp-krizinde-yeni-perde-kurultay-hamlesi-ne-anlatiyor-uc-kritik-asama-var-43201453",
+      "tags": [
+        "CHP",
+        "Özgür Özel",
+        "Kemal Kılıçdaroğlu",
+        "Parti Meclisi",
+        "Siyaset"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:chpde-istifa-depremi-28-pm-uyesi-istifa-etti_20260611",
+      "slug": "chpde-istifa-depremi-28-pm-uyesi-istifa-etti_20260611",
+      "title": "CHP'de İstifa Depremi: Parti Meclisi'nde Sayı 40'ın Altına Düştü",
+      "summary": "CHP'de 21 Mayıs'taki 'mutlak butlan' kararının ardından derinleşen iç kriz, Parti Meclisi'ndeki (PM) toplu istifalarla yeni bir boyuta taşındı. 57 üyeli PM'den 28 ismin ayrılmasıyla üye sayısı 40'ın altına geriledi.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "11.06.2026",
+      "date_iso": "2026-06-11",
+      "url": "/articles/2026/06/chpde-istifa-depremi-28-pm-uyesi-istifa-etti_20260611/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/chpde-istifa-depremi-28-pm-uyesi-istifa-etti_20260611/",
+      "detail_json_url": "/data/details/articles/2026/06/chpde-istifa-depremi-28-pm-uyesi-istifa-etti_20260611.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2a6f500e7043a30c9da8e4.jpg",
+      "image_alt": "CHP Genel Merkezi binası",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2a6f500e7043a30c9da8e4.jpg",
+        "alt": "CHP Genel Merkezi binası"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/ozgur-ozel-ekibinden-kritik-hamle-28-isim-pmden-istifa-etti-simdi-ne-olacak-43201262",
       "tags": [
         "CHP",
         "Özgür Özel",
