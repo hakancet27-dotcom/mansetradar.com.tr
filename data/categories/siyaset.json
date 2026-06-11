@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-11T00:00:00+00:00",
-    "article_count": 492,
+    "article_count": 494,
     "schema_version": 2,
     "category_slug": "siyaset"
   },
@@ -153,6 +153,41 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/06:chp-sozcusu-muslim-sari-aciklamalar_20260611",
+      "slug": "chp-sozcusu-muslim-sari-aciklamalar_20260611",
+      "title": "CHP Sözcüsü Müslim Sarı: Partide paralel bir yapı oluştu",
+      "summary": "CHP Sözcüsü Müslim Sarı, CNN Türk yayınında yaptığı açıklamada, parti içerisinde bir \"paralel yapı\" ve \"iki başlılık\" oluştuğunu belirterek, kurumsal kimliğin zedelendiğini ifade etti.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "11.06.2026",
+      "date_iso": "2026-06-11",
+      "url": "/articles/2026/06/chp-sozcusu-muslim-sari-aciklamalar_20260611/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/chp-sozcusu-muslim-sari-aciklamalar_20260611/",
+      "detail_json_url": "/data/details/articles/2026/06/chp-sozcusu-muslim-sari-aciklamalar_20260611.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2af85ef67bd186f7d474d2.jpg",
+      "image_alt": "CHP Sözcüsü Müslim Sarı CNN Türk yayınında açıklamalarda bulunuyor.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2af85ef67bd186f7d474d2.jpg",
+        "alt": "CHP Sözcüsü Müslim Sarı CNN Türk yayınında açıklamalarda bulunuyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/chp-sozcusu-muslim-saridan-cnn-turkte-aciklamalar-chpde-paralel-yapi-olustu-43202072",
+      "tags": [
+        "CHP",
+        "Müslim Sarı",
+        "Siyaset",
+        "CHP MYK"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/06:chp-parti-meclisinde-28-istifa_20260611",
       "slug": "chp-parti-meclisinde-28-istifa_20260611",
       "title": "CHP'de büyük istifa: 28 isim Parti Meclisi'nden ayrıldı",
@@ -184,6 +219,42 @@
         "Parti Meclisi",
         "Siyaset",
         "Kemal Kılıçdaroğlu"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:bakan-goktas-genclerimizin-ve-ailelerimizin-yanindayiz_20260611",
+      "slug": "bakan-goktas-genclerimizin-ve-ailelerimizin-yanindayiz_20260611",
+      "title": "Bakan Göktaş: Gençlerimizin ve ailelerimizin yanındayız",
+      "summary": "Aile ve Sosyal Hizmetler Bakanı Mahinur Özdemir Göktaş, Diyarbakır'da düzenlenen Aile Şenliği'nde yaptığı konuşmada, evlilik kredisi ve çocuk sahibi ailelere yönelik destek mekanizmalarının devam ettiğini vurguladı.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "11.06.2026",
+      "date_iso": "2026-06-11",
+      "url": "/articles/2026/06/bakan-goktas-genclerimizin-ve-ailelerimizin-yanindayiz_20260611/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/bakan-goktas-genclerimizin-ve-ailelerimizin-yanindayiz_20260611/",
+      "detail_json_url": "/data/details/articles/2026/06/bakan-goktas-genclerimizin-ve-ailelerimizin-yanindayiz_20260611.json",
+      "image_url": "https://images.pexels.com/photos/25533091/pexels-photo-25533091.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image_alt": "Aile ve Sosyal Hizmetler Bakanı Mahinur Özdemir Göktaş Diyarbakır'da konuşma yaparken.",
+      "image": {
+        "url": "https://images.pexels.com/photos/25533091/pexels-photo-25533091.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Aile ve Sosyal Hizmetler Bakanı Mahinur Özdemir Göktaş Diyarbakır'da konuşma yaparken."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/gundem/bakan-goktas-yuva-kurmak-isteyen-genclerimizin-yaninda-olduk/3964562",
+      "tags": [
+        "Mahinur Özdemir Göktaş",
+        "Aile ve Sosyal Hizmetler Bakanlığı",
+        "evlilik kredisi",
+        "Diyarbakır",
+        "aile destekleri"
       ],
       "quality_score": 86,
       "review_status": "published"
