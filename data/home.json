@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-11T00:00:00+00:00",
-    "article_count": 475,
+    "article_count": 474,
     "schema_version": 2
   },
   "hero": [
@@ -1478,42 +1478,6 @@
       "review_status": "published"
     },
     {
-      "id": "articles/2026/06:onlyfans-sorusturmasi-27-supheliye-10ar-yil-hapis-talebi_20260610",
-      "slug": "onlyfans-sorusturmasi-27-supheliye-10ar-yil-hapis-talebi_20260610",
-      "title": "OnlyFans soruşturması: 27 şüpheliye 10'ar yıl hapis istemi",
-      "summary": "İstanbul Cumhuriyet Başsavcılığı, erişime engelli OnlyFans platformu üzerinden müstehcen içerik paylaşarak gelir elde ettikleri iddia edilen 27 şüpheli hakkında hazırladığı iddianameyi tamamladı. Şüphelilerin 10'ar yıla kadar hapisle cezalandırılması talep...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "10.06.2026",
-      "date_iso": "2026-06-10",
-      "url": "/articles/2026/06/onlyfans-sorusturmasi-27-supheliye-10ar-yil-hapis-talebi_20260610/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/onlyfans-sorusturmasi-27-supheliye-10ar-yil-hapis-talebi_20260610/",
-      "detail_json_url": "/data/details/articles/2026/06/onlyfans-sorusturmasi-27-supheliye-10ar-yil-hapis-talebi_20260610.json",
-      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a29b12b613bd91eccb07821.jpg",
-      "image_alt": "İstanbul Adliyesi önünde hukuk ve adalet kavramlarını simgeleyen bir görünüm.",
-      "image": {
-        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a29b12b613bd91eccb07821.jpg",
-        "alt": "İstanbul Adliyesi önünde hukuk ve adalet kavramlarını simgeleyen bir görünüm."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/onlyfans-sorusturmasi-mustehcen-icerik-paylasan-27-supheliye-10ar-yil-hapis-talebi-43200809",
-      "tags": [
-        "OnlyFans",
-        "İstanbul Cumhuriyet Başsavcılığı",
-        "MASAK",
-        "Siber Suçlar",
-        "Hapis Cezası"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
       "id": "articles/2026/06:netanyahunun-sozlerine-turkiyeden-tepki-yagdi_20260610",
       "slug": "netanyahunun-sozlerine-turkiyeden-tepki-yagdi_20260610",
       "title": "Netanyahu'nun Erdoğan'a yönelik sözlerine Türkiye'den sert tepki",
@@ -2869,6 +2833,42 @@
         "İran",
         "İsrail",
         "ABD"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:san-franciscoda-robotaksiyle-kacan-hirsiz-6-aydir-bulunamadi_20260609",
+      "slug": "san-franciscoda-robotaksiyle-kacan-hirsiz-6-aydir-bulunamadi_20260609",
+      "title": "San Francisco'da Robotaksiyle Kaçan Hırsız 6 Aydır Bulunamadı",
+      "summary": "San Francisco'da Ocak ayında bir yoga stüdyosundan spor kıyafetleri çaldıktan sonra Waymo marka otonom bir araca binerek olay yerinden uzaklaşan şüpheli, aradan geçen altı aya rağmen polis tarafından yakalanamadı.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "09.06.2026",
+      "date_iso": "2026-06-09",
+      "url": "/articles/2026/06/san-franciscoda-robotaksiyle-kacan-hirsiz-6-aydir-bulunamadi_20260609/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/san-franciscoda-robotaksiyle-kacan-hirsiz-6-aydir-bulunamadi_20260609/",
+      "detail_json_url": "/data/details/articles/2026/06/san-franciscoda-robotaksiyle-kacan-hirsiz-6-aydir-bulunamadi_20260609.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/san-franciscoda-robotaksiyle-kacan-hirsiz-6-aydir-bulunamadi_20260609.webp",
+      "image_alt": "San Francisco sokaklarında ilerleyen bir Waymo robotaksisi.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/san-franciscoda-robotaksiyle-kacan-hirsiz-6-aydir-bulunamadi_20260609.webp",
+        "alt": "San Francisco sokaklarında ilerleyen bir Waymo robotaksisi."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/teknoloji/insansiz-taksiyi-calan-hirsiz-6-aydir-yakalanamiyor-7602307",
+      "tags": [
+        "Waymo",
+        "Robotaksi",
+        "San Francisco",
+        "Hırsızlık",
+        "Teknoloji"
       ],
       "quality_score": 86,
       "review_status": "published"
