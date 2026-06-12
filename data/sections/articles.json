@@ -3,11 +3,46 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-12T00:00:00+00:00",
-    "article_count": 506,
+    "article_count": 509,
     "schema_version": 2,
     "section": "articles"
   },
   "articles": [
+    {
+      "id": "articles/2026/06:muhsin-yazicioglu-sorusturmasi-ankara-devredildi_20260612",
+      "slug": "muhsin-yazicioglu-sorusturmasi-ankara-devredildi_20260612",
+      "title": "Muhsin Yazıcıoğlu Soruşturmasında Yetkisizlik Kararı: Dosya Ankara'ya Devredildi",
+      "summary": "Büyük Birlik Partisi (BBP) kurucu Genel Başkanı Muhsin Yazıcıoğlu ve 5 kişinin hayatını kaybettiği 2009 yılındaki helikopter kazasına ilişkin soruşturma dosyası, Kahramanmaraş Cumhuriyet Başsavcılığı tarafından alınan yetkisizlik kararıyla Ankara Cumhuriyet...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "12.06.2026",
+      "date_iso": "2026-06-12",
+      "url": "/articles/2026/06/muhsin-yazicioglu-sorusturmasi-ankara-devredildi_20260612/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/muhsin-yazicioglu-sorusturmasi-ankara-devredildi_20260612/",
+      "detail_json_url": "/data/details/articles/2026/06/muhsin-yazicioglu-sorusturmasi-ankara-devredildi_20260612.json",
+      "image_url": "https://im.haberturk.com/l/2026/06/12/ver1781252656/3891137/jpg/200x200",
+      "image_alt": "Muhsin Yazıcıoğlu soruşturması dosyası Ankara'ya gönderildi.",
+      "image": {
+        "url": "https://im.haberturk.com/l/2026/06/12/ver1781252656/3891137/jpg/200x200",
+        "alt": "Muhsin Yazıcıoğlu soruşturması dosyası Ankara'ya gönderildi."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/son-dakika-muhsin-yazicioglunun-olumune-iliskin-dosya-ankara-ya-gonderildi-3891137",
+      "tags": [
+        "Muhsin Yazıcıoğlu",
+        "BBP",
+        "Ankara Cumhuriyet Başsavcılığı",
+        "Hukuk"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/06:meclis-arastirma-komisyonu-okul-saldirisi-incelemesi_20260612",
       "slug": "meclis-arastirma-komisyonu-okul-saldirisi-incelemesi_20260612",
@@ -289,6 +324,78 @@
         "Ekonomi"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:aym-128-milyar-dolar-tartismasina-son-noktayi-koydu_20260612",
+      "slug": "aym-128-milyar-dolar-tartismasina-son-noktayi-koydu_20260612",
+      "title": "AYM'den '128 Milyar Dolar' Kararı: CHP'nin Başvurusu Reddedildi",
+      "summary": "Anayasa Mahkemesi (AYM), CHP'nin eski Hazine ve Maliye Bakanı Berat Albayrak'a yönelik yürüttüğü \"128 milyar dolar\" kampanyasındaki eleştirilerin ifade özgürlüğü kapsamında değerlendirilemeyeceğine hükmetti. Yüksek Mahkeme, yerel mahkemenin tazminat kararın...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "12.06.2026",
+      "date_iso": "2026-06-12",
+      "url": "/articles/2026/06/aym-128-milyar-dolar-tartismasina-son-noktayi-koydu_20260612/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/aym-128-milyar-dolar-tartismasina-son-noktayi-koydu_20260612/",
+      "detail_json_url": "/data/details/articles/2026/06/aym-128-milyar-dolar-tartismasina-son-noktayi-koydu_20260612.json",
+      "image_url": "https://images.ntv.com.tr/images/anayasa-mahkemesi-aym-852218.jpg",
+      "image_alt": "Anayasa Mahkemesi binası",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/anayasa-mahkemesi-aym-852218.jpg",
+        "alt": "Anayasa Mahkemesi binası"
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/aym-128-milyar-dolar-tartismasina-son-noktayi-koydu-1728304",
+      "tags": [
+        "AYM",
+        "Berat Albayrak",
+        "CHP",
+        "128 milyar dolar",
+        "Anayasa Mahkemesi"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:ak-parti-sozcusu-omer-celik-128-milyar-dolar-yalan-siyaseti_20260612",
+      "slug": "ak-parti-sozcusu-omer-celik-128-milyar-dolar-yalan-siyaseti_20260612",
+      "title": "AK Parti Sözcüsü Ömer Çelik: '128 Milyar Dolar' İddiaları Yalan Siyaseti Olarak Tescillendi",
+      "summary": "AK Parti Sözcüsü Ömer Çelik, Anayasa Mahkemesi'nin 20 Mayıs 2026 tarihli kararıyla CHP'nin '128 milyar dolar' iddialarının delillendirilemediğini ve bu söylemlerin 'siyasi bir yalan' olarak tescillendiğini açıkladı.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "12.06.2026",
+      "date_iso": "2026-06-12",
+      "url": "/articles/2026/06/ak-parti-sozcusu-omer-celik-128-milyar-dolar-yalan-siyaseti_20260612/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/ak-parti-sozcusu-omer-celik-128-milyar-dolar-yalan-siyaseti_20260612/",
+      "detail_json_url": "/data/details/articles/2026/06/ak-parti-sozcusu-omer-celik-128-milyar-dolar-yalan-siyaseti_20260612.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2bf66a4f5bd434a7202be3.jpg",
+      "image_alt": "AK Parti Sözcüsü Ömer Çelik basın açıklamasında bulunuyor.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2bf66a4f5bd434a7202be3.jpg",
+        "alt": "AK Parti Sözcüsü Ömer Çelik basın açıklamasında bulunuyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/ak-parti-sozcusu-omer-celik-yalan-siyaseti-bir-kez-daha-kesinlesti-43202980",
+      "tags": [
+        "AK Parti",
+        "Ömer Çelik",
+        "128 Milyar Dolar",
+        "Anayasa Mahkemesi",
+        "Siyaset"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
