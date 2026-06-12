@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-12T00:00:00+00:00",
-    "article_count": 505,
+    "article_count": 506,
     "schema_version": 2
   },
   "articles": [
@@ -180,6 +180,41 @@
         "Beşiktaş GAİN",
         "Basketbol Süper Ligi",
         "Final Serisi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:farah-pehlevi-kizi-leyla-pehlevi-aniliyor_20260612",
+      "slug": "farah-pehlevi-kizi-leyla-pehlevi-aniliyor_20260612",
+      "title": "Farah Pehlevi'nin 25 yıllık dinmeyen acısı: Kızı Leyla Pehlevi anılıyor",
+      "summary": "İran'ın son imparatoriçesi Farah Pehlevi, 25 yıl önce hayatını kaybeden kızı Leyla Pehlevi'nin ölüm yıl dönümünde bir kez daha büyük bir hüzün yaşıyor. Bir zamanlar dünyanın en şanslı kadınları arasında gösterilen Pehlevi, evlat acısının iyileşmeyen bir has...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "12.06.2026",
+      "date_iso": "2026-06-12",
+      "url": "/articles/2026/06/farah-pehlevi-kizi-leyla-pehlevi-aniliyor_20260612/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/farah-pehlevi-kizi-leyla-pehlevi-aniliyor_20260612/",
+      "detail_json_url": "/data/details/articles/2026/06/farah-pehlevi-kizi-leyla-pehlevi-aniliyor_20260612.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2be308613bd91eccb084b2.jpg",
+      "image_alt": "Farah Pehlevi'nin hüzünlü bir fotoğrafı.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2be308613bd91eccb084b2.jpg",
+        "alt": "Farah Pehlevi'nin hüzünlü bir fotoğrafı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/magazin/masallara-yarasir-hayati-bir-gecede-yok-olmustu-dogurdugu-hicbir-cocugun-yuzu-gulmedi-evlat-acisi-iyilesmeyen-bir-hastalik-gibi-43202763",
+      "tags": [
+        "Farah Pehlevi",
+        "Leyla Pehlevi",
+        "İran",
+        "Magazin"
       ],
       "quality_score": 86,
       "review_status": "published"

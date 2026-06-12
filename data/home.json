@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-12T00:00:00+00:00",
-    "article_count": 505,
+    "article_count": 506,
     "schema_version": 2
   },
   "hero": [
@@ -180,6 +180,41 @@
         "Beşiktaş GAİN",
         "Basketbol Süper Ligi",
         "Final Serisi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:farah-pehlevi-kizi-leyla-pehlevi-aniliyor_20260612",
+      "slug": "farah-pehlevi-kizi-leyla-pehlevi-aniliyor_20260612",
+      "title": "Farah Pehlevi'nin 25 yıllık dinmeyen acısı: Kızı Leyla Pehlevi anılıyor",
+      "summary": "İran'ın son imparatoriçesi Farah Pehlevi, 25 yıl önce hayatını kaybeden kızı Leyla Pehlevi'nin ölüm yıl dönümünde bir kez daha büyük bir hüzün yaşıyor. Bir zamanlar dünyanın en şanslı kadınları arasında gösterilen Pehlevi, evlat acısının iyileşmeyen bir has...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "12.06.2026",
+      "date_iso": "2026-06-12",
+      "url": "/articles/2026/06/farah-pehlevi-kizi-leyla-pehlevi-aniliyor_20260612/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/farah-pehlevi-kizi-leyla-pehlevi-aniliyor_20260612/",
+      "detail_json_url": "/data/details/articles/2026/06/farah-pehlevi-kizi-leyla-pehlevi-aniliyor_20260612.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2be308613bd91eccb084b2.jpg",
+      "image_alt": "Farah Pehlevi'nin hüzünlü bir fotoğrafı.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2be308613bd91eccb084b2.jpg",
+        "alt": "Farah Pehlevi'nin hüzünlü bir fotoğrafı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/magazin/masallara-yarasir-hayati-bir-gecede-yok-olmustu-dogurdugu-hicbir-cocugun-yuzu-gulmedi-evlat-acisi-iyilesmeyen-bir-hastalik-gibi-43202763",
+      "tags": [
+        "Farah Pehlevi",
+        "Leyla Pehlevi",
+        "İran",
+        "Magazin"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -685,42 +720,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:kemal-utku-tasin-olumu-ogretmenlerin-itirazlari-reddedildi_20260611",
-      "slug": "kemal-utku-tasin-olumu-ogretmenlerin-itirazlari-reddedildi_20260611",
-      "title": "Kemal Utku Taş'ın ölümüyle ilgili soruşturmada öğretmenlerin itirazı reddedildi",
-      "summary": "İzmir'in Menemen ilçesinde okul gezisi sonrası hayatını kaybeden lise öğrencisi Kemal Utku Taş'ın ölümüyle ilgili yürütülen soruşturmada, haklarında soruşturma izni verilen dört öğretmenin yaptığı itiraz, İzmir Bölge İdare Mahkemesi tarafından kesin olarak...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "11.06.2026",
-      "date_iso": "2026-06-11",
-      "url": "/articles/2026/06/kemal-utku-tasin-olumu-ogretmenlerin-itirazlari-reddedildi_20260611/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/kemal-utku-tasin-olumu-ogretmenlerin-itirazlari-reddedildi_20260611/",
-      "detail_json_url": "/data/details/articles/2026/06/kemal-utku-tasin-olumu-ogretmenlerin-itirazlari-reddedildi_20260611.json",
-      "image_url": "https://media.cumhuriyet.com.tr/Archive/ae7c8d8a-dddd-4ea5-9dd2-4a5900c3100f.jpg",
-      "image_alt": "Adliye binası ve hukuk dosyaları",
-      "image": {
-        "url": "https://media.cumhuriyet.com.tr/Archive/ae7c8d8a-dddd-4ea5-9dd2-4a5900c3100f.jpg",
-        "alt": "Adliye binası ve hukuk dosyaları"
-      },
-      "source_name": "Cumhuriyet Gazetesi",
-      "source_url": "https://www.cumhuriyet.com.tr/turkiye/kemal-utku-tas-in-olumu-ogretmenlerin-itirazlari-reddedildi-2511204",
-      "tags": [
-        "Kemal Utku Taş",
-        "Menemen",
-        "İzmir",
-        "Soruşturma",
-        "Akran Zorbalığı"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -897,6 +896,41 @@
         "Beşiktaş GAİN",
         "Basketbol Süper Ligi",
         "Final Serisi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:farah-pehlevi-kizi-leyla-pehlevi-aniliyor_20260612",
+      "slug": "farah-pehlevi-kizi-leyla-pehlevi-aniliyor_20260612",
+      "title": "Farah Pehlevi'nin 25 yıllık dinmeyen acısı: Kızı Leyla Pehlevi anılıyor",
+      "summary": "İran'ın son imparatoriçesi Farah Pehlevi, 25 yıl önce hayatını kaybeden kızı Leyla Pehlevi'nin ölüm yıl dönümünde bir kez daha büyük bir hüzün yaşıyor. Bir zamanlar dünyanın en şanslı kadınları arasında gösterilen Pehlevi, evlat acısının iyileşmeyen bir has...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "12.06.2026",
+      "date_iso": "2026-06-12",
+      "url": "/articles/2026/06/farah-pehlevi-kizi-leyla-pehlevi-aniliyor_20260612/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/farah-pehlevi-kizi-leyla-pehlevi-aniliyor_20260612/",
+      "detail_json_url": "/data/details/articles/2026/06/farah-pehlevi-kizi-leyla-pehlevi-aniliyor_20260612.json",
+      "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2be308613bd91eccb084b2.jpg",
+      "image_alt": "Farah Pehlevi'nin hüzünlü bir fotoğrafı.",
+      "image": {
+        "url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2be308613bd91eccb084b2.jpg",
+        "alt": "Farah Pehlevi'nin hüzünlü bir fotoğrafı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/magazin/masallara-yarasir-hayati-bir-gecede-yok-olmustu-dogurdugu-hicbir-cocugun-yuzu-gulmedi-evlat-acisi-iyilesmeyen-bir-hastalik-gibi-43202763",
+      "tags": [
+        "Farah Pehlevi",
+        "Leyla Pehlevi",
+        "İran",
+        "Magazin"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -2831,42 +2865,6 @@
         "Atatürk Devlet Hastanesi"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610",
-      "slug": "microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610",
-      "title": "Microsoft destekli D-Matrix'ten Nvidia'ya meydan okuyan yeni çip: Corsair",
-      "summary": "Microsoft'un yatırım yaptığı D-Matrix, yapay zeka çıkarım işlemlerinde Nvidia GPU'larına kıyasla 10 kata kadar daha hızlı ve beş kat daha verimli olduğunu iddia ettiği yeni çipi Corsair'i tanıttı.",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "10.06.2026",
-      "date_iso": "2026-06-10",
-      "url": "/articles/2026/06/microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610/",
-      "detail_json_url": "/data/details/articles/2026/06/microsoft-destekli-d-matrix-yeni-ai-cipi-corsair_20260610.json",
-      "image_url": "https://www.donanimhaber.com/images/images/haber/206666/1400x788d-matrix-yeni-yapay-zek-cipiyle-nvidia-ya-meydan-okuyor.jpg",
-      "image_alt": "D-Matrix tarafından geliştirilen yeni yapay zeka çipi Corsair",
-      "image": {
-        "url": "https://www.donanimhaber.com/images/images/haber/206666/1400x788d-matrix-yeni-yapay-zek-cipiyle-nvidia-ya-meydan-okuyor.jpg",
-        "alt": "D-Matrix tarafından geliştirilen yeni yapay zeka çipi Corsair"
-      },
-      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
-      "source_url": "https://www.donanimhaber.com/d-matrix-yeni-yapay-zek-cipiyle-nvidia-ya-meydan-okuyor--206666",
-      "tags": [
-        "D-Matrix",
-        "Nvidia",
-        "Yapay Zeka",
-        "Microsoft",
-        "Corsair"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]
