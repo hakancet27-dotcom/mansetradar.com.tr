@@ -1,0 +1,259 @@
+name: Görsel WebP Raporu
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_slug:
+        description: "Tek haber slug kontrolü için boş bırakılabilir"
+        required: false
+        default: ""
+      max_articles:
+        description: "Kontrol edilecek en fazla haber sayısı"
+        required: false
+        default: "50"
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    name: Görsel WebP durumunu raporla
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kodu indir
+        uses: actions/checkout@v4
+
+      - name: Görsel WebP raporunu üret
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from __future__ import annotations
+
+          import json
+          import re
+          from datetime import datetime
+          from pathlib import Path
+          from urllib.parse import urlparse
+
+          SITE_HOSTS = {"mansetradar.com.tr", "www.mansetradar.com.tr"}
+          SKIP_PARTS = {"images", "review", "pending", "duplicates", "archive"}
+          TARGET_SLUG = "${{ github.event.inputs.target_slug }}".strip()
+          try:
+              MAX_ARTICLES = max(1, min(500, int("${{ github.event.inputs.max_articles }}" or "50")))
+          except ValueError:
+              MAX_ARTICLES = 50
+
+          def clean(value: object) -> str:
+              return re.sub(r"\s+", " ", str(value or "")).strip()
+
+          def parse_date(value: object) -> datetime:
+              text = clean(value)
+              for fmt in ("%d.%m.%Y", "%Y-%m-%d", "%Y-%m-%dT%H:%M:%S%z"):
+                  try:
+                      return datetime.strptime(text.replace("Z", "+0000"), fmt)
+                  except ValueError:
+                      pass
+              return datetime.min
+
+          def is_external_url(url: str) -> bool:
+              if not url.startswith(("http://", "https://")):
+                  return False
+              try:
+                  host = urlparse(url).netloc.lower()
+              except Exception:
+                  return False
+              return host not in SITE_HOSTS
+
+          def is_local_webp_url(url: str) -> bool:
+              path = urlparse(url).path if url.startswith(("http://", "https://")) else url
+              return path.lower().endswith(".webp") and "/articles/images/" in path.lower()
+
+          def first_img_src(html: str) -> str:
+              figure = re.search(
+                  r"<figure\b[^>]*class=[\"'][^\"']*article-image[^\"']*[\"'][^>]*>[\s\S]*?<img\b[^>]*src=[\"']([^\"']+)[\"']",
+                  html,
+                  flags=re.I,
+              )
+              if figure:
+                  return clean(figure.group(1))
+              any_img = re.search(r"<img\b[^>]*src=[\"']([^\"']+)[\"']", html, flags=re.I)
+              return clean(any_img.group(1)) if any_img else ""
+
+          def html_paths_for(json_path: Path, slug: str) -> list[Path]:
+              return [
+                  json_path.with_suffix(".html"),
+                  json_path.parent / slug / "index.html",
+              ]
+
+          def local_webp_candidates(json_path: Path, slug: str, image_url: str) -> list[Path]:
+              candidates = [
+                  Path("articles") / "images" / f"{slug}.webp",
+                  json_path.parent / "images" / f"{slug}.webp",
+              ]
+              parsed_path = urlparse(image_url).path if image_url.startswith(("http://", "https://")) else image_url
+              if parsed_path.startswith("/"):
+                  parsed_path = parsed_path[1:]
+              if parsed_path:
+                  candidates.append(Path(parsed_path))
+              unique: list[Path] = []
+              seen: set[str] = set()
+              for item in candidates:
+                  key = item.as_posix()
+                  if key not in seen:
+                      unique.append(item)
+                      seen.add(key)
+              return unique
+
+          article_jsons: list[Path] = []
+          articles_dir = Path("articles")
+          if articles_dir.exists():
+              for path in articles_dir.rglob("*.json"):
+                  rel_parts = path.relative_to(articles_dir).parts
+                  if any(part in SKIP_PARTS for part in rel_parts[:-1]):
+                      continue
+                  article_jsons.append(path)
+
+          records = []
+          for json_path in article_jsons:
+              try:
+                  data = json.loads(json_path.read_text(encoding="utf-8-sig"))
+              except Exception as exc:
+                  records.append({
+                      "slug": json_path.stem,
+                      "json_path": json_path.as_posix(),
+                      "error": f"JSON okunamadi: {exc}",
+                      "sort_date": datetime.min,
+                  })
+                  continue
+              if not isinstance(data, dict):
+                  continue
+              slug = clean(data.get("slug") or json_path.stem)
+              if TARGET_SLUG and TARGET_SLUG not in {slug, json_path.stem}:
+                  continue
+              image_url = clean(data.get("image_url"))
+              html_src = ""
+              html_file = ""
+              for html_path in html_paths_for(json_path, slug):
+                  if html_path.exists():
+                      html_file = html_path.as_posix()
+                      html_src = first_img_src(html_path.read_text(encoding="utf-8", errors="replace"))
+                      if html_src:
+                          break
+              webp_candidates = local_webp_candidates(json_path, slug, image_url)
+              existing_webps = [path.as_posix() for path in webp_candidates if path.exists() and path.suffix.lower() == ".webp"]
+              records.append({
+                  "slug": slug,
+                  "title": clean(data.get("title"))[:90],
+                  "date": clean(data.get("date")),
+                  "json_path": json_path.as_posix(),
+                  "html_path": html_file,
+                  "image_url": image_url,
+                  "html_src": html_src,
+                  "image_provider": clean(data.get("image_provider")),
+                  "image_kind": clean(data.get("image_kind")),
+                  "real_image_status": clean(data.get("real_image_status")),
+                  "image_score": clean(data.get("image_score")),
+                  "local_webps": existing_webps,
+                  "sort_date": parse_date(data.get("date")),
+              })
+
+          records.sort(key=lambda item: (item.get("sort_date") or datetime.min, item.get("slug") or ""), reverse=True)
+          records = records[:MAX_ARTICLES]
+
+          counters = {
+              "toplam": len(records),
+              "dis_gorsel": 0,
+              "local_webp_var": 0,
+              "webp_var_html_dis_gorsel": 0,
+              "dis_gorsel_webp_yok": 0,
+              "html_local_webp": 0,
+              "html_dis_gorsel": 0,
+              "html_gorsel_yok": 0,
+          }
+
+          rows = []
+          for item in records:
+              image_url = item.get("image_url", "")
+              html_src = item.get("html_src", "")
+              local_webps = item.get("local_webps", []) or []
+              external_image = is_external_url(image_url)
+              html_external = is_external_url(html_src)
+              html_local_webp = is_local_webp_url(html_src)
+              if external_image:
+                  counters["dis_gorsel"] += 1
+              if local_webps:
+                  counters["local_webp_var"] += 1
+              if local_webps and html_external:
+                  counters["webp_var_html_dis_gorsel"] += 1
+              if external_image and not local_webps:
+                  counters["dis_gorsel_webp_yok"] += 1
+              if html_local_webp:
+                  counters["html_local_webp"] += 1
+              elif html_external:
+                  counters["html_dis_gorsel"] += 1
+              elif not html_src:
+                  counters["html_gorsel_yok"] += 1
+
+              durum = []
+              if external_image and not local_webps:
+                  durum.append("Dış görsel var, local WebP yok")
+              if local_webps and html_external:
+                  durum.append("WebP var ama HTML dış görsel kullanıyor")
+              if html_local_webp:
+                  durum.append("HTML local WebP kullanıyor")
+              if not html_src:
+                  durum.append("HTML görseli bulunamadı")
+              if not durum:
+                  durum.append("Kontrol edildi")
+
+              rows.append({**item, "durum": "; ".join(durum)})
+
+          report_lines = [
+              "# Görsel WebP Raporu",
+              "",
+              f"- Hedef slug: `{TARGET_SLUG or 'tümü'}`",
+              f"- Kontrol edilen haber sayısı: **{counters['toplam']}**",
+              f"- Dış image_url sayısı: **{counters['dis_gorsel']}**",
+              f"- Local WebP bulunan haber sayısı: **{counters['local_webp_var']}**",
+              f"- WebP var ama HTML dış görsel kullanıyor: **{counters['webp_var_html_dis_gorsel']}**",
+              f"- Dış görsel var ama local WebP yok: **{counters['dis_gorsel_webp_yok']}**",
+              f"- HTML local WebP kullanıyor: **{counters['html_local_webp']}**",
+              f"- HTML dış görsel kullanıyor: **{counters['html_dis_gorsel']}**",
+              f"- HTML görseli bulunamadı: **{counters['html_gorsel_yok']}**",
+              "",
+              "## Haber Detayları",
+              "",
+              "| Durum | Slug | Provider | Score | Image URL tipi | Local WebP | HTML img src |",
+              "|---|---|---:|---:|---|---|---|",
+          ]
+
+          def short_url(url: str, limit: int = 90) -> str:
+              url = clean(url)
+              if not url:
+                  return "-"
+              return url if len(url) <= limit else url[: limit - 3] + "..."
+
+          for item in rows:
+              image_type = "dış" if is_external_url(item.get("image_url", "")) else ("local-webp" if is_local_webp_url(item.get("image_url", "")) else "local/diğer")
+              webps = "<br>".join(item.get("local_webps", []) or []) or "-"
+              html_src = short_url(item.get("html_src", ""))
+              report_lines.append(
+                  f"| {item['durum']} | `{item['slug']}` | {item.get('image_provider') or '-'} | {item.get('image_score') or '-'} | {image_type} | {webps} | {html_src} |"
+              )
+
+          report = "\n".join(report_lines) + "\n"
+          output_dir = Path("newsroom/reports")
+          output_dir.mkdir(parents=True, exist_ok=True)
+          output_path = output_dir / "gorsel-webp-raporu.md"
+          output_path.write_text(report, encoding="utf-8")
+          print(report)
+          PY
+
+      - name: Raporu artifact olarak yükle
+        uses: actions/upload-artifact@v4
+        with:
+          name: gorsel-webp-raporu
+          path: newsroom/reports/gorsel-webp-raporu.md
+          if-no-files-found: error
+          retention-days: 7
