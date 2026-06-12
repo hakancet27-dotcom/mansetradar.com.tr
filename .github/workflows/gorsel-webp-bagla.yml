@@ -1,0 +1,245 @@
+name: Görsel WebP Bağla
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_slug:
+        description: "WebP'ye bağlanacak haber slug değeri"
+        required: true
+        default: "ahmet-nur-cebi-altay-kulubunu-satin-aliyor_20260612"
+      dry_run:
+        description: "Önce sadece raporla; false yapılırsa tek slug için uygular"
+        required: true
+        type: choice
+        options:
+          - "true"
+          - "false"
+        default: "true"
+
+permissions:
+  contents: write
+
+jobs:
+  bagla:
+    name: Seçili haber görselini WebP'ye bağla
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kodu indir
+        uses: actions/checkout@v4
+
+      - name: Seçili haber için WebP bağlama raporu üret
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from __future__ import annotations
+
+          import html
+          import json
+          import re
+          from datetime import datetime, timezone
+          from pathlib import Path
+          from urllib.parse import urlparse
+
+          SITE_URL = "https://mansetradar.com.tr"
+          TARGET_SLUG = "${{ github.event.inputs.target_slug }}".strip()
+          DRY_RUN = "${{ github.event.inputs.dry_run }}".strip().lower() != "false"
+          SKIP_PARTS = {"images", "review", "pending", "duplicates", "archive"}
+
+          if not TARGET_SLUG:
+              raise SystemExit("target_slug bos olamaz")
+
+          def clean(value: object) -> str:
+              return re.sub(r"\s+", " ", str(value or "")).strip()
+
+          def find_article_jsons(slug: str) -> list[Path]:
+              root = Path("articles")
+              matches: list[Path] = []
+              if not root.exists():
+                  return matches
+              for path in root.rglob("*.json"):
+                  rel = path.relative_to(root)
+                  if any(part in SKIP_PARTS for part in rel.parts[:-1]):
+                      continue
+                  if path.stem == slug:
+                      matches.append(path)
+                      continue
+                  try:
+                      data = json.loads(path.read_text(encoding="utf-8-sig"))
+                  except Exception:
+                      continue
+                  if clean(data.get("slug")) == slug:
+                      matches.append(path)
+              return sorted(set(matches), key=lambda item: item.as_posix())
+
+          def webp_candidates(json_path: Path, slug: str) -> list[Path]:
+              candidates = [
+                  Path("articles") / "images" / f"{slug}.webp",
+                  json_path.parent / "images" / f"{slug}.webp",
+              ]
+              unique: list[Path] = []
+              seen: set[str] = set()
+              for item in candidates:
+                  key = item.as_posix()
+                  if key not in seen:
+                      unique.append(item)
+                      seen.add(key)
+              return unique
+
+          def html_paths_for(json_path: Path, slug: str) -> list[Path]:
+              return [
+                  json_path.with_suffix(".html"),
+                  json_path.parent / slug / "index.html",
+              ]
+
+          def replace_meta_content(text: str, prop_or_name: str, value: str) -> str:
+              # property="og:image" veya name="twitter:image" satirindaki content degerini degistirir.
+              pattern = (
+                  rf'(<meta\s+[^>]*(?:property|name)=["\']{re.escape(prop_or_name)}["\'][^>]*content=["\'])([^"\']*)(["\'][^>]*>)'
+              )
+              return re.sub(pattern, lambda m: m.group(1) + html.escape(value, quote=True) + m.group(3), text, flags=re.I)
+
+          def replace_article_img_src(text: str, display_src: str) -> str:
+              pattern = (
+                  r'(<figure\b[^>]*class=["\'][^"\']*article-image[^"\']*["\'][^>]*>[\s\S]*?<img\b[^>]*src=["\'])([^"\']*)(["\'])'
+              )
+              new_text, count = re.subn(pattern, lambda m: m.group(1) + html.escape(display_src, quote=True) + m.group(3), text, count=1, flags=re.I)
+              return new_text
+
+          def replace_jsonld_image_url(text: str, old_url: str, new_url: str) -> str:
+              if not old_url:
+                  return text
+              replacements = {
+                  old_url: new_url,
+                  html.escape(old_url, quote=True): html.escape(new_url, quote=True),
+                  old_url.replace("/", "\\/"): new_url.replace("/", "\\/"),
+              }
+              for left, right in replacements.items():
+                  text = text.replace(left, right)
+              return text
+
+          matches = find_article_jsons(TARGET_SLUG)
+          if not matches:
+              raise SystemExit(f"Haber JSON bulunamadi: {TARGET_SLUG}")
+          if len(matches) > 1:
+              raise SystemExit("Ayni slug icin birden fazla JSON bulundu: " + ", ".join(path.as_posix() for path in matches))
+
+          json_path = matches[0]
+          data = json.loads(json_path.read_text(encoding="utf-8-sig"))
+          if not isinstance(data, dict):
+              raise SystemExit(f"JSON obje degil: {json_path}")
+
+          slug = clean(data.get("slug") or TARGET_SLUG)
+          if slug != TARGET_SLUG:
+              raise SystemExit(f"Slug eslesmedi: input={TARGET_SLUG}, json={slug}")
+
+          existing_webps = [path for path in webp_candidates(json_path, slug) if path.exists()]
+          if not existing_webps:
+              raise SystemExit(f"Local WebP bulunamadi: {slug}")
+
+          webp_path = existing_webps[0]
+          webp_url = f"{SITE_URL}/{webp_path.as_posix()}"
+          display_src = f"/{webp_path.as_posix()}"
+          old_image_url = clean(data.get("image_url"))
+          changed_files: list[Path] = []
+          report_lines = [
+              "# Görsel WebP Bağlama Raporu",
+              "",
+              f"- Slug: `{slug}`",
+              f"- Dry run: `{str(DRY_RUN).lower()}`",
+              f"- JSON: `{json_path.as_posix()}`",
+              f"- Bulunan WebP: `{webp_path.as_posix()}`",
+              f"- Eski image_url: `{old_image_url or '-'}`",
+              f"- Yeni image_url: `{webp_url}`",
+              "",
+              "## İşlem Özeti",
+          ]
+
+          if old_image_url != webp_url:
+              if old_image_url and not data.get("original_image_url"):
+                  data["original_image_url"] = old_image_url
+              data["image_url"] = webp_url
+              data["image_local_webp"] = webp_path.as_posix()
+              data["image_localized_at"] = datetime.now(timezone.utc).isoformat()
+              report_lines.append("- Article JSON image_url local WebP olarak güncellenecek.")
+              if not DRY_RUN:
+                  json_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+                  changed_files.append(json_path)
+          else:
+              report_lines.append("- Article JSON zaten local WebP kullanıyor.")
+
+          for html_path in html_paths_for(json_path, slug):
+              if not html_path.exists():
+                  report_lines.append(f"- HTML bulunamadı: `{html_path.as_posix()}`")
+                  continue
+              old_text = html_path.read_text(encoding="utf-8", errors="replace")
+              new_text = replace_jsonld_image_url(old_text, old_image_url, webp_url)
+              new_text = replace_meta_content(new_text, "og:image", webp_url)
+              new_text = replace_meta_content(new_text, "twitter:image", webp_url)
+              new_text = replace_article_img_src(new_text, display_src)
+              if new_text != old_text:
+                  report_lines.append(f"- HTML WebP'ye bağlanacak: `{html_path.as_posix()}`")
+                  if not DRY_RUN:
+                      html_path.write_text(new_text, encoding="utf-8")
+                      changed_files.append(html_path)
+              else:
+                  report_lines.append(f"- HTML değişiklik gerektirmiyor: `{html_path.as_posix()}`")
+
+          changed_unique = []
+          seen = set()
+          for path in changed_files:
+              key = path.as_posix()
+              if key not in seen:
+                  changed_unique.append(path)
+                  seen.add(key)
+
+          Path("newsroom/reports").mkdir(parents=True, exist_ok=True)
+          report_path = Path("newsroom/reports") / f"gorsel-webp-bagla-{slug}.md"
+          report_lines.extend(["", "## Değişecek Dosyalar"])
+          if changed_unique:
+              report_lines.extend(f"- `{path.as_posix()}`" for path in changed_unique)
+          else:
+              report_lines.append("- Değişiklik yok")
+          report_path.write_text("\n".join(report_lines) + "\n", encoding="utf-8")
+          print(report_path.read_text(encoding="utf-8"))
+
+          Path(".gorsel-webp-bagla-files.txt").write_text(
+              "\n".join(path.as_posix() for path in changed_unique) + ("\n" if changed_unique else ""),
+              encoding="utf-8",
+          )
+          Path(".gorsel-webp-bagla-report.txt").write_text(report_path.as_posix(), encoding="utf-8")
+          PY
+
+      - name: Raporu artifact olarak yükle
+        uses: actions/upload-artifact@v4
+        with:
+          name: gorsel-webp-bagla-raporu
+          path: newsroom/reports/gorsel-webp-bagla-*.md
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Değişiklikleri commit et
+        if: ${{ github.event.inputs.dry_run == 'false' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ ! -s .gorsel-webp-bagla-files.txt ]; then
+            echo "Commit edilecek değişiklik yok."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          while IFS= read -r file_path; do
+            [ -n "$file_path" ] || continue
+            git add -- "$file_path"
+          done < .gorsel-webp-bagla-files.txt
+
+          if git diff --cached --quiet; then
+            echo "Stage edilen değişiklik yok."
+            exit 0
+          fi
+
+          git commit -m "Görsel WebP bağla: ${{ github.event.inputs.target_slug }}"
+          git push
