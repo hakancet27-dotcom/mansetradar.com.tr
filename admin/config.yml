@@ -23,7 +23,7 @@ collections:
     extension: json
     format: json
     identifier_field: slug
-    summary: "{{date}} | {{category}} | {{title}}"
+    summary: "{{date}} | {{category}} | Puan: {{quality_score}} | {{title}}"
     fields: &published_fields
       - { label: Baslik, name: title, widget: string }
       - { label: Slug, name: slug, widget: string, readonly: true }
@@ -66,7 +66,7 @@ collections:
     extension: json
     format: json
     identifier_field: slug
-    summary: "{{date}} | {{category}} | {{title}}"
+    summary: "{{date}} | {{category}} | Puan: {{quality_score}} | {{title}}"
     fields: *published_fields
 
   - name: published_de
@@ -78,5 +78,5 @@ collections:
     extension: json
     format: json
     identifier_field: slug
-    summary: "{{date}} | {{category}} | {{title}}"
+    summary: "{{date}} | {{category}} | Puan: {{quality_score}} | {{title}}"
     fields: *published_fields
