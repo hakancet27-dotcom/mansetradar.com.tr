@@ -52,6 +52,10 @@ jobs:
           def clean(value: object) -> str:
               return re.sub(r"\s+", " ", str(value or "")).strip()
 
+          def add_unique(target: list[Path], value: Path) -> None:
+              if all(item.as_posix() != value.as_posix() for item in target):
+                  target.append(value)
+
           def find_article_jsons(slug: str) -> list[Path]:
               root = Path("articles")
               matches: list[Path] = []
@@ -141,6 +145,7 @@ jobs:
           webp_url = f"{SITE_URL}/{webp_path.as_posix()}"
           display_src = f"/{webp_path.as_posix()}"
           old_image_url = clean(data.get("image_url"))
+          planned_files: list[Path] = []
           changed_files: list[Path] = []
           report_lines = [
               "# Görsel WebP Bağlama Raporu",
@@ -156,6 +161,7 @@ jobs:
           ]
 
           if old_image_url != webp_url:
+              add_unique(planned_files, json_path)
               if old_image_url and not data.get("original_image_url"):
                   data["original_image_url"] = old_image_url
               data["image_url"] = webp_url
@@ -164,7 +170,7 @@ jobs:
               report_lines.append("- Article JSON image_url local WebP olarak güncellenecek.")
               if not DRY_RUN:
                   json_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-                  changed_files.append(json_path)
+                  add_unique(changed_files, json_path)
           else:
               report_lines.append("- Article JSON zaten local WebP kullanıyor.")
 
@@ -178,33 +184,33 @@ jobs:
               new_text = replace_meta_content(new_text, "twitter:image", webp_url)
               new_text = replace_article_img_src(new_text, display_src)
               if new_text != old_text:
+                  add_unique(planned_files, html_path)
                   report_lines.append(f"- HTML WebP'ye bağlanacak: `{html_path.as_posix()}`")
                   if not DRY_RUN:
                       html_path.write_text(new_text, encoding="utf-8")
-                      changed_files.append(html_path)
+                      add_unique(changed_files, html_path)
               else:
                   report_lines.append(f"- HTML değişiklik gerektirmiyor: `{html_path.as_posix()}`")
 
-          changed_unique = []
-          seen = set()
-          for path in changed_files:
-              key = path.as_posix()
-              if key not in seen:
-                  changed_unique.append(path)
-                  seen.add(key)
-
           Path("newsroom/reports").mkdir(parents=True, exist_ok=True)
           report_path = Path("newsroom/reports") / f"gorsel-webp-bagla-{slug}.md"
-          report_lines.extend(["", "## Değişecek Dosyalar"])
-          if changed_unique:
-              report_lines.extend(f"- `{path.as_posix()}`" for path in changed_unique)
+          report_lines.extend(["", "## Planlanan Dosyalar"])
+          if planned_files:
+              report_lines.extend(f"- `{path.as_posix()}`" for path in planned_files)
+          else:
+              report_lines.append("- Değişiklik yok")
+          report_lines.extend(["", "## Uygulanan Dosyalar"])
+          if changed_files:
+              report_lines.extend(f"- `{path.as_posix()}`" for path in changed_files)
+          elif DRY_RUN:
+              report_lines.append("- Dry run olduğu için uygulanmadı")
           else:
               report_lines.append("- Değişiklik yok")
           report_path.write_text("\n".join(report_lines) + "\n", encoding="utf-8")
           print(report_path.read_text(encoding="utf-8"))
 
           Path(".gorsel-webp-bagla-files.txt").write_text(
-              "\n".join(path.as_posix() for path in changed_unique) + ("\n" if changed_unique else ""),
+              "\n".join(path.as_posix() for path in changed_files) + ("\n" if changed_files else ""),
               encoding="utf-8",
           )
           Path(".gorsel-webp-bagla-report.txt").write_text(report_path.as_posix(), encoding="utf-8")
