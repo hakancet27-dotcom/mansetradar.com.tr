@@ -7,7 +7,15 @@ import re
 from pathlib import Path
 from typing import Any
 
-CMS_ROOTS = (Path('cms-published/articles'), Path('cms-published/news/articles'), Path('cms-published/nachrichten/artikel'))
+SITE_URL = 'https://mansetradar.com.tr'
+CMS_ROOTS = (
+    Path('data/cms-published/articles'),
+    Path('data/cms-published/news/articles'),
+    Path('data/cms-published/nachrichten/artikel'),
+    Path('cms-published/articles'),
+    Path('cms-published/news/articles'),
+    Path('cms-published/nachrichten/artikel'),
+)
 START = '<!-- INLINE_GALLERY_START -->'
 END = '<!-- INLINE_GALLERY_END -->'
 INLINE_CSS = """
@@ -32,6 +40,13 @@ def display_src(value: str) -> str:
     return value if is_remote(value) else '/' + value.lstrip('/')
 
 
+def absolute_src(value: str) -> str:
+    value = display_src(value)
+    if not value:
+        return ''
+    return value if is_remote(value) else SITE_URL + value
+
+
 def read_json(path: Path) -> dict[str, Any] | None:
     try:
         data = json.loads(path.read_text(encoding='utf-8-sig'))
@@ -47,6 +62,31 @@ def cms_paths() -> list[Path]:
         if root.exists():
             paths.extend(sorted(root.glob('*.json')))
     return paths
+
+
+def main_image_url(data: dict[str, Any]) -> str:
+    image = data.get('image') if isinstance(data.get('image'), dict) else {}
+    return clean(data.get('image_url') or image.get('url') or data.get('thumbnail') or data.get('image_local_webp'))
+
+
+def main_image_alt(data: dict[str, Any]) -> str:
+    image = data.get('image') if isinstance(data.get('image'), dict) else {}
+    return clean(data.get('image_alt') or image.get('alt') or data.get('title') or 'Haber görseli')
+
+
+def image_credit_html(data: dict[str, Any], image_url: str) -> str:
+    credit = clean(data.get('image_credit'))
+    credit_url = clean(data.get('image_credit_url'))
+    # CMS panelinden secilen lokal gorsellerde eski RSS/Hurriyet kredisi detay sayfasinda kalmasin.
+    local_key = image_url.lstrip('/')
+    if local_key.startswith('articles/images/') or local_key.startswith('cms-stock-images/'):
+        return ''
+    if not credit:
+        return ''
+    label = html.escape(credit)
+    if credit_url:
+        return '<figcaption class="image-credit" style="font-size:.78rem;color:#6b7280;text-align:right;padding:7px 10px;background:#f8fafc;">Görsel kaynağı: <a href="' + html.escape(credit_url, quote=True) + '" target="_blank" rel="nofollow noopener" style="color:#b91c1c;text-decoration:none;font-weight:700;">' + label + '</a></figcaption>'
+    return '<figcaption class="image-credit" style="font-size:.78rem;color:#6b7280;text-align:right;padding:7px 10px;background:#f8fafc;">Görsel kaynağı: ' + label + '</figcaption>'
 
 
 def normalized_gallery(data: dict[str, Any]) -> list[dict[str, str]]:
@@ -153,6 +193,28 @@ def add_or_remove_css(content: str, gallery: list[dict[str, str]]) -> str:
     return content
 
 
+def update_meta_images(content: str, image_url: str) -> str:
+    absolute = absolute_src(image_url)
+    if not absolute:
+        return content
+    content = re.sub(r'(<meta property="og:image" content=")[^"]*(">)', r'\1' + html.escape(absolute, quote=True) + r'\2', content, count=1)
+    content = re.sub(r'(<meta name="twitter:image" content=")[^"]*(">)', r'\1' + html.escape(absolute, quote=True) + r'\2', content, count=1)
+    content = re.sub(r'("image"\s*:\s*\{[^}]*"url"\s*:\s*")[^"]*(")', r'\1' + absolute.replace('\\', '\\\\').replace('"', '\\"') + r'\2', content, count=1)
+    return content
+
+
+def update_main_figure(content: str, data: dict[str, Any]) -> str:
+    image_url = main_image_url(data)
+    if not image_url:
+        return content
+    src = absolute_src(image_url)
+    alt = main_image_alt(data)
+    caption = image_credit_html(data, image_url)
+    figure_html = '<figure class="article-image"><img src="' + html.escape(src, quote=True) + '" alt="' + html.escape(alt, quote=True) + '" loading="eager" fetchpriority="high" width="1280" height="720">' + caption + '</figure>'
+    updated, count = re.subn(r'<figure class="article-image">[\s\S]*?</figure>', figure_html, content, count=1, flags=re.IGNORECASE)
+    return updated if count else content
+
+
 def inject_content(content: str, gallery: list[dict[str, str]]) -> str:
     if '<div class="article-content">' in content:
         return re.sub(
@@ -161,8 +223,6 @@ def inject_content(content: str, gallery: list[dict[str, str]]) -> str:
             content,
             count=1,
         )
-    # Older/static article template has no article-content wrapper. In that case,
-    # the article body starts after the lead image and ends before tags/share/source.
     body_pattern = (
         r'(<figure class="article-image">[\s\S]*?</figure>\s*)'
         r'([\s\S]*?)'
@@ -179,9 +239,11 @@ def inject_content(content: str, gallery: list[dict[str, str]]) -> str:
     return strip_blocks(content)
 
 
-def update_html(path: Path, gallery: list[dict[str, str]]) -> bool:
+def update_html(path: Path, data: dict[str, Any], gallery: list[dict[str, str]]) -> bool:
     original = path.read_text(encoding='utf-8-sig')
     content = add_or_remove_css(original, gallery)
+    content = update_meta_images(content, main_image_url(data))
+    content = update_main_figure(content, data)
     content = inject_content(content, gallery)
     if content == original:
         return False
@@ -200,8 +262,9 @@ def main() -> None:
         if gallery:
             galleries += 1
         for html_path in html_paths(source_path(data_path, data), data):
-            if update_html(html_path, gallery):
+            if update_html(html_path, data, gallery):
                 changed += 1
+                print(f'CMS detail HTML synced: {html_path}')
     print(f'Inline gallery publish completed: scanned={scanned} galleries={galleries} html_changed={changed}')
 
 
