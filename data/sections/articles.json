@@ -3,11 +3,47 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-13T00:00:00+00:00",
-    "article_count": 511,
+    "article_count": 514,
     "schema_version": 2,
     "section": "articles"
   },
   "articles": [
+    {
+      "id": "articles/2026/06:lgs-kapsamindaki-merkezi-sinav-tamamlandi_20260613",
+      "slug": "lgs-kapsamindaki-merkezi-sinav-tamamlandi_20260613",
+      "title": "LGS kapsamındaki merkezi sınav tamamlandı: Sonuçlar 10 Temmuz'da",
+      "summary": "Milli Eğitim Bakanlığı tarafından 8'inci sınıf öğrencilerine yönelik düzenlenen Liselere Geçiş Sistemi (LGS) kapsamındaki merkezi sınav, iki oturumun ardından tamamlandı. Sınav sonuçlarının 10 Temmuz tarihinde meb.gov.tr adresi üzerinden ilan edileceği duyu...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "13.06.2026",
+      "date_iso": "2026-06-13",
+      "url": "/articles/2026/06/lgs-kapsamindaki-merkezi-sinav-tamamlandi_20260613/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/lgs-kapsamindaki-merkezi-sinav-tamamlandi_20260613/",
+      "detail_json_url": "/data/details/articles/2026/06/lgs-kapsamindaki-merkezi-sinav-tamamlandi_20260613.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/lgs-kapsamindaki-merkezi-sinav-tamamlandi_20260613.webp",
+      "image_alt": "LGS sınavına giren öğrenciler sınıflarda sınav kağıtlarını dolduruyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/lgs-kapsamindaki-merkezi-sinav-tamamlandi_20260613.webp",
+        "alt": "LGS sınavına giren öğrenciler sınıflarda sınav kağıtlarını dolduruyor."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/son-dakika-lgs-kapsamindaki-merkezi-sinav-basladi-3891334",
+      "tags": [
+        "LGS",
+        "MEB",
+        "Liselere Geçiş Sistemi",
+        "Sınav Sonuçları",
+        "Eğitim"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/06:hafizanin-gizli-yakiti_20260613",
       "slug": "hafizanin-gizli-yakiti_20260613",
@@ -42,6 +78,77 @@
         "Derya Uludüz"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:cumhurbaskani-erdogan-yapay-zeka-eylem-planini-acikladi_20260613",
+      "slug": "cumhurbaskani-erdogan-yapay-zeka-eylem-planini-acikladi_20260613",
+      "title": "Cumhurbaşkanı Erdoğan Türkiye’nin Yapay Zeka Eylem Planı’nı açıkladı",
+      "summary": "Cumhurbaşkanı Recep Tayyip Erdoğan, İstanbul'da düzenlenen Türkiye Yapay Zeka Zirvesi'nde Türkiye'nin yeni yapay zeka eylem planını açıkladı. Dört ana eksenden oluşan plan; farkındalık, yatırım, üretim ve yönetim başlıklarını kapsıyor.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "13.06.2026",
+      "date_iso": "2026-06-13",
+      "url": "/articles/2026/06/cumhurbaskani-erdogan-yapay-zeka-eylem-planini-acikladi_20260613/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/cumhurbaskani-erdogan-yapay-zeka-eylem-planini-acikladi_20260613/",
+      "detail_json_url": "/data/details/articles/2026/06/cumhurbaskani-erdogan-yapay-zeka-eylem-planini-acikladi_20260613.json",
+      "image_url": "https://images.ntv.com.tr/images/recep-tayyip-erdoğan-yapay-zeka-zirvesi-674993.jpg",
+      "image_alt": "Cumhurbaşkanı Recep Tayyip Erdoğan Türkiye Yapay Zeka Zirvesi'nde konuşma yaparken.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/recep-tayyip-erdoğan-yapay-zeka-zirvesi-674993.jpg",
+        "alt": "Cumhurbaşkanı Recep Tayyip Erdoğan Türkiye Yapay Zeka Zirvesi'nde konuşma yaparken."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-disa-bagimli-oldugumuz-teknolojileri-artik-kendimiz-uretiyoruz-1728443",
+      "tags": [
+        "Yapay Zeka",
+        "Recep Tayyip Erdoğan",
+        "Teknoloji",
+        "Dijital Dönüşüm"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:bahceliden-chpye-bolunme-derinlesiyor_20260613",
+      "slug": "bahceliden-chpye-bolunme-derinlesiyor_20260613",
+      "title": "Bahçeli’den CHP’ye Sert Eleştiri: Bölünme Derinleşiyor",
+      "summary": "MHP Genel Başkanı Devlet Bahçeli, Türkgün Gazetesi’ne verdiği demeçte CHP yönetimini sert bir dille eleştirdi. Bahçeli, CHP içindeki krizin derinleştiğini ve bu durumun toplumsal huzuru tehdit ettiğini ifade ederek, parti yönetimine özeleştiri çağrısında bu...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "13.06.2026",
+      "date_iso": "2026-06-13",
+      "url": "/articles/2026/06/bahceliden-chpye-bolunme-derinlesiyor_20260613/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/bahceliden-chpye-bolunme-derinlesiyor_20260613/",
+      "detail_json_url": "/data/details/articles/2026/06/bahceliden-chpye-bolunme-derinlesiyor_20260613.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/bahceliden-chpye-bolunme-derinlesiyor_20260613.webp",
+      "image_alt": "MHP Genel Başkanı Devlet Bahçeli bir konuşma sırasında.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/bahceliden-chpye-bolunme-derinlesiyor_20260613.webp",
+        "alt": "MHP Genel Başkanı Devlet Bahçeli bir konuşma sırasında."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/bahceliden-chpye-bolunme-derinlesiyor-43203543",
+      "tags": [
+        "Devlet Bahçeli",
+        "CHP",
+        "MHP",
+        "Siyaset",
+        "Özgür Özel"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
