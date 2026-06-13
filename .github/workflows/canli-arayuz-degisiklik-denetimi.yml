@@ -15,9 +15,11 @@ on:
     paths:
       - 'assets/js/topic-page-ux.js'
       - 'assets/js/showcase-side-rotation.js'
+      - 'assets/js/json-search.js'
+      - 'assets/js/global-search.js'
       - 'assets/js/mobile-home-ux.js'
       - 'assets/css/mobile-market-static.css'
-      - 'haber/index.html'
+      - 'index.html'
       - '.github/workflows/canli-arayuz-degisiklik-denetimi.yml'
   push:
     branches:
@@ -25,9 +27,11 @@ on:
     paths:
       - 'assets/js/topic-page-ux.js'
       - 'assets/js/showcase-side-rotation.js'
+      - 'assets/js/json-search.js'
+      - 'assets/js/global-search.js'
       - 'assets/js/mobile-home-ux.js'
       - 'assets/css/mobile-market-static.css'
-      - 'haber/index.html'
+      - 'index.html'
       - '.github/workflows/canli-arayuz-degisiklik-denetimi.yml'
 
 permissions:
@@ -84,14 +88,14 @@ jobs:
               echo '`topic-page-ux.js` içinde kategori manşet fallback fonksiyonlarından biri bulunamadı.'
             fi
             echo
-            if grep -q '^assets/js/topic-page-ux.js$' degisen-dosyalar.txt && ! grep -q '^haber/index.html$' degisen-dosyalar.txt; then
+            if grep -q '^assets/js/topic-page-ux.js$' degisen-dosyalar.txt && ! grep -q '^index.html$' degisen-dosyalar.txt; then
               echo '### [UYARI] JavaScript değişti ancak HTML cache sürümü aynı kalmış olabilir'
               echo
-              echo '`topic-page-ux.js` değiştirildi; `haber/index.html` aynı çalışmada değişmediyse mobil tarayıcı eski asset URL’sini önbellekte gösterebilir.'
+              echo '`topic-page-ux.js` değiştirildi; `index.html` aynı çalışmada değişmediyse mobil tarayıcı eski asset URL’sini önbellekte gösterebilir.'
             else
               echo '### [BİLGİ] Asset sürüm kontrolü'
               echo
-              echo 'JavaScript değişikliklerinde `haber/index.html` içindeki `?v=` sürüm parametresinin güncel kaldığını doğrulayın.'
+              echo 'JavaScript değişikliklerinde `index.html` içindeki `?v=` sürüm parametresinin güncel kaldığını doğrulayın.'
             fi
           } > "$RAPOR"
           cat "$RAPOR" >> "$GITHUB_STEP_SUMMARY"

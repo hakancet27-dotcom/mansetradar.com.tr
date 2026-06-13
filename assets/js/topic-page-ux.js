@@ -682,7 +682,6 @@
 
   function refreshTopicDisplay() {
     normalizeCategoryLinks();
-    repairClearCategoryErrors();
     installAccurateCount();
     applyCategoryHeading();
     if (typeof window.applyTopicFilter === 'function') window.applyTopicFilter();

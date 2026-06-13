@@ -157,6 +157,7 @@
     var shell = document.querySelector('.header-search');
     var input = document.getElementById('news-search-input');
     if (!shell || !input) return;
+    if (document.getElementById('news-search-clear') || document.getElementById('news-search-status')) return;
     injectStyle();
     var panel = ensurePanel(shell);
     var timer = null;
