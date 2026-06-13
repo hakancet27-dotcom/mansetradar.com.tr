@@ -39,14 +39,6 @@
   "image_url": "https://mansetradar.com.tr/articles/2026/06/images/meteorolojiden-30-il-icin-sari-kodlu-uyari-kuvvetli-yagis-geliyor_20260613.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "source_provided",
-  "image_license_note": "RSS source image: Hürriyet",
-  "image_source_url": "https://www.hurriyet.com.tr/gundem/meteorolojiden-30-il-icin-sari-kodlu-uyari-kuvvetli-yagis-geliyor-43203589",
-  "image_provider": "rss",
-  "image_score": 90,
-  "image_query": "Meteoroloji'den 30 il için sarı kodlu uyarı: Kuvvetli yağış geliyor",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "Meteoroloji Genel Müdürlüğü, Türkiye genelinde etkili olması beklenen kuvvetli sağanak yağış ve rüzgar nedeniyle 30 il için sarı kodlu uyarı yayınladı. Batı kesimlerde hava sıcaklıklarının düşmesi beklenirken, İstanbul'da sabah saatlerinde başlayan yağış günlük yaşamı olumsuz etkiledi.",
   "language": "Turkish",
   "url_prefix": "articles/2026/06",
@@ -68,10 +60,7 @@
   ],
   "quality_word_count": 290,
   "indexed_on_home": true,
-  "original_image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2cdfbaf67bd186f7d47d96.jpg",
-  "image_local_webp": "/articles/2026/06/images/meteorolojiden-30-il-icin-sari-kodlu-uyari-kuvvetli-yagis-geliyor_20260613.webp",
-  "image_credit": "hurriyet.com.tr",
-  "image_credit_url": "https://www.hurriyet.com.tr/gundem/meteorolojiden-30-il-icin-sari-kodlu-uyari-kuvvetli-yagis-geliyor-43203589",
-  "image_finalized_at": "2026-06-13T05:20:53.870961Z",
-  "time": "04:24"
+  "time": "04:24",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }
