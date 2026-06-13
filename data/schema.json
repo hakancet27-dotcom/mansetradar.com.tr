@@ -5,7 +5,7 @@
     "/data/home.json": "Ana sayfa için manşet ve son haber listesi.",
     "/data/articles.json": "Tüm yayınlanmış haberlerin hafif liste verisi.",
     "/data/search-index.json": "Site içi arama için küçük indeks.",
-    "/data/categories/{kategori}.json": "Türkçe ana akıştaki kategori listeleri; ilgili topic eslesmeleri de gorunurluk kaybi olmamasi icin eklenir.",
+    "/data/categories/{kategori}.json": "Türkçe ana akıştaki gerçek kategori listeleri.",
     "/data/topics/{topic}.json": "Saf konu/topic listeleri; manşet ve topic tabanlı arayüzler için kullanılır.",
     "/data/sections/{bolum}.json": "Türkçe, İngilizce ve Almanca bölüm listeleri.",
     "/data/details/{section}/{slug}.json": "Tek haber için detay HTML gövdesi ve meta bilgiler."

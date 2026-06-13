@@ -6,47 +6,9 @@
     "article_count": 662,
     "schema_version": 2,
     "category_slug": "spor",
-    "topic_slug": "spor",
-    "type": "category_topic_union"
+    "type": "category"
   },
   "articles": [
-    {
-      "id": "articles/2026/06:modada-konfor-donemi-aktif-giyim-gunluk-stilin-bir-parcasi-oldu_20260613",
-      "slug": "modada-konfor-donemi-aktif-giyim-gunluk-stilin-bir-parcasi-oldu_20260613",
-      "title": "Modada Konfor Dönemi: Aktif Giyim Günlük Stilin Bir Parçası Oldu",
-      "summary": "Taytlar, teknik kumaşlar ve spor ayakkabıları artık yalnızca egzersiz anlarında değil, günlük yaşamın her anında stilin bir parçası haline geldi. Performans ve şıklık arasındaki sınırların kalktığı bu dönemde, spor giyim parçaları şehir stiline entegre edil...",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "13.06.2026",
-      "date_iso": "2026-06-13",
-      "url": "/articles/2026/06/modada-konfor-donemi-aktif-giyim-gunluk-stilin-bir-parcasi-oldu_20260613/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/modada-konfor-donemi-aktif-giyim-gunluk-stilin-bir-parcasi-oldu_20260613/",
-      "detail_json_url": "/data/details/articles/2026/06/modada-konfor-donemi-aktif-giyim-gunluk-stilin-bir-parcasi-oldu_20260613.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/pexels-plate-medya-10979205.webp",
-      "image_alt": "Günlük stilde kullanılan spor giyim parçaları ve sneaker modelleri.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/pexels-plate-medya-10979205.webp",
-        "alt": "Günlük stilde kullanılan spor giyim parçaları ve sneaker modelleri."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/kelebek/hurriyet-cumartesi/bugunlerde-uzerimize-bir-rahatlik-geldi-43202611",
-      "tags": [
-        "moda",
-        "aktif giyim",
-        "sneaker",
-        "spor giyim trendleri"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
     {
       "id": "articles/2026/06:brezilya-fas-dunya-kupasi-mac-oncesi-ancelotti-aciklamalari_20260613",
       "slug": "brezilya-fas-dunya-kupasi-mac-oncesi-ancelotti-aciklamalari_20260613",
@@ -535,44 +497,6 @@
       "review_status": "published"
     },
     {
-      "id": "articles/2026/06:2026-dunya-kupasi-fbi-guvenlik-operasyonu_20260611",
-      "slug": "2026-dunya-kupasi-fbi-guvenlik-operasyonu_20260611",
-      "title": "2026 Dünya Kupası'nda FBI'dan Tarihi Güvenlik Operasyonu",
-      "summary": "FBI Direktörü Kash Patel, ABD, Kanada ve Meksika'nın ortak ev sahipliğinde düzenlenecek 2026 FIFA Dünya Kupası'nın, FBI tarihinin en kapsamlı güvenlik operasyonu olduğunu açıkladı. Turnuva boyunca terör, siber saldırı ve drone tehditlerine karşı geniş çaplı...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "11.06.2026",
-      "date_iso": "2026-06-11",
-      "url": "/articles/2026/06/2026-dunya-kupasi-fbi-guvenlik-operasyonu_20260611/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/2026-dunya-kupasi-fbi-guvenlik-operasyonu_20260611/",
-      "detail_json_url": "/data/details/articles/2026/06/2026-dunya-kupasi-fbi-guvenlik-operasyonu_20260611.json",
-      "image_url": "https://images.ntv.com.tr/images/xscsd-714351(2).jpg",
-      "image_alt": "FBI güvenlik operasyon merkezi ve Dünya Kupası hazırlıkları.",
-      "image": {
-        "url": "https://images.ntv.com.tr/images/xscsd-714351(2).jpg",
-        "alt": "FBI güvenlik operasyon merkezi ve Dünya Kupası hazırlıkları."
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/dunya/dunya-kupasi-basliyor-fbi-tarihinin-en-buyuk-guvenlik-operasyonu-1728166",
-      "tags": [
-        "2026 Dünya Kupası",
-        "FBI",
-        "Kash Patel",
-        "Güvenlik",
-        "FIFA"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
       "id": "articles/2026/06:2026-dunya-kupasi-basladi-tarihi-anlar_20260611",
       "slug": "2026-dunya-kupasi-basladi-tarihi-anlar_20260611",
       "title": "2026 FIFA Dünya Kupası Görkemli Bir Törenle Başladı",
@@ -874,81 +798,6 @@
       "review_status": "published"
     },
     {
-      "id": "articles/2026/06:2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610",
-      "slug": "2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610",
-      "title": "2026 Dünya Kupası'nda bilet krizi: Fiyatlar rekor kırdı",
-      "summary": "ABD, Kanada ve Meksika'nın ev sahipliğinde yarın başlayacak 2026 FIFA Dünya Kupası, bilet fiyatlarıyla turnuva tarihinin en pahalı organizasyonu oldu. 2022 Katar Dünya Kupası'na kıyasla grup maçlarında 5, final maçında ise 10 kat artış gösteren bilet fiyatl...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "10.06.2026",
-      "date_iso": "2026-06-10",
-      "url": "/articles/2026/06/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610/",
-      "detail_json_url": "/data/details/articles/2026/06/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610.webp",
-      "image_alt": "2026 FIFA Dünya Kupası stadyum atmosferi",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/2026-dunya-kupasi-bilet-fiyatlari-rekor-kirdi_20260610.webp",
-        "alt": "2026 FIFA Dünya Kupası stadyum atmosferi"
-      },
-      "source_name": "Ekonomi haberleri - Son dakika ekonomi haberleri - Sözcü",
-      "source_url": "https://www.sozcu.com.tr/2026-dunya-kupasi-taraftarinin-cebi-yanacak-bilet-fiyatlari-rekor-seviyede-p326761",
-      "tags": [
-        "2026 Dünya Kupası",
-        "FIFA",
-        "bilet fiyatları",
-        "spor ekonomisi"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:san-franciscoda-robotaksiyle-kacan-hirsiz-6-aydir-bulunamadi_20260609",
-      "slug": "san-franciscoda-robotaksiyle-kacan-hirsiz-6-aydir-bulunamadi_20260609",
-      "title": "San Francisco'da Robotaksiyle Kaçan Hırsız 6 Aydır Bulunamadı",
-      "summary": "San Francisco'da Ocak ayında bir yoga stüdyosundan spor kıyafetleri çaldıktan sonra Waymo marka otonom bir araca binerek olay yerinden uzaklaşan şüpheli, aradan geçen altı aya rağmen polis tarafından yakalanamadı.",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "09.06.2026",
-      "date_iso": "2026-06-09",
-      "url": "/articles/2026/06/san-franciscoda-robotaksiyle-kacan-hirsiz-6-aydir-bulunamadi_20260609/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/san-franciscoda-robotaksiyle-kacan-hirsiz-6-aydir-bulunamadi_20260609/",
-      "detail_json_url": "/data/details/articles/2026/06/san-franciscoda-robotaksiyle-kacan-hirsiz-6-aydir-bulunamadi_20260609.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/san-franciscoda-robotaksiyle-kacan-hirsiz-6-aydir-bulunamadi_20260609.webp",
-      "image_alt": "San Francisco sokaklarında ilerleyen bir Waymo robotaksisi.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/san-franciscoda-robotaksiyle-kacan-hirsiz-6-aydir-bulunamadi_20260609.webp",
-        "alt": "San Francisco sokaklarında ilerleyen bir Waymo robotaksisi."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/teknoloji/insansiz-taksiyi-calan-hirsiz-6-aydir-yakalanamiyor-7602307",
-      "tags": [
-        "Waymo",
-        "Robotaksi",
-        "San Francisco",
-        "Hırsızlık",
-        "Teknoloji"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
       "id": "articles/2026/06:real-madrid-jose-mourinho-donemi-basladi_20260609",
       "slug": "real-madrid-jose-mourinho-donemi-basladi_20260609",
       "title": "Real Madrid'de Jose Mourinho dönemi resmen başladı",
@@ -982,44 +831,6 @@
         "Florentino Perez",
         "Transfer",
         "La Liga"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609",
-      "slug": "mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609",
-      "title": "MHP Lideri Bahçeli'den Grup Toplantısında Önemli Açıklamalar",
-      "summary": "MHP Genel Başkanı Devlet Bahçeli, partisinin TBMM grup toplantısında yaptığı konuşmada milli takımın ABD yolculuğu, bölgesel güvenlik tehditleri ve CHP'li belediyelerdeki iddialara ilişkin değerlendirmelerde bulundu.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "09.06.2026",
-      "date_iso": "2026-06-09",
-      "url": "/articles/2026/06/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609/",
-      "detail_json_url": "/data/details/articles/2026/06/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609.webp",
-      "image_alt": "MHP Genel Başkanı Devlet Bahçeli TBMM'de konuşma yaparken.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/mhp-lideri-bahceli-tbmm-grup-toplantisi-aciklamalari_20260609.webp",
-        "alt": "MHP Genel Başkanı Devlet Bahçeli TBMM'de konuşma yaparken."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/mhp-lideri-bahceli-den-aciklamalar-son-dakika-haberler-3890327",
-      "tags": [
-        "Devlet Bahçeli",
-        "MHP",
-        "TBMM",
-        "Siyaset",
-        "CHP"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1097,44 +908,6 @@
         "Yunanistan Basketbol Ligi"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608",
-      "slug": "meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608",
-      "title": "Meta’dan 2026 FIFA Dünya Kupası için Kapsamlı Güvenlik Hamlesi",
-      "summary": "2026 FIFA Dünya Kupası yaklaşırken Meta, platformlarında dolandırıcılık faaliyetlerini engellemek ve kullanıcı güvenliğini sağlamak amacıyla yapay zeka destekli yeni bir eylem planını uygulamaya koydu.",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "08.06.2026",
-      "date_iso": "2026-06-08",
-      "url": "/articles/2026/06/meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608/",
-      "detail_json_url": "/data/details/articles/2026/06/meta-2026-fifa-dunya-kupasi-guvenlik-onlemleri_20260608.json",
-      "image_url": "https://images.pexels.com/photos/58461/pexels-photo-58461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "image_alt": "Meta'nın 2026 FIFA Dünya Kupası güvenlik önlemlerini temsil eden dijital grafik.",
-      "image": {
-        "url": "https://images.pexels.com/photos/58461/pexels-photo-58461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "alt": "Meta'nın 2026 FIFA Dünya Kupası güvenlik önlemlerini temsil eden dijital grafik."
-      },
-      "source_name": "Teknoloji Haberleri – ShiftDelete.Net",
-      "source_url": "https://shiftdelete.net/metadan-2026-fifa-dunya-kupasi-oncesi-buyuk-guvenlik-hamlesi",
-      "tags": [
-        "Meta",
-        "2026 FIFA Dünya Kupası",
-        "Siber Güvenlik",
-        "Dolandırıcılıkla Mücadele",
-        "Yapay Zeka"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -2423,44 +2196,6 @@
         "Futbol"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603",
-      "slug": "fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603",
-      "title": "Fetih Kupası İstanbul'da Başladı: Dünyanın En Büyük Sivil Okçuluk Organizasyonu",
-      "summary": "İstanbul'da Okçular Vakfı'nda başlayan Fetih Kupası, dünyanın en büyük sivil okçuluk organizasyonu olarak dikkat çekiyor. Cumhurbaşkanlığı himayelerinde beş gün sürecek etkinliğin açılışına Kültür ve Turizm Bakanı Mehmet Nuri Ersoy, Gençlik ve Spor Bakanı O...",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/2026/06/fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603/",
-      "detail_json_url": "/data/details/articles/2026/06/fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603.webp",
-      "image_alt": "Fetih Kupası İstanbul'da Başladı: Dünyanın En Büyük Sivil Okçuluk Organizasyonu",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/fetih-kupasi-istanbulda-basladi-dunyanin-en-buyuk-sivil-okculuk-organizasyonu_20260603.webp",
-        "alt": "Fetih Kupası İstanbul'da Başladı: Dünyanın En Büyük Sivil Okçuluk Organizasyonu"
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/dunyanin-en-buyuk-sivil-okculuk-organizasyonu-istanbulda-basladi-43192420",
-      "tags": [
-        "Fetih Kupası",
-        "Okçuluk",
-        "Okçular Vakfı",
-        "Mehmet Nuri Ersoy",
-        "İstanbul"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     },
     {

@@ -1108,12 +1108,12 @@
       "review_status": "published"
     },
     {
-      "id": "articles/2026/06:sariyerde-rehin-alinan-kisi-abdden-yapilan-ihbarla-kurtarildi_20260604",
-      "slug": "sariyerde-rehin-alinan-kisi-abdden-yapilan-ihbarla-kurtarildi_20260604",
-      "title": "ABD'den Gelen İhbarla Sarıyer'de Rehin Alınan Kişi Kurtarıldı",
-      "summary": "Sarıyer'de bir kişi, ABD'den gelen bir ihbar ve paylaşılan canlı konum bilgisi sayesinde kurtarıldı. Olay, 28 Mayıs Perşembe günü saat 18.15 sıralarında Ayazağa Mahallesi'nde meydana geldi. Kendisini 'Serdar' olarak tanıtan bir kişi, ABD telefon kodlu bir n...",
-      "category": "Gündem",
-      "category_slug": "gundem",
+      "id": "articles/2026/06:israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604",
+      "slug": "israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604",
+      "title": "İsrail'in Lübnan Saldırılarında Can Kaybı 12'ye Yükseldi",
+      "summary": "İsrail ordusunun Lübnan'ın güneyine yönelik hava saldırıları devam ederken, ateşkese rağmen gerçekleştirilen bu saldırılarda hayatını kaybedenlerin sayısı 12'ye yükseldi. Lübnan resmi ajansı NNA'nın bildirdiğine göre, Sur ve Nebatiye kentlerine bağlı beldel...",
+      "category": "Dünya",
+      "category_slug": "dunya",
       "topic_slug": "dunya",
       "topic_label": "Dünya",
       "country": "Turkey",
@@ -1124,22 +1124,26 @@
       "url_prefix": "articles/2026/06",
       "date": "04.06.2026",
       "date_iso": "2026-06-04",
-      "url": "/articles/2026/06/sariyerde-rehin-alinan-kisi-abdden-yapilan-ihbarla-kurtarildi_20260604/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/sariyerde-rehin-alinan-kisi-abdden-yapilan-ihbarla-kurtarildi_20260604/",
-      "detail_json_url": "/data/details/articles/2026/06/sariyerde-rehin-alinan-kisi-abdden-yapilan-ihbarla-kurtarildi_20260604.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/sariyerde-rehin-alinan-kisi-abdden-yapilan-ihbarla-kurtarildi_20260604.webp",
-      "image_alt": "Polis ekipleri Sarıyer'de bir iş yerinde operasyon düzenliyor.",
+      "url": "/articles/2026/06/israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604/",
+      "detail_json_url": "/data/details/articles/2026/06/israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604.webp",
+      "image_alt": "İsrail'in hava saldırıları sonrası Lübnan'ın güneyindeki bir kasabada hasar görmüş binalar ve enkaz.",
       "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/sariyerde-rehin-alinan-kisi-abdden-yapilan-ihbarla-kurtarildi_20260604.webp",
-        "alt": "Polis ekipleri Sarıyer'de bir iş yerinde operasyon düzenliyor."
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/israil-lubnan-saldirilari-can-kaybi-12ye-yukseldi_20260604.webp",
+        "alt": "İsrail'in hava saldırıları sonrası Lübnan'ın güneyindeki bir kasabada hasar görmüş binalar ve enkaz."
       },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/sariyerde-rehin-alinan-kisi-abdden-yapilan-ihbarla-kurtarildi-yeri-canli-konumdan-tespit-edildi-43192772",
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/israil-ordusunun-lubnana-yonelik-saldirilarinda-olenlerin-sayisi-12ye-yukseldi-7599704",
       "tags": [
-        "Sarıyer",
-        "Rehin Alma",
-        "Kurtarma Operasyonu",
-        "ABD İhbarı"
+        "İsrail",
+        "Lübnan",
+        "Hava Saldırısı",
+        "NNA",
+        "Sur",
+        "Nebatiye",
+        "UNIFIL",
+        "Ateşkes"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1336,44 +1340,6 @@
         "Gazze Yeniden Yapılanma"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603",
-      "slug": "abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603",
-      "title": "ABD'de Banka Soygunu Girişimi: FBI Devrede",
-      "summary": "ABD'nin California eyaletine bağlı Bakersfield kentinde bir banka şubesinde bomba tehdidi ve rehine krizi yaşandı. Olay yerine sevk edilen polis ekipleri, bir erkeğin banka içerisinde çok sayıda kişiyle birlikte kendisini binaya kilitlediğini tespit etti. K...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "03.06.2026",
-      "date_iso": "2026-06-03",
-      "url": "/articles/2026/06/abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603/",
-      "detail_json_url": "/data/details/articles/2026/06/abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603.webp",
-      "image_alt": "ABD'nin California eyaletine bağlı Bakersfield kentinde bir banka şubesinde bomba tehdidi ve rehine krizi nedeniyle geniş...",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/abd-de-bombali-soygun-girisimi-fbi-alarma-gecti_20260603.webp",
-        "alt": "ABD'nin California eyaletine bağlı Bakersfield kentinde bir banka şubesinde bomba tehdidi ve rehine krizi nedeniyle geniş..."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/dunya/abdde-bombali-soygun-girisimi-fbi-alarma-gecti-43191314",
-      "tags": [
-        "Bakersfield",
-        "California",
-        "Banka Soygunu",
-        "Rehine Krizi",
-        "FBI"
-      ],
-      "quality_score": 75,
       "review_status": "published"
     },
     {
@@ -1928,44 +1894,6 @@
       "review_status": "published"
     },
     {
-      "id": "articles/2026/05:israil_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521",
-      "slug": "israil_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521",
-      "title": "İsrail Polis Bakanı'nın Videosu Uluslararası Eleştiri Topladı",
-      "summary": "İsrail Polis Bakanı Ben-Gvir, Gazze Filosu aktivistlerini gösteren bir video paylaştı ve bu video uluslararası eleştirilere neden oldu. Bu olay, İsrail'de polisin rolü ve aktivistlerin muamelesine ilişkin geniş bir tartışmaya yol açtı.",
-      "category": "Dünya Haberleri",
-      "category_slug": "gundem",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Germany",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/05",
-      "date": "21.05.2026",
-      "date_iso": "2026-05-21",
-      "url": "/articles/2026/05/israil_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/05/israil_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521/",
-      "detail_json_url": "/data/details/articles/2026/05/israil_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521.json",
-      "image_url": "https://images.unsplash.com/photo-1547483029-77784da27709?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJc3JhZWx8ZW58MHwwfHx8MTc3OTM4MTAxMHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_alt": "İsrail Polis Bakanı Ben-Gvir",
-      "image": {
-        "url": "https://images.unsplash.com/photo-1547483029-77784da27709?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJc3JhZWx8ZW58MHwwfHx8MTc3OTM4MTAxMHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "alt": "İsrail Polis Bakanı Ben-Gvir"
-      },
-      "source_name": "",
-      "source_url": "",
-      "tags": [
-        "İsrail",
-        "Polis",
-        "Gazze Filosu",
-        "Uluslararası İlişkiler",
-        "Israel"
-      ],
-      "quality_score": 65,
-      "review_status": "needs_editorial_review"
-    },
-    {
       "id": "articles/2026/05:israil-istanbul-konsoloslugu-kapatma-tartismasi_20260521",
       "slug": "israil-istanbul-konsoloslugu-kapatma-tartismasi_20260521",
       "title": "İsrail, İstanbul'daki Konsolosluğu Kapatmayı Tartışıyor",
@@ -2042,47 +1970,6 @@
         "Can Kaybı"
       ],
       "quality_score": 82,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/05:abd_eski_kuba_lideri_raúl_castroyu_1996_ucak_dusurme_davasinda_sucladi_20260521",
-      "slug": "abd_eski_kuba_lideri_raúl_castroyu_1996_ucak_dusurme_davasinda_sucladi_20260521",
-      "title": "ABD, Eski Küba Lideri Raúl Castro'yu 1996 Uçak Düşürme Davasında Suçladı",
-      "summary": "Amerika Birleşik Devletleri, 1996 yılında iki uçağın düşürülmesi olayındaki iddia edilen rolü nedeniyle eski Küba Devlet Başkanı Raúl Castro'yu resmen suçladı. Bu hukuki adım, eski bir devlet başkanına karşı atılan nadir ve önemli bir eylem olarak uluslarar...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "USA",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/05",
-      "date": "21.05.2026",
-      "date_iso": "2026-05-21",
-      "url": "/articles/2026/05/abd_eski_kuba_lideri_raúl_castroyu_1996_ucak_dusurme_davasinda_sucladi_20260521/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/05/abd_eski_kuba_lideri_raúl_castroyu_1996_ucak_dusurme_davasinda_sucladi_20260521/",
-      "detail_json_url": "/data/details/articles/2026/05/abd_eski_kuba_lideri_raúl_castroyu_1996_ucak_dusurme_davasinda_sucladi_20260521.json",
-      "image_url": "https://mansetradar.com.tr/news/articles/images/us-indicts-raul-castro-1996-plane-downing_20260521.webp",
-      "image_alt": "Eski Küba Devlet Başkanı Raúl Castro'nun ABD tarafından 1996 uçak düşürme davasında suçlanmasını simgeleyen, adalet temalı...",
-      "image": {
-        "url": "https://mansetradar.com.tr/news/articles/images/us-indicts-raul-castro-1996-plane-downing_20260521.webp",
-        "alt": "Eski Küba Devlet Başkanı Raúl Castro'nun ABD tarafından 1996 uçak düşürme davasında suçlanmasını simgeleyen, adalet temalı..."
-      },
-      "source_name": "",
-      "source_url": "",
-      "tags": [
-        "Küba",
-        "ABD",
-        "Raúl Castro",
-        "Uçak Düşürme",
-        "Hukuk",
-        "Uluslararası İlişkiler",
-        "Adalet",
-        "Raul Castro"
-      ],
-      "quality_score": 90,
       "review_status": "published"
     },
     {
@@ -2209,44 +2096,6 @@
       "review_status": "published"
     },
     {
-      "id": "articles/2026/05:israil-mahkemesi-netanyahu-nun-yolsuzluk-durusmasi-iptal-edildi_20260520",
-      "slug": "israil-mahkemesi-netanyahu-nun-yolsuzluk-durusmasi-iptal-edildi_20260520",
-      "title": "İsrail Mahkemesi Netanyahu'nun Yolsuzluk Duruşmasının İptali Talebini Kabul Etti",
-      "summary": "İsrail mahkemesi, yolsuzlukla yargılanan Başbakan Binyamin Netanyahu'nun yolsuzluk duruşmasının 'diplomatik ve güvenlik' gerekçeleriyle iptal edilmesi talebini kabul etti. İsrail'de yolsuzlukla yargılanan ilk başbakan olan Netanyahu'nun duruşması, iptal kar...",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/05",
-      "date": "20.05.2026",
-      "date_iso": "2026-05-20",
-      "url": "/articles/2026/05/israil-mahkemesi-netanyahu-nun-yolsuzluk-durusmasi-iptal-edildi_20260520/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/05/israil-mahkemesi-netanyahu-nun-yolsuzluk-durusmasi-iptal-edildi_20260520/",
-      "detail_json_url": "/data/details/articles/2026/05/israil-mahkemesi-netanyahu-nun-yolsuzluk-durusmasi-iptal-edildi_20260520.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/05/images/israil-mahkemesi-netanyahu-nun-yolsuzluk-durusmasi-iptal-edildi_20260520.jpg",
-      "image_alt": "İsrail mahkemesi binası",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/05/images/israil-mahkemesi-netanyahu-nun-yolsuzluk-durusmasi-iptal-edildi_20260520.jpg",
-        "alt": "İsrail mahkemesi binası"
-      },
-      "source_name": "",
-      "source_url": "",
-      "tags": [
-        "İsrail",
-        "Netanyahu",
-        "Yolsuzluk",
-        "Siyaset",
-        "Mahkeme"
-      ],
-      "quality_score": null,
-      "review_status": "published"
-    },
-    {
       "id": "articles/2026/05:iran-devlet-televizyonu-5-super-tankere-hurmuz-bogazindan-gecis-izni-verildi_20260520",
       "slug": "iran-devlet-televizyonu-5-super-tankere-hurmuz-bogazindan-gecis-izni-verildi_20260520",
       "title": "İran Devlete Ait Televizyon: 5 Süper Tankere Hürmüz Boğazı'ndan Geçiş İzni Verildi",
@@ -2361,46 +2210,6 @@
         "ABD"
       ],
       "quality_score": null,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/05:avusturyada_eski_istihbaratci_rusya_icin_casusluktan_hapis_cezasina_carptirildi_20260520",
-      "slug": "avusturyada_eski_istihbaratci_rusya_icin_casusluktan_hapis_cezasina_carptirildi_20260520",
-      "title": "Avusturya'da Eski İstihbaratçı Rusya İçin Casusluktan Hapis Cezasına Çarptırıldı",
-      "summary": "Avusturya'nın başkenti Viyana'da, eski bir istihbarat görevlisi Rusya adına firari Rus vatandaşları hakkında bilgi topladığı suçlamasıyla hapis cezasına çarptırıldı. Davada, Wirecard'ın eski yöneticisi Jan Marsalek ile olası bağlantılar da ortaya çıktı.",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Germany",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/05",
-      "date": "20.05.2026",
-      "date_iso": "2026-05-20",
-      "url": "/articles/2026/05/avusturyada_eski_istihbaratci_rusya_icin_casusluktan_hapis_cezasina_carptirildi_20260520/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/05/avusturyada_eski_istihbaratci_rusya_icin_casusluktan_hapis_cezasina_carptirildi_20260520/",
-      "detail_json_url": "/data/details/articles/2026/05/avusturyada_eski_istihbaratci_rusya_icin_casusluktan_hapis_cezasina_carptirildi_20260520.json",
-      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/images/oesterreich-ex-verfassungsschutzler-spionage-russland-verurteilt_20260520.jpg",
-      "image_alt": "Viyana'da bir mahkeme salonunda eski bir istihbarat görevlisinin yargılanması.",
-      "image": {
-        "url": "https://mansetradar.com.tr/nachrichten/artikel/images/oesterreich-ex-verfassungsschutzler-spionage-russland-verurteilt_20260520.jpg",
-        "alt": "Viyana'da bir mahkeme salonunda eski bir istihbarat görevlisinin yargılanması."
-      },
-      "source_name": "",
-      "source_url": "",
-      "tags": [
-        "Avusturya",
-        "Casusluk",
-        "Rusya",
-        "İstihbarat",
-        "Mahkumiyet",
-        "Jan Marsalek",
-        "Viyana"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -2522,87 +2331,6 @@
         "ABD Anayasası"
       ],
       "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/05:abd_buyuk_jurisi_eski_kuba_lideri_raul_castroya_cinayet_suclamasi_getirdi_20260520",
-      "slug": "abd_buyuk_jurisi_eski_kuba_lideri_raul_castroya_cinayet_suclamasi_getirdi_20260520",
-      "title": "ABD Büyük Jürisi, Eski Küba Lideri Raul Castro'ya Cinayet Suçlaması Getirdi",
-      "summary": "ABD'de bir büyük jüri, Küba'nın 94 yaşındaki eski lideri Raul Castro hakkında, 30 yıldan uzun süre önce bir insani yardım grubuna düzenlenen saldırıyla ilgili dört cinayet suçlaması da dahil olmak üzere çeşitli suçlamalarla iddianame hazırladı. Bu gelişme,...",
-      "category": "Dunya",
-      "category_slug": "dunya",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "USA",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/05",
-      "date": "20.05.2026",
-      "date_iso": "2026-05-20",
-      "url": "/articles/2026/05/abd_buyuk_jurisi_eski_kuba_lideri_raul_castroya_cinayet_suclamasi_getirdi_20260520/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/05/abd_buyuk_jurisi_eski_kuba_lideri_raul_castroya_cinayet_suclamasi_getirdi_20260520/",
-      "detail_json_url": "/data/details/articles/2026/05/abd_buyuk_jurisi_eski_kuba_lideri_raul_castroya_cinayet_suclamasi_getirdi_20260520.json",
-      "image_url": "https://mansetradar.com.tr/news/articles/images/us-grand-jury-indicts-raul-castro_20260520.jpg",
-      "image_alt": "Küba'nın eski lideri Raul Castro'nun portresi",
-      "image": {
-        "url": "https://mansetradar.com.tr/news/articles/images/us-grand-jury-indicts-raul-castro_20260520.jpg",
-        "alt": "Küba'nın eski lideri Raul Castro'nun portresi"
-      },
-      "source_name": "",
-      "source_url": "",
-      "tags": [
-        "Raul Castro",
-        "Küba",
-        "ABD",
-        "Büyük Jüri",
-        "Cinayet Suçlaması",
-        "İnsan Hakları",
-        "Uluslararası İlişkiler",
-        "USA"
-      ],
-      "quality_score": 76,
-      "review_status": "needs_editorial_review"
-    },
-    {
-      "id": "articles/2026/05:6_ocak_polisleri_trumpin_odul_fonunu_engellemek_icin_dava_acti_20260520",
-      "slug": "6_ocak_polisleri_trumpin_odul_fonunu_engellemek_icin_dava_acti_20260520",
-      "title": "6 Ocak Polisleri, Trump'ın Ödül Fonunu Engellemek İçin Dava Açtı",
-      "summary": "İki ABD Kongre Polisi memuru, Trump yönetiminin, 6 Ocak Kongre baskını sırasında eski Başkan Donald Trump adına şiddet uygulayan göstericilere ve gruplara ödül vermek amacıyla kurduğu iddia edilen bir fonu engellemek için dava açtı. Memurlar, fonun 'kara pa...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "USA",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/05",
-      "date": "20.05.2026",
-      "date_iso": "2026-05-20",
-      "url": "/articles/2026/05/6_ocak_polisleri_trumpin_odul_fonunu_engellemek_icin_dava_acti_20260520/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/05/6_ocak_polisleri_trumpin_odul_fonunu_engellemek_icin_dava_acti_20260520/",
-      "detail_json_url": "/data/details/articles/2026/05/6_ocak_polisleri_trumpin_odul_fonunu_engellemek_icin_dava_acti_20260520.json",
-      "image_url": "https://images.unsplash.com/photo-1598134115217-a2fd543030f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVLlMuJTIwQ2FwaXRvbCUyMEJ1aWxkaW5nfGVufDB8MHx8fDE3NzkzMDkwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_alt": "ABD Kongre Polisi memurları, ABD Kongre Binası önünde kararlı bir şekilde duruyor.",
-      "image": {
-        "url": "https://images.unsplash.com/photo-1598134115217-a2fd543030f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVLlMuJTIwQ2FwaXRvbCUyMEJ1aWxkaW5nfGVufDB8MHx8fDE3NzkzMDkwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "alt": "ABD Kongre Polisi memurları, ABD Kongre Binası önünde kararlı bir şekilde duruyor."
-      },
-      "source_name": "",
-      "source_url": "",
-      "tags": [
-        "6 Ocak",
-        "ABD Kongre Baskını",
-        "Donald Trump",
-        "ABD Kongre Polisi",
-        "Hukuki Dava",
-        "ABD Siyaseti",
-        "January 6th"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     },
     {
