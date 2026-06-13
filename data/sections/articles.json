@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-13T00:00:00+00:00",
-    "article_count": 510,
+    "article_count": 511,
     "schema_version": 2,
     "section": "articles"
   },
@@ -42,6 +42,42 @@
         "Derya Uludüz"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:abd-nato-avrupa-askeri-varlik-azaltma_20260613",
+      "slug": "abd-nato-avrupa-askeri-varlik-azaltma_20260613",
+      "title": "ABD'den NATO'da şok karar: Avrupa'daki askeri varlığını azaltıyor",
+      "summary": "Amerika Birleşik Devletleri, NATO operasyonları kapsamında Avrupa’ya sağladığı hava ve deniz unsurlarında önemli kesintilere gitmeye hazırlanıyor. Washington yönetiminin Avrupa’daki askeri varlığını yeniden yapılandırmayı hedefleyen kararı, bölgedeki güvenl...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "13.06.2026",
+      "date_iso": "2026-06-13",
+      "url": "/articles/2026/06/abd-nato-avrupa-askeri-varlik-azaltma_20260613/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/abd-nato-avrupa-askeri-varlik-azaltma_20260613/",
+      "detail_json_url": "/data/details/articles/2026/06/abd-nato-avrupa-askeri-varlik-azaltma_20260613.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/abd-nato-avrupa-askeri-varlik-azaltma_20260613.webp",
+      "image_alt": "NATO karargahı ve askeri unsurlar.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/abd-nato-avrupa-askeri-varlik-azaltma_20260613.webp",
+        "alt": "NATO karargahı ve askeri unsurlar."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/avrupanin-korkulu-ruyasi-gercek-oldu-natoyu-sarsan-hamle-yeni-plan-deprem-etkisi-yaratti-43202911",
+      "tags": [
+        "NATO",
+        "ABD",
+        "Avrupa",
+        "Savunma",
+        "Askeri"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
