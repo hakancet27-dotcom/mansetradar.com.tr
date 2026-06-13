@@ -14,7 +14,7 @@
     (function () {
       var path = window.location.pathname || "/";
       var articleMatch = path.match(/^\/articles\/([^\/]+)\/?$/);
-      var datedMatch = path.match(/^\/articles\/([^\/]+_(\d{4})(\d{2})\d{2})\/?$/);
+      var datedMatch = path.match(/^\/articles\/([^\/]*_(\d{4})(\d{2})\d{2}(?:_[^\/]*)?)\/?$/);
 
       if (datedMatch) {
         window.location.replace("/articles/" + datedMatch[2] + "/" + datedMatch[3] + "/" + datedMatch[1] + "/" + window.location.search + window.location.hash);
