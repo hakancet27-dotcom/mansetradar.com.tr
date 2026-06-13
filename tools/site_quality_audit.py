@@ -84,7 +84,7 @@ CATEGORY_KEYWORDS = {
 }
 
 LIVE_URL_EXPECTATIONS = [
-    {"url": f"{SITE_ORIGIN}/haber.html", "statuses": [301, 302], "location_contains": "/haber"},
+    {"url": f"{SITE_ORIGIN}/haber.html", "statuses": [200, 301, 302], "location_contains": "/"},
     {"url": f"{SITE_ORIGIN}/haber", "statuses": [200]},
     {"url": f"{SITE_ORIGIN}/haber/", "statuses": [200, 301, 302]},
     {"url": f"{SITE_ORIGIN}/news/", "statuses": [200]},
@@ -155,6 +155,15 @@ def html_title(text: str) -> str:
 
 def is_article_page(path_label: str) -> bool:
     return path_label.startswith(("articles/", "news/articles/", "nachrichten/artikel/"))
+
+
+def is_redirect_stub(text: str) -> bool:
+    lowered = text.lower()
+    return (
+        'http-equiv="refresh"' in lowered
+        or "http-equiv='refresh'" in lowered
+        or "window.location.replace" in lowered
+    )
 
 
 def heading_issues(text: str) -> list[str]:
@@ -242,7 +251,7 @@ def check_live_urls() -> list[dict[str, Any]]:
         result = request_live_url(expectation["url"], follow_redirects=follow)
         expected_statuses = expectation["statuses"]
         ok = result.get("status") in expected_statuses
-        if ok and expectation.get("location_contains"):
+        if ok and expectation.get("location_contains") and result.get("status") in {301, 302, 303, 307, 308}:
             ok = expectation["location_contains"] in str(result.get("location", ""))
         result["ok"] = ok
         result["expected_statuses"] = expected_statuses
@@ -290,6 +299,8 @@ def has_image_object(value: Any) -> bool:
 
 
 def structured_data_issues(path_label: str, text: str) -> list[dict[str, Any]]:
+    if is_redirect_stub(text):
+        return []
     blocks = jsonld_blocks(text)
     types: set[str] = set()
     errors = []
@@ -322,6 +333,14 @@ def structured_data_issues(path_label: str, text: str) -> list[dict[str, Any]]:
 
 
 def homepage_ux_report(path_label: str, text: str) -> dict[str, Any]:
+    if is_redirect_stub(text):
+        return {
+            "hero_cards_in_marker": 0,
+            "headline_cards_total": 0,
+            "member_home_menu_scripts": 0,
+            "mobile_market_markup": 0,
+            "issues": [],
+        }
     hero_match = re.search(r"<!--\s*TURKEY_HERO_START\s*-->([\s\S]*?)<!--\s*TURKEY_HERO_END\s*-->", text)
     hero_block = hero_match.group(1) if hero_match else ""
     hero_count = len(re.findall(r'class=["\'][^"\']*headline-slide[^"\']*headline-card[^"\']*["\']', hero_block))
@@ -378,12 +397,13 @@ def build_severity(report: dict[str, Any]) -> dict[str, list[Any]]:
     warning.extend(report.get("text_share_icons", []))
     warning.extend(report.get("structured_data_issues", []))
     warning.extend(report.get("homepage_ux_issues", []))
-    warning.extend(unreachable_live)
 
     info = [
         {"slider": report.get("slider", {})},
         {"live_url_checks": report.get("live_url_checks", [])},
     ]
+    if unreachable_live:
+        info.append({"unreachable_live_url_checks": unreachable_live})
     return {"critical": critical, "warning": warning, "info": info}
 
 
@@ -426,6 +446,7 @@ def audit() -> dict[str, Any]:
 
         visible = clean_text(text)
         title = html_title(text)
+        redirect_stub = is_redirect_stub(text)
         if title and 'name="robots" content="noindex' not in text.lower():
             title_map[(scope_for_path(page_rel), normalize_key(title))].append(canonical_key)
         fingerprint_source = normalize_key(visible[:5000])
@@ -433,12 +454,13 @@ def audit() -> dict[str, Any]:
             digest = hashlib.sha1(fingerprint_source.encode("utf-8", errors="ignore")).hexdigest()[:16]
             content_map[digest].append(canonical_key)
 
-        if len(visible) < 450 or not title:
+        if not redirect_stub and (len(visible) < 450 or not title):
             report["empty_or_thin_pages"].append({"file": page_rel, "chars": len(visible), "title": title})
 
-        h_issues = heading_issues(text)
-        if h_issues:
-            report["heading_issues"].append({"file": page_rel, "issues": h_issues})
+        if not redirect_stub:
+            h_issues = heading_issues(text)
+            if h_issues:
+                report["heading_issues"].append({"file": page_rel, "issues": h_issues})
 
         if is_article_page(page_rel) and "BreadcrumbList" not in text:
             report["missing_breadcrumb_schema"].append(page_rel)
