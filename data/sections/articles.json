@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-06-13T00:00:00+00:00",
-    "article_count": 518,
+    "article_count": 519,
     "schema_version": 2,
     "section": "articles"
   },
@@ -111,6 +111,42 @@
         "Hakim ve Savcı Atamaları"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:hafizanin-gizli-yakiti_20260613",
+      "slug": "hafizanin-gizli-yakiti_20260613",
+      "title": "Hafızanın Gizli Yakıtı: Glutamatın Beyin Fonksiyonlarındaki Rolü",
+      "summary": "Nöroloji Uzmanı Prof. Dr. Derya Uludüz, beynin en önemli uyarıcı haberci maddesi olan glutamatın, öğrenme ve hafıza süreçlerindeki kritik rolüne dikkat çekerek, bu amino asidin dengeli alınmasının önemini vurguladı.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "13.06.2026",
+      "date_iso": "2026-06-13",
+      "url": "/articles/2026/06/hafizanin-gizli-yakiti_20260613/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/hafizanin-gizli-yakiti_20260613/",
+      "detail_json_url": "/data/details/articles/2026/06/hafizanin-gizli-yakiti_20260613.json",
+      "image_url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/6/530jpg-C9CvSjbJZkGf5fP_g3omYg.jpg",
+      "image_alt": "Beyin nöronları ve sinir sistemi bağlantılarını temsil eden bilimsel görsel.",
+      "image": {
+        "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/6/530jpg-C9CvSjbJZkGf5fP_g3omYg.jpg",
+        "alt": "Beyin nöronları ve sinir sistemi bağlantılarını temsil eden bilimsel görsel."
+      },
+      "source_name": "Sağlık haberleri - Son dakika sağlık haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/hafizanin-gizli-yakiti-p327485",
+      "tags": [
+        "Glutamat",
+        "Beyin Sağlığı",
+        "Hafıza",
+        "Nöroloji",
+        "Derya Uludüz"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
