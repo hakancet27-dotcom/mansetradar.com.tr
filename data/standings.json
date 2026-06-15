@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-14T22:02:27.992Z",
+  "updatedAt": "2026-06-15T00:07:09.670Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-06-14T22:02:27.992Z",
+      "updatedAt": "2026-06-15T00:07:09.670Z",
       "source": "Maçkolik arşiv 1/70381",
       "table": [
         {
@@ -269,7 +269,7 @@
     {
       "id": "premier-league",
       "name": "Premier League",
-      "updatedAt": "2026-06-14T22:02:27.992Z",
+      "updatedAt": "2026-06-15T00:07:09.670Z",
       "source": "Maçkolik arşiv 24/70266",
       "table": [
         {
@@ -846,12 +846,13 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": ""
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 502 | HTML scrape: https://www.mackolik.com/puan-durumu/ispanya-la-liga/34pl8szyvrbwcmfkuocjm3r6t: no valid standings table | football-data.org: PD: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
+      "preservedPreviousTable": true
     },
     {
       "id": "bundesliga",
       "name": "Bundesliga",
-      "updatedAt": "2026-06-14T22:02:27.992Z",
+      "updatedAt": "2026-06-15T00:07:09.670Z",
       "source": "Maçkolik arşiv 3/70371",
       "table": [
         {
