@@ -2,13 +2,51 @@
   "meta": {
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
-    "generated_at": "2026-06-13T00:00:00+00:00",
-    "article_count": 662,
+    "generated_at": "2026-07-01T00:00:00+00:00",
+    "article_count": 667,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
   },
   "articles": [
+    {
+      "id": "articles/2026/07:restoran-ve-kafelere-yeni-menu-duzenlemesi_20260701",
+      "slug": "restoran-ve-kafelere-yeni-menu-duzenlemesi_20260701",
+      "title": "Restoran ve kafelerde yeni dönem: Menülerde kalori ve içerik zorunluluğu",
+      "summary": "Tarım ve Orman Bakanlığı tarafından hazırlanan gıda şeffaflığı düzenlemesi 1 Temmuz itibarıyla yürürlüğe girdi. Artık restoran ve kafelerdeki menülerde yemeklerin kalori değerleri, besin içerikleri ve alerjen bilgileri zorunlu olarak yer alacak.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "01.07.2026",
+      "date_iso": "2026-07-01",
+      "url": "/articles/2026/07/restoran-ve-kafelere-yeni-menu-duzenlemesi_20260701/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/restoran-ve-kafelere-yeni-menu-duzenlemesi_20260701/",
+      "detail_json_url": "/data/details/articles/2026/07/restoran-ve-kafelere-yeni-menu-duzenlemesi_20260701.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/restoran-ve-kafelere-yeni-menu-duzenlemesi_20260701.webp",
+      "image_alt": "Restoran masasında yer alan, besin değerleri ve kalori bilgileri içeren yeni nesil menü kartı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/restoran-ve-kafelere-yeni-menu-duzenlemesi_20260701.webp",
+        "alt": "Restoran masasında yer alan, besin değerleri ve kalori bilgileri içeren yeni nesil menü kartı."
+      },
+      "source_name": "Cumhuriyet Gazetesi - Ekonomi",
+      "source_url": "https://www.cumhuriyet.com.tr/ekonomi/restoran-ve-kafelerde-yeni-donem-basladi-menulerde-kalori-ve-icerik-bilgisi-zorunlu-oldu-2517038",
+      "tags": [
+        "Tarım ve Orman Bakanlığı",
+        "restoran menüleri",
+        "gıda şeffaflığı",
+        "kalori bilgisi",
+        "tüketici hakları"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/06:meteorolojiden-30-il-icin-sari-kodlu-uyari-kuvvetli-yagis-geliyor_20260613",
       "slug": "meteorolojiden-30-il-icin-sari-kodlu-uyari-kuvvetli-yagis-geliyor_20260613",
