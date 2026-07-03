@@ -2,13 +2,51 @@
   "meta": {
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
-    "generated_at": "2026-07-02T00:00:00+00:00",
-    "article_count": 671,
+    "generated_at": "2026-07-03T00:00:00+00:00",
+    "article_count": 676,
     "schema_version": 2,
     "category_slug": "ekonomi",
     "type": "category"
   },
   "articles": [
+    {
+      "id": "articles/2026/07:depozito-iade-sistemine-yogun-ilgi-iki-gunde-4-5-milyon-tl-kazanc_20260703",
+      "slug": "depozito-iade-sistemine-yogun-ilgi-iki-gunde-4-5-milyon-tl-kazanc_20260703",
+      "title": "Depozito İade Sistemi'ne yoğun ilgi: İki günde 4,5 milyon TL kazanç",
+      "summary": "Türkiye genelinde 1 Temmuz itibarıyla hayata geçirilen Depozito İade Sistemi (DOA), vatandaşlardan büyük ilgi gördü. Plastik, cam ve alüminyum içecek ambalajlarını geri dönüşüm makinelerine bırakan vatandaşlar, şişe başına 1 TL teşvik ödemesi alıyor.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "03.07.2026",
+      "date_iso": "2026-07-03",
+      "url": "/articles/2026/07/depozito-iade-sistemine-yogun-ilgi-iki-gunde-4-5-milyon-tl-kazanc_20260703/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/depozito-iade-sistemine-yogun-ilgi-iki-gunde-4-5-milyon-tl-kazanc_20260703/",
+      "detail_json_url": "/data/details/articles/2026/07/depozito-iade-sistemine-yogun-ilgi-iki-gunde-4-5-milyon-tl-kazanc_20260703.json",
+      "image_url": "https://images.ntv.com.tr/images/AW739250_01-351739.jpg",
+      "image_alt": "Depozito iade makineleri önünde oluşan kuyruklar",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/AW739250_01-351739.jpg",
+        "alt": "Depozito iade makineleri önünde oluşan kuyruklar"
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/galeri-sise-basina-odeme-yapiliyor-makinelerin-onunde-uzun-kuyruklar-olustu-1731308",
+      "tags": [
+        "Depozito İade Sistemi",
+        "Geri Dönüşüm",
+        "Murat Kurum",
+        "Ekonomi",
+        "Çevre"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/07:tofas-fiat-egea-uretimi-sona-erdi_20260701",
       "slug": "tofas-fiat-egea-uretimi-sona-erdi_20260701",
