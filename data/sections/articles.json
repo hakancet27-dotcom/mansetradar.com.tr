@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-04T00:00:00+00:00",
-    "article_count": 680,
+    "article_count": 684,
     "schema_version": 2,
     "section": "articles"
   },
@@ -47,6 +47,81 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:veli-agbabanin-yegeni-ahmet-can-agbaba-tutuklama-talebiyle-mahkemeye-sevk-edildi_20260704",
+      "slug": "veli-agbabanin-yegeni-ahmet-can-agbaba-tutuklama-talebiyle-mahkemeye-sevk-edildi_20260704",
+      "title": "Veli Ağbaba'nın yeğeni Ahmet Can Ağbaba tutuklama talebiyle mahkemeye sevk edildi",
+      "summary": "İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen yolsuzluk soruşturması kapsamında, CHP Malatya Milletvekili Veli Ağbaba’nın yeğeni Ahmet Can Ağbaba, 'nüfuz ticareti' suçlamasıyla tutuklama talebiyle mahkemeye sevk edildi.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "04.07.2026",
+      "date_iso": "2026-07-04",
+      "url": "/articles/2026/07/veli-agbabanin-yegeni-ahmet-can-agbaba-tutuklama-talebiyle-mahkemeye-sevk-edildi_20260704/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/veli-agbabanin-yegeni-ahmet-can-agbaba-tutuklama-talebiyle-mahkemeye-sevk-edildi_20260704/",
+      "detail_json_url": "/data/details/articles/2026/07/veli-agbabanin-yegeni-ahmet-can-agbaba-tutuklama-talebiyle-mahkemeye-sevk-edildi_20260704.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/veli-agbabanin-yegeni-ahmet-can-agbaba-tutuklama-talebiyle-mahkemeye-sevk-edildi_20260704.webp",
+      "image_alt": "İstanbul Adliyesi önünde devam eden soruşturma süreci.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/veli-agbabanin-yegeni-ahmet-can-agbaba-tutuklama-talebiyle-mahkemeye-sevk-edildi_20260704.webp",
+        "alt": "İstanbul Adliyesi önünde devam eden soruşturma süreci."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/yolsuzluk-sorusturmasi-veli-agbabanin-yegeni-tutuklama-talebiyle-mahkemeye-sevk-edildi-43228924",
+      "tags": [
+        "Veli Ağbaba",
+        "Ahmet Can Ağbaba",
+        "Yolsuzluk soruşturması",
+        "İstanbul Cumhuriyet Başsavcılığı"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:turkiye-pakistan-ticaret-hacmi-hedefi-5-milyar-dolar_20260704",
+      "slug": "turkiye-pakistan-ticaret-hacmi-hedefi-5-milyar-dolar_20260704",
+      "title": "Cevdet Yılmaz: Türkiye-Pakistan ticaret hacmi 5 milyar doları aşmalı",
+      "summary": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, İstanbul'da düzenlenen Türkiye-Pakistan İş ve Yatırım Forumu'nda yaptığı konuşmada, iki ülke arasındaki ticaret hacminin 5 milyar dolar seviyesinin üzerine çıkarılması gerektiğini vurguladı.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "04.07.2026",
+      "date_iso": "2026-07-04",
+      "url": "/articles/2026/07/turkiye-pakistan-ticaret-hacmi-hedefi-5-milyar-dolar_20260704/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/turkiye-pakistan-ticaret-hacmi-hedefi-5-milyar-dolar_20260704/",
+      "detail_json_url": "/data/details/articles/2026/07/turkiye-pakistan-ticaret-hacmi-hedefi-5-milyar-dolar_20260704.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/turkiye-pakistan-ticaret-hacmi-hedefi-5-milyar-dolar_20260704.webp",
+      "image_alt": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz ve Pakistan Başbakanı Şahbaz Şerif Türkiye-Pakistan İş ve Yatırım Forumu'nda.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/turkiye-pakistan-ticaret-hacmi-hedefi-5-milyar-dolar_20260704.webp",
+        "alt": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz ve Pakistan Başbakanı Şahbaz Şerif Türkiye-Pakistan İş ve Yatırım Forumu'nda."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/cumhurbaskani-yardimcisi-cevdet-yilmaz-turkiye-pakistan-ticareti-5-milyar-dolarin-uzerine-cikmali-3896204-ekonomi",
+      "tags": [
+        "Cevdet Yılmaz",
+        "Türkiye-Pakistan",
+        "Ekonomi",
+        "Ticaret Hacmi",
+        "Şahbaz Şerif"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:sincan-istismar-davasi-bakanlik-temyiz_20260704",
       "slug": "sincan-istismar-davasi-bakanlik-temyiz_20260704",
       "title": "Bakanlıktan 73 yıllık cezaya itiraz: İstismar davasında Yargıtay süreci",
@@ -80,6 +155,44 @@
         "cinsel istismar",
         "Aile ve Sosyal Hizmetler Bakanlığı",
         "Yargıtay"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:litvanya-basbakani-ruginiene-ankara-zirvesi-mesajlari_20260704",
+      "slug": "litvanya-basbakani-ruginiene-ankara-zirvesi-mesajlari_20260704",
+      "title": "Litvanya Başbakanı Ruginiene'den Ankara Zirvesi Öncesi Kritik Mesajlar",
+      "summary": "Litvanya Başbakanı Inga Ruginiene, 7-8 Temmuz tarihlerinde düzenlenecek Ankara Zirvesi öncesinde yaptığı açıklamada, NATO müttefiklerinin savunma harcamalarını artırması ve savunma sanayisini güçlendirmesi gerektiğini vurguladı.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "04.07.2026",
+      "date_iso": "2026-07-04",
+      "url": "/articles/2026/07/litvanya-basbakani-ruginiene-ankara-zirvesi-mesajlari_20260704/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/litvanya-basbakani-ruginiene-ankara-zirvesi-mesajlari_20260704/",
+      "detail_json_url": "/data/details/articles/2026/07/litvanya-basbakani-ruginiene-ankara-zirvesi-mesajlari_20260704.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/litvanya-basbakani-ruginiene-ankara-zirvesi-mesajlari_20260704.webp",
+      "image_alt": "NATO ve Litvanya bayrakları eşliğinde diplomatik bir toplantı görünümü.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/litvanya-basbakani-ruginiene-ankara-zirvesi-mesajlari_20260704.webp",
+        "alt": "NATO ve Litvanya bayrakları eşliğinde diplomatik bir toplantı görünümü."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-litvanya-basbakani-ruginieneden-turkiyeye-ovgu-onemli-bir-nato-muttefiki-7617532",
+      "tags": [
+        "Litvanya",
+        "NATO",
+        "Ankara Zirvesi",
+        "Inga Ruginiene",
+        "Savunma Sanayii"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -119,6 +232,44 @@
         "mezuniyet"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:abd-iran-muzakerelerinde-yeni-tarih-belli-oldu_20260704",
+      "slug": "abd-iran-muzakerelerinde-yeni-tarih-belli-oldu_20260704",
+      "title": "ABD-İran müzakerelerinde yeni tarih: 11 Temmuz'da Pakistan'da kritik zirve",
+      "summary": "Suudi Arabistan merkezli Al Arabiya'nın aktardığı bilgilere göre, ABD ile İran arasındaki müzakerelerin bir sonraki turunun 11 Temmuz'da Pakistan'da yapılması bekleniyor. Görüşmelerde yaptırımlar, dondurulan varlıklar ve nükleer program olmak üzere üç ana b...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "04.07.2026",
+      "date_iso": "2026-07-04",
+      "url": "/articles/2026/07/abd-iran-muzakerelerinde-yeni-tarih-belli-oldu_20260704/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/abd-iran-muzakerelerinde-yeni-tarih-belli-oldu_20260704/",
+      "detail_json_url": "/data/details/articles/2026/07/abd-iran-muzakerelerinde-yeni-tarih-belli-oldu_20260704.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/abd-iran-muzakerelerinde-yeni-tarih-belli-oldu_20260704.webp",
+      "image_alt": "ABD ve İran bayraklarının yer aldığı diplomatik bir görüşme masası.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/abd-iran-muzakerelerinde-yeni-tarih-belli-oldu_20260704.webp",
+        "alt": "ABD ve İran bayraklarının yer aldığı diplomatik bir görüşme masası."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/abd-iran-muzakerelerinde-yeni-tarih-belli-oldu-iste-masadaki-3-temel-baslik-7617613",
+      "tags": [
+        "ABD",
+        "İran",
+        "Nükleer Program",
+        "Pakistan",
+        "Dış Politika"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {

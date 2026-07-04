@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-04T00:00:00+00:00",
-    "article_count": 680,
+    "article_count": 684,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -45,6 +45,43 @@
         "sosyal medya"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:veli-agbabanin-yegeni-ahmet-can-agbaba-tutuklama-talebiyle-mahkemeye-sevk-edildi_20260704",
+      "slug": "veli-agbabanin-yegeni-ahmet-can-agbaba-tutuklama-talebiyle-mahkemeye-sevk-edildi_20260704",
+      "title": "Veli Ağbaba'nın yeğeni Ahmet Can Ağbaba tutuklama talebiyle mahkemeye sevk edildi",
+      "summary": "İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen yolsuzluk soruşturması kapsamında, CHP Malatya Milletvekili Veli Ağbaba’nın yeğeni Ahmet Can Ağbaba, 'nüfuz ticareti' suçlamasıyla tutuklama talebiyle mahkemeye sevk edildi.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "04.07.2026",
+      "date_iso": "2026-07-04",
+      "url": "/articles/2026/07/veli-agbabanin-yegeni-ahmet-can-agbaba-tutuklama-talebiyle-mahkemeye-sevk-edildi_20260704/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/veli-agbabanin-yegeni-ahmet-can-agbaba-tutuklama-talebiyle-mahkemeye-sevk-edildi_20260704/",
+      "detail_json_url": "/data/details/articles/2026/07/veli-agbabanin-yegeni-ahmet-can-agbaba-tutuklama-talebiyle-mahkemeye-sevk-edildi_20260704.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/veli-agbabanin-yegeni-ahmet-can-agbaba-tutuklama-talebiyle-mahkemeye-sevk-edildi_20260704.webp",
+      "image_alt": "İstanbul Adliyesi önünde devam eden soruşturma süreci.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/veli-agbabanin-yegeni-ahmet-can-agbaba-tutuklama-talebiyle-mahkemeye-sevk-edildi_20260704.webp",
+        "alt": "İstanbul Adliyesi önünde devam eden soruşturma süreci."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/yolsuzluk-sorusturmasi-veli-agbabanin-yegeni-tutuklama-talebiyle-mahkemeye-sevk-edildi-43228924",
+      "tags": [
+        "Veli Ağbaba",
+        "Ahmet Can Ağbaba",
+        "Yolsuzluk soruşturması",
+        "İstanbul Cumhuriyet Başsavcılığı"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
