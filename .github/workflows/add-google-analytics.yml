@@ -1,0 +1,34 @@
+name: Add Google Analytics to All Pages
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '**.html'
+  workflow_dispatch:  # Manuel tetikleme için
+
+jobs:
+  add-ga:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Add GA4 to all HTML files
+        run: |
+          GA_CODE='<!-- Google tag (gtag.js) -->\n<script async src="https://www.googletagmanager.com/gtag/js?id=G-4WP1H2EJ6F"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('\''js'\'', new Date());\n  gtag('\''config'\'', '\''G-4WP1H2EJ6F'\'');\n</script>\n'
+          
+          find . -name "*.html" -type f | while read file; do
+            if ! grep -q "G-4WP1H2EJ6F" "$file"; then
+              sed -i "s|<head[^>]*>|<head>\n${GA_CODE}|i" "$file"
+              echo "✅ GA eklendi: $file"
+            fi
+          done
+          
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: Add Google Analytics to all HTML files (auto)" || echo "No changes"
+          git push
