@@ -1,52 +1,39 @@
 name: Add Google Analytics GA4
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
     paths:
       - '**/*.html'
-  workflow_dispatch:
 
 jobs:
   add-ga:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Add GA4 to all HTML files
+      - name: Add GA4 Code
         run: |
-          GA_CODE=$(cat << 'EOF'
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WP1H2EJ6F"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-4WP1H2EJ6F');
-  </script>
-EOF
-)
-
-          find . -name "*.html" -type f ! -path '*/node_modules/*' | while read -r file; do
+          find . -name "*.html" -type f | while read file; do
             if ! grep -q "G-4WP1H2EJ6F" "$file"; then
-              awk -v ga="$GA_CODE" '
-                /<head[^>]*>/ {
-                  print
-                  print ga
-                  next
-                }
-                {print}
-              ' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
-              echo "✅ GA eklendi → $file"
+              sed -i '/<head>/a\
+  <!-- Google tag (gtag.js) -->\
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WP1H2EJ6F"></script>\
+  <script>\
+    window.dataLayer = window.dataLayer || [];\
+    function gtag(){dataLayer.push(arguments);}\
+    gtag('\''js'\'', new Date());\
+    gtag('\''config'\'', '\''G-4WP1H2EJ6F'\'');\
+  </script>' "$file"
+              echo "GA eklendi: $file"
             fi
           done
 
-      - name: Commit changes
+      - name: Commit
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "chore: Auto add Google Analytics to all HTML files" || echo "No changes"
+          git commit -m "chore: Add GA4 to HTML files" || echo "No change"
           git push
