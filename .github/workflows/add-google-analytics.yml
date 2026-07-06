@@ -1,21 +1,20 @@
-name: Add Google Analytics to All Pages
+name: Add Google Analytics GA4
 
 on:
   push:
     branches: [ main ]
     paths:
-      - '**.html'
+      - '**/*.html'
   workflow_dispatch:
 
 jobs:
   add-ga:
     runs-on: ubuntu-latest
-    
     steps:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      
+
       - name: Add GA4 to all HTML files
         run: |
           GA_CODE=$(cat << 'EOF'
@@ -32,7 +31,6 @@ EOF
 
           find . -name "*.html" -type f ! -path '*/node_modules/*' | while read -r file; do
             if ! grep -q "G-4WP1H2EJ6F" "$file"; then
-              # <head> tag'ini bul ve GA kodunu ekle
               awk -v ga="$GA_CODE" '
                 /<head[^>]*>/ {
                   print
@@ -41,14 +39,14 @@ EOF
                 }
                 {print}
               ' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
-              echo "✅ GA eklendi: $file"
+              echo "✅ GA eklendi → $file"
             fi
           done
-          
-      - name: Commit & Push changes
+
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "chore: Add Google Analytics GA4 to all HTML files (auto)" || echo "No changes to commit"
+          git commit -m "chore: Auto add Google Analytics to all HTML files" || echo "No changes"
           git push
