@@ -5,7 +5,7 @@ on:
     branches: [ main ]
     paths:
       - '**.html'
-  workflow_dispatch:  # Manuel tetikleme için
+  workflow_dispatch:
 
 jobs:
   add-ga:
@@ -13,22 +13,42 @@ jobs:
     
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Add GA4 to all HTML files
         run: |
-          GA_CODE='<!-- Google tag (gtag.js) -->\n<script async src="https://www.googletagmanager.com/gtag/js?id=G-4WP1H2EJ6F"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('\''js'\'', new Date());\n  gtag('\''config'\'', '\''G-4WP1H2EJ6F'\'');\n</script>\n'
-          
-          find . -name "*.html" -type f | while read file; do
+          GA_CODE=$(cat << 'EOF'
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WP1H2EJ6F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4WP1H2EJ6F');
+  </script>
+EOF
+)
+
+          find . -name "*.html" -type f ! -path '*/node_modules/*' | while read -r file; do
             if ! grep -q "G-4WP1H2EJ6F" "$file"; then
-              sed -i "s|<head[^>]*>|<head>\n${GA_CODE}|i" "$file"
+              # <head> tag'ini bul ve GA kodunu ekle
+              awk -v ga="$GA_CODE" '
+                /<head[^>]*>/ {
+                  print
+                  print ga
+                  next
+                }
+                {print}
+              ' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
               echo "✅ GA eklendi: $file"
             fi
           done
           
-      - name: Commit changes
+      - name: Commit & Push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "chore: Add Google Analytics to all HTML files (auto)" || echo "No changes"
+          git commit -m "chore: Add Google Analytics GA4 to all HTML files (auto)" || echo "No changes to commit"
           git push
