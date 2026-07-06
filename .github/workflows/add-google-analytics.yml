@@ -1,11 +1,7 @@
-name: Add Google Analytics GA4
+name: GA4 Auto Add
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ main ]
-    paths:
-      - '**/*.html'
 
 jobs:
   add-ga:
@@ -13,27 +9,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Add GA4 Code
+      - name: Add Google Analytics
         run: |
-          find . -name "*.html" -type f | while read file; do
-            if ! grep -q "G-4WP1H2EJ6F" "$file"; then
-              sed -i '/<head>/a\
-  <!-- Google tag (gtag.js) -->\
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WP1H2EJ6F"></script>\
-  <script>\
-    window.dataLayer = window.dataLayer || [];\
-    function gtag(){dataLayer.push(arguments);}\
-    gtag('\''js'\'', new Date());\
-    gtag('\''config'\'', '\''G-4WP1H2EJ6F'\'');\
-  </script>' "$file"
-              echo "GA eklendi: $file"
-            fi
-          done
+          GA='<script async src="https://www.googletagmanager.com/gtag/js?id=G-4WP1H2EJ6F"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-4WP1H2EJ6F");</script>'
+          find . -name "*.html" -type f -exec sed -i "/<head>/a $GA" {} \;
+          echo "GA eklendi"
 
       - name: Commit
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git add -A
-          git commit -m "chore: Add GA4 to HTML files" || echo "No change"
+          git commit -m "Add GA4" || echo "No change"
           git push
