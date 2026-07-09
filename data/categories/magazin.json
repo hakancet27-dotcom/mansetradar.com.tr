@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-09T00:00:00+00:00",
-    "article_count": 721,
+    "article_count": 723,
     "schema_version": 2,
     "category_slug": "magazin",
     "type": "category"
@@ -85,6 +85,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:go-turkiye-us-international-awards-2026-odul_20260709",
+      "slug": "go-turkiye-us-international-awards-2026-odul_20260709",
+      "title": "Go Türkiye'ye US International Awards'tan 3 Ödül",
+      "summary": "Türkiye Turizm Tanıtım ve Geliştirme Ajansı (TGA) tarafından hazırlanan Go Türkiye yapımları, Los Angeles merkezli US International Awards 2026'da üç farklı ödül kazanarak uluslararası başarılarına bir yenisini ekledi.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "09.07.2026",
+      "date_iso": "2026-07-09",
+      "url": "/articles/2026/07/go-turkiye-us-international-awards-2026-odul_20260709/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/go-turkiye-us-international-awards-2026-odul_20260709/",
+      "detail_json_url": "/data/details/articles/2026/07/go-turkiye-us-international-awards-2026-odul_20260709.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/go-turkiye-us-international-awards-2026-odul_20260709.webp",
+      "image_alt": "Go Türkiye yapımları US International Awards 2026'da ödül kazandı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/go-turkiye-us-international-awards-2026-odul_20260709.webp",
+        "alt": "Go Türkiye yapımları US International Awards 2026'da ödül kazandı."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/turkiye-nin-hikayeleri-dunya-sahnesinde-go-turkiye-us-international-awards-tan-3-odulle-dondu-3897305-magazin",
+      "tags": [
+        "Go Türkiye",
+        "TGA",
+        "US International Awards",
+        "Turizm Tanıtımı",
+        "Ödül"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:deniz-baysal-ve-baris-yurtcu-bosaniyor_20260709",
       "slug": "deniz-baysal-ve-baris-yurtcu-bosaniyor_20260709",
       "title": "Deniz Baysal ve Barış Yurtçu'nun 7 yıllık evliliği sona eriyor",
@@ -155,6 +193,43 @@
         "müzik",
         "vefat",
         "magazin"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709",
+      "slug": "black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709",
+      "title": "Black Sabbath'ın efsane bateristi Bill Ward'dan duygulandıran açıklama",
+      "summary": "Metal müzik tarihinin efsane gruplarından Black Sabbath'ın bateristi Bill Ward, 78 yaşında tekerlekli sandalye kullanmaya başladığını açıkladı. Sosyal medya hesabından bir fotoğraf paylaşan Ward, emekli olmadığını ve hala müzikle iç içe olduğunu belirtti.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "09.07.2026",
+      "date_iso": "2026-07-09",
+      "url": "/articles/2026/07/black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709/",
+      "detail_json_url": "/data/details/articles/2026/07/black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709.webp",
+      "image_alt": "Black Sabbath bateristi Bill Ward",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709.webp",
+        "alt": "Black Sabbath bateristi Bill Ward"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/magazin/zamanin-ruzgari-onlar-icin-epey-sert-esti-muzik-efsaneleri-birer-birer-cokuyor-ben-artik-tekerlekli-sandalyedeyim-43233916",
+      "tags": [
+        "Bill Ward",
+        "Black Sabbath",
+        "Müzik",
+        "Magazin"
       ],
       "quality_score": 86,
       "review_status": "published"

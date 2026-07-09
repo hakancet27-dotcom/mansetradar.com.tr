@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-09T00:00:00+00:00",
-    "article_count": 721,
+    "article_count": 723,
     "schema_version": 2
   },
   "hero": [
@@ -272,6 +272,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:go-turkiye-us-international-awards-2026-odul_20260709",
+      "slug": "go-turkiye-us-international-awards-2026-odul_20260709",
+      "title": "Go Türkiye'ye US International Awards'tan 3 Ödül",
+      "summary": "Türkiye Turizm Tanıtım ve Geliştirme Ajansı (TGA) tarafından hazırlanan Go Türkiye yapımları, Los Angeles merkezli US International Awards 2026'da üç farklı ödül kazanarak uluslararası başarılarına bir yenisini ekledi.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "09.07.2026",
+      "date_iso": "2026-07-09",
+      "url": "/articles/2026/07/go-turkiye-us-international-awards-2026-odul_20260709/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/go-turkiye-us-international-awards-2026-odul_20260709/",
+      "detail_json_url": "/data/details/articles/2026/07/go-turkiye-us-international-awards-2026-odul_20260709.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/go-turkiye-us-international-awards-2026-odul_20260709.webp",
+      "image_alt": "Go Türkiye yapımları US International Awards 2026'da ödül kazandı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/go-turkiye-us-international-awards-2026-odul_20260709.webp",
+        "alt": "Go Türkiye yapımları US International Awards 2026'da ödül kazandı."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/turkiye-nin-hikayeleri-dunya-sahnesinde-go-turkiye-us-international-awards-tan-3-odulle-dondu-3897305-magazin",
+      "tags": [
+        "Go Türkiye",
+        "TGA",
+        "US International Awards",
+        "Turizm Tanıtımı",
+        "Ödül"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:emekli-maas-zammi-hesaplama-rehberi-e-devlet_20260709",
       "slug": "emekli-maas-zammi-hesaplama-rehberi-e-devlet_20260709",
       "title": "Emekli Maaş Zammı Hesaplama Rehberi: e-Devlet Üzerinden Sorgulama",
@@ -456,6 +494,43 @@
         "müzik",
         "vefat",
         "magazin"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709",
+      "slug": "black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709",
+      "title": "Black Sabbath'ın efsane bateristi Bill Ward'dan duygulandıran açıklama",
+      "summary": "Metal müzik tarihinin efsane gruplarından Black Sabbath'ın bateristi Bill Ward, 78 yaşında tekerlekli sandalye kullanmaya başladığını açıkladı. Sosyal medya hesabından bir fotoğraf paylaşan Ward, emekli olmadığını ve hala müzikle iç içe olduğunu belirtti.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "09.07.2026",
+      "date_iso": "2026-07-09",
+      "url": "/articles/2026/07/black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709/",
+      "detail_json_url": "/data/details/articles/2026/07/black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709.webp",
+      "image_alt": "Black Sabbath bateristi Bill Ward",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709.webp",
+        "alt": "Black Sabbath bateristi Bill Ward"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/magazin/zamanin-ruzgari-onlar-icin-epey-sert-esti-muzik-efsaneleri-birer-birer-cokuyor-ben-artik-tekerlekli-sandalyedeyim-43233916",
+      "tags": [
+        "Bill Ward",
+        "Black Sabbath",
+        "Müzik",
+        "Magazin"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -686,82 +761,6 @@
         "NATO"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:mason-greenwood-roma-transfer-haberleri_20260707",
-      "slug": "mason-greenwood-roma-transfer-haberleri_20260707",
-      "title": "Mason Greenwood'un Yeni Adresi Belli Oluyor: Roma ile Prensip Anlaşması",
-      "summary": "Fenerbahçe, Atletico Madrid ve Suudi Arabistan kulüplerinin radarında olan Mason Greenwood, kariyerini Roma'da sürdürmeye karar verdi. İtalyan ekibiyle 5 yıllık prensip anlaşmasına varan 24 yaşındaki yıldız için kulüpler arasındaki bonservis pazarlıkları sü...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "07.07.2026",
-      "date_iso": "2026-07-07",
-      "url": "/articles/2026/07/mason-greenwood-roma-transfer-haberleri_20260707/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/mason-greenwood-roma-transfer-haberleri_20260707/",
-      "detail_json_url": "/data/details/articles/2026/07/mason-greenwood-roma-transfer-haberleri_20260707.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/mason-greenwood-roma-transfer-haberleri_20260707.webp",
-      "image_alt": "Mason Greenwood Marsilya kampında antrenman yaparken görülüyor.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/mason-greenwood-roma-transfer-haberleri_20260707.webp",
-        "alt": "Mason Greenwood Marsilya kampında antrenman yaparken görülüyor."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/mason-greenwood-kararini-verdi-5-yillik-prensip-anlasma-43232215",
-      "tags": [
-        "Mason Greenwood",
-        "Roma",
-        "Fenerbahçe",
-        "Transfer Haberleri",
-        "Marsilya"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:kirtasiye-sektorunde-nakit-krizi-vadeler-15-ayi-asti_20260707",
-      "slug": "kirtasiye-sektorunde-nakit-krizi-vadeler-15-ayi-asti_20260707",
-      "title": "Kırtasiye sektöründe nakit krizi: Vadeler 15 ayı aştı",
-      "summary": "Yüksek faiz ortamı ve likidite sıkışıklığı, 90 milyar TL büyüklüğündeki kırtasiye sektörünü nakit döngüsü krizine sürükledi. Siparişten tahsilata kadar geçen sürenin 15 ayı bulması, sektördeki risk oranlarını hızla yukarı taşıyor.",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "ekonomi",
-      "topic_label": "Ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "07.07.2026",
-      "date_iso": "2026-07-07",
-      "url": "/articles/2026/07/kirtasiye-sektorunde-nakit-krizi-vadeler-15-ayi-asti_20260707/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/kirtasiye-sektorunde-nakit-krizi-vadeler-15-ayi-asti_20260707/",
-      "detail_json_url": "/data/details/articles/2026/07/kirtasiye-sektorunde-nakit-krizi-vadeler-15-ayi-asti_20260707.json",
-      "image_url": "https://img.ekonomim.com/storage/files/images/2026/07/07/kirtasiyede-vadeler-bir-yili-asti-risk-orani-artti-g6za_cover.jpg",
-      "image_alt": "Kırtasiye sektöründe finansal zorluklar ve stok yönetimi",
-      "image": {
-        "url": "https://img.ekonomim.com/storage/files/images/2026/07/07/kirtasiyede-vadeler-bir-yili-asti-risk-orani-artti-g6za_cover.jpg",
-        "alt": "Kırtasiye sektöründe finansal zorluklar ve stok yönetimi"
-      },
-      "source_name": "Ekonomim",
-      "source_url": "https://www.ekonomim.com/ekonomi/kirtasiyede-vadeler-bir-yili-asti-risk-orani-artti-haberi-904750",
-      "tags": [
-        "kırtasiye",
-        "TÜKİD",
-        "ekonomi",
-        "finansman",
-        "Taha Keresteci"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ],
@@ -1031,6 +1030,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:go-turkiye-us-international-awards-2026-odul_20260709",
+      "slug": "go-turkiye-us-international-awards-2026-odul_20260709",
+      "title": "Go Türkiye'ye US International Awards'tan 3 Ödül",
+      "summary": "Türkiye Turizm Tanıtım ve Geliştirme Ajansı (TGA) tarafından hazırlanan Go Türkiye yapımları, Los Angeles merkezli US International Awards 2026'da üç farklı ödül kazanarak uluslararası başarılarına bir yenisini ekledi.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "09.07.2026",
+      "date_iso": "2026-07-09",
+      "url": "/articles/2026/07/go-turkiye-us-international-awards-2026-odul_20260709/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/go-turkiye-us-international-awards-2026-odul_20260709/",
+      "detail_json_url": "/data/details/articles/2026/07/go-turkiye-us-international-awards-2026-odul_20260709.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/go-turkiye-us-international-awards-2026-odul_20260709.webp",
+      "image_alt": "Go Türkiye yapımları US International Awards 2026'da ödül kazandı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/go-turkiye-us-international-awards-2026-odul_20260709.webp",
+        "alt": "Go Türkiye yapımları US International Awards 2026'da ödül kazandı."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/turkiye-nin-hikayeleri-dunya-sahnesinde-go-turkiye-us-international-awards-tan-3-odulle-dondu-3897305-magazin",
+      "tags": [
+        "Go Türkiye",
+        "TGA",
+        "US International Awards",
+        "Turizm Tanıtımı",
+        "Ödül"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:emekli-maas-zammi-hesaplama-rehberi-e-devlet_20260709",
       "slug": "emekli-maas-zammi-hesaplama-rehberi-e-devlet_20260709",
       "title": "Emekli Maaş Zammı Hesaplama Rehberi: e-Devlet Üzerinden Sorgulama",
@@ -1215,6 +1252,43 @@
         "müzik",
         "vefat",
         "magazin"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709",
+      "slug": "black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709",
+      "title": "Black Sabbath'ın efsane bateristi Bill Ward'dan duygulandıran açıklama",
+      "summary": "Metal müzik tarihinin efsane gruplarından Black Sabbath'ın bateristi Bill Ward, 78 yaşında tekerlekli sandalye kullanmaya başladığını açıkladı. Sosyal medya hesabından bir fotoğraf paylaşan Ward, emekli olmadığını ve hala müzikle iç içe olduğunu belirtti.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "09.07.2026",
+      "date_iso": "2026-07-09",
+      "url": "/articles/2026/07/black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709/",
+      "detail_json_url": "/data/details/articles/2026/07/black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709.webp",
+      "image_alt": "Black Sabbath bateristi Bill Ward",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/black-sabbath-efsanesi-bill-ward-saglik-durumunu-acikladi_20260709.webp",
+        "alt": "Black Sabbath bateristi Bill Ward"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/magazin/zamanin-ruzgari-onlar-icin-epey-sert-esti-muzik-efsaneleri-birer-birer-cokuyor-ben-artik-tekerlekli-sandalyedeyim-43233916",
+      "tags": [
+        "Bill Ward",
+        "Black Sabbath",
+        "Müzik",
+        "Magazin"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -2959,81 +3033,6 @@
         "Yapay Zeka",
         "Ekonomi",
         "Yatırım"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:ab-celik-ithalatinda-kota-sistemini-guncelledi_20260701",
-      "slug": "ab-celik-ithalatinda-kota-sistemini-guncelledi_20260701",
-      "title": "Avrupa Birliği çelik ithalatında kota sistemini güncelledi",
-      "summary": "Avrupa Komisyonu, küresel arz fazlası ve dampingli ithalatla mücadele etmek amacıyla çelik ithalatında yeni bir kota sistemini devreye aldı. Yıllık gümrüksüz ithalat kotası 34,5 milyon tondan 18,3 milyon tona indirilirken, Türkiye yeni düzenlemede en yüksek...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "ekonomi",
-      "topic_label": "Ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "01.07.2026",
-      "date_iso": "2026-07-01",
-      "url": "/articles/2026/07/ab-celik-ithalatinda-kota-sistemini-guncelledi_20260701/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/ab-celik-ithalatinda-kota-sistemini-guncelledi_20260701/",
-      "detail_json_url": "/data/details/articles/2026/07/ab-celik-ithalatinda-kota-sistemini-guncelledi_20260701.json",
-      "image_url": "https://img.ekonomim.com/storage/files/images/2026/07/01/ab-celikte-kaleyi-guclendiriyor-dt0i_cover.jpg",
-      "image_alt": "Avrupa'da çelik üretimi ve sanayi tesisleri.",
-      "image": {
-        "url": "https://img.ekonomim.com/storage/files/images/2026/07/01/ab-celikte-kaleyi-guclendiriyor-dt0i_cover.jpg",
-        "alt": "Avrupa'da çelik üretimi ve sanayi tesisleri."
-      },
-      "source_name": "Ekonomim",
-      "source_url": "https://www.ekonomim.com/ekonomi/ab-celikte-kaleyi-guclendiriyor-haberi-903564",
-      "tags": [
-        "çelik",
-        "Avrupa Birliği",
-        "ithalat kotası",
-        "Türkiye",
-        "ekonomi"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:modada-konfor-donemi-aktif-giyim-gunluk-stilin-bir-parcasi-oldu_20260613",
-      "slug": "modada-konfor-donemi-aktif-giyim-gunluk-stilin-bir-parcasi-oldu_20260613",
-      "title": "Modada Konfor Dönemi: Aktif Giyim Günlük Stilin Bir Parçası Oldu",
-      "summary": "Taytlar, teknik kumaşlar ve spor ayakkabıları artık yalnızca egzersiz anlarında değil, günlük yaşamın her anında stilin bir parçası haline geldi. Performans ve şıklık arasındaki sınırların kalktığı bu dönemde, spor giyim parçaları şehir stiline entegre edil...",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "13.06.2026",
-      "date_iso": "2026-06-13",
-      "url": "/articles/2026/06/modada-konfor-donemi-aktif-giyim-gunluk-stilin-bir-parcasi-oldu_20260613/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/modada-konfor-donemi-aktif-giyim-gunluk-stilin-bir-parcasi-oldu_20260613/",
-      "detail_json_url": "/data/details/articles/2026/06/modada-konfor-donemi-aktif-giyim-gunluk-stilin-bir-parcasi-oldu_20260613.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/pexels-plate-medya-10979205.webp",
-      "image_alt": "Günlük stilde kullanılan spor giyim parçaları ve sneaker modelleri.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/pexels-plate-medya-10979205.webp",
-        "alt": "Günlük stilde kullanılan spor giyim parçaları ve sneaker modelleri."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/kelebek/hurriyet-cumartesi/bugunlerde-uzerimize-bir-rahatlik-geldi-43202611",
-      "tags": [
-        "moda",
-        "aktif giyim",
-        "sneaker",
-        "spor giyim trendleri"
       ],
       "quality_score": 86,
       "review_status": "published"
