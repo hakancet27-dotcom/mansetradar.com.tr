@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-09T00:00:00+00:00",
-    "article_count": 731,
+    "article_count": 735,
     "schema_version": 2,
     "category_slug": "siyaset",
     "type": "category"
@@ -81,6 +81,43 @@
         "Donald Trump",
         "F-35",
         "Savunma Sanayii"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:baskan-erdogandan-nato-ankara-zirvesi-degerlendirmesi_20260709",
+      "slug": "baskan-erdogandan-nato-ankara-zirvesi-degerlendirmesi_20260709",
+      "title": "Başkan Erdoğan'dan NATO Ankara Zirvesi Değerlendirmesi",
+      "summary": "Başkan Recep Tayyip Erdoğan, Türkiye'nin ev sahipliğinde Ankara'da gerçekleştirilen 36'ncı NATO Devlet ve Hükümet Başkanları Zirvesi'nin başarıyla tamamlandığını duyurdu. Erdoğan, zirve sürecinde görev alanlara ve misafirperverlikleri için Ankaralılara teşe...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "09.07.2026",
+      "date_iso": "2026-07-09",
+      "url": "/articles/2026/07/baskan-erdogandan-nato-ankara-zirvesi-degerlendirmesi_20260709/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/baskan-erdogandan-nato-ankara-zirvesi-degerlendirmesi_20260709/",
+      "detail_json_url": "/data/details/articles/2026/07/baskan-erdogandan-nato-ankara-zirvesi-degerlendirmesi_20260709.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/baskan-erdogandan-nato-ankara-zirvesi-degerlendirmesi_20260709.webp",
+      "image_alt": "Cumhurbaşkanlığı Külliyesi'nde düzenlenen NATO Zirvesi'nden bir kare.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/baskan-erdogandan-nato-ankara-zirvesi-degerlendirmesi_20260709.webp",
+        "alt": "Cumhurbaşkanlığı Külliyesi'nde düzenlenen NATO Zirvesi'nden bir kare."
+      },
+      "source_name": "SABAH",
+      "source_url": "https://www.sabah.com.tr/gundem/2026/07/09/baskan-erdogandan-ankaralilara-tesekkur",
+      "tags": [
+        "Recep Tayyip Erdoğan",
+        "NATO",
+        "Ankara Zirvesi",
+        "Siyaset"
       ],
       "quality_score": 86,
       "review_status": "published"
