@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-09T00:00:00+00:00",
-    "article_count": 713,
+    "article_count": 716,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -45,6 +45,43 @@
         "Kültür"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:super-lig-2026-2027-sezonu-fikstur-cekimi_20260709",
+      "slug": "super-lig-2026-2027-sezonu-fikstur-cekimi_20260709",
+      "title": "Süper Lig 2026-2027 Sezonu Fikstür Çekimi Bugün Yapılıyor",
+      "summary": "Trendyol Süper Lig'de 2026-2027 sezonunun fikstür çekimi, 9 Temmuz Perşembe günü saat 14.00'te Riva'daki Hasan Doğan Milli Takımlar Kamp ve Eğitim Tesisleri'nde gerçekleştiriliyor.",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "09.07.2026",
+      "date_iso": "2026-07-09",
+      "url": "/articles/2026/07/super-lig-2026-2027-sezonu-fikstur-cekimi_20260709/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/super-lig-2026-2027-sezonu-fikstur-cekimi_20260709/",
+      "detail_json_url": "/data/details/articles/2026/07/super-lig-2026-2027-sezonu-fikstur-cekimi_20260709.json",
+      "image_url": "https://images.ntv.com.tr/images/thumbs_b_c_7ba7e1f0cdc71cba9f380a9512b5ffab-332866.jpg",
+      "image_alt": "TFF Hasan Doğan Milli Takımlar Kamp ve Eğitim Tesisleri",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/thumbs_b_c_7ba7e1f0cdc71cba9f380a9512b5ffab-332866.jpg",
+        "alt": "TFF Hasan Doğan Milli Takımlar Kamp ve Eğitim Tesisleri"
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/sporskor/galeri-super-lig-2026-2027-sezonu-fikstur-cekimi-yapilacak-super-lig-fikstur-cekimi-ne-zaman-saat-kacta-1732105",
+      "tags": [
+        "Süper Lig",
+        "TFF",
+        "Fikstür Çekimi",
+        "Futbol"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
