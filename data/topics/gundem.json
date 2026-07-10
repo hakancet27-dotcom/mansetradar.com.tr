@@ -3,12 +3,50 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-10T00:00:00+00:00",
-    "article_count": 737,
+    "article_count": 740,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
   },
   "articles": [
+    {
+      "id": "articles/2026/07:amd-ryzen-7-4700le-tanitildi_20260710",
+      "slug": "amd-ryzen-7-4700le-tanitildi_20260710",
+      "title": "AMD Ryzen 7 4700LE Sessiz Sedasız Tanıtıldı",
+      "summary": "AMD, Zen 2 mimarisini temel alan yeni Ryzen 7 4700LE işlemcisini resmi bir duyuru yapmadan internet sitesine ekledi. Yalnızca hazır sistem üreticilerine sunulacak olan bu model, AM4 platformuna yönelik yeni bir seçenek oluşturuyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "10.07.2026",
+      "date_iso": "2026-07-10",
+      "url": "/articles/2026/07/amd-ryzen-7-4700le-tanitildi_20260710/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/amd-ryzen-7-4700le-tanitildi_20260710/",
+      "detail_json_url": "/data/details/articles/2026/07/amd-ryzen-7-4700le-tanitildi_20260710.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/207915/1200x675amd-ryzen-7-4700le-sessiz-sedasiz-tanitildi-zen-2-ye-yeni-destek.jpg",
+      "image_alt": "AMD Ryzen 7 4700LE işlemci görseli",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/207915/1200x675amd-ryzen-7-4700le-sessiz-sedasiz-tanitildi-zen-2-ye-yeni-destek.jpg",
+        "alt": "AMD Ryzen 7 4700LE işlemci görseli"
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/amd-ryzen-7-4700le-sessiz-sedasiz-tanitildi-zen-2-ye-yeni-destek--207915",
+      "tags": [
+        "AMD",
+        "Ryzen 7 4700LE",
+        "İşlemci",
+        "Donanım",
+        "Zen 2"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/07:turk-telekom-bist-surdurulebilirlik-25-endeksinde_20260709",
       "slug": "turk-telekom-bist-surdurulebilirlik-25-endeksinde_20260709",

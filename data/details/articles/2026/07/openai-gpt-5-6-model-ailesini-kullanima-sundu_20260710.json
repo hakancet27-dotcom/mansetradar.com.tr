@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "articles/2026/07:openai-gpt-5-6-model-ailesini-kullanima-sundu_20260710",
+    "slug": "openai-gpt-5-6-model-ailesini-kullanima-sundu_20260710",
+    "title": "OpenAI, GPT-5.6 model ailesini kullanıma sundu",
+    "summary": "OpenAI, kodlama, profesyonel iş akışları, tasarım ve siber güvenlik gibi alanlara odaklanan yeni GPT-5.6 model ailesini genel kullanıma sundu. Sol, Terra ve Luna isimli üç farklı modelden oluşan bu yeni seri, daha yüksek performansın yanı sıra verimlilik od...",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "topic_slug": "teknoloji",
+    "topic_label": "Teknoloji",
+    "country": "Turkey",
+    "language": "tr",
+    "language_label": "Turkish",
+    "section": "articles",
+    "section_name": "Haberler",
+    "url_prefix": "articles/2026/07",
+    "date": "10.07.2026",
+    "date_iso": "2026-07-10",
+    "url": "/articles/2026/07/openai-gpt-5-6-model-ailesini-kullanima-sundu_20260710/",
+    "canonical_url": "https://mansetradar.com.tr/articles/2026/07/openai-gpt-5-6-model-ailesini-kullanima-sundu_20260710/",
+    "detail_json_url": "/data/details/articles/2026/07/openai-gpt-5-6-model-ailesini-kullanima-sundu_20260710.json",
+    "image_url": "https://mansetradar.com.tr/articles/2026/07/images/openai-gpt-5-6-model-ailesini-kullanima-sundu_20260710.webp",
+    "image_alt": "OpenAI GPT-5.6 model ailesini temsil eden dijital yapay zeka görseli.",
+    "image": {
+      "url": "https://mansetradar.com.tr/articles/2026/07/images/openai-gpt-5-6-model-ailesini-kullanima-sundu_20260710.webp",
+      "alt": "OpenAI GPT-5.6 model ailesini temsil eden dijital yapay zeka görseli."
+    },
+    "source_name": "Webrazzi",
+    "source_url": "https://webrazzi.com/2026/07/10/openai-gpt-5-6-model-ailesini-kullanima-sundu/",
+    "tags": [
+      "OpenAI",
+      "GPT-5.6",
+      "Yapay Zeka",
+      "Teknoloji"
+    ],
+    "quality_score": 86,
+    "review_status": "published",
+    "content_html": "<h2>GPT-5.6 Ailesi: Sol, Terra ve Luna</h2> <p>OpenAI, sınırlı ön izleme sürecinin ardından GPT-5.6 model ailesini ChatGPT, Codex ve OpenAI API üzerinden kullanıcılarla buluşturdu. Şirket, bu yeni modelleri sadece performans artışı sağlamakla kalmayıp, kullanılan her token’dan daha fazla sonuç üretmeyi hedefleyen verimli bir yapı olarak konumlandırıyor. Aile, üç farklı modelden oluşuyor:</p> <ul> <li><strong>Sol:</strong> Ailenin en gelişmiş modeli olan Sol, kodlama, bilimsel araştırma, siber güvenlik ve bilgi tabanlı profesyonel çalışmalar için tasarlandı.</li> <li><strong>Terra:</strong> Günlük kurumsal işler ve dengeli maliyet gerektiren senaryolar için geliştirildi.</li> <li><strong>Luna:</strong> Ailenin en hızlı ve en uygun maliyetli modeli olarak öne çıkıyor.</li> </ul> <h2>Yeni Çalışma Modları ve Performans Verileri</h2> <p>Yeni model ailesiyle birlikte <strong>Max</strong> ve <strong>Ultra</strong> isimli iki çalışma seviyesi de kullanıma sunuldu. Max modu, modele yanıtını geliştirmesi ve kontroller yapması için daha fazla hesaplama süresi tanıyor. Ultra modu ise varsayılan olarak dört yapay zeka ajanını paralel çalıştırarak karmaşık görevleri bölümlere ayırıyor ve sonuçları tek bir çıktıda birleştiriyor. API geliştiricileri, Responses API üzerinden bu çoklu ajan özelliğine beta aşamasında erişebiliyor.</p> <p>OpenAI, GPT-5.6 Sol'u bugüne kadarki en güçlü kodlama modeli olarak tanımlıyor. Şirketin paylaştığı verilere göre Sol, Artificial Analysis Coding Agent Index testinde 80 puana ulaşarak Claude Fable 5’i geride bıraktı. Bu başarı; Fable 5’e kıyasla yarıdan daha az çıktı token’ı, yarıdan daha kısa süre ve yaklaşık üçte bir oranında daha düşük maliyetle elde edildi. Ayrıca Terra'nın Fable 5'in, Luna'nın ise Claude Opus 4.8'in üzerinde performans sergilediği belirtiliyor.</p>",
+    "meta_title": "OpenAI, Yeni GPT-5.6 Model Ailesini ve Özelliklerini Duyurdu",
+    "meta_description": "OpenAI, kodlama ve profesyonel iş akışları için geliştirdiği GPT-5.6 model ailesini tanıttı. Sol, Terra ve Luna modellerinin detayları haberimizde.",
+    "spot": "OpenAI, kodlama, profesyonel iş akışları, tasarım ve siber güvenlik gibi alanlara odaklanan yeni GPT-5.6 model ailesini genel kullanıma sundu. Sol, Terra ve Luna isimli üç farklı modelden oluşan bu yeni seri, daha yüksek performansın yanı sıra verimlilik odaklı bir yapıyla dikkat çekiyor.",
+    "word_count": 234,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "OpenAI'dan GPT-5.6 hamlesi: Sol, Terra ve Luna tanıtıldı",
+      "OpenAI, yeni GPT-5.6 modellerini genel kullanıma açtı",
+      "GPT-5.6 ailesi: OpenAI'ın yeni yapay zeka modelleri neler sunuyor?"
+    ],
+    "visual_keywords": [
+      "OpenAI logosu",
+      "yapay zeka arayüzü",
+      "kodlama ekranı",
+      "teknoloji grafikleri"
+    ]
+  }
+}
