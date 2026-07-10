@@ -3,12 +3,51 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-10T00:00:00+00:00",
-    "article_count": 742,
+    "article_count": 747,
     "schema_version": 2,
     "category_slug": "gundem",
     "type": "category"
   },
   "articles": [
+    {
+      "id": "articles/2026/07:istanbul-76-milyar-tl-yasa-disi-bahis-operasyonu_20260710",
+      "slug": "istanbul-76-milyar-tl-yasa-disi-bahis-operasyonu_20260710",
+      "title": "İstanbul'da 76 Milyar TL'lik Yasa Dışı Bahis Operasyonu",
+      "summary": "İstanbul Emniyet Müdürlüğü Siber Suçlarla Mücadele Şube Müdürlüğü ekipleri, MASAK raporları doğrultusunda yasa dışı bahis faaliyetlerine yönelik eş zamanlı operasyon düzenledi. 76,2 milyar TL'lik işlem hacminin tespit edildiği operasyonda 68 şüpheli yakalandı.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "10.07.2026",
+      "date_iso": "2026-07-10",
+      "url": "/articles/2026/07/istanbul-76-milyar-tl-yasa-disi-bahis-operasyonu_20260710/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/istanbul-76-milyar-tl-yasa-disi-bahis-operasyonu_20260710/",
+      "detail_json_url": "/data/details/articles/2026/07/istanbul-76-milyar-tl-yasa-disi-bahis-operasyonu_20260710.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/istanbul-76-milyar-tl-yasa-disi-bahis-operasyonu_20260710.webp",
+      "image_alt": "İstanbul'da gerçekleştirilen yasa dışı bahis operasyonuna dair polis ekiplerinin incelemeleri.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/istanbul-76-milyar-tl-yasa-disi-bahis-operasyonu_20260710.webp",
+        "alt": "İstanbul'da gerçekleştirilen yasa dışı bahis operasyonuna dair polis ekiplerinin incelemeleri."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/son-dakika-haberleri-76-milyar-tl-lik-yasa-disi-bahis-operasyonu-3897484",
+      "tags": [
+        "Son Dakika",
+        "yasa dışı bahis",
+        "İstanbul emniyeti",
+        "MASAK",
+        "kripto para",
+        "operasyon"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/07:tip-ogrencisi-yaren-mercan-kazasi-yeni-goruntuler_20260709",
       "slug": "tip-ogrencisi-yaren-mercan-kazasi-yeni-goruntuler_20260709",
