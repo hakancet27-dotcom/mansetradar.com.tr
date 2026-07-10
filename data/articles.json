@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-10T00:00:00+00:00",
-    "article_count": 750,
+    "article_count": 751,
     "schema_version": 2
   },
   "articles": [
@@ -384,6 +384,44 @@
         "Adalet Bakanlığı"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:bakanlik-ifsa-etti-sucuk-ve-kiymada-tek-tirnakli-eti-cikti_20260710",
+      "slug": "bakanlik-ifsa-etti-sucuk-ve-kiymada-tek-tirnakli-eti-cikti_20260710",
+      "title": "Bakanlık ifşa etti: Sucuk ve kıymada 'tek tırnaklı' eti çıktı",
+      "summary": "Tarım ve Orman Bakanlığı, gıda denetimleri sonucunda taklit ve tağşiş yapılan ürünler listesini güncelledi. Yapılan incelemelerde, dana eti etiketiyle satılan sucuk ve kıymalarda tek tırnaklı eti ile kanatlı eti tespit edildi.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "10.07.2026",
+      "date_iso": "2026-07-10",
+      "url": "/articles/2026/07/bakanlik-ifsa-etti-sucuk-ve-kiymada-tek-tirnakli-eti-cikti_20260710/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/bakanlik-ifsa-etti-sucuk-ve-kiymada-tek-tirnakli-eti-cikti_20260710/",
+      "detail_json_url": "/data/details/articles/2026/07/bakanlik-ifsa-etti-sucuk-ve-kiymada-tek-tirnakli-eti-cikti_20260710.json",
+      "image_url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/7/at-esek-dana-kiyma-sucuk-gemini-ai-gorselijpg-VqOlCVa-wEag8Pl2QghPXQ.jpg",
+      "image_alt": "Tarım ve Orman Bakanlığı gıda denetim laboratuvarı",
+      "image": {
+        "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/7/at-esek-dana-kiyma-sucuk-gemini-ai-gorselijpg-VqOlCVa-wEag8Pl2QghPXQ.jpg",
+        "alt": "Tarım ve Orman Bakanlığı gıda denetim laboratuvarı"
+      },
+      "source_name": "Sağlık haberleri - Son dakika sağlık haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/taklit-ve-tagsis-listesi-10-temmuz-2026-p335448",
+      "tags": [
+        "Tarım ve Orman Bakanlığı",
+        "taklit ve tağşiş",
+        "gıda denetimi",
+        "tek tırnaklı eti",
+        "sucuk"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
