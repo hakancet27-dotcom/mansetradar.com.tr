@@ -2,13 +2,51 @@
   "meta": {
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
-    "generated_at": "2026-07-09T00:00:00+00:00",
-    "article_count": 735,
+    "generated_at": "2026-07-10T00:00:00+00:00",
+    "article_count": 737,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
   },
   "articles": [
+    {
+      "id": "articles/2026/07:turk-telekom-bist-surdurulebilirlik-25-endeksinde_20260709",
+      "slug": "turk-telekom-bist-surdurulebilirlik-25-endeksinde_20260709",
+      "title": "Türk Telekom BIST Sürdürülebilirlik 25 Endeksi'ne girdi",
+      "summary": "Türk Telekom, sürdürülebilirlik odaklı stratejileri ve yatırımları neticesinde Borsa İstanbul’un en prestijli ligi olan BIST Sürdürülebilirlik 25 Endeksi’ne dahil oldu.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "09.07.2026",
+      "date_iso": "2026-07-09",
+      "url": "/articles/2026/07/turk-telekom-bist-surdurulebilirlik-25-endeksinde_20260709/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/turk-telekom-bist-surdurulebilirlik-25-endeksinde_20260709/",
+      "detail_json_url": "/data/details/articles/2026/07/turk-telekom-bist-surdurulebilirlik-25-endeksinde_20260709.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/turk-telekom-bist-surdurulebilirlik-25-endeksinde_20260709.webp",
+      "image_alt": "Türk Telekom genel merkez binası.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/turk-telekom-bist-surdurulebilirlik-25-endeksinde_20260709.webp",
+        "alt": "Türk Telekom genel merkez binası."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/turk-telekom-bist-surdurulebilirlik-25-endeksinde-3897364-ekonomi",
+      "tags": [
+        "Türk Telekom",
+        "BIST Sürdürülebilirlik 25",
+        "Borsa İstanbul",
+        "Sürdürülebilirlik",
+        "Ebubekir Şahin"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/07:trabzonda-korkuluk-sokagi-turizme-kazandirildi_20260709",
       "slug": "trabzonda-korkuluk-sokagi-turizme-kazandirildi_20260709",
@@ -269,6 +307,44 @@
         "magazin",
         "boşanma",
         "ünlüler dünyası"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:bakan-bayraktar-iraktan-ceyhana-petrol-akisi-devam-edecek_20260709",
+      "slug": "bakan-bayraktar-iraktan-ceyhana-petrol-akisi-devam-edecek_20260709",
+      "title": "Bakan Bayraktar duyurdu: Irak-Türkiye petrol hattında yeni dönem",
+      "summary": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Bağdat'ta yaptığı temasların ardından Irak-Türkiye boru hattı üzerinden petrol akışının kesintisiz süreceğini ve 12 aylık yeni bir anlaşmanın önümüzdeki günlerde imzalanacağını duyurdu.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "09.07.2026",
+      "date_iso": "2026-07-09",
+      "url": "/articles/2026/07/bakan-bayraktar-iraktan-ceyhana-petrol-akisi-devam-edecek_20260709/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/bakan-bayraktar-iraktan-ceyhana-petrol-akisi-devam-edecek_20260709/",
+      "detail_json_url": "/data/details/articles/2026/07/bakan-bayraktar-iraktan-ceyhana-petrol-akisi-devam-edecek_20260709.json",
+      "image_url": "https://images.ntv.com.tr/images/AA-20260709-41935239-41935234-ENERJI_VE_TABII_KAYNAKLAR_BAKANI_ALPARSLAN_BAYRAKTAR_IRAKTAN_CEYHANA_PETROL_AKISI_DEVAM_EDECEK-331599.jpg",
+      "image_alt": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar basın toplantısında konuşuyor.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/AA-20260709-41935239-41935234-ENERJI_VE_TABII_KAYNAKLAR_BAKANI_ALPARSLAN_BAYRAKTAR_IRAKTAN_CEYHANA_PETROL_AKISI_DEVAM_EDECEK-331599.jpg",
+        "alt": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar basın toplantısında konuşuyor."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/bakan-bayraktar-iraktan-ceyhana-petrol-akisi-devam-edecek-1732151",
+      "tags": [
+        "Alparslan Bayraktar",
+        "Irak-Türkiye boru hattı",
+        "petrol",
+        "Ceyhan",
+        "enerji"
       ],
       "quality_score": 76,
       "review_status": "published"
@@ -1214,6 +1290,44 @@
         "İzmir",
         "Soruşturma",
         "Akran Zorbalığı"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:disisleri-bakani-fidan-bulgaristan-temaslari_20260611",
+      "slug": "disisleri-bakani-fidan-bulgaristan-temaslari_20260611",
+      "title": "Dışişleri Bakanı Fidan'dan Bulgaristan ile İş Birliği Mesajı",
+      "summary": "Dışişleri Bakanı Hakan Fidan, Bulgaristan Dışişleri Bakanı Velislava Petrova-Chamova ile Sofya'da bir araya geldi. Görüşmede sınır güvenliği, enerji projeleri ve ticaret hacminin artırılması konuları öne çıktı.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "11.06.2026",
+      "date_iso": "2026-06-11",
+      "url": "/articles/2026/06/disisleri-bakani-fidan-bulgaristan-temaslari_20260611/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/disisleri-bakani-fidan-bulgaristan-temaslari_20260611/",
+      "detail_json_url": "/data/details/articles/2026/06/disisleri-bakani-fidan-bulgaristan-temaslari_20260611.json",
+      "image_url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2a8825a657aa4a44e5270b.jpg",
+      "image_alt": "Dışişleri Bakanı Hakan Fidan, Sofya'da Bulgar mevkidaşı ile basın toplantısı düzenliyor.",
+      "image": {
+        "url": "https://image.milimaj.com/i/milliyet/75/460x340/6a2a8825a657aa4a44e5270b.jpg",
+        "alt": "Dışişleri Bakanı Hakan Fidan, Sofya'da Bulgar mevkidaşı ile basın toplantısı düzenliyor."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/disisleri-bakani-hakan-fidan-bulgar-mevkidasi-ile-sofyada-basin-toplantisi-duzenliyor-7603472",
+      "tags": [
+        "Hakan Fidan",
+        "Bulgaristan",
+        "Dışişleri Bakanlığı",
+        "Enerji",
+        "Kapıkule"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -2202,6 +2316,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/06:istanbul-bildirisinde-orta-koridor-ve-enerji-isbirligi-one-cikti_20260609",
+      "slug": "istanbul-bildirisinde-orta-koridor-ve-enerji-isbirligi-one-cikti_20260609",
+      "title": "Türkiye, Azerbaycan ve Gürcistan'dan İstanbul Bildirisi: İşbirliği Vurgusu",
+      "summary": "Türkiye, Azerbaycan ve Gürcistan dışişleri bakanları, İstanbul'da düzenlenen 10. Üçlü Dışişleri Bakanları Toplantısı'nda bir araya geldi. İmzalanan İstanbul Bildirisi ile ülkeler arasındaki siyasi, ekonomik ve enerji alanlarındaki işbirliğinin güçlendirilme...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "09.06.2026",
+      "date_iso": "2026-06-09",
+      "url": "/articles/2026/06/istanbul-bildirisinde-orta-koridor-ve-enerji-isbirligi-one-cikti_20260609/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/istanbul-bildirisinde-orta-koridor-ve-enerji-isbirligi-one-cikti_20260609/",
+      "detail_json_url": "/data/details/articles/2026/06/istanbul-bildirisinde-orta-koridor-ve-enerji-isbirligi-one-cikti_20260609.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/istanbul-bildirisinde-orta-koridor-ve-enerji-isbirligi-one-cikti_20260609.webp",
+      "image_alt": "Türkiye, Azerbaycan ve Gürcistan dışişleri bakanları İstanbul'daki toplantıda bir araya geldi.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/istanbul-bildirisinde-orta-koridor-ve-enerji-isbirligi-one-cikti_20260609.webp",
+        "alt": "Türkiye, Azerbaycan ve Gürcistan dışişleri bakanları İstanbul'daki toplantıda bir araya geldi."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/istanbul-bildirisinde-orta-koridor-ve-enerji-isbirligi-one-cikti-1727785",
+      "tags": [
+        "Türkiye",
+        "Azerbaycan",
+        "Gürcistan",
+        "Hakan Fidan",
+        "İstanbul Bildirisi"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/06:inegol-cocuk-parkinda-pompali-saldiri_20260609",
       "slug": "inegol-cocuk-parkinda-pompali-saldiri_20260609",
       "title": "İnegöl'deki çocuk parkında pompalı saldırı: 10 yaralı",
@@ -2426,6 +2578,82 @@
         "kasten öldürme"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:almanya-elektrikte-yeniden-ihracat-fazlasina-gecti_20260609",
+      "slug": "almanya-elektrikte-yeniden-ihracat-fazlasina-gecti_20260609",
+      "title": "Almanya Elektrikte Yeniden İhracat Fazlasına Geçti",
+      "summary": "Almanya, bu yılın ilk çeyreğinde elektrik ticaretinde yeniden net ihracatçı konumuna yükseldi. Federal İstatistik Ofisi (Destatis) verilerine göre, ülkede üretilen toplam elektriğin yarıdan fazlası yenilenebilir enerji kaynaklarından elde edilirken, rüzgar...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "09.06.2026",
+      "date_iso": "2026-06-09",
+      "url": "/articles/2026/06/almanya-elektrikte-yeniden-ihracat-fazlasina-gecti_20260609/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/almanya-elektrikte-yeniden-ihracat-fazlasina-gecti_20260609/",
+      "detail_json_url": "/data/details/articles/2026/06/almanya-elektrikte-yeniden-ihracat-fazlasina-gecti_20260609.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/almanya-elektrikte-yeniden-ihracat-fazlasina-gecti_20260609.webp",
+      "image_alt": "Almanya'da rüzgar enerjisi santralleri ve yeşil alanlar",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/almanya-elektrikte-yeniden-ihracat-fazlasina-gecti_20260609.webp",
+        "alt": "Almanya'da rüzgar enerjisi santralleri ve yeşil alanlar"
+      },
+      "source_name": "Ekonomi haberleri - Son dakika ekonomi haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/almanya-elektrikte-yeniden-ihracat-fazlasina-gecti-p326443",
+      "tags": [
+        "Almanya",
+        "Elektrik İhracatı",
+        "Yenilenebilir Enerji",
+        "Rüzgar Enerjisi",
+        "Destatis"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:ab-rusya-21-yaptirim-paketi_20260609",
+      "slug": "ab-rusya-21-yaptirim-paketi_20260609",
+      "title": "AB'den Rusya'ya 21. Yaptırım Paketi: Enerji ve Finans Hedefte",
+      "summary": "Avrupa Birliği Komisyonu Başkanı Ursula von der Leyen, Rusya'ya yönelik hazırlanan 21. yaptırım paketinin detaylarını açıkladı. Enerji, finans, kripto varlıklar, ticaret ve balıkçılık sektörlerini hedef alan yeni düzenlemelerle Rus ekonomisi üzerindeki bask...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "09.06.2026",
+      "date_iso": "2026-06-09",
+      "url": "/articles/2026/06/ab-rusya-21-yaptirim-paketi_20260609/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/ab-rusya-21-yaptirim-paketi_20260609/",
+      "detail_json_url": "/data/details/articles/2026/06/ab-rusya-21-yaptirim-paketi_20260609.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/ab-rusya-21-yaptirim-paketi_20260609.webp",
+      "image_alt": "AB Komisyonu Başkanı Ursula von der Leyen basın toplantısında konuşurken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/ab-rusya-21-yaptirim-paketi_20260609.webp",
+        "alt": "AB Komisyonu Başkanı Ursula von der Leyen basın toplantısında konuşurken."
+      },
+      "source_name": "Ekonomi haberleri - Son dakika ekonomi haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/ab-den-rusya-ya-yeni-yaptirim-paketi-enerji-kripto-ve-bankacilik-hedefte-p326519",
+      "tags": [
+        "Avrupa Birliği",
+        "Rusya",
+        "yaptırım",
+        "ekonomi",
+        "enerji"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -2696,6 +2924,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/06:sifir-atik-festivali-ataturk-havalimaninda-sona-erdi_20260607",
+      "slug": "sifir-atik-festivali-ataturk-havalimaninda-sona-erdi_20260607",
+      "title": "Sıfır Atık Festivali Atatürk Havalimanı'nda Kapsamlı Etkinliklerle Sona Erdi",
+      "summary": "Sıfır Atık Festivali, Birleşmiş Milletler Sıfır Atık Yüksek Düzeyli Şahsiyetler Danışma Kurulu Başkanı Emine Erdoğan'ın himayelerinde, Sıfır Atık Vakfı ile Enerji ve Tabii Kaynaklar Bakanlığı işbirliğiyle Atatürk Havalimanı'nda düzenlendi. \"Enerjide Verimli...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/2026/06/sifir-atik-festivali-ataturk-havalimaninda-sona-erdi_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/sifir-atik-festivali-ataturk-havalimaninda-sona-erdi_20260607/",
+      "detail_json_url": "/data/details/articles/2026/06/sifir-atik-festivali-ataturk-havalimaninda-sona-erdi_20260607.json",
+      "image_url": "https://images.pexels.com/photos/12131137/pexels-photo-12131137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image_alt": "Sıfır Atık Festivali Atatürk Havalimanı'nda Kapsamlı Etkinliklerle Sona Erdi",
+      "image": {
+        "url": "https://images.pexels.com/photos/12131137/pexels-photo-12131137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Sıfır Atık Festivali Atatürk Havalimanı'nda Kapsamlı Etkinliklerle Sona Erdi"
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/gundem/sifir-atik-festivali-farkindalik-etkinlikleriyle-devam-ediyor/3958941",
+      "tags": [
+        "Sıfır Atık Festivali",
+        "Emine Erdoğan",
+        "Atatürk Havalimanı",
+        "Geri Dönüşüm",
+        "Sürdürülebilirlik"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/06:ozan-guven-yargi-sureci-ve-toplumsal-linc-kulturu-aciklamalari_20260607",
       "slug": "ozan-guven-yargi-sureci-ve-toplumsal-linc-kulturu-aciklamalari_20260607",
       "title": "Ozan Güven'den Yargı Süreci ve Toplumsal Linç Kültürü Üzerine Açıklamalar",
@@ -2807,6 +3073,44 @@
         "Asayiş"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607",
+      "slug": "hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607",
+      "title": "Bakan Fidan Açıkladı: Türkiye ve Güney Kore Sinop Nükleer Santrali İçin Görüşüyor",
+      "summary": "Dışişleri Bakanı Hakan Fidan, Güney Kore ziyareti kapsamında gerçekleştirdiği mülakatta, iki ülke arasındaki köklü müttefiklik ilişkilerini ele alarak Sinop Nükleer Santrali projesinde olası bir işbirliği için görüşmelerin başladığını duyurdu.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "07.06.2026",
+      "date_iso": "2026-06-07",
+      "url": "/articles/2026/06/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607/",
+      "detail_json_url": "/data/details/articles/2026/06/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607.webp",
+      "image_alt": "Dışişleri Bakanı Hakan Fidan Güney Kore ziyareti kapsamında mülakat verirken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/hakan-fidan-sinop-nukleer-santrali-guney-kore-isbirligi_20260607.webp",
+        "alt": "Dışişleri Bakanı Hakan Fidan Güney Kore ziyareti kapsamında mülakat verirken."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/disisleri-bakani-hakan-fidan-turkiye-cozum-icin-yardima-hazir-7601109",
+      "tags": [
+        "Hakan Fidan",
+        "Güney Kore",
+        "Sinop Nükleer Santrali",
+        "Türkiye Güney Kore ilişkileri",
+        "KEPCO"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -3340,6 +3644,81 @@
         "Hapis Cezası"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605",
+      "slug": "iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605",
+      "title": "İran'ın 'Sessiz Zaferi': Hürmüz Boğazı Üzerindeki Etkisi Yeni Bir Nükleer Seçenek Haline Geldi",
+      "summary": "Hürriyet'in haberine göre, son çatışmaların ardından İran, Hürmüz Boğazı'nı kapatma kapasitesini uluslararası kamuoyuna göstererek sessiz ama son derece önemli bir kazanım elde etti. Eurasia Group kıdemli analisti Gregory Brew, bu durumu Tahran için adeta y...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/2026/06/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605/",
+      "detail_json_url": "/data/details/articles/2026/06/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605.webp",
+      "image_alt": "İran'ın 'Sessiz Zaferi': Hürmüz Boğazı Üzerindeki Etkisi Yeni Bir Nükleer Seçenek Haline Geldi",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605.webp",
+        "alt": "İran'ın 'Sessiz Zaferi': Hürmüz Boğazı Üzerindeki Etkisi Yeni Bir Nükleer Seçenek Haline Geldi"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/tablo-tersine-dondu-iranin-sessiz-zaferi-yeni-bir-nukleer-secenek-43193135",
+      "tags": [
+        "İran",
+        "Hürmüz Boğazı",
+        "Nükleer Seçenek",
+        "Enerji Piyasaları",
+        "Jeopolitik"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:hurmuz-bogazi-gerilimi-kuresel-petrol-devlerinin-karlarini-artirdi_20260605",
+      "slug": "hurmuz-bogazi-gerilimi-kuresel-petrol-devlerinin-karlarini-artirdi_20260605",
+      "title": "Hürmüz Boğazı Gerilimi Küresel Petrol Devlerinin Karlarını Artırdı",
+      "summary": "Hürmüz Boğazı'ndaki jeopolitik riskler ve arz kesintisi endişelerinin petrol fiyatlarını yukarı çekmesiyle, küresel enerji şirketlerinin bu yılın ilk çeyrek karları, 2022'den bu yana yüzdesel olarak ilk kez çift haneli yıllık artış kaydetti. ABD'li ExxonMob...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "05.06.2026",
+      "date_iso": "2026-06-05",
+      "url": "/articles/2026/06/hurmuz-bogazi-gerilimi-kuresel-petrol-devlerinin-karlarini-artirdi_20260605/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/hurmuz-bogazi-gerilimi-kuresel-petrol-devlerinin-karlarini-artirdi_20260605/",
+      "detail_json_url": "/data/details/articles/2026/06/hurmuz-bogazi-gerilimi-kuresel-petrol-devlerinin-karlarini-artirdi_20260605.json",
+      "image_url": "https://images.pexels.com/photos/29792900/pexels-photo-29792900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image_alt": "Hürmüz Boğazı'nda petrol tankerleri ve yükselen kar grafiği.",
+      "image": {
+        "url": "https://images.pexels.com/photos/29792900/pexels-photo-29792900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Hürmüz Boğazı'nda petrol tankerleri ve yükselen kar grafiği."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/ekonomi/hurmuz-bogazindaki-gerilim-kuresel-petrol-devlerinin-ilk-ceyrek-karinda-cift-haneli-artis-getirdi/3957293",
+      "tags": [
+        "Hürmüz Boğazı",
+        "Petrol Fiyatları",
+        "Enerji Şirketleri",
+        "İlk Çeyrek Karları"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -4206,6 +4585,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/06:istanbul-sifir-atik-festivali-4-7-haziran-ataturk-havalimani_20260603",
+      "slug": "istanbul-sifir-atik-festivali-4-7-haziran-ataturk-havalimani_20260603",
+      "title": "İstanbul Sıfır Atık Festivali Başlıyor: Atatürk Havalimanı'nda 1500'den Fazla Etkinlik",
+      "summary": "İstanbul, 4-7 Haziran 2026 tarihleri arasında Atatürk Havalimanı'nda \"Enerjide Verimlilik, Gelecekte Dönüşüm\" temasıyla düzenlenecek Sıfır Atık Festivali'ne ev sahipliği yapacak. Emine Erdoğan'ın himayesinde, Sıfır Atık Vakfı, Enerji ve Tabii Kaynaklar Baka...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "03.06.2026",
+      "date_iso": "2026-06-03",
+      "url": "/articles/2026/06/istanbul-sifir-atik-festivali-4-7-haziran-ataturk-havalimani_20260603/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/istanbul-sifir-atik-festivali-4-7-haziran-ataturk-havalimani_20260603/",
+      "detail_json_url": "/data/details/articles/2026/06/istanbul-sifir-atik-festivali-4-7-haziran-ataturk-havalimani_20260603.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/istanbul-sifir-atik-festivali-4-7-haziran-ataturk-havalimani_20260603.webp",
+      "image_alt": "İstanbul Sıfır Atık Festivali Başlıyor: Atatürk Havalimanı'nda 1500'den Fazla Etkinlik",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/06/images/istanbul-sifir-atik-festivali-4-7-haziran-ataturk-havalimani_20260603.webp",
+        "alt": "İstanbul Sıfır Atık Festivali Başlıyor: Atatürk Havalimanı'nda 1500'den Fazla Etkinlik"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/sifir-atik-baskenti-istanbul-4-7-haziranda-her-yastan-davetlilere-kapilar-aciliyor-1500den-fazla-etkinlik-duzenlenecek-43191669",
+      "tags": [
+        "Sıfır Atık Festivali",
+        "Emine Erdoğan",
+        "Atatürk Havalimanı",
+        "Enerji Verimliliği",
+        "İstanbul"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/06:dua-lipa-callum-turner-evlendi_20260603",
       "slug": "dua-lipa-callum-turner-evlendi_20260603",
       "title": "Dua Lipa ve Callum Turner Evlendi: Londra'da Sade Nikah, Sicilya'da Büyük Kutlama",
@@ -4734,43 +5151,6 @@
       "review_status": "published"
     },
     {
-      "id": "articles/2026/06:bluetooth-hoparlorun-ismi-kitalararasi-ucus-iptal-ettirdi_20260601",
-      "slug": "bluetooth-hoparlorun-ismi-kitalararasi-ucus-iptal-ettirdi_20260601",
-      "title": "Bluetooth Hoparlörün İsmi Kıtalararası Uçuşu İptal Ettirdi",
-      "summary": "United Airlines'ın New Jersey'den İspanya'ya gitmek üzere havalanan 236 sefer sayılı uçuşu, kalkıştan yaklaşık bir saat sonra Atlantik Okyanusu üzerinde rotasını değiştirerek geri dönme kararı aldı. Uçağın geri dönmesine neden olan olay, bir Bluetooth hopar...",
-      "category": "Son Dakika",
-      "category_slug": "son-dakika",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/2026/06/bluetooth-hoparlorun-ismi-kitalararasi-ucus-iptal-ettirdi_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/bluetooth-hoparlorun-ismi-kitalararasi-ucus-iptal-ettirdi_20260601/",
-      "detail_json_url": "/data/details/articles/2026/06/bluetooth-hoparlorun-ismi-kitalararasi-ucus-iptal-ettirdi_20260601.json",
-      "image_url": "https://images.unsplash.com/photo-1767868278134-3575cff151ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCbHVldG9vdGglMjBob3BhcmwlQzMlQjZyZSUyMHZlcmlsZW4lMjBpc2ltJTJDJTIwayVDNCVCMXRhbGFyYXJhcyVDNCVCMSUyMHUlQzMlQTd1JUM1JTlGdSUyMHlhciVDNCVCMWRhJTIwa2VzdGklMjB1JUMzJUE3YWt8ZW58MHwwfHx8MTc4MDMzMzI4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "image_alt": "Bir United Airlines uçağı ve yanında bir Bluetooth hoparlör ikonu.",
-      "image": {
-        "url": "https://images.unsplash.com/photo-1767868278134-3575cff151ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCbHVldG9vdGglMjBob3BhcmwlQzMlQjZyZSUyMHZlcmlsZW4lMjBpc2ltJTJDJTIwayVDNCVCMXRhbGFyYXJhcyVDNCVCMSUyMHUlQzMlQTd1JUM1JTlGdSUyMHlhciVDNCVCMWRhJTIwa2VzdGklMjB1JUMzJUE3YWt8ZW58MHwwfHx8MTc4MDMzMzI4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "alt": "Bir United Airlines uçağı ve yanında bir Bluetooth hoparlör ikonu."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/teknoloji/bluetooth-hoparlore-verilen-isim-kitalararasi-ucusu-yarida-kesti-7597735",
-      "tags": [
-        "Bluetooth hoparlör",
-        "uçuş iptali",
-        "havacılık güvenliği",
-        "United Airlines"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
       "id": "articles/2026/06:bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601",
       "slug": "bankaci-ihbar-etti-1-milyon-37-bin-lira-sahte-paraya-el-konuldu_20260601",
       "title": "Bankacı İhbar Etti, Sahte Para Operasyonu Başladı: 1 Milyon Liralık Sahte Paraya El Konuldu",
@@ -4804,6 +5184,43 @@
         "banka",
         "ihbar",
         "operasyon"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/06:abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601",
+      "slug": "abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601",
+      "title": "ABD'yi Sarsan Göktaşı Patlaması: 300 Ton TNT'ye Eşdeğer Enerji Açığa Çıktı",
+      "summary": "ABD'nin kuzeydoğusunda cumartesi günü yerel saatle 14.06'da atmosfere giren bir göktaşı, Massachusetts'in kuzeydoğusu ile New Hampshire'ın güneydoğusu üzerinde parçalandı. NASA'ya göre, parçalanma sırasında saatte 120 bin kilometreden fazla hızla ilerleyen...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/06",
+      "date": "01.06.2026",
+      "date_iso": "2026-06-01",
+      "url": "/articles/2026/06/abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601/",
+      "detail_json_url": "/data/details/articles/2026/06/abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/pexels-pixabay-39896.webp",
+      "image_alt": "ABD'nin kuzeydoğusunda gökyüzünde parlak bir iz bırakan göktaşı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/pexels-pixabay-39896.webp",
+        "alt": "ABD'nin kuzeydoğusunda gökyüzünde parlak bir iz bırakan göktaşı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/teknoloji/uzay/goktasi-abdyi-sarsti-43189403",
+      "tags": [
+        "göktaşı",
+        "NASA",
+        "ABD",
+        "meteor patlaması"
       ],
       "quality_score": 86,
       "review_status": "published"

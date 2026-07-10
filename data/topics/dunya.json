@@ -2,13 +2,51 @@
   "meta": {
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
-    "generated_at": "2026-07-09T00:00:00+00:00",
-    "article_count": 735,
+    "generated_at": "2026-07-10T00:00:00+00:00",
+    "article_count": 737,
     "schema_version": 2,
     "topic_slug": "dunya",
     "type": "topic"
   },
   "articles": [
+    {
+      "id": "articles/2026/07:trump-ankara-ziyareti-f-35-kaan-motoru_20260710",
+      "slug": "trump-ankara-ziyareti-f-35-kaan-motoru_20260710",
+      "title": "Trump’ın Ankara Ziyareti: F-35 ve KAAN Motoru İçin Kritik Onay",
+      "summary": "ABD Başkanı Donald Trump, 7 Temmuz'da gerçekleştirdiği Ankara ziyaretinde Türkiye'ye KAAN savaş uçağı için F-110 motorlarının satışına onay verdi. Trump ayrıca F-35 uçaklarının satışının önünün açılacağını ve CAATSA yaptırımlarının kaldırılacağını duyurdu.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "10.07.2026",
+      "date_iso": "2026-07-10",
+      "url": "/articles/2026/07/trump-ankara-ziyareti-f-35-kaan-motoru_20260710/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/trump-ankara-ziyareti-f-35-kaan-motoru_20260710/",
+      "detail_json_url": "/data/details/articles/2026/07/trump-ankara-ziyareti-f-35-kaan-motoru_20260710.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/trump-ankara-ziyareti-f-35-kaan-motoru_20260710.webp",
+      "image_alt": "ABD Başkanı Donald Trump ve Cumhurbaşkanı Recep Tayyip Erdoğan Ankara'da bir araya geldi.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/trump-ankara-ziyareti-f-35-kaan-motoru_20260710.webp",
+        "alt": "ABD Başkanı Donald Trump ve Cumhurbaşkanı Recep Tayyip Erdoğan Ankara'da bir araya geldi."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/yazarlar/nedim-sener/trumpin-f-35-ile-mesaji-ve-israilin-panigi-ankara-uzerinden-dunya-sahnesine-donen-abd-43234742",
+      "tags": [
+        "Donald Trump",
+        "Türkiye",
+        "F-35",
+        "KAAN",
+        "Savunma Sanayii"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/07:terorsuz-turkiye-surecinde-cerceve-yasa-hazirligi_20260709",
       "slug": "terorsuz-turkiye-surecinde-cerceve-yasa-hazirligi_20260709",
@@ -158,44 +196,6 @@
         "Siyaset"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:bakan-bayraktar-iraktan-ceyhana-petrol-akisi-devam-edecek_20260709",
-      "slug": "bakan-bayraktar-iraktan-ceyhana-petrol-akisi-devam-edecek_20260709",
-      "title": "Bakan Bayraktar duyurdu: Irak-Türkiye petrol hattında yeni dönem",
-      "summary": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Bağdat'ta yaptığı temasların ardından Irak-Türkiye boru hattı üzerinden petrol akışının kesintisiz süreceğini ve 12 aylık yeni bir anlaşmanın önümüzdeki günlerde imzalanacağını duyurdu.",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "09.07.2026",
-      "date_iso": "2026-07-09",
-      "url": "/articles/2026/07/bakan-bayraktar-iraktan-ceyhana-petrol-akisi-devam-edecek_20260709/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/bakan-bayraktar-iraktan-ceyhana-petrol-akisi-devam-edecek_20260709/",
-      "detail_json_url": "/data/details/articles/2026/07/bakan-bayraktar-iraktan-ceyhana-petrol-akisi-devam-edecek_20260709.json",
-      "image_url": "https://images.ntv.com.tr/images/AA-20260709-41935239-41935234-ENERJI_VE_TABII_KAYNAKLAR_BAKANI_ALPARSLAN_BAYRAKTAR_IRAKTAN_CEYHANA_PETROL_AKISI_DEVAM_EDECEK-331599.jpg",
-      "image_alt": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar basın toplantısında konuşuyor.",
-      "image": {
-        "url": "https://images.ntv.com.tr/images/AA-20260709-41935239-41935234-ENERJI_VE_TABII_KAYNAKLAR_BAKANI_ALPARSLAN_BAYRAKTAR_IRAKTAN_CEYHANA_PETROL_AKISI_DEVAM_EDECEK-331599.jpg",
-        "alt": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar basın toplantısında konuşuyor."
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/turkiye/bakan-bayraktar-iraktan-ceyhana-petrol-akisi-devam-edecek-1732151",
-      "tags": [
-        "Alparslan Bayraktar",
-        "Irak-Türkiye boru hattı",
-        "petrol",
-        "Ceyhan",
-        "enerji"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -1636,44 +1636,6 @@
       "review_status": "published"
     },
     {
-      "id": "articles/2026/06:iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605",
-      "slug": "iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605",
-      "title": "İran'ın 'Sessiz Zaferi': Hürmüz Boğazı Üzerindeki Etkisi Yeni Bir Nükleer Seçenek Haline Geldi",
-      "summary": "Hürriyet'in haberine göre, son çatışmaların ardından İran, Hürmüz Boğazı'nı kapatma kapasitesini uluslararası kamuoyuna göstererek sessiz ama son derece önemli bir kazanım elde etti. Eurasia Group kıdemli analisti Gregory Brew, bu durumu Tahran için adeta y...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "05.06.2026",
-      "date_iso": "2026-06-05",
-      "url": "/articles/2026/06/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605/",
-      "detail_json_url": "/data/details/articles/2026/06/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/06/images/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605.webp",
-      "image_alt": "İran'ın 'Sessiz Zaferi': Hürmüz Boğazı Üzerindeki Etkisi Yeni Bir Nükleer Seçenek Haline Geldi",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/06/images/iranin-hurmuz-bogazi-etkisi-yeni-bir-nukleer-secenek_20260605.webp",
-        "alt": "İran'ın 'Sessiz Zaferi': Hürmüz Boğazı Üzerindeki Etkisi Yeni Bir Nükleer Seçenek Haline Geldi"
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/dunya/tablo-tersine-dondu-iranin-sessiz-zaferi-yeni-bir-nukleer-secenek-43193135",
-      "tags": [
-        "İran",
-        "Hürmüz Boğazı",
-        "Nükleer Seçenek",
-        "Enerji Piyasaları",
-        "Jeopolitik"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
       "id": "articles/2026/06:trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604",
       "slug": "trump-iran-savas-tehdidi-beyrut-kirmizi-cizgi_20260604",
       "title": "Trump'tan Savaş Tehdidi, İran'dan Beyrut İçin Kırmızı Çizgi",
@@ -2060,43 +2022,6 @@
         "Gemi Trafiği",
         "Petrol Tankerleri",
         "Denizcilik İstatistikleri"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/06:abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601",
-      "slug": "abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601",
-      "title": "ABD'yi Sarsan Göktaşı Patlaması: 300 Ton TNT'ye Eşdeğer Enerji Açığa Çıktı",
-      "summary": "ABD'nin kuzeydoğusunda cumartesi günü yerel saatle 14.06'da atmosfere giren bir göktaşı, Massachusetts'in kuzeydoğusu ile New Hampshire'ın güneydoğusu üzerinde parçalandı. NASA'ya göre, parçalanma sırasında saatte 120 bin kilometreden fazla hızla ilerleyen...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/06",
-      "date": "01.06.2026",
-      "date_iso": "2026-06-01",
-      "url": "/articles/2026/06/abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/06/abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601/",
-      "detail_json_url": "/data/details/articles/2026/06/abd-y-sarsan-goktasi-patlamasi-300-ton-tnt-ye-esdeger-enerji-aciga-cikti_20260601.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/pexels-pixabay-39896.webp",
-      "image_alt": "ABD'nin kuzeydoğusunda gökyüzünde parlak bir iz bırakan göktaşı.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/pexels-pixabay-39896.webp",
-        "alt": "ABD'nin kuzeydoğusunda gökyüzünde parlak bir iz bırakan göktaşı."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/teknoloji/uzay/goktasi-abdyi-sarsti-43189403",
-      "tags": [
-        "göktaşı",
-        "NASA",
-        "ABD",
-        "meteor patlaması"
       ],
       "quality_score": 86,
       "review_status": "published"
