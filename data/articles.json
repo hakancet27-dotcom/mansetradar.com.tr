@@ -3,10 +3,47 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-11T00:00:00+00:00",
-    "article_count": 775,
+    "article_count": 778,
     "schema_version": 2
   },
   "articles": [
+    {
+      "id": "articles/2026/07:venezueladaki-depremlerde-hayatini-kaybedenlerin-sayisi-4-bin-333e-yukseldi_20260711",
+      "slug": "venezueladaki-depremlerde-hayatini-kaybedenlerin-sayisi-4-bin-333e-yukseldi_20260711",
+      "title": "Venezuela'daki depremlerde can kaybı 4 bin 333'e yükseldi",
+      "summary": "Venezuela Ulusal Meclis Başkanı Jorge Rodriguez, 24 Haziran'da meydana gelen depremlerde hayatını kaybedenlerin sayısının 4 bin 333'e yükseldiğini, yaralı sayısının ise 16 bin 740 olduğunu açıkladı.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "11.07.2026",
+      "date_iso": "2026-07-11",
+      "url": "/articles/2026/07/venezueladaki-depremlerde-hayatini-kaybedenlerin-sayisi-4-bin-333e-yukseldi_20260711/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/venezueladaki-depremlerde-hayatini-kaybedenlerin-sayisi-4-bin-333e-yukseldi_20260711/",
+      "detail_json_url": "/data/details/articles/2026/07/venezueladaki-depremlerde-hayatini-kaybedenlerin-sayisi-4-bin-333e-yukseldi_20260711.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/venezueladaki-depremlerde-hayatini-kaybedenlerin-sayisi-4-bin-333e-yukseldi_20260711.webp",
+      "image_alt": "Venezuela'da deprem sonrası yıkılan binalar ve arama kurtarma çalışmaları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/venezueladaki-depremlerde-hayatini-kaybedenlerin-sayisi-4-bin-333e-yukseldi_20260711.webp",
+        "alt": "Venezuela'da deprem sonrası yıkılan binalar ve arama kurtarma çalışmaları."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/gundem/venezueladaki-depremlerde-hayatini-kaybedenlerin-sayisi-4-bin-333e-yukseldi-7621526",
+      "tags": [
+        "Venezuela",
+        "Deprem",
+        "Jorge Rodriguez",
+        "Dünya Haberleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/07:vanda-kultur-yolu-festivali-basladi_20260711",
       "slug": "vanda-kultur-yolu-festivali-basladi_20260711",
@@ -612,6 +649,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:bakan-bak-mugla-yatirim-yurt-kapasitesi_20260711",
+      "slug": "bakan-bak-mugla-yatirim-yurt-kapasitesi_20260711",
+      "title": "Bakan Bak Muğla'da yatırımları değerlendirdi: Barınma kapasitesi 1 milyona ulaştı",
+      "summary": "Gençlik ve Spor Bakanı Osman Aşkın Bak, bir dizi inceleme ve açılış için geldiği Muğla'da spor tesisleri devrimi ve 1 milyon yatak kapasitesine ulaşan yurt yatırımları hakkında açıklamalarda bulundu.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "11.07.2026",
+      "date_iso": "2026-07-11",
+      "url": "/articles/2026/07/bakan-bak-mugla-yatirim-yurt-kapasitesi_20260711/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/bakan-bak-mugla-yatirim-yurt-kapasitesi_20260711/",
+      "detail_json_url": "/data/details/articles/2026/07/bakan-bak-mugla-yatirim-yurt-kapasitesi_20260711.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/bakan-bak-mugla-yatirim-yurt-kapasitesi_20260711.webp",
+      "image_alt": "Gençlik ve Spor Bakanı Osman Aşkın Bak Muğla'daki spor tesislerinde incelemelerde bulunuyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/bakan-bak-mugla-yatirim-yurt-kapasitesi_20260711.webp",
+        "alt": "Gençlik ve Spor Bakanı Osman Aşkın Bak Muğla'daki spor tesislerinde incelemelerde bulunuyor."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/gundem/bakan-bak-savunma-sanayisindeki-oranimizi-yuzde-85lere-ulastirdik-7621487",
+      "tags": [
+        "Osman Aşkın Bak",
+        "Muğla",
+        "Gençlik ve Spor Bakanlığı",
+        "Yurt yatırımları",
+        "Spor tesisleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:arac-kiralama-sektorunde-yaz-hareketliligi_20260711",
       "slug": "arac-kiralama-sektorunde-yaz-hareketliligi_20260711",
       "title": "Araç kiralama sektöründe yaz bereketi: Doluluk yüzde 90'a ulaştı",
@@ -646,6 +721,44 @@
         "yaz sezonu"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:abd-kongre-uyesi-ro-khanna-bati-seriada-alikonuldu_20260711",
+      "slug": "abd-kongre-uyesi-ro-khanna-bati-seriada-alikonuldu_20260711",
+      "title": "ABD Kongre Üyesi Ro Khanna Batı Şeria'da alıkonuldu",
+      "summary": "ABD Kongre Üyesi ve Demokrat Parti'nin 2028 seçimleri için potansiyel başkan adaylarından Ro Khanna, Batı Şeria'ya yaptığı ziyaret sırasında İsrailli yerleşimciler ve İsrail ordusu tarafından 90 dakika boyunca alıkonulduğunu duyurdu.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "11.07.2026",
+      "date_iso": "2026-07-11",
+      "url": "/articles/2026/07/abd-kongre-uyesi-ro-khanna-bati-seriada-alikonuldu_20260711/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/abd-kongre-uyesi-ro-khanna-bati-seriada-alikonuldu_20260711/",
+      "detail_json_url": "/data/details/articles/2026/07/abd-kongre-uyesi-ro-khanna-bati-seriada-alikonuldu_20260711.json",
+      "image_url": "https://img.ekonomim.com/storage/files/images/2026/07/11/israil-abd-kongre-uyesi-ro-khannayi-bati-seriada-alikoydu-fh1q_cover.jpg",
+      "image_alt": "ABD Kongre Üyesi Ro Khanna",
+      "image": {
+        "url": "https://img.ekonomim.com/storage/files/images/2026/07/11/israil-abd-kongre-uyesi-ro-khannayi-bati-seriada-alikoydu-fh1q_cover.jpg",
+        "alt": "ABD Kongre Üyesi Ro Khanna"
+      },
+      "source_name": "Ekonomim",
+      "source_url": "https://www.ekonomim.com/dunya/israil-abd-kongre-uyesi-ro-khannayi-bati-seriada-alikoydu-haberi-905564",
+      "tags": [
+        "Ro Khanna",
+        "Batı Şeria",
+        "İsrail",
+        "ABD",
+        "Filistin"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {

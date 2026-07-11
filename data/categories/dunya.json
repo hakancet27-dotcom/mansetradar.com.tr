@@ -3,12 +3,49 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-11T00:00:00+00:00",
-    "article_count": 775,
+    "article_count": 778,
     "schema_version": 2,
     "category_slug": "dunya",
     "type": "category"
   },
   "articles": [
+    {
+      "id": "articles/2026/07:venezueladaki-depremlerde-hayatini-kaybedenlerin-sayisi-4-bin-333e-yukseldi_20260711",
+      "slug": "venezueladaki-depremlerde-hayatini-kaybedenlerin-sayisi-4-bin-333e-yukseldi_20260711",
+      "title": "Venezuela'daki depremlerde can kaybı 4 bin 333'e yükseldi",
+      "summary": "Venezuela Ulusal Meclis Başkanı Jorge Rodriguez, 24 Haziran'da meydana gelen depremlerde hayatını kaybedenlerin sayısının 4 bin 333'e yükseldiğini, yaralı sayısının ise 16 bin 740 olduğunu açıkladı.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "11.07.2026",
+      "date_iso": "2026-07-11",
+      "url": "/articles/2026/07/venezueladaki-depremlerde-hayatini-kaybedenlerin-sayisi-4-bin-333e-yukseldi_20260711/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/venezueladaki-depremlerde-hayatini-kaybedenlerin-sayisi-4-bin-333e-yukseldi_20260711/",
+      "detail_json_url": "/data/details/articles/2026/07/venezueladaki-depremlerde-hayatini-kaybedenlerin-sayisi-4-bin-333e-yukseldi_20260711.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/venezueladaki-depremlerde-hayatini-kaybedenlerin-sayisi-4-bin-333e-yukseldi_20260711.webp",
+      "image_alt": "Venezuela'da deprem sonrası yıkılan binalar ve arama kurtarma çalışmaları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/venezueladaki-depremlerde-hayatini-kaybedenlerin-sayisi-4-bin-333e-yukseldi_20260711.webp",
+        "alt": "Venezuela'da deprem sonrası yıkılan binalar ve arama kurtarma çalışmaları."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/gundem/venezueladaki-depremlerde-hayatini-kaybedenlerin-sayisi-4-bin-333e-yukseldi-7621526",
+      "tags": [
+        "Venezuela",
+        "Deprem",
+        "Jorge Rodriguez",
+        "Dünya Haberleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/07:kopegin-eve-getirdigi-cisim-bomba-cikti_20260711",
       "slug": "kopegin-eve-getirdigi-cisim-bomba-cikti_20260711",
@@ -44,6 +81,44 @@
         "Sisaket"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:abd-kongre-uyesi-ro-khanna-bati-seriada-alikonuldu_20260711",
+      "slug": "abd-kongre-uyesi-ro-khanna-bati-seriada-alikonuldu_20260711",
+      "title": "ABD Kongre Üyesi Ro Khanna Batı Şeria'da alıkonuldu",
+      "summary": "ABD Kongre Üyesi ve Demokrat Parti'nin 2028 seçimleri için potansiyel başkan adaylarından Ro Khanna, Batı Şeria'ya yaptığı ziyaret sırasında İsrailli yerleşimciler ve İsrail ordusu tarafından 90 dakika boyunca alıkonulduğunu duyurdu.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "11.07.2026",
+      "date_iso": "2026-07-11",
+      "url": "/articles/2026/07/abd-kongre-uyesi-ro-khanna-bati-seriada-alikonuldu_20260711/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/abd-kongre-uyesi-ro-khanna-bati-seriada-alikonuldu_20260711/",
+      "detail_json_url": "/data/details/articles/2026/07/abd-kongre-uyesi-ro-khanna-bati-seriada-alikonuldu_20260711.json",
+      "image_url": "https://img.ekonomim.com/storage/files/images/2026/07/11/israil-abd-kongre-uyesi-ro-khannayi-bati-seriada-alikoydu-fh1q_cover.jpg",
+      "image_alt": "ABD Kongre Üyesi Ro Khanna",
+      "image": {
+        "url": "https://img.ekonomim.com/storage/files/images/2026/07/11/israil-abd-kongre-uyesi-ro-khannayi-bati-seriada-alikoydu-fh1q_cover.jpg",
+        "alt": "ABD Kongre Üyesi Ro Khanna"
+      },
+      "source_name": "Ekonomim",
+      "source_url": "https://www.ekonomim.com/dunya/israil-abd-kongre-uyesi-ro-khannayi-bati-seriada-alikoydu-haberi-905564",
+      "tags": [
+        "Ro Khanna",
+        "Batı Şeria",
+        "İsrail",
+        "ABD",
+        "Filistin"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
