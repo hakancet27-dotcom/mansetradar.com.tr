@@ -3,12 +3,50 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-12T00:00:00+00:00",
-    "article_count": 787,
+    "article_count": 791,
     "schema_version": 2,
     "topic_slug": "ekonomi",
     "type": "topic"
   },
   "articles": [
+    {
+      "id": "articles/2026/07:sakaryanin-lezzet-haritasi-festivalle-kesfediliyor_20260712",
+      "slug": "sakaryanin-lezzet-haritasi-festivalle-kesfediliyor_20260712",
+      "title": "Sakarya'nın Gastronomi Mirası Festivalle Gün Yüzüne Çıkıyor",
+      "summary": "Sakarya, Türkiye Kültür Yolu Festivali kapsamında düzenlenen etkinliklerle zengin gastronomi mirasını ziyaretçilere sunuyor. Şehrin çok kültürlü yapısını yansıtan yöresel lezzetler, yerel ekonomiye ve kültürel hafızanın korunmasına katkı sağlıyor.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "12.07.2026",
+      "date_iso": "2026-07-12",
+      "url": "/articles/2026/07/sakaryanin-lezzet-haritasi-festivalle-kesfediliyor_20260712/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/sakaryanin-lezzet-haritasi-festivalle-kesfediliyor_20260712/",
+      "detail_json_url": "/data/details/articles/2026/07/sakaryanin-lezzet-haritasi-festivalle-kesfediliyor_20260712.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/sakaryanin-lezzet-haritasi-festivalle-kesfediliyor_20260712.webp",
+      "image_alt": "Sakarya'da düzenlenen festivalde sergilenen yöresel yemekler ve lezzet noktaları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/sakaryanin-lezzet-haritasi-festivalle-kesfediliyor_20260712.webp",
+        "alt": "Sakarya'da düzenlenen festivalde sergilenen yöresel yemekler ve lezzet noktaları."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/ekonomi/sakaryanin-lezzet-haritasi-festivalle-kesfediliyor-7621842",
+      "tags": [
+        "Sakarya",
+        "Gastronomi",
+        "Türkiye Kültür Yolu Festivali",
+        "Yöresel Lezzetler",
+        "Ekonomi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/07:kabine-ankaradaki-tarihi-nato-zirvesinin-ardindan-toplaniyor_20260712",
       "slug": "kabine-ankaradaki-tarihi-nato-zirvesinin-ardindan-toplaniyor_20260712",
@@ -43,6 +81,43 @@
         "Recep Tayyip Erdoğan",
         "Ekonomi",
         "Dış Politika"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:2026-ilk-yari-madeni-para-basim-verileri_20260712",
+      "slug": "2026-ilk-yari-madeni-para-basim-verileri_20260712",
+      "title": "2026'nın İlk Yarısında Madeni Para Verileri: 1 ve 5 Kuruş Basılmadı",
+      "summary": "Darphane ve Damga Matbaası Genel Müdürlüğü'nün verilerine göre, 2026 yılının ilk altı ayında piyasaya sürülen toplam madeni para miktarı 169 milyon 960 bine ulaştı. Bu dönemde en çok basılan madeni para 1 lira olurken, 1 ve 5 kuruşlar ise hiç üretilmedi.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "12.07.2026",
+      "date_iso": "2026-07-12",
+      "url": "/articles/2026/07/2026-ilk-yari-madeni-para-basim-verileri_20260712/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/2026-ilk-yari-madeni-para-basim-verileri_20260712/",
+      "detail_json_url": "/data/details/articles/2026/07/2026-ilk-yari-madeni-para-basim-verileri_20260712.json",
+      "image_url": "https://img.ekonomim.com/storage/files/images/2026/07/12/2026nin-ilk-yarisinda-en-cok-1-lira-basildi-iki-madeni-para-rafa-kalkti-yeiu_cover.jpg",
+      "image_alt": "Darphane tarafından basılan madeni paralar.",
+      "image": {
+        "url": "https://img.ekonomim.com/storage/files/images/2026/07/12/2026nin-ilk-yarisinda-en-cok-1-lira-basildi-iki-madeni-para-rafa-kalkti-yeiu_cover.jpg",
+        "alt": "Darphane tarafından basılan madeni paralar."
+      },
+      "source_name": "Ekonomim",
+      "source_url": "https://www.ekonomim.com/ekonomi/2026nin-ilk-yarisinda-en-cok-1-lira-basildi-iki-madeni-para-rafa-kalkti-haberi-905633",
+      "tags": [
+        "Darphane",
+        "madeni para",
+        "ekonomi",
+        "2026 verileri"
       ],
       "quality_score": 76,
       "review_status": "published"
