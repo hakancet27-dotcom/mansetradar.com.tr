@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-12T00:00:00+00:00",
-    "article_count": 797,
+    "article_count": 800,
     "schema_version": 2,
     "topic_slug": "siyaset",
     "type": "topic"
@@ -43,6 +43,44 @@
         "Terörsüz Türkiye",
         "İçişleri Bakanlığı",
         "Güvenlik"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:bakan-gurlek-kazandigi-tazminati-kizilaya-bagisladi_20260712",
+      "slug": "bakan-gurlek-kazandigi-tazminati-kizilaya-bagisladi_20260712",
+      "title": "Bakan Gürlek, kazandığı 150 bin TL tazminatı Kızılay'a bağışladı",
+      "summary": "Adalet Bakanı Akın Gürlek, kişilik haklarının ihlal edildiği gerekçesiyle açtığı dava sonucunda CHP Genel Başkanı Özgür Özel'den kazandığı 150 bin liralık manevi tazminatı Türk Kızılay'a bağışladığını açıkladı.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "12.07.2026",
+      "date_iso": "2026-07-12",
+      "url": "/articles/2026/07/bakan-gurlek-kazandigi-tazminati-kizilaya-bagisladi_20260712/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/bakan-gurlek-kazandigi-tazminati-kizilaya-bagisladi_20260712/",
+      "detail_json_url": "/data/details/articles/2026/07/bakan-gurlek-kazandigi-tazminati-kizilaya-bagisladi_20260712.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/bakan-gurlek-kazandigi-tazminati-kizilaya-bagisladi_20260712.webp",
+      "image_alt": "Adalet Bakanı Akın Gürlek",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/bakan-gurlek-kazandigi-tazminati-kizilaya-bagisladi_20260712.webp",
+        "alt": "Adalet Bakanı Akın Gürlek"
+      },
+      "source_name": "Cumhuriyet Gazetesi",
+      "source_url": "https://www.cumhuriyet.com.tr/siyaset/sorusturmanin-ardindan-bakan-gurlek-kazandigi-tazminati-kizilay-a-bagisladi-2520184",
+      "tags": [
+        "Akın Gürlek",
+        "Kızılay",
+        "Özgür Özel",
+        "tazminat",
+        "siyaset"
       ],
       "quality_score": 86,
       "review_status": "published"
