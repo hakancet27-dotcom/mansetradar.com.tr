@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-12T00:00:00+00:00",
-    "article_count": 794,
+    "article_count": 797,
     "schema_version": 2
   },
   "hero": [
@@ -82,6 +82,43 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:samsung-galaxy-s27-pro-kamera-ozellikleri-degisiyor_20260712",
+      "slug": "samsung-galaxy-s27-pro-kamera-ozellikleri-degisiyor_20260712",
+      "title": "Samsung Galaxy S27 Pro'nun Kamera Özelliklerinde Değişiklik",
+      "summary": "Samsung'un yeni Galaxy S27 Pro modeli için planladığı kamera özelliklerinde değişikliğe gittiği bildiriliyor. Şirketin, cihazı Ultra modeline yakın bir görüntüleme sistemiyle donatmak yerine, ürün gamının ortasında daha dengeli bir konuma yerleştirmesi bekl...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "12.07.2026",
+      "date_iso": "2026-07-12",
+      "url": "/articles/2026/07/samsung-galaxy-s27-pro-kamera-ozellikleri-degisiyor_20260712/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/samsung-galaxy-s27-pro-kamera-ozellikleri-degisiyor_20260712/",
+      "detail_json_url": "/data/details/articles/2026/07/samsung-galaxy-s27-pro-kamera-ozellikleri-degisiyor_20260712.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/208003/1200x675samsung-galaxy-s27-pro-kamerasiyla-uzecek.jpg",
+      "image_alt": "Samsung Galaxy S27 serisi için kamera odaklı konsept görseli.",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/208003/1200x675samsung-galaxy-s27-pro-kamerasiyla-uzecek.jpg",
+        "alt": "Samsung Galaxy S27 serisi için kamera odaklı konsept görseli."
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/samsung-galaxy-s27-pro-kamerasiyla-uzecek--208003",
+      "tags": [
+        "Samsung",
+        "Galaxy S27 Pro",
+        "Akıllı Telefon",
+        "Teknoloji"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:sakaryanin-lezzet-haritasi-festivalle-kesfediliyor_20260712",
       "slug": "sakaryanin-lezzet-haritasi-festivalle-kesfediliyor_20260712",
       "title": "Sakarya'nın Gastronomi Mirası Festivalle Gün Yüzüne Çıkıyor",
@@ -157,6 +194,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:reflect-orbital-uzay-aynalari-fcc-onayi_20260712",
+      "slug": "reflect-orbital-uzay-aynalari-fcc-onayi_20260712",
+      "title": "Reflect Orbital'ın Uzay Aynası Projesine FCC Onayı",
+      "summary": "ABD merkezli teknoloji girişimi Reflect Orbital, Güneş ışığını Dünya'nın belirli bölgelerine yansıtarak yapay gündüz oluşturmayı hedefleyen uydu projesi için ABD Federal İletişim Komisyonu'ndan (FCC) resmi onay aldı.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "12.07.2026",
+      "date_iso": "2026-07-12",
+      "url": "/articles/2026/07/reflect-orbital-uzay-aynalari-fcc-onayi_20260712/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/reflect-orbital-uzay-aynalari-fcc-onayi_20260712/",
+      "detail_json_url": "/data/details/articles/2026/07/reflect-orbital-uzay-aynalari-fcc-onayi_20260712.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/reflect-orbital-uzay-aynalari-fcc-onayi_20260712.webp",
+      "image_alt": "Reflect Orbital'ın yörüngedeki uydu ve ayna sistemi konsepti.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/reflect-orbital-uzay-aynalari-fcc-onayi_20260712.webp",
+        "alt": "Reflect Orbital'ın yörüngedeki uydu ve ayna sistemi konsepti."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/teknoloji/uzaydaki-dev-aynalara-onay-geldi-geceyi-aydinlatacak-uydular-7621949",
+      "tags": [
+        "Reflect Orbital",
+        "Uzay Teknolojileri",
+        "FCC",
+        "Yapay Gündüz",
+        "Gök Bilimi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:nathan-ake-fenerbahce-aciklamalari_20260712",
       "slug": "nathan-ake-fenerbahce-aciklamalari_20260712",
       "title": "Nathan Ake'den Fenerbahçe açıklaması: İlk hedefimiz Şampiyonlar Ligi",
@@ -229,6 +304,44 @@
         "Depremzede sporcu"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:lenovo-legion-r9000x-2026-ozellikleri_20260712",
+      "slug": "lenovo-legion-r9000x-2026-ozellikleri_20260712",
+      "title": "Lenovo Legion R9000X 2026 Tanıtıldı: Ryzen AI Max+ Gücüyle Geliyor",
+      "summary": "Lenovo, Çin pazarında yeni Legion R9000X 2026 modelini tanıttı. AMD'nin Ryzen AI Max+ 392 işlemcisi ve güçlü entegre grafik birimiyle donatılan cihaz, harici ekran kartı olmadan yüksek performans vadediyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "12.07.2026",
+      "date_iso": "2026-07-12",
+      "url": "/articles/2026/07/lenovo-legion-r9000x-2026-ozellikleri_20260712/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/lenovo-legion-r9000x-2026-ozellikleri_20260712/",
+      "detail_json_url": "/data/details/articles/2026/07/lenovo-legion-r9000x-2026-ozellikleri_20260712.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/208005/1200x675lenovo-legion-r9000x-2026-ryzen-ai-max-plus-ile-tanitildi.jpg",
+      "image_alt": "Lenovo Legion R9000X 2026 dizüstü bilgisayarın şık tasarımı.",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/208005/1200x675lenovo-legion-r9000x-2026-ryzen-ai-max-plus-ile-tanitildi.jpg",
+        "alt": "Lenovo Legion R9000X 2026 dizüstü bilgisayarın şık tasarımı."
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/lenovo-legion-r9000x-2026-ryzen-ai-max-plus-ile-tanitildi--208005",
+      "tags": [
+        "Lenovo",
+        "Legion R9000X 2026",
+        "AMD Ryzen AI Max+",
+        "Dizüstü Bilgisayar",
+        "Teknoloji"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -644,118 +757,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:vanda-kultur-yolu-festivali-basladi_20260711",
-      "slug": "vanda-kultur-yolu-festivali-basladi_20260711",
-      "title": "Van’da Kültür Yolu Festivali Başladı: Dokuz Günlük Şölen",
-      "summary": "Türkiye Kültür Yolu Festivali’nin onuncu durağı olan Van’da, dokuz gün sürecek kültür, sanat ve lezzet şöleni düzenlenen törenle başladı. Van Müzesi’nde gerçekleştirilen açılışa Kültür ve Turizm Bakan Yardımcısı Nadir Alpaslan, Van Valisi Dr. Ozan Balcı ve...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "topic_slug": "siyaset",
-      "topic_label": "Siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "11.07.2026",
-      "date_iso": "2026-07-11",
-      "url": "/articles/2026/07/vanda-kultur-yolu-festivali-basladi_20260711/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/vanda-kultur-yolu-festivali-basladi_20260711/",
-      "detail_json_url": "/data/details/articles/2026/07/vanda-kultur-yolu-festivali-basladi_20260711.json",
-      "image_url": "https://img.ekonomim.com/storage/files/images/2026/07/11/vanda-dokuz-gun-surecek-kultur-sanat-ve-lezzet-soleni-basladi-o7lx_cover.gif",
-      "image_alt": "Van Kültür Yolu Festivali açılış töreni",
-      "image": {
-        "url": "https://img.ekonomim.com/storage/files/images/2026/07/11/vanda-dokuz-gun-surecek-kultur-sanat-ve-lezzet-soleni-basladi-o7lx_cover.gif",
-        "alt": "Van Kültür Yolu Festivali açılış töreni"
-      },
-      "source_name": "Ekonomim",
-      "source_url": "https://www.ekonomim.com/kultur-sanat/vanda-dokuz-gun-surecek-kultur-sanat-ve-lezzet-soleni-basladi-haberi-905523",
-      "tags": [
-        "Van",
-        "Kültür Yolu Festivali",
-        "Nadir Alpaslan",
-        "Kültür ve Turizm Bakanlığı"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:suudi-arabistanda-40-yil-mahsur-kalan-ali-baybas-turkiyeye-dondu_20260711",
-      "slug": "suudi-arabistanda-40-yil-mahsur-kalan-ali-baybas-turkiyeye-dondu_20260711",
-      "title": "Suudi Arabistan'da 40 Yıl Mahsur Kalan Ali Baybaş Türkiye'ye Döndü",
-      "summary": "Suudi Arabistan'da yaklaşık 40 yıl önce gittiği ülkede hukuki engeller ve çıkış yasağı nedeniyle mahsur kalan 77 yaşındaki Ali Baybaş, diplomatik girişimler sonucunda Türkiye'ye getirildi.",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "saglik",
-      "topic_label": "Sağlık",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "11.07.2026",
-      "date_iso": "2026-07-11",
-      "url": "/articles/2026/07/suudi-arabistanda-40-yil-mahsur-kalan-ali-baybas-turkiyeye-dondu_20260711/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/suudi-arabistanda-40-yil-mahsur-kalan-ali-baybas-turkiyeye-dondu_20260711/",
-      "detail_json_url": "/data/details/articles/2026/07/suudi-arabistanda-40-yil-mahsur-kalan-ali-baybas-turkiyeye-dondu_20260711.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/suudi-arabistanda-40-yil-mahsur-kalan-ali-baybas-turkiyeye-dondu_20260711.webp",
-      "image_alt": "Ali Baybaş İstanbul Havalimanı'nda karşılanırken",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/suudi-arabistanda-40-yil-mahsur-kalan-ali-baybas-turkiyeye-dondu_20260711.webp",
-        "alt": "Ali Baybaş İstanbul Havalimanı'nda karşılanırken"
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/son-dakika-haberler-ali-baybas-s-arabistan-da-mahsur-kalmisti-tam-40-yil-sonra-3897732",
-      "tags": [
-        "Ali Baybaş",
-        "Suudi Arabistan",
-        "Sivas",
-        "Dışişleri Bakanlığı",
-        "Rukiye Toy"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:sivasta-yasayan-miras-soleni_20260711",
-      "slug": "sivasta-yasayan-miras-soleni_20260711",
-      "title": "Sivas'ta \"Yaşayan Miras Şöleni\" Başladı",
-      "summary": "Kültür ve Turizm Bakanlığı'nın katkılarıyla Sivas'ta düzenlenen \"Yaşayan Miras Şöleni\", 58 farklı ilden gelen 80 somut olmayan kültürel miras taşıyıcısını tarihi Buruciye Medresesi önünde sanatseverlerle bir araya getirdi.",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "11.07.2026",
-      "date_iso": "2026-07-11",
-      "url": "/articles/2026/07/sivasta-yasayan-miras-soleni_20260711/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/sivasta-yasayan-miras-soleni_20260711/",
-      "detail_json_url": "/data/details/articles/2026/07/sivasta-yasayan-miras-soleni_20260711.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/sivasta-yasayan-miras-soleni_20260711.webp",
-      "image_alt": "Sivas'ta düzenlenen Yaşayan Miras Şöleni'nde geleneksel el sanatları stantları.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/sivasta-yasayan-miras-soleni_20260711.webp",
-        "alt": "Sivas'ta düzenlenen Yaşayan Miras Şöleni'nde geleneksel el sanatları stantları."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/sivas-ta-yasayan-miras-soleni-3897763",
-      "tags": [
-        "Sivas",
-        "Yaşayan Miras Şöleni",
-        "Kültür ve Turizm Bakanlığı",
-        "Geleneksel El Sanatları"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -834,6 +835,43 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:samsung-galaxy-s27-pro-kamera-ozellikleri-degisiyor_20260712",
+      "slug": "samsung-galaxy-s27-pro-kamera-ozellikleri-degisiyor_20260712",
+      "title": "Samsung Galaxy S27 Pro'nun Kamera Özelliklerinde Değişiklik",
+      "summary": "Samsung'un yeni Galaxy S27 Pro modeli için planladığı kamera özelliklerinde değişikliğe gittiği bildiriliyor. Şirketin, cihazı Ultra modeline yakın bir görüntüleme sistemiyle donatmak yerine, ürün gamının ortasında daha dengeli bir konuma yerleştirmesi bekl...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "12.07.2026",
+      "date_iso": "2026-07-12",
+      "url": "/articles/2026/07/samsung-galaxy-s27-pro-kamera-ozellikleri-degisiyor_20260712/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/samsung-galaxy-s27-pro-kamera-ozellikleri-degisiyor_20260712/",
+      "detail_json_url": "/data/details/articles/2026/07/samsung-galaxy-s27-pro-kamera-ozellikleri-degisiyor_20260712.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/208003/1200x675samsung-galaxy-s27-pro-kamerasiyla-uzecek.jpg",
+      "image_alt": "Samsung Galaxy S27 serisi için kamera odaklı konsept görseli.",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/208003/1200x675samsung-galaxy-s27-pro-kamerasiyla-uzecek.jpg",
+        "alt": "Samsung Galaxy S27 serisi için kamera odaklı konsept görseli."
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/samsung-galaxy-s27-pro-kamerasiyla-uzecek--208003",
+      "tags": [
+        "Samsung",
+        "Galaxy S27 Pro",
+        "Akıllı Telefon",
+        "Teknoloji"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:sakaryanin-lezzet-haritasi-festivalle-kesfediliyor_20260712",
       "slug": "sakaryanin-lezzet-haritasi-festivalle-kesfediliyor_20260712",
       "title": "Sakarya'nın Gastronomi Mirası Festivalle Gün Yüzüne Çıkıyor",
@@ -909,6 +947,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:reflect-orbital-uzay-aynalari-fcc-onayi_20260712",
+      "slug": "reflect-orbital-uzay-aynalari-fcc-onayi_20260712",
+      "title": "Reflect Orbital'ın Uzay Aynası Projesine FCC Onayı",
+      "summary": "ABD merkezli teknoloji girişimi Reflect Orbital, Güneş ışığını Dünya'nın belirli bölgelerine yansıtarak yapay gündüz oluşturmayı hedefleyen uydu projesi için ABD Federal İletişim Komisyonu'ndan (FCC) resmi onay aldı.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "12.07.2026",
+      "date_iso": "2026-07-12",
+      "url": "/articles/2026/07/reflect-orbital-uzay-aynalari-fcc-onayi_20260712/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/reflect-orbital-uzay-aynalari-fcc-onayi_20260712/",
+      "detail_json_url": "/data/details/articles/2026/07/reflect-orbital-uzay-aynalari-fcc-onayi_20260712.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/reflect-orbital-uzay-aynalari-fcc-onayi_20260712.webp",
+      "image_alt": "Reflect Orbital'ın yörüngedeki uydu ve ayna sistemi konsepti.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/reflect-orbital-uzay-aynalari-fcc-onayi_20260712.webp",
+        "alt": "Reflect Orbital'ın yörüngedeki uydu ve ayna sistemi konsepti."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/teknoloji/uzaydaki-dev-aynalara-onay-geldi-geceyi-aydinlatacak-uydular-7621949",
+      "tags": [
+        "Reflect Orbital",
+        "Uzay Teknolojileri",
+        "FCC",
+        "Yapay Gündüz",
+        "Gök Bilimi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:nathan-ake-fenerbahce-aciklamalari_20260712",
       "slug": "nathan-ake-fenerbahce-aciklamalari_20260712",
       "title": "Nathan Ake'den Fenerbahçe açıklaması: İlk hedefimiz Şampiyonlar Ligi",
@@ -981,6 +1057,44 @@
         "Depremzede sporcu"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:lenovo-legion-r9000x-2026-ozellikleri_20260712",
+      "slug": "lenovo-legion-r9000x-2026-ozellikleri_20260712",
+      "title": "Lenovo Legion R9000X 2026 Tanıtıldı: Ryzen AI Max+ Gücüyle Geliyor",
+      "summary": "Lenovo, Çin pazarında yeni Legion R9000X 2026 modelini tanıttı. AMD'nin Ryzen AI Max+ 392 işlemcisi ve güçlü entegre grafik birimiyle donatılan cihaz, harici ekran kartı olmadan yüksek performans vadediyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "12.07.2026",
+      "date_iso": "2026-07-12",
+      "url": "/articles/2026/07/lenovo-legion-r9000x-2026-ozellikleri_20260712/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/lenovo-legion-r9000x-2026-ozellikleri_20260712/",
+      "detail_json_url": "/data/details/articles/2026/07/lenovo-legion-r9000x-2026-ozellikleri_20260712.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/208005/1200x675lenovo-legion-r9000x-2026-ryzen-ai-max-plus-ile-tanitildi.jpg",
+      "image_alt": "Lenovo Legion R9000X 2026 dizüstü bilgisayarın şık tasarımı.",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/208005/1200x675lenovo-legion-r9000x-2026-ryzen-ai-max-plus-ile-tanitildi.jpg",
+        "alt": "Lenovo Legion R9000X 2026 dizüstü bilgisayarın şık tasarımı."
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/lenovo-legion-r9000x-2026-ryzen-ai-max-plus-ile-tanitildi--208005",
+      "tags": [
+        "Lenovo",
+        "Legion R9000X 2026",
+        "AMD Ryzen AI Max+",
+        "Dizüstü Bilgisayar",
+        "Teknoloji"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -2907,120 +3021,6 @@
         "Zen 2"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:abd-ispanya-nato-gerilimi-ticaret_20260710",
-      "slug": "abd-ispanya-nato-gerilimi-ticaret_20260710",
-      "title": "ABD-İspanya Gerilimi: Ticari İlişkilerde Yeni Bir Dönem mi?",
-      "summary": "NATO zirvesinde savunma bütçeleri nedeniyle yaşanan sert tartışmaların ardından ABD ve İspanya arasındaki ticari ilişkiler mercek altına alındı. Trump’ın İspanya’ya yönelik eleştirileri ve olası ticari kısıtlamalar, 75 milyar dolarlık ticaret hacmini etkile...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "ekonomi",
-      "topic_label": "Ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "10.07.2026",
-      "date_iso": "2026-07-10",
-      "url": "/articles/2026/07/abd-ispanya-nato-gerilimi-ticaret_20260710/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/abd-ispanya-nato-gerilimi-ticaret_20260710/",
-      "detail_json_url": "/data/details/articles/2026/07/abd-ispanya-nato-gerilimi-ticaret_20260710.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/abd-ispanya-nato-gerilimi-ticaret_20260710.webp",
-      "image_alt": "NATO zirvesinde diplomatik görüşmeler",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/abd-ispanya-nato-gerilimi-ticaret_20260710.webp",
-        "alt": "NATO zirvesinde diplomatik görüşmeler"
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/yazarlar/sefer-levent/turk-ihracatcisi-ispanyollarin-boslugunu-doldurur-43234659",
-      "tags": [
-        "ABD",
-        "İspanya",
-        "NATO",
-        "Ticaret",
-        "Savunma Harcamaları"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:88-yasindaki-anthony-hopkins-ilk-kez-single-cikardi_20260710",
-      "slug": "88-yasindaki-anthony-hopkins-ilk-kez-single-cikardi_20260710",
-      "title": "88 yaşındaki Anthony Hopkins'ten müzik dünyasına dev adım",
-      "summary": "Kuzuların Sessizliği ve Fil Adam gibi yapımlarla sinema tarihine geçen Anthony Hopkins, 88 yaşında müzik kariyerinde yeni bir döneme girdi. Decca Classics ile kapsamlı bir kayıt sözleşmesi imzalayan usta oyuncu, ilk single'ı 'Bracken Road'u müzikseverlerin...",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "topic_slug": "magazin",
-      "topic_label": "Magazin",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "10.07.2026",
-      "date_iso": "2026-07-10",
-      "url": "/articles/2026/07/88-yasindaki-anthony-hopkins-ilk-kez-single-cikardi_20260710/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/88-yasindaki-anthony-hopkins-ilk-kez-single-cikardi_20260710/",
-      "detail_json_url": "/data/details/articles/2026/07/88-yasindaki-anthony-hopkins-ilk-kez-single-cikardi_20260710.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/88-yasindaki-anthony-hopkins-ilk-kez-single-cikardi_20260710.webp",
-      "image_alt": "Anthony Hopkins piyano başında müzik çalışmaları yaparken.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/88-yasindaki-anthony-hopkins-ilk-kez-single-cikardi_20260710.webp",
-        "alt": "Anthony Hopkins piyano başında müzik çalışmaları yaparken."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/88-yasindaki-anthony-hopkins-plak-sirketiyle-anlasma-imzaladi-3897550-magazin",
-      "tags": [
-        "Anthony Hopkins",
-        "Müzik",
-        "Decca Classics",
-        "Bracken Road",
-        "Life Is a Dream"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:yapi-kredi-hollanda-30-yilini-kutluyor_20260709",
-      "slug": "yapi-kredi-hollanda-30-yilini-kutluyor_20260709",
-      "title": "Yapı Kredi Hollanda 30. yılını kutluyor: Mevduatın %95'i Hollandalılardan",
-      "summary": "1996 yılından bu yana Hollanda finans ekosisteminde yer alan Yapı Kredi Hollanda, 30'uncu kuruluş yıl dönümünü kutluyor. Banka, Türkiye ile Avrupa arasındaki ticari ilişkilerde stratejik bir köprü görevi üstleniyor.",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "ekonomi",
-      "topic_label": "Ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "09.07.2026",
-      "date_iso": "2026-07-09",
-      "url": "/articles/2026/07/yapi-kredi-hollanda-30-yilini-kutluyor_20260709/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/yapi-kredi-hollanda-30-yilini-kutluyor_20260709/",
-      "detail_json_url": "/data/details/articles/2026/07/yapi-kredi-hollanda-30-yilini-kutluyor_20260709.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/yapi-kredi-hollanda-30-yilini-kutluyor_20260709.webp",
-      "image_alt": "Yapı Kredi Hollanda Genel Müdürü Pınar Salcı ve banka faaliyetleri",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/yapi-kredi-hollanda-30-yilini-kutluyor_20260709.webp",
-        "alt": "Yapı Kredi Hollanda Genel Müdürü Pınar Salcı ve banka faaliyetleri"
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/yapi-kredi-hollanda-da-mevduatin-yuzde-95-i-hollandalilar-dan-olusuyor-3897358-ekonomi",
-      "tags": [
-        "Yapı Kredi",
-        "Hollanda",
-        "Ekonomi",
-        "Bankacılık",
-        "Dış Ticaret"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]
