@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-12T00:00:00+00:00",
-    "article_count": 800,
+    "article_count": 804,
     "schema_version": 2
   },
   "articles": [
@@ -42,6 +42,44 @@
         "binek otomobil"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:suriyede-tarihi-adim-yeni-donemin-ilk-parlamento-oturumu-yapildi_20260712",
+      "slug": "suriyede-tarihi-adim-yeni-donemin-ilk-parlamento-oturumu-yapildi_20260712",
+      "title": "Suriye’de tarihi gün: Yeni dönemde ilk parlamento oturumu yapıldı",
+      "summary": "Suriye’de Beşar Esad rejiminin devrilmesinin ardından geçiş sürecinde tarihi bir adım atıldı. Başkent Şam’da düzenlenen oturumla yeni dönemin ilk halk parlamentosu resmen göreve başladı.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "12.07.2026",
+      "date_iso": "2026-07-12",
+      "url": "/articles/2026/07/suriyede-tarihi-adim-yeni-donemin-ilk-parlamento-oturumu-yapildi_20260712/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/suriyede-tarihi-adim-yeni-donemin-ilk-parlamento-oturumu-yapildi_20260712/",
+      "detail_json_url": "/data/details/articles/2026/07/suriyede-tarihi-adim-yeni-donemin-ilk-parlamento-oturumu-yapildi_20260712.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/suriyede-tarihi-adim-yeni-donemin-ilk-parlamento-oturumu-yapildi_20260712.webp",
+      "image_alt": "Suriye Halk Parlamentosu'nun yeni dönemdeki ilk oturumu Şam'da gerçekleştirildi.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/suriyede-tarihi-adim-yeni-donemin-ilk-parlamento-oturumu-yapildi_20260712.webp",
+        "alt": "Suriye Halk Parlamentosu'nun yeni dönemdeki ilk oturumu Şam'da gerçekleştirildi."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/suriyede-tarihi-adim-esad-rejiminin-devrilmesinden-sonra-ilk-kez-yapildi-43237559",
+      "tags": [
+        "Suriye",
+        "Siyaset",
+        "Parlamento",
+        "Şam",
+        "Abdülhamid el-Avvak"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -345,6 +383,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:korfezde-gerilim-tirmandi-iran-ve-kuveyt-hedef-alindi_20260712",
+      "slug": "korfezde-gerilim-tirmandi-iran-ve-kuveyt-hedef-alindi_20260712",
+      "title": "Körfez'de gerilim tırmandı: İran ve Kuveyt'e saldırılar düzenlendi",
+      "summary": "İran’ın Bender Abbas kenti ve Keşm Adası’na yönelik füze saldırıları düzenlenirken, Kuveyt ordusu kuzey sınır noktalarının ve bir petrol sondaj platformunun saldırıya uğradığını duyurdu.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "12.07.2026",
+      "date_iso": "2026-07-12",
+      "url": "/articles/2026/07/korfezde-gerilim-tirmandi-iran-ve-kuveyt-hedef-alindi_20260712/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/korfezde-gerilim-tirmandi-iran-ve-kuveyt-hedef-alindi_20260712/",
+      "detail_json_url": "/data/details/articles/2026/07/korfezde-gerilim-tirmandi-iran-ve-kuveyt-hedef-alindi_20260712.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/korfezde-gerilim-tirmandi-iran-ve-kuveyt-hedef-alindi_20260712.webp",
+      "image_alt": "Körfez bölgesindeki askeri hareketliliği temsil eden harita ve grafik.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/korfezde-gerilim-tirmandi-iran-ve-kuveyt-hedef-alindi_20260712.webp",
+        "alt": "Körfez bölgesindeki askeri hareketliliği temsil eden harita ve grafik."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/iran-basini-duyurdu-bender-abbas-ve-kesm-adasinda-siddetli-patlama-7622010",
+      "tags": [
+        "İran",
+        "Kuveyt",
+        "Bender Abbas",
+        "Keşm Adası",
+        "Körfez"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:komsusunun-kesip-kopege-yedir-dedigi-kaz-10-yildir-yanindan-ayrilmiyor_20260712",
       "slug": "komsusunun-kesip-kopege-yedir-dedigi-kaz-10-yildir-yanindan-ayrilmiyor_20260712",
       "title": "Komşusunun 'köpeğe yedir' dediği kaz 10 yıldır yanından ayrılmıyor",
@@ -377,6 +453,44 @@
         "Süleyman Koçoğlu",
         "hayvan dostluğu",
         "kaz"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:kktc-basbakani-ustelden-rumlara-cagri-susuz-kaldiginizda-size-de-su-verebiliriz_20260712",
+      "slug": "kktc-basbakani-ustelden-rumlara-cagri-susuz-kaldiginizda-size-de-su-verebiliriz_20260712",
+      "title": "KKTC Başbakanı Üstel'den Rum yönetimine su ve enerji çağrısı",
+      "summary": "Kuzey Kıbrıs Türk Cumhuriyeti (KKTC) Başbakanı Ünal Üstel, Türkiye ile imzalanan doğal gaz tedarik mutabakatına tepki gösteren Güney Kıbrıs Rum Yönetimi'ne (GKRY) yanıt verdi. Üstel, Rum tarafına şikayet etmek yerine KKTC'nin imkanlarından faydalanma çağrıs...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "12.07.2026",
+      "date_iso": "2026-07-12",
+      "url": "/articles/2026/07/kktc-basbakani-ustelden-rumlara-cagri-susuz-kaldiginizda-size-de-su-verebiliriz_20260712/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/kktc-basbakani-ustelden-rumlara-cagri-susuz-kaldiginizda-size-de-su-verebiliriz_20260712/",
+      "detail_json_url": "/data/details/articles/2026/07/kktc-basbakani-ustelden-rumlara-cagri-susuz-kaldiginizda-size-de-su-verebiliriz_20260712.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/kktc-basbakani-ustelden-rumlara-cagri-susuz-kaldiginizda-size-de-su-verebiliriz_20260712.webp",
+      "image_alt": "KKTC Başbakanı Ünal Üstel",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/kktc-basbakani-ustelden-rumlara-cagri-susuz-kaldiginizda-size-de-su-verebiliriz_20260712.webp",
+        "alt": "KKTC Başbakanı Ünal Üstel"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/kktc-basbakani-ustelden-rumlara-cagri-susuz-kaldiginizda-size-de-su-verebiliriz-43237576",
+      "tags": [
+        "KKTC",
+        "Ünal Üstel",
+        "GKRY",
+        "Doğal Gaz",
+        "Türkiye"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -529,6 +643,44 @@
         "bağırsak kangreni",
         "genel cerrahi",
         "Antalya"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:fiba-ticari-gayrimenkul-5-yilda-8-10-avm-projesi-gelistirecek_20260712",
+      "slug": "fiba-ticari-gayrimenkul-5-yilda-8-10-avm-projesi-gelistirecek_20260712",
+      "title": "FİBA Ticari Gayrimenkul’den 5 yıllık büyüme hamlesi: 8-10 yeni AVM",
+      "summary": "FİBA Holding iştiraki FİBA Ticari Gayrimenkul, önümüzdeki 5 yıllık süreçte 8 ila 10 yeni alışveriş merkezi projesini hayata geçirmeyi planlıyor. Şirket, Türkiye ve yurt dışındaki mevcut portföyünü genişletmeyi hedefliyor.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "12.07.2026",
+      "date_iso": "2026-07-12",
+      "url": "/articles/2026/07/fiba-ticari-gayrimenkul-5-yilda-8-10-avm-projesi-gelistirecek_20260712/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/fiba-ticari-gayrimenkul-5-yilda-8-10-avm-projesi-gelistirecek_20260712/",
+      "detail_json_url": "/data/details/articles/2026/07/fiba-ticari-gayrimenkul-5-yilda-8-10-avm-projesi-gelistirecek_20260712.json",
+      "image_url": "https://img.ekonomim.com/storage/files/images/2026/07/12/fiba-ticari-gayrimenkul-5-yilda-8-10-avm-projesi-gelistirecek-wcrf_cover.jpg",
+      "image_alt": "FİBA Ticari Gayrimenkul tarafından yönetilen modern bir alışveriş merkezi binası.",
+      "image": {
+        "url": "https://img.ekonomim.com/storage/files/images/2026/07/12/fiba-ticari-gayrimenkul-5-yilda-8-10-avm-projesi-gelistirecek-wcrf_cover.jpg",
+        "alt": "FİBA Ticari Gayrimenkul tarafından yönetilen modern bir alışveriş merkezi binası."
+      },
+      "source_name": "Ekonomim",
+      "source_url": "https://www.ekonomim.com/sirketler/fiba-ticari-gayrimenkul-5-yilda-8-10-avm-projesi-gelistirecek-haberi-905669",
+      "tags": [
+        "FİBA Ticari Gayrimenkul",
+        "Murat Özyeğin",
+        "Yurdaer Kahraman",
+        "Gayrimenkul Yatırımı",
+        "AVM Projeleri"
       ],
       "quality_score": 76,
       "review_status": "published"
