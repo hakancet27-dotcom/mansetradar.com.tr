@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-13T00:00:00+00:00",
-    "article_count": 812,
+    "article_count": 817,
     "schema_version": 2,
     "section": "articles"
   },
@@ -42,6 +42,45 @@
         "Moskova",
         "İHA",
         "Çornomorsk"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:trump-vefat-eden-senator-grahamin-koltugu-icin-aileden-bir-ismi-isaret-etti_20260713",
+      "slug": "trump-vefat-eden-senator-grahamin-koltugu-icin-aileden-bir-ismi-isaret-etti_20260713",
+      "title": "Trump'tan Vefat Eden Senatör Graham'ın Koltuğu İçin Aileye Yönelik Öneri",
+      "summary": "ABD Başkanı Donald Trump, hayatını kaybeden Cumhuriyetçi Senatör Lindsey Graham'ın yerine geçici senatör olarak kız kardeşi Darline Graham Nordone'un atanmasını önerdi. Trump, sosyal medya hesabından yaptığı paylaşımda, \"Vali Henry McMaster'a, büyük Güney C...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "13.07.2026",
+      "date_iso": "2026-07-13",
+      "url": "/articles/2026/07/trump-vefat-eden-senator-grahamin-koltugu-icin-aileden-bir-ismi-isaret-etti_20260713/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/trump-vefat-eden-senator-grahamin-koltugu-icin-aileden-bir-ismi-isaret-etti_20260713/",
+      "detail_json_url": "/data/details/articles/2026/07/trump-vefat-eden-senator-grahamin-koltugu-icin-aileden-bir-ismi-isaret-etti_20260713.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/trump-vefat-eden-senator-grahamin-koltugu-icin-aileden-bir-ismi-isaret-etti_20260713.webp",
+      "image_alt": "ABD Başkanı Donald Trump",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/trump-vefat-eden-senator-grahamin-koltugu-icin-aileden-bir-ismi-isaret-etti_20260713.webp",
+        "alt": "ABD Başkanı Donald Trump"
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/trump-vefat-eden-grahamin-koltugu-icin-aileden-bir-ismi-isaret-etti-7622596",
+      "tags": [
+        "Donald Trump",
+        "Lindsey Graham",
+        "Darline Graham Nordone",
+        "ABD Senatosu",
+        "Cumhuriyetçi Parti",
+        "Henry McMaster"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -117,6 +156,43 @@
         "Adalet Bakanlığı",
         "Ankara Cumhuriyet Başsavcılığı",
         "Operasyon"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:masak-raporunda-ahbap-dernegi-cevresinde-milyarlik-para-trafigi-iddiasi_20260713",
+      "slug": "masak-raporunda-ahbap-dernegi-cevresinde-milyarlik-para-trafigi-iddiasi_20260713",
+      "title": "MASAK Raporunda Ahbap Derneği Çevresinde Milyarlık Para Trafiği İddiası",
+      "summary": "MASAK tarafından hazırlanan raporda, Ahbap Derneği ile bağlantılı olduğu değerlendirilen üç kişinin banka hesaplarında, mali profilleriyle uyumsuz milyarlarca liralık para trafiği tespit edildi. Raporda, transfer açıklamalarında Haluk Levent isminin sıkça g...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "13.07.2026",
+      "date_iso": "2026-07-13",
+      "url": "/articles/2026/07/masak-raporunda-ahbap-dernegi-cevresinde-milyarlik-para-trafigi-iddiasi_20260713/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/masak-raporunda-ahbap-dernegi-cevresinde-milyarlik-para-trafigi-iddiasi_20260713/",
+      "detail_json_url": "/data/details/articles/2026/07/masak-raporunda-ahbap-dernegi-cevresinde-milyarlik-para-trafigi-iddiasi_20260713.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/masak-raporunda-ahbap-dernegi-cevresinde-milyarlik-para-trafigi-iddiasi_20260713.webp",
+      "image_alt": "MASAK binası önünde inceleme süreci.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/masak-raporunda-ahbap-dernegi-cevresinde-milyarlik-para-trafigi-iddiasi_20260713.webp",
+        "alt": "MASAK binası önünde inceleme süreci."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/son-dakika-masak-raporunda-haluk-levent-detayi-dikkat-ceken-milyarlik-para-trafigi-tespit-edildi-3898120",
+      "tags": [
+        "MASAK",
+        "Ahbap Derneği",
+        "Haluk Levent",
+        "Mali Soruşturma"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -236,6 +312,81 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:bilal-erdogandan-15-temmuz-mesaji-birlik-ve-beraberligin-onemini-gosteren-donum-_20260713",
+      "slug": "bilal-erdogandan-15-temmuz-mesaji-birlik-ve-beraberligin-onemini-gosteren-donum-_20260713",
+      "title": "Bilal Erdoğan'dan 15 Temmuz Mesajı: Birlik ve Beraberliğin Önemini Gösteren Dönüm Noktası",
+      "summary": "Türkiye Gönüllü Teşekküller Vakfı (TGTV) öncülüğünde, 15 Temmuz Derneği işbirliğiyle 15 Temmuz Demokrasi ve Milli Birlik Günü'nün 10. yılı dolayısıyla düzenlenen basın toplantısında konuşan TGTV Mütevelli Heyeti Başkanı Necmeddin Bilal Erdoğan, 15 Temmuz 20...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "13.07.2026",
+      "date_iso": "2026-07-13",
+      "url": "/articles/2026/07/bilal-erdogandan-15-temmuz-mesaji-birlik-ve-beraberligin-onemini-gosteren-donum-_20260713/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/bilal-erdogandan-15-temmuz-mesaji-birlik-ve-beraberligin-onemini-gosteren-donum-_20260713/",
+      "detail_json_url": "/data/details/articles/2026/07/bilal-erdogandan-15-temmuz-mesaji-birlik-ve-beraberligin-onemini-gosteren-donum-_20260713.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/bilal-erdogandan-15-temmuz-mesaji-birlik-ve-beraberligin-onemini-gosteren-donum-_20260713.webp",
+      "image_alt": "Necmeddin Bilal Erdoğan speaks at a press conference commemorating the 10th anniversary of the 15 July Democracy and...",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/bilal-erdogandan-15-temmuz-mesaji-birlik-ve-beraberligin-onemini-gosteren-donum-_20260713.webp",
+        "alt": "Necmeddin Bilal Erdoğan speaks at a press conference commemorating the 10th anniversary of the 15 July Democracy and..."
+      },
+      "source_name": "SABAH",
+      "source_url": "https://www.sabah.com.tr/gundem/2026/07/13/bilal-erdogandan-15-temmuz-mesaji-birlik-ve-beraberligin-onemini-gosteren-donum-noktasi",
+      "tags": [
+        "Bilal Erdoğan",
+        "15 Temmuz",
+        "Demokrasi ve Milli Birlik Günü",
+        "Millet İradesi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:bayraktar-kizilelma-supersonik-fuze-ile-vurdu_20260713",
+      "slug": "bayraktar-kizilelma-supersonik-fuze-ile-vurdu_20260713",
+      "title": "Bayraktar KIZILELMA süpersonik füze ile hedefini tam isabet vurdu",
+      "summary": "Baykar tarafından geliştirilen Türkiye’nin ilk insansız savaş uçağı Bayraktar KIZILELMA, Merzifon’da gerçekleştirilen test kapsamında Roketsan üretimi JET-230 süpersonik füzesiyle 120 kilometrenin üzerindeki mesafeden hedefi başarıyla vurdu.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "13.07.2026",
+      "date_iso": "2026-07-13",
+      "url": "/articles/2026/07/bayraktar-kizilelma-supersonik-fuze-ile-vurdu_20260713/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/bayraktar-kizilelma-supersonik-fuze-ile-vurdu_20260713/",
+      "detail_json_url": "/data/details/articles/2026/07/bayraktar-kizilelma-supersonik-fuze-ile-vurdu_20260713.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/bayraktar-kizilelma-supersonik-fuze-ile-vurdu_20260713.webp",
+      "image_alt": "Bayraktar KIZILELMA insansız savaş uçağı uçuş sırasında.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/bayraktar-kizilelma-supersonik-fuze-ile-vurdu_20260713.webp",
+        "alt": "Bayraktar KIZILELMA insansız savaş uçağı uçuş sırasında."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/bayraktar-kizilelma-supersonik-fuze-ile-vurdu-43238584",
+      "tags": [
+        "Bayraktar KIZILELMA",
+        "Baykar",
+        "JET-230",
+        "Savunma Sanayii",
+        "İnsansız Savaş Uçağı"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:bakan-uraloglu-15-temmuz-gecesini-anlatti_20260713",
       "slug": "bakan-uraloglu-15-temmuz-gecesini-anlatti_20260713",
       "title": "Bakan Uraloğlu 15 Temmuz gecesini anlattı: 29 iş makinesiyle darbecilere engel olduk",
@@ -308,6 +459,44 @@
         "Transfer"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:15-temmuz-taniklari-uskudar-etkinligi_20260713",
+      "slug": "15-temmuz-taniklari-uskudar-etkinligi_20260713",
+      "title": "15 Temmuz'un Tanıkları Üsküdar'da Buluştu: O Gece Bir Destan Yazıldı",
+      "summary": "Türkiye'nin yakın tarihindeki 15 Temmuz darbe girişiminin yıl dönümünde, dönemin önemli tanıkları Üsküdar'daki Enstitü Sosyal binasında bir araya gelerek o geceye dair tanıklıklarını paylaştı.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "13.07.2026",
+      "date_iso": "2026-07-13",
+      "url": "/articles/2026/07/15-temmuz-taniklari-uskudar-etkinligi_20260713/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/15-temmuz-taniklari-uskudar-etkinligi_20260713/",
+      "detail_json_url": "/data/details/articles/2026/07/15-temmuz-taniklari-uskudar-etkinligi_20260713.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/15-temmuz-taniklari-uskudar-etkinligi_20260713.webp",
+      "image_alt": "15 Temmuz anma etkinliğinde konuşma yapan yetkililer.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/15-temmuz-taniklari-uskudar-etkinligi_20260713.webp",
+        "alt": "15 Temmuz anma etkinliğinde konuşma yapan yetkililer."
+      },
+      "source_name": "SABAH",
+      "source_url": "https://www.sabah.com.tr/gundem/2026/07/13/devletin-ust-kademesi-hain-kalkismaya-tanikligini-anlatti-berat-albayrak-o-gece-benzeri-gorulmemis-bir-destandir",
+      "tags": [
+        "15 Temmuz",
+        "Mustafa Çalışkan",
+        "Berat Albayrak",
+        "Üsküdar",
+        "Darbe girişimi"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
