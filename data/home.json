@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-14T00:00:00+00:00",
-    "article_count": 836,
+    "article_count": 837,
     "schema_version": 2
   },
   "hero": [
@@ -80,6 +80,43 @@
         "Serie A"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:suc-suruklenen-cocuklara-yonelik-yeni-duzenleme-tbmmde_20260714",
+      "slug": "suc-suruklenen-cocuklara-yonelik-yeni-duzenleme-tbmmde_20260714",
+      "title": "Suça sürüklenen çocuklara yönelik yeni düzenleme TBMM'de",
+      "summary": "Çocuk Koruma Kanunu ile bazı kanunlarda değişiklik yapılmasını öngören 18 maddelik yasa teklifi, TBMM Başkanlığına sunuldu. Düzenleme, çocukların suça karışmasını önlemeyi, yeniden suç işleme riskini azaltmayı ve çocuk adalet sistemindeki koruyucu mekanizma...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "14.07.2026",
+      "date_iso": "2026-07-14",
+      "url": "/articles/2026/07/suc-suruklenen-cocuklara-yonelik-yeni-duzenleme-tbmmde_20260714/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/suc-suruklenen-cocuklara-yonelik-yeni-duzenleme-tbmmde_20260714/",
+      "detail_json_url": "/data/details/articles/2026/07/suc-suruklenen-cocuklara-yonelik-yeni-duzenleme-tbmmde_20260714.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/suc-suruklenen-cocuklara-yonelik-yeni-duzenleme-tbmmde_20260714.webp",
+      "image_alt": "TBMM binası genel görünüm",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/suc-suruklenen-cocuklara-yonelik-yeni-duzenleme-tbmmde_20260714.webp",
+        "alt": "TBMM binası genel görünüm"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/suc-isleyen-cocuklara-iliskin-duzenlemenin-ayrintilari-ortaya-cikti-43239808",
+      "tags": [
+        "TBMM",
+        "Çocuk Koruma Kanunu",
+        "yasa teklifi",
+        "ceza hukuku"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -722,44 +759,6 @@
       ],
       "quality_score": 76,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:ukrayna-moskova-iha-saldirisi-rusya-liman-misilleme_20260713",
-      "slug": "ukrayna-moskova-iha-saldirisi-rusya-liman-misilleme_20260713",
-      "title": "Ukrayna'dan Moskova'ya dev İHA saldırısı: Rusya'dan limanlara misilleme",
-      "summary": "Ukrayna, dün akşam saatlerinden itibaren Moskova bölgesine 350'den fazla insansız hava aracıyla saldırı düzenledi. Saldırılarda 5 kişi hayatını kaybederken, Rusya ordusu buna karşılık olarak Ukrayna'nın Çornomorsk Limanı'nı yüksek hassasiyetli silahlarla he...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "13.07.2026",
-      "date_iso": "2026-07-13",
-      "url": "/articles/2026/07/ukrayna-moskova-iha-saldirisi-rusya-liman-misilleme_20260713/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/ukrayna-moskova-iha-saldirisi-rusya-liman-misilleme_20260713/",
-      "detail_json_url": "/data/details/articles/2026/07/ukrayna-moskova-iha-saldirisi-rusya-liman-misilleme_20260713.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/ukrayna-moskova-iha-saldirisi-rusya-liman-misilleme_20260713.webp",
-      "image_alt": "Moskova'ya düzenlenen İHA saldırısı sonrası bölgeden yükselen dumanlar.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/ukrayna-moskova-iha-saldirisi-rusya-liman-misilleme_20260713.webp",
-        "alt": "Moskova'ya düzenlenen İHA saldırısı sonrası bölgeden yükselen dumanlar."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/dunya/ukrayna-yuzlerce-iha-ile-moskovaya-saldirdi-rusyadan-yuksek-hassasiyetli-fuzelerle-misilleme-43238226",
-      "tags": [
-        "Rusya",
-        "Ukrayna",
-        "Moskova",
-        "İHA",
-        "Çornomorsk"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -836,6 +835,43 @@
         "Serie A"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:suc-suruklenen-cocuklara-yonelik-yeni-duzenleme-tbmmde_20260714",
+      "slug": "suc-suruklenen-cocuklara-yonelik-yeni-duzenleme-tbmmde_20260714",
+      "title": "Suça sürüklenen çocuklara yönelik yeni düzenleme TBMM'de",
+      "summary": "Çocuk Koruma Kanunu ile bazı kanunlarda değişiklik yapılmasını öngören 18 maddelik yasa teklifi, TBMM Başkanlığına sunuldu. Düzenleme, çocukların suça karışmasını önlemeyi, yeniden suç işleme riskini azaltmayı ve çocuk adalet sistemindeki koruyucu mekanizma...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "14.07.2026",
+      "date_iso": "2026-07-14",
+      "url": "/articles/2026/07/suc-suruklenen-cocuklara-yonelik-yeni-duzenleme-tbmmde_20260714/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/suc-suruklenen-cocuklara-yonelik-yeni-duzenleme-tbmmde_20260714/",
+      "detail_json_url": "/data/details/articles/2026/07/suc-suruklenen-cocuklara-yonelik-yeni-duzenleme-tbmmde_20260714.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/suc-suruklenen-cocuklara-yonelik-yeni-duzenleme-tbmmde_20260714.webp",
+      "image_alt": "TBMM binası genel görünüm",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/suc-suruklenen-cocuklara-yonelik-yeni-duzenleme-tbmmde_20260714.webp",
+        "alt": "TBMM binası genel görünüm"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/suc-isleyen-cocuklara-iliskin-duzenlemenin-ayrintilari-ortaya-cikti-43239808",
+      "tags": [
+        "TBMM",
+        "Çocuk Koruma Kanunu",
+        "yasa teklifi",
+        "ceza hukuku"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -2984,43 +3020,6 @@
         "Dünya Haberleri"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:vanda-kultur-yolu-festivali-basladi_20260711",
-      "slug": "vanda-kultur-yolu-festivali-basladi_20260711",
-      "title": "Van’da Kültür Yolu Festivali Başladı: Dokuz Günlük Şölen",
-      "summary": "Türkiye Kültür Yolu Festivali’nin onuncu durağı olan Van’da, dokuz gün sürecek kültür, sanat ve lezzet şöleni düzenlenen törenle başladı. Van Müzesi’nde gerçekleştirilen açılışa Kültür ve Turizm Bakan Yardımcısı Nadir Alpaslan, Van Valisi Dr. Ozan Balcı ve...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "topic_slug": "siyaset",
-      "topic_label": "Siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "11.07.2026",
-      "date_iso": "2026-07-11",
-      "url": "/articles/2026/07/vanda-kultur-yolu-festivali-basladi_20260711/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/vanda-kultur-yolu-festivali-basladi_20260711/",
-      "detail_json_url": "/data/details/articles/2026/07/vanda-kultur-yolu-festivali-basladi_20260711.json",
-      "image_url": "https://img.ekonomim.com/storage/files/images/2026/07/11/vanda-dokuz-gun-surecek-kultur-sanat-ve-lezzet-soleni-basladi-o7lx_cover.gif",
-      "image_alt": "Van Kültür Yolu Festivali açılış töreni",
-      "image": {
-        "url": "https://img.ekonomim.com/storage/files/images/2026/07/11/vanda-dokuz-gun-surecek-kultur-sanat-ve-lezzet-soleni-basladi-o7lx_cover.gif",
-        "alt": "Van Kültür Yolu Festivali açılış töreni"
-      },
-      "source_name": "Ekonomim",
-      "source_url": "https://www.ekonomim.com/kultur-sanat/vanda-dokuz-gun-surecek-kultur-sanat-ve-lezzet-soleni-basladi-haberi-905523",
-      "tags": [
-        "Van",
-        "Kültür Yolu Festivali",
-        "Nadir Alpaslan",
-        "Kültür ve Turizm Bakanlığı"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]
