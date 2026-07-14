@@ -39,14 +39,6 @@
   "image_url": "https://mansetradar.com.tr/articles/2026/07/images/efkan-ala-15-temmuz-aciklamasi_20260714.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "source_provided",
-  "image_license_note": "RSS source image: Hürriyet",
-  "image_source_url": "https://www.hurriyet.com.tr/gundem/ak-parti-genel-baskanvekili-ala-15-temmuz-gecesi-turksati-kurtaran-formulu-anlatti-43239533",
-  "image_provider": "rss",
-  "image_score": 90,
-  "image_query": "AK Parti Genel Başkanvekili Ala, 15 Temmuz gecesi TÜRKSAT'ı kurtaran formülü anl",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "AK Parti Genel Başkanvekili Efkan Ala, FETÖ'nün 15 Temmuz 2016'daki hain darbe girişiminin 10. yıl dönümünde, o geceye dair kritik detayları ve alınan kararları paylaştı.",
   "language": "Turkish",
   "url_prefix": "articles/2026/07",
@@ -68,10 +60,7 @@
   ],
   "quality_word_count": 248,
   "indexed_on_home": true,
-  "image_identity_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a56278617033712806ff63d.jpg",
-  "original_image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a56278617033712806ff63d.jpg",
-  "image_local_webp": "articles/2026/07/images/efkan-ala-15-temmuz-aciklamasi_20260714.webp",
-  "image_credit": "hurriyet.com.tr",
-  "image_credit_url": "https://www.hurriyet.com.tr/gundem/ak-parti-genel-baskanvekili-ala-15-temmuz-gecesi-turksati-kurtaran-formulu-anlatti-43239533",
-  "image_finalized_at": "2026-07-14T12:41:37.878612Z"
+  "time": "12:15",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }
