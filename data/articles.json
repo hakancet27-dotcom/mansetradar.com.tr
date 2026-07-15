@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-15T00:00:00+00:00",
-    "article_count": 852,
+    "article_count": 857,
     "schema_version": 2
   },
   "articles": [
@@ -46,6 +46,43 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:unlu-isimlerden-15-temmuz-anma-mesajlari_20260715",
+      "slug": "unlu-isimlerden-15-temmuz-anma-mesajlari_20260715",
+      "title": "Ünlü isimlerden 15 Temmuz'un 10. yıl dönümünde anlamlı paylaşımlar",
+      "summary": "15 Temmuz darbe girişiminin 10. yıl dönümünde sanat dünyasının önde gelen isimleri, sosyal medya hesapları üzerinden şehit ve gazileri anan paylaşımlarda bulundu. Sanatçı Kıraç, TBMM'de düzenlenen sergileri ziyaret ederek hain girişime dair dikkat çeken açı...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "magazin",
+      "topic_label": "Magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "15.07.2026",
+      "date_iso": "2026-07-15",
+      "url": "/articles/2026/07/unlu-isimlerden-15-temmuz-anma-mesajlari_20260715/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/unlu-isimlerden-15-temmuz-anma-mesajlari_20260715/",
+      "detail_json_url": "/data/details/articles/2026/07/unlu-isimlerden-15-temmuz-anma-mesajlari_20260715.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/unlu-isimlerden-15-temmuz-anma-mesajlari_20260715.webp",
+      "image_alt": "Sanatçı Kıraç, TBMM'de 15 Temmuz sergisini inceliyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/unlu-isimlerden-15-temmuz-anma-mesajlari_20260715.webp",
+        "alt": "Sanatçı Kıraç, TBMM'de 15 Temmuz sergisini inceliyor."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/magazin/galeri/unlulerden-15-temmuz-paylasimlari-unutmadik-unutturmayacagiz-7623795",
+      "tags": [
+        "15 Temmuz",
+        "Kıraç",
+        "Magazin",
+        "Demokrasi ve Milli Birlik Günü"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:ozgur-ozel-yeni-parti-mesaji_20260715",
       "slug": "ozgur-ozel-yeni-parti-mesaji_20260715",
       "title": "Özgür Özel'den yeni parti açıklaması: İsim ve logo çalışmaları sürüyor",
@@ -78,6 +115,44 @@
         "CHP",
         "Siyaset",
         "15 Temmuz"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:melek-mosso-ahbap-sorusturmasi-aciklamasi_20260715",
+      "slug": "melek-mosso-ahbap-sorusturmasi-aciklamasi_20260715",
+      "title": "Melek Mosso'dan Ahbap Derneği soruşturması açıklaması",
+      "summary": "İstanbul Cumhuriyet Başsavcılığı tarafından Ahbap Derneği'ne yönelik yürütülen soruşturma kapsamında dernek başkanı Haluk Levent gözaltına alındı. Deprem sürecinde dernekle birlikte yardım faaliyetlerinde yer alan şarkıcı Melek Mosso, konuya ilişkin açıklam...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "15.07.2026",
+      "date_iso": "2026-07-15",
+      "url": "/articles/2026/07/melek-mosso-ahbap-sorusturmasi-aciklamasi_20260715/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/melek-mosso-ahbap-sorusturmasi-aciklamasi_20260715/",
+      "detail_json_url": "/data/details/articles/2026/07/melek-mosso-ahbap-sorusturmasi-aciklamasi_20260715.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/melek-mosso-ahbap-sorusturmasi-aciklamasi_20260715.webp",
+      "image_alt": "Melek Mosso, Ahbap Derneği soruşturması hakkında açıklamalarda bulundu.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/melek-mosso-ahbap-sorusturmasi-aciklamasi_20260715.webp",
+        "alt": "Melek Mosso, Ahbap Derneği soruşturması hakkında açıklamalarda bulundu."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/melek-mosso-dan-ahbap-aciklamasi-3898717-magazin",
+      "tags": [
+        "Melek Mosso",
+        "Ahbap Derneği",
+        "Haluk Levent",
+        "Magazin",
+        "Soruşturma"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -385,6 +460,81 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:danla-bilic-saglik-durumu-hakkinda-ilk-kez-konustu_20260715",
+      "slug": "danla-bilic-saglik-durumu-hakkinda-ilk-kez-konustu_20260715",
+      "title": "Danla Bilic sağlık durumu hakkında ilk kez konuştu: Yoğun bakımdan son anda kurtuldum",
+      "summary": "Geçirdiği estetik operasyonlar sonrası yaşadığı komplikasyonlar nedeniyle hastaneye kaldırılan sosyal medya fenomeni Danla Bilic, sağlık durumu hakkında sessizliğini bozdu. Bilic, yoğun bakım iddialarına yanıt vererek yaşadığı süreci anlattı.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "15.07.2026",
+      "date_iso": "2026-07-15",
+      "url": "/articles/2026/07/danla-bilic-saglik-durumu-hakkinda-ilk-kez-konustu_20260715/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/danla-bilic-saglik-durumu-hakkinda-ilk-kez-konustu_20260715/",
+      "detail_json_url": "/data/details/articles/2026/07/danla-bilic-saglik-durumu-hakkinda-ilk-kez-konustu_20260715.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/danla-bilic-saglik-durumu-hakkinda-ilk-kez-konustu_20260715.webp",
+      "image_alt": "Danla Bilic'in sağlık durumu hakkında yaptığı açıklama sonrası fotoğrafı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/danla-bilic-saglik-durumu-hakkinda-ilk-kez-konustu_20260715.webp",
+        "alt": "Danla Bilic'in sağlık durumu hakkında yaptığı açıklama sonrası fotoğrafı."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/magazin/son-dakika-hastanelik-olmustu-danla-bilic-saglik-durumu-hakkinda-ilk-kez-konustu-hicbir-sey-hatirlamiyorum-7623932",
+      "tags": [
+        "Danla Bilic",
+        "magazin",
+        "sağlık",
+        "estetik operasyon",
+        "sosyal medya"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:danla-bilic-saglik-durumu-aciklamasi_20260715",
+      "slug": "danla-bilic-saglik-durumu-aciklamasi_20260715",
+      "title": "Danla Bilic'ten sağlık durumu açıklaması: Yoğun bakımdan son anda döndüm",
+      "summary": "Sosyal medya fenomeni Danla Bilic, geçirdiği yeni ameliyat sonrası sağlık durumu hakkında açıklama yaptı. Yüksek ateş ve tansiyon düşüklüğü nedeniyle yoğun bakıma alınmaktan son anda kurtulduğunu belirten Bilic, zorlu bir süreçten geçtiğini ifade etti.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "15.07.2026",
+      "date_iso": "2026-07-15",
+      "url": "/articles/2026/07/danla-bilic-saglik-durumu-aciklamasi_20260715/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/danla-bilic-saglik-durumu-aciklamasi_20260715/",
+      "detail_json_url": "/data/details/articles/2026/07/danla-bilic-saglik-durumu-aciklamasi_20260715.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/danla-bilic-saglik-durumu-aciklamasi_20260715.webp",
+      "image_alt": "Danla Bilic sağlık durumu hakkında açıklama yaptı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/danla-bilic-saglik-durumu-aciklamasi_20260715.webp",
+        "alt": "Danla Bilic sağlık durumu hakkında açıklama yaptı."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/danla-bilic-yogun-bakima-alinmaktan-son-anda-kurtulmusum-3898741-magazin",
+      "tags": [
+        "Danla Bilic",
+        "sağlık",
+        "magazin",
+        "ameliyat"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:bakan-ciftci-15-temmuz-aciklamasi_20260715",
       "slug": "bakan-ciftci-15-temmuz-aciklamasi_20260715",
       "title": "Bakan Çiftçi: 15 Temmuz, milletimizin şanla ve şerefle yazdığı bir destandır",
@@ -417,6 +567,44 @@
         "İçişleri Bakanı",
         "Gölbaşı",
         "Demokrasi ve Milli Birlik Günü"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:anne-hathaway-43-yasinda-ucuncu-bebegini-bekliyor_20260715",
+      "slug": "anne-hathaway-43-yasinda-ucuncu-bebegini-bekliyor_20260715",
+      "title": "Anne Hathaway 43 yaşında üçüncü kez anne olmaya hazırlanıyor",
+      "summary": "Kariyerinin parlak bir dönemini yaşayan ünlü oyuncu Anne Hathaway, 43 yaşında üçüncü bebeğine hamile olduğunu duyurdu. Eşi Adam Shulman ile yaşadığı bu beklenmedik gelişmeyi paylaşan Hathaway, hamilelik sürecine dair ilk kez konuştu.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "magazin",
+      "topic_label": "Magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "15.07.2026",
+      "date_iso": "2026-07-15",
+      "url": "/articles/2026/07/anne-hathaway-43-yasinda-ucuncu-bebegini-bekliyor_20260715/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/anne-hathaway-43-yasinda-ucuncu-bebegini-bekliyor_20260715/",
+      "detail_json_url": "/data/details/articles/2026/07/anne-hathaway-43-yasinda-ucuncu-bebegini-bekliyor_20260715.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/anne-hathaway-43-yasinda-ucuncu-bebegini-bekliyor_20260715.webp",
+      "image_alt": "Anne Hathaway bir galada kırmızı halıda yürürken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/anne-hathaway-43-yasinda-ucuncu-bebegini-bekliyor_20260715.webp",
+        "alt": "Anne Hathaway bir galada kırmızı halıda yürürken."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/televizyon/43-yasinda-ucuncu-bebegini-bekliyor-son-dakika-hamileligine-biz-de-inanamadik-43240634",
+      "tags": [
+        "Anne Hathaway",
+        "Magazin",
+        "Hamilelik",
+        "Adam Shulman",
+        "Ünlü Haberleri"
       ],
       "quality_score": 86,
       "review_status": "published"
