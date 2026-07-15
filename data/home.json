@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-15T00:00:00+00:00",
-    "article_count": 857,
+    "article_count": 858,
     "schema_version": 2
   },
   "hero": [
@@ -191,6 +191,43 @@
         "Xhelal Sveçla",
         "Snezana Paunovic",
         "Etnik temizlik"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:konyada-feci-kaza-anne-ve-kizi-hayatini-kaybetti_20260715",
+      "slug": "konyada-feci-kaza-anne-ve-kizi-hayatini-kaybetti_20260715",
+      "title": "Konya'da feci kaza: Kontrolden çıkan taksi anne ve kızını hayattan kopardı",
+      "summary": "Konya'nın Karatay ilçesinde, sürücüsünün kontrolünü yitirdiği taksinin kaldırımda yürüyen anne ve kızına çarpması sonucu meydana gelen kazada iki kişi hayatını kaybetti. Kaza anı bir iş yerinin güvenlik kamerasına yansıdı.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "15.07.2026",
+      "date_iso": "2026-07-15",
+      "url": "/articles/2026/07/konyada-feci-kaza-anne-ve-kizi-hayatini-kaybetti_20260715/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/konyada-feci-kaza-anne-ve-kizi-hayatini-kaybetti_20260715/",
+      "detail_json_url": "/data/details/articles/2026/07/konyada-feci-kaza-anne-ve-kizi-hayatini-kaybetti_20260715.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/konyada-feci-kaza-anne-ve-kizi-hayatini-kaybetti_20260715.webp",
+      "image_alt": "Konya'da kaza sonrası olay yerinde inceleme yapan ekipler.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/konyada-feci-kaza-anne-ve-kizi-hayatini-kaybetti_20260715.webp",
+        "alt": "Konya'da kaza sonrası olay yerinde inceleme yapan ekipler."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/konyada-feci-kaza-kontrolden-cikan-taksi-anne-ile-kizini-hayattan-kopardi-kaza-ani-kamerada-43240960",
+      "tags": [
+        "Konya",
+        "Trafik Kazası",
+        "Karatay",
+        "Asayiş"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -719,44 +756,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:trabzonsporda-surpriz-ayrilik-anlasma-tamam-christ-inao-oulai-fiorentina-yolcusu_20260714",
-      "slug": "trabzonsporda-surpriz-ayrilik-anlasma-tamam-christ-inao-oulai-fiorentina-yolcusu_20260714",
-      "title": "Trabzonspor'da büyük transfer: Christ Inao Oulai Fiorentina'ya gidiyor",
-      "summary": "Trabzonspor, geride kalan sezon başında kadrosuna kattığı ve performansıyla taraftarların beğenisini kazanan genç yıldızı Christ Inao Oulai'nin transferi için İtalyan ekibi Fiorentina ile anlaşmaya vardı.",
-      "category": "Spor",
-      "category_slug": "spor",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "14.07.2026",
-      "date_iso": "2026-07-14",
-      "url": "/articles/2026/07/trabzonsporda-surpriz-ayrilik-anlasma-tamam-christ-inao-oulai-fiorentina-yolcusu_20260714/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/trabzonsporda-surpriz-ayrilik-anlasma-tamam-christ-inao-oulai-fiorentina-yolcusu_20260714/",
-      "detail_json_url": "/data/details/articles/2026/07/trabzonsporda-surpriz-ayrilik-anlasma-tamam-christ-inao-oulai-fiorentina-yolcusu_20260714.json",
-      "image_url": "https://images.ntv.com.tr/images/oulai-guendouzi-967300-915769(2).png",
-      "image_alt": "Trabzonspor forması giyen Christ Inao Oulai sahada.",
-      "image": {
-        "url": "https://images.ntv.com.tr/images/oulai-guendouzi-967300-915769(2).png",
-        "alt": "Trabzonspor forması giyen Christ Inao Oulai sahada."
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/sporskor/galeri-trabzonsporda-surpriz-ayrilik-anlasma-tamam-taraftarin-sevgilisi-30-milyon-euroya-gidiyor-1732906",
-      "tags": [
-        "Trabzonspor",
-        "Fiorentina",
-        "Christ Inao Oulai",
-        "Transfer",
-        "Serie A"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -944,6 +943,43 @@
         "Xhelal Sveçla",
         "Snezana Paunovic",
         "Etnik temizlik"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:konyada-feci-kaza-anne-ve-kizi-hayatini-kaybetti_20260715",
+      "slug": "konyada-feci-kaza-anne-ve-kizi-hayatini-kaybetti_20260715",
+      "title": "Konya'da feci kaza: Kontrolden çıkan taksi anne ve kızını hayattan kopardı",
+      "summary": "Konya'nın Karatay ilçesinde, sürücüsünün kontrolünü yitirdiği taksinin kaldırımda yürüyen anne ve kızına çarpması sonucu meydana gelen kazada iki kişi hayatını kaybetti. Kaza anı bir iş yerinin güvenlik kamerasına yansıdı.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "15.07.2026",
+      "date_iso": "2026-07-15",
+      "url": "/articles/2026/07/konyada-feci-kaza-anne-ve-kizi-hayatini-kaybetti_20260715/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/konyada-feci-kaza-anne-ve-kizi-hayatini-kaybetti_20260715/",
+      "detail_json_url": "/data/details/articles/2026/07/konyada-feci-kaza-anne-ve-kizi-hayatini-kaybetti_20260715.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/konyada-feci-kaza-anne-ve-kizi-hayatini-kaybetti_20260715.webp",
+      "image_alt": "Konya'da kaza sonrası olay yerinde inceleme yapan ekipler.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/konyada-feci-kaza-anne-ve-kizi-hayatini-kaybetti_20260715.webp",
+        "alt": "Konya'da kaza sonrası olay yerinde inceleme yapan ekipler."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/konyada-feci-kaza-kontrolden-cikan-taksi-anne-ile-kizini-hayattan-kopardi-kaza-ani-kamerada-43240960",
+      "tags": [
+        "Konya",
+        "Trafik Kazası",
+        "Karatay",
+        "Asayiş"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -2977,44 +3013,6 @@
         "Magazin haberleri"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:reflect-orbital-uzay-aynalari-fcc-onayi_20260712",
-      "slug": "reflect-orbital-uzay-aynalari-fcc-onayi_20260712",
-      "title": "Reflect Orbital'ın Uzay Aynası Projesine FCC Onayı",
-      "summary": "ABD merkezli teknoloji girişimi Reflect Orbital, Güneş ışığını Dünya'nın belirli bölgelerine yansıtarak yapay gündüz oluşturmayı hedefleyen uydu projesi için ABD Federal İletişim Komisyonu'ndan (FCC) resmi onay aldı.",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "topic_slug": "teknoloji",
-      "topic_label": "Teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "12.07.2026",
-      "date_iso": "2026-07-12",
-      "url": "/articles/2026/07/reflect-orbital-uzay-aynalari-fcc-onayi_20260712/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/reflect-orbital-uzay-aynalari-fcc-onayi_20260712/",
-      "detail_json_url": "/data/details/articles/2026/07/reflect-orbital-uzay-aynalari-fcc-onayi_20260712.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/reflect-orbital-uzay-aynalari-fcc-onayi_20260712.webp",
-      "image_alt": "Reflect Orbital'ın yörüngedeki uydu ve ayna sistemi konsepti.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/reflect-orbital-uzay-aynalari-fcc-onayi_20260712.webp",
-        "alt": "Reflect Orbital'ın yörüngedeki uydu ve ayna sistemi konsepti."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/teknoloji/uzaydaki-dev-aynalara-onay-geldi-geceyi-aydinlatacak-uydular-7621949",
-      "tags": [
-        "Reflect Orbital",
-        "Uzay Teknolojileri",
-        "FCC",
-        "Yapay Gündüz",
-        "Gök Bilimi"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]
