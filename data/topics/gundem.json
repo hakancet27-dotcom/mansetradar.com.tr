@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-15T00:00:00+00:00",
-    "article_count": 846,
+    "article_count": 849,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -81,6 +81,43 @@
         "deprem yardımları"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:15-temmuzun-10-yilinda-istanbulda-anma-yuruyusu_20260715",
+      "slug": "15-temmuzun-10-yilinda-istanbulda-anma-yuruyusu_20260715",
+      "title": "15 Temmuz’un 10. yılında İstanbul’da binlerce kişi yürüdü",
+      "summary": "15 Temmuz Demokrasi ve Milli Birlik Günü'nün 10. yıl dönümü kapsamında İstanbul'da düzenlenen 'İrade Bizim, Zafer Bizim' yürüyüşü, binlerce vatandaşın katılımıyla Zincirlikuyu'dan 15 Temmuz Hafıza Müzesi'ne gerçekleştirildi.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "15.07.2026",
+      "date_iso": "2026-07-15",
+      "url": "/articles/2026/07/15-temmuzun-10-yilinda-istanbulda-anma-yuruyusu_20260715/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/15-temmuzun-10-yilinda-istanbulda-anma-yuruyusu_20260715/",
+      "detail_json_url": "/data/details/articles/2026/07/15-temmuzun-10-yilinda-istanbulda-anma-yuruyusu_20260715.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/15-temmuzun-10-yilinda-istanbulda-anma-yuruyusu_20260715.webp",
+      "image_alt": "15 Temmuz'un 10. yıl dönümünde İstanbul'da düzenlenen anma yürüyüşüne katılan binlerce vatandaş.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/15-temmuzun-10-yilinda-istanbulda-anma-yuruyusu_20260715.webp",
+        "alt": "15 Temmuz'un 10. yıl dönümünde İstanbul'da düzenlenen anma yürüyüşüne katılan binlerce vatandaş."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/15-temmuzun-10-yilinda-istanbulda-dikkat-ceken-goruntuler-43240775",
+      "tags": [
+        "15 Temmuz",
+        "İstanbul",
+        "Demokrasi ve Milli Birlik Günü",
+        "Osman Aşkın Bak"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
