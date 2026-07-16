@@ -3,12 +3,49 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-16T00:00:00+00:00",
-    "article_count": 868,
+    "article_count": 871,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
   },
   "articles": [
+    {
+      "id": "articles/2026/07:tarim-ve-orman-bakanligindan-orman-yanginlari-uyarisi_20260716",
+      "slug": "tarim-ve-orman-bakanligindan-orman-yanginlari-uyarisi_20260716",
+      "title": "Tarım ve Orman Bakanlığı'ndan orman yangınları uyarısı: Müebbet hapis cezası var",
+      "summary": "Tarım ve Orman Bakanlığı, yaz döneminde artan orman yangınlarına karşı vatandaşları uyardı. Bakanlık, ihmal sonucu yangına sebep olanlara 10 yıla kadar, kasten yangın çıkaranlara ise müebbet hapis cezası uygulanacağını hatırlattı.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "16.07.2026",
+      "date_iso": "2026-07-16",
+      "url": "/articles/2026/07/tarim-ve-orman-bakanligindan-orman-yanginlari-uyarisi_20260716/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/tarim-ve-orman-bakanligindan-orman-yanginlari-uyarisi_20260716/",
+      "detail_json_url": "/data/details/articles/2026/07/tarim-ve-orman-bakanligindan-orman-yanginlari-uyarisi_20260716.json",
+      "image_url": "https://images.ntv.com.tr/images/2021_Agustos_AA-25239352-401668.webp",
+      "image_alt": "Tarım ve Orman Bakanlığı'nın orman yangınları uyarısı.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/2021_Agustos_AA-25239352-401668.webp",
+        "alt": "Tarım ve Orman Bakanlığı'nın orman yangınları uyarısı."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/tarim-ve-orman-bakanligindan-uyari-muebbet-hapis-cezasi-var-1733216",
+      "tags": [
+        "orman yangını",
+        "Tarım ve Orman Bakanlığı",
+        "hapis cezası",
+        "yangın güvenliği"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/07:red-bull-ucus-gunu-23-agustos-caddebostan_20260716",
       "slug": "red-bull-ucus-gunu-23-agustos-caddebostan_20260716",
@@ -120,6 +157,44 @@
         "Kuzey Anadolu Fay Hattı"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:guney-marmara-otoyolu-projesinde-imar-planlari-onaylandi_20260716",
+      "slug": "guney-marmara-otoyolu-projesinde-imar-planlari-onaylandi_20260716",
+      "title": "Güney Marmara Otoyolu Projesi'nde imar planları onaylandı",
+      "summary": "Kamuoyunda Güney Marmara Otoyolu olarak bilinen Kocaeli-Yalova Otoyolu Projesi'nde imar planı değişiklikleri Kocaeli Büyükşehir Belediye Meclisi tarafından onaylandı. 78 kilometre uzunluğundaki dev projenin planları, 16 Temmuz itibarıyla 30 gün süreyle askı...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "16.07.2026",
+      "date_iso": "2026-07-16",
+      "url": "/articles/2026/07/guney-marmara-otoyolu-projesinde-imar-planlari-onaylandi_20260716/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/guney-marmara-otoyolu-projesinde-imar-planlari-onaylandi_20260716/",
+      "detail_json_url": "/data/details/articles/2026/07/guney-marmara-otoyolu-projesinde-imar-planlari-onaylandi_20260716.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/guney-marmara-otoyolu-projesinde-imar-planlari-onaylandi_20260716.webp",
+      "image_alt": "Güney Marmara Otoyolu projesini temsil eden teknik planlar ve yol inşaatı görseli.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/guney-marmara-otoyolu-projesinde-imar-planlari-onaylandi_20260716.webp",
+        "alt": "Güney Marmara Otoyolu projesini temsil eden teknik planlar ve yol inşaatı görseli."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/guney-marmara-otoyolunda-yeni-gelisme-3898898",
+      "tags": [
+        "Güney Marmara Otoyolu",
+        "Kocaeli Büyükşehir Belediyesi",
+        "Karayolları Genel Müdürlüğü",
+        "İmar Planı",
+        "Yalova"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
