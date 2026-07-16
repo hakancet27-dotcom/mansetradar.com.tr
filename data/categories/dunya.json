@@ -3,12 +3,50 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-16T00:00:00+00:00",
-    "article_count": 876,
+    "article_count": 881,
     "schema_version": 2,
     "category_slug": "dunya",
     "type": "category"
   },
   "articles": [
+    {
+      "id": "articles/2026/07:abd-hurmuz-bogazinda-bender-abbas-yakini-vurdu_20260716",
+      "slug": "abd-hurmuz-bogazinda-bender-abbas-yakini-vurdu_20260716",
+      "title": "İran basını duyurdu: ABD, Hürmüz Boğazı yakınlarını vurdu",
+      "summary": "İran resmi haber ajansı IRNA, ABD ordusunun Hürmüz Boğazı'ndaki Bender Abbas kenti yakınlarına saldırı düzenlediğini duyurdu. Yerel saatle 19:20 civarında gerçekleşen saldırıya ilişkin henüz resmi bir açıklama yapılmadı.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "16.07.2026",
+      "date_iso": "2026-07-16",
+      "url": "/articles/2026/07/abd-hurmuz-bogazinda-bender-abbas-yakini-vurdu_20260716/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/abd-hurmuz-bogazinda-bender-abbas-yakini-vurdu_20260716/",
+      "detail_json_url": "/data/details/articles/2026/07/abd-hurmuz-bogazinda-bender-abbas-yakini-vurdu_20260716.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/abd-hurmuz-bogazinda-bender-abbas-yakini-vurdu_20260716.webp",
+      "image_alt": "Hürmüz Boğazı ve Bender Abbas kıyıları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/abd-hurmuz-bogazinda-bender-abbas-yakini-vurdu_20260716.webp",
+        "alt": "Hürmüz Boğazı ve Bender Abbas kıyıları."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/iran-basini-duyurdu-abd-hurmuzdeki-kilit-noktayi-bir-kez-daha-vurdu-7624630",
+      "tags": [
+        "ABD",
+        "İran",
+        "Hürmüz Boğazı",
+        "Bender Abbas",
+        "Donald Trump"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/07:kosovadan-sirp-bakana-istenmeyen-kisi-karari_20260715",
       "slug": "kosovadan-sirp-bakana-istenmeyen-kisi-karari_20260715",
