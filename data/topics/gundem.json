@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-16T00:00:00+00:00",
-    "article_count": 871,
+    "article_count": 874,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -230,6 +230,44 @@
         "Devlet Memurları Konfederasyonu",
         "Çalışma ve Sosyal Güvenlik Bakanlığı",
         "memur"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:ankara-at-yarisi-tahminleri-misli-altili-analizi_20260716",
+      "slug": "ankara-at-yarisi-tahminleri-misli-altili-analizi_20260716",
+      "title": "Ankara'da At Yarışı Heyecanı: Misli'den Günün Altılı Analizleri",
+      "summary": "Ankara'da düzenlenen at yarışları için Misli editörleri ve yazarları tarafından hazırlanan günün altılı ganyan analizleri açıklandı. Yarışseverlere rehberlik etmesi amacıyla paylaşılan tahminlerde günün bankosu, sürpriz safkanlar ve iki farklı kupon önerisi...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "16.07.2026",
+      "date_iso": "2026-07-16",
+      "url": "/articles/2026/07/ankara-at-yarisi-tahminleri-misli-altili-analizi_20260716/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/ankara-at-yarisi-tahminleri-misli-altili-analizi_20260716/",
+      "detail_json_url": "/data/details/articles/2026/07/ankara-at-yarisi-tahminleri-misli-altili-analizi_20260716.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/ankara-at-yarisi-tahminleri-misli-altili-analizi_20260716.webp",
+      "image_alt": "Ankara hipodromunda yarışa hazırlanan safkan atlar.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/ankara-at-yarisi-tahminleri-misli-altili-analizi_20260716.webp",
+        "alt": "Ankara hipodromunda yarışa hazırlanan safkan atlar."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/gunun-yaris-maratonu-ankarada-basliyor-iste-misliden-gunun-altili-analizi-43241893",
+      "tags": [
+        "at yarışı",
+        "Ankara yarışları",
+        "altılı ganyan",
+        "Misli",
+        "tahmin"
       ],
       "quality_score": 86,
       "review_status": "published"
