@@ -3,12 +3,51 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-16T00:00:00+00:00",
-    "article_count": 874,
+    "article_count": 877,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
   },
   "articles": [
+    {
+      "id": "articles/2026/07:xai-grok-kotuye-kullanan-davaci_20260716",
+      "slug": "xai-grok-kotuye-kullanan-davaci_20260716",
+      "title": "xAI, Yapay Zeka Modelini Kötüye Kullanarak Cinsel İçerik Üreten Kullanıcıya Dava Açtı",
+      "summary": "xAI, yapay zeka modeli Grok'u kullanarak gerçek kişilerin rızası olmadan cinsel içerikli görseller ve videolar oluşturduğu iddia edilen bir kullanıcıya dava açtı. ABD'nin Güney Karolina eyaletinde yaşayan 67 yaşındaki Terry Wayne Harwood hakkında açılan dav...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "16.07.2026",
+      "date_iso": "2026-07-16",
+      "url": "/articles/2026/07/xai-grok-kotuye-kullanan-davaci_20260716/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/xai-grok-kotuye-kullanan-davaci_20260716/",
+      "detail_json_url": "/data/details/articles/2026/07/xai-grok-kotuye-kullanan-davaci_20260716.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/xai-grok-kotuye-kullanan-davaci_20260716.webp",
+      "image_alt": "Yapay zeka ve hukukun sembolize edildiği bir mahkeme salonu.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/xai-grok-kotuye-kullanan-davaci_20260716.webp",
+        "alt": "Yapay zeka ve hukukun sembolize edildiği bir mahkeme salonu."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/teknoloji/xai-grok-ile-cinsel-icerikli-sahte-icerikler-ureten-kullaniciya-dava-acti-7624598",
+      "tags": [
+        "xAI",
+        "Grok",
+        "yapay zeka",
+        "deepfake",
+        "hukuk",
+        "dava"
+      ],
+      "quality_score": 81,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/07:tarim-ve-orman-bakanligindan-orman-yanginlari-uyarisi_20260716",
       "slug": "tarim-ve-orman-bakanligindan-orman-yanginlari-uyarisi_20260716",
