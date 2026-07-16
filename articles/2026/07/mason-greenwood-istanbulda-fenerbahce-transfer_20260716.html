@@ -57,10 +57,30 @@
     .article-meta span { background:#f8fafc; border:1px solid var(--border); padding:4px 9px; border-radius:5px; }
     h1 { font-size:clamp(1.85rem, 3vw, 2.65rem); line-height:1.14; color:#111827; margin-bottom:16px; letter-spacing:0; }
     .spot { font-size:1.14rem; line-height:1.7; color:#374151; border-left:5px solid var(--red); padding:12px 0 12px 18px; margin:0 0 22px; background:#fff8f7; }
+
     /* ARTICLE_READING_UX_START */
-    .article-image { width:min(100%, 760px); margin:0 auto 25px; border-radius:10px; overflow:hidden; background:#111827; }
-    .article-image img { width:100%; height:auto; display:block; aspect-ratio:16/9; object-fit:cover; object-position:center; }
-    .article-image img[src$=".svg"] { object-fit:contain; background:#111827; }
+    /* Read-first article media: preserve framing while shortening the scroll to the story. */
+    .article-shell { max-width:960px; }
+    .article-image {
+      width:min(100%, 760px);
+      margin:0 auto 25px;
+      border-radius:10px;
+      overflow:hidden;
+      background:#111827;
+    }
+    .article-image img {
+      width:100%;
+      height:auto;
+      display:block;
+      aspect-ratio:16 / 9;
+      object-fit:cover;
+      object-position:center;
+    }
+    .article-image img[src$=".svg"] { object-fit:contain; }
+    @media (max-width:720px) {
+      .article-shell { margin-top:16px; }
+      .article-image { width:100%; margin-bottom:20px; border-radius:8px; }
+    }
     /* ARTICLE_READING_UX_END */
     article h2 { font-size:1.35rem; line-height:1.3; margin:28px 0 10px; color:#111827; padding-top:4px; border-top:1px solid var(--border); }
     article h3 { font-size:1.08rem; margin:20px 0 8px; color:#1f2937; }
@@ -153,7 +173,7 @@
       </div>
       <h1>Mason Greenwood İstanbul&#x27;da: Fenerbahçe&#x27;nin Yeni Yıldızı Havalimanına İndi</h1>
       <p class="spot">Fenerbahçe&#x27;nin Marsilya&#x27;dan transfer ettiği İngiliz yıldız Mason Greenwood, İstanbul&#x27;a geldi. Binlerce taraftarın karşıladığı 25 yaşındaki futbolcu, sarı-lacivertli camiaya katıldığı için büyük mutluluk duyduğunu ifade etti.</p>
-      <figure class="article-image"><img src="https://mansetradar.com.tr/articles/2026/07/images/mason-greenwood-istanbulda-fenerbahce-transfer_20260716.webp" alt="Mason Greenwood İstanbul Havalimanı&#x27;nda taraftarlar tarafından karşılanıyor." loading="eager" fetchpriority="high" width="1280" height="720"><figcaption class="image-credit" style="font-size:.78rem;color:#6b7280;text-align:right;padding:7px 10px;background:#f8fafc;">Görsel kaynağı: <a href="https://www.haberturk.com/son-dakika-fenerbahce-nin-yeni-transferi-mason-greenwood-istanbul-da-3898944-spor" target="_blank" rel="nofollow noopener" style="color:#b91c1c;text-decoration:none;font-weight:700;">haberturk.com</a></figcaption></figure>
+      <figure class="article-image"><img src="https://mansetradar.com.tr/articles/2026/07/images/mason-greenwood-istanbulda-fenerbahce-transfer_20260716.webp" alt="Mason Greenwood İstanbul Havalimanı&#x27;nda taraftarlar tarafından karşılanıyor." loading="eager" fetchpriority="high" width="1280" height="720"></figure>
       <h2>İstanbul'da Coşkulu Karşılama</h2> <p>Fenerbahçe'nin Marsilya'dan kadrosuna kattığı Mason Greenwood, İstanbul'a ulaştı. Manchester'dan kalkan tarifeli uçakla saat 16.25 sularında İstanbul Havalimanı'na iniş yapan 25 yaşındaki İngiliz futbolcuyu, Fenerbahçe Başkan Vekili Barış Göktürk, Futboldan Sorumlu Yönetici Cihan Kamer, Futbol Direktörü Oğuz Çetin ve Başkan Aziz Yıldırım'ın kızı Yaz Yıldırım karşıladı. Havalimanı çıkışında yoğun güvenlik önlemleri altında toplanan binlerce sarı-lacivertli taraftar, Greenwood'a büyük sevgi gösterilerinde bulundu. Taraftarlara üçlü çektiren oyuncu, ailesiyle birlikte kendisini bekleyen araca binerek havalimanından ayrıldı.</p> <h2>Greenwood: "Sahada Gollerle Karşılık Vereceğim"</h2> <p>Havalimanında FB TV'ye açıklamalarda bulunan Mason Greenwood, transfer sürecinin uzun ve tamamlanması zaman alan bir süreç olduğunu belirtti. Fenerbahçe'de olmaktan dolayı çok mutlu ve heyecanlı olduğunu ifade eden yıldız oyuncu, "Beni karşılayan herkese teşekkür ediyorum. Fenerbahçe taraftarları çok büyük. Umarım bu sevginin karşılığını sahada atacağım gollerle verebilirim" dedi. Ailesinin de İstanbul'a gelmekten dolayı heyecanlı olduğunu belirten Greenwood, kız arkadaşının Türk kültürünü keşfetmeyi sabırsızlıkla beklediğini dile getirdi.</p> <h2>Transferde Aziz Yıldırım Etkisi</h2> <p>Fenerbahçe Futboldan Sorumlu Yöneticisi Cihan Kamer, transferin gerçekleşmesinde Başkan Aziz Yıldırım'ın büyük emekleri olduğunu vurguladı. Vedat Muriqi ve Ake transferlerinin ardından Greenwood ile kadroyu güçlendirdiklerini belirten Kamer, yarın saat 15.00'te düzenlenecek basın toplantısında detaylı açıklamaların yapılacağını duyurdu. Kamer, "Bu transfer gerçekleştiyse Aziz Yıldırım sayesinde gerçekleşti. Sonu şampiyonluk olsun" ifadelerini kullandı.</p><p class="article-source"><strong>Kaynak:</strong> haberturk.com</p>
       <div class="tag-list"><span>Fenerbahçe</span><span>Mason Greenwood</span><span>Transfer</span><span>Süper Lig</span><span>Aziz Yıldırım</span></div>
       <div class="article-share" aria-label="share-news"><span class="share-label">Haberi Paylaş</span><a class="share-link share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F07%2Fmason-greenwood-istanbulda-fenerbahce-transfer_20260716%2F&text=Mason+Greenwood+%C4%B0stanbul%27da%3A+Fenerbah%C3%A7e%27nin+Yeni+Y%C4%B1ld%C4%B1z%C4%B1+Havaliman%C4%B1na+%C4%B0ndi" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a><a class="share-link share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F07%2Fmason-greenwood-istanbulda-fenerbahce-transfer_20260716%2F" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a><a class="share-link share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Mason+Greenwood+%C4%B0stanbul%27da%3A+Fenerbah%C3%A7e%27nin+Yeni+Y%C4%B1ld%C4%B1z%C4%B1+Havaliman%C4%B1na+%C4%B0ndi%20https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F07%2Fmason-greenwood-istanbulda-fenerbahce-transfer_20260716%2F" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a><a class="share-link share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F07%2Fmason-greenwood-istanbulda-fenerbahce-transfer_20260716%2F&text=Mason+Greenwood+%C4%B0stanbul%27da%3A+Fenerbah%C3%A7e%27nin+Yeni+Y%C4%B1ld%C4%B1z%C4%B1+Havaliman%C4%B1na+%C4%B0ndi" aria-label="Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a></div>
