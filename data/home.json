@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-17T00:00:00+00:00",
-    "article_count": 890,
+    "article_count": 892,
     "schema_version": 2
   },
   "hero": [
@@ -309,6 +309,43 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:dem-parti-heyeti-imraliya-gidecek_20260717",
+      "slug": "dem-parti-heyeti-imraliya-gidecek_20260717",
+      "title": "DEM Parti Heyeti 23 Temmuz'da İmralı'ya Gidiyor",
+      "summary": "DEM Parti İmralı Heyeti, terörsüz Türkiye süreci kapsamında PKK elebaşı Abdullah Öcalan ile görüşmek üzere 23 Temmuz'da İmralı Adası'na gidecek.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/dem-parti-heyeti-imraliya-gidecek_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/dem-parti-heyeti-imraliya-gidecek_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/dem-parti-heyeti-imraliya-gidecek_20260717.json",
+      "image_url": "https://images.ntv.com.tr/images/AbdullahÖcalanveDEMPartiHeyeti-766449(2).jpg",
+      "image_alt": "TBMM binası ve Türk bayrağı.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/AbdullahÖcalanveDEMPartiHeyeti-766449(2).jpg",
+        "alt": "TBMM binası ve Türk bayrağı."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/dem-parti-heyeti-imraliya-gidecek-1733341",
+      "tags": [
+        "DEM Parti",
+        "İmralı",
+        "Abdullah Öcalan",
+        "Siyaset"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:daha-17-dizisi-yeni-bolum-fragmani-deniz-aras-itiraf_20260717",
       "slug": "daha-17-dizisi-yeni-bolum-fragmani-deniz-aras-itiraf_20260717",
       "title": "Daha 17 dizisinde duygusal itiraf: Deniz'in mektubu ortaya çıktı",
@@ -341,6 +378,43 @@
         "Nesrin Cavadzade",
         "Kanal D",
         "Dizi haberleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717",
+      "slug": "bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717",
+      "title": "Bakan Memişoğlu: Dünyanın en iyi sağlık hizmetleri Türkiye'de",
+      "summary": "Sağlık Bakanı Kemal Memişoğlu, Aydın Valiliği'ni ziyaret ederek kentteki sağlık yatırımlarını değerlendirdi. Türkiye'nin son 24 yılda sağlıkta büyük bir dönüşüm yaşadığını belirten Memişoğlu, dünyanın en iyi sağlık hizmetlerinin Türkiye'de sunulduğunu ifade...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717.webp",
+      "image_alt": "Sağlık Bakanı Kemal Memişoğlu Aydın'da açıklamalarda bulunuyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717.webp",
+        "alt": "Sağlık Bakanı Kemal Memişoğlu Aydın'da açıklamalarda bulunuyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede-43242778",
+      "tags": [
+        "Kemal Memişoğlu",
+        "Aydın",
+        "Sağlık Bakanlığı",
+        "Sağlıkta Dönüşüm"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -682,81 +756,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:guney-marmara-otoyolu-projesinde-imar-planlari-onaylandi_20260716",
-      "slug": "guney-marmara-otoyolu-projesinde-imar-planlari-onaylandi_20260716",
-      "title": "Güney Marmara Otoyolu Projesi'nde imar planları onaylandı",
-      "summary": "Kamuoyunda Güney Marmara Otoyolu olarak bilinen Kocaeli-Yalova Otoyolu Projesi'nde imar planı değişiklikleri Kocaeli Büyükşehir Belediye Meclisi tarafından onaylandı. 78 kilometre uzunluğundaki dev projenin planları, 16 Temmuz itibarıyla 30 gün süreyle askı...",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "16.07.2026",
-      "date_iso": "2026-07-16",
-      "url": "/articles/2026/07/guney-marmara-otoyolu-projesinde-imar-planlari-onaylandi_20260716/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/guney-marmara-otoyolu-projesinde-imar-planlari-onaylandi_20260716/",
-      "detail_json_url": "/data/details/articles/2026/07/guney-marmara-otoyolu-projesinde-imar-planlari-onaylandi_20260716.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/guney-marmara-otoyolu-projesinde-imar-planlari-onaylandi_20260716.webp",
-      "image_alt": "Güney Marmara Otoyolu projesini temsil eden teknik planlar ve yol inşaatı görseli.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/guney-marmara-otoyolu-projesinde-imar-planlari-onaylandi_20260716.webp",
-        "alt": "Güney Marmara Otoyolu projesini temsil eden teknik planlar ve yol inşaatı görseli."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/guney-marmara-otoyolunda-yeni-gelisme-3898898",
-      "tags": [
-        "Güney Marmara Otoyolu",
-        "Kocaeli Büyükşehir Belediyesi",
-        "Karayolları Genel Müdürlüğü",
-        "İmar Planı",
-        "Yalova"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:fenerbahcenin-yeni-transferi-mason-greenwood-istanbulda_20260716",
-      "slug": "fenerbahcenin-yeni-transferi-mason-greenwood-istanbulda_20260716",
-      "title": "Fenerbahçe'nin Yeni Yıldızı Mason Greenwood İstanbul'da",
-      "summary": "Fenerbahçe'nin 4 yıllık sözleşme ile kadrosuna kattığı İngiliz yıldız Mason Greenwood, İstanbul'a geldi. Sarı-lacivertli taraftarların yoğun ilgi gösterdiği oyuncu, yeni macerasına başlamaya hazır olduğunu belirtti.",
-      "category": "Spor",
-      "category_slug": "spor",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "16.07.2026",
-      "date_iso": "2026-07-16",
-      "url": "/articles/2026/07/fenerbahcenin-yeni-transferi-mason-greenwood-istanbulda_20260716/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/fenerbahcenin-yeni-transferi-mason-greenwood-istanbulda_20260716/",
-      "detail_json_url": "/data/details/articles/2026/07/fenerbahcenin-yeni-transferi-mason-greenwood-istanbulda_20260716.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/fenerbahcenin-yeni-transferi-mason-greenwood-istanbulda_20260716.webp",
-      "image_alt": "Mason Greenwood İstanbul'a gelişinde taraftarlarla buluştu.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/fenerbahcenin-yeni-transferi-mason-greenwood-istanbulda_20260716.webp",
-        "alt": "Mason Greenwood İstanbul'a gelişinde taraftarlarla buluştu."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/live-fenerbahcenin-yeni-transferi-mason-greenwood-istanbula-geliyor-43241941",
-      "tags": [
-        "Fenerbahçe",
-        "Mason Greenwood",
-        "Transfer",
-        "Süper Lig"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -1062,6 +1061,43 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:dem-parti-heyeti-imraliya-gidecek_20260717",
+      "slug": "dem-parti-heyeti-imraliya-gidecek_20260717",
+      "title": "DEM Parti Heyeti 23 Temmuz'da İmralı'ya Gidiyor",
+      "summary": "DEM Parti İmralı Heyeti, terörsüz Türkiye süreci kapsamında PKK elebaşı Abdullah Öcalan ile görüşmek üzere 23 Temmuz'da İmralı Adası'na gidecek.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/dem-parti-heyeti-imraliya-gidecek_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/dem-parti-heyeti-imraliya-gidecek_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/dem-parti-heyeti-imraliya-gidecek_20260717.json",
+      "image_url": "https://images.ntv.com.tr/images/AbdullahÖcalanveDEMPartiHeyeti-766449(2).jpg",
+      "image_alt": "TBMM binası ve Türk bayrağı.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/AbdullahÖcalanveDEMPartiHeyeti-766449(2).jpg",
+        "alt": "TBMM binası ve Türk bayrağı."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/dem-parti-heyeti-imraliya-gidecek-1733341",
+      "tags": [
+        "DEM Parti",
+        "İmralı",
+        "Abdullah Öcalan",
+        "Siyaset"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:daha-17-dizisi-yeni-bolum-fragmani-deniz-aras-itiraf_20260717",
       "slug": "daha-17-dizisi-yeni-bolum-fragmani-deniz-aras-itiraf_20260717",
       "title": "Daha 17 dizisinde duygusal itiraf: Deniz'in mektubu ortaya çıktı",
@@ -1094,6 +1130,43 @@
         "Nesrin Cavadzade",
         "Kanal D",
         "Dizi haberleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717",
+      "slug": "bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717",
+      "title": "Bakan Memişoğlu: Dünyanın en iyi sağlık hizmetleri Türkiye'de",
+      "summary": "Sağlık Bakanı Kemal Memişoğlu, Aydın Valiliği'ni ziyaret ederek kentteki sağlık yatırımlarını değerlendirdi. Türkiye'nin son 24 yılda sağlıkta büyük bir dönüşüm yaşadığını belirten Memişoğlu, dünyanın en iyi sağlık hizmetlerinin Türkiye'de sunulduğunu ifade...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717.webp",
+      "image_alt": "Sağlık Bakanı Kemal Memişoğlu Aydın'da açıklamalarda bulunuyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717.webp",
+        "alt": "Sağlık Bakanı Kemal Memişoğlu Aydın'da açıklamalarda bulunuyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede-43242778",
+      "tags": [
+        "Kemal Memişoğlu",
+        "Aydın",
+        "Sağlık Bakanlığı",
+        "Sağlıkta Dönüşüm"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -2933,82 +3006,6 @@
         "İspanya Kraliyet Ailesi",
         "Kral Felipe",
         "Dünya Haberleri"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:okan-buruk-tan-transfer-ve-sampiyonluk-aciklamalari_20260714",
-      "slug": "okan-buruk-tan-transfer-ve-sampiyonluk-aciklamalari_20260714",
-      "title": "Okan Buruk'tan 5. Şampiyonluk Hedefi ve Transfer Açıklaması",
-      "summary": "Galatasaray Teknik Direktörü Okan Buruk, Demirören Haber Ajansı'na verdiği özel röportajda yeni sezon hedeflerini ve transfer sürecini değerlendirdi. Buruk, üst üste 5. şampiyonluk hedefine odaklandıklarını vurgularken, Icardi transferindeki son durumu payl...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "14.07.2026",
-      "date_iso": "2026-07-14",
-      "url": "/articles/2026/07/okan-buruk-tan-transfer-ve-sampiyonluk-aciklamalari_20260714/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/okan-buruk-tan-transfer-ve-sampiyonluk-aciklamalari_20260714/",
-      "detail_json_url": "/data/details/articles/2026/07/okan-buruk-tan-transfer-ve-sampiyonluk-aciklamalari_20260714.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/okan-buruk-tan-transfer-ve-sampiyonluk-aciklamalari_20260714.webp",
-      "image_alt": "Galatasaray Teknik Direktörü Okan Buruk antrenman sahasında açıklamalarda bulunuyor.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/okan-buruk-tan-transfer-ve-sampiyonluk-aciklamalari_20260714.webp",
-        "alt": "Galatasaray Teknik Direktörü Okan Buruk antrenman sahasında açıklamalarda bulunuyor."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/galatasaray-da-okan-buruk-tan-transfer-sozleri-icardi-lemina-sara-davinson-can-uzun-bruno-fernandes-3898410-spor",
-      "tags": [
-        "Galatasaray",
-        "Okan Buruk",
-        "Transfer",
-        "Mauro Icardi",
-        "Süper Lig"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:oguzhan-ugur-ve-eda-eceden-pismanlik-aciklamasi_20260714",
-      "slug": "oguzhan-ugur-ve-eda-eceden-pismanlik-aciklamasi_20260714",
-      "title": "Oğuzhan Uğur ve Eda Ece'den pişmanlık açıklaması",
-      "summary": "Ahbap Derneği'ne yönelik yürütülen soruşturma sürecinde Oğuzhan Uğur, yardım faaliyetleri konusundaki tutumu nedeniyle pişmanlığını ifade etti. Oyuncu Eda Ece ise 2023 yılındaki ödül töreninde deprem bölgesi seçim sonuçlarına yönelik yaptığı açıklamalar içi...",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "14.07.2026",
-      "date_iso": "2026-07-14",
-      "url": "/articles/2026/07/oguzhan-ugur-ve-eda-eceden-pismanlik-aciklamasi_20260714/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/oguzhan-ugur-ve-eda-eceden-pismanlik-aciklamasi_20260714/",
-      "detail_json_url": "/data/details/articles/2026/07/oguzhan-ugur-ve-eda-eceden-pismanlik-aciklamasi_20260714.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/oguzhan-ugur-ve-eda-eceden-pismanlik-aciklamasi_20260714.webp",
-      "image_alt": "Oğuzhan Uğur ve Eda Ece'nin fotoğrafları.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/oguzhan-ugur-ve-eda-eceden-pismanlik-aciklamasi_20260714.webp",
-        "alt": "Oğuzhan Uğur ve Eda Ece'nin fotoğrafları."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/oguzhan-ugur-ve-eda-ece-nin-pismanligi-3898481-magazin",
-      "tags": [
-        "Oğuzhan Uğur",
-        "Eda Ece",
-        "Haluk Levent",
-        "Ahbap Derneği",
-        "Magazin"
       ],
       "quality_score": 86,
       "review_status": "published"
