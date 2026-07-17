@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-17T00:00:00+00:00",
-    "article_count": 898,
+    "article_count": 903,
     "schema_version": 2,
     "topic_slug": "dunya",
     "type": "topic"
@@ -45,6 +45,43 @@
         "TIME"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:avrupada-sicak-dalgasi-bitti-firtina-ve-yanginlar-vurdu_20260717",
+      "slug": "avrupada-sicak-dalgasi-bitti-firtina-ve-yanginlar-vurdu_20260717",
+      "title": "Avrupa'da aşırı sıcaklar yerini fırtına ve yangınlara bıraktı",
+      "summary": "Avrupa genelinde etkili olan aşırı sıcak hava dalgası yerini şiddetli fırtınalara, kuraklığa ve orman yangınlarına bıraktı. Fransa ve Almanya'da ağaç devrilmesi ve yıldırım çarpması sonucu 3 kişi hayatını kaybetti.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/avrupada-sicak-dalgasi-bitti-firtina-ve-yanginlar-vurdu_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/avrupada-sicak-dalgasi-bitti-firtina-ve-yanginlar-vurdu_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/avrupada-sicak-dalgasi-bitti-firtina-ve-yanginlar-vurdu_20260717.json",
+      "image_url": "https://images.ntv.com.tr/images/images-471065.jpeg",
+      "image_alt": "Avrupa'da fırtına sonrası devrilen ağaçlar ve orman yangını müdahalesi.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/images-471065.jpeg",
+        "alt": "Avrupa'da fırtına sonrası devrilen ağaçlar ve orman yangını müdahalesi."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/dunya/galeri-sicak-dalgasi-bitti-avrupayi-bu-kez-de-firtina-ve-yanginlar-vurdu-1733378",
+      "tags": [
+        "Avrupa",
+        "Hava durumu",
+        "Orman yangını",
+        "Fırtına"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {

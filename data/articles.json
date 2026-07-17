@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-17T00:00:00+00:00",
-    "article_count": 898,
+    "article_count": 903,
     "schema_version": 2
   },
   "articles": [
@@ -309,6 +309,82 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:los-angeles-dev-kure-muhendislik_20260717",
+      "slug": "los-angeles-dev-kure-muhendislik_20260717",
+      "title": "Los Angeles'taki Dev Küre: Mühendislik Harikası Oditoryum",
+      "summary": "Los Angeles'ta bulunan Academy Museum of Motion Pictures bünyesindeki David Geffen Theater, dört ana destek noktası üzerinde yükselen küresel tasarımı ve sismik izolasyon teknolojisiyle dikkat çekiyor. Eylül 2021'de ziyarete açılan ve yaklaşık 1000 seyirci...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/los-angeles-dev-kure-muhendislik_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/los-angeles-dev-kure-muhendislik_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/los-angeles-dev-kure-muhendislik_20260717.json",
+      "image_url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/7/kurejpg-fchUxT9IMUOh2gKtx1Apig.jpg",
+      "image_alt": "Academy Museum of Motion Pictures bünyesindeki küresel David Geffen Theater yapısı.",
+      "image": {
+        "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/7/kurejpg-fchUxT9IMUOh2gKtx1Apig.jpg",
+        "alt": "Academy Museum of Motion Pictures bünyesindeki küresel David Geffen Theater yapısı."
+      },
+      "source_name": "Dünya haberleri - Son dakika dünya haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/4-ayaklari-uzerinde-duran-dev-bir-kure-insa-ettiler-1000-kisiyi-tasiyor-p337363",
+      "tags": [
+        "Los Angeles",
+        "Academy Museum",
+        "Mühendislik",
+        "Sismik İzolasyon",
+        "David Geffen Theater"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:kktc-cumhurbaskani-erhurman-guterresin-adaya-gelme-kararini-olumlu-karsiliyoruz_20260717",
+      "slug": "kktc-cumhurbaskani-erhurman-guterresin-adaya-gelme-kararini-olumlu-karsiliyoruz_20260717",
+      "title": "KKTC Cumhurbaşkanı Erhürman: Guterres’in adaya gelme kararını olumlu karşılıyoruz",
+      "summary": "KKTC Cumhurbaşkanı Tufan Erhürman, BM Genel Sekreteri Antonio Guterres’in 27-29 Temmuz tarihlerinde Kıbrıs’a gerçekleştireceği resmi ziyareti olumlu karşıladıklarını açıkladı.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/kktc-cumhurbaskani-erhurman-guterresin-adaya-gelme-kararini-olumlu-karsiliyoruz_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/kktc-cumhurbaskani-erhurman-guterresin-adaya-gelme-kararini-olumlu-karsiliyoruz_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/kktc-cumhurbaskani-erhurman-guterresin-adaya-gelme-kararini-olumlu-karsiliyoruz_20260717.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/kktc-cumhurbaskani-erhurman-guterresin-adaya-gelme-kararini-olumlu-karsiliyoruz_20260717.webp",
+      "image_alt": "KKTC Cumhurbaşkanı Tufan Erhürman ve BM Genel Sekreteri Antonio Guterres",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/kktc-cumhurbaskani-erhurman-guterresin-adaya-gelme-kararini-olumlu-karsiliyoruz_20260717.webp",
+        "alt": "KKTC Cumhurbaşkanı Tufan Erhürman ve BM Genel Sekreteri Antonio Guterres"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/kktc-cumhurbaskani-erhurman-guterresin-adaya-gelme-kararini-olumlu-karsiliyoruz-43243248",
+      "tags": [
+        "KKTC",
+        "Tufan Erhürman",
+        "Antonio Guterres",
+        "Kıbrıs",
+        "Birleşmiş Milletler"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:kaldirimdaki-gokcenin-olumune-neden-olan-surucuye-5-yil-4-ay-hapis-cezasi_20260717",
       "slug": "kaldirimdaki-gokcenin-olumune-neden-olan-surucuye-5-yil-4-ay-hapis-cezasi_20260717",
       "title": "Kaldırımda yürüyen Gökçe'nin ölümüne neden olan sürücüye 5 yıl 4 ay hapis",
@@ -344,6 +420,43 @@
         "yargı"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:jasmine-teaa-gogus-estetigi-dogum-gunu-kutlamasi_20260717",
+      "slug": "jasmine-teaa-gogus-estetigi-dogum-gunu-kutlamasi_20260717",
+      "title": "Jasmine Teaa'dan sıra dışı gelenek: Göğüs estetiğinin 'doğum gününü' kutluyor",
+      "summary": "Sosyal medya fenomeni Jasmine Teaa, 2021 yılında 1 milyon TL harcayarak yaptırdığı göğüs estetiği operasyonunun yıl dönümünü her yıl pasta keserek kutluyor. Fenomenin bu ilginç geleneği, dünyanın dört bir yanındaki takipçilerinden gelen lüks hediyelerle kür...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/jasmine-teaa-gogus-estetigi-dogum-gunu-kutlamasi_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/jasmine-teaa-gogus-estetigi-dogum-gunu-kutlamasi_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/jasmine-teaa-gogus-estetigi-dogum-gunu-kutlamasi_20260717.json",
+      "image_url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/7/gogusameliyatiolankadinjpg-7-b95FSJKkasuADbvFN82g.JPG",
+      "image_alt": "Jasmine Teaa sosyal medya paylaşımı",
+      "image": {
+        "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/7/gogusameliyatiolankadinjpg-7-b95FSJKkasuADbvFN82g.JPG",
+        "alt": "Jasmine Teaa sosyal medya paylaşımı"
+      },
+      "source_name": "Dünya haberleri - Son dakika dünya haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/milyonluk-estetigini-pasta-keserek-kutluyor-hayranlarinin-gonderdigi-hediyeler-agizlari-acik-birakti-p337372",
+      "tags": [
+        "Jasmine Teaa",
+        "estetik",
+        "magazin",
+        "sosyal medya"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -499,6 +612,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:dunya-kupasi-finali-oncesi-hava-kirliligi-alarm_20260717",
+      "slug": "dunya-kupasi-finali-oncesi-hava-kirliligi-alarm_20260717",
+      "title": "Dünya Kupası Finali Öncesi Hava Kirliliği Alarmı: Sağlık Riski Artıyor",
+      "summary": "Kanada'daki orman yangınlarından kaynaklanan yoğun duman, ABD'nin New York ve New Jersey eyaletlerinde hava kalitesini tehlikeli seviyelere düşürdü. Pazar günü oynanacak 2026 FIFA Dünya Kupası finali öncesinde uzmanlar, dışarıda geçirilen sürenin sağlık üze...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/dunya-kupasi-finali-oncesi-hava-kirliligi-alarm_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/dunya-kupasi-finali-oncesi-hava-kirliligi-alarm_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/dunya-kupasi-finali-oncesi-hava-kirliligi-alarm_20260717.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/dunya-kupasi-finali-oncesi-hava-kirliligi-alarm_20260717.webp",
+      "image_alt": "ABD'de orman yangını dumanı nedeniyle oluşan hava kirliliği.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/dunya-kupasi-finali-oncesi-hava-kirliligi-alarm_20260717.webp",
+        "alt": "ABD'de orman yangını dumanı nedeniyle oluşan hava kirliliği."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/dunya-kupasi-finali-oncesi-havadaki-tehlike-kan-dolasimina-karisiyor-3-saat-bile-tehlikeli-7625155",
+      "tags": [
+        "Dünya Kupası",
+        "Hava Kirliliği",
+        "ABD",
+        "Orman Yangını",
+        "Sağlık"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:dem-parti-heyeti-imraliya-gidecek_20260717",
       "slug": "dem-parti-heyeti-imraliya-gidecek_20260717",
       "title": "DEM Parti Heyeti 23 Temmuz'da İmralı'ya Gidiyor",
@@ -607,6 +758,43 @@
         "Sağlıkta Dönüşüm"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:avrupada-sicak-dalgasi-bitti-firtina-ve-yanginlar-vurdu_20260717",
+      "slug": "avrupada-sicak-dalgasi-bitti-firtina-ve-yanginlar-vurdu_20260717",
+      "title": "Avrupa'da aşırı sıcaklar yerini fırtına ve yangınlara bıraktı",
+      "summary": "Avrupa genelinde etkili olan aşırı sıcak hava dalgası yerini şiddetli fırtınalara, kuraklığa ve orman yangınlarına bıraktı. Fransa ve Almanya'da ağaç devrilmesi ve yıldırım çarpması sonucu 3 kişi hayatını kaybetti.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/avrupada-sicak-dalgasi-bitti-firtina-ve-yanginlar-vurdu_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/avrupada-sicak-dalgasi-bitti-firtina-ve-yanginlar-vurdu_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/avrupada-sicak-dalgasi-bitti-firtina-ve-yanginlar-vurdu_20260717.json",
+      "image_url": "https://images.ntv.com.tr/images/images-471065.jpeg",
+      "image_alt": "Avrupa'da fırtına sonrası devrilen ağaçlar ve orman yangını müdahalesi.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/images-471065.jpeg",
+        "alt": "Avrupa'da fırtına sonrası devrilen ağaçlar ve orman yangını müdahalesi."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/dunya/galeri-sicak-dalgasi-bitti-avrupayi-bu-kez-de-firtina-ve-yanginlar-vurdu-1733378",
+      "tags": [
+        "Avrupa",
+        "Hava durumu",
+        "Orman yangını",
+        "Fırtına"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
