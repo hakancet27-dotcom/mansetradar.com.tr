@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-17T00:00:00+00:00",
-    "article_count": 897,
+    "article_count": 898,
     "schema_version": 2
   },
   "hero": [
@@ -304,6 +304,44 @@
         "Turgutlu",
         "asayiş",
         "Gökhan Güler"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:kaldirimdaki-gokcenin-olumune-neden-olan-surucuye-5-yil-4-ay-hapis-cezasi_20260717",
+      "slug": "kaldirimdaki-gokcenin-olumune-neden-olan-surucuye-5-yil-4-ay-hapis-cezasi_20260717",
+      "title": "Kaldırımda yürüyen Gökçe'nin ölümüne neden olan sürücüye 5 yıl 4 ay hapis",
+      "summary": "Eskişehir'de kaldırımda yürüyen Gökçe Kurtulmuş'a otomobiliyle çarparak ölümüne neden olan sürücü Emine A., yargılandığı davada 5 yıl 4 ay hapis cezasına çarptırıldı. Mahkeme, sanığın tahliyesine karar verdi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/kaldirimdaki-gokcenin-olumune-neden-olan-surucuye-5-yil-4-ay-hapis-cezasi_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/kaldirimdaki-gokcenin-olumune-neden-olan-surucuye-5-yil-4-ay-hapis-cezasi_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/kaldirimdaki-gokcenin-olumune-neden-olan-surucuye-5-yil-4-ay-hapis-cezasi_20260717.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/kaldirimdaki-gokcenin-olumune-neden-olan-surucuye-5-yil-4-ay-hapis-cezasi_20260717.webp",
+      "image_alt": "Eskişehir Adliyesi binası.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/kaldirimdaki-gokcenin-olumune-neden-olan-surucuye-5-yil-4-ay-hapis-cezasi_20260717.webp",
+        "alt": "Eskişehir Adliyesi binası."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kaldirimdaki-gokcenin-olumune-neden-olan-surucuye-5-yil-4-ay-hapis-cezasi-ve-tahliye-43242990",
+      "tags": [
+        "Eskişehir",
+        "Gökçe Kurtulmuş",
+        "trafik kazası",
+        "hapis cezası",
+        "yargı"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -721,43 +759,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:tarim-ve-orman-bakanligindan-orman-yanginlari-uyarisi_20260716",
-      "slug": "tarim-ve-orman-bakanligindan-orman-yanginlari-uyarisi_20260716",
-      "title": "Tarım ve Orman Bakanlığı'ndan orman yangınları uyarısı: Müebbet hapis cezası var",
-      "summary": "Tarım ve Orman Bakanlığı, yaz döneminde artan orman yangınlarına karşı vatandaşları uyardı. Bakanlık, ihmal sonucu yangına sebep olanlara 10 yıla kadar, kasten yangın çıkaranlara ise müebbet hapis cezası uygulanacağını hatırlattı.",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "16.07.2026",
-      "date_iso": "2026-07-16",
-      "url": "/articles/2026/07/tarim-ve-orman-bakanligindan-orman-yanginlari-uyarisi_20260716/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/tarim-ve-orman-bakanligindan-orman-yanginlari-uyarisi_20260716/",
-      "detail_json_url": "/data/details/articles/2026/07/tarim-ve-orman-bakanligindan-orman-yanginlari-uyarisi_20260716.json",
-      "image_url": "https://images.ntv.com.tr/images/2021_Agustos_AA-25239352-401668.webp",
-      "image_alt": "Tarım ve Orman Bakanlığı'nın orman yangınları uyarısı.",
-      "image": {
-        "url": "https://images.ntv.com.tr/images/2021_Agustos_AA-25239352-401668.webp",
-        "alt": "Tarım ve Orman Bakanlığı'nın orman yangınları uyarısı."
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/turkiye/tarim-ve-orman-bakanligindan-uyari-muebbet-hapis-cezasi-var-1733216",
-      "tags": [
-        "orman yangını",
-        "Tarım ve Orman Bakanlığı",
-        "hapis cezası",
-        "yangın güvenliği"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -1058,6 +1059,44 @@
         "Turgutlu",
         "asayiş",
         "Gökhan Güler"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:kaldirimdaki-gokcenin-olumune-neden-olan-surucuye-5-yil-4-ay-hapis-cezasi_20260717",
+      "slug": "kaldirimdaki-gokcenin-olumune-neden-olan-surucuye-5-yil-4-ay-hapis-cezasi_20260717",
+      "title": "Kaldırımda yürüyen Gökçe'nin ölümüne neden olan sürücüye 5 yıl 4 ay hapis",
+      "summary": "Eskişehir'de kaldırımda yürüyen Gökçe Kurtulmuş'a otomobiliyle çarparak ölümüne neden olan sürücü Emine A., yargılandığı davada 5 yıl 4 ay hapis cezasına çarptırıldı. Mahkeme, sanığın tahliyesine karar verdi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/kaldirimdaki-gokcenin-olumune-neden-olan-surucuye-5-yil-4-ay-hapis-cezasi_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/kaldirimdaki-gokcenin-olumune-neden-olan-surucuye-5-yil-4-ay-hapis-cezasi_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/kaldirimdaki-gokcenin-olumune-neden-olan-surucuye-5-yil-4-ay-hapis-cezasi_20260717.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/kaldirimdaki-gokcenin-olumune-neden-olan-surucuye-5-yil-4-ay-hapis-cezasi_20260717.webp",
+      "image_alt": "Eskişehir Adliyesi binası.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/kaldirimdaki-gokcenin-olumune-neden-olan-surucuye-5-yil-4-ay-hapis-cezasi_20260717.webp",
+        "alt": "Eskişehir Adliyesi binası."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kaldirimdaki-gokcenin-olumune-neden-olan-surucuye-5-yil-4-ay-hapis-cezasi-ve-tahliye-43242990",
+      "tags": [
+        "Eskişehir",
+        "Gökçe Kurtulmuş",
+        "trafik kazası",
+        "hapis cezası",
+        "yargı"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -2975,43 +3014,6 @@
         "Şehitler"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:uludag-premium-ultra-trail-23-ulkeden-2-bin-853-sporcu-agirlayacak_20260714",
-      "slug": "uludag-premium-ultra-trail-23-ulkeden-2-bin-853-sporcu-agirlayacak_20260714",
-      "title": "Uludağ Premium Ultra Trail’de 23 ülkeden 2 bin 853 sporcu buluşuyor",
-      "summary": "Bursa’nın simgesi Uludağ, 17-19 Temmuz tarihleri arasında dokuzuncu kez düzenlenecek Uludağ Premium Ultra Trail organizasyonuna ev sahipliği yapacak. 23 farklı ülkeden toplam 2 bin 853 sporcunun katılacağı dev organizasyon, beş farklı parkurda gerçekleşecek.",
-      "category": "Spor",
-      "category_slug": "spor",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "14.07.2026",
-      "date_iso": "2026-07-14",
-      "url": "/articles/2026/07/uludag-premium-ultra-trail-23-ulkeden-2-bin-853-sporcu-agirlayacak_20260714/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/uludag-premium-ultra-trail-23-ulkeden-2-bin-853-sporcu-agirlayacak_20260714/",
-      "detail_json_url": "/data/details/articles/2026/07/uludag-premium-ultra-trail-23-ulkeden-2-bin-853-sporcu-agirlayacak_20260714.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/uludag-premium-ultra-trail-23-ulkeden-2-bin-853-sporcu-agirlayacak_20260714.webp",
-      "image_alt": "Uludağ Premium Ultra Trail yarışından genel bir görünüm.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/uludag-premium-ultra-trail-23-ulkeden-2-bin-853-sporcu-agirlayacak_20260714.webp",
-        "alt": "Uludağ Premium Ultra Trail yarışından genel bir görünüm."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/uludag-premium-ultra-traile-23-ulkeden-2-binin-ustunde-sporcu-katilacak-43239766",
-      "tags": [
-        "Uludağ Premium Ultra Trail",
-        "Bursa",
-        "Doğa Koşusu",
-        "Spor"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]
