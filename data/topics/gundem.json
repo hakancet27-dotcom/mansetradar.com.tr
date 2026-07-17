@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-17T00:00:00+00:00",
-    "article_count": 903,
+    "article_count": 906,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -343,6 +343,43 @@
         "Hasan Karataş",
         "Odunpazarı",
         "asayiş"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:danla-bilic-saglik-durumu-aciklamasi_20260717",
+      "slug": "danla-bilic-saglik-durumu-aciklamasi_20260717",
+      "title": "Danla Bilic'ten sağlık durumu açıklaması: Yoğun bakım iddialarına yanıt verdi",
+      "summary": "Geçirdiği estetik operasyonlar sonrası yaşadığı komplikasyonlar nedeniyle hastaneye kaldırılan sosyal medya fenomeni Danla Bilic, hakkında çıkan yoğun bakım iddialarına açıklık getirdi. Tedavisi devam eden Bilic, hastaneden yeni bir paylaşımda bulundu.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/danla-bilic-saglik-durumu-aciklamasi_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/danla-bilic-saglik-durumu-aciklamasi_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/danla-bilic-saglik-durumu-aciklamasi_20260717.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/danla-bilic-saglik-durumu-aciklamasi_20260717.webp",
+      "image_alt": "Danla Bilic hastane odasında tedavi sürecini paylaştı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/danla-bilic-saglik-durumu-aciklamasi_20260717.webp",
+        "alt": "Danla Bilic hastane odasında tedavi sürecini paylaştı."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/magazin/yogun-bakimda-iddiasi-sevenlerini-korkutmustu-danla-bilic-hastaneden-paylasti-7625255",
+      "tags": [
+        "Danla Bilic",
+        "Magazin",
+        "Sağlık",
+        "Estetik operasyon"
       ],
       "quality_score": 86,
       "review_status": "published"
