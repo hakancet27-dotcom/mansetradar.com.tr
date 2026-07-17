@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-17T00:00:00+00:00",
-    "article_count": 892,
+    "article_count": 897,
     "schema_version": 2
   },
   "articles": [
@@ -43,6 +43,44 @@
         "stand-up"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:turkiye-metal-ihracatinda-rekor-birim-fiyatlar-zirveye-ulasti_20260717",
+      "slug": "turkiye-metal-ihracatinda-rekor-birim-fiyatlar-zirveye-ulasti_20260717",
+      "title": "Türkiye Metal İhracatında Rekor: Birim Fiyatlar Zirveye Ulaştı",
+      "summary": "İstanbul Demir ve Demir Dışı Metaller İhracatçıları Birliği (İDDMİB) tarafından hazırlanan TR-METALENDEKS verilerine göre, Türkiye metal sanayi ihracatı haziran ayında miktar ve değer bazında yeniden yükselişe geçti. Ortalama ihracat birim fiyatı ise 2019'd...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/turkiye-metal-ihracatinda-rekor-birim-fiyatlar-zirveye-ulasti_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/turkiye-metal-ihracatinda-rekor-birim-fiyatlar-zirveye-ulasti_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/turkiye-metal-ihracatinda-rekor-birim-fiyatlar-zirveye-ulasti_20260717.json",
+      "image_url": "https://img.ekonomim.com/storage/files/images/2026/07/17/metal-endeks-yonunu-tekrar-yukari-cevirdi-birim-fiyatlar-tarihi-zirveye-cikti-qj5o_cover.png",
+      "image_alt": "Metal sanayi üretim tesisinde işlenen metal ürünler.",
+      "image": {
+        "url": "https://img.ekonomim.com/storage/files/images/2026/07/17/metal-endeks-yonunu-tekrar-yukari-cevirdi-birim-fiyatlar-tarihi-zirveye-cikti-qj5o_cover.png",
+        "alt": "Metal sanayi üretim tesisinde işlenen metal ürünler."
+      },
+      "source_name": "Ekonomim",
+      "source_url": "https://www.ekonomim.com/ekonomi/metal-endeks-yonunu-tekrar-yukari-cevirdi-birim-fiyatlar-tarihi-zirveye-cikti-haberi-906716",
+      "tags": [
+        "İDDMİB",
+        "metal ihracatı",
+        "TR-METALENDEKS",
+        "ekonomi",
+        "ihracat verileri"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -271,6 +309,82 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:istanbul-global-e-ihracat-zirvesi-igexx-2026_20260717",
+      "slug": "istanbul-global-e-ihracat-zirvesi-igexx-2026_20260717",
+      "title": "İstanbul Global E-İhracat Zirvesi 2026 İçin Geri Sayım Başladı",
+      "summary": "Türkiye’nin 6,4 milyar dolarlık e-ihracat hacmini büyütmeyi hedefleyen İstanbul Global E-Export Summit (IGEXX 2026), 3-5 Eylül 2026 tarihlerinde Haliç Kongre Merkezi’nde düzenlenecek.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/istanbul-global-e-ihracat-zirvesi-igexx-2026_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/istanbul-global-e-ihracat-zirvesi-igexx-2026_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/istanbul-global-e-ihracat-zirvesi-igexx-2026_20260717.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/istanbul-global-e-ihracat-zirvesi-igexx-2026_20260717.webp",
+      "image_alt": "İstanbul Global E-Export Summit (IGEXX 2026) hazırlıkları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/istanbul-global-e-ihracat-zirvesi-igexx-2026_20260717.webp",
+        "alt": "İstanbul Global E-Export Summit (IGEXX 2026) hazırlıkları."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/kuresel-e-ihracatin-kalbi-istanbul-da-atacak-60-ulke-40-pazar-yeri-3899176-teknoloji",
+      "tags": [
+        "IGEXX 2026",
+        "e-ihracat",
+        "İstanbul",
+        "dijital ticaret",
+        "e-ticaret"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:iran-disisleri-bakani-arakciden-israilin-abddeki-dijital-nufuz-operasyonuna-tepk_20260717",
+      "slug": "iran-disisleri-bakani-arakciden-israilin-abddeki-dijital-nufuz-operasyonuna-tepk_20260717",
+      "title": "İran Dışişleri Bakanı Arakçi'den İsrail'in ABD'deki 'Dijital Nüfuz' Operasyonuna Sert Tepki",
+      "summary": "İran Dışişleri Bakanı Abbas Arakçi, TIME dergisinin ortaya çıkardığı, İsrail'in ABD'de yürüttüğü gizli dijital nüfuz operasyonuna sert tepki gösterdi. Arakçi, İsrail'in ABD yönetimini 'kazanılamayacak bir savaşa' sürüklemek için manipülasyon kampanyası yürü...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/iran-disisleri-bakani-arakciden-israilin-abddeki-dijital-nufuz-operasyonuna-tepk_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/iran-disisleri-bakani-arakciden-israilin-abddeki-dijital-nufuz-operasyonuna-tepk_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/iran-disisleri-bakani-arakciden-israilin-abddeki-dijital-nufuz-operasyonuna-tepk_20260717.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/iran-disisleri-bakani-arakciden-israilin-abddeki-dijital-nufuz-operasyonuna-tepk_20260717.webp",
+      "image_alt": "İran Dışişleri Bakanı Abbas Arakçi ve dijital manipülasyonu temsil eden grafikler.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/iran-disisleri-bakani-arakciden-israilin-abddeki-dijital-nufuz-operasyonuna-tepk_20260717.webp",
+        "alt": "İran Dışişleri Bakanı Abbas Arakçi ve dijital manipülasyonu temsil eden grafikler."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-iran-disisleri-bakani-arakciden-carpici-aciklamalar-israil-abdyi-sonu-gelmez-bir-savasa-cekmeye-calisiyor-7625138",
+      "tags": [
+        "Abbas Arakçi",
+        "İsrail",
+        "ABD",
+        "Dijital Manipülasyon",
+        "TIME"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:eskisehirde-yasli-adami-14-saat-telefonda-tutup-dolandirdilar_20260717",
       "slug": "eskisehirde-yasli-adami-14-saat-telefonda-tutup-dolandirdilar_20260717",
       "title": "Eskişehir'de yaşlı adamı 14 saat telefonda tutup dolandırdılar",
@@ -304,6 +418,44 @@
         "Hasan Karataş",
         "Odunpazarı",
         "asayiş"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:erzurum-ve-erzincan-truf-mantari-rezervi_20260717",
+      "slug": "erzurum-ve-erzincan-truf-mantari-rezervi_20260717",
+      "title": "Erzurum ve Erzincan'da 22 Tonluk Trüf Mantarı Rezervi Tespit Edildi",
+      "summary": "Erzurum ve Erzincan genelinde yürütülen kapsamlı envanter çalışmaları sonucunda, 112 bin hektarlık alanda yaklaşık 22 ton trüf mantarı varlığı tespit edildi. 2024 yılından bu yana yürütülen satış faaliyetleri ile ülke ekonomisine 30 milyon lira değerinde ka...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/erzurum-ve-erzincan-truf-mantari-rezervi_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/erzurum-ve-erzincan-truf-mantari-rezervi_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/erzurum-ve-erzincan-truf-mantari-rezervi_20260717.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/erzurum-ve-erzincan-truf-mantari-rezervi_20260717.webp",
+      "image_alt": "Topraktan yeni çıkarılmış trüf mantarları",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/erzurum-ve-erzincan-truf-mantari-rezervi_20260717.webp",
+        "alt": "Topraktan yeni çıkarılmış trüf mantarları"
+      },
+      "source_name": "Cumhuriyet Gazetesi - Ekonomi",
+      "source_url": "https://www.cumhuriyet.com.tr/ekonomi/topragin-20-santimetre-altindan-22-tonluk-servet-cikarildi-kilosu-40-bin-lira-2521648",
+      "tags": [
+        "trüf mantarı",
+        "Erzurum",
+        "Erzincan",
+        "ekonomi",
+        "orman bölge müdürlüğü"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -415,6 +567,44 @@
         "Aydın",
         "Sağlık Bakanlığı",
         "Sağlıkta Dönüşüm"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:atinanin-yerli-ucav-hesabi-kerveros-detaylari_20260717",
+      "slug": "atinanin-yerli-ucav-hesabi-kerveros-detaylari_20260717",
+      "title": "Atina’nın “Yerli UCAV” Projesinde Fransız Füzesi Detayı",
+      "summary": "Yunanistan ve Kıbrıs Rum Kesimi, Avrupa Birliği’nin SAFE programı kapsamında ortak bir insansız hava aracı geliştirme hazırlığına girişti. Girit’te denemeleri tamamlanan “Kerveros” adlı projenin yerlilik iddiaları ise kullanılan Fransız füze teknolojisi ned...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/atinanin-yerli-ucav-hesabi-kerveros-detaylari_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/atinanin-yerli-ucav-hesabi-kerveros-detaylari_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/atinanin-yerli-ucav-hesabi-kerveros-detaylari_20260717.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/atinanin-yerli-ucav-hesabi-kerveros-detaylari_20260717.webp",
+      "image_alt": "Girit Atış Alanı'nda test edilen Kerveros İHA platformu.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/atinanin-yerli-ucav-hesabi-kerveros-detaylari_20260717.webp",
+        "alt": "Girit Atış Alanı'nda test edilen Kerveros İHA platformu."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/atinanin-yerli-ucav-hesabi-fransiz-fuzesi-ab-kredisi-ve-turkiye-korkusu-3899165-ekonomi",
+      "tags": [
+        "Yunanistan",
+        "Kerveros",
+        "İHA",
+        "Savunma Sanayii",
+        "AB"
       ],
       "quality_score": 86,
       "review_status": "published"
