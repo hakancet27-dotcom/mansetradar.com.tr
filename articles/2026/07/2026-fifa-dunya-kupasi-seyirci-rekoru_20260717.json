@@ -38,14 +38,6 @@
   "image_url": "https://mansetradar.com.tr/articles/2026/07/images/2026-fifa-dunya-kupasi-seyirci-rekoru_20260717.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "clear",
-  "image_license_note": "Pexels API photo",
-  "image_source_url": "https://www.pexels.com/photo/man-raising-brazil-flag-inside-football-stadium-58461/",
-  "image_provider": "pexels",
-  "image_score": 72,
-  "image_query": "FIFA World Cup 2026 stadium",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "Beyaz Saray Görev Gücü İcra Direktörü Andrew Giuliani, 2026 FIFA Dünya Kupası'nda stadyumlardaki seyirci katılımının 6,5 milyonu aşarak önceki iki Dünya Kupası'nın toplamını geride bıraktığını açıkladı.",
   "language": "Turkish",
   "url_prefix": "articles/2026/07",
@@ -67,10 +59,7 @@
   ],
   "quality_word_count": 220,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.pexels.com/photos/58461/pexels-photo-58461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  "original_image_url": "https://images.pexels.com/photos/58461/pexels-photo-58461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  "image_local_webp": "articles/2026/07/images/2026-fifa-dunya-kupasi-seyirci-rekoru_20260717.webp",
-  "image_credit": "pexels.com",
-  "image_credit_url": "https://www.pexels.com/photo/man-raising-brazil-flag-inside-football-stadium-58461/",
-  "image_finalized_at": "2026-07-17T18:19:11.809651Z"
+  "time": "16:55",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }
