@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-17T00:00:00+00:00",
-    "article_count": 909,
+    "article_count": 910,
     "schema_version": 2
   },
   "hero": [
@@ -43,6 +43,44 @@
         "stand-up"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:turkiyenin-yerli-atomik-saati-uzaya-firlatildi_20260717",
+      "slug": "turkiyenin-yerli-atomik-saati-uzaya-firlatildi_20260717",
+      "title": "Türkiye'nin yerli atomik saati uzaya fırlatıldı",
+      "summary": "Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, Milli Uzay Programı'nın stratejik hedefleri doğrultusunda geliştirilen yerli Rubidyum Atomik Saat'in SpaceX Transporter-17 göreviyle uzaya fırlatıldığını ve uzay aracından ilk sinyalin başarıyla alındığını duyu...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/turkiyenin-yerli-atomik-saati-uzaya-firlatildi_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/turkiyenin-yerli-atomik-saati-uzaya-firlatildi_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/turkiyenin-yerli-atomik-saati-uzaya-firlatildi_20260717.json",
+      "image_url": "https://images.ntv.com.tr/images/thumbs_b_c_048fd1beadd735dac35e8929010ee698_20260717161749-345387.jpg",
+      "image_alt": "Türkiye'nin yerli atomik saatini taşıyan küp uydu uzayda.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/thumbs_b_c_048fd1beadd735dac35e8929010ee698_20260717161749-345387.jpg",
+        "alt": "Türkiye'nin yerli atomik saatini taşıyan küp uydu uzayda."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/turkiyenin-yerli-atomik-saati-uzaya-firlatildi-1733392",
+      "tags": [
+        "atomik saat",
+        "uzay teknolojileri",
+        "Milli Uzay Programı",
+        "TÜBİTAK",
+        "Mehmet Fatih Kacır"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -724,44 +762,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:dunya-kupasi-finali-oncesi-hava-kirliligi-alarm_20260717",
-      "slug": "dunya-kupasi-finali-oncesi-hava-kirliligi-alarm_20260717",
-      "title": "Dünya Kupası Finali Öncesi Hava Kirliliği Alarmı: Sağlık Riski Artıyor",
-      "summary": "Kanada'daki orman yangınlarından kaynaklanan yoğun duman, ABD'nin New York ve New Jersey eyaletlerinde hava kalitesini tehlikeli seviyelere düşürdü. Pazar günü oynanacak 2026 FIFA Dünya Kupası finali öncesinde uzmanlar, dışarıda geçirilen sürenin sağlık üze...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "saglik",
-      "topic_label": "Sağlık",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "17.07.2026",
-      "date_iso": "2026-07-17",
-      "url": "/articles/2026/07/dunya-kupasi-finali-oncesi-hava-kirliligi-alarm_20260717/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/dunya-kupasi-finali-oncesi-hava-kirliligi-alarm_20260717/",
-      "detail_json_url": "/data/details/articles/2026/07/dunya-kupasi-finali-oncesi-hava-kirliligi-alarm_20260717.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/dunya-kupasi-finali-oncesi-hava-kirliligi-alarm_20260717.webp",
-      "image_alt": "ABD'de orman yangını dumanı nedeniyle oluşan hava kirliliği.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/dunya-kupasi-finali-oncesi-hava-kirliligi-alarm_20260717.webp",
-        "alt": "ABD'de orman yangını dumanı nedeniyle oluşan hava kirliliği."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/dunya/dunya-kupasi-finali-oncesi-havadaki-tehlike-kan-dolasimina-karisiyor-3-saat-bile-tehlikeli-7625155",
-      "tags": [
-        "Dünya Kupası",
-        "Hava Kirliliği",
-        "ABD",
-        "Orman Yangını",
-        "Sağlık"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -801,6 +801,44 @@
         "stand-up"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:turkiyenin-yerli-atomik-saati-uzaya-firlatildi_20260717",
+      "slug": "turkiyenin-yerli-atomik-saati-uzaya-firlatildi_20260717",
+      "title": "Türkiye'nin yerli atomik saati uzaya fırlatıldı",
+      "summary": "Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, Milli Uzay Programı'nın stratejik hedefleri doğrultusunda geliştirilen yerli Rubidyum Atomik Saat'in SpaceX Transporter-17 göreviyle uzaya fırlatıldığını ve uzay aracından ilk sinyalin başarıyla alındığını duyu...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/turkiyenin-yerli-atomik-saati-uzaya-firlatildi_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/turkiyenin-yerli-atomik-saati-uzaya-firlatildi_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/turkiyenin-yerli-atomik-saati-uzaya-firlatildi_20260717.json",
+      "image_url": "https://images.ntv.com.tr/images/thumbs_b_c_048fd1beadd735dac35e8929010ee698_20260717161749-345387.jpg",
+      "image_alt": "Türkiye'nin yerli atomik saatini taşıyan küp uydu uzayda.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/thumbs_b_c_048fd1beadd735dac35e8929010ee698_20260717161749-345387.jpg",
+        "alt": "Türkiye'nin yerli atomik saatini taşıyan küp uydu uzayda."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/turkiyenin-yerli-atomik-saati-uzaya-firlatildi-1733392",
+      "tags": [
+        "atomik saat",
+        "uzay teknolojileri",
+        "Milli Uzay Programı",
+        "TÜBİTAK",
+        "Mehmet Fatih Kacır"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -2983,44 +3021,6 @@
         "örgüt finansmanı"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:fenerbahce-mason-greenwood-transferi-marsilya-aciklamasi_20260715",
-      "slug": "fenerbahce-mason-greenwood-transferi-marsilya-aciklamasi_20260715",
-      "title": "Fenerbahçe'de Mason Greenwood transferi: Marsilya'dan resmi açıklama",
-      "summary": "Fenerbahçe, Vedat Muriqi ve Nathan Ake'nin ardından Mason Greenwood'u da kadrosuna kattı. Marsilya ile 39 milyon euro bonservis bedeli üzerinden anlaşmaya varılırken, Fransız kulübünün sportif direktörü Gregory Lorenzi transfer sürecine dair açıklamalarda b...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "15.07.2026",
-      "date_iso": "2026-07-15",
-      "url": "/articles/2026/07/fenerbahce-mason-greenwood-transferi-marsilya-aciklamasi_20260715/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/fenerbahce-mason-greenwood-transferi-marsilya-aciklamasi_20260715/",
-      "detail_json_url": "/data/details/articles/2026/07/fenerbahce-mason-greenwood-transferi-marsilya-aciklamasi_20260715.json",
-      "image_url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/7/depophotos19163922jpeg-Xgu_5kwqeU_3IlXwV1Q19Q.jpeg",
-      "image_alt": "Mason Greenwood Fenerbahçe transferi",
-      "image": {
-        "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/7/depophotos19163922jpeg-Xgu_5kwqeU_3IlXwV1Q19Q.jpeg",
-        "alt": "Mason Greenwood Fenerbahçe transferi"
-      },
-      "source_name": "Spor haberleri - Son dakika spor haberleri - Sözcü",
-      "source_url": "https://www.sozcu.com.tr/greenwood-un-bonservisi-taraftari-kizdirdi-kulupten-aciklama-geldi-p336720",
-      "tags": [
-        "Fenerbahçe",
-        "Mason Greenwood",
-        "Marsilya",
-        "Transfer",
-        "Gregory Lorenzi"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]
