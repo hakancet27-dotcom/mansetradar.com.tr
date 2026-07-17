@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-17T00:00:00+00:00",
-    "article_count": 906,
+    "article_count": 909,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -310,6 +310,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:istanbulda-toplu-ulasima-yuzde-10-zam_20260717",
+      "slug": "istanbulda-toplu-ulasima-yuzde-10-zam_20260717",
+      "title": "İstanbul'da toplu ulaşıma yüzde 10 zam: Yeni fiyatlar belli oldu",
+      "summary": "İstanbul Büyükşehir Belediyesi (İBB) Meclisi, kentteki toplu ulaşım araçları, taksiler ve okul servis ücretlerine yüzde 10 oranında zam yapılmasına karar verdi. Yeni tarifenin 20 Temmuz tarihinden itibaren uygulamaya konulacağı açıklandı.",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/istanbulda-toplu-ulasima-yuzde-10-zam_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/istanbulda-toplu-ulasima-yuzde-10-zam_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/istanbulda-toplu-ulasima-yuzde-10-zam_20260717.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/istanbulda-toplu-ulasima-yuzde-10-zam_20260717.webp",
+      "image_alt": "İstanbul'da toplu taşıma istasyonunda bekleyen vatandaşlar.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/istanbulda-toplu-ulasima-yuzde-10-zam_20260717.webp",
+        "alt": "İstanbul'da toplu taşıma istasyonunda bekleyen vatandaşlar."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/istanbulda-toplu-ulasima-yuzde-10-zam-43243251",
+      "tags": [
+        "İstanbul",
+        "İBB",
+        "toplu taşıma",
+        "ulaşım zammı",
+        "Marmaray"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:eskisehirde-yasli-adami-14-saat-telefonda-tutup-dolandirdilar_20260717",
       "slug": "eskisehirde-yasli-adami-14-saat-telefonda-tutup-dolandirdilar_20260717",
       "title": "Eskişehir'de yaşlı adamı 14 saat telefonda tutup dolandırdılar",
@@ -419,6 +457,44 @@
         "Dizi haberleri"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:100-yasindaki-cift-uzun-yasamanin-sirrini-acikladi_20260717",
+      "slug": "100-yasindaki-cift-uzun-yasamanin-sirrini-acikladi_20260717",
+      "title": "100 yaşındaki Balaban çiftinden uzun yaşamın sırları",
+      "summary": "Gaziantep İslahiye'de yaşayan 100 yaşındaki Balaban çifti, uzun ve sağlıklı bir ömrün kapılarını aralayan alışkanlıklarını paylaştı. Yörük kültürüyle yetişen çift, doğal beslenme ve huzurlu bir yaşamın önemine dikkat çekiyor.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "17.07.2026",
+      "date_iso": "2026-07-17",
+      "url": "/articles/2026/07/100-yasindaki-cift-uzun-yasamanin-sirrini-acikladi_20260717/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/100-yasindaki-cift-uzun-yasamanin-sirrini-acikladi_20260717/",
+      "detail_json_url": "/data/details/articles/2026/07/100-yasindaki-cift-uzun-yasamanin-sirrini-acikladi_20260717.json",
+      "image_url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/7/uzunomur3jpg-KM-JcjvZ_UyvHrRbn0HFkA.jpg",
+      "image_alt": "Gaziantep'te yaşayan 100 yaşındaki Balaban çifti",
+      "image": {
+        "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/7/uzunomur3jpg-KM-JcjvZ_UyvHrRbn0HFkA.jpg",
+        "alt": "Gaziantep'te yaşayan 100 yaşındaki Balaban çifti"
+      },
+      "source_name": "Sağlık haberleri - Son dakika sağlık haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/100-yasindaki-cift-uzun-yasamanin-sirrini-acikladi-bu-3-seyi-sofradan-eksik-etmiyorlar-p337424",
+      "tags": [
+        "sağlıklı yaşam",
+        "Gaziantep",
+        "doğal beslenme",
+        "uzun yaşam",
+        "Balaban çifti"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
