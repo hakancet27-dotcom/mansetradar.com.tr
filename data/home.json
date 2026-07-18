@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-18T00:00:00+00:00",
-    "article_count": 922,
+    "article_count": 923,
     "schema_version": 2
   },
   "hero": [
@@ -462,6 +462,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:2026-dunya-kupasi-finali-ispanya-arjantin_20260718",
+      "slug": "2026-dunya-kupasi-finali-ispanya-arjantin_20260718",
+      "title": "2026 Dünya Kupası Finali: İspanya ve Arjantin Arasında Tarihi Randevu",
+      "summary": "2026 FIFA Dünya Kupası finalinde İspanya ile Arjantin, yarın New York New Jersey Stadı'nda karşı karşıya gelecek. Turnuva tarihine geçecek birçok ilkin yaşanacağı dev finalde, devre arası şovu ve şampiyonluk yüzüğü uygulaması dikkat çekiyor.",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "18.07.2026",
+      "date_iso": "2026-07-18",
+      "url": "/articles/2026/07/2026-dunya-kupasi-finali-ispanya-arjantin_20260718/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/2026-dunya-kupasi-finali-ispanya-arjantin_20260718/",
+      "detail_json_url": "/data/details/articles/2026/07/2026-dunya-kupasi-finali-ispanya-arjantin_20260718.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/2026-dunya-kupasi-finali-ispanya-arjantin_20260718.webp",
+      "image_alt": "2026 FIFA Dünya Kupası finalinin oynanacağı New York New Jersey Stadı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/2026-dunya-kupasi-finali-ispanya-arjantin_20260718.webp",
+        "alt": "2026 FIFA Dünya Kupası finalinin oynanacağı New York New Jersey Stadı."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/2026-fifa-dunya-kupasi-finali-ilklere-sahne-olacak-3899343-spor",
+      "tags": [
+        "Dünya Kupası",
+        "İspanya",
+        "Arjantin",
+        "FIFA 2026",
+        "Futbol"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:unlu-komedyen-iain-lee-gecimini-saglamak-icin-ev-ev-dolasiyor_20260717",
       "slug": "unlu-komedyen-iain-lee-gecimini-saglamak-icin-ev-ev-dolasiyor_20260717",
       "title": "Ünlü komedyen Iain Lee geçimini sağlamak için ev ev dolaşıyor",
@@ -723,43 +761,6 @@
         "Gençler"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:ozge-ulusoy-babasinin-davasini-anlatti_20260717",
-      "slug": "ozge-ulusoy-babasinin-davasini-anlatti_20260717",
-      "title": "Özge Ulusoy'dan babasının davası hakkında açıklama: Adalet yerini buldu",
-      "summary": "Babası Haydar Ulusoy'u bir trafik kazasında kaybeden ünlü manken Özge Ulusoy, iki yıl süren hukuk mücadelesini kazandı. Ulusoy, babasının hakkını korumak için verdiği kararlı mücadeleyi ve mahkeme sürecinde yaşadıklarını paylaştı.",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "17.07.2026",
-      "date_iso": "2026-07-17",
-      "url": "/articles/2026/07/ozge-ulusoy-babasinin-davasini-anlatti_20260717/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/ozge-ulusoy-babasinin-davasini-anlatti_20260717/",
-      "detail_json_url": "/data/details/articles/2026/07/ozge-ulusoy-babasinin-davasini-anlatti_20260717.json",
-      "image_url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/7/ozgeulusoybabasijpg-mq2Yw_1kL02LxXe-OiaXmw.jpg",
-      "image_alt": "Özge Ulusoy, babasının hukuk mücadelesi hakkında açıklamalarda bulundu.",
-      "image": {
-        "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/7/ozgeulusoybabasijpg-mq2Yw_1kL02LxXe-OiaXmw.jpg",
-        "alt": "Özge Ulusoy, babasının hukuk mücadelesi hakkında açıklamalarda bulundu."
-      },
-      "source_name": "Magazin haberleri - Son dakika magazin haberleri - Sözcü",
-      "source_url": "https://www.sozcu.com.tr/hukuk-mucadelesini-kazandi-hayatini-kaybeden-babasiyla-ilgili-ozge-ulusoy-dan-aciklama-p337245",
-      "tags": [
-        "Özge Ulusoy",
-        "Haydar Ulusoy",
-        "magazin",
-        "hukuk mücadelesi"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ],
@@ -1214,6 +1215,44 @@
         "Alper Çelik",
         "Soruşturma",
         "Bahis"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:2026-dunya-kupasi-finali-ispanya-arjantin_20260718",
+      "slug": "2026-dunya-kupasi-finali-ispanya-arjantin_20260718",
+      "title": "2026 Dünya Kupası Finali: İspanya ve Arjantin Arasında Tarihi Randevu",
+      "summary": "2026 FIFA Dünya Kupası finalinde İspanya ile Arjantin, yarın New York New Jersey Stadı'nda karşı karşıya gelecek. Turnuva tarihine geçecek birçok ilkin yaşanacağı dev finalde, devre arası şovu ve şampiyonluk yüzüğü uygulaması dikkat çekiyor.",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "18.07.2026",
+      "date_iso": "2026-07-18",
+      "url": "/articles/2026/07/2026-dunya-kupasi-finali-ispanya-arjantin_20260718/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/2026-dunya-kupasi-finali-ispanya-arjantin_20260718/",
+      "detail_json_url": "/data/details/articles/2026/07/2026-dunya-kupasi-finali-ispanya-arjantin_20260718.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/2026-dunya-kupasi-finali-ispanya-arjantin_20260718.webp",
+      "image_alt": "2026 FIFA Dünya Kupası finalinin oynanacağı New York New Jersey Stadı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/2026-dunya-kupasi-finali-ispanya-arjantin_20260718.webp",
+        "alt": "2026 FIFA Dünya Kupası finalinin oynanacağı New York New Jersey Stadı."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/2026-fifa-dunya-kupasi-finali-ilklere-sahne-olacak-3899343-spor",
+      "tags": [
+        "Dünya Kupası",
+        "İspanya",
+        "Arjantin",
+        "FIFA 2026",
+        "Futbol"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -2983,43 +3022,6 @@
         "Çerçeve Yasa",
         "Terörsüz Türkiye",
         "Meclis"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:ahbap-sorusturmasinda-yeni-ifadeler-haluk-levent-tutuklandi_20260716",
-      "slug": "ahbap-sorusturmasinda-yeni-ifadeler-haluk-levent-tutuklandi_20260716",
-      "title": "AHBAP soruşturmasında yeni ifadeler: Haluk Levent hakkında çarpıcı iddialar",
-      "summary": "AHBAP Derneği’ne yönelik yürütülen yolsuzluk soruşturması kapsamında gözaltına alınan 25 şüpheliden 14’ü tutuklandı. Tutuklananlar arasında Haluk Levent de yer alırken, şüphelilerin hakimlik sorgularında dikkat çeken detaylar ortaya çıktı.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "16.07.2026",
-      "date_iso": "2026-07-16",
-      "url": "/articles/2026/07/ahbap-sorusturmasinda-yeni-ifadeler-haluk-levent-tutuklandi_20260716/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/ahbap-sorusturmasinda-yeni-ifadeler-haluk-levent-tutuklandi_20260716/",
-      "detail_json_url": "/data/details/articles/2026/07/ahbap-sorusturmasinda-yeni-ifadeler-haluk-levent-tutuklandi_20260716.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/ahbap-sorusturmasinda-yeni-ifadeler-haluk-levent-tutuklandi_20260716.webp",
-      "image_alt": "AHBAP soruşturması kapsamında adliye binası önünde hareketlilik.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/ahbap-sorusturmasinda-yeni-ifadeler-haluk-levent-tutuklandi_20260716.webp",
-        "alt": "AHBAP soruşturması kapsamında adliye binası önünde hareketlilik."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/haluk-leventin-evlilik-vaadi-milyonlarina-neden-oldu-43241802",
-      "tags": [
-        "AHBAP",
-        "Haluk Levent",
-        "yolsuzluk soruşturması",
-        "İstanbul Cumhuriyet Başsavcılığı"
       ],
       "quality_score": 86,
       "review_status": "published"
