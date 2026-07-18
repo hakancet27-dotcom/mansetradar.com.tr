@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-18T00:00:00+00:00",
-    "article_count": 914,
+    "article_count": 919,
     "schema_version": 2
   },
   "items": [
@@ -47,6 +47,58 @@
       "image_url": "https://images.ntv.com.tr/images/Public-749767(2).jpg"
     },
     {
+      "id": "articles/2026/07:prof-dr-sozbilir-malatyadaki-sarsinti-tetiklenmis-bir-deprem_20260718",
+      "title": "Prof. Dr. Hasan Sözbilir'den Malatya depremi açıklaması: Tetiklenmiş bir deprem",
+      "summary": "Malatya’nın Battalgazi ilçesinde saat 06.20’de meydana gelen 5.0 büyüklüğündeki depremi değerlendiren AFAD Bilim Kurulu Üyesi Prof. Dr. Hasan Sözbilir, sarsıntının 6 Şubat 2023 Kahramanmaraş depremlerinin etkisiyle tetiklendiğini açıkladı.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "date_iso": "2026-07-18",
+      "url": "/articles/2026/07/prof-dr-sozbilir-malatyadaki-sarsinti-tetiklenmis-bir-deprem_20260718/",
+      "detail_json_url": "/data/details/articles/2026/07/prof-dr-sozbilir-malatyadaki-sarsinti-tetiklenmis-bir-deprem_20260718.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/prof-dr-sozbilir-malatyadaki-sarsinti-tetiklenmis-bir-deprem_20260718.webp"
+    },
+    {
+      "id": "articles/2026/07:malatyada-5-buyuklugunde-deprem_20260718",
+      "title": "Malatya'nın Battalgazi ilçesinde 5 büyüklüğünde deprem",
+      "summary": "Afet ve Acil Durum Yönetimi Başkanlığı (AFAD), Malatya'nın Battalgazi ilçesinde saat 06.20'de 5 büyüklüğünde bir deprem meydana geldiğini duyurdu. Sarsıntı Malatya'nın yanı sıra Elazığ, Adıyaman, Tunceli ve Şanlıurfa'da da hissedildi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "date_iso": "2026-07-18",
+      "url": "/articles/2026/07/malatyada-5-buyuklugunde-deprem_20260718/",
+      "detail_json_url": "/data/details/articles/2026/07/malatyada-5-buyuklugunde-deprem_20260718.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/malatyada-5-buyuklugunde-deprem_20260718.webp"
+    },
+    {
+      "id": "articles/2026/07:haluk-levente-memleketinde-buyuk-tepki_20260718",
+      "title": "Haluk Levent'e memleketi Adana'dan tepki: \"Kandırılmışız\"",
+      "summary": "Ahbap Derneği'ne yönelik yürütülen soruşturma kapsamında tutuklanan Haluk Levent'e, memleketi Adana'dan tepkiler yükseliyor. Bağışta bulunan vatandaşlar, sanatçının güveni suistimal ettiğini belirterek hayal kırıklıklarını dile getirdi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "date_iso": "2026-07-18",
+      "url": "/articles/2026/07/haluk-levente-memleketinde-buyuk-tepki_20260718/",
+      "detail_json_url": "/data/details/articles/2026/07/haluk-levente-memleketinde-buyuk-tepki_20260718.json",
+      "image_url": "https://images.ntv.com.tr/images/4-398687.jpg"
+    },
+    {
+      "id": "articles/2026/07:floridada-timsah-saldirisi-brittany-clark-hayatini-kaybetti_20260718",
+      "title": "Florida'da dehşet: 4 metrelik timsah genç kadına saldırdı",
+      "summary": "ABD'nin Florida eyaletinde arkadaşlarıyla yürüyüşe çıkan 31 yaşındaki Brittany Clark, girdiği nehirde 4 metrelik bir timsahın saldırısına uğradı. Ağır yaralanan genç kadın, tüm müdahalelere rağmen hayatını kaybetti.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "date_iso": "2026-07-18",
+      "url": "/articles/2026/07/floridada-timsah-saldirisi-brittany-clark-hayatini-kaybetti_20260718/",
+      "detail_json_url": "/data/details/articles/2026/07/floridada-timsah-saldirisi-brittany-clark-hayatini-kaybetti_20260718.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/floridada-timsah-saldirisi-brittany-clark-hayatini-kaybetti_20260718.webp"
+    },
+    {
       "id": "articles/2026/07:asli-bekiroglu-zorbaliga-ugradim_20260718",
       "title": "Aslı Bekiroğlu: Setlerde zorbalığa uğradım",
       "summary": "Oyuncu Aslı Bekiroğlu, konuk olduğu programda kariyerinin ilk yıllarında setlerde yaşadığı zorbalıkları ve son dönemde mücadele ettiği sağlık sorunlarını tüm samimiyetiyle paylaştı.",
@@ -58,6 +110,19 @@
       "url": "/articles/2026/07/asli-bekiroglu-zorbaliga-ugradim_20260718/",
       "detail_json_url": "/data/details/articles/2026/07/asli-bekiroglu-zorbaliga-ugradim_20260718.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/07/images/asli-bekiroglu-zorbaliga-ugradim_20260718.webp"
+    },
+    {
+      "id": "articles/2026/07:alper-celik-etkin-pismanlik-ifadesi_20260718",
+      "title": "Ahbap soruşturmasında Alper Çelik'in etkin pişmanlık ifadesi ortaya çıktı",
+      "summary": "Ahbap Derneği soruşturması kapsamında tutuklanan kuruculardan Alper Çelik, etkin pişmanlık hükümlerinden yararlanarak ifade verdi. Çelik, Haluk Levent'in banka hesaplarının blokeli olması nedeniyle kendi hesaplarını kullandığını ve milyonlarca liralık bahis...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "date_iso": "2026-07-18",
+      "url": "/articles/2026/07/alper-celik-etkin-pismanlik-ifadesi_20260718/",
+      "detail_json_url": "/data/details/articles/2026/07/alper-celik-etkin-pismanlik-ifadesi_20260718.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/alper-celik-etkin-pismanlik-ifadesi_20260718.webp"
     },
     {
       "id": "articles/2026/07:unlu-komedyen-iain-lee-gecimini-saglamak-icin-ev-ev-dolasiyor_20260717",
