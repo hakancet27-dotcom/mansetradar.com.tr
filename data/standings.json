@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T11:12:39.456Z",
+  "updatedAt": "2026-07-19T13:35:40.169Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
@@ -848,7 +848,7 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73446: 20 | HTML scrape: https://www.mackolik.com/puan-durumu/ispanya-la-liga/34pl8szyvrbwcmfkuocjm3r6t: HTTP 502 | football-data.org: PD: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73446: 20 | HTML scrape: https://www.mackolik.com/puan-durumu/ispanya-la-liga/34pl8szyvrbwcmfkuocjm3r6t: no valid standings table | football-data.org: PD: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
       "preservedPreviousTable": true
     },
     {
@@ -1112,7 +1112,7 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73455: 18 | HTML scrape: https://www.mackolik.com/puan-durumu/almanya-bundesliga/6by3h89i2eykc341oz7lv1ddd: HTTP 502 | football-data.org: BL1: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73455: 18 | HTML scrape: https://www.mackolik.com/puan-durumu/almanya-bundesliga/6by3h89i2eykc341oz7lv1ddd: no valid standings table | football-data.org: BL1: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
       "preservedPreviousTable": true
     },
     {
@@ -1404,7 +1404,7 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73249: 20 | HTML scrape: https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao: HTTP 502 | football-data.org: SA: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73249: 20 | HTML scrape: https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao: no valid standings table | football-data.org: SA: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
       "preservedPreviousTable": true
     },
     {
@@ -1668,7 +1668,7 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73279: 18 | HTML scrape: https://www.mackolik.com/puan-durumu/fransa-ligue-1/dm5ka0os1e3dxcp3vh05kmp33: HTTP 502 | football-data.org: FL1: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73279: 18 | HTML scrape: https://www.mackolik.com/puan-durumu/fransa-ligue-1/dm5ka0os1e3dxcp3vh05kmp33: no valid standings table | football-data.org: FL1: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
       "preservedPreviousTable": true
     }
   ],
