@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-19T00:00:00+00:00",
-    "article_count": 958,
+    "article_count": 963,
     "schema_version": 2,
     "category_slug": "gundem",
     "type": "category"
@@ -150,6 +150,44 @@
       },
       "source_name": "Cumhuriyet Gazetesi",
       "source_url": "https://www.cumhuriyet.com.tr/turkiye/ahbap-sorusturmasinda-gozaltina-alinan-is-insaninin-ifadesinde-borc-vurgusu-haluk-levent-bana-odeme-yapmadigi-icin-hesaplarim-bloke-oldu-2522176",
+      "tags": [
+        "Ahbap",
+        "Haluk Levent",
+        "Fatih Eke",
+        "Soruşturma",
+        "Gündem"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:ahbap-sorusturmasinda-fatih-ekenin-ifadesi-ortaya-cikti_20260719",
+      "slug": "ahbap-sorusturmasinda-fatih-ekenin-ifadesi-ortaya-cikti_20260719",
+      "title": "Ahbap soruşturmasında Fatih Eke'nin ifadesi ortaya çıktı",
+      "summary": "Ahbap Derneği'ne yönelik yürütülen soruşturma kapsamında gözaltına alınan iş insanı Fatih Eke'nin emniyetteki ifadesi ortaya çıktı. Eke, Haluk Levent ile olan kripto ekosistemi satışı ve ödenmeyen çekler hakkında açıklamalarda bulundu.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "19.07.2026",
+      "date_iso": "2026-07-19",
+      "url": "/articles/2026/07/ahbap-sorusturmasinda-fatih-ekenin-ifadesi-ortaya-cikti_20260719/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/ahbap-sorusturmasinda-fatih-ekenin-ifadesi-ortaya-cikti_20260719/",
+      "detail_json_url": "/data/details/articles/2026/07/ahbap-sorusturmasinda-fatih-ekenin-ifadesi-ortaya-cikti_20260719.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/ahbap-sorusturmasinda-fatih-ekenin-ifadesi-ortaya-cikti_20260719.webp",
+      "image_alt": "Ahbap soruşturması kapsamında adliye önünde hareketlilik.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/ahbap-sorusturmasinda-fatih-ekenin-ifadesi-ortaya-cikti_20260719.webp",
+        "alt": "Ahbap soruşturması kapsamında adliye önünde hareketlilik."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/gundem/ahbap-sorusturmasi-derinlesiyor-is-insani-fatih-ekenin-ifadesi-ortaya-cikti-cek-mesajlari-dikkat-cekti-7626412",
       "tags": [
         "Ahbap",
         "Haluk Levent",
