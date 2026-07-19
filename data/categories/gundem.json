@@ -3,12 +3,50 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-19T00:00:00+00:00",
-    "article_count": 938,
+    "article_count": 940,
     "schema_version": 2,
     "category_slug": "gundem",
     "type": "category"
   },
   "articles": [
+    {
+      "id": "articles/2026/07:canakkale-kalpli-gol-yeniden-pembe-rengine-burundu_20260719",
+      "slug": "canakkale-kalpli-gol-yeniden-pembe-rengine-burundu_20260719",
+      "title": "Çanakkale'deki 'Kalpli Göl' yeniden pembe rengine büründü",
+      "summary": "Çanakkale'nin Dalyan köyünde bulunan ve Alexandria Troas Antik Kenti döneminden kalan kalp şeklindeki göl, mevsimsel değişimlerin ardından yeniden pembe rengine döndü.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "19.07.2026",
+      "date_iso": "2026-07-19",
+      "url": "/articles/2026/07/canakkale-kalpli-gol-yeniden-pembe-rengine-burundu_20260719/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/canakkale-kalpli-gol-yeniden-pembe-rengine-burundu_20260719/",
+      "detail_json_url": "/data/details/articles/2026/07/canakkale-kalpli-gol-yeniden-pembe-rengine-burundu_20260719.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/canakkale-kalpli-gol-yeniden-pembe-rengine-burundu_20260719.webp",
+      "image_alt": "Çanakkale Dalyan köyünde bulunan kalp şeklindeki pembe göl.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/canakkale-kalpli-gol-yeniden-pembe-rengine-burundu_20260719.webp",
+        "alt": "Çanakkale Dalyan köyünde bulunan kalp şeklindeki pembe göl."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/galeri-dunyada-az-sayida-var-yeniden-pembe-rengine-burundu-43244548",
+      "tags": [
+        "Çanakkale",
+        "Kalpli Göl",
+        "Dalyan",
+        "Doğa",
+        "Dunaliella salina"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/07:yazicioglu-sorusturmasinda-tutuklanan-emekli-albayin-ifadeleri_20260718",
       "slug": "yazicioglu-sorusturmasinda-tutuklanan-emekli-albayin-ifadeleri_20260718",
