@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-19T00:00:00+00:00",
-    "article_count": 944,
+    "article_count": 946,
     "schema_version": 2
   },
   "hero": [
@@ -40,6 +40,43 @@
         "Çerçeve Yasa",
         "Siyaset",
         "Meclis"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:spot-piyasada-dogal-gaz-fiyatlari-19-temmuz-2026_20260719",
+      "slug": "spot-piyasada-dogal-gaz-fiyatlari-19-temmuz-2026_20260719",
+      "title": "Spot doğal gaz piyasasında işlem hacmi iki katına çıktı",
+      "summary": "Enerji Piyasaları İşletme AŞ verilerine göre, 18 Temmuz'da spot doğal gaz piyasasında işlem hacmi 10 milyon 451 bin 991 liraya yükseldi. Referans fiyat 17 bin 391 lira olarak kaydedildi.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "19.07.2026",
+      "date_iso": "2026-07-19",
+      "url": "/articles/2026/07/spot-piyasada-dogal-gaz-fiyatlari-19-temmuz-2026_20260719/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/spot-piyasada-dogal-gaz-fiyatlari-19-temmuz-2026_20260719/",
+      "detail_json_url": "/data/details/articles/2026/07/spot-piyasada-dogal-gaz-fiyatlari-19-temmuz-2026_20260719.json",
+      "image_url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/3/petrolrafineridogalgazjpg-2d7bJEkXGkmIQ68z28D2ng.jpg",
+      "image_alt": "Doğal gaz piyasası verilerini temsil eden teknik bir görsel.",
+      "image": {
+        "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/3/petrolrafineridogalgazjpg-2d7bJEkXGkmIQ68z28D2ng.jpg",
+        "alt": "Doğal gaz piyasası verilerini temsil eden teknik bir görsel."
+      },
+      "source_name": "Ekonomi haberleri - Son dakika ekonomi haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/spot-piyasada-dogal-gaz-fiyatlari-19-temmuz-2026-p337829",
+      "tags": [
+        "doğal gaz",
+        "EPİAŞ",
+        "ekonomi",
+        "enerji piyasası"
       ],
       "quality_score": 76,
       "review_status": "published"
@@ -267,6 +304,43 @@
         "Aşk ve Taht",
         "Magazin",
         "Dizi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:elektrikli-araclarin-sarj-tuketimi-yuzde-153-5-artti_20260719",
+      "slug": "elektrikli-araclarin-sarj-tuketimi-yuzde-153-5-artti_20260719",
+      "title": "Türkiye'de elektrikli araç şarj tüketimi yüzde 153,5 arttı",
+      "summary": "Enerji Piyasası Düzenleme Kurumu (EPDK) verilerine göre, Türkiye genelinde elektrikli araç şarj tüketimi bu yılın ilk yarısında geçen yılın aynı dönemine kıyasla yüzde 153,5 oranında artış gösterdi.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "19.07.2026",
+      "date_iso": "2026-07-19",
+      "url": "/articles/2026/07/elektrikli-araclarin-sarj-tuketimi-yuzde-153-5-artti_20260719/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/elektrikli-araclarin-sarj-tuketimi-yuzde-153-5-artti_20260719/",
+      "detail_json_url": "/data/details/articles/2026/07/elektrikli-araclarin-sarj-tuketimi-yuzde-153-5-artti_20260719.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/elektrikli-araclarin-sarj-tuketimi-yuzde-153-5-artti_20260719.webp",
+      "image_alt": "Türkiye'deki elektrikli araç şarj istasyonlarından bir görünüm.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/elektrikli-araclarin-sarj-tuketimi-yuzde-153-5-artti_20260719.webp",
+        "alt": "Türkiye'deki elektrikli araç şarj istasyonlarından bir görünüm."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/elektrikli-araclarin-sarj-tuketimi-yilin-ilk-yarisinda-yuzde-153-5-artti-3899507-ekonomi",
+      "tags": [
+        "elektrikli araç",
+        "EPDK",
+        "şarj istasyonu",
+        "enerji tüketimi"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -685,82 +759,6 @@
       ],
       "quality_score": 76,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:prof-dr-sozbilir-malatyadaki-sarsinti-tetiklenmis-bir-deprem_20260718",
-      "slug": "prof-dr-sozbilir-malatyadaki-sarsinti-tetiklenmis-bir-deprem_20260718",
-      "title": "Prof. Dr. Hasan Sözbilir'den Malatya depremi açıklaması: Tetiklenmiş bir deprem",
-      "summary": "Malatya’nın Battalgazi ilçesinde saat 06.20’de meydana gelen 5.0 büyüklüğündeki depremi değerlendiren AFAD Bilim Kurulu Üyesi Prof. Dr. Hasan Sözbilir, sarsıntının 6 Şubat 2023 Kahramanmaraş depremlerinin etkisiyle tetiklendiğini açıkladı.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "18.07.2026",
-      "date_iso": "2026-07-18",
-      "url": "/articles/2026/07/prof-dr-sozbilir-malatyadaki-sarsinti-tetiklenmis-bir-deprem_20260718/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/prof-dr-sozbilir-malatyadaki-sarsinti-tetiklenmis-bir-deprem_20260718/",
-      "detail_json_url": "/data/details/articles/2026/07/prof-dr-sozbilir-malatyadaki-sarsinti-tetiklenmis-bir-deprem_20260718.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/prof-dr-sozbilir-malatyadaki-sarsinti-tetiklenmis-bir-deprem_20260718.webp",
-      "image_alt": "Malatya depremi sonrası bölgedeki fay hatlarını gösteren harita görseli.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/prof-dr-sozbilir-malatyadaki-sarsinti-tetiklenmis-bir-deprem_20260718.webp",
-        "alt": "Malatya depremi sonrası bölgedeki fay hatlarını gösteren harita görseli."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/prof-dr-sozbilir-malatyadaki-sarsinti-tetiklenmis-bir-deprem-43243838",
-      "tags": [
-        "Malatya depremi",
-        "Hasan Sözbilir",
-        "AFAD",
-        "deprem",
-        "Battalgazi"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:piyasalarda-kayip-haftasi-borsa-ve-altin-dususte_20260718",
-      "slug": "piyasalarda-kayip-haftasi-borsa-ve-altin-dususte_20260718",
-      "title": "Piyasalarda Kayıp Haftası: Borsa ve Altın Geriledi",
-      "summary": "Yatırımcılar için hareketli geçen haftada Borsa İstanbul ve altın değer kaybederken, döviz kurları genel olarak yatay bir seyir izledi. BIST 100 endeksi haftayı 13.981,05 puandan kapattı.",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "ekonomi",
-      "topic_label": "Ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "18.07.2026",
-      "date_iso": "2026-07-18",
-      "url": "/articles/2026/07/piyasalarda-kayip-haftasi-borsa-ve-altin-dususte_20260718/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/piyasalarda-kayip-haftasi-borsa-ve-altin-dususte_20260718/",
-      "detail_json_url": "/data/details/articles/2026/07/piyasalarda-kayip-haftasi-borsa-ve-altin-dususte_20260718.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/piyasalarda-kayip-haftasi-borsa-ve-altin-dususte_20260718.webp",
-      "image_alt": "Borsa İstanbul ve piyasa verilerini temsil eden grafikler.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/piyasalarda-kayip-haftasi-borsa-ve-altin-dususte_20260718.webp",
-        "alt": "Borsa İstanbul ve piyasa verilerini temsil eden grafikler."
-      },
-      "source_name": "Cumhuriyet Gazetesi - Ekonomi",
-      "source_url": "https://www.cumhuriyet.com.tr/ekonomi/piyasalarda-kayip-haftasi-borsa-ve-altin-dususte-doviz-yatay-seyretti-2521879",
-      "tags": [
-        "Borsa İstanbul",
-        "BIST 100",
-        "Altın Fiyatları",
-        "Döviz Kurları",
-        "Ekonomi"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -797,6 +795,43 @@
         "Çerçeve Yasa",
         "Siyaset",
         "Meclis"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:spot-piyasada-dogal-gaz-fiyatlari-19-temmuz-2026_20260719",
+      "slug": "spot-piyasada-dogal-gaz-fiyatlari-19-temmuz-2026_20260719",
+      "title": "Spot doğal gaz piyasasında işlem hacmi iki katına çıktı",
+      "summary": "Enerji Piyasaları İşletme AŞ verilerine göre, 18 Temmuz'da spot doğal gaz piyasasında işlem hacmi 10 milyon 451 bin 991 liraya yükseldi. Referans fiyat 17 bin 391 lira olarak kaydedildi.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "19.07.2026",
+      "date_iso": "2026-07-19",
+      "url": "/articles/2026/07/spot-piyasada-dogal-gaz-fiyatlari-19-temmuz-2026_20260719/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/spot-piyasada-dogal-gaz-fiyatlari-19-temmuz-2026_20260719/",
+      "detail_json_url": "/data/details/articles/2026/07/spot-piyasada-dogal-gaz-fiyatlari-19-temmuz-2026_20260719.json",
+      "image_url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/3/petrolrafineridogalgazjpg-2d7bJEkXGkmIQ68z28D2ng.jpg",
+      "image_alt": "Doğal gaz piyasası verilerini temsil eden teknik bir görsel.",
+      "image": {
+        "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/3/petrolrafineridogalgazjpg-2d7bJEkXGkmIQ68z28D2ng.jpg",
+        "alt": "Doğal gaz piyasası verilerini temsil eden teknik bir görsel."
+      },
+      "source_name": "Ekonomi haberleri - Son dakika ekonomi haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/spot-piyasada-dogal-gaz-fiyatlari-19-temmuz-2026-p337829",
+      "tags": [
+        "doğal gaz",
+        "EPİAŞ",
+        "ekonomi",
+        "enerji piyasası"
       ],
       "quality_score": 76,
       "review_status": "published"
@@ -1024,6 +1059,43 @@
         "Aşk ve Taht",
         "Magazin",
         "Dizi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:elektrikli-araclarin-sarj-tuketimi-yuzde-153-5-artti_20260719",
+      "slug": "elektrikli-araclarin-sarj-tuketimi-yuzde-153-5-artti_20260719",
+      "title": "Türkiye'de elektrikli araç şarj tüketimi yüzde 153,5 arttı",
+      "summary": "Enerji Piyasası Düzenleme Kurumu (EPDK) verilerine göre, Türkiye genelinde elektrikli araç şarj tüketimi bu yılın ilk yarısında geçen yılın aynı dönemine kıyasla yüzde 153,5 oranında artış gösterdi.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "19.07.2026",
+      "date_iso": "2026-07-19",
+      "url": "/articles/2026/07/elektrikli-araclarin-sarj-tuketimi-yuzde-153-5-artti_20260719/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/elektrikli-araclarin-sarj-tuketimi-yuzde-153-5-artti_20260719/",
+      "detail_json_url": "/data/details/articles/2026/07/elektrikli-araclarin-sarj-tuketimi-yuzde-153-5-artti_20260719.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/elektrikli-araclarin-sarj-tuketimi-yuzde-153-5-artti_20260719.webp",
+      "image_alt": "Türkiye'deki elektrikli araç şarj istasyonlarından bir görünüm.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/elektrikli-araclarin-sarj-tuketimi-yuzde-153-5-artti_20260719.webp",
+        "alt": "Türkiye'deki elektrikli araç şarj istasyonlarından bir görünüm."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/elektrikli-araclarin-sarj-tuketimi-yilin-ilk-yarisinda-yuzde-153-5-artti-3899507-ekonomi",
+      "tags": [
+        "elektrikli araç",
+        "EPDK",
+        "şarj istasyonu",
+        "enerji tüketimi"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -2952,80 +3024,6 @@
         "Dizi haberleri"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717",
-      "slug": "bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717",
-      "title": "Bakan Memişoğlu: Dünyanın en iyi sağlık hizmetleri Türkiye'de",
-      "summary": "Sağlık Bakanı Kemal Memişoğlu, Aydın Valiliği'ni ziyaret ederek kentteki sağlık yatırımlarını değerlendirdi. Türkiye'nin son 24 yılda sağlıkta büyük bir dönüşüm yaşadığını belirten Memişoğlu, dünyanın en iyi sağlık hizmetlerinin Türkiye'de sunulduğunu ifade...",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "saglik",
-      "topic_label": "Sağlık",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "17.07.2026",
-      "date_iso": "2026-07-17",
-      "url": "/articles/2026/07/bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717/",
-      "detail_json_url": "/data/details/articles/2026/07/bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717.webp",
-      "image_alt": "Sağlık Bakanı Kemal Memişoğlu Aydın'da açıklamalarda bulunuyor.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede_20260717.webp",
-        "alt": "Sağlık Bakanı Kemal Memişoğlu Aydın'da açıklamalarda bulunuyor."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/bakan-memisoglu-dunyanin-en-iyi-saglik-hizmetleri-turkiyede-43242778",
-      "tags": [
-        "Kemal Memişoğlu",
-        "Aydın",
-        "Sağlık Bakanlığı",
-        "Sağlıkta Dönüşüm"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:avrupada-sicak-dalgasi-bitti-firtina-ve-yanginlar-vurdu_20260717",
-      "slug": "avrupada-sicak-dalgasi-bitti-firtina-ve-yanginlar-vurdu_20260717",
-      "title": "Avrupa'da aşırı sıcaklar yerini fırtına ve yangınlara bıraktı",
-      "summary": "Avrupa genelinde etkili olan aşırı sıcak hava dalgası yerini şiddetli fırtınalara, kuraklığa ve orman yangınlarına bıraktı. Fransa ve Almanya'da ağaç devrilmesi ve yıldırım çarpması sonucu 3 kişi hayatını kaybetti.",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "17.07.2026",
-      "date_iso": "2026-07-17",
-      "url": "/articles/2026/07/avrupada-sicak-dalgasi-bitti-firtina-ve-yanginlar-vurdu_20260717/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/avrupada-sicak-dalgasi-bitti-firtina-ve-yanginlar-vurdu_20260717/",
-      "detail_json_url": "/data/details/articles/2026/07/avrupada-sicak-dalgasi-bitti-firtina-ve-yanginlar-vurdu_20260717.json",
-      "image_url": "https://images.ntv.com.tr/images/images-471065.jpeg",
-      "image_alt": "Avrupa'da fırtına sonrası devrilen ağaçlar ve orman yangını müdahalesi.",
-      "image": {
-        "url": "https://images.ntv.com.tr/images/images-471065.jpeg",
-        "alt": "Avrupa'da fırtına sonrası devrilen ağaçlar ve orman yangını müdahalesi."
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/dunya/galeri-sicak-dalgasi-bitti-avrupayi-bu-kez-de-firtina-ve-yanginlar-vurdu-1733378",
-      "tags": [
-        "Avrupa",
-        "Hava durumu",
-        "Orman yangını",
-        "Fırtına"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]
