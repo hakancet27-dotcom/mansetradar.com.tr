@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-21T00:00:00+00:00",
-    "article_count": 988,
+    "article_count": 989,
     "schema_version": 2
   },
   "hero": [
@@ -307,6 +307,44 @@
         "Siyaset"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:kahramanmarastaki-okul-saldirisi-iddianamesi_20260721",
+      "slug": "kahramanmarastaki-okul-saldirisi-iddianamesi_20260721",
+      "title": "Kahramanmaraş'taki okul saldırısı iddianamesi: Saldırının planlı olduğu ortaya çıktı",
+      "summary": "Kahramanmaraş'ta Ayser Çalık Ortaokulu'nda gerçekleşen silahlı saldırıya ilişkin 43 sayfalık iddianame, 3. Ağır Ceza Mahkemesi tarafından kabul edildi. Saldırganın eylemi önceden planladığı ve dijital materyallerinde saldırı hazırlıklarına dair çok sayıda b...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "21.07.2026",
+      "date_iso": "2026-07-21",
+      "url": "/articles/2026/07/kahramanmarastaki-okul-saldirisi-iddianamesi_20260721/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/kahramanmarastaki-okul-saldirisi-iddianamesi_20260721/",
+      "detail_json_url": "/data/details/articles/2026/07/kahramanmarastaki-okul-saldirisi-iddianamesi_20260721.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/kahramanmarastaki-okul-saldirisi-iddianamesi_20260721.webp",
+      "image_alt": "Kahramanmaraş Adliyesi binası.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/kahramanmarastaki-okul-saldirisi-iddianamesi_20260721.webp",
+        "alt": "Kahramanmaraş Adliyesi binası."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kahramanmarastaki-okul-saldirisinin-detaylari-iddianamede-ortaya-cikti-planli-saldiri-43247227",
+      "tags": [
+        "Kahramanmaraş",
+        "okul saldırısı",
+        "iddianame",
+        "yargı",
+        "Ayser Çalık Ortaokulu"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -725,44 +763,6 @@
       ],
       "quality_score": 76,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:erdogandan-cambridge-merkez-camisi-mesaji_20260720",
-      "slug": "erdogandan-cambridge-merkez-camisi-mesaji_20260720",
-      "title": "Erdoğan’dan Kral 3. Charles’ın Cambridge Merkez Camisi ziyaretine mesaj",
-      "summary": "Cumhurbaşkanı Recep Tayyip Erdoğan, İngiltere Kralı 3. Charles’ın Avrupa’nın ilk çevre dostu camisi olan Cambridge Merkez Camisi ve Külliyesi’ne yaptığı ziyarete ilişkin yazılı bir mesaj yayımladı. Erdoğan, İslam karşıtlığının arttığı bir dönemde gerçekleşe...",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "siyaset",
-      "topic_label": "Siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "20.07.2026",
-      "date_iso": "2026-07-20",
-      "url": "/articles/2026/07/erdogandan-cambridge-merkez-camisi-mesaji_20260720/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/erdogandan-cambridge-merkez-camisi-mesaji_20260720/",
-      "detail_json_url": "/data/details/articles/2026/07/erdogandan-cambridge-merkez-camisi-mesaji_20260720.json",
-      "image_url": "https://images.ntv.com.tr/images/erdogan1-872867.jpg",
-      "image_alt": "Cambridge Merkez Camisi'nin dış görünüşü.",
-      "image": {
-        "url": "https://images.ntv.com.tr/images/erdogan1-872867.jpg",
-        "alt": "Cambridge Merkez Camisi'nin dış görünüşü."
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/turkiye/erdogandan-cambridge-merkez-camisi-mesaji-1733816",
-      "tags": [
-        "Recep Tayyip Erdoğan",
-        "Kral 3. Charles",
-        "Cambridge Merkez Camisi",
-        "İngiltere",
-        "İslam karşıtlığı"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -1066,6 +1066,44 @@
         "Siyaset"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:kahramanmarastaki-okul-saldirisi-iddianamesi_20260721",
+      "slug": "kahramanmarastaki-okul-saldirisi-iddianamesi_20260721",
+      "title": "Kahramanmaraş'taki okul saldırısı iddianamesi: Saldırının planlı olduğu ortaya çıktı",
+      "summary": "Kahramanmaraş'ta Ayser Çalık Ortaokulu'nda gerçekleşen silahlı saldırıya ilişkin 43 sayfalık iddianame, 3. Ağır Ceza Mahkemesi tarafından kabul edildi. Saldırganın eylemi önceden planladığı ve dijital materyallerinde saldırı hazırlıklarına dair çok sayıda b...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "21.07.2026",
+      "date_iso": "2026-07-21",
+      "url": "/articles/2026/07/kahramanmarastaki-okul-saldirisi-iddianamesi_20260721/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/kahramanmarastaki-okul-saldirisi-iddianamesi_20260721/",
+      "detail_json_url": "/data/details/articles/2026/07/kahramanmarastaki-okul-saldirisi-iddianamesi_20260721.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/kahramanmarastaki-okul-saldirisi-iddianamesi_20260721.webp",
+      "image_alt": "Kahramanmaraş Adliyesi binası.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/kahramanmarastaki-okul-saldirisi-iddianamesi_20260721.webp",
+        "alt": "Kahramanmaraş Adliyesi binası."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kahramanmarastaki-okul-saldirisinin-detaylari-iddianamede-ortaya-cikti-planli-saldiri-43247227",
+      "tags": [
+        "Kahramanmaraş",
+        "okul saldırısı",
+        "iddianame",
+        "yargı",
+        "Ayser Çalık Ortaokulu"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -2992,44 +3030,6 @@
         "Yapı Sağlığı"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:tarihin-en-pahali-dugunleri-listesi_20260718",
-      "slug": "tarihin-en-pahali-dugunleri-listesi_20260718",
-      "title": "Tarihin En Pahalı Düğünleri: 1,4 Milyar Dolarlık Zirve",
-      "summary": "Visual Capitalist tarafından hazırlanan çalışma, tarihin en pahalı düğünlerini güncel enflasyon verileriyle ortaya koydu. 1,4 milyar dolarlık maliyetiyle Rus milyarder Mihail Gutseriev’in oğlunun düğünü listenin ilk sırasında yer alırken, onu Ambani ailesin...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "ekonomi",
-      "topic_label": "Ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "18.07.2026",
-      "date_iso": "2026-07-18",
-      "url": "/articles/2026/07/tarihin-en-pahali-dugunleri-listesi_20260718/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/tarihin-en-pahali-dugunleri-listesi_20260718/",
-      "detail_json_url": "/data/details/articles/2026/07/tarihin-en-pahali-dugunleri-listesi_20260718.json",
-      "image_url": "https://img.ekonomim.com/storage/files/images/2026/07/18/iste-tarihin-en-pahali-dugunu-tam-14-milyar-dolar-harcama-yapildi-qt5w_cover.png",
-      "image_alt": "Tarihin en pahalı düğünlerinden birine ait temsili lüks bir düğün salonu görüntüsü.",
-      "image": {
-        "url": "https://img.ekonomim.com/storage/files/images/2026/07/18/iste-tarihin-en-pahali-dugunu-tam-14-milyar-dolar-harcama-yapildi-qt5w_cover.png",
-        "alt": "Tarihin en pahalı düğünlerinden birine ait temsili lüks bir düğün salonu görüntüsü."
-      },
-      "source_name": "Ekonomim",
-      "source_url": "https://www.ekonomim.com/dunya/iste-tarihin-en-pahali-dugunu-tam-14-milyar-dolar-harcama-yapildi-haberi-906888",
-      "tags": [
-        "düğün",
-        "ekonomi",
-        "dünya",
-        "milyarder",
-        "servet"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]
