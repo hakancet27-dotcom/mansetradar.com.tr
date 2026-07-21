@@ -3,12 +3,49 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-21T00:00:00+00:00",
-    "article_count": 986,
+    "article_count": 988,
     "schema_version": 2,
     "category_slug": "magazin",
     "type": "category"
   },
   "articles": [
+    {
+      "id": "articles/2026/07:murat-ormiyak-huzurevi-yalnizlik-aciklamasi_20260721",
+      "slug": "murat-ormiyak-huzurevi-yalnizlik-aciklamasi_20260721",
+      "title": "Usta Oyuncu Murat Ormiyak'ın Huzurevindeki Yalnızlığı Sevenlerini Üzdü",
+      "summary": "Arka Sokaklar, Kurtlar Vadisi Pusu ve Akasya Durağı gibi birçok sevilen yapımda rol alan usta oyuncu Murat Ormiyak, uzun süredir yaşadığı huzurevinde kendisini kimsenin ziyaret etmediğini belirterek duygusal anlar yaşadı.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "magazin",
+      "topic_label": "Magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "21.07.2026",
+      "date_iso": "2026-07-21",
+      "url": "/articles/2026/07/murat-ormiyak-huzurevi-yalnizlik-aciklamasi_20260721/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/murat-ormiyak-huzurevi-yalnizlik-aciklamasi_20260721/",
+      "detail_json_url": "/data/details/articles/2026/07/murat-ormiyak-huzurevi-yalnizlik-aciklamasi_20260721.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/murat-ormiyak-huzurevi-yalnizlik-aciklamasi_20260721.webp",
+      "image_alt": "Usta oyuncu Murat Ormiyak huzurevinde duygusal anlar yaşarken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/murat-ormiyak-huzurevi-yalnizlik-aciklamasi_20260721.webp",
+        "alt": "Usta oyuncu Murat Ormiyak huzurevinde duygusal anlar yaşarken."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/magazin/murat-ormiyakin-son-hali-sevenlerini-uzdu-o-kadar-yalnizim-ki-7627325",
+      "tags": [
+        "Murat Ormiyak",
+        "Arka Sokaklar",
+        "Magazin",
+        "Huzurevi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/07:kerem-alisik-haysiyet-dizisi-sadik-karliova-karakteri_20260721",
       "slug": "kerem-alisik-haysiyet-dizisi-sadik-karliova-karakteri_20260721",
@@ -43,6 +80,43 @@
         "Kanal D",
         "Sadık Karlıova",
         "Dizi haberleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:jessie-j-ve-chanan-safir-colman-ayrildi_20260721",
+      "slug": "jessie-j-ve-chanan-safir-colman-ayrildi_20260721",
+      "title": "Jessie J ve Chanan Safir Colman'ın 5 yıllık ilişkisi sona erdi",
+      "summary": "Ünlü şarkıcı Jessie J, meme kanseriyle mücadele ettiği zorlu süreçte en büyük destekçisi olan basketbolcu sevgilisi Chanan Safir Colman ile beş yıllık ilişkisini noktaladığını açıkladı.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "magazin",
+      "topic_label": "Magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "21.07.2026",
+      "date_iso": "2026-07-21",
+      "url": "/articles/2026/07/jessie-j-ve-chanan-safir-colman-ayrildi_20260721/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/jessie-j-ve-chanan-safir-colman-ayrildi_20260721/",
+      "detail_json_url": "/data/details/articles/2026/07/jessie-j-ve-chanan-safir-colman-ayrildi_20260721.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/jessie-j-ve-chanan-safir-colman-ayrildi_20260721.webp",
+      "image_alt": "Jessie J ve Chanan Safir Colman",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/jessie-j-ve-chanan-safir-colman-ayrildi_20260721.webp",
+        "alt": "Jessie J ve Chanan Safir Colman"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/magazin/kanserle-bogusurken-bir-an-bile-elini-birakmamisti-evlenme-heveslisi-degilim-dedi-bes-yillik-ask-bitti-43245908",
+      "tags": [
+        "Jessie J",
+        "Chanan Safir Colman",
+        "Magazin",
+        "Ayrılık"
       ],
       "quality_score": 86,
       "review_status": "published"
