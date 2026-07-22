@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-22T00:00:00+00:00",
-    "article_count": 1004,
+    "article_count": 1005,
     "schema_version": 2,
     "section": "articles"
   },
@@ -345,6 +345,44 @@
         "Ali Hamaney",
         "İran",
         "Saldırı"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:agri-kadin-sunneti-ilani-sorusturma_20260722",
+      "slug": "agri-kadin-sunneti-ilani-sorusturma_20260722",
+      "title": "Ağrı'da 'kadın sünneti' ilanı soruşturma başlattı",
+      "summary": "Ağrı'da özel bir klinikte görev yapan Operatör Doktor Ali Çakır'ın, vajinal estetik işlemleri için paylaştığı 'kadın sünneti' başlıklı ilan tepkilere yol açtı. Ağrı, Kars, Ardahan, Iğdır (AKAI) Tabip Odası, doktor hakkında idari ve disiplin soruşturması baş...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "22.07.2026",
+      "date_iso": "2026-07-22",
+      "url": "/articles/2026/07/agri-kadin-sunneti-ilani-sorusturma_20260722/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/agri-kadin-sunneti-ilani-sorusturma_20260722/",
+      "detail_json_url": "/data/details/articles/2026/07/agri-kadin-sunneti-ilani-sorusturma_20260722.json",
+      "image_url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/7/sunnetjpg-WSNn-O0OsECLWmnKmrqCqw.jpg",
+      "image_alt": "Ağrı'da bir özel klinikte yaşanan tartışmalı ilan süreciyle ilgili sağlık merkezi görseli.",
+      "image": {
+        "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/7/sunnetjpg-WSNn-O0OsECLWmnKmrqCqw.jpg",
+        "alt": "Ağrı'da bir özel klinikte yaşanan tartışmalı ilan süreciyle ilgili sağlık merkezi görseli."
+      },
+      "source_name": "Sağlık haberleri - Son dakika sağlık haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/doktordan-bir-sehrimizi-karistiran-ilan-kadin-sunneti-yapilir-p338853",
+      "tags": [
+        "Ağrı",
+        "Ali Çakır",
+        "kadın sünneti",
+        "tabip odası",
+        "soruşturma"
       ],
       "quality_score": 76,
       "review_status": "published"
