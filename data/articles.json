@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-24T00:00:00+00:00",
-    "article_count": 1044,
+    "article_count": 1046,
     "schema_version": 2
   },
   "articles": [
@@ -41,6 +41,44 @@
         "Resim Sergisi",
         "Yalçın Bahçebağ",
         "Sanat"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:tbmmden-gecti-en-dusuk-emekli-ayligi-23-bin-552-liraya-yukseldi_20260724",
+      "slug": "tbmmden-gecti-en-dusuk-emekli-ayligi-23-bin-552-liraya-yukseldi_20260724",
+      "title": "TBMM'den geçti: En düşük emekli aylığı 23 bin 552 TL oldu",
+      "summary": "TBMM Genel Kurulu'nda kabul edilen Bazı Kanun ve Kanun Hükmünde Kararnamelerde Değişiklik Yapılmasına Dair Kanun Teklifi ile en düşük emekli aylığı 23 bin 552 TL olarak belirlendi. 252 milletvekilinin katıldığı oylamada teklif, 220 kabul ve 32 ret oyuyla ya...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "24.07.2026",
+      "date_iso": "2026-07-24",
+      "url": "/articles/2026/07/tbmmden-gecti-en-dusuk-emekli-ayligi-23-bin-552-liraya-yukseldi_20260724/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/tbmmden-gecti-en-dusuk-emekli-ayligi-23-bin-552-liraya-yukseldi_20260724/",
+      "detail_json_url": "/data/details/articles/2026/07/tbmmden-gecti-en-dusuk-emekli-ayligi-23-bin-552-liraya-yukseldi_20260724.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/tbmmden-gecti-en-dusuk-emekli-ayligi-23-bin-552-liraya-yukseldi_20260724.webp",
+      "image_alt": "TBMM Genel Kurulu'nda emekli maaşı düzenlemesi oylanıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/tbmmden-gecti-en-dusuk-emekli-ayligi-23-bin-552-liraya-yukseldi_20260724.webp",
+        "alt": "TBMM Genel Kurulu'nda emekli maaşı düzenlemesi oylanıyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/tbmmden-gecti-en-dusuk-emekli-ayligi-23-bin-552-liraya-yukseldi-43250917",
+      "tags": [
+        "emekli maaşı",
+        "TBMM",
+        "ekonomi",
+        "aday sürücü",
+        "nükleer enerji"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -684,6 +722,44 @@
         "Ayasofya",
         "NATO Zirvesi",
         "Siyaset"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:covid-19-olum-haritasi-cikarildi_20260724",
+      "slug": "covid-19-olum-haritasi-cikarildi_20260724",
+      "title": "Covid-19'un ölümcül mekanizması çözüldü: 15 bin hastalık 'ölüm haritası'",
+      "summary": "Prof. Dr. Şevket Özkaya, Covid-19'un diğer solunum yolu virüslerinden farklı bir mekanizmayla ölüme yol açtığını belirterek, yaklaşık 15 bin hasta üzerinde yapılan incelemelerle hastalığın 'ölüm haritasını' çıkardı.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "24.07.2026",
+      "date_iso": "2026-07-24",
+      "url": "/articles/2026/07/covid-19-olum-haritasi-cikarildi_20260724/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/covid-19-olum-haritasi-cikarildi_20260724/",
+      "detail_json_url": "/data/details/articles/2026/07/covid-19-olum-haritasi-cikarildi_20260724.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/covid-19-olum-haritasi-cikarildi_20260724.webp",
+      "image_alt": "Prof. Dr. Şevket Özkaya ve Covid-19 araştırması",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/covid-19-olum-haritasi-cikarildi_20260724.webp",
+        "alt": "Prof. Dr. Şevket Özkaya ve Covid-19 araştırması"
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/covid-19-olum-haritasi-cikarildi-haberler-3900887",
+      "tags": [
+        "Covid-19",
+        "Şevket Özkaya",
+        "Sağlık",
+        "Akciğer",
+        "Sitokin Fırtınası"
       ],
       "quality_score": 86,
       "review_status": "published"
