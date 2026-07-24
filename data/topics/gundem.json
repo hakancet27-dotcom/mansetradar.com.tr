@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-24T00:00:00+00:00",
-    "article_count": 1030,
+    "article_count": 1034,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -118,6 +118,44 @@
         "Cinayet",
         "Asayiş",
         "Faize Karaca"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:bakan-tekin-ozel-okul-ogretmenleri-icin-aciklama-yapti_20260724",
+      "slug": "bakan-tekin-ozel-okul-ogretmenleri-icin-aciklama-yapti_20260724",
+      "title": "Bakan Tekin'den Özel Okul Öğretmenlerine Çağrı: Şikayet Edin, Gereğini Yapalım",
+      "summary": "Milli Eğitim Bakanı Yusuf Tekin, Erzurum'da gerçekleştirdiği değerlendirme toplantısında özel okul öğretmenlerinin çalışma koşullarına ilişkin önemli açıklamalarda bulundu. Bakan Tekin, asgari ücretin altında veya insani olmayan şartlarda çalıştırılan öğret...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "24.07.2026",
+      "date_iso": "2026-07-24",
+      "url": "/articles/2026/07/bakan-tekin-ozel-okul-ogretmenleri-icin-aciklama-yapti_20260724/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/bakan-tekin-ozel-okul-ogretmenleri-icin-aciklama-yapti_20260724/",
+      "detail_json_url": "/data/details/articles/2026/07/bakan-tekin-ozel-okul-ogretmenleri-icin-aciklama-yapti_20260724.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/bakan-tekin-ozel-okul-ogretmenleri-icin-aciklama-yapti_20260724.webp",
+      "image_alt": "Milli Eğitim Bakanı Yusuf Tekin Erzurum'daki bir toplantıda konuşma yaparken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/bakan-tekin-ozel-okul-ogretmenleri-icin-aciklama-yapti_20260724.webp",
+        "alt": "Milli Eğitim Bakanı Yusuf Tekin Erzurum'daki bir toplantıda konuşma yaparken."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/milli-egitim-bakani-tekin-ozel-okulda-insani-olmayan-kosulda-calistirilan-arkadasimiz-varsa-bana-basvursun-43250416",
+      "tags": [
+        "Milli Eğitim Bakanlığı",
+        "Yusuf Tekin",
+        "özel okul öğretmenleri",
+        "Erzurum",
+        "eğitim haberleri"
       ],
       "quality_score": 86,
       "review_status": "published"

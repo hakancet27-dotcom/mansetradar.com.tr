@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-24T00:00:00+00:00",
-    "article_count": 1030,
+    "article_count": 1034,
     "schema_version": 2,
     "topic_slug": "dunya",
     "type": "topic"
@@ -43,6 +43,43 @@
         "Itamar Ben-Gvir",
         "Filistin",
         "Binyamin Netanyahu"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:cumhurbaskani-erdogan-ayasofyayi-acmak-bize-nasip-oldu_20260724",
+      "slug": "cumhurbaskani-erdogan-ayasofyayi-acmak-bize-nasip-oldu_20260724",
+      "title": "Cumhurbaşkanı Erdoğan: Ayasofya’yı İslam alemine kavuşturmanın mutluluğunu yaşıyoruz",
+      "summary": "Cumhurbaşkanı Recep Tayyip Erdoğan, Ayasofya-i Kebir Cami-i Şerifi'nin yeniden ibadete açılmasının altıncı yıl dönümünde yaptığı açıklamada, bu tarihi adımı İslam alemine kavuşturmanın mutluluğunu yaşadıklarını belirtti. Erdoğan ayrıca NATO Zirvesi'ne dair...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "24.07.2026",
+      "date_iso": "2026-07-24",
+      "url": "/articles/2026/07/cumhurbaskani-erdogan-ayasofyayi-acmak-bize-nasip-oldu_20260724/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/cumhurbaskani-erdogan-ayasofyayi-acmak-bize-nasip-oldu_20260724/",
+      "detail_json_url": "/data/details/articles/2026/07/cumhurbaskani-erdogan-ayasofyayi-acmak-bize-nasip-oldu_20260724.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/cumhurbaskani-erdogan-ayasofyayi-acmak-bize-nasip-oldu_20260724.webp",
+      "image_alt": "Cumhurbaşkanı Recep Tayyip Erdoğan konuşma yaparken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/cumhurbaskani-erdogan-ayasofyayi-acmak-bize-nasip-oldu_20260724.webp",
+        "alt": "Cumhurbaşkanı Recep Tayyip Erdoğan konuşma yaparken."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/cumhurbaskani-erdogan-ayasofyayi-acmak-bize-nasip-oldu-43250385",
+      "tags": [
+        "Recep Tayyip Erdoğan",
+        "Ayasofya",
+        "NATO Zirvesi",
+        "Siyaset"
       ],
       "quality_score": 86,
       "review_status": "published"

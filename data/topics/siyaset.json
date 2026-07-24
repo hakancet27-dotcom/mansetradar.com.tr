@@ -3,12 +3,50 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-24T00:00:00+00:00",
-    "article_count": 1030,
+    "article_count": 1034,
     "schema_version": 2,
     "topic_slug": "siyaset",
     "type": "topic"
   },
   "articles": [
+    {
+      "id": "articles/2026/07:tbmm-sandalye-dagilimi-yeni-parti-kuruldu_20260724",
+      "slug": "tbmm-sandalye-dagilimi-yeni-parti-kuruldu_20260724",
+      "title": "TBMM'de Siyasi Deprem: YENİ Parti Kuruldu, Sandalye Dağılımı Değişti",
+      "summary": "Özgür Özel'in CHP'den istifa ederek YENİ Parti'nin kuruluş evraklarını imzalaması ve beraberindeki 91 milletvekilinin katılımıyla TBMM'deki sandalye dağılımı yeniden şekillendi. Bu gelişmeyle birlikte YENİ Parti ana muhalefet konumuna yükselirken, CHP'nin M...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "24.07.2026",
+      "date_iso": "2026-07-24",
+      "url": "/articles/2026/07/tbmm-sandalye-dagilimi-yeni-parti-kuruldu_20260724/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/tbmm-sandalye-dagilimi-yeni-parti-kuruldu_20260724/",
+      "detail_json_url": "/data/details/articles/2026/07/tbmm-sandalye-dagilimi-yeni-parti-kuruldu_20260724.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/tbmm-sandalye-dagilimi-yeni-parti-kuruldu_20260724.webp",
+      "image_alt": "TBMM genel kurul salonu ve milletvekili sıraları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/tbmm-sandalye-dagilimi-yeni-parti-kuruldu_20260724.webp",
+        "alt": "TBMM genel kurul salonu ve milletvekili sıraları."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/meclis-te-sandalye-sayisi-degisti-iste-tbmm-de-son-durum-yeni-parti-son-dakika-haberleri-3900779",
+      "tags": [
+        "TBMM",
+        "Siyaset",
+        "YENİ Parti",
+        "Özgür Özel",
+        "CHP"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/07:ozgur-ozel-chpden-istifa-etti-yeni-parti-kuruldu_20260724",
       "slug": "ozgur-ozel-chpden-istifa-etti-yeni-parti-kuruldu_20260724",
@@ -45,6 +83,44 @@
         "TBMM"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:chpde-tarihi-ayrilik-ozgur-ozel-ve-91-milletvekili-istifa-etti_20260724",
+      "slug": "chpde-tarihi-ayrilik-ozgur-ozel-ve-91-milletvekili-istifa-etti_20260724",
+      "title": "CHP'de tarihi ayrılık: Özgür Özel ve 91 milletvekili istifa etti",
+      "summary": "CHP'de yaşanan yönetim krizi ve mutlak butlan kararı sonrası Özgür Özel ve 90 milletvekili partiden istifa ederek Yeni Parti'yi kurdu. Bu gelişme ile birlikte TBMM'deki sandalye dağılımı kökten değişti.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "24.07.2026",
+      "date_iso": "2026-07-24",
+      "url": "/articles/2026/07/chpde-tarihi-ayrilik-ozgur-ozel-ve-91-milletvekili-istifa-etti_20260724/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/chpde-tarihi-ayrilik-ozgur-ozel-ve-91-milletvekili-istifa-etti_20260724/",
+      "detail_json_url": "/data/details/articles/2026/07/chpde-tarihi-ayrilik-ozgur-ozel-ve-91-milletvekili-istifa-etti_20260724.json",
+      "image_url": "https://images.ntv.com.tr/images/meclis-217021.jpg",
+      "image_alt": "TBMM genel kurul salonu ve milletvekili sıraları.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/meclis-217021.jpg",
+        "alt": "TBMM genel kurul salonu ve milletvekili sıraları."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/galeri-chp-sandalye-sayisi-kac-oldu-yeni-parti-kuruldu-chpnin-milletvekili-sayisi-degisti-iste-chpnin-milletvekili-sayisi-1734355",
+      "tags": [
+        "CHP",
+        "Özgür Özel",
+        "Yeni Parti",
+        "TBMM",
+        "Siyaset"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
