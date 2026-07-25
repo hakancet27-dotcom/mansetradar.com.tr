@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-25T00:00:00+00:00",
-    "article_count": 1053,
+    "article_count": 1056,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -43,6 +43,44 @@
         "yıkım",
         "gençlik kampı",
         "Belediye"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:fransada-buyuk-yangin-felaketi-140-binden-fazla-kisi-tahliye-edildi_20260725",
+      "slug": "fransada-buyuk-yangin-felaketi-140-binden-fazla-kisi-tahliye-edildi_20260725",
+      "title": "Fransa'da büyük yangın felaketi: 140 binden fazla kişi tahliye edildi",
+      "summary": "Fransa'nın güneybatısında günlerdir devam eden ve kontrol altına alınamayan orman yangınları nedeniyle Gironde ve Landes vilayetlerinde toplam 140 binden fazla kişi tahliye edildi.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "25.07.2026",
+      "date_iso": "2026-07-25",
+      "url": "/articles/2026/07/fransada-buyuk-yangin-felaketi-140-binden-fazla-kisi-tahliye-edildi_20260725/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/fransada-buyuk-yangin-felaketi-140-binden-fazla-kisi-tahliye-edildi_20260725/",
+      "detail_json_url": "/data/details/articles/2026/07/fransada-buyuk-yangin-felaketi-140-binden-fazla-kisi-tahliye-edildi_20260725.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/fransada-buyuk-yangin-felaketi-140-binden-fazla-kisi-tahliye-edildi_20260725.webp",
+      "image_alt": "Fransa'da orman yangınlarına müdahale eden ekipler ve tahliye çalışmaları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/fransada-buyuk-yangin-felaketi-140-binden-fazla-kisi-tahliye-edildi_20260725.webp",
+        "alt": "Fransa'da orman yangınlarına müdahale eden ekipler ve tahliye çalışmaları."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-fransa-alevlerle-mucadele-ediyor-140-binden-fazla-kisi-tahliye-edildi-7629549",
+      "tags": [
+        "Fransa",
+        "Gironde",
+        "orman yangını",
+        "tahliye",
+        "dünya haberleri"
       ],
       "quality_score": 86,
       "review_status": "published"
