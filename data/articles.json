@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-25T00:00:00+00:00",
-    "article_count": 1056,
+    "article_count": 1060,
     "schema_version": 2
   },
   "articles": [
@@ -195,6 +195,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:samsung-galaxy-z-fold-8-serisi-s-pen-destegi-yok_20260725",
+      "slug": "samsung-galaxy-z-fold-8-serisi-s-pen-destegi-yok_20260725",
+      "title": "Samsung Galaxy Z Fold 8 Serisinde S Pen Desteği Yok",
+      "summary": "Londra'da düzenlenen Galaxy Unpacked etkinliğinde tanıtılan Galaxy Z Fold 8 ve Z Fold 8 Ultra modellerinde S Pen desteğinin yer almadığı resmen doğrulandı. Samsung, cihazları daha ince hale getirmek amacıyla sayısallaştırıcı katmanı kaldırma stratejisini sü...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "25.07.2026",
+      "date_iso": "2026-07-25",
+      "url": "/articles/2026/07/samsung-galaxy-z-fold-8-serisi-s-pen-destegi-yok_20260725/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/samsung-galaxy-z-fold-8-serisi-s-pen-destegi-yok_20260725/",
+      "detail_json_url": "/data/details/articles/2026/07/samsung-galaxy-z-fold-8-serisi-s-pen-destegi-yok_20260725.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/208524/1200x675galaxy-z-fold-8-serisi-samsung-s-pen-kalemi-desteklemiyor.jpg",
+      "image_alt": "Samsung Galaxy Z Fold 8 ve Z Fold 8 Ultra modelleri yan yana duruyor.",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/208524/1200x675galaxy-z-fold-8-serisi-samsung-s-pen-kalemi-desteklemiyor.jpg",
+        "alt": "Samsung Galaxy Z Fold 8 ve Z Fold 8 Ultra modelleri yan yana duruyor."
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/galaxy-z-fold-8-serisi-samsung-s-pen-kalemi-desteklemiyor--208524",
+      "tags": [
+        "Samsung",
+        "Galaxy Z Fold 8",
+        "S Pen",
+        "Teknoloji",
+        "Akıllı Telefon"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:riva-da-atil-otel-yikiliyor-genclik-kampi-yapilacak_20260725",
       "slug": "riva-da-atil-otel-yikiliyor-genclik-kampi-yapilacak_20260725",
       "title": "Riva'daki atıl otel yıkılıyor: Yerine gençlik kampı yapılacak",
@@ -228,6 +266,44 @@
         "yıkım",
         "gençlik kampı",
         "Belediye"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:microsoftun-gizli-xbox-360-emulatoru-pcde-kesfedildi_20260725",
+      "slug": "microsoftun-gizli-xbox-360-emulatoru-pcde-kesfedildi_20260725",
+      "title": "Microsoft’un Gizli Xbox 360 Emülatörü PC’de Keşfedildi",
+      "summary": "Microsoft’un geriye dönük uyumluluk çalışmaları kapsamında dört orijinal Xbox oyununu PC’ye taşıması, şirketin Xe03 kod adlı resmi Xbox 360 emülatörünü de gün yüzüne çıkardı. Veri madencileri tarafından keşfedilen bu sistem, mod geliştiricilerinin yardımıyl...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "25.07.2026",
+      "date_iso": "2026-07-25",
+      "url": "/articles/2026/07/microsoftun-gizli-xbox-360-emulatoru-pcde-kesfedildi_20260725/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/microsoftun-gizli-xbox-360-emulatoru-pcde-kesfedildi_20260725/",
+      "detail_json_url": "/data/details/articles/2026/07/microsoftun-gizli-xbox-360-emulatoru-pcde-kesfedildi_20260725.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/microsoftun-gizli-xbox-360-emulatoru-pcde-kesfedildi_20260725.webp",
+      "image_alt": "Microsoft'un Xe03 emülatörü ile PC'de çalışan Xbox 360 oyunları görseli.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/microsoftun-gizli-xbox-360-emulatoru-pcde-kesfedildi_20260725.webp",
+        "alt": "Microsoft'un Xe03 emülatörü ile PC'de çalışan Xbox 360 oyunları görseli."
+      },
+      "source_name": "Teknoloji Haberleri – ShiftDelete.Net",
+      "source_url": "https://shiftdelete.net/xbox-360-oyunlari-pcde-microsoftun-gizli-emulatoru-kesfedildi",
+      "tags": [
+        "Microsoft",
+        "Xbox 360",
+        "Emülatör",
+        "PC Oyunculuğu",
+        "Xe03"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -271,6 +347,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/07:intel-14a-uretim-takvimi-one-cekildi_20260725",
+      "slug": "intel-14a-uretim-takvimi-one-cekildi_20260725",
+      "title": "Intel 14A Üretim Takvimi Bir Yıl Öne Çekildi",
+      "summary": "Intel, 2026 ikinci çeyrek finansal sonuçları kapsamında Foundry faaliyetlerine dair önemli bir güncelleme yayınladı. Şirket, 14A üretim teknolojisi için hedeflediği seri üretim takvimini bir yıl öne çekerek 2028 yılına aldığını duyurdu.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "25.07.2026",
+      "date_iso": "2026-07-25",
+      "url": "/articles/2026/07/intel-14a-uretim-takvimi-one-cekildi_20260725/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/intel-14a-uretim-takvimi-one-cekildi_20260725/",
+      "detail_json_url": "/data/details/articles/2026/07/intel-14a-uretim-takvimi-one-cekildi_20260725.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/208518/1200x675intel-14a-icin-takvim-one-cekildi-seri-uretim-2028-de-baslayacak.jpg",
+      "image_alt": "Intel yarı iletken üretim tesisi ve silikon plakalar",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/208518/1200x675intel-14a-icin-takvim-one-cekildi-seri-uretim-2028-de-baslayacak.jpg",
+        "alt": "Intel yarı iletken üretim tesisi ve silikon plakalar"
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/intel-14a-icin-takvim-one-cekildi-seri-uretim-2028-de-baslayacak--208518",
+      "tags": [
+        "Intel",
+        "Intel 14A",
+        "Intel Foundry",
+        "Yarı İletken",
+        "Teknoloji"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/07:fransada-buyuk-yangin-felaketi-140-binden-fazla-kisi-tahliye-edildi_20260725",
       "slug": "fransada-buyuk-yangin-felaketi-140-binden-fazla-kisi-tahliye-edildi_20260725",
       "title": "Fransa'da büyük yangın felaketi: 140 binden fazla kişi tahliye edildi",
@@ -304,6 +418,44 @@
         "orman yangını",
         "tahliye",
         "dünya haberleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:bayraktar-kizilelma-jet-230-balistik-fuze-testi_20260725",
+      "slug": "bayraktar-kizilelma-jet-230-balistik-fuze-testi_20260725",
+      "title": "Bayraktar KIZILELMA’dan Dünya Bir İlki: Balistik Füze Testi Başarıyla Tamamlandı",
+      "summary": "Baykar tarafından geliştirilen insansız savaş uçağı Bayraktar KIZILELMA, Roketsan’ın geliştirdiği JET-230 havadan atılan balistik mühimmat ile gerçekleştirdiği test atışıyla dünyada bir ilke imza attı. Bu gelişme, insansız hava araçlarının stratejik taarruz...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "25.07.2026",
+      "date_iso": "2026-07-25",
+      "url": "/articles/2026/07/bayraktar-kizilelma-jet-230-balistik-fuze-testi_20260725/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/bayraktar-kizilelma-jet-230-balistik-fuze-testi_20260725/",
+      "detail_json_url": "/data/details/articles/2026/07/bayraktar-kizilelma-jet-230-balistik-fuze-testi_20260725.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/bayraktar-kizilelma-jet-230-balistik-fuze-testi_20260725.webp",
+      "image_alt": "Bayraktar KIZILELMA insansız savaş uçağı uçuş sırasında.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/bayraktar-kizilelma-jet-230-balistik-fuze-testi_20260725.webp",
+        "alt": "Bayraktar KIZILELMA insansız savaş uçağı uçuş sırasında."
+      },
+      "source_name": "Teknoloji Haberleri – ShiftDelete.Net",
+      "source_url": "https://shiftdelete.net/dunyada-bir-ilk-kizilelmadan-balistik-fuze-atisi-2t-savunma-teknoloji-9",
+      "tags": [
+        "Bayraktar KIZILELMA",
+        "Roketsan",
+        "JET-230",
+        "Savunma Sanayii",
+        "İnsansız Savaş Uçağı"
       ],
       "quality_score": 86,
       "review_status": "published"

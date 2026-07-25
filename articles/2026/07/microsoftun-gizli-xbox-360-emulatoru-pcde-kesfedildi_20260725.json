@@ -1,0 +1,78 @@
+{
+  "title": "Microsoft’un Gizli Xbox 360 Emülatörü PC’de Keşfedildi",
+  "meta_title": "Microsoft'un Gizli Xbox 360 Emülatörü PC'de Ortaya Çıktı",
+  "meta_description": "Microsoft'un geriye dönük uyumluluk için geliştirdiği Xe03 emülatörü, PC platformunda keşfedildi. İşte oyun dünyasını değiştirecek bu gelişmenin detayları.",
+  "discover_titles": [
+    "Microsoft'un Gizli Xbox 360 Emülatörü PC'de Keşfedildi",
+    "Xbox 360 Oyunları Artık PC'de: Resmi Emülatör Ortaya Çıktı",
+    "Microsoft'un Xe03 Emülatörü ile PC'de Xbox Deneyimi"
+  ],
+  "slug": "microsoftun-gizli-xbox-360-emulatoru-pcde-kesfedildi_20260725",
+  "category": "Teknoloji",
+  "spot": "Microsoft’un geriye dönük uyumluluk çalışmaları kapsamında dört orijinal Xbox oyununu PC’ye taşıması, şirketin Xe03 kod adlı resmi Xbox 360 emülatörünü de gün yüzüne çıkardı. Veri madencileri tarafından keşfedilen bu sistem, mod geliştiricilerinin yardımıyla PC üzerinde Xbox 360 oyunlarını çalıştırmanın kapısını araladı.",
+  "content_html": "<h2>Xe03 Emülatörü ve Çalışma Prensibi</h2> <p>Microsoft, geriye dönük uyumluluk kapsamında yayınladığı oyun dosyalarında, Xbox One ve Xbox Series konsollarında kullanılan <strong>Xe03</strong> kod adlı resmi emülatörü kullanıyor. Fission olarak da bilinen bu yapı, aslında iç içe geçmiş iki katmandan oluşuyor. Sistem, Xbox 360 paketlerini çalıştırırken, orijinal Xbox oyunları için <strong>XeFu (Fusion)</strong> adlı ikinci bir katmanı devreye alıyor. Mod geliştiricileri, bu Fusion katmanını devre dışı bırakarak doğrudan Xbox 360 oyun dosyalarını PC üzerinde çalıştırmayı başardı.</p> <h2>PC Platformunda Yeni Bir Dönem</h2> <p>XWine1 ekibi; <em>Plants vs. Zombies</em>, <em>Steins: Gate</em>, <em>Fuzion Frenzy</em> ve <em>Midnight Club: Los Angeles</em> gibi oyunların bu yöntemle PC'de açıldığını duyurdu. Resmi kodların kullanılması, optimizasyon sürecini kolaylaştırırken, sistemin düşük donanımlı el konsollarında dahi hafif gereksinimlerle çalışabildiği belirtiliyor. Microsoft’un PC sürümü, 480p çözünürlüğündeki orijinal oyunları 4K seviyesine kadar ölçekleyebiliyor. Ayrıca sistem; V-Sync, anizotropik filtreleme, gelişmiş kenar yumuşatma ve çerçevesiz pencere modu gibi modern grafik özelliklerini de beraberinde getiriyor.</p> <p>Oyunlar Xbox Anywhere programına dahil olduğu için, konsolda dijital lisansa sahip olan kullanıcılar bu oyunlara PC üzerinde ücretsiz erişebiliyor. Gelecek dönemde bu sistemle birlikte Xbox Başarımları desteğinin de gelmesi bekleniyor. Bağımsız geliştiriciler, Microsoft’un x86 mimarisi için yeniden derlediği bu emülatörü, resmi PC sürümleri çıkmamış oyunları çalıştırmak için bir fırsat olarak değerlendiriyor.</p>",
+  "tags": [
+    "Microsoft",
+    "Xbox 360",
+    "Emülatör",
+    "PC Oyunculuğu",
+    "Xe03"
+  ],
+  "visual_keywords": [
+    "Xbox 360",
+    "Microsoft",
+    "Gaming PC",
+    "Emulation",
+    "Technology"
+  ],
+  "image_prompt": "A high-tech digital representation of an Xbox 360 controller connected to a modern gaming PC, with code lines and abstract emulation software interface in the background,...",
+  "image_alt": "Microsoft'un Xe03 emülatörü ile PC'de çalışan Xbox 360 oyunları görseli.",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 3,
+  "word_count": 243,
+  "date": "25.07.2026",
+  "flag": "TR",
+  "country": "Turkey",
+  "display_country": "Türkiye",
+  "image_url": "https://mansetradar.com.tr/articles/2026/07/images/microsoftun-gizli-xbox-360-emulatoru-pcde-kesfedildi_20260725.webp",
+  "real_image_required": true,
+  "real_image_status": "approved_real_image",
+  "image_kind": "licensed_real_photo",
+  "image_license_status": "clear",
+  "image_license_note": "Unsplash API photo",
+  "image_source_url": "https://unsplash.com/photos/black-microsoft-xbox-360-controller-0FSNRJPD3Mw",
+  "image_provider": "unsplash",
+  "image_score": 67,
+  "image_query": "Xbox 360",
+  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
+  "summary": "Microsoft’un geriye dönük uyumluluk çalışmaları kapsamında dört orijinal Xbox oyununu PC’ye taşıması, şirketin Xe03 kod adlı resmi Xbox 360 emülatörünü de gün yüzüne çıkardı. Veri madencileri tarafından keşfedilen bu sistem, mod geliştiricilerinin yardımıyla PC üzerinde Xbox 360 oyunlarını çalıştırmanın kapısını araladı.",
+  "language": "Turkish",
+  "url_prefix": "articles/2026/07",
+  "source_language": "Turkish",
+  "target_language": "Turkish",
+  "source_name": "Teknoloji Haberleri – ShiftDelete.Net",
+  "source_url": "https://shiftdelete.net/xbox-360-oyunlari-pcde-microsoftun-gizli-emulatoru-kesfedildi",
+  "source_published_at": "2026-07-25T14:00:00+00:00",
+  "source_fact_score": 11,
+  "source_fact_word_count": 318,
+  "quality_score": 86,
+  "quality_status": "published",
+  "review_required": false,
+  "quality_flags": [
+    "short_article"
+  ],
+  "quality_notes": [
+    "Metin hedefin altinda (243 kelime)."
+  ],
+  "quality_word_count": 243,
+  "indexed_on_home": true,
+  "image_identity_url": "https://images.unsplash.com/photo-1532219600601-8494408a4a2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxYYm94JTIwMzYwfGVufDF8MHx8fDE3ODQ5OTk3Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "original_image_url": "https://images.unsplash.com/photo-1532219600601-8494408a4a2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxYYm94JTIwMzYwfGVufDF8MHx8fDE3ODQ5OTk3Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "image_local_webp": "articles/2026/07/images/microsoftun-gizli-xbox-360-emulatoru-pcde-kesfedildi_20260725.webp",
+  "image_credit": "unsplash.com",
+  "image_credit_url": "https://unsplash.com/photos/black-microsoft-xbox-360-controller-0FSNRJPD3Mw",
+  "image_finalized_at": "2026-07-25T17:16:50.329804Z"
+}
