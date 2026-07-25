@@ -3,12 +3,50 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-25T00:00:00+00:00",
-    "article_count": 1048,
+    "article_count": 1053,
     "schema_version": 2,
     "category_slug": "spor",
     "type": "category"
   },
   "articles": [
+    {
+      "id": "articles/2026/07:riva-da-atil-otel-yikiliyor-genclik-kampi-yapilacak_20260725",
+      "slug": "riva-da-atil-otel-yikiliyor-genclik-kampi-yapilacak_20260725",
+      "title": "Riva'daki atıl otel yıkılıyor: Yerine gençlik kampı yapılacak",
+      "summary": "İstanbul Beykoz Riva'da bir dönem A Milli Futbol Takımı'nın kamp tesisi olarak kullanılan 186 odalı otel, 9 yıllık atıl sürecin ardından Beykoz Belediyesi ekiplerince yıkılmaya başlandı.",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "25.07.2026",
+      "date_iso": "2026-07-25",
+      "url": "/articles/2026/07/riva-da-atil-otel-yikiliyor-genclik-kampi-yapilacak_20260725/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/riva-da-atil-otel-yikiliyor-genclik-kampi-yapilacak_20260725/",
+      "detail_json_url": "/data/details/articles/2026/07/riva-da-atil-otel-yikiliyor-genclik-kampi-yapilacak_20260725.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/riva-da-atil-otel-yikiliyor-genclik-kampi-yapilacak_20260725.webp",
+      "image_alt": "Beykoz Riva'da 9 yıldır atıl durumda olan otelin yıkım çalışmaları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/riva-da-atil-otel-yikiliyor-genclik-kampi-yapilacak_20260725.webp",
+        "alt": "Beykoz Riva'da 9 yıldır atıl durumda olan otelin yıkım çalışmaları."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/son-dakika-9-yildir-atil-haldeydi-talan-edilmisti-riva-da-o-otel-yikiliyor-3900985",
+      "tags": [
+        "Beykoz",
+        "Riva",
+        "yıkım",
+        "gençlik kampı",
+        "Belediye"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/07:red-bull-formulaz-16-kez-tunca-da-heyecan-basliyor_20260724",
       "slug": "red-bull-formulaz-16-kez-tunca-da-heyecan-basliyor_20260724",
