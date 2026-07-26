@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-07-26T00:00:00+00:00",
-    "article_count": 1062,
+    "article_count": 1063,
     "schema_version": 2
   },
   "hero": [
@@ -41,6 +41,44 @@
         "İstanbul",
         "Şüpheli Ölüm",
         "Adli Tıp"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:bakan-kacir-terminal-istanbul-projesinin-baslangic-etabini-duyurdu_20260726",
+      "slug": "bakan-kacir-terminal-istanbul-projesinin-baslangic-etabini-duyurdu_20260726",
+      "title": "Bakan Kacır, 'Terminal İstanbul' projesinin başlangıç etabını duyurdu",
+      "summary": "Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, Atatürk Havalimanı'nda kurulan ve dünyanın en büyük girişimcilik merkezlerinden biri olması hedeflenen 'Terminal İstanbul' projesinin başlangıç etabını sosyal medya hesabından yaptığı paylaşımla duyurdu.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "26.07.2026",
+      "date_iso": "2026-07-26",
+      "url": "/articles/2026/07/bakan-kacir-terminal-istanbul-projesinin-baslangic-etabini-duyurdu_20260726/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/bakan-kacir-terminal-istanbul-projesinin-baslangic-etabini-duyurdu_20260726/",
+      "detail_json_url": "/data/details/articles/2026/07/bakan-kacir-terminal-istanbul-projesinin-baslangic-etabini-duyurdu_20260726.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/bakan-kacir-terminal-istanbul-projesinin-baslangic-etabini-duyurdu_20260726.webp",
+      "image_alt": "Atatürk Havalimanı'nda yapımı süren Terminal İstanbul projesinden bir görünüm.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/bakan-kacir-terminal-istanbul-projesinin-baslangic-etabini-duyurdu_20260726.webp",
+        "alt": "Atatürk Havalimanı'nda yapımı süren Terminal İstanbul projesinden bir görünüm."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/bakan-kacir-terminal-istanbul-projesinin-baslangic-etabini-duyurdu-43252565",
+      "tags": [
+        "Terminal İstanbul",
+        "Mehmet Fatih Kacır",
+        "Atatürk Havalimanı",
+        "Girişimcilik",
+        "Teknoloji"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -725,44 +763,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:sk-group-baskani-chey-tae-won-bosanma-davasi_20260724",
-      "slug": "sk-group-baskani-chey-tae-won-bosanma-davasi_20260724",
-      "title": "Güney Kore'de 1 Milyar Dolarlık Boşanma Davası: SK Group'ta Büyük Skandal",
-      "summary": "Güney Koreli teknoloji devi SK Group'un Yönetim Kurulu Başkanı Chey Tae Won ile eski Devlet Başkanı Roh Tae Woo'nun kızı Roh Soh Yeong arasındaki boşanma davası, 1 milyar dolarlık tazminat talebiyle ülke tarihinin en pahalı hukuki süreçlerinden birine dönüştü.",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "24.07.2026",
-      "date_iso": "2026-07-24",
-      "url": "/articles/2026/07/sk-group-baskani-chey-tae-won-bosanma-davasi_20260724/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/sk-group-baskani-chey-tae-won-bosanma-davasi_20260724/",
-      "detail_json_url": "/data/details/articles/2026/07/sk-group-baskani-chey-tae-won-bosanma-davasi_20260724.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/sk-group-baskani-chey-tae-won-bosanma-davasi_20260724.webp",
-      "image_alt": "Güney Kore'de teknoloji devi SK Group'un genel merkezi.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/sk-group-baskani-chey-tae-won-bosanma-davasi_20260724.webp",
-        "alt": "Güney Kore'de teknoloji devi SK Group'un genel merkezi."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-esini-aldattigini-gazeteden-itiraf-etti-teknoloji-devinde-buyuk-skandal-1-milyar-dolarlik-tazminat-savasi-7628985",
-      "tags": [
-        "SK Group",
-        "Chey Tae Won",
-        "Roh Soh Yeong",
-        "Güney Kore",
-        "Boşanma Davası"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -800,6 +800,44 @@
         "İstanbul",
         "Şüpheli Ölüm",
         "Adli Tıp"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/07:bakan-kacir-terminal-istanbul-projesinin-baslangic-etabini-duyurdu_20260726",
+      "slug": "bakan-kacir-terminal-istanbul-projesinin-baslangic-etabini-duyurdu_20260726",
+      "title": "Bakan Kacır, 'Terminal İstanbul' projesinin başlangıç etabını duyurdu",
+      "summary": "Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, Atatürk Havalimanı'nda kurulan ve dünyanın en büyük girişimcilik merkezlerinden biri olması hedeflenen 'Terminal İstanbul' projesinin başlangıç etabını sosyal medya hesabından yaptığı paylaşımla duyurdu.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/07",
+      "date": "26.07.2026",
+      "date_iso": "2026-07-26",
+      "url": "/articles/2026/07/bakan-kacir-terminal-istanbul-projesinin-baslangic-etabini-duyurdu_20260726/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/bakan-kacir-terminal-istanbul-projesinin-baslangic-etabini-duyurdu_20260726/",
+      "detail_json_url": "/data/details/articles/2026/07/bakan-kacir-terminal-istanbul-projesinin-baslangic-etabini-duyurdu_20260726.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/bakan-kacir-terminal-istanbul-projesinin-baslangic-etabini-duyurdu_20260726.webp",
+      "image_alt": "Atatürk Havalimanı'nda yapımı süren Terminal İstanbul projesinden bir görünüm.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/07/images/bakan-kacir-terminal-istanbul-projesinin-baslangic-etabini-duyurdu_20260726.webp",
+        "alt": "Atatürk Havalimanı'nda yapımı süren Terminal İstanbul projesinden bir görünüm."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/bakan-kacir-terminal-istanbul-projesinin-baslangic-etabini-duyurdu-43252565",
+      "tags": [
+        "Terminal İstanbul",
+        "Mehmet Fatih Kacır",
+        "Atatürk Havalimanı",
+        "Girişimcilik",
+        "Teknoloji"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -2994,44 +3032,6 @@
         "asayiş"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/07:jennifer-lopez-yeni-iliski-beklentisi_20260722",
-      "slug": "jennifer-lopez-yeni-iliski-beklentisi_20260722",
-      "title": "Jennifer Lopez yeni ilişkisinden beklentisini açıkladı",
-      "summary": "Kısa süre önce 57 yaşına giren ve dört evliliğini noktalayan Jennifer Lopez, yeni bir ilişkide aradığı kriterleri İtalya'da düzenlenen bir moda etkinliğinde açıkladı. Ünlü yıldız, maddi zenginlikten ziyade günlük hayattaki küçük inceliklere önem verdiğini b...",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "topic_slug": "magazin",
-      "topic_label": "Magazin",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/07",
-      "date": "22.07.2026",
-      "date_iso": "2026-07-22",
-      "url": "/articles/2026/07/jennifer-lopez-yeni-iliski-beklentisi_20260722/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/07/jennifer-lopez-yeni-iliski-beklentisi_20260722/",
-      "detail_json_url": "/data/details/articles/2026/07/jennifer-lopez-yeni-iliski-beklentisi_20260722.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/07/images/jennifer-lopez-yeni-iliski-beklentisi_20260722.webp",
-      "image_alt": "Jennifer Lopez bir moda etkinliğinde görüntülendi.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/07/images/jennifer-lopez-yeni-iliski-beklentisi_20260722.webp",
-        "alt": "Jennifer Lopez bir moda etkinliğinde görüntülendi."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/kelebek/magazin/parasini-pulunu-ozel-jetini-istemem-sabah-yatagimizi-duzeltsin-yeter-43246616",
-      "tags": [
-        "Jennifer Lopez",
-        "Magazin",
-        "İlişkiler",
-        "Ben Affleck",
-        "Ünlüler dünyası"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]
