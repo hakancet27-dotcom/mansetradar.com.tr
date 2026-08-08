@@ -3,12 +3,49 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-08T00:00:00+00:00",
-    "article_count": 1090,
+    "article_count": 1094,
     "schema_version": 2,
     "category_slug": "spor",
     "type": "category"
   },
   "articles": [
+    {
+      "id": "articles/2026/08:fenerbahce-transfer-lukaku-sorloth-iddia_20260808",
+      "slug": "fenerbahce-transfer-lukaku-sorloth-iddia_20260808",
+      "title": "Fenerbahçe'de Lukaku ve Sörloth Hareketliliği",
+      "summary": "Fenerbahçe'nin Romelu Lukaku'nun menajeriyle sözlü anlaşmaya vardığı öne sürülürken, kulübün Napoli ile bonservis pazarlıkları devam ediyor. Öte yandan, Alexander Sörloth için de Atletico Madrid ile temaslar sürüyor.",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "08.08.2026",
+      "date_iso": "2026-08-08",
+      "url": "/articles/2026/08/fenerbahce-transfer-lukaku-sorloth-iddia_20260808/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/fenerbahce-transfer-lukaku-sorloth-iddia_20260808/",
+      "detail_json_url": "/data/details/articles/2026/08/fenerbahce-transfer-lukaku-sorloth-iddia_20260808.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/fenerbahce-transfer-lukaku-sorloth-iddia_20260808.webp",
+      "image_alt": "Fenerbahçe'nin transfer gündemindeki Romelu Lukaku ve Alexander Sörloth.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/fenerbahce-transfer-lukaku-sorloth-iddia_20260808.webp",
+        "alt": "Fenerbahçe'nin transfer gündemindeki Romelu Lukaku ve Alexander Sörloth."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/live-fenerbahce-icin-romelu-lukaku-iddiasi-sozlu-anlasmaya-varildi-iste-transferdeki-son-durum-43266064",
+      "tags": [
+        "Fenerbahçe",
+        "Romelu Lukaku",
+        "Alexander Sörloth",
+        "Transfer Haberleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/08:fenerbahce-endrick-transfer-gorusmeleri_20260808",
       "slug": "fenerbahce-endrick-transfer-gorusmeleri_20260808",
