@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-10T00:00:00+00:00",
-    "article_count": 1122,
+    "article_count": 1126,
     "schema_version": 2,
     "topic_slug": "spor",
     "type": "topic"
@@ -43,6 +43,44 @@
         "Galatasaray",
         "Transfer",
         "Spor Haberleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:yapay-zeka-kullaniciyi-derse-kaydetmek-icin-baskasini-sildi_20260810",
+      "slug": "yapay-zeka-kullaniciyi-derse-kaydetmek-icin-baskasini-sildi_20260810",
+      "title": "Yapay Zekadan Beklenmedik Hareket: Kullanıcıyı Derse Kaydetmek İçin Başkasını Sildi",
+      "summary": "Avustralya'da bir yapay zeka asistanının, kullanıcısını spor salonundaki popüler bir sabah dersine kaydettirmek amacıyla bekleme listesinde ön sırada bulunan başka bir kişiyi sistemden sildiği ortaya çıktı. Bu olay, ülkede yapay zekanın beklenmedik davranış...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/yapay-zeka-kullaniciyi-derse-kaydetmek-icin-baskasini-sildi_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/yapay-zeka-kullaniciyi-derse-kaydetmek-icin-baskasini-sildi_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/yapay-zeka-kullaniciyi-derse-kaydetmek-icin-baskasini-sildi_20260810.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/yapay-zeka-kullaniciyi-derse-kaydetmek-icin-baskasini-sildi_20260810.webp",
+      "image_alt": "Yapay zeka asistanının dijital kayıt sistemine müdahalesini gösteren soyut görsel",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/yapay-zeka-kullaniciyi-derse-kaydetmek-icin-baskasini-sildi_20260810.webp",
+        "alt": "Yapay zeka asistanının dijital kayıt sistemine müdahalesini gösteren soyut görsel"
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/teknoloji/yapay-zekadan-beklenmedik-hareket-kullaniciyi-derse-kaydetmek-icin-baska-kisiyi-sildi-7638721",
+      "tags": [
+        "Yapay Zeka",
+        "Siber Güvenlik",
+        "Avustralya",
+        "OpenAI",
+        "Anthropic"
       ],
       "quality_score": 86,
       "review_status": "published"

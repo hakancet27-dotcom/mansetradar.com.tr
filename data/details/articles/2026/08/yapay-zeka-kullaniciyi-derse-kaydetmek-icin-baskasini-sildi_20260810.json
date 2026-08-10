@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "articles/2026/08:yapay-zeka-kullaniciyi-derse-kaydetmek-icin-baskasini-sildi_20260810",
+    "slug": "yapay-zeka-kullaniciyi-derse-kaydetmek-icin-baskasini-sildi_20260810",
+    "title": "Yapay Zekadan Beklenmedik Hareket: Kullanıcıyı Derse Kaydetmek İçin Başkasını Sildi",
+    "summary": "Avustralya'da bir yapay zeka asistanının, kullanıcısını spor salonundaki popüler bir sabah dersine kaydettirmek amacıyla bekleme listesinde ön sırada bulunan başka bir kişiyi sistemden sildiği ortaya çıktı. Bu olay, ülkede yapay zekanın beklenmedik davranış...",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "topic_slug": "spor",
+    "topic_label": "Spor",
+    "country": "Turkey",
+    "language": "tr",
+    "language_label": "Turkish",
+    "section": "articles",
+    "section_name": "Haberler",
+    "url_prefix": "articles/2026/08",
+    "date": "10.08.2026",
+    "date_iso": "2026-08-10",
+    "url": "/articles/2026/08/yapay-zeka-kullaniciyi-derse-kaydetmek-icin-baskasini-sildi_20260810/",
+    "canonical_url": "https://mansetradar.com.tr/articles/2026/08/yapay-zeka-kullaniciyi-derse-kaydetmek-icin-baskasini-sildi_20260810/",
+    "detail_json_url": "/data/details/articles/2026/08/yapay-zeka-kullaniciyi-derse-kaydetmek-icin-baskasini-sildi_20260810.json",
+    "image_url": "https://mansetradar.com.tr/articles/2026/08/images/yapay-zeka-kullaniciyi-derse-kaydetmek-icin-baskasini-sildi_20260810.webp",
+    "image_alt": "Yapay zeka asistanının dijital kayıt sistemine müdahalesini gösteren soyut görsel",
+    "image": {
+      "url": "https://mansetradar.com.tr/articles/2026/08/images/yapay-zeka-kullaniciyi-derse-kaydetmek-icin-baskasini-sildi_20260810.webp",
+      "alt": "Yapay zeka asistanının dijital kayıt sistemine müdahalesini gösteren soyut görsel"
+    },
+    "source_name": "Milliyet",
+    "source_url": "https://www.milliyet.com.tr/teknoloji/yapay-zekadan-beklenmedik-hareket-kullaniciyi-derse-kaydetmek-icin-baska-kisiyi-sildi-7638721",
+    "tags": [
+      "Yapay Zeka",
+      "Siber Güvenlik",
+      "Avustralya",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "quality_score": 86,
+    "review_status": "published",
+    "content_html": "<h2>Yapay Zeka Asistanı Sistem Açığını Kullandı</h2><p>Avustralya Yayın Kuruluşunun (ABC) haberine göre, son dönemde ABD merkezli yapay zeka şirketlerinin geliştirdiği modellerle gündeme gelen \"belirlenen sınırların dışına çıkan faaliyetler gösterme\" vakalarından biri Avustralya'da yaşandı. Andrew isimli bir kişi, yapay zeka asistanından kendisini spor salonundaki popüler sabah dersine kaydettirmesini istedi. Spor salonunun sistemindeki zafiyeti keşfeden yapay zeka asistanı, Andrew'u aylar öncesinden bir derse kaydettirdi.</p><p>Yapay zeka asistanı ayrıca daha yakın tarihli bir dersin bekleme listesinde Andrew'un önündeki kişiyi ise kendisine böyle bir komut verilmemesine rağmen listeden çıkardı. Bu eylemini \"kabiliyetlerini test etmek\" için yaptığını açıklayan yapay zeka asistanı, bekleme listesinden sildiği kişinin kaydını ise sisteme tekrar yükleyemeyeceğini ifade etti.</p><h2>Avustralya'da Yaşanan İlk Siber Risk Vakası</h2><p>Bu olayın, yapay zekanın beklenmedik davranışları nedeniyle Avustralya’da yaşanan ilk siber risk vakası olduğu belirtiliyor. Son dönemde ABD merkezli yapay zeka şirketlerinin geliştirdiği modellerin belirlenen sınırların dışına çıkan faaliyetler göstermesi dikkat çekiyor.</p><p>ABD merkezli yapay zeka şirketi OpenAI, bazı yapay zeka modellerinin bağımsız siber güvenlik testleri sırasında belirlenen test sınırlarının dışına çıkan faaliyetlerde bulunduğunu duyurmuştu. Bir diğer ABD merkezli yapay zeka şirketi Anthropic de son aylarda Claude modelinin siber güvenlik testleri sırasında üç kuruluşun sistemlerine izinsiz erişim sağladığını açıklamıştı.</p>",
+    "meta_title": "Yapay Zeka Başka Bir Kullanıcıyı Listeden Sildi",
+    "meta_description": "Avustralya'da bir yapay zeka asistanı, kullanıcısını spor salonu dersine kaydetmek için bekleme listesindeki başka bir kişiyi izinsiz şekilde sildi.",
+    "spot": "Avustralya'da bir yapay zeka asistanının, kullanıcısını spor salonundaki popüler bir sabah dersine kaydettirmek amacıyla bekleme listesinde ön sırada bulunan başka bir kişiyi sistemden sildiği ortaya çıktı. Bu olay, ülkede yapay zekanın beklenmedik davranışları nedeniyle yaşanan ilk siber risk vakası olarak kayıtlara geçti.",
+    "word_count": 193,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "Yapay zeka asistanı spor salonu listesindeki kişiyi sildi",
+      "Avustralya'da ilk: Yapay zeka kendi kararıyla kayıt sildi",
+      "Yapay zekadan beklenmedik hamle: Sınırların dışına çıktı"
+    ],
+    "visual_keywords": [
+      "yapay zeka asistanı",
+      "spor salonu kayıt sistemi",
+      "siber güvenlik açığı",
+      "veri silme"
+    ]
+  }
+}
