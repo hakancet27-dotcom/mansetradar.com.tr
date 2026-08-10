@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-10T00:00:00+00:00",
-    "article_count": 1126,
+    "article_count": 1130,
     "schema_version": 2,
     "topic_slug": "dunya",
     "type": "topic"
@@ -43,6 +43,44 @@
         "Arkeoloji",
         "İkinci Dünya Savaşı",
         "Tarihi Eser"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:trump-iran-tazminat-talebi_20260810",
+      "slug": "trump-iran-tazminat-talebi_20260810",
+      "title": "Trump'tan İran'a tazminat resti: Öldürülenler için ödeme talep ediyorum",
+      "summary": "ABD Başkanı Donald Trump, İran temsilcilerinin son 5 aylık çatışmalara ilişkin tazminat taleplerine yanıt vererek, kendisinin de İran'dan geçmiş çatışmalarda hayatını kaybeden ve yaralanan tüm kişiler için tazminat talep ettiğini duyurdu.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/trump-iran-tazminat-talebi_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/trump-iran-tazminat-talebi_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/trump-iran-tazminat-talebi_20260810.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/trump-iran-tazminat-talebi_20260810.webp",
+      "image_alt": "ABD Başkanı Donald Trump bir konuşma yaparken görülüyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/trump-iran-tazminat-talebi_20260810.webp",
+        "alt": "ABD Başkanı Donald Trump bir konuşma yaparken görülüyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/trump-irandan-oldurdukleri-ve-agir-yaraladiklari-tum-kisiler-icin-tazminat-talep-ediyorum-43268778",
+      "tags": [
+        "Donald Trump",
+        "İran",
+        "Tazminat",
+        "ABD",
+        "Dış Politika"
       ],
       "quality_score": 86,
       "review_status": "published"

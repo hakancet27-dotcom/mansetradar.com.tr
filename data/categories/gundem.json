@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-10T00:00:00+00:00",
-    "article_count": 1126,
+    "article_count": 1130,
     "schema_version": 2,
     "category_slug": "gundem",
     "type": "category"
@@ -124,6 +124,43 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/08:kolombiyada-7-4-buyuklugunde-deprem-111-olu_20260810",
+      "slug": "kolombiyada-7-4-buyuklugunde-deprem-111-olu_20260810",
+      "title": "Kolombiya'da 7.4 büyüklüğünde deprem: 111 ölü, ulusal afet durumu ilan edildi",
+      "summary": "Kolombiya'da meydana gelen 7.4 büyüklüğündeki depremde 111 kişi hayatını kaybetti. Hükümet, felaketin ardından 'Ulusal Afet Durumu' ilan ederken, kritik altyapılarda ciddi hasarlar oluştuğu bildirildi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/kolombiyada-7-4-buyuklugunde-deprem-111-olu_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/kolombiyada-7-4-buyuklugunde-deprem-111-olu_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/kolombiyada-7-4-buyuklugunde-deprem-111-olu_20260810.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/kolombiyada-7-4-buyuklugunde-deprem-111-olu_20260810.webp",
+      "image_alt": "Kolombiya'da deprem sonrası oluşan hasar ve arama kurtarma çalışmaları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/kolombiyada-7-4-buyuklugunde-deprem-111-olu_20260810.webp",
+        "alt": "Kolombiya'da deprem sonrası oluşan hasar ve arama kurtarma çalışmaları."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/kolombiyada-7-4-buyuklugunde-siddetli-deprem-tsunami-uyarisi-verildi-7638691",
+      "tags": [
+        "Kolombiya",
+        "Deprem",
+        "Son Dakika",
+        "Abelardo De La Espriella"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/08:isim-benzerligi-yuzunden-10-gun-hapis-yatti_20260810",
       "slug": "isim-benzerligi-yuzunden-10-gun-hapis-yatti_20260810",
       "title": "İsim benzerliği kurbanı: 10 gün hapis yattı",
@@ -157,6 +194,44 @@
         "hapis",
         "hukuk",
         "isim benzerliği"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:dijital-platformlarda-denetim-tartismasi_20260810",
+      "slug": "dijital-platformlarda-denetim-tartismasi_20260810",
+      "title": "Dijital platformlarda denetim tartışması: RTÜK kuralları dijitale mi taşınacak?",
+      "summary": "Sanal medya ve dijital platformlarda çocukların şiddet, suç, cinsellik ve uyuşturucu gibi içeriklerle karşılaşması, denetim mekanizmalarını yeniden gündeme getirdi. Uzmanlar, televizyon yayınlarında uygulanan RTÜK denetimlerinin dijital platformlarda da etk...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/dijital-platformlarda-denetim-tartismasi_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/dijital-platformlarda-denetim-tartismasi_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/dijital-platformlarda-denetim-tartismasi_20260810.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/dijital-platformlarda-denetim-tartismasi_20260810.webp",
+      "image_alt": "Dijital platformlarda denetim ve içerik güvenliği kavramsal görseli.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/dijital-platformlarda-denetim-tartismasi_20260810.webp",
+        "alt": "Dijital platformlarda denetim ve içerik güvenliği kavramsal görseli."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/dijitalde-denetim-yok-sartlar-esit-degil-vergi-denetim-rtuk-kurallari-neden-yok-43268736",
+      "tags": [
+        "RTÜK",
+        "dijital platformlar",
+        "denetim",
+        "çocukları koruma",
+        "medya"
       ],
       "quality_score": 86,
       "review_status": "published"

@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-10T00:00:00+00:00",
-    "article_count": 1126,
+    "article_count": 1130,
     "schema_version": 2
   },
   "articles": [
@@ -230,6 +230,44 @@
         "Arkeoloji",
         "İkinci Dünya Savaşı",
         "Tarihi Eser"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:trump-iran-tazminat-talebi_20260810",
+      "slug": "trump-iran-tazminat-talebi_20260810",
+      "title": "Trump'tan İran'a tazminat resti: Öldürülenler için ödeme talep ediyorum",
+      "summary": "ABD Başkanı Donald Trump, İran temsilcilerinin son 5 aylık çatışmalara ilişkin tazminat taleplerine yanıt vererek, kendisinin de İran'dan geçmiş çatışmalarda hayatını kaybeden ve yaralanan tüm kişiler için tazminat talep ettiğini duyurdu.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/trump-iran-tazminat-talebi_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/trump-iran-tazminat-talebi_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/trump-iran-tazminat-talebi_20260810.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/trump-iran-tazminat-talebi_20260810.webp",
+      "image_alt": "ABD Başkanı Donald Trump bir konuşma yaparken görülüyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/trump-iran-tazminat-talebi_20260810.webp",
+        "alt": "ABD Başkanı Donald Trump bir konuşma yaparken görülüyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/trump-irandan-oldurdukleri-ve-agir-yaraladiklari-tum-kisiler-icin-tazminat-talep-ediyorum-43268778",
+      "tags": [
+        "Donald Trump",
+        "İran",
+        "Tazminat",
+        "ABD",
+        "Dış Politika"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -615,6 +653,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/08:ozgur-ozel-tbmm-kanun-teklifi-tutum_20260810",
+      "slug": "ozgur-ozel-tbmm-kanun-teklifi-tutum_20260810",
+      "title": "Özgür Özel'den TBMM'de 'Evet' ve 'Hayır' ikilemi",
+      "summary": "TBMM Genel Kurulu'nda görüşülen 'terörsüz Türkiye' kanun teklifinde Yeni Parti Genel Başkanı Özgür Özel, kendisinin 'Evet' oyu vereceğini açıklarken, milletvekillerine ise 'milletin sesine göre hareket edin' diyerek serbestlik tanıdı.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/ozgur-ozel-tbmm-kanun-teklifi-tutum_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/ozgur-ozel-tbmm-kanun-teklifi-tutum_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/ozgur-ozel-tbmm-kanun-teklifi-tutum_20260810.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/ozgur-ozel-tbmm-kanun-teklifi-tutum_20260810.webp",
+      "image_alt": "TBMM Genel Kurulu'nda Özgür Özel konuşma yaparken",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/ozgur-ozel-tbmm-kanun-teklifi-tutum_20260810.webp",
+        "alt": "TBMM Genel Kurulu'nda Özgür Özel konuşma yaparken"
+      },
+      "source_name": "SABAH",
+      "source_url": "https://www.sabah.com.tr/gundem/2026/08/10/ozgur-ozelin-siyasi-oyunu-desifre-oldu-kendisi-evet-dedi-vekillerine-hayir-kapisini-acti",
+      "tags": [
+        "Özgür Özel",
+        "TBMM",
+        "Yeni Parti",
+        "Siyaset",
+        "Kanun Teklifi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/08:openai-astra-modeli-guvenlik-nedeniyle-durduruldu_20260810",
       "slug": "openai-astra-modeli-guvenlik-nedeniyle-durduruldu_20260810",
       "title": "OpenAI, Astra Modelinin Bazı Geliştirme Çalışmalarını Güvenlik Endişeleri Nedeniyle Durdurdu",
@@ -762,6 +838,43 @@
         "Cengiz Yönet",
         "Ali Camgöz",
         "Transfer"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:kolombiyada-7-4-buyuklugunde-deprem-111-olu_20260810",
+      "slug": "kolombiyada-7-4-buyuklugunde-deprem-111-olu_20260810",
+      "title": "Kolombiya'da 7.4 büyüklüğünde deprem: 111 ölü, ulusal afet durumu ilan edildi",
+      "summary": "Kolombiya'da meydana gelen 7.4 büyüklüğündeki depremde 111 kişi hayatını kaybetti. Hükümet, felaketin ardından 'Ulusal Afet Durumu' ilan ederken, kritik altyapılarda ciddi hasarlar oluştuğu bildirildi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/kolombiyada-7-4-buyuklugunde-deprem-111-olu_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/kolombiyada-7-4-buyuklugunde-deprem-111-olu_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/kolombiyada-7-4-buyuklugunde-deprem-111-olu_20260810.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/kolombiyada-7-4-buyuklugunde-deprem-111-olu_20260810.webp",
+      "image_alt": "Kolombiya'da deprem sonrası oluşan hasar ve arama kurtarma çalışmaları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/kolombiyada-7-4-buyuklugunde-deprem-111-olu_20260810.webp",
+        "alt": "Kolombiya'da deprem sonrası oluşan hasar ve arama kurtarma çalışmaları."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/kolombiyada-7-4-buyuklugunde-siddetli-deprem-tsunami-uyarisi-verildi-7638691",
+      "tags": [
+        "Kolombiya",
+        "Deprem",
+        "Son Dakika",
+        "Abelardo De La Espriella"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -916,6 +1029,44 @@
         "Türkiye"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:dijital-platformlarda-denetim-tartismasi_20260810",
+      "slug": "dijital-platformlarda-denetim-tartismasi_20260810",
+      "title": "Dijital platformlarda denetim tartışması: RTÜK kuralları dijitale mi taşınacak?",
+      "summary": "Sanal medya ve dijital platformlarda çocukların şiddet, suç, cinsellik ve uyuşturucu gibi içeriklerle karşılaşması, denetim mekanizmalarını yeniden gündeme getirdi. Uzmanlar, televizyon yayınlarında uygulanan RTÜK denetimlerinin dijital platformlarda da etk...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/dijital-platformlarda-denetim-tartismasi_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/dijital-platformlarda-denetim-tartismasi_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/dijital-platformlarda-denetim-tartismasi_20260810.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/dijital-platformlarda-denetim-tartismasi_20260810.webp",
+      "image_alt": "Dijital platformlarda denetim ve içerik güvenliği kavramsal görseli.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/dijital-platformlarda-denetim-tartismasi_20260810.webp",
+        "alt": "Dijital platformlarda denetim ve içerik güvenliği kavramsal görseli."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/dijitalde-denetim-yok-sartlar-esit-degil-vergi-denetim-rtuk-kurallari-neden-yok-43268736",
+      "tags": [
+        "RTÜK",
+        "dijital platformlar",
+        "denetim",
+        "çocukları koruma",
+        "medya"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
