@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-10T00:00:00+00:00",
-    "article_count": 1130,
+    "article_count": 1134,
     "schema_version": 2,
     "topic_slug": "spor",
     "type": "topic"
@@ -81,6 +81,44 @@
         "Avustralya",
         "OpenAI",
         "Anthropic"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810",
+      "slug": "transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810",
+      "title": "Transfer piyasasında hareketli saatler: Hull City, Trabzonspor ve Fenerbahçe'de son durum",
+      "summary": "Acun Ilıcalı'nın sahibi olduğu Hull City, Kayserispor'dan Deniz Eren Dönmezer'i kadrosuna katıyor. Trabzonspor Darwin Nunez için görüşmelerini sürdürürken, Fenerbahçe'de Romelu Lukaku transferinde pazarlıklar devam ediyor.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810.webp",
+      "image_alt": "Futbol sahası ve transfer dönemini simgeleyen genel görsel.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810.webp",
+        "alt": "Futbol sahası ve transfer dönemini simgeleyen genel görsel."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/live-acun-ilicali-turkiyeden-transfer-yapiyor-anlasma-tamam-43267920",
+      "tags": [
+        "Transfer",
+        "Hull City",
+        "Fenerbahçe",
+        "Trabzonspor",
+        "Deniz Eren Dönmezer"
       ],
       "quality_score": 86,
       "review_status": "published"

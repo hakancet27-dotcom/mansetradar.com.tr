@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-10T00:00:00+00:00",
-    "article_count": 1130,
+    "article_count": 1134,
     "schema_version": 2
   },
   "hero": [
@@ -268,6 +268,44 @@
         "Tazminat",
         "ABD",
         "Dış Politika"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810",
+      "slug": "transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810",
+      "title": "Transfer piyasasında hareketli saatler: Hull City, Trabzonspor ve Fenerbahçe'de son durum",
+      "summary": "Acun Ilıcalı'nın sahibi olduğu Hull City, Kayserispor'dan Deniz Eren Dönmezer'i kadrosuna katıyor. Trabzonspor Darwin Nunez için görüşmelerini sürdürürken, Fenerbahçe'de Romelu Lukaku transferinde pazarlıklar devam ediyor.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810.webp",
+      "image_alt": "Futbol sahası ve transfer dönemini simgeleyen genel görsel.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810.webp",
+        "alt": "Futbol sahası ve transfer dönemini simgeleyen genel görsel."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/live-acun-ilicali-turkiyeden-transfer-yapiyor-anlasma-tamam-43267920",
+      "tags": [
+        "Transfer",
+        "Hull City",
+        "Fenerbahçe",
+        "Trabzonspor",
+        "Deniz Eren Dönmezer"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -727,44 +765,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/08:nvidia-ve-amd-cin-pazar-payi-2026-tahmini_20260810",
-      "slug": "nvidia-ve-amd-cin-pazar-payi-2026-tahmini_20260810",
-      "title": "Nvidia ve AMD’nin Çin Pazar Payı 2026’da %10’a Gerileyebilir",
-      "summary": "Pazar araştırma şirketi TrendForce’un verilerine göre, ABD’nin uyguladığı çip kısıtlamaları ve Çin’in yerli üretime verdiği yoğun destek, Nvidia ve AMD’nin Çin pazarındaki hakimiyetini sarsıyor. 2026 yılına gelindiğinde, bu iki teknoloji devinin toplam paza...",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "topic_slug": "teknoloji",
-      "topic_label": "Teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/08",
-      "date": "10.08.2026",
-      "date_iso": "2026-08-10",
-      "url": "/articles/2026/08/nvidia-ve-amd-cin-pazar-payi-2026-tahmini_20260810/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/nvidia-ve-amd-cin-pazar-payi-2026-tahmini_20260810/",
-      "detail_json_url": "/data/details/articles/2026/08/nvidia-ve-amd-cin-pazar-payi-2026-tahmini_20260810.json",
-      "image_url": "https://www.donanimhaber.com/images/images/haber/209118/1200x675nvidia-ve-amd-ye-cin-de-sok-pazar-paylari-cakiliyor.jpg",
-      "image_alt": "Çin'de gelişmiş çip üretim tesisi ve teknolojik ekipmanlar.",
-      "image": {
-        "url": "https://www.donanimhaber.com/images/images/haber/209118/1200x675nvidia-ve-amd-ye-cin-de-sok-pazar-paylari-cakiliyor.jpg",
-        "alt": "Çin'de gelişmiş çip üretim tesisi ve teknolojik ekipmanlar."
-      },
-      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
-      "source_url": "https://www.donanimhaber.com/nvidia-ve-amd-ye-cin-de-sok-pazar-paylari-cakiliyor--209118",
-      "tags": [
-        "Nvidia",
-        "AMD",
-        "Çin",
-        "Yapay Zeka",
-        "Çip Krizi"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -1029,6 +1029,44 @@
         "Tazminat",
         "ABD",
         "Dış Politika"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810",
+      "slug": "transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810",
+      "title": "Transfer piyasasında hareketli saatler: Hull City, Trabzonspor ve Fenerbahçe'de son durum",
+      "summary": "Acun Ilıcalı'nın sahibi olduğu Hull City, Kayserispor'dan Deniz Eren Dönmezer'i kadrosuna katıyor. Trabzonspor Darwin Nunez için görüşmelerini sürdürürken, Fenerbahçe'de Romelu Lukaku transferinde pazarlıklar devam ediyor.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810.webp",
+      "image_alt": "Futbol sahası ve transfer dönemini simgeleyen genel görsel.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810.webp",
+        "alt": "Futbol sahası ve transfer dönemini simgeleyen genel görsel."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/live-acun-ilicali-turkiyeden-transfer-yapiyor-anlasma-tamam-43267920",
+      "tags": [
+        "Transfer",
+        "Hull City",
+        "Fenerbahçe",
+        "Trabzonspor",
+        "Deniz Eren Dönmezer"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1831,6 +1869,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/08:avrupada-misir-krizi-uretim-tahminleri-20-yilin-en-dusuk-seviyesinde_20260810",
+      "slug": "avrupada-misir-krizi-uretim-tahminleri-20-yilin-en-dusuk-seviyesinde_20260810",
+      "title": "Avrupa'da Mısır Krizi: Üretim Tahminleri 20 Yılın En Düşük Seviyesinde",
+      "summary": "Avrupa genelinde etkili olan aşırı sıcaklar ve kuraklık, mısır üretiminde ciddi bir arz krizine yol açtı. 2026/27 sezonu için üretim tahminleri, son 20 yılın en düşük seviyelerine geriledi.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/avrupada-misir-krizi-uretim-tahminleri-20-yilin-en-dusuk-seviyesinde_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/avrupada-misir-krizi-uretim-tahminleri-20-yilin-en-dusuk-seviyesinde_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/avrupada-misir-krizi-uretim-tahminleri-20-yilin-en-dusuk-seviyesinde_20260810.json",
+      "image_url": "https://img.ekonomim.com/storage/files/images/2026/08/10/avrupada-misir-krizi-jk04_cover.jpg",
+      "image_alt": "Kuraklıktan etkilenen mısır tarlası",
+      "image": {
+        "url": "https://img.ekonomim.com/storage/files/images/2026/08/10/avrupada-misir-krizi-jk04_cover.jpg",
+        "alt": "Kuraklıktan etkilenen mısır tarlası"
+      },
+      "source_name": "Ekonomim",
+      "source_url": "https://www.ekonomim.com/ekonomi/avrupada-misir-krizi-haberi-911332",
+      "tags": [
+        "mısır",
+        "tarım",
+        "Avrupa",
+        "ekonomi",
+        "kuraklık"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/08:arda-guler-psg-transfer-teklifi-fenerbahce-kazanc_20260810",
       "slug": "arda-guler-psg-transfer-teklifi-fenerbahce-kazanc_20260810",
       "title": "Arda Güler için dev teklif: Fenerbahçe'ye 23 milyon euro kazandırabilir",
@@ -1944,6 +2020,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/08:akp-otomotiv-uretim-kapasitesini-8-kat-artiracak_20260810",
+      "slug": "akp-otomotiv-uretim-kapasitesini-8-kat-artiracak_20260810",
+      "title": "AKP Otomotiv'den 80,5 Milyon TL'lik Yatırım: Kapasite 8 Kat Artacak",
+      "summary": "Bursa'da faaliyet gösteren otomotiv tedarikçisi AKP Otomotiv, 80 milyon 550 bin TL değerindeki yeni yatırımıyla yıllık sac parça üretim kapasitesini 1.642 tondan 12.975 tona yükseltmeyi hedefliyor.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/akp-otomotiv-uretim-kapasitesini-8-kat-artiracak_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/akp-otomotiv-uretim-kapasitesini-8-kat-artiracak_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/akp-otomotiv-uretim-kapasitesini-8-kat-artiracak_20260810.json",
+      "image_url": "https://img.ekonomim.com/storage/files/images/2026/08/10/akp-otomotiv-yeni-yatirimiyla-uretim-kapasitesini-8-kat-artiracak-ofyz_cover.jpg",
+      "image_alt": "AKP Otomotiv üretim tesisinde modern makine ve ekipmanlar.",
+      "image": {
+        "url": "https://img.ekonomim.com/storage/files/images/2026/08/10/akp-otomotiv-yeni-yatirimiyla-uretim-kapasitesini-8-kat-artiracak-ofyz_cover.jpg",
+        "alt": "AKP Otomotiv üretim tesisinde modern makine ve ekipmanlar."
+      },
+      "source_name": "Ekonomim",
+      "source_url": "https://www.ekonomim.com/sektorler/otomotiv/akp-otomotiv-yeni-yatirimiyla-uretim-kapasitesini-8-kat-artiracak-haberi-911334",
+      "tags": [
+        "AKP Otomotiv",
+        "Bursa",
+        "Otomotiv",
+        "Yatırım",
+        "Ekonomi"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/08:abd-dolari-istihdam-verileri-fed-beklentileri_20260810",
       "slug": "abd-dolari-istihdam-verileri-fed-beklentileri_20260810",
       "title": "ABD Doları'nda yön aşağı döndü: İstihdam verileri Fed beklentilerini değiştirdi",
@@ -1976,6 +2090,44 @@
         "Fed",
         "Ekonomi",
         "İstihdam"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:400-bin-kilometreyi-gorme-ihtimali-en-yuksek-otomobil-belli-oldu_20260810",
+      "slug": "400-bin-kilometreyi-gorme-ihtimali-en-yuksek-otomobil-belli-oldu_20260810",
+      "title": "400 bin kilometreyi görme ihtimali en yüksek otomobil belli oldu",
+      "summary": "Otomotiv araştırma şirketi iSeeCars, ABD ikinci el piyasası verilerini analiz ederek 400 bin kilometreyi aşma ihtimali en yüksek otomobilleri belirledi. Toyota Sequoia, yüzde 39,1'lik oranla listenin zirvesinde yer aldı.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/400-bin-kilometreyi-gorme-ihtimali-en-yuksek-otomobil-belli-oldu_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/400-bin-kilometreyi-gorme-ihtimali-en-yuksek-otomobil-belli-oldu_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/400-bin-kilometreyi-gorme-ihtimali-en-yuksek-otomobil-belli-oldu_20260810.json",
+      "image_url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/8/otomobilpng-LnsGwN3-M0iIW7-NVVxcww.png",
+      "image_alt": "Toyota Sequoia modeli, dayanıklılığı ile öne çıkan bir SUV olarak görülüyor.",
+      "image": {
+        "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/8/otomobilpng-LnsGwN3-M0iIW7-NVVxcww.png",
+        "alt": "Toyota Sequoia modeli, dayanıklılığı ile öne çıkan bir SUV olarak görülüyor."
+      },
+      "source_name": "Ekonomi haberleri - Son dakika ekonomi haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/400-bin-kilometreyi-gorme-ihtimali-en-yuksek-otomobil-belli-oldu-p344182",
+      "tags": [
+        "Toyota Sequoia",
+        "iSeeCars",
+        "otomobil",
+        "ikinci el",
+        "araç dayanıklılığı"
       ],
       "quality_score": 76,
       "review_status": "published"
@@ -2884,159 +3036,6 @@
         "UEFA Avrupa Ligi"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/08:the-knot-gateway-to-anatolia-cekimleri-basladi_20260802",
-      "slug": "the-knot-gateway-to-anatolia-cekimleri-basladi_20260802",
-      "title": "Go Türkiye'nin Yeni Mini Dizisi 'The Knot: Gateway to Anatolia' Başladı",
-      "summary": "Süreç Film imzalı, Go Türkiye'nin İç Anadolu Bölgesi'ni konu alan yeni mini dizisi 'The Knot: Gateway to Anatolia'nın çekimleri Ankara ve Eskişehir'de başladı. Başrollerini Serkan Çayoğlu ve Sıla Türkoğlu'nun paylaştığı yapım, Anadolu'nun kültürel mirasını...",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/08",
-      "date": "02.08.2026",
-      "date_iso": "2026-08-02",
-      "url": "/articles/2026/08/the-knot-gateway-to-anatolia-cekimleri-basladi_20260802/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/the-knot-gateway-to-anatolia-cekimleri-basladi_20260802/",
-      "detail_json_url": "/data/details/articles/2026/08/the-knot-gateway-to-anatolia-cekimleri-basladi_20260802.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/the-knot-gateway-to-anatolia-cekimleri-basladi_20260802.webp",
-      "image_alt": "The Knot: Gateway to Anatolia dizisinin setinden bir görüntü.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/08/images/the-knot-gateway-to-anatolia-cekimleri-basladi_20260802.webp",
-        "alt": "The Knot: Gateway to Anatolia dizisinin setinden bir görüntü."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/iki-sanat-tarihcisinin-kesif-yolculugu-the-knot-gateway-to-anatolia-3902797-magazin",
-      "tags": [
-        "The Knot",
-        "Go Türkiye",
-        "Serkan Çayoğlu",
-        "Sıla Türkoğlu",
-        "Ankara",
-        "Eskişehir"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/08:reel-sektor-konkordato-verileri-2026_20260802",
-      "slug": "reel-sektor-konkordato-verileri-2026_20260802",
-      "title": "Reel sektörde konkordato verileri: Başvurular azalırken ret kararları arttı",
-      "summary": "Konkordatotakip.com’un Basın İlan Kurumu verilerinden derlediği 2026 yılı Ocak-Temmuz dönemi istatistiklerine göre, reel sektördeki konkordato başvurularında geçen yıla oranla belirgin bir yavaşlama gözlemleniyor. Ancak, mahkemelerin verdiği ret ve iflas ka...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/08",
-      "date": "02.08.2026",
-      "date_iso": "2026-08-02",
-      "url": "/articles/2026/08/reel-sektor-konkordato-verileri-2026_20260802/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/reel-sektor-konkordato-verileri-2026_20260802/",
-      "detail_json_url": "/data/details/articles/2026/08/reel-sektor-konkordato-verileri-2026_20260802.json",
-      "image_url": "https://img.ekonomim.com/storage/files/images/2026/08/02/piyasanin-konkordato-kabusu-bitmiyor-nny9_cover.jpg",
-      "image_alt": "Konkordato dosyaları ve mahkeme kararlarını temsil eden hukuk temalı görsel.",
-      "image": {
-        "url": "https://img.ekonomim.com/storage/files/images/2026/08/02/piyasanin-konkordato-kabusu-bitmiyor-nny9_cover.jpg",
-        "alt": "Konkordato dosyaları ve mahkeme kararlarını temsil eden hukuk temalı görsel."
-      },
-      "source_name": "Ekonomim",
-      "source_url": "https://www.ekonomim.com/ekonomi/piyasanin-konkordato-kabusu-bitmiyor-haberi-909720",
-      "tags": [
-        "konkordato",
-        "ekonomi",
-        "iflas",
-        "reel sektör",
-        "mahkeme kararları"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/08:israil-trump-iran-karari-sosyal-medya_20260802",
-      "slug": "israil-trump-iran-karari-sosyal-medya_20260802",
-      "title": "İsrail'de Trump şoku: İran kararını sosyal medyadan öğrendiler",
-      "summary": "ABD Başkanı Donald Trump'ın İran'a yönelik planlanan saldırıları askıya alma kararını sosyal medya üzerinden duyurması, İsrail yönetiminde şok etkisi yarattı. Üst düzey İsrailli yetkililer, karardan önceden haberdar edilmediklerini belirterek \"yarı yolda bı...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/08",
-      "date": "02.08.2026",
-      "date_iso": "2026-08-02",
-      "url": "/articles/2026/08/israil-trump-iran-karari-sosyal-medya_20260802/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/israil-trump-iran-karari-sosyal-medya_20260802/",
-      "detail_json_url": "/data/details/articles/2026/08/israil-trump-iran-karari-sosyal-medya_20260802.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/israil-trump-iran-karari-sosyal-medya_20260802.webp",
-      "image_alt": "Donald Trump ve Binyamin Netanyahu'nun yer aldığı bir görsel.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/08/images/israil-trump-iran-karari-sosyal-medya_20260802.webp",
-        "alt": "Donald Trump ve Binyamin Netanyahu'nun yer aldığı bir görsel."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/dunya/israilde-trump-soku-iran-kararini-sosyal-medyadan-ogrendiler-yari-yolda-birakildik-7634036",
-      "tags": [
-        "İsrail",
-        "Donald Trump",
-        "İran",
-        "ABD",
-        "Orta Doğu"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/08:irakta-askeri-uste-muhimmat-patlamasi-ve-duhokta-yangin_20260802",
-      "slug": "irakta-askeri-uste-muhimmat-patlamasi-ve-duhokta-yangin_20260802",
-      "title": "Irak'ta sıcak hava faciası: Askeri üste patlama ve Duhok'ta büyük yangın",
-      "summary": "Irak'ın başkenti Bağdat'ın kuzeyinde bulunan Taci Askeri Üssü'ndeki mühimmat deposunda aşırı sıcaklar nedeniyle patlama meydana geldi. Aynı gün Duhok kentinde ticari bir depoda çıkan yangın ise 2 milyon dolarlık maddi hasara yol açtı.",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/08",
-      "date": "02.08.2026",
-      "date_iso": "2026-08-02",
-      "url": "/articles/2026/08/irakta-askeri-uste-muhimmat-patlamasi-ve-duhokta-yangin_20260802/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/irakta-askeri-uste-muhimmat-patlamasi-ve-duhokta-yangin_20260802/",
-      "detail_json_url": "/data/details/articles/2026/08/irakta-askeri-uste-muhimmat-patlamasi-ve-duhokta-yangin_20260802.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/irakta-askeri-uste-muhimmat-patlamasi-ve-duhokta-yangin_20260802.webp",
-      "image_alt": "Irak'ta askeri üste meydana gelen patlama sonrası yükselen dumanlar ve itfaiye ekiplerinin müdahalesi.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/08/images/irakta-askeri-uste-muhimmat-patlamasi-ve-duhokta-yangin_20260802.webp",
-        "alt": "Irak'ta askeri üste meydana gelen patlama sonrası yükselen dumanlar ve itfaiye ekiplerinin müdahalesi."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/dunya/asiri-sicaklar-faciaya-neden-oldu-irakta-askeri-uste-muhimmat-deposu-patladi-7634041",
-      "tags": [
-        "Irak",
-        "Bağdat",
-        "Duhok",
-        "Mühimmat Patlaması",
-        "Yangın"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]
