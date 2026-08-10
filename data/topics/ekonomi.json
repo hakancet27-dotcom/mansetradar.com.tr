@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-10T00:00:00+00:00",
-    "article_count": 1113,
+    "article_count": 1117,
     "schema_version": 2,
     "topic_slug": "ekonomi",
     "type": "topic"
@@ -48,6 +48,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/08:teknika-plast-halka-arz-oluyor_20260810",
+      "slug": "teknika-plast-halka-arz-oluyor_20260810",
+      "title": "Teknika Plast halka arz sürecini başlattı",
+      "summary": "1993 yılında Manisa'da kurulan ve plastik sektöründe faaliyet gösteren Teknika Plast, halka arz sürecini başlatarak mevcut 100 milyon TL olan sermayesini 125 milyon TL'ye çıkarma kararı aldı.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/teknika-plast-halka-arz-oluyor_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/teknika-plast-halka-arz-oluyor_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/teknika-plast-halka-arz-oluyor_20260810.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/teknika-plast-halka-arz-oluyor_20260810.webp",
+      "image_alt": "Teknika Plast üretim tesislerinde plastik enjeksiyon makineleri çalışırken",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/teknika-plast-halka-arz-oluyor_20260810.webp",
+        "alt": "Teknika Plast üretim tesislerinde plastik enjeksiyon makineleri çalışırken"
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/teknika-plast-halka-arz-oluyor-3904617-ekonomi",
+      "tags": [
+        "Teknika Plast",
+        "halka arz",
+        "ekonomi",
+        "plastik sektörü",
+        "sermaye artırımı"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/08:tavuk-eti-ihracatinda-kota-artisi_20260810",
       "slug": "tavuk-eti-ihracatinda-kota-artisi_20260810",
       "title": "Tavuk eti ihracatında kota 50 bin tona çıkarıldı: Stoklar eriyecek",
@@ -83,6 +121,44 @@
         "üretim"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:petkim-genel-muduru-mirzayev-turkiye-petrokimya-icin-stratejik-merkez_20260810",
+      "slug": "petkim-genel-muduru-mirzayev-turkiye-petrokimya-icin-stratejik-merkez_20260810",
+      "title": "Petkim Genel Müdürü Mirzayev: Türkiye petrokimya için stratejik merkez",
+      "summary": "Petkim Genel Müdürü ve SOCAR Türkiye Rafineri ve Petrokimya İş Birimi Başkanı Kanan Mirzayev, petrokimya sektörünün zorlu bir dönüşüm sürecinden geçtiğini belirterek, Türkiye'nin stratejik konumu ve güçlü iç pazarıyla bölgesel bir üretim merkezi olma potans...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/petkim-genel-muduru-mirzayev-turkiye-petrokimya-icin-stratejik-merkez_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/petkim-genel-muduru-mirzayev-turkiye-petrokimya-icin-stratejik-merkez_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/petkim-genel-muduru-mirzayev-turkiye-petrokimya-icin-stratejik-merkez_20260810.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/petkim-genel-muduru-mirzayev-turkiye-petrokimya-icin-stratejik-merkez_20260810.webp",
+      "image_alt": "Petkim petrokimya tesisi genel görünümü",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/petkim-genel-muduru-mirzayev-turkiye-petrokimya-icin-stratejik-merkez_20260810.webp",
+        "alt": "Petkim petrokimya tesisi genel görünümü"
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/petkim-genel-muduru-mirzayev-turkiye-onemli-firsatlar-sunuyor-3904579-ekonomi",
+      "tags": [
+        "Petkim",
+        "Kanan Mirzayev",
+        "SOCAR Türkiye",
+        "Petrokimya",
+        "Ekonomi"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
