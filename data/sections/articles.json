@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-10T00:00:00+00:00",
-    "article_count": 1102,
+    "article_count": 1104,
     "schema_version": 2,
     "section": "articles"
   },
@@ -82,6 +82,82 @@
         "üretim"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:tallulah-willis-ve-justin-acee-evlendi_20260810",
+      "slug": "tallulah-willis-ve-justin-acee-evlendi_20260810",
+      "title": "Tallulah Willis ve Justin Acee dünyaevine girdi",
+      "summary": "Hollywood'un ünlü isimleri Bruce Willis ve Demi Moore'un kızı Tallulah Willis, müzisyen Justin Acee ile hayatını birleştirdi. ABD'nin Idaho eyaletinde gerçekleşen düğünde, gelinin 712 saatlik çalışma sonucu hazırlanan özel tasarım gelinliği öne çıktı.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/tallulah-willis-ve-justin-acee-evlendi_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/tallulah-willis-ve-justin-acee-evlendi_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/tallulah-willis-ve-justin-acee-evlendi_20260810.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/tallulah-willis-ve-justin-acee-evlendi_20260810.webp",
+      "image_alt": "Tallulah Willis ve Justin Acee'nin düğününden bir kare",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/tallulah-willis-ve-justin-acee-evlendi_20260810.webp",
+        "alt": "Tallulah Willis ve Justin Acee'nin düğününden bir kare"
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/demi-moore-ve-bruce-willis-in-kizi-tallulah-evlendi-3904502-magazin",
+      "tags": [
+        "Tallulah Willis",
+        "Justin Acee",
+        "Demi Moore",
+        "Bruce Willis",
+        "Magazin"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:sut-tuketimi-hakkindaki-tartismalar-bilimsel-gercekler_20260810",
+      "slug": "sut-tuketimi-hakkindaki-tartismalar-bilimsel-gercekler_20260810",
+      "title": "Süt Tüketimi Hakkındaki Tartışmalar: Bilimsel Gerçekler Ne Diyor?",
+      "summary": "Ünlü doktor Tim Spector, yetişkinlerin süt tüketimine dair ezber bozan açıklamalarda bulundu. Spector, sütün tarihsel süreçteki yerini sorgularken, güncel bilimsel veriler sütün sağlık üzerindeki etkilerine dair dengeli bir tablo ortaya koyuyor.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/sut-tuketimi-hakkindaki-tartismalar-bilimsel-gercekler_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/sut-tuketimi-hakkindaki-tartismalar-bilimsel-gercekler_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/sut-tuketimi-hakkindaki-tartismalar-bilimsel-gercekler_20260810.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/sut-tuketimi-hakkindaki-tartismalar-bilimsel-gercekler_20260810.webp",
+      "image_alt": "Bir bardak taze süt",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/sut-tuketimi-hakkindaki-tartismalar-bilimsel-gercekler_20260810.webp",
+        "alt": "Bir bardak taze süt"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/aile/galeri-sutle-ilgili-tum-ezberleri-bozdu-unlu-doktor-artik-icmiyorum-diyerek-uyardi-43264315",
+      "tags": [
+        "süt",
+        "sağlık",
+        "beslenme",
+        "laktoz intoleransı",
+        "Tim Spector"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
