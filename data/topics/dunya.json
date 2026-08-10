@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-10T00:00:00+00:00",
-    "article_count": 1108,
+    "article_count": 1113,
     "schema_version": 2,
     "topic_slug": "dunya",
     "type": "topic"
@@ -43,6 +43,44 @@
         "Demi Moore",
         "Bruce Willis",
         "Magazin"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:meloni-goc-politikasi-ispanya-gerilimi_20260810",
+      "slug": "meloni-goc-politikasi-ispanya-gerilimi_20260810",
+      "title": "Meloni'den sertleşen göç politikası: İspanya ile sınır gerilimi",
+      "summary": "İtalya Başbakanı Giorgia Meloni, anketlerde yükselişe geçen aşırı sağcı National Future partisinin baskısıyla göç konusundaki söylemini sertleştirdi. İspanya ile yaşanan göçmen krizi sonrası Schengen kurallarını askıya alan Meloni, sınır güvenliği konusunda...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "10.08.2026",
+      "date_iso": "2026-08-10",
+      "url": "/articles/2026/08/meloni-goc-politikasi-ispanya-gerilimi_20260810/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/meloni-goc-politikasi-ispanya-gerilimi_20260810/",
+      "detail_json_url": "/data/details/articles/2026/08/meloni-goc-politikasi-ispanya-gerilimi_20260810.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/meloni-goc-politikasi-ispanya-gerilimi_20260810.webp",
+      "image_alt": "İtalya Başbakanı Giorgia Meloni basın toplantısında.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/meloni-goc-politikasi-ispanya-gerilimi_20260810.webp",
+        "alt": "İtalya Başbakanı Giorgia Meloni basın toplantısında."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/meloninin-koltugu-tehdit-altinda-anketlerde-geri-dustu-yeni-hamlesini-devreye-soktu-7638590",
+      "tags": [
+        "Giorgia Meloni",
+        "İtalya",
+        "İspanya",
+        "Göçmen Krizi",
+        "Vannacci"
       ],
       "quality_score": 86,
       "review_status": "published"
