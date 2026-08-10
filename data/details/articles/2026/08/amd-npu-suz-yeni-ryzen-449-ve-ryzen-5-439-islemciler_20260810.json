@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "articles/2026/08:amd-npu-suz-yeni-ryzen-449-ve-ryzen-5-439-islemciler_20260810",
+    "slug": "amd-npu-suz-yeni-ryzen-449-ve-ryzen-5-439-islemciler_20260810",
+    "title": "AMD'den NPU'suz Yeni Ryzen İşlemciler: Ryzen 7 449 ve Ryzen 5 439",
+    "summary": "AMD, resmi ürün listesinde yapay zeka hızlandırıcısı NPU birimi içermeyen yeni Ryzen 7 449 ve Ryzen 5 439 işlemcilerini duyurdu. Zen 5 mimarisiyle gelen bu modeller, fiyat avantajı sunmayı hedefliyor.",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "topic_slug": "teknoloji",
+    "topic_label": "Teknoloji",
+    "country": "Turkey",
+    "language": "tr",
+    "language_label": "Turkish",
+    "section": "articles",
+    "section_name": "Haberler",
+    "url_prefix": "articles/2026/08",
+    "date": "10.08.2026",
+    "date_iso": "2026-08-10",
+    "url": "/articles/2026/08/amd-npu-suz-yeni-ryzen-449-ve-ryzen-5-439-islemciler_20260810/",
+    "canonical_url": "https://mansetradar.com.tr/articles/2026/08/amd-npu-suz-yeni-ryzen-449-ve-ryzen-5-439-islemciler_20260810/",
+    "detail_json_url": "/data/details/articles/2026/08/amd-npu-suz-yeni-ryzen-449-ve-ryzen-5-439-islemciler_20260810.json",
+    "image_url": "https://www.donanimhaber.com/images/images/haber/209093/1200x675amd-ryzen-7-449-ve-ryzen-5-439-sizdirildi-bu-kez-npu-yok.jpg",
+    "image_alt": "AMD Ryzen işlemci çipi",
+    "image": {
+      "url": "https://www.donanimhaber.com/images/images/haber/209093/1200x675amd-ryzen-7-449-ve-ryzen-5-439-sizdirildi-bu-kez-npu-yok.jpg",
+      "alt": "AMD Ryzen işlemci çipi"
+    },
+    "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+    "source_url": "https://www.donanimhaber.com/amd-ryzen-7-449-ve-ryzen-5-439-sizdirildi-bu-kez-npu-yok--209093",
+    "tags": [
+      "AMD",
+      "Ryzen",
+      "İşlemci",
+      "Donanım",
+      "Teknoloji"
+    ],
+    "quality_score": 76,
+    "review_status": "published",
+    "content_html": "<h2>Yeni Ryzen 400 Serisi İşlemcilerin Teknik Detayları</h2> <p>AMD, ürün gamını genişletmeye devam ediyor. Şirketin resmi listelerinde ortaya çıkan Ryzen 7 449 ve Ryzen 5 439 modelleri, özellikle yapay zeka işlemleri için kullanılan NPU biriminin bulunmamasıyla dikkat çekiyor. Bu donanımsal farklılık, her iki işlemci için de maliyet odaklı bir fiyat avantajı sağlıyor. Yeni işlemciler, AMD'nin güncel Zen 5 ve Zen 5c çekirdek mimarilerini bir araya getiriyor.</p> <p>Üst segmentte konumlanan Ryzen 7 449, 8 çekirdek ve 16 iş parçacığı ile geliyor. İşlemci, dört adet Zen 5 ve dört adet Zen 5c çekirdeğinden oluşurken, 5 GHz frekans hızına kadar çıkabiliyor. Grafik tarafında ise RDNA 3.5 mimarisine dayanan 8 Compute Unit'li Radeon 860M birimi yer alıyor ve bu birim 2,8 GHz hıza ulaşabiliyor. Ryzen 7 449, 16 MB L3 önbellek kapasitesiyle destekleniyor.</p> <h2>Ryzen 5 439 ve Karşılaştırmalı Veriler</h2> <p>Serinin diğer üyesi olan Ryzen 5 439 ise 6 çekirdek ve 12 iş parçacığı sunuyor. Maksimum 4,6 GHz frekans hızına ulaşabilen bu model, 4 Compute Unit'li Radeon 840M grafik birimiyle donatılmış durumda. Her iki işlemcinin de varsayılan TDP değeri 28W olarak belirlenmiş.</p> <p>Ryzen 7 449, teknik özellikleri bakımından Ryzen AI 7 PRO 450 modeline oldukça yakın olsa da, aralarında belirgin farklar bulunuyor. Ryzen AI 7 PRO 450, 5,1 GHz Zen 5 ve 3,1 GHz grafik frekansı sunarken, Ryzen 7 449'da bu değerler daha düşük tutulmuş. En kritik ayrım ise NPU tarafında yaşanıyor; Ryzen AI 7 PRO 450'de NPU bulunurken, Ryzen 7 449 için herhangi bir NPU değeri listelenmiyor. AMD, NPU'nun fiziksel olarak devre dışı bırakılıp bırakılmadığına dair henüz resmi bir açıklama yapmadı. Şu an için bu işlemcilerin hangi dizüstü bilgisayar modellerinde kullanılacağı ise belirsizliğini koruyor.</p>",
+    "meta_title": "AMD'den NPU'suz Yeni Ryzen İşlemciler: Ryzen 7 449 ve...",
+    "meta_description": "AMD'nin NPU birimi içermeyen yeni Ryzen 7 449 ve Ryzen 5 439 işlemcileri ortaya çıktı. Zen 5 mimarili yeni modellerin teknik detayları belli oldu.",
+    "spot": "AMD, resmi ürün listesinde yapay zeka hızlandırıcısı NPU birimi içermeyen yeni Ryzen 7 449 ve Ryzen 5 439 işlemcilerini duyurdu. Zen 5 mimarisiyle gelen bu modeller, fiyat avantajı sunmayı hedefliyor.",
+    "word_count": 274,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "AMD'den NPU'suz Yeni Ryzen İşlemciler",
+      "Ryzen 7 449 ve Ryzen 5 439 Özellikleri",
+      "AMD'nin Yeni İşlemcilerinde NPU Detayı"
+    ],
+    "visual_keywords": [
+      "AMD Ryzen processor",
+      "Zen 5 architecture",
+      "laptop hardware",
+      "computer chip"
+    ]
+  }
+}
