@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-11T00:00:00+00:00",
-    "article_count": 1156,
+    "article_count": 1160,
     "schema_version": 2,
     "section": "articles"
   },
@@ -161,6 +161,81 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/08:toyota-508-bin-camry-geri-cagirma_20260811",
+      "slug": "toyota-508-bin-camry-geri-cagirma_20260811",
+      "title": "Toyota'dan 508 bin araçlık dev geri çağırma: Gösterge paneli kararıyor",
+      "summary": "Toyota, ABD pazarındaki 2025 ve 2026 model 508 bin adet Camry sedan için geniş kapsamlı bir geri çağırma operasyonu başlattı. Araçların dijital gösterge panelinde yaşanan yazılım kaynaklı arıza, sürüş güvenliğini doğrudan tehdit ediyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "11.08.2026",
+      "date_iso": "2026-08-11",
+      "url": "/articles/2026/08/toyota-508-bin-camry-geri-cagirma_20260811/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/toyota-508-bin-camry-geri-cagirma_20260811/",
+      "detail_json_url": "/data/details/articles/2026/08/toyota-508-bin-camry-geri-cagirma_20260811.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/209165/1200x675toyota-dan-yarim-milyonluk-dev-geri-cagirma-sorun-ekran-yazilimi.jpg",
+      "image_alt": "Toyota Camry dijital gösterge paneli",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/209165/1200x675toyota-dan-yarim-milyonluk-dev-geri-cagirma-sorun-ekran-yazilimi.jpg",
+        "alt": "Toyota Camry dijital gösterge paneli"
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/toyota-dan-yarim-milyonluk-dev-geri-cagirma-sorun-ekran-yazilimi--209165",
+      "tags": [
+        "Toyota",
+        "Camry",
+        "Geri Çağırma",
+        "Otomotiv",
+        "Yazılım"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:teknofest-yapay-zeka-destekli-havayolu-optimizasyonu-finali_20260811",
+      "slug": "teknofest-yapay-zeka-destekli-havayolu-optimizasyonu-finali_20260811",
+      "title": "TEKNOFEST’te Havayolu Optimizasyonunda Final Heyecanı",
+      "summary": "T3 Vakfı ve T.C. Sanayi ve Teknoloji Bakanlığı yürütücülüğünde düzenlenen TEKNOFEST bünyesindeki Yapay Zeka Destekli Havayolu Optimizasyonu Yarışması'nda final aşamasına geçildi. 358 takım arasından seçilen 10 ekip, 11 Ağustos'ta projelerini sunuyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "11.08.2026",
+      "date_iso": "2026-08-11",
+      "url": "/articles/2026/08/teknofest-yapay-zeka-destekli-havayolu-optimizasyonu-finali_20260811/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/teknofest-yapay-zeka-destekli-havayolu-optimizasyonu-finali_20260811/",
+      "detail_json_url": "/data/details/articles/2026/08/teknofest-yapay-zeka-destekli-havayolu-optimizasyonu-finali_20260811.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/teknofest-yapay-zeka-destekli-havayolu-optimizasyonu-finali_20260811.webp",
+      "image_alt": "TEKNOFEST Yapay Zeka Destekli Havayolu Optimizasyonu Yarışması final sunumları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/teknofest-yapay-zeka-destekli-havayolu-optimizasyonu-finali_20260811.webp",
+        "alt": "TEKNOFEST Yapay Zeka Destekli Havayolu Optimizasyonu Yarışması final sunumları."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/teknoloji/havayolu-sektorunun-gelecegi-icin-final-heyecani-43269691",
+      "tags": [
+        "TEKNOFEST",
+        "Yapay Zeka",
+        "Havayolu Optimizasyonu",
+        "Teknoloji Yarışması"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/08:sturm-graz-fenerbahce-maci-ne-zaman-saat-kacta_20260811",
       "slug": "sturm-graz-fenerbahce-maci-ne-zaman-saat-kacta_20260811",
       "title": "Sturm Graz-Fenerbahçe maçı ne zaman, saat kaçta ve hangi kanalda?",
@@ -196,6 +271,43 @@
         "Futbol"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:spotify-yapay-zeka-sanatci-profili-ai-persona-etiketi_20260811",
+      "slug": "spotify-yapay-zeka-sanatci-profili-ai-persona-etiketi_20260811",
+      "title": "Spotify, Yapay Zeka Sanatçıları İçin \"AI Persona\" Etiketini Duyurdu",
+      "summary": "Spotify, gerçek bir kişi yerine yapay zeka tarafından oluşturulan kimlikleri temsil eden sanatçı profilleri için \"AI Persona\" etiketini kullanıma sunuyor. Eylül ayı ortasında mobil uygulamada aktif olacak bu yeni sistem, sanal sanatçıların platformdaki görü...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "11.08.2026",
+      "date_iso": "2026-08-11",
+      "url": "/articles/2026/08/spotify-yapay-zeka-sanatci-profili-ai-persona-etiketi_20260811/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/spotify-yapay-zeka-sanatci-profili-ai-persona-etiketi_20260811/",
+      "detail_json_url": "/data/details/articles/2026/08/spotify-yapay-zeka-sanatci-profili-ai-persona-etiketi_20260811.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/spotify-yapay-zeka-sanatci-profili-ai-persona-etiketi_20260811.webp",
+      "image_alt": "Spotify uygulaması üzerinde yapay zeka sanatçılarını temsil eden AI Persona etiketi görseli.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/spotify-yapay-zeka-sanatci-profili-ai-persona-etiketi_20260811.webp",
+        "alt": "Spotify uygulaması üzerinde yapay zeka sanatçılarını temsil eden AI Persona etiketi görseli."
+      },
+      "source_name": "Webrazzi",
+      "source_url": "https://webrazzi.com/2026/08/11/spotify-yapay-zekayla-olusturulan-sanatci-profillerine-ai-persona-etiketi-ekleyecek/",
+      "tags": [
+        "Spotify",
+        "Yapay Zeka",
+        "AI Persona",
+        "Müzik Teknolojileri"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -689,6 +801,44 @@
         "Gabriel Martinelli"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:cin-maglev-tren-rekor-800-km-s_20260811",
+      "slug": "cin-maglev-tren-rekor-800-km-s_20260811",
+      "title": "Çin'den Maglev Tren Teknolojisinde Rekor: 800 km/s Hıza 5,3 Saniyede Ulaştı",
+      "summary": "Çin'in Hubei eyaletindeki Donghu Laboratuvarı'nda gerçekleştirilen testlerde, 1.110 kilogram ağırlığındaki deneysel manyetik levitasyon (maglev) aracı, 1 kilometrelik pistte 0'dan 800 km/s hıza sadece 5,3 saniyede ulaşarak yeni bir dünya rekoruna imza attı.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "11.08.2026",
+      "date_iso": "2026-08-11",
+      "url": "/articles/2026/08/cin-maglev-tren-rekor-800-km-s_20260811/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/cin-maglev-tren-rekor-800-km-s_20260811/",
+      "detail_json_url": "/data/details/articles/2026/08/cin-maglev-tren-rekor-800-km-s_20260811.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/209173/1200x675cin-trenlerde-devrimin-esiginde-800-km-s-hiza-5-3-saniyede-cikti.jpg",
+      "image_alt": "Çin'de geliştirilen deneysel maglev aracı test pistinde.",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/209173/1200x675cin-trenlerde-devrimin-esiginde-800-km-s-hiza-5-3-saniyede-cikti.jpg",
+        "alt": "Çin'de geliştirilen deneysel maglev aracı test pistinde."
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/cin-trenlerde-devrimin-esiginde-800-km-s-hiza-5-3-saniyede-cikti--209173",
+      "tags": [
+        "Çin",
+        "Maglev",
+        "Teknoloji",
+        "Ulaşım",
+        "Hızlı Tren"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
