@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-11T00:00:00+00:00",
-    "article_count": 1145,
+    "article_count": 1147,
     "schema_version": 2
   },
   "hero": [
@@ -41,6 +41,44 @@
         "aile faciası",
         "asayiş",
         "son dakika"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811",
+      "slug": "ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811",
+      "title": "MASAK Raporu: Ultraslan Lideri Sebahattin Şirin ve Oğlunun Para Trafiği İncelemede",
+      "summary": "MASAK tarafından hazırlanan raporda, Ultraslan tribün lideri Sebahattin Şirin ve oğlu İbrahim Şamil Şirin’in banka hesaplarındaki yüksek işlem hacmi dikkat çekti. İkiliye ait hesaplarda toplam 51 milyon TL’lik para trafiği tespit edildi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "11.08.2026",
+      "date_iso": "2026-08-11",
+      "url": "/articles/2026/08/ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811/",
+      "detail_json_url": "/data/details/articles/2026/08/ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811.webp",
+      "image_alt": "MASAK raporu ve finansal inceleme görseli",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811.webp",
+        "alt": "MASAK raporu ve finansal inceleme görseli"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/ultraslanin-tribun-lideri-sebahattin-sirin-ve-oglunun-inanilmaz-para-trafigi-masak-raporu-ortaya-cikti-51-milyon-tllik-islem-hacmi-43269522",
+      "tags": [
+        "Sebahattin Şirin",
+        "MASAK",
+        "Ultraslan",
+        "İbrahim Şamil Şirin",
+        "para trafiği"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -195,6 +233,43 @@
         "teknoloji hukuku"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:kagithanede-cop-kavgasi-kanli-bitti_20260811",
+      "slug": "kagithanede-cop-kavgasi-kanli-bitti_20260811",
+      "title": "Kağıthane'de çöp kavgası: Kadının burnunu kırdı, kardeşini bıçakladı",
+      "summary": "İstanbul Kağıthane'de çöp atma meselesi yüzünden çıkan tartışma şiddet olayına dönüştü. Bir kadının burnunu kıran şüpheli adli kontrolle serbest bırakılırken, kadının kardeşini bıçaklayan 11 suç kayıtlı saldırgan tutuklandı.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "11.08.2026",
+      "date_iso": "2026-08-11",
+      "url": "/articles/2026/08/kagithanede-cop-kavgasi-kanli-bitti_20260811/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/kagithanede-cop-kavgasi-kanli-bitti_20260811/",
+      "detail_json_url": "/data/details/articles/2026/08/kagithanede-cop-kavgasi-kanli-bitti_20260811.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/kagithanede-cop-kavgasi-kanli-bitti_20260811.webp",
+      "image_alt": "Kağıthane'de olay yeri inceleme ekipleri çalışma yürütüyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/kagithanede-cop-kavgasi-kanli-bitti_20260811.webp",
+        "alt": "Kağıthane'de olay yeri inceleme ekipleri çalışma yürütüyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kagithanede-cop-kavgasi-kanli-bitti-kadinin-burnunu-kirdi-yakini-kardesini-bicakladi-43269560",
+      "tags": [
+        "Kağıthane",
+        "asayiş",
+        "kavga",
+        "İstanbul haberleri"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -689,82 +764,6 @@
       ],
       "quality_score": 86,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/08:transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810",
-      "slug": "transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810",
-      "title": "Transfer piyasasında hareketli saatler: Hull City, Trabzonspor ve Fenerbahçe'de son durum",
-      "summary": "Acun Ilıcalı'nın sahibi olduğu Hull City, Kayserispor'dan Deniz Eren Dönmezer'i kadrosuna katıyor. Trabzonspor Darwin Nunez için görüşmelerini sürdürürken, Fenerbahçe'de Romelu Lukaku transferinde pazarlıklar devam ediyor.",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/08",
-      "date": "10.08.2026",
-      "date_iso": "2026-08-10",
-      "url": "/articles/2026/08/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810/",
-      "detail_json_url": "/data/details/articles/2026/08/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810.webp",
-      "image_alt": "Futbol sahası ve transfer dönemini simgeleyen genel görsel.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/08/images/transfer-piyasasinda-hareketli-saatler-hull-city-trabzonspor-ve-fenerbahcede-son_20260810.webp",
-        "alt": "Futbol sahası ve transfer dönemini simgeleyen genel görsel."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/sporarena/live-acun-ilicali-turkiyeden-transfer-yapiyor-anlasma-tamam-43267920",
-      "tags": [
-        "Transfer",
-        "Hull City",
-        "Fenerbahçe",
-        "Trabzonspor",
-        "Deniz Eren Dönmezer"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/08:trabzonspordan-dunyaya-salah-daveti_20260810",
-      "slug": "trabzonspordan-dunyaya-salah-daveti_20260810",
-      "title": "Trabzonspor’dan dünyaya Salah daveti: Kapımız, şehrimiz, tribünlerimiz açık",
-      "summary": "Mohamed Salah’ın transferiyle dünya genelinde büyük bir ilgiyle karşılaşan Trabzonspor, resmi sosyal medya hesapları üzerinden yayımladığı mesajla futbolseverleri Trabzon’a ve Papara Park’a davet etti.",
-      "category": "Spor",
-      "category_slug": "spor",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/08",
-      "date": "10.08.2026",
-      "date_iso": "2026-08-10",
-      "url": "/articles/2026/08/trabzonspordan-dunyaya-salah-daveti_20260810/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/trabzonspordan-dunyaya-salah-daveti_20260810/",
-      "detail_json_url": "/data/details/articles/2026/08/trabzonspordan-dunyaya-salah-daveti_20260810.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/trabzonspordan-dunyaya-salah-daveti_20260810.webp",
-      "image_alt": "Trabzonspor'un Papara Park stadyumunda taraftarlar ve atmosfer.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/08/images/trabzonspordan-dunyaya-salah-daveti_20260810.webp",
-        "alt": "Trabzonspor'un Papara Park stadyumunda taraftarlar ve atmosfer."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/trabzonspordan-dunyaya-salah-daveti-kapimiz-sehrimiz-tribunlerimiz-acik-3904645-spor",
-      "tags": [
-        "Trabzonspor",
-        "Mohamed Salah",
-        "Papara Park",
-        "Transfer",
-        "Spor"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -802,6 +801,44 @@
         "aile faciası",
         "asayiş",
         "son dakika"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811",
+      "slug": "ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811",
+      "title": "MASAK Raporu: Ultraslan Lideri Sebahattin Şirin ve Oğlunun Para Trafiği İncelemede",
+      "summary": "MASAK tarafından hazırlanan raporda, Ultraslan tribün lideri Sebahattin Şirin ve oğlu İbrahim Şamil Şirin’in banka hesaplarındaki yüksek işlem hacmi dikkat çekti. İkiliye ait hesaplarda toplam 51 milyon TL’lik para trafiği tespit edildi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "11.08.2026",
+      "date_iso": "2026-08-11",
+      "url": "/articles/2026/08/ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811/",
+      "detail_json_url": "/data/details/articles/2026/08/ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811.webp",
+      "image_alt": "MASAK raporu ve finansal inceleme görseli",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811.webp",
+        "alt": "MASAK raporu ve finansal inceleme görseli"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/ultraslanin-tribun-lideri-sebahattin-sirin-ve-oglunun-inanilmaz-para-trafigi-masak-raporu-ortaya-cikti-51-milyon-tllik-islem-hacmi-43269522",
+      "tags": [
+        "Sebahattin Şirin",
+        "MASAK",
+        "Ultraslan",
+        "İbrahim Şamil Şirin",
+        "para trafiği"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -956,6 +993,43 @@
         "teknoloji hukuku"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:kagithanede-cop-kavgasi-kanli-bitti_20260811",
+      "slug": "kagithanede-cop-kavgasi-kanli-bitti_20260811",
+      "title": "Kağıthane'de çöp kavgası: Kadının burnunu kırdı, kardeşini bıçakladı",
+      "summary": "İstanbul Kağıthane'de çöp atma meselesi yüzünden çıkan tartışma şiddet olayına dönüştü. Bir kadının burnunu kıran şüpheli adli kontrolle serbest bırakılırken, kadının kardeşini bıçaklayan 11 suç kayıtlı saldırgan tutuklandı.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "11.08.2026",
+      "date_iso": "2026-08-11",
+      "url": "/articles/2026/08/kagithanede-cop-kavgasi-kanli-bitti_20260811/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/kagithanede-cop-kavgasi-kanli-bitti_20260811/",
+      "detail_json_url": "/data/details/articles/2026/08/kagithanede-cop-kavgasi-kanli-bitti_20260811.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/kagithanede-cop-kavgasi-kanli-bitti_20260811.webp",
+      "image_alt": "Kağıthane'de olay yeri inceleme ekipleri çalışma yürütüyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/kagithanede-cop-kavgasi-kanli-bitti_20260811.webp",
+        "alt": "Kağıthane'de olay yeri inceleme ekipleri çalışma yürütüyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kagithanede-cop-kavgasi-kanli-bitti-kadinin-burnunu-kirdi-yakini-kardesini-bicakladi-43269560",
+      "tags": [
+        "Kağıthane",
+        "asayiş",
+        "kavga",
+        "İstanbul haberleri"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -2963,80 +3037,6 @@
         "Kırmızı Oda"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/08:cevdet-yilmaz-mekke-anlasmasi-aciklamasi_20260808",
-      "slug": "cevdet-yilmaz-mekke-anlasmasi-aciklamasi_20260808",
-      "title": "Cevdet Yılmaz'dan Mekke Anlaşması açıklaması: Caydırıcılık vurgusu",
-      "summary": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, Türkiye, Suudi Arabistan ve Pakistan arasında imzalanan Mekke Ortak Savunma Anlaşması'nın herhangi bir ittifaka alternatif olmadığını belirterek, yapının temel amacının bölgesel istikrarı güçlendirmek ve caydırıcılık...",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "siyaset",
-      "topic_label": "Siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/08",
-      "date": "08.08.2026",
-      "date_iso": "2026-08-08",
-      "url": "/articles/2026/08/cevdet-yilmaz-mekke-anlasmasi-aciklamasi_20260808/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/cevdet-yilmaz-mekke-anlasmasi-aciklamasi_20260808/",
-      "detail_json_url": "/data/details/articles/2026/08/cevdet-yilmaz-mekke-anlasmasi-aciklamasi_20260808.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/cevdet-yilmaz-mekke-anlasmasi-aciklamasi_20260808.webp",
-      "image_alt": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz gündeme dair açıklamalarda bulunuyor.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/08/images/cevdet-yilmaz-mekke-anlasmasi-aciklamasi_20260808.webp",
-        "alt": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz gündeme dair açıklamalarda bulunuyor."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/son-dakika-cumhurbaskani-yardimcisi-yilmaz-mekke-anlasmasi-nato-ya-veya-herhangi-bir-ittifaka-alternatif-bir-yapi-degil-3904213",
-      "tags": [
-        "Cevdet Yılmaz",
-        "Mekke Anlaşması",
-        "Savunma Sanayii",
-        "Dış Politika"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/08:besiktas-alexander-nubel-performans_20260808",
-      "slug": "besiktas-alexander-nubel-performans_20260808",
-      "title": "Beşiktaş’ta Alexander Nübel Dönemi: Alman Kaleci Güven Veriyor",
-      "summary": "Beşiktaş, Bayern Münih'ten kadrosuna kattığı Alman kaleci Alexander Nübel ile kaledeki uzun süreli arayışına son verdi. Siyah-beyazlı formayla çıktığı ilk üç resmi maçta kalesini gole kapatan 29 yaşındaki file bekçisi, sergilediği performansla dikkatleri üz...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/08",
-      "date": "08.08.2026",
-      "date_iso": "2026-08-08",
-      "url": "/articles/2026/08/besiktas-alexander-nubel-performans_20260808/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/besiktas-alexander-nubel-performans_20260808/",
-      "detail_json_url": "/data/details/articles/2026/08/besiktas-alexander-nubel-performans_20260808.json",
-      "image_url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/8/depophotos19176235jpg-JtbRyTPGr0GpFIkNnKB50A.jpg",
-      "image_alt": "Beşiktaş'ın yeni kalecisi Alexander Nübel sahada.",
-      "image": {
-        "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/8/depophotos19176235jpg-JtbRyTPGr0GpFIkNnKB50A.jpg",
-        "alt": "Beşiktaş'ın yeni kalecisi Alexander Nübel sahada."
-      },
-      "source_name": "Spor haberleri - Son dakika spor haberleri - Sözcü",
-      "source_url": "https://www.sozcu.com.tr/alexander-nubel-besiktas-taki-1-numara-sorununu-bitirdi-taraftarin-yuregine-su-serpti-ustun-alman-p343400",
-      "tags": [
-        "Beşiktaş",
-        "Alexander Nübel",
-        "Transfer",
-        "Spor Haberleri"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]

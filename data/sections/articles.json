@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-11T00:00:00+00:00",
-    "article_count": 1145,
+    "article_count": 1147,
     "schema_version": 2,
     "section": "articles"
   },
@@ -42,6 +42,44 @@
         "aile faciası",
         "asayiş",
         "son dakika"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811",
+      "slug": "ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811",
+      "title": "MASAK Raporu: Ultraslan Lideri Sebahattin Şirin ve Oğlunun Para Trafiği İncelemede",
+      "summary": "MASAK tarafından hazırlanan raporda, Ultraslan tribün lideri Sebahattin Şirin ve oğlu İbrahim Şamil Şirin’in banka hesaplarındaki yüksek işlem hacmi dikkat çekti. İkiliye ait hesaplarda toplam 51 milyon TL’lik para trafiği tespit edildi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "11.08.2026",
+      "date_iso": "2026-08-11",
+      "url": "/articles/2026/08/ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811/",
+      "detail_json_url": "/data/details/articles/2026/08/ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811.webp",
+      "image_alt": "MASAK raporu ve finansal inceleme görseli",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/ultraslan-lideri-sebahattin-sirin-masak-raporu-para-trafigi_20260811.webp",
+        "alt": "MASAK raporu ve finansal inceleme görseli"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/ultraslanin-tribun-lideri-sebahattin-sirin-ve-oglunun-inanilmaz-para-trafigi-masak-raporu-ortaya-cikti-51-milyon-tllik-islem-hacmi-43269522",
+      "tags": [
+        "Sebahattin Şirin",
+        "MASAK",
+        "Ultraslan",
+        "İbrahim Şamil Şirin",
+        "para trafiği"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -196,6 +234,43 @@
         "teknoloji hukuku"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:kagithanede-cop-kavgasi-kanli-bitti_20260811",
+      "slug": "kagithanede-cop-kavgasi-kanli-bitti_20260811",
+      "title": "Kağıthane'de çöp kavgası: Kadının burnunu kırdı, kardeşini bıçakladı",
+      "summary": "İstanbul Kağıthane'de çöp atma meselesi yüzünden çıkan tartışma şiddet olayına dönüştü. Bir kadının burnunu kıran şüpheli adli kontrolle serbest bırakılırken, kadının kardeşini bıçaklayan 11 suç kayıtlı saldırgan tutuklandı.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "11.08.2026",
+      "date_iso": "2026-08-11",
+      "url": "/articles/2026/08/kagithanede-cop-kavgasi-kanli-bitti_20260811/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/kagithanede-cop-kavgasi-kanli-bitti_20260811/",
+      "detail_json_url": "/data/details/articles/2026/08/kagithanede-cop-kavgasi-kanli-bitti_20260811.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/kagithanede-cop-kavgasi-kanli-bitti_20260811.webp",
+      "image_alt": "Kağıthane'de olay yeri inceleme ekipleri çalışma yürütüyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/kagithanede-cop-kavgasi-kanli-bitti_20260811.webp",
+        "alt": "Kağıthane'de olay yeri inceleme ekipleri çalışma yürütüyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kagithanede-cop-kavgasi-kanli-bitti-kadinin-burnunu-kirdi-yakini-kardesini-bicakladi-43269560",
+      "tags": [
+        "Kağıthane",
+        "asayiş",
+        "kavga",
+        "İstanbul haberleri"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
