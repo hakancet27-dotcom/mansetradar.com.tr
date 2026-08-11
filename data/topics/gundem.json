@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-11T00:00:00+00:00",
-    "article_count": 1147,
+    "article_count": 1151,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -199,6 +199,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/08:hurjet-ingiltere-jet-ihtiyaci-aday_20260811",
+      "slug": "hurjet-ingiltere-jet-ihtiyaci-aday_20260811",
+      "title": "HÜRJET İngiltere’nin radarında: Kraliyet Hava Kuvvetleri için aday",
+      "summary": "İngiltere Savunma Bakanlığı, Kraliyet Hava Kuvvetleri’nin yeni jet eğitim uçağı ihtiyacını karşılamak üzere teknik diyalog sürecini başlattı. Türk Havacılık ve Uzay Sanayii tarafından geliştirilen HÜRJET, bu süreçte potansiyel adaylar arasında gösteriliyor.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "11.08.2026",
+      "date_iso": "2026-08-11",
+      "url": "/articles/2026/08/hurjet-ingiltere-jet-ihtiyaci-aday_20260811/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/hurjet-ingiltere-jet-ihtiyaci-aday_20260811/",
+      "detail_json_url": "/data/details/articles/2026/08/hurjet-ingiltere-jet-ihtiyaci-aday_20260811.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/hurjet-ingiltere-jet-ihtiyaci-aday_20260811.webp",
+      "image_alt": "Türk Havacılık ve Uzay Sanayii tarafından geliştirilen HÜRJET eğitim uçağı uçuş sırasında.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/hurjet-ingiltere-jet-ihtiyaci-aday_20260811.webp",
+        "alt": "Türk Havacılık ve Uzay Sanayii tarafından geliştirilen HÜRJET eğitim uçağı uçuş sırasında."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/ingiliz-hava-kuvvetlerinin-jet-ihtiyacinda-potansiyel-aday-hurjet-3904834-ekonomi",
+      "tags": [
+        "HÜRJET",
+        "İngiltere",
+        "Savunma Sanayii",
+        "TUSAŞ",
+        "Havacılık"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/08:bebegin-engeliyle-hemsire-siddeti-arasinda-illiyet-bagi-kurulamadi_20260811",
       "slug": "bebegin-engeliyle-hemsire-siddeti-arasinda-illiyet-bagi-kurulamadi_20260811",
       "title": "Bebek Deniz Esin davasında Adli Tıp raporu: Şiddet ile engel arasında bağ yok",
@@ -270,6 +308,44 @@
         "bebeğe şiddet",
         "mahkeme",
         "sağlık"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:asya-tur-satildi-yeni-sahipleri-belli-oldu_20260811",
+      "slug": "asya-tur-satildi-yeni-sahipleri-belli-oldu_20260811",
+      "title": "Türkiye'nin 64 yıllık otobüs firması Asya Tur satıldı",
+      "summary": "Kocaeli merkezli köklü karayolu taşımacılığı markası Asya Tur, yürütülen görüşmelerin ardından yeni sahiplerine devredildi. 64 yıllık geçmişe sahip olan firma, artık Cemil Uzuner ve İsa Yılgın ortaklığında faaliyetlerini sürdürecek.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "11.08.2026",
+      "date_iso": "2026-08-11",
+      "url": "/articles/2026/08/asya-tur-satildi-yeni-sahipleri-belli-oldu_20260811/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/asya-tur-satildi-yeni-sahipleri-belli-oldu_20260811/",
+      "detail_json_url": "/data/details/articles/2026/08/asya-tur-satildi-yeni-sahipleri-belli-oldu_20260811.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/asya-tur-satildi-yeni-sahipleri-belli-oldu_20260811.webp",
+      "image_alt": "Asya Tur otobüsü terminalde yolcu beklerken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/asya-tur-satildi-yeni-sahipleri-belli-oldu_20260811.webp",
+        "alt": "Asya Tur otobüsü terminalde yolcu beklerken."
+      },
+      "source_name": "Cumhuriyet Gazetesi - Ekonomi",
+      "source_url": "https://www.cumhuriyet.com.tr/ekonomi/turkiye-nin-64-yillik-koklu-otobus-firmasi-satildi-ulasim-sektorunde-dev-imza-2528227",
+      "tags": [
+        "Asya Tur",
+        "ulaşım",
+        "ekonomi",
+        "otobüs firması",
+        "satış"
       ],
       "quality_score": 86,
       "review_status": "published"
