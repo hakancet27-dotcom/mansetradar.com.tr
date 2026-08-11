@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-11T00:00:00+00:00",
-    "article_count": 1151,
+    "article_count": 1156,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -81,6 +81,43 @@
         "Koskarlı Mağarası",
         "Tarih Öncesi",
         "Düzköy"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:sekip-mosturoglu-4-nisan-sorusturmasi-aciklamasi_20260811",
+      "slug": "sekip-mosturoglu-4-nisan-sorusturmasi-aciklamasi_20260811",
+      "title": "Şekip Mosturoğlu'ndan 4 Nisan açıklaması: Soruşturma genişleyecek",
+      "summary": "Fenerbahçe Yüksek Divan Kurulu Başkanı Şekip Mosturoğlu, 4 Nisan olaylarına ilişkin yürütülen soruşturmada gözaltıların başladığını ve sürecin yeni delillerle genişleyeceğini ifade etti.",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "11.08.2026",
+      "date_iso": "2026-08-11",
+      "url": "/articles/2026/08/sekip-mosturoglu-4-nisan-sorusturmasi-aciklamasi_20260811/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/sekip-mosturoglu-4-nisan-sorusturmasi-aciklamasi_20260811/",
+      "detail_json_url": "/data/details/articles/2026/08/sekip-mosturoglu-4-nisan-sorusturmasi-aciklamasi_20260811.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/sekip-mosturoglu-4-nisan-sorusturmasi-aciklamasi_20260811.webp",
+      "image_alt": "Şekip Mosturoğlu basın toplantısında açıklamalarda bulunuyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/sekip-mosturoglu-4-nisan-sorusturmasi-aciklamasi_20260811.webp",
+        "alt": "Şekip Mosturoğlu basın toplantısında açıklamalarda bulunuyor."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/sekip-mosturoglu-bu-buyuklukte-bir-olayin-bu-5-kisiyle-sinirli-kalmayacagini-dusunuyoruz-3904889-spor",
+      "tags": [
+        "Fenerbahçe",
+        "Şekip Mosturoğlu",
+        "4 Nisan",
+        "Adalet Bakanlığı"
       ],
       "quality_score": 86,
       "review_status": "published"
