@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-12T00:00:00+00:00",
-    "article_count": 1188,
+    "article_count": 1193,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -121,6 +121,43 @@
         "Ayşe Alanur Karatepe"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:fenerbahcede-8-isimle-yollar-ayriliyor_20260812",
+      "slug": "fenerbahcede-8-isimle-yollar-ayriliyor_20260812",
+      "title": "Fenerbahçe'de Büyük Operasyon: 8 Yabancı Futbolcuyla Yollar Ayrılıyor",
+      "summary": "Türkiye Futbol Federasyonu'nun 10+4 yabancı kuralı çerçevesinde kadro mühendisliğini yeniden şekillendiren Fenerbahçe, 8 yabancı futbolcusuyla yollarını ayırma kararı aldı. Sarı-lacivertli yönetim, maaş bütçesini dengelemek ve kontenjan açmak amacıyla kapsa...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/fenerbahcede-8-isimle-yollar-ayriliyor_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/fenerbahcede-8-isimle-yollar-ayriliyor_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/fenerbahcede-8-isimle-yollar-ayriliyor_20260812.json",
+      "image_url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/8/azizicjpg-M9nxfb4lDEKvjSSnBNtytw.jpg",
+      "image_alt": "Fenerbahçe Şükrü Saracoğlu Stadyumu",
+      "image": {
+        "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/8/azizicjpg-M9nxfb4lDEKvjSSnBNtytw.jpg",
+        "alt": "Fenerbahçe Şükrü Saracoğlu Stadyumu"
+      },
+      "source_name": "Spor haberleri - Son dakika spor haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/fenerbahce-de-8-ismin-bileti-kesildi-yonetimden-buyuk-operasyon-p346754",
+      "tags": [
+        "Fenerbahçe",
+        "Transfer",
+        "TFF",
+        "Süper Lig"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
