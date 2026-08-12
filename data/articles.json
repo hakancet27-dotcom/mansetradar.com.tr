@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-12T00:00:00+00:00",
-    "article_count": 1184,
+    "article_count": 1188,
     "schema_version": 2
   },
   "articles": [
@@ -269,6 +269,44 @@
         "Anayasa"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:kuresel-kuraklik-ve-sevkiyat-kisitlamalari-bugday-fiyatlarini-tetikliyor_20260812",
+      "slug": "kuresel-kuraklik-ve-sevkiyat-kisitlamalari-bugday-fiyatlarini-tetikliyor_20260812",
+      "title": "Küresel kuraklık ve lojistik kriz buğday fiyatlarını baskılıyor",
+      "summary": "Avrupa'daki şiddetli kuraklık ve Karadeniz bölgesindeki jeopolitik risklerin tetiklediği lojistik tıkanıklıklar, küresel buğday arzını daraltarak fiyatlar üzerinde yukarı yönlü baskı oluşturuyor.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/kuresel-kuraklik-ve-sevkiyat-kisitlamalari-bugday-fiyatlarini-tetikliyor_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/kuresel-kuraklik-ve-sevkiyat-kisitlamalari-bugday-fiyatlarini-tetikliyor_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/kuresel-kuraklik-ve-sevkiyat-kisitlamalari-bugday-fiyatlarini-tetikliyor_20260812.json",
+      "image_url": "https://img.ekonomim.com/storage/files/images/2026/08/12/kuresel-kuraklik-ve-sevkiyat-kisitlamalari-bugday-fiyatlarini-tetikliyor-l8f1_cover.png",
+      "image_alt": "Kuraklıktan etkilenmiş buğday tarlası ve arka planda lojistik krizini simgeleyen liman görüntüsü.",
+      "image": {
+        "url": "https://img.ekonomim.com/storage/files/images/2026/08/12/kuresel-kuraklik-ve-sevkiyat-kisitlamalari-bugday-fiyatlarini-tetikliyor-l8f1_cover.png",
+        "alt": "Kuraklıktan etkilenmiş buğday tarlası ve arka planda lojistik krizini simgeleyen liman görüntüsü."
+      },
+      "source_name": "Ekonomim",
+      "source_url": "https://www.ekonomim.com/emtia/kuresel-kuraklik-ve-sevkiyat-kisitlamalari-bugday-fiyatlarini-tetikliyor-haberi-911756",
+      "tags": [
+        "buğday",
+        "kuraklık",
+        "gıda enflasyonu",
+        "lojistik",
+        "tarım"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -613,6 +651,43 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/08:bina-yikiminda-yeni-kurallar_20260812",
+      "slug": "bina-yikiminda-yeni-kurallar_20260812",
+      "title": "Bina yıkımında yeni dönem: Yüksek yapılar için özel kurallar getirildi",
+      "summary": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı tarafından hazırlanan Binaların Yıkılması Hakkında Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik, 12 Ağustos 2026 tarihli Resmi Gazete'de yayımlanarak yürürlüğe girdi. Yeni düzenleme ile yüksek yapıları...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/bina-yikiminda-yeni-kurallar_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/bina-yikiminda-yeni-kurallar_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/bina-yikiminda-yeni-kurallar_20260812.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/bina-yikiminda-yeni-kurallar_20260812.webp",
+      "image_alt": "Bina yıkım sahasında kontrollü yıkım çalışmaları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/bina-yikiminda-yeni-kurallar_20260812.webp",
+        "alt": "Bina yıkım sahasında kontrollü yıkım çalışmaları."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/bina-yikiminda-yeni-kurallar-3905059-ekonomi",
+      "tags": [
+        "Bina Yıkımı",
+        "Resmi Gazete",
+        "Çevre ve Şehircilik Bakanlığı",
+        "Yıkım Yönetmeliği"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/08:besiktas-hradec-kralove-mac-oncesi_20260812",
       "slug": "besiktas-hradec-kralove-mac-oncesi_20260812",
       "title": "Beşiktaş'ta Hradec Kralove mesaisi: Hedef play-off",
@@ -645,6 +720,81 @@
         "Hradec Kralove",
         "UEFA Avrupa Ligi",
         "Vincenzo Italiano"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:bakan-yumakli-silvan-projesi-ekonomiye-yillik-43-milyar-lira-katki-saglayacak_20260812",
+      "slug": "bakan-yumakli-silvan-projesi-ekonomiye-yillik-43-milyar-lira-katki-saglayacak_20260812",
+      "title": "Bakan Yumaklı: Silvan Projesi ekonomiye yıllık 43 milyar lira katkı sağlayacak",
+      "summary": "Tarım ve Orman Bakanı İbrahim Yumaklı, Diyarbakır'da incelemelerde bulunduğu Silvan Projesi'nin tamamlandığında ekonomiye yıllık 43 milyar lira katkı sunacağını belirtti.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/bakan-yumakli-silvan-projesi-ekonomiye-yillik-43-milyar-lira-katki-saglayacak_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/bakan-yumakli-silvan-projesi-ekonomiye-yillik-43-milyar-lira-katki-saglayacak_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/bakan-yumakli-silvan-projesi-ekonomiye-yillik-43-milyar-lira-katki-saglayacak_20260812.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/bakan-yumakli-silvan-projesi-ekonomiye-yillik-43-milyar-lira-katki-saglayacak_20260812.webp",
+      "image_alt": "Tarım ve Orman Bakanı İbrahim Yumaklı, Silvan Barajı inşaat alanında incelemelerde bulunuyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/bakan-yumakli-silvan-projesi-ekonomiye-yillik-43-milyar-lira-katki-saglayacak_20260812.webp",
+        "alt": "Tarım ve Orman Bakanı İbrahim Yumaklı, Silvan Barajı inşaat alanında incelemelerde bulunuyor."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/ekonomi/bakan-yumakli-silvan-projesi-ekonomiye-yillik-43-milyar-lira-katki-saglayacak-7640053",
+      "tags": [
+        "İbrahim Yumaklı",
+        "Silvan Projesi",
+        "Diyarbakır",
+        "Tarım ve Orman Bakanlığı",
+        "Ekonomi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:ahbap-dernegi-sorusturmasinda-44-milyon-liralik-altin-incelemesi_20260812",
+      "slug": "ahbap-dernegi-sorusturmasinda-44-milyon-liralik-altin-incelemesi_20260812",
+      "title": "Ahbap Derneği soruşturmasında yeni gelişme: 44 milyon liralık altın trafiği mercek altında",
+      "summary": "İstanbul Cumhuriyet Başsavcılığı tarafından yürütülen Ahbap Derneği soruşturmasında, dernek yönetim kurulunun Ocak 2026’da aldığı kararlar ve 44 milyon liranın altına dönüştürülme süreci incelemeye alındı.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/ahbap-dernegi-sorusturmasinda-44-milyon-liralik-altin-incelemesi_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/ahbap-dernegi-sorusturmasinda-44-milyon-liralik-altin-incelemesi_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/ahbap-dernegi-sorusturmasinda-44-milyon-liralik-altin-incelemesi_20260812.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/ahbap-dernegi-sorusturmasinda-44-milyon-liralik-altin-incelemesi_20260812.webp",
+      "image_alt": "Ahbap Derneği soruşturması kapsamında adliye binası.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/ahbap-dernegi-sorusturmasinda-44-milyon-liralik-altin-incelemesi_20260812.webp",
+        "alt": "Ahbap Derneği soruşturması kapsamında adliye binası."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/ahbap-dernegi-sorusturmasinda-yeni-gelisme-44-milyon-degerinde-altinlarin-saklandigi-belirtilen-kasadan-bakin-neler-cikti-43270704",
+      "tags": [
+        "Ahbap Derneği",
+        "Haluk Levent",
+        "İstanbul Cumhuriyet Başsavcılığı",
+        "soruşturma"
       ],
       "quality_score": 86,
       "review_status": "published"
