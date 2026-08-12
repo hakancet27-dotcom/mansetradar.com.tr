@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-12T00:00:00+00:00",
-    "article_count": 1204,
+    "article_count": 1206,
     "schema_version": 2,
     "topic_slug": "ekonomi",
     "type": "topic"
@@ -44,6 +44,82 @@
         "Ekonomi"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:kutso-argat-kutahya-savunma-sanayine-entegre-olmali_20260812",
+      "slug": "kutso-argat-kutahya-savunma-sanayine-entegre-olmali_20260812",
+      "title": "KUTSO Başkanı Argat: Kütahya savunma sanayine entegre olmalı",
+      "summary": "Kütahya Ticaret ve Sanayi Odası (KUTSO) Yönetim Kurulu Başkanı Esin Güral Argat, kent ekonomisini güçlendirmek ve sektör çeşitliliğini artırmak amacıyla savunma sanayisine yönelik çalışmaların hızlandırıldığını açıkladı.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/kutso-argat-kutahya-savunma-sanayine-entegre-olmali_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/kutso-argat-kutahya-savunma-sanayine-entegre-olmali_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/kutso-argat-kutahya-savunma-sanayine-entegre-olmali_20260812.json",
+      "image_url": "https://img.ekonomim.com/storage/files/images/2026/08/12/kutsoargat-kutahya-savunma-sanayine-entegre-olmali-fclc_cover.jpg",
+      "image_alt": "Kütahya'da sanayi üretimi ve savunma sanayisi entegrasyonu çalışmaları.",
+      "image": {
+        "url": "https://img.ekonomim.com/storage/files/images/2026/08/12/kutsoargat-kutahya-savunma-sanayine-entegre-olmali-fclc_cover.jpg",
+        "alt": "Kütahya'da sanayi üretimi ve savunma sanayisi entegrasyonu çalışmaları."
+      },
+      "source_name": "Ekonomim",
+      "source_url": "https://www.ekonomim.com/ekonomi/kutsoargat-kutahya-savunma-sanayine-entegre-olmali-haberi-911808",
+      "tags": [
+        "Kütahya",
+        "KUTSO",
+        "Esin Güral Argat",
+        "Savunma Sanayisi",
+        "Ekonomi"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:kredi-mevduat-orani-esitlige-gidiyor_20260812",
+      "slug": "kredi-mevduat-orani-esitlige-gidiyor_20260812",
+      "title": "Bankacılıkta kredi/mevduat rasyosu yükselişte",
+      "summary": "Bankacılık Düzenleme ve Denetleme Kurumu (BDDK) verilerine göre, sektördeki kredi/mevduat rasyosu Haziran 2026 itibarıyla yüzde 92,64 seviyesine yükselerek sıkı para politikasının başladığı Haziran 2023'ten bu yana en yüksek noktasına ulaştı.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/kredi-mevduat-orani-esitlige-gidiyor_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/kredi-mevduat-orani-esitlige-gidiyor_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/kredi-mevduat-orani-esitlige-gidiyor_20260812.json",
+      "image_url": "https://img.ekonomim.com/storage/files/images/2026/08/11/mevduat-faizleri-guncellendi-1-milyon-tl-ayda-ne-kadar-kazandiriyor-iste-banka-banka-liste-9zq0_cover.jpg",
+      "image_alt": "Bankacılık sektöründe kredi ve mevduat oranlarını temsil eden finansal grafikler.",
+      "image": {
+        "url": "https://img.ekonomim.com/storage/files/images/2026/08/11/mevduat-faizleri-guncellendi-1-milyon-tl-ayda-ne-kadar-kazandiriyor-iste-banka-banka-liste-9zq0_cover.jpg",
+        "alt": "Bankacılık sektöründe kredi ve mevduat oranlarını temsil eden finansal grafikler."
+      },
+      "source_name": "Ekonomim",
+      "source_url": "https://www.ekonomim.com/ekonomi/kredimevduat-orani-esitlige-gidiyor-haberi-911803",
+      "tags": [
+        "BDDK",
+        "bankacılık",
+        "kredi",
+        "mevduat",
+        "ekonomi"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
