@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-12T00:00:00+00:00",
-    "article_count": 1180,
+    "article_count": 1184,
     "schema_version": 2,
     "topic_slug": "teknoloji",
     "type": "topic"
@@ -120,6 +120,43 @@
         "Beta"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:iletisim-baskani-duran-kamu-iletisiminde-dijitallesme-stratejik-bir-zorunluluk_20260812",
+      "slug": "iletisim-baskani-duran-kamu-iletisiminde-dijitallesme-stratejik-bir-zorunluluk_20260812",
+      "title": "İletişim Başkanı Duran: Kamu iletişiminde dijitalleşme stratejik bir zorunluluk",
+      "summary": "Cumhurbaşkanlığı İletişim Başkanı Burhanettin Duran, İletişim Başkanlığında düzenlenen \"Dijital Çağda Kamu İletişimi\" programında yaptığı konuşmada, Türkiye'deki 62,3 milyon aktif sosyal medya kullanıcısı göz önüne alındığında, kamu yönetiminin vatandaşla i...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/iletisim-baskani-duran-kamu-iletisiminde-dijitallesme-stratejik-bir-zorunluluk_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/iletisim-baskani-duran-kamu-iletisiminde-dijitallesme-stratejik-bir-zorunluluk_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/iletisim-baskani-duran-kamu-iletisiminde-dijitallesme-stratejik-bir-zorunluluk_20260812.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/iletisim-baskani-duran-kamu-iletisiminde-dijitallesme-stratejik-bir-zorunluluk_20260812.webp",
+      "image_alt": "Cumhurbaşkanlığı İletişim Başkanı Burhanettin Duran, Dijital Çağda Kamu İletişimi programında konuşma yapıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/iletisim-baskani-duran-kamu-iletisiminde-dijitallesme-stratejik-bir-zorunluluk_20260812.webp",
+        "alt": "Cumhurbaşkanlığı İletişim Başkanı Burhanettin Duran, Dijital Çağda Kamu İletişimi programında konuşma yapıyor."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/gundem/iletisim-baskani-duran-vatandasla-iletisimi-tek-bir-mecra-ile-sinirli-tutmamiz-dusunulemez/4025226",
+      "tags": [
+        "Burhanettin Duran",
+        "İletişim Başkanlığı",
+        "Dijital İletişim",
+        "Kamu Yönetimi"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
