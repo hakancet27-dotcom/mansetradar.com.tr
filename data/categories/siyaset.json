@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-12T00:00:00+00:00",
-    "article_count": 1193,
+    "article_count": 1198,
     "schema_version": 2,
     "category_slug": "siyaset",
     "type": "category"
@@ -193,6 +193,44 @@
         "Dış Politika",
         "Suudi Arabistan",
         "Pakistan"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:bahceli-milli-dayanisma-kanunu-aciklamasi_20260812",
+      "slug": "bahceli-milli-dayanisma-kanunu-aciklamasi_20260812",
+      "title": "Bahçeli'den 'Terörsüz Türkiye' Açıklaması: Milli Dayanışma Kanunu'nu Değerlendirdi",
+      "summary": "MHP Genel Başkanı Devlet Bahçeli, Türkiye Büyük Millet Meclisi'nde kabul edilen Milli Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine dair Kanun'a ilişkin yazılı bir açıklama yaptı. Bahçeli, bu kanunun terör örgütünün silah bırakma sürecindeki hukuki...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/bahceli-milli-dayanisma-kanunu-aciklamasi_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/bahceli-milli-dayanisma-kanunu-aciklamasi_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/bahceli-milli-dayanisma-kanunu-aciklamasi_20260812.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/bahceli-milli-dayanisma-kanunu-aciklamasi_20260812.webp",
+      "image_alt": "MHP Genel Başkanı Devlet Bahçeli açıklama yaparken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/bahceli-milli-dayanisma-kanunu-aciklamasi_20260812.webp",
+        "alt": "MHP Genel Başkanı Devlet Bahçeli açıklama yaparken."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/milli-guvenlik-meselesi-mhp-lideri-bahceli-terorsuz-turkiye-hedefi-hayat-bulmustur-43271035",
+      "tags": [
+        "Devlet Bahçeli",
+        "MHP",
+        "Milli Dayanışma Kanunu",
+        "Terörle Mücadele",
+        "Siyaset"
       ],
       "quality_score": 86,
       "review_status": "published"

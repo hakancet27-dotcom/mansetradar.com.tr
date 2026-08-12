@@ -1,0 +1,82 @@
+{
+  "title": "IBM ve Together AI'dan 240 Milyon Dolarlık Yapay Zeka Anlaşması",
+  "meta_title": "IBM ve Together AI'dan 240 Milyon Dolarlık Yapay Zeka...",
+  "meta_description": "IBM ve Together AI, açık kaynaklı yapay zeka modellerinin çıkarım süreçlerini ölçeklendirmek için 240 milyon dolarlık stratejik bir anlaşma imzaladı.",
+  "discover_titles": [
+    "IBM ve Together AI'dan dev yapay zeka iş birliği",
+    "Açık kaynaklı yapay zeka için 240 milyon dolarlık yatırım",
+    "IBM Cloud üzerinde yeni yapay zeka altyapısı kuruluyor"
+  ],
+  "slug": "ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812",
+  "category": "Teknoloji",
+  "spot": "IBM ve Together AI, açık kaynaklı yapay zeka modellerinin çıkarım süreçlerini ölçeklendirmek amacıyla 240 milyon dolar değerinde çok yıllı bir anlaşma imzaladı. Bu iş birliği kapsamında IBM Cloud üzerinde, Nvidia teknolojileriyle desteklenen büyük ölçekli bir altyapı kurulacak.",
+  "content_html": "<h2>Açık Kaynaklı Modeller İçin Yeni Altyapı</h2> <p>IBM ve Together AI tarafından imzalanan 240 milyon dolarlık anlaşma, açık kaynaklı yapay zeka modellerinin çıkarım hizmetlerini güçlendirmeyi hedefliyor. Anlaşma çerçevesinde IBM, IBM Cloud üzerinde Nvidia HGX B300 sistemlerinden oluşan özel bir küme oluşturacak. Bu sistem, IBM Cloud üzerinde Nvidia HGX B300 ve Spectrum-X Ethernet teknolojilerini bir araya getiren ilk büyük ölçekli özel küme olma özelliğini taşıyor. Altyapının 2027 yılının ilk çeyreğinde kullanıma sunulması planlanıyor.</p> <h2>Teknik Detaylar ve Performans Hedefleri</h2> <p>Kurulacak altyapının merkezinde, her biri sekiz Blackwell Ultra hızlandırıcı barındıran Nvidia HGX B300 sistemleri yer alacak. Sistem, Nvidia Spectrum-X Ethernet ağ teknolojisi ile desteklenirken, hızlandırıcılar arasındaki veri trafiği ConnectX-8 SuperNIC bileşenleri ile yönetilecek. BlueField-3 veri işleme birimi ise sistem ile harici altyapılar arasındaki veri akışını koordine edecek. Nvidia'nın verilerine göre bu yeni yapı, önceki nesil sistemlere kıyasla 30 kata kadar daha yüksek \"AI factory\" çıktısı sağlayabilecek.</p> <p>Together AI, bu kümeyi açık kaynaklı modeller için çıkarım hizmetleri sunmak amacıyla kullanacak. Şirketin platformu halihazırda yapay zeka modellerinin çıkarım, eğitim ve ince ayar süreçlerini destekliyor ve aylık yaklaşık 400 trilyon token işliyor. Yeni kapasite ile kurumsal müşterilere üretim ortamlarında daha yüksek performans ve daha düşük token maliyeti sunulması hedefleniyor. Together AI CEO'su Vipul Ved Prakash, şirketlerin kapalı modellere özgü maliyetlere katlanmadan gelişmiş modellerin performansından yararlanmak istediğini belirterek, bu hedefe hızlı ve güvenilir bir ölçeklendirme ile ulaşılabileceğini ifade etti.</p>",
+  "tags": [
+    "IBM",
+    "Together AI",
+    "Yapay Zeka",
+    "Nvidia",
+    "Bulut Bilişim"
+  ],
+  "visual_keywords": [
+    "IBM logo",
+    "Nvidia HGX B300",
+    "Data center",
+    "Artificial intelligence server",
+    "Cloud computing infrastructure"
+  ],
+  "image_prompt": "A high-tech data center interior with rows of advanced server racks, featuring Nvidia HGX B300 branding, blue ambient lighting, professional corporate technology aesthetic.",
+  "image_alt": "IBM ve Together AI iş birliği kapsamında kurulacak yapay zeka altyapısını temsil eden veri merkezi sunucuları.",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 3,
+  "word_count": 264,
+  "date": "12.08.2026",
+  "flag": "TR",
+  "country": "Turkey",
+  "display_country": "Türkiye",
+  "image_url": "https://mansetradar.com.tr/articles/2026/08/images/ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812.webp",
+  "real_image_required": true,
+  "real_image_status": "approved_real_image",
+  "image_kind": "licensed_real_photo",
+  "image_license_status": "source_provided",
+  "image_license_note": "RSS source image: Webrazzi",
+  "image_source_url": "https://webrazzi.com/2026/08/12/ibm-ve-together-ai-acik-kaynakli-yapay-zeka-modelleri-icin-240-milyon-dolarlik-anlasma-imzaladi/",
+  "image_provider": "rss",
+  "image_score": 70,
+  "image_query": "IBM ve Together AI, açık kaynaklı yapay zeka modelleri için 240 milyon dolarlık",
+  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
+  "summary": "IBM ve Together AI, açık kaynaklı yapay zeka modellerinin çıkarım süreçlerini ölçeklendirmek amacıyla 240 milyon dolar değerinde çok yıllı bir anlaşma imzaladı. Bu iş birliği kapsamında IBM Cloud üzerinde, Nvidia teknolojileriyle desteklenen büyük ölçekli bir altyapı kurulacak.",
+  "language": "Turkish",
+  "url_prefix": "articles/2026/08",
+  "source_language": "Turkish",
+  "target_language": "Turkish",
+  "source_name": "Webrazzi",
+  "source_url": "https://webrazzi.com/2026/08/12/ibm-ve-together-ai-acik-kaynakli-yapay-zeka-modelleri-icin-240-milyon-dolarlik-anlasma-imzaladi/",
+  "source_published_at": "2026-08-12T13:30:00+00:00",
+  "source_fact_score": 11,
+  "source_fact_word_count": 319,
+  "quality_score": 86,
+  "quality_status": "published",
+  "review_required": false,
+  "quality_flags": [
+    "short_article"
+  ],
+  "quality_notes": [
+    "Metin hedefin altinda (264 kelime)."
+  ],
+  "quality_word_count": 264,
+  "indexed_on_home": true,
+  "image_identity_url": "https://cdn.webrazzi.com/uploads/2026/08/together-ibm-566_240x135.png",
+  "original_image_url": "https://cdn.webrazzi.com/uploads/2026/08/together-ibm-566_240x135.png",
+  "image_local_webp": "articles/2026/08/images/ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812.webp",
+  "image_credit": "webrazzi.com",
+  "image_credit_url": "https://webrazzi.com/2026/08/12/ibm-ve-together-ai-acik-kaynakli-yapay-zeka-modelleri-icin-240-milyon-dolarlik-anlasma-imzaladi/",
+  "image_finalized_at": "2026-08-12T17:14:04.619384Z",
+  "time": "13:30",
+  "public_url": "/articles/2026/08/ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812/",
+  "source_json_path": "articles/2026/08/ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812.json",
+  "cms_generated_from_monthly_source": true
+}

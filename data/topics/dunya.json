@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-12T00:00:00+00:00",
-    "article_count": 1193,
+    "article_count": 1198,
     "schema_version": 2,
     "topic_slug": "dunya",
     "type": "topic"
@@ -45,6 +45,43 @@
         "tarım"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:abdnin-uzay-tabanli-fuze-savunma-programi-altin-kubbenin-ilk-testleri-tamamlandi_20260812",
+      "slug": "abdnin-uzay-tabanli-fuze-savunma-programi-altin-kubbenin-ilk-testleri-tamamlandi_20260812",
+      "title": "ABD’nin Uzay Tabanlı Füze Savunma Programı Altın Kubbe’de İlk Testler Tamamlandı",
+      "summary": "ABD Uzay Kuvvetleri, kıtalararası balistik füzelere karşı geliştirilen Altın Kubbe projesinde ilk teknik eşiğin başarıyla geçildiğini duyurdu. SpaceX, Northrop Grumman ve Lockheed Martin gibi 12 şirketin yer aldığı programda, sensör verisi aktarımı ve uzay...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/abdnin-uzay-tabanli-fuze-savunma-programi-altin-kubbenin-ilk-testleri-tamamlandi_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/abdnin-uzay-tabanli-fuze-savunma-programi-altin-kubbenin-ilk-testleri-tamamlandi_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/abdnin-uzay-tabanli-fuze-savunma-programi-altin-kubbenin-ilk-testleri-tamamlandi_20260812.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/abdnin-uzay-tabanli-fuze-savunma-programi-altin-kubbenin-ilk-testleri-tamamlandi_20260812.webp",
+      "image_alt": "ABD'nin uzay tabanlı füze savunma sistemi Altın Kubbe'yi temsil eden bir illüstrasyon.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/abdnin-uzay-tabanli-fuze-savunma-programi-altin-kubbenin-ilk-testleri-tamamlandi_20260812.webp",
+        "alt": "ABD'nin uzay tabanlı füze savunma sistemi Altın Kubbe'yi temsil eden bir illüstrasyon."
+      },
+      "source_name": "Teknoloji Haberleri – ShiftDelete.Net",
+      "source_url": "https://shiftdelete.net/abdnin-uzay-tabanli-fuze-savunma-programi-altin-kubbenin-ilk-testleri-tamamlandi",
+      "tags": [
+        "Altın Kubbe",
+        "ABD Uzay Kuvvetleri",
+        "Füze Savunma Sistemi",
+        "Uzay Teknolojileri"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {

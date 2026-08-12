@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "articles/2026/08:ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812",
+    "slug": "ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812",
+    "title": "IBM ve Together AI'dan 240 Milyon Dolarlık Yapay Zeka Anlaşması",
+    "summary": "IBM ve Together AI, açık kaynaklı yapay zeka modellerinin çıkarım süreçlerini ölçeklendirmek amacıyla 240 milyon dolar değerinde çok yıllı bir anlaşma imzaladı. Bu iş birliği kapsamında IBM Cloud üzerinde, Nvidia teknolojileriyle desteklenen büyük ölçekli b...",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "topic_slug": "teknoloji",
+    "topic_label": "Teknoloji",
+    "country": "Turkey",
+    "language": "tr",
+    "language_label": "Turkish",
+    "section": "articles",
+    "section_name": "Haberler",
+    "url_prefix": "articles/2026/08",
+    "date": "12.08.2026",
+    "date_iso": "2026-08-12",
+    "url": "/articles/2026/08/ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812/",
+    "canonical_url": "https://mansetradar.com.tr/articles/2026/08/ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812/",
+    "detail_json_url": "/data/details/articles/2026/08/ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812.json",
+    "image_url": "https://mansetradar.com.tr/articles/2026/08/images/ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812.webp",
+    "image_alt": "IBM ve Together AI iş birliği kapsamında kurulacak yapay zeka altyapısını temsil eden veri merkezi sunucuları.",
+    "image": {
+      "url": "https://mansetradar.com.tr/articles/2026/08/images/ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812.webp",
+      "alt": "IBM ve Together AI iş birliği kapsamında kurulacak yapay zeka altyapısını temsil eden veri merkezi sunucuları."
+    },
+    "source_name": "Webrazzi",
+    "source_url": "https://webrazzi.com/2026/08/12/ibm-ve-together-ai-acik-kaynakli-yapay-zeka-modelleri-icin-240-milyon-dolarlik-anlasma-imzaladi/",
+    "tags": [
+      "IBM",
+      "Together AI",
+      "Yapay Zeka",
+      "Nvidia",
+      "Bulut Bilişim"
+    ],
+    "quality_score": 86,
+    "review_status": "published",
+    "content_html": "<h2>Açık Kaynaklı Modeller İçin Yeni Altyapı</h2> <p>IBM ve Together AI tarafından imzalanan 240 milyon dolarlık anlaşma, açık kaynaklı yapay zeka modellerinin çıkarım hizmetlerini güçlendirmeyi hedefliyor. Anlaşma çerçevesinde IBM, IBM Cloud üzerinde Nvidia HGX B300 sistemlerinden oluşan özel bir küme oluşturacak. Bu sistem, IBM Cloud üzerinde Nvidia HGX B300 ve Spectrum-X Ethernet teknolojilerini bir araya getiren ilk büyük ölçekli özel küme olma özelliğini taşıyor. Altyapının 2027 yılının ilk çeyreğinde kullanıma sunulması planlanıyor.</p> <h2>Teknik Detaylar ve Performans Hedefleri</h2> <p>Kurulacak altyapının merkezinde, her biri sekiz Blackwell Ultra hızlandırıcı barındıran Nvidia HGX B300 sistemleri yer alacak. Sistem, Nvidia Spectrum-X Ethernet ağ teknolojisi ile desteklenirken, hızlandırıcılar arasındaki veri trafiği ConnectX-8 SuperNIC bileşenleri ile yönetilecek. BlueField-3 veri işleme birimi ise sistem ile harici altyapılar arasındaki veri akışını koordine edecek. Nvidia'nın verilerine göre bu yeni yapı, önceki nesil sistemlere kıyasla 30 kata kadar daha yüksek \"AI factory\" çıktısı sağlayabilecek.</p> <p>Together AI, bu kümeyi açık kaynaklı modeller için çıkarım hizmetleri sunmak amacıyla kullanacak. Şirketin platformu halihazırda yapay zeka modellerinin çıkarım, eğitim ve ince ayar süreçlerini destekliyor ve aylık yaklaşık 400 trilyon token işliyor. Yeni kapasite ile kurumsal müşterilere üretim ortamlarında daha yüksek performans ve daha düşük token maliyeti sunulması hedefleniyor. Together AI CEO'su Vipul Ved Prakash, şirketlerin kapalı modellere özgü maliyetlere katlanmadan gelişmiş modellerin performansından yararlanmak istediğini belirterek, bu hedefe hızlı ve güvenilir bir ölçeklendirme ile ulaşılabileceğini ifade etti.</p>",
+    "meta_title": "IBM ve Together AI'dan 240 Milyon Dolarlık Yapay Zeka...",
+    "meta_description": "IBM ve Together AI, açık kaynaklı yapay zeka modellerinin çıkarım süreçlerini ölçeklendirmek için 240 milyon dolarlık stratejik bir anlaşma imzaladı.",
+    "spot": "IBM ve Together AI, açık kaynaklı yapay zeka modellerinin çıkarım süreçlerini ölçeklendirmek amacıyla 240 milyon dolar değerinde çok yıllı bir anlaşma imzaladı. Bu iş birliği kapsamında IBM Cloud üzerinde, Nvidia teknolojileriyle desteklenen büyük ölçekli bir altyapı kurulacak.",
+    "word_count": 221,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "IBM ve Together AI'dan dev yapay zeka iş birliği",
+      "Açık kaynaklı yapay zeka için 240 milyon dolarlık yatırım",
+      "IBM Cloud üzerinde yeni yapay zeka altyapısı kuruluyor"
+    ],
+    "visual_keywords": [
+      "IBM logo",
+      "Nvidia HGX B300",
+      "Data center",
+      "Artificial intelligence server",
+      "Cloud computing infrastructure"
+    ]
+  }
+}

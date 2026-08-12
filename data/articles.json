@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-12T00:00:00+00:00",
-    "article_count": 1193,
+    "article_count": 1198,
     "schema_version": 2
   },
   "articles": [
@@ -194,6 +194,44 @@
         "Meteoroloji"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:savunma-teknolojileri-girisimi-neros-250-milyon-dolar-yatirim-aldi_20260812",
+      "slug": "savunma-teknolojileri-girisimi-neros-250-milyon-dolar-yatirim-aldi_20260812",
+      "title": "Savunma teknolojileri girişimi Neros 250 milyon dolar yatırım aldı",
+      "summary": "ABD merkezli savunma teknolojileri girişimi Neros Technologies, Seri C yatırım turunda 250 milyon dolar yatırım alarak şirket değerlemesini 2,5 milyar dolara yükseltti.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/savunma-teknolojileri-girisimi-neros-250-milyon-dolar-yatirim-aldi_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/savunma-teknolojileri-girisimi-neros-250-milyon-dolar-yatirim-aldi_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/savunma-teknolojileri-girisimi-neros-250-milyon-dolar-yatirim-aldi_20260812.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/savunma-teknolojileri-girisimi-neros-250-milyon-dolar-yatirim-aldi_20260812.webp",
+      "image_alt": "Neros Technologies tarafından geliştirilen otonom drone sistemleri.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/savunma-teknolojileri-girisimi-neros-250-milyon-dolar-yatirim-aldi_20260812.webp",
+        "alt": "Neros Technologies tarafından geliştirilen otonom drone sistemleri."
+      },
+      "source_name": "Webrazzi",
+      "source_url": "https://webrazzi.com/2026/08/12/savunma-teknolojileri-girisimi-neros-250-milyon-dolar-yatirim-aldi/",
+      "tags": [
+        "Neros",
+        "Savunma Teknolojileri",
+        "Yatırım",
+        "Drone",
+        "Teknoloji"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -458,6 +496,81 @@
         "Kamu Yönetimi"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812",
+      "slug": "ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812",
+      "title": "IBM ve Together AI'dan 240 Milyon Dolarlık Yapay Zeka Anlaşması",
+      "summary": "IBM ve Together AI, açık kaynaklı yapay zeka modellerinin çıkarım süreçlerini ölçeklendirmek amacıyla 240 milyon dolar değerinde çok yıllı bir anlaşma imzaladı. Bu iş birliği kapsamında IBM Cloud üzerinde, Nvidia teknolojileriyle desteklenen büyük ölçekli b...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812.webp",
+      "image_alt": "IBM ve Together AI iş birliği kapsamında kurulacak yapay zeka altyapısını temsil eden veri merkezi sunucuları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/ibm-ve-together-ai-240-milyon-dolar-yapay-zeka-anlasmasi_20260812.webp",
+        "alt": "IBM ve Together AI iş birliği kapsamında kurulacak yapay zeka altyapısını temsil eden veri merkezi sunucuları."
+      },
+      "source_name": "Webrazzi",
+      "source_url": "https://webrazzi.com/2026/08/12/ibm-ve-together-ai-acik-kaynakli-yapay-zeka-modelleri-icin-240-milyon-dolarlik-anlasma-imzaladi/",
+      "tags": [
+        "IBM",
+        "Together AI",
+        "Yapay Zeka",
+        "Nvidia",
+        "Bulut Bilişim"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:google-pixel-11-pro-fold-tanitildi-ozellikleri_20260812",
+      "slug": "google-pixel-11-pro-fold-tanitildi-ozellikleri_20260812",
+      "title": "Google Pixel 11 Pro Fold Tanıtıldı: İşte Özellikleri ve Fiyatı",
+      "summary": "Google, yeni katlanabilir akıllı telefonu Pixel 11 Pro Fold'u 12 Ağustos itibarıyla resmen tanıttı. Daha ince bir tasarıma, Tensor G6 işlemciye ve geliştirilmiş kamera donanımına sahip olan cihaz, 1899 dolardan başlayan fiyatlarla piyasaya sunuldu.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/google-pixel-11-pro-fold-tanitildi-ozellikleri_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/google-pixel-11-pro-fold-tanitildi-ozellikleri_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/google-pixel-11-pro-fold-tanitildi-ozellikleri_20260812.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/209237/1200x675google-pixel-11-pro-fold-tanitildi-iste-ozellikleri-ve-fiyati.jpg",
+      "image_alt": "Google Pixel 11 Pro Fold katlanabilir akıllı telefon",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/209237/1200x675google-pixel-11-pro-fold-tanitildi-iste-ozellikleri-ve-fiyati.jpg",
+        "alt": "Google Pixel 11 Pro Fold katlanabilir akıllı telefon"
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/google-pixel-11-pro-fold-tanitildi-iste-ozellikleri-ve-fiyati--209237",
+      "tags": [
+        "Google",
+        "Pixel 11 Pro Fold",
+        "Akıllı Telefon",
+        "Teknoloji"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -950,6 +1063,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/08:bahceli-milli-dayanisma-kanunu-aciklamasi_20260812",
+      "slug": "bahceli-milli-dayanisma-kanunu-aciklamasi_20260812",
+      "title": "Bahçeli'den 'Terörsüz Türkiye' Açıklaması: Milli Dayanışma Kanunu'nu Değerlendirdi",
+      "summary": "MHP Genel Başkanı Devlet Bahçeli, Türkiye Büyük Millet Meclisi'nde kabul edilen Milli Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine dair Kanun'a ilişkin yazılı bir açıklama yaptı. Bahçeli, bu kanunun terör örgütünün silah bırakma sürecindeki hukuki...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/bahceli-milli-dayanisma-kanunu-aciklamasi_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/bahceli-milli-dayanisma-kanunu-aciklamasi_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/bahceli-milli-dayanisma-kanunu-aciklamasi_20260812.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/bahceli-milli-dayanisma-kanunu-aciklamasi_20260812.webp",
+      "image_alt": "MHP Genel Başkanı Devlet Bahçeli açıklama yaparken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/bahceli-milli-dayanisma-kanunu-aciklamasi_20260812.webp",
+        "alt": "MHP Genel Başkanı Devlet Bahçeli açıklama yaparken."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/milli-guvenlik-meselesi-mhp-lideri-bahceli-terorsuz-turkiye-hedefi-hayat-bulmustur-43271035",
+      "tags": [
+        "Devlet Bahçeli",
+        "MHP",
+        "Milli Dayanışma Kanunu",
+        "Terörle Mücadele",
+        "Siyaset"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/08:ahbap-dernegi-sorusturmasinda-44-milyon-liralik-altin-incelemesi_20260812",
       "slug": "ahbap-dernegi-sorusturmasinda-44-milyon-liralik-altin-incelemesi_20260812",
       "title": "Ahbap Derneği soruşturmasında yeni gelişme: 44 milyon liralık altın trafiği mercek altında",
@@ -982,6 +1133,43 @@
         "Haluk Levent",
         "İstanbul Cumhuriyet Başsavcılığı",
         "soruşturma"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:abdnin-uzay-tabanli-fuze-savunma-programi-altin-kubbenin-ilk-testleri-tamamlandi_20260812",
+      "slug": "abdnin-uzay-tabanli-fuze-savunma-programi-altin-kubbenin-ilk-testleri-tamamlandi_20260812",
+      "title": "ABD’nin Uzay Tabanlı Füze Savunma Programı Altın Kubbe’de İlk Testler Tamamlandı",
+      "summary": "ABD Uzay Kuvvetleri, kıtalararası balistik füzelere karşı geliştirilen Altın Kubbe projesinde ilk teknik eşiğin başarıyla geçildiğini duyurdu. SpaceX, Northrop Grumman ve Lockheed Martin gibi 12 şirketin yer aldığı programda, sensör verisi aktarımı ve uzay...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/abdnin-uzay-tabanli-fuze-savunma-programi-altin-kubbenin-ilk-testleri-tamamlandi_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/abdnin-uzay-tabanli-fuze-savunma-programi-altin-kubbenin-ilk-testleri-tamamlandi_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/abdnin-uzay-tabanli-fuze-savunma-programi-altin-kubbenin-ilk-testleri-tamamlandi_20260812.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/abdnin-uzay-tabanli-fuze-savunma-programi-altin-kubbenin-ilk-testleri-tamamlandi_20260812.webp",
+      "image_alt": "ABD'nin uzay tabanlı füze savunma sistemi Altın Kubbe'yi temsil eden bir illüstrasyon.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/abdnin-uzay-tabanli-fuze-savunma-programi-altin-kubbenin-ilk-testleri-tamamlandi_20260812.webp",
+        "alt": "ABD'nin uzay tabanlı füze savunma sistemi Altın Kubbe'yi temsil eden bir illüstrasyon."
+      },
+      "source_name": "Teknoloji Haberleri – ShiftDelete.Net",
+      "source_url": "https://shiftdelete.net/abdnin-uzay-tabanli-fuze-savunma-programi-altin-kubbenin-ilk-testleri-tamamlandi",
+      "tags": [
+        "Altın Kubbe",
+        "ABD Uzay Kuvvetleri",
+        "Füze Savunma Sistemi",
+        "Uzay Teknolojileri"
       ],
       "quality_score": 86,
       "review_status": "published"
