@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-12T00:00:00+00:00",
-    "article_count": 1198,
+    "article_count": 1202,
     "schema_version": 2
   },
   "articles": [
@@ -40,6 +40,43 @@
         "Frekans",
         "Televizyon",
         "Teknoloji"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:ticaret-bakanligi-hizmet-ihracati-strateji-belgesini-yeniliyor_20260812",
+      "slug": "ticaret-bakanligi-hizmet-ihracati-strateji-belgesini-yeniliyor_20260812",
+      "title": "Ticaret Bakanlığı Hizmet İhracatı Strateji Belgesi'ni Yeniliyor",
+      "summary": "Ticaret Bakanlığı, Türkiye'nin küresel hizmet ihracatındaki rekabet gücünü artırmak amacıyla Hizmet İhracatı Strateji Belgesi'ni yenilemek için çalışmalara başladı.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/ticaret-bakanligi-hizmet-ihracati-strateji-belgesini-yeniliyor_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/ticaret-bakanligi-hizmet-ihracati-strateji-belgesini-yeniliyor_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/ticaret-bakanligi-hizmet-ihracati-strateji-belgesini-yeniliyor_20260812.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/ticaret-bakanligi-hizmet-ihracati-strateji-belgesini-yeniliyor_20260812.webp",
+      "image_alt": "Ticaret Bakanlığı binası ve hizmet ihracatı temalı ekonomi görseli.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/ticaret-bakanligi-hizmet-ihracati-strateji-belgesini-yeniliyor_20260812.webp",
+        "alt": "Ticaret Bakanlığı binası ve hizmet ihracatı temalı ekonomi görseli."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/ekonomi/ticaret-bakanligi-hizmet-ihracati-strateji-belgesini-yenileme-calismalarina-basladi/4025436",
+      "tags": [
+        "Ticaret Bakanlığı",
+        "Hizmet İhracatı",
+        "Ömer Bolat",
+        "Ekonomi"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -305,6 +342,45 @@
         "YENİ Parti",
         "Çerçeve Yasa",
         "Siyaset"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:organ-bagisinda-143-bin-887-kisi-dijital-vasiyet-olusturdu_20260812",
+      "slug": "organ-bagisinda-143-bin-887-kisi-dijital-vasiyet-olusturdu_20260812",
+      "title": "Organ Bağışında Dijital Dönem: 143 Bin 887 Kişi Dijital Vasiyet Oluşturdu",
+      "summary": "Sağlık Bakanlığı ve Sağlık Bakanı Kemal Memişoğlu, e-Devlet ile e-Nabız üzerinden kolaylaştırılan organ bağışı süreci kapsamında bugüne kadar 143 bin 887 vatandaşın dijital vasiyet oluşturduğunu, toplamda 2 milyon 510 bin 18 organ ve dokunun bağışlandığını...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/organ-bagisinda-143-bin-887-kisi-dijital-vasiyet-olusturdu_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/organ-bagisinda-143-bin-887-kisi-dijital-vasiyet-olusturdu_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/organ-bagisinda-143-bin-887-kisi-dijital-vasiyet-olusturdu_20260812.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/organ-bagisinda-143-bin-887-kisi-dijital-vasiyet-olusturdu_20260812.webp",
+      "image_alt": "e-Devlet ve e-Nabız üzerinden organ bağışı ve dijital vasiyet ekranı",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/organ-bagisinda-143-bin-887-kisi-dijital-vasiyet-olusturdu_20260812.webp",
+        "alt": "e-Devlet ve e-Nabız üzerinden organ bağışı ve dijital vasiyet ekranı"
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/organ-bagisinda-143-bin-887-kisi-dijital-vasiyet-olusturdu-3905159",
+      "tags": [
+        "organ bağışı",
+        "dijital vasiyet",
+        "e-Devlet",
+        "e-Nabız",
+        "Kemal Memişoğlu",
+        "Sağlık Bakanlığı"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -760,6 +836,82 @@
         "FBI"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:dso-trump-asi-karari-aciklama_20260812",
+      "slug": "dso-trump-asi-karari-aciklama_20260812",
+      "title": "DSÖ'den Trump'ın Aşı Kararına Tepki: Bilimsel Kanıtlar Vurgusu",
+      "summary": "Dünya Sağlık Örgütü (DSÖ) Genel Direktörü Tedros Adhanom Ghebreyesus, ABD Başkanı Trump'ın çocukluk dönemi aşılarına yönelik yeni başkanlık kararnamesine ilişkin endişelerini dile getirdi.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/dso-trump-asi-karari-aciklama_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/dso-trump-asi-karari-aciklama_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/dso-trump-asi-karari-aciklama_20260812.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/dso-trump-asi-karari-aciklama_20260812.webp",
+      "image_alt": "DSÖ Genel Direktörü Tedros Adhanom Ghebreyesus",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/dso-trump-asi-karari-aciklama_20260812.webp",
+        "alt": "DSÖ Genel Direktörü Tedros Adhanom Ghebreyesus"
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/trump-in-asi-karari-sonrasi-dso-den-aciklama-haberler-3905157",
+      "tags": [
+        "DSÖ",
+        "Donald Trump",
+        "aşı",
+        "sağlık",
+        "Tedros Adhanom Ghebreyesus"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:dso-ebola-salgini-uyarisi-kongo_20260812",
+      "slug": "dso-ebola-salgini-uyarisi-kongo_20260812",
+      "title": "DSÖ'den Ebola Uyarısı: Salgın Kontrol Altına Alınamıyor",
+      "summary": "Dünya Sağlık Örgütü (DSÖ) Genel Direktörü Tedros Adhanom Ghebreyesus, Kongo Demokratik Cumhuriyeti'ndeki Ebola salgınının endişe verici bir hızla ilerlediğini ve tarihin en büyük krizlerinden birine dönüşme riski taşıdığını belirtti.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "12.08.2026",
+      "date_iso": "2026-08-12",
+      "url": "/articles/2026/08/dso-ebola-salgini-uyarisi-kongo_20260812/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/dso-ebola-salgini-uyarisi-kongo_20260812/",
+      "detail_json_url": "/data/details/articles/2026/08/dso-ebola-salgini-uyarisi-kongo_20260812.json",
+      "image_url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/6/israil-ebolajpg-gNu_uMGdH0KSUHyZcW_yhg.jpg",
+      "image_alt": "Dünya Sağlık Örgütü yetkilileri Ebola salgını hakkında basın toplantısı düzenliyor.",
+      "image": {
+        "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/6/israil-ebolajpg-gNu_uMGdH0KSUHyZcW_yhg.jpg",
+        "alt": "Dünya Sağlık Örgütü yetkilileri Ebola salgını hakkında basın toplantısı düzenliyor."
+      },
+      "source_name": "Sağlık haberleri - Son dakika sağlık haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/dsoden-salgin-uyarisi-tarihin-en-buyuk-krizlerinden-birine-donusebilir-p346788",
+      "tags": [
+        "DSÖ",
+        "Ebola",
+        "Kongo Demokratik Cumhuriyeti",
+        "Sağlık",
+        "Tedros Adhanom Ghebreyesus"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
