@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-13T00:00:00+00:00",
-    "article_count": 1223,
+    "article_count": 1227,
     "schema_version": 2,
     "topic_slug": "dunya",
     "type": "topic"
@@ -43,6 +43,43 @@
         "Zeki Aktürk",
         "Savunma",
         "Terörle Mücadele"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:beyaz-saray-sozcusu-karoline-leavitt-gorevinden-ayriliyor_20260813",
+      "slug": "beyaz-saray-sozcusu-karoline-leavitt-gorevinden-ayriliyor_20260813",
+      "title": "Beyaz Saray Sözcüsü Karoline Leavitt görevinden ayrılıyor",
+      "summary": "ABD Başkanı Donald Trump’ın ikinci döneminde Beyaz Saray Sözcüsü olarak görev yapan Karoline Leavitt, ay sonunda görevinden ayrılacağını açıkladı. Leavitt, kararını iki küçük çocuğuna daha fazla vakit ayırma isteğiyle gerekçelendirdi.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "13.08.2026",
+      "date_iso": "2026-08-13",
+      "url": "/articles/2026/08/beyaz-saray-sozcusu-karoline-leavitt-gorevinden-ayriliyor_20260813/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/beyaz-saray-sozcusu-karoline-leavitt-gorevinden-ayriliyor_20260813/",
+      "detail_json_url": "/data/details/articles/2026/08/beyaz-saray-sozcusu-karoline-leavitt-gorevinden-ayriliyor_20260813.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/beyaz-saray-sozcusu-karoline-leavitt-gorevinden-ayriliyor_20260813.webp",
+      "image_alt": "Beyaz Saray Sözcüsü Karoline Leavitt kürsüde konuşma yaparken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/beyaz-saray-sozcusu-karoline-leavitt-gorevinden-ayriliyor_20260813.webp",
+        "alt": "Beyaz Saray Sözcüsü Karoline Leavitt kürsüde konuşma yaparken."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-beyaz-sarayda-beklenmedik-ayrilik-trumpin-en-guvendigi-isimlerdendi-7640695",
+      "tags": [
+        "Karoline Leavitt",
+        "Donald Trump",
+        "Beyaz Saray",
+        "ABD Siyaseti"
       ],
       "quality_score": 86,
       "review_status": "published"

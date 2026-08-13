@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-13T00:00:00+00:00",
-    "article_count": 1223,
+    "article_count": 1227,
     "schema_version": 2,
     "topic_slug": "teknoloji",
     "type": "topic"
@@ -119,6 +119,44 @@
         "Sosyal Medya",
         "Hacker",
         "Veri Güvenliği"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:deepmindda-yeni-donem-koray-kavukcuoglu-gemini-stratejisini-yonetiyor_20260813",
+      "slug": "deepmindda-yeni-donem-koray-kavukcuoglu-gemini-stratejisini-yonetiyor_20260813",
+      "title": "DeepMind’da Yeni Dönem: Koray Kavukçuoğlu Gemini Stratejisini Yönetiyor",
+      "summary": "Google, yapay zeka laboratuvarı DeepMind’ı Gemini modelinin ticari başarısı odaklı yeniden yapılandırıyor. Türkiye kökenli bilim insanı Koray Kavukçuoğlu, 'Chief AI Architect' unvanıyla tüm stratejinin başına getirildi.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "13.08.2026",
+      "date_iso": "2026-08-13",
+      "url": "/articles/2026/08/deepmindda-yeni-donem-koray-kavukcuoglu-gemini-stratejisini-yonetiyor_20260813/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/deepmindda-yeni-donem-koray-kavukcuoglu-gemini-stratejisini-yonetiyor_20260813/",
+      "detail_json_url": "/data/details/articles/2026/08/deepmindda-yeni-donem-koray-kavukcuoglu-gemini-stratejisini-yonetiyor_20260813.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/deepmindda-yeni-donem-koray-kavukcuoglu-gemini-stratejisini-yonetiyor_20260813.webp",
+      "image_alt": "Google DeepMind ofislerinde yapay zeka geliştirme çalışmaları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/deepmindda-yeni-donem-koray-kavukcuoglu-gemini-stratejisini-yonetiyor_20260813.webp",
+        "alt": "Google DeepMind ofislerinde yapay zeka geliştirme çalışmaları."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/deepmindda-guc-dengeleri-degisiyor-gemininin-gelecegi-yeniden-sekilleniyor-3905338-teknoloji",
+      "tags": [
+        "Google",
+        "DeepMind",
+        "Koray Kavukçuoğlu",
+        "Gemini",
+        "Yapay Zeka"
       ],
       "quality_score": 86,
       "review_status": "published"
