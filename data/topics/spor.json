@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-08-13T00:00:00+00:00",
-    "article_count": 1227,
+    "article_count": 1230,
     "schema_version": 2,
     "topic_slug": "spor",
     "type": "topic"
@@ -49,6 +49,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/08:mauro-icardi-icin-surpriz-talip-laziodan-geldi_20260813",
+      "slug": "mauro-icardi-icin-surpriz-talip-laziodan-geldi_20260813",
+      "title": "Mauro Icardi'ye Sürpriz Talip: Lazio Devreye Girdi",
+      "summary": "Galatasaray'dan ayrılan ve bonservisi elinde bulunan Mauro Icardi için İtalya Serie A ekibi Lazio'nun devreye girdiği öğrenildi. Sky Sport'tan Manuele Baiocchini'nin aktardığı bilgilere göre Lazio Sportif Direktörü Angelo Fabiani, Icardi'nin temsilcileriyle...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "13.08.2026",
+      "date_iso": "2026-08-13",
+      "url": "/articles/2026/08/mauro-icardi-icin-surpriz-talip-laziodan-geldi_20260813/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/mauro-icardi-icin-surpriz-talip-laziodan-geldi_20260813/",
+      "detail_json_url": "/data/details/articles/2026/08/mauro-icardi-icin-surpriz-talip-laziodan-geldi_20260813.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/mauro-icardi-icin-surpriz-talip-laziodan-geldi_20260813.webp",
+      "image_alt": "Mauro Icardi'nin Lazio formasıyla sahada olduğu dinamik bir spor fotoğrafı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/mauro-icardi-icin-surpriz-talip-laziodan-geldi_20260813.webp",
+        "alt": "Mauro Icardi'nin Lazio formasıyla sahada olduğu dinamik bir spor fotoğrafı."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/mauro-icardi-icin-surpriz-talip-3905378-spor",
+      "tags": [
+        "Mauro Icardi",
+        "Lazio",
+        "Galatasaray",
+        "Serie A",
+        "Transfer Haberleri"
+      ],
+      "quality_score": 81,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/08:jayden-oosterwolde-fenerbahce-karari_20260813",
       "slug": "jayden-oosterwolde-fenerbahce-karari_20260813",
       "title": "Jayden Oosterwolde'den Fenerbahçe kararı: \"Kalacağım\"",
@@ -86,6 +124,45 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/08:ispanya-super-kupasi-istanbulda-duzenlenecek-2027_20260813",
+      "slug": "ispanya-super-kupasi-istanbulda-duzenlenecek-2027_20260813",
+      "title": "İspanya Süper Kupası 2027'de İstanbul'da Düzenlenecek",
+      "summary": "İspanya Kraliyet Futbol Federasyonu (RFEF), 2027 İspanya Süper Kupa organizasyonunun 2-7 Şubat tarihleri arasında İstanbul'daki Atatürk Olimpiyat Stadı'nda düzenleneceğini açıkladı. Dev turnuvada Barcelona, Real Madrid, Real Sociedad ve Atletico Madrid müca...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "13.08.2026",
+      "date_iso": "2026-08-13",
+      "url": "/articles/2026/08/ispanya-super-kupasi-istanbulda-duzenlenecek-2027_20260813/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/ispanya-super-kupasi-istanbulda-duzenlenecek-2027_20260813/",
+      "detail_json_url": "/data/details/articles/2026/08/ispanya-super-kupasi-istanbulda-duzenlenecek-2027_20260813.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/ispanya-super-kupasi-istanbulda-duzenlenecek-2027_20260813.webp",
+      "image_alt": "İstanbul Atatürk Olimpiyat Stadı",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/ispanya-super-kupasi-istanbulda-duzenlenecek-2027_20260813.webp",
+        "alt": "İstanbul Atatürk Olimpiyat Stadı"
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/ispanya-super-kupasi-istanbul-da-duzenlenecek-dev-heyecan-ht-spor-da-yasanacak-3905363-spor",
+      "tags": [
+        "İspanya Süper Kupası",
+        "İstanbul",
+        "Atatürk Olimpiyat Stadı",
+        "Real Madrid",
+        "Barcelona",
+        "HT Spor"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/08:besiktas-hradec-kralove-avrupa-ligi-rovans_20260813",
       "slug": "besiktas-hradec-kralove-avrupa-ligi-rovans_20260813",
       "title": "Beşiktaş, Hradec Kralove karşısında tur peşinde",
@@ -118,6 +195,44 @@
         "Hradec Kralove",
         "UEFA Avrupa Ligi",
         "Futbol"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/08:a-milli-erkek-basketbol-takimi-aday-kadrosu-aciklandi_20260813",
+      "slug": "a-milli-erkek-basketbol-takimi-aday-kadrosu-aciklandi_20260813",
+      "title": "A Milli Erkek Basketbol Takımı'nın Litvanya ve İzlanda Maçları Aday Kadrosu Açıklandı",
+      "summary": "Türkiye Basketbol Federasyonunun yaptığı resmi açıklamaya göre, A Milli Erkek Basketbol Takımı'nın Dünya Kupası Elemeleri ikinci tur J Grubu'nda oynayacağı Litvanya ve İzlanda maçlarının aday kadrosu belirlendi. Kadroda genç oyuncular Ömer Kutluay ve Darius...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/08",
+      "date": "13.08.2026",
+      "date_iso": "2026-08-13",
+      "url": "/articles/2026/08/a-milli-erkek-basketbol-takimi-aday-kadrosu-aciklandi_20260813/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/08/a-milli-erkek-basketbol-takimi-aday-kadrosu-aciklandi_20260813/",
+      "detail_json_url": "/data/details/articles/2026/08/a-milli-erkek-basketbol-takimi-aday-kadrosu-aciklandi_20260813.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/08/images/a-milli-erkek-basketbol-takimi-aday-kadrosu-aciklandi_20260813.webp",
+      "image_alt": "A Milli Erkek Basketbol Takımı aday kadrosu açıklandı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/08/images/a-milli-erkek-basketbol-takimi-aday-kadrosu-aciklandi_20260813.webp",
+        "alt": "A Milli Erkek Basketbol Takımı aday kadrosu açıklandı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/a-milli-erkek-basketbol-takiminin-litvanya-ve-izlanda-maclarinin-aday-kadrosu-aciklandi-43272040",
+      "tags": [
+        "A Milli Erkek Basketbol Takımı",
+        "Türkiye Basketbol Federasyonu",
+        "Dünya Kupası Elemeleri",
+        "Ömer Kutluay",
+        "Darius Karutasu"
       ],
       "quality_score": 86,
       "review_status": "published"
