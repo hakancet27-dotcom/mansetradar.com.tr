@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-01T00:00:00+00:00",
-    "article_count": 1241,
+    "article_count": 1246,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -160,6 +160,43 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/09:bm-nepaldeki-seller-en-az-22-milyon-ton-enkaz-birakti_20260901",
+      "slug": "bm-nepaldeki-seller-en-az-22-milyon-ton-enkaz-birakti_20260901",
+      "title": "BM: Nepal'deki sel felaketi 2,2 milyon ton enkaz bıraktı",
+      "summary": "Birleşmiş Milletler, Nepal'de meydana gelen sel felaketinin geride en az 2,2 milyon ton enkaz bıraktığını ve enerji altyapısının ağır hasar aldığını duyurdu. 1000'den fazla kişinin hayatını kaybettiği felakette, 3 bin 900 kişi hala kayıp.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "01.09.2026",
+      "date_iso": "2026-09-01",
+      "url": "/articles/2026/09/bm-nepaldeki-seller-en-az-22-milyon-ton-enkaz-birakti_20260901/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/bm-nepaldeki-seller-en-az-22-milyon-ton-enkaz-birakti_20260901/",
+      "detail_json_url": "/data/details/articles/2026/09/bm-nepaldeki-seller-en-az-22-milyon-ton-enkaz-birakti_20260901.json",
+      "image_url": "https://images.ntv.com.tr/images/2026-08-27T033341Z_1240143553_RC2P6NA0M082_RTRMADP_3_NEPAL-FLOODS-633294.jpg",
+      "image_alt": "Nepal'de sel felaketinin ardından oluşan enkaz ve hasarlı yapılar.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/2026-08-27T033341Z_1240143553_RC2P6NA0M082_RTRMADP_3_NEPAL-FLOODS-633294.jpg",
+        "alt": "Nepal'de sel felaketinin ardından oluşan enkaz ve hasarlı yapılar."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/dunya/bm-nepaldeki-seller-en-az-22-milyon-ton-enkaz-birakti-1739942",
+      "tags": [
+        "Nepal",
+        "Sel",
+        "Birleşmiş Milletler",
+        "Doğal Afet"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/09:antalyadaki-fuhus-sorusturmasinda-carpici-muhittin-bocek-detayi_20260901",
       "slug": "antalyadaki-fuhus-sorusturmasinda-carpici-muhittin-bocek-detayi_20260901",
       "title": "Antalya'daki fuhuş soruşturmasında Muhittin Böcek detayı",
@@ -231,6 +268,44 @@
         "Donald Trump",
         "Hürmüz Boğazı",
         "CENTCOM"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:abd-iran-karsilikli-misilleme_20260901",
+      "slug": "abd-iran-karsilikli-misilleme_20260901",
+      "title": "ABD ve İran arasında karşılıklı misilleme: Bölgede tansiyon yükseldi",
+      "summary": "ABD Merkez Komutanlığı (CENTCOM), İran Devrim Muhafızlarının Hürmüz Boğazı'ndaki saldırı girişimlerine karşılık İran'daki hedeflere operasyon başlattığını duyurdu. İran ise füze ve İHA'larla karşılık vererek bölgedeki ABD üslerini hedef aldığını açıkladı.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "01.09.2026",
+      "date_iso": "2026-09-01",
+      "url": "/articles/2026/09/abd-iran-karsilikli-misilleme_20260901/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/abd-iran-karsilikli-misilleme_20260901/",
+      "detail_json_url": "/data/details/articles/2026/09/abd-iran-karsilikli-misilleme_20260901.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/abd-iran-karsilikli-misilleme_20260901.webp",
+      "image_alt": "Hürmüz Boğazı'nda askeri hareketlilik ve hava savunma sistemleri.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/abd-iran-karsilikli-misilleme_20260901.webp",
+        "alt": "Hürmüz Boğazı'nda askeri hareketlilik ve hava savunma sistemleri."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/abd-ile-iran-dan-karsilikli-misillemeler-3909604",
+      "tags": [
+        "ABD",
+        "İran",
+        "Hürmüz Boğazı",
+        "CENTCOM",
+        "Askeri Operasyon"
       ],
       "quality_score": 86,
       "review_status": "published"

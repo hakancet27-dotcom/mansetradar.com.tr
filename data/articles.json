@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-01T00:00:00+00:00",
-    "article_count": 1241,
+    "article_count": 1246,
     "schema_version": 2
   },
   "articles": [
@@ -41,6 +41,44 @@
         "Kayıp Şahıslar",
         "Asayiş",
         "Cinayet Soruşturması"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:zelenskiy-rusya-hava-sahasi-uyarisi-putin-tepki_20260901",
+      "slug": "zelenskiy-rusya-hava-sahasi-uyarisi-putin-tepki_20260901",
+      "title": "Zelenskiy'den Rus hava sahası uyarısı: Putin'den 'terörist' yanıtı",
+      "summary": "Ukrayna Devlet Başkanı Volodimir Zelenskiy, Rusya hava sahasının artık güvenli olmadığını belirterek hava yolu şirketlerini uyardı. Rusya Devlet Başkanı Vladimir Putin ise bu açıklamaları devlet terörü girişimi olarak değerlendirerek müzakere kapılarını kap...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "01.09.2026",
+      "date_iso": "2026-09-01",
+      "url": "/articles/2026/09/zelenskiy-rusya-hava-sahasi-uyarisi-putin-tepki_20260901/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/zelenskiy-rusya-hava-sahasi-uyarisi-putin-tepki_20260901/",
+      "detail_json_url": "/data/details/articles/2026/09/zelenskiy-rusya-hava-sahasi-uyarisi-putin-tepki_20260901.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/zelenskiy-rusya-hava-sahasi-uyarisi-putin-tepki_20260901.webp",
+      "image_alt": "Volodimir Zelenskiy ve Vladimir Putin'in yan yana fotoğrafları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/zelenskiy-rusya-hava-sahasi-uyarisi-putin-tepki_20260901.webp",
+        "alt": "Volodimir Zelenskiy ve Vladimir Putin'in yan yana fotoğrafları."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/zelenskiy-rusyanin-hava-sahasina-iliskin-aciklamalarda-bulundu-43292837",
+      "tags": [
+        "Volodimir Zelenskiy",
+        "Vladimir Putin",
+        "Rusya",
+        "Ukrayna",
+        "Hava Sahası"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -118,6 +156,44 @@
         "gündem"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:putin-rus-ordusu-ilerliyor-dusman-cokecek_20260901",
+      "slug": "putin-rus-ordusu-ilerliyor-dusman-cokecek_20260901",
+      "title": "Putin'den Ukrayna Savaşı Açıklaması: Rus Ordusu İlerliyor",
+      "summary": "Rusya Devlet Başkanı Vladimir Putin, Ukrayna savaşında Rus ordusunun cephede üstünlüğü ele geçirdiğini ve ilerleyişini sürdürdüğünü belirterek, \"Düşmanın çökeceğinden şüphem yok\" dedi.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "01.09.2026",
+      "date_iso": "2026-09-01",
+      "url": "/articles/2026/09/putin-rus-ordusu-ilerliyor-dusman-cokecek_20260901/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/putin-rus-ordusu-ilerliyor-dusman-cokecek_20260901/",
+      "detail_json_url": "/data/details/articles/2026/09/putin-rus-ordusu-ilerliyor-dusman-cokecek_20260901.json",
+      "image_url": "https://images.ntv.com.tr/images/XL7LQP2Y4ZKL3MC5EZVHP2SR2Q-483550.jpg",
+      "image_alt": "Rusya Devlet Başkanı Vladimir Putin, Kırgızistan'daki zirve sonrası açıklamalarda bulunuyor.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/XL7LQP2Y4ZKL3MC5EZVHP2SR2Q-483550.jpg",
+        "alt": "Rusya Devlet Başkanı Vladimir Putin, Kırgızistan'daki zirve sonrası açıklamalarda bulunuyor."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/dunya/putin-rus-ordusu-ilerliyor-dusman-cokecek-1739938",
+      "tags": [
+        "Vladimir Putin",
+        "Ukrayna savaşı",
+        "Rusya",
+        "Donetsk",
+        "Savaş"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -349,6 +425,43 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/09:bm-nepaldeki-seller-en-az-22-milyon-ton-enkaz-birakti_20260901",
+      "slug": "bm-nepaldeki-seller-en-az-22-milyon-ton-enkaz-birakti_20260901",
+      "title": "BM: Nepal'deki sel felaketi 2,2 milyon ton enkaz bıraktı",
+      "summary": "Birleşmiş Milletler, Nepal'de meydana gelen sel felaketinin geride en az 2,2 milyon ton enkaz bıraktığını ve enerji altyapısının ağır hasar aldığını duyurdu. 1000'den fazla kişinin hayatını kaybettiği felakette, 3 bin 900 kişi hala kayıp.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "01.09.2026",
+      "date_iso": "2026-09-01",
+      "url": "/articles/2026/09/bm-nepaldeki-seller-en-az-22-milyon-ton-enkaz-birakti_20260901/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/bm-nepaldeki-seller-en-az-22-milyon-ton-enkaz-birakti_20260901/",
+      "detail_json_url": "/data/details/articles/2026/09/bm-nepaldeki-seller-en-az-22-milyon-ton-enkaz-birakti_20260901.json",
+      "image_url": "https://images.ntv.com.tr/images/2026-08-27T033341Z_1240143553_RC2P6NA0M082_RTRMADP_3_NEPAL-FLOODS-633294.jpg",
+      "image_alt": "Nepal'de sel felaketinin ardından oluşan enkaz ve hasarlı yapılar.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/2026-08-27T033341Z_1240143553_RC2P6NA0M082_RTRMADP_3_NEPAL-FLOODS-633294.jpg",
+        "alt": "Nepal'de sel felaketinin ardından oluşan enkaz ve hasarlı yapılar."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/dunya/bm-nepaldeki-seller-en-az-22-milyon-ton-enkaz-birakti-1739942",
+      "tags": [
+        "Nepal",
+        "Sel",
+        "Birleşmiş Milletler",
+        "Doğal Afet"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/09:antalyadaki-fuhus-sorusturmasinda-carpici-muhittin-bocek-detayi_20260901",
       "slug": "antalyadaki-fuhus-sorusturmasinda-carpici-muhittin-bocek-detayi_20260901",
       "title": "Antalya'daki fuhuş soruşturmasında Muhittin Böcek detayı",
@@ -387,6 +500,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/09:almanya-rusya-yaptirim-leipzig-havalimani_20260901",
+      "slug": "almanya-rusya-yaptirim-leipzig-havalimani_20260901",
+      "title": "Almanya'dan Rusya'ya karşı sert yaptırımlar: Başkonsolosluk kapatılıyor",
+      "summary": "Almanya hükümeti, 4 Ağustos'ta Leipzig-Halle Havalimanı'nda bulunan patlayıcı yüklü İHA'nın Rusya bağlantılı olduğunun tespit edilmesi üzerine bir dizi yaptırım kararı açıkladı. Bonn'daki Rus Başkonsolosluğu'nun kapatılacağı ve Rusya'ya yönelik giriş kontro...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "01.09.2026",
+      "date_iso": "2026-09-01",
+      "url": "/articles/2026/09/almanya-rusya-yaptirim-leipzig-havalimani_20260901/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/almanya-rusya-yaptirim-leipzig-havalimani_20260901/",
+      "detail_json_url": "/data/details/articles/2026/09/almanya-rusya-yaptirim-leipzig-havalimani_20260901.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/almanya-rusya-yaptirim-leipzig-havalimani_20260901.webp",
+      "image_alt": "Almanya hükümet yetkilileri basın toplantısında açıklamalarda bulunuyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/almanya-rusya-yaptirim-leipzig-havalimani_20260901.webp",
+        "alt": "Almanya hükümet yetkilileri basın toplantısında açıklamalarda bulunuyor."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/son-dakika-almanya-dan-rusya-ya-karsi-yeni-hamle-3909600",
+      "tags": [
+        "Almanya",
+        "Rusya",
+        "Leipzig",
+        "Dış Politika",
+        "İHA"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/09:abd-iran-saldiri-hurmuz-bogazi_20260901",
       "slug": "abd-iran-saldiri-hurmuz-bogazi_20260901",
       "title": "ABD'den İran'a geniş çaplı saldırı: Hürmüz Boğazı'nda tansiyon yükseldi",
@@ -420,6 +571,44 @@
         "Donald Trump",
         "Hürmüz Boğazı",
         "CENTCOM"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:abd-iran-karsilikli-misilleme_20260901",
+      "slug": "abd-iran-karsilikli-misilleme_20260901",
+      "title": "ABD ve İran arasında karşılıklı misilleme: Bölgede tansiyon yükseldi",
+      "summary": "ABD Merkez Komutanlığı (CENTCOM), İran Devrim Muhafızlarının Hürmüz Boğazı'ndaki saldırı girişimlerine karşılık İran'daki hedeflere operasyon başlattığını duyurdu. İran ise füze ve İHA'larla karşılık vererek bölgedeki ABD üslerini hedef aldığını açıkladı.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "01.09.2026",
+      "date_iso": "2026-09-01",
+      "url": "/articles/2026/09/abd-iran-karsilikli-misilleme_20260901/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/abd-iran-karsilikli-misilleme_20260901/",
+      "detail_json_url": "/data/details/articles/2026/09/abd-iran-karsilikli-misilleme_20260901.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/abd-iran-karsilikli-misilleme_20260901.webp",
+      "image_alt": "Hürmüz Boğazı'nda askeri hareketlilik ve hava savunma sistemleri.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/abd-iran-karsilikli-misilleme_20260901.webp",
+        "alt": "Hürmüz Boğazı'nda askeri hareketlilik ve hava savunma sistemleri."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/abd-ile-iran-dan-karsilikli-misillemeler-3909604",
+      "tags": [
+        "ABD",
+        "İran",
+        "Hürmüz Boğazı",
+        "CENTCOM",
+        "Askeri Operasyon"
       ],
       "quality_score": 86,
       "review_status": "published"
