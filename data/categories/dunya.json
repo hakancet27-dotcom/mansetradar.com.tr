@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-01T00:00:00+00:00",
-    "article_count": 1238,
+    "article_count": 1241,
     "schema_version": 2,
     "category_slug": "dunya",
     "type": "category"
@@ -43,6 +43,44 @@
         "Aşil Kalkanı",
         "Hava Savunma",
         "Savunma Sanayii"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:abd-iran-saldiri-hurmuz-bogazi_20260901",
+      "slug": "abd-iran-saldiri-hurmuz-bogazi_20260901",
+      "title": "ABD'den İran'a geniş çaplı saldırı: Hürmüz Boğazı'nda tansiyon yükseldi",
+      "summary": "ABD ordusu, Hürmüz Boğazı yakınlarındaki İran hedeflerine yönelik geniş çaplı bir saldırı başlattı. İran basınında Keşm Adası, Bender Abbas ve Sirik çevresinde patlama sesleri duyulduğu bildirilirken, ABD Başkanı Trump misilleme yapılması halinde daha sert...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "01.09.2026",
+      "date_iso": "2026-09-01",
+      "url": "/articles/2026/09/abd-iran-saldiri-hurmuz-bogazi_20260901/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/abd-iran-saldiri-hurmuz-bogazi_20260901/",
+      "detail_json_url": "/data/details/articles/2026/09/abd-iran-saldiri-hurmuz-bogazi_20260901.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/abd-iran-saldiri-hurmuz-bogazi_20260901.webp",
+      "image_alt": "Hürmüz Boğazı'nda askeri hareketlilik ve bölgeden yükselen dumanlar.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/abd-iran-saldiri-hurmuz-bogazi_20260901.webp",
+        "alt": "Hürmüz Boğazı'nda askeri hareketlilik ve bölgeden yükselen dumanlar."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/iran-basini-kesm-adasinin-cevresinde-5ten-fazla-patlama-sesi-7652458",
+      "tags": [
+        "ABD",
+        "İran",
+        "Donald Trump",
+        "Hürmüz Boğazı",
+        "CENTCOM"
       ],
       "quality_score": 86,
       "review_status": "published"
