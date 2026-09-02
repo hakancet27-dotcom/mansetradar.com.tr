@@ -1,0 +1,50 @@
+{
+  "category": "Dünya",
+  "country": "Global",
+  "date": "24.05.2026",
+  "date_iso": "2026-05-24",
+  "fact_guard": {
+    "source_outside_claims_forbidden": true,
+    "source_url_required": true
+  },
+  "generator": "generate-category-news-10x10",
+  "image_url": "https://mansetradar.com.tr/articles/2026/05/images/iran-basini-mutabakat-zaptinda-petrol-yaptirimlarinin-muzakere-suresince-askiya-al_20260524_d24c679b.webp",
+  "indexed_on_home": false,
+  "language": "Turkish",
+  "quality_flags": [
+    "very_short_article",
+    "generated_image",
+    "meta_title_issue",
+    "meta_description_issue",
+    "thin_structure",
+    "few_tags"
+  ],
+  "quality_score": 39,
+  "review_status": "pending",
+  "schema_version": 3,
+  "slug": "iran-basini-mutabakat-zaptinda-petrol-yaptirimlarinin-muzakere-suresince-askiya-al_20260524_d24c679b",
+  "source_name": "TRT Haber",
+  "source_url": "https://www.trthaber.com/dunya/iran-basini-mutabakat-zaptinda-petrol-yaptirimlarinin-muzakere-suresince-askiya-alinmasina-dair-madde-olabilir-946127.html",
+  "spot": "İran'ın petrol sektörüne yönelik yaptırımların, müzakere süreci boyunca geçici olarak askıya alınabileceği ve bu düzenlemenin olası bir mutabakat zaptında yer alabileceği belirtildi.",
+  "summary": "İran'ın petrol sektörüne yönelik yaptırımların, müzakere süreci boyunca geçici olarak askıya alınabileceği ve bu düzenlemenin olası bir mutabakat zaptında yer alabileceği belirtildi.",
+  "title": "İran basını: Mutabakat zaptında petrol yaptırımlarının müzakere süresince askıya alınmasına dair madde olabilir",
+  "topic": "Dünya",
+  "source_image_url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2446000/iran-petrol-reuters-2446545.jpg",
+  "image_storage": "local_webp_cache",
+  "image_localized_at": "2026-06-01T21:09:17Z",
+  "url_prefix": "articles/2026/05",
+  "time": "",
+  "quality_status": "blocked_from_index",
+  "review_required": true,
+  "quality_notes": [
+    "Metin cok kisa (22 kelime).",
+    "Haber stok/gercek fotograf yerine uretilmis gorsel kullaniyor.",
+    "Meta title ideal aralikta degil.",
+    "Meta description ideal aralikta degil.",
+    "H2 alt baslik yapisi zayif.",
+    "Etiket sayisi az."
+  ],
+  "quality_word_count": 22,
+  "review_source": "quality_gate",
+  "review_run_id": ""
+}

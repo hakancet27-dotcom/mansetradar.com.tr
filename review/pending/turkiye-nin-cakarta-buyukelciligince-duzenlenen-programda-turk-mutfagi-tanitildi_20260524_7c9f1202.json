@@ -1,0 +1,50 @@
+{
+  "category": "Gündem",
+  "country": "Turkey",
+  "date": "24.05.2026",
+  "date_iso": "2026-05-24",
+  "fact_guard": {
+    "source_outside_claims_forbidden": true,
+    "source_url_required": true
+  },
+  "generator": "generate-category-news-10x10",
+  "image_url": "https://mansetradar.com.tr/articles/2026/05/images/turkiye-nin-cakarta-buyukelciligince-duzenlenen-programda-turk-mutfagi-tanitildi_20260524_7c9f1202.webp",
+  "indexed_on_home": false,
+  "language": "Turkish",
+  "quality_flags": [
+    "very_short_article",
+    "generated_image",
+    "meta_title_issue",
+    "meta_description_issue",
+    "thin_structure",
+    "few_tags"
+  ],
+  "quality_score": 39,
+  "review_status": "pending",
+  "schema_version": 3,
+  "slug": "turkiye-nin-cakarta-buyukelciligince-duzenlenen-programda-turk-mutfagi-tanitildi_20260524_7c9f1202",
+  "source_name": "TRT Haber",
+  "source_url": "https://www.trthaber.com/kultur-sanat/turkiyenin-cakarta-buyukelciligince-duzenlenen-programda-turk-mutfagi-tanitildi-946161.html",
+  "spot": "Türkiye'nin Cakarta Büyükelçiliğince düzenlenen programda Türk mutfağının gastronomik zenginliği ve seçkin lezzetleri, konukların beğenisine sunuldu.",
+  "summary": "Türkiye'nin Cakarta Büyükelçiliğince düzenlenen programda Türk mutfağının gastronomik zenginliği ve seçkin lezzetleri, konukların beğenisine sunuldu.",
+  "title": "Türkiye'nin Cakarta Büyükelçiliğince düzenlenen programda Türk mutfağı tanıtıldı",
+  "topic": "Son Dakika",
+  "source_image_url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2462000/turk-mutfag-cakarta-aa-2463999.jpg",
+  "image_storage": "local_webp_cache",
+  "image_localized_at": "2026-06-01T21:09:17Z",
+  "url_prefix": "articles/2026/05",
+  "time": "",
+  "quality_status": "blocked_from_index",
+  "review_required": true,
+  "quality_notes": [
+    "Metin cok kisa (15 kelime).",
+    "Haber stok/gercek fotograf yerine uretilmis gorsel kullaniyor.",
+    "Meta title ideal aralikta degil.",
+    "Meta description ideal aralikta degil.",
+    "H2 alt baslik yapisi zayif.",
+    "Etiket sayisi az."
+  ],
+  "quality_word_count": 15,
+  "review_source": "quality_gate",
+  "review_run_id": ""
+}

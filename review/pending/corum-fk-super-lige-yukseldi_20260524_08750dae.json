@@ -1,0 +1,52 @@
+{
+  "category": "Gündem",
+  "country": "Turkey",
+  "date": "24.05.2026",
+  "date_iso": "2026-05-24",
+  "fact_guard": {
+    "source_outside_claims_forbidden": true,
+    "source_url_required": true
+  },
+  "generator": "generate-category-news-10x10",
+  "image_url": "https://mansetradar.com.tr/articles/2026/05/images/corum-fk-super-lige-yukseldi_20260524_08750dae.webp",
+  "indexed_on_home": false,
+  "language": "Turkish",
+  "quality_flags": [
+    "very_short_article",
+    "generated_image",
+    "weak_spot",
+    "meta_title_issue",
+    "meta_description_issue",
+    "thin_structure",
+    "few_tags"
+  ],
+  "quality_score": 29,
+  "review_status": "pending",
+  "schema_version": 3,
+  "slug": "corum-fk-super-lige-yukseldi_20260524_08750dae",
+  "source_name": "TRT Haber",
+  "source_url": "https://www.trthaber.com/spor/corum-fk-super-lige-yukseldi-946167.html",
+  "spot": "Çorum FK, Süper Lig’e yükselen üçüncü ve son takım oldu.",
+  "summary": "Çorum FK, Süper Lig’e yükselen üçüncü ve son takım oldu.",
+  "title": "Çorum FK, Süper Lige yükseldi",
+  "topic": "Son Dakika",
+  "source_image_url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2464000/corum-fk-aa-2464002.jpg",
+  "image_storage": "local_webp_cache",
+  "image_localized_at": "2026-06-01T21:09:17Z",
+  "url_prefix": "articles/2026/05",
+  "time": "",
+  "quality_status": "blocked_from_index",
+  "review_required": true,
+  "quality_notes": [
+    "Metin cok kisa (11 kelime).",
+    "Haber stok/gercek fotograf yerine uretilmis gorsel kullaniyor.",
+    "Spot paragraf zayif.",
+    "Meta title ideal aralikta degil.",
+    "Meta description ideal aralikta degil.",
+    "H2 alt baslik yapisi zayif.",
+    "Etiket sayisi az."
+  ],
+  "quality_word_count": 11,
+  "review_source": "quality_gate",
+  "review_run_id": ""
+}

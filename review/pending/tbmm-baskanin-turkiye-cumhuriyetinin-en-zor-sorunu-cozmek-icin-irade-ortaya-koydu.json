@@ -1,0 +1,39 @@
+{
+  "country": "Turkey",
+  "date": "16.05.2026",
+  "flag": "🇹🇷",
+  "image_url": "https://mansetradar.com.tr/articles/2026/05/images/tbmm-baskanin-turkiye-cumhuriyetinin-en-zor-sorunu-cozmek-icin-irade-ortaya-koydu.svg",
+  "indexed_on_home": false,
+  "quality_notes": [
+    "Metin cok kisa (0 kelime).",
+    "Haber stok/gercek fotograf yerine uretilmis gorsel kullaniyor.",
+    "Spot paragraf zayif.",
+    "Meta title ideal aralikta degil.",
+    "Meta description ideal aralikta degil.",
+    "H2 alt baslik yapisi zayif.",
+    "Kategori yok.",
+    "Etiket sayisi az."
+  ],
+  "review_status": "pending",
+  "slug": "tbmm-baskanin-turkiye-cumhuriyetinin-en-zor-sorunu-cozmek-icin-irade-ortaya-koydu",
+  "title": "TBMM Başkanı Kurtulmuş: TBMM, Türkiye Cumhuriyeti'nin en zor sorununu çözmek için irade ortaya koymuştur",
+  "url_prefix": "articles/2026/05",
+  "time": "",
+  "category": "",
+  "quality_score": 23,
+  "quality_status": "blocked_from_index",
+  "review_required": true,
+  "quality_flags": [
+    "very_short_article",
+    "generated_image",
+    "weak_spot",
+    "meta_title_issue",
+    "meta_description_issue",
+    "thin_structure",
+    "missing_category",
+    "few_tags"
+  ],
+  "quality_word_count": 0,
+  "review_source": "quality_gate",
+  "review_run_id": ""
+}

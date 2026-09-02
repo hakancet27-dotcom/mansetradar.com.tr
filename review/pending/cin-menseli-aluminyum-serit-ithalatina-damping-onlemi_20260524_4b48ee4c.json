@@ -1,0 +1,50 @@
+{
+  "category": "Ekonomi",
+  "country": "Turkey",
+  "date": "24.05.2026",
+  "date_iso": "2026-05-24",
+  "fact_guard": {
+    "source_outside_claims_forbidden": true,
+    "source_url_required": true
+  },
+  "generator": "generate-category-news-10x10",
+  "image_url": "https://mansetradar.com.tr/articles/2026/05/images/cin-menseli-aluminyum-serit-ithalatina-damping-onlemi_20260524_4b48ee4c.webp",
+  "indexed_on_home": false,
+  "language": "Turkish",
+  "quality_flags": [
+    "very_short_article",
+    "generated_image",
+    "meta_title_issue",
+    "meta_description_issue",
+    "thin_structure",
+    "few_tags"
+  ],
+  "quality_score": 39,
+  "review_status": "pending",
+  "schema_version": 3,
+  "slug": "cin-menseli-aluminyum-serit-ithalatina-damping-onlemi_20260524_4b48ee4c",
+  "source_name": "TRT Haber",
+  "source_url": "https://www.trthaber.com/ekonomi/cin-menseli-aluminyum-serit-ithalatina-damping-onlemi-946124.html",
+  "spot": "Çin menşeli \"bazı alüminyumdan mesnetsiz yapraklar ve şeritler\" ithalatına dampinge karşı önlem uygulanması kararlaştırıldı.",
+  "summary": "Çin menşeli \"bazı alüminyumdan mesnetsiz yapraklar ve şeritler\" ithalatına dampinge karşı önlem uygulanması kararlaştırıldı.",
+  "title": "Çin menşeli alüminyum şerit ithalatına damping önlemi",
+  "topic": "Ekonomi",
+  "source_image_url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2022000/resmi-gazete-aa-2022760.jpg",
+  "image_storage": "local_webp_cache",
+  "image_localized_at": "2026-06-01T21:09:17Z",
+  "url_prefix": "articles/2026/05",
+  "time": "",
+  "quality_status": "blocked_from_index",
+  "review_required": true,
+  "quality_notes": [
+    "Metin cok kisa (14 kelime).",
+    "Haber stok/gercek fotograf yerine uretilmis gorsel kullaniyor.",
+    "Meta title ideal aralikta degil.",
+    "Meta description ideal aralikta degil.",
+    "H2 alt baslik yapisi zayif.",
+    "Etiket sayisi az."
+  ],
+  "quality_word_count": 14,
+  "review_source": "quality_gate",
+  "review_run_id": ""
+}

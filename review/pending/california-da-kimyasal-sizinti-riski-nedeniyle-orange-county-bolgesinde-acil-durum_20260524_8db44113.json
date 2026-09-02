@@ -1,0 +1,50 @@
+{
+  "category": "Dünya",
+  "country": "Global",
+  "date": "24.05.2026",
+  "date_iso": "2026-05-24",
+  "fact_guard": {
+    "source_outside_claims_forbidden": true,
+    "source_url_required": true
+  },
+  "generator": "generate-category-news-10x10",
+  "image_url": "https://mansetradar.com.tr/articles/2026/05/images/california-da-kimyasal-sizinti-riski-nedeniyle-orange-county-bolgesinde-acil-durum_20260524_8db44113.webp",
+  "indexed_on_home": false,
+  "language": "Turkish",
+  "quality_flags": [
+    "very_short_article",
+    "generated_image",
+    "meta_title_issue",
+    "meta_description_issue",
+    "thin_structure",
+    "few_tags"
+  ],
+  "quality_score": 39,
+  "review_status": "pending",
+  "schema_version": 3,
+  "slug": "california-da-kimyasal-sizinti-riski-nedeniyle-orange-county-bolgesinde-acil-durum_20260524_8db44113",
+  "source_name": "TRT Haber",
+  "source_url": "https://www.trthaber.com/dunya/californiada-kimyasal-sizinti-riski-nedeniyle-orange-county-bolgesinde-acil-durum-ilan-edildi-946136.html",
+  "spot": "ABD'nin California eyaletine bağlı Orange County bölgesinde, havacılık tesisinde kimyasal madde içeren tankta meydana gelen sızıntı riski nedeniyle acil durum ilan edildi.",
+  "summary": "ABD'nin California eyaletine bağlı Orange County bölgesinde, havacılık tesisinde kimyasal madde içeren tankta meydana gelen sızıntı riski nedeniyle acil durum ilan edildi.",
+  "title": "California'da kimyasal sızıntı riski nedeniyle Orange County bölgesinde acil durum ilan edildi",
+  "topic": "Dünya",
+  "source_image_url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2462000/california-sizintisi-2463863.jpg",
+  "image_storage": "local_webp_cache",
+  "image_localized_at": "2026-06-01T21:09:17Z",
+  "url_prefix": "articles/2026/05",
+  "time": "",
+  "quality_status": "blocked_from_index",
+  "review_required": true,
+  "quality_notes": [
+    "Metin cok kisa (22 kelime).",
+    "Haber stok/gercek fotograf yerine uretilmis gorsel kullaniyor.",
+    "Meta title ideal aralikta degil.",
+    "Meta description ideal aralikta degil.",
+    "H2 alt baslik yapisi zayif.",
+    "Etiket sayisi az."
+  ],
+  "quality_word_count": 22,
+  "review_source": "quality_gate",
+  "review_run_id": ""
+}

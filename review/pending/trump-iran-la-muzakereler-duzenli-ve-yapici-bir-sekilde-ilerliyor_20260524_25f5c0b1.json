@@ -1,0 +1,50 @@
+{
+  "category": "Gündem",
+  "country": "Turkey",
+  "date": "24.05.2026",
+  "date_iso": "2026-05-24",
+  "fact_guard": {
+    "source_outside_claims_forbidden": true,
+    "source_url_required": true
+  },
+  "generator": "generate-category-news-10x10",
+  "image_url": "https://mansetradar.com.tr/articles/2026/05/images/trump-iran-la-muzakereler-duzenli-ve-yapici-bir-sekilde-ilerliyor_20260524_25f5c0b1.webp",
+  "indexed_on_home": false,
+  "language": "Turkish",
+  "quality_flags": [
+    "very_short_article",
+    "generated_image",
+    "meta_title_issue",
+    "meta_description_issue",
+    "thin_structure",
+    "few_tags"
+  ],
+  "quality_score": 39,
+  "review_status": "pending",
+  "schema_version": 3,
+  "slug": "trump-iran-la-muzakereler-duzenli-ve-yapici-bir-sekilde-ilerliyor_20260524_25f5c0b1",
+  "source_name": "TRT Haber",
+  "source_url": "https://www.trthaber.com/dunya/trump-iranla-muzakereler-duzenli-ve-yapici-bir-sekilde-ilerliyor-946159.html",
+  "spot": "ABD Başkanı Donald Trump, İran'la müzakere sürecinin halen devam ettiğini belirterek, \"Müzakereler düzenli ve yapıcı bir şekilde ilerliyor, müzakerelere katılan temsilcilerime, zaman bizim lehimizde olduğu için anlaşma konusunda acele etmemelerini söyledim.\" ifadesini kullandı.",
+  "summary": "ABD Başkanı Donald Trump, İran'la müzakere sürecinin halen devam ettiğini belirterek, \"Müzakereler düzenli ve yapıcı bir şekilde ilerliyor, müzakerelere katılan temsilcilerime, zaman bizim lehimizde olduğu için anlaşma konusunda acele etmemelerini söyledim.\" ifadesini kullandı.",
+  "title": "Trump: İran'la müzakereler düzenli ve yapıcı bir şekilde ilerliyor",
+  "topic": "Son Dakika",
+  "source_image_url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2450000/abd-trump-iran-2450891.jpg",
+  "image_storage": "local_webp_cache",
+  "image_localized_at": "2026-06-01T21:09:17Z",
+  "url_prefix": "articles/2026/05",
+  "time": "",
+  "quality_status": "blocked_from_index",
+  "review_required": true,
+  "quality_notes": [
+    "Metin cok kisa (33 kelime).",
+    "Haber stok/gercek fotograf yerine uretilmis gorsel kullaniyor.",
+    "Meta title ideal aralikta degil.",
+    "Meta description ideal aralikta degil.",
+    "H2 alt baslik yapisi zayif.",
+    "Etiket sayisi az."
+  ],
+  "quality_word_count": 33,
+  "review_source": "quality_gate",
+  "review_run_id": ""
+}
