@@ -917,6 +917,147 @@
       }
     }
 
+    /* CITY_METRICS_BAR */
+    .city-metrics-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+      margin: 18px 0;
+    }
+    .city-metric {
+      background: #ffffff;
+      border: 1px solid #d0e1f9;
+      border-radius: 10px;
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .city-metric:hover {
+      transform: translateY(-2px);
+      border-color: #3b82f6;
+    }
+    .metric-icon {
+      font-size: 1.6rem;
+      flex-shrink: 0;
+    }
+    .metric-body {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+    .metric-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .metric-body strong {
+      font-size: 0.92rem;
+      font-weight: 800;
+      color: #0f172a;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* CITY_ALERTS_BOX */
+    .city-alerts-box {
+      background: #ffffff;
+      border: 1px solid #fecaca;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin: 20px 0 24px;
+      box-shadow: 0 4px 14px rgba(220, 38, 38, 0.05);
+    }
+    .city-alerts-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 0.82rem;
+      font-weight: 900;
+      color: #b91c1c;
+      letter-spacing: 0.4px;
+      padding-bottom: 12px;
+      border-bottom: 1px dashed #fca5a5;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+    .city-alerts-header a {
+      color: #1e40af;
+      font-weight: 800;
+      text-decoration: none;
+    }
+    .city-alerts-header a:hover {
+      text-decoration: underline;
+    }
+    .city-alerts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 12px;
+    }
+    .city-alert-item {
+      display: flex;
+      gap: 10px;
+      background: #fff5f5;
+      border: 1px solid #fee2e2;
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-size: 0.82rem;
+    }
+    .city-alert-badge {
+      background: #dc2626;
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 900;
+      padding: 4px 8px;
+      border-radius: 4px;
+      height: max-content;
+      flex-shrink: 0;
+    }
+    .city-alert-content {
+      flex: 1;
+      min-width: 0;
+    }
+    .city-alert-content strong {
+      display: block;
+      color: #0f172a;
+      font-size: 0.84rem;
+      margin-bottom: 2px;
+    }
+    .city-alert-content p {
+      color: #475569;
+      margin: 0;
+      line-height: 1.35;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+    }
+
+    /* SLIDER_PROGRESS_BAR */
+    .slider-progress-track {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.2);
+      z-index: 10;
+      overflow: hidden;
+    }
+    .slider-progress-fill {
+      height: 100%;
+      width: 0%;
+      background: #e10600;
+      box-shadow: 0 0 10px rgba(225, 6, 0, 0.8);
+      transition: width 0.1s linear;
+    }
+
     .country-section { margin-bottom: 52px; scroll-margin-top: 90px; }
     .country-header {
       display: flex;
@@ -2225,16 +2366,90 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         <section class="istanbul-showcase" id="istanbul-masasi" data-news-section aria-labelledby="istanbul-masasi-title">
           <div class="istanbul-header">
             <div class="istanbul-title-wrap">
-              <span class="istanbul-kicker">📍 ÖZEL DOSYA & CANLI DUYURULAR</span>
-              <h2 class="istanbul-title" id="istanbul-masasi-title">İstanbul Masası & Kentsel Yaşam</h2>
-              <p class="istanbul-desc">Ulaşım, metro, İSKİ kesintileri, nöbetçi eczaneler ve megakent gündemi</p>
+              <span class="istanbul-kicker">📍 İSTANBUL MASASI &amp; CANLI ŞEHİR RADARI</span>
+              <h2 class="istanbul-title" id="istanbul-masasi-title">İstanbul Kent Yaşamı &amp; Anlık Şehir Durumu</h2>
+              <p class="istanbul-desc">İBB, İETT, İSKİ resmi verileriyle canlı ulaşım kesintileri, baraj doluluk ve nöbetçi eczaneler</p>
             </div>
             <div class="istanbul-chips">
-              <a class="istanbul-chip" href="/hizmet/ulasim/">🚇 Ulaşım & İETT</a>
-              <a class="istanbul-chip" href="/hizmet/eczane/">💊 Nöbetçi Eczaneler</a>
-              <a class="istanbul-chip" href="/hizmet/kamu/">💧 İSKİ & Kesintiler</a>
+              <a class="istanbul-chip" href="/hizmet/ulasim/">🚇 Canlı İETT (157 Bildirim)</a>
+              <a class="istanbul-chip" href="/hizmet/kamu/">💧 İSKİ &amp; Baraj (%52,24)</a>
+              <a class="istanbul-chip" href="/hizmet/eczane/">💊 Nöbetçi Eczaneler (39 İlçe)</a>
             </div>
           </div>
+
+          <!-- CANLI METRİKLER ŞERİDİ -->
+          <div class="city-metrics-bar">
+            <div class="city-metric">
+              <span class="metric-icon">🌤️</span>
+              <div class="metric-body">
+                <span class="metric-label">İstanbul Hava</span>
+                <strong>23°C · Az Bulutlu</strong>
+              </div>
+            </div>
+            <div class="city-metric">
+              <span class="metric-icon">🚇</span>
+              <div class="metric-body">
+                <span class="metric-label">İETT Hat Bildirimi</span>
+                <strong>157 Canlı Hat Güzergahı</strong>
+              </div>
+            </div>
+            <div class="city-metric">
+              <span class="metric-icon">💧</span>
+              <div class="metric-body">
+                <span class="metric-label">İSKİ Baraj Doluluk</span>
+                <strong>%52,24 Dolu · Şebeke Normal</strong>
+              </div>
+            </div>
+            <div class="city-metric">
+              <span class="metric-icon">⏱️</span>
+              <div class="metric-body">
+                <span class="metric-label">Son Güncelleme</span>
+                <strong>02.09.2026 19:13 (Teyitli)</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- CANLI İETT YOL VE GÜZERGAH KAPATMA BİLDİRİMLERİ -->
+          <div class="city-alerts-box">
+            <div class="city-alerts-header">
+              <span>⚠️ CANLI YOL KAPANMALARI &amp; İETT SEFER DEĞİŞİKLİKLERİ</span>
+              <a href="/hizmet/ulasim/">Tüm Hat Bildirimlerini Gör (157) →</a>
+            </div>
+            <div class="city-alerts-grid">
+
+          <div class="city-alert-item">
+            <span class="city-alert-badge">10B</span>
+            <div class="city-alert-content">
+              <strong>BOSTANCI - KADIKÖY (16:07)</strong>
+              <p>MAÇ NEDENIYLE RECEP PEKER CADDESI KAPALIDIR. ARAÇLARIMIZ BOSTANCI YÖNÜNDE KADIKÖY DURAGINDAN GÜZERGAH DISINA ÇIKARAK IHLAMUR DURAGINDAN GÜZERGAHA GIRECEKTIR.</p>
+            </div>
+          </div>
+          <div class="city-alert-item">
+            <span class="city-alert-badge">11ÜS</span>
+            <div class="city-alert-content">
+              <strong>SULTANBEYLI - ÜSKÜDAR (15:35)</strong>
+              <p>YOGUN TRAFIK NEDENIYLE FATIH BULVARI KAPALIDIR. ARAÇLARIMIZ SULTANBEYLI PERONLARA DÖNÜSLERDE 52.HASANPASA DURAGINDAN GÜZERGAHTAN ÇIKIP 55.ÇIFTLIK DURAGINDAN GÜZERGAHA GIRECEKTIR.</p>
+            </div>
+          </div>
+          <div class="city-alert-item">
+            <span class="city-alert-badge">132</span>
+            <div class="city-alert-content">
+              <strong>AKFIRAT / TEPEÖREN - KARTAL (05:54)</strong>
+              <p>ISKI ÇALISMASI NEDENIYLE AKFIRAT CADDESI HER IKI YÖNDE KAPALIDIR. ARAÇLARIMIZ AKFIRAT KIZILAY DURAGINDAN GÜZERGAH DISINA ÇIKARAK AKFIRAT DURAGINDAN GÜZERGAHA GIRECEKTIR.</p>
+            </div>
+          </div>
+          <div class="city-alert-item">
+            <span class="city-alert-badge">132P</span>
+            <div class="city-alert-content">
+              <strong>VEYSEL KARANI / SULTANBEYLI - KARTAL (04:09)</strong>
+              <p>KARTAL dan Saat 22:30 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</p>
+            </div>
+          </div>
+            </div>
+          </div>
+
+          <!-- İSTANBUL HABERLERİ VİTRİNİ -->
+          <h3 style="font-size:1.25rem; font-weight:800; margin:24px 0 16px; color:var(--dark);">Megakentten En Son Haberler</h3>
           <div class="istanbul-grid">
             <!-- ISTANBUL_CARDS_START -->
 
@@ -2255,7 +2470,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </a>
       </article>
-
       <article class="istanbul-card topic-card" data-topic="gundem">
         <a class="istanbul-card-link" href="/articles/a-milli-kadin-basketbol-takimi-dunya-kupasi-nda-3-kez-yer-alacak-istanbul_20260902/" aria-label="A Milli Kadın Basketbol Takımı, Dünya Kupası&#x27;nda 3. kez yer alacak #istanbul">
           <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
@@ -2273,7 +2487,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </a>
       </article>
-
       <article class="istanbul-card topic-card" data-topic="gundem">
         <a class="istanbul-card-link" href="/articles/arabuluculuk-yalaniyla-100-bin-tl-lik-vurgun-genc-reklamciya-dosya-tuzagi-i_20260902/" aria-label="Arabuluculuk yalanıyla 100 bin TL&#x27;lik vurgun! Genç reklamcıya ‘dosya’ tuzağı #istanbul">
           <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
@@ -2291,7 +2504,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </a>
       </article>
-
       <article class="istanbul-card topic-card" data-topic="gundem">
         <a class="istanbul-card-link" href="/articles/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902/" aria-label="Bakan Uraloğlu açıkladı: İstanbul’a 180 kilometrelik raylı sistem! Yeni metro hatları geliyor...">
           <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
@@ -2309,7 +2521,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </a>
       </article>
-
       <article class="istanbul-card topic-card" data-topic="gundem">
         <a class="istanbul-card-link" href="/articles/havacilik-dunyasi-istanbul-da-bulustu-istanbul_20260902/" aria-label="Havacılık dünyası İstanbul’da buluştu #istanbul">
           <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
@@ -2327,7 +2538,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </a>
       </article>
-
       <article class="istanbul-card topic-card" data-topic="gundem">
         <a class="istanbul-card-link" href="/articles/istanbul-valiligi-duyurdu-uskudar-belediyesi-nde-secim-tarihi-belli-oldu-is_20260902/" aria-label="İstanbul Valiliği duyurdu: Üsküdar Belediyesi&#x27;nde seçim tarihi belli oldu! #istanbul">
           <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
@@ -15338,6 +15548,19 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       const pauseAuto = (duration = 12000) => {
         autoPausedUntil = Date.now() + duration;
       };
+
+      let progressTrack = slider.querySelector('.slider-progress-track');
+      if (!progressTrack) {
+        progressTrack = document.createElement('div');
+        progressTrack.className = 'slider-progress-track';
+        progressTrack.innerHTML = '<div class="slider-progress-fill"></div>';
+        slider.appendChild(progressTrack);
+      }
+      const progressFill = progressTrack.querySelector('.slider-progress-fill');
+      let elapsed = 0;
+      const slideDuration = 6000;
+      const intervalStep = 50;
+
       if (!dotsWrap) {
         dotsWrap = document.createElement('div');
         dotsWrap.className = 'slider-dots';
@@ -15352,8 +15575,12 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         dot.className = 'slider-dot';
         dot.textContent = String(index + 1);
         dot.setAttribute('aria-label', `${index + 1}. manşete geç`);
+        dot.addEventListener('mouseenter', () => {
+          pauseAuto(15000);
+          showSlide(index);
+        });
         dot.addEventListener('click', () => {
-          pauseAuto();
+          pauseAuto(15000);
           showSlide(index);
         });
         dotsWrap.appendChild(dot);
@@ -15371,6 +15598,8 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       updateDots();
 
       const showSlide = (nextIndex) => {
+        elapsed = 0;
+        if (progressFill) progressFill.style.width = '0%';
         slides[current].classList.remove('is-active');
         current = (nextIndex + slides.length) % slides.length;
         slides[current].classList.add('is-active');
@@ -15388,6 +15617,9 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         pauseAuto();
         showSlide(current - 1);
       });
+
+      slider.addEventListener('mouseenter', () => pauseAuto(60000));
+      slider.addEventListener('mouseleave', () => { autoPausedUntil = 0; elapsed = 0; });
 
       let touchStartX = 0;
       let touchDeltaX = 0;
@@ -15411,9 +15643,18 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
 
       if (slides.length > 1) {
         setInterval(() => {
-          if (Date.now() < autoPausedUntil) return;
-          showSlide(current + 1);
-        }, 3000);
+          if (Date.now() < autoPausedUntil) {
+            if (progressFill) progressFill.style.width = '0%';
+            return;
+          }
+          elapsed += intervalStep;
+          const pct = Math.min(100, (elapsed / slideDuration) * 100);
+          if (progressFill) progressFill.style.width = pct + '%';
+          if (elapsed >= slideDuration) {
+            elapsed = 0;
+            showSlide(current + 1);
+          }
+        }, intervalStep);
       }
     }
 
