@@ -3,12 +3,50 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-03T00:00:00+00:00",
-    "article_count": 1263,
+    "article_count": 1268,
     "schema_version": 2,
     "category_slug": "gundem",
     "type": "category"
   },
   "articles": [
+    {
+      "id": "articles/2026/09:silivride-gemi-kazasi-10-murettebat-kayip-9-kisi-adliyeye-sevk-ediliyor_20260903",
+      "slug": "silivride-gemi-kazasi-10-murettebat-kayip-9-kisi-adliyeye-sevk-ediliyor_20260903",
+      "title": "Silivri'deki Gemi Kazasında Sıcak Gelişme: 9 Mürettebat Adliyeye Sevk Ediliyor",
+      "summary": "Silivri açıklarında meydana gelen iki ticari geminin çarpışması sonucu \"Tuğberk İmamoğlu\" isimli kuru yük gemisi battı ve 10 mürettebatıyla irtibat kesildi. Kazaya karışan \"Alsu\" isimli tankerdeki 9 mürettebatın adliyeye sevk edilmesi beklenirken, kayıp den...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "03.09.2026",
+      "date_iso": "2026-09-03",
+      "url": "/articles/2026/09/silivride-gemi-kazasi-10-murettebat-kayip-9-kisi-adliyeye-sevk-ediliyor_20260903/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/silivride-gemi-kazasi-10-murettebat-kayip-9-kisi-adliyeye-sevk-ediliyor_20260903/",
+      "detail_json_url": "/data/details/articles/2026/09/silivride-gemi-kazasi-10-murettebat-kayip-9-kisi-adliyeye-sevk-ediliyor_20260903.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/silivride-gemi-kazasi-10-murettebat-kayip-9-kisi-adliyeye-sevk-ediliyor_20260903.webp",
+      "image_alt": "Silivri açıklarında batan gemiyi arama kurtarma çalışmaları",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/silivride-gemi-kazasi-10-murettebat-kayip-9-kisi-adliyeye-sevk-ediliyor_20260903.webp",
+        "alt": "Silivri açıklarında batan gemiyi arama kurtarma çalışmaları"
+      },
+      "source_name": "SABAH",
+      "source_url": "https://www.sabah.com.tr/gundem/2026/09/03/silivri-cumhuriyet-bassavciligindan-gemi-kazasina-iliskin-aciklama-9-murettebat-adliyeye-sevk-edilecek",
+      "tags": [
+        "Silivri gemi kazası",
+        "Tuğberk İmamoğlu gemisi",
+        "Alsu gemisi",
+        "arama kurtarma",
+        "Marmara Denizi kaza"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/09:seyhanda-hirsizlik-suphelilerinden-sara-nobeti-oyunu-tutuklandilar_20260903",
       "slug": "seyhanda-hirsizlik-suphelilerinden-sara-nobeti-oyunu-tutuklandilar_20260903",
@@ -83,6 +121,45 @@
         "Sözcü TV"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:msb-gemi-kazalari-arama-kurtarma-aciklamasi_20260903",
+      "slug": "msb-gemi-kazalari-arama-kurtarma-aciklamasi_20260903",
+      "title": "MSB'den KKTC ve Silivri Açıklarındaki Gemi Kazalarına İlişkin Açıklama",
+      "summary": "Milli Savunma Bakanlığı, KKTC ve Marmara Denizi Silivri açıklarında meydana gelen gemi kazalarının ardından yürütülen arama kurtarma çalışmalarına Türk Silahlı Kuvvetleri unsurlarıyla verilen desteği açıkladı. BAYKAR Teknoloji Merkezi'nde düzenlenen haftalı...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "03.09.2026",
+      "date_iso": "2026-09-03",
+      "url": "/articles/2026/09/msb-gemi-kazalari-arama-kurtarma-aciklamasi_20260903/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/msb-gemi-kazalari-arama-kurtarma-aciklamasi_20260903/",
+      "detail_json_url": "/data/details/articles/2026/09/msb-gemi-kazalari-arama-kurtarma-aciklamasi_20260903.json",
+      "image_url": "https://images.ntv.com.tr/images/msb-253997.jpg",
+      "image_alt": "MSB arama kurtarma gemileri ve deniz kuvvetleri unsurları operasyon esnasında.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/msb-253997.jpg",
+        "alt": "MSB arama kurtarma gemileri ve deniz kuvvetleri unsurları operasyon esnasında."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/msb-gemi-kazalari-ile-ilgili-koordinasyon-ve-destek-saglaniyor-1740194",
+      "tags": [
+        "MSB",
+        "Gemi Kazası",
+        "Arama Kurtarma",
+        "Silivri",
+        "KKTC",
+        "BAYKAR"
+      ],
+      "quality_score": 90,
       "review_status": "published"
     },
     {
