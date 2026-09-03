@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T22:54:10.734Z",
+  "updatedAt": "2026-09-03T22:53:28.853Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
@@ -556,13 +556,13 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73340: 20 | HTML scrape: https://www.mackolik.com/puan-durumu/ingiltere-premier-lig/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | https://www.mackolik.com/puan-durumu/ingiltere-premier-league/2kwbbcootiqqgmrzs6o5inle5: HTTP 502 | football-data.org: PL: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73340: 20 | HTML scrape: https://www.mackolik.com/puan-durumu/ingiltere-premier-lig/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | https://www.mackolik.com/puan-durumu/ingiltere-premier-league/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | football-data.org: PL: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
       "preservedPreviousTable": true
     },
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-09-02T22:54:10.734Z",
+      "updatedAt": "2026-09-03T22:53:28.853Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
@@ -707,6 +707,20 @@
         },
         {
           "position": 11,
+          "team": "Real Sociedad",
+          "played": 4,
+          "won": 1,
+          "draw": 1,
+          "lost": 2,
+          "goalsFor": 3,
+          "goalsAgainst": 6,
+          "points": 4,
+          "goalDifference": -3,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/77.gif",
+          "form": []
+        },
+        {
+          "position": 12,
           "team": "Espanyol",
           "played": 3,
           "won": 1,
@@ -720,7 +734,7 @@
           "form": []
         },
         {
-          "position": 12,
+          "position": 13,
           "team": "Athletic Bilbao",
           "played": 3,
           "won": 1,
@@ -731,20 +745,6 @@
           "points": 3,
           "goalDifference": -2,
           "logo": "https://im.mackolik.com/img/logo/kucuk/91.gif",
-          "form": []
-        },
-        {
-          "position": 13,
-          "team": "Real Sociedad",
-          "played": 3,
-          "won": 1,
-          "draw": 0,
-          "lost": 2,
-          "goalsFor": 3,
-          "goalsAgainst": 6,
-          "points": 3,
-          "goalDifference": -3,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/77.gif",
           "form": []
         },
         {
@@ -777,6 +777,20 @@
         },
         {
           "position": 16,
+          "team": "Celta Vigo",
+          "played": 4,
+          "won": 0,
+          "draw": 2,
+          "lost": 2,
+          "goalsFor": 1,
+          "goalsAgainst": 4,
+          "points": 2,
+          "goalDifference": -3,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/76.gif",
+          "form": []
+        },
+        {
+          "position": 17,
           "team": "Valencia",
           "played": 3,
           "won": 0,
@@ -787,20 +801,6 @@
           "points": 1,
           "goalDifference": -3,
           "logo": "https://im.mackolik.com/img/logo/kucuk/80.gif",
-          "form": []
-        },
-        {
-          "position": 17,
-          "team": "Celta Vigo",
-          "played": 3,
-          "won": 0,
-          "draw": 1,
-          "lost": 2,
-          "goalsFor": 1,
-          "goalsAgainst": 4,
-          "points": 1,
-          "goalDifference": -3,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/76.gif",
           "form": []
         },
         {
