@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "articles/2026/09:google-gemini-3-8-flash-ve-gemini-3-8-flash-cyber-tanitildi_20260903",
+    "slug": "google-gemini-3-8-flash-ve-gemini-3-8-flash-cyber-tanitildi_20260903",
+    "title": "Google, Gemini 3.8 Flash ve Gemini 3.8 Flash Cyber Modellerini Tanıttı",
+    "summary": "Google, yazılım mühendisliği ve siber güvenlik alanlarına odaklanan yeni yapay zeka modelleri Gemini 3.8 Flash ve Gemini 3.8 Flash Cyber'ı resmi olarak tanıttı. Yeni modeller, gelişmiş akıl yürütme yetenekleri ve yüksek performanslarıyla dikkat çekiyor.",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "topic_slug": "teknoloji",
+    "topic_label": "Teknoloji",
+    "country": "Turkey",
+    "language": "tr",
+    "language_label": "Turkish",
+    "section": "articles",
+    "section_name": "Haberler",
+    "url_prefix": "articles/2026/09",
+    "date": "03.09.2026",
+    "date_iso": "2026-09-03",
+    "url": "/articles/2026/09/google-gemini-3-8-flash-ve-gemini-3-8-flash-cyber-tanitildi_20260903/",
+    "canonical_url": "https://mansetradar.com.tr/articles/2026/09/google-gemini-3-8-flash-ve-gemini-3-8-flash-cyber-tanitildi_20260903/",
+    "detail_json_url": "/data/details/articles/2026/09/google-gemini-3-8-flash-ve-gemini-3-8-flash-cyber-tanitildi_20260903.json",
+    "image_url": "https://cdn.webrazzi.com/uploads/2026/09/gemini-38-flash-cyber-67_240x135.png",
+    "image_alt": "Google Gemini 3.8 Flash ve Gemini 3.8 Flash Cyber yapay zeka modellerini temsil eden dijital kod analizi ve siber güvenlik...",
+    "image": {
+      "url": "https://cdn.webrazzi.com/uploads/2026/09/gemini-38-flash-cyber-67_240x135.png",
+      "alt": "Google Gemini 3.8 Flash ve Gemini 3.8 Flash Cyber yapay zeka modellerini temsil eden dijital kod analizi ve siber güvenlik..."
+    },
+    "source_name": "Webrazzi",
+    "source_url": "https://webrazzi.com/2026/09/03/googledan-iki-yeni-yapay-zeka-modeli-gemini-38-flash-ve-gemini-38-flash-cyber/",
+    "tags": [
+      "Google Gemini",
+      "Gemini 3.8 Flash",
+      "Gemini 3.8 Flash Cyber",
+      "Yapay Zeka",
+      "Siber Güvenlik"
+    ],
+    "quality_score": 100,
+    "review_status": "published",
+    "content_html": "<h2>Önemli Gelişmeler</h2><p>Google, aynı temel model üzerine inşa edilen ancak farklı kullanım senaryolarına odaklanan iki yeni yapay zeka modelini duyurdu: <strong>Gemini 3.8 Flash</strong> ve <strong>Gemini 3.8 Flash Cyber</strong>. Genel amaçlı ve düşük maliyetli bir seçenek olarak konumlandırılan Gemini 3.8 Flash; yazılım mühendisliği, agent tabanlı görevler ve uzmanlık gerektiren alanlardaki çok adımlı akıl yürütme süreçlerinde Gemini 3.7 Flash'a kıyasla önemli performans artışları sunuyor. Model, uzun süreli ve karmaşık görevlerde daha fazla akıl yürütme adımı uygulayarak araçları yinelemeli bir şekilde kullanabiliyor.</p><p>Yapılan testlerde Gemini 3.8 Flash, uzun süreli yazılım geliştirme görevlerini ölçen DeepSWE 1.1 testinde yüzde 73,7 skor elde etti. Google tarafından paylaşılan verilere göre model, 16 farklı testin dokuzunda rakipleri Claude Opus 5 ve GPT-5.6 Sol'u geride bırakmayı başardı. Ayrıca finansal veri analizi, hukuk ve profesyonel raporlama gibi alanlarda da önceki modele kıyasla daha yüksek sonuçlar elde eden Gemini 3.8 Flash, çok adımlı akıl yürütmeyi değerlendiren HLE-Verified testinde yüzde 54,9 başarı oranına ulaştı.</p><p>Modelin fiyatlandırması Gemini 3.7 Flash'ın başlangıç fiyatıyla aynı seviyede tutuldu. Geliştiriciler, 31 Aralık 2026 tarihine kadar bir milyon giriş tokenı için 0,75 dolar, bir milyon çıkış tokenı için ise 3,75 dolar ödeyecek. Bu fiyatlar 1 Ocak 2027 itibarıyla sırasıyla 1,50 dolar ve 7,50 dolara yükselecek.</p><p>Siber güvenlik araştırmacıları ve savunma ekipleri için özel olarak geliştirilen <strong>Gemini 3.8 Flash Cyber</strong> ise güvenlik açıklarını otonom olarak bulma ve bu açıklar için yama geliştirme yetenekleriyle öne çıkıyor. Model, C ve C++ kodlarındaki güvenlik açıklarını belirlemeyi ölçen CyberGym testinde yüzde 86,2 skor elde ederken, Google'ın 20 programlama dilini kapsayan dahili testlerinde yüzde 70'in üzerinde başarı oranı yakaladı. Model, saldırı yeteneklerinden ziyade savunma ve açıkların giderilmesine odaklanıyor.</p><h2>Öne Çıkan Noktalar</h2><ul><li><strong>Gelişmiş Akıl Yürütme:</strong> Gemini 3.8 Flash, karmaşık görevlerde daha fazla akıl yürütme adımı uygulayarak araçları yinelemeli biçimde kullanabiliyor.</li><li><strong>Rakiplerini Geride Bıraktı:</strong> Model, gerçekleştirilen 16 farklı testin dokuzunda Claude Opus 5 ve GPT-5.6 Sol modellerini geride bırakmayı başardı.</li><li><strong>Siber Güvenlik Odaklı Çözüm:</strong> Gemini 3.8 Flash Cyber, C ve C++ kodlarındaki açıkları tespit etmeyi ölçen CyberGym testinde yüzde 86,2 başarı elde etti.</li></ul><h2>Neden Önemli?</h2><p>Google'ın yeni modelleri, yapay zekanın hem genel yazılım geliştirme süreçlerinde hem de kritik siber güvenlik savunma hatlarında ne kadar etkin rol oynayabileceğini gösteriyor. Özellikle Gemini 3.8 Flash Cyber'ın otonom olarak güvenlik açıklarını tespit edip yama geliştirebilmesi, dijital savunma ekiplerinin iş yükünü hafifletirken siber güvenlik süreçlerini hızlandırmayı hedefliyor. Aynı zamanda uygun fiyat politikası ve esnek efor seviyesi seçenekleriyle geliştiricilere maliyet avantajı sağlanıyor.</p>",
+    "meta_title": "Google Gemini 3.8 Flash ve 3.8 Flash Cyber Tanıtıldı",
+    "meta_description": "Google, yeni yapay zeka modelleri Gemini 3.8 Flash ve siber güvenlik odaklı Gemini 3.8 Flash Cyber'ı tanıttı. İşte özellikleri ve fiyatı.",
+    "spot": "Google, yazılım mühendisliği ve siber güvenlik alanlarına odaklanan yeni yapay zeka modelleri Gemini 3.8 Flash ve Gemini 3.8 Flash Cyber'ı resmi olarak tanıttı. Yeni modeller, gelişmiş akıl yürütme yetenekleri ve yüksek performanslarıyla dikkat çekiyor.",
+    "word_count": 412,
+    "reading_time_minutes": 2,
+    "discover_titles": [
+      "Google'dan iki yeni yapay zeka modeli: Gemini 3.8 Flash sahneye çıktı",
+      "Gemini 3.8 Flash ve Flash Cyber tanıtıldı: İşte tüm özellikleri",
+      "Google'ın yeni yapay zeka modelleri rakiplerini geride bıraktı"
+    ],
+    "visual_keywords": [
+      "Google Gemini 3.8 Flash",
+      "artificial intelligence coding",
+      "cybersecurity AI",
+      "software development reasoning"
+    ]
+  }
+}
