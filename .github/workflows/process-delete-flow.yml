@@ -2,12 +2,6 @@ name: Process CMS Article Deletes
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - 'data/cms-published/**'
-      - 'tools/process_delete_flow.py'
 
 permissions:
   contents: write
