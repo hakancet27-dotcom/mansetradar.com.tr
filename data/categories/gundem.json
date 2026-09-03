@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-03T00:00:00+00:00",
-    "article_count": 1268,
+    "article_count": 1269,
     "schema_version": 2,
     "category_slug": "gundem",
     "type": "category"
@@ -81,6 +81,44 @@
         "Asayiş",
         "Adana Seyhan",
         "Tutuklama"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:sariyer-maden-mahallesi-yangin-kurutma-makinesi_20260903",
+      "slug": "sariyer-maden-mahallesi-yangin-kurutma-makinesi_20260903",
+      "title": "Sarıyer'de Kurutma Makinesi Yangını: Mahsur Kalan 8 Kişi İtfaiye Merdiveniyle Kurtarıldı",
+      "summary": "İstanbul Sarıyer'e bağlı Maden Mahallesi'nde bir sitede bulunan 4 katlı binanın zemin katındaki kurutma makinesinde çıkan yangın nedeniyle üst katlarda mahsur kalan 8 kişi, itfaiye ekipleri tarafından merdivenle kurtarıldı. Can kaybı veya yaralanmanın yaşan...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "03.09.2026",
+      "date_iso": "2026-09-03",
+      "url": "/articles/2026/09/sariyer-maden-mahallesi-yangin-kurutma-makinesi_20260903/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/sariyer-maden-mahallesi-yangin-kurutma-makinesi_20260903/",
+      "detail_json_url": "/data/details/articles/2026/09/sariyer-maden-mahallesi-yangin-kurutma-makinesi_20260903.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/sariyer-maden-mahallesi-yangin-kurutma-makinesi_20260903.webp",
+      "image_alt": "Sarıyer'de 4 katlı binada çıkan yangında itfaiye ekiplerinin merdivenle vatandaşları kurtarma anı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/sariyer-maden-mahallesi-yangin-kurutma-makinesi_20260903.webp",
+        "alt": "Sarıyer'de 4 katlı binada çıkan yangında itfaiye ekiplerinin merdivenle vatandaşları kurtarma anı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/sariyerde-8-kisinin-kurtarildigi-yanginda-can-pazari-sondurmeye-calistim-ama-nefes-alamadim-43294988",
+      "tags": [
+        "Sarıyer",
+        "Sarıyer Yangın",
+        "Maden Mahallesi",
+        "Kurutma Makinesi Yangını",
+        "İtfaiye Kurtarma"
       ],
       "quality_score": 86,
       "review_status": "published"
