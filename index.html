@@ -1863,6 +1863,132 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
   display: none !important;
 }
 /* FIRST_PAINT_TOPIC_FILTER_END */
+  
+    /* FULL WIDTH HERO & ISTANBUL MEGA-BAR STYLES */
+    .showcase-grid {
+      display: block !important;
+      width: 100% !important;
+    }
+    .headline-slider {
+      width: 100% !important;
+      height: clamp(460px, 48vw, 560px) !important;
+    }
+    .side-headlines {
+      display: none !important;
+    }
+    .mobile-market-strip {
+      display: none !important;
+    }
+
+    /* TOP ISTANBUL MEGA-BAR */
+    .istanbul-mega-bar {
+      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
+      color: white;
+      border-bottom: 2px solid #dc2626;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+      font-size: 0.85rem;
+      position: relative;
+      z-index: 99;
+    }
+    .istanbul-mega-bar .inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .imb-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .imb-brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .imb-badge {
+      background: #dc2626;
+      color: white;
+      font-weight: 900;
+      font-size: 0.72rem;
+      padding: 3px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+    .imb-select {
+      background: #0f172a;
+      color: #f8fafc;
+      border: 1px solid #334155;
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      outline: none;
+    }
+    .imb-select:focus { border-color: #38bdf8; }
+    .imb-quick-chips {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+    .imb-chip-btn {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #e2e8f0;
+      border-radius: 999px;
+      padding: 3px 10px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+    .imb-chip-btn:hover {
+      background: #dc2626;
+      color: white;
+      border-color: #dc2626;
+    }
+    .imb-services {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .imb-srv {
+      color: #cbd5e1;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.82rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .imb-srv:hover {
+      background: rgba(255,255,255,0.1);
+      color: white;
+    }
+    .imb-weather-pill {
+      background: rgba(56,189,248,0.15);
+      color: #38bdf8;
+      border: 1px solid rgba(56,189,248,0.3);
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 0.78rem;
+    }
+    @media (max-width: 900px) {
+      .imb-quick-chips { display: none; }
+      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
+    }
+    
   </style>
 <link rel="stylesheet" href="/assets/css/mobile-home-ux.css?v=20260525e">
   <link rel="stylesheet" href="/assets/css/showcase-side-rotation.css?v=20260605e">
@@ -1929,6 +2055,36 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       </nav>
     </div>
   </header>
+<!-- TOP_ISTANBUL_MEGA_BAR_START -->
+  <div class="istanbul-mega-bar" aria-label="İstanbul Şehir Masası ve 39 İlçe Rehberi">
+    <div class="inner">
+      <div class="imb-left">
+        <div class="imb-brand">
+          <span class="imb-badge">📍 İSTANBUL MASASI</span>
+        </div>
+        <select class="imb-select" id="imb-district-dropdown" onchange="if(this.value) window.location.href='/hizmet/eczane/?ilce='+encodeURIComponent(this.value);" aria-label="İstanbul ilçesi seç">
+          <option value="">İlçeni Seç (39 İlçe)...</option>
+          <option value="Adalar">Adalar</option><option value="Arnavutköy">Arnavutköy</option><option value="Ataşehir">Ataşehir</option><option value="Avcılar">Avcılar</option><option value="Bahçelievler">Bahçelievler</option><option value="Bakırköy">Bakırköy</option><option value="Bayrampaşa">Bayrampaşa</option><option value="Bağcılar">Bağcılar</option><option value="Başakşehir">Başakşehir</option><option value="Beykoz">Beykoz</option><option value="Beylikdüzü">Beylikdüzü</option><option value="Beyoğlu">Beyoğlu</option><option value="Beşiktaş">Beşiktaş</option><option value="Büyükçekmece">Büyükçekmece</option><option value="Esenler">Esenler</option><option value="Esenyurt">Esenyurt</option><option value="Eyüpsultan">Eyüpsultan</option><option value="Fatih">Fatih</option><option value="Gaziosmanpaşa">Gaziosmanpaşa</option><option value="Güngören">Güngören</option><option value="Kadıköy">Kadıköy</option><option value="Kartal">Kartal</option><option value="Kağıthane">Kağıthane</option><option value="Küçükçekmece">Küçükçekmece</option><option value="Maltepe">Maltepe</option><option value="Pendik">Pendik</option><option value="Sancaktepe">Sancaktepe</option><option value="Sarıyer">Sarıyer</option><option value="Silivri">Silivri</option><option value="Sultanbeyli">Sultanbeyli</option><option value="Sultangazi">Sultangazi</option><option value="Tuzla">Tuzla</option><option value="Zeytinburnu">Zeytinburnu</option><option value="Çatalca">Çatalca</option><option value="Çekmeköy">Çekmeköy</option><option value="Ümraniye">Ümraniye</option><option value="Üsküdar">Üsküdar</option><option value="Şile">Şile</option><option value="Şişli">Şişli</option>
+        </select>
+        <div class="imb-quick-chips">
+          <button type="button" class="imb-chip-btn" onclick="window.location.href='/hizmet/eczane/?ilce=Kadıköy'">Kadıköy</button>
+          <button type="button" class="imb-chip-btn" onclick="window.location.href='/hizmet/eczane/?ilce=Beşiktaş'">Beşiktaş</button>
+          <button type="button" class="imb-chip-btn" onclick="window.location.href='/hizmet/eczane/?ilce=Üsküdar'">Üsküdar</button>
+          <button type="button" class="imb-chip-btn" onclick="window.location.href='/hizmet/eczane/?ilce=Şişli'">Şişli</button>
+          <button type="button" class="imb-chip-btn" onclick="window.location.href='/hizmet/eczane/?ilce=Fatih'">Fatih</button>
+          <button type="button" class="imb-chip-btn" onclick="window.location.href='/hizmet/eczane/?ilce=Bakırköy'">Bakırköy</button>
+        </div>
+      </div>
+      <div class="imb-services">
+        <a class="imb-srv" href="/hizmet/eczane/">💊 Nöbetçi Eczaneler (130)</a>
+        <a class="imb-srv" href="/hizmet/ulasim/">🚇 Canlı İETT (86)</a>
+        <a class="imb-srv" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ (3)</a>
+        <a class="imb-srv" href="/hizmet/kamu/">🌊 Baraj: %52,24</a>
+        <span class="imb-weather-pill">🌤️ 23°C</span>
+      </div>
+    </div>
+  </div>
+  <!-- TOP_ISTANBUL_MEGA_BAR_END -->
 
   <nav class="breaking" aria-label="Haber kategorileri">
     <div class="inner">
@@ -2417,12 +2573,12 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           <div class="istanbul-header">
             <div class="istanbul-title-wrap">
               <span class="istanbul-kicker">📍 İSTANBUL MASASI &amp; CANLI ŞEHİR RADARI</span>
-              <h2 class="istanbul-title" id="istanbul-masasi-title">İstanbul Kent Yaşamı &amp; Anlık Şehir Durumu</h2>
-              <p class="istanbul-desc">İBB, İETT, İSKİ, BEDAŞ ve İECO resmi verileriyle anlık ulaşım, su/elektrik arızaları ve nöbetçi eczaneler</p>
+              <h2 class="istanbul-title" id="istanbul-masasi-title">İstanbul Kent Yaşamı, İlçe Haberleri &amp; Canlı Şehir Durumu</h2>
+              <p class="istanbul-desc">İBB, İETT, İSKİ, BEDAŞ ve İECO resmi verileriyle anlık ulaşım, su/elektrik arızaları, nöbetçi eczaneler ve 39 ilçe haberleri</p>
             </div>
             <div class="istanbul-chips">
-              <a class="istanbul-chip" href="/hizmet/ulasim/">🚇 Canlı İETT (90 Bildirim)</a>
-              <a class="istanbul-chip" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ (2 Arıza)</a>
+              <a class="istanbul-chip" href="/hizmet/ulasim/">🚇 Canlı İETT (86 Bildirim)</a>
+              <a class="istanbul-chip" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ (3 Arıza)</a>
               <a class="istanbul-chip" href="/hizmet/eczane/">💊 Nöbetçi Eczaneler (130 Açık)</a>
             </div>
           </div>
@@ -2440,7 +2596,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <span class="metric-icon">🚇</span>
               <div class="metric-body">
                 <span class="metric-label">İETT Hat Bildirimi</span>
-                <strong>90 Canlı Hat Güzergahı</strong>
+                <strong>86 Canlı Hat Güzergahı</strong>
               </div>
             </div>
             <div class="city-metric">
@@ -2463,7 +2619,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           <div class="city-alerts-box">
             <div class="city-alerts-header">
               <span>⚠️ CANLI YOL KAPANMALARI &amp; İETT SEFER DEĞİŞİKLİKLERİ</span>
-              <a href="/hizmet/ulasim/">Tüm Hat Bildirimlerini Gör (90) →</a>
+              <a href="/hizmet/ulasim/">Tüm Hat Bildirimlerini Gör (86) →</a>
             </div>
             <div class="city-alerts-grid">
 
@@ -2499,10 +2655,47 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
 
           <!-- İSTANBUL HABERLERİ VİTRİNİ -->
-          <h3 style="font-size:1.25rem; font-weight:800; margin:24px 0 16px; color:var(--dark);">Megakentten En Son Haberler</h3>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin:24px 0 16px;">
+            <h3 style="font-size:1.25rem; font-weight:800; color:var(--dark); margin:0;">Megakent &amp; İlçelerden En Son Haberler</h3>
+            <a href="/hizmet/eczane/" style="font-size:0.85rem; font-weight:700; color:#dc2626; text-decoration:none;">İlçelere Göre Haber &amp; Eczane Rehberi →</a>
+          </div>
           <div class="istanbul-grid">
             <!-- ISTANBUL_CARDS_START -->
 
+      <article class="istanbul-card topic-card" data-topic="gundem">
+        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260903/" aria-label="İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
+          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
+          <div class="istanbul-card-body">
+            <div class="istanbul-card-meta">
+              <span class="istanbul-badge">📍 İstanbul</span>
+              <span class="istanbul-topic">Gündem</span>
+              <time datetime="2000-01-01"></time>
+            </div>
+            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
+            <div class="istanbul-card-footer">
+              <span class="istanbul-source">ManşetRadar</span>
+              <span class="istanbul-more">Haberi Oku →</span>
+            </div>
+          </div>
+        </a>
+      </article>
+      <article class="istanbul-card topic-card" data-topic="gundem">
+        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260903/" aria-label="İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
+          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
+          <div class="istanbul-card-body">
+            <div class="istanbul-card-meta">
+              <span class="istanbul-badge">📍 İstanbul</span>
+              <span class="istanbul-topic">Gündem</span>
+              <time datetime="2000-01-01"></time>
+            </div>
+            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
+            <div class="istanbul-card-footer">
+              <span class="istanbul-source">ManşetRadar</span>
+              <span class="istanbul-more">Haberi Oku →</span>
+            </div>
+          </div>
+        </a>
+      </article>
       <article class="istanbul-card topic-card" data-topic="gundem">
         <a class="istanbul-card-link" href="/articles/72-bin-uyusturucu-hapla-yakaladilar-istanbul_20260902/" aria-label="72 bin uyuşturucu hapla yakaladılar #istanbul">
           <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>

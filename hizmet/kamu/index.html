@@ -1,424 +1,198 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>İstanbul Su &amp; Elektrik Kesintileri, Canlı Baraj Doluluk | mansetradar.com.tr</title>
-    <meta name="description" content="Resmi İSKİ ve BEDAŞ canlı API verileriyle anlık İstanbul su kesintileri, elektrik arıza takvimi ve baraj doluluk oranları.">
-    <link rel="canonical" href="https://mansetradar.com.tr/hizmet/kamu/">
-    <meta name="robots" content="index,follow">
-    <script type="application/ld+json">
-    {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Ana Sayfa",
-          "item": "https://mansetradar.com.tr/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "İstanbul Masası",
-          "item": "https://mansetradar.com.tr/#istanbul-masasi"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Su Kesintileri & Barajlar",
-          "item": "https://mansetradar.com.tr/hizmet/kamu/"
-        }
-      ]
-    },
-    {
-      "@type": "GovernmentService",
-      "name": "İstanbul Su Kesintisi, Elektrik Arıza & Baraj Doluluk Durumu",
-      "serviceType": "Public Utilities",
-      "provider": {
-        "@type": "GovernmentOrganization",
-        "name": "İBB - İSKİ & BEDAŞ"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "İstanbul"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "İstanbul'da sular ne zaman gelecek?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "İSKİ bölgesel arıza ve şebeke yenileme çalışmaları sayfamızda canlı olarak listelenmektedir. Arıza bildirimleri için ALO 185 hattını 7/24 arayabilirsiniz."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "İstanbul baraj doluluk oranı kaç?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Resmi İSKİ verilerine göre İstanbul barajlarının genel doluluk oranı anlık olarak %52,24 seviyesindedir."
-          }
-        }
-      ]
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İstanbul Canlı Kesintiler &amp; Kamu Hizmetleri | İSKİ, BEDAŞ, Barajlar</title>
+  <meta name="description" content="İSKİ canlı su kesintileri, BEDAŞ elektrik arıza bildirimleri, baraj doluluk oranları ve tek tıkla arama rehberi.">
+  <link rel="canonical" href="https://mansetradar.com.tr/hizmet/kamu/">
+  <style>
+    :root {
+      --red: #e10600;
+      --dark: #0f172a;
+      --surface: #ffffff;
+      --page: #f8fafc;
+      --border: #e2e8f0;
+      --text: #1e293b;
+      --muted: #64748b;
     }
-  ]
-}
-    </script>
-    <style>
-      :root { --red: #e10600; --dark: #0f172a; --page: #f8fafc; --border: #e2e8f0; --text: #1e293b; --muted: #64748b; }
-      * { margin:0; padding:0; box-sizing:border-box; }
-      body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:var(--page); color:var(--text); line-height:1.6; }
-      header { background:#fff; border-bottom:3px solid var(--red); padding:16px 24px; box-shadow:0 2px 10px rgba(0,0,0,0.05); position:sticky; top:0; z-index:100; }
-      .header-inner { max-width:1240px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; }
-      .brand { font-size:1.35rem; font-weight:900; color:var(--dark); text-decoration:none; display:flex; align-items:center; gap:8px; }
-      .brand-dot { width:12px; height:12px; background:var(--red); border-radius:3px; }
-      .nav-back { color:var(--muted); text-decoration:none; font-size:0.92rem; font-weight:700; display:inline-flex; align-items:center; gap:6px; }
-      .nav-back:hover { color:var(--red); }
-
-      .cross-nav { background:#0f172a; padding:10px 16px; position:sticky; top:63px; z-index:90; }
-      .cross-inner { max-width:1240px; margin:0 auto; display:flex; gap:10px; overflow-x:auto; }
-      .cross-pill { color:#e2e8f0; text-decoration:none; padding:6px 14px; border-radius:999px; font-size:0.85rem; font-weight:700; background:rgba(255,255,255,0.1); white-space:nowrap; }
-      .cross-pill:hover, .cross-pill.active { background:var(--red); color:#fff; }
-
-      main { max-width:1240px; margin:32px auto; padding:0 20px; }
-      .hero-box { background:linear-gradient(135deg, #0284c7, #0369a1); color:#fff; border-radius:14px; padding:32px; margin-bottom:28px; box-shadow:0 10px 30px rgba(2,132,199,0.15); }
-      .hero-badge { display:inline-flex; align-items:center; gap:6px; background:#fff; color:#0369a1; font-size:0.75rem; font-weight:900; padding:4px 12px; border-radius:999px; letter-spacing:0.5px; margin-bottom:12px; }
-      .hero-title { font-size:2.1rem; font-weight:900; line-height:1.2; margin-bottom:10px; }
-      .hero-desc { color:#e0f2fe; font-size:1.02rem; max-width:850px; }
-
-      .section-heading { font-size:1.35rem; font-weight:900; color:var(--dark); margin:32px 0 16px; display:flex; align-items:center; justify-content:space-between; }
-      .outages-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(340px, 1fr)); gap:18px; margin-bottom:28px; }
-      .outage-card { background:#fff; border:1px solid var(--border); border-radius:12px; padding:20px; box-shadow:0 2px 10px rgba(0,0,0,0.03); display:flex; flex-direction:column; justify-content:space-between; }
-      .outage-card.iski-border { border-left:4px solid #0284c7; }
-      .outage-card.bedas-border { border-left:4px solid #f59e0b; }
-      .outage-card-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; }
-      .outage-badge { font-size:0.75rem; font-weight:800; padding:3px 8px; border-radius:4px; }
-      .iski-badge { background:#e0f2fe; color:#0369a1; }
-      .bedas-badge { background:#fef3c7; color:#b45309; }
-      .outage-status { font-size:0.78rem; font-weight:700; color:#dc2626; }
-      .outage-time { font-size:0.8rem; color:#475569; }
-      .outage-district { font-size:1.15rem; font-weight:800; color:#0f172a; margin-bottom:8px; }
-      .outage-detail { font-size:0.9rem; color:#334155; line-height:1.5; margin-bottom:16px; flex:1; }
-      .outage-call-btn { display:inline-flex; align-items:center; justify-content:center; background:#f1f5f9; color:#0f172a; font-weight:800; font-size:0.88rem; padding:10px 14px; border-radius:8px; text-decoration:none; border:1px solid var(--border); }
-      .outage-call-btn:hover { background:var(--red); color:#fff; border-color:var(--red); }
-
-      .normal-status-box { background:#f0fdf4; border:1px solid #bbf7d0; border-radius:12px; padding:20px; display:flex; align-items:center; gap:16px; margin-bottom:24px; }
-      .normal-icon { font-size:2rem; }
-      .normal-body strong { display:block; font-size:1.05rem; color:#166534; margin-bottom:4px; }
-      .normal-body p { color:#15803d; font-size:0.9rem; }
-
-      /* DAMS GRID */
-      .dams-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:16px; background:#fff; border:1px solid var(--border); border-radius:14px; padding:24px; margin-bottom:32px; }
-      .dam-item { margin-bottom:8px; }
-      .dam-info { display:flex; align-items:center; justify-content:space-between; font-size:0.95rem; margin-bottom:6px; }
-      .dam-bar-track { background:#f1f5f9; height:10px; border-radius:999px; overflow:hidden; }
-      .dam-bar-fill { height:100%; border-radius:999px; }
-
-      .emergency-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:16px; margin-bottom:36px; }
-      .em-card { background:#fff; border:1px solid var(--border); border-radius:10px; padding:18px; display:flex; align-items:center; gap:14px; box-shadow:0 2px 8px rgba(0,0,0,0.03); text-decoration:none; color:inherit; transition:transform 0.2s; }
-      .em-card:hover { transform:translateY(-2px); border-color:#dc2626; }
-      .em-num { width:52px; height:52px; border-radius:50%; background:#fee2e2; color:#dc2626; font-size:1.2rem; font-weight:900; display:grid; place-items:center; flex-shrink:0; }
-      .em-info strong { display:block; font-size:1rem; color:var(--dark); }
-      .em-info span { font-size:0.82rem; color:var(--muted); }
-
-      /* FAQ & NEWS */
-      .faq-section { margin-top:40px; background:#fff; border:1px solid var(--border); border-radius:14px; padding:24px; }
-      .faq-title { font-size:1.35rem; font-weight:900; color:var(--dark); margin-bottom:16px; }
-      .faq-item { border-bottom:1px solid var(--border); padding:14px 0; }
-      .faq-item:last-child { border-bottom:none; }
-      .faq-question { font-weight:800; font-size:1rem; color:#0f172a; }
-      .faq-answer { margin-top:8px; color:#475569; font-size:0.92rem; line-height:1.55; }
-
-      .news-box { margin-top:40px; }
-      .news-title { font-size:1.45rem; font-weight:900; margin-bottom:16px; color:var(--dark); }
-      .service-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:20px; }
-      .istanbul-card { background:#fff; border-radius:10px; overflow:hidden; border:1px solid var(--border); box-shadow:0 2px 8px rgba(0,0,0,0.04); display:flex; flex-direction:column; }
-      .istanbul-card:hover { transform:translateY(-3px); box-shadow:0 10px 24px rgba(0,0,0,0.08); }
-      .istanbul-card-link { text-decoration:none; color:inherit; display:flex; flex-direction:column; height:100%; }
-      .istanbul-card-body { padding:16px; display:flex; flex-direction:column; flex:1; }
-      .istanbul-card-meta { display:flex; align-items:center; gap:8px; font-size:0.75rem; color:var(--muted); margin-bottom:10px; }
-      .istanbul-badge { background:#dbeafe; color:#1e40af; font-weight:800; padding:2px 7px; border-radius:4px; }
-      .istanbul-card-title { font-size:1.02rem; font-weight:700; line-height:1.4; color:var(--dark); margin-bottom:12px; flex:1; }
-      .istanbul-card-footer { display:flex; align-items:center; justify-content:space-between; border-top:1px solid #f1f5f9; padding-top:10px; font-size:0.8rem; color:var(--red); font-weight:800; }
-
-      footer { text-align:center; padding:40px 20px; color:var(--muted); font-size:0.85rem; border-top:1px solid var(--border); margin-top:60px; background:#fff; }
-    </style>
+    body { background: var(--page); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.5; margin: 0; }
+    .header { background: var(--dark); color: white; padding: 14px 20px; border-bottom: 3px solid var(--red); }
+    .header-inner { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+    .header-logo { font-size: 1.25rem; font-weight: 800; color: white; text-decoration: none; }
+    .header-logo span { color: var(--red); }
+    .nav-links { display: flex; gap: 16px; font-size: 0.9rem; }
+    .nav-links a { color: #cbd5e1; text-decoration: none; font-weight: 600; }
+    .nav-links a:hover, .nav-links a.active { color: white; }
+    .container { max-width: 1200px; margin: 24px auto; padding: 0 20px; }
+    .hero-banner { background: linear-gradient(135deg, #0369a1 0%, #0f172a 100%); color: white; border-radius: 12px; padding: 28px; margin-bottom: 24px; }
+    .hero-kicker { color: #7dd3fc; font-size: 0.85rem; font-weight: 800; text-transform: uppercase; }
+    .hero-title { font-size: 1.85rem; font-weight: 800; margin: 6px 0 10px; }
+    .hero-desc { color: #bae6fd; font-size: 1rem; margin: 0; max-width: 760px; }
+    .section-heading { font-size: 1.3rem; font-weight: 800; margin: 28px 0 14px; color: var(--dark); display: flex; align-items: center; justify-content: space-between; }
+    .outages-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; margin-bottom: 24px; }
+    .outage-card { background: white; border-radius: 10px; padding: 20px; border: 1px solid var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; }
+    .outage-badge { font-size: 0.78rem; font-weight: 800; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+    .outage-status { font-size: 0.85rem; font-weight: 800; margin-bottom: 8px; }
+    .outage-status.warn { color: #b45309; }
+    .outage-status.ok { color: #059669; }
+    .outage-status.est { color: #0284c7; }
+    .outage-title { font-size: 1.15rem; font-weight: 800; margin: 0 0 8px; color: var(--dark); }
+    .outage-desc { font-size: 0.92rem; color: #475569; margin-bottom: 16px; line-height: 1.5; }
+    .outage-actions { margin-top: auto; }
+    .btn-action { display: inline-flex; align-items: center; justify-content: center; width: 100%; background: #f1f5f9; color: var(--dark); padding: 10px; border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 0.9rem; transition: background 0.15s; }
+    .btn-action:hover { background: #e2e8f0; }
+    .dams-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-bottom: 30px; }
+    .dam-item { background: white; border: 1px solid var(--border); border-radius: 8px; padding: 16px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); }
+    .dam-info { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+    .dam-name { font-weight: 700; font-size: 0.95rem; color: var(--dark); }
+    .dam-rate { font-size: 1.1rem; color: #0284c7; }
+    .dam-progress { height: 8px; background: #e2e8f0; border-radius: 999px; overflow: hidden; }
+    .dam-bar { height: 100%; border-radius: 999px; transition: width 0.3s ease; }
+    .emergency-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; margin-top: 16px; }
+    .em-card { background: white; border: 1px solid var(--border); border-radius: 8px; padding: 16px; display: flex; gap: 14px; align-items: center; text-decoration: none; color: inherit; transition: transform 0.15s, border-color 0.15s; }
+    .em-card:hover { transform: translateY(-2px); border-color: var(--red); }
+    .em-num { width: 48px; height: 48px; border-radius: 8px; background: #fee2e2; color: var(--red); font-size: 1.25rem; font-weight: 900; display: flex; align-items: center; justify-content: center; }
+    .em-info strong { display: block; font-size: 0.98rem; color: var(--dark); }
+    .em-info span { display: block; font-size: 0.8rem; color: var(--muted); }
+    footer { background: var(--dark); color: #94a3b8; padding: 24px 20px; text-align: center; font-size: 0.85rem; margin-top: 40px; }
+  </style>
 </head>
 <body>
-    <header>
-      <div class="header-inner">
-        <a class="brand" href="/"><span class="brand-dot"></span>mansetradar.com.tr</a>
-        <a class="nav-back" href="/">← Ana Sayfaya Dön</a>
-      </div>
-    </header>
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="header-logo">MANŞET<span>RADAR</span></a>
+      <nav class="nav-links">
+        <a href="/">Ana Sayfa</a>
+        <a href="/hizmet/ulasim/">İETT &amp; Ulaşım</a>
+        <a href="/hizmet/kamu/" class="active">İSKİ &amp; Kesintiler</a>
+        <a href="/hizmet/eczane/">Nöbetçi Eczaneler</a>
+      </nav>
+    </div>
+  </header>
 
-    <nav class="cross-nav" aria-label="Hızlı Hizmet Geçişi">
-      <div class="cross-inner">
-        <a href="/hizmet/ulasim/" class="cross-pill">🚇 Canlı İETT (90)</a>
-        <a href="/hizmet/kamu/" class="cross-pill active">💧 Su &amp; Baraj (%52,24)</a>
-        <a href="/hizmet/eczane/" class="cross-pill">💊 Nöbetçi Eczaneler (130)</a>
-        <a href="/#istanbul-masasi" class="cross-pill">⚡ İstanbul Haberleri</a>
-      </div>
-    </nav>
+  <div class="container">
+    <div class="hero-banner">
+      <span class="hero-kicker">📍 İSKİ &amp; BEDAŞ CANLI KESİNTİ VE ARIZA MASASI</span>
+      <h1 class="hero-title">İstanbul Su &amp; Elektrik Kesintileri ve Baraj Durumu</h1>
+      <p class="hero-desc">İSKİ ve BEDAŞ resmi verileriyle İstanbul'da planlı ve plansız arıza onarımları, etkilenen ilçeler ve baraj doluluk oranları.</p>
+    </div>
 
-    <main>
-        <div class="hero-box">
-          <span class="hero-badge">💧 CANLI KAMU &amp; KESİNTİ RADARI</span>
-          <h1 class="hero-title">İstanbul Su Kesintileri, Elektrik Arızaları &amp; Barajlar</h1>
-          <p class="hero-desc">İSKİ ve BEDAŞ resmi canlı veri akışıyla ilçe ilçe anlık su kesintileri, bakım programları ve güncel baraj doluluk durumları.</p>
-        </div>
+    <div class="section-heading">
+      <span>💧 Canlı İSKİ Su Kesintisi Bildirimleri</span>
+      <a href="tel:185" style="color:var(--red); text-decoration:none; font-size:0.9rem;">📞 Alo 185 Su Arıza Ara →</a>
+    </div>
+    <div class="outages-grid">
 
-        <div class="section-heading">
-          <span>💧 Canlı İSKİ Su Kesintisi Bildirimleri</span>
-          <a href="tel:185" style="color:var(--red); text-decoration:none; font-size:0.9rem;">📞 Alo 185 İSKİ Ara →</a>
-        </div>
-        <div class="outages-grid">
-
-              <div class="outage-card iski-border">
-                <div class="outage-card-top">
-                  <span class="outage-badge iski-badge">💧 İSKİ Su Arızası</span>
-                  <span class="outage-status">⚠️ Ekipler Sahada</span>
-                </div>
-                <h3 class="outage-district">📍 Sultanbeyli İlçesi</h3>
-                <p class="outage-detail">Bölgede <strong>1 adet</strong> ana hat / şebeke arızası onarılmaktadır. Yaklaşık <strong>6 mahallede</strong> basınç düşüklüğü veya kesinti görülebilir.</p>
-                <div class="outage-card-actions">
-                  <a href="tel:185" class="outage-call-btn">📞 Alo 185 İSKİ Arıza Bildir</a>
+              <div class="outage-card iski">
+                <div class="outage-badge">💧 İSKİ Su Arızası</div>
+                <div class="outage-status warn">⚠️ Ekipler Sahada</div>
+                <h3 class="outage-title">📍 Sultangazi İlçesi</h3>
+                <p class="outage-desc">Bölgede <strong>1 adet</strong> ana hat / şebeke arızası onarılmaktadır. Yaklaşık <strong>1 mahallede</strong> basınç düşüklüğü veya su kesintisi yaşanabilir.</p>
+                <div class="outage-actions">
+                  <a href="tel:185" class="btn-action">📞 Alo 185 İSKİ Arıza Bildir</a>
                 </div>
               </div>
-        </div>
+    </div>
 
-        <div class="section-heading">
-          <span>⚡ Canlı BEDAŞ Elektrik Kesintileri &amp; İş Emirleri</span>
-          <a href="tel:186" style="color:var(--red); text-decoration:none; font-size:0.9rem;">📞 Alo 186 Elektrik Arıza Ara →</a>
-        </div>
-        <div class="outages-grid">
+    <div class="section-heading">
+      <span>⚡ Canlı BEDAŞ Elektrik Kesintileri &amp; İş Emirleri</span>
+      <a href="tel:186" style="color:var(--red); text-decoration:none; font-size:0.9rem;">📞 Alo 186 Elektrik Arıza Ara →</a>
+    </div>
+    <div class="outages-grid">
 
-              <div class="outage-card bedas-border">
-                <div class="outage-card-top">
-                  <span class="outage-badge bedas-badge">⚡ Bildirimsiz</span>
-                  <span class="outage-time">⏱️ Tahmini Bitiş: <strong>2026-09-03 23:32</strong></span>
-                </div>
-                <h3 class="outage-district">İş Emri #4841601 (Bölge: 24558)</h3>
-                <p class="outage-detail">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-card-actions">
-                  <a href="tel:186" class="outage-call-btn">📞 Alo 186 Elektrik Arıza Ara</a>
+              <div class="outage-card bedas">
+                <div class="outage-badge">⚡ Bildirimsiz</div>
+                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 01:42</div>
+                <h3 class="outage-title">İş Emri #4841703</h3>
+                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
+                <div class="outage-actions">
+                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
                 </div>
               </div>
-        </div>
+              <div class="outage-card bedas">
+                <div class="outage-badge">⚡ Bildirimsiz</div>
+                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 00:32</div>
+                <h3 class="outage-title">İş Emri #4841601</h3>
+                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
+                <div class="outage-actions">
+                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
+                </div>
+              </div>
+    </div>
 
-        <div class="section-heading">
-          <span>🌊 İstanbul Barajlarının Canlı Doluluk Durumu (Genel Ortalama: %52,24)</span>
-        </div>
-        <div class="dams-grid">
+    <div class="section-heading">
+      <span>🌊 İstanbul Barajlarının Canlı Doluluk Durumu (Genel Ortalama: %52,24)</span>
+    </div>
+    <div class="dams-grid">
 
           <div class="dam-item">
             <div class="dam-info">
-              <strong>Ömerli Barajı</strong>
-              <span style="color:#0284c7; font-weight:900;">%56,12</span>
+              <span class="dam-name">🌊 Ömerli Barajı Barajı</span>
+              <strong class="dam-rate">%56,12</strong>
             </div>
-            <div class="dam-bar-track">
-              <div class="dam-bar-fill" style="width:56.12%; background:#0284c7;"></div>
-            </div>
+            <div class="dam-progress"><div class="dam-bar" style="width:56.12%; background:#0284c7;"></div></div>
           </div>
           <div class="dam-item">
             <div class="dam-info">
-              <strong>Darlık Barajı</strong>
-              <span style="color:#0284c7; font-weight:900;">%58,40</span>
+              <span class="dam-name">🌊 Darlık Barajı Barajı</span>
+              <strong class="dam-rate">%58,40</strong>
             </div>
-            <div class="dam-bar-track">
-              <div class="dam-bar-fill" style="width:58.4%; background:#0284c7;"></div>
-            </div>
+            <div class="dam-progress"><div class="dam-bar" style="width:58.4%; background:#0284c7;"></div></div>
           </div>
           <div class="dam-item">
             <div class="dam-info">
-              <strong>Terkos Barajı</strong>
-              <span style="color:#0284c7; font-weight:900;">%49,85</span>
+              <span class="dam-name">🌊 Terkos Barajı Barajı</span>
+              <strong class="dam-rate">%49,85</strong>
             </div>
-            <div class="dam-bar-track">
-              <div class="dam-bar-fill" style="width:49.85%; background:#0284c7;"></div>
-            </div>
+            <div class="dam-progress"><div class="dam-bar" style="width:49.85%; background:#f59e0b;"></div></div>
           </div>
           <div class="dam-item">
             <div class="dam-info">
-              <strong>Büyükçekmece Barajı</strong>
-              <span style="color:#0284c7; font-weight:900;">%48,20</span>
+              <span class="dam-name">🌊 Büyükçekmece Barajı Barajı</span>
+              <strong class="dam-rate">%48,20</strong>
             </div>
-            <div class="dam-bar-track">
-              <div class="dam-bar-fill" style="width:48.2%; background:#0284c7;"></div>
-            </div>
+            <div class="dam-progress"><div class="dam-bar" style="width:48.2%; background:#f59e0b;"></div></div>
           </div>
           <div class="dam-item">
             <div class="dam-info">
-              <strong>Alibey Barajı</strong>
-              <span style="color:#dc2626; font-weight:900;">%34,10</span>
+              <span class="dam-name">🌊 Alibey Barajı Barajı</span>
+              <strong class="dam-rate">%34,10</strong>
             </div>
-            <div class="dam-bar-track">
-              <div class="dam-bar-fill" style="width:34.1%; background:#dc2626;"></div>
-            </div>
+            <div class="dam-progress"><div class="dam-bar" style="width:34.1%; background:#f59e0b;"></div></div>
           </div>
           <div class="dam-item">
             <div class="dam-info">
-              <strong>Elmalı Barajı</strong>
-              <span style="color:#0284c7; font-weight:900;">%62,50</span>
+              <span class="dam-name">🌊 Elmalı Barajı Barajı</span>
+              <strong class="dam-rate">%62,50</strong>
             </div>
-            <div class="dam-bar-track">
-              <div class="dam-bar-fill" style="width:62.5%; background:#0284c7;"></div>
-            </div>
+            <div class="dam-progress"><div class="dam-bar" style="width:62.5%; background:#0284c7;"></div></div>
           </div>
-        </div>
+    </div>
 
-        <h2 style="font-size:1.4rem; font-weight:800; margin-bottom:16px; color:var(--dark);">📞 Tek Tıkla Ara: Hızlı Kamu &amp; Acil İletişim Numaraları</h2>
-        <div class="emergency-grid">
-          <a class="em-card" href="tel:153">
-            <div class="em-num">153</div>
-            <div class="em-info"><strong>İBB Beyaz Masa</strong><span>İstanbul genel şikayet &amp; bilgi</span></div>
-          </a>
-          <a class="em-card" href="tel:185">
-            <div class="em-num">185</div>
-            <div class="em-info"><strong>İSKİ Su Arıza</strong><span>Su ve kanalizasyon bildirim</span></div>
-          </a>
-          <a class="em-card" href="tel:186">
-            <div class="em-num">186</div>
-            <div class="em-info"><strong>Elektrik Arıza</strong><span>BEDAŞ &amp; AYEDAŞ acil</span></div>
-          </a>
-          <a class="em-card" href="tel:187">
-            <div class="em-num">187</div>
-            <div class="em-info"><strong>İGDAŞ Doğalgaz</strong><span>Doğalgaz acil ihbar hattı</span></div>
-          </a>
-        </div>
+    <h2 style="font-size:1.4rem; font-weight:800; margin-bottom:16px; color:var(--dark);">📞 Tek Tıkla Ara: Hızlı Kamu &amp; Acil İletişim Numaraları</h2>
+    <div class="emergency-grid">
+      <a class="em-card" href="tel:153">
+        <div class="em-num">153</div>
+        <div class="em-info"><strong>İBB Beyaz Masa</strong><span>İstanbul genel şikayet &amp; bilgi</span></div>
+      </a>
+      <a class="em-card" href="tel:185">
+        <div class="em-num">185</div>
+        <div class="em-info"><strong>İSKİ Arıza</strong><span>7/24 Su &amp; Kanalizasyon</span></div>
+      </a>
+      <a class="em-card" href="tel:186">
+        <div class="em-num">186</div>
+        <div class="em-info"><strong>BEDAŞ / AYEDAŞ</strong><span>Elektrik kesinti ve arıza ihbar</span></div>
+      </a>
+      <a class="em-card" href="tel:187">
+        <div class="em-num">187</div>
+        <div class="em-info"><strong>İGDAŞ Doğalgaz</strong><span>Doğalgaz acil müdahale</span></div>
+      </a>
+    </div>
+  </div>
 
-        <!-- SIKÇA SORULAN SORULAR -->
-        <section class="faq-section">
-          <h2 class="faq-title">❓ İstanbul Su Kesintileri ve Baraj Durumu</h2>
-          <div class="faq-item">
-            <div class="faq-question">Bölgemde su kesintisi olduğunda ne yapmalıyım?</div>
-            <div class="faq-answer">Kesinti süresi ve sebebi hakkında detaylı bilgi almak veya arıza bildiriminde bulunmak için 7/24 <strong>ALO 185 İSKİ</strong> çağrı merkezini arayabilirsiniz.</div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question">İstanbul baraj doluluk oranı tehlikeli seviyede mi?</div>
-            <div class="faq-answer">Güncel baraj doluluk oranı <strong>%52,24</strong> seviyesindedir. Su tasarrufu önlemleri her mevsim önemini korumaktadır.</div>
-          </div>
-        </section>
-
-        <!-- SİTEDE TUTAN İÇ HABER AKIŞI -->
-        <div class="news-box">
-          <h2 class="news-title">📍 İstanbul Masası En Son Haberleri</h2>
-          <div class="service-grid">
-
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/72-bin-uyusturucu-hapla-yakaladilar-istanbul_20260902/" aria-label="72 bin uyuşturucu hapla yakaladılar #istanbul">
-          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T08:28:13+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">72 bin uyuşturucu hapla yakaladılar #istanbul</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/a-milli-kadin-basketbol-takimi-dunya-kupasi-nda-3-kez-yer-alacak-istanbul_20260902/" aria-label="A Milli Kadın Basketbol Takımı, Dünya Kupası&#x27;nda 3. kez yer alacak #istanbul">
-          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T08:29:12+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">A Milli Kadın Basketbol Takımı, Dünya Kupası&#x27;nda 3. kez yer alacak #istanbul</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/arabuluculuk-yalaniyla-100-bin-tl-lik-vurgun-genc-reklamciya-dosya-tuzagi-i_20260902/" aria-label="Arabuluculuk yalanıyla 100 bin TL&#x27;lik vurgun! Genç reklamcıya ‘dosya’ tuzağı #istanbul">
-          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T11:31:41+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">Arabuluculuk yalanıyla 100 bin TL&#x27;lik vurgun! Genç reklamcıya ‘dosya’ tuzağı #istanbul</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902/" aria-label="Bakan Uraloğlu açıkladı: İstanbul’a 180 kilometrelik raylı sistem! Yeni metro hatları geliyor...">
-          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T11:22:46+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">Bakan Uraloğlu açıkladı: İstanbul’a 180 kilometrelik raylı sistem! Yeni metro hatları geliyor...</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/havacilik-dunyasi-istanbul-da-bulustu-istanbul_20260902/" aria-label="Havacılık dünyası İstanbul’da buluştu #istanbul">
-          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T10:54:13+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">Havacılık dünyası İstanbul’da buluştu #istanbul</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/istanbul-valiligi-duyurdu-uskudar-belediyesi-nde-secim-tarihi-belli-oldu-is_20260902/" aria-label="İstanbul Valiliği duyurdu: Üsküdar Belediyesi&#x27;nde seçim tarihi belli oldu! #istanbul">
-          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T14:53:38+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">İstanbul Valiliği duyurdu: Üsküdar Belediyesi&#x27;nde seçim tarihi belli oldu! #istanbul</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-          </div>
-        </div>
-    </main>
-    <footer>
-      <p>&copy; 2026 mansetradar.com.tr &middot; Tüm hakları saklıdır. &middot; <a href="/kunye/" style="color:inherit">Künye</a> &middot; <a href="/yayin-ilkeleri/" style="color:inherit">Yayın İlkeleri</a></p>
-    </footer>
+  <footer>
+    <p>&copy; 2026 mansetradar.com.tr &middot; Tüm hakları saklıdır. &middot; Resmi Kaynak: İSKİ, BEDAŞ &amp; İBB &middot; <a href="/kunye/" style="color:inherit">Künye</a></p>
+  </footer>
 </body>
 </html>

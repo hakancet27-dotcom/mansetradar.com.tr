@@ -1,901 +1,640 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>İstanbul Canlı Ulaşım, İETT &amp; Metro Sefer Bildirimleri | mansetradar.com.tr</title>
-    <meta name="description" content="İBB ve İETT Ulaşım Yönetim Merkezi'nden canlı yol kapanmaları, maç/etkinlik güzergah değişiklikleri ve hat bildirimleri.">
-    <link rel="canonical" href="https://mansetradar.com.tr/hizmet/ulasim/">
-    <meta name="robots" content="index,follow">
-    <script type="application/ld+json">
-    {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Ana Sayfa",
-          "item": "https://mansetradar.com.tr/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "İstanbul Masası",
-          "item": "https://mansetradar.com.tr/#istanbul-masasi"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Canlı Ulaşım & İETT",
-          "item": "https://mansetradar.com.tr/hizmet/ulasim/"
-        }
-      ]
-    },
-    {
-      "@type": "GovernmentService",
-      "name": "İstanbul Canlı Ulaşım & İETT Sefer Bildirimleri",
-      "serviceType": "Public Transit Updates",
-      "provider": {
-        "@type": "GovernmentOrganization",
-        "name": "İBB - İETT"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "İstanbul"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "İstanbul'da iptal edilen veya güzergahı değişen İETT hatları nasıl öğrenilir?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "mansetradar.com.tr Ulaşım Masası üzerinden İBB Ulaşım Yönetim Merkezi verileriyle anlık tüm kapalı yollar, maç/etkinlik güzergah değişiklikleri ve gecikmeler canlı olarak sorgulanabilir."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Metrobüs ve Marmaray sefer saatleri güncel mi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Evet, İstanbul'daki tüm metrobüs ve metro hatlarına ait anlık arıza, onarım ve yol durumu bildirimleri sayfamızda saatlik olarak güncellenmektedir."
-          }
-        }
-      ]
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İstanbul Canlı İETT Ulaşım &amp; Sefer Duyuruları | ManşetRadar</title>
+  <meta name="description" content="İBB ve İETT canlı verileriyle İstanbul'da iptal edilen seferler, güzergah değişiklikleri ve kapalı yollar.">
+  <link rel="canonical" href="https://mansetradar.com.tr/hizmet/ulasim/">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    :root {
+      --red: #e10600;
+      --red-dark: #b30000;
+      --dark: #0f172a;
+      --surface: #ffffff;
+      --page: #f8fafc;
+      --border: #e2e8f0;
+      --text: #1e293b;
+      --muted: #64748b;
     }
-  ]
-}
-    </script>
-    <style>
-      :root { --red: #e10600; --dark: #0f172a; --page: #f8fafc; --border: #e2e8f0; --text: #1e293b; --muted: #64748b; }
-      * { margin:0; padding:0; box-sizing:border-box; }
-      body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:var(--page); color:var(--text); line-height:1.6; }
-      header { background:#fff; border-bottom:3px solid var(--red); padding:16px 24px; box-shadow:0 2px 10px rgba(0,0,0,0.05); position:sticky; top:0; z-index:100; }
-      .header-inner { max-width:1240px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; }
-      .brand { font-size:1.35rem; font-weight:900; color:var(--dark); text-decoration:none; display:flex; align-items:center; gap:8px; }
-      .brand-dot { width:12px; height:12px; background:var(--red); border-radius:3px; }
-      .nav-back { color:var(--muted); text-decoration:none; font-size:0.92rem; font-weight:700; display:inline-flex; align-items:center; gap:6px; }
-      .nav-back:hover { color:var(--red); }
-      
-      .cross-nav { background:#0f172a; padding:10px 16px; position:sticky; top:63px; z-index:90; }
-      .cross-inner { max-width:1240px; margin:0 auto; display:flex; gap:10px; overflow-x:auto; }
-      .cross-pill { color:#e2e8f0; text-decoration:none; padding:6px 14px; border-radius:999px; font-size:0.85rem; font-weight:700; background:rgba(255,255,255,0.1); white-space:nowrap; }
-      .cross-pill:hover, .cross-pill.active { background:var(--red); color:#fff; }
-
-      /* FAQ */
-      .faq-section { margin-top:40px; background:#fff; border:1px solid var(--border); border-radius:14px; padding:24px; }
-      .faq-title { font-size:1.35rem; font-weight:900; color:var(--dark); margin-bottom:16px; }
-      .faq-item { border-bottom:1px solid var(--border); padding:14px 0; }
-      .faq-item:last-child { border-bottom:none; }
-      .faq-question { font-weight:800; font-size:1rem; color:#0f172a; }
-      .faq-answer { margin-top:8px; color:#475569; font-size:0.92rem; line-height:1.55; }
-
-      main { max-width:1240px; margin:32px auto; padding:0 20px; }
-      .hero-box { background:linear-gradient(135deg, #1e293b, #0f172a); color:#fff; border-radius:14px; padding:32px; margin-bottom:28px; box-shadow:0 10px 30px rgba(15,23,42,0.12); }
-      .hero-badge { display:inline-flex; align-items:center; gap:6px; background:#dc2626; color:#fff; font-size:0.75rem; font-weight:900; padding:4px 12px; border-radius:999px; letter-spacing:0.5px; margin-bottom:12px; }
-      .hero-title { font-size:2.2rem; font-weight:900; line-height:1.2; margin-bottom:12px; }
-      .hero-desc { color:#94a3b8; font-size:1.05rem; max-width:850px; margin-bottom:24px; }
-      .stats-strip { display:flex; gap:24px; flex-wrap:wrap; border-top:1px solid rgba(255,255,255,0.1); padding-top:20px; }
-      .stat-item strong { display:block; font-size:1.4rem; color:#f8fafc; font-weight:900; }
-      .stat-item span { font-size:0.82rem; color:#94a3b8; }
-
-      .search-container { margin-bottom:24px; background:#fff; padding:20px; border-radius:12px; border:1px solid var(--border); box-shadow:0 4px 12px rgba(0,0,0,0.03); }
-      .search-input { width:100%; padding:14px 18px; border:2px solid var(--border); border-radius:8px; font-size:1.05rem; outline:none; transition:border-color 0.2s; }
-      .search-input:focus { border-color:var(--red); }
-      .quick-chips { display:flex; gap:8px; margin-top:12px; flex-wrap:wrap; }
-      .chip-btn { background:#f1f5f9; border:none; padding:6px 14px; border-radius:999px; font-size:0.82rem; font-weight:700; color:#475569; cursor:pointer; }
-      .chip-btn.active { background:var(--red); color:#fff; }
-
-      .table-wrap { background:#fff; border-radius:12px; border:1px solid var(--border); overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.04); }
-      table { width:100%; border-collapse:collapse; text-align:left; }
-      thead { background:#0f172a; color:#fff; font-size:0.85rem; text-transform:uppercase; letter-spacing:0.5px; }
-      th, td { padding:16px 20px; border-bottom:1px solid var(--border); }
-      tbody tr:hover { background:#f8fafc; }
-      .col-line { width:100px; }
-      .col-name { width:240px; font-weight:700; color:#0f172a; }
-      .col-time { width:120px; }
-      .col-msg { color:#334155; font-size:0.95rem; line-height:1.5; }
-      .line-badge { display:inline-block; background:#0f172a; color:#fff; font-weight:900; font-size:0.95rem; padding:4px 10px; border-radius:6px; }
-      .badge { display:inline-block; padding:4px 8px; border-radius:4px; font-size:0.75rem; font-weight:800; }
-      .badge-kapali { background:#fee2e2; color:#dc2626; }
-      .badge-guzergah { background:#fef3c7; color:#d97706; }
-
-      .news-box { margin-top:40px; }
-      .news-title { font-size:1.45rem; font-weight:900; margin-bottom:16px; color:var(--dark); }
-      .service-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:20px; }
-      .istanbul-card { background:#fff; border-radius:10px; overflow:hidden; border:1px solid var(--border); box-shadow:0 2px 8px rgba(0,0,0,0.04); display:flex; flex-direction:column; }
-      .istanbul-card:hover { transform:translateY(-3px); box-shadow:0 10px 24px rgba(0,0,0,0.08); }
-      .istanbul-card-link { text-decoration:none; color:inherit; display:flex; flex-direction:column; height:100%; }
-      .istanbul-card-body { padding:16px; display:flex; flex-direction:column; flex:1; }
-      .istanbul-card-meta { display:flex; align-items:center; gap:8px; font-size:0.75rem; color:var(--muted); margin-bottom:10px; }
-      .istanbul-badge { background:#dbeafe; color:#1e40af; font-weight:800; padding:2px 7px; border-radius:4px; }
-      .istanbul-card-title { font-size:1.02rem; font-weight:700; line-height:1.4; color:var(--dark); margin-bottom:12px; flex:1; }
-      .istanbul-card-footer { display:flex; align-items:center; justify-content:space-between; border-top:1px solid #f1f5f9; padding-top:10px; font-size:0.8rem; color:var(--red); font-weight:800; }
-
-      footer { text-align:center; padding:40px 20px; color:var(--muted); font-size:0.85rem; border-top:1px solid var(--border); margin-top:60px; background:#fff; }
-      @media (max-width:768px) {
-        .hero-title { font-size:1.6rem; }
-        th:nth-child(2), td:nth-child(2) { display:none; }
-      }
-    </style>
+    body { background: var(--page); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.5; margin: 0; }
+    .header { background: var(--dark); color: white; padding: 14px 20px; border-bottom: 3px solid var(--red); }
+    .header-inner { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+    .header-logo { font-size: 1.25rem; font-weight: 800; color: white; text-decoration: none; }
+    .header-logo span { color: var(--red); }
+    .nav-links { display: flex; gap: 16px; font-size: 0.9rem; }
+    .nav-links a { color: #cbd5e1; text-decoration: none; font-weight: 600; }
+    .nav-links a:hover, .nav-links a.active { color: white; }
+    .container { max-width: 1200px; margin: 24px auto; padding: 0 20px; }
+    .hero-banner { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: white; border-radius: 12px; padding: 28px; margin-bottom: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+    .hero-kicker { color: #38bdf8; font-size: 0.85rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 6px; }
+    .hero-title { font-size: 1.85rem; font-weight: 800; margin: 0 0 10px; }
+    .hero-desc { color: #94a3b8; font-size: 1rem; margin: 0; max-width: 760px; }
+    .quick-chips { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
+    .chip { display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.15); border-radius: 999px; padding: 6px 14px; color: white; font-size: 0.82rem; text-decoration: none; }
+    .chip:hover { background: rgba(255,255,255,0.2); }
+    .search-box { background: white; border-radius: 10px; padding: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); margin-bottom: 20px; display: flex; gap: 12px; align-items: center; }
+    .search-input { flex: 1; border: 1px solid var(--border); border-radius: 6px; padding: 10px 14px; font-size: 0.95rem; outline: none; }
+    .search-input:focus { border-color: var(--red); ring: 2px solid rgba(225,6,0,0.2); }
+    .table-card { background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); overflow: hidden; }
+    .iett-table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.92rem; }
+    .iett-table th { background: #f1f5f9; padding: 12px 16px; font-weight: 700; color: var(--dark); border-bottom: 1px solid var(--border); }
+    .iett-table td { padding: 14px 16px; border-bottom: 1px solid #f1f5f9; vertical-align: top; }
+    .col-line { width: 90px; }
+    .bus-badge { display: inline-block; background: #e0f2fe; color: #0284c7; font-weight: 800; padding: 4px 10px; border-radius: 6px; font-size: 0.88rem; }
+    .col-name { width: 220px; color: var(--dark); }
+    .col-time { width: 85px; color: var(--muted); font-size: 0.85rem; }
+    .col-msg { color: #334155; line-height: 1.5; }
+    footer { background: var(--dark); color: #94a3b8; padding: 24px 20px; text-align: center; font-size: 0.85rem; margin-top: 40px; }
+    @media (max-width: 768px) {
+      .hero-title { font-size: 1.4rem; }
+      .iett-table th:nth-child(2), .iett-table td:nth-child(2) { display: none; }
+    }
+  </style>
 </head>
 <body>
-    <header>
-      <div class="header-inner">
-        <a class="brand" href="/"><span class="brand-dot"></span>mansetradar.com.tr</a>
-        <a class="nav-back" href="/">← Ana Sayfaya Dön</a>
-      </div>
-    </header>
-    <nav class="cross-nav" aria-label="Hızlı Hizmet Geçişi">
-      <div class="cross-inner">
-        <a href="/hizmet/ulasim/" class="cross-pill active">🚇 Canlı İETT (90)</a>
-        <a href="/hizmet/kamu/" class="cross-pill">💧 Su &amp; Baraj (%52,24)</a>
-        <a href="/hizmet/eczane/" class="cross-pill">💊 Nöbetçi Eczaneler (130)</a>
-        <a href="/#istanbul-masasi" class="cross-pill">⚡ İstanbul Haberleri</a>
-      </div>
-    </nav>
-    <main>
-        <div class="hero-box">
-          <span class="hero-badge">🔴 CANLI VERİ AKIŞI</span>
-          <h1 class="hero-title">İstanbul Ulaşım, Metro &amp; İETT Sefer Bildirimleri</h1>
-          <p class="hero-desc">İBB Ulaşım Yönetim Merkezi ve İETT sistemlerinden anlık olarak çekilen canlı yol kapanmaları, maç güzergah değişiklikleri, kaza/onarım ve alternatif rota bildirimleri.</p>
-          <div class="stats-strip">
-            <div class="stat-item"><strong>90</strong><span>Aktif Hat Güncellemesi</span></div>
-            <div class="stat-item"><strong>23°C</strong><span>İstanbul Hava (Parçalı Bulutlu)</span></div>
-            <div class="stat-item"><strong>03.09.2026 20:24</strong><span>Son Doğrulama Saati</span></div>
-            <div class="stat-item"><strong>%100 Teyitli</strong><span>Resmi İBB / İETT Kaynağı</span></div>
-          </div>
-        </div>
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="header-logo">MANŞET<span>RADAR</span></a>
+      <nav class="nav-links">
+        <a href="/">Ana Sayfa</a>
+        <a href="/hizmet/ulasim/" class="active">İETT &amp; Ulaşım</a>
+        <a href="/hizmet/kamu/">İSKİ &amp; Kesintiler</a>
+        <a href="/hizmet/eczane/">Nöbetçi Eczaneler</a>
+      </nav>
+    </div>
+  </header>
 
-        <div class="search-container">
-          <input type="text" id="route-search" class="search-input" placeholder="🔍 Hat kodu, semt veya cadde arayın (Ör: 500T, 10B, Kadıköy, Mecidiyeköy)..." aria-label="Hat ara">
-          <div class="quick-chips">
-            <button class="chip-btn active" data-filter="">Tümü (90)</button>
-            <button class="chip-btn" data-filter="kadiköy">Kadıköy</button>
-            <button class="chip-btn" data-filter="üsküdar">Üsküdar</button>
-            <button class="chip-btn" data-filter="metrobüs">Metrobüs</button>
-            <button class="chip-btn" data-filter="kapali">Kapalı Yollar</button>
-          </div>
-        </div>
+  <div class="container">
+    <div class="hero-banner">
+      <span class="hero-kicker">📍 İBB CANLI ULAŞIM YÖNETİM MERKEZİ</span>
+      <h1 class="hero-title">İstanbul Canlı İETT Sefer Duyuruları &amp; Güzergah Değişiklikleri</h1>
+      <p class="hero-desc">İBB Ulaşım Yönetim Merkezi veritabanından doğrudan çekilen anlık hat iptalleri, kaza/yol kapanmaları ve geçici güzergah düzenlemeleri.</p>
+      <div class="quick-chips">
+        <span class="chip">🚌 86 Aktif Hat Bildirimi</span>
+        <span class="chip">⏱️ Son Güncelleme: 23:55</span>
+        <a class="chip" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ Kesintileri →</a>
+        <a class="chip" href="/hizmet/eczane/">💊 Nöbetçi Eczaneler →</a>
+      </div>
+    </div>
 
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th class="col-line">Hat</th>
-                <th class="col-name">Güzergah</th>
-                <th class="col-time">Saat</th>
-                <th class="col-msg">Canlı Bildirim &amp; Rota Değişikliği</th>
-              </tr>
-            </thead>
-            <tbody id="iett-tbody">
+    <div class="search-box">
+      <input type="text" id="table-search" class="search-input" placeholder="Hat no (örn: 500T, 15F), güzergah adı veya cadde ara..." aria-label="Hat ara">
+    </div>
+
+    <div class="table-card">
+      <table class="iett-table" id="iett-table">
+        <thead>
+          <tr>
+            <th class="col-line">Hat</th>
+            <th class="col-name">Güzergah Adı</th>
+            <th class="col-time">Saat</th>
+            <th class="col-msg">Açıklama / Sefer Değişikliği</th>
+          </tr>
+        </thead>
+        <tbody>
 
           <tr class="iett-row" data-search="10 ü.egt.ars.hastanesi - atasehir / bostanci bostanci peronlar dan saat 23:40 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
-            <td class="col-line"><span class="line-badge">10</span></td>
-            <td class="col-name">Ü.EGT.ARS.HASTANESI - ATASEHIR / BOSTANCI</td>
-            <td class="col-time"><span class="badge badge-guzergah">19:50</span></td>
+            <td class="col-line"><span class="bus-badge">10</span></td>
+            <td class="col-name"><strong>Ü.EGT.ARS.HASTANESI - ATASEHIR / BOSTANCI</strong></td>
+            <td class="col-time"><time>19:50</time></td>
             <td class="col-msg">BOSTANCI PERONLAR dan Saat 23:40 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
           </tr>
           <tr class="iett-row" data-search="10b bostanci - kadiköy maç nedeniyle recep peker caddesi kapalidir. araçlarimiz bostanci yönünde kadiköy duragindan güzergah disina çikarak ihlamur duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">10B</span></td>
-            <td class="col-name">BOSTANCI - KADIKÖY</td>
-            <td class="col-time"><span class="badge badge-guzergah">16:07</span></td>
+            <td class="col-line"><span class="bus-badge">10B</span></td>
+            <td class="col-name"><strong>BOSTANCI - KADIKÖY</strong></td>
+            <td class="col-time"><time>16:07</time></td>
             <td class="col-msg">MAÇ NEDENIYLE RECEP PEKER CADDESI KAPALIDIR. ARAÇLARIMIZ BOSTANCI YÖNÜNDE KADIKÖY DURAGINDAN GÜZERGAH DISINA ÇIKARAK IHLAMUR DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="11üs sultanbeyli - üsküdar yogun trafik nedeniyle fatih bulvari kapalidir. araçlarimiz sultanbeyli peronlara dönüslerde 52.hasanpasa duragindan güzergahtan çikip 55.çiftlik duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">11ÜS</span></td>
-            <td class="col-name">SULTANBEYLI - ÜSKÜDAR</td>
-            <td class="col-time"><span class="badge badge-kapali">15:35</span></td>
+            <td class="col-line"><span class="bus-badge">11ÜS</span></td>
+            <td class="col-name"><strong>SULTANBEYLI - ÜSKÜDAR</strong></td>
+            <td class="col-time"><time>15:35</time></td>
             <td class="col-msg">YOGUN TRAFIK NEDENIYLE FATIH BULVARI KAPALIDIR. ARAÇLARIMIZ SULTANBEYLI PERONLARA DÖNÜSLERDE 52.HASANPASA DURAGINDAN GÜZERGAHTAN ÇIKIP 55.ÇIFTLIK DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="132 akfirat / tepeören - kartal iski çalismasi nedeniyle akfirat caddesi her iki yönde kapalidir. araçlarimiz akfirat kizilay duragindan güzergah disina çikarak akfirat duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">132</span></td>
-            <td class="col-name">AKFIRAT / TEPEÖREN - KARTAL</td>
-            <td class="col-time"><span class="badge badge-guzergah">05:54</span></td>
+            <td class="col-line"><span class="bus-badge">132</span></td>
+            <td class="col-name"><strong>AKFIRAT / TEPEÖREN - KARTAL</strong></td>
+            <td class="col-time"><time>05:54</time></td>
             <td class="col-msg">ISKI ÇALISMASI NEDENIYLE AKFIRAT CADDESI HER IKI YÖNDE KAPALIDIR. ARAÇLARIMIZ AKFIRAT KIZILAY DURAGINDAN GÜZERGAH DISINA ÇIKARAK AKFIRAT DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="133f acarlar sitesi - maltepe / cevizli peronlar alt geçit çalismasi nedeniyle mimar sinan caddesi girisi kapalidir. araçlarimiz acarlara gidiste maltepe sahil duragindan güzergah disina çikarak mehmet akif dur. güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">133F</span></td>
-            <td class="col-name">ACARLAR SITESI - MALTEPE / CEVIZLI PERONLAR</td>
-            <td class="col-time"><span class="badge badge-guzergah">06:35</span></td>
+            <td class="col-line"><span class="bus-badge">133F</span></td>
+            <td class="col-name"><strong>ACARLAR SITESI - MALTEPE / CEVIZLI PERONLAR</strong></td>
+            <td class="col-time"><time>06:35</time></td>
             <td class="col-msg">ALT GEÇIT ÇALISMASI NEDENIYLE MIMAR SINAN CADDESI GIRISI KAPALIDIR. ARAÇLARIMIZ ACARLARA GIDISTE MALTEPE SAHIL DURAGINDAN GÜZERGAH DISINA ÇIKARAK MEHMET AKIF DUR. GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="133f acarlar sitesi - maltepe / cevizli peronlar alt geçit çalismasi nedeniyle mimar sinan caddesi girisi kapalidir. araçlarimiz cevizli peronlara gidiste kaptan sokak duragindan güzergah disina çikarak maltepe sahil dur. güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">133F</span></td>
-            <td class="col-name">ACARLAR SITESI - MALTEPE / CEVIZLI PERONLAR</td>
-            <td class="col-time"><span class="badge badge-guzergah">06:35</span></td>
+            <td class="col-line"><span class="bus-badge">133F</span></td>
+            <td class="col-name"><strong>ACARLAR SITESI - MALTEPE / CEVIZLI PERONLAR</strong></td>
+            <td class="col-time"><time>06:35</time></td>
             <td class="col-msg">ALT GEÇIT ÇALISMASI NEDENIYLE MIMAR SINAN CADDESI GIRISI KAPALIDIR. ARAÇLARIMIZ CEVIZLI PERONLARA GIDISTE KAPTAN SOKAK DURAGINDAN GÜZERGAH DISINA ÇIKARAK MALTEPE SAHIL DUR. GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="145t beylikdüzü - taksim trafik yogunlugu nedeni ile tem yolu kapalidir.araçlarimiz beylikdüzüne dönüste 59.millet caddesi duragindan sonra e-5 güzergâhi ile devam edip 62.haramidere duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">145T</span></td>
-            <td class="col-name">BEYLIKDÜZÜ - TAKSIM</td>
-            <td class="col-time"><span class="badge badge-kapali">15:32</span></td>
+            <td class="col-line"><span class="bus-badge">145T</span></td>
+            <td class="col-name"><strong>BEYLIKDÜZÜ - TAKSIM</strong></td>
+            <td class="col-time"><time>15:32</time></td>
             <td class="col-msg">TRAFIK YOGUNLUGU NEDENI ILE TEM YOLU KAPALIDIR.ARAÇLARIMIZ BEYLIKDÜZÜNE DÖNÜSTE 59.MILLET CADDESI DURAGINDAN SONRA E-5 GÜZERGÂHI ILE DEVAM EDIP 62.HARAMIDERE DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="146b metrokent-eminönü atisalani yanyol asfalt çalismasi nedeniyle kapali oldugundan hattimizin araçlari metrokent yönüne ulubatli duragindan güzergah disina çikarak uludag caddesi duragindan güzergaha girer.">
-            <td class="col-line"><span class="line-badge">146B</span></td>
-            <td class="col-name">METROKENT-EMINÖNÜ</td>
-            <td class="col-time"><span class="badge badge-guzergah">22:16</span></td>
+            <td class="col-line"><span class="bus-badge">146B</span></td>
+            <td class="col-name"><strong>METROKENT-EMINÖNÜ</strong></td>
+            <td class="col-time"><time>22:16</time></td>
             <td class="col-msg">ATISALANI YANYOL ASFALT ÇALISMASI NEDENIYLE KAPALI OLDUGUNDAN HATTIMIZIN ARAÇLARI METROKENT YÖNÜNE ULUBATLI DURAGINDAN GÜZERGAH DISINA ÇIKARAK ULUDAG CADDESI DURAGINDAN GÜZERGAHA GIRER.</td>
           </tr>
           <tr class="iett-row" data-search="14bk çekmeköy/parseller mah - uzunçayir örnek mahallesi yogun trafik nedeniyle kapali otobüslerimiz çekmeköy bld. istikameti mustafa saffet kült. mrk. dur güzergah disina çikar asik veysel anadolu lisesi dur. güzergahina girer.">
-            <td class="col-line"><span class="line-badge">14BK</span></td>
-            <td class="col-name">ÇEKMEKÖY/PARSELLER MAH - UZUNÇAYIR</td>
-            <td class="col-time"><span class="badge badge-kapali">17:54</span></td>
+            <td class="col-line"><span class="bus-badge">14BK</span></td>
+            <td class="col-name"><strong>ÇEKMEKÖY/PARSELLER MAH - UZUNÇAYIR</strong></td>
+            <td class="col-time"><time>17:54</time></td>
             <td class="col-msg">ÖRNEK MAHALLESI YOGUN TRAFIK NEDENIYLE KAPALI OTOBÜSLERIMIZ ÇEKMEKÖY BLD. ISTIKAMETI MUSTAFA SAFFET KÜLT. MRK. DUR GÜZERGAH DISINA ÇIKAR ASIK VEYSEL ANADOLU LISESI DUR. GÜZERGAHINA GIRER.</td>
           </tr>
           <tr class="iett-row" data-search="14f küplüce - kadiköy güzergahtaki yogun trafik nedeniyle araçlarimiz atasoy kalkisli seferlerine 40 dakika ve üzeri rötarli hareket etmektedir.">
-            <td class="col-line"><span class="line-badge">14F</span></td>
-            <td class="col-name">KÜPLÜCE - KADIKÖY</td>
-            <td class="col-time"><span class="badge badge-kapali">16:55</span></td>
+            <td class="col-line"><span class="bus-badge">14F</span></td>
+            <td class="col-name"><strong>KÜPLÜCE - KADIKÖY</strong></td>
+            <td class="col-time"><time>16:55</time></td>
             <td class="col-msg">GÜZERGAHTAKI YOGUN TRAFIK NEDENIYLE ARAÇLARIMIZ ATASOY KALKISLI SEFERLERINE 40 DAKIKA VE ÜZERI RÖTARLI HAREKET ETMEKTEDIR.</td>
           </tr>
           <tr class="iett-row" data-search="16 pendik - kadiköy altgeçit çalismasi nedeniyle bagdat caddesi üsküdar yönü kapalidir. araçlarimiz istasyon yolu duragindan çikarak maltepe duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">16</span></td>
-            <td class="col-name">PENDIK - KADIKÖY</td>
-            <td class="col-time"><span class="badge badge-guzergah">05:51</span></td>
+            <td class="col-line"><span class="bus-badge">16</span></td>
+            <td class="col-name"><strong>PENDIK - KADIKÖY</strong></td>
+            <td class="col-time"><time>05:51</time></td>
             <td class="col-msg">ALTGEÇIT ÇALISMASI NEDENIYLE BAGDAT CADDESI ÜSKÜDAR YÖNÜ KAPALIDIR. ARAÇLARIMIZ ISTASYON YOLU DURAGINDAN ÇIKARAK MALTEPE DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="16u ugur mumcu - üsküdar iski çalismasi nedeniyle fatih sultan mehmet cad kapalidir gidis ve dönüs yönü otobüsler ugurmumcu istikametinde aydinlar sitesi dur. güzergah disina çikarak ugurmumcu duragindan güzergaha girer">
-            <td class="col-line"><span class="line-badge">16U</span></td>
-            <td class="col-name">UGUR MUMCU - ÜSKÜDAR</td>
-            <td class="col-time"><span class="badge badge-guzergah">18:22</span></td>
+            <td class="col-line"><span class="bus-badge">16U</span></td>
+            <td class="col-name"><strong>UGUR MUMCU - ÜSKÜDAR</strong></td>
+            <td class="col-time"><time>18:22</time></td>
             <td class="col-msg">ISKI ÇALISMASI NEDENIYLE FATIH SULTAN MEHMET CAD KAPALIDIR GIDIS VE DÖNÜS YÖNÜ OTOBÜSLER UGURMUMCU ISTIKAMETINDE AYDINLAR SITESI DUR. GÜZERGAH DISINA ÇIKARAK UGURMUMCU DURAGINDAN GÜZERGAHA GIRER</td>
           </tr>
           <tr class="iett-row" data-search="17 pendik - kadiköy altgeçit çalismasi nedeniyle bagdat caddesi üsküdar yönü kapalidir. araçlarimiz istasyon yolu duragindan çikarak maltepe duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">17</span></td>
-            <td class="col-name">PENDIK - KADIKÖY</td>
-            <td class="col-time"><span class="badge badge-guzergah">05:53</span></td>
+            <td class="col-line"><span class="bus-badge">17</span></td>
+            <td class="col-name"><strong>PENDIK - KADIKÖY</strong></td>
+            <td class="col-time"><time>05:53</time></td>
             <td class="col-msg">ALTGEÇIT ÇALISMASI NEDENIYLE BAGDAT CADDESI ÜSKÜDAR YÖNÜ KAPALIDIR. ARAÇLARIMIZ ISTASYON YOLU DURAGINDAN ÇIKARAK MALTEPE DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="17s ugur mumcu - bostanci iski çalismasi nedeniyle fatih sultan mehmet cad kapalidir gidis ve dönüs yönü otobüsler ugurmumcu istikametinde aydinlar sitesi dur. güzergah disina çikarak ugurmumcu duragindan güzergaha girer">
-            <td class="col-line"><span class="line-badge">17S</span></td>
-            <td class="col-name">UGUR MUMCU - BOSTANCI</td>
-            <td class="col-time"><span class="badge badge-guzergah">18:21</span></td>
+            <td class="col-line"><span class="bus-badge">17S</span></td>
+            <td class="col-name"><strong>UGUR MUMCU - BOSTANCI</strong></td>
+            <td class="col-time"><time>18:21</time></td>
             <td class="col-msg">ISKI ÇALISMASI NEDENIYLE FATIH SULTAN MEHMET CAD KAPALIDIR GIDIS VE DÖNÜS YÖNÜ OTOBÜSLER UGURMUMCU ISTIKAMETINDE AYDINLAR SITESI DUR. GÜZERGAH DISINA ÇIKARAK UGURMUMCU DURAGINDAN GÜZERGAHA GIRER</td>
           </tr>
           <tr class="iett-row" data-search="18ys yenidogan-sultanbeyli yogun trafik nedeniyle fatih bulvari kapalidir. araçlarimiz sultanbeyli peronlara dönüslerde 52.hasanpasa duragindan güzergahtan çikip 55.çiftlik duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">18YS</span></td>
-            <td class="col-name">YENIDOGAN-SULTANBEYLI</td>
-            <td class="col-time"><span class="badge badge-kapali">15:35</span></td>
+            <td class="col-line"><span class="bus-badge">18YS</span></td>
+            <td class="col-name"><strong>YENIDOGAN-SULTANBEYLI</strong></td>
+            <td class="col-time"><time>15:35</time></td>
             <td class="col-msg">YOGUN TRAFIK NEDENIYLE FATIH BULVARI KAPALIDIR. ARAÇLARIMIZ SULTANBEYLI PERONLARA DÖNÜSLERDE 52.HASANPASA DURAGINDAN GÜZERGAHTAN ÇIKIP 55.ÇIFTLIK DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="19sb sultanbeyli - bostanci yogun trafik nedeniyle fatih bulvari kapalidir. araçlarimiz sultanbeyli peronlara dönüslerde 52.hasanpasa duragindan güzergahtan çikip 55.çiftlik duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">19SB</span></td>
-            <td class="col-name">SULTANBEYLI - BOSTANCI</td>
-            <td class="col-time"><span class="badge badge-kapali">15:36</span></td>
+            <td class="col-line"><span class="bus-badge">19SB</span></td>
+            <td class="col-name"><strong>SULTANBEYLI - BOSTANCI</strong></td>
+            <td class="col-time"><time>15:36</time></td>
             <td class="col-msg">YOGUN TRAFIK NEDENIYLE FATIH BULVARI KAPALIDIR. ARAÇLARIMIZ SULTANBEYLI PERONLARA DÖNÜSLERDE 52.HASANPASA DURAGINDAN GÜZERGAHTAN ÇIKIP 55.ÇIFTLIK DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="20d sarigazi/yenisehir-kadiköy örnek mahallesi yogun trafik nedeni ile kapalidir. araçlarimiz sarigazi garaji yönünde m. saffet kültür merkezi duragindan çikarak âsik veysel anadolu lisesi duragindan güzergâha girecektir.">
-            <td class="col-line"><span class="line-badge">20D</span></td>
-            <td class="col-name">SARIGAZI/YENISEHIR-KADIKÖY</td>
-            <td class="col-time"><span class="badge badge-kapali">16:44</span></td>
+            <td class="col-line"><span class="bus-badge">20D</span></td>
+            <td class="col-name"><strong>SARIGAZI/YENISEHIR-KADIKÖY</strong></td>
+            <td class="col-time"><time>16:44</time></td>
             <td class="col-msg">ÖRNEK MAHALLESI YOGUN TRAFIK NEDENI ILE KAPALIDIR. ARAÇLARIMIZ SARIGAZI GARAJI YÖNÜNDE M. SAFFET KÜLTÜR MERKEZI DURAGINDAN ÇIKARAK ÂSIK VEYSEL ANADOLU LISESI DURAGINDAN GÜZERGÂHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="29 istinye dereiçi - zincirlikuyu metrobüs kaygan zemin nedeniyle pinar mahallesi kapalidir. araçlarimiz istinye dereiçine gidiste iski duragindan güzergah disina çikarak istinye siteler duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">29</span></td>
-            <td class="col-name">ISTINYE DEREIÇI - ZINCIRLIKUYU METROBÜS</td>
-            <td class="col-time"><span class="badge badge-guzergah">14:08</span></td>
+            <td class="col-line"><span class="bus-badge">29</span></td>
+            <td class="col-name"><strong>ISTINYE DEREIÇI - ZINCIRLIKUYU METROBÜS</strong></td>
+            <td class="col-time"><time>14:08</time></td>
             <td class="col-msg">KAYGAN ZEMIN NEDENIYLE PINAR MAHALLESI KAPALIDIR. ARAÇLARIMIZ ISTINYE DEREIÇINE GIDISTE ISKI DURAGINDAN GÜZERGAH DISINA ÇIKARAK ISTINYE SITELER DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="303b marmara cezaevi - otogar güzergahtaki yogun trafik nedeniyle araçlarimiz otogar kalkisli seferlerine 30 dakika ve üzeri rötarli hareket etmektedir.">
-            <td class="col-line"><span class="line-badge">303B</span></td>
-            <td class="col-name">MARMARA CEZAEVI - OTOGAR</td>
-            <td class="col-time"><span class="badge badge-kapali">08:57</span></td>
+            <td class="col-line"><span class="bus-badge">303B</span></td>
+            <td class="col-name"><strong>MARMARA CEZAEVI - OTOGAR</strong></td>
+            <td class="col-time"><time>08:57</time></td>
             <td class="col-msg">GÜZERGAHTAKI YOGUN TRAFIK NEDENIYLE ARAÇLARIMIZ OTOGAR KALKISLI SEFERLERINE 30 DAKIKA VE ÜZERI RÖTARLI HAREKET ETMEKTEDIR.</td>
           </tr>
           <tr class="iett-row" data-search="30d ortaköy dereboyu - yenikapi galata köprüsü yogun trafik nedeniyle, araçlarimiz yenikapi gidiste karaköy duragindan güzergah disina çikarak unkapani duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">30D</span></td>
-            <td class="col-name">ORTAKÖY DEREBOYU - YENIKAPI</td>
-            <td class="col-time"><span class="badge badge-kapali">15:11</span></td>
+            <td class="col-line"><span class="bus-badge">30D</span></td>
+            <td class="col-name"><strong>ORTAKÖY DEREBOYU - YENIKAPI</strong></td>
+            <td class="col-time"><time>15:11</time></td>
             <td class="col-msg">GALATA KÖPRÜSÜ YOGUN TRAFIK NEDENIYLE, ARAÇLARIMIZ YENIKAPI GIDISTE KARAKÖY DURAGINDAN GÜZERGAH DISINA ÇIKARAK UNKAPANI DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="30d ortaköy dereboyu - yenikapi yogun trafik nedeni ile araçlarimiz ortaköy yönüne dönüste unkapani duragindan çikar karaköy duragindan güzergaha girer">
-            <td class="col-line"><span class="line-badge">30D</span></td>
-            <td class="col-name">ORTAKÖY DEREBOYU - YENIKAPI</td>
-            <td class="col-time"><span class="badge badge-kapali">15:14</span></td>
+            <td class="col-line"><span class="bus-badge">30D</span></td>
+            <td class="col-name"><strong>ORTAKÖY DEREBOYU - YENIKAPI</strong></td>
+            <td class="col-time"><time>15:14</time></td>
             <td class="col-msg">YOGUN TRAFIK NEDENI ILE ARAÇLARIMIZ ORTAKÖY YÖNÜNE DÖNÜSTE UNKAPANI DURAGINDAN ÇIKAR KARAKÖY DURAGINDAN GÜZERGAHA GIRER</td>
           </tr>
           <tr class="iett-row" data-search="32 cevatpasa - eminönü cevatpasa son durakta araç parklanmasi nedeni ile kapalidir.araçlarimiz hafiz sokak duraginda bitis yapip kaptan ahmet erdogan duraginda saatlerine kalkis yapacaktir">
-            <td class="col-line"><span class="line-badge">32</span></td>
-            <td class="col-name">CEVATPASA - EMINÖNÜ</td>
-            <td class="col-time"><span class="badge badge-guzergah">23:25</span></td>
+            <td class="col-line"><span class="bus-badge">32</span></td>
+            <td class="col-name"><strong>CEVATPASA - EMINÖNÜ</strong></td>
+            <td class="col-time"><time>23:25</time></td>
             <td class="col-msg">CEVATPASA SON DURAKTA ARAÇ PARKLANMASI NEDENI ILE KAPALIDIR.ARAÇLARIMIZ HAFIZ SOKAK DURAGINDA BITIS YAPIP KAPTAN AHMET ERDOGAN DURAGINDA SAATLERINE KALKIS YAPACAKTIR</td>
           </tr>
           <tr class="iett-row" data-search="32a cevatpasa - aksaray cevatpasa son durakta araç parklanmasi nedeni ile kapalidir.araçlarimiz hafiz sokak duraginda bitis yapip kaptan ahmet erdogan duraginda saatlerine kalkis yapacaktir">
-            <td class="col-line"><span class="line-badge">32A</span></td>
-            <td class="col-name">CEVATPASA - AKSARAY</td>
-            <td class="col-time"><span class="badge badge-guzergah">23:25</span></td>
+            <td class="col-line"><span class="bus-badge">32A</span></td>
+            <td class="col-name"><strong>CEVATPASA - AKSARAY</strong></td>
+            <td class="col-time"><time>23:25</time></td>
             <td class="col-msg">CEVATPASA SON DURAKTA ARAÇ PARKLANMASI NEDENI ILE KAPALIDIR.ARAÇLARIMIZ HAFIZ SOKAK DURAGINDA BITIS YAPIP KAPTAN AHMET ERDOGAN DURAGINDA SAATLERINE KALKIS YAPACAKTIR</td>
           </tr>
           <tr class="iett-row" data-search="32m cevatpasa - mecidiyeköy cevatpasa son durakta araç parklanmasi nedeni ile kapalidir.araçlarimiz hafiz sokak duraginda bitis yapip kaptan ahmet erdogan duraginda saatlerine kalkis yapacaktir">
-            <td class="col-line"><span class="line-badge">32M</span></td>
-            <td class="col-name">CEVATPASA - MECIDIYEKÖY</td>
-            <td class="col-time"><span class="badge badge-guzergah">23:25</span></td>
+            <td class="col-line"><span class="bus-badge">32M</span></td>
+            <td class="col-name"><strong>CEVATPASA - MECIDIYEKÖY</strong></td>
+            <td class="col-time"><time>23:25</time></td>
             <td class="col-msg">CEVATPASA SON DURAKTA ARAÇ PARKLANMASI NEDENI ILE KAPALIDIR.ARAÇLARIMIZ HAFIZ SOKAK DURAGINDA BITIS YAPIP KAPTAN AHMET ERDOGAN DURAGINDA SAATLERINE KALKIS YAPACAKTIR</td>
           </tr>
           <tr class="iett-row" data-search="32t cevatpasa - taksim cevatpasa son durakta araç parklanmasi nedeni ile kapalidir.araçlarimiz hafiz sokak duraginda bitis yapip kaptan ahmet erdogan duraginda saatlerine kalkis yapacaktir">
-            <td class="col-line"><span class="line-badge">32T</span></td>
-            <td class="col-name">CEVATPASA - TAKSIM</td>
-            <td class="col-time"><span class="badge badge-guzergah">23:25</span></td>
+            <td class="col-line"><span class="bus-badge">32T</span></td>
+            <td class="col-name"><strong>CEVATPASA - TAKSIM</strong></td>
+            <td class="col-time"><time>23:25</time></td>
             <td class="col-msg">CEVATPASA SON DURAKTA ARAÇ PARKLANMASI NEDENI ILE KAPALIDIR.ARAÇLARIMIZ HAFIZ SOKAK DURAGINDA BITIS YAPIP KAPTAN AHMET ERDOGAN DURAGINDA SAATLERINE KALKIS YAPACAKTIR</td>
           </tr>
           <tr class="iett-row" data-search="33y giyimkent / yüzyil mahallesi - eminönü parklanma nedeniyle 42 evler kapalidir.araçlarimiz sehit türkmen tekin duragindan güzergah disina çikarak yüz yil duragindan güzergaha girecektir.(gidis-dönüs bu güzergah kullanilacaktir)">
-            <td class="col-line"><span class="line-badge">33Y</span></td>
-            <td class="col-name">GIYIMKENT / YÜZYIL MAHALLESI - EMINÖNÜ</td>
-            <td class="col-time"><span class="badge badge-guzergah">07:39</span></td>
+            <td class="col-line"><span class="bus-badge">33Y</span></td>
+            <td class="col-name"><strong>GIYIMKENT / YÜZYIL MAHALLESI - EMINÖNÜ</strong></td>
+            <td class="col-time"><time>07:39</time></td>
             <td class="col-msg">PARKLANMA NEDENIYLE 42 EVLER KAPALIDIR.ARAÇLARIMIZ SEHIT TÜRKMEN TEKIN DURAGINDAN GÜZERGAH DISINA ÇIKARAK YÜZ YIL DURAGINDAN GÜZERGAHA GIRECEKTIR.(GIDIS-DÖNÜS BU GÜZERGAH KULLANILACAKTIR)</td>
           </tr>
-          <tr class="iett-row" data-search="34as avcilar - sögütlüçesme sögütlüçesme dan saat 22:58 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
-            <td class="col-line"><span class="line-badge">34AS</span></td>
-            <td class="col-name">AVCILAR - SÖGÜTLÜÇESME</td>
-            <td class="col-time"><span class="badge badge-guzergah">04:06</span></td>
-            <td class="col-msg">SÖGÜTLÜÇESME dan Saat 22:58 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
-          </tr>
-          <tr class="iett-row" data-search="34as avcilar - sögütlüçesme sögütlüçesme dan saat 22:59 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
-            <td class="col-line"><span class="line-badge">34AS</span></td>
-            <td class="col-name">AVCILAR - SÖGÜTLÜÇESME</td>
-            <td class="col-time"><span class="badge badge-guzergah">04:06</span></td>
-            <td class="col-msg">SÖGÜTLÜÇESME dan Saat 22:59 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
-          </tr>
           <tr class="iett-row" data-search="34as avcilar - sögütlüçesme zincirlikuyu dan saat 23:28 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
-            <td class="col-line"><span class="line-badge">34AS</span></td>
-            <td class="col-name">AVCILAR - SÖGÜTLÜÇESME</td>
-            <td class="col-time"><span class="badge badge-guzergah">04:06</span></td>
+            <td class="col-line"><span class="bus-badge">34AS</span></td>
+            <td class="col-name"><strong>AVCILAR - SÖGÜTLÜÇESME</strong></td>
+            <td class="col-time"><time>04:06</time></td>
             <td class="col-msg">ZINCIRLIKUYU dan Saat 23:28 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
           </tr>
+          <tr class="iett-row" data-search="34c beylikdüzü-cevizlibag b.sondurak dan saat 23:34 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
+            <td class="col-line"><span class="bus-badge">34C</span></td>
+            <td class="col-name"><strong>BEYLIKDÜZÜ-CEVIZLIBAG</strong></td>
+            <td class="col-time"><time>04:06</time></td>
+            <td class="col-msg">B.SONDURAK dan Saat 23:34 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
+          </tr>
+          <tr class="iett-row" data-search="34c beylikdüzü-cevizlibag b.sondurak dan saat 23:40 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
+            <td class="col-line"><span class="bus-badge">34C</span></td>
+            <td class="col-name"><strong>BEYLIKDÜZÜ-CEVIZLIBAG</strong></td>
+            <td class="col-time"><time>04:06</time></td>
+            <td class="col-msg">B.SONDURAK dan Saat 23:40 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
+          </tr>
+          <tr class="iett-row" data-search="34g beylikdüzü-sögütlüçesme b.sondurak dan saat 01:54 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
+            <td class="col-line"><span class="bus-badge">34G</span></td>
+            <td class="col-name"><strong>BEYLIKDÜZÜ-SÖGÜTLÜÇESME</strong></td>
+            <td class="col-time"><time>04:06</time></td>
+            <td class="col-msg">B.SONDURAK dan Saat 01:54 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
+          </tr>
           <tr class="iett-row" data-search="34g beylikdüzü-sögütlüçesme sögütlüçesme dan saat 00:10 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
-            <td class="col-line"><span class="line-badge">34G</span></td>
-            <td class="col-name">BEYLIKDÜZÜ-SÖGÜTLÜÇESME</td>
-            <td class="col-time"><span class="badge badge-guzergah">04:06</span></td>
+            <td class="col-line"><span class="bus-badge">34G</span></td>
+            <td class="col-name"><strong>BEYLIKDÜZÜ-SÖGÜTLÜÇESME</strong></td>
+            <td class="col-time"><time>04:06</time></td>
             <td class="col-msg">SÖGÜTLÜÇESME dan Saat 00:10 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
           </tr>
           <tr class="iett-row" data-search="36ay arnavutköy - yenibosna metro güzergahta yogun trafik nedeni ile dönüs de araçlarimiz seferlerine 30 dakika ve üzeri rötarli hareket etmektedir.">
-            <td class="col-line"><span class="line-badge">36AY</span></td>
-            <td class="col-name">ARNAVUTKÖY - YENIBOSNA METRO</td>
-            <td class="col-time"><span class="badge badge-kapali">15:19</span></td>
+            <td class="col-line"><span class="bus-badge">36AY</span></td>
+            <td class="col-name"><strong>ARNAVUTKÖY - YENIBOSNA METRO</strong></td>
+            <td class="col-time"><time>15:19</time></td>
             <td class="col-msg">GÜZERGAHTA YOGUN TRAFIK NEDENI ILE DÖNÜS DE ARAÇLARIMIZ SEFERLERINE 30 DAKIKA VE ÜZERI RÖTARLI HAREKET ETMEKTEDIR.</td>
           </tr>
           <tr class="iett-row" data-search="38 sultangazi peron-aksaray aksaraya gidislerde karayollari duraginda istinat duravinin yikilmasi nedeniyle kapali hattin araçlari sarikent sitesi duragindan güzergahtan çikar 634. sokak duragindan güzergaha girer.">
-            <td class="col-line"><span class="line-badge">38</span></td>
-            <td class="col-name">SULTANGAZI PERON-AKSARAY</td>
-            <td class="col-time"><span class="badge badge-guzergah">06:52</span></td>
+            <td class="col-line"><span class="bus-badge">38</span></td>
+            <td class="col-name"><strong>SULTANGAZI PERON-AKSARAY</strong></td>
+            <td class="col-time"><time>06:52</time></td>
             <td class="col-msg">AKSARAYA GIDISLERDE KARAYOLLARI DURAGINDA ISTINAT DURAVININ YIKILMASI NEDENIYLE KAPALI HATTIN ARAÇLARI SARIKENT SITESI DURAGINDAN GÜZERGAHTAN ÇIKAR 634. SOKAK DURAGINDAN GÜZERGAHA GIRER.</td>
           </tr>
           <tr class="iett-row" data-search="38 sultangazi peron-aksaray 29 ekim provasi sebebi ile vatan caddesi kapali. araçlarimiz beyazit yönüne gidiste edirnekapi kaleboyu duragindan güzergahindan ayrilarak millet cad. kullanarak aksaray iski&#x27;den dönerek tekrar edirnekapi 
 duragindan güzergahina girecektir.">
-            <td class="col-line"><span class="line-badge">38</span></td>
-            <td class="col-name">SULTANGAZI PERON-AKSARAY</td>
-            <td class="col-time"><span class="badge badge-guzergah">07:14</span></td>
+            <td class="col-line"><span class="bus-badge">38</span></td>
+            <td class="col-name"><strong>SULTANGAZI PERON-AKSARAY</strong></td>
+            <td class="col-time"><time>07:14</time></td>
             <td class="col-msg">29 EKIM PROVASI SEBEBI ILE VATAN CADDESI KAPALI. ARAÇLARIMIZ BEYAZIT YÖNÜNE GIDISTE EDIRNEKAPI KALEBOYU DURAGINDAN GÜZERGAHINDAN AYRILARAK MILLET CAD. KULLANARAK AKSARAY ISKI&#x27;DEN DÖNEREK TEKRAR EDIRNEKAPI 
 DURAGINDAN GÜZERGAHINA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="39d yesilpinar - yenikapi kapali olan yenikapi peron alani güzergahimiz normale dönmüstür.">
-            <td class="col-line"><span class="line-badge">39D</span></td>
-            <td class="col-name">YESILPINAR - YENIKAPI</td>
-            <td class="col-time"><span class="badge badge-guzergah">20:31</span></td>
+            <td class="col-line"><span class="bus-badge">39D</span></td>
+            <td class="col-name"><strong>YESILPINAR - YENIKAPI</strong></td>
+            <td class="col-time"><time>20:31</time></td>
             <td class="col-msg">KAPALI OLAN YENIKAPI PERON ALANI GÜZERGAHIMIZ NORMALE DÖNMÜSTÜR.</td>
           </tr>
           <tr class="iett-row" data-search="4 maltepe sahil - kadiköy maç nedeniyle recep peker caddesi kapalidir. araçlarimiz bostanci yönünde kadiköy duragindan güzergah disina çikarak ihlamur duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">4</span></td>
-            <td class="col-name">MALTEPE SAHIL - KADIKÖY</td>
-            <td class="col-time"><span class="badge badge-guzergah">16:07</span></td>
+            <td class="col-line"><span class="bus-badge">4</span></td>
+            <td class="col-name"><strong>MALTEPE SAHIL - KADIKÖY</strong></td>
+            <td class="col-time"><time>16:07</time></td>
             <td class="col-msg">MAÇ NEDENIYLE RECEP PEKER CADDESI KAPALIDIR. ARAÇLARIMIZ BOSTANCI YÖNÜNDE KADIKÖY DURAGINDAN GÜZERGAH DISINA ÇIKARAK IHLAMUR DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="41at ayazaga - davutpasa y.t.ü güzergahtaki yogun trafik nedeniyle araçlarimiz ayazaga kalkisli seferlerine 20 dakika ve üzeri rötarli hareket etmektedir.">
-            <td class="col-line"><span class="line-badge">41AT</span></td>
-            <td class="col-name">AYAZAGA - DAVUTPASA Y.T.Ü</td>
-            <td class="col-time"><span class="badge badge-kapali">09:08</span></td>
+            <td class="col-line"><span class="bus-badge">41AT</span></td>
+            <td class="col-name"><strong>AYAZAGA - DAVUTPASA Y.T.Ü</strong></td>
+            <td class="col-time"><time>09:08</time></td>
             <td class="col-msg">GÜZERGAHTAKI YOGUN TRAFIK NEDENIYLE ARAÇLARIMIZ AYAZAGA KALKISLI SEFERLERINE 20 DAKIKA VE ÜZERI RÖTARLI HAREKET ETMEKTEDIR.</td>
           </tr>
           <tr class="iett-row" data-search="41e ayazaga - kabatas güzergahtaki yogun trafik nedeniyle araçlarimiz ayazaga kalkisli seferlerine 20 dakika ve üzeri rötarli hareket etmektedir.">
-            <td class="col-line"><span class="line-badge">41E</span></td>
-            <td class="col-name">AYAZAGA - KABATAS</td>
-            <td class="col-time"><span class="badge badge-kapali">09:12</span></td>
+            <td class="col-line"><span class="bus-badge">41E</span></td>
+            <td class="col-name"><strong>AYAZAGA - KABATAS</strong></td>
+            <td class="col-time"><time>09:12</time></td>
             <td class="col-msg">GÜZERGAHTAKI YOGUN TRAFIK NEDENIYLE ARAÇLARIMIZ AYAZAGA KALKISLI SEFERLERINE 20 DAKIKA VE ÜZERI RÖTARLI HAREKET ETMEKTEDIR.</td>
           </tr>
           <tr class="iett-row" data-search="458 gürpinar - avcilar metrobüs volvo kavsagi asfalt çalismasi nedeniyle kapali araçlarimiz birinci ada duragindan güzergahtan çikip bati trakya bulvari duragindan güzergaha girer.">
-            <td class="col-line"><span class="line-badge">458</span></td>
-            <td class="col-name">GÜRPINAR - AVCILAR METROBÜS</td>
-            <td class="col-time"><span class="badge badge-guzergah">16:53</span></td>
+            <td class="col-line"><span class="bus-badge">458</span></td>
+            <td class="col-name"><strong>GÜRPINAR - AVCILAR METROBÜS</strong></td>
+            <td class="col-time"><time>16:53</time></td>
             <td class="col-msg">VOLVO KAVSAGI ASFALT ÇALISMASI NEDENIYLE KAPALI ARAÇLARIMIZ BIRINCI ADA DURAGINDAN GÜZERGAHTAN ÇIKIP BATI TRAKYA BULVARI DURAGINDAN GÜZERGAHA GIRER.</td>
           </tr>
           <tr class="iett-row" data-search="458 gürpinar - avcilar metrobüs volvo kavsagi asfalt çalismasi nedeniyle kapali araçlarimiz birinci ada duragindan güzergahtan çikip bati trakya bulvari duragindan güzergaha girer.">
-            <td class="col-line"><span class="line-badge">458</span></td>
-            <td class="col-name">GÜRPINAR - AVCILAR METROBÜS</td>
-            <td class="col-time"><span class="badge badge-guzergah">17:06</span></td>
+            <td class="col-line"><span class="bus-badge">458</span></td>
+            <td class="col-name"><strong>GÜRPINAR - AVCILAR METROBÜS</strong></td>
+            <td class="col-time"><time>17:06</time></td>
             <td class="col-msg">VOLVO KAVSAGI ASFALT ÇALISMASI NEDENIYLE KAPALI ARAÇLARIMIZ BIRINCI ADA DURAGINDAN GÜZERGAHTAN ÇIKIP BATI TRAKYA BULVARI DURAGINDAN GÜZERGAHA GIRER.</td>
           </tr>
           <tr class="iett-row" data-search="48d göktürk - haciosman metro köprübasi mahallesi yönüne göktürk caddesi parklanma nedeniyle kapalidir. araçlarimiz hosdere duragindan güzergah disina çikarak kale sokak duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">48D</span></td>
-            <td class="col-name">GÖKTÜRK - HACIOSMAN METRO</td>
-            <td class="col-time"><span class="badge badge-guzergah">07:40</span></td>
+            <td class="col-line"><span class="bus-badge">48D</span></td>
+            <td class="col-name"><strong>GÖKTÜRK - HACIOSMAN METRO</strong></td>
+            <td class="col-time"><time>07:40</time></td>
             <td class="col-msg">KÖPRÜBASI MAHALLESI YÖNÜNE GÖKTÜRK CADDESI PARKLANMA NEDENIYLE KAPALIDIR. ARAÇLARIMIZ HOSDERE DURAGINDAN GÜZERGAH DISINA ÇIKARAK KALE SOKAK DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="48l göktürk - 4.levent metro köprübasi mahallesi yönü göktürk caddesi parklanma nedeniyle kapali. araçlarimiz hosdere duragindan güzergah disina çikarak kale sokak duragindan güzergaha girer.">
-            <td class="col-line"><span class="line-badge">48L</span></td>
-            <td class="col-name">GÖKTÜRK - 4.LEVENT METRO</td>
-            <td class="col-time"><span class="badge badge-guzergah">10:59</span></td>
+            <td class="col-line"><span class="bus-badge">48L</span></td>
+            <td class="col-name"><strong>GÖKTÜRK - 4.LEVENT METRO</strong></td>
+            <td class="col-time"><time>10:59</time></td>
             <td class="col-msg">KÖPRÜBASI MAHALLESI YÖNÜ GÖKTÜRK CADDESI PARKLANMA NEDENIYLE KAPALI. ARAÇLARIMIZ HOSDERE DURAGINDAN GÜZERGAH DISINA ÇIKARAK KALE SOKAK DURAGINDAN GÜZERGAHA GIRER.</td>
           </tr>
           <tr class="iett-row" data-search="48t hamidiye mahallesi - taksim yogun trafik nedeniyle taksim duragi kapalidir. araçlarimiz gümüssuyu?na gidiste besiktas stadyumu duragindan güzergah disina çikarak gümüssuyu duragindan güzergaha girecektir">
-            <td class="col-line"><span class="line-badge">48T</span></td>
-            <td class="col-name">HAMIDIYE MAHALLESI - TAKSIM</td>
-            <td class="col-time"><span class="badge badge-kapali">14:05</span></td>
+            <td class="col-line"><span class="bus-badge">48T</span></td>
+            <td class="col-name"><strong>HAMIDIYE MAHALLESI - TAKSIM</strong></td>
+            <td class="col-time"><time>14:05</time></td>
             <td class="col-msg">YOGUN TRAFIK NEDENIYLE TAKSIM DURAGI KAPALIDIR. ARAÇLARIMIZ GÜMÜSSUYU?NA GIDISTE BESIKTAS STADYUMU DURAGINDAN GÜZERGAH DISINA ÇIKARAK GÜMÜSSUYU DURAGINDAN GÜZERGAHA GIRECEKTIR</td>
           </tr>
           <tr class="iett-row" data-search="48t hamidiye mahallesi - taksim yogun trafik nedeniyle taksim duragi kapalidir. araçlarimiz gümüssuyu?na gidiste besiktas stadyumu duragindan güzergah disina çikarak gümüssuyu duragindan güzergaha girecektir">
-            <td class="col-line"><span class="line-badge">48T</span></td>
-            <td class="col-name">HAMIDIYE MAHALLESI - TAKSIM</td>
-            <td class="col-time"><span class="badge badge-kapali">18:23</span></td>
+            <td class="col-line"><span class="bus-badge">48T</span></td>
+            <td class="col-name"><strong>HAMIDIYE MAHALLESI - TAKSIM</strong></td>
+            <td class="col-time"><time>18:23</time></td>
             <td class="col-msg">YOGUN TRAFIK NEDENIYLE TAKSIM DURAGI KAPALIDIR. ARAÇLARIMIZ GÜMÜSSUYU?NA GIDISTE BESIKTAS STADYUMU DURAGINDAN GÜZERGAH DISINA ÇIKARAK GÜMÜSSUYU DURAGINDAN GÜZERGAHA GIRECEKTIR</td>
           </tr>
           <tr class="iett-row" data-search="49z yesilpinar - zincirlikuyu metrobüs parklanma nedeniyle çamlik caddesi durak mevki kapali. araçlarimiz yesilpinar yönüne mevlana duragindan güzergah disina çikarak saya hilal camii duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">49Z</span></td>
-            <td class="col-name">YESILPINAR - ZINCIRLIKUYU METROBÜS</td>
-            <td class="col-time"><span class="badge badge-guzergah">17:37</span></td>
+            <td class="col-line"><span class="bus-badge">49Z</span></td>
+            <td class="col-name"><strong>YESILPINAR - ZINCIRLIKUYU METROBÜS</strong></td>
+            <td class="col-time"><time>17:37</time></td>
             <td class="col-msg">PARKLANMA NEDENIYLE ÇAMLIK CADDESI DURAK MEVKI KAPALI. ARAÇLARIMIZ YESILPINAR YÖNÜNE MEVLANA DURAGINDAN GÜZERGAH DISINA ÇIKARAK SAYA HILAL CAMII DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="50g göktürk - taksim köprübasi mahallesi yönüne göktürk caddesi parklanma nedeniyle kapalidir. araçlarimiz hosdere duragindan güzergah disina çikarak kale sokak duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">50G</span></td>
-            <td class="col-name">GÖKTÜRK - TAKSIM</td>
-            <td class="col-time"><span class="badge badge-guzergah">07:08</span></td>
+            <td class="col-line"><span class="bus-badge">50G</span></td>
+            <td class="col-name"><strong>GÖKTÜRK - TAKSIM</strong></td>
+            <td class="col-time"><time>07:08</time></td>
             <td class="col-msg">KÖPRÜBASI MAHALLESI YÖNÜNE GÖKTÜRK CADDESI PARKLANMA NEDENIYLE KAPALIDIR. ARAÇLARIMIZ HOSDERE DURAGINDAN GÜZERGAH DISINA ÇIKARAK KALE SOKAK DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
-          <tr class="iett-row" data-search="50n alibeyköy - taksim alibeyköy metro dan saat 23:10 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
-            <td class="col-line"><span class="line-badge">50N</span></td>
-            <td class="col-name">ALIBEYKÖY - TAKSIM</td>
-            <td class="col-time"><span class="badge badge-guzergah">17:23</span></td>
-            <td class="col-msg">ALIBEYKÖY METRO dan Saat 23:10 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
-          </tr>
           <tr class="iett-row" data-search="55t gaziosmanpasa - taksim kapali güzergah nedeniyle otolarimiz taksim yönüne . 10 feshane duragindan güzergahtan çikarak 12. balat hastanesi duragindan güzergaha girer.">
-            <td class="col-line"><span class="line-badge">55T</span></td>
-            <td class="col-name">GAZIOSMANPASA - TAKSIM</td>
-            <td class="col-time"><span class="badge badge-guzergah">15:42</span></td>
+            <td class="col-line"><span class="bus-badge">55T</span></td>
+            <td class="col-name"><strong>GAZIOSMANPASA - TAKSIM</strong></td>
+            <td class="col-time"><time>15:42</time></td>
             <td class="col-msg">KAPALI GÜZERGAH NEDENIYLE OTOLARIMIZ TAKSIM YÖNÜNE . 10 FESHANE DURAGINDAN GÜZERGAHTAN ÇIKARAK 12. BALAT HASTANESI DURAGINDAN GÜZERGAHA GIRER.</td>
           </tr>
           <tr class="iett-row" data-search="66z zincirlidere - sisli sivil araç parklanmasi nedeniyle konyali camii duragi kapalidir. araçlarimiz zincirlidereye dönüste sisli merkez duragindan güzergah disina çikarak filiz camii duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">66Z</span></td>
-            <td class="col-name">ZINCIRLIDERE - SISLI</td>
-            <td class="col-time"><span class="badge badge-guzergah">06:49</span></td>
+            <td class="col-line"><span class="bus-badge">66Z</span></td>
+            <td class="col-name"><strong>ZINCIRLIDERE - SISLI</strong></td>
+            <td class="col-time"><time>06:49</time></td>
             <td class="col-msg">SIVIL ARAÇ PARKLANMASI NEDENIYLE KONYALI CAMII DURAGI KAPALIDIR. ARAÇLARIMIZ ZINCIRLIDEREYE DÖNÜSTE SISLI MERKEZ DURAGINDAN GÜZERGAH DISINA ÇIKARAK FILIZ CAMII DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="76tm tepekent - haramidere *hanimaga cad. insaat çalismasi nedeni ile kapali otobüslerimiz avcilar yönünde tirmik sokak duragindan güzergâhtan çikarlar çigdem cad. duragindan güzergâha girer.">
-            <td class="col-line"><span class="line-badge">76TM</span></td>
-            <td class="col-name">TEPEKENT - HARAMIDERE</td>
-            <td class="col-time"><span class="badge badge-guzergah">08:37</span></td>
+            <td class="col-line"><span class="bus-badge">76TM</span></td>
+            <td class="col-name"><strong>TEPEKENT - HARAMIDERE</strong></td>
+            <td class="col-time"><time>08:37</time></td>
             <td class="col-msg">*HANIMAGA CAD. INSAAT ÇALISMASI NEDENI ILE KAPALI OTOBÜSLERIMIZ AVCILAR YÖNÜNDE TIRMIK SOKAK DURAGINDAN GÜZERGÂHTAN ÇIKARLAR ÇIGDEM CAD. DURAGINDAN GÜZERGÂHA GIRER.</td>
           </tr>
           <tr class="iett-row" data-search="76tm tepekent - haramidere *hanimaga cad. insaat çalismasi nedeni ile kapali otobüslerimiz avcilar yönünde tirmik sokak duragindan güzergâhtan çikarlar araç muayene istasyonu duragindan güzergâha girer.">
-            <td class="col-line"><span class="line-badge">76TM</span></td>
-            <td class="col-name">TEPEKENT - HARAMIDERE</td>
-            <td class="col-time"><span class="badge badge-guzergah">09:30</span></td>
+            <td class="col-line"><span class="bus-badge">76TM</span></td>
+            <td class="col-name"><strong>TEPEKENT - HARAMIDERE</strong></td>
+            <td class="col-time"><time>09:30</time></td>
             <td class="col-msg">*HANIMAGA CAD. INSAAT ÇALISMASI NEDENI ILE KAPALI OTOBÜSLERIMIZ AVCILAR YÖNÜNDE TIRMIK SOKAK DURAGINDAN GÜZERGÂHTAN ÇIKARLAR ARAÇ MUAYENE ISTASYONU DURAGINDAN GÜZERGÂHA GIRER.</td>
           </tr>
           <tr class="iett-row" data-search="76tm tepekent - haramidere *hanimaga cad. insaat çalismasi nedeni ile kapali otobüslerimiz tepekent yönünde araç muayene istasyonu duragindan güzergâhtan çikarlar tirmik sokak duragindan güzergâha girerler.">
-            <td class="col-line"><span class="line-badge">76TM</span></td>
-            <td class="col-name">TEPEKENT - HARAMIDERE</td>
-            <td class="col-time"><span class="badge badge-guzergah">09:30</span></td>
+            <td class="col-line"><span class="bus-badge">76TM</span></td>
+            <td class="col-name"><strong>TEPEKENT - HARAMIDERE</strong></td>
+            <td class="col-time"><time>09:30</time></td>
             <td class="col-msg">*HANIMAGA CAD. INSAAT ÇALISMASI NEDENI ILE KAPALI OTOBÜSLERIMIZ TEPEKENT YÖNÜNDE ARAÇ MUAYENE ISTASYONU DURAGINDAN GÜZERGÂHTAN ÇIKARLAR TIRMIK SOKAK DURAGINDAN GÜZERGÂHA GIRERLER.</td>
           </tr>
           <tr class="iett-row" data-search="76tm tepekent - haramidere *hanimaga cad. insaat çalismasi nedeni ile kapali otobüslerimiz avcilar yönünde tirmik sokak duragindan güzergâhtan çikarlar araç muayene istasyonu duragindan güzergâha girer.">
-            <td class="col-line"><span class="line-badge">76TM</span></td>
-            <td class="col-name">TEPEKENT - HARAMIDERE</td>
-            <td class="col-time"><span class="badge badge-guzergah">17:07</span></td>
+            <td class="col-line"><span class="bus-badge">76TM</span></td>
+            <td class="col-name"><strong>TEPEKENT - HARAMIDERE</strong></td>
+            <td class="col-time"><time>17:07</time></td>
             <td class="col-msg">*HANIMAGA CAD. INSAAT ÇALISMASI NEDENI ILE KAPALI OTOBÜSLERIMIZ AVCILAR YÖNÜNDE TIRMIK SOKAK DURAGINDAN GÜZERGÂHTAN ÇIKARLAR ARAÇ MUAYENE ISTASYONU DURAGINDAN GÜZERGÂHA GIRER.</td>
           </tr>
           <tr class="iett-row" data-search="76tm tepekent - haramidere *hanimaga cad. insaat çalismasi nedeni ile kapali otobüslerimiz tepekent yönünde araç muayene istasyonu duragindan güzergâhtan çikarlar tirmik sokak duragindan güzergâha girerler.">
-            <td class="col-line"><span class="line-badge">76TM</span></td>
-            <td class="col-name">TEPEKENT - HARAMIDERE</td>
-            <td class="col-time"><span class="badge badge-guzergah">17:07</span></td>
+            <td class="col-line"><span class="bus-badge">76TM</span></td>
+            <td class="col-name"><strong>TEPEKENT - HARAMIDERE</strong></td>
+            <td class="col-time"><time>17:07</time></td>
             <td class="col-msg">*HANIMAGA CAD. INSAAT ÇALISMASI NEDENI ILE KAPALI OTOBÜSLERIMIZ TEPEKENT YÖNÜNDE ARAÇ MUAYENE ISTASYONU DURAGINDAN GÜZERGÂHTAN ÇIKARLAR TIRMIK SOKAK DURAGINDAN GÜZERGÂHA GIRERLER.</td>
           </tr>
           <tr class="iett-row" data-search="79c kayasehir - cebeci mahallesi kaygan zemin nedeniyle yesilyurt sokak kapalidir.araçlarimiz cebeci yönüne gidislerde cumhuriyet caddesi duragindan güzergahtan ayrilacak 1121.sokak duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">79C</span></td>
-            <td class="col-name">KAYASEHIR - CEBECI MAHALLESI</td>
-            <td class="col-time"><span class="badge badge-guzergah">07:16</span></td>
+            <td class="col-line"><span class="bus-badge">79C</span></td>
+            <td class="col-name"><strong>KAYASEHIR - CEBECI MAHALLESI</strong></td>
+            <td class="col-time"><time>07:16</time></td>
             <td class="col-msg">KAYGAN ZEMIN NEDENIYLE YESILYURT SOKAK KAPALIDIR.ARAÇLARIMIZ CEBECI YÖNÜNE GIDISLERDE CUMHURIYET CADDESI DURAGINDAN GÜZERGAHTAN AYRILACAK 1121.SOKAK DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="79c kayasehir - cebeci mahallesi kaygan zemin nedeniyle yesilyurt sokak kapalidir.araçlarimiz kayasehir yönüne gidislerde 1121.sokak duragindan güzergahtan ayrilacak cumhuriyet caddesi duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">79C</span></td>
-            <td class="col-name">KAYASEHIR - CEBECI MAHALLESI</td>
-            <td class="col-time"><span class="badge badge-guzergah">07:16</span></td>
+            <td class="col-line"><span class="bus-badge">79C</span></td>
+            <td class="col-name"><strong>KAYASEHIR - CEBECI MAHALLESI</strong></td>
+            <td class="col-time"><time>07:16</time></td>
             <td class="col-msg">KAYGAN ZEMIN NEDENIYLE YESILYURT SOKAK KAPALIDIR.ARAÇLARIMIZ KAYASEHIR YÖNÜNE GIDISLERDE 1121.SOKAK DURAGINDAN GÜZERGAHTAN AYRILACAK CUMHURIYET CADDESI DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="79c kayasehir - cebeci mahallesi kaygan zemin nedeniyle yesilyurt sokak kapalidir. araçlarimiz cebeciye gidiste tekstilkent evleri duragindan güzergah disina çikarak kayabasi kiptas duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">79C</span></td>
-            <td class="col-name">KAYASEHIR - CEBECI MAHALLESI</td>
-            <td class="col-time"><span class="badge badge-guzergah">07:48</span></td>
+            <td class="col-line"><span class="bus-badge">79C</span></td>
+            <td class="col-name"><strong>KAYASEHIR - CEBECI MAHALLESI</strong></td>
+            <td class="col-time"><time>07:48</time></td>
             <td class="col-msg">KAYGAN ZEMIN NEDENIYLE YESILYURT SOKAK KAPALIDIR. ARAÇLARIMIZ CEBECIYE GIDISTE TEKSTILKENT EVLERI DURAGINDAN GÜZERGAH DISINA ÇIKARAK KAYABASI KIPTAS DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
-          <tr class="iett-row" data-search="86v eyüpsultan - vezneciler vezneciler dan saat 23:25 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
-            <td class="col-line"><span class="line-badge">86V</span></td>
-            <td class="col-name">EYÜPSULTAN - VEZNECILER</td>
-            <td class="col-time"><span class="badge badge-guzergah">20:47</span></td>
-            <td class="col-msg">VEZNECILER dan Saat 23:25 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
-          </tr>
           <tr class="iett-row" data-search="89c iett ikitelli garaji-taksim atisalani yanyol asfalt çalismasi nedeniyle kapali oldugundan hattimizin araçlari metrokent yönüne topkapi alt geçit duragindan güzergah disina çikarak uludag caddesi duragindan güzergaha girer.">
-            <td class="col-line"><span class="line-badge">89C</span></td>
-            <td class="col-name">IETT IKITELLI GARAJI-TAKSIM</td>
-            <td class="col-time"><span class="badge badge-guzergah">21:28</span></td>
+            <td class="col-line"><span class="bus-badge">89C</span></td>
+            <td class="col-name"><strong>IETT IKITELLI GARAJI-TAKSIM</strong></td>
+            <td class="col-time"><time>21:28</time></td>
             <td class="col-msg">ATISALANI YANYOL ASFALT ÇALISMASI NEDENIYLE KAPALI OLDUGUNDAN HATTIMIZIN ARAÇLARI METROKENT YÖNÜNE TOPKAPI ALT GEÇIT DURAGINDAN GÜZERGAH DISINA ÇIKARAK ULUDAG CADDESI DURAGINDAN GÜZERGAHA GIRER.</td>
           </tr>
           <tr class="iett-row" data-search="89c iett ikitelli garaji-taksim asfalt çalismasi nedeniyle atisalani yanyol kapalidir. araçlarimiz metrokent yönünde ulubatli duragindan güzergah disina çikarak uludag caddesi duragindan güzergaha girecektir.">
-            <td class="col-line"><span class="line-badge">89C</span></td>
-            <td class="col-name">IETT IKITELLI GARAJI-TAKSIM</td>
-            <td class="col-time"><span class="badge badge-guzergah">22:10</span></td>
+            <td class="col-line"><span class="bus-badge">89C</span></td>
+            <td class="col-name"><strong>IETT IKITELLI GARAJI-TAKSIM</strong></td>
+            <td class="col-time"><time>22:10</time></td>
             <td class="col-msg">ASFALT ÇALISMASI NEDENIYLE ATISALANI YANYOL KAPALIDIR. ARAÇLARIMIZ METROKENT YÖNÜNDE ULUBATLI DURAGINDAN GÜZERGAH DISINA ÇIKARAK ULUDAG CADDESI DURAGINDAN GÜZERGAHA GIRECEKTIR.</td>
           </tr>
           <tr class="iett-row" data-search="89c iett ikitelli garaji-taksim atisalani yanyol asfalt çalismasi nedeniyle kapali oldugundan hattimizin araçlari metrokent yönüne topkapi alt geçit duragindan güzergah disina çikarak uludag caddesi duragindan güzergaha girer.">
-            <td class="col-line"><span class="line-badge">89C</span></td>
-            <td class="col-name">IETT IKITELLI GARAJI-TAKSIM</td>
-            <td class="col-time"><span class="badge badge-guzergah">22:32</span></td>
+            <td class="col-line"><span class="bus-badge">89C</span></td>
+            <td class="col-name"><strong>IETT IKITELLI GARAJI-TAKSIM</strong></td>
+            <td class="col-time"><time>22:32</time></td>
             <td class="col-msg">ATISALANI YANYOL ASFALT ÇALISMASI NEDENIYLE KAPALI OLDUGUNDAN HATTIMIZIN ARAÇLARI METROKENT YÖNÜNE TOPKAPI ALT GEÇIT DURAGINDAN GÜZERGAH DISINA ÇIKARAK ULUDAG CADDESI DURAGINDAN GÜZERGAHA GIRER.</td>
           </tr>
           <tr class="iett-row" data-search="89c iett ikitelli garaji-taksim atisalani yanyol asfalt çalismasi nedeniyle kapali oldugundan hattimizin araçlari metrokent yönüne topkapi alt geçit duragindan güzergah disina çikarak uludag caddesi duragindan güzergaha girer.">
-            <td class="col-line"><span class="line-badge">89C</span></td>
-            <td class="col-name">IETT IKITELLI GARAJI-TAKSIM</td>
-            <td class="col-time"><span class="badge badge-guzergah">23:17</span></td>
+            <td class="col-line"><span class="bus-badge">89C</span></td>
+            <td class="col-name"><strong>IETT IKITELLI GARAJI-TAKSIM</strong></td>
+            <td class="col-time"><time>23:17</time></td>
             <td class="col-msg">ATISALANI YANYOL ASFALT ÇALISMASI NEDENIYLE KAPALI OLDUGUNDAN HATTIMIZIN ARAÇLARI METROKENT YÖNÜNE TOPKAPI ALT GEÇIT DURAGINDAN GÜZERGAH DISINA ÇIKARAK ULUDAG CADDESI DURAGINDAN GÜZERGAHA GIRER.</td>
           </tr>
           <tr class="iett-row" data-search="91e göztepe mahallesi - aksaray bayazit kapali oldugundan araçlarimiz aksaraydan rink çalisir">
-            <td class="col-line"><span class="line-badge">91E</span></td>
-            <td class="col-name">GÖZTEPE MAHALLESI - AKSARAY</td>
-            <td class="col-time"><span class="badge badge-guzergah">09:46</span></td>
+            <td class="col-line"><span class="bus-badge">91E</span></td>
+            <td class="col-name"><strong>GÖZTEPE MAHALLESI - AKSARAY</strong></td>
+            <td class="col-time"><time>09:46</time></td>
             <td class="col-msg">BAYAZIT KAPALI OLDUGUNDAN ARAÇLARIMIZ AKSARAYDAN RINK ÇALISIR</td>
           </tr>
           <tr class="iett-row" data-search="92k yeni mahalle metro / kirazli - aksaray bayazit kapali oldugundan araçlarimiz aksaraydan rink çalisir">
-            <td class="col-line"><span class="line-badge">92K</span></td>
-            <td class="col-name">YENI MAHALLE METRO / KIRAZLI - AKSARAY</td>
-            <td class="col-time"><span class="badge badge-guzergah">09:46</span></td>
+            <td class="col-line"><span class="bus-badge">92K</span></td>
+            <td class="col-name"><strong>YENI MAHALLE METRO / KIRAZLI - AKSARAY</strong></td>
+            <td class="col-time"><time>09:46</time></td>
             <td class="col-msg">BAYAZIT KAPALI OLDUGUNDAN ARAÇLARIMIZ AKSARAYDAN RINK ÇALISIR</td>
           </tr>
           <tr class="iett-row" data-search="93 zeytinburnu - eminönü z.burnu peronlara gidiste zübeyde hanin cad.çalismadan dolayi kapali araçlarimiz sümer duragindan sonra güzergahtan ayrilarak bozkurt duragindan  güzergaha girerler.">
-            <td class="col-line"><span class="line-badge">93</span></td>
-            <td class="col-name">ZEYTINBURNU - EMINÖNÜ</td>
-            <td class="col-time"><span class="badge badge-guzergah">09:27</span></td>
+            <td class="col-line"><span class="bus-badge">93</span></td>
+            <td class="col-name"><strong>ZEYTINBURNU - EMINÖNÜ</strong></td>
+            <td class="col-time"><time>09:27</time></td>
             <td class="col-msg">Z.BURNU PERONLARA GIDISTE ZÜBEYDE HANIN CAD.ÇALISMADAN DOLAYI KAPALI ARAÇLARIMIZ SÜMER DURAGINDAN SONRA GÜZERGAHTAN AYRILARAK BOZKURT DURAGINDAN  GÜZERGAHA GIRERLER.</td>
           </tr>
           <tr class="iett-row" data-search="93 zeytinburnu - eminönü z.burnu peronlara gidiste zübeyde hanin cad.çalismadan dolayi kapali araçlarimiz sümer duragindan sonra güzergahtan ayrilarak bozkurt duragindan  güzergaha girerler.">
-            <td class="col-line"><span class="line-badge">93</span></td>
-            <td class="col-name">ZEYTINBURNU - EMINÖNÜ</td>
-            <td class="col-time"><span class="badge badge-guzergah">12:00</span></td>
+            <td class="col-line"><span class="bus-badge">93</span></td>
+            <td class="col-name"><strong>ZEYTINBURNU - EMINÖNÜ</strong></td>
+            <td class="col-time"><time>12:00</time></td>
             <td class="col-msg">Z.BURNU PERONLARA GIDISTE ZÜBEYDE HANIN CAD.ÇALISMADAN DOLAYI KAPALI ARAÇLARIMIZ SÜMER DURAGINDAN SONRA GÜZERGAHTAN AYRILARAK BOZKURT DURAGINDAN  GÜZERGAHA GIRERLER.</td>
           </tr>
           <tr class="iett-row" data-search="93m zeytinburnu - mecidiyeköy z.burnu peronlara gidiste zübeyde hanin cad.çalismadan dolayi kapali araçlarimiz sümer duragindan sonra güzergahtan ayrilarak bozkurt duragindan  güzergaha girerler.">
-            <td class="col-line"><span class="line-badge">93M</span></td>
-            <td class="col-name">ZEYTINBURNU - MECIDIYEKÖY</td>
-            <td class="col-time"><span class="badge badge-guzergah">09:27</span></td>
+            <td class="col-line"><span class="bus-badge">93M</span></td>
+            <td class="col-name"><strong>ZEYTINBURNU - MECIDIYEKÖY</strong></td>
+            <td class="col-time"><time>09:27</time></td>
             <td class="col-msg">Z.BURNU PERONLARA GIDISTE ZÜBEYDE HANIN CAD.ÇALISMADAN DOLAYI KAPALI ARAÇLARIMIZ SÜMER DURAGINDAN SONRA GÜZERGAHTAN AYRILARAK BOZKURT DURAGINDAN  GÜZERGAHA GIRERLER.</td>
           </tr>
           <tr class="iett-row" data-search="93m zeytinburnu - mecidiyeköy z.burnu peronlara gidiste zübeyde hanin cad.çalismadan dolayi kapali araçlarimiz sümer duragindan sonra güzergahtan ayrilarak bozkurt duragindan  güzergaha girerler.">
-            <td class="col-line"><span class="line-badge">93M</span></td>
-            <td class="col-name">ZEYTINBURNU - MECIDIYEKÖY</td>
-            <td class="col-time"><span class="badge badge-guzergah">12:01</span></td>
+            <td class="col-line"><span class="bus-badge">93M</span></td>
+            <td class="col-name"><strong>ZEYTINBURNU - MECIDIYEKÖY</strong></td>
+            <td class="col-time"><time>12:01</time></td>
             <td class="col-msg">Z.BURNU PERONLARA GIDISTE ZÜBEYDE HANIN CAD.ÇALISMADAN DOLAYI KAPALI ARAÇLARIMIZ SÜMER DURAGINDAN SONRA GÜZERGAHTAN AYRILARAK BOZKURT DURAGINDAN  GÜZERGAHA GIRERLER.</td>
           </tr>
           <tr class="iett-row" data-search="93t zeytinburnu - taksim z.burnu peronlara gidiste zübeyde hanin cad.çalismadan dolayi kapali araçlarimiz sümer duragindan sonra güzergahtan ayrilarak bozkurt duragindan  güzergaha girerler.">
-            <td class="col-line"><span class="line-badge">93T</span></td>
-            <td class="col-name">ZEYTINBURNU - TAKSIM</td>
-            <td class="col-time"><span class="badge badge-guzergah">12:01</span></td>
+            <td class="col-line"><span class="bus-badge">93T</span></td>
+            <td class="col-name"><strong>ZEYTINBURNU - TAKSIM</strong></td>
+            <td class="col-time"><time>12:01</time></td>
             <td class="col-msg">Z.BURNU PERONLARA GIDISTE ZÜBEYDE HANIN CAD.ÇALISMADAN DOLAYI KAPALI ARAÇLARIMIZ SÜMER DURAGINDAN SONRA GÜZERGAHTAN AYRILARAK BOZKURT DURAGINDAN  GÜZERGAHA GIRERLER.</td>
           </tr>
           <tr class="iett-row" data-search="98h metrokent - bakirköy güzergahtaki yogun trafik nedeniyle araçlarimiz her iki yönde seferlerine 20 dakika ve üzeri rötarli hareket etmektedir.">
-            <td class="col-line"><span class="line-badge">98H</span></td>
-            <td class="col-name">METROKENT - BAKIRKÖY</td>
-            <td class="col-time"><span class="badge badge-kapali">20:28</span></td>
+            <td class="col-line"><span class="bus-badge">98H</span></td>
+            <td class="col-name"><strong>METROKENT - BAKIRKÖY</strong></td>
+            <td class="col-time"><time>20:28</time></td>
             <td class="col-msg">GÜZERGAHTAKI YOGUN TRAFIK NEDENIYLE ARAÇLARIMIZ HER IKI YÖNDE SEFERLERINE 20 DAKIKA VE ÜZERI RÖTARLI HAREKET ETMEKTEDIR.</td>
           </tr>
           <tr class="iett-row" data-search="98tb fatih mahallesi - bakirköy fatih mahallesi duragindaki çalisma nedeniyle araçlarimiz pazaryolu duraginda seferlerini bitirip ayni duraktan servise baslar.">
-            <td class="col-line"><span class="line-badge">98TB</span></td>
-            <td class="col-name">FATIH MAHALLESI - BAKIRKÖY</td>
-            <td class="col-time"><span class="badge badge-guzergah">11:50</span></td>
+            <td class="col-line"><span class="bus-badge">98TB</span></td>
+            <td class="col-name"><strong>FATIH MAHALLESI - BAKIRKÖY</strong></td>
+            <td class="col-time"><time>11:50</time></td>
             <td class="col-msg">FATIH MAHALLESI DURAGINDAKI ÇALISMA NEDENIYLE ARAÇLARIMIZ PAZARYOLU DURAGINDA SEFERLERINI BITIRIP AYNI DURAKTAN SERVISE BASLAR.</td>
           </tr>
           <tr class="iett-row" data-search="98tb fatih mahallesi - bakirköy fatih mahallesi duragindaki çalisma nedeniyle araçlarimiz pazaryolu duraginda seferlerini bitirip ayni duraktan servise baslar.">
-            <td class="col-line"><span class="line-badge">98TB</span></td>
-            <td class="col-name">FATIH MAHALLESI - BAKIRKÖY</td>
-            <td class="col-time"><span class="badge badge-guzergah">11:51</span></td>
+            <td class="col-line"><span class="bus-badge">98TB</span></td>
+            <td class="col-name"><strong>FATIH MAHALLESI - BAKIRKÖY</strong></td>
+            <td class="col-time"><time>11:51</time></td>
             <td class="col-msg">FATIH MAHALLESI DURAGINDAKI ÇALISMA NEDENIYLE ARAÇLARIMIZ PAZARYOLU DURAGINDA SEFERLERINI BITIRIP AYNI DURAKTAN SERVISE BASLAR.</td>
           </tr>
           <tr class="iett-row" data-search="98y giyimkent / yüzyil mahallesi - bakirköy parklanma nedeniyle 42 evler kapalidir.araçlarimiz sehit türkmen tekin duragindan güzergah disina çikarak yüz yil duragindan güzergaha girecektir.(gidis-dönüs bu güzergah kullanilacaktir)">
-            <td class="col-line"><span class="line-badge">98Y</span></td>
-            <td class="col-name">GIYIMKENT / YÜZYIL MAHALLESI - BAKIRKÖY</td>
-            <td class="col-time"><span class="badge badge-guzergah">07:39</span></td>
+            <td class="col-line"><span class="bus-badge">98Y</span></td>
+            <td class="col-name"><strong>GIYIMKENT / YÜZYIL MAHALLESI - BAKIRKÖY</strong></td>
+            <td class="col-time"><time>07:39</time></td>
             <td class="col-msg">PARKLANMA NEDENIYLE 42 EVLER KAPALIDIR.ARAÇLARIMIZ SEHIT TÜRKMEN TEKIN DURAGINDAN GÜZERGAH DISINA ÇIKARAK YÜZ YIL DURAGINDAN GÜZERGAHA GIRECEKTIR.(GIDIS-DÖNÜS BU GÜZERGAH KULLANILACAKTIR)</td>
           </tr>
           <tr class="iett-row" data-search="ba-7 büyükada taksi araba meydani dan saat 00:00 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
-            <td class="col-line"><span class="line-badge">BA-7</span></td>
-            <td class="col-name">BÜYÜKADA TAKSI</td>
-            <td class="col-time"><span class="badge badge-guzergah">04:07</span></td>
+            <td class="col-line"><span class="bus-badge">BA-7</span></td>
+            <td class="col-name"><strong>BÜYÜKADA TAKSI</strong></td>
+            <td class="col-time"><time>04:07</time></td>
             <td class="col-msg">ARABA MEYDANI dan Saat 00:00 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
           </tr>
           <tr class="iett-row" data-search="ba-7 büyükada taksi araba meydani dan saat 00:10 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
-            <td class="col-line"><span class="line-badge">BA-7</span></td>
-            <td class="col-name">BÜYÜKADA TAKSI</td>
-            <td class="col-time"><span class="badge badge-guzergah">04:07</span></td>
+            <td class="col-line"><span class="bus-badge">BA-7</span></td>
+            <td class="col-name"><strong>BÜYÜKADA TAKSI</strong></td>
+            <td class="col-time"><time>04:07</time></td>
             <td class="col-msg">ARABA MEYDANI dan Saat 00:10 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
           </tr>
           <tr class="iett-row" data-search="ba-7 büyükada taksi araba meydani dan saat 00:40 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
-            <td class="col-line"><span class="line-badge">BA-7</span></td>
-            <td class="col-name">BÜYÜKADA TAKSI</td>
-            <td class="col-time"><span class="badge badge-guzergah">04:07</span></td>
+            <td class="col-line"><span class="bus-badge">BA-7</span></td>
+            <td class="col-name"><strong>BÜYÜKADA TAKSI</strong></td>
+            <td class="col-time"><time>04:07</time></td>
             <td class="col-msg">ARABA MEYDANI dan Saat 00:40 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
           </tr>
           <tr class="iett-row" data-search="ba-7 büyükada taksi araba meydani dan saat 00:50 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
-            <td class="col-line"><span class="line-badge">BA-7</span></td>
-            <td class="col-name">BÜYÜKADA TAKSI</td>
-            <td class="col-time"><span class="badge badge-guzergah">04:07</span></td>
+            <td class="col-line"><span class="bus-badge">BA-7</span></td>
+            <td class="col-name"><strong>BÜYÜKADA TAKSI</strong></td>
+            <td class="col-time"><time>04:07</time></td>
             <td class="col-msg">ARABA MEYDANI dan Saat 00:50 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
           </tr>
           <tr class="iett-row" data-search="ba-7 büyükada taksi araba meydani dan saat 01:20 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
-            <td class="col-line"><span class="line-badge">BA-7</span></td>
-            <td class="col-name">BÜYÜKADA TAKSI</td>
-            <td class="col-time"><span class="badge badge-guzergah">04:07</span></td>
+            <td class="col-line"><span class="bus-badge">BA-7</span></td>
+            <td class="col-name"><strong>BÜYÜKADA TAKSI</strong></td>
+            <td class="col-time"><time>04:07</time></td>
             <td class="col-msg">ARABA MEYDANI dan Saat 01:20 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
           </tr>
-          <tr class="iett-row" data-search="ba-7 büyükada taksi araba meydani dan saat 23:20 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
-            <td class="col-line"><span class="line-badge">BA-7</span></td>
-            <td class="col-name">BÜYÜKADA TAKSI</td>
-            <td class="col-time"><span class="badge badge-guzergah">04:07</span></td>
-            <td class="col-msg">ARABA MEYDANI dan Saat 23:20 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
-          </tr>
           <tr class="iett-row" data-search="ba-7 büyükada taksi araba meydani dan saat 23:30 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
-            <td class="col-line"><span class="line-badge">BA-7</span></td>
-            <td class="col-name">BÜYÜKADA TAKSI</td>
-            <td class="col-time"><span class="badge badge-guzergah">04:07</span></td>
+            <td class="col-line"><span class="bus-badge">BA-7</span></td>
+            <td class="col-name"><strong>BÜYÜKADA TAKSI</strong></td>
+            <td class="col-time"><time>04:07</time></td>
             <td class="col-msg">ARABA MEYDANI dan Saat 23:30 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
           </tr>
           <tr class="iett-row" data-search="e-57 esenkent bahçesehir - bakirköy yol çalismasi nedeniyle melisa sokak kapalidir.araçlarimiz büyükçekmece yönüne ispartakule bloklari duragindan güzergah disina çikip ispartakule duragindan güzergaha girer.">
-            <td class="col-line"><span class="line-badge">E-57</span></td>
-            <td class="col-name">ESENKENT BAHÇESEHIR - BAKIRKÖY</td>
-            <td class="col-time"><span class="badge badge-guzergah">22:07</span></td>
+            <td class="col-line"><span class="bus-badge">E-57</span></td>
+            <td class="col-name"><strong>ESENKENT BAHÇESEHIR - BAKIRKÖY</strong></td>
+            <td class="col-time"><time>22:07</time></td>
             <td class="col-msg">YOL ÇALISMASI NEDENIYLE MELISA SOKAK KAPALIDIR.ARAÇLARIMIZ BÜYÜKÇEKMECE YÖNÜNE ISPARTAKULE BLOKLARI DURAGINDAN GÜZERGAH DISINA ÇIKIP ISPARTAKULE DURAGINDAN GÜZERGAHA GIRER.</td>
           </tr>
           <tr class="iett-row" data-search="e-58 esenkent bahçesehir - mecidiyeköy yol çalismasi nedeniyle melisa sokak kapalidir.araçlarimiz büyükçekmece yönüne ispartakule bloklari duragindan güzergah disina çikip ispartakule duragindan güzergaha girer.">
-            <td class="col-line"><span class="line-badge">E-58</span></td>
-            <td class="col-name">ESENKENT BAHÇESEHIR - MECIDIYEKÖY</td>
-            <td class="col-time"><span class="badge badge-guzergah">22:07</span></td>
+            <td class="col-line"><span class="bus-badge">E-58</span></td>
+            <td class="col-name"><strong>ESENKENT BAHÇESEHIR - MECIDIYEKÖY</strong></td>
+            <td class="col-time"><time>22:07</time></td>
             <td class="col-msg">YOL ÇALISMASI NEDENIYLE MELISA SOKAK KAPALIDIR.ARAÇLARIMIZ BÜYÜKÇEKMECE YÖNÜNE ISPARTAKULE BLOKLARI DURAGINDAN GÜZERGAH DISINA ÇIKIP ISPARTAKULE DURAGINDAN GÜZERGAHA GIRER.</td>
           </tr>
           <tr class="iett-row" data-search="ht11 giyimkent - kuyumcukent parklanma nedeniyle 42 evler kapalidir.araçlarimiz sehit türkmen tekin duragindan güzergah disina çikarak yüz yil duragindan güzergaha girecektir.(gidis-dönüs bu güzergah kullanilacaktir)">
-            <td class="col-line"><span class="line-badge">HT11</span></td>
-            <td class="col-name">GIYIMKENT - KUYUMCUKENT</td>
-            <td class="col-time"><span class="badge badge-guzergah">07:39</span></td>
+            <td class="col-line"><span class="bus-badge">HT11</span></td>
+            <td class="col-name"><strong>GIYIMKENT - KUYUMCUKENT</strong></td>
+            <td class="col-time"><time>07:39</time></td>
             <td class="col-msg">PARKLANMA NEDENIYLE 42 EVLER KAPALIDIR.ARAÇLARIMIZ SEHIT TÜRKMEN TEKIN DURAGINDAN GÜZERGAH DISINA ÇIKARAK YÜZ YIL DURAGINDAN GÜZERGAHA GIRECEKTIR.(GIDIS-DÖNÜS BU GÜZERGAH KULLANILACAKTIR)</td>
           </tr>
-          <tr class="iett-row" data-search="km11 aydinli toki / a.yesevi - pendik köprüsü pendik köprüsü dan saat 23:20 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
-            <td class="col-line"><span class="line-badge">KM11</span></td>
-            <td class="col-name">AYDINLI TOKI / A.YESEVI - PENDIK KÖPRÜSÜ</td>
-            <td class="col-time"><span class="badge badge-guzergah">04:13</span></td>
-            <td class="col-msg">PENDIK KÖPRÜSÜ dan Saat 23:20 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
-          </tr>
           <tr class="iett-row" data-search="km11 aydinli toki / a.yesevi - pendik köprüsü pendik köprüsü dan saat 23:40 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
-            <td class="col-line"><span class="line-badge">KM11</span></td>
-            <td class="col-name">AYDINLI TOKI / A.YESEVI - PENDIK KÖPRÜSÜ</td>
-            <td class="col-time"><span class="badge badge-guzergah">19:59</span></td>
+            <td class="col-line"><span class="bus-badge">KM11</span></td>
+            <td class="col-name"><strong>AYDINLI TOKI / A.YESEVI - PENDIK KÖPRÜSÜ</strong></td>
+            <td class="col-time"><time>19:59</time></td>
             <td class="col-msg">PENDIK KÖPRÜSÜ dan Saat 23:40 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
           </tr>
           <tr class="iett-row" data-search="km26 çamlik mahallesi - pendik metro/ yht / pendik pendik dan saat 23:30 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
-            <td class="col-line"><span class="line-badge">KM26</span></td>
-            <td class="col-name">ÇAMLIK MAHALLESI - PENDIK METRO/ YHT / PENDIK</td>
-            <td class="col-time"><span class="badge badge-guzergah">22:01</span></td>
+            <td class="col-line"><span class="bus-badge">KM26</span></td>
+            <td class="col-name"><strong>ÇAMLIK MAHALLESI - PENDIK METRO/ YHT / PENDIK</strong></td>
+            <td class="col-time"><time>22:01</time></td>
             <td class="col-msg">PENDIK dan Saat 23:30 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
           </tr>
           <tr class="iett-row" data-search="mk11 olimpiyatköy metro - kayasehir - güvercintepe kaygan zemin nedeniyle yesilyurt caddesi tehlikeli oldugundan otobüslerimiz kayabasi yönünde tekstilkent evleri duragindan sonra güzergahtan ayrilarak kayabasi kiptas duragindan güzergaha girecektir">
-            <td class="col-line"><span class="line-badge">MK11</span></td>
-            <td class="col-name">OLIMPIYATKÖY METRO - KAYASEHIR - GÜVERCINTEPE</td>
-            <td class="col-time"><span class="badge badge-guzergah">07:22</span></td>
+            <td class="col-line"><span class="bus-badge">MK11</span></td>
+            <td class="col-name"><strong>OLIMPIYATKÖY METRO - KAYASEHIR - GÜVERCINTEPE</strong></td>
+            <td class="col-time"><time>07:22</time></td>
             <td class="col-msg">KAYGAN ZEMIN NEDENIYLE YESILYURT CADDESI TEHLIKELI OLDUGUNDAN OTOBÜSLERIMIZ KAYABASI YÖNÜNDE TEKSTILKENT EVLERI DURAGINDAN SONRA GÜZERGAHTAN AYRILARAK KAYABASI KIPTAS DURAGINDAN GÜZERGAHA GIRECEKTIR</td>
           </tr>
           <tr class="iett-row" data-search="mk12 olimpiyatköy metro - güvercintepe - kayasehir yesilyurt sokak kaygan zemin nedeniyle kapali otobüslerimiz olimpiyat metro yönünde kayasehir yolu duragindan sonra güzergahtan ayrilarak kayabasi kiptas duragindan güzergaha girecektir">
-            <td class="col-line"><span class="line-badge">MK12</span></td>
-            <td class="col-name">OLIMPIYATKÖY METRO - GÜVERCINTEPE - KAYASEHIR</td>
-            <td class="col-time"><span class="badge badge-guzergah">07:23</span></td>
+            <td class="col-line"><span class="bus-badge">MK12</span></td>
+            <td class="col-name"><strong>OLIMPIYATKÖY METRO - GÜVERCINTEPE - KAYASEHIR</strong></td>
+            <td class="col-time"><time>07:23</time></td>
             <td class="col-msg">YESILYURT SOKAK KAYGAN ZEMIN NEDENIYLE KAPALI OTOBÜSLERIMIZ OLIMPIYAT METRO YÖNÜNDE KAYASEHIR YOLU DURAGINDAN SONRA GÜZERGAHTAN AYRILARAK KAYABASI KIPTAS DURAGINDAN GÜZERGAHA GIRECEKTIR</td>
           </tr>
-          <tr class="iett-row" data-search="mk13 sahintepe igtot - olimpiyatköy metro olimpiyatköy metro dan saat 00:30 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
-            <td class="col-line"><span class="line-badge">MK13</span></td>
-            <td class="col-name">SAHINTEPE IGTOT - OLIMPIYATKÖY METRO</td>
-            <td class="col-time"><span class="badge badge-guzergah">04:07</span></td>
-            <td class="col-msg">OLIMPIYATKÖY METRO dan Saat 00:30 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
-          </tr>
           <tr class="iett-row" data-search="mr42 halkali marmaray / inönü mah. - sefaköy metrobüs güzergahtaki yogun trafik nedeniyle araçlarimiz halkali marmaray kalkisli seferlerine 20 dakika ve üzeri rötarli hareket etmektedir.">
-            <td class="col-line"><span class="line-badge">MR42</span></td>
-            <td class="col-name">HALKALI MARMARAY / INÖNÜ MAH. - SEFAKÖY METROBÜS</td>
-            <td class="col-time"><span class="badge badge-kapali">09:27</span></td>
+            <td class="col-line"><span class="bus-badge">MR42</span></td>
+            <td class="col-name"><strong>HALKALI MARMARAY / INÖNÜ MAH. - SEFAKÖY METROBÜS</strong></td>
+            <td class="col-time"><time>09:27</time></td>
             <td class="col-msg">GÜZERGAHTAKI YOGUN TRAFIK NEDENIYLE ARAÇLARIMIZ HALKALI MARMARAY KALKISLI SEFERLERINE 20 DAKIKA VE ÜZERI RÖTARLI HAREKET ETMEKTEDIR.</td>
           </tr>
           <tr class="iett-row" data-search="mr51 i.ü. cerrahpasa kampüsü/bahçesehir - halkali marmaray güzergahtaki yogun trafik nedeniyle araçlarimiz sehit ömer halis demir kalkisli seferlerine 25 dakika ve üzeri rötarli hareket etmektedir.">
-            <td class="col-line"><span class="line-badge">MR51</span></td>
-            <td class="col-name">I.Ü. CERRAHPASA KAMPÜSÜ/BAHÇESEHIR - HALKALI MARMARAY</td>
-            <td class="col-time"><span class="badge badge-kapali">09:36</span></td>
+            <td class="col-line"><span class="bus-badge">MR51</span></td>
+            <td class="col-name"><strong>I.Ü. CERRAHPASA KAMPÜSÜ/BAHÇESEHIR - HALKALI MARMARAY</strong></td>
+            <td class="col-time"><time>09:36</time></td>
             <td class="col-msg">GÜZERGAHTAKI YOGUN TRAFIK NEDENIYLE ARAÇLARIMIZ SEHIT ÖMER HALIS DEMIR KALKISLI SEFERLERINE 25 DAKIKA VE ÜZERI RÖTARLI HAREKET ETMEKTEDIR.</td>
           </tr>
-            </tbody>
-          </table>
-        </div>
+        </tbody>
+      </table>
+    </div>
+  </div>
 
-        <!-- SIKÇA SORULAN SORULAR -->
-        <section class="faq-section">
-          <h2 class="faq-title">❓ İstanbul Ulaşımı Hakkında Merak Edilenler</h2>
-          <div class="faq-item">
-            <div class="faq-question">İETT güzergah değişiklikleri ne sıklıkla güncellenir?</div>
-            <div class="faq-answer">İBB ve İETT Ulaşım Yönetim Merkezi bildirimleri saat başı taranarak anlık olarak sayfaya yansıtılır.</div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question">Otobüsüm neden durağa gelmedi?</div>
-            <div class="faq-answer">Yol çalışması, kaza, miting veya maç sebebiyle geçici rota değişikliği yapılmış olabilir. Yukarıdaki arama kutusuna hat kodunuzu yazarak hattın anlık durumunu görebilirsiniz.</div>
-          </div>
-        </section>
+  <footer>
+    <p>&copy; 2026 mansetradar.com.tr &middot; Tüm hakları saklıdır. &middot; Resmi Kaynak: İBB / İETT UYM &middot; <a href="/kunye/" style="color:inherit">Künye</a></p>
+  </footer>
 
-        <div class="news-box">
-          <h2 class="news-title">📍 İstanbul Masası En Son Haberleri</h2>
-          <div class="service-grid">
-
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/72-bin-uyusturucu-hapla-yakaladilar-istanbul_20260902/" aria-label="72 bin uyuşturucu hapla yakaladılar #istanbul">
-          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T08:28:13+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">72 bin uyuşturucu hapla yakaladılar #istanbul</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/a-milli-kadin-basketbol-takimi-dunya-kupasi-nda-3-kez-yer-alacak-istanbul_20260902/" aria-label="A Milli Kadın Basketbol Takımı, Dünya Kupası&#x27;nda 3. kez yer alacak #istanbul">
-          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T08:29:12+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">A Milli Kadın Basketbol Takımı, Dünya Kupası&#x27;nda 3. kez yer alacak #istanbul</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/arabuluculuk-yalaniyla-100-bin-tl-lik-vurgun-genc-reklamciya-dosya-tuzagi-i_20260902/" aria-label="Arabuluculuk yalanıyla 100 bin TL&#x27;lik vurgun! Genç reklamcıya ‘dosya’ tuzağı #istanbul">
-          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T11:31:41+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">Arabuluculuk yalanıyla 100 bin TL&#x27;lik vurgun! Genç reklamcıya ‘dosya’ tuzağı #istanbul</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902/" aria-label="Bakan Uraloğlu açıkladı: İstanbul’a 180 kilometrelik raylı sistem! Yeni metro hatları geliyor...">
-          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T11:22:46+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">Bakan Uraloğlu açıkladı: İstanbul’a 180 kilometrelik raylı sistem! Yeni metro hatları geliyor...</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/havacilik-dunyasi-istanbul-da-bulustu-istanbul_20260902/" aria-label="Havacılık dünyası İstanbul’da buluştu #istanbul">
-          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T10:54:13+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">Havacılık dünyası İstanbul’da buluştu #istanbul</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/istanbul-valiligi-duyurdu-uskudar-belediyesi-nde-secim-tarihi-belli-oldu-is_20260902/" aria-label="İstanbul Valiliği duyurdu: Üsküdar Belediyesi&#x27;nde seçim tarihi belli oldu! #istanbul">
-          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T14:53:38+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">İstanbul Valiliği duyurdu: Üsküdar Belediyesi&#x27;nde seçim tarihi belli oldu! #istanbul</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-          </div>
-        </div>
-    </main>
-    <footer>
-      <p>&copy; 2026 mansetradar.com.tr &middot; Tüm hakları saklıdır. &middot; Kaynak: İBB / İETT Ulaşım Dinamik Veri Servisi &middot; <a href="/kunye/" style="color:inherit">Künye</a> &middot; <a href="/yayin-ilkeleri/" style="color:inherit">Yayın İlkeleri</a></p>
-    </footer>
-
-    <script>
-      (function() {
-        const search = document.getElementById('route-search');
-        const rows = Array.from(document.querySelectorAll('.iett-row'));
-        const chips = document.querySelectorAll('.chip-btn');
-
-        function filterRows(query) {
-          const q = query.toLowerCase().trim();
-          rows.forEach(row => {
-            const text = row.getAttribute('data-search') || '';
-            row.style.display = text.includes(q) ? '' : 'none';
-          });
+  <script>
+    document.getElementById('table-search').addEventListener('input', function(e) {
+      const q = e.target.value.toLowerCase().trim();
+      const rows = document.querySelectorAll('.iett-row');
+      rows.forEach(r => {
+        const search = r.getAttribute('data-search') || '';
+        if (search.includes(q)) {
+          r.style.display = '';
+        } else {
+          r.style.display = 'none';
         }
-
-        search.addEventListener('input', (e) => {
-          chips.forEach(c => c.classList.remove('active'));
-          filterRows(e.target.value);
-        });
-
-        chips.forEach(chip => {
-          chip.addEventListener('click', () => {
-            chips.forEach(c => c.classList.remove('active'));
-            chip.classList.add('active');
-            const val = chip.getAttribute('data-filter') || '';
-            search.value = val;
-            filterRows(val);
-          });
-        });
-      })();
-    </script>
+      });
+    });
+  </script>
 </body>
 </html>
