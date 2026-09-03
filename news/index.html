@@ -1790,7 +1790,132 @@
     }
 
       .visually-hidden { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
-/* FIRST_PAINT_TOPIC_FILTER_START */
+/* FULL WIDTH HERO & ISTANBUL MEGA-BAR STYLES */
+    .showcase-grid {
+      display: block !important;
+      width: 100% !important;
+    }
+    .headline-slider {
+      width: 100% !important;
+      height: clamp(460px, 48vw, 560px) !important;
+    }
+    .side-headlines {
+      display: none !important;
+    }
+    .mobile-market-strip {
+      display: none !important;
+    }
+
+    /* TOP ISTANBUL MEGA-BAR */
+    .istanbul-mega-bar {
+      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
+      color: white;
+      border-bottom: 2px solid #dc2626;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+      font-size: 0.85rem;
+      position: relative;
+      z-index: 99;
+    }
+    .istanbul-mega-bar .inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .imb-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .imb-brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .imb-badge {
+      background: #dc2626;
+      color: white;
+      font-weight: 900;
+      font-size: 0.72rem;
+      padding: 3px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+    .imb-select {
+      background: #0f172a;
+      color: #f8fafc;
+      border: 1px solid #334155;
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      outline: none;
+    }
+    .imb-select:focus { border-color: #38bdf8; }
+    .imb-quick-chips {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+    .imb-chip-btn {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #e2e8f0;
+      border-radius: 999px;
+      padding: 3px 10px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+    .imb-chip-btn:hover {
+      background: #dc2626;
+      color: white;
+      border-color: #dc2626;
+    }
+    .imb-services {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .imb-srv {
+      color: #cbd5e1;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.82rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .imb-srv:hover {
+      background: rgba(255,255,255,0.1);
+      color: white;
+    }
+    .imb-weather-pill {
+      background: rgba(56,189,248,0.15);
+      color: #38bdf8;
+      border: 1px solid rgba(56,189,248,0.3);
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 0.78rem;
+    }
+    @media (max-width: 900px) {
+      .imb-quick-chips { display: none; }
+      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
+    }
+    
+  /* FIRST_PAINT_TOPIC_FILTER_START */
 html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]) .topic-card {
   display: none !important;
 }
@@ -1965,8 +2090,8 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                   <time class="headline-date" datetime="2026-05-26">26.05.2026</time>
                 </div>
               </a>
-              <a class="headline-slide headline-card topic-card" href="/news/articles/spacex-financial-disclosure-ipo_20260521/" data-topic="teknoloji" aria-label="Musk&#x27;s SpaceX Reveals Finances Ahead of IPO">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxTcGFjZVh8ZW58MHwwfHx8MTc3OTM2MzIzNXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Musk&#x27;s SpaceX Reveals Finances Ahead of IPO" loading="lazy" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card" href="/news/articles/elon-musk-openai-sam-altman-lawsuit-dismissed_20260518/" data-topic="teknoloji" aria-label="Elon Musk&#x27;s $150 Billion Lawsuit Against OpenAI and Sam Altman Dismissed">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1617704548623-340376564e68?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFbG9uJTIwTXVza3xlbnwwfDB8fHwxNzc5MTM3OTc4fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Elon Musk&#x27;s $150 Billion Lawsuit Against OpenAI and Sam Altman Dismissed" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
                     <span class="headline-tag">Top Story #5</span>
@@ -1974,8 +2099,8 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
                   </div>
-                  <h2 class="headline-title">Musk&#x27;s SpaceX Reveals Finances Ahead of IPO</h2>
-                  <time class="headline-date" datetime="2026-05-21">21.05.2026</time>
+                  <h2 class="headline-title">Elon Musk&#x27;s $150 Billion Lawsuit Against OpenAI and Sam Altman Dismissed</h2>
+                  <time class="headline-date" datetime="2026-05-18">18.05.2026</time>
                 </div>
               </a>
               <a class="headline-slide headline-card topic-card" href="/news/articles/us-restricts-entry-ebola-outbreak-africa-who-emergency_20260518/" data-topic="saglik" aria-label="U.S. Restricts Entry from African Countries Due to Ebola Outbreak">
@@ -2017,24 +2142,11 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                   <time class="headline-date" datetime="2026-05-20">20.05.2026</time>
                 </div>
               </a>
-              <a class="headline-slide headline-card topic-card" href="/news/articles/trump-1-8-billion-fund-constitutional-limits_20260520/" data-topic="siyaset" aria-label="Trump’s $1.8 Billion Fund Deal Tests Constitutional Limits">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1676181739859-08330dea8999?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxHYXZlbHxlbnwwfDB8fHwxNzc5MzA4OTg5fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Trump’s $1.8 Billion Fund Deal Tests Constitutional Limits" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Top Story #9</span>
-                    <span class="headline-topic">Politics</span>
-                    <span class="headline-trust">✅ Doğrulanmış</span>
-                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
-                  </div>
-                  <h2 class="headline-title">Trump’s $1.8 Billion Fund Deal Tests Constitutional Limits</h2>
-                  <time class="headline-date" datetime="2026-05-20">20.05.2026</time>
-                </div>
-              </a>
               <a class="headline-slide headline-card topic-card" href="/news/articles/china-boeing-planes-purchase_20260520/" data-topic="siyaset" aria-label="China Confirms Purchase of 200 Boeing Planes">
                 <div class="headline-image"><img src="https://images.unsplash.com/photo-1778529852031-c06cd6828cf7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCb2VpbmclMjBwbGFuZXN8ZW58MHwwfHx8MTc3OTI4MTMxNHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="China Confirms Purchase of 200 Boeing Planes" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Top Story #10</span>
+                    <span class="headline-tag">Top Story #9</span>
                     <span class="headline-topic">Politics</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
@@ -2047,7 +2159,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                 <div class="headline-image"><img src="https://images.unsplash.com/photo-1613930648631-7191115e83d4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJcmFufGVufDB8MHx8fDE3NzkyMDczNDZ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="US and Israel Sought Regime Change in Iran with Ahmadinejad as Leader" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Top Story #11</span>
+                    <span class="headline-tag">Top Story #10</span>
                     <span class="headline-topic">World</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
@@ -2060,7 +2172,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                 <div class="headline-image"><img src="https://images.unsplash.com/photo-1600870003315-e1c945702030?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVUyUyMFNlbmF0ZXxlbnwwfDB8fHwxNzc5MjQwOTExfDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Senate Moves to Limit Trump&#x27;s Authority on Iran Conflict" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Top Story #12</span>
+                    <span class="headline-tag">Top Story #11</span>
                     <span class="headline-topic">World</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
@@ -2073,7 +2185,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                 <div class="headline-image"><img src="https://images.unsplash.com/photo-1613930648631-7191115e83d4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJcmFufGVufDB8MHx8fDE3NzkyMDczNDZ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Iran&#x27;s Strategic Leverage in the War" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Top Story #13</span>
+                    <span class="headline-tag">Top Story #12</span>
                     <span class="headline-topic">World</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
@@ -2082,24 +2194,11 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                   <time class="headline-date" datetime="2026-05-20">20.05.2026</time>
                 </div>
               </a>
-              <a class="headline-slide headline-card topic-card" href="/news/articles/expanding-role-of-ai_20260520/" data-topic="teknoloji" aria-label="The Expanding Role of A.I. in Our Lives">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxSb2JvdHxlbnwwfDB8fHwxNzc5Mjk3NjE4fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="The Expanding Role of A.I. in Our Lives" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Top Story #14</span>
-                    <span class="headline-topic">Technology</span>
-                    <span class="headline-trust">✅ Doğrulanmış</span>
-                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
-                  </div>
-                  <h2 class="headline-title">The Expanding Role of A.I. in Our Lives</h2>
-                  <time class="headline-date" datetime="2026-05-20">20.05.2026</time>
-                </div>
-              </a>
               <a class="headline-slide headline-card topic-card" href="/news/articles/trump-push-defeat-thomas-massie_20260519/" data-topic="gundem" aria-label="Trump’s Push to Defeat Thomas Massie Is the Most Expensive House Primary in Recent Years">
                 <div class="headline-image"><img src="https://images.unsplash.com/photo-1550531996-ff3dcede9477?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxUcnVtcHxlbnwwfDB8fHwxNzc5MTEwNTU1fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Trump’s Push to Defeat Thomas Massie Is the Most Expensive House Primary in Recent Years" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Top Story #15</span>
+                    <span class="headline-tag">Top Story #13</span>
                     <span class="headline-topic">Agenda</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
@@ -2112,7 +2211,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                 <div class="headline-image"><img src="https://images.unsplash.com/photo-1550531996-ff3dcede9477?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxUcnVtcHxlbnwwfDB8fHwxNzc5MTEwNTU1fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Trump Administration Proposes Admitting 10,000 White South African Refugees at $100 Million Cost" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Top Story #16</span>
+                    <span class="headline-tag">Top Story #14</span>
                     <span class="headline-topic">Agenda</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
@@ -2125,7 +2224,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                 <div class="headline-image"><img src="https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwbG9hbnN8ZW58MHwwfHx8MTc3OTIyMzc0MXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="States Challenge New Student Loan Limits on Healthcare Degrees" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Top Story #17</span>
+                    <span class="headline-tag">Top Story #15</span>
                     <span class="headline-topic">Agenda</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
@@ -2138,7 +2237,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                 <div class="headline-image"><img src="https://images.unsplash.com/photo-1547891654-e66ed7ebb968?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxBcnR8ZW58MHwwfHx8MTc3OTE4NDM2OHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Pollock and Brancusi Artworks Sold for Over $100 Million Each at Auction" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Top Story #18</span>
+                    <span class="headline-tag">Top Story #16</span>
                     <span class="headline-topic">Agenda</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
@@ -2151,7 +2250,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                 <div class="headline-image"><img src="https://images.unsplash.com/photo-1770459907854-127308b8969c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFYXN0JTIwSmVydXNhbGVtfGVufDB8MHx8fDE3NzkyMDU4MzJ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Activists say Israel tries to expel a whole Palestinian neighborhood in East Jerusalem" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Top Story #19</span>
+                    <span class="headline-tag">Top Story #17</span>
                     <span class="headline-topic">Agenda</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
@@ -2164,12 +2263,38 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                 <div class="headline-image"><img src="https://images.unsplash.com/photo-1512970648279-ff3398568f77?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxtb3NxdWV8ZW58MHwwfHx8MTc3OTIyMzc0N3ww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="California Mosque Shooting Leaves 5 Dead" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Top Story #20</span>
+                    <span class="headline-tag">Top Story #18</span>
                     <span class="headline-topic">Agenda</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
                   </div>
                   <h2 class="headline-title">California Mosque Shooting Leaves 5 Dead</h2>
+                  <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
+                </div>
+              </a>
+              <a class="headline-slide headline-card topic-card" href="/news/articles/trump-postponed-major-attack-iran_20260519/" data-topic="dunya" aria-label="Trump Says He Postponed a ‘Very Major Attack’ on Iran">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1613930648631-7191115e83d4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJcmFufGVufDB8MHx8fDE3NzkyMDczNDZ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Trump Says He Postponed a ‘Very Major Attack’ on Iran" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Top Story #19</span>
+                    <span class="headline-topic">World</span>
+                    <span class="headline-trust">✅ Doğrulanmış</span>
+                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
+                  </div>
+                  <h2 class="headline-title">Trump Says He Postponed a ‘Very Major Attack’ on Iran</h2>
+                  <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
+                </div>
+              </a>
+              <a class="headline-slide headline-card topic-card" href="/news/articles/iran-war-us-military-industrial-base_20260519/" data-topic="dunya" aria-label="Iran War Exposes Shortcomings in U.S. Military Industrial Base">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1620056389861-6caeeb699ed2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVUyUyME1pbGl0YXJ5fGVufDB8MHx8fDE3NzkyMjUxOTN8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Iran War Exposes Shortcomings in U.S. Military Industrial Base" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Top Story #20</span>
+                    <span class="headline-topic">World</span>
+                    <span class="headline-trust">✅ Doğrulanmış</span>
+                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
+                  </div>
+                  <h2 class="headline-title">Iran War Exposes Shortcomings in U.S. Military Industrial Base</h2>
                   <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
                 </div>
               </a>
@@ -2180,30 +2305,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
             </div>
             <div class="side-headlines" aria-label="Featured stories">
               
-              <a class="headline-card side-headline" href="/news/articles/trump-postponed-major-attack-iran_20260519/" data-topic="dunya" aria-label="Trump Says He Postponed a ‘Very Major Attack’ on Iran">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1613930648631-7191115e83d4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJcmFufGVufDB8MHx8fDE3NzkyMDczNDZ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Trump Says He Postponed a ‘Very Major Attack’ on Iran" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="live-stream-badge"><span class="pulse-dot"></span> CANLI</span>
-                    <span class="headline-tag">Featured</span>
-                    <span class="headline-topic">World</span>
-                  </div>
-                  <h3 class="headline-title">Trump Says He Postponed a ‘Very Major Attack’ on Iran</h3>
-                  <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
-                </div>
-              </a>
-              <a class="headline-card side-headline" href="/news/articles/iran-war-us-military-industrial-base_20260519/" data-topic="dunya" aria-label="Iran War Exposes Shortcomings in U.S. Military Industrial Base">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1620056389861-6caeeb699ed2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVUyUyME1pbGl0YXJ5fGVufDB8MHx8fDE3NzkyMjUxOTN8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Iran War Exposes Shortcomings in U.S. Military Industrial Base" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="live-stream-badge"><span class="pulse-dot"></span> CANLI</span>
-                    <span class="headline-tag">Featured</span>
-                    <span class="headline-topic">World</span>
-                  </div>
-                  <h3 class="headline-title">Iran War Exposes Shortcomings in U.S. Military Industrial Base</h3>
-                  <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
-                </div>
-              </a>
               <a class="headline-card side-headline" href="/news/articles/iran-war-exposes-us-military-industrial-base-shortcomings_20260519/" data-topic="dunya" aria-label="Iran Tensions Highlight US Military Industrial Base Weaknesses, Pentagon Chief Acknowledges">
                 <div class="headline-image"><img src="https://images.unsplash.com/photo-1613930648631-7191115e83d4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJcmFufGVufDB8MHx8fDE3NzkyMDczNDZ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Iran Tensions Highlight US Military Industrial Base Weaknesses, Pentagon Chief Acknowledges" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
@@ -2300,6 +2401,30 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                   <time class="headline-date" datetime="2026-05-18">18.05.2026</time>
                 </div>
               </a>
+              <a class="headline-card side-headline" href="/news/articles/blocked-strait-hormuz-syria-economic-opportunities_20260518/" data-topic="dunya" aria-label="Blocked Strait of Hormuz Leads to New Opportunities for Syria">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1500252185289-40ca85eb23a7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxXYXJ8ZW58MHwwfHx8MTc3OTEwNDIyMnww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Blocked Strait of Hormuz Leads to New Opportunities for Syria" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="live-stream-badge"><span class="pulse-dot"></span> CANLI</span>
+                    <span class="headline-tag">Featured</span>
+                    <span class="headline-topic">World</span>
+                  </div>
+                  <h3 class="headline-title">Blocked Strait of Hormuz Leads to New Opportunities for Syria</h3>
+                  <time class="headline-date" datetime="2026-05-18">18.05.2026</time>
+                </div>
+              </a>
+              <a class="headline-card side-headline" href="/news/articles/israel-secret-outposts-in-iraq_20260517/" data-topic="gundem" aria-label="Israel&#x27;s Secret Outposts in Iraq">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1547483029-77784da27709?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJc3JhZWx8ZW58MHwwfHx8MTc3ODk4OTU5NHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Israel&#x27;s Secret Outposts in Iraq" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="live-stream-badge"><span class="pulse-dot"></span> CANLI</span>
+                    <span class="headline-tag">Featured</span>
+                    <span class="headline-topic">Agenda</span>
+                  </div>
+                  <h3 class="headline-title">Israel&#x27;s Secret Outposts in Iraq</h3>
+                  <time class="headline-date" datetime="2026-05-17">17.05.2026</time>
+                </div>
+              </a>
             </div>
           </div>
         </section>
@@ -2315,75 +2440,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
           <div class="news-grid" id="grid-main">
             
-      <article class="news-card topic-card" data-topic="dunya">
-        <a class="card-image-link" href="/news/articles/blocked-strait-hormuz-syria-economic-opportunities_20260518/" aria-label="Blocked Strait of Hormuz Leads to New Opportunities for Syria"><div class="card-image"><img src="https://images.unsplash.com/photo-1500252185289-40ca85eb23a7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxXYXJ8ZW58MHwwfHx8MTc3OTEwNDIyMnww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Blocked Strait of Hormuz Leads to New Opportunities for Syria" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">🇺🇸 United States</span>
-            <span class="card-topic">World</span>
-            <time class="card-date" datetime="2026-05-18">18.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/news/articles/blocked-strait-hormuz-syria-economic-opportunities_20260518/">Blocked Strait of Hormuz Leads to New Opportunities for Syria</a>
-          </h3>
-          <p class="card-excerpt">More details are available in the full story.</p>
-          <div class="card-footer">
-            <a class="read-more" href="/news/articles/blocked-strait-hormuz-syria-economic-opportunities_20260518/" aria-label="Blocked Strait of Hormuz Leads to New Opportunities for Syria read this story">Read More →</a>
-            <div class="share-mini" aria-label="Paylaş">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-hormuz-syria-economic-opportunities_20260518%2F&text=Blocked+Strait+of+Hormuz+Leads+to+New+Opportunities+for+Syria" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-hormuz-syria-economic-opportunities_20260518%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Blocked+Strait+of+Hormuz+Leads+to+New+Opportunities+for+Syria%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-hormuz-syria-economic-opportunities_20260518%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-hormuz-syria-economic-opportunities_20260518%2F&text=Blocked+Strait+of+Hormuz+Leads+to+New+Opportunities+for+Syria" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="teknoloji">
-        <a class="card-image-link" href="/news/articles/elon-musk-openai-sam-altman-lawsuit-dismissed_20260518/" aria-label="Elon Musk&#x27;s $150 Billion Lawsuit Against OpenAI and Sam Altman Dismissed"><div class="card-image"><img src="https://images.unsplash.com/photo-1617704548623-340376564e68?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFbG9uJTIwTXVza3xlbnwwfDB8fHwxNzc5MTM3OTc4fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Elon Musk&#x27;s $150 Billion Lawsuit Against OpenAI and Sam Altman Dismissed" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">US United States</span>
-            <span class="card-topic">Technology</span>
-            <time class="card-date" datetime="2026-05-18">18.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/news/articles/elon-musk-openai-sam-altman-lawsuit-dismissed_20260518/">Elon Musk&#x27;s $150 Billion Lawsuit Against OpenAI and Sam Altman Dismissed</a>
-          </h3>
-          <p class="card-excerpt">More details are available in the full story.</p>
-          <div class="card-footer">
-            <a class="read-more" href="/news/articles/elon-musk-openai-sam-altman-lawsuit-dismissed_20260518/" aria-label="Elon Musk&#x27;s $150 Billion Lawsuit Against OpenAI and Sam Altman Dismissed read this story">Read More →</a>
-            <div class="share-mini" aria-label="Paylaş">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Felon-musk-openai-sam-altman-lawsuit-dismissed_20260518%2F&text=Elon+Musk%27s+%24150+Billion+Lawsuit+Against+OpenAI+and+Sam+Altman+Dismissed" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Felon-musk-openai-sam-altman-lawsuit-dismissed_20260518%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Elon+Musk%27s+%24150+Billion+Lawsuit+Against+OpenAI+and+Sam+Altman+Dismissed%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Felon-musk-openai-sam-altman-lawsuit-dismissed_20260518%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Felon-musk-openai-sam-altman-lawsuit-dismissed_20260518%2F&text=Elon+Musk%27s+%24150+Billion+Lawsuit+Against+OpenAI+and+Sam+Altman+Dismissed" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/news/articles/israel-secret-outposts-in-iraq_20260517/" aria-label="Israel&#x27;s Secret Outposts in Iraq"><div class="card-image"><img src="https://images.unsplash.com/photo-1547483029-77784da27709?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJc3JhZWx8ZW58MHwwfHx8MTc3ODk4OTU5NHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Israel&#x27;s Secret Outposts in Iraq" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">🇺🇸 United States</span>
-            <span class="card-topic">Agenda</span>
-            <time class="card-date" datetime="2026-05-17">17.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/news/articles/israel-secret-outposts-in-iraq_20260517/">Israel&#x27;s Secret Outposts in Iraq</a>
-          </h3>
-          <p class="card-excerpt">More details are available in the full story.</p>
-          <div class="card-footer">
-            <a class="read-more" href="/news/articles/israel-secret-outposts-in-iraq_20260517/" aria-label="Israel&#x27;s Secret Outposts in Iraq read this story">Read More →</a>
-            <div class="share-mini" aria-label="Paylaş">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fisrael-secret-outposts-in-iraq_20260517%2F&text=Israel%27s+Secret+Outposts+in+Iraq" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fisrael-secret-outposts-in-iraq_20260517%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Israel%27s+Secret+Outposts+in+Iraq%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fisrael-secret-outposts-in-iraq_20260517%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fisrael-secret-outposts-in-iraq_20260517%2F&text=Israel%27s+Secret+Outposts+in+Iraq" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
       <article class="news-card topic-card" data-topic="dunya">
         <a class="card-image-link" href="/news/articles/hamas-top-leader-killed-in-israeli-strike/" aria-label="Hamas&#x27;s Top Leader in Gaza Killed in Israeli Strike"><div class="card-image"><img src="https://images.unsplash.com/photo-1660479644038-cceebdaa6bdf?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxHYXphfGVufDB8MHx8fDE3Nzg5ODQzNTd8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Hamas&#x27;s Top Leader in Gaza Killed in Israeli Strike" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
