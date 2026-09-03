@@ -459,7 +459,7 @@
 
     slides.forEach(function (slide, index) {
       slide.classList.toggle('is-active', index === 0);
-      var dot = makeElement('button', 'slider-dot');
+      var dot = makeElement('button', 'slider-dot', String(index + 1));
       dot.type = 'button';
       dot.setAttribute('aria-label', String(index + 1) + '. manşete geç');
       dot.addEventListener('click', function () {
