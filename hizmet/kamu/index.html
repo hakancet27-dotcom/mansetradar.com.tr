@@ -3,44 +3,41 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>İstanbul Su Kesintileri, Baraj Doluluk &amp; Kamu Bildirimleri | mansetradar.com.tr</title>
-    <meta name="description" content="İSKİ resmi API verileriyle İstanbul su kesintisi sorgulama, güncel baraj doluluk oranları, BEDAŞ/AYEDAŞ elektrik arıza iletişim rehberi.">
+    <title>İstanbul Su Kesintileri, Elektrik &amp; Kamu Bildirimleri | mansetradar.com.tr</title>
+    <meta name="description" content="İstanbul Su Kesintileri, Elektrik &amp; Kamu Bildirimleri - En güncel duyurular, kesintiler ve saatlik bilgilendirmeler.">
     <link rel="canonical" href="https://mansetradar.com.tr/hizmet/kamu/">
     <meta name="robots" content="index,follow">
     <style>
-      :root { --red: #e10600; --dark: #0f172a; --page: #f8fafc; --border: #e2e8f0; --text: #1e293b; --muted: #64748b; }
+      :root { --red: #e10600; --dark: #171727; --page: #f4f6f8; --border: #e1e5ea; --text: #24292f; --muted: #667085; }
       * { margin:0; padding:0; box-sizing:border-box; }
-      body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:var(--page); color:var(--text); line-height:1.6; }
-      header { background:#fff; border-bottom:3px solid var(--red); padding:16px 24px; box-shadow:0 2px 10px rgba(0,0,0,0.05); position:sticky; top:0; z-index:100; }
-      .header-inner { max-width:1240px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; }
-      .brand { font-size:1.35rem; font-weight:900; color:var(--dark); text-decoration:none; display:flex; align-items:center; gap:8px; }
+      body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:var(--page); color:var(--text); line-height:1.55; }
+      header { background:#fff; border-bottom:3px solid var(--red); padding:16px 24px; box-shadow:0 2px 8px rgba(0,0,0,0.06); }
+      .header-inner { max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; }
+      .brand { font-size:1.3rem; font-weight:800; color:var(--dark); text-decoration:none; display:flex; align-items:center; gap:8px; }
       .brand-dot { width:12px; height:12px; background:var(--red); border-radius:3px; }
-      .nav-back { color:var(--muted); text-decoration:none; font-size:0.92rem; font-weight:700; display:inline-flex; align-items:center; gap:6px; }
+      .nav-back { color:var(--muted); text-decoration:none; font-size:0.9rem; font-weight:600; }
       .nav-back:hover { color:var(--red); }
-      main { max-width:1240px; margin:32px auto; padding:0 20px; }
-      .hero-box { background:linear-gradient(135deg, #0284c7, #0369a1); color:#fff; border-radius:14px; padding:32px; margin-bottom:28px; box-shadow:0 10px 30px rgba(2,132,199,0.15); }
-      .hero-badge { display:inline-flex; align-items:center; gap:6px; background:#fff; color:#0369a1; font-size:0.75rem; font-weight:900; padding:4px 12px; border-radius:999px; letter-spacing:0.5px; margin-bottom:12px; }
-      .hero-title { font-size:2.1rem; font-weight:900; line-height:1.2; margin-bottom:10px; }
-      .hero-desc { color:#e0f2fe; font-size:1.02rem; max-width:850px; }
-
-      .grid-dashboard { display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:20px; margin-bottom:32px; }
-      .dash-card { background:#fff; border:1px solid var(--border); border-radius:12px; padding:24px; box-shadow:0 4px 16px rgba(0,0,0,0.04); display:flex; flex-direction:column; justify-content:space-between; }
-      .dash-card-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; }
-      .dash-card-title { font-size:1.15rem; font-weight:800; color:var(--dark); display:flex; align-items:center; gap:8px; }
-      .dash-badge-green { background:#dcfce7; color:#15803d; font-size:0.75rem; font-weight:800; padding:3px 8px; border-radius:999px; }
-      .dash-badge-blue { background:#dbeafe; color:#1e40af; font-size:0.75rem; font-weight:800; padding:3px 8px; border-radius:999px; }
-      .dash-metric { font-size:2.4rem; font-weight:900; color:#0284c7; margin:8px 0; }
-      .dash-desc { color:var(--muted); font-size:0.92rem; line-height:1.5; margin-bottom:16px; }
-      .dash-btn { display:inline-flex; align-items:center; justify-content:center; background:#f1f5f9; color:var(--dark); font-weight:700; font-size:0.88rem; padding:10px 16px; border-radius:8px; text-decoration:none; transition:all 0.2s; border:1px solid var(--border); }
-      .dash-btn:hover { background:var(--red); color:#fff; border-color:var(--red); }
-
-      .emergency-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:16px; margin-bottom:36px; }
-      .em-card { background:#fff; border:1px solid var(--border); border-radius:10px; padding:18px; display:flex; align-items:center; gap:14px; box-shadow:0 2px 8px rgba(0,0,0,0.03); }
-      .em-num { width:52px; height:52px; border-radius:50%; background:#fee2e2; color:#dc2626; font-size:1.2rem; font-weight:900; display:grid; place-items:center; flex-shrink:0; }
-      .em-info strong { display:block; font-size:1rem; color:var(--dark); }
-      .em-info span { font-size:0.82rem; color:var(--muted); }
-
-      footer { text-align:center; padding:40px 20px; color:var(--muted); font-size:0.85rem; border-top:1px solid var(--border); margin-top:60px; background:#fff; }
+      main { max-width:1200px; margin:32px auto; padding:0 20px; }
+      .page-hero { background:#fff; border:1px solid var(--border); border-radius:12px; padding:28px; margin-bottom:28px; box-shadow:0 2px 8px rgba(0,0,0,0.04); }
+      .page-badge { display:inline-block; background:#dbeafe; color:#1e40af; font-size:0.75rem; font-weight:800; padding:3px 10px; border-radius:999px; margin-bottom:10px; }
+      .page-title { font-size:1.9rem; font-weight:800; color:var(--dark); margin-bottom:8px; }
+      .page-desc { color:var(--muted); font-size:0.95rem; }
+      .service-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:20px; }
+      .istanbul-card { background:#fff; border-radius:10px; overflow:hidden; border:1px solid var(--border); box-shadow:0 2px 8px rgba(0,0,0,0.04); display:flex; flex-direction:column; transition:transform 0.2s; }
+      .istanbul-card:hover { transform:translateY(-3px); box-shadow:0 10px 24px rgba(0,0,0,0.08); }
+      .istanbul-card-link { text-decoration:none; color:inherit; display:flex; flex-direction:column; height:100%; }
+      .istanbul-card-img { width:100%; aspect-ratio:16/9; background:#e2e8f0; overflow:hidden; }
+      .istanbul-card-img img { width:100%; height:100%; object-fit:cover; }
+      .istanbul-placeholder { display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,#1e3a8a,#0284c7); color:#fff; font-size:1.5rem; font-weight:900; }
+      .istanbul-card-body { padding:16px; display:flex; flex-direction:column; flex:1; }
+      .istanbul-card-meta { display:flex; align-items:center; gap:8px; font-size:0.75rem; color:var(--muted); margin-bottom:10px; }
+      .istanbul-badge { background:#dbeafe; color:#1e40af; font-weight:800; padding:2px 7px; border-radius:4px; }
+      .istanbul-card-title { font-size:1.05rem; font-weight:700; line-height:1.4; color:var(--dark); margin-bottom:12px; flex:1; }
+      .istanbul-card-footer { display:flex; align-items:center; justify-content:space-between; border-top:1px solid #f1f5f9; padding-top:10px; font-size:0.8rem; }
+      .istanbul-source { color:#64748b; font-weight:600; }
+      .istanbul-more { color:var(--red); font-weight:800; }
+      .empty-state { background:#fff; border:1px solid var(--border); border-radius:8px; padding:32px; text-align:center; color:var(--muted); }
+      footer { text-align:center; padding:40px 20px; color:var(--muted); font-size:0.85rem; border-top:1px solid var(--border); margin-top:60px; }
     </style>
 </head>
 <body>
@@ -51,69 +48,14 @@
       </div>
     </header>
     <main>
-        <div class="hero-box">
-          <span class="hero-badge">💧 CANLI ŞEHİR HİZMETLERİ</span>
-          <h1 class="hero-title">İstanbul Su Kesintileri, Baraj Doluluk &amp; Kamu Rehberi</h1>
-          <p class="hero-desc">İSKİ canlı API verileri, güncel baraj doluluk oranları, BEDAŞ/AYEDAŞ elektrik kesintisi ihbar hatları ve İBB resmi duyuruları.</p>
+        <div class="page-hero">
+          <span class="page-badge">📍 İSTANBUL YEREL HİZMETLER</span>
+          <h1 class="page-title">İstanbul Su Kesintileri, Elektrik &amp; Kamu Bildirimleri</h1>
+          <p class="page-desc">İBB, İETT, İSKİ ve resmi kaynaklardan anlık olarak derlenen teyitli şehir bilgileri.</p>
         </div>
-
-        <div class="grid-dashboard">
-          <div class="dash-card">
-            <div>
-              <div class="dash-card-header">
-                <h2 class="dash-card-title">💧 İSKİ Şebeke Durumu</h2>
-                <span class="dash-badge-green">● Canlı Durum</span>
-              </div>
-              <div class="dash-metric">Normal Akış</div>
-              <p class="dash-desc">Tüm ilçelerde şebeke suyu normal akmaktadır. Planlı veya ani kesintiler için sorgulama ekranını ziyaret edebilirsiniz.</p>
-            </div>
-            <a class="dash-btn" href="https://www.iski.istanbul/abone-hizmetleri/ariza-kesinti" target="_blank" rel="noopener">Resmi İSKİ Kesinti Ekranı →</a>
-          </div>
-
-          <div class="dash-card">
-            <div>
-              <div class="dash-card-header">
-                <h2 class="dash-card-title">🌊 Baraj Doluluk Oranı</h2>
-                <span class="dash-badge-blue">Güncel</span>
-              </div>
-              <div class="dash-metric">%52,24</div>
-              <p class="dash-desc">İstanbul barajlarının genel ortalama doluluk oranı. Ömerli, Darlık, Terkos ve Elmalı barajlarının canlı rezerv durumu.</p>
-            </div>
-            <a class="dash-btn" href="https://www.iski.istanbul/baraj-doluluk" target="_blank" rel="noopener">Baraj Grafikleri &amp; Detaylar →</a>
-          </div>
-
-          <div class="dash-card">
-            <div>
-              <div class="dash-card-header">
-                <h2 class="dash-card-title">⚡ Elektrik Arıza (BEDAŞ / AYEDAŞ)</h2>
-                <span class="dash-badge-blue">7/24 Çağrı</span>
-              </div>
-              <div class="dash-metric">Alo 186</div>
-              <p class="dash-desc">Avrupa Yakası BEDAŞ, Anadolu Yakası AYEDAŞ elektrik kesintisi bildirim ve arıza takip servisi.</p>
-            </div>
-            <a class="dash-btn" href="https://www.bedas.com.tr/tr/kesintiler" target="_blank" rel="noopener">BEDAŞ Kesinti Haritası →</a>
-          </div>
-        </div>
-
-        <h2 style="font-size:1.4rem; font-weight:800; margin-bottom:16px; color:var(--dark);">📞 Hızlı Kamu &amp; Acil İletişim Numaraları</h2>
-        <div class="emergency-grid">
-          <div class="em-card">
-            <div class="em-num">153</div>
-            <div class="em-info"><strong>İBB Beyaz Masa</strong><span>İstanbul genel şikayet &amp; bilgi</span></div>
-          </div>
-          <div class="em-card">
-            <div class="em-num">185</div>
-            <div class="em-info"><strong>İSKİ Su Arıza</strong><span>Su ve kanalizasyon bildirim</span></div>
-          </div>
-          <div class="em-card">
-            <div class="em-num">186</div>
-            <div class="em-info"><strong>Elektrik Arıza</strong><span>BEDAŞ &amp; AYEDAŞ acil</span></div>
-          </div>
-          <div class="em-card">
-            <div class="em-num">187</div>
-            <div class="em-info"><strong>İGDAŞ Doğalgaz</strong><span>Doğalgaz acil ihbar hattı</span></div>
-          </div>
-        </div>
+        <section class="service-grid">
+<p class="empty-state">Şu an için kamu hizmetleri kategorisinde yeni duyuru bulunmamaktadır. Güncellemeler otomatik olarak yansıtılacaktır.</p>
+        </section>
     </main>
     <footer>
       <p>&copy; 2026 mansetradar.com.tr &middot; Tüm hakları saklıdır. &middot; <a href="/kunye/" style="color:inherit">Künye</a> &middot; <a href="/yayin-ilkeleri/" style="color:inherit">Yayın İlkeleri</a></p>
