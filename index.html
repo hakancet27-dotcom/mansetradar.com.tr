@@ -66,6 +66,71 @@
       --shadow-strong: 0 10px 26px rgba(15, 23, 42, 0.13);
     }
 
+    body.dark-mode {
+      --surface: #121826;
+      --page: #0a0d14;
+      --border: #1e293b;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+      --shadow-strong: 0 10px 30px rgba(0, 0, 0, 0.6);
+    }
+    body.dark-mode header {
+      background: #0f172a;
+      border-bottom-color: var(--red);
+    }
+    body.dark-mode .market-strip {
+      background: #1e293b;
+      border-color: #334155;
+    }
+    body.dark-mode .market-item {
+      background: #0f172a;
+      border-color: #334155;
+    }
+    body.dark-mode .header-search {
+      background: #1e293b;
+      border-color: #334155;
+    }
+    body.dark-mode .header-search input {
+      color: #f1f5f9;
+    }
+    body.dark-mode .news-card, body.dark-mode .topic-card, body.dark-mode .istanbul-card {
+      background: #121826;
+      border-color: #1e293b;
+    }
+    body.dark-mode .news-card a, body.dark-mode .topic-card a, body.dark-mode .istanbul-card a {
+      color: #f1f5f9;
+    }
+    body.dark-mode .sidebar-block, body.dark-mode .category-nav, body.dark-mode .quick-summary {
+      background: #121826;
+      border-color: #1e293b;
+    }
+    body.dark-mode .topic-link {
+      color: #cbd5e1;
+    }
+    .theme-toggle-btn {
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      width: 38px;
+      height: 38px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 1.1rem;
+      transition: all .2s;
+    }
+    .theme-toggle-btn:hover {
+      background: #e2e8f0;
+      border-color: #94a3b8;
+    }
+    body.dark-mode .theme-toggle-btn {
+      background: #1e293b;
+      border-color: #334155;
+      color: #f1f5f9;
+    }
+
     body {
       font-family: "Segoe UI", Arial, sans-serif;
       background: var(--page);
@@ -2079,6 +2144,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           <button id="news-search-clear" type="button" hidden>Temizle</button>
         </div>
         <a class="member-login-btn" href="/login.html">&Uuml;ye Giri&#351;i</a>
+        <button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Karanlık/Aydınlık Tema" title="Karanlık / Aydınlık Mod">🌓</button>
       </div>
 <nav aria-label="Ana menü">
         <a href="/">Ana Sayfa</a>
@@ -3626,6 +3692,20 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         navigator.serviceWorker.register('/sw.js').catch(function() {});
       });
     }
+    (function() {
+      const btn = document.getElementById('theme-toggle');
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark' || (!saved && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.body.classList.add('dark-mode');
+      }
+      if (btn) {
+        btn.addEventListener('click', function() {
+          document.body.classList.toggle('dark-mode');
+          const isDark = document.body.classList.contains('dark-mode');
+          localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        });
+      }
+    })();
   </script>
 </body>
 </html>
