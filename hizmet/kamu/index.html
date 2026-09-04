@@ -1,64 +1,269 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>İstanbul Su Kesintileri, Elektrik &amp; Kamu Bildirimleri | mansetradar.com.tr</title>
-    <meta name="description" content="İstanbul Su Kesintileri, Elektrik &amp; Kamu Bildirimleri - En güncel duyurular, kesintiler ve saatlik bilgilendirmeler.">
-    <link rel="canonical" href="https://mansetradar.com.tr/hizmet/kamu/">
-    <meta name="robots" content="index,follow">
-    <style>
-      :root { --red: #e10600; --dark: #171727; --page: #f4f6f8; --border: #e1e5ea; --text: #24292f; --muted: #667085; }
-      * { margin:0; padding:0; box-sizing:border-box; }
-      body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:var(--page); color:var(--text); line-height:1.55; }
-      header { background:#fff; border-bottom:3px solid var(--red); padding:16px 24px; box-shadow:0 2px 8px rgba(0,0,0,0.06); }
-      .header-inner { max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; }
-      .brand { font-size:1.3rem; font-weight:800; color:var(--dark); text-decoration:none; display:flex; align-items:center; gap:8px; }
-      .brand-dot { width:12px; height:12px; background:var(--red); border-radius:3px; }
-      .nav-back { color:var(--muted); text-decoration:none; font-size:0.9rem; font-weight:600; }
-      .nav-back:hover { color:var(--red); }
-      main { max-width:1200px; margin:32px auto; padding:0 20px; }
-      .page-hero { background:#fff; border:1px solid var(--border); border-radius:12px; padding:28px; margin-bottom:28px; box-shadow:0 2px 8px rgba(0,0,0,0.04); }
-      .page-badge { display:inline-block; background:#dbeafe; color:#1e40af; font-size:0.75rem; font-weight:800; padding:3px 10px; border-radius:999px; margin-bottom:10px; }
-      .page-title { font-size:1.9rem; font-weight:800; color:var(--dark); margin-bottom:8px; }
-      .page-desc { color:var(--muted); font-size:0.95rem; }
-      .service-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:20px; }
-      .istanbul-card { background:#fff; border-radius:10px; overflow:hidden; border:1px solid var(--border); box-shadow:0 2px 8px rgba(0,0,0,0.04); display:flex; flex-direction:column; transition:transform 0.2s; }
-      .istanbul-card:hover { transform:translateY(-3px); box-shadow:0 10px 24px rgba(0,0,0,0.08); }
-      .istanbul-card-link { text-decoration:none; color:inherit; display:flex; flex-direction:column; height:100%; }
-      .istanbul-card-img { width:100%; aspect-ratio:16/9; background:#e2e8f0; overflow:hidden; }
-      .istanbul-card-img img { width:100%; height:100%; object-fit:cover; }
-      .istanbul-placeholder { display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,#1e3a8a,#0284c7); color:#fff; font-size:1.5rem; font-weight:900; }
-      .istanbul-card-body { padding:16px; display:flex; flex-direction:column; flex:1; }
-      .istanbul-card-meta { display:flex; align-items:center; gap:8px; font-size:0.75rem; color:var(--muted); margin-bottom:10px; }
-      .istanbul-badge { background:#dbeafe; color:#1e40af; font-weight:800; padding:2px 7px; border-radius:4px; }
-      .istanbul-card-title { font-size:1.05rem; font-weight:700; line-height:1.4; color:var(--dark); margin-bottom:12px; flex:1; }
-      .istanbul-card-footer { display:flex; align-items:center; justify-content:space-between; border-top:1px solid #f1f5f9; padding-top:10px; font-size:0.8rem; }
-      .istanbul-source { color:#64748b; font-weight:600; }
-      .istanbul-more { color:var(--red); font-weight:800; }
-      .empty-state { background:#fff; border:1px solid var(--border); border-radius:8px; padding:32px; text-align:center; color:var(--muted); }
-      footer { text-align:center; padding:40px 20px; color:var(--muted); font-size:0.85rem; border-top:1px solid var(--border); margin-top:60px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İstanbul Canlı Kesintiler &amp; Kamu Hizmetleri | İSKİ, BEDAŞ, Barajlar</title>
+  <meta name="description" content="İSKİ canlı su kesintileri, BEDAŞ elektrik arıza bildirimleri, baraj doluluk oranları ve tek tıkla arama rehberi.">
+  <link rel="canonical" href="https://mansetradar.com.tr/hizmet/kamu/">
+  <style>
+    :root {
+      --red: #e10600;
+      --dark: #0f172a;
+      --surface: #ffffff;
+      --page: #f8fafc;
+      --border: #e2e8f0;
+      --text: #1e293b;
+      --muted: #64748b;
+    }
+    body { background: var(--page); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.5; margin: 0; }
+    .header { background: var(--dark); color: white; padding: 14px 20px; border-bottom: 3px solid var(--red); }
+    .header-inner { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+    .header-logo { font-size: 1.25rem; font-weight: 800; color: white; text-decoration: none; }
+    .header-logo span { color: var(--red); }
+    .nav-links { display: flex; gap: 16px; font-size: 0.9rem; }
+    .nav-links a { color: #cbd5e1; text-decoration: none; font-weight: 600; }
+    .nav-links a:hover, .nav-links a.active { color: white; }
+    .container { max-width: 1200px; margin: 24px auto; padding: 0 20px; }
+    .hero-banner { background: linear-gradient(135deg, #0369a1 0%, #0f172a 100%); color: white; border-radius: 12px; padding: 28px; margin-bottom: 24px; }
+    .hero-kicker { color: #7dd3fc; font-size: 0.85rem; font-weight: 800; text-transform: uppercase; }
+    .hero-title { font-size: 1.85rem; font-weight: 800; margin: 6px 0 10px; }
+    .hero-desc { color: #bae6fd; font-size: 1rem; margin: 0; max-width: 760px; }
+    .section-heading { font-size: 1.3rem; font-weight: 800; margin: 28px 0 14px; color: var(--dark); display: flex; align-items: center; justify-content: space-between; }
+    .outages-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; margin-bottom: 24px; }
+    .outage-card { background: white; border-radius: 10px; padding: 20px; border: 1px solid var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; }
+    .outage-badge { font-size: 0.78rem; font-weight: 800; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+    .outage-status { font-size: 0.85rem; font-weight: 800; margin-bottom: 8px; }
+    .outage-status.warn { color: #b45309; }
+    .outage-status.ok { color: #059669; }
+    .outage-status.est { color: #0284c7; }
+    .outage-title { font-size: 1.15rem; font-weight: 800; margin: 0 0 8px; color: var(--dark); }
+    .outage-desc { font-size: 0.92rem; color: #475569; margin-bottom: 16px; line-height: 1.5; }
+    .outage-actions { margin-top: auto; }
+    .btn-action { display: inline-flex; align-items: center; justify-content: center; width: 100%; background: #f1f5f9; color: var(--dark); padding: 10px; border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 0.9rem; transition: background 0.15s; }
+    .btn-action:hover { background: #e2e8f0; }
+    .dams-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-bottom: 30px; }
+    .dam-item { background: white; border: 1px solid var(--border); border-radius: 8px; padding: 16px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); }
+    .dam-info { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+    .dam-name { font-weight: 700; font-size: 0.95rem; color: var(--dark); }
+    .dam-rate { font-size: 1.1rem; color: #0284c7; }
+    .dam-progress { height: 8px; background: #e2e8f0; border-radius: 999px; overflow: hidden; }
+    .dam-bar { height: 100%; border-radius: 999px; transition: width 0.3s ease; }
+    .emergency-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; margin-top: 16px; }
+    .em-card { background: white; border: 1px solid var(--border); border-radius: 8px; padding: 16px; display: flex; gap: 14px; align-items: center; text-decoration: none; color: inherit; transition: transform 0.15s, border-color 0.15s; }
+    .em-card:hover { transform: translateY(-2px); border-color: var(--red); }
+    .em-num { width: 48px; height: 48px; border-radius: 8px; background: #fee2e2; color: var(--red); font-size: 1.25rem; font-weight: 900; display: flex; align-items: center; justify-content: center; }
+    .em-info strong { display: block; font-size: 0.98rem; color: var(--dark); }
+    .em-info span { display: block; font-size: 0.8rem; color: var(--muted); }
+    .kamu-chip { background: white; border: 1px solid var(--border); border-radius: 999px; padding: 6px 14px; font-size: 0.82rem; font-weight: 700; color: var(--text); cursor: pointer; transition: all 0.15s; }
+    .kamu-chip:hover { border-color: #0284c7; color: #0284c7; }
+    .kamu-chip.active { background: #0284c7; border-color: #0284c7; color: white; }
+    footer { background: var(--dark); color: #94a3b8; padding: 24px 20px; text-align: center; font-size: 0.85rem; margin-top: 40px; }
+  </style>
 </head>
 <body>
-    <header>
-      <div class="header-inner">
-        <a class="brand" href="/"><span class="brand-dot"></span>mansetradar.com.tr</a>
-        <a class="nav-back" href="/">← Ana Sayfaya Dön</a>
-      </div>
-    </header>
-    <main>
-        <div class="page-hero">
-          <span class="page-badge">📍 İSTANBUL YEREL HİZMETLER</span>
-          <h1 class="page-title">İstanbul Su Kesintileri, Elektrik &amp; Kamu Bildirimleri</h1>
-          <p class="page-desc">İBB, İETT, İSKİ ve resmi kaynaklardan anlık olarak derlenen teyitli şehir bilgileri.</p>
-        </div>
-        <section class="service-grid">
-<p class="empty-state">Şu an için kamu hizmetleri kategorisinde yeni duyuru bulunmamaktadır. Güncellemeler otomatik olarak yansıtılacaktır.</p>
-        </section>
-    </main>
-    <footer>
-      <p>&copy; 2026 mansetradar.com.tr &middot; Tüm hakları saklıdır. &middot; <a href="/kunye/" style="color:inherit">Künye</a> &middot; <a href="/yayin-ilkeleri/" style="color:inherit">Yayın İlkeleri</a></p>
-    </footer>
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="header-logo">MANŞET<span>RADAR</span></a>
+      <nav class="nav-links">
+        <a href="/">Ana Sayfa</a>
+        <a href="/hizmet/ulasim/">İETT &amp; Ulaşım</a>
+        <a href="/hizmet/kamu/" class="active">İSKİ &amp; Kesintiler</a>
+        <a href="/hizmet/eczane/">Nöbetçi Eczaneler</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="hero-banner">
+      <span class="hero-kicker">📍 İSKİ &amp; BEDAŞ CANLI KESİNTİ VE ARIZA MASASI</span>
+      <h1 class="hero-title">İstanbul Su &amp; Elektrik Kesintileri ve Baraj Durumu</h1>
+      <p class="hero-desc">İSKİ ve BEDAŞ resmi verileriyle İstanbul'da planlı ve plansız arıza onarımları, etkilenen ilçeler ve baraj doluluk oranları.</p>
+    </div>
+
+    <div class="section-heading">
+      <span>💧 Canlı İSKİ Su Kesintisi Bildirimleri (1)</span>
+      <a href="tel:185" style="color:var(--red); text-decoration:none; font-size:0.9rem;">📞 Alo 185 Su Arıza Ara →</a>
+    </div>
+    
+    <div class="outages-grid" id="iski-outages-grid">
+
+          <div class="outage-card normal">
+            <div class="outage-badge">💧 İSKİ Şebeke Durumu</div>
+            <div class="outage-status ok">🟢 Normal Akış</div>
+            <h3 class="outage-title">Tüm İlçelerde Şebeke Suyu Normal</h3>
+            <p class="outage-desc">İstanbul genelinde ana iletim hatlarında plansız büyük bir su arızası bulunmamaktadır.</p>
+            <div class="outage-actions">
+              <a href="tel:185" class="btn-action">📞 Alo 185 Danışma</a>
+            </div>
+          </div>
+    </div>
+
+    <div class="section-heading">
+      <span>⚡ Canlı BEDAŞ Elektrik Kesintileri &amp; İş Emirleri (4)</span>
+      <a href="tel:186" style="color:var(--red); text-decoration:none; font-size:0.9rem;">📞 Alo 186 Elektrik Arıza Ara →</a>
+    </div>
+    <div class="kamu-district-chips" style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px;"><button type="button" class="kamu-chip bedas-chip active" onclick="filterKamuDistrict('all', this)">Tüm İlçeler (4)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('arnavutkoy', this)">Arnavutköy (1)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('bahcelievler', this)">Bahçelievler (1)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('buyukcekmece', this)">Büyükçekmece (1)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('esenyurt', this)">Esenyurt (1)</button></div>
+    <div class="outages-grid" id="bedas-outages-grid">
+
+              <div class="outage-card bedas" data-district="arnavutkoy">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">⚡ Bildirimsiz</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-09-05 03:40</span>
+                </div>
+                <h3 class="outage-title">📍 Arnavutköy İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Ömerli <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">3 Trafo Bölgesi</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4843354</div>
+                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
+                <div class="outage-actions">
+                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
+                </div>
+              </div>
+              <div class="outage-card bedas" data-district="bahcelievler">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">⚡ Bildirimsiz</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-09-05 02:36</span>
+                </div>
+                <h3 class="outage-title">📍 Bahçelievler İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Bahçelievler, Cumhuriyet, Soğanlı <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">6 Trafo Bölgesi</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4843292</div>
+                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
+                <div class="outage-actions">
+                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
+                </div>
+              </div>
+              <div class="outage-card bedas" data-district="buyukcekmece">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">⚡ Bildirimsiz</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-09-05 03:05</span>
+                </div>
+                <h3 class="outage-title">📍 Büyükçekmece İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ 19 Mayıs, Alkent 2000, Karaağaç <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">59 Trafo Bölgesi</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4843326</div>
+                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
+                <div class="outage-actions">
+                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
+                </div>
+              </div>
+              <div class="outage-card bedas" data-district="esenyurt">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">⚡ Bildirimsiz</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-09-05 03:05</span>
+                </div>
+                <h3 class="outage-title">📍 Esenyurt İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Cumhuriyet, Güzelyurt, Mehmet Akif Ersoy <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">39 Trafo Bölgesi</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4843327</div>
+                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
+                <div class="outage-actions">
+                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
+                </div>
+              </div>
+    </div>
+
+    <div class="section-heading">
+      <span>🌊 İstanbul Barajlarının Canlı Doluluk Durumu (Genel Ortalama: %52,24)</span>
+    </div>
+    <div class="dams-grid">
+
+          <div class="dam-item">
+            <div class="dam-info">
+              <span class="dam-name">🌊 Ömerli Barajı Barajı</span>
+              <strong class="dam-rate">%56,12</strong>
+            </div>
+            <div class="dam-progress"><div class="dam-bar" style="width:56.12%; background:#0284c7;"></div></div>
+          </div>
+          <div class="dam-item">
+            <div class="dam-info">
+              <span class="dam-name">🌊 Darlık Barajı Barajı</span>
+              <strong class="dam-rate">%58,40</strong>
+            </div>
+            <div class="dam-progress"><div class="dam-bar" style="width:58.4%; background:#0284c7;"></div></div>
+          </div>
+          <div class="dam-item">
+            <div class="dam-info">
+              <span class="dam-name">🌊 Terkos Barajı Barajı</span>
+              <strong class="dam-rate">%49,85</strong>
+            </div>
+            <div class="dam-progress"><div class="dam-bar" style="width:49.85%; background:#f59e0b;"></div></div>
+          </div>
+          <div class="dam-item">
+            <div class="dam-info">
+              <span class="dam-name">🌊 Büyükçekmece Barajı Barajı</span>
+              <strong class="dam-rate">%48,20</strong>
+            </div>
+            <div class="dam-progress"><div class="dam-bar" style="width:48.2%; background:#f59e0b;"></div></div>
+          </div>
+          <div class="dam-item">
+            <div class="dam-info">
+              <span class="dam-name">🌊 Alibey Barajı Barajı</span>
+              <strong class="dam-rate">%34,10</strong>
+            </div>
+            <div class="dam-progress"><div class="dam-bar" style="width:34.1%; background:#f59e0b;"></div></div>
+          </div>
+          <div class="dam-item">
+            <div class="dam-info">
+              <span class="dam-name">🌊 Elmalı Barajı Barajı</span>
+              <strong class="dam-rate">%62,50</strong>
+            </div>
+            <div class="dam-progress"><div class="dam-bar" style="width:62.5%; background:#0284c7;"></div></div>
+          </div>
+    </div>
+
+    <h2 style="font-size:1.4rem; font-weight:800; margin-bottom:16px; color:var(--dark);">📞 Tek Tıkla Ara: Hızlı Kamu &amp; Acil İletişim Numaraları</h2>
+    <div class="emergency-grid">
+      <a class="em-card" href="tel:153">
+        <div class="em-num">153</div>
+        <div class="em-info"><strong>İBB Beyaz Masa</strong><span>İstanbul genel şikayet &amp; bilgi</span></div>
+      </a>
+      <a class="em-card" href="tel:185">
+        <div class="em-num">185</div>
+        <div class="em-info"><strong>İSKİ Arıza</strong><span>7/24 Su &amp; Kanalizasyon</span></div>
+      </a>
+      <a class="em-card" href="tel:186">
+        <div class="em-num">186</div>
+        <div class="em-info"><strong>BEDAŞ / AYEDAŞ</strong><span>Elektrik kesinti ve arıza ihbar</span></div>
+      </a>
+      <a class="em-card" href="tel:187">
+        <div class="em-num">187</div>
+        <div class="em-info"><strong>İGDAŞ Doğalgaz</strong><span>Doğalgaz acil müdahale</span></div>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 mansetradar.com.tr &middot; Tüm hakları saklıdır. &middot; Resmi Kaynak: İSKİ, BEDAŞ &amp; İBB &middot; <a href="/kunye/" style="color:inherit">Künye</a></p>
+  </footer>
+  <script>
+    function filterIskiDistrict(dist, btn) {
+      document.querySelectorAll('.kamu-chip.iski-chip').forEach(function(b) { b.classList.remove('active'); });
+      if (btn) btn.classList.add('active');
+      document.querySelectorAll('.outage-card.iski').forEach(function(card) {
+        if (dist === 'all' || card.getAttribute('data-district') === dist) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+    function filterKamuDistrict(dist, btn) {
+      document.querySelectorAll('.kamu-chip.bedas-chip').forEach(function(b) { b.classList.remove('active'); });
+      if (btn) btn.classList.add('active');
+      document.querySelectorAll('.outage-card.bedas').forEach(function(card) {
+        if (dist === 'all' || card.getAttribute('data-district') === dist) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
 </body>
 </html>
