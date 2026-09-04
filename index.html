@@ -1987,8 +1987,41 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
   display: none !important;
 }
 /* FIRST_PAINT_TOPIC_FILTER_END */
+  
+    /* FORCE VISIBLE NUMBERS ON ALL SLIDER DOTS */
+    .headline-slider .slider-dots .slider-dot,
+    .slider-dots .slider-dot {
+      min-width: 26px !important;
+      height: 26px !important;
+      width: auto !important;
+      padding: 0 6px !important;
+      border: 0 !important;
+      border-radius: 6px !important;
+      background: rgba(255, 255, 255, 0.22) !important;
+      color: #ffffff !important;
+      font-size: 0.76rem !important;
+      font-weight: 800 !important;
+      cursor: pointer !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      line-height: 1 !important;
+      text-indent: 0 !important;
+      overflow: visible !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+    }
+    .headline-slider .slider-dots .slider-dot.is-active,
+    .slider-dots .slider-dot.is-active {
+      min-width: 32px !important;
+      background: #e10600 !important;
+      color: #ffffff !important;
+      font-weight: 900 !important;
+      box-shadow: 0 2px 10px rgba(225, 6, 0, 0.55) !important;
+    }
+
   </style>
-<link rel="stylesheet" href="/assets/css/mobile-home-ux.css?v=20260525e">
+<link rel="stylesheet" href="/assets/css/mobile-home-ux.css?v=20260904_numdots">
   <link rel="stylesheet" href="/assets/css/showcase-side-rotation.css?v=20260605e">
   <link rel="stylesheet" href="/assets/css/mobile-market-static.css?v=20260526a">
 </head>
@@ -2060,25 +2093,25 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         <div class="imb-brand">
           <span class="imb-badge">📍 İSTANBUL MASASI</span>
         </div>
-        <select class="imb-select" id="imb-district-dropdown" onchange="if(this.value) window.location.href='/hizmet/eczane/?ilce='+encodeURIComponent(this.value);" aria-label="İstanbul ilçesi seç">
+        <select class="imb-select" id="imb-district-dropdown" onchange="if(this.value) window.location.href=this.value;" aria-label="İstanbul ilçesi seç">
           <option value="">İlçeni Seç (39 İlçe)...</option>
-          <option value="Adalar">Adalar</option><option value="Arnavutköy">Arnavutköy</option><option value="Ataşehir">Ataşehir</option><option value="Avcılar">Avcılar</option><option value="Bahçelievler">Bahçelievler</option><option value="Bakırköy">Bakırköy</option><option value="Bayrampaşa">Bayrampaşa</option><option value="Bağcılar">Bağcılar</option><option value="Başakşehir">Başakşehir</option><option value="Beykoz">Beykoz</option><option value="Beylikdüzü">Beylikdüzü</option><option value="Beyoğlu">Beyoğlu</option><option value="Beşiktaş">Beşiktaş</option><option value="Büyükçekmece">Büyükçekmece</option><option value="Esenler">Esenler</option><option value="Esenyurt">Esenyurt</option><option value="Eyüpsultan">Eyüpsultan</option><option value="Fatih">Fatih</option><option value="Gaziosmanpaşa">Gaziosmanpaşa</option><option value="Güngören">Güngören</option><option value="Kadıköy">Kadıköy</option><option value="Kartal">Kartal</option><option value="Kağıthane">Kağıthane</option><option value="Küçükçekmece">Küçükçekmece</option><option value="Maltepe">Maltepe</option><option value="Pendik">Pendik</option><option value="Sancaktepe">Sancaktepe</option><option value="Sarıyer">Sarıyer</option><option value="Silivri">Silivri</option><option value="Sultanbeyli">Sultanbeyli</option><option value="Sultangazi">Sultangazi</option><option value="Tuzla">Tuzla</option><option value="Zeytinburnu">Zeytinburnu</option><option value="Çatalca">Çatalca</option><option value="Çekmeköy">Çekmeköy</option><option value="Ümraniye">Ümraniye</option><option value="Üsküdar">Üsküdar</option><option value="Şile">Şile</option><option value="Şişli">Şişli</option>
+          <option value="/istanbul/adalar/">Adalar</option><option value="/istanbul/arnavutkoy/">Arnavutköy</option><option value="/istanbul/atasehir/">Ataşehir</option><option value="/istanbul/avcilar/">Avcılar</option><option value="/istanbul/bahcelievler/">Bahçelievler</option><option value="/istanbul/bakirkoy/">Bakırköy</option><option value="/istanbul/bayrampasa/">Bayrampaşa</option><option value="/istanbul/bagcilar/">Bağcılar</option><option value="/istanbul/basaksehir/">Başakşehir</option><option value="/istanbul/beykoz/">Beykoz</option><option value="/istanbul/beylikduzu/">Beylikdüzü</option><option value="/istanbul/beyoglu/">Beyoğlu</option><option value="/istanbul/besiktas/">Beşiktaş</option><option value="/istanbul/buyukcekmece/">Büyükçekmece</option><option value="/istanbul/esenler/">Esenler</option><option value="/istanbul/esenyurt/">Esenyurt</option><option value="/istanbul/eyupsultan/">Eyüpsultan</option><option value="/istanbul/fatih/">Fatih</option><option value="/istanbul/gaziosmanpasa/">Gaziosmanpaşa</option><option value="/istanbul/gungoren/">Güngören</option><option value="/istanbul/kadikoy/">Kadıköy</option><option value="/istanbul/kartal/">Kartal</option><option value="/istanbul/kagithane/">Kağıthane</option><option value="/istanbul/kucukcekmece/">Küçükçekmece</option><option value="/istanbul/maltepe/">Maltepe</option><option value="/istanbul/pendik/">Pendik</option><option value="/istanbul/sancaktepe/">Sancaktepe</option><option value="/istanbul/sariyer/">Sarıyer</option><option value="/istanbul/silivri/">Silivri</option><option value="/istanbul/sultanbeyli/">Sultanbeyli</option><option value="/istanbul/sultangazi/">Sultangazi</option><option value="/istanbul/tuzla/">Tuzla</option><option value="/istanbul/zeytinburnu/">Zeytinburnu</option><option value="/istanbul/catalca/">Çatalca</option><option value="/istanbul/cekmekoy/">Çekmeköy</option><option value="/istanbul/umraniye/">Ümraniye</option><option value="/istanbul/uskudar/">Üsküdar</option><option value="/istanbul/sile/">Şile</option><option value="/istanbul/sisli/">Şişli</option>
         </select>
         <div class="imb-quick-chips">
-          <button type="button" class="imb-chip-btn" onclick="window.location.href='/hizmet/eczane/?ilce=Kadıköy'">Kadıköy</button>
-          <button type="button" class="imb-chip-btn" onclick="window.location.href='/hizmet/eczane/?ilce=Beşiktaş'">Beşiktaş</button>
-          <button type="button" class="imb-chip-btn" onclick="window.location.href='/hizmet/eczane/?ilce=Üsküdar'">Üsküdar</button>
-          <button type="button" class="imb-chip-btn" onclick="window.location.href='/hizmet/eczane/?ilce=Şişli'">Şişli</button>
-          <button type="button" class="imb-chip-btn" onclick="window.location.href='/hizmet/eczane/?ilce=Fatih'">Fatih</button>
-          <button type="button" class="imb-chip-btn" onclick="window.location.href='/hizmet/eczane/?ilce=Bakırköy'">Bakırköy</button>
+          <button type="button" class="imb-chip-btn" onclick="window.location.href='/istanbul/kadikoy/'">Kadıköy</button>
+          <button type="button" class="imb-chip-btn" onclick="window.location.href='/istanbul/besiktas/'">Beşiktaş</button>
+          <button type="button" class="imb-chip-btn" onclick="window.location.href='/istanbul/uskudar/'">Üsküdar</button>
+          <button type="button" class="imb-chip-btn" onclick="window.location.href='/istanbul/sisli/'">Şişli</button>
+          <button type="button" class="imb-chip-btn" onclick="window.location.href='/istanbul/fatih/'">Fatih</button>
+          <button type="button" class="imb-chip-btn" onclick="window.location.href='/istanbul/bakirkoy/'">Bakırköy</button>
         </div>
       </div>
       <div class="imb-services">
         <a class="imb-srv" href="/hizmet/eczane/">💊 Nöbetçi Eczaneler (130)</a>
-        <a class="imb-srv" href="/hizmet/ulasim/">🚇 Canlı İETT (313)</a>
-        <a class="imb-srv" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ (46)</a>
+        <a class="imb-srv" href="/hizmet/ulasim/">🚇 Canlı İETT (320)</a>
+        <a class="imb-srv" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ (56)</a>
         <a class="imb-srv" href="/hizmet/kamu/">🌊 Baraj: %52,24</a>
-        <span class="imb-weather-pill">🌤️ 27°C</span>
+        <span class="imb-weather-pill">🌤️ 26°C</span>
       </div>
     </div>
   </div>
@@ -2334,8 +2367,8 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <p class="istanbul-desc">İBB, İETT, İSKİ, BEDAŞ ve İECO resmi verileriyle anlık ulaşım, su/elektrik arızaları, nöbetçi eczaneler ve 39 ilçe haberleri</p>
             </div>
             <div class="istanbul-chips">
-              <a class="istanbul-chip" href="/hizmet/ulasim/">🚇 Canlı İETT (313 Bildirim)</a>
-              <a class="istanbul-chip" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ (46 Arıza)</a>
+              <a class="istanbul-chip" href="/hizmet/ulasim/">🚇 Canlı İETT (320 Bildirim)</a>
+              <a class="istanbul-chip" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ (56 Arıza)</a>
               <a class="istanbul-chip" href="/hizmet/eczane/">💊 Nöbetçi Eczaneler (130 Açık)</a>
             </div>
           </div>
@@ -2346,14 +2379,14 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <span class="metric-icon">🌤️</span>
               <div class="metric-body">
                 <span class="metric-label">İstanbul Hava</span>
-                <strong>27°C · Parçalı Bulutlu</strong>
+                <strong>26°C · Bulutlu</strong>
               </div>
             </div>
             <div class="city-metric">
               <span class="metric-icon">🚇</span>
               <div class="metric-body">
                 <span class="metric-label">İETT Hat Bildirimi</span>
-                <strong>313 Canlı Hat Güzergahı</strong>
+                <strong>320 Canlı Hat Güzergahı</strong>
               </div>
             </div>
             <div class="city-metric">
@@ -2376,7 +2409,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           <div class="city-alerts-box">
             <div class="city-alerts-header">
               <span>⚠️ CANLI YOL KAPANMALARI &amp; İETT SEFER DEĞİŞİKLİKLERİ</span>
-              <a href="/hizmet/ulasim/">Tüm Hat Bildirimlerini Gör (313) →</a>
+              <a href="/hizmet/ulasim/">Tüm Hat Bildirimlerini Gör (320) →</a>
             </div>
             <div class="city-alerts-grid">
 
@@ -2388,24 +2421,24 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
             </div>
           </div>
           <div class="city-alert-item">
+            <span class="city-alert-badge">11</span>
+            <div class="city-alert-content">
+              <strong>YENIDOGAN - ALTUNIZADE METROBÜS (04:05)</strong>
+              <p>YENIDOGAN PERONLAR dan Saat 17:30 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</p>
+            </div>
+          </div>
+          <div class="city-alert-item">
             <span class="city-alert-badge">11H</span>
             <div class="city-alert-content">
               <strong>ORTAÇESME - ÜMRANIYE (04:05)</strong>
-              <p>ÇIFTEÇINARLAR dan Saat 13:36 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</p>
+              <p>TEPEÜSTÜ dan Saat 16:30 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</p>
             </div>
           </div>
           <div class="city-alert-item">
             <span class="city-alert-badge">11H</span>
             <div class="city-alert-content">
-              <strong>ORTAÇESME - ÜMRANIYE (04:19)</strong>
-              <p>ÇIFTEÇINARLAR dan Saat 12:41 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</p>
-            </div>
-          </div>
-          <div class="city-alert-item">
-            <span class="city-alert-badge">11ÜS</span>
-            <div class="city-alert-content">
-              <strong>SULTANBEYLI - ÜSKÜDAR (15:35)</strong>
-              <p>YOGUN TRAFIK NEDENIYLE FATIH BULVARI KAPALIDIR. ARAÇLARIMIZ SULTANBEYLI PERONLARA DÖNÜSLERDE 52.HASANPASA DURAGINDAN GÜZERGAHTAN ÇIKIP 55.ÇIFTLIK DURAGINDAN GÜZERGAHA GIRECEKTIR.</p>
+              <strong>ORTAÇESME - ÜMRANIYE (04:05)</strong>
+              <p>ÇIFTEÇINARLAR dan Saat 18:00 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</p>
             </div>
           </div>
             </div>
@@ -2471,15 +2504,32 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         </a>
       </article>
       <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/son-dakika-bakan-gurlek-duyurdu-3-faili-mechul-cinayet-aydinlatildi-adalet-_20260904/" aria-label="SON DAKİKA | Bakan Gürlek duyurdu: 3 faili meçhul cinayet aydınlatıldı! &#x27;Adalet, er ya da geç...">
-          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
+        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260903/" aria-label="İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
+          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
           <div class="istanbul-card-body">
             <div class="istanbul-card-meta">
               <span class="istanbul-badge">📍 İstanbul</span>
               <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-04">2026-09-04T06:43:49+00:00</time>
+              <time datetime="2000-01-01"></time>
             </div>
-            <h3 class="istanbul-card-title">SON DAKİKA | Bakan Gürlek duyurdu: 3 faili meçhul cinayet aydınlatıldı! &#x27;Adalet, er ya da geç...</h3>
+            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
+            <div class="istanbul-card-footer">
+              <span class="istanbul-source">ManşetRadar</span>
+              <span class="istanbul-more">Haberi Oku →</span>
+            </div>
+          </div>
+        </a>
+      </article>
+      <article class="istanbul-card topic-card" data-topic="gundem">
+        <a class="istanbul-card-link" href="/articles/72-bin-uyusturucu-hapla-yakaladilar-istanbul_20260902/" aria-label="72 bin uyuşturucu hapla yakaladılar #istanbul">
+          <div class="istanbul-card-img"><img src="https://iasbh.tmgrup.com.tr/01f727/366/218/0/0/1411/841?u=https://isbh.tmgrup.com.tr/sbh/2026/09/02/72-bin-uyusturucu-hapla-yakaladilar-1788337658957.jpg" alt="72 bin uyuşturucu hapla yakaladılar #istanbul" loading="lazy" width="600" height="340"></div>
+          <div class="istanbul-card-body">
+            <div class="istanbul-card-meta">
+              <span class="istanbul-badge">📍 İstanbul</span>
+              <span class="istanbul-topic">Gündem</span>
+              <time datetime="2026-09-02">2026-09-02T08:28:13+00:00</time>
+            </div>
+            <h3 class="istanbul-card-title">72 bin uyuşturucu hapla yakaladılar #istanbul</h3>
             <div class="istanbul-card-footer">
               <span class="istanbul-source">İstanbul Masası</span>
               <span class="istanbul-more">Haberi Oku →</span>
@@ -2488,15 +2538,15 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         </a>
       </article>
       <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/marmara-cezaevi-otogar_20260904/" aria-label="MARMARA CEZAEVI - OTOGAR">
-          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
+        <a class="istanbul-card-link" href="/articles/a-milli-kadin-basketbol-takimi-dunya-kupasi-nda-3-kez-yer-alacak-istanbul_20260902/" aria-label="A Milli Kadın Basketbol Takımı, Dünya Kupası&#x27;nda 3. kez yer alacak #istanbul">
+          <div class="istanbul-card-img"><img src="https://iasbh.tmgrup.com.tr/ce8831/366/218/0/0/800/476?u=https://isbh.tmgrup.com.tr/sbh/2026/09/02/a-milli-kadin-basketbol-takimi-dunya-kupasinda-3-kez-yer-alacak-1788337741182.jpg" alt="A Milli Kadın Basketbol Takımı, Dünya Kupası&#x27;nda 3. kez yer alacak #istanbul" loading="lazy" width="600" height="340"></div>
           <div class="istanbul-card-body">
             <div class="istanbul-card-meta">
               <span class="istanbul-badge">📍 İstanbul</span>
               <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-04">2026-09-04T05:57:00+00:00</time>
+              <time datetime="2026-09-02">2026-09-02T08:29:12+00:00</time>
             </div>
-            <h3 class="istanbul-card-title">MARMARA CEZAEVI - OTOGAR</h3>
+            <h3 class="istanbul-card-title">A Milli Kadın Basketbol Takımı, Dünya Kupası&#x27;nda 3. kez yer alacak #istanbul</h3>
             <div class="istanbul-card-footer">
               <span class="istanbul-source">İstanbul Masası</span>
               <span class="istanbul-more">Haberi Oku →</span>
@@ -2505,15 +2555,32 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         </a>
       </article>
       <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/maslak-gazeteciler-sitesi-besiktas_20260904/" aria-label="MASLAK GAZETECILER SITESI - BESIKTAS">
-          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
+        <a class="istanbul-card-link" href="/articles/arabuluculuk-yalaniyla-100-bin-tl-lik-vurgun-genc-reklamciya-dosya-tuzagi-i_20260902/" aria-label="Arabuluculuk yalanıyla 100 bin TL&#x27;lik vurgun! Genç reklamcıya ‘dosya’ tuzağı #istanbul">
+          <div class="istanbul-card-img"><img src="https://iasbh.tmgrup.com.tr/b109c5/366/218/37/0/698/394?u=https://isbh.tmgrup.com.tr/sbh/2026/09/02/arabuluculuk-yalaniyla-100-bin-tllik-vurgun-genc-reklamciya-dosya-tuzagi-1788348698118.jpeg" alt="Arabuluculuk yalanıyla 100 bin TL&#x27;lik vurgun! Genç reklamcıya ‘dosya’ tuzağı #istanbul" loading="lazy" width="600" height="340"></div>
           <div class="istanbul-card-body">
             <div class="istanbul-card-meta">
               <span class="istanbul-badge">📍 İstanbul</span>
               <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-04">2026-09-04T05:44:00+00:00</time>
+              <time datetime="2026-09-02">2026-09-02T11:31:41+00:00</time>
             </div>
-            <h3 class="istanbul-card-title">MASLAK GAZETECILER SITESI - BESIKTAS</h3>
+            <h3 class="istanbul-card-title">Arabuluculuk yalanıyla 100 bin TL&#x27;lik vurgun! Genç reklamcıya ‘dosya’ tuzağı #istanbul</h3>
+            <div class="istanbul-card-footer">
+              <span class="istanbul-source">İstanbul Masası</span>
+              <span class="istanbul-more">Haberi Oku →</span>
+            </div>
+          </div>
+        </a>
+      </article>
+      <article class="istanbul-card topic-card" data-topic="gundem">
+        <a class="istanbul-card-link" href="/articles/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902/" aria-label="Bakan Uraloğlu açıkladı: İstanbul’a 180 kilometrelik raylı sistem! Yeni metro hatları geliyor...">
+          <div class="istanbul-card-img"><img src="https://iasbh.tmgrup.com.tr/e13b89/366/218/0/83/1600/1037?u=https://isbh.tmgrup.com.tr/sbh/2026/09/02/bakan-uraloglu-acikladi-istanbula-180-kilometrelik-rayli-sistem-yeni-metro-hatlari-geliyor-1788347926236.jpeg" alt="Bakan Uraloğlu açıkladı: İstanbul’a 180 kilometrelik raylı sistem! Yeni metro hatları geliyor..." loading="lazy" width="600" height="340"></div>
+          <div class="istanbul-card-body">
+            <div class="istanbul-card-meta">
+              <span class="istanbul-badge">📍 İstanbul</span>
+              <span class="istanbul-topic">Gündem</span>
+              <time datetime="2026-09-02">2026-09-02T11:22:46+00:00</time>
+            </div>
+            <h3 class="istanbul-card-title">Bakan Uraloğlu açıkladı: İstanbul’a 180 kilometrelik raylı sistem! Yeni metro hatları geliyor...</h3>
             <div class="istanbul-card-footer">
               <span class="istanbul-source">İstanbul Masası</span>
               <span class="istanbul-more">Haberi Oku →</span>
@@ -3553,6 +3620,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
 <script defer src="/assets/js/global-search.js?v=20260613c"></script>
 <script defer src="/assets/js/mobile-home-ux.js?v=20260527a"></script>
   <script defer src="/assets/js/showcase-side-rotation.js?v=20260605e"></script>
-  <script defer src="/assets/js/topic-page-ux.js?v=20260613b"></script>
+  <script defer src="/assets/js/topic-page-ux.js?v=20260904_numdots"></script>
 </body>
 </html>

@@ -461,6 +461,8 @@
       slide.classList.toggle('is-active', index === 0);
       var dot = makeElement('button', 'slider-dot', String(index + 1));
       dot.type = 'button';
+      dot.textContent = String(index + 1);
+      dot.innerText = String(index + 1);
       dot.setAttribute('aria-label', String(index + 1) + '. manşete geç');
       dot.addEventListener('click', function () {
         pauseAuto();
