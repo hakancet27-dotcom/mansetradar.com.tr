@@ -30,6 +30,131 @@
       --shadow-strong: 0 10px 26px rgba(15, 23, 42, 0.13);
     }
 
+    body.dark-mode {
+      --surface: #121826;
+      --page: #0a0d14;
+      --border: #1e293b;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+      --shadow-strong: 0 10px 30px rgba(0, 0, 0, 0.6);
+    }
+    body.dark-mode header {
+      background: #0f172a;
+      border-bottom-color: var(--red);
+    }
+    body.dark-mode .market-strip {
+      background: #1e293b;
+      border-color: #334155;
+    }
+    body.dark-mode .market-item {
+      background: #0f172a;
+      border-color: #334155;
+    }
+    body.dark-mode .header-search {
+      background: #1e293b;
+      border-color: #334155;
+    }
+    body.dark-mode .header-search input {
+      color: #f1f5f9;
+    }
+    body.dark-mode .news-card, body.dark-mode .topic-card, body.dark-mode .istanbul-card {
+      background: #121826;
+      border-color: #1e293b;
+    }
+    body.dark-mode .news-card a, body.dark-mode .topic-card a, body.dark-mode .istanbul-card a {
+      color: #f1f5f9;
+    }
+    body.dark-mode .sidebar-block, body.dark-mode .category-nav, body.dark-mode .quick-summary {
+      background: #121826;
+      border-color: #1e293b;
+    }
+    body.dark-mode .topic-link {
+      color: #cbd5e1;
+    }
+    .theme-toggle-btn {
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      width: 38px;
+      height: 38px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 1.1rem;
+      transition: all .2s;
+    }
+    .theme-toggle-btn:hover {
+      background: #e2e8f0;
+      border-color: #94a3b8;
+    }
+    body.dark-mode .theme-toggle-btn {
+      background: #1e293b;
+      border-color: #334155;
+      color: #f1f5f9;
+    }
+
+    .trending-bar {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 7px 0;
+      font-size: 0.82rem;
+    }
+    body.dark-mode .trending-bar {
+      background: #0f172a;
+      border-color: #1e293b;
+    }
+    .trending-bar .inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .trending-label {
+      font-weight: 800;
+      color: var(--red);
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      flex-shrink: 0;
+      font-size: 0.78rem;
+      letter-spacing: 0.4px;
+    }
+    .trending-items {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+    }
+    .trending-items::-webkit-scrollbar { display: none; }
+    .trending-item {
+      background: #f1f5f9;
+      color: #334155;
+      padding: 3px 10px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.76rem;
+      transition: background .15s, color .15s;
+      flex-shrink: 0;
+    }
+    .trending-item:hover {
+      background: #fee2e2;
+      color: var(--red);
+    }
+    body.dark-mode .trending-item {
+      background: #1e293b;
+      color: #cbd5e1;
+    }
+    body.dark-mode .trending-item:hover {
+      background: #3f1515;
+      color: #f87171;
+    }
+
     body {
       font-family: "Segoe UI", Arial, sans-serif;
       background: var(--page);
@@ -2419,27 +2544,27 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                   <time class="headline-date" datetime="2026-05-18">18.05.2026</time>
                 </div>
               </a>
-              <a class="headline-card side-headline" href="/news/articles/elon-musk-openai-sam-altman-lawsuit-dismissed_20260518/" data-topic="teknoloji" aria-label="Elon Musk&#x27;s $150 Billion Lawsuit Against OpenAI and Sam Altman Dismissed">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1617704548623-340376564e68?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFbG9uJTIwTXVza3xlbnwwfDB8fHwxNzc5MTM3OTc4fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Elon Musk&#x27;s $150 Billion Lawsuit Against OpenAI and Sam Altman Dismissed" loading="lazy" width="1080" height="720"></div>
+              <a class="headline-card side-headline" href="/news/articles/elon-musk-loses-150-billion-suit-against-openai_20260518/" data-topic="teknoloji" aria-label="Elon Musk Loses $150 Billion Suit Against OpenAI">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1617704548623-340376564e68?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFbG9uJTIwTXVza3xlbnwwfDB8fHwxNzc5MTM3OTc4fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Elon Musk Loses $150 Billion Suit Against OpenAI" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
                     <span class="live-stream-badge"><span class="pulse-dot"></span> CANLI</span>
                     <span class="headline-tag">Featured</span>
                     <span class="headline-topic">Technology</span>
                   </div>
-                  <h3 class="headline-title">Elon Musk&#x27;s $150 Billion Lawsuit Against OpenAI and Sam Altman Dismissed</h3>
+                  <h3 class="headline-title">Elon Musk Loses $150 Billion Suit Against OpenAI</h3>
                   <time class="headline-date" datetime="2026-05-18">18.05.2026</time>
                 </div>
               </a>
-              <a class="headline-card side-headline" href="/news/articles/us-restricts-travelers-from-africa-due-to-ebola-outbreak_20260518/" data-topic="saglik" aria-label="US Restricts Travelers from Africa Due to Ebola Outbreak">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1624448713098-baface803acf?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFYm9sYXxlbnwwfDB8fHwxNzc5MTAxNDU2fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="US Restricts Travelers from Africa Due to Ebola Outbreak" loading="lazy" width="1080" height="720"></div>
+              <a class="headline-card side-headline" href="/news/articles/ebola-outbreak-global-health-emergency_20260518/" data-topic="saglik" aria-label="Ebola Outbreak Declared Global Health Emergency">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1624448713098-baface803acf?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFYm9sYXxlbnwwfDB8fHwxNzc5MTAxNDU2fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Ebola Outbreak Declared Global Health Emergency" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
                     <span class="live-stream-badge"><span class="pulse-dot"></span> CANLI</span>
                     <span class="headline-tag">Featured</span>
                     <span class="headline-topic">Health</span>
                   </div>
-                  <h3 class="headline-title">US Restricts Travelers from Africa Due to Ebola Outbreak</h3>
+                  <h3 class="headline-title">Ebola Outbreak Declared Global Health Emergency</h3>
                   <time class="headline-date" datetime="2026-05-18">18.05.2026</time>
                 </div>
               </a>

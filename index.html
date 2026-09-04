@@ -131,6 +131,66 @@
       color: #f1f5f9;
     }
 
+    .trending-bar {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 7px 0;
+      font-size: 0.82rem;
+    }
+    body.dark-mode .trending-bar {
+      background: #0f172a;
+      border-color: #1e293b;
+    }
+    .trending-bar .inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .trending-label {
+      font-weight: 800;
+      color: var(--red);
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      flex-shrink: 0;
+      font-size: 0.78rem;
+      letter-spacing: 0.4px;
+    }
+    .trending-items {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+    }
+    .trending-items::-webkit-scrollbar { display: none; }
+    .trending-item {
+      background: #f1f5f9;
+      color: #334155;
+      padding: 3px 10px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.76rem;
+      transition: background .15s, color .15s;
+      flex-shrink: 0;
+    }
+    .trending-item:hover {
+      background: #fee2e2;
+      color: var(--red);
+    }
+    body.dark-mode .trending-item {
+      background: #1e293b;
+      color: #cbd5e1;
+    }
+    body.dark-mode .trending-item:hover {
+      background: #3f1515;
+      color: #f87171;
+    }
+
     body {
       font-family: "Segoe UI", Arial, sans-serif;
       background: var(--page);
@@ -2183,6 +2243,26 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
   </div>
   <!-- TOP_ISTANBUL_MEGA_BAR_END -->
 
+  <!-- TRENDING_TOPICS_BAR_START -->
+  <aside class="trending-bar" aria-label="Gündemdeki Konular">
+    <div class="inner">
+      <span class="trending-label">🔥 GÜNDEM:</span>
+      <div class="trending-items">
+        <a class="trending-item" href="/?kategori=gundem">#SonDakika</a>
+        <a class="trending-item" href="/istanbul/kadikoy/">#Kadıköy</a>
+        <a class="trending-item" href="/hizmet/eczane/">#NöbetçiEczane</a>
+        <a class="trending-item" href="/hizmet/ulasim/">#İETTSeferleri</a>
+        <a class="trending-item" href="/istanbul/besiktas/">#Beşiktaş</a>
+        <a class="trending-item" href="/hizmet/kamu/">#İSKİBarajlar</a>
+        <a class="trending-item" href="/?kategori=ekonomi">#Ekonomi</a>
+        <a class="trending-item" href="/?kategori=spor">#SüperLig</a>
+        <a class="trending-item" href="/istanbul/uskudar/">#Üsküdar</a>
+        <a class="trending-item" href="/istanbul/sisli/">#Şişli</a>
+      </div>
+    </div>
+  </aside>
+  <!-- TRENDING_TOPICS_BAR_END -->
+
   <nav class="breaking" aria-label="Haber kategorileri">
     <div class="inner">
       <span class="breaking-label">KATEGORİLER</span>
@@ -2218,171 +2298,172 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           <div class="showcase-grid">
             <div class="headline-slider" aria-label="Türkiye manşetleri">
               <!-- TURKEY_HERO_START -->
-              <a class="headline-slide headline-card topic-card is-active" href="/articles/2026/09/silivride-gemi-kazasi-10-murettebat-kayip-9-kisi-adliyeye-sevk-ediliyor_20260903/" data-topic="gundem" aria-label="Silivri'deki Gemi Kazasında Sıcak Gelişme: 9 Mürettebat Adliyeye Sevk Ediliyor">
-                <div class="headline-image"><img src="/articles/2026/09/images/silivride-gemi-kazasi-10-murettebat-kayip-9-kisi-adliyeye-sevk-ediliyor_20260903.webp" alt="Silivri'deki Gemi Kazasında Sıcak Gelişme: 9 Mürettebat Adliyeye Sevk Ediliyor" loading="eager" fetchpriority="high" width="1080" height="720"></div>
+
+              <a class="headline-slide headline-card topic-card is-active" href="/articles/abd-de-kimyasal-patlama-panigi_20260526/" data-topic="dunya" aria-label="ABD&#x27;de Kimyasal Patlama Paniği: 40 Bin Kişi Tahliye Edildi">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1612278492349-fa246cf39583?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxLaW15YXNhbHxlbnwwfDB8fHwxNzc5NzY0MzI3fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="ABD&#x27;de Kimyasal Patlama Paniği: 40 Bin Kişi Tahliye Edildi" loading="eager" fetchpriority="high" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">🔥 SON DAKİKA</span>
-                    <span class="headline-topic">İstanbul</span>
+                    <span class="headline-tag">Manşet #1</span>
+                    <span class="headline-topic">Dünya</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
                   </div>
-                  <h2 class="headline-title">Silivri'deki Gemi Kazasında Sıcak Gelişme: 9 Mürettebat Adliyeye Sevk Ediliyor</h2>
-                  <time class="headline-date" datetime="2026-09-03">03.09.2026</time>
+                  <h2 class="headline-title">ABD&#x27;de Kimyasal Patlama Paniği: 40 Bin Kişi Tahliye Edildi</h2>
+                  <time class="headline-date" datetime="2026-05-26">26.05.2026</time>
                 </div>
               </a>
 
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/bayrampasa-belediye-baskani-hasan-mutlu-iddianame-aciklamasi_20260903/" data-topic="gundem" aria-label="Bayrampaşa Belediye Başkanı Hasan Mutlu: 352 Sayfalık İddianameye Yanıt Verdi">
-                <div class="headline-image"><img src="/articles/2026/09/images/bayrampasa-belediye-baskani-hasan-mutlu-iddianame-aciklamasi_20260903.webp" alt="Bayrampaşa Belediye Başkanı Hasan Mutlu: 352 Sayfalık İddianameye Yanıt Verdi" loading="lazy" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card" href="/articles/bosna-savasindaki-kapiya-katliami-nin-31-yilinda-kurbanlar-anildi_20260525/" data-topic="gundem" aria-label="Bosna Savaşı&#x27;ndaki Kapiya Katliamı&#x27;nın 31. Yılında Kurbanlar Anıldı">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1636041417222-1305988d38a0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCb3NuYSUyMFNhdmElQzUlOUYlQzQlQjF8ZW58MHwwfHx8MTc3OTczMTMzN3ww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Bosna Savaşı&#x27;ndaki Kapiya Katliamı&#x27;nın 31. Yılında Kurbanlar Anıldı" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Öne Çıkan</span>
-                    <span class="headline-topic">İstanbul</span>
+                    <span class="headline-tag">Manşet #2</span>
+                    <span class="headline-topic">Gündem</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
                   </div>
-                  <h2 class="headline-title">Bayrampaşa Belediye Başkanı Hasan Mutlu: 352 Sayfalık İddianameye Yanıt Verdi</h2>
-                  <time class="headline-date" datetime="2026-09-03">03.09.2026</time>
+                  <h2 class="headline-title">Bosna Savaşı&#x27;ndaki Kapiya Katliamı&#x27;nın 31. Yılında Kurbanlar Anıldı</h2>
+                  <time class="headline-date" datetime="2026-05-25">25.05.2026</time>
                 </div>
               </a>
 
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/sariyer-maden-mahallesi-yangin-kurutma-makinesi_20260903/" data-topic="gundem" aria-label="Sarıyer'de Kurutma Makinesi Yangını: Mahallede Büyük Panik Yaşandı">
-                <div class="headline-image"><img src="/articles/2026/09/images/sariyer-maden-mahallesi-yangin-kurutma-makinesi_20260903.webp" alt="Sarıyer'de Kurutma Makinesi Yangını: Mahallede Büyük Panik Yaşandı" loading="lazy" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card" href="/articles/nasa-tess-96-sektorlu-gokyuzu-mozaigi_20260524/" data-topic="gundem" aria-label="NASA TESS mozaiğinde 679 doğrulanmış ötegezegen, 5.165 aday yer aldı">
+                <div class="headline-image"><img src="/articles/2026/05/images/nasa-tess-96-sektorlu-gokyuzu-mozaigi_20260524.svg" alt="NASA TESS mozaiğinde 679 doğrulanmış ötegezegen, 5.165 aday yer aldı" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Gündem</span>
-                    <span class="headline-topic">İstanbul</span>
-                    <span class="headline-trust">✅ Doğrulanmış</span>
-                    <span class="headline-read-time">⏱️ 1 dk okuma</span>
-                  </div>
-                  <h2 class="headline-title">Sarıyer'de Kurutma Makinesi Yangını: Mahallede Büyük Panik Yaşandı</h2>
-                  <time class="headline-date" datetime="2026-09-03">03.09.2026</time>
-                </div>
-              </a>
-
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/haysiyet-dizisi-dogukan-gungor-balat-cekimleri_20260903/" data-topic="gundem" aria-label="Haysiyet Dizisinin Çekimlerinde Doğukan Güngör Balat Sokaklarında Görüntülendi">
-                <div class="headline-image"><img src="/articles/2026/09/images/haysiyet-dizisi-dogukan-gungor-balat-cekimleri_20260903.webp" alt="Haysiyet Dizisinin Çekimlerinde Doğukan Güngör Balat Sokaklarında Görüntülendi" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Magazin</span>
-                    <span class="headline-topic">İstanbul Kültür</span>
+                    <span class="headline-tag">Manşet #3</span>
+                    <span class="headline-topic">Gündem</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
                   </div>
-                  <h2 class="headline-title">Haysiyet Dizisinin Çekimlerinde Doğukan Güngör Balat Sokaklarında Görüntülendi</h2>
-                  <time class="headline-date" datetime="2026-09-03">03.09.2026</time>
+                  <h2 class="headline-title">NASA TESS mozaiğinde 679 doğrulanmış ötegezegen, 5.165 aday yer aldı</h2>
+                  <time class="headline-date" datetime="2026-05-24">24.05.2026</time>
                 </div>
               </a>
 
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/ozgur-ozelden-kilicdarogluna-sert-tepki-tokalasma-aciklamasi_20260903/" data-topic="gundem" aria-label="Özgür Özel'den Kılıçdaroğlu'na Sert Tepki: Gönül Dünyamda Artık Yer Kalmadı">
-                <div class="headline-image"><img src="/articles/2026/09/images/ozgur-ozelden-kilicdarogluna-sert-tepki-tokalasma-aciklamasi_20260903.webp" alt="Özgür Özel'den Kılıçdaroğlu'na Sert Tepki: Gönül Dünyamda Artık Yer Kalmadı" loading="lazy" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card" href="/articles/bagcilar-da-korkunc-olay-otomobilin-bagajinda-olu-bulundu_20260523/" data-topic="gundem" aria-label="Bağcılar&#x27;da İlginç Olay: Otomobilin Bagajında Ölü Bulundu">
+                <div class="headline-image"><img src="/articles/images/uploads/bagcilar-da-korkunc-olay-otomobilin-bagajinda-olu-bulundu_20260523.webp" alt="Bağcılar&#x27;da İlginç Olay: Otomobilin Bagajında Ölü Bulundu" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Siyaset</span>
+                    <span class="headline-tag">Manşet #4</span>
+                    <span class="headline-topic">Gündem</span>
+                    <span class="headline-trust">✅ Doğrulanmış</span>
+                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
+                  </div>
+                  <h2 class="headline-title">Bağcılar&#x27;da İlginç Olay: Otomobilin Bagajında Ölü Bulundu</h2>
+                  <time class="headline-date" datetime="2026-05-23">23.05.2026</time>
+                </div>
+              </a>
+
+              <a class="headline-slide headline-card topic-card" href="/articles/chp-myk-olaganustu-toplanti_20260521/" data-topic="gundem" aria-label="CHP MYK Olağanüstü Toplandı">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1690973691999-7bb38d2c402a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxDSFB8ZW58MHwwfHx8MTc3OTM4MDk1OHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="CHP MYK Olağanüstü Toplandı" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Manşet #5</span>
+                    <span class="headline-topic">Gündem</span>
+                    <span class="headline-trust">✅ Doğrulanmış</span>
+                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
+                  </div>
+                  <h2 class="headline-title">CHP MYK Olağanüstü Toplandı</h2>
+                  <time class="headline-date" datetime="2026-05-21">21.05.2026</time>
+                </div>
+              </a>
+
+              <a class="headline-slide headline-card topic-card" href="/articles/organize-suc-orgutlerine-yonelik-operasyon_20260521/" data-topic="gundem" aria-label="Organize Suç Örgütlerine Yönelik Operasyon">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1635668422380-8b4f751c6274?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxwb2xpc3xlbnwwfDB8fHwxNzc5MzYzMjIxfDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Organize Suç Örgütlerine Yönelik Operasyon" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Manşet #6</span>
+                    <span class="headline-topic">Gündem</span>
+                    <span class="headline-trust">✅ Doğrulanmış</span>
+                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
+                  </div>
+                  <h2 class="headline-title">Organize Suç Örgütlerine Yönelik Operasyon</h2>
+                  <time class="headline-date" datetime="2026-05-21">21.05.2026</time>
+                </div>
+              </a>
+
+              <a class="headline-slide headline-card topic-card" href="/articles/cumhurbaskani-erdoganin-aciklamalari_20260521/" data-topic="siyaset" aria-label="Cumhurbaşkanı Erdoğan&#x27;dan Önemli Açıklamalar">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1550696043-8d6b42d33931?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxDdW1odXJiYSVDNSU5RmthbiVDNCVCMSUyMEVyZG8lQzQlOUZhbnxlbnwwfDB8fHwxNzc5MzY2Mjc3fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Cumhurbaşkanı Erdoğan&#x27;dan Önemli Açıklamalar" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Manşet #7</span>
                     <span class="headline-topic">Siyaset</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
-                    <span class="headline-read-time">⏱️ 3 dk okuma</span>
-                  </div>
-                  <h2 class="headline-title">Özgür Özel'den Kılıçdaroğlu'na Sert Tepki: Gönül Dünyamda Artık Yer Kalmadı</h2>
-                  <time class="headline-date" datetime="2026-09-03">03.09.2026</time>
-                </div>
-              </a>
-
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/tim-cook-15-yillik-sabah-rutini-apple-ceo_20260903/" data-topic="gundem" aria-label="Tim Cook'un 15 Yıllık Sırrı Ortaya Çıktı: Apple CEO'sunun Sabah Rutini">
-                <div class="headline-image"><img src="/articles/2026/09/images/tim-cook-15-yillik-sabah-rutini-apple-ceo_20260903.webp" alt="Tim Cook'un 15 Yıllık Sırrı Ortaya Çıktı: Apple CEO'sunun Sabah Rutini" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Teknoloji</span>
-                    <span class="headline-topic">Teknoloji</span>
-                    <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
                   </div>
-                  <h2 class="headline-title">Tim Cook'un 15 Yıllık Sırrı Ortaya Çıktı: Apple CEO'sunun Sabah Rutini</h2>
-                  <time class="headline-date" datetime="2026-09-03">03.09.2026</time>
+                  <h2 class="headline-title">Cumhurbaşkanı Erdoğan&#x27;dan Önemli Açıklamalar</h2>
+                  <time class="headline-date" datetime="2026-05-21">21.05.2026</time>
                 </div>
               </a>
 
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/cem-yilmaz-kalp-krizi-ilk-mudahale-doktorlar-anlatti_20260901/" data-topic="gundem" aria-label="Cem Yılmaz'ın Kalp Krizi Geçirdiği Gece Neler Yaşandı? Doktorlar İlk Müdahaleyi Anlattı">
-                <div class="headline-image"><img src="/articles/2026/09/images/cem-yilmaz-kalp-krizi-ilk-mudahale-doktorlar-anlatti_20260901.webp" alt="Cem Yılmaz'ın Kalp Krizi Geçirdiği Gece Neler Yaşandı? Doktorlar İlk Müdahaleyi Anlattı" loading="lazy" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card" href="/articles/israil-istanbul-konsoloslugu-kapatma-tartismasi_20260521/" data-topic="dunya" aria-label="İsrail, İstanbul&#x27;daki Konsolosluğu Kapatmayı Tartışıyor">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1730196564678-5c7cb13abb22?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHwlQzQlQjBzcmFpbCUyMEJheXJhJUM0JTlGJUM0JUIxfGVufDB8MHx8fDE3NzkzNjYyNzF8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="İsrail, İstanbul&#x27;daki Konsolosluğu Kapatmayı Tartışıyor" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Sağlık & Yaşam</span>
-                    <span class="headline-topic">Magazin</span>
-                    <span class="headline-trust">✅ Doğrulanmış</span>
-                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
-                  </div>
-                  <h2 class="headline-title">Cem Yılmaz'ın Kalp Krizi Geçirdiği Gece Neler Yaşandı? Doktorlar İlk Müdahaleyi Anlattı</h2>
-                  <time class="headline-date" datetime="2026-09-01">01.09.2026</time>
-                </div>
-              </a>
-
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/cem-yilmaz-kalp-krizi-sonrasi-taburcu-oldu_20260901/" data-topic="gundem" aria-label="Kalp Krizi Geçiren Cem Yılmaz Taburcu Oldu: Sağlık Durumu İyiye Gidiyor">
-                <div class="headline-image"><img src="/articles/2026/09/images/cem-yilmaz-kalp-krizi-sonrasi-taburcu-oldu_20260901.webp" alt="Kalp Krizi Geçiren Cem Yılmaz Taburcu Oldu: Sağlık Durumu İyiye Gidiyor" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Gündem</span>
-                    <span class="headline-topic">Magazin</span>
-                    <span class="headline-trust">✅ Doğrulanmış</span>
-                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
-                  </div>
-                  <h2 class="headline-title">Kalp Krizi Geçiren Cem Yılmaz Taburcu Oldu: Sağlık Durumu İyiye Gidiyor</h2>
-                  <time class="headline-date" datetime="2026-09-01">01.09.2026</time>
-                </div>
-              </a>
-
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/girnedeki-gemi-faciasinda-kurtulan-yolcudan-skandal-ihmal-iddiasi_20260901/" data-topic="gundem" aria-label="Girne'deki Gemi Faciasında Kurtulan Yolcudan Skandal İhmal İddiası">
-                <div class="headline-image"><img src="/articles/2026/09/images/girnedeki-gemi-faciasinda-kurtulan-yolcudan-skandal-ihmal-iddiasi_20260901.webp" alt="Girne'deki Gemi Faciasında Kurtulan Yolcudan Skandal İhmal İddiası" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Gündem</span>
-                    <span class="headline-topic">Dünya</span>
-                    <span class="headline-trust">✅ Doğrulanmış</span>
-                    <span class="headline-read-time">⏱️ 3 dk okuma</span>
-                  </div>
-                  <h2 class="headline-title">Girne'deki Gemi Faciasında Kurtulan Yolcudan Skandal İhmal İddiası</h2>
-                  <time class="headline-date" datetime="2026-09-01">01.09.2026</time>
-                </div>
-              </a>
-
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/youtuber-arif-kocabiyik-tutuklandi_20260901/" data-topic="gundem" aria-label="YouTuber Arif Kocabıyık Tutuklandı: Soruşturmanın Detayları Ortaya Çıktı">
-                <div class="headline-image"><img src="/articles/2026/09/images/youtuber-arif-kocabiyik-tutuklandi_20260901.webp" alt="YouTuber Arif Kocabıyık Tutuklandı: Soruşturmanın Detayları Ortaya Çıktı" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Hukuk</span>
-                    <span class="headline-topic">Gündem</span>
-                    <span class="headline-trust">✅ Doğrulanmış</span>
-                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
-                  </div>
-                  <h2 class="headline-title">YouTuber Arif Kocabıyık Tutuklandı: Soruşturmanın Detayları Ortaya Çıktı</h2>
-                  <time class="headline-date" datetime="2026-09-01">01.09.2026</time>
-                </div>
-              </a>
-
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/zelenskiy-rusya-hava-sahasi-uyarisi-putin-tepki_20260901/" data-topic="gundem" aria-label="Zelenskiy'den Rus Hava Sahası Uyarısı: Putin'e Sert Karşılık Geldi">
-                <div class="headline-image"><img src="/articles/2026/09/images/zelenskiy-rusya-hava-sahasi-uyarisi-putin-tepki_20260901.webp" alt="Zelenskiy'den Rus Hava Sahası Uyarısı: Putin'e Sert Karşılık Geldi" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Dünya</span>
+                    <span class="headline-tag">Manşet #8</span>
                     <span class="headline-topic">Dünya</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
                   </div>
-                  <h2 class="headline-title">Zelenskiy'den Rus Hava Sahası Uyarısı: Putin'e Sert Karşılık Geldi</h2>
-                  <time class="headline-date" datetime="2026-09-01">01.09.2026</time>
+                  <h2 class="headline-title">İsrail, İstanbul&#x27;daki Konsolosluğu Kapatmayı Tartışıyor</h2>
+                  <time class="headline-date" datetime="2026-05-21">21.05.2026</time>
                 </div>
               </a>
 
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/zeynep-yildirim-kayip-dosyasi-cinayet-sorusturmasi_20260901/" data-topic="gundem" aria-label="Zeynep Yıldırım Kayıp Dosyasında Cinayet Soruşturması Başlatıldı">
-                <div class="headline-image"><img src="/articles/2026/09/images/zeynep-yildirim-kayip-dosyasi-cinayet-sorusturmasi_20260901.webp" alt="Zeynep Yıldırım Kayıp Dosyasında Cinayet Soruşturması Başlatıldı" loading="lazy" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card" href="/articles/ak-parti-mkyk-toplantisi-celikten-aciklama_20260519/" data-topic="siyaset" aria-label="AK Parti MKYK Toplantısı Sona Erdi: Ömer Çelik&#x27;ten CHP Liderine Yanıt">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1643315761765-6286e31655b6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxBSyUyMFBhcnRpJTIwR2VuZWwlMjBNZXJrZXppfGVufDB8MHx8fDE3NzkyMjUxNjl8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="AK Parti MKYK Toplantısı Sona Erdi: Ömer Çelik&#x27;ten CHP Liderine Yanıt" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Adalet</span>
-                    <span class="headline-topic">Gündem</span>
+                    <span class="headline-tag">Manşet #9</span>
+                    <span class="headline-topic">Siyaset</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
                   </div>
-                  <h2 class="headline-title">Zeynep Yıldırım Kayıp Dosyasında Cinayet Soruşturması Başlatıldı</h2>
-                  <time class="headline-date" datetime="2026-09-01">01.09.2026</time>
+                  <h2 class="headline-title">AK Parti MKYK Toplantısı Sona Erdi: Ömer Çelik&#x27;ten CHP Liderine Yanıt</h2>
+                  <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
+                </div>
+              </a>
+
+              <a class="headline-slide headline-card topic-card" href="/articles/ab-celik-sektorunu-daha-siki-koruyacak_20260519/" data-topic="ekonomi" aria-label="AB Çelik Sektörünü Korumak İçin Yeni Önlemler Aldı: İthalat Kotaları Düşüyor, Gümrük...">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1551751479-58b4ad5750d7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxBQnxlbnwwfDB8fHwxNzc5MjA1ODEzfDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="AB Çelik Sektörünü Korumak İçin Yeni Önlemler Aldı: İthalat Kotaları Düşüyor, Gümrük..." loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Manşet #10</span>
+                    <span class="headline-topic">Ekonomi</span>
+                    <span class="headline-trust">✅ Doğrulanmış</span>
+                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
+                  </div>
+                  <h2 class="headline-title">AB Çelik Sektörünü Korumak İçin Yeni Önlemler Aldı: İthalat Kotaları Düşüyor, Gümrük...</h2>
+                  <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
+                </div>
+              </a>
+
+              <a class="headline-slide headline-card topic-card" href="/articles/abd-ve-israil-in-iran-a-saldirilari-yeniden-baslama-ihtimali_20260518/" data-topic="dunya" aria-label="ABD ve İsrail&#x27;den İran&#x27;a Yönelik Olası Saldırı Hazırlıkları: Bölgesel Gerilim Tırmanıyor">
+                <div class="headline-image"><img src="https://images.unsplash.com/photo-1631270315847-f418bde47ca6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxBQkR8ZW58MHwwfHx8MTc3ODk5MDQ1NXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="ABD ve İsrail&#x27;den İran&#x27;a Yönelik Olası Saldırı Hazırlıkları: Bölgesel Gerilim Tırmanıyor" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Manşet #11</span>
+                    <span class="headline-topic">Dünya</span>
+                    <span class="headline-trust">✅ Doğrulanmış</span>
+                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
+                  </div>
+                  <h2 class="headline-title">ABD ve İsrail&#x27;den İran&#x27;a Yönelik Olası Saldırı Hazırlıkları: Bölgesel Gerilim Tırmanıyor</h2>
+                  <time class="headline-date" datetime="2026-05-18">18.05.2026</time>
+                </div>
+              </a>
+
+              <a class="headline-slide headline-card topic-card" href="/articles/2026-dunya-kupasi-turkiye-maclari/" data-topic="spor" aria-label="2026 Dünya Kupası&#x27;nda Türkiye&#x27;nin Grup Maçları Belli Oldu: Tarihler ve Heyecan Dorukta">
+                <div class="headline-image"><img src="/articles/2026/05/images/2026-dunya-kupasi-turkiye-maclari.svg" alt="2026 Dünya Kupası&#x27;nda Türkiye&#x27;nin Grup Maçları Belli Oldu: Tarihler ve Heyecan Dorukta" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Manşet #12</span>
+                    <span class="headline-topic">Spor</span>
+                    <span class="headline-trust">✅ Doğrulanmış</span>
+                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
+                  </div>
+                  <h2 class="headline-title">2026 Dünya Kupası&#x27;nda Türkiye&#x27;nin Grup Maçları Belli Oldu: Tarihler ve Heyecan Dorukta</h2>
+                  <time class="headline-date" datetime="2026-05-16">16.05.2026</time>
                 </div>
               </a>
               <!-- TURKEY_HERO_END -->
@@ -2517,143 +2598,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           <div class="istanbul-grid">
             <!-- ISTANBUL_CARDS_START -->
 
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260905/" aria-label="İstanbul Şehir Bülteni (5 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
-          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (5 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2000-01-01">5 Eylül 2026</time>
-            </div>
-            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (5 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">ManşetRadar</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260905/" aria-label="İstanbul Şehir Bülteni (5 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
-          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (5 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2000-01-01">5 Eylül 2026</time>
-            </div>
-            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (5 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">ManşetRadar</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260904/" aria-label="İstanbul Şehir Bülteni (4 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
-          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (4 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2000-01-01"></time>
-            </div>
-            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (4 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">ManşetRadar</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260904/" aria-label="İstanbul Şehir Bülteni (4 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
-          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (4 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2000-01-01"></time>
-            </div>
-            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (4 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">ManşetRadar</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260903/" aria-label="İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
-          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2000-01-01"></time>
-            </div>
-            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">ManşetRadar</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260903/" aria-label="İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
-          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2000-01-01"></time>
-            </div>
-            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">ManşetRadar</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/72-bin-uyusturucu-hapla-yakaladilar-istanbul_20260902/" aria-label="72 bin uyuşturucu hapla yakaladılar #istanbul">
-          <div class="istanbul-card-img"><img src="https://iasbh.tmgrup.com.tr/01f727/366/218/0/0/1411/841?u=https://isbh.tmgrup.com.tr/sbh/2026/09/02/72-bin-uyusturucu-hapla-yakaladilar-1788337658957.jpg" alt="72 bin uyuşturucu hapla yakaladılar #istanbul" loading="lazy" width="600" height="340"></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T08:28:13+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">72 bin uyuşturucu hapla yakaladılar #istanbul</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/a-milli-kadin-basketbol-takimi-dunya-kupasi-nda-3-kez-yer-alacak-istanbul_20260902/" aria-label="A Milli Kadın Basketbol Takımı, Dünya Kupası&#x27;nda 3. kez yer alacak #istanbul">
-          <div class="istanbul-card-img"><img src="https://iasbh.tmgrup.com.tr/ce8831/366/218/0/0/800/476?u=https://isbh.tmgrup.com.tr/sbh/2026/09/02/a-milli-kadin-basketbol-takimi-dunya-kupasinda-3-kez-yer-alacak-1788337741182.jpg" alt="A Milli Kadın Basketbol Takımı, Dünya Kupası&#x27;nda 3. kez yer alacak #istanbul" loading="lazy" width="600" height="340"></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T08:29:12+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">A Milli Kadın Basketbol Takımı, Dünya Kupası&#x27;nda 3. kez yer alacak #istanbul</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-            <!-- ISTANBUL_CARDS_END -->
+              <!-- ISTANBUL_CARDS_END -->
           </div>
         </section>
         <!-- ISTANBUL_SECTION_END -->
@@ -2689,7 +2634,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
             <!-- USA_START -->
 
       <article class="news-card topic-card" data-topic="dunya">
-        <a class="card-image-link" href="/articles/2026/05/abd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520/" aria-label="ABD ve İsrail İran&#x27;da Ahmadinejad&#x27;ı Lider Yapmak İstiyordu"><div class="card-image"><img src="https://images.unsplash.com/photo-1613930648631-7191115e83d4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJcmFufGVufDB8MHx8fDE3NzkyMDczNDZ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="ABD ve İsrail İran&#x27;da Ahmadinejad&#x27;ı Lider Yapmak İstiyordu" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/articles/abd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520/" aria-label="ABD ve İsrail İran&#x27;da Ahmadinejad&#x27;ı Lider Yapmak İstiyordu"><div class="card-image"><img src="https://images.unsplash.com/photo-1613930648631-7191115e83d4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJcmFufGVufDB8MHx8fDE3NzkyMDczNDZ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="ABD ve İsrail İran&#x27;da Ahmadinejad&#x27;ı Lider Yapmak İstiyordu" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">US Amerika</span>
@@ -2697,23 +2642,23 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
             <time class="card-date" datetime="2026-05-20">20.05.2026</time>
           </div>
           <h3 class="card-title">
-            <a href="/articles/2026/05/abd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520/">ABD ve İsrail İran&#x27;da Ahmadinejad&#x27;ı Lider Yapmak İstiyordu</a>
+            <a href="/articles/abd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520/">ABD ve İsrail İran&#x27;da Ahmadinejad&#x27;ı Lider Yapmak İstiyordu</a>
           </h3>
           <p class="card-excerpt">ABD&#x27;li yetkililer, İsrail&#x27;in bir saldırısının İran&#x27;da Mahmud Ahmedinecad&#x27;ı lider yapmak için rejim değişikliği çabasının bir parçası olduğunu söyledi. Bu, ABD ve İsrail&#x27;in erken s...</p>
           <div class="card-footer">
-            <a class="read-more" href="/articles/2026/05/abd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520/" aria-label="ABD ve İsrail İran&#x27;da Ahmadinejad&#x27;ı Lider Yapmak İstiyordu haberini oku">Devamını Oku →</a>
+            <a class="read-more" href="/articles/abd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520/" aria-label="ABD ve İsrail İran&#x27;da Ahmadinejad&#x27;ı Lider Yapmak İstiyordu haberini oku">Devamını Oku →</a>
             <div class="share-mini" aria-label="Paylaş">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fabd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520%2F&text=ABD+ve+%C4%B0srail+%C4%B0ran%27da+Ahmadinejad%27%C4%B1+Lider+Yapmak+%C4%B0stiyordu" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fabd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=ABD+ve+%C4%B0srail+%C4%B0ran%27da+Ahmadinejad%27%C4%B1+Lider+Yapmak+%C4%B0stiyordu%20https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fabd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fabd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520%2F&text=ABD+ve+%C4%B0srail+%C4%B0ran%27da+Ahmadinejad%27%C4%B1+Lider+Yapmak+%C4%B0stiyordu" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fabd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520%2F&text=ABD+ve+%C4%B0srail+%C4%B0ran%27da+Ahmadinejad%27%C4%B1+Lider+Yapmak+%C4%B0stiyordu" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fabd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=ABD+ve+%C4%B0srail+%C4%B0ran%27da+Ahmadinejad%27%C4%B1+Lider+Yapmak+%C4%B0stiyordu%20https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fabd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fabd_ve_israil_iranda_ahmadinejadi_lider_yapmak_istiyordu_20260520%2F&text=ABD+ve+%C4%B0srail+%C4%B0ran%27da+Ahmadinejad%27%C4%B1+Lider+Yapmak+%C4%B0stiyordu" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
       </article>
 
       <article class="news-card topic-card" data-topic="dunya">
-        <a class="card-image-link" href="/articles/2026/05/israilli_bakan_ben-gvirin_videosu_tartisma_yaratti_netanyahudan_tepki_20260520/" aria-label="İsrailli Bakan Ben-Gvir&#x27;in Videosu Tartışma Yarattı: Netanyahu&#x27;dan Tepki"><div class="card-image"><img src="https://images.unsplash.com/photo-1547483029-77784da27709?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJc3JhZWx8ZW58MHwwfHx8MTc3OTI0MTAwNXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="İsrailli Bakan Ben-Gvir&#x27;in Videosu Tartışma Yarattı: Netanyahu&#x27;dan Tepki" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/articles/israilli_bakan_ben-gvirin_videosu_tartisma_yaratti_netanyahudan_tepki_20260520/" aria-label="İsrailli Bakan Ben-Gvir&#x27;in Videosu Tartışma Yarattı: Netanyahu&#x27;dan Tepki"><div class="card-image"><img src="https://images.unsplash.com/photo-1547483029-77784da27709?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJc3JhZWx8ZW58MHwwfHx8MTc3OTI0MTAwNXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="İsrailli Bakan Ben-Gvir&#x27;in Videosu Tartışma Yarattı: Netanyahu&#x27;dan Tepki" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">US Amerika</span>
@@ -2721,23 +2666,23 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
             <time class="card-date" datetime="2026-05-20">20.05.2026</time>
           </div>
           <h3 class="card-title">
-            <a href="/articles/2026/05/israilli_bakan_ben-gvirin_videosu_tartisma_yaratti_netanyahudan_tepki_20260520/">İsrailli Bakan Ben-Gvir&#x27;in Videosu Tartışma Yarattı: Netanyahu&#x27;dan Tepki</a>
+            <a href="/articles/israilli_bakan_ben-gvirin_videosu_tartisma_yaratti_netanyahudan_tepki_20260520/">İsrailli Bakan Ben-Gvir&#x27;in Videosu Tartışma Yarattı: Netanyahu&#x27;dan Tepki</a>
           </h3>
           <p class="card-excerpt">İsrail Ulusal Güvenlik Bakanı Itamar Ben-Gvir, kelepçeli Filistin yanlısı aktivistlerle bir gemide diz çökerken çekilmiş bir videoyu sosyal medyada paylaşarak büyük tartışma yarat...</p>
           <div class="card-footer">
-            <a class="read-more" href="/articles/2026/05/israilli_bakan_ben-gvirin_videosu_tartisma_yaratti_netanyahudan_tepki_20260520/" aria-label="İsrailli Bakan Ben-Gvir&#x27;in Videosu Tartışma Yarattı: Netanyahu&#x27;dan Tepki haberini oku">Devamını Oku →</a>
+            <a class="read-more" href="/articles/israilli_bakan_ben-gvirin_videosu_tartisma_yaratti_netanyahudan_tepki_20260520/" aria-label="İsrailli Bakan Ben-Gvir&#x27;in Videosu Tartışma Yarattı: Netanyahu&#x27;dan Tepki haberini oku">Devamını Oku →</a>
             <div class="share-mini" aria-label="Paylaş">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fisrailli_bakan_ben-gvirin_videosu_tartisma_yaratti_netanyahudan_tepki_20260520%2F&text=%C4%B0srailli+Bakan+Ben-Gvir%27in+Videosu+Tart%C4%B1%C5%9Fma+Yaratt%C4%B1%3A+Netanyahu%27dan+Tepki" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fisrailli_bakan_ben-gvirin_videosu_tartisma_yaratti_netanyahudan_tepki_20260520%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=%C4%B0srailli+Bakan+Ben-Gvir%27in+Videosu+Tart%C4%B1%C5%9Fma+Yaratt%C4%B1%3A+Netanyahu%27dan+Tepki%20https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fisrailli_bakan_ben-gvirin_videosu_tartisma_yaratti_netanyahudan_tepki_20260520%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fisrailli_bakan_ben-gvirin_videosu_tartisma_yaratti_netanyahudan_tepki_20260520%2F&text=%C4%B0srailli+Bakan+Ben-Gvir%27in+Videosu+Tart%C4%B1%C5%9Fma+Yaratt%C4%B1%3A+Netanyahu%27dan+Tepki" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fisrailli_bakan_ben-gvirin_videosu_tartisma_yaratti_netanyahudan_tepki_20260520%2F&text=%C4%B0srailli+Bakan+Ben-Gvir%27in+Videosu+Tart%C4%B1%C5%9Fma+Yaratt%C4%B1%3A+Netanyahu%27dan+Tepki" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fisrailli_bakan_ben-gvirin_videosu_tartisma_yaratti_netanyahudan_tepki_20260520%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=%C4%B0srailli+Bakan+Ben-Gvir%27in+Videosu+Tart%C4%B1%C5%9Fma+Yaratt%C4%B1%3A+Netanyahu%27dan+Tepki%20https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fisrailli_bakan_ben-gvirin_videosu_tartisma_yaratti_netanyahudan_tepki_20260520%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fisrailli_bakan_ben-gvirin_videosu_tartisma_yaratti_netanyahudan_tepki_20260520%2F&text=%C4%B0srailli+Bakan+Ben-Gvir%27in+Videosu+Tart%C4%B1%C5%9Fma+Yaratt%C4%B1%3A+Netanyahu%27dan+Tepki" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
       </article>
 
       <article class="news-card topic-card" data-topic="ekonomi">
-        <a class="card-image-link" href="/articles/2026/05/abd_tahvil_faizleri_en_yuksek_seviyeye_ulasti_enflasyon_endiseleri_piyasalari_vu_20260519/" aria-label="ABD Tahvil Faizleri En Yüksek Seviyeye Ulaştı: Enflasyon Endişeleri Piyasaları Vurdu"><div class="card-image"><img src="https://images.unsplash.com/photo-1648275913341-7973ae7bc9b3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxib25kJTIweWllbGRzfGVufDB8MHx8fDE3NzkyMjUyNTd8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="ABD Tahvil Faizleri En Yüksek Seviyeye Ulaştı: Enflasyon Endişeleri Piyasaları Vurdu" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/articles/abd_tahvil_faizleri_en_yuksek_seviyeye_ulasti_enflasyon_endiseleri_piyasalari_vu_20260519/" aria-label="ABD Tahvil Faizleri En Yüksek Seviyeye Ulaştı: Enflasyon Endişeleri Piyasaları Vurdu"><div class="card-image"><img src="https://images.unsplash.com/photo-1648275913341-7973ae7bc9b3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxib25kJTIweWllbGRzfGVufDB8MHx8fDE3NzkyMjUyNTd8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="ABD Tahvil Faizleri En Yüksek Seviyeye Ulaştı: Enflasyon Endişeleri Piyasaları Vurdu" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">US Amerika</span>
@@ -2745,16 +2690,16 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
             <time class="card-date" datetime="2026-05-19">19.05.2026</time>
           </div>
           <h3 class="card-title">
-            <a href="/articles/2026/05/abd_tahvil_faizleri_en_yuksek_seviyeye_ulasti_enflasyon_endiseleri_piyasalari_vu_20260519/">ABD Tahvil Faizleri En Yüksek Seviyeye Ulaştı: Enflasyon Endişeleri Piyasaları Vurdu</a>
+            <a href="/articles/abd_tahvil_faizleri_en_yuksek_seviyeye_ulasti_enflasyon_endiseleri_piyasalari_vu_20260519/">ABD Tahvil Faizleri En Yüksek Seviyeye Ulaştı: Enflasyon Endişeleri Piyasaları Vurdu</a>
           </h3>
           <p class="card-excerpt">ABD 30 yıllık Hazine tahvil faizleri, küresel finansal kriz öncesi döneme göre en yüksek seviyesine ulaştı. Avrupa ve Asya&#x27;da da gözlemlenen yükselen faiz oranları, enflasyon endi...</p>
           <div class="card-footer">
-            <a class="read-more" href="/articles/2026/05/abd_tahvil_faizleri_en_yuksek_seviyeye_ulasti_enflasyon_endiseleri_piyasalari_vu_20260519/" aria-label="ABD Tahvil Faizleri En Yüksek Seviyeye Ulaştı: Enflasyon Endişeleri Piyasaları Vurdu haberini oku">Devamını Oku →</a>
+            <a class="read-more" href="/articles/abd_tahvil_faizleri_en_yuksek_seviyeye_ulasti_enflasyon_endiseleri_piyasalari_vu_20260519/" aria-label="ABD Tahvil Faizleri En Yüksek Seviyeye Ulaştı: Enflasyon Endişeleri Piyasaları Vurdu haberini oku">Devamını Oku →</a>
             <div class="share-mini" aria-label="Paylaş">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fabd_tahvil_faizleri_en_yuksek_seviyeye_ulasti_enflasyon_endiseleri_piyasalari_vu_20260519%2F&text=ABD+Tahvil+Faizleri+En+Y%C3%BCksek+Seviyeye+Ula%C5%9Ft%C4%B1%3A+Enflasyon+Endi%C5%9Feleri+Piyasalar%C4%B1+Vurdu" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fabd_tahvil_faizleri_en_yuksek_seviyeye_ulasti_enflasyon_endiseleri_piyasalari_vu_20260519%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=ABD+Tahvil+Faizleri+En+Y%C3%BCksek+Seviyeye+Ula%C5%9Ft%C4%B1%3A+Enflasyon+Endi%C5%9Feleri+Piyasalar%C4%B1+Vurdu%20https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fabd_tahvil_faizleri_en_yuksek_seviyeye_ulasti_enflasyon_endiseleri_piyasalari_vu_20260519%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fabd_tahvil_faizleri_en_yuksek_seviyeye_ulasti_enflasyon_endiseleri_piyasalari_vu_20260519%2F&text=ABD+Tahvil+Faizleri+En+Y%C3%BCksek+Seviyeye+Ula%C5%9Ft%C4%B1%3A+Enflasyon+Endi%C5%9Feleri+Piyasalar%C4%B1+Vurdu" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fabd_tahvil_faizleri_en_yuksek_seviyeye_ulasti_enflasyon_endiseleri_piyasalari_vu_20260519%2F&text=ABD+Tahvil+Faizleri+En+Y%C3%BCksek+Seviyeye+Ula%C5%9Ft%C4%B1%3A+Enflasyon+Endi%C5%9Feleri+Piyasalar%C4%B1+Vurdu" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fabd_tahvil_faizleri_en_yuksek_seviyeye_ulasti_enflasyon_endiseleri_piyasalari_vu_20260519%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=ABD+Tahvil+Faizleri+En+Y%C3%BCksek+Seviyeye+Ula%C5%9Ft%C4%B1%3A+Enflasyon+Endi%C5%9Feleri+Piyasalar%C4%B1+Vurdu%20https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fabd_tahvil_faizleri_en_yuksek_seviyeye_ulasti_enflasyon_endiseleri_piyasalari_vu_20260519%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fabd_tahvil_faizleri_en_yuksek_seviyeye_ulasti_enflasyon_endiseleri_piyasalari_vu_20260519%2F&text=ABD+Tahvil+Faizleri+En+Y%C3%BCksek+Seviyeye+Ula%C5%9Ft%C4%B1%3A+Enflasyon+Endi%C5%9Feleri+Piyasalar%C4%B1+Vurdu" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
@@ -2776,7 +2721,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
             <!-- GERMANY_START -->
 
       <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/articles/2026/05/israil_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521/" aria-label="İsrail Polis Bakanı&#x27;nın Videosu Uluslararası Eleştiri Topladı"><div class="card-image"><img src="https://images.unsplash.com/photo-1547483029-77784da27709?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJc3JhZWx8ZW58MHwwfHx8MTc3OTM4MTAxMHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="İsrail Polis Bakanı&#x27;nın Videosu Uluslararası Eleştiri Topladı" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/articles/israil_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521/" aria-label="İsrail Polis Bakanı&#x27;nın Videosu Uluslararası Eleştiri Topladı"><div class="card-image"><img src="https://images.unsplash.com/photo-1547483029-77784da27709?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJc3JhZWx8ZW58MHwwfHx8MTc3OTM4MTAxMHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="İsrail Polis Bakanı&#x27;nın Videosu Uluslararası Eleştiri Topladı" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">DE Almanya</span>
@@ -2784,71 +2729,23 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
             <time class="card-date" datetime="2026-05-21">21.05.2026</time>
           </div>
           <h3 class="card-title">
-            <a href="/articles/2026/05/israil_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521/">İsrail Polis Bakanı&#x27;nın Videosu Uluslararası Eleştiri Topladı</a>
+            <a href="/articles/israil_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521/">İsrail Polis Bakanı&#x27;nın Videosu Uluslararası Eleştiri Topladı</a>
           </h3>
           <p class="card-excerpt">İsrail Polis Bakanı Ben-Gvir, Gazze Filosu aktivistlerini gösteren bir video paylaştı ve bu video uluslararası eleştirilere neden oldu. Bu olay, İsrail&#x27;de polisin rolü ve aktivist...</p>
           <div class="card-footer">
-            <a class="read-more" href="/articles/2026/05/israil_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521/" aria-label="İsrail Polis Bakanı&#x27;nın Videosu Uluslararası Eleştiri Topladı haberini oku">Devamını Oku →</a>
+            <a class="read-more" href="/articles/israil_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521/" aria-label="İsrail Polis Bakanı&#x27;nın Videosu Uluslararası Eleştiri Topladı haberini oku">Devamını Oku →</a>
             <div class="share-mini" aria-label="Paylaş">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fisrail_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521%2F&text=%C4%B0srail+Polis+Bakan%C4%B1%27n%C4%B1n+Videosu+Uluslararas%C4%B1+Ele%C5%9Ftiri+Toplad%C4%B1" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fisrail_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=%C4%B0srail+Polis+Bakan%C4%B1%27n%C4%B1n+Videosu+Uluslararas%C4%B1+Ele%C5%9Ftiri+Toplad%C4%B1%20https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fisrail_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fisrail_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521%2F&text=%C4%B0srail+Polis+Bakan%C4%B1%27n%C4%B1n+Videosu+Uluslararas%C4%B1+Ele%C5%9Ftiri+Toplad%C4%B1" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <article class="news-card topic-card" data-topic="ekonomi">
-        <a class="card-image-link" href="/articles/2026/05/almanya-tahvil-getirileri-yukseliyor-borc-piyasasi-kriz-sinyalleri_20260519/" aria-label="Almanya&#x27;da Tahvil Getirileri Yükseliyor: Borç Piyasasından Kriz Sinyalleri Artıyor"><div class="card-image"><img src="https://images.unsplash.com/photo-1698432292965-3b298724f5a8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxHZXJtYW4lMjBib25kfGVufDB8MHx8fDE3NzkyMTQ1NjR8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Almanya&#x27;da Tahvil Getirileri Yükseliyor: Borç Piyasasından Kriz Sinyalleri Artıyor" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Almanya</span>
-            <span class="card-topic">Ekonomi</span>
-            <time class="card-date" datetime="2026-05-19">19.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/articles/2026/05/almanya-tahvil-getirileri-yukseliyor-borc-piyasasi-kriz-sinyalleri_20260519/">Almanya&#x27;da Tahvil Getirileri Yükseliyor: Borç Piyasasından Kriz Sinyalleri Artıyor</a>
-          </h3>
-          <p class="card-excerpt">Almanya&#x27;da on yıllık federal tahvil getirileri 15 yıllık zirveye ulaşarak %2,5&#x27;e çıktı. Bu durum, borç piyasasında artan endişelerin bir işareti olarak yorumlanıyor. Yüksek enflas...</p>
-          <div class="card-footer">
-            <a class="read-more" href="/articles/2026/05/almanya-tahvil-getirileri-yukseliyor-borc-piyasasi-kriz-sinyalleri_20260519/" aria-label="Almanya&#x27;da Tahvil Getirileri Yükseliyor: Borç Piyasasından Kriz Sinyalleri Artıyor haberini oku">Devamını Oku →</a>
-            <div class="share-mini" aria-label="Paylaş">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Falmanya-tahvil-getirileri-yukseliyor-borc-piyasasi-kriz-sinyalleri_20260519%2F&text=Almanya%27da+Tahvil+Getirileri+Y%C3%BCkseliyor%3A+Bor%C3%A7+Piyasas%C4%B1ndan+Kriz+Sinyalleri+Art%C4%B1yor" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Falmanya-tahvil-getirileri-yukseliyor-borc-piyasasi-kriz-sinyalleri_20260519%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Almanya%27da+Tahvil+Getirileri+Y%C3%BCkseliyor%3A+Bor%C3%A7+Piyasas%C4%B1ndan+Kriz+Sinyalleri+Art%C4%B1yor%20https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Falmanya-tahvil-getirileri-yukseliyor-borc-piyasasi-kriz-sinyalleri_20260519%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Falmanya-tahvil-getirileri-yukseliyor-borc-piyasasi-kriz-sinyalleri_20260519%2F&text=Almanya%27da+Tahvil+Getirileri+Y%C3%BCkseliyor%3A+Bor%C3%A7+Piyasas%C4%B1ndan+Kriz+Sinyalleri+Art%C4%B1yor" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/articles/2026/05/ab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519/" aria-label="AB Parlamentosu, CSU&#x27;lu Milletvekili Niebler Hakkındaki Soruşturmayı Durdurdu"><div class="card-image"><img src="https://images.unsplash.com/photo-1602077772102-b7d48e01643c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFdXJvcCVDMyVBNGlzY2hlcyUyMFBhcmxhbWVudHxlbnwwfDB8fHwxNzc5MjI1Mjk3fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="AB Parlamentosu, CSU&#x27;lu Milletvekili Niebler Hakkındaki Soruşturmayı Durdurdu" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Almanya</span>
-            <span class="card-topic">Gündem</span>
-            <time class="card-date" datetime="2026-05-19">19.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/articles/2026/05/ab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519/">AB Parlamentosu, CSU&#x27;lu Milletvekili Niebler Hakkındaki Soruşturmayı Durdurdu</a>
-          </h3>
-          <p class="card-excerpt">Avrupa Parlamentosu, CSU Milletvekili Niebler hakkındaki zimmete para geçirme şüphesiyle yürütülen soruşturmayı durdurdu. Savcılığın daha önce milletvekilinin dokunulmazlığının ka...</p>
-          <div class="card-footer">
-            <a class="read-more" href="/articles/2026/05/ab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519/" aria-label="AB Parlamentosu, CSU&#x27;lu Milletvekili Niebler Hakkındaki Soruşturmayı Durdurdu haberini oku">Devamını Oku →</a>
-            <div class="share-mini" aria-label="Paylaş">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519%2F&text=AB+Parlamentosu%2C+CSU%27lu+Milletvekili+Niebler+Hakk%C4%B1ndaki+Soru%C5%9Fturmay%C4%B1+Durdurdu" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=AB+Parlamentosu%2C+CSU%27lu+Milletvekili+Niebler+Hakk%C4%B1ndaki+Soru%C5%9Fturmay%C4%B1+Durdurdu%20https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519%2F&text=AB+Parlamentosu%2C+CSU%27lu+Milletvekili+Niebler+Hakk%C4%B1ndaki+Soru%C5%9Fturmay%C4%B1+Durdurdu" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fisrail_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521%2F&text=%C4%B0srail+Polis+Bakan%C4%B1%27n%C4%B1n+Videosu+Uluslararas%C4%B1+Ele%C5%9Ftiri+Toplad%C4%B1" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fisrail_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=%C4%B0srail+Polis+Bakan%C4%B1%27n%C4%B1n+Videosu+Uluslararas%C4%B1+Ele%C5%9Ftiri+Toplad%C4%B1%20https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fisrail_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fisrail_polis_bakaninin_videosu_uluslararasi_elestiri_topladi_20260521%2F&text=%C4%B0srail+Polis+Bakan%C4%B1%27n%C4%B1n+Videosu+Uluslararas%C4%B1+Ele%C5%9Ftiri+Toplad%C4%B1" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
       </article>
 
       <article class="news-card topic-card" data-topic="dunya">
-        <a class="card-image-link" href="/articles/2026/05/ab-ciftcilere-destek-saglayacak_20260519/" aria-label="AB, İran Geriliminin Yarattığı Gübre Kıtlığına Karşı Çiftçilere Destek Verecek"><div class="card-image"><img src="/articles/2026/05/images/ab-ciftcilere-destek-saglayacak_20260519.jpg" alt="AB, İran Geriliminin Yarattığı Gübre Kıtlığına Karşı Çiftçilere Destek Verecek" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/articles/ab-ciftcilere-destek-saglayacak_20260519/" aria-label="AB, İran Geriliminin Yarattığı Gübre Kıtlığına Karşı Çiftçilere Destek Verecek"><div class="card-image"><img src="/articles/2026/05/images/ab-ciftcilere-destek-saglayacak_20260519.jpg" alt="AB, İran Geriliminin Yarattığı Gübre Kıtlığına Karşı Çiftçilere Destek Verecek" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">DE Almanya</span>
@@ -2856,16 +2753,64 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
             <time class="card-date" datetime="2026-05-19">19.05.2026</time>
           </div>
           <h3 class="card-title">
-            <a href="/articles/2026/05/ab-ciftcilere-destek-saglayacak_20260519/">AB, İran Geriliminin Yarattığı Gübre Kıtlığına Karşı Çiftçilere Destek Verecek</a>
+            <a href="/articles/ab-ciftcilere-destek-saglayacak_20260519/">AB, İran Geriliminin Yarattığı Gübre Kıtlığına Karşı Çiftçilere Destek Verecek</a>
           </h3>
           <p class="card-excerpt">Avrupa Birliği (AB), İran&#x27;daki jeopolitik gerilimlerin küresel gübre tedarik zincirini olumsuz etkilemesi ve gübre fiyatlarında yaşanan ciddi artışlar nedeniyle, Avrupa&#x27;daki çiftç...</p>
           <div class="card-footer">
-            <a class="read-more" href="/articles/2026/05/ab-ciftcilere-destek-saglayacak_20260519/" aria-label="AB, İran Geriliminin Yarattığı Gübre Kıtlığına Karşı Çiftçilere Destek Verecek haberini oku">Devamını Oku →</a>
+            <a class="read-more" href="/articles/ab-ciftcilere-destek-saglayacak_20260519/" aria-label="AB, İran Geriliminin Yarattığı Gübre Kıtlığına Karşı Çiftçilere Destek Verecek haberini oku">Devamını Oku →</a>
             <div class="share-mini" aria-label="Paylaş">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fab-ciftcilere-destek-saglayacak_20260519%2F&text=AB%2C+%C4%B0ran+Geriliminin+Yaratt%C4%B1%C4%9F%C4%B1+G%C3%BCbre+K%C4%B1tl%C4%B1%C4%9F%C4%B1na+Kar%C5%9F%C4%B1+%C3%87ift%C3%A7ilere+Destek+Verecek" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fab-ciftcilere-destek-saglayacak_20260519%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=AB%2C+%C4%B0ran+Geriliminin+Yaratt%C4%B1%C4%9F%C4%B1+G%C3%BCbre+K%C4%B1tl%C4%B1%C4%9F%C4%B1na+Kar%C5%9F%C4%B1+%C3%87ift%C3%A7ilere+Destek+Verecek%20https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fab-ciftcilere-destek-saglayacak_20260519%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fab-ciftcilere-destek-saglayacak_20260519%2F&text=AB%2C+%C4%B0ran+Geriliminin+Yaratt%C4%B1%C4%9F%C4%B1+G%C3%BCbre+K%C4%B1tl%C4%B1%C4%9F%C4%B1na+Kar%C5%9F%C4%B1+%C3%87ift%C3%A7ilere+Destek+Verecek" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fab-ciftcilere-destek-saglayacak_20260519%2F&text=AB%2C+%C4%B0ran+Geriliminin+Yaratt%C4%B1%C4%9F%C4%B1+G%C3%BCbre+K%C4%B1tl%C4%B1%C4%9F%C4%B1na+Kar%C5%9F%C4%B1+%C3%87ift%C3%A7ilere+Destek+Verecek" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fab-ciftcilere-destek-saglayacak_20260519%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=AB%2C+%C4%B0ran+Geriliminin+Yaratt%C4%B1%C4%9F%C4%B1+G%C3%BCbre+K%C4%B1tl%C4%B1%C4%9F%C4%B1na+Kar%C5%9F%C4%B1+%C3%87ift%C3%A7ilere+Destek+Verecek%20https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fab-ciftcilere-destek-saglayacak_20260519%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fab-ciftcilere-destek-saglayacak_20260519%2F&text=AB%2C+%C4%B0ran+Geriliminin+Yaratt%C4%B1%C4%9F%C4%B1+G%C3%BCbre+K%C4%B1tl%C4%B1%C4%9F%C4%B1na+Kar%C5%9F%C4%B1+%C3%87ift%C3%A7ilere+Destek+Verecek" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="news-card topic-card" data-topic="gundem">
+        <a class="card-image-link" href="/articles/ab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519/" aria-label="AB Parlamentosu, CSU&#x27;lu Milletvekili Niebler Hakkındaki Soruşturmayı Durdurdu"><div class="card-image"><img src="https://images.unsplash.com/photo-1602077772102-b7d48e01643c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFdXJvcCVDMyVBNGlzY2hlcyUyMFBhcmxhbWVudHxlbnwwfDB8fHwxNzc5MjI1Mjk3fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="AB Parlamentosu, CSU&#x27;lu Milletvekili Niebler Hakkındaki Soruşturmayı Durdurdu" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Almanya</span>
+            <span class="card-topic">Gündem</span>
+            <time class="card-date" datetime="2026-05-19">19.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/articles/ab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519/">AB Parlamentosu, CSU&#x27;lu Milletvekili Niebler Hakkındaki Soruşturmayı Durdurdu</a>
+          </h3>
+          <p class="card-excerpt">Avrupa Parlamentosu, CSU Milletvekili Niebler hakkındaki zimmete para geçirme şüphesiyle yürütülen soruşturmayı durdurdu. Savcılığın daha önce milletvekilinin dokunulmazlığının ka...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/articles/ab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519/" aria-label="AB Parlamentosu, CSU&#x27;lu Milletvekili Niebler Hakkındaki Soruşturmayı Durdurdu haberini oku">Devamını Oku →</a>
+            <div class="share-mini" aria-label="Paylaş">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519%2F&text=AB+Parlamentosu%2C+CSU%27lu+Milletvekili+Niebler+Hakk%C4%B1ndaki+Soru%C5%9Fturmay%C4%B1+Durdurdu" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=AB+Parlamentosu%2C+CSU%27lu+Milletvekili+Niebler+Hakk%C4%B1ndaki+Soru%C5%9Fturmay%C4%B1+Durdurdu%20https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Fab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519%2F&text=AB+Parlamentosu%2C+CSU%27lu+Milletvekili+Niebler+Hakk%C4%B1ndaki+Soru%C5%9Fturmay%C4%B1+Durdurdu" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="news-card topic-card" data-topic="ekonomi">
+        <a class="card-image-link" href="/articles/almanya-tahvil-getirileri-yukseliyor-borc-piyasasi-kriz-sinyalleri_20260519/" aria-label="Almanya&#x27;da Tahvil Getirileri Yükseliyor: Borç Piyasasından Kriz Sinyalleri Artıyor"><div class="card-image"><img src="https://images.unsplash.com/photo-1698432292965-3b298724f5a8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxHZXJtYW4lMjBib25kfGVufDB8MHx8fDE3NzkyMTQ1NjR8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Almanya&#x27;da Tahvil Getirileri Yükseliyor: Borç Piyasasından Kriz Sinyalleri Artıyor" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Almanya</span>
+            <span class="card-topic">Ekonomi</span>
+            <time class="card-date" datetime="2026-05-19">19.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/articles/almanya-tahvil-getirileri-yukseliyor-borc-piyasasi-kriz-sinyalleri_20260519/">Almanya&#x27;da Tahvil Getirileri Yükseliyor: Borç Piyasasından Kriz Sinyalleri Artıyor</a>
+          </h3>
+          <p class="card-excerpt">Almanya&#x27;da on yıllık federal tahvil getirileri 15 yıllık zirveye ulaşarak %2,5&#x27;e çıktı. Bu durum, borç piyasasında artan endişelerin bir işareti olarak yorumlanıyor. Yüksek enflas...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/articles/almanya-tahvil-getirileri-yukseliyor-borc-piyasasi-kriz-sinyalleri_20260519/" aria-label="Almanya&#x27;da Tahvil Getirileri Yükseliyor: Borç Piyasasından Kriz Sinyalleri Artıyor haberini oku">Devamını Oku →</a>
+            <div class="share-mini" aria-label="Paylaş">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Falmanya-tahvil-getirileri-yukseliyor-borc-piyasasi-kriz-sinyalleri_20260519%2F&text=Almanya%27da+Tahvil+Getirileri+Y%C3%BCkseliyor%3A+Bor%C3%A7+Piyasas%C4%B1ndan+Kriz+Sinyalleri+Art%C4%B1yor" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Falmanya-tahvil-getirileri-yukseliyor-borc-piyasasi-kriz-sinyalleri_20260519%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Almanya%27da+Tahvil+Getirileri+Y%C3%BCkseliyor%3A+Bor%C3%A7+Piyasas%C4%B1ndan+Kriz+Sinyalleri+Art%C4%B1yor%20https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Falmanya-tahvil-getirileri-yukseliyor-borc-piyasasi-kriz-sinyalleri_20260519%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2Falmanya-tahvil-getirileri-yukseliyor-borc-piyasasi-kriz-sinyalleri_20260519%2F&text=Almanya%27da+Tahvil+Getirileri+Y%C3%BCkseliyor%3A+Bor%C3%A7+Piyasas%C4%B1ndan+Kriz+Sinyalleri+Art%C4%B1yor" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
