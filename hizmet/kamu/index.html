@@ -55,6 +55,9 @@
     .em-num { width: 48px; height: 48px; border-radius: 8px; background: #fee2e2; color: var(--red); font-size: 1.25rem; font-weight: 900; display: flex; align-items: center; justify-content: center; }
     .em-info strong { display: block; font-size: 0.98rem; color: var(--dark); }
     .em-info span { display: block; font-size: 0.8rem; color: var(--muted); }
+    .kamu-chip { background: white; border: 1px solid var(--border); border-radius: 999px; padding: 6px 14px; font-size: 0.82rem; font-weight: 700; color: var(--text); cursor: pointer; transition: all 0.15s; }
+    .kamu-chip:hover { border-color: #0284c7; color: #0284c7; }
+    .kamu-chip.active { background: #0284c7; border-color: #0284c7; color: white; }
     footer { background: var(--dark); color: #94a3b8; padding: 24px 20px; text-align: center; font-size: 0.85rem; margin-top: 40px; }
   </style>
 </head>
@@ -79,953 +82,334 @@
     </div>
 
     <div class="section-heading">
-      <span>💧 Canlı İSKİ Su Kesintisi Bildirimleri</span>
+      <span>💧 Canlı İSKİ Su Kesintisi Bildirimleri (12)</span>
       <a href="tel:185" style="color:var(--red); text-decoration:none; font-size:0.9rem;">📞 Alo 185 Su Arıza Ara →</a>
     </div>
-    <div class="outages-grid">
+    <div class="kamu-district-chips" style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px;"><button type="button" class="kamu-chip iski-chip active" onclick="filterIskiDistrict('all', this)">Tüm İlçeler (12)</button><button type="button" class="kamu-chip iski-chip" onclick="filterIskiDistrict('arnavutkoy', this)">Arnavutköy (3)</button><button type="button" class="kamu-chip iski-chip" onclick="filterIskiDistrict('avcilar', this)">Avcılar (1)</button><button type="button" class="kamu-chip iski-chip" onclick="filterIskiDistrict('basaksehir', this)">Başakşehir (2)</button><button type="button" class="kamu-chip iski-chip" onclick="filterIskiDistrict('beykoz', this)">Beykoz (1)</button><button type="button" class="kamu-chip iski-chip" onclick="filterIskiDistrict('buyukcekmece', this)">Büyükçekmece (1)</button><button type="button" class="kamu-chip iski-chip" onclick="filterIskiDistrict('esenyurt', this)">Esenyurt (1)</button><button type="button" class="kamu-chip iski-chip" onclick="filterIskiDistrict('catalca', this)">Çatalca (1)</button><button type="button" class="kamu-chip iski-chip" onclick="filterIskiDistrict('uskudar', this)">Üsküdar (1)</button><button type="button" class="kamu-chip iski-chip" onclick="filterIskiDistrict('sisli', this)">Şişli (1)</button></div>
+    <div class="outages-grid" id="iski-outages-grid">
 
-          <div class="outage-card normal">
-            <div class="outage-badge">💧 İSKİ Şebeke Durumu</div>
-            <div class="outage-status ok">🟢 Normal Akış</div>
-            <h3 class="outage-title">Tüm İlçelerde Şebeke Suyu Normal</h3>
-            <p class="outage-desc">İstanbul genelinde ana iletim hatlarında plansız büyük bir su arızası bulunmamaktadır.</p>
-            <div class="outage-actions">
-              <a href="tel:185" class="btn-action">📞 Alo 185 Danışma</a>
-            </div>
-          </div>
+              <div class="outage-card iski" data-district="arnavutkoy">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">💧 İSKİ Su Arızası</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 04/09/2026 17:00</span>
+                </div>
+                <h3 class="outage-title">📍 Arnavutköy İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Fatih, Tayakadın, Çilingir <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">3 Mahalle</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #10000513085</div>
+                <p class="outage-desc">İçme suyu hatlarında meydana gelen arıza sebebıyle 100 MM çaplı şebeke hattı arızası.</p>
+                <div class="outage-actions">
+                  <a href="tel:185" class="btn-action">📞 Alo 185 İSKİ Arıza Bildir</a>
+                </div>
+              </div>
+              <div class="outage-card iski" data-district="arnavutkoy">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">💧 İSKİ Su Arızası</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 04/09/2026 17:00</span>
+                </div>
+                <h3 class="outage-title">📍 Arnavutköy İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Mareşal Fevzi Çakmak, Mustafa Kemal Paşa, Taşoluk <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">3 Mahalle</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #10000513083</div>
+                <p class="outage-desc">İçme suyu hatlarında meydana gelen arıza sebebıyle 150 MM çaplı şebeke hattı arızası.</p>
+                <div class="outage-actions">
+                  <a href="tel:185" class="btn-action">📞 Alo 185 İSKİ Arıza Bildir</a>
+                </div>
+              </div>
+              <div class="outage-card iski" data-district="arnavutkoy">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">💧 İSKİ Su Arızası</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 04/09/2026 18:00</span>
+                </div>
+                <h3 class="outage-title">📍 Arnavutköy İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Deliklikaya, Dursunköy, Hadımköy, Hastane, Yassıören ve 2 mahalle daha <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">7 Mahalle</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #10000513079</div>
+                <p class="outage-desc">İçme suyu hatlarında meydana gelen arıza sebebıyle terfi merkezi arızası.</p>
+                <div class="outage-actions">
+                  <a href="tel:185" class="btn-action">📞 Alo 185 İSKİ Arıza Bildir</a>
+                </div>
+              </div>
+              <div class="outage-card iski" data-district="avcilar">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">💧 İSKİ Su Arızası</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 04/09/2026 18:00</span>
+                </div>
+                <h3 class="outage-title">📍 Avcılar İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Cihangir, Merkez, Tahtakale <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">3 Mahalle</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #10000513079</div>
+                <p class="outage-desc">İçme suyu hatlarında meydana gelen arıza sebebıyle terfi merkezi arızası.</p>
+                <div class="outage-actions">
+                  <a href="tel:185" class="btn-action">📞 Alo 185 İSKİ Arıza Bildir</a>
+                </div>
+              </div>
+              <div class="outage-card iski" data-district="basaksehir">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">💧 İSKİ Su Arızası</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 04/09/2026 18:00</span>
+                </div>
+                <h3 class="outage-title">📍 Başakşehir İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Altınşehir <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">1 Mahalle</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #10000513081</div>
+                <p class="outage-desc">İçme suyu hatlarında meydana gelen arıza sebebıyle 100 MM çaplı şebeke hattı arızası.</p>
+                <div class="outage-actions">
+                  <a href="tel:185" class="btn-action">📞 Alo 185 İSKİ Arıza Bildir</a>
+                </div>
+              </div>
+              <div class="outage-card iski" data-district="basaksehir">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">💧 İSKİ Su Arızası</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 04/09/2026 20:00</span>
+                </div>
+                <h3 class="outage-title">📍 Başakşehir İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Bahçeşehir 2.kısım, Güvercintepe, Şahintepe <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">3 Mahalle</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #10000513079</div>
+                <p class="outage-desc">Bölgesel enerji kesintisi enerjı kesıntısı.</p>
+                <div class="outage-actions">
+                  <a href="tel:185" class="btn-action">📞 Alo 185 İSKİ Arıza Bildir</a>
+                </div>
+              </div>
+              <div class="outage-card iski" data-district="beykoz">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">💧 İSKİ Su Arızası</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 04/09/2026 20:00</span>
+                </div>
+                <h3 class="outage-title">📍 Beykoz İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Paşabahçe, Çiğdem <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">2 Mahalle</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #10000513084</div>
+                <p class="outage-desc">İçme suyu hatlarında meydana gelen arıza sebebıyle 150 MM çaplı şebeke hattı arızası.</p>
+                <div class="outage-actions">
+                  <a href="tel:185" class="btn-action">📞 Alo 185 İSKİ Arıza Bildir</a>
+                </div>
+              </div>
+              <div class="outage-card iski" data-district="buyukcekmece">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">💧 İSKİ Su Arızası</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 04/09/2026 20:00</span>
+                </div>
+                <h3 class="outage-title">📍 Büyükçekmece İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Karaağaç <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">1 Mahalle</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #10000513079</div>
+                <p class="outage-desc">Bölgesel enerji kesintisi enerjı kesıntısı.</p>
+                <div class="outage-actions">
+                  <a href="tel:185" class="btn-action">📞 Alo 185 İSKİ Arıza Bildir</a>
+                </div>
+              </div>
+              <div class="outage-card iski" data-district="esenyurt">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">💧 İSKİ Su Arızası</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 04/09/2026 20:00</span>
+                </div>
+                <h3 class="outage-title">📍 Esenyurt İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Akşemseddin, Ardıçlı, Aşık Veysel, Balıkyolu, Esenkent ve 21 mahalle daha <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">26 Mahalle</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #10000513079</div>
+                <p class="outage-desc">Bölgesel enerji kesintisi enerjı kesıntısı.</p>
+                <div class="outage-actions">
+                  <a href="tel:185" class="btn-action">📞 Alo 185 İSKİ Arıza Bildir</a>
+                </div>
+              </div>
+              <div class="outage-card iski" data-district="catalca">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">💧 İSKİ Su Arızası</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 04/09/2026 18:00</span>
+                </div>
+                <h3 class="outage-title">📍 Çatalca İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Bahşayiş, Nakkaş <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">2 Mahalle</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #10000513079</div>
+                <p class="outage-desc">İçme suyu hatlarında meydana gelen arıza sebebıyle terfi merkezi arızası.</p>
+                <div class="outage-actions">
+                  <a href="tel:185" class="btn-action">📞 Alo 185 İSKİ Arıza Bildir</a>
+                </div>
+              </div>
+              <div class="outage-card iski" data-district="uskudar">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">💧 İSKİ Su Arızası</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 04/09/2026 18:00</span>
+                </div>
+                <h3 class="outage-title">📍 Üsküdar İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Mimar Sinan, Valide-i Atik <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">2 Mahalle</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #10000513082</div>
+                <p class="outage-desc">İçme suyu hatlarında meydana gelen arıza sebebıyle 100 MM çaplı şebeke hattı arızası.</p>
+                <div class="outage-actions">
+                  <a href="tel:185" class="btn-action">📞 Alo 185 İSKİ Arıza Bildir</a>
+                </div>
+              </div>
+              <div class="outage-card iski" data-district="sisli">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">💧 İSKİ Su Arızası</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 04/09/2026 18:00</span>
+                </div>
+                <h3 class="outage-title">📍 Şişli İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Merkez <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">1 Mahalle</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #10000513089</div>
+                <p class="outage-desc">İçme suyu hatlarında meydana gelen arıza sebebıyle 100 MM çaplı şebeke hattı arızası.</p>
+                <div class="outage-actions">
+                  <a href="tel:185" class="btn-action">📞 Alo 185 İSKİ Arıza Bildir</a>
+                </div>
+              </div>
     </div>
 
     <div class="section-heading">
-      <span>⚡ Canlı BEDAŞ Elektrik Kesintileri &amp; İş Emirleri</span>
+      <span>⚡ Canlı BEDAŞ Elektrik Kesintileri &amp; İş Emirleri (9)</span>
       <a href="tel:186" style="color:var(--red); text-decoration:none; font-size:0.9rem;">📞 Alo 186 Elektrik Arıza Ara →</a>
     </div>
-    <div class="outages-grid">
+    <div class="kamu-district-chips" style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px;"><button type="button" class="kamu-chip bedas-chip active" onclick="filterKamuDistrict('all', this)">Tüm İlçeler (9)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('avcilar', this)">Avcılar (1)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('esenyurt', this)">Esenyurt (1)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('kucukcekmece', this)">Küçükçekmece (1)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('sultangazi', this)">Sultangazi (3)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('zeytinburnu', this)">Zeytinburnu (1)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('catalca', this)">Çatalca (2)</button></div>
+    <div class="outages-grid" id="bedas-outages-grid">
 
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimli</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:00</div>
-                <h3 class="outage-title">İş Emri #4842258</h3>
+              <div class="outage-card bedas" data-district="avcilar">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">⚡ Bildirimsiz</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-09-04 18:22</span>
+                </div>
+                <h3 class="outage-title">📍 Avcılar İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Firuzköy, Tahtakale, Şahintepe <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">66 Trafo Bölgesi</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4842476</div>
+                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
+                <div class="outage-actions">
+                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
+                </div>
+              </div>
+              <div class="outage-card bedas" data-district="esenyurt">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">⚡ Bildirimsiz</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-09-04 17:56</span>
+                </div>
+                <h3 class="outage-title">📍 Esenyurt İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Akçaburgaz <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">16 Trafo Bölgesi</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4842333</div>
+                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
+                <div class="outage-actions">
+                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
+                </div>
+              </div>
+              <div class="outage-card bedas" data-district="kucukcekmece">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">⚡ Bildirimli Bakım/Yatırım</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-09-04 18:00</span>
+                </div>
+                <h3 class="outage-title">📍 Küçükçekmece İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Gültepe 
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4842258</div>
                 <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
                 <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
+                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
                 </div>
               </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimli</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:00</div>
-                <h3 class="outage-title">İş Emri #4842133</h3>
+              <div class="outage-card bedas" data-district="sultangazi">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">⚡ Bildirimli Bakım/Yatırım</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-09-04 17:00</span>
+                </div>
+                <h3 class="outage-title">📍 Sultangazi İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ 50. Yıl 
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4842021</div>
                 <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
                 <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
+                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
                 </div>
               </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimli</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 17:30</div>
-                <h3 class="outage-title">İş Emri #4842045</h3>
+              <div class="outage-card bedas" data-district="sultangazi">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">⚡ Bildirimli Bakım/Yatırım</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-09-04 18:00</span>
+                </div>
+                <h3 class="outage-title">📍 Sultangazi İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Uğur Mumcu 
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4842344</div>
                 <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
                 <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
+                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
                 </div>
               </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimli</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 17:30</div>
-                <h3 class="outage-title">İş Emri #4842045</h3>
+              <div class="outage-card bedas" data-district="sultangazi">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">⚡ Bildirimli Bakım/Yatırım</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-09-04 18:00</span>
+                </div>
+                <h3 class="outage-title">📍 Sultangazi İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Uğur Mumcu 
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4842339</div>
                 <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
                 <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
+                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
                 </div>
               </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimli</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 17:30</div>
-                <h3 class="outage-title">İş Emri #4842045</h3>
+              <div class="outage-card bedas" data-district="zeytinburnu">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">⚡ Bildirimli Bakım/Yatırım</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-09-04 17:00</span>
+                </div>
+                <h3 class="outage-title">📍 Zeytinburnu İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Maltepe 
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4841987</div>
                 <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
                 <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
+                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
                 </div>
               </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimli</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 17:30</div>
-                <h3 class="outage-title">İş Emri #4842045</h3>
+              <div class="outage-card bedas" data-district="catalca">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">⚡ Bildirimli Bakım/Yatırım</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-09-04 17:30</span>
+                </div>
+                <h3 class="outage-title">📍 Çatalca İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Başak, Örencik <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">5 Trafo Bölgesi</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4842045</div>
                 <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
                 <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
+                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
                 </div>
               </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimli</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 17:30</div>
-                <h3 class="outage-title">İş Emri #4842045</h3>
+              <div class="outage-card bedas" data-district="catalca">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">⚡ Bildirimli Bakım/Yatırım</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-09-04 18:00</span>
+                </div>
+                <h3 class="outage-title">📍 Çatalca İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Ormanlı 
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4842133</div>
                 <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
                 <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimli</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:00</div>
-                <h3 class="outage-title">İş Emri #4842344</h3>
-                <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimli</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:00</div>
-                <h3 class="outage-title">İş Emri #4842339</h3>
-                <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 18:22</div>
-                <h3 class="outage-title">İş Emri #4842476</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 16:56</div>
-                <h3 class="outage-title">İş Emri #4842333</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 16:56</div>
-                <h3 class="outage-title">İş Emri #4842333</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 16:56</div>
-                <h3 class="outage-title">İş Emri #4842333</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 16:56</div>
-                <h3 class="outage-title">İş Emri #4842333</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 16:56</div>
-                <h3 class="outage-title">İş Emri #4842333</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 16:56</div>
-                <h3 class="outage-title">İş Emri #4842333</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 16:56</div>
-                <h3 class="outage-title">İş Emri #4842333</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 16:56</div>
-                <h3 class="outage-title">İş Emri #4842333</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 16:56</div>
-                <h3 class="outage-title">İş Emri #4842333</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 16:56</div>
-                <h3 class="outage-title">İş Emri #4842333</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 16:56</div>
-                <h3 class="outage-title">İş Emri #4842333</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 16:56</div>
-                <h3 class="outage-title">İş Emri #4842333</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 16:56</div>
-                <h3 class="outage-title">İş Emri #4842333</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 16:56</div>
-                <h3 class="outage-title">İş Emri #4842333</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 16:56</div>
-                <h3 class="outage-title">İş Emri #4842333</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 16:56</div>
-                <h3 class="outage-title">İş Emri #4842333</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 16:56</div>
-                <h3 class="outage-title">İş Emri #4842333</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 17:40</div>
-                <h3 class="outage-title">İş Emri #4842375</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 17:40</div>
-                <h3 class="outage-title">İş Emri #4842375</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 17:40</div>
-                <h3 class="outage-title">İş Emri #4842375</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 17:40</div>
-                <h3 class="outage-title">İş Emri #4842375</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 17:40</div>
-                <h3 class="outage-title">İş Emri #4842375</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 17:40</div>
-                <h3 class="outage-title">İş Emri #4842375</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 17:40</div>
-                <h3 class="outage-title">İş Emri #4842375</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 17:40</div>
-                <h3 class="outage-title">İş Emri #4842375</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimsiz</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 17:40</div>
-                <h3 class="outage-title">İş Emri #4842375</h3>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimli</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 17:00</div>
-                <h3 class="outage-title">İş Emri #4841987</h3>
-                <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
-                </div>
-              </div>
-              <div class="outage-card bedas">
-                <div class="outage-badge">⚡ Bildirimli</div>
-                <div class="outage-status est">⏱️ Tahmini Bitiş: 2026-09-04 17:00</div>
-                <h3 class="outage-title">İş Emri #4842021</h3>
-                <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Arıza</a>
+                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
                 </div>
               </div>
     </div>
@@ -1103,5 +487,29 @@
   <footer>
     <p>&copy; 2026 mansetradar.com.tr &middot; Tüm hakları saklıdır. &middot; Resmi Kaynak: İSKİ, BEDAŞ &amp; İBB &middot; <a href="/kunye/" style="color:inherit">Künye</a></p>
   </footer>
+  <script>
+    function filterIskiDistrict(dist, btn) {
+      document.querySelectorAll('.kamu-chip.iski-chip').forEach(function(b) { b.classList.remove('active'); });
+      if (btn) btn.classList.add('active');
+      document.querySelectorAll('.outage-card.iski').forEach(function(card) {
+        if (dist === 'all' || card.getAttribute('data-district') === dist) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+    function filterKamuDistrict(dist, btn) {
+      document.querySelectorAll('.kamu-chip.bedas-chip').forEach(function(b) { b.classList.remove('active'); });
+      if (btn) btn.classList.add('active');
+      document.querySelectorAll('.outage-card.bedas').forEach(function(card) {
+        if (dist === 'all' || card.getAttribute('data-district') === dist) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
 </body>
 </html>
