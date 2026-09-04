@@ -1948,7 +1948,39 @@
       .imb-quick-chips { display: none; }
       .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
     }
-/* FIRST_PAINT_TOPIC_FILTER_START */
+/* FORCE VISIBLE NUMBERS ON ALL SLIDER DOTS */
+    .headline-slider .slider-dots .slider-dot,
+    .slider-dots .slider-dot {
+      min-width: 26px !important;
+      height: 26px !important;
+      width: auto !important;
+      padding: 0 6px !important;
+      border: 0 !important;
+      border-radius: 6px !important;
+      background: rgba(255, 255, 255, 0.22) !important;
+      color: #ffffff !important;
+      font-size: 0.76rem !important;
+      font-weight: 800 !important;
+      cursor: pointer !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      line-height: 1 !important;
+      text-indent: 0 !important;
+      overflow: visible !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+    }
+    .headline-slider .slider-dots .slider-dot.is-active,
+    .slider-dots .slider-dot.is-active {
+      min-width: 32px !important;
+      background: #e10600 !important;
+      color: #ffffff !important;
+      font-weight: 900 !important;
+      box-shadow: 0 2px 10px rgba(225, 6, 0, 0.55) !important;
+    }
+
+  /* FIRST_PAINT_TOPIC_FILTER_START */
 html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]) .topic-card {
   display: none !important;
 }
@@ -1987,39 +2019,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
   display: none !important;
 }
 /* FIRST_PAINT_TOPIC_FILTER_END */
-  
-    /* FORCE VISIBLE NUMBERS ON ALL SLIDER DOTS */
-    .headline-slider .slider-dots .slider-dot,
-    .slider-dots .slider-dot {
-      min-width: 26px !important;
-      height: 26px !important;
-      width: auto !important;
-      padding: 0 6px !important;
-      border: 0 !important;
-      border-radius: 6px !important;
-      background: rgba(255, 255, 255, 0.22) !important;
-      color: #ffffff !important;
-      font-size: 0.76rem !important;
-      font-weight: 800 !important;
-      cursor: pointer !important;
-      display: inline-flex !important;
-      align-items: center !important;
-      justify-content: center !important;
-      line-height: 1 !important;
-      text-indent: 0 !important;
-      overflow: visible !important;
-      opacity: 1 !important;
-      visibility: visible !important;
-    }
-    .headline-slider .slider-dots .slider-dot.is-active,
-    .slider-dots .slider-dot.is-active {
-      min-width: 32px !important;
-      background: #e10600 !important;
-      color: #ffffff !important;
-      font-weight: 900 !important;
-      box-shadow: 0 2px 10px rgba(225, 6, 0, 0.55) !important;
-    }
-
   </style>
 <link rel="stylesheet" href="/assets/css/mobile-home-ux.css?v=20260904_numdots">
   <link rel="stylesheet" href="/assets/css/showcase-side-rotation.css?v=20260605e">
@@ -2108,8 +2107,8 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       </div>
       <div class="imb-services">
         <a class="imb-srv" href="/hizmet/eczane/">💊 Nöbetçi Eczaneler (130)</a>
-        <a class="imb-srv" href="/hizmet/ulasim/">🚇 Canlı İETT (351)</a>
-        <a class="imb-srv" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ (21)</a>
+        <a class="imb-srv" href="/hizmet/ulasim/">🚇 Canlı İETT (361)</a>
+        <a class="imb-srv" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ (103)</a>
         <a class="imb-srv" href="/hizmet/kamu/">🌊 Baraj: %52,24</a>
         <span class="imb-weather-pill">🌤️ 26°C</span>
       </div>
@@ -2367,8 +2366,8 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <p class="istanbul-desc">İBB, İETT, İSKİ, BEDAŞ ve İECO resmi verileriyle anlık ulaşım, su/elektrik arızaları, nöbetçi eczaneler ve 39 ilçe haberleri</p>
             </div>
             <div class="istanbul-chips">
-              <a class="istanbul-chip" href="/hizmet/ulasim/">🚇 Canlı İETT (351 Bildirim)</a>
-              <a class="istanbul-chip" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ (21 Arıza)</a>
+              <a class="istanbul-chip" href="/hizmet/ulasim/">🚇 Canlı İETT (361 Bildirim)</a>
+              <a class="istanbul-chip" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ (103 Arıza)</a>
               <a class="istanbul-chip" href="/hizmet/eczane/">💊 Nöbetçi Eczaneler (130 Açık)</a>
             </div>
           </div>
@@ -2386,7 +2385,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <span class="metric-icon">🚇</span>
               <div class="metric-body">
                 <span class="metric-label">İETT Hat Bildirimi</span>
-                <strong>351 Canlı Hat Güzergahı</strong>
+                <strong>361 Canlı Hat Güzergahı</strong>
               </div>
             </div>
             <div class="city-metric">
@@ -2409,7 +2408,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           <div class="city-alerts-box">
             <div class="city-alerts-header">
               <span>⚠️ CANLI YOL KAPANMALARI &amp; İETT SEFER DEĞİŞİKLİKLERİ</span>
-              <a href="/hizmet/ulasim/">Tüm Hat Bildirimlerini Gör (351) →</a>
+              <a href="/hizmet/ulasim/">Tüm Hat Bildirimlerini Gör (361) →</a>
             </div>
             <div class="city-alerts-grid">
 
@@ -2418,13 +2417,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
             <div class="city-alert-content">
               <strong>BOSTANCI - KADIKÖY (16:07)</strong>
               <p>MAÇ NEDENIYLE RECEP PEKER CADDESI KAPALIDIR. ARAÇLARIMIZ BOSTANCI YÖNÜNDE KADIKÖY DURAGINDAN GÜZERGAH DISINA ÇIKARAK IHLAMUR DURAGINDAN GÜZERGAHA GIRECEKTIR.</p>
-            </div>
-          </div>
-          <div class="city-alert-item">
-            <span class="city-alert-badge">11</span>
-            <div class="city-alert-content">
-              <strong>YENIDOGAN - ALTUNIZADE METROBÜS (04:05)</strong>
-              <p>YENIDOGAN PERONLAR dan Saat 17:30 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</p>
             </div>
           </div>
           <div class="city-alert-item">
@@ -2439,6 +2431,13 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
             <div class="city-alert-content">
               <strong>ORTAÇESME - ÜMRANIYE (04:05)</strong>
               <p>ÇIFTEÇINARLAR dan Saat 18:00 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</p>
+            </div>
+          </div>
+          <div class="city-alert-item">
+            <span class="city-alert-badge">11H</span>
+            <div class="city-alert-content">
+              <strong>ORTAÇESME - ÜMRANIYE (04:19)</strong>
+              <p>ÇIFTEÇINARLAR dan Saat 17:05 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</p>
             </div>
           </div>
             </div>
@@ -2504,59 +2503,8 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         </a>
       </article>
       <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260903/" aria-label="İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
-          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2000-01-01"></time>
-            </div>
-            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">ManşetRadar</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/72-bin-uyusturucu-hapla-yakaladilar-istanbul_20260902/" aria-label="72 bin uyuşturucu hapla yakaladılar #istanbul">
-          <div class="istanbul-card-img"><img src="https://iasbh.tmgrup.com.tr/01f727/366/218/0/0/1411/841?u=https://isbh.tmgrup.com.tr/sbh/2026/09/02/72-bin-uyusturucu-hapla-yakaladilar-1788337658957.jpg" alt="72 bin uyuşturucu hapla yakaladılar #istanbul" loading="lazy" width="600" height="340"></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T08:28:13+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">72 bin uyuşturucu hapla yakaladılar #istanbul</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/a-milli-kadin-basketbol-takimi-dunya-kupasi-nda-3-kez-yer-alacak-istanbul_20260902/" aria-label="A Milli Kadın Basketbol Takımı, Dünya Kupası&#x27;nda 3. kez yer alacak #istanbul">
-          <div class="istanbul-card-img"><img src="https://iasbh.tmgrup.com.tr/ce8831/366/218/0/0/800/476?u=https://isbh.tmgrup.com.tr/sbh/2026/09/02/a-milli-kadin-basketbol-takimi-dunya-kupasinda-3-kez-yer-alacak-1788337741182.jpg" alt="A Milli Kadın Basketbol Takımı, Dünya Kupası&#x27;nda 3. kez yer alacak #istanbul" loading="lazy" width="600" height="340"></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T08:29:12+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">A Milli Kadın Basketbol Takımı, Dünya Kupası&#x27;nda 3. kez yer alacak #istanbul</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
         <a class="istanbul-card-link" href="/articles/arabuluculuk-yalaniyla-100-bin-tl-lik-vurgun-genc-reklamciya-dosya-tuzagi-i_20260902/" aria-label="Arabuluculuk yalanıyla 100 bin TL&#x27;lik vurgun! Genç reklamcıya ‘dosya’ tuzağı #istanbul">
-          <div class="istanbul-card-img"><img src="https://iasbh.tmgrup.com.tr/b109c5/366/218/37/0/698/394?u=https://isbh.tmgrup.com.tr/sbh/2026/09/02/arabuluculuk-yalaniyla-100-bin-tllik-vurgun-genc-reklamciya-dosya-tuzagi-1788348698118.jpeg" alt="Arabuluculuk yalanıyla 100 bin TL&#x27;lik vurgun! Genç reklamcıya ‘dosya’ tuzağı #istanbul" loading="lazy" width="600" height="340"></div>
+          <div class="istanbul-card-img"><img src="/articles/images/arabuluculuk-yalaniyla-100-bin-tl-lik-vurgun-genc-reklamciya-dosya-tuzagi-i_20260902.webp" alt="Arabuluculuk yalanıyla 100 bin TL&#x27;lik vurgun! Genç reklamcıya ‘dosya’ tuzağı #istanbul" loading="lazy" width="600" height="340"></div>
           <div class="istanbul-card-body">
             <div class="istanbul-card-meta">
               <span class="istanbul-badge">📍 İstanbul</span>
@@ -2572,15 +2520,66 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         </a>
       </article>
       <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902/" aria-label="Bakan Uraloğlu açıkladı: İstanbul’a 180 kilometrelik raylı sistem! Yeni metro hatları geliyor...">
-          <div class="istanbul-card-img"><img src="https://iasbh.tmgrup.com.tr/e13b89/366/218/0/83/1600/1037?u=https://isbh.tmgrup.com.tr/sbh/2026/09/02/bakan-uraloglu-acikladi-istanbula-180-kilometrelik-rayli-sistem-yeni-metro-hatlari-geliyor-1788347926236.jpeg" alt="Bakan Uraloğlu açıkladı: İstanbul’a 180 kilometrelik raylı sistem! Yeni metro hatları geliyor..." loading="lazy" width="600" height="340"></div>
+        <a class="istanbul-card-link" href="/articles/bostanci-kadikoy_20260904/" aria-label="BOSTANCI - KADIKÖY">
+          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
           <div class="istanbul-card-body">
             <div class="istanbul-card-meta">
               <span class="istanbul-badge">📍 İstanbul</span>
               <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T11:22:46+00:00</time>
+              <time datetime="2026-09-04">2026-09-04T13:07:00+00:00</time>
             </div>
-            <h3 class="istanbul-card-title">Bakan Uraloğlu açıkladı: İstanbul’a 180 kilometrelik raylı sistem! Yeni metro hatları geliyor...</h3>
+            <h3 class="istanbul-card-title">BOSTANCI - KADIKÖY</h3>
+            <div class="istanbul-card-footer">
+              <span class="istanbul-source">İstanbul Masası</span>
+              <span class="istanbul-more">Haberi Oku →</span>
+            </div>
+          </div>
+        </a>
+      </article>
+      <article class="istanbul-card topic-card" data-topic="gundem">
+        <a class="istanbul-card-link" href="/articles/havacilik-dunyasi-istanbul-da-bulustu-istanbul_20260902/" aria-label="Havacılık dünyası İstanbul’da buluştu #istanbul">
+          <div class="istanbul-card-img"><img src="/articles/images/havacilik-dunyasi-istanbul-da-bulustu-istanbul_20260902.webp" alt="Havacılık dünyası İstanbul’da buluştu #istanbul" loading="lazy" width="600" height="340"></div>
+          <div class="istanbul-card-body">
+            <div class="istanbul-card-meta">
+              <span class="istanbul-badge">📍 İstanbul</span>
+              <span class="istanbul-topic">Gündem</span>
+              <time datetime="2026-09-02">2026-09-02T10:54:13+00:00</time>
+            </div>
+            <h3 class="istanbul-card-title">Havacılık dünyası İstanbul’da buluştu #istanbul</h3>
+            <div class="istanbul-card-footer">
+              <span class="istanbul-source">İstanbul Masası</span>
+              <span class="istanbul-more">Haberi Oku →</span>
+            </div>
+          </div>
+        </a>
+      </article>
+      <article class="istanbul-card topic-card" data-topic="gundem">
+        <a class="istanbul-card-link" href="/articles/bakan-goktas-acikladi-istanbul-a-evde-bakim-yardimi-icin-6-4-milyar-lira-ka_20260904/" aria-label="Bakan Göktaş açıkladı: İstanbul’a evde bakım yardımı için 6,4 milyar lira kaynak aktarıldı...">
+          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
+          <div class="istanbul-card-body">
+            <div class="istanbul-card-meta">
+              <span class="istanbul-badge">📍 İstanbul</span>
+              <span class="istanbul-topic">Gündem</span>
+              <time datetime="2026-09-04">2026-09-04T11:34:42+00:00</time>
+            </div>
+            <h3 class="istanbul-card-title">Bakan Göktaş açıkladı: İstanbul’a evde bakım yardımı için 6,4 milyar lira kaynak aktarıldı...</h3>
+            <div class="istanbul-card-footer">
+              <span class="istanbul-source">İstanbul Masası</span>
+              <span class="istanbul-more">Haberi Oku →</span>
+            </div>
+          </div>
+        </a>
+      </article>
+      <article class="istanbul-card topic-card" data-topic="gundem">
+        <a class="istanbul-card-link" href="/articles/cezaevi-firarisinden-sehir-oyunu-kirikkale-de-annesinin-evinde-yakalandi-is_20260904/" aria-label="Cezaevi firarisinden &#x27;şehir&#x27; oyunu: Kırıkkale&#x27;de annesinin evinde yakalandı #istanbul">
+          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
+          <div class="istanbul-card-body">
+            <div class="istanbul-card-meta">
+              <span class="istanbul-badge">📍 İstanbul</span>
+              <span class="istanbul-topic">Gündem</span>
+              <time datetime="2026-09-04">2026-09-04T12:11:21+00:00</time>
+            </div>
+            <h3 class="istanbul-card-title">Cezaevi firarisinden &#x27;şehir&#x27; oyunu: Kırıkkale&#x27;de annesinin evinde yakalandı #istanbul</h3>
             <div class="istanbul-card-footer">
               <span class="istanbul-source">İstanbul Masası</span>
               <span class="istanbul-more">Haberi Oku →</span>
@@ -2734,30 +2733,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         </div>
       </article>
 
-      <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/articles/2026/05/ab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519/" aria-label="AB Parlamentosu, CSU&#x27;lu Milletvekili Niebler Hakkındaki Soruşturmayı Durdurdu"><div class="card-image"><img src="https://images.unsplash.com/photo-1602077772102-b7d48e01643c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFdXJvcCVDMyVBNGlzY2hlcyUyMFBhcmxhbWVudHxlbnwwfDB8fHwxNzc5MjI1Mjk3fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="AB Parlamentosu, CSU&#x27;lu Milletvekili Niebler Hakkındaki Soruşturmayı Durdurdu" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Almanya</span>
-            <span class="card-topic">Gündem</span>
-            <time class="card-date" datetime="2026-05-19">19.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/articles/2026/05/ab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519/">AB Parlamentosu, CSU&#x27;lu Milletvekili Niebler Hakkındaki Soruşturmayı Durdurdu</a>
-          </h3>
-          <p class="card-excerpt">Avrupa Parlamentosu, CSU Milletvekili Niebler hakkındaki zimmete para geçirme şüphesiyle yürütülen soruşturmayı durdurdu. Savcılığın daha önce milletvekilinin dokunulmazlığının ka...</p>
-          <div class="card-footer">
-            <a class="read-more" href="/articles/2026/05/ab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519/" aria-label="AB Parlamentosu, CSU&#x27;lu Milletvekili Niebler Hakkındaki Soruşturmayı Durdurdu haberini oku">Devamını Oku →</a>
-            <div class="share-mini" aria-label="Paylaş">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519%2F&text=AB+Parlamentosu%2C+CSU%27lu+Milletvekili+Niebler+Hakk%C4%B1ndaki+Soru%C5%9Fturmay%C4%B1+Durdurdu" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=AB+Parlamentosu%2C+CSU%27lu+Milletvekili+Niebler+Hakk%C4%B1ndaki+Soru%C5%9Fturmay%C4%B1+Durdurdu%20https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519%2F&text=AB+Parlamentosu%2C+CSU%27lu+Milletvekili+Niebler+Hakk%C4%B1ndaki+Soru%C5%9Fturmay%C4%B1+Durdurdu" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-
       <article class="news-card topic-card" data-topic="ekonomi">
         <a class="card-image-link" href="/articles/2026/05/almanya-tahvil-getirileri-yukseliyor-borc-piyasasi-kriz-sinyalleri_20260519/" aria-label="Almanya&#x27;da Tahvil Getirileri Yükseliyor: Borç Piyasasından Kriz Sinyalleri Artıyor"><div class="card-image"><img src="https://images.unsplash.com/photo-1698432292965-3b298724f5a8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxHZXJtYW4lMjBib25kfGVufDB8MHx8fDE3NzkyMTQ1NjR8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Almanya&#x27;da Tahvil Getirileri Yükseliyor: Borç Piyasasından Kriz Sinyalleri Artıyor" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
@@ -2777,6 +2752,30 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Falmanya-tahvil-getirileri-yukseliyor-borc-piyasasi-kriz-sinyalleri_20260519%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
               <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Almanya%27da+Tahvil+Getirileri+Y%C3%BCkseliyor%3A+Bor%C3%A7+Piyasas%C4%B1ndan+Kriz+Sinyalleri+Art%C4%B1yor%20https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Falmanya-tahvil-getirileri-yukseliyor-borc-piyasasi-kriz-sinyalleri_20260519%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
               <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Falmanya-tahvil-getirileri-yukseliyor-borc-piyasasi-kriz-sinyalleri_20260519%2F&text=Almanya%27da+Tahvil+Getirileri+Y%C3%BCkseliyor%3A+Bor%C3%A7+Piyasas%C4%B1ndan+Kriz+Sinyalleri+Art%C4%B1yor" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="news-card topic-card" data-topic="gundem">
+        <a class="card-image-link" href="/articles/2026/05/ab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519/" aria-label="AB Parlamentosu, CSU&#x27;lu Milletvekili Niebler Hakkındaki Soruşturmayı Durdurdu"><div class="card-image"><img src="https://images.unsplash.com/photo-1602077772102-b7d48e01643c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFdXJvcCVDMyVBNGlzY2hlcyUyMFBhcmxhbWVudHxlbnwwfDB8fHwxNzc5MjI1Mjk3fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="AB Parlamentosu, CSU&#x27;lu Milletvekili Niebler Hakkındaki Soruşturmayı Durdurdu" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Almanya</span>
+            <span class="card-topic">Gündem</span>
+            <time class="card-date" datetime="2026-05-19">19.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/articles/2026/05/ab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519/">AB Parlamentosu, CSU&#x27;lu Milletvekili Niebler Hakkındaki Soruşturmayı Durdurdu</a>
+          </h3>
+          <p class="card-excerpt">Avrupa Parlamentosu, CSU Milletvekili Niebler hakkındaki zimmete para geçirme şüphesiyle yürütülen soruşturmayı durdurdu. Savcılığın daha önce milletvekilinin dokunulmazlığının ka...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/articles/2026/05/ab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519/" aria-label="AB Parlamentosu, CSU&#x27;lu Milletvekili Niebler Hakkındaki Soruşturmayı Durdurdu haberini oku">Devamını Oku →</a>
+            <div class="share-mini" aria-label="Paylaş">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519%2F&text=AB+Parlamentosu%2C+CSU%27lu+Milletvekili+Niebler+Hakk%C4%B1ndaki+Soru%C5%9Fturmay%C4%B1+Durdurdu" aria-label="X'te paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519%2F" aria-label="Facebook'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=AB+Parlamentosu%2C+CSU%27lu+Milletvekili+Niebler+Hakk%C4%B1ndaki+Soru%C5%9Fturmay%C4%B1+Durdurdu%20https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519%2F" aria-label="WhatsApp'ta paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Farticles%2F2026%2F05%2Fab_parlamentosu_csulu_milletvekili_niebler_hakkindaki_sorusturmayi_durdurdu_20260519%2F&text=AB+Parlamentosu%2C+CSU%27lu+Milletvekili+Niebler+Hakk%C4%B1ndaki+Soru%C5%9Fturmay%C4%B1+Durdurdu" aria-label="Telegram'da paylaş"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
