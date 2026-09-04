@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T22:53:28.853Z",
+  "updatedAt": "2026-09-04T22:37:50.680Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
@@ -562,7 +562,7 @@
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-09-03T22:53:28.853Z",
+      "updatedAt": "2026-09-04T22:37:50.680Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
@@ -582,19 +582,33 @@
         {
           "position": 2,
           "team": "Real Madrid",
-          "played": 3,
+          "played": 4,
           "won": 3,
           "draw": 0,
-          "lost": 0,
+          "lost": 1,
           "goalsFor": 10,
-          "goalsAgainst": 2,
+          "goalsAgainst": 3,
           "points": 9,
-          "goalDifference": 8,
+          "goalDifference": 7,
           "logo": "https://im.mackolik.com/img/logo/kucuk/79.gif",
           "form": []
         },
         {
           "position": 3,
+          "team": "Real Betis",
+          "played": 4,
+          "won": 3,
+          "draw": 0,
+          "lost": 1,
+          "goalsFor": 5,
+          "goalsAgainst": 5,
+          "points": 9,
+          "goalDifference": 0,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/82.gif",
+          "form": []
+        },
+        {
+          "position": 4,
           "team": "Atletico Madrid",
           "played": 3,
           "won": 2,
@@ -608,7 +622,7 @@
           "form": []
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Deportivo Alaves",
           "played": 3,
           "won": 2,
@@ -622,7 +636,7 @@
           "form": []
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "Osasuna",
           "played": 3,
           "won": 2,
@@ -636,7 +650,7 @@
           "form": []
         },
         {
-          "position": 6,
+          "position": 7,
           "team": "Sevilla",
           "played": 3,
           "won": 2,
@@ -647,20 +661,6 @@
           "points": 6,
           "goalDifference": 1,
           "logo": "https://im.mackolik.com/img/logo/kucuk/89.gif",
-          "form": []
-        },
-        {
-          "position": 7,
-          "team": "Real Betis",
-          "played": 3,
-          "won": 2,
-          "draw": 0,
-          "lost": 1,
-          "goalsFor": 4,
-          "goalsAgainst": 5,
-          "points": 6,
-          "goalDifference": -1,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/82.gif",
           "form": []
         },
         {
