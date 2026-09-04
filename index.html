@@ -2019,6 +2019,83 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
   display: none !important;
 }
 /* FIRST_PAINT_TOPIC_FILTER_END */
+  
+    /* --- ENHANCED SLIDER & LIVE DESK STYLING --- */
+    .headline-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+    .headline-tag {
+      background: linear-gradient(135deg, #e10600, #b91c1c);
+      color: white;
+      font-size: 0.76rem;
+      font-weight: 900;
+      padding: 3px 10px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      box-shadow: 0 2px 8px rgba(225, 6, 0, 0.4);
+    }
+    .headline-trust {
+      background: rgba(16, 185, 129, 0.2);
+      color: #34d399;
+      border: 1px solid rgba(52, 211, 153, 0.3);
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 4px;
+    }
+    .headline-read-time {
+      color: #94a3b8;
+      font-size: 0.74rem;
+      font-weight: 600;
+    }
+    .headline-slider {
+      border: 1px solid rgba(255,255,255,0.1);
+      box-shadow: 0 12px 36px rgba(0,0,0,0.35);
+    }
+    .headline-title {
+      font-size: clamp(1.3rem, 2.4vw, 1.95rem);
+      line-height: 1.22;
+      font-weight: 900;
+      color: #ffffff;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+    }
+    .side-card {
+      display: flex;
+      gap: 12px;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px;
+      text-decoration: none;
+      color: var(--dark);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .side-card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-sm);
+      border-color: var(--red);
+    }
+    .side-card-image {
+      width: 100px;
+      height: 70px;
+      border-radius: 6px;
+      overflow: hidden;
+      flex-shrink: 0;
+      background: #1e293b;
+    }
+    .side-card-image img { width: 100%; height: 100%; object-fit: cover; }
+    .side-card-meta { display: flex; gap: 6px; font-size: 0.72rem; color: var(--muted); margin-bottom: 4px; }
+    .side-card-topic { color: var(--red); font-weight: 800; }
+    .side-card-title {
+      font-size: 0.86rem;
+      font-weight: 700;
+      line-height: 1.35;
+      margin: 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
   </style>
 <link rel="stylesheet" href="/assets/css/mobile-home-ux.css?v=20260904_numdots">
   <link rel="stylesheet" href="/assets/css/showcase-side-rotation.css?v=20260605e">
@@ -2151,172 +2228,171 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           <div class="showcase-grid">
             <div class="headline-slider" aria-label="Türkiye manşetleri">
               <!-- TURKEY_HERO_START -->
-
-              <a class="headline-slide headline-card topic-card is-active" href="/articles/2026/05/bosna-savasindaki-kapiya-katliami-nin-31-yilinda-kurbanlar-anildi_20260525/" data-topic="gundem" aria-label="Bosna Savaşı&#x27;ndaki Kapiya Katliamı&#x27;nın 31. Yılında Kurbanlar Anıldı">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1636041417222-1305988d38a0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCb3NuYSUyMFNhdmElQzUlOUYlQzQlQjF8ZW58MHwwfHx8MTc3OTczMTMzN3ww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Bosna Savaşı&#x27;ndaki Kapiya Katliamı&#x27;nın 31. Yılında Kurbanlar Anıldı" loading="eager" fetchpriority="high" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card is-active" href="/articles/2026/09/silivride-gemi-kazasi-10-murettebat-kayip-9-kisi-adliyeye-sevk-ediliyor_20260903/" data-topic="gundem" aria-label="Silivri'deki Gemi Kazasında Sıcak Gelişme: 9 Mürettebat Adliyeye Sevk Ediliyor">
+                <div class="headline-image"><img src="/articles/2026/09/images/silivride-gemi-kazasi-10-murettebat-kayip-9-kisi-adliyeye-sevk-ediliyor_20260903.webp" alt="Silivri'deki Gemi Kazasında Sıcak Gelişme: 9 Mürettebat Adliyeye Sevk Ediliyor" loading="eager" fetchpriority="high" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Öne Çıkan</span>
-                    <span class="headline-topic">Gündem</span>
+                    <span class="headline-tag">🔥 SON DAKİKA</span>
+                    <span class="headline-topic">İstanbul</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
                   </div>
-                  <h2 class="headline-title">Bosna Savaşı&#x27;ndaki Kapiya Katliamı&#x27;nın 31. Yılında Kurbanlar Anıldı</h2>
-                  <time class="headline-date" datetime="2026-05-25">25.05.2026</time>
+                  <h2 class="headline-title">Silivri'deki Gemi Kazasında Sıcak Gelişme: 9 Mürettebat Adliyeye Sevk Ediliyor</h2>
+                  <time class="headline-date" datetime="2026-09-03">03.09.2026</time>
                 </div>
               </a>
 
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/05/cumhurbaskani-erdoganin-aciklamalari_20260521/" data-topic="siyaset" aria-label="Cumhurbaşkanı Erdoğan&#x27;dan Önemli Açıklamalar">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1550696043-8d6b42d33931?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxDdW1odXJiYSVDNSU5RmthbiVDNCVCMSUyMEVyZG8lQzQlOUZhbnxlbnwwfDB8fHwxNzc5MzY2Mjc3fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Cumhurbaşkanı Erdoğan&#x27;dan Önemli Açıklamalar" loading="lazy" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/bayrampasa-belediye-baskani-hasan-mutlu-iddianame-aciklamasi_20260903/" data-topic="gundem" aria-label="Bayrampaşa Belediye Başkanı Hasan Mutlu: 352 Sayfalık İddianameye Yanıt Verdi">
+                <div class="headline-image"><img src="/articles/2026/09/images/bayrampasa-belediye-baskani-hasan-mutlu-iddianame-aciklamasi_20260903.webp" alt="Bayrampaşa Belediye Başkanı Hasan Mutlu: 352 Sayfalık İddianameye Yanıt Verdi" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
                     <span class="headline-tag">Öne Çıkan</span>
+                    <span class="headline-topic">İstanbul</span>
+                    <span class="headline-trust">✅ Doğrulanmış</span>
+                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
+                  </div>
+                  <h2 class="headline-title">Bayrampaşa Belediye Başkanı Hasan Mutlu: 352 Sayfalık İddianameye Yanıt Verdi</h2>
+                  <time class="headline-date" datetime="2026-09-03">03.09.2026</time>
+                </div>
+              </a>
+
+              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/sariyer-maden-mahallesi-yangin-kurutma-makinesi_20260903/" data-topic="gundem" aria-label="Sarıyer'de Kurutma Makinesi Yangını: Mahallede Büyük Panik Yaşandı">
+                <div class="headline-image"><img src="/articles/2026/09/images/sariyer-maden-mahallesi-yangin-kurutma-makinesi_20260903.webp" alt="Sarıyer'de Kurutma Makinesi Yangını: Mahallede Büyük Panik Yaşandı" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Gündem</span>
+                    <span class="headline-topic">İstanbul</span>
+                    <span class="headline-trust">✅ Doğrulanmış</span>
+                    <span class="headline-read-time">⏱️ 1 dk okuma</span>
+                  </div>
+                  <h2 class="headline-title">Sarıyer'de Kurutma Makinesi Yangını: Mahallede Büyük Panik Yaşandı</h2>
+                  <time class="headline-date" datetime="2026-09-03">03.09.2026</time>
+                </div>
+              </a>
+
+              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/haysiyet-dizisi-dogukan-gungor-balat-cekimleri_20260903/" data-topic="gundem" aria-label="Haysiyet Dizisinin Çekimlerinde Doğukan Güngör Balat Sokaklarında Görüntülendi">
+                <div class="headline-image"><img src="/articles/2026/09/images/haysiyet-dizisi-dogukan-gungor-balat-cekimleri_20260903.webp" alt="Haysiyet Dizisinin Çekimlerinde Doğukan Güngör Balat Sokaklarında Görüntülendi" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Magazin</span>
+                    <span class="headline-topic">İstanbul Kültür</span>
+                    <span class="headline-trust">✅ Doğrulanmış</span>
+                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
+                  </div>
+                  <h2 class="headline-title">Haysiyet Dizisinin Çekimlerinde Doğukan Güngör Balat Sokaklarında Görüntülendi</h2>
+                  <time class="headline-date" datetime="2026-09-03">03.09.2026</time>
+                </div>
+              </a>
+
+              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/ozgur-ozelden-kilicdarogluna-sert-tepki-tokalasma-aciklamasi_20260903/" data-topic="gundem" aria-label="Özgür Özel'den Kılıçdaroğlu'na Sert Tepki: Gönül Dünyamda Artık Yer Kalmadı">
+                <div class="headline-image"><img src="/articles/2026/09/images/ozgur-ozelden-kilicdarogluna-sert-tepki-tokalasma-aciklamasi_20260903.webp" alt="Özgür Özel'den Kılıçdaroğlu'na Sert Tepki: Gönül Dünyamda Artık Yer Kalmadı" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Siyaset</span>
                     <span class="headline-topic">Siyaset</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
-                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
+                    <span class="headline-read-time">⏱️ 3 dk okuma</span>
                   </div>
-                  <h2 class="headline-title">Cumhurbaşkanı Erdoğan&#x27;dan Önemli Açıklamalar</h2>
-                  <time class="headline-date" datetime="2026-05-21">21.05.2026</time>
+                  <h2 class="headline-title">Özgür Özel'den Kılıçdaroğlu'na Sert Tepki: Gönül Dünyamda Artık Yer Kalmadı</h2>
+                  <time class="headline-date" datetime="2026-09-03">03.09.2026</time>
                 </div>
               </a>
 
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/05/ab-celik-sektorunu-daha-siki-koruyacak_20260519/" data-topic="ekonomi" aria-label="AB Çelik Sektörünü Korumak İçin Yeni Önlemler Aldı: İthalat Kotaları Düşüyor, Gümrük...">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1551751479-58b4ad5750d7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxBQnxlbnwwfDB8fHwxNzc5MjA1ODEzfDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="AB Çelik Sektörünü Korumak İçin Yeni Önlemler Aldı: İthalat Kotaları Düşüyor, Gümrük..." loading="lazy" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/tim-cook-15-yillik-sabah-rutini-apple-ceo_20260903/" data-topic="gundem" aria-label="Tim Cook'un 15 Yıllık Sırrı Ortaya Çıktı: Apple CEO'sunun Sabah Rutini">
+                <div class="headline-image"><img src="/articles/2026/09/images/tim-cook-15-yillik-sabah-rutini-apple-ceo_20260903.webp" alt="Tim Cook'un 15 Yıllık Sırrı Ortaya Çıktı: Apple CEO'sunun Sabah Rutini" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Öne Çıkan</span>
-                    <span class="headline-topic">Ekonomi</span>
+                    <span class="headline-tag">Teknoloji</span>
+                    <span class="headline-topic">Teknoloji</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
                   </div>
-                  <h2 class="headline-title">AB Çelik Sektörünü Korumak İçin Yeni Önlemler Aldı: İthalat Kotaları Düşüyor, Gümrük...</h2>
-                  <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
+                  <h2 class="headline-title">Tim Cook'un 15 Yıllık Sırrı Ortaya Çıktı: Apple CEO'sunun Sabah Rutini</h2>
+                  <time class="headline-date" datetime="2026-09-03">03.09.2026</time>
                 </div>
               </a>
 
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/05/abd-de-kimyasal-patlama-panigi_20260526/" data-topic="dunya" aria-label="ABD&#x27;de Kimyasal Patlama Paniği: 40 Bin Kişi Tahliye Edildi">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1612278492349-fa246cf39583?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxLaW15YXNhbHxlbnwwfDB8fHwxNzc5NzY0MzI3fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="ABD&#x27;de Kimyasal Patlama Paniği: 40 Bin Kişi Tahliye Edildi" loading="lazy" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/cem-yilmaz-kalp-krizi-ilk-mudahale-doktorlar-anlatti_20260901/" data-topic="gundem" aria-label="Cem Yılmaz'ın Kalp Krizi Geçirdiği Gece Neler Yaşandı? Doktorlar İlk Müdahaleyi Anlattı">
+                <div class="headline-image"><img src="/articles/2026/09/images/cem-yilmaz-kalp-krizi-ilk-mudahale-doktorlar-anlatti_20260901.webp" alt="Cem Yılmaz'ın Kalp Krizi Geçirdiği Gece Neler Yaşandı? Doktorlar İlk Müdahaleyi Anlattı" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Öne Çıkan</span>
+                    <span class="headline-tag">Sağlık & Yaşam</span>
+                    <span class="headline-topic">Magazin</span>
+                    <span class="headline-trust">✅ Doğrulanmış</span>
+                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
+                  </div>
+                  <h2 class="headline-title">Cem Yılmaz'ın Kalp Krizi Geçirdiği Gece Neler Yaşandı? Doktorlar İlk Müdahaleyi Anlattı</h2>
+                  <time class="headline-date" datetime="2026-09-01">01.09.2026</time>
+                </div>
+              </a>
+
+              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/cem-yilmaz-kalp-krizi-sonrasi-taburcu-oldu_20260901/" data-topic="gundem" aria-label="Kalp Krizi Geçiren Cem Yılmaz Taburcu Oldu: Sağlık Durumu İyiye Gidiyor">
+                <div class="headline-image"><img src="/articles/2026/09/images/cem-yilmaz-kalp-krizi-sonrasi-taburcu-oldu_20260901.webp" alt="Kalp Krizi Geçiren Cem Yılmaz Taburcu Oldu: Sağlık Durumu İyiye Gidiyor" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Gündem</span>
+                    <span class="headline-topic">Magazin</span>
+                    <span class="headline-trust">✅ Doğrulanmış</span>
+                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
+                  </div>
+                  <h2 class="headline-title">Kalp Krizi Geçiren Cem Yılmaz Taburcu Oldu: Sağlık Durumu İyiye Gidiyor</h2>
+                  <time class="headline-date" datetime="2026-09-01">01.09.2026</time>
+                </div>
+              </a>
+
+              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/girnedeki-gemi-faciasinda-kurtulan-yolcudan-skandal-ihmal-iddiasi_20260901/" data-topic="gundem" aria-label="Girne'deki Gemi Faciasında Kurtulan Yolcudan Skandal İhmal İddiası">
+                <div class="headline-image"><img src="/articles/2026/09/images/girnedeki-gemi-faciasinda-kurtulan-yolcudan-skandal-ihmal-iddiasi_20260901.webp" alt="Girne'deki Gemi Faciasında Kurtulan Yolcudan Skandal İhmal İddiası" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Gündem</span>
+                    <span class="headline-topic">Dünya</span>
+                    <span class="headline-trust">✅ Doğrulanmış</span>
+                    <span class="headline-read-time">⏱️ 3 dk okuma</span>
+                  </div>
+                  <h2 class="headline-title">Girne'deki Gemi Faciasında Kurtulan Yolcudan Skandal İhmal İddiası</h2>
+                  <time class="headline-date" datetime="2026-09-01">01.09.2026</time>
+                </div>
+              </a>
+
+              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/youtuber-arif-kocabiyik-tutuklandi_20260901/" data-topic="gundem" aria-label="YouTuber Arif Kocabıyık Tutuklandı: Soruşturmanın Detayları Ortaya Çıktı">
+                <div class="headline-image"><img src="/articles/2026/09/images/youtuber-arif-kocabiyik-tutuklandi_20260901.webp" alt="YouTuber Arif Kocabıyık Tutuklandı: Soruşturmanın Detayları Ortaya Çıktı" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Hukuk</span>
+                    <span class="headline-topic">Gündem</span>
+                    <span class="headline-trust">✅ Doğrulanmış</span>
+                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
+                  </div>
+                  <h2 class="headline-title">YouTuber Arif Kocabıyık Tutuklandı: Soruşturmanın Detayları Ortaya Çıktı</h2>
+                  <time class="headline-date" datetime="2026-09-01">01.09.2026</time>
+                </div>
+              </a>
+
+              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/zelenskiy-rusya-hava-sahasi-uyarisi-putin-tepki_20260901/" data-topic="gundem" aria-label="Zelenskiy'den Rus Hava Sahası Uyarısı: Putin'e Sert Karşılık Geldi">
+                <div class="headline-image"><img src="/articles/2026/09/images/zelenskiy-rusya-hava-sahasi-uyarisi-putin-tepki_20260901.webp" alt="Zelenskiy'den Rus Hava Sahası Uyarısı: Putin'e Sert Karşılık Geldi" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Dünya</span>
                     <span class="headline-topic">Dünya</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
                   </div>
-                  <h2 class="headline-title">ABD&#x27;de Kimyasal Patlama Paniği: 40 Bin Kişi Tahliye Edildi</h2>
-                  <time class="headline-date" datetime="2026-05-26">26.05.2026</time>
+                  <h2 class="headline-title">Zelenskiy'den Rus Hava Sahası Uyarısı: Putin'e Sert Karşılık Geldi</h2>
+                  <time class="headline-date" datetime="2026-09-01">01.09.2026</time>
                 </div>
               </a>
 
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/05/2026-dunya-kupasi-turkiye-maclari/" data-topic="spor" aria-label="2026 Dünya Kupası&#x27;nda Türkiye&#x27;nin Grup Maçları Belli Oldu: Tarihler ve Heyecan Dorukta">
-                <div class="headline-image"><img src="/articles/2026/05/images/2026-dunya-kupasi-turkiye-maclari.svg" alt="2026 Dünya Kupası&#x27;nda Türkiye&#x27;nin Grup Maçları Belli Oldu: Tarihler ve Heyecan Dorukta" loading="lazy" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card" href="/articles/2026/09/zeynep-yildirim-kayip-dosyasi-cinayet-sorusturmasi_20260901/" data-topic="gundem" aria-label="Zeynep Yıldırım Kayıp Dosyasında Cinayet Soruşturması Başlatıldı">
+                <div class="headline-image"><img src="/articles/2026/09/images/zeynep-yildirim-kayip-dosyasi-cinayet-sorusturmasi_20260901.webp" alt="Zeynep Yıldırım Kayıp Dosyasında Cinayet Soruşturması Başlatıldı" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Öne Çıkan</span>
-                    <span class="headline-topic">Spor</span>
-                    <span class="headline-trust">✅ Doğrulanmış</span>
-                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
-                  </div>
-                  <h2 class="headline-title">2026 Dünya Kupası&#x27;nda Türkiye&#x27;nin Grup Maçları Belli Oldu: Tarihler ve Heyecan Dorukta</h2>
-                  <time class="headline-date" datetime="2026-05-16">16.05.2026</time>
-                </div>
-              </a>
-
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/05/nasa-tess-96-sektorlu-gokyuzu-mozaigi_20260524/" data-topic="gundem" aria-label="NASA TESS mozaiğinde 679 doğrulanmış ötegezegen, 5.165 aday yer aldı">
-                <div class="headline-image"><img src="/articles/2026/05/images/nasa-tess-96-sektorlu-gokyuzu-mozaigi_20260524.svg" alt="NASA TESS mozaiğinde 679 doğrulanmış ötegezegen, 5.165 aday yer aldı" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Öne Çıkan</span>
+                    <span class="headline-tag">Adalet</span>
                     <span class="headline-topic">Gündem</span>
                     <span class="headline-trust">✅ Doğrulanmış</span>
                     <span class="headline-read-time">⏱️ 2 dk okuma</span>
                   </div>
-                  <h2 class="headline-title">NASA TESS mozaiğinde 679 doğrulanmış ötegezegen, 5.165 aday yer aldı</h2>
-                  <time class="headline-date" datetime="2026-05-24">24.05.2026</time>
-                </div>
-              </a>
-
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/05/bagcilar-da-korkunc-olay-otomobilin-bagajinda-olu-bulundu_20260523/" data-topic="gundem" aria-label="Bağcılar&#x27;da İlginç Olay: Otomobilin Bagajında Ölü Bulundu">
-                <div class="headline-image"><img src="/articles/images/uploads/bagcilar-da-korkunc-olay-otomobilin-bagajinda-olu-bulundu_20260523.webp" alt="Bağcılar&#x27;da İlginç Olay: Otomobilin Bagajında Ölü Bulundu" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Öne Çıkan</span>
-                    <span class="headline-topic">Gündem</span>
-                    <span class="headline-trust">✅ Doğrulanmış</span>
-                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
-                  </div>
-                  <h2 class="headline-title">Bağcılar&#x27;da İlginç Olay: Otomobilin Bagajında Ölü Bulundu</h2>
-                  <time class="headline-date" datetime="2026-05-23">23.05.2026</time>
-                </div>
-              </a>
-
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/05/chp-myk-olaganustu-toplanti_20260521/" data-topic="gundem" aria-label="CHP MYK Olağanüstü Toplandı">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1690973691999-7bb38d2c402a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxDSFB8ZW58MHwwfHx8MTc3OTM4MDk1OHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="CHP MYK Olağanüstü Toplandı" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Öne Çıkan</span>
-                    <span class="headline-topic">Gündem</span>
-                    <span class="headline-trust">✅ Doğrulanmış</span>
-                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
-                  </div>
-                  <h2 class="headline-title">CHP MYK Olağanüstü Toplandı</h2>
-                  <time class="headline-date" datetime="2026-05-21">21.05.2026</time>
-                </div>
-              </a>
-
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/05/organize-suc-orgutlerine-yonelik-operasyon_20260521/" data-topic="gundem" aria-label="Organize Suç Örgütlerine Yönelik Operasyon">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1635668422380-8b4f751c6274?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxwb2xpc3xlbnwwfDB8fHwxNzc5MzYzMjIxfDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Organize Suç Örgütlerine Yönelik Operasyon" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Öne Çıkan</span>
-                    <span class="headline-topic">Gündem</span>
-                    <span class="headline-trust">✅ Doğrulanmış</span>
-                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
-                  </div>
-                  <h2 class="headline-title">Organize Suç Örgütlerine Yönelik Operasyon</h2>
-                  <time class="headline-date" datetime="2026-05-21">21.05.2026</time>
-                </div>
-              </a>
-
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/05/israil-istanbul-konsoloslugu-kapatma-tartismasi_20260521/" data-topic="dunya" aria-label="İsrail, İstanbul&#x27;daki Konsolosluğu Kapatmayı Tartışıyor">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1730196564678-5c7cb13abb22?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHwlQzQlQjBzcmFpbCUyMEJheXJhJUM0JTlGJUM0JUIxfGVufDB8MHx8fDE3NzkzNjYyNzF8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="İsrail, İstanbul&#x27;daki Konsolosluğu Kapatmayı Tartışıyor" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Öne Çıkan</span>
-                    <span class="headline-topic">Dünya</span>
-                    <span class="headline-trust">✅ Doğrulanmış</span>
-                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
-                  </div>
-                  <h2 class="headline-title">İsrail, İstanbul&#x27;daki Konsolosluğu Kapatmayı Tartışıyor</h2>
-                  <time class="headline-date" datetime="2026-05-21">21.05.2026</time>
-                </div>
-              </a>
-
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/05/ak-parti-mkyk-toplantisi-celikten-aciklama_20260519/" data-topic="siyaset" aria-label="AK Parti MKYK Toplantısı Sona Erdi: Ömer Çelik&#x27;ten CHP Liderine Yanıt">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1643315761765-6286e31655b6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxBSyUyMFBhcnRpJTIwR2VuZWwlMjBNZXJrZXppfGVufDB8MHx8fDE3NzkyMjUxNjl8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="AK Parti MKYK Toplantısı Sona Erdi: Ömer Çelik&#x27;ten CHP Liderine Yanıt" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Öne Çıkan</span>
-                    <span class="headline-topic">Siyaset</span>
-                    <span class="headline-trust">✅ Doğrulanmış</span>
-                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
-                  </div>
-                  <h2 class="headline-title">AK Parti MKYK Toplantısı Sona Erdi: Ömer Çelik&#x27;ten CHP Liderine Yanıt</h2>
-                  <time class="headline-date" datetime="2026-05-19">19.05.2026</time>
-                </div>
-              </a>
-
-              <a class="headline-slide headline-card topic-card" href="/articles/2026/05/abd-ve-israil-in-iran-a-saldirilari-yeniden-baslama-ihtimali_20260518/" data-topic="dunya" aria-label="ABD ve İsrail&#x27;den İran&#x27;a Yönelik Olası Saldırı Hazırlıkları: Bölgesel Gerilim Tırmanıyor">
-                <div class="headline-image"><img src="https://images.unsplash.com/photo-1631270315847-f418bde47ca6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxBQkR8ZW58MHwwfHx8MTc3ODk5MDQ1NXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="ABD ve İsrail&#x27;den İran&#x27;a Yönelik Olası Saldırı Hazırlıkları: Bölgesel Gerilim Tırmanıyor" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Öne Çıkan</span>
-                    <span class="headline-topic">Dünya</span>
-                    <span class="headline-trust">✅ Doğrulanmış</span>
-                    <span class="headline-read-time">⏱️ 2 dk okuma</span>
-                  </div>
-                  <h2 class="headline-title">ABD ve İsrail&#x27;den İran&#x27;a Yönelik Olası Saldırı Hazırlıkları: Bölgesel Gerilim Tırmanıyor</h2>
-                  <time class="headline-date" datetime="2026-05-18">18.05.2026</time>
+                  <h2 class="headline-title">Zeynep Yıldırım Kayıp Dosyasında Cinayet Soruşturması Başlatıldı</h2>
+                  <time class="headline-date" datetime="2026-09-01">01.09.2026</time>
                 </div>
               </a>
               <!-- TURKEY_HERO_END -->
@@ -2351,7 +2427,49 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                   </div>
             <div class="side-headlines" aria-label="Öne çıkan Türkiye haberleri">
               <!-- TURKEY_SIDE_START -->
+              <a class="side-card topic-card" href="/articles/2026/09/abd-iran-saldiri-hurmuz-bogazi_20260901/" data-topic="gundem" aria-label="ABD'den İran'a Geniş Çaplı Saldırı: Hürmüz Boğazı Alarmda">
+                <div class="side-card-image"><img src="/articles/2026/09/images/abd-iran-saldiri-hurmuz-bogazi_20260901.webp" alt="ABD'den İran'a Geniş Çaplı Saldırı: Hürmüz Boğazı Alarmda" loading="lazy" width="300" height="200"></div>
+                <div class="side-card-content">
+                  <div class="side-card-meta">
+                    <span class="side-card-topic">Dünya</span>
+                    <time class="side-card-date" datetime="2026-09-01">01.09.2026</time>
+                  </div>
+                  <h3 class="side-card-title">ABD'den İran'a Geniş Çaplı Saldırı: Hürmüz Boğazı Alarmda</h3>
+                </div>
+              </a>
 
+              <a class="side-card topic-card" href="/articles/2026/09/almanya-rusya-yaptirim-leipzig-havalimani_20260901/" data-topic="gundem" aria-label="Almanya'dan Rusya'ya Karşı Sert Yaptırımlar: Leipzig Havalimanı Gündemde">
+                <div class="side-card-image"><img src="/articles/2026/09/images/almanya-rusya-yaptirim-leipzig-havalimani_20260901.webp" alt="Almanya'dan Rusya'ya Karşı Sert Yaptırımlar: Leipzig Havalimanı Gündemde" loading="lazy" width="300" height="200"></div>
+                <div class="side-card-content">
+                  <div class="side-card-meta">
+                    <span class="side-card-topic">Dünya</span>
+                    <time class="side-card-date" datetime="2026-09-01">01.09.2026</time>
+                  </div>
+                  <h3 class="side-card-title">Almanya'dan Rusya'ya Karşı Sert Yaptırımlar: Leipzig Havalimanı Gündemde</h3>
+                </div>
+              </a>
+
+              <a class="side-card topic-card" href="/articles/2026/09/antalyadaki-fuhus-sorusturmasinda-carpici-muhittin-bocek-detayi_20260901/" data-topic="gundem" aria-label="Antalya'daki Soruşturmada Çarpıcı Muhittin Böcek Detayı">
+                <div class="side-card-image"><img src="/articles/2026/09/images/antalyadaki-fuhus-sorusturmasinda-carpici-muhittin-bocek-detayi_20260901.webp" alt="Antalya'daki Soruşturmada Çarpıcı Muhittin Böcek Detayı" loading="lazy" width="300" height="200"></div>
+                <div class="side-card-content">
+                  <div class="side-card-meta">
+                    <span class="side-card-topic">Gündem</span>
+                    <time class="side-card-date" datetime="2026-09-01">01.09.2026</time>
+                  </div>
+                  <h3 class="side-card-title">Antalya'daki Soruşturmada Çarpıcı Muhittin Böcek Detayı</h3>
+                </div>
+              </a>
+
+              <a class="side-card topic-card" href="/articles/2026/09/yasmin-simon-le-bon-42-yillik-ask-sardinya-tatili_20260903/" data-topic="gundem" aria-label="Yasmin ve Simon Le Bon'un 42 Yıllık Evliliği: Sardinya Tatilinde Görüntülendiler">
+                <div class="side-card-image"><img src="/articles/2026/09/images/yasmin-simon-le-bon-42-yillik-ask-sardinya-tatili_20260903.webp" alt="Yasmin ve Simon Le Bon'un 42 Yıllık Evliliği: Sardinya Tatilinde Görüntülendiler" loading="lazy" width="300" height="200"></div>
+                <div class="side-card-content">
+                  <div class="side-card-meta">
+                    <span class="side-card-topic">Magazin</span>
+                    <time class="side-card-date" datetime="2026-09-01">03.09.2026</time>
+                  </div>
+                  <h3 class="side-card-title">Yasmin ve Simon Le Bon'un 42 Yıllık Evliliği: Sardinya Tatilinde Görüntülendiler</h3>
+                </div>
+              </a>
               <!-- TURKEY_SIDE_END -->
             </div>
           </div>
@@ -2450,17 +2568,34 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
           <div class="istanbul-grid">
             <!-- ISTANBUL_CARDS_START -->
+      <article class="istanbul-card topic-card" data-topic="gundem">
+        <a class="istanbul-card-link" href="/articles/2026/09/silivride-gemi-kazasi-10-murettebat-kayip-9-kisi-adliyeye-sevk-ediliyor_20260903/" aria-label="Silivri'deki Gemi Kazasında Sıcak Gelişme: 9 Mürettebat Adliyeye Sevk Ediliyor">
+          <div class="istanbul-card-img"><img src="/articles/2026/09/images/silivride-gemi-kazasi-10-murettebat-kayip-9-kisi-adliyeye-sevk-ediliyor_20260903.webp" alt="Silivri'deki Gemi Kazasında Sıcak Gelişme: 9 Mürettebat Adliyeye Sevk Ediliyor" loading="lazy" width="600" height="340"></div>
+          <div class="istanbul-card-body">
+            <div class="istanbul-card-meta">
+              <span class="istanbul-badge">📍 Silivri / Deniz Ulaşımı</span>
+              <span class="istanbul-topic">Gündem</span>
+              <time datetime="2026-09-03">03.09.2026</time>
+            </div>
+            <h3 class="istanbul-card-title">Silivri'deki Gemi Kazasında Sıcak Gelişme: 9 Mürettebat Adliyeye Sevk Ediliyor</h3>
+            <div class="istanbul-card-footer">
+              <span class="istanbul-source">ManşetRadar</span>
+              <span class="istanbul-more">Haberi Oku →</span>
+            </div>
+          </div>
+        </a>
+      </article>
 
       <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260904/" aria-label="İstanbul Şehir Bülteni (4 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
-          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (4 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
+        <a class="istanbul-card-link" href="/articles/2026/09/bayrampasa-belediye-baskani-hasan-mutlu-iddianame-aciklamasi_20260903/" aria-label="Bayrampaşa Belediye Başkanı Hasan Mutlu: 352 Sayfalık İddianameye Yanıt Verdi">
+          <div class="istanbul-card-img"><img src="/articles/2026/09/images/bayrampasa-belediye-baskani-hasan-mutlu-iddianame-aciklamasi_20260903.webp" alt="Bayrampaşa Belediye Başkanı Hasan Mutlu: 352 Sayfalık İddianameye Yanıt Verdi" loading="lazy" width="600" height="340"></div>
           <div class="istanbul-card-body">
             <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
+              <span class="istanbul-badge">📍 Bayrampaşa / Yerel Yönetim</span>
               <span class="istanbul-topic">Gündem</span>
-              <time datetime="2000-01-01"></time>
+              <time datetime="2026-09-03">03.09.2026</time>
             </div>
-            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (4 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
+            <h3 class="istanbul-card-title">Bayrampaşa Belediye Başkanı Hasan Mutlu: 352 Sayfalık İddianameye Yanıt Verdi</h3>
             <div class="istanbul-card-footer">
               <span class="istanbul-source">ManşetRadar</span>
               <span class="istanbul-more">Haberi Oku →</span>
@@ -2468,16 +2603,17 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </a>
       </article>
+
       <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260904/" aria-label="İstanbul Şehir Bülteni (4 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
-          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (4 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
+        <a class="istanbul-card-link" href="/articles/2026/09/sariyer-maden-mahallesi-yangin-kurutma-makinesi_20260903/" aria-label="Sarıyer'de Kurutma Makinesi Yangını: Mahallede Büyük Panik Yaşandı">
+          <div class="istanbul-card-img"><img src="/articles/2026/09/images/sariyer-maden-mahallesi-yangin-kurutma-makinesi_20260903.webp" alt="Sarıyer'de Kurutma Makinesi Yangını: Mahallede Büyük Panik Yaşandı" loading="lazy" width="600" height="340"></div>
           <div class="istanbul-card-body">
             <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
+              <span class="istanbul-badge">📍 Sarıyer / Asayiş</span>
               <span class="istanbul-topic">Gündem</span>
-              <time datetime="2000-01-01"></time>
+              <time datetime="2026-09-03">03.09.2026</time>
             </div>
-            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (4 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
+            <h3 class="istanbul-card-title">Sarıyer'de Kurutma Makinesi Yangını: Mahallede Büyük Panik Yaşandı</h3>
             <div class="istanbul-card-footer">
               <span class="istanbul-source">ManşetRadar</span>
               <span class="istanbul-more">Haberi Oku →</span>
@@ -2485,16 +2621,17 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </a>
       </article>
+
       <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260903/" aria-label="İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
-          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
+        <a class="istanbul-card-link" href="/articles/2026/09/haysiyet-dizisi-dogukan-gungor-balat-cekimleri_20260903/" aria-label="Haysiyet Dizisinin Çekimlerinde Doğukan Güngör Balat Sokaklarında Görüntülendi">
+          <div class="istanbul-card-img"><img src="/articles/2026/09/images/haysiyet-dizisi-dogukan-gungor-balat-cekimleri_20260903.webp" alt="Haysiyet Dizisinin Çekimlerinde Doğukan Güngör Balat Sokaklarında Görüntülendi" loading="lazy" width="600" height="340"></div>
           <div class="istanbul-card-body">
             <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
+              <span class="istanbul-badge">📍 Fatih / Balat Kültür</span>
               <span class="istanbul-topic">Gündem</span>
-              <time datetime="2000-01-01"></time>
+              <time datetime="2026-09-03">03.09.2026</time>
             </div>
-            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
+            <h3 class="istanbul-card-title">Haysiyet Dizisinin Çekimlerinde Doğukan Güngör Balat Sokaklarında Görüntülendi</h3>
             <div class="istanbul-card-footer">
               <span class="istanbul-source">ManşetRadar</span>
               <span class="istanbul-more">Haberi Oku →</span>
@@ -2502,92 +2639,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </a>
       </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/sultanbeyli-mimarsinan-kartal-metro-cevizli_20260904/" aria-label="SULTANBEYLI MIMARSINAN - KARTAL METRO / CEVIZLI">
-          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-04">2026-09-04T15:27:00+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">SULTANBEYLI MIMARSINAN - KARTAL METRO / CEVIZLI</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/cekmekoy-parseller-mah-uzuncayir_20260904/" aria-label="ÇEKMEKÖY/PARSELLER MAH - UZUNÇAYIR">
-          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-04">2026-09-04T14:54:00+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">ÇEKMEKÖY/PARSELLER MAH - UZUNÇAYIR</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/arabuluculuk-yalaniyla-100-bin-tl-lik-vurgun-genc-reklamciya-dosya-tuzagi-i_20260902/" aria-label="Arabuluculuk yalanıyla 100 bin TL&#x27;lik vurgun! Genç reklamcıya ‘dosya’ tuzağı #istanbul">
-          <div class="istanbul-card-img"><img src="/articles/images/arabuluculuk-yalaniyla-100-bin-tl-lik-vurgun-genc-reklamciya-dosya-tuzagi-i_20260902.webp" alt="Arabuluculuk yalanıyla 100 bin TL&#x27;lik vurgun! Genç reklamcıya ‘dosya’ tuzağı #istanbul" loading="lazy" width="600" height="340"></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T11:31:41+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">Arabuluculuk yalanıyla 100 bin TL&#x27;lik vurgun! Genç reklamcıya ‘dosya’ tuzağı #istanbul</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/kupluce-kadikoy_20260904/" aria-label="KÜPLÜCE - KADIKÖY">
-          <div class="istanbul-card-img istanbul-placeholder" aria-hidden="true"><span>📍 İST</span></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-04">2026-09-04T13:55:00+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">KÜPLÜCE - KADIKÖY</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/havacilik-dunyasi-istanbul-da-bulustu-istanbul_20260902/" aria-label="Havacılık dünyası İstanbul’da buluştu #istanbul">
-          <div class="istanbul-card-img"><img src="/articles/images/havacilik-dunyasi-istanbul-da-bulustu-istanbul_20260902.webp" alt="Havacılık dünyası İstanbul’da buluştu #istanbul" loading="lazy" width="600" height="340"></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-02">2026-09-02T10:54:13+00:00</time>
-            </div>
-            <h3 class="istanbul-card-title">Havacılık dünyası İstanbul’da buluştu #istanbul</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-            <!-- ISTANBUL_CARDS_END -->
+              <!-- ISTANBUL_CARDS_END -->
           </div>
         </section>
         <!-- ISTANBUL_SECTION_END -->
