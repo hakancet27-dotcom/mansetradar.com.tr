@@ -20,10 +20,10 @@
     }
     body { background: var(--page); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.5; margin: 0; }
     .header { background: var(--dark); color: white; padding: 14px 20px; border-bottom: 3px solid var(--red); }
-    .header-inner { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+    .header-inner { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
     .header-logo { font-size: 1.25rem; font-weight: 800; color: white; text-decoration: none; }
     .header-logo span { color: var(--red); }
-    .nav-links { display: flex; gap: 16px; font-size: 0.9rem; }
+    .nav-links { display: flex; gap: 14px; font-size: 0.9rem; flex-wrap: wrap; }
     .nav-links a { color: #cbd5e1; text-decoration: none; font-weight: 600; }
     .nav-links a:hover, .nav-links a.active { color: white; }
     .container { max-width: 1200px; margin: 24px auto; padding: 0 20px; }
@@ -73,7 +73,7 @@
       <p class="hero-desc">İBB Ulaşım Yönetim Merkezi veritabanından doğrudan çekilen anlık hat iptalleri, kaza/yol kapanmaları ve geçici güzergah düzenlemeleri.</p>
       <div class="quick-chips">
         <span class="chip">🚌 73 Aktif Hat Bildirimi</span>
-        <span class="chip">⏱️ Son Güncelleme: 02:07</span>
+        <span class="chip">⏱️ Son Güncelleme: 02:22</span>
         <a class="chip" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ Kesintileri →</a>
         <a class="chip" href="/hizmet/eczane/">💊 Nöbetçi Eczaneler →</a>
       </div>
@@ -245,11 +245,11 @@
             <td class="col-time"><time>07:39</time></td>
             <td class="col-msg">PARKLANMA NEDENIYLE 42 EVLER KAPALIDIR.ARAÇLARIMIZ SEHIT TÜRKMEN TEKIN DURAGINDAN GÜZERGAH DISINA ÇIKARAK YÜZ YIL DURAGINDAN GÜZERGAHA GIRECEKTIR.(GIDIS-DÖNÜS BU GÜZERGAH KULLANILACAKTIR)</td>
           </tr>
-          <tr class="iett-row" data-search="34bz beylikdüzü - zincirlikuyu dan saat 01:45 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
+          <tr class="iett-row" data-search="34bz beylikdüzü - zincirlikuyu zincirlikuyu dan saat 01:45 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.">
             <td class="col-line"><span class="bus-badge">34BZ</span></td>
             <td class="col-name"><strong>BEYLIKDÜZÜ - ZINCIRLIKUYU</strong></td>
             <td class="col-time"><time>04:06</time></td>
-            <td class="col-msg">dan Saat 01:45 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
+            <td class="col-msg">ZINCIRLIKUYU dan Saat 01:45 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</td>
           </tr>
           <tr class="iett-row" data-search="36ay arnavutköy - yenibosna metro güzergahta yogun trafik nedeni ile dönüs de araçlarimiz seferlerine 30 dakika ve üzeri rötarli hareket etmektedir.">
             <td class="col-line"><span class="bus-badge">36AY</span></td>
