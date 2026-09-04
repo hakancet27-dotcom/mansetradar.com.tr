@@ -1,0 +1,44 @@
+{
+  "name": "Manşet Radar | Güncel Son Dakika Haberleri",
+  "short_name": "ManşetRadar",
+  "description": "Türkiye, İstanbul ve dünyadan son dakika haberleri, canlı ulaşım, nöbetçi eczaneler ve şehir radarı.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#11131f",
+  "theme_color": "#e10600",
+  "categories": ["news", "magazines"],
+  "lang": "tr",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "İstanbul Masası",
+      "url": "/#istanbul-masasi",
+      "description": "Canlı şehir radarı, ulaşım ve kesintiler"
+    },
+    {
+      "name": "Nöbetçi Eczaneler",
+      "url": "/hizmet/eczane/",
+      "description": "39 ilçe açık nöbetçi eczaneler"
+    },
+    {
+      "name": "İETT Canlı Ulaşım",
+      "url": "/hizmet/ulasim/",
+      "description": "İETT canlı sefer ve yol bildirimleri"
+    }
+  ]
+}

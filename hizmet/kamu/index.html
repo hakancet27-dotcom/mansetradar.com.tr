@@ -85,25 +85,31 @@
       <span>💧 Canlı İSKİ Su Kesintisi Bildirimleri (1)</span>
       <a href="tel:185" style="color:var(--red); text-decoration:none; font-size:0.9rem;">📞 Alo 185 Su Arıza Ara →</a>
     </div>
-    
+    <div class="kamu-district-chips" style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px;"><button type="button" class="kamu-chip iski-chip active" onclick="filterIskiDistrict('all', this)">Tüm İlçeler (1)</button><button type="button" class="kamu-chip iski-chip" onclick="filterIskiDistrict('bagcilar', this)">Bağcılar (1)</button></div>
     <div class="outages-grid" id="iski-outages-grid">
 
-          <div class="outage-card normal">
-            <div class="outage-badge">💧 İSKİ Şebeke Durumu</div>
-            <div class="outage-status ok">🟢 Normal Akış</div>
-            <h3 class="outage-title">Tüm İlçelerde Şebeke Suyu Normal</h3>
-            <p class="outage-desc">İstanbul genelinde ana iletim hatlarında plansız büyük bir su arızası bulunmamaktadır.</p>
-            <div class="outage-actions">
-              <a href="tel:185" class="btn-action">📞 Alo 185 Danışma</a>
-            </div>
-          </div>
+              <div class="outage-card iski" data-district="bagcilar">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">💧 İSKİ Su Arızası</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: Çalışma Devam Ediyor</span>
+                </div>
+                <h3 class="outage-title">📍 Bağcılar İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Yaklaşık 2 Mahalle <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">2 Mahalle</span>
+                </div>
+                
+                <p class="outage-desc">Bölgesel ana hat / şebeke arızası onarım çalışması.</p>
+                <div class="outage-actions">
+                  <a href="tel:185" class="btn-action">📞 Alo 185 İSKİ Arıza Bildir</a>
+                </div>
+              </div>
     </div>
 
     <div class="section-heading">
-      <span>⚡ Canlı BEDAŞ Elektrik Kesintileri &amp; İş Emirleri (3)</span>
+      <span>⚡ Canlı BEDAŞ Elektrik Kesintileri &amp; İş Emirleri (2)</span>
       <a href="tel:186" style="color:var(--red); text-decoration:none; font-size:0.9rem;">📞 Alo 186 Elektrik Arıza Ara →</a>
     </div>
-    <div class="kamu-district-chips" style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px;"><button type="button" class="kamu-chip bedas-chip active" onclick="filterKamuDistrict('all', this)">Tüm İlçeler (3)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('kucukcekmece', this)">Küçükçekmece (1)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('silivri', this)">Silivri (2)</button></div>
+    <div class="kamu-district-chips" style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px;"><button type="button" class="kamu-chip bedas-chip active" onclick="filterKamuDistrict('all', this)">Tüm İlçeler (2)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('kucukcekmece', this)">Küçükçekmece (1)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('silivri', this)">Silivri (1)</button></div>
     <div class="outages-grid" id="bedas-outages-grid">
 
               <div class="outage-card bedas" data-district="kucukcekmece">
@@ -116,21 +122,6 @@
                   🏘️ Fevzi Çakmak 
                 </div>
                 <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4843141</div>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
-                </div>
-              </div>
-              <div class="outage-card bedas" data-district="silivri">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
-                  <span class="outage-badge">⚡ Bildirimsiz</span>
-                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-09-05 00:52</span>
-                </div>
-                <h3 class="outage-title">📍 Silivri İlçesi</h3>
-                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
-                  🏘️ -, Büyük Kılıçlı, Büyük Sinekli <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">12 Trafo Bölgesi</span>
-                </div>
-                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4843129</div>
                 <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
                 <div class="outage-actions">
                   <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
