@@ -3,10 +3,51 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-05T00:00:00+00:00",
-    "article_count": 1277,
+    "article_count": 1279,
     "schema_version": 2
   },
   "articles": [
+    {
+      "id": "articles/2026/09:sonbahar-2026-hollywood-yildizlari-sinema-salonlarinda_20260905",
+      "slug": "sonbahar-2026-hollywood-yildizlari-sinema-salonlarinda_20260905",
+      "title": "Sonbahar 2026: Hollywood Yıldızları Sinema Salonlarında",
+      "summary": "Sonbahar 2026, sinema salonlarını Hollywood'un yıldız isimleri ve usta yönetmenlerin merakla beklenen yeni filmleriyle hareketlendiriyor. Eylül ayından itibaren Brad Pitt, Tom Cruise, Jason Statham ve Johnny Depp gibi aktörlerin başrollerini üstlendiği yapı...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "05.09.2026",
+      "date_iso": "2026-09-05",
+      "url": "/articles/2026/09/sonbahar-2026-hollywood-yildizlari-sinema-salonlarinda_20260905/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/sonbahar-2026-hollywood-yildizlari-sinema-salonlarinda_20260905/",
+      "detail_json_url": "/data/details/articles/2026/09/sonbahar-2026-hollywood-yildizlari-sinema-salonlarinda_20260905.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/sonbahar-2026-hollywood-yildizlari-sinema-salonlarinda_20260905.webp",
+      "image_alt": "Sonbahar 2026: Hollywood Yıldızları Sinema Salonlarında",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/sonbahar-2026-hollywood-yildizlari-sinema-salonlarinda_20260905.webp",
+        "alt": "Sonbahar 2026: Hollywood Yıldızları Sinema Salonlarında"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/hurriyet-cumartesi/sonbahar-geldi-salonlar-hareketlendi-kultur-sanat-sehre-donuyor-43296574",
+      "tags": [
+        "Sinema",
+        "Film",
+        "Hollywood",
+        "Brad Pitt",
+        "Tom Cruise",
+        "Johnny Depp",
+        "Jason Statham",
+        "Filmekimi"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/09:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260905",
       "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260905",
@@ -45,6 +86,44 @@
         "Son Dakika"
       ],
       "quality_score": 95,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:balik-tuketimi-faydalari-ve-riskleri_20260905",
+      "slug": "balik-tuketimi-faydalari-ve-riskleri_20260905",
+      "title": "Hangi Balık Sağlığınız İçin En Faydalı, Hangisi Risk Taşıyor?",
+      "summary": "Hürriyet tarafından yayımlanan kapsamlı bir araştırmaya göre, sık tüketilen deniz ürünlerinin besin değerleri, sağlık faydaları ve olası riskleri mercek altına alındı. Uskumru ve somon gibi balıklar kalp ve beyin sağlığı için kritik faydalar sunarken, levre...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "05.09.2026",
+      "date_iso": "2026-09-05",
+      "url": "/articles/2026/09/balik-tuketimi-faydalari-ve-riskleri_20260905/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/balik-tuketimi-faydalari-ve-riskleri_20260905/",
+      "detail_json_url": "/data/details/articles/2026/09/balik-tuketimi-faydalari-ve-riskleri_20260905.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/balik-tuketimi-faydalari-ve-riskleri_20260905.webp",
+      "image_alt": "Farklı türlerde taze balıklar (uskumru, morina, levrek, somon, ton balığı) ve sağlıklı beslenmeyi simgeleyen garnitürler.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/balik-tuketimi-faydalari-ve-riskleri_20260905.webp",
+        "alt": "Farklı türlerde taze balıklar (uskumru, morina, levrek, somon, ton balığı) ve sağlıklı beslenmeyi simgeleyen garnitürler."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/aile/galeri-hangi-balik-sagliginiz-icin-en-faydali-hangisi-beyin-hasari-riski-tasiyor-43287993",
+      "tags": [
+        "Balık Tüketimi",
+        "Omega-3",
+        "Cıva Riski",
+        "Sağlıklı Beslenme",
+        "Deniz Ürünleri"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
