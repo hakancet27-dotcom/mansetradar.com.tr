@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T22:37:50.680Z",
+  "updatedAt": "2026-09-05T16:40:58.765Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
@@ -556,13 +556,13 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73340: 20 | HTML scrape: https://www.mackolik.com/puan-durumu/ingiltere-premier-lig/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | https://www.mackolik.com/puan-durumu/ingiltere-premier-league/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | football-data.org: PL: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 502 | HTML scrape: https://www.mackolik.com/puan-durumu/ingiltere-premier-lig/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | https://www.mackolik.com/puan-durumu/ingiltere-premier-league/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | football-data.org: PL: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
       "preservedPreviousTable": true
     },
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-09-04T22:37:50.680Z",
+      "updatedAt": "2026-09-05T16:40:58.765Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
@@ -609,20 +609,6 @@
         },
         {
           "position": 4,
-          "team": "Atletico Madrid",
-          "played": 3,
-          "won": 2,
-          "draw": 1,
-          "lost": 0,
-          "goalsFor": 7,
-          "goalsAgainst": 3,
-          "points": 7,
-          "goalDifference": 4,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/86.gif",
-          "form": []
-        },
-        {
-          "position": 5,
           "team": "Deportivo Alaves",
           "played": 3,
           "won": 2,
@@ -636,7 +622,7 @@
           "form": []
         },
         {
-          "position": 6,
+          "position": 5,
           "team": "Osasuna",
           "played": 3,
           "won": 2,
@@ -650,7 +636,35 @@
           "form": []
         },
         {
+          "position": 6,
+          "team": "Atletico Madrid",
+          "played": 4,
+          "won": 2,
+          "draw": 1,
+          "lost": 1,
+          "goalsFor": 7,
+          "goalsAgainst": 6,
+          "points": 7,
+          "goalDifference": 1,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/86.gif",
+          "form": []
+        },
+        {
           "position": 7,
+          "team": "Athletic Bilbao",
+          "played": 4,
+          "won": 2,
+          "draw": 0,
+          "lost": 2,
+          "goalsFor": 6,
+          "goalsAgainst": 5,
+          "points": 6,
+          "goalDifference": 1,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/91.gif",
+          "form": []
+        },
+        {
+          "position": 8,
           "team": "Sevilla",
           "played": 3,
           "won": 2,
@@ -664,7 +678,7 @@
           "form": []
         },
         {
-          "position": 8,
+          "position": 9,
           "team": "Deportivo La Coruna",
           "played": 3,
           "won": 1,
@@ -678,7 +692,7 @@
           "form": []
         },
         {
-          "position": 9,
+          "position": 10,
           "team": "Levante",
           "played": 3,
           "won": 1,
@@ -692,7 +706,7 @@
           "form": []
         },
         {
-          "position": 10,
+          "position": 11,
           "team": "Racing Santander",
           "played": 3,
           "won": 1,
@@ -706,7 +720,7 @@
           "form": []
         },
         {
-          "position": 11,
+          "position": 12,
           "team": "Real Sociedad",
           "played": 4,
           "won": 1,
@@ -720,7 +734,7 @@
           "form": []
         },
         {
-          "position": 12,
+          "position": 13,
           "team": "Espanyol",
           "played": 3,
           "won": 1,
@@ -731,20 +745,6 @@
           "points": 3,
           "goalDifference": 1,
           "logo": "https://im.mackolik.com/img/logo/kucuk/95.gif",
-          "form": []
-        },
-        {
-          "position": 13,
-          "team": "Athletic Bilbao",
-          "played": 3,
-          "won": 1,
-          "draw": 0,
-          "lost": 2,
-          "goalsFor": 3,
-          "goalsAgainst": 5,
-          "points": 3,
-          "goalDifference": -2,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/91.gif",
           "form": []
         },
         {
@@ -1667,7 +1667,7 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73279: 18 | HTML scrape: https://www.mackolik.com/puan-durumu/fransa-ligue-1/dm5ka0os1e3dxcp3vh05kmp33: no valid standings table | football-data.org: FL1: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 500 | HTML scrape: https://www.mackolik.com/puan-durumu/fransa-ligue-1/dm5ka0os1e3dxcp3vh05kmp33: no valid standings table | football-data.org: FL1: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
       "preservedPreviousTable": true
     }
   ],
