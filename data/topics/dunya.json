@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-05T00:00:00+00:00",
-    "article_count": 1302,
+    "article_count": 1307,
     "schema_version": 2,
     "topic_slug": "dunya",
     "type": "topic"
@@ -45,6 +45,47 @@
         "Gastronomi"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:95-izmir-uluslararasi-fuari-acildi_20260905",
+      "slug": "95-izmir-uluslararasi-fuari-acildi_20260905",
+      "title": "95. İzmir Enternasyonal Fuarı 'Fuar Şehrin Kalbinde' Sloganıyla Açıldı",
+      "summary": "Türkiye'nin en köklü uluslararası genel ticaret fuarlarından 95. İzmir Enternasyonal Fuarı (İEF), 'Fuar Şehrin Kalbinde' sloganıyla 5-13 Eylül 2026 tarihleri arasında Kültürpark'ta kapılarını açtı. İzmir Büyükşehir Belediyesi ev sahipliğinde düzenlenen açıl...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "05.09.2026",
+      "date_iso": "2026-09-05",
+      "url": "/articles/2026/09/95-izmir-uluslararasi-fuari-acildi_20260905/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/95-izmir-uluslararasi-fuari-acildi_20260905/",
+      "detail_json_url": "/data/details/articles/2026/09/95-izmir-uluslararasi-fuari-acildi_20260905.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/95-izmir-uluslararasi-fuari-acildi_20260905.webp",
+      "image_alt": "95. İzmir Enternasyonal Fuarı 'Fuar Şehrin Kalbinde' Sloganıyla Açıldı",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/95-izmir-uluslararasi-fuari-acildi_20260905.webp",
+        "alt": "95. İzmir Enternasyonal Fuarı 'Fuar Şehrin Kalbinde' Sloganıyla Açıldı"
+      },
+      "source_name": "Cumhuriyet Gazetesi",
+      "source_url": "https://www.cumhuriyet.com.tr/turkiye/fuar-sehrin-kalbinde-95-izmir-enternasyonal-fuari-acildi-2535182",
+      "tags": [
+        "İzmir",
+        "Fuar",
+        "İEF",
+        "Kültürpark",
+        "Cemil Tugay",
+        "Beylikdüzü",
+        "Beylikdüzü haberleri",
+        "İstanbul"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {

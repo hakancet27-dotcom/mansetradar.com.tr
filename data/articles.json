@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-05T00:00:00+00:00",
-    "article_count": 1302,
+    "article_count": 1307,
     "schema_version": 2
   },
   "articles": [
@@ -125,6 +125,45 @@
         "Filmekimi"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:serhat-mustafa-kilic-vefat-etti-sanat-dunyasi-yasta_20260905",
+      "slug": "serhat-mustafa-kilic-vefat-etti-sanat-dunyasi-yasta_20260905",
+      "title": "Serhat Mustafa Kılıç Vefat Etti: Sanat Dünyası Yasta",
+      "summary": "Ünlü oyuncu Serhat Mustafa Kılıç'ın vefatı sanat dünyasını yasa boğdu. Özellikle \"Seksenler\" dizisindeki Ergun Plak karakteriyle hafızalara kazınan Kılıç için dostları ve meslektaşları sosyal medyadan duygusal mesajlar paylaştı.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "magazin",
+      "topic_label": "Magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "05.09.2026",
+      "date_iso": "2026-09-05",
+      "url": "/articles/2026/09/serhat-mustafa-kilic-vefat-etti-sanat-dunyasi-yasta_20260905/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/serhat-mustafa-kilic-vefat-etti-sanat-dunyasi-yasta_20260905/",
+      "detail_json_url": "/data/details/articles/2026/09/serhat-mustafa-kilic-vefat-etti-sanat-dunyasi-yasta_20260905.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/serhat-mustafa-kilic-vefat-etti-sanat-dunyasi-yasta_20260905.webp",
+      "image_alt": "Serhat Mustafa Kılıç'ın anısına, vefatının ardından çekilmiş bir portresi.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/serhat-mustafa-kilic-vefat-etti-sanat-dunyasi-yasta_20260905.webp",
+        "alt": "Serhat Mustafa Kılıç'ın anısına, vefatının ardından çekilmiş bir portresi."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/hayat/cenaze-pesine-dustuk-cok-sacma-degil-mi-serji-43297376",
+      "tags": [
+        "Serhat Mustafa Kılıç",
+        "Seksenler",
+        "Ergun Plak",
+        "Oyuncu Vefatı",
+        "Sanat Dünyası",
+        "Taziye Mesajları"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -571,6 +610,47 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/09:fenerbahce-sezonun-ilk-derbisinde-besiktasa-maglup_20260905",
+      "slug": "fenerbahce-sezonun-ilk-derbisinde-besiktasa-maglup_20260905",
+      "title": "Fenerbahçe, Sezonun İlk Derbisinde Beşiktaş'a Mağlup Oldu",
+      "summary": "Fenerbahçe, Trendyol Süper Lig'in 4. haftasında Chobani Stadı'nda ağırladığı Beşiktaş'a sezonun ilk derbisinde 2-1 mağlup oldu.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "05.09.2026",
+      "date_iso": "2026-09-05",
+      "url": "/articles/2026/09/fenerbahce-sezonun-ilk-derbisinde-besiktasa-maglup_20260905/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/fenerbahce-sezonun-ilk-derbisinde-besiktasa-maglup_20260905/",
+      "detail_json_url": "/data/details/articles/2026/09/fenerbahce-sezonun-ilk-derbisinde-besiktasa-maglup_20260905.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/fenerbahce-sezonun-ilk-derbisinde-besiktasa-maglup_20260905.webp",
+      "image_alt": "Fenerbahçe, Sezonun İlk Derbisinde Beşiktaş'a Mağlup Oldu",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/fenerbahce-sezonun-ilk-derbisinde-besiktasa-maglup_20260905.webp",
+        "alt": "Fenerbahçe, Sezonun İlk Derbisinde Beşiktaş'a Mağlup Oldu"
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/spor/super-ligde-sezonun-ilk-derbisi-besiktasin-fenerbahceye-2-1-ustunlugu-ile-sona-erdi/4048355",
+      "tags": [
+        "Fenerbahçe",
+        "Beşiktaş",
+        "Trendyol Süper Lig",
+        "Derbi",
+        "Futbol",
+        "Maç Sonucu",
+        "Beşiktaş haberleri",
+        "İstanbul"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/09:esenyurt-trafik-denetiminde-polis-sehit_20260905",
       "slug": "esenyurt-trafik-denetiminde-polis-sehit_20260905",
       "title": "Esenyurt'ta Trafik Denetiminde Polis Memuru Şehit Oldu",
@@ -975,6 +1055,45 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/09:bakan-gurlek-yargida-hedef-sureye-hakim-savci-arkadaslarimiz-mutlaka-riayet-edec_20260905",
+      "slug": "bakan-gurlek-yargida-hedef-sureye-hakim-savci-arkadaslarimiz-mutlaka-riayet-edec_20260905",
+      "title": "Adalet Bakanı Gürlek: Yargıda hedef süreye hakim ve savcılar riayet edecek",
+      "summary": "Adalet Bakanı Akın Gürlek, yargı süreçlerinde hedef süre uygulamasına hakim ve savcıların mutlaka uyacağını vurguladı. Bir açılış töreninde konuşan Bakan Gürlek, batı ülkelerinin evrensel hukuk değerleri konusundaki çifte standartlarını eleştirerek, özellik...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "05.09.2026",
+      "date_iso": "2026-09-05",
+      "url": "/articles/2026/09/bakan-gurlek-yargida-hedef-sureye-hakim-savci-arkadaslarimiz-mutlaka-riayet-edec_20260905/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/bakan-gurlek-yargida-hedef-sureye-hakim-savci-arkadaslarimiz-mutlaka-riayet-edec_20260905/",
+      "detail_json_url": "/data/details/articles/2026/09/bakan-gurlek-yargida-hedef-sureye-hakim-savci-arkadaslarimiz-mutlaka-riayet-edec_20260905.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/bakan-gurlek-yargida-hedef-sureye-hakim-savci-arkadaslarimiz-mutlaka-riayet-edec_20260905.webp",
+      "image_alt": "Adalet Bakanlığı binası veya bir mahkeme salonu.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/bakan-gurlek-yargida-hedef-sureye-hakim-savci-arkadaslarimiz-mutlaka-riayet-edec_20260905.webp",
+        "alt": "Adalet Bakanlığı binası veya bir mahkeme salonu."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/bakan-gurlek-yargida-hedef-sureye-hakim-savci-arkadaslarimiz-mutlaka-riayet-edecek-43297468",
+      "tags": [
+        "Adalet Bakanı",
+        "Akın Gürlek",
+        "Yargı",
+        "Hedef Süre",
+        "İnsan Hakları",
+        "Çifte Standart"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/09:al-jazeeradan-turkiyenin-savunma-sanayii-yukselisine-ozel-belgesel_20260905",
       "slug": "al-jazeeradan-turkiyenin-savunma-sanayii-yukselisine-ozel-belgesel_20260905",
       "title": "Al Jazeera'dan Türkiye'nin Savunma Sanayii Yükselişine Özel Belgesel",
@@ -1052,6 +1171,85 @@
         "Ryzen AI Max+ PRO 495"
       ],
       "quality_score": 90,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:95-izmir-uluslararasi-fuari-acildi_20260905",
+      "slug": "95-izmir-uluslararasi-fuari-acildi_20260905",
+      "title": "95. İzmir Enternasyonal Fuarı 'Fuar Şehrin Kalbinde' Sloganıyla Açıldı",
+      "summary": "Türkiye'nin en köklü uluslararası genel ticaret fuarlarından 95. İzmir Enternasyonal Fuarı (İEF), 'Fuar Şehrin Kalbinde' sloganıyla 5-13 Eylül 2026 tarihleri arasında Kültürpark'ta kapılarını açtı. İzmir Büyükşehir Belediyesi ev sahipliğinde düzenlenen açıl...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "05.09.2026",
+      "date_iso": "2026-09-05",
+      "url": "/articles/2026/09/95-izmir-uluslararasi-fuari-acildi_20260905/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/95-izmir-uluslararasi-fuari-acildi_20260905/",
+      "detail_json_url": "/data/details/articles/2026/09/95-izmir-uluslararasi-fuari-acildi_20260905.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/95-izmir-uluslararasi-fuari-acildi_20260905.webp",
+      "image_alt": "95. İzmir Enternasyonal Fuarı 'Fuar Şehrin Kalbinde' Sloganıyla Açıldı",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/95-izmir-uluslararasi-fuari-acildi_20260905.webp",
+        "alt": "95. İzmir Enternasyonal Fuarı 'Fuar Şehrin Kalbinde' Sloganıyla Açıldı"
+      },
+      "source_name": "Cumhuriyet Gazetesi",
+      "source_url": "https://www.cumhuriyet.com.tr/turkiye/fuar-sehrin-kalbinde-95-izmir-enternasyonal-fuari-acildi-2535182",
+      "tags": [
+        "İzmir",
+        "Fuar",
+        "İEF",
+        "Kültürpark",
+        "Cemil Tugay",
+        "Beylikdüzü",
+        "Beylikdüzü haberleri",
+        "İstanbul"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:6-7-eylul-olaylari-nedir-nedenleri-ve-sonuclari_20260905",
+      "slug": "6-7-eylul-olaylari-nedir-nedenleri-ve-sonuclari_20260905",
+      "title": "6-7 Eylül Olayları: Türkiye'nin Yakın Tarihindeki Kırılma Noktası",
+      "summary": "6 Eylül 1955'te başlayan ve ertesi güne kadar süren 6-7 Eylül olayları, Türkiye'nin yakın tarihinin en önemli kırılma noktalarından biri olarak kabul ediliyor. İstanbul başta olmak üzere çeşitli kentlerde yaşanan ve başta Rumlar olmak üzere gayrimüslim azın...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "05.09.2026",
+      "date_iso": "2026-09-05",
+      "url": "/articles/2026/09/6-7-eylul-olaylari-nedir-nedenleri-ve-sonuclari_20260905/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/6-7-eylul-olaylari-nedir-nedenleri-ve-sonuclari_20260905/",
+      "detail_json_url": "/data/details/articles/2026/09/6-7-eylul-olaylari-nedir-nedenleri-ve-sonuclari_20260905.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/6-7-eylul-olaylari-nedir-nedenleri-ve-sonuclari_20260905.webp",
+      "image_alt": "6-7 Eylül 1955 olaylarının ardından İstanbul'da tahrip olmuş dükkanlar ve sokakları gösteren tarihi bir fotoğraf.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/6-7-eylul-olaylari-nedir-nedenleri-ve-sonuclari_20260905.webp",
+        "alt": "6-7 Eylül 1955 olaylarının ardından İstanbul'da tahrip olmuş dükkanlar ve sokakları gösteren tarihi bir fotoğraf."
+      },
+      "source_name": "Cumhuriyet Gazetesi",
+      "source_url": "https://www.cumhuriyet.com.tr/turkiye/6-7-eylul-olaylari-nedir-6-eylul-1955-te-ne-oldu-iktidarda-kim-vardi-6-7-eylul-olaylarinda-kac-kisi-oldu-2535188",
+      "tags": [
+        "6-7 Eylül Olayları",
+        "Türkiye Tarihi",
+        "Gayrimüslim Azınlıklar",
+        "İstanbul",
+        "Adnan Menderes"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
