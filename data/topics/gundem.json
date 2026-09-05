@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-05T00:00:00+00:00",
-    "article_count": 1307,
+    "article_count": 1309,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -48,6 +48,47 @@
         "Filmekimi"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:serhat-kilic-evinde-olu-bulundu-sorusturma-baslatildi_20260905",
+      "slug": "serhat-kilic-evinde-olu-bulundu-sorusturma-baslatildi_20260905",
+      "title": "Ünlü Oyuncu Serhat Kılıç Evinde Ölü Bulundu",
+      "summary": "Ünlü oyuncu Serhat Kılıç, Kağıthane'deki evinde kız arkadaşı tarafından ölü bulundu. Kılıç'ın lenf kanseri olduğu ve son dönemde sağlık sorunları nedeniyle projelerden ayrıldığı öğrenildi. Polis olayla ilgili soruşturma başlattı.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "05.09.2026",
+      "date_iso": "2026-09-05",
+      "url": "/articles/2026/09/serhat-kilic-evinde-olu-bulundu-sorusturma-baslatildi_20260905/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/serhat-kilic-evinde-olu-bulundu-sorusturma-baslatildi_20260905/",
+      "detail_json_url": "/data/details/articles/2026/09/serhat-kilic-evinde-olu-bulundu-sorusturma-baslatildi_20260905.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/serhat-kilic-evinde-olu-bulundu-sorusturma-baslatildi_20260905.webp",
+      "image_alt": "Ünlü oyuncu Serhat Kılıç'ın vefat haberi.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/serhat-kilic-evinde-olu-bulundu-sorusturma-baslatildi_20260905.webp",
+        "alt": "Ünlü oyuncu Serhat Kılıç'ın vefat haberi."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/unlu-oyuncu-serhat-kilic-evinde-olu-bulundu-43297333",
+      "tags": [
+        "Serhat Kılıç",
+        "oyuncu",
+        "ölüm",
+        "lenf kanseri",
+        "Teşkilat",
+        "Kağıthane",
+        "Kağıthane haberleri",
+        "İstanbul"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -206,6 +247,44 @@
         "Çifte Standart"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:adalet-bakani-gurlek-sivil-anayasa-aciklamasi_20260905",
+      "slug": "adalet-bakani-gurlek-sivil-anayasa-aciklamasi_20260905",
+      "title": "Adalet Bakanı Gürlek'ten Sivil Anayasa ve Evrensel Hukuk Mesajı",
+      "summary": "İstanbul 2 Nolu Barosu'nun adli yıl açılış programında konuşan Adalet Bakanı Akın Gürlek, sivil anayasa inşası yolunda kararlılıkla ilerleyeceklerini belirterek, Batılı ülkelerin Gazze ve Orta Doğu'daki insan hakları ihlallerinde sergilediği çifte standardı...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "05.09.2026",
+      "date_iso": "2026-09-05",
+      "url": "/articles/2026/09/adalet-bakani-gurlek-sivil-anayasa-aciklamasi_20260905/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/adalet-bakani-gurlek-sivil-anayasa-aciklamasi_20260905/",
+      "detail_json_url": "/data/details/articles/2026/09/adalet-bakani-gurlek-sivil-anayasa-aciklamasi_20260905.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/adalet-bakani-gurlek-sivil-anayasa-aciklamasi_20260905.webp",
+      "image_alt": "Adalet Bakanı Akın Gürlek adli yıl açılış programında konuşma yapıyor",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/adalet-bakani-gurlek-sivil-anayasa-aciklamasi_20260905.webp",
+        "alt": "Adalet Bakanı Akın Gürlek adli yıl açılış programında konuşma yapıyor"
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/gundem/adalet-bakani-gurlek-sivil-anayasanin-insa-edilmesi-konusunda-kararlilikla-yurumeye-devam-edecegiz/4048344",
+      "tags": [
+        "Akın Gürlek",
+        "Adalet Bakanlığı",
+        "Sivil Anayasa",
+        "İstanbul 2 Nolu Barosu",
+        "Adli Yıl Açılışı"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
