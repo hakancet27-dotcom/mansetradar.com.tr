@@ -9,9 +9,9 @@
   <meta name="theme-color" content="#e10600">
   <link rel="manifest" href="/manifest.json">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://mansetradar.com.tr/"}, {"@type": "ListItem", "position": 2, "name": "İstanbul Şehir Masası", "item": "https://mansetradar.com.tr/hizmet/eczane/"}, {"@type": "ListItem", "position": 3, "name": "Beykoz Portalı", "item": "https://mansetradar.com.tr/istanbul/beykoz/"}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Beykoz'de bu gece hangi nöbetçi eczaneler açık?", "acceptedAnswer": {"@type": "Answer", "text": "Beykoz ilçesinde bu gece 2 nöbetçi eczane bulunmaktadır. Bunlar arasında SU ECZANESİ, ECZANE VİLDAN yer almaktadır. Nöbetçi eczanelerin tam adresi, tek tıkla arama telefonu ve harita konumu bu sayfada yer almaktadır."}}, {"@type": "Question", "name": "Beykoz'de bugün su kesintisi var mı?", "acceptedAnswer": {"@type": "Answer", "text": "Beykoz genelinde şebeke suyu normal akmaktadır. Acil su arıza ihbarları ve detaylı bilgi için 7/24 Alo 185 İSKİ hattını arayabilirsiniz."}}, {"@type": "Question", "name": "Beykoz'de bugün elektrik kesintisi var mı?", "acceptedAnswer": {"@type": "Answer", "text": "Beykoz ilçesinde anlık kayıtlı şebeke kesintisi bulunmamaktadır. Bölgesel kesinti bilgisi ve arıza bildirimleri için Alo 186 AYEDAŞ hattı hizmet vermektedir."}}, {"@type": "Question", "name": "Beykoz hava durumu nasıl?", "acceptedAnswer": {"@type": "Answer", "text": "Beykoz ilçesinde şu an hava 22.2°C ve Parçalı Bulutlu. Günün en yüksek sıcaklığı 28.3°C olarak tahmin edilmektedir."}}]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Beykoz'de bu gece hangi nöbetçi eczaneler açık?", "acceptedAnswer": {"@type": "Answer", "text": "Beykoz ilçesinde bu gece 2 nöbetçi eczane bulunmaktadır. Bunlar arasında SU ECZANESİ, ECZANE VİLDAN yer almaktadır. Nöbetçi eczanelerin tam adresi, tek tıkla arama telefonu ve harita konumu bu sayfada yer almaktadır."}}, {"@type": "Question", "name": "Beykoz'de bugün su kesintisi var mı?", "acceptedAnswer": {"@type": "Answer", "text": "Beykoz genelinde şebeke suyu normal akmaktadır. Acil su arıza ihbarları ve detaylı bilgi için 7/24 Alo 185 İSKİ hattını arayabilirsiniz."}}, {"@type": "Question", "name": "Beykoz'de bugün elektrik kesintisi var mı?", "acceptedAnswer": {"@type": "Answer", "text": "Beykoz ilçesinde anlık kayıtlı şebeke kesintisi bulunmamaktadır. Bölgesel kesinti bilgisi ve arıza bildirimleri için Alo 186 AYEDAŞ hattı hizmet vermektedir."}}, {"@type": "Question", "name": "Beykoz hava durumu nasıl?", "acceptedAnswer": {"@type": "Answer", "text": "Beykoz ilçesinde şu an hava 26.7°C ve Çoğunlukla Açık. Günün en yüksek sıcaklığı 28.2°C olarak tahmin edilmektedir."}}]}</script>
   <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Pharmacy", "name": "SU ECZANESİ", "telephone": "+902165377070", "address": {"@type": "PostalAddress", "streetAddress": "Paşabahçe Mahallesi, Kısayol Sokak, 4/A, , Beykoz", "addressLocality": "Beykoz", "addressRegion": "İstanbul", "addressCountry": "TR"}, "geo": {"@type": "GeoCoordinates", "latitude": 41.11700305978282, "longitude": 29.09744561160471}}, {"@context": "https://schema.org", "@type": "Pharmacy", "name": "ECZANE VİLDAN", "telephone": "+902165371018", "address": {"@type": "PostalAddress", "streetAddress": "Rüzgarlıbahçe Mahallesi, Cumhuriyet Caddesi, 93A, Kavacık, Beykoz", "addressLocality": "Beykoz", "addressRegion": "İstanbul", "addressCountry": "TR"}, "geo": {"@type": "GeoCoordinates", "latitude": 41.0943037183827, "longitude": 29.101786524996}}]</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WeatherForecast", "name": "Beykoz Canlı Hava Durumu & 5 Günlük Tahmin", "temperature": "22.2 °C", "description": "Parçalı Bulutlu", "windSpeed": "3.6 km/h"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WeatherForecast", "name": "Beykoz Canlı Hava Durumu & 5 Günlük Tahmin", "temperature": "26.7 °C", "description": "Çoğunlukla Açık", "windSpeed": "9.7 km/h"}</script>
   <style>
 
     :root {
@@ -718,6 +718,29 @@
       color: var(--text-muted);
       font-weight: 500;
     }
+    .news-thumb-fallback {
+      background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+    }
+    body.dark-mode .news-thumb-fallback {
+      background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    }
+    .source-tag {
+      background: #e0f2fe;
+      color: #0369a1;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 1px 6px;
+      border-radius: 4px;
+      margin-left: 6px;
+    }
+    body.dark-mode .source-tag {
+      background: rgba(3, 105, 161, 0.2);
+      color: #38bdf8;
+    }
     .transit-item {
       margin-bottom: 12px;
       border-left: 4px solid #0f172a;
@@ -984,7 +1007,7 @@
         <a href="#hava" class="chip">⛅ Canlı Hava Durumu</a>
         <a href="#kesinti" class="chip">💧 İSKİ &amp; AYEDAŞ</a>
         <a href="#ulasim" class="chip">🚌 Ulaşım Radarı</a>
-        <a href="#haberler" class="chip">📰 0 Yerel Haber</a>
+        <a href="#haberler" class="chip">📰 6 Yerel Haber</a>
         <a href="#rehber" class="chip">📞 Resmi Kurumlar</a>
       </div>
     </div>
@@ -997,18 +1020,18 @@
             <div class="weather-left">
               <div class="weather-kicker"><span class="live-pulse-blue"></span> CANLI METEOROLOJİ RADARI</div>
               <div class="weather-main-row">
-                <span class="weather-icon">⛅</span>
+                <span class="weather-icon">🌤️</span>
                 <div class="weather-temp-wrap">
-                  <span class="weather-temp">22.2<sup>°C</sup></span>
-                  <span class="weather-desc">Parçalı Bulutlu</span>
+                  <span class="weather-temp">26.7<sup>°C</sup></span>
+                  <span class="weather-desc">Çoğunlukla Açık</span>
                 </div>
               </div>
-              <div class="weather-range">Bugün En Yüksek: <strong>28.3°C</strong> &middot; En Düşük: <strong>20.4°C</strong></div>
+              <div class="weather-range">Bugün En Yüksek: <strong>28.2°C</strong> &middot; En Düşük: <strong>20.4°C</strong></div>
             </div>
             <div class="weather-stats">
               <div class="stat-pill">
                 <span class="stat-icon">💨</span>
-                <div><span class="stat-lbl">Rüzgar</span><strong class="stat-val">3.6 km/s</strong></div>
+                <div><span class="stat-lbl">Rüzgar</span><strong class="stat-val">9.7 km/s</strong></div>
               </div>
               <div class="stat-pill">
                 <span class="stat-icon">💧</span>
@@ -1022,12 +1045,12 @@
               <div class="f-box">
                 <span class="f-day">Bugün</span>
                 <span class="f-icon">⛅</span>
-                <div class="f-temp-row"><span class="f-max">28.3°</span><span class="f-slash">/</span><span class="f-min">20.4°</span></div>
+                <div class="f-temp-row"><span class="f-max">28.2°</span><span class="f-slash">/</span><span class="f-min">20.4°</span></div>
               </div>
               <div class="f-box">
                 <span class="f-day">Pazar</span>
-                <span class="f-icon">⛅</span>
-                <div class="f-temp-row"><span class="f-max">31.5°</span><span class="f-slash">/</span><span class="f-min">18.0°</span></div>
+                <span class="f-icon">🌫️</span>
+                <div class="f-temp-row"><span class="f-max">31.5°</span><span class="f-slash">/</span><span class="f-min">17.3°</span></div>
               </div>
               <div class="f-box">
                 <span class="f-day">Pazartesi</span>
@@ -1118,9 +1141,48 @@
     </div>
     <div class="grid-2">
       
-          <div class="card empty-notice">
-            <p>📰 Beykoz ilçesine ait güncel yerel gelişmeler ve ilçe bültenleri derlenmektedir.</p>
-          </div>
+          <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxQckIyX0kxeWFucmxnYW1PR2lCcFhqeExkZVpTaWpLaWV3M1RiOWdETDBTdjBpY0phOFQxQlExSzcyNlVmMkFPRVQ4ZTRGSWQtX0pHclQ5OVJhSlpXSVBhWHFMN2J0aTVRdWd1WVZLNkFSZE52dUE5Wm9aOXJadzBGcC00YkNFY3JoZHVHVk5HcUZKUQ?oc=5" target="_blank" rel="noopener" class="card news-card">
+            <div class="news-thumb-wrap news-thumb-fallback"><span>📰</span></div>
+            <div class="news-info">
+              <strong class="news-headline">Beykoz metrosu için kritik ziyaret: Hedef 2027</strong>
+              <span class="news-meta">📅 2026-09-03 &middot; Yerel Haber<span class="source-tag">Sabah</span></span>
+            </div>
+          </a>
+          <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxNM2VhbWcxTGR2SWVqU3dpVnVvOHdEMkhHMW9yT25NeXVXSXNwOFE3dlpCZWNBMVFVcmEwbV9zb3hxamZjVkphUnBOZlYyRW1qcTY4WW5qalg3eGdwUFZqNURPVmtpUWdIQVdDWUZOSEFNVnN1enViQkUzSzFVYm9VSXRRMktVdVlwUzJJckdZNi1CUHJfR3hvNDdR?oc=5" target="_blank" rel="noopener" class="card news-card">
+            <div class="news-thumb-wrap news-thumb-fallback"><span>📰</span></div>
+            <div class="news-info">
+              <strong class="news-headline">Beykoz&#x27;da otomobil yayaların arasına daldı: 5 yaralı</strong>
+              <span class="news-meta">📅 2026-08-31 &middot; Yerel Haber<span class="source-tag">Hürriyet</span></span>
+            </div>
+          </a>
+          <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxQbmxMR0xhSVJadjR0RDhiQ1dnN2hmWUZYYmRrX3ZYd2FGSVRkTkV4QlZhR21JNVBTVGxVS2thempFYmFtMkE2Y2MwLThfZkRiUWtZanRCeXJEZUJUTjhaX0xuM1hBMmVWWW43Nkthb2xnMnc0S0NldTdXeTVrMlZ3Rm5GekVDUkN3cF81WWlYU3JrUThOai1LaVpQNXlqWmgxZ0t3?oc=5" target="_blank" rel="noopener" class="card news-card">
+            <div class="news-thumb-wrap news-thumb-fallback"><span>📰</span></div>
+            <div class="news-info">
+              <strong class="news-headline">Beykoz&#x27;da serinlemek için denize giren kişi boğuldu</strong>
+              <span class="news-meta">📅 2026-08-25 &middot; Yerel Haber<span class="source-tag">TRT Haber</span></span>
+            </div>
+          </a>
+          <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5xNE15eGd1U25acGhUR3ZtU19RVjM2eGVJRnR6NzVFRmJTN1pXQ1pNdXNSRmJZSDZ3NEF1eHpRZjctXzA3ajYwU3lOQlcxR3BxYjRHTGJZZ3BvT09oUW9VZUdtdTFKRWZhSjVkLVA3a01VdHhkTi1Eb1NyYzdHem8?oc=5" target="_blank" rel="noopener" class="card news-card">
+            <div class="news-thumb-wrap news-thumb-fallback"><span>📰</span></div>
+            <div class="news-info">
+              <strong class="news-headline">İBB ihale açtı! Beykoz’da 1076 kaçak yapı yıkılacak</strong>
+              <span class="news-meta">📅 2026-09-03 &middot; Yerel Haber<span class="source-tag">Beykoz Güncel Haber</span></span>
+            </div>
+          </a>
+          <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeDJIQTA4UjBjLVVad2pveGVGcE9Va0ltTW9SV0plUDhkT2hXd3JORFhwTE9QRTZmOWl5VkM4aGtIc1QzRnNacUM5NU84QnZuVkJCSld1S2pEajM5YTMybXRycl9tUGFiSUFNVGIzYTU4V0V6SnQzWFg5d0dYTmFfaTNrYVZNR0o4aVVKcE9Qa0cwNWlrbjZXU3pUeXNMZDIxdmRwOWFWZ3paUdIBrgFBVV95cUxPR25mUHZzQ2RFR1Ewamd0THIzOUlaSGQzY3lkU3FiVjVCN2Y0eW0xWmdoZTZfTUdqZkIxTXNKc0k2WDhDTDh4NjBMbi1iWHVmRjRGNDFNenltX2dCeDM0RUlZcTdkN2E4REFhMDYtVVJNWXFYLUoycHpvLXplOV9rQzFVUkhraGhXYVd4akRkUURpVm42czBxZk9QVkxrcUhwb3g5YWoxOG5VM0dsZ2c?oc=5" target="_blank" rel="noopener" class="card news-card">
+            <div class="news-thumb-wrap news-thumb-fallback"><span>📰</span></div>
+            <div class="news-info">
+              <strong class="news-headline">Beykoz&#x27;da motosiklet ağaca çarptı; sürücü yola savruldu</strong>
+              <span class="news-meta">📅 2026-08-31 &middot; Yerel Haber<span class="source-tag">DHA | Demirören Haber Ajansı</span></span>
+            </div>
+          </a>
+          <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxOMnIxRm9CeEhIUVl1Q0lPdWdxUERuU0Q0MHc5ejJBNFNfdDFONjNIM0FoeTU5elhVcHZpdHNqQ1dVLW53cjlDdW94Uk5semtwLXdEd2lYYnhhbEN5LVByT0UyRl9odTd0aHNSbjdaa3RCY1dJMkZKWmw3TFIwcWhJV1l0S0M3UHhabHpDUjBXMzBJUTd0MWRsd1V0alBKVlk?oc=5" target="_blank" rel="noopener" class="card news-card">
+            <div class="news-thumb-wrap news-thumb-fallback"><span>📰</span></div>
+            <div class="news-info">
+              <strong class="news-headline">Beykoz’da otomobil yayaların arasına daldı! Yaralılar var</strong>
+              <span class="news-meta">📅 2026-08-29 &middot; Yerel Haber<span class="source-tag">Milliyet</span></span>
+            </div>
+          </a>
     </div>
 
     <!-- RESMİ REHBER & ACİL KURUMLAR -->
@@ -1198,7 +1260,7 @@
           </details>
           <details class="faq-item">
             <summary class="faq-question">❓ Beykoz hava durumu nasıl?</summary>
-            <div class="faq-answer"><p>Beykoz ilçesinde şu an hava 22.2°C ve Parçalı Bulutlu. Günün en yüksek sıcaklığı 28.3°C olarak tahmin edilmektedir.</p></div>
+            <div class="faq-answer"><p>Beykoz ilçesinde şu an hava 26.7°C ve Çoğunlukla Açık. Günün en yüksek sıcaklığı 28.2°C olarak tahmin edilmektedir.</p></div>
           </details>
 
     <!-- İLÇE DEĞİŞTİRME SEÇİCİSİ -->
