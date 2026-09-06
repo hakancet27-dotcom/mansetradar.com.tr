@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-06T00:00:00+00:00",
-    "article_count": 1358,
+    "article_count": 1362,
     "schema_version": 2
   },
   "articles": [
@@ -117,6 +117,45 @@
         "Landtagswahl"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/09:ukraine-krieg-us-gesandte-friedenspaket-kompromisse_20260906",
+      "slug": "ukraine-krieg-us-gesandte-friedenspaket-kompromisse_20260906",
+      "title": "Ukraine-Krieg: US-Gesandte fordern Russland und Ukraine zu »Kompromissen« auf",
+      "summary": "Die US-Gesandten Steve Witkoff und Jared Kushner haben nach Gesprächen in Moskau und Kyjiw beide Kriegsparteien zu Kompromissen aufgerufen. Während Washington an einem diplomatischen „Friedenspaket“ arbeitet, zeigt sich der ukrainische Präsident Wolodymyr S...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "06.09.2026",
+      "date_iso": "2026-09-06",
+      "url": "/nachrichten/artikel/2026/09/ukraine-krieg-us-gesandte-friedenspaket-kompromisse_20260906/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/ukraine-krieg-us-gesandte-friedenspaket-kompromisse_20260906/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/ukraine-krieg-us-gesandte-friedenspaket-kompromisse_20260906.json",
+      "image_url": "https://cdn.prod.www.spiegel.de/images/1105688c-dc32-4540-83d5-72511c607af8_w520_r2.08_fpx60_fpy50.jpg",
+      "image_alt": "Diplomatische Gespräche zwischen US-Gesandten und der ukrainischen Führung in Kyjiw.",
+      "image": {
+        "url": "https://cdn.prod.www.spiegel.de/images/1105688c-dc32-4540-83d5-72511c607af8_w520_r2.08_fpx60_fpy50.jpg",
+        "alt": "Diplomatische Gespräche zwischen US-Gesandten und der ukrainischen Führung in Kyjiw."
+      },
+      "source_name": "DER SPIEGEL - Schlagzeilen",
+      "source_url": "https://www.spiegel.de/ausland/ukraine-krieg-us-gesandte-fordern-russland-und-ukraine-zu-kompromissen-auf-a-40af94b7-be76-4bc4-b658-3b28fa772771#ref=rss",
+      "tags": [
+        "Ukraine-Krieg",
+        "USA",
+        "Diplomatie",
+        "Wolodymyr Selenskyj",
+        "Jared Kushner",
+        "Friedensverhandlungen"
+      ],
+      "quality_score": 90,
       "review_status": "published"
     },
     {
@@ -979,6 +1018,44 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/09:hertha-bsc-tabellenspitze-sieg-magdeburg-zweite-bundesliga_20260906",
+      "slug": "hertha-bsc-tabellenspitze-sieg-magdeburg-zweite-bundesliga_20260906",
+      "title": "Historischer Traumstart: Hertha BSC stürmt an die Spitze der 2. Bundesliga",
+      "summary": "Hertha BSC setzt seinen Erfolgsweg in der 2. Bundesliga fort: Mit einem hart erkämpften 2:1-Erfolg über den 1. FC Magdeburg feierten die Berliner vor knapp 60.000 Zuschauern im heimischen Olympiastadion den vierten Sieg in Serie und übernahmen damit die Tab...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "06.09.2026",
+      "date_iso": "2026-09-06",
+      "url": "/nachrichten/artikel/2026/09/hertha-bsc-tabellenspitze-sieg-magdeburg-zweite-bundesliga_20260906/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/hertha-bsc-tabellenspitze-sieg-magdeburg-zweite-bundesliga_20260906/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/hertha-bsc-tabellenspitze-sieg-magdeburg-zweite-bundesliga_20260906.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/hertha-bsc-tabellenspitze-sieg-magdeburg-zweite-bundesliga_20260906.webp",
+      "image_alt": "Hertha BSC jubelt über ein Tor im Berliner Olympiastadion",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/hertha-bsc-tabellenspitze-sieg-magdeburg-zweite-bundesliga_20260906.webp",
+        "alt": "Hertha BSC jubelt über ein Tor im Berliner Olympiastadion"
+      },
+      "source_name": "n-tv.de - Startseite",
+      "source_url": "https://www.n-tv.de/sport/fussball/Hertha-ackert-sich-an-die-Tabellenspitze-Osnabrueck-frisst-Loewen-id31274923.html",
+      "tags": [
+        "Hertha BSC",
+        "1. FC Magdeburg",
+        "2. Bundesliga",
+        "Stefan Leitl",
+        "Oluwaseun Adewumi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/09:haysiyet-dizisi-tanitimi-sivasin-yollari-ile-rekor-kirdi_20260906",
       "slug": "haysiyet-dizisi-tanitimi-sivasin-yollari-ile-rekor-kirdi_20260906",
       "title": "Kanal D'nin Yeni Dizisi Haysiyet'in Tanıtımı 'Sivas'ın Yolları' İle Büyük İlgi Gördü",
@@ -1291,6 +1368,45 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/09:berlin-gedenkbaum-csd-anschlag-herausgerissen_20260906",
+      "slug": "berlin-gedenkbaum-csd-anschlag-herausgerissen_20260906",
+      "title": "Berlin: Gedenkbaum für Opfer des CSD-Anschlags herausgerissen",
+      "summary": "Unbekannte Täter haben in der Nacht zu Sonntag im Berliner Tiergarten einen neu gepflanzten Gedenkbaum für die Opfer des mutmaßlich islamistischen CSD-Anschlags aus der Erde gerissen. Auch das schützende Metallgitter sowie abgelegte Kerzen und Bilder wurden...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "06.09.2026",
+      "date_iso": "2026-09-06",
+      "url": "/nachrichten/artikel/2026/09/berlin-gedenkbaum-csd-anschlag-herausgerissen_20260906/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/berlin-gedenkbaum-csd-anschlag-herausgerissen_20260906/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/berlin-gedenkbaum-csd-anschlag-herausgerissen_20260906.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/berlin-gedenkbaum-csd-anschlag-herausgerissen_20260906.webp",
+      "image_alt": "Ein frisch gepflanzter Gedenkbaum mit Metallgitter im Berliner Tiergarten.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/berlin-gedenkbaum-csd-anschlag-herausgerissen_20260906.webp",
+        "alt": "Ein frisch gepflanzter Gedenkbaum mit Metallgitter im Berliner Tiergarten."
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/inland/regional/berlin/gedenkbaum-csd-anschlag-herausgerissen-100.html",
+      "tags": [
+        "Berlin",
+        "CSD-Anschlag",
+        "Tiergarten",
+        "Staatsschutz",
+        "Vandalismus",
+        "Gedenkbaum"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "nachrichten/artikel/2026/09:aufbewahrungsboxen-test-ntv-produkt-check-sieger_20260906",
       "slug": "aufbewahrungsboxen-test-ntv-produkt-check-sieger_20260906",
       "title": "Aufbewahrungsboxen im Test: Welche Modelle für Ordnung im Haushalt sorgen",
@@ -1483,6 +1599,46 @@
         "Commercial Real Estate"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/09:afd-gewinnt-landtagswahl-sachsen-anhalt-2026_20260906",
+      "slug": "afd-gewinnt-landtagswahl-sachsen-anhalt-2026_20260906",
+      "title": "AfD gewinnt Landtagswahl in Sachsen-Anhalt mit 44 Prozent – CDU bricht ein",
+      "summary": "Bei der Landtagswahl in Sachsen-Anhalt hat die AfD mit Spitzenkandidat Ulrich Siegmund laut ersten Hochrechnungen einen historischen Sieg errungen und kommt auf über 44 Prozent der Stimmen. Die CDU unter Ministerpräsident Sven Schulze bricht auf ihr histori...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "06.09.2026",
+      "date_iso": "2026-09-06",
+      "url": "/nachrichten/artikel/2026/09/afd-gewinnt-landtagswahl-sachsen-anhalt-2026_20260906/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/afd-gewinnt-landtagswahl-sachsen-anhalt-2026_20260906/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/afd-gewinnt-landtagswahl-sachsen-anhalt-2026_20260906.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/afd-gewinnt-landtagswahl-sachsen-anhalt-2026_20260906.webp",
+      "image_alt": "Das Landtagsgebäude in Magdeburg, Sachsen-Anhalt.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/afd-gewinnt-landtagswahl-sachsen-anhalt-2026_20260906.webp",
+        "alt": "Das Landtagsgebäude in Magdeburg, Sachsen-Anhalt."
+      },
+      "source_name": "n-tv.de - Startseite",
+      "source_url": "https://www.n-tv.de/politik/Hochrechnungen-AfD-gewinnt-mit-44-Prozent-Wahl-in-Sachsen-Anhalt-CDU-erreicht-18-Prozent-id31275185.html",
+      "tags": [
+        "Sachsen-Anhalt",
+        "Landtagswahl 2026",
+        "AfD",
+        "CDU",
+        "FDP",
+        "Ulrich Siegmund",
+        "Sven Schulze"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
