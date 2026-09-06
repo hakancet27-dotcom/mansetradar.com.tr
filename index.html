@@ -473,12 +473,136 @@
       background: white;
     }
 
+    /* TOP COUNTRY NAVIGATION PILLS */
+    .top-country-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 24px;
+      padding: 10px 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+    }
+    .country-pill-track {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .country-pill-label {
+      font-size: 0.78rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--muted);
+      margin-right: 4px;
+    }
+    .country-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 7px 14px;
+      border-radius: 999px;
+      background: var(--page);
+      border: 1px solid var(--border);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 700;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .country-pill:hover {
+      background: rgba(225, 6, 0, 0.08);
+      border-color: rgba(225, 6, 0, 0.3);
+      color: var(--red);
+      transform: translateY(-1px);
+    }
+    .country-pill.is-active {
+      background: var(--red);
+      border-color: var(--red);
+      color: #ffffff;
+      box-shadow: 0 4px 12px rgba(225, 6, 0, 0.28);
+    }
+    .pill-flag {
+      font-size: 1.05rem;
+      line-height: 1;
+    }
+    .pill-name {
+      font-weight: 700;
+    }
+    .pill-count {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 20px;
+      height: 20px;
+      padding: 0 6px;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 800;
+      background: rgba(0, 0, 0, 0.08);
+      color: inherit;
+    }
+    .country-pill.is-active .pill-count {
+      background: rgba(255, 255, 255, 0.25);
+      color: #ffffff;
+    }
+    body.dark-mode .country-pill {
+      background: #1e293b;
+      border-color: #334155;
+      color: #f1f5f9;
+    }
+    body.dark-mode .country-pill:hover {
+      background: rgba(225, 6, 0, 0.18);
+      border-color: var(--red);
+      color: #ffffff;
+    }
+    body.dark-mode .country-pill.is-active {
+      background: var(--red);
+      border-color: var(--red);
+      color: #ffffff;
+    }
+    .country-lang-switches {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .lang-switch-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 12px;
+      border-radius: 999px;
+      background: transparent;
+      border: 1px dashed var(--border);
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.78rem;
+      font-weight: 700;
+      transition: all 0.2s ease;
+    }
+    .lang-switch-pill:hover {
+      border-color: var(--red);
+      color: var(--red);
+      background: rgba(225, 6, 0, 0.04);
+    }
+    body.dark-mode .lang-switch-pill {
+      border-color: #334155;
+      color: #94a3b8;
+    }
+    body.dark-mode .lang-switch-pill:hover {
+      border-color: var(--red);
+      color: #ffffff;
+    }
+
     .container { margin: 30px auto; }
     .page-layout {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) 280px;
-      gap: 30px;
-      align-items: start;
+      display: block;
+      width: 100%;
     }
     .page-heading {
       font-size: 1.9rem;
@@ -534,15 +658,16 @@
       max-width: 250px;
     }
     .showcase-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.55fr) minmax(280px, 0.85fr);
-      gap: 18px;
-      align-items: stretch;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
     }
     .headline-slider {
       position: relative;
-      height: 456px;
-      border-radius: 8px;
+      width: 100%;
+      height: 480px;
+      border-radius: 12px;
       overflow: hidden;
       background: #11131f;
       box-shadow: var(--shadow-strong);
@@ -763,35 +888,50 @@
     }
     .side-headlines {
       display: grid;
-      grid-template-columns: 1fr;
-      gap: 14px;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      width: 100%;
     }
     .side-headlines.is-rotating .side-headline.is-side-rotation-hidden {
       display: none !important;
     }
     .side-headline {
-      min-height: 100px;
-      border-radius: 8px;
+      position: relative;
+      min-height: 145px;
+      height: 155px;
+      border-radius: 10px;
+      overflow: hidden;
       box-shadow: var(--shadow);
       text-decoration: none;
+      background: var(--dark);
+      transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s ease;
+    }
+    .side-headline:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
     }
     .side-headline .headline-content {
+      position: absolute;
       left: 14px;
       right: 14px;
       bottom: 12px;
+      z-index: 2;
     }
     .side-headline .headline-title {
-      font-size: 1rem;
-      line-height: 1.24;
-      -webkit-line-clamp: 3;
+      font-size: 0.96rem;
+      line-height: 1.26;
+      -webkit-line-clamp: 2;
       max-width: 100%;
+      font-weight: 800;
+      text-shadow: 0 1px 6px rgba(0,0,0,0.6);
     }
     .side-headline .headline-meta {
-      margin-bottom: 7px;
+      margin-bottom: 6px;
+      gap: 6px;
     }
     .side-headline .headline-tag,
     .side-headline .headline-topic {
-      font-size: 0.66rem;
+      font-size: 0.65rem;
       padding: 3px 7px;
     }
     .headline-card.has-text-image {
@@ -1334,94 +1474,7 @@
     }
     .read-more:hover { text-decoration: underline; }
 
-    .sidebar {
-      position: sticky;
-      top: 96px;
-      max-height: calc(100vh - 110px);
-      overflow: auto;
-      padding-right: 4px;
-      scrollbar-width: thin;
-      scrollbar-color: #d0d5dd transparent;
-    }
-    .sidebar::-webkit-scrollbar { width: 8px; }
-    .sidebar::-webkit-scrollbar-thumb { background: #d0d5dd; border-radius: 999px; }
-    .sidebar::-webkit-scrollbar-track { background: transparent; }
-    .sidebar-widget,
-    .youtube-widget {
-      border-radius: 8px;
-      margin-bottom: 20px;
-      box-shadow: var(--shadow);
-    }
-    .sidebar-widget {
-      background: var(--surface);
-      padding: 20px;
-    }
-    .widget-title {
-      font-size: 0.82rem;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 0.8px;
-      color: var(--muted);
-      margin-bottom: 15px;
-      padding-bottom: 10px;
-      border-bottom: 2px solid var(--red);
-    }
-    .country-filter {
-      list-style: none;
-      display: grid;
-      gap: 2px;
-    }
-    .country-filter a {
-      padding: 10px 0;
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-size: 0.9rem;
-      text-decoration: none;
-      color: var(--text);
-    }
-    .country-filter li:last-child a { border-bottom: none; }
-    .country-filter a:hover { color: var(--red); }
-    .country-filter .count {
-      margin-left: auto;
-      background: var(--page);
-      padding: 2px 8px;
-      border-radius: 10px;
-      font-size: 0.75rem;
-      color: var(--muted);
-    }
-    .latest-news-list {
-      list-style: none;
-      display: grid;
-      gap: 12px;
-    }
-    .latest-news-list li {
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 12px;
-    }
-    .latest-news-list li:last-child {
-      border-bottom: none;
-      padding-bottom: 0;
-    }
-    .latest-news-list a {
-      display: block;
-      color: var(--text);
-      text-decoration: none;
-      font-size: 0.88rem;
-      font-weight: 800;
-      line-height: 1.35;
-    }
-    .latest-news-list a:hover { color: var(--red); }
-    .latest-news-list span {
-      display: inline-block;
-      margin-bottom: 4px;
-      color: var(--red);
-      font-size: 0.68rem;
-      font-weight: 900;
-      letter-spacing: 0.3px;
-      text-transform: uppercase;
-    }
+    .sidebar { display: none !important; }
     .weather-list {
       list-style: none;
       display: grid;
@@ -1547,18 +1600,28 @@
         justify-content: flex-start;
         padding-bottom: 2px;
       }
-      .page-layout { grid-template-columns: 1fr; }
-      .showcase-grid { grid-template-columns: 1fr; }
       .headline-slider { height: 380px; }
       .side-headlines {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
-      .sidebar {
-        position: static;
-        display: grid;
-        grid-template-columns: 1fr;
-        max-height: none;
-        overflow: visible;
+      .top-country-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 12px;
+      }
+      .country-pill-track {
+        width: 100%;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        padding-bottom: 4px;
+        -webkit-overflow-scrolling: touch;
+      }
+      .country-pill-track::-webkit-scrollbar { display: none; }
+      .country-lang-switches {
+        width: 100%;
+        justify-content: flex-start;
+        border-top: 1px solid var(--border);
+        padding-top: 8px;
       }
       .news-grid { grid-template-columns: 1fr; }
       .news-grid .news-card:first-child { grid-column: span 1; }
@@ -1599,22 +1662,15 @@
 
     @media (min-width: 901px) {
       .showcase-grid .side-headlines {
-        position: relative;
-        height: 456px;
-        max-height: 456px;
         display: grid;
-        grid-template-rows: repeat(2, minmax(0, 1fr));
-        gap: 14px;
-        overflow: hidden;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        width: 100%;
+        height: auto;
+        max-height: none;
       }
       .showcase-grid .side-headlines .side-headline {
-        min-height: 0;
-        height: 221px;
-        overflow: hidden;
-      }
-      .showcase-grid .side-headlines:not(.is-rotating) .side-headline:nth-of-type(n+3),
-      .showcase-grid .side-headlines.is-rotating .side-headline.is-side-rotation-hidden {
-        display: none !important;
+        height: 155px;
       }
     }
 
@@ -2288,6 +2344,32 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
     <div class="page-layout">
       <main id="main-content">
         <p id="news-search-status" class="news-search-status" aria-live="polite"></p>
+        <!-- TOP_COUNTRY_NAV_START -->
+        <nav class="top-country-bar" aria-label="Bölge ve Ülke Haberleri">
+          <div class="country-pill-track">
+            <span class="country-pill-label">Haber Akışı:</span>
+            <a href="#turkiye" class="country-pill is-active" data-country="turkey">
+              <span class="pill-flag">🇹🇷</span>
+              <span class="pill-name">Türkiye</span>
+              <span class="pill-count" id="count-turkey">0</span>
+            </a>
+            <a href="#amerika" class="country-pill" data-country="usa">
+              <span class="pill-flag">🇺🇸</span>
+              <span class="pill-name">Amerika</span>
+              <span class="pill-count" id="count-usa">0</span>
+            </a>
+            <a href="#almanya" class="country-pill" data-country="germany">
+              <span class="pill-flag">🇩🇪</span>
+              <span class="pill-name">Almanya</span>
+              <span class="pill-count" id="count-germany">0</span>
+            </a>
+          </div>
+          <div class="country-lang-switches">
+            <a href="/news/" class="lang-switch-pill" title="US News - English Edition">🇺🇸 US Edition</a>
+            <a href="/nachrichten/" class="lang-switch-pill" title="DE Nachrichten - Deutsche Ausgabe">🇩🇪 DE Ausgabe</a>
+          </div>
+        </nav>
+        <!-- TOP_COUNTRY_NAV_END -->
         <section class="turkey-showcase" id="turkiye" data-news-section aria-labelledby="turkiye-title">
           <div class="showcase-header">
             <div>
@@ -2512,18 +2594,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                 </div>
               </a>
 
-              <a class="headline-card side-headline" href="/articles/2026/09/seyhanda-hirsizlik-suphelilerinden-sara-nobeti-oyunu-tutuklandilar_20260903/" data-topic="gundem" aria-label="Seyhan&#x27;da Hırsızlık Şüphelilerinden &quot;Sara Nöbeti&quot; Oyunu: 2 Kadın Tutuklandı">
-                <div class="headline-image"><img src="/articles/images/seyhanda-hirsizlik-suphelilerinden-sara-nobeti-oyunu-tutuklandilar_20260903.webp" alt="Seyhan&#x27;da Hırsızlık Şüphelilerinden &quot;Sara Nöbeti&quot; Oyunu: 2 Kadın Tutuklandı" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="live-stream-badge"><span class="pulse-dot"></span> CANLI</span>
-                    <span class="headline-tag">Öne Çıkan</span>
-                    <span class="headline-topic">Gündem</span>
-                  </div>
-                  <h3 class="headline-title">Seyhan&#x27;da Hırsızlık Şüphelilerinden &quot;Sara Nöbeti&quot; Oyunu: 2 Kadın Tutuklandı</h3>
-                  <time class="headline-date" datetime="2026-09-03">03.09.2026</time>
-                </div>
-              </a>
               <!-- TURKEY_SIDE_END -->
             </div>
           </div>
@@ -3867,58 +3937,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </section>
       </main>
-
-      <aside class="sidebar" aria-label="Yan içerik">
-        <div class="sidebar-widget">
-          <div class="widget-title">Ülkeye Göre Git</div>
-          <ul class="country-filter">
-            <li><a href="#turkiye"><span aria-hidden="true">🇹🇷</span> Türkiye <span class="count" id="count-turkey">0</span></a></li>
-            <li><a href="#amerika"><span aria-hidden="true">🇺🇸</span> Amerika <span class="count" id="count-usa">0</span></a></li>
-            <li><a href="#almanya"><span aria-hidden="true">🇩🇪</span> Almanya <span class="count" id="count-germany">0</span></a></li>
-          </ul>
-        </div>
-
-        <div class="sidebar-widget">
-          <div class="widget-title">Son Haberler</div>
-          <ol class="latest-news-list" id="latest-news-list" aria-label="Son haberler"></ol>
-        </div>
-
-        <div class="sidebar-widget">
-          <div class="widget-title">Hava Durumu</div>
-          <ul class="weather-list" id="weather-list" aria-label="Hava durumu">
-            <li><span class="weather-city">Istanbul</span><span class="weather-temp">--</span><span class="weather-meta">Yükleniyor</span></li>
-            <li><span class="weather-city">Ankara</span><span class="weather-temp">--</span><span class="weather-meta">Yükleniyor</span></li>
-            <li><span class="weather-city">Izmir</span><span class="weather-temp">--</span><span class="weather-meta">Yükleniyor</span></li>
-          </ul>
-        </div>
-
-        <div class="sidebar-widget">
-          <div class="widget-title">Yayın Bilgisi</div>
-          <p class="info-text">
-            Haberler Türkiye, Amerika ve Almanya kaynaklarından derlenir ve düzenli aralıklarla güncellenir.
-            <br><br>
-            <strong>mansetradar.com.tr</strong>
-          </p>
-        </div>
-
-        <div class="sidebar-widget video-widget-enhanced">
-          <div class="widget-title">Video Haberler</div>
-          <div class="video-list">
-            <a class="video-card" href="video.html?v=_JlZOhyX_5U"><span class="video-thumb">&#9654;</span><span class="video-meta"><strong>ManşetRadar Haber Videosu</strong><small>Kaynak: ManşetRadar Haber</small></span></a>
-            <a class="video-card" href="video.html?source=channel"><span class="video-thumb">&#9654;</span><span class="video-meta"><strong>ManşetRadar Haber Kanal&#305;</strong><small>Site i&ccedil;inde video merkezi</small></span></a>
-            <a class="video-card" href="video.html?source=latest"><span class="video-thumb">&#9654;</span><span class="video-meta"><strong>Son Y&uuml;klenenler</strong><small>Kaynak: ManşetRadar Haber</small></span></a>
-          </div>
-        </div>
-        <div class="sidebar-widget social-widget-enhanced">
-          <div class="widget-title">Sosyal Medya</div>
-          <div class="social-mini">
-            <a class="social-link social-x" href="https://x.com/mansetradar" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-            <a class="social-link social-ig" href="https://www.instagram.com/mansetradar" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="4"/><circle cx="12" cy="12" r="3.2"/><circle cx="16.4" cy="7.6" r="1"/></svg></a>
-            <a class="social-link social-yt" href="https://www.youtube.com/@ManşetRadarHaber" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M10 9l5 3-5 3z"/></svg></a>
-            <a class="social-link social-tg" href="https://t.me/mansetradar" target="_blank" rel="noopener" aria-label="Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-          </div>
-        </div>
-      </aside>
     </div>
   </div>
 
@@ -3933,7 +3951,9 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           <h4>Bağlantılar</h4>
           <a href="/">Ana Sayfa</a>
           <a href="/">Haberler</a>
+          <a href="/video/">Video Haberler</a>
           <a href="https://www.youtube.com/@ManşetRadarHaber" target="_blank" rel="noopener">YouTube</a>
+          <a href="https://x.com/mansetradar" target="_blank" rel="noopener">X (Twitter)</a>
         </div>
         <div>
           <h4>Kurumsal</h4>
@@ -3941,12 +3961,23 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           <a href="/kunye/">Künye</a>
           <a href="/yayin-ilkeleri/">Yayın İlkeleri</a>
           <a href="/iletisim/">İletişim</a>
+          <a href="/privacy.html">Gizlilik Politikası</a>
         </div>
         <div>
-          <h4>Ülkeler</h4>
-          <a href="#turkiye">Türkiye</a>
-          <a href="#amerika">Amerika</a>
-          <a href="#almanya">Almanya</a>
+          <h4>Hava Durumu</h4>
+          <ul class="weather-list footer-weather-list" id="weather-list" aria-label="Hava durumu">
+            <li><span class="weather-city">Istanbul</span><span class="weather-temp">--</span><span class="weather-meta">Yükleniyor</span></li>
+            <li><span class="weather-city">Ankara</span><span class="weather-temp">--</span><span class="weather-meta">Yükleniyor</span></li>
+            <li><span class="weather-city">Izmir</span><span class="weather-temp">--</span><span class="weather-meta">Yükleniyor</span></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Ülkeler &amp; Sürümler</h4>
+          <a href="#turkiye">🇹🇷 Türkiye</a>
+          <a href="#amerika">🇺🇸 Amerika</a>
+          <a href="#almanya">🇩🇪 Almanya</a>
+          <a href="/news/">🇺🇸 US Edition</a>
+          <a href="/nachrichten/">🇩🇪 DE Ausgabe</a>
         </div>
       </div>
       <div class="footer-bottom">
@@ -4545,12 +4576,42 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       }
     }
 
+    function initCountryPills() {
+      const pills = document.querySelectorAll('.top-country-bar .country-pill');
+      if (!pills.length) return;
+      pills.forEach(pill => {
+        pill.addEventListener('click', function() {
+          pills.forEach(p => p.classList.remove('is-active'));
+          this.classList.add('is-active');
+        });
+      });
+      if ('IntersectionObserver' in window) {
+        const sectionIds = ['turkiye', 'amerika', 'almanya'];
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const targetId = entry.target.id;
+              pills.forEach(p => {
+                const href = p.getAttribute('href') || '';
+                p.classList.toggle('is-active', href === '#' + targetId);
+              });
+            }
+          });
+        }, { rootMargin: '-15% 0px -70% 0px' });
+        sectionIds.forEach(id => {
+          const el = document.getElementById(id);
+          if (el) observer.observe(el);
+        });
+      }
+    }
+
     initProgressiveLiveWidgets();
     dedupeNewsCards();
     applyTopicFilter();
     initLatestNews();
     initHeadlineSlider();
     countCards();
+    initCountryPills();
     initPagination('grid-turkey');
     initPagination('grid-usa');
     initPagination('grid-germany');
