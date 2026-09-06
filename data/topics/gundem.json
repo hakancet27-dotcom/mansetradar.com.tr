@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-06T00:00:00+00:00",
-    "article_count": 1335,
+    "article_count": 1341,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -131,6 +131,84 @@
         "magazin"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:bursada-kayip-emir-bulundu-annesi-sevincten-bayildi_20260906",
+      "slug": "bursada-kayip-emir-bulundu-annesi-sevincten-bayildi_20260906",
+      "title": "Bursa'da Kayıp 2.5 Yaşındaki Emir Bulundu, Annesi Kavuşma Anında Bayıldı",
+      "summary": "Bursa'nın Osmangazi ilçesinde tarlada kaybolan 2.5 yaşındaki Emir G., jandarma ve arama kurtarma ekiplerinin yaklaşık 1 kilometrelik alanda yürüttüğü titiz çalışma sonucu sağ salim bulundu. Minik Emir'e kavuşan annenin sevinçten bayılması ise yürekleri ağza...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "06.09.2026",
+      "date_iso": "2026-09-06",
+      "url": "/articles/2026/09/bursada-kayip-emir-bulundu-annesi-sevincten-bayildi_20260906/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/bursada-kayip-emir-bulundu-annesi-sevincten-bayildi_20260906/",
+      "detail_json_url": "/data/details/articles/2026/09/bursada-kayip-emir-bulundu-annesi-sevincten-bayildi_20260906.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/bursada-kayip-emir-bulundu-annesi-sevincten-bayildi_20260906.webp",
+      "image_alt": "Arama kurtarma ekiplerinin çalıştığı bir alanda, sevincinden bayılan bir anne ve kurtarılan küçük bir çocuk.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/bursada-kayip-emir-bulundu-annesi-sevincten-bayildi_20260906.webp",
+        "alt": "Arama kurtarma ekiplerinin çalıştığı bir alanda, sevincinden bayılan bir anne ve kurtarılan küçük bir çocuk."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/bursada-nefes-kesen-arama-kayip-minik-emir-bulundu-anne-sarilinca-kendinden-gecti-43297957",
+      "tags": [
+        "Bursa",
+        "Kayıp Çocuk",
+        "Arama Kurtarma",
+        "Emir G."
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:64-yil-hapis-cezasiyla-aranan-kadin-canli-yayinda-yakalandi_20260906",
+      "slug": "64-yil-hapis-cezasiyla-aranan-kadin-canli-yayinda-yakalandi_20260906",
+      "title": "64 Yıl Hapis Cezasıyla Aranan Kadın Canlı Yayında Yakalandı",
+      "summary": "İstanbul Esenler'de, hakkında kesinleşmiş 64 yıl 6 ay hapis cezası ve 215 suç kaydı bulunan Gülüstan Kurt (33), sosyal medya hesabından canlı yayın yaparken polis tarafından yakalandı. Beyoğlu Devriye Ekipleri Amirliği polislerinin eve düzenlediği baskın an...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "06.09.2026",
+      "date_iso": "2026-09-06",
+      "url": "/articles/2026/09/64-yil-hapis-cezasiyla-aranan-kadin-canli-yayinda-yakalandi_20260906/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/64-yil-hapis-cezasiyla-aranan-kadin-canli-yayinda-yakalandi_20260906/",
+      "detail_json_url": "/data/details/articles/2026/09/64-yil-hapis-cezasiyla-aranan-kadin-canli-yayinda-yakalandi_20260906.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/64-yil-hapis-cezasiyla-aranan-kadin-canli-yayinda-yakalandi_20260906.webp",
+      "image_alt": "Polis, canlı yayın yapan ve hakkında 64 yıl hapis cezası bulunan kadını evinde gözaltına alıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/64-yil-hapis-cezasiyla-aranan-kadin-canli-yayinda-yakalandi_20260906.webp",
+        "alt": "Polis, canlı yayın yapan ve hakkında 64 yıl hapis cezası bulunan kadını evinde gözaltına alıyor."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/gundem/64-yil-hapis-cezasiyla-aranan-kadin-canli-yayinda-yakalandi-3910636",
+      "tags": [
+        "Gülüstan Kurt",
+        "Canlı Yayın",
+        "Polis Baskını",
+        "Hapis Cezası",
+        "Suç Kaydı",
+        "Beyoğlu",
+        "Beyoğlu haberleri",
+        "İstanbul"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
