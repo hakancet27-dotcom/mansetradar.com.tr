@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-06T00:00:00+00:00",
-    "article_count": 1341,
+    "article_count": 1342,
     "schema_version": 2
   },
   "hero": [
@@ -1465,6 +1465,43 @@
         "İstanbul"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/09:gloria-steinem-activism-feminism-interview_20260906",
+      "slug": "gloria-steinem-activism-feminism-interview_20260906",
+      "title": "Gloria Steinem Reflects on Activism and the Future of Feminism",
+      "summary": "Feminist icon Gloria Steinem sat down for an extended interview, reflecting on her decades of activism and offering insights into the current state and future of the women's rights movement. The interview, published by CBS News on September 6, 2026, touches...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "06.09.2026",
+      "date_iso": "2026-09-06",
+      "url": "/news/articles/2026/09/gloria-steinem-activism-feminism-interview_20260906/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/gloria-steinem-activism-feminism-interview_20260906/",
+      "detail_json_url": "/data/details/news/articles/2026/09/gloria-steinem-activism-feminism-interview_20260906.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/gloria-steinem-activism-feminism-interview_20260906.webp",
+      "image_alt": "Portrait of Gloria Steinem",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/gloria-steinem-activism-feminism-interview_20260906.webp",
+        "alt": "Portrait of Gloria Steinem"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/extended-interview-gloria-steinem/",
+      "tags": [
+        "Gloria Steinem",
+        "Feminism",
+        "Women's Rights",
+        "Activism"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -3136,45 +3173,6 @@
         "İstanbul"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/09:bakan-gurlek-yargida-hedef-sureye-hakim-savci-arkadaslarimiz-mutlaka-riayet-edec_20260905",
-      "slug": "bakan-gurlek-yargida-hedef-sureye-hakim-savci-arkadaslarimiz-mutlaka-riayet-edec_20260905",
-      "title": "Adalet Bakanı Gürlek: Yargıda hedef süreye hakim ve savcılar riayet edecek",
-      "summary": "Adalet Bakanı Akın Gürlek, yargı süreçlerinde hedef süre uygulamasına hakim ve savcıların mutlaka uyacağını vurguladı. Bir açılış töreninde konuşan Bakan Gürlek, batı ülkelerinin evrensel hukuk değerleri konusundaki çifte standartlarını eleştirerek, özellik...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/09",
-      "date": "05.09.2026",
-      "date_iso": "2026-09-05",
-      "url": "/articles/2026/09/bakan-gurlek-yargida-hedef-sureye-hakim-savci-arkadaslarimiz-mutlaka-riayet-edec_20260905/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/bakan-gurlek-yargida-hedef-sureye-hakim-savci-arkadaslarimiz-mutlaka-riayet-edec_20260905/",
-      "detail_json_url": "/data/details/articles/2026/09/bakan-gurlek-yargida-hedef-sureye-hakim-savci-arkadaslarimiz-mutlaka-riayet-edec_20260905.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/bakan-gurlek-yargida-hedef-sureye-hakim-savci-arkadaslarimiz-mutlaka-riayet-edec_20260905.webp",
-      "image_alt": "Adalet Bakanlığı binası veya bir mahkeme salonu.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/09/images/bakan-gurlek-yargida-hedef-sureye-hakim-savci-arkadaslarimiz-mutlaka-riayet-edec_20260905.webp",
-        "alt": "Adalet Bakanlığı binası veya bir mahkeme salonu."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/bakan-gurlek-yargida-hedef-sureye-hakim-savci-arkadaslarimiz-mutlaka-riayet-edecek-43297468",
-      "tags": [
-        "Adalet Bakanı",
-        "Akın Gürlek",
-        "Yargı",
-        "Hedef Süre",
-        "İnsan Hakları",
-        "Çifte Standart"
-      ],
-      "quality_score": 100,
       "review_status": "published"
     }
   ]

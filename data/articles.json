@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-06T00:00:00+00:00",
-    "article_count": 1341,
+    "article_count": 1342,
     "schema_version": 2
   },
   "articles": [
@@ -672,6 +672,43 @@
         "İstanbul"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/09:gloria-steinem-activism-feminism-interview_20260906",
+      "slug": "gloria-steinem-activism-feminism-interview_20260906",
+      "title": "Gloria Steinem Reflects on Activism and the Future of Feminism",
+      "summary": "Feminist icon Gloria Steinem sat down for an extended interview, reflecting on her decades of activism and offering insights into the current state and future of the women's rights movement. The interview, published by CBS News on September 6, 2026, touches...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "06.09.2026",
+      "date_iso": "2026-09-06",
+      "url": "/news/articles/2026/09/gloria-steinem-activism-feminism-interview_20260906/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/gloria-steinem-activism-feminism-interview_20260906/",
+      "detail_json_url": "/data/details/news/articles/2026/09/gloria-steinem-activism-feminism-interview_20260906.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/gloria-steinem-activism-feminism-interview_20260906.webp",
+      "image_alt": "Portrait of Gloria Steinem",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/gloria-steinem-activism-feminism-interview_20260906.webp",
+        "alt": "Portrait of Gloria Steinem"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/extended-interview-gloria-steinem/",
+      "tags": [
+        "Gloria Steinem",
+        "Feminism",
+        "Women's Rights",
+        "Activism"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
