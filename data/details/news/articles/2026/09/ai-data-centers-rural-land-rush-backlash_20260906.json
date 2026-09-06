@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "news/articles/2026/09:ai-data-centers-rural-land-rush-backlash_20260906",
+    "slug": "ai-data-centers-rural-land-rush-backlash_20260906",
+    "title": "AI Data Center Expansion Drives US Rural Land Rush and Backlash",
+    "summary": "The rapid buildout of artificial intelligence data centers is triggering a massive land rush across rural America, driving up property values while fueling growing backlash from local communities. According to commercial real estate firm Avison Young, land...",
+    "category": "Ekonomi",
+    "category_slug": "ekonomi",
+    "topic_slug": "teknoloji",
+    "topic_label": "Teknoloji",
+    "country": "USA",
+    "language": "en",
+    "language_label": "English",
+    "section": "news/articles",
+    "section_name": "US News",
+    "url_prefix": "news/articles/2026/09",
+    "date": "06.09.2026",
+    "date_iso": "2026-09-06",
+    "url": "/news/articles/2026/09/ai-data-centers-rural-land-rush-backlash_20260906/",
+    "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/ai-data-centers-rural-land-rush-backlash_20260906/",
+    "detail_json_url": "/data/details/news/articles/2026/09/ai-data-centers-rural-land-rush-backlash_20260906.json",
+    "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/ai-data-centers-rural-land-rush-backlash_20260906.webp",
+    "image_alt": "Construction site of an AI data center surrounded by rural farmland.",
+    "image": {
+      "url": "https://mansetradar.com.tr/news/articles/2026/09/images/ai-data-centers-rural-land-rush-backlash_20260906.webp",
+      "alt": "Construction site of an AI data center surrounded by rural farmland."
+    },
+    "source_name": "US Top News and Analysis",
+    "source_url": "https://www.cnbc.com/2026/09/06/ai-data-centers-are-transforming-rural-land-markets-fueling-backlash.html",
+    "tags": [
+      "AI Data Centers",
+      "Rural Land Market",
+      "Avison Young",
+      "Artificial Intelligence",
+      "Commercial Real Estate"
+    ],
+    "quality_score": 100,
+    "review_status": "published",
+    "content_html": "<h2>Key Developments</h2><p>Investments in artificial intelligence computing power have set off unprecedented commercial real estate activity in out-of-the-way locations across the United States. Commercial real estate firm Avison Young reports that data centers now account for 27% of all development sites in the U.S. in 2026. This makes data centers the second-largest development site category nationwide, trailing only apartment buildings and surpassing industrial, office, retail, and mixed-use properties.</p><p>The massive footprint required by AI data centers—which house large computer servers filled with powerful chips needing immense amounts of electricity and water for operation and cooling—has pushed developers into rural regions. Tech firms are acquiring land not only for data facilities, but also for supporting infrastructure such as power and water plants, creating secondary construction economies and boom towns.</p><p>This aggressive acquisition strategy has raised severe concerns among agricultural leaders and local residents. At a protest in Lubbock, Texas, state Agriculture Commissioner Sid Miller pointed out that developers are offering property owners up to 10 times market value, making it difficult for farmers to turn down offers while sacrificing prime farmland. The influx of capital is pitting major corporations and Wall Street backers against rural residents who face newfound competition for space, local infrastructure, and natural resources.</p><h2>Key Takeaways</h2><ul><li><strong>Record Investment:</strong> U.S. land purchases for future data centers reached approximately $6 billion in the first half of 2026, a 79% jump compared to the previous year.</li><li><strong>High Market Share:</strong> Data centers represent 27% of all U.S. development sites in 2026, standing as the second-largest category behind apartment buildings.</li><li><strong>Rural Impact:</strong> Developers offering up to 10 times standard land values are converting farmland into tech sites, triggering community backlash over natural resource consumption.</li></ul><h2>Why It Matters</h2><p>The rapid shift toward AI computing is fundamentally reshaping rural American land markets and local communities. As technology companies race to secure the vast tracts of land, electricity, and water required to power and cool next-generation server clusters, traditional sectors like agriculture face mounting displacement pressure. The ongoing expansion underscores a growing conflict between corporate technology investments and local resource preservation.</p>",
+    "meta_title": "AI Data Centers Drive US Rural Land Rush and Backlash",
+    "meta_description": "Land purchases for US AI data centers hit $6 billion in early 2026, spiking rural property values and sparking pushback over farmland and resources.",
+    "spot": "The rapid buildout of artificial intelligence data centers is triggering a massive land rush across rural America, driving up property values while fueling growing backlash from local communities. According to commercial real estate firm Avison Young, land purchases for U.S. data centers surged to nearly $6 billion in the first half of 2026, representing...",
+    "word_count": 350,
+    "reading_time_minutes": 2,
+    "discover_titles": [
+      "AI Data Center Boom Triggers $6 Billion Land Rush Across Rural US",
+      "Farmland to Tech Hubs: AI Data Centers Reshape Rural Land Markets",
+      "Rural Land Prices Soar as AI Data Center Developers Offer 10x Value"
+    ],
+    "visual_keywords": [
+      "data center construction",
+      "rural farmland",
+      "AI infrastructure",
+      "land development"
+    ]
+  }
+}
