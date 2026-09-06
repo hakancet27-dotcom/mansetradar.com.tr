@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-06T00:00:00+00:00",
-    "article_count": 1356,
+    "article_count": 1358,
     "schema_version": 2
   },
   "hero": [
@@ -1609,6 +1609,43 @@
       "review_status": "published"
     },
     {
+      "id": "news/articles/2026/09:iranian-school-struck-in-minab-becomes-memorial_20260906",
+      "slug": "iranian-school-struck-in-minab-becomes-memorial_20260906",
+      "title": "Iranian School Hit in Earliest Strikes Becomes Memorial for Over 100 Children",
+      "summary": "Months after a strike killed more than 100 students in southern Iran, the devastated Shajareh Tayyebeh school in Minab has been transformed into a memorial, while local authorities plan to preserve its ruins as a war museum.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "06.09.2026",
+      "date_iso": "2026-09-06",
+      "url": "/news/articles/2026/09/iranian-school-struck-in-minab-becomes-memorial_20260906/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/iranian-school-struck-in-minab-becomes-memorial_20260906/",
+      "detail_json_url": "/data/details/news/articles/2026/09/iranian-school-struck-in-minab-becomes-memorial_20260906.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/iranian-school-struck-in-minab-becomes-memorial_20260906.webp",
+      "image_alt": "The damaged Shajareh Tayyebeh school in Minab, Iran, featuring memorial photos and banners outside its blue entrance gate.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/iranian-school-struck-in-minab-becomes-memorial_20260906.webp",
+        "alt": "The damaged Shajareh Tayyebeh school in Minab, Iran, featuring memorial photos and banners outside its blue entrance gate."
+      },
+      "source_name": "Associated Press",
+      "source_url": "https://apnews.com/article/iran-school-attack-minab-children-303eece386df6f76eb4e26b9f2ff3fae",
+      "tags": [
+        "Iran",
+        "Minab",
+        "Shajareh Tayyebeh School",
+        "U.S. Military Strikes"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "news/articles/2026/09:iran-claims-hitting-us-ship-in-strait-of-hormuz-amid-renewed-hostilities_20260906",
       "slug": "iran-claims-hitting-us-ship-in-strait-of-hormuz-amid-renewed-hostilities_20260906",
       "title": "Iran Claims Hitting US Ship in Strait of Hormuz Amid Renewed Hostilities",
@@ -1770,6 +1807,47 @@
         "Bayrampaşa",
         "Bayrampaşa haberleri",
         "İstanbul"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/09:greece-deepens-israel-arab-ties-mitsotakis_20260906",
+      "slug": "greece-deepens-israel-arab-ties-mitsotakis_20260906",
+      "title": "Greece Seeks Deeper Ties with Israel and Arab Nations Amidst Regional Tensions",
+      "summary": "Greek Prime Minister Kyriakos Mitsotakis announced Sunday that Greece will pursue deeper strategic defense cooperation with Israel while simultaneously expanding its relations with Arab nations in the Middle East. Speaking after an address at Thessaloniki's...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "06.09.2026",
+      "date_iso": "2026-09-06",
+      "url": "/news/articles/2026/09/greece-deepens-israel-arab-ties-mitsotakis_20260906/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/greece-deepens-israel-arab-ties-mitsotakis_20260906/",
+      "detail_json_url": "/data/details/news/articles/2026/09/greece-deepens-israel-arab-ties-mitsotakis_20260906.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/greece-deepens-israel-arab-ties-mitsotakis_20260906.webp",
+      "image_alt": "Greek Prime Minister Kyriakos Mitsotakis delivering a speech, symbolizing Greece's foreign policy initiatives.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/greece-deepens-israel-arab-ties-mitsotakis_20260906.webp",
+        "alt": "Greek Prime Minister Kyriakos Mitsotakis delivering a speech, symbolizing Greece's foreign policy initiatives."
+      },
+      "source_name": "Associated Press",
+      "source_url": "https://apnews.com/article/greece-israel-arabs-defense-ab3e2d1ddd65046293ec57c538219797",
+      "tags": [
+        "Greece",
+        "Kyriakos Mitsotakis",
+        "Israel",
+        "Saudi Arabia",
+        "Egypt",
+        "Middle East",
+        "Defense",
+        "Foreign Policy"
       ],
       "quality_score": 100,
       "review_status": "published"
@@ -3072,84 +3150,6 @@
         "Son Dakika"
       ],
       "quality_score": 95,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/09:iran-abd-hurmuz-bogazi-petrol-tankerleri_20260905",
-      "slug": "iran-abd-hurmuz-bogazi-petrol-tankerleri_20260905",
-      "title": "İran ve ABD Arasında Hürmüz Boğazı'nda Gerilim: Petrol Tankerleri Hedef Alındı",
-      "summary": "İran Devrim Muhafızları, Hürmüz Boğazı'ndan izinsiz geçtiği iddia edilen 3 petrol tankeri ile ABD bağlantılı 3 gemiyi hedef aldıklarını açıkladı. ABD Merkez Kuvvetler Komutanlığı (CENTCOM) ise bu gelişmelere karşılık olarak İran'a ait 3 ham petrol tankerini...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/09",
-      "date": "05.09.2026",
-      "date_iso": "2026-09-05",
-      "url": "/articles/2026/09/iran-abd-hurmuz-bogazi-petrol-tankerleri_20260905/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/iran-abd-hurmuz-bogazi-petrol-tankerleri_20260905/",
-      "detail_json_url": "/data/details/articles/2026/09/iran-abd-hurmuz-bogazi-petrol-tankerleri_20260905.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/iran-abd-hurmuz-bogazi-petrol-tankerleri_20260905.webp",
-      "image_alt": "Hürmüz Boğazı'nda gergin deniz çatışması, İran ve ABD savaş gemileri yakın planda.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/09/images/iran-abd-hurmuz-bogazi-petrol-tankerleri_20260905.webp",
-        "alt": "Hürmüz Boğazı'nda gergin deniz çatışması, İran ve ABD savaş gemileri yakın planda."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/dunya/iran-hurmuz-bogazindan-izinsiz-gecen-3-petrol-tankeri-ile-abd-baglantili-3-gemiyi-hedef-aldik-7655130",
-      "tags": [
-        "İran",
-        "ABD",
-        "Hürmüz Boğazı",
-        "Petrol Tankerleri",
-        "CENTCOM",
-        "Devrim Muhafızları"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/09:iphone-20-radikal-tasarim-tam-ekran-devrimi_20260905",
-      "slug": "iphone-20-radikal-tasarim-tam-ekran-devrimi_20260905",
-      "title": "iPhone 20 ile Ekran Teknolojisinde Devrim mi Geliyor?",
-      "summary": "Apple, 2027'deki 20. yıl dönümüne özel olarak hazırladığı iPhone 20 modeliyle akıllı telefon tasarımında radikal bir dönüşüme hazırlanıyor. Bloomberg'den Mark Gurman'ın iddialarına göre, iPhone X benzeri büyük bir tasarım değişikliğiyle gelmesi beklenen cih...",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "topic_slug": "teknoloji",
-      "topic_label": "Teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/09",
-      "date": "05.09.2026",
-      "date_iso": "2026-09-05",
-      "url": "/articles/2026/09/iphone-20-radikal-tasarim-tam-ekran-devrimi_20260905/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/iphone-20-radikal-tasarim-tam-ekran-devrimi_20260905/",
-      "detail_json_url": "/data/details/articles/2026/09/iphone-20-radikal-tasarim-tam-ekran-devrimi_20260905.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/iphone-20-radikal-tasarim-tam-ekran-devrimi_20260905.webp",
-      "image_alt": "iPhone 20'nin dört kenarı kavisli, çerçevesiz ve ekran altı kamera teknolojisine sahip fütüristik tasarımı.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/09/images/iphone-20-radikal-tasarim-tam-ekran-devrimi_20260905.webp",
-        "alt": "iPhone 20'nin dört kenarı kavisli, çerçevesiz ve ekran altı kamera teknolojisine sahip fütüristik tasarımı."
-      },
-      "source_name": "Teknoloji Haberleri – ShiftDelete.Net",
-      "source_url": "https://shiftdelete.net/iphone-20-tasarim-degisikligi-beklentileri",
-      "tags": [
-        "Apple",
-        "iPhone 20",
-        "Akıllı Telefon",
-        "Teknoloji",
-        "Tasarım",
-        "Ekran Altı Kamera"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]
