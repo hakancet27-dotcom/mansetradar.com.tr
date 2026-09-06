@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-06T00:00:00+00:00",
-    "article_count": 1362,
+    "article_count": 1365,
     "schema_version": 2,
     "category_slug": "magazin",
     "type": "category"
@@ -127,6 +127,47 @@
         "Kanser Tedavisi",
         "KRAS Proteini",
         "Tıbbi Gelişme"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:oyuncu-serhat-kilic-evinde-olu-bulundu-son-goruntuleri-ortaya-cikti_20260906",
+      "slug": "oyuncu-serhat-kilic-evinde-olu-bulundu-son-goruntuleri-ortaya-cikti_20260906",
+      "title": "Oyuncu Serhat Kılıç Evinde Ölü Bulundu: Son Görüntüleri Ortaya Çıktı",
+      "summary": "Oyuncu Serhat Kılıç, perşembe gününden bu yana haber alınamamasının ardından kız arkadaşı tarafından Kağıthane'deki evinde ölü bulundu. Güvenlik kameralarına yansıyan son görüntüleri ise Kılıç'ın evine girerken asansör bekleyip ardından merdivenlere yöneldi...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "magazin",
+      "topic_label": "Magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "06.09.2026",
+      "date_iso": "2026-09-06",
+      "url": "/articles/2026/09/oyuncu-serhat-kilic-evinde-olu-bulundu-son-goruntuleri-ortaya-cikti_20260906/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/oyuncu-serhat-kilic-evinde-olu-bulundu-son-goruntuleri-ortaya-cikti_20260906/",
+      "detail_json_url": "/data/details/articles/2026/09/oyuncu-serhat-kilic-evinde-olu-bulundu-son-goruntuleri-ortaya-cikti_20260906.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/oyuncu-serhat-kilic-evinde-olu-bulundu-son-goruntuleri-ortaya-cikti_20260906.webp",
+      "image_alt": "Oyuncu Serhat Kılıç Evinde Ölü Bulundu: Son Görüntüleri Ortaya Çıktı",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/oyuncu-serhat-kilic-evinde-olu-bulundu-son-goruntuleri-ortaya-cikti_20260906.webp",
+        "alt": "Oyuncu Serhat Kılıç Evinde Ölü Bulundu: Son Görüntüleri Ortaya Çıktı"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/evinde-olu-bulunmustu-oyuncu-serhat-kilicin-son-goruntusu-ortaya-cikti-43298241",
+      "tags": [
+        "Serhat Kılıç",
+        "oyuncu",
+        "ölüm",
+        "magazin",
+        "son dakika",
+        "Kağıthane",
+        "Kağıthane haberleri",
+        "İstanbul"
       ],
       "quality_score": 86,
       "review_status": "published"
