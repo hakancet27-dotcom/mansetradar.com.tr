@@ -241,7 +241,7 @@
       <nav aria-label="Article navigation">
         <a href="../">Startseite</a>
         <a class="active" href="../">Deutschland Nachrichten</a>
-        <button id="theme-toggle" class="tool-btn" type="button" aria-label="Karanlık/Aydınlık Tema" title="Karanlık / Aydınlık Mod" style="margin-left: 8px;">
+        <button id="theme-toggle" class="tool-btn" type="button" aria-label="Dunkel-/Hell-Modus" title="Dunkel-/Hell-Modus" style="margin-left: 8px;">
           <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
         </button>
       </nav>
@@ -258,9 +258,7 @@
         <div class="article-meta">
           <span class="meta-tag">DE Deutschland</span>
           <span class="meta-trust">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-            Doğrulanmış
-          </span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>Verifiziert</span>
           <span class="meta-time">2 Min. Lesezeit</span>
           <span>&middot;</span>
           <span>06.09.2026</span>
@@ -273,26 +271,26 @@
         <div class="author-info-wrapper">
           <div class="author-avatar-badge">MR</div>
           <div class="author-info">
-            <strong>ManşetRadar Editoryal Masası</strong>
-            <p>Bağımsız doğrulama yönergelerine uygundur. <a href="/yayin-ilkeleri/">Yayın İlkeleri</a></p>
+            <strong>Mansetradar Redaktion</strong>
+            <p>Entspricht unabhängigen Verifizierungsrichtlinien. <a href="/nachrichten/">Redaktionelle Richtlinien</a></p>
           </div>
         </div>
         <div class="article-tools">
-          <button id="btn-listen-article" type="button" class="tool-btn btn-text" aria-label="Haberi sesli dinle" title="Haberi sesli dinle">
-            <span class="audio-icon">🔊</span> <span class="audio-text">Dinle</span>
+          <button id="btn-listen-article" type="button" class="tool-btn btn-text" aria-label="Artikel vorlesen" title="Artikel vorlesen">
+            <span class="audio-icon">🔊</span> <span class="audio-text">Anhören</span>
           </button>
-          <button id="btn-font-dec" class="tool-btn" type="button" aria-label="Yazıyı küçült" title="Yazı Boyutunu Küçült">A-</button>
-          <button id="btn-font-inc" class="tool-btn" type="button" aria-label="Yazıyı büyüt" title="Yazı Boyutunu Büyüt">A+</button>
+          <button id="btn-font-dec" class="tool-btn" type="button" aria-label="Schrift verkleinern" title="Schrift verkleinern">A-</button>
+          <button id="btn-font-inc" class="tool-btn" type="button" aria-label="Schrift vergrößern" title="Schrift vergrößern">A+</button>
           <a class="tool-btn" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F09%2Fmercedes-benz-170-ikone-wirtschaftswunder-c-klasse-vorfahre_20260906%2F&text=Mercedes-Benz+170%3A+Ikone+des+Wirtschaftswunders+und+C-Klasse-Vorfahre" aria-label="X">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg>
           </a>
-          <button id="btn-copy-link" class="tool-btn" type="button" aria-label="Bağlantıyı Kopyala" title="Bağlantıyı Kopyala">
+          <button id="btn-copy-link" class="tool-btn" type="button" aria-label="Link kopieren" title="Link kopieren">
             <svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
           </button>
         </div>
       </div>
 
-      {image_html.replace('</figure>', f'<figcaption>Ein klassischer Mercedes-Benz 170 V aus den 1940er Jahren, ein Symbol des deutschen Wirtschaftswunders. &mdash; Fotoğraf: mansetradar.com.tr</figcaption></figure>') if image_html else ''}
+      {image_html.replace('</figure>', f'<figcaption>Ein klassischer Mercedes-Benz 170 V aus den 1940er Jahren, ein Symbol des deutschen Wirtschaftswunders. &mdash; Foto: mansetradar.com.tr</figcaption></figure>') if image_html else ''}
       
       
       <div class="article-takeaways" aria-label="Wichtige Punkte">
@@ -302,7 +300,7 @@
       
       
       <div class="article-body">
-        <h2>Önemli Gelişmeler</h2> <p>Vor 90 Jahren, im Jahr 1936, stellte Mercedes-Benz den Typ 170 V vor, der als "Volks-Mercedes" den Traum erfüllte, die Premiummarke einem breiteren Publikum zugänglich zu machen. Obwohl er mit seinen freistehenden, bauchigen Kotflügeln und Trittbrettern ein konservatives Vorkriegsdesign trug, war er technisch modern und setzte Maßstäbe in Sachen Solidität. Die Produktion wurde kriegsbedingt unterbrochen, doch ab 1949 startete der 170 V seine zweite Karriere und wurde zum ersten Stuttgarter Sternträger der deutschen Wirtschaftswunderjahre.</p> <p>Der Mercedes 170 V (W 136) etablierte sich schnell als Statussymbol für Aufsteiger und Taxifahrer. Insbesondere der Typ 170 D brachte den Dieselmotor endgültig in die Großserie der Pkw-Produktion. Neben verschiedenen Nutzfahrzeugversionen gab es auch den oberhalb positionierten 170 S (W 136 IV), der mit einer opulenteren Karosserie für repräsentative Auftritte sorgte. Selbst Hollywood-Diva Marilyn Monroe, sonst eher in glamourösen US-amerikanischen Wagen unterwegs, besaß einen gediegenen 170 S.</p> <p>Fachleute lobten den 170 V als die robusteste Mercedes-Entwicklung überhaupt, vergleichbar in seiner Langlebigkeit mit dem VW Käfer. Mit einer Länge von 4,27 Metern war der 170 V (V wie vorn angeordneter Motor) der damals kleinste Benz neben dem 170 H (H wie Heckmotor). Er legte nicht nur die Basis für die heutige C-Klasse, sondern auch für die E-Klasse und prägte maßgeblich die Mobilität der jungen Bundesrepublik.</p> <h2>Öne Çıkan Noktalar</h2> <ul> <li>Der Mercedes-Benz 170 V wurde 1936 als "Volks-Mercedes" eingeführt, um die Marke einem breiteren Publikum zugänglich zu machen.</li> <li>Nach einer kriegsbedingten Pause startete der 170 V ab 1949 erneut durch und wurde zum Statussymbol des deutschen Wirtschaftswunders, wobei der 170 D den Dieselmotor im Pkw populär machte.</li> <li>Trotz seines konservativen Designs war der 170 technisch modern und extrem robust, legte den Grundstein für die heutige C-Klasse und prägte die Nachkriegszeit.</li> </ul> <h2>Neden Önemli?</h2> <p>Der Mercedes-Benz 170 ist ein herausragendes Beispiel für Ingenieurskunst und strategische Weitsicht. Er zeigte, wie ein Fahrzeug mit konservativer Formgebung, aber modernster Technik und beispielloser Solidität sowohl vor dem Krieg als auch in der Nachkriegszeit erfolgreich sein konnte. Seine Rolle bei der Motorisierung der jungen Bundesrepublik und der Etablierung des Dieselmotors im Pkw-Segment ist von großer historischer Bedeutung. Die Tatsache, dass er als direkter Vorfahre der heutigen C-Klasse gilt, unterstreicht seine nachhaltige Wirkung auf die Modellpolitik von Mercedes-Benz. Er symbolisiert den Traum vom erschwinglichen Premiumfahrzeug, der auch heute noch mit Modellen wie der elektrischen C-Klasse verfolgt wird.</p>
+        <h2>Wichtige Entwicklungen</h2> <p>Vor 90 Jahren, im Jahr 1936, stellte Mercedes-Benz den Typ 170 V vor, der als "Volks-Mercedes" den Traum erfüllte, die Premiummarke einem breiteren Publikum zugänglich zu machen. Obwohl er mit seinen freistehenden, bauchigen Kotflügeln und Trittbrettern ein konservatives Vorkriegsdesign trug, war er technisch modern und setzte Maßstäbe in Sachen Solidität. Die Produktion wurde kriegsbedingt unterbrochen, doch ab 1949 startete der 170 V seine zweite Karriere und wurde zum ersten Stuttgarter Sternträger der deutschen Wirtschaftswunderjahre.</p> <p>Der Mercedes 170 V (W 136) etablierte sich schnell als Statussymbol für Aufsteiger und Taxifahrer. Insbesondere der Typ 170 D brachte den Dieselmotor endgültig in die Großserie der Pkw-Produktion. Neben verschiedenen Nutzfahrzeugversionen gab es auch den oberhalb positionierten 170 S (W 136 IV), der mit einer opulenteren Karosserie für repräsentative Auftritte sorgte. Selbst Hollywood-Diva Marilyn Monroe, sonst eher in glamourösen US-amerikanischen Wagen unterwegs, besaß einen gediegenen 170 S.</p> <p>Fachleute lobten den 170 V als die robusteste Mercedes-Entwicklung überhaupt, vergleichbar in seiner Langlebigkeit mit dem VW Käfer. Mit einer Länge von 4,27 Metern war der 170 V (V wie vorn angeordneter Motor) der damals kleinste Benz neben dem 170 H (H wie Heckmotor). Er legte nicht nur die Basis für die heutige C-Klasse, sondern auch für die E-Klasse und prägte maßgeblich die Mobilität der jungen Bundesrepublik.</p> <h2>Zentrale Punkte</h2> <ul> <li>Der Mercedes-Benz 170 V wurde 1936 als "Volks-Mercedes" eingeführt, um die Marke einem breiteren Publikum zugänglich zu machen.</li> <li>Nach einer kriegsbedingten Pause startete der 170 V ab 1949 erneut durch und wurde zum Statussymbol des deutschen Wirtschaftswunders, wobei der 170 D den Dieselmotor im Pkw populär machte.</li> <li>Trotz seines konservativen Designs war der 170 technisch modern und extrem robust, legte den Grundstein für die heutige C-Klasse und prägte die Nachkriegszeit.</li> </ul> <h2>Warum das wichtig ist</h2> <p>Der Mercedes-Benz 170 ist ein herausragendes Beispiel für Ingenieurskunst und strategische Weitsicht. Er zeigte, wie ein Fahrzeug mit konservativer Formgebung, aber modernster Technik und beispielloser Solidität sowohl vor dem Krieg als auch in der Nachkriegszeit erfolgreich sein konnte. Seine Rolle bei der Motorisierung der jungen Bundesrepublik und der Etablierung des Dieselmotors im Pkw-Segment ist von großer historischer Bedeutung. Die Tatsache, dass er als direkter Vorfahre der heutigen C-Klasse gilt, unterstreicht seine nachhaltige Wirkung auf die Modellpolitik von Mercedes-Benz. Er symbolisiert den Traum vom erschwinglichen Premiumfahrzeug, der auch heute noch mit Modellen wie der elektrischen C-Klasse verfolgt wird.</p>
       </div>
       
       <p class="article-source"><strong>Quelle:</strong> n-tv.de</p>
@@ -321,7 +319,7 @@
       
       <div class="article-footer-sections">
         
-        <section class="article-comments" aria-label="article-comments"><h2>Kommentare</h2><form id="comment-form" class="comment-form"><input id="comment-name" type="text" maxlength="40" placeholder="Ad Soyad"><textarea id="comment-text" rows="4" maxlength="700" placeholder="Schreibe deinen Kommentar"></textarea><button type="submit">Kommentar senden</button></form><div id="comment-list" class="comment-list"></div></section>
+        <section class="article-comments" aria-label="article-comments"><h2>Kommentare</h2><form id="comment-form" class="comment-form"><input id="comment-name" type="text" maxlength="40" placeholder="Name"><textarea id="comment-text" rows="4" maxlength="700" placeholder="Schreibe deinen Kommentar"></textarea><button type="submit">Kommentar senden</button></form><div id="comment-list" class="comment-list"></div></section>
       </div>
     </article>
   </main>
@@ -349,7 +347,7 @@
       }
       form.addEventListener('submit', (e) => {
         e.preventDefault();
-        const name = document.getElementById('comment-name').value.trim() || 'Misafir Okur';
+        const name = document.getElementById('comment-name').value.trim() || 'Gast';
         const text = document.getElementById('comment-text').value.trim();
         if (!text) return;
         const rows = JSON.parse(localStorage.getItem(key) || '[]');
@@ -382,7 +380,7 @@
           isPlaying = false;
           const txt = btn.querySelector('.audio-text');
           const ico = btn.querySelector('.audio-icon');
-          if (txt) txt.textContent = 'Dinle';
+          if (txt) txt.textContent = 'Anhören';
           if (ico) ico.textContent = '🔊';
           return;
         }
@@ -399,14 +397,14 @@
           isPlaying = false;
           const txt = btn.querySelector('.audio-text');
           const ico = btn.querySelector('.audio-icon');
-          if (txt) txt.textContent = 'Dinle';
+          if (txt) txt.textContent = 'Anhören';
           if (ico) ico.textContent = '🔊';
         };
         window.speechSynthesis.speak(utterance);
         isPlaying = true;
         const txt = btn.querySelector('.audio-text');
         const ico = btn.querySelector('.audio-icon');
-        if (txt) txt.textContent = 'Durdur';
+        if (txt) txt.textContent = 'Stoppen';
         if (ico) ico.textContent = '⏹️';
       });
     })();

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="New York City Desk: Breaking NYC news, MTA subway &amp; bus alerts, 24/7 pharmacies, and local updates across Manhattan, Brooklyn, Queens, The Bronx, and Staten Island.">
+  <link rel="canonical" href="https://mansetradar.com.tr/new-york/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="New York City Desk &amp; 5 Boroughs | Mansetradar US">
+  <meta property="og:description" content="Breaking NYC news, MTA subway alerts, 24/7 pharmacies, and local borough coverage.">
+  <meta property="og:url" content="https://mansetradar.com.tr/new-york/">
+  <title>New York City Desk &amp; 5 Boroughs | Mansetradar US</title>
+  <style>
+    :root {
+      --blue: #2563eb;
+      --dark: #0f172a;
+      --surface: #ffffff;
+      --page: #f8fafc;
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --shadow: 0 4px 14px rgba(0,0,0,0.06);
+    }
+    body.dark-mode {
+      --surface: #1e293b;
+      --page: #0f172a;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --border: #334155;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: var(--page);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+    .top-bar { background: var(--dark); color: #c8c8d4; font-size: 0.75rem; padding: 6px 0; }
+    .top-bar .inner { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+    .top-links a { color: #c8c8d4; margin-left: 14px; }
+    .top-links a:hover { color: white; }
+    header { background: var(--surface); border-bottom: 3px solid var(--blue); padding: 14px 0; box-shadow: var(--shadow); position: sticky; top: 0; z-index: 100; }
+    header .inner { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+    .logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.2rem; }
+    .logo-badge { background: var(--blue); color: white; width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: 900; }
+    nav.main-nav a { margin-left: 18px; font-weight: 700; font-size: 0.9rem; color: var(--muted); }
+    nav.main-nav a:hover, nav.main-nav a.active { color: var(--blue); }
+    .hero-banner {
+      margin: 28px 0;
+      padding: 32px 28px;
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 60%, #1e3a8a 100%);
+      border-radius: 14px;
+      color: white;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    }
+    .hero-kicker { color: #60a5fa; font-weight: 900; font-size: 0.82rem; letter-spacing: 0.5px; margin-bottom: 6px; text-transform: uppercase; }
+    .hero-title { font-size: 2.2rem; font-weight: 900; line-height: 1.15; margin-bottom: 12px; }
+    .hero-desc { font-size: 1rem; color: #cbd5e1; max-width: 720px; line-height: 1.5; }
+    .service-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin: 24px 0 36px; }
+    .service-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+    }
+    .service-box h3 { font-size: 1.05rem; font-weight: 800; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+    .service-box p { font-size: 0.88rem; color: var(--muted); line-height: 1.45; margin-bottom: 14px; }
+    .service-btn { display: inline-flex; align-items: center; font-size: 0.82rem; font-weight: 800; color: var(--blue); }
+    .section-title { font-size: 1.5rem; font-weight: 900; margin-bottom: 16px; border-bottom: 2px solid var(--border); padding-bottom: 8px; display: flex; justify-content: space-between; align-items: center; }
+    .bezirke-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-bottom: 44px; }
+    .bezirk-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      position: relative;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .bezirk-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,0.08); border-color: var(--blue); }
+    .bezirk-icon { font-size: 1.6rem; }
+    .bezirk-info h3 { font-size: 0.95rem; font-weight: 800; }
+    .bezirk-info p { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
+    .bezirk-badge { position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.04); font-size: 0.65rem; font-weight: 800; padding: 2px 6px; border-radius: 4px; color: var(--muted); }
+    footer { background: var(--dark); color: #cbd5e1; padding: 40px 0 20px; margin-top: 60px; font-size: 0.85rem; }
+    footer a { color: #cbd5e1; }
+    footer a:hover { color: white; }
+    @media (max-width: 900px) {
+      .service-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 600px) {
+      .hero-title { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="inner">
+      <span>📍 New York City Desk &middot; Metro Coverage</span>
+      <div class="top-links">
+        <a href="/news/">US News</a>
+        <a href="/nachrichten/">DE Nachrichten</a>
+        <a href="/">TR News</a>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="inner">
+      <a href="/new-york/" class="logo">
+        <div class="logo-badge">NY</div>
+        <span>Mansetradar <strong>New York</strong></span>
+      </a>
+      <nav class="main-nav">
+        <a href="/news/">Home</a>
+        <a href="/new-york/" class="active">NYC Desk</a>
+        <a href="#services">Services</a>
+        <a href="#boroughs">5 Boroughs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero-banner">
+      <div class="hero-kicker">New York Metro Desk &amp; City Hub</div>
+      <h1 class="hero-title">New York Live: 5 Boroughs, MTA Transit &amp; City Services</h1>
+      <p class="hero-desc">Real-time alerts, MTA Subway &amp; Bus service changes, 24/7 pharmacies, and verified reporting across Manhattan, Brooklyn, Queens, The Bronx, and Staten Island.</p>
+    </section>
+
+    <section id="services" class="service-grid">
+      <div class="service-box" id="transit">
+        <h3>🚇 MTA Subway &amp; Bus Alerts</h3>
+        <p>Live status on NYC Subway lines (1, 2, 3, 4, 5, 6, 7, A, C, E, B, D, F, M, G, J, Z, L, N, Q, R, W) and MTA regional bus routes.</p>
+        <a href="https://new.mta.info/" target="_blank" rel="noopener" class="service-btn">Check MTA Live Status →</a>
+      </div>
+      <div class="service-box" id="pharmacies">
+        <h3>💊 24/7 Pharmacies</h3>
+        <p>Emergency medical care and 24-hour pharmacy locations across all five NYC boroughs with verified operating hours.</p>
+        <a href="https://www.cvs.com/pharmacy" target="_blank" rel="noopener" class="service-btn">Find 24/7 Pharmacy Nearby →</a>
+      </div>
+      <div class="service-box" id="weather">
+        <h3>🌦️ NYC Weather &amp; Air Quality</h3>
+        <p>Current temperature, National Weather Service alerts, and 3-day forecast for Central Park and the Tri-State area.</p>
+        <a href="/weather.html?city=New%20York" class="service-btn">View NYC Weather Report →</a>
+      </div>
+    </section>
+
+    <div class="section-title" id="boroughs">
+      <span>5 NYC Boroughs Coverage</span>
+      <span style="font-size:0.85rem; font-weight:600; color:var(--muted);">Citywide Directory</span>
+    </div>
+    <section class="bezirke-grid">
+      
+        <div class="bezirk-card" data-borough="manhattan">
+          <div class="bezirk-icon">🏙️</div>
+          <div class="bezirk-info">
+            <h3>Manhattan</h3>
+            <p>Midtown, Downtown, Harlem, Upper East & West Side</p>
+          </div>
+          <span class="bezirk-badge">Borough</span>
+        </div>
+        <div class="bezirk-card" data-borough="brooklyn">
+          <div class="bezirk-icon">🌉</div>
+          <div class="bezirk-info">
+            <h3>Brooklyn</h3>
+            <p>Williamsburg, DUMBO, Brooklyn Heights, Bushwick</p>
+          </div>
+          <span class="bezirk-badge">Borough</span>
+        </div>
+        <div class="bezirk-card" data-borough="queens">
+          <div class="bezirk-icon">✈️</div>
+          <div class="bezirk-info">
+            <h3>Queens</h3>
+            <p>Astoria, Long Island City, Flushing, Forest Hills</p>
+          </div>
+          <span class="bezirk-badge">Borough</span>
+        </div>
+        <div class="bezirk-card" data-borough="the bronx">
+          <div class="bezirk-icon">⚾</div>
+          <div class="bezirk-info">
+            <h3>The Bronx</h3>
+            <p>South Bronx, Riverdale, Pelham Bay, City Island</p>
+          </div>
+          <span class="bezirk-badge">Borough</span>
+        </div>
+        <div class="bezirk-card" data-borough="staten island">
+          <div class="bezirk-icon">⛴️</div>
+          <div class="bezirk-info">
+            <h3>Staten Island</h3>
+            <p>St. George, Tottenville, Great Kills, Ferry</p>
+          </div>
+          <span class="bezirk-badge">Borough</span>
+        </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:20px;">
+      <div>
+        <strong>mansetradar.com.tr &middot; New York City Desk</strong>
+        <p style="margin-top:6px; color:#94a3b8;">Independent verified news and urban service guide for NYC.</p>
+      </div>
+      <div>
+        <a href="/news/">US News</a> &middot;
+        <a href="/new-york/">New York Desk</a> &middot;
+        <a href="/nachrichten/">DE Nachrichten</a> &middot;
+        <a href="/">TR News</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Berlin Spezial: Aktuelle Nachrichten, BVG-Verkehrsstörungen, Notdienst-Apotheken und Bürgeramt-Services aus allen 12 Berliner Bezirken.">
+  <link rel="canonical" href="https://mansetradar.com.tr/berlin/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Berlin Spezial &amp; 12 Bezirke | Mansetradar Deutschland">
+  <meta property="og:description" content="Aktuelle Nachrichten, BVG-Verkehr, Notdienst-Apotheken und Bürgeramt-Updates aus Berlin.">
+  <meta property="og:url" content="https://mansetradar.com.tr/berlin/">
+  <title>Berlin Spezial &amp; 12 Bezirke | Mansetradar Deutschland</title>
+  <style>
+    :root {
+      --red: #e10600;
+      --dark: #0f172a;
+      --surface: #ffffff;
+      --page: #f8fafc;
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --shadow: 0 4px 14px rgba(0,0,0,0.06);
+    }
+    body.dark-mode {
+      --surface: #1e293b;
+      --page: #0f172a;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --border: #334155;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: var(--page);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+    .top-bar { background: var(--dark); color: #c8c8d4; font-size: 0.75rem; padding: 6px 0; }
+    .top-bar .inner { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+    .top-links a { color: #c8c8d4; margin-left: 14px; }
+    .top-links a:hover { color: white; }
+    header { background: var(--surface); border-bottom: 3px solid var(--red); padding: 14px 0; box-shadow: var(--shadow); position: sticky; top: 0; z-index: 100; }
+    header .inner { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+    .logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.2rem; }
+    .logo-badge { background: var(--red); color: white; width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: 900; }
+    nav.main-nav a { margin-left: 18px; font-weight: 700; font-size: 0.9rem; color: var(--muted); }
+    nav.main-nav a:hover, nav.main-nav a.active { color: var(--red); }
+    .hero-banner {
+      margin: 28px 0;
+      padding: 32px 28px;
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 60%, #7f1d1d 100%);
+      border-radius: 14px;
+      color: white;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    }
+    .hero-kicker { color: #f87171; font-weight: 900; font-size: 0.82rem; letter-spacing: 0.5px; margin-bottom: 6px; text-transform: uppercase; }
+    .hero-title { font-size: 2.2rem; font-weight: 900; line-height: 1.15; margin-bottom: 12px; }
+    .hero-desc { font-size: 1rem; color: #cbd5e1; max-width: 720px; line-height: 1.5; }
+    .service-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin: 24px 0 36px; }
+    .service-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+    }
+    .service-box h3 { font-size: 1.05rem; font-weight: 800; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+    .service-box p { font-size: 0.88rem; color: var(--muted); line-height: 1.45; margin-bottom: 14px; }
+    .service-btn { display: inline-flex; align-items: center; font-size: 0.82rem; font-weight: 800; color: var(--red); }
+    .section-title { font-size: 1.5rem; font-weight: 900; margin-bottom: 16px; border-bottom: 2px solid var(--border); padding-bottom: 8px; display: flex; justify-content: space-between; align-items: center; }
+    .bezirke-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 44px; }
+    .bezirk-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      position: relative;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .bezirk-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,0.08); border-color: var(--red); }
+    .bezirk-icon { font-size: 1.6rem; }
+    .bezirk-info h3 { font-size: 0.95rem; font-weight: 800; }
+    .bezirk-info p { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
+    .bezirk-badge { position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.04); font-size: 0.65rem; font-weight: 800; padding: 2px 6px; border-radius: 4px; color: var(--muted); }
+    footer { background: var(--dark); color: #cbd5e1; padding: 40px 0 20px; margin-top: 60px; font-size: 0.85rem; }
+    footer a { color: #cbd5e1; }
+    footer a:hover { color: white; }
+    @media (max-width: 900px) {
+      .service-grid { grid-template-columns: 1fr; }
+      .bezirke-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 600px) {
+      .bezirke-grid { grid-template-columns: 1fr; }
+      .hero-title { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="inner">
+      <span>📍 Berlin Spezial &middot; Hauptstadt-Portal</span>
+      <div class="top-links">
+        <a href="/nachrichten/">Deutschland Nachrichten</a>
+        <a href="/news/">US News</a>
+        <a href="/">TR Nachrichten</a>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="inner">
+      <a href="/berlin/" class="logo">
+        <div class="logo-badge">B</div>
+        <span>Mansetradar <strong>Berlin</strong></span>
+      </a>
+      <nav class="main-nav">
+        <a href="/nachrichten/">Startseite</a>
+        <a href="/berlin/" class="active">Berlin Desk</a>
+        <a href="#dienste">Dienste</a>
+        <a href="#bezirke">12 Bezirke</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero-banner">
+      <div class="hero-kicker">Hauptstadt Desk &amp; Lokale Services</div>
+      <h1 class="hero-title">Berlin Kompakt: 12 Bezirke, Live-Verkehr &amp; Notdienste</h1>
+      <p class="hero-desc">Verfolgen Sie Echtzeit-Meldungen aus allen Berliner Bezirken, aktuelle Störungen der BVG und S-Bahn Berlin sowie den täglichen Notdienstapotheken-Finder.</p>
+    </section>
+
+    <section id="dienste" class="service-grid">
+      <div class="service-box" id="verkehr">
+        <h3>🚇 BVG &amp; S-Bahn Live</h3>
+        <p>Echtzeit-Meldungen zu U-Bahn, S-Bahn, Tram und Bus. Fahrplanänderungen und Baustellenübersicht für das gesamte Berliner Stadtgebiet.</p>
+        <a href="https://www.bvg.de/de/verbindungen/stoerungsmeldungen" target="_blank" rel="noopener" class="service-btn">BVG Störungsmeldungen ansehen →</a>
+      </div>
+      <div class="service-box" id="apotheken">
+        <h3>💊 Notdienst-Apotheken</h3>
+        <p>Apotheken-Notdienst für die Nacht und das Wochenende in Berlin. Finden Sie geöffnete Notapotheken in Ihrer direkten Umgebung.</p>
+        <a href="https://www.akberlin.de/notdienst.html" target="_blank" rel="noopener" class="service-btn">Apotheken-Notdienst Berlin abrufen →</a>
+      </div>
+      <div class="service-box" id="wetter">
+        <h3>🌦️ Berliner Wetter &amp; Luft</h3>
+        <p>Aktuelle Wetterbedingungen, Luftqualitätsindex (LQI) und 3-Tage-Vorhersage für Berlin Mitte und alle Umlandbezirke.</p>
+        <a href="/weather.html?city=Berlin" class="service-btn">Berlin Wetterbericht aufrufen →</a>
+      </div>
+    </section>
+
+    <div class="section-title" id="bezirke">
+      <span>12 Berliner Bezirke im Überblick</span>
+      <span style="font-size:0.85rem; font-weight:600; color:var(--muted);">Alle Verwaltungsbezirke</span>
+    </div>
+    <section class="bezirke-grid">
+      
+        <div class="bezirk-card" data-bezirk="mitte">
+          <div class="bezirk-icon">🏛️</div>
+          <div class="bezirk-info">
+            <h3>Mitte</h3>
+            <p>Mitte, Tiergarten, Wedding</p>
+          </div>
+          <span class="bezirk-badge">Bezirk</span>
+        </div>
+        <div class="bezirk-card" data-bezirk="friedrichshain-kreuzberg">
+          <div class="bezirk-icon">🎨</div>
+          <div class="bezirk-info">
+            <h3>Friedrichshain-Kreuzberg</h3>
+            <p>Friedrichshain, Kreuzberg</p>
+          </div>
+          <span class="bezirk-badge">Bezirk</span>
+        </div>
+        <div class="bezirk-card" data-bezirk="pankow">
+          <div class="bezirk-icon">🌳</div>
+          <div class="bezirk-info">
+            <h3>Pankow</h3>
+            <p>Prenzlauer Berg, Pankow, Weißensee</p>
+          </div>
+          <span class="bezirk-badge">Bezirk</span>
+        </div>
+        <div class="bezirk-card" data-bezirk="charlottenburg-wilmersdorf">
+          <div class="bezirk-icon">🛍️</div>
+          <div class="bezirk-info">
+            <h3>Charlottenburg-Wilmersdorf</h3>
+            <p>City West, Charlottenburg, Wilmersdorf</p>
+          </div>
+          <span class="bezirk-badge">Bezirk</span>
+        </div>
+        <div class="bezirk-card" data-bezirk="spandau">
+          <div class="bezirk-icon">🏰</div>
+          <div class="bezirk-info">
+            <h3>Spandau</h3>
+            <p>Spandau, Haselhorst, Siemensstadt</p>
+          </div>
+          <span class="bezirk-badge">Bezirk</span>
+        </div>
+        <div class="bezirk-card" data-bezirk="steglitz-zehlendorf">
+          <div class="bezirk-icon">🎓</div>
+          <div class="bezirk-info">
+            <h3>Steglitz-Zehlendorf</h3>
+            <p>Steglitz, Zehlendorf, Dahlem, Wannsee</p>
+          </div>
+          <span class="bezirk-badge">Bezirk</span>
+        </div>
+        <div class="bezirk-card" data-bezirk="tempelhof-schöneberg">
+          <div class="bezirk-icon">✈️</div>
+          <div class="bezirk-info">
+            <h3>Tempelhof-Schöneberg</h3>
+            <p>Schöneberg, Tempelhof, Mariendorf</p>
+          </div>
+          <span class="bezirk-badge">Bezirk</span>
+        </div>
+        <div class="bezirk-card" data-bezirk="neukölln">
+          <div class="bezirk-icon">🎭</div>
+          <div class="bezirk-info">
+            <h3>Neukölln</h3>
+            <p>Neukölln, Britz, Buckow, Rudow</p>
+          </div>
+          <span class="bezirk-badge">Bezirk</span>
+        </div>
+        <div class="bezirk-card" data-bezirk="treptow-köpenick">
+          <div class="bezirk-icon">⛵</div>
+          <div class="bezirk-info">
+            <h3>Treptow-Köpenick</h3>
+            <p>Köpenick, Treptow, Müggelsee</p>
+          </div>
+          <span class="bezirk-badge">Bezirk</span>
+        </div>
+        <div class="bezirk-card" data-bezirk="marzahn-hellersdorf">
+          <div class="bezirk-icon">🌸</div>
+          <div class="bezirk-info">
+            <h3>Marzahn-Hellersdorf</h3>
+            <p>Marzahn, Hellersdorf, Biesdorf</p>
+          </div>
+          <span class="bezirk-badge">Bezirk</span>
+        </div>
+        <div class="bezirk-card" data-bezirk="lichtenberg">
+          <div class="bezirk-icon">🏢</div>
+          <div class="bezirk-info">
+            <h3>Lichtenberg</h3>
+            <p>Lichtenberg, Friedrichsfelde, Karlshorst</p>
+          </div>
+          <span class="bezirk-badge">Bezirk</span>
+        </div>
+        <div class="bezirk-card" data-bezirk="reinickendorf">
+          <div class="bezirk-icon">✈️</div>
+          <div class="bezirk-info">
+            <h3>Reinickendorf</h3>
+            <p>Tegel, Reinickendorf, Wittenau</p>
+          </div>
+          <span class="bezirk-badge">Bezirk</span>
+        </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:20px;">
+      <div>
+        <strong>mansetradar.com.tr &middot; Berlin Spezial</strong>
+        <p style="margin-top:6px; color:#94a3b8;">Unabhängiger Qualitätsjournalismus und Stadtportal für Berlin.</p>
+      </div>
+      <div>
+        <a href="/nachrichten/">Deutschland Nachrichten</a> &middot;
+        <a href="/berlin/">Berlin Portal</a> &middot;
+        <a href="/news/">US News</a> &middot;
+        <a href="/">TR Nachrichten</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

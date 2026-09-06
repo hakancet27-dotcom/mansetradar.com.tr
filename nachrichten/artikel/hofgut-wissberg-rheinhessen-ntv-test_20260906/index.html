@@ -241,7 +241,7 @@
       <nav aria-label="Article navigation">
         <a href="../">Startseite</a>
         <a class="active" href="../">Deutschland Nachrichten</a>
-        <button id="theme-toggle" class="tool-btn" type="button" aria-label="Karanlık/Aydınlık Tema" title="Karanlık / Aydınlık Mod" style="margin-left: 8px;">
+        <button id="theme-toggle" class="tool-btn" type="button" aria-label="Dunkel-/Hell-Modus" title="Dunkel-/Hell-Modus" style="margin-left: 8px;">
           <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
         </button>
       </nav>
@@ -258,9 +258,7 @@
         <div class="article-meta">
           <span class="meta-tag">DE Deutschland</span>
           <span class="meta-trust">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-            Doğrulanmış
-          </span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>Verifiziert</span>
           <span class="meta-time">2 Min. Lesezeit</span>
           <span>&middot;</span>
           <span>06.09.2026</span>
@@ -273,26 +271,26 @@
         <div class="author-info-wrapper">
           <div class="author-avatar-badge">MR</div>
           <div class="author-info">
-            <strong>ManşetRadar Editoryal Masası</strong>
-            <p>Bağımsız doğrulama yönergelerine uygundur. <a href="/yayin-ilkeleri/">Yayın İlkeleri</a></p>
+            <strong>Mansetradar Redaktion</strong>
+            <p>Entspricht unabhängigen Verifizierungsrichtlinien. <a href="/nachrichten/">Redaktionelle Richtlinien</a></p>
           </div>
         </div>
         <div class="article-tools">
-          <button id="btn-listen-article" type="button" class="tool-btn btn-text" aria-label="Haberi sesli dinle" title="Haberi sesli dinle">
-            <span class="audio-icon">🔊</span> <span class="audio-text">Dinle</span>
+          <button id="btn-listen-article" type="button" class="tool-btn btn-text" aria-label="Artikel vorlesen" title="Artikel vorlesen">
+            <span class="audio-icon">🔊</span> <span class="audio-text">Anhören</span>
           </button>
-          <button id="btn-font-dec" class="tool-btn" type="button" aria-label="Yazıyı küçült" title="Yazı Boyutunu Küçült">A-</button>
-          <button id="btn-font-inc" class="tool-btn" type="button" aria-label="Yazıyı büyüt" title="Yazı Boyutunu Büyüt">A+</button>
+          <button id="btn-font-dec" class="tool-btn" type="button" aria-label="Schrift verkleinern" title="Schrift verkleinern">A-</button>
+          <button id="btn-font-inc" class="tool-btn" type="button" aria-label="Schrift vergrößern" title="Schrift vergrößern">A+</button>
           <a class="tool-btn" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F09%2Fhofgut-wissberg-rheinhessen-ntv-test_20260906%2F&text=Rathgeber+Fine+Hotels%3A+Hofgut+Wi%C3%9Fberg+%C3%BCberzeugt+weiterhin" aria-label="X">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg>
           </a>
-          <button id="btn-copy-link" class="tool-btn" type="button" aria-label="Bağlantıyı Kopyala" title="Bağlantıyı Kopyala">
+          <button id="btn-copy-link" class="tool-btn" type="button" aria-label="Link kopieren" title="Link kopieren">
             <svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
           </button>
         </div>
       </div>
 
-      {image_html.replace('</figure>', f'<figcaption>Blick auf das Hofgut Wißberg in Rheinhessen, umgeben von Weinbergen und sanften Hügeln. &mdash; Fotoğraf: mansetradar.com.tr</figcaption></figure>') if image_html else ''}
+      {image_html.replace('</figure>', f'<figcaption>Blick auf das Hofgut Wißberg in Rheinhessen, umgeben von Weinbergen und sanften Hügeln. &mdash; Foto: mansetradar.com.tr</figcaption></figure>') if image_html else ''}
       
       
       <div class="article-takeaways" aria-label="Wichtige Punkte">
@@ -302,7 +300,7 @@
       
       
       <div class="article-body">
-        <h2>Önemli Gelişmeler</h2><p>Der Autor einer n-tv-Kolumne hat das "Hofgut Wißberg" in Rheinhessen einer erneuten Prüfung unterzogen, nachdem es im Frühjahr 2026 das begehrte Gütesiegel "Fine Hotels ntv" erhalten hatte. Mit besonders hohen Erwartungen reiste der Autor an, um festzustellen, ob das Haus in der malerischen "Toskana Deutschlands" seinen Ruf weiterhin verdient. Das Ergebnis ist eindeutig: Das Hotel überzeugt auf ganzer Linie.</p><p>Die unvergleichliche Alleinlage des Hofguts auf dem Wißberg im Örtchen St. Johann, hoch über den rheinhessischen Rebhängen, wird als preiswürdig hervorgehoben. Von hier aus, etwa 30 Kilometer von Mainz und 25 Kilometer von Bingen am Rhein entfernt, bietet sich ein grandioser Blick über Felder, Weinberge und sanfte Hügel. Ursprünglich 1996 als Golfhotel Rheinhessen eröffnet, wurde das Anwesen zwischen 2020 und 2023 schrittweise zu einem Boutiquehotel umgestaltet und erhielt dabei seinen heutigen Namen.</p><p>Die gerade einmal 23 Zimmer, Studios und Suiten sind sämtlich sehr individuell und mit mediterraner Leichtigkeit gestaltet. Feine optische Akzente setzen an den Wänden Naturmotive wie farbenfrohe Blumenwiesen, mystisch anmutende Nebellandschaften oder sattgrüne Wälder. Die größte Unterkunft ist eine 67 Quadratmeter große Maisonette-Suite auf zwei Etagen. Die Preise beginnen bei 193 Euro für Doppelzimmer, 260 Euro für Studios und 295 Euro für die Maisonette-Suite.</p><p>Neben den Unterkünften wurden auch alle öffentlichen Bereiche modernisiert und komplett neu gestaltet, darunter drei moderne Tagungsräume mit Platz für bis zu 50 Personen. Für private Feiern kann der Veranstaltungsbereich auf das gesamte Außengelände erweitert werden. Als Herzstück des Hauses wird die Lobby mit ihren gemütlichen Hängesesseln beschrieben. Der Autor lobt zudem die gelebte Gastfreundschaft und den sehr aufmerksamen Service, der ihn während des gesamten Aufenthalts begleitete.</p><h2>Öne Çıkan Noktalar</h2><ul><li>Das "Hofgut Wißberg" in Rheinhessen bestätigt nach seiner Auszeichnung mit dem "Fine Hotels ntv"-Siegel seine hohe Qualität in Zimmern, Ausblick und Service.</li><li>Das Boutiquehotel besticht durch seine einzigartige Alleinlage auf dem Wißberg mit grandioser Aussicht und individuell gestalteten Zimmern im mediterranen Stil.</li><li>Neben modernisierten öffentlichen Bereichen und Tagungsräumen wird besonders die herzliche Gastfreundschaft und der aufmerksame Service hervorgehoben.</li></ul><h2>Neden Önemli?</h2><p>Die erneute Bestätigung der Qualität des "Hofgut Wißberg" durch einen unabhängigen n-tv-Autor unterstreicht die Bedeutung von kontinuierlicher Exzellenz in der Hotellerie, selbst nach Erhalt einer renommierten Auszeichnung. Es zeigt, dass das Hotel nicht auf seinen Lorbeeren ruht, sondern weiterhin ein herausragendes Erlebnis für seine Gäste bietet. Dies ist ein wichtiges Signal für Reisende, die auf der Suche nach besonderen Unterkünften in der Region Rheinhessen sind, und bestätigt den Wert des "Fine Hotels ntv"-Gütesiegels als Indikator für hohe Standards.</p>
+        <h2>Wichtige Entwicklungen</h2><p>Der Autor einer n-tv-Kolumne hat das "Hofgut Wißberg" in Rheinhessen einer erneuten Prüfung unterzogen, nachdem es im Frühjahr 2026 das begehrte Gütesiegel "Fine Hotels ntv" erhalten hatte. Mit besonders hohen Erwartungen reiste der Autor an, um festzustellen, ob das Haus in der malerischen "Toskana Deutschlands" seinen Ruf weiterhin verdient. Das Ergebnis ist eindeutig: Das Hotel überzeugt auf ganzer Linie.</p><p>Die unvergleichliche Alleinlage des Hofguts auf dem Wißberg im Örtchen St. Johann, hoch über den rheinhessischen Rebhängen, wird als preiswürdig hervorgehoben. Von hier aus, etwa 30 Kilometer von Mainz und 25 Kilometer von Bingen am Rhein entfernt, bietet sich ein grandioser Blick über Felder, Weinberge und sanfte Hügel. Ursprünglich 1996 als Golfhotel Rheinhessen eröffnet, wurde das Anwesen zwischen 2020 und 2023 schrittweise zu einem Boutiquehotel umgestaltet und erhielt dabei seinen heutigen Namen.</p><p>Die gerade einmal 23 Zimmer, Studios und Suiten sind sämtlich sehr individuell und mit mediterraner Leichtigkeit gestaltet. Feine optische Akzente setzen an den Wänden Naturmotive wie farbenfrohe Blumenwiesen, mystisch anmutende Nebellandschaften oder sattgrüne Wälder. Die größte Unterkunft ist eine 67 Quadratmeter große Maisonette-Suite auf zwei Etagen. Die Preise beginnen bei 193 Euro für Doppelzimmer, 260 Euro für Studios und 295 Euro für die Maisonette-Suite.</p><p>Neben den Unterkünften wurden auch alle öffentlichen Bereiche modernisiert und komplett neu gestaltet, darunter drei moderne Tagungsräume mit Platz für bis zu 50 Personen. Für private Feiern kann der Veranstaltungsbereich auf das gesamte Außengelände erweitert werden. Als Herzstück des Hauses wird die Lobby mit ihren gemütlichen Hängesesseln beschrieben. Der Autor lobt zudem die gelebte Gastfreundschaft und den sehr aufmerksamen Service, der ihn während des gesamten Aufenthalts begleitete.</p><h2>Zentrale Punkte</h2><ul><li>Das "Hofgut Wißberg" in Rheinhessen bestätigt nach seiner Auszeichnung mit dem "Fine Hotels ntv"-Siegel seine hohe Qualität in Zimmern, Ausblick und Service.</li><li>Das Boutiquehotel besticht durch seine einzigartige Alleinlage auf dem Wißberg mit grandioser Aussicht und individuell gestalteten Zimmern im mediterranen Stil.</li><li>Neben modernisierten öffentlichen Bereichen und Tagungsräumen wird besonders die herzliche Gastfreundschaft und der aufmerksame Service hervorgehoben.</li></ul><h2>Warum das wichtig ist</h2><p>Die erneute Bestätigung der Qualität des "Hofgut Wißberg" durch einen unabhängigen n-tv-Autor unterstreicht die Bedeutung von kontinuierlicher Exzellenz in der Hotellerie, selbst nach Erhalt einer renommierten Auszeichnung. Es zeigt, dass das Hotel nicht auf seinen Lorbeeren ruht, sondern weiterhin ein herausragendes Erlebnis für seine Gäste bietet. Dies ist ein wichtiges Signal für Reisende, die auf der Suche nach besonderen Unterkünften in der Region Rheinhessen sind, und bestätigt den Wert des "Fine Hotels ntv"-Gütesiegels als Indikator für hohe Standards.</p>
       </div>
       
       <p class="article-source"><strong>Quelle:</strong> n-tv.de</p>
@@ -321,7 +319,7 @@
       
       <div class="article-footer-sections">
         
-        <section class="article-comments" aria-label="article-comments"><h2>Kommentare</h2><form id="comment-form" class="comment-form"><input id="comment-name" type="text" maxlength="40" placeholder="Ad Soyad"><textarea id="comment-text" rows="4" maxlength="700" placeholder="Schreibe deinen Kommentar"></textarea><button type="submit">Kommentar senden</button></form><div id="comment-list" class="comment-list"></div></section>
+        <section class="article-comments" aria-label="article-comments"><h2>Kommentare</h2><form id="comment-form" class="comment-form"><input id="comment-name" type="text" maxlength="40" placeholder="Name"><textarea id="comment-text" rows="4" maxlength="700" placeholder="Schreibe deinen Kommentar"></textarea><button type="submit">Kommentar senden</button></form><div id="comment-list" class="comment-list"></div></section>
       </div>
     </article>
   </main>
@@ -349,7 +347,7 @@
       }
       form.addEventListener('submit', (e) => {
         e.preventDefault();
-        const name = document.getElementById('comment-name').value.trim() || 'Misafir Okur';
+        const name = document.getElementById('comment-name').value.trim() || 'Gast';
         const text = document.getElementById('comment-text').value.trim();
         if (!text) return;
         const rows = JSON.parse(localStorage.getItem(key) || '[]');
@@ -382,7 +380,7 @@
           isPlaying = false;
           const txt = btn.querySelector('.audio-text');
           const ico = btn.querySelector('.audio-icon');
-          if (txt) txt.textContent = 'Dinle';
+          if (txt) txt.textContent = 'Anhören';
           if (ico) ico.textContent = '🔊';
           return;
         }
@@ -399,14 +397,14 @@
           isPlaying = false;
           const txt = btn.querySelector('.audio-text');
           const ico = btn.querySelector('.audio-icon');
-          if (txt) txt.textContent = 'Dinle';
+          if (txt) txt.textContent = 'Anhören';
           if (ico) ico.textContent = '🔊';
         };
         window.speechSynthesis.speak(utterance);
         isPlaying = true;
         const txt = btn.querySelector('.audio-text');
         const ico = btn.querySelector('.audio-icon');
-        if (txt) txt.textContent = 'Durdur';
+        if (txt) txt.textContent = 'Stoppen';
         if (ico) ico.textContent = '⏹️';
       });
     })();
