@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-06T00:00:00+00:00",
-    "article_count": 1334,
+    "article_count": 1335,
     "schema_version": 2
   },
   "articles": [
@@ -125,6 +125,44 @@
         "Magazin Haberleri"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/09:remembering-911-personal-accounts-reveal-lasting-marks-25-years-later_20260906",
+      "slug": "remembering-911-personal-accounts-reveal-lasting-marks-25-years-later_20260906",
+      "title": "Remembering 9/11: Personal Accounts Reveal Lasting Marks 25 Years Later",
+      "summary": "As the 25th anniversary of September 11 approaches, survivors, responders, and family members are reflecting on the personal impacts of the attacks at the World Trade Center, the Pentagon, and Shanksville, Pennsylvania.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "06.09.2026",
+      "date_iso": "2026-09-06",
+      "url": "/news/articles/2026/09/remembering-911-personal-accounts-reveal-lasting-marks-25-years-later_20260906/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/remembering-911-personal-accounts-reveal-lasting-marks-25-years-later_20260906/",
+      "detail_json_url": "/data/details/news/articles/2026/09/remembering-911-personal-accounts-reveal-lasting-marks-25-years-later_20260906.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/remembering-911-personal-accounts-reveal-lasting-marks-25-years-later_20260906.webp",
+      "image_alt": "A serene memorial field reflecting quiet remembrance 25 years after September 11.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/remembering-911-personal-accounts-reveal-lasting-marks-25-years-later_20260906.webp",
+        "alt": "A serene memorial field reflecting quiet remembrance 25 years after September 11."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/remembering-911-where-tragedy-left-its-marks/",
+      "tags": [
+        "September 11",
+        "World Trade Center",
+        "Pentagon",
+        "Flight 93",
+        "9/11 Anniversary"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
