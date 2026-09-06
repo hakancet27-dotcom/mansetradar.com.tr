@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T13:49:35.511Z",
+  "updatedAt": "2026-09-06T16:33:02.624Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
@@ -562,20 +562,20 @@
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-09-06T13:49:35.511Z",
+      "updatedAt": "2026-09-06T16:33:02.624Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
           "position": 1,
           "team": "Barcelona",
-          "played": 3,
-          "won": 3,
+          "played": 4,
+          "won": 4,
           "draw": 0,
           "lost": 0,
-          "goalsFor": 12,
+          "goalsFor": 17,
           "goalsAgainst": 2,
-          "points": 9,
-          "goalDifference": 10,
+          "points": 12,
+          "goalDifference": 15,
           "logo": "https://im.mackolik.com/img/logo/kucuk/83.gif",
           "form": []
         },
@@ -805,20 +805,6 @@
         },
         {
           "position": 18,
-          "team": "Valencia",
-          "played": 3,
-          "won": 0,
-          "draw": 1,
-          "lost": 2,
-          "goalsFor": 1,
-          "goalsAgainst": 4,
-          "points": 1,
-          "goalDifference": -3,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/80.gif",
-          "form": []
-        },
-        {
-          "position": 19,
           "team": "Elche",
           "played": 3,
           "won": 0,
@@ -832,7 +818,7 @@
           "form": []
         },
         {
-          "position": 20,
+          "position": 19,
           "team": "Malaga",
           "played": 3,
           "won": 0,
@@ -843,6 +829,20 @@
           "points": 1,
           "goalDifference": -6,
           "logo": "https://im.mackolik.com/img/logo/kucuk/78.gif",
+          "form": []
+        },
+        {
+          "position": 20,
+          "team": "Valencia",
+          "played": 4,
+          "won": 0,
+          "draw": 1,
+          "lost": 3,
+          "goalsFor": 1,
+          "goalsAgainst": 9,
+          "points": 1,
+          "goalDifference": -8,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/80.gif",
           "form": []
         }
       ],

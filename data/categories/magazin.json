@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-06T00:00:00+00:00",
-    "article_count": 1351,
+    "article_count": 1356,
     "schema_version": 2,
     "category_slug": "magazin",
     "type": "category"
@@ -132,6 +132,83 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/09:oyuncu-serhat-kilic-evinde-olu-bulundu-sevgilisinden-yurek-burkan-veda_20260906",
+      "slug": "oyuncu-serhat-kilic-evinde-olu-bulundu-sevgilisinden-yurek-burkan-veda_20260906",
+      "title": "Oyuncu Serhat Kılıç Evinde Ölü Bulundu: Sevgilisinden Yürek Burkan Veda",
+      "summary": "Ünlü oyuncu Serhat Kılıç, 6 Eylül 2026 tarihinde Nurtepe Mahallesi'ndeki evinde kız arkadaşı Özlem Esmergül tarafından ölü bulundu. Perşembe gününden bu yana haber alamadığı Kılıç'ın evine giren Esmergül, oyuncuyu hareketsiz halde buldu. Sağlık ekipleri Kıl...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "06.09.2026",
+      "date_iso": "2026-09-06",
+      "url": "/articles/2026/09/oyuncu-serhat-kilic-evinde-olu-bulundu-sevgilisinden-yurek-burkan-veda_20260906/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/oyuncu-serhat-kilic-evinde-olu-bulundu-sevgilisinden-yurek-burkan-veda_20260906/",
+      "detail_json_url": "/data/details/articles/2026/09/oyuncu-serhat-kilic-evinde-olu-bulundu-sevgilisinden-yurek-burkan-veda_20260906.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/oyuncu-serhat-kilic-evinde-olu-bulundu-sevgilisinden-yurek-burkan-veda_20260906.webp",
+      "image_alt": "Oyuncu Serhat Kılıç Evinde Ölü Bulundu: Sevgilisinden Yürek Burkan Veda",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/oyuncu-serhat-kilic-evinde-olu-bulundu-sevgilisinden-yurek-burkan-veda_20260906.webp",
+        "alt": "Oyuncu Serhat Kılıç Evinde Ölü Bulundu: Sevgilisinden Yürek Burkan Veda"
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/magazin/serhat-kilicin-sevgilisi-ozlem-esmergulden-yurek-yakan-veda-yine-seni-bulacagim-7655571",
+      "tags": [
+        "Serhat Kılıç",
+        "Özlem Esmergül",
+        "Oyuncu ölümü",
+        "Magazin haberleri",
+        "Lenf kanseri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:misirli-sunucu-sarah-khalifaya-idam-cezasi-kesinlesti_20260906",
+      "slug": "misirli-sunucu-sarah-khalifaya-idam-cezasi-kesinlesti_20260906",
+      "title": "Mısırlı Sunucu Sarah Khalifa'ya İdam Cezası Kesinleşti",
+      "summary": "Mısır'da, \"Görevimiz Tehlike\" programıyla tanınan televizyon sunucusu Sarah Khalifa'nın da aralarında bulunduğu 12 sanık hakkında uyuşturucu kaçakçılığı ve tecavüz suçlarından verilen idam cezası, Başmüftü'nün görüşünün ardından kesinleşti.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "06.09.2026",
+      "date_iso": "2026-09-06",
+      "url": "/articles/2026/09/misirli-sunucu-sarah-khalifaya-idam-cezasi-kesinlesti_20260906/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/misirli-sunucu-sarah-khalifaya-idam-cezasi-kesinlesti_20260906/",
+      "detail_json_url": "/data/details/articles/2026/09/misirli-sunucu-sarah-khalifaya-idam-cezasi-kesinlesti_20260906.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/misirli-sunucu-sarah-khalifaya-idam-cezasi-kesinlesti_20260906.webp",
+      "image_alt": "Mısırlı televizyon sunucusu Sarah Khalifa'nın idam cezası kararı",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/misirli-sunucu-sarah-khalifaya-idam-cezasi-kesinlesti_20260906.webp",
+        "alt": "Mısırlı televizyon sunucusu Sarah Khalifa'nın idam cezası kararı"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/misirli-televizyon-sunucusuna-idam-cezasi-43298021",
+      "tags": [
+        "Mısır",
+        "Sarah Khalifa",
+        "İdam Cezası",
+        "Uyuşturucu Kaçakçılığı",
+        "Tecavüz",
+        "Hukuk"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/09:meli-bendeli-tutuklandi-cinsel-icerikli-yayin-suclamasi_20260906",
       "slug": "meli-bendeli-tutuklandi-cinsel-icerikli-yayin-suclamasi_20260906",
       "title": "Meli Bendeli Tutuklandı: Cinsel İçerikli Yayın Suçlamasıyla Cezaevine Gönderildi",
@@ -170,6 +247,44 @@
         "magazin"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:itir-esen-ile-engin-aykanat-nisanlandi_20260906",
+      "slug": "itir-esen-ile-engin-aykanat-nisanlandi_20260906",
+      "title": "Itır Esen ile Engin Aykanat Nişanlandı: Yüzük Detayı Dikkat Çekti",
+      "summary": "Model ve oyuncu Itır Esen, Engin Aykanat ile aileleri ve yakın dostlarının katıldığı törenle nişanlandı. Geleneklere uygun gerçekleşen törende nişan yüzüklerini Çağatay Ulusoy’un taktığı iddia edildi.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "magazin",
+      "topic_label": "Magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "06.09.2026",
+      "date_iso": "2026-09-06",
+      "url": "/articles/2026/09/itir-esen-ile-engin-aykanat-nisanlandi_20260906/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/itir-esen-ile-engin-aykanat-nisanlandi_20260906/",
+      "detail_json_url": "/data/details/articles/2026/09/itir-esen-ile-engin-aykanat-nisanlandi_20260906.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/itir-esen-ile-engin-aykanat-nisanlandi_20260906.webp",
+      "image_alt": "Itır Esen ve Engin Aykanat nişan töreninden detaylar",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/itir-esen-ile-engin-aykanat-nisanlandi_20260906.webp",
+        "alt": "Itır Esen ve Engin Aykanat nişan töreninden detaylar"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/hayat/itir-esen-ile-engin-aykanat-nisanlandi-43297929",
+      "tags": [
+        "Itır Esen",
+        "Engin Aykanat",
+        "Çağatay Ulusoy",
+        "Aslıhan Malbora",
+        "Magazin"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -214,6 +329,47 @@
         "İstanbul"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:akhisar-ceza-konseri-kurtulus-coskusu_20260906",
+      "slug": "akhisar-ceza-konseri-kurtulus-coskusu_20260906",
+      "title": "Akhisar'da Ceza Konseriyle Kurtuluş Coşkusu",
+      "summary": "Akhisar'ın düşman işgalinden kurtuluşunun yıl dönümü kutlamaları kapsamında düzenlenen konserde, ünlü rap sanatçısı Ceza sahne aldı. Binlerce Akhisarlı, sevilen şarkılar eşliğinde unutulmaz bir gece yaşadı. Konsere Akhisar Belediye Başkanı Ekrem Kayserili v...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "06.09.2026",
+      "date_iso": "2026-09-06",
+      "url": "/articles/2026/09/akhisar-ceza-konseri-kurtulus-coskusu_20260906/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/akhisar-ceza-konseri-kurtulus-coskusu_20260906/",
+      "detail_json_url": "/data/details/articles/2026/09/akhisar-ceza-konseri-kurtulus-coskusu_20260906.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/akhisar-ceza-konseri-kurtulus-coskusu_20260906.webp",
+      "image_alt": "Binlerce kişinin doldurduğu Akhisar konser alanında sahne alan rap sanatçısı Ceza, kutlamalara renk kattı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/akhisar-ceza-konseri-kurtulus-coskusu_20260906.webp",
+        "alt": "Binlerce kişinin doldurduğu Akhisar konser alanında sahne alan rap sanatçısı Ceza, kutlamalara renk kattı."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/magazin/akhisarda-ceza-coskusu-binlerce-kisi-konser-alanini-doldurdu-7655531",
+      "tags": [
+        "Akhisar",
+        "Ceza",
+        "Konser",
+        "Kurtuluş Günü",
+        "Magazin",
+        "Beylikdüzü",
+        "Beylikdüzü haberleri",
+        "İstanbul"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
