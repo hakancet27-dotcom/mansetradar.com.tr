@@ -45,14 +45,6 @@
   "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/berlin-gedenkbaum-csd-anschlag-herausgerissen_20260906.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "source_provided",
-  "image_license_note": "RSS source image: tagesschau.de - Die Nachrichten der ARD",
-  "image_source_url": "https://www.tagesschau.de/inland/regional/berlin/gedenkbaum-csd-anschlag-herausgerissen-100.html",
-  "image_provider": "rss",
-  "image_score": 78,
-  "image_query": "Berlin: Gedenkbaum für Opfer des CSD-Anschlags herausgerissen",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "Unbekannte Täter haben in der Nacht zu Sonntag im Berliner Tiergarten einen neu gepflanzten Gedenkbaum für die Opfer des mutmaßlich islamistischen CSD-Anschlags aus der Erde gerissen. Auch das schützende Metallgitter sowie abgelegte Kerzen und Bilder wurden beschädigt. Der polizeiliche Staatsschutz hat die Ermittlungen aufgenommen, während die Politik empört reagiert und den Wiederaufbau ankündigt.",
   "language": "German",
   "url_prefix": "nachrichten/artikel/2026/09",
@@ -74,10 +66,7 @@
   ],
   "quality_word_count": 350,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.tagesschau.de/image/2d8d042f-5fbf-44c4-a9b6-b9e1eb9c5d2f/AAABoHcKXSg/AAABnSSvrFg/16x9-big/rbb-gedenkbaum-csd-beschaedigt-100.jpg?width=1920",
-  "original_image_url": "https://images.tagesschau.de/image/2d8d042f-5fbf-44c4-a9b6-b9e1eb9c5d2f/AAABoHcKXSg/AAABnSSvrFg/16x9-big/rbb-gedenkbaum-csd-beschaedigt-100.jpg?width=1920",
-  "image_local_webp": "nachrichten/artikel/2026/09/images/berlin-gedenkbaum-csd-anschlag-herausgerissen_20260906.webp",
-  "image_credit": "tagesschau.de",
-  "image_credit_url": "https://www.tagesschau.de/inland/regional/berlin/gedenkbaum-csd-anschlag-herausgerissen-100.html",
-  "image_finalized_at": "2026-09-06T17:30:02.318753Z"
+  "time": "14:30",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }
