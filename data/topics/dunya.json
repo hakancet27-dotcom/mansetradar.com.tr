@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-07T00:00:00+00:00",
-    "article_count": 1394,
+    "article_count": 1401,
     "schema_version": 2,
     "topic_slug": "dunya",
     "type": "topic"
@@ -48,6 +48,45 @@
         "Yeni Model"
       ],
       "quality_score": 90,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:kaan-projesi-hiz-kesmiyor-suudi-arabistan-iddiasi_20260907",
+      "slug": "kaan-projesi-hiz-kesmiyor-suudi-arabistan-iddiasi_20260907",
+      "title": "KAAN Projesi Hız Kesmiyor: Suudi Arabistan İddiası Gündemde",
+      "summary": "Türkiye'nin milli muharip uçağı KAAN, prototip uçuşları ve taksi testleriyle uluslararası savunma çevrelerinde dikkat çekmeye devam ediyor. Yerli motor hedefleriyle stratejik bağımsızlık yolunda ilerleyen KAAN için Arap basınından Suudi Arabistan'ın program...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "07.09.2026",
+      "date_iso": "2026-09-07",
+      "url": "/articles/2026/09/kaan-projesi-hiz-kesmiyor-suudi-arabistan-iddiasi_20260907/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/kaan-projesi-hiz-kesmiyor-suudi-arabistan-iddiasi_20260907/",
+      "detail_json_url": "/data/details/articles/2026/09/kaan-projesi-hiz-kesmiyor-suudi-arabistan-iddiasi_20260907.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/kaan-projesi-hiz-kesmiyor-suudi-arabistan-iddiasi_20260907.webp",
+      "image_alt": "KAAN Projesi Hız Kesmiyor: Suudi Arabistan İddiası Gündemde",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/kaan-projesi-hiz-kesmiyor-suudi-arabistan-iddiasi_20260907.webp",
+        "alt": "KAAN Projesi Hız Kesmiyor: Suudi Arabistan İddiası Gündemde"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/turkiye-kaan-projesine-hiz-verdi-arap-basinindan-suudi-arabistan-iddiasi-essiz-bir-koz-43298471",
+      "tags": [
+        "KAAN",
+        "Milli Muharip Uçak",
+        "Savunma Sanayii",
+        "Türkiye",
+        "Suudi Arabistan",
+        "TF35000"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {

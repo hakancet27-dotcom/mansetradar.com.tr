@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-07T00:00:00+00:00",
-    "article_count": 1394,
+    "article_count": 1401,
     "schema_version": 2,
     "topic_slug": "teknoloji",
     "type": "topic"
@@ -47,6 +47,46 @@
         "Beşiktaş",
         "Beşiktaş haberleri",
         "İstanbul"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:msci-asya-teknoloji-lideri-8-ay_20260907",
+      "slug": "msci-asya-teknoloji-lideri-8-ay_20260907",
+      "title": "MSCI'da Asya, 8 Ayın Teknoloji Lideri Oldu: Küresel Piyasaları Geride Bıraktı",
+      "summary": "Küresel endeks sağlayıcısı MSCI verilerine göre, yılın ilk 8 ayında Asya Endeksi yüzde 23,01'lik yükselişle küresel piyasalara liderlik etti. Bölgesel bazda en güçlü performansı gösteren Asya'da, bilgi teknolojileri sektörü yüzde 70,51'lik değer artışıyla z...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "07.09.2026",
+      "date_iso": "2026-09-07",
+      "url": "/articles/2026/09/msci-asya-teknoloji-lideri-8-ay_20260907/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/msci-asya-teknoloji-lideri-8-ay_20260907/",
+      "detail_json_url": "/data/details/articles/2026/09/msci-asya-teknoloji-lideri-8-ay_20260907.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/msci-asya-teknoloji-lideri-8-ay_20260907.webp",
+      "image_alt": "MSCI Asya Endeksi'nin yükselişini ve bilgi teknolojileri sektörünün liderliğini gösteren dijital bir grafik ve çip sembolleri",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/msci-asya-teknoloji-lideri-8-ay_20260907.webp",
+        "alt": "MSCI Asya Endeksi'nin yükselişini ve bilgi teknolojileri sektörünün liderliğini gösteren dijital bir grafik ve çip sembolleri"
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/dunya/mscida-8-ayin-teknoloji-lideri-asya-oldu/4049324",
+      "tags": [
+        "MSCI",
+        "Asya Piyasaları",
+        "Bilgi Teknolojileri",
+        "Enerji Sektörü",
+        "Nvidia",
+        "Yapay Zeka",
+        "Küresel Endeksler"
       ],
       "quality_score": 100,
       "review_status": "published"
@@ -130,6 +170,45 @@
         "Sektör Endeksleri"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:apple-ilk-katlanabilir-iphone-fiyati-ozellikleri_20260907",
+      "slug": "apple-ilk-katlanabilir-iphone-fiyati-ozellikleri_20260907",
+      "title": "Apple'dan İlk Katlanabilir iPhone: Fiyatı ve Özellikleri Belli Oldu",
+      "summary": "Apple'ın ilk katlanabilir iPhone modelini 9 Eylül 2026'da iPhone 18 serisiyle birlikte tanıtabileceği iddia ediliyor. \"iPhone Ultra\" veya \"iPhone Fold\" adıyla anılan cihazın 2.000 doların üzerinde bir fiyatla piyasaya sürülmesi bekleniyor.",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "07.09.2026",
+      "date_iso": "2026-09-07",
+      "url": "/articles/2026/09/apple-ilk-katlanabilir-iphone-fiyati-ozellikleri_20260907/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/apple-ilk-katlanabilir-iphone-fiyati-ozellikleri_20260907/",
+      "detail_json_url": "/data/details/articles/2026/09/apple-ilk-katlanabilir-iphone-fiyati-ozellikleri_20260907.json",
+      "image_url": "https://images.ntv.com.tr/images/Apple-Foldable-Thumb-981658.jpg",
+      "image_alt": "Apple'ın ilk katlanabilir iPhone'u, kitap formunda açık halde, teknoloji etkinliği sahnesinde.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/Apple-Foldable-Thumb-981658.jpg",
+        "alt": "Apple'ın ilk katlanabilir iPhone'u, kitap formunda açık halde, teknoloji etkinliği sahnesinde."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/dunya/galeri-katlanabilir-ilk-iphone-geliyor-beklenen-fiyat-dudak-ucuklatti-1740724",
+      "tags": [
+        "Teknoloji",
+        "Apple",
+        "iPhone",
+        "Katlanabilir Telefon",
+        "iPhone 18",
+        "Lansman"
+      ],
+      "quality_score": 90,
       "review_status": "published"
     },
     {
