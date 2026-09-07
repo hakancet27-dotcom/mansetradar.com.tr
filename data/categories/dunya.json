@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-07T00:00:00+00:00",
-    "article_count": 1438,
+    "article_count": 1442,
     "schema_version": 2,
     "category_slug": "dunya",
     "type": "category"
@@ -46,6 +46,44 @@
         "TF35000"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:israil-universiteleri-filistinli-ogrencilere-ayrimci-ceza-verdi_20260907",
+      "slug": "israil-universiteleri-filistinli-ogrencilere-ayrimci-ceza-verdi_20260907",
+      "title": "İsrail Üniversitelerinde Filistinli Öğrencilere Ayrımcı Disiplin Cezaları",
+      "summary": "İsrail’deki üniversitelerin, 7 Ekim 2023'ten bu yana Gazze'ye yönelik saldırıları eleştiren en az 100 Filistinli öğrenciye ayrımcı cezalar verdiği belgelendi. İnsan hakları kuruluşu Adalah'ın yayımladığı rapora göre, İsrail akademi dünyasında Yahudi ve Fili...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "07.09.2026",
+      "date_iso": "2026-09-07",
+      "url": "/articles/2026/09/israil-universiteleri-filistinli-ogrencilere-ayrimci-ceza-verdi_20260907/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/israil-universiteleri-filistinli-ogrencilere-ayrimci-ceza-verdi_20260907/",
+      "detail_json_url": "/data/details/articles/2026/09/israil-universiteleri-filistinli-ogrencilere-ayrimci-ceza-verdi_20260907.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/israil-universiteleri-filistinli-ogrencilere-ayrimci-ceza-verdi_20260907.webp",
+      "image_alt": "İsrail'deki üniversitelerde Filistinli öğrencilere yönelik ayrımcı disiplin cezalarına ilişkin görünüm.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/israil-universiteleri-filistinli-ogrencilere-ayrimci-ceza-verdi_20260907.webp",
+        "alt": "İsrail'deki üniversitelerde Filistinli öğrencilere yönelik ayrımcı disiplin cezalarına ilişkin görünüm."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/dunya/israil-universiteleri-gazzeye-saldirilari-elestiren-100-filistinli-ogrenciye-ayrimci-ceza-verdi/4050123",
+      "tags": [
+        "İsrail",
+        "Gazze",
+        "Adalah",
+        "Filistinli Öğrenciler",
+        "İsrail Üniversiteleri"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
