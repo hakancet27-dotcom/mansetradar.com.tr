@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-07T00:00:00+00:00",
-    "article_count": 1425,
+    "article_count": 1427,
     "schema_version": 2
   },
   "articles": [
@@ -87,6 +87,46 @@
       "review_status": "published"
     },
     {
+      "id": "news/articles/2026/09:unbalanced-al-playoff-bracket-2026-seeding-debate_20260907",
+      "slug": "unbalanced-al-playoff-bracket-2026-seeding-debate_20260907",
+      "title": "Unbalanced AL Playoff Bracket Sparks Debate Ahead of Postseason",
+      "summary": "The 2026 American League postseason bracket is poised to be significantly unbalanced, sparking potential debate as the playoffs approach. As of September 7, 2026, the current seeding system prioritizes division champions, leading to a scenario where teams w...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "07.09.2026",
+      "date_iso": "2026-09-07",
+      "url": "/news/articles/2026/09/unbalanced-al-playoff-bracket-2026-seeding-debate_20260907/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/unbalanced-al-playoff-bracket-2026-seeding-debate_20260907/",
+      "detail_json_url": "/data/details/news/articles/2026/09/unbalanced-al-playoff-bracket-2026-seeding-debate_20260907.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/unbalanced-al-playoff-bracket-2026-seeding-debate_20260907.webp",
+      "image_alt": "Tampa Bay Rays pitcher Steven Matz on the mound during a baseball game, representing the upcoming American League playoffs.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/unbalanced-al-playoff-bracket-2026-seeding-debate_20260907.webp",
+        "alt": "Tampa Bay Rays pitcher Steven Matz on the mound during a baseball game, representing the upcoming American League playoffs."
+      },
+      "source_name": "Associated Press",
+      "source_url": "https://apnews.com/article/baseball-playoffs-unbalanced-bracket-61616a9507a16fb3e2d95d4ae23f1d9d",
+      "tags": [
+        "MLB Playoffs",
+        "American League",
+        "Baseball Seeding",
+        "Postseason Format",
+        "Tampa Bay Rays",
+        "Chicago White Sox",
+        "Houston Astros"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/09:ultrand-turkiye-pazarina-girdi-t08-x5-modelleri-fiyatlari_20260907",
       "slug": "ultrand-turkiye-pazarina-girdi-t08-x5-modelleri-fiyatlari_20260907",
       "title": "Çinli Ultrand Türkiye Pazarına Girdi: T08 ve X5 Modelleri Satışta",
@@ -163,6 +203,43 @@
         "kültürel miras",
         "ziyaretçi sayısı",
         "Türkiye"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/09:tua-tagovailoa-named-falcons-week-1-starter_20260907",
+      "slug": "tua-tagovailoa-named-falcons-week-1-starter_20260907",
+      "title": "Tua Tagovailoa Named Falcons Starting Quarterback for Week 1",
+      "summary": "FLOWERY BRANCH, Ga. (AP) — Tua Tagovailoa has been named the Atlanta Falcons’ starting quarterback for Week 1 against the Pittsburgh Steelers, the team announced Monday. The decision comes after Tagovailoa’s monthslong competition with Michael Penix Jr., wh...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "07.09.2026",
+      "date_iso": "2026-09-07",
+      "url": "/news/articles/2026/09/tua-tagovailoa-named-falcons-week-1-starter_20260907/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/tua-tagovailoa-named-falcons-week-1-starter_20260907/",
+      "detail_json_url": "/data/details/news/articles/2026/09/tua-tagovailoa-named-falcons-week-1-starter_20260907.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/tua-tagovailoa-named-falcons-week-1-starter_20260907.webp",
+      "image_alt": "Tua Tagovailoa, Atlanta Falcons quarterback",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/tua-tagovailoa-named-falcons-week-1-starter_20260907.webp",
+        "alt": "Tua Tagovailoa, Atlanta Falcons quarterback"
+      },
+      "source_name": "Associated Press",
+      "source_url": "https://apnews.com/article/falcons-tua-tagovailoa-067f73e8b915f8442c2073eecedeb588",
+      "tags": [
+        "Tua Tagovailoa",
+        "Atlanta Falcons",
+        "NFL",
+        "Michael Penix Jr."
       ],
       "quality_score": 100,
       "review_status": "published"
