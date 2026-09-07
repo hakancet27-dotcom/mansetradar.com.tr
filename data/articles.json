@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-07T00:00:00+00:00",
-    "article_count": 1427,
+    "article_count": 1432,
     "schema_version": 2
   },
   "articles": [
@@ -407,6 +407,44 @@
         "İstanbul"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/09:sachsen-anhalt-wahl-afd-sieg-wirtschaft-reaktionen_20260907",
+      "slug": "sachsen-anhalt-wahl-afd-sieg-wirtschaft-reaktionen_20260907",
+      "title": "Wahlsieg der AfD in Sachsen-Anhalt: Wirtschaft besorgt über politische Zäsur",
+      "summary": "Nach dem deutlichen Wahlerfolg der AfD bei der Landtagswahl in Sachsen-Anhalt äußern Wirtschaftsvertreter und Ökonomen Besorgnis über die künftigen Entwicklungen im Bundesland. Während die in Teilen rechtsextreme Partei die Regierung übernehmen könnte, stür...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "07.09.2026",
+      "date_iso": "2026-09-07",
+      "url": "/nachrichten/artikel/2026/09/sachsen-anhalt-wahl-afd-sieg-wirtschaft-reaktionen_20260907/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/sachsen-anhalt-wahl-afd-sieg-wirtschaft-reaktionen_20260907/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/sachsen-anhalt-wahl-afd-sieg-wirtschaft-reaktionen_20260907.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/sachsen-anhalt-wahl-afd-sieg-wirtschaft-reaktionen_20260907.webp",
+      "image_alt": "Das Landtagsgebäude von Sachsen-Anhalt in Magdeburg",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/sachsen-anhalt-wahl-afd-sieg-wirtschaft-reaktionen_20260907.webp",
+        "alt": "Das Landtagsgebäude von Sachsen-Anhalt in Magdeburg"
+      },
+      "source_name": "Deutsche Welle: DW.com Deutsch",
+      "source_url": "https://www.dw.com/de/sachsen-anhalt-wirtschaftsvertreter-sind-besorgt/a-79150027?maca=de-rss-de-all-1119-rdf",
+      "tags": [
+        "Sachsen-Anhalt",
+        "AfD",
+        "Landtagswahl",
+        "Wirtschaft",
+        "CDU"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -1437,6 +1475,44 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/09:dax-verteidigt-26000-punkte-oelpreise-steigen_20260907",
+      "slug": "dax-verteidigt-26000-punkte-oelpreise-steigen_20260907",
+      "title": "DAX behauptet 26.000 Punkte trotz steigender Ölpreise und schwacher Industriedaten",
+      "summary": "Der deutsche Leitindex DAX hat sich zu Beginn der neuen Woche trotz nervöser Stimmung über der wichtigen Marke von 26.000 Punkten behauptet. Zum Handelsschluss notierte der Index mit einem leichten Minus von 0,15 Prozent bei 26.006 Punkten. Belastet wurden...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "07.09.2026",
+      "date_iso": "2026-09-07",
+      "url": "/nachrichten/artikel/2026/09/dax-verteidigt-26000-punkte-oelpreise-steigen_20260907/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/dax-verteidigt-26000-punkte-oelpreise-steigen_20260907/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/dax-verteidigt-26000-punkte-oelpreise-steigen_20260907.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/dax-verteidigt-26000-punkte-oelpreise-steigen_20260907.webp",
+      "image_alt": "Börsentafel in Frankfurt zeigt Aktienkurse und den DAX-Stand.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/dax-verteidigt-26000-punkte-oelpreise-steigen_20260907.webp",
+        "alt": "Börsentafel in Frankfurt zeigt Aktienkurse und den DAX-Stand."
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-oel-100.html",
+      "tags": [
+        "DAX",
+        "Börse",
+        "Ölpreis",
+        "Industrieproduktion",
+        "Wirtschaft"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/09:civilization-vii-atom-cagi-2050-guncelleme_20260907",
       "slug": "civilization-vii-atom-cagi-2050-guncelleme_20260907",
       "title": "Civilization VII'ye Atom Çağı Geliyor: Oyun 2050'lere Uzuyor",
@@ -1517,6 +1593,44 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/09:boney-m-liz-mitchell-entsetzt-auftritt-reform-uk_20260907",
+      "slug": "boney-m-liz-mitchell-entsetzt-auftritt-reform-uk_20260907",
+      "title": "Streit um Boney M.: Liz Mitchell entsetzt über Auftritt bei Reform UK",
+      "summary": "Die frühere Boney-M.-Leadsängerin Liz Mitchell hat empört auf den Auftritt einer Formation unter dem Bandnamen bei einem Parteitag der rechtspopulistischen britischen Partei Reform UK reagiert. Während Mitchell der Gruppe vorwirft, ihre Seele für Geld zu ve...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "07.09.2026",
+      "date_iso": "2026-09-07",
+      "url": "/nachrichten/artikel/2026/09/boney-m-liz-mitchell-entsetzt-auftritt-reform-uk_20260907/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/boney-m-liz-mitchell-entsetzt-auftritt-reform-uk_20260907/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/boney-m-liz-mitchell-entsetzt-auftritt-reform-uk_20260907.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/boney-m-liz-mitchell-entsetzt-auftritt-reform-uk_20260907.webp",
+      "image_alt": "Bühnenbeleuchtung bei einer Veranstaltung",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/boney-m-liz-mitchell-entsetzt-auftritt-reform-uk_20260907.webp",
+        "alt": "Bühnenbeleuchtung bei einer Veranstaltung"
+      },
+      "source_name": "n-tv.de - Startseite",
+      "source_url": "https://www.n-tv.de/leute/Liz-Mitchell-von-Auftritt-bei-Rechtspopulisten-entsetzt-id31279561.html",
+      "tags": [
+        "Boney M.",
+        "Liz Mitchell",
+        "Maizie Williams",
+        "Reform UK",
+        "Nigel Farage"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/09:bolu-belediyesi-davasi-ikinci-durusma-tanju-ozcan-segbis_20260907",
       "slug": "bolu-belediyesi-davasi-ikinci-durusma-tanju-ozcan-segbis_20260907",
       "title": "Bolu Belediyesi'ndeki Davada İkinci Duruşma Başladı: Başkan Özcan SEGBİS ile Katılıyor",
@@ -1594,6 +1708,85 @@
         "Normannische Eroberung"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/09:basketball-wm-sieg-gegen-mali-zwischenrunde_20260907",
+      "slug": "basketball-wm-sieg-gegen-mali-zwischenrunde_20260907",
+      "title": "Basketball-WM: Deutsche Frauen erreichen Zwischenrunde nach Sieg gegen Mali",
+      "summary": "Die deutschen Basketballerinnen haben bei der Heim-Weltmeisterschaft in Berlin den Einzug in die Play-Ins für das WM-Viertelfinale geschafft. Durch einen überzeugenden 83:58-Sieg gegen Mali sicherten sie sich den zweiten Platz in der Vorrundengruppe A. Trot...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "07.09.2026",
+      "date_iso": "2026-09-07",
+      "url": "/nachrichten/artikel/2026/09/basketball-wm-sieg-gegen-mali-zwischenrunde_20260907/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/basketball-wm-sieg-gegen-mali-zwischenrunde_20260907/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/basketball-wm-sieg-gegen-mali-zwischenrunde_20260907.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/basketball-wm-sieg-gegen-mali-zwischenrunde_20260907.webp",
+      "image_alt": "Deutsche Basketballerinnen jubeln nach einem Sieg bei der Heim-Weltmeisterschaft.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/basketball-wm-sieg-gegen-mali-zwischenrunde_20260907.webp",
+        "alt": "Deutsche Basketballerinnen jubeln nach einem Sieg bei der Heim-Weltmeisterschaft."
+      },
+      "source_name": "n-tv.de - Startseite",
+      "source_url": "https://www.n-tv.de/sport/basketball/Sieg-gegen-Mali-Basketballerinnen-ziehen-in-WM-Zwischenrunde-ein-id31279834.html",
+      "tags": [
+        "Basketball-WM",
+        "Deutsche Basketballerinnen",
+        "Mali",
+        "Zwischenrunde",
+        "Olaf Lange",
+        "Südkorea"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/09:basketball-wm-frauen-deutschland-schlaegt-mali-ko-runde_20260907",
+      "slug": "basketball-wm-frauen-deutschland-schlaegt-mali-ko-runde_20260907",
+      "title": "Basketball-WM der Frauen: Deutschland schlägt Mali und zieht in die K.o.-Runde ein",
+      "summary": "Bei der Weltmeisterschaft in Berlin haben die deutschen Basketball-Frauen ihr letztes Gruppenspiel deutlich gewonnen. Durch den 83:58-Sieg vor mehr als 12.500 Zuschauern in der Uber Arena gegen Mali zieht das Team von Headcoach Olaf Lange als Gruppenzweiter...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "07.09.2026",
+      "date_iso": "2026-09-07",
+      "url": "/nachrichten/artikel/2026/09/basketball-wm-frauen-deutschland-schlaegt-mali-ko-runde_20260907/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/basketball-wm-frauen-deutschland-schlaegt-mali-ko-runde_20260907/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/basketball-wm-frauen-deutschland-schlaegt-mali-ko-runde_20260907.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/basketball-wm-frauen-deutschland-schlaegt-mali-ko-runde_20260907.webp",
+      "image_alt": "Deutsche Basketball-Spielerinnen jubeln nach einem erfolgreichen Spielzug bei der Weltmeisterschaft in Berlin.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/basketball-wm-frauen-deutschland-schlaegt-mali-ko-runde_20260907.webp",
+        "alt": "Deutsche Basketball-Spielerinnen jubeln nach einem erfolgreichen Spielzug bei der Weltmeisterschaft in Berlin."
+      },
+      "source_name": "DIE ZEIT | Nachrichten, News, Hintergründe und Debatten",
+      "source_url": "https://www.zeit.de/sport/2026-09/basketball-wm-frauen-deutschland-mali-olaf-lange-berlin",
+      "tags": [
+        "Basketball-WM Frauen",
+        "Deutschland",
+        "Mali",
+        "K.o.-Runde",
+        "Olaf Lange",
+        "Frieda Bühner",
+        "Luisa Geiselsöder"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
