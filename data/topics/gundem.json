@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-07T00:00:00+00:00",
-    "article_count": 1442,
+    "article_count": 1446,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -569,6 +569,45 @@
         "İstanbul"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:ev-yalitiminda-pirinc-sapi-donemi-go-strawmat_20260907",
+      "slug": "ev-yalitiminda-pirinc-sapi-donemi-go-strawmat_20260907",
+      "title": "Ev Yalıtımında Pirinç Sapı Dönemi: Yazın Serin Kışın Sıcak Tutuyor",
+      "summary": "İspanya'nın Valencia bölgesinde başlatılan \"GO STRAWMAT\" projesiyle, çeltik hasadı sonrası ortaya çıkan pirinç sapları çevre dostu ve yüksek verimli bir ısı yalıtım malzemesine dönüştürülüyor. Yaklaşık 600 bin avro bütçeli bu girişim, hem binalarda enerji t...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "07.09.2026",
+      "date_iso": "2026-09-07",
+      "url": "/articles/2026/09/ev-yalitiminda-pirinc-sapi-donemi-go-strawmat_20260907/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/ev-yalitiminda-pirinc-sapi-donemi-go-strawmat_20260907/",
+      "detail_json_url": "/data/details/articles/2026/09/ev-yalitiminda-pirinc-sapi-donemi-go-strawmat_20260907.json",
+      "image_url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/9/pirinc-1jpg-6UhMLq7Thkinvaf1_pKAuw.jpg",
+      "image_alt": "Pirinç sapından üretilmiş çevre dostu ısı yalıtım malzemesi paneli.",
+      "image": {
+        "url": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/9/pirinc-1jpg-6UhMLq7Thkinvaf1_pKAuw.jpg",
+        "alt": "Pirinç sapından üretilmiş çevre dostu ısı yalıtım malzemesi paneli."
+      },
+      "source_name": "Dünya haberleri - Son dakika dünya haberleri - Sözcü",
+      "source_url": "https://www.sozcu.com.tr/ev-yalitiminda-pirinc-sapi-donemi-basladi-yazin-serin-kisin-sicak-tutuyor-p356201",
+      "tags": [
+        "Pirinç Sapı Yalıtımı",
+        "GO STRAWMAT",
+        "Isı Yalıtımı",
+        "Sürdürülebilir İnşaat",
+        "Valencia",
+        "Enerji Tasarrufu"
+      ],
+      "quality_score": 71,
       "review_status": "published"
     },
     {

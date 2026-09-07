@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T20:16:33.394Z",
+  "updatedAt": "2026-09-07T23:08:54.463Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
@@ -562,7 +562,7 @@
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-09-07T20:16:33.394Z",
+      "updatedAt": "2026-09-07T23:08:54.463Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
@@ -679,6 +679,20 @@
         },
         {
           "position": 9,
+          "team": "Real Sociedad",
+          "played": 5,
+          "won": 2,
+          "draw": 1,
+          "lost": 2,
+          "goalsFor": 6,
+          "goalsAgainst": 8,
+          "points": 7,
+          "goalDifference": -2,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/77.gif",
+          "form": []
+        },
+        {
+          "position": 10,
           "team": "Athletic Bilbao",
           "played": 4,
           "won": 2,
@@ -692,7 +706,7 @@
           "form": []
         },
         {
-          "position": 10,
+          "position": 11,
           "team": "Levante",
           "played": 4,
           "won": 1,
@@ -706,7 +720,7 @@
           "form": []
         },
         {
-          "position": 11,
+          "position": 12,
           "team": "Espanyol",
           "played": 4,
           "won": 1,
@@ -720,7 +734,7 @@
           "form": []
         },
         {
-          "position": 12,
+          "position": 13,
           "team": "Racing Santander",
           "played": 4,
           "won": 1,
@@ -734,7 +748,7 @@
           "form": []
         },
         {
-          "position": 13,
+          "position": 14,
           "team": "Rayo Vallecano",
           "played": 4,
           "won": 1,
@@ -745,20 +759,6 @@
           "points": 4,
           "goalDifference": -3,
           "logo": "https://im.mackolik.com/img/logo/kucuk/88.gif",
-          "form": []
-        },
-        {
-          "position": 14,
-          "team": "Real Sociedad",
-          "played": 4,
-          "won": 1,
-          "draw": 1,
-          "lost": 2,
-          "goalsFor": 3,
-          "goalsAgainst": 6,
-          "points": 4,
-          "goalDifference": -3,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/77.gif",
           "form": []
         },
         {
@@ -820,14 +820,14 @@
         {
           "position": 19,
           "team": "Elche",
-          "played": 3,
+          "played": 4,
           "won": 0,
           "draw": 1,
-          "lost": 2,
-          "goalsFor": 3,
-          "goalsAgainst": 9,
+          "lost": 3,
+          "goalsFor": 5,
+          "goalsAgainst": 12,
           "points": 1,
-          "goalDifference": -6,
+          "goalDifference": -7,
           "logo": "https://im.mackolik.com/img/logo/kucuk/106.gif",
           "form": []
         },
