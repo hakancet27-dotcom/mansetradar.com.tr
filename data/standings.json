@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T16:12:47.256Z",
+  "updatedAt": "2026-09-07T19:13:39.110Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
@@ -562,7 +562,7 @@
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-09-07T16:12:47.256Z",
+      "updatedAt": "2026-09-07T19:13:39.110Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
@@ -764,19 +764,33 @@
         {
           "position": 15,
           "team": "Getafe",
-          "played": 3,
+          "played": 4,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 2,
-          "goalsFor": 1,
-          "goalsAgainst": 4,
-          "points": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "points": 4,
           "goalDifference": -3,
           "logo": "https://im.mackolik.com/img/logo/kucuk/103.gif",
           "form": []
         },
         {
           "position": 16,
+          "team": "Celta Vigo",
+          "played": 5,
+          "won": 0,
+          "draw": 3,
+          "lost": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "points": 3,
+          "goalDifference": -3,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/76.gif",
+          "form": []
+        },
+        {
+          "position": 17,
           "team": "Villarreal",
           "played": 4,
           "won": 0,
@@ -787,20 +801,6 @@
           "points": 2,
           "goalDifference": -2,
           "logo": "https://im.mackolik.com/img/logo/kucuk/92.gif",
-          "form": []
-        },
-        {
-          "position": 17,
-          "team": "Celta Vigo",
-          "played": 4,
-          "won": 0,
-          "draw": 2,
-          "lost": 2,
-          "goalsFor": 1,
-          "goalsAgainst": 4,
-          "points": 2,
-          "goalDifference": -3,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/76.gif",
           "form": []
         },
         {

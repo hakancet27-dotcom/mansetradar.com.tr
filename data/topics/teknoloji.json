@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-07T00:00:00+00:00",
-    "article_count": 1432,
+    "article_count": 1436,
     "schema_version": 2,
     "topic_slug": "teknoloji",
     "type": "topic"
@@ -168,6 +168,45 @@
         "Teknoloji"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:guney-kore-estetik-platformu-siber-saldiri-veri-sizintisi_20260907",
+      "slug": "guney-kore-estetik-platformu-siber-saldiri-veri-sizintisi_20260907",
+      "title": "Güney Kore'de Estetik Platformuna Siber Saldırı: 220 Bin Veri Sızdı",
+      "summary": "Güney Kore'nin önde gelen medikal estetik ve plastik cerrahi platformu \"Gangnam Unni\"ye düzenlenen siber saldırıda, yaklaşık 220 bin kullanıcının kişisel bilgileri ve hassas tıbbi verileri sızdırıldı. Healing Paper şirketi tarafından işletilen platformdaki...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "07.09.2026",
+      "date_iso": "2026-09-07",
+      "url": "/articles/2026/09/guney-kore-estetik-platformu-siber-saldiri-veri-sizintisi_20260907/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/guney-kore-estetik-platformu-siber-saldiri-veri-sizintisi_20260907/",
+      "detail_json_url": "/data/details/articles/2026/09/guney-kore-estetik-platformu-siber-saldiri-veri-sizintisi_20260907.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/guney-kore-estetik-platformu-siber-saldiri-veri-sizintisi_20260907.webp",
+      "image_alt": "Güney Kore'de estetik cerrahi platformu Gangnam Unni'ye yönelik siber saldırıyı ve veri sızıntısını temsil eden dijital...",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/guney-kore-estetik-platformu-siber-saldiri-veri-sizintisi_20260907.webp",
+        "alt": "Güney Kore'de estetik cerrahi platformu Gangnam Unni'ye yönelik siber saldırıyı ve veri sızıntısını temsil eden dijital..."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/dunya/guney-korede-estetik-cerrahi-platformuna-siber-saldirida-yaklasik-220-bin-kullanicinin-verileri-sizdirildi/4050051",
+      "tags": [
+        "Güney Kore",
+        "siber saldırı",
+        "Gangnam Unni",
+        "veri sızıntısı",
+        "Healing Paper",
+        "estetik cerrahi"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {

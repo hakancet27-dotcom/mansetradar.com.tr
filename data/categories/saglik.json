@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-07T00:00:00+00:00",
-    "article_count": 1432,
+    "article_count": 1436,
     "schema_version": 2,
     "category_slug": "saglik",
     "type": "category"
@@ -43,6 +43,44 @@
         "erken tanı",
         "yaşam süresi",
         "tıbbi gelişmeler"
+      ],
+      "quality_score": 81,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:duzcede-patpat-kazasi-4-olu-8-yarali_20260907",
+      "slug": "duzcede-patpat-kazasi-4-olu-8-yarali_20260907",
+      "title": "Düzce'de Tır ile 'Patpat' Çarpıştı: 4 Ölü, 8 Yaralı",
+      "summary": "Düzce'nin Akçakoca ilçesinde, Alaplı kara yolunda bir tır ile tarım aracı olarak bilinen 'patpat'ın çarpışması sonucu meydana gelen feci kazada ilk belirlemelere göre 4 kişi hayatını kaybetti, 8 kişi ise yaralandı. Olay yerine sevk edilen sağlık ekipleri ya...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "07.09.2026",
+      "date_iso": "2026-09-07",
+      "url": "/articles/2026/09/duzcede-patpat-kazasi-4-olu-8-yarali_20260907/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/duzcede-patpat-kazasi-4-olu-8-yarali_20260907/",
+      "detail_json_url": "/data/details/articles/2026/09/duzcede-patpat-kazasi-4-olu-8-yarali_20260907.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/duzcede-patpat-kazasi-4-olu-8-yarali_20260907.webp",
+      "image_alt": "Düzce Akçakoca Alaplı kara yolunda meydana gelen tır ve patpat kazası sonrası olay yerine sevk edilen acil durum ekipleri.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/duzcede-patpat-kazasi-4-olu-8-yarali_20260907.webp",
+        "alt": "Düzce Akçakoca Alaplı kara yolunda meydana gelen tır ve patpat kazası sonrası olay yerine sevk edilen acil durum ekipleri."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/duzcede-korkunc-patpat-kazasi-4-olu-8-yarali-43299260",
+      "tags": [
+        "Düzce",
+        "Akçakoca",
+        "patpat kazası",
+        "trafik kazası",
+        "Düzce haberleri"
       ],
       "quality_score": 81,
       "review_status": "published"
