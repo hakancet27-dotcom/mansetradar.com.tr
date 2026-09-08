@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-08T00:00:00+00:00",
-    "article_count": 1496,
+    "article_count": 1501,
     "schema_version": 2,
     "category_slug": "son-dakika",
     "type": "category"
@@ -48,6 +48,43 @@
         "Dacia Elektrikli"
       ],
       "quality_score": 90,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:haysiyet-ilk-bolum-mehmet-simay-ask_20260908",
+      "slug": "haysiyet-ilk-bolum-mehmet-simay-ask_20260908",
+      "title": "Haysiyet Dizisi İlk Bölümüyle İzleyici Karşısında: Mehmet ve Simay'ın İmkansız Aşkı Başlıyor",
+      "summary": "Hürriyet'te yayınlanan habere göre, 'Haysiyet' dizisi ilk bölümüyle izleyicilerin dikkatini çekti. Taşımacılık yapan Karlıova ailesi ile Haluk Tarman arasındaki gerilimli anlar ve reklam sektöründe işe başlayan Mehmet ile aynı ajansta çalışan Simay'ın ilk k...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "topic_slug": "magazin",
+      "topic_label": "Magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "08.09.2026",
+      "date_iso": "2026-09-08",
+      "url": "/articles/2026/09/haysiyet-ilk-bolum-mehmet-simay-ask_20260908/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/haysiyet-ilk-bolum-mehmet-simay-ask_20260908/",
+      "detail_json_url": "/data/details/articles/2026/09/haysiyet-ilk-bolum-mehmet-simay-ask_20260908.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/haysiyet-ilk-bolum-mehmet-simay-ask_20260908.webp",
+      "image_alt": "Mehmet ve Simay, Haysiyet dizisinin ilk bölümünde birbirlerine bakarken",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/haysiyet-ilk-bolum-mehmet-simay-ask_20260908.webp",
+        "alt": "Mehmet ve Simay, Haysiyet dizisinin ilk bölümünde birbirlerine bakarken"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/hayat/haysiyet-ilk-bolumuyle-ekrana-geldi-43300665",
+      "tags": [
+        "Haysiyet dizisi",
+        "Mehmet ve Simay",
+        "Türk dizileri",
+        "Magazin haberleri"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
