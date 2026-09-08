@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-08T00:00:00+00:00",
-    "article_count": 1460,
+    "article_count": 1463,
     "schema_version": 2
   },
   "articles": [
@@ -88,6 +88,45 @@
       "review_status": "published"
     },
     {
+      "id": "news/articles/2026/09:trump-threatens-bombardier-ban-us-manufacturing_20260908",
+      "slug": "trump-threatens-bombardier-ban-us-manufacturing_20260908",
+      "title": "Trump Threatens Bombardier Ban Over US Manufacturing",
+      "summary": "U.S. President Donald Trump has threatened to ban the sale of Canadian jetmaker Bombardier's aircraft in the United States unless the company manufactures its planes domestically. The ultimatum, delivered via social media, follows collapsed Canada-U.S. trad...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "08.09.2026",
+      "date_iso": "2026-09-08",
+      "url": "/news/articles/2026/09/trump-threatens-bombardier-ban-us-manufacturing_20260908/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/trump-threatens-bombardier-ban-us-manufacturing_20260908/",
+      "detail_json_url": "/data/details/news/articles/2026/09/trump-threatens-bombardier-ban-us-manufacturing_20260908.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/trump-threatens-bombardier-ban-us-manufacturing_20260908.webp",
+      "image_alt": "A Bombardier Global Express business jet approaching for landing, symbolizing the ongoing trade dispute between the U.S....",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/trump-threatens-bombardier-ban-us-manufacturing_20260908.webp",
+        "alt": "A Bombardier Global Express business jet approaching for landing, symbolizing the ongoing trade dispute between the U.S...."
+      },
+      "source_name": "Associated Press",
+      "source_url": "https://apnews.com/article/trump-canada-carney-trade-bombardier-aircraft-e65b6eeaaa7ffbd06a67a57fb474b2e9",
+      "tags": [
+        "Donald Trump",
+        "Bombardier",
+        "US-Canada Trade",
+        "Aerospace Industry",
+        "Manufacturing Jobs",
+        "Trade Tariffs"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "nachrichten/artikel/2026/09:trump-karte-kanada-mexiko-groenland-usa_20260908",
       "slug": "trump-karte-kanada-mexiko-groenland-usa_20260908",
       "title": "Trump teilt Karte, die Kanada, Mexiko und Grönland als Teil der USA zeigt",
@@ -161,6 +200,84 @@
         "Geopolitics"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/09:small-plane-florida-family-missing-bahamas_20260908",
+      "slug": "small-plane-florida-family-missing-bahamas_20260908",
+      "title": "Small Plane Carrying Florida Family Missing Off Bahamas",
+      "summary": "A small plane carrying four members of a Florida family went missing off the Bahamas on Monday while flying back home. The U.S. Coast Guard and Bahamian authorities launched a search operation, but efforts were suspended due to adverse weather conditions. T...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "08.09.2026",
+      "date_iso": "2026-09-08",
+      "url": "/news/articles/2026/09/small-plane-florida-family-missing-bahamas_20260908/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/small-plane-florida-family-missing-bahamas_20260908/",
+      "detail_json_url": "/data/details/news/articles/2026/09/small-plane-florida-family-missing-bahamas_20260908.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/small-plane-florida-family-missing-bahamas_20260908.webp",
+      "image_alt": "A small plane flying over the ocean near the Bahamas, with a stormy sky in the distance.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/small-plane-florida-family-missing-bahamas_20260908.webp",
+        "alt": "A small plane flying over the ocean near the Bahamas, with a stormy sky in the distance."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/small-plane-goes-missing-off-bahamas-carrying-4-members-of-florida-family-authorities-say/",
+      "tags": [
+        "Bahamas",
+        "Plane Crash",
+        "Missing Plane",
+        "US Coast Guard",
+        "Florida Family",
+        "Search and Rescue"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/09:sherri-shepherd-broadway-aladdin-genie_20260908",
+      "slug": "sherri-shepherd-broadway-aladdin-genie_20260908",
+      "title": "Sherri Shepherd to Play Genie in Broadway's 'Aladdin'",
+      "summary": "Daytime Emmy Award-winning talk show host and NAACP Image Award winner Sherri Shepherd is set to join the Broadway cast of \"Aladdin\" as the iconic Genie. Her highly anticipated run will span from October 16 to January 3, marking her return to the Broadway s...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "08.09.2026",
+      "date_iso": "2026-09-08",
+      "url": "/news/articles/2026/09/sherri-shepherd-broadway-aladdin-genie_20260908/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/sherri-shepherd-broadway-aladdin-genie_20260908/",
+      "detail_json_url": "/data/details/news/articles/2026/09/sherri-shepherd-broadway-aladdin-genie_20260908.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/sherri-shepherd-broadway-aladdin-genie_20260908.webp",
+      "image_alt": "Sherri Shepherd smiling and holding a golden lamp from the Broadway production of \"Aladdin.\"",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/sherri-shepherd-broadway-aladdin-genie_20260908.webp",
+        "alt": "Sherri Shepherd smiling and holding a golden lamp from the Broadway production of \"Aladdin.\""
+      },
+      "source_name": "Associated Press",
+      "source_url": "https://apnews.com/article/sherri-shepherd-broadway-aladdin-2d4f4f8befc79492352a3cfc4a40ce16",
+      "tags": [
+        "Sherri Shepherd",
+        "Aladdin",
+        "Broadway",
+        "Genie",
+        "Musical",
+        "Theater"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
