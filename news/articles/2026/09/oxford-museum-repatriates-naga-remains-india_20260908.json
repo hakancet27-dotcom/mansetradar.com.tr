@@ -40,14 +40,6 @@
   "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/oxford-museum-repatriates-naga-remains-india_20260908.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "clear",
-  "image_license_note": "Unsplash API photo",
-  "image_source_url": "https://unsplash.com/photos/a-man-and-woman-sitting-on-a-bench-in-a-museum-DzbDKEzC5D8",
-  "image_provider": "unsplash",
-  "image_score": 74,
-  "image_query": "oxford museum",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "Oxford University's Pitt Rivers Museum has agreed to repatriate the remains of 39 individuals taken from the Naga community in northeast India during Britain's colonial rule. The decision follows a restitution request from the Forum for Naga Reconciliation and other groups, marking a significant move in addressing colonial legacies and decolonizing museum collections.",
   "language": "English",
   "url_prefix": "news/articles/2026/09",
@@ -65,10 +57,7 @@
   "quality_notes": [],
   "quality_word_count": 532,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.unsplash.com/photo-1667082801781-4dd9b08627cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxveGZvcmQlMjBtdXNldW18ZW58MXwwfHx8MTc4ODg5MDI5OHww&ixlib=rb-4.1.0&q=80&w=1080",
-  "original_image_url": "https://images.unsplash.com/photo-1667082801781-4dd9b08627cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxveGZvcmQlMjBtdXNldW18ZW58MXwwfHx8MTc4ODg5MDI5OHww&ixlib=rb-4.1.0&q=80&w=1080",
-  "image_local_webp": "news/articles/2026/09/images/oxford-museum-repatriates-naga-remains-india_20260908.webp",
-  "image_credit": "unsplash.com",
-  "image_credit_url": "https://unsplash.com/photos/a-man-and-woman-sitting-on-a-bench-in-a-museum-DzbDKEzC5D8",
-  "image_finalized_at": "2026-09-08T17:58:26.927532Z"
+  "time": "17:51",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }

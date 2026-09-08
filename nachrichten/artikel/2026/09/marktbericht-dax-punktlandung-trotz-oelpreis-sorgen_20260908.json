@@ -43,14 +43,6 @@
   "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/marktbericht-dax-punktlandung-trotz-oelpreis-sorgen_20260908.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "source_provided",
-  "image_license_note": "RSS source image: tagesschau.de - Die Nachrichten der ARD",
-  "image_source_url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-boerse-dax-dow-jones-oel-100.html",
-  "image_provider": "rss",
-  "image_score": 70,
-  "image_query": "Marktbericht: DAX schafft eine Punktlandung",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "Der deutsche Leitindex DAX hat am Dienstag eine Punktlandung hingelegt und sein Tagesminus vollständig wettgemacht. Er schloss bei 26.007 Punkten, praktisch unverändert zum Vortag. Belastet wurde die Stimmung von anhaltend hohen Ölpreisen, die fast die 100-Dollar-Marke erreichten, sowie vom Handelsstreit zwischen den USA und Kanada. Während die Exporte im Juli leicht zurückgingen, sorgte die Elektro- und...",
   "language": "German",
   "url_prefix": "nachrichten/artikel/2026/09",
@@ -68,10 +60,7 @@
   "quality_notes": [],
   "quality_word_count": 408,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.tagesschau.de/image/b19e9d58-9935-4067-a655-d494e13c64cc/AAABn1pWFaE/AAABnSSvrFg/16x9-big/boerse-522.jpg?width=1920",
-  "original_image_url": "https://images.tagesschau.de/image/b19e9d58-9935-4067-a655-d494e13c64cc/AAABn1pWFaE/AAABnSSvrFg/16x9-big/boerse-522.jpg?width=1920",
-  "image_local_webp": "nachrichten/artikel/2026/09/images/marktbericht-dax-punktlandung-trotz-oelpreis-sorgen_20260908.webp",
-  "image_credit": "tagesschau.de",
-  "image_credit_url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-boerse-dax-dow-jones-oel-100.html",
-  "image_finalized_at": "2026-09-08T18:09:06.928189Z"
+  "time": "16:37",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }
