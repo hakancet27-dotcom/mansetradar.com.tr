@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-09T00:00:00+00:00",
-    "article_count": 1532,
+    "article_count": 1537,
     "schema_version": 2
   },
   "articles": [
@@ -561,6 +561,45 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/09:netanyahu-verklagt-haaretz-wegen-bericht-ueber-hamas-attacke_20260909",
+      "slug": "netanyahu-verklagt-haaretz-wegen-bericht-ueber-hamas-attacke_20260909",
+      "title": "Netanyahu verklagt \"Haaretz\" wegen Bericht über Hamas-Warnung vor dem 7. Oktober",
+      "summary": "Israels Ministerpräsident Benjamin Netanyahu hat eine Verleumdungsklage gegen die linksliberale Zeitung »Haaretz« angekündigt. Auslöser ist ein Bericht, demzufolge der Präsident der Vereinigten Arabischen Emirate (VAE), Mohamed bin Zayed, Netanyahu im Herbs...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "09.09.2026",
+      "date_iso": "2026-09-09",
+      "url": "/nachrichten/artikel/2026/09/netanyahu-verklagt-haaretz-wegen-bericht-ueber-hamas-attacke_20260909/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/netanyahu-verklagt-haaretz-wegen-bericht-ueber-hamas-attacke_20260909/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/netanyahu-verklagt-haaretz-wegen-bericht-ueber-hamas-attacke_20260909.json",
+      "image_url": "https://cdn.prod.www.spiegel.de/images/9519e76d-e699-4493-b202-35f6a89ea529_w520_r2.08_fpx38.65_fpy49.99.jpg",
+      "image_alt": "Benjamin Netanyahu und das Logo der Zeitung Haaretz im Kontext des Berichts über eine Hamas-Warnung.",
+      "image": {
+        "url": "https://cdn.prod.www.spiegel.de/images/9519e76d-e699-4493-b202-35f6a89ea529_w520_r2.08_fpx38.65_fpy49.99.jpg",
+        "alt": "Benjamin Netanyahu und das Logo der Zeitung Haaretz im Kontext des Berichts über eine Hamas-Warnung."
+      },
+      "source_name": "DER SPIEGEL - Schlagzeilen",
+      "source_url": "https://www.spiegel.de/ausland/israel-benjamin-netanyahu-will-haaretz-wegen-bericht-ueber-hamas-attacke-am-7-oktober-verklagen-a-d40fd96f-99a2-4607-988b-6158ff599a14#ref=rss",
+      "tags": [
+        "Benjamin Netanyahu",
+        "Haaretz",
+        "Hamas",
+        "Israel",
+        "Vereinigte Arabische Emirate",
+        "Mohamed bin Zayed"
+      ],
+      "quality_score": 90,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/09:milli-antrenor-funda-bakis-cinayetinde-supheli-ifadesi-ortaya-cikti_20260909",
       "slug": "milli-antrenor-funda-bakis-cinayetinde-supheli-ifadesi-ortaya-cikti_20260909",
       "title": "Milli Antrenör Funda Bakış Cinayetinde Şüpheli Zehra G.'nin İfadesi Ortaya Çıktı",
@@ -600,6 +639,47 @@
         "İstanbul"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/09:maria-furtwaengler-wird-60-dankbar-koerper-karriere_20260909",
+      "slug": "maria-furtwaengler-wird-60-dankbar-koerper-karriere_20260909",
+      "title": "Maria Furtwängler wird 60: Dankbarkeit für den Körper und Blick auf die Schauspielkarriere",
+      "summary": "Die bekannte Schauspielerin Maria Furtwängler feiert am 13. September ihren 60. Geburtstag. Kurz vor diesem Meilenstein blickt sie mit Staunen und Neugier auf die Zahl. Sie empfindet eine wachsende Dankbarkeit gegenüber ihrem Körper, der sie schmerzfrei dur...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "09.09.2026",
+      "date_iso": "2026-09-09",
+      "url": "/nachrichten/artikel/2026/09/maria-furtwaengler-wird-60-dankbar-koerper-karriere_20260909/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/maria-furtwaengler-wird-60-dankbar-koerper-karriere_20260909/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/maria-furtwaengler-wird-60-dankbar-koerper-karriere_20260909.json",
+      "image_url": "https://cdn.prod.www.spiegel.de/images/b059a38b-8304-4cdd-a1c8-ae4111f23ceb_w520_r2.08_fpx51.34_fpy45.jpg",
+      "image_alt": "Maria Furtwängler feiert ihren 60. Geburtstag und blickt dankbar auf ihren Körper.",
+      "image": {
+        "url": "https://cdn.prod.www.spiegel.de/images/b059a38b-8304-4cdd-a1c8-ae4111f23ceb_w520_r2.08_fpx51.34_fpy45.jpg",
+        "alt": "Maria Furtwängler feiert ihren 60. Geburtstag und blickt dankbar auf ihren Körper."
+      },
+      "source_name": "DER SPIEGEL - Schlagzeilen",
+      "source_url": "https://www.spiegel.de/panorama/leute/maria-furtwaengler-tatort-kommissarin-wird-60-und-ist-ihrem-koerper-dankbar-a-4006b0b9-326a-4628-a24b-165513b443f0#ref=rss",
+      "tags": [
+        "Maria Furtwängler",
+        "Geburtstag",
+        "Schauspielerin",
+        "Tatort",
+        "Ärztin",
+        "Alter",
+        "Karriere",
+        "Fernsehen"
+      ],
+      "quality_score": 90,
       "review_status": "published"
     },
     {
@@ -723,6 +803,47 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/09:iran-krieg-eskalation-oelpreis-dax-faellt_20260909",
+      "slug": "iran-krieg-eskalation-oelpreis-dax-faellt_20260909",
+      "title": "Eskalation im Iran-Krieg: Ölpreis über 100 Dollar, DAX fällt",
+      "summary": "Eine neue Eskalation im Iran-Krieg hat den Ölpreis wieder über 100 Dollar getrieben und den DAX deutlich unter Druck gesetzt. Der deutsche Leitindex verliert an Wert, während globale Inflationssorgen die Märkte belasten.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "09.09.2026",
+      "date_iso": "2026-09-09",
+      "url": "/nachrichten/artikel/2026/09/iran-krieg-eskalation-oelpreis-dax-faellt_20260909/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/iran-krieg-eskalation-oelpreis-dax-faellt_20260909/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/iran-krieg-eskalation-oelpreis-dax-faellt_20260909.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/iran-krieg-eskalation-oelpreis-dax-faellt_20260909.webp",
+      "image_alt": "Eskalation im Iran-Krieg: Ölpreis über 100 Dollar, DAX fällt",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/iran-krieg-eskalation-oelpreis-dax-faellt_20260909.webp",
+        "alt": "Eskalation im Iran-Krieg: Ölpreis über 100 Dollar, DAX fällt"
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-iran-102.html",
+      "tags": [
+        "Iran-Krieg",
+        "Ölpreis",
+        "DAX",
+        "Inflation",
+        "EZB",
+        "Rohöl",
+        "Finanzmärkte",
+        "Geopolitik"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/09:iphone-18-pro-ne-zaman-cikacak-lansman-tarihi-fiyati_20260909",
       "slug": "iphone-18-pro-ne-zaman-cikacak-lansman-tarihi-fiyati_20260909",
       "title": "iPhone 18 Pro Ne Zaman Çıkacak? Apple 2026 Lansman Tarihi Belli Oldu",
@@ -835,6 +956,44 @@
         "Grand Slam",
         "Alex Michelsen",
         "American Tennis"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/09:flugchaos-grossbritannien-airlines-fordern-konsequenzen-nach-systemstoerung_20260909",
+      "slug": "flugchaos-grossbritannien-airlines-fordern-konsequenzen-nach-systemstoerung_20260909",
+      "title": "Flugchaos in Großbritannien: Airlines fordern Konsequenzen nach Systemstörung",
+      "summary": "Eine technische Störung im System der britischen Flugsicherung National Air Traffic Services (NATS) hat zu massiven Flugausfällen und Verspätungen in Großbritannien geführt. Mehr als 1.000 Flüge waren betroffen, und auch am Tag nach der Störung kommt es noc...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "09.09.2026",
+      "date_iso": "2026-09-09",
+      "url": "/nachrichten/artikel/2026/09/flugchaos-grossbritannien-airlines-fordern-konsequenzen-nach-systemstoerung_20260909/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/flugchaos-grossbritannien-airlines-fordern-konsequenzen-nach-systemstoerung_20260909/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/flugchaos-grossbritannien-airlines-fordern-konsequenzen-nach-systemstoerung_20260909.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/flugchaos-grossbritannien-airlines-fordern-konsequenzen-nach-systemstoerung_20260909.webp",
+      "image_alt": "Flugpassagiere sitzen frustriert im Terminal eines Flughafens aufgrund von Flugausfällen.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/flugchaos-grossbritannien-airlines-fordern-konsequenzen-nach-systemstoerung_20260909.webp",
+        "alt": "Flugpassagiere sitzen frustriert im Terminal eines Flughafens aufgrund von Flugausfällen."
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/wirtschaft/unternehmen/flughaefen-grossbritannien-ausfaelle-chaos-100.html",
+      "tags": [
+        "Flugausfälle",
+        "Großbritannien",
+        "Flugsicherung",
+        "NATS",
+        "Luftverkehr"
       ],
       "quality_score": 100,
       "review_status": "published"
@@ -1032,6 +1191,44 @@
         "İran",
         "Büyük Kırılma",
         "Zorunlu Askerlik"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/09:china-englisch-als-benotetes-kernfach-abschaffen_20260909",
+      "slug": "china-englisch-als-benotetes-kernfach-abschaffen_20260909",
+      "title": "China: Debatte um Abschaffung von Englisch als Kernfach an Schulen",
+      "summary": "Ein renommierter chinesischer Mathematikprofessor hat eine kontroverse Debatte über die Rolle des Englischen im chinesischen Bildungssystem ausgelöst. Tang Jiafeng fordert, Englisch nicht länger als benotetes Kernfach an Grundschulen, weiterführenden Schule...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "09.09.2026",
+      "date_iso": "2026-09-09",
+      "url": "/nachrichten/artikel/2026/09/china-englisch-als-benotetes-kernfach-abschaffen_20260909/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/china-englisch-als-benotetes-kernfach-abschaffen_20260909/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/china-englisch-als-benotetes-kernfach-abschaffen_20260909.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/china-englisch-als-benotetes-kernfach-abschaffen_20260909.webp",
+      "image_alt": "Chinesische Schüler im Unterricht, die sich mit Englisch und anderen Fächern beschäftigen.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/china-englisch-als-benotetes-kernfach-abschaffen_20260909.webp",
+        "alt": "Chinesische Schüler im Unterricht, die sich mit Englisch und anderen Fächern beschäftigen."
+      },
+      "source_name": "Deutsche Welle: DW.com Deutsch",
+      "source_url": "https://www.dw.com/de/china-englisch-als-benotetes-kernfach-abschaffen/a-79198305?maca=de-rss-de-all-1119-rdf",
+      "tags": [
+        "China",
+        "Bildung",
+        "Englisch",
+        "Sprachenlernen",
+        "Künstliche Intelligenz"
       ],
       "quality_score": 100,
       "review_status": "published"
