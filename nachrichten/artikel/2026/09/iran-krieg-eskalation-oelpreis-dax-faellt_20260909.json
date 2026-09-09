@@ -43,14 +43,6 @@
   "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/iran-krieg-eskalation-oelpreis-dax-faellt_20260909.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "source_provided",
-  "image_license_note": "RSS source image: tagesschau.de - Die Nachrichten der ARD",
-  "image_source_url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-iran-102.html",
-  "image_provider": "rss",
-  "image_score": 70,
-  "image_query": "Eskalation im Iran-Krieg: DAX driftet nach unten",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "Eine neue Eskalation im Iran-Krieg hat den Ölpreis wieder über 100 Dollar getrieben und den DAX deutlich unter Druck gesetzt. Der deutsche Leitindex verliert an Wert, während globale Inflationssorgen die Märkte belasten.",
   "language": "German",
   "url_prefix": "nachrichten/artikel/2026/09",
@@ -68,10 +60,7 @@
   "quality_notes": [],
   "quality_word_count": 425,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.tagesschau.de/image/6c27bbdd-9480-4b9a-82b9-1f3c2346ad51/AAABnObPiLk/AAABnSSvrFg/16x9-big/boerse-496.jpg?width=1920",
-  "original_image_url": "https://images.tagesschau.de/image/6c27bbdd-9480-4b9a-82b9-1f3c2346ad51/AAABnObPiLk/AAABnSSvrFg/16x9-big/boerse-496.jpg?width=1920",
-  "image_local_webp": "nachrichten/artikel/2026/09/images/iran-krieg-eskalation-oelpreis-dax-faellt_20260909.webp",
-  "image_credit": "tagesschau.de",
-  "image_credit_url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-iran-102.html",
-  "image_finalized_at": "2026-09-09T11:53:37.085042Z"
+  "time": "08:46",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }

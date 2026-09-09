@@ -46,14 +46,6 @@
   "image_url": "https://mansetradar.com.tr/articles/2026/09/images/turkiye-cati-gunes-potansiyeli-elektrik-talebinin-yuzde-45ini-karsilayabilir_20260909.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "clear",
-  "image_license_note": "Unsplash API photo",
-  "image_source_url": "https://unsplash.com/photos/dense-cityscape-with-a-large-turkish-flag-overlooking-a-waterfront-5RQ3oswSntc",
-  "image_provider": "unsplash",
-  "image_score": 71,
-  "image_query": "turkiye cati",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "Türkiye'nin çatılarında yaklaşık 120 gigavatlık güneş enerjisi potansiyeli bulunduğu ve bu kapasitenin hayata geçirilmesiyle ülkenin elektrik talebinin yüzde 45'inin karşılanabileceği Uluslararası Enerji Ajansı (IEA) raporunda belirtildi. Bu potansiyel, enerji sistemini merkezsizleştirme ve afetlere karşı dayanıklılığı artırma fırsatı sunuyor.",
   "language": "Turkish",
   "url_prefix": "articles/2026/09",
@@ -75,10 +67,7 @@
   ],
   "quality_word_count": 382,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.unsplash.com/photo-1785925596091-4c7529f49a41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwzfHx0dXJraXllJTIwY2F0aXxlbnwxfDB8fHwxNzg4OTQzMDczfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "original_image_url": "https://images.unsplash.com/photo-1785925596091-4c7529f49a41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwzfHx0dXJraXllJTIwY2F0aXxlbnwxfDB8fHwxNzg4OTQzMDczfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "image_local_webp": "articles/2026/09/images/turkiye-cati-gunes-potansiyeli-elektrik-talebinin-yuzde-45ini-karsilayabilir_20260909.webp",
-  "image_credit": "unsplash.com",
-  "image_credit_url": "https://unsplash.com/photos/dense-cityscape-with-a-large-turkish-flag-overlooking-a-waterfront-5RQ3oswSntc",
-  "image_finalized_at": "2026-09-09T08:37:54.928207Z"
+  "time": "08:05",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }
