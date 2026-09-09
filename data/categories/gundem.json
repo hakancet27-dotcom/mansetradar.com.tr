@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-09T00:00:00+00:00",
-    "article_count": 1522,
+    "article_count": 1527,
     "schema_version": 2,
     "category_slug": "gundem",
     "type": "category"
@@ -47,6 +47,44 @@
         "Gündem",
         "Sancaktepe haberleri",
         "İstanbul"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:kacakcilikla-mucadele-8-aylik-bilanco-sahte-alkol_20260909",
+      "slug": "kacakcilikla-mucadele-8-aylik-bilanco-sahte-alkol_20260909",
+      "title": "Kaçakçılıkla Mücadelede 8 Aylık Bilanço: 673 Bin Litre Sahte Alkol Ele Geçirildi",
+      "summary": "Türkiye genelinde emniyet ve jandarma ekiplerinin 2026 yılının ilk 8 ayında düzenlediği kaçakçılık operasyonlarında 673 bin 85 litre sahte alkol ele geçirildi. 27 binden fazla operasyonun gerçekleştirildiği bu dönemde, 4 milyar 562 milyon liralık vergi kayb...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "09.09.2026",
+      "date_iso": "2026-09-09",
+      "url": "/articles/2026/09/kacakcilikla-mucadele-8-aylik-bilanco-sahte-alkol_20260909/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/kacakcilikla-mucadele-8-aylik-bilanco-sahte-alkol_20260909/",
+      "detail_json_url": "/data/details/articles/2026/09/kacakcilikla-mucadele-8-aylik-bilanco-sahte-alkol_20260909.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/kacakcilikla-mucadele-8-aylik-bilanco-sahte-alkol_20260909.webp",
+      "image_alt": "Kaçakçılık operasyonlarında ele geçirilen sahte alkol ve kaçak sigaralar.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/kacakcilikla-mucadele-8-aylik-bilanco-sahte-alkol_20260909.webp",
+        "alt": "Kaçakçılık operasyonlarında ele geçirilen sahte alkol ve kaçak sigaralar."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kacakcilikla-mucadelede-8-aylik-bilanco-673-bin-litre-sahte-alkol-ele-gecirildi-43301006",
+      "tags": [
+        "kaçakçılık operasyonu",
+        "sahte alkol",
+        "Emniyet Genel Müdürlüğü",
+        "Jandarma Genel Komutanlığı",
+        "vergi kaybı"
       ],
       "quality_score": 86,
       "review_status": "published"
