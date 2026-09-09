@@ -3,11 +3,49 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-09T00:00:00+00:00",
-    "article_count": 1549,
+    "article_count": 1553,
     "schema_version": 2,
     "section": "articles"
   },
   "articles": [
+    {
+      "id": "articles/2026/09:yatirim-fonlarindan-128-8-milyar-lira-cikis_20260909",
+      "slug": "yatirim-fonlarindan-128-8-milyar-lira-cikis_20260909",
+      "title": "Yatırım Fonlarından 128,8 Milyar Lira Çıkış Yaşandı",
+      "summary": "Sermaye Piyasası Kurulu'nun (SPK) yatırım fonlarına yönelik aldığı yeni düzenlemeler, piyasalarda önemli dalgalanmalara neden oldu. Özellikle fiili dolaşım oranı hesaplamasındaki değişiklikler ve pay sahipliği sınırlamaları sonrası, TEFAS'a açık 1047 yatırı...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "09.09.2026",
+      "date_iso": "2026-09-09",
+      "url": "/articles/2026/09/yatirim-fonlarindan-128-8-milyar-lira-cikis_20260909/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/yatirim-fonlarindan-128-8-milyar-lira-cikis_20260909/",
+      "detail_json_url": "/data/details/articles/2026/09/yatirim-fonlarindan-128-8-milyar-lira-cikis_20260909.json",
+      "image_url": "https://img.ekonomim.com/storage/files/images/2026/09/09/1288-milyar-lira-fonlari-terk-etti-onc6_cover.jpg",
+      "image_alt": "Yatırım fonlarından para çıkışını gösteren grafik ve borsa sembolleri.",
+      "image": {
+        "url": "https://img.ekonomim.com/storage/files/images/2026/09/09/1288-milyar-lira-fonlari-terk-etti-onc6_cover.jpg",
+        "alt": "Yatırım fonlarından para çıkışını gösteren grafik ve borsa sembolleri."
+      },
+      "source_name": "Ekonomim",
+      "source_url": "https://www.ekonomim.com/ekonomi/1288-milyar-lira-fonlari-terk-etti-haberi-917252",
+      "tags": [
+        "Yatırım Fonları",
+        "SPK",
+        "MSCI",
+        "Borsa İstanbul",
+        "Fiili Dolaşım Oranı"
+      ],
+      "quality_score": 90,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/09:xiaomi-18-fold-xring-o3-islemcili-katlanabilir-telefon-ozellikleri_20260909",
       "slug": "xiaomi-18-fold-xring-o3-islemcili-katlanabilir-telefon-ozellikleri_20260909",
@@ -478,6 +516,45 @@
         "Sporting Lizbon",
         "Şampiyonlar Ligi",
         "Penaltı Kararı"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:net-global-halka-arz-vagon-uretimi-sivas_20260909",
+      "slug": "net-global-halka-arz-vagon-uretimi-sivas_20260909",
+      "title": "Net Global Halka Arz Geliriyle Sivas'ta Vagon Üretecek",
+      "summary": "Net Global, 2 milyar 233 milyon TL büyüklüğe ulaşması öngörülen halka arz sürecini başlattı. Şirket, halka arzdan elde edeceği geliri Sivas'ta yerli vagon üretimi, plastik boru kapasite artışı ve finansal yapısının güçlendirilmesinde kullanacak.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "09.09.2026",
+      "date_iso": "2026-09-09",
+      "url": "/articles/2026/09/net-global-halka-arz-vagon-uretimi-sivas_20260909/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/net-global-halka-arz-vagon-uretimi-sivas_20260909/",
+      "detail_json_url": "/data/details/articles/2026/09/net-global-halka-arz-vagon-uretimi-sivas_20260909.json",
+      "image_url": "https://image.dunya.com/rcman/Cw1280h720q95gc/storage/files/images/2026/09/09/net-global-endustriyel-yatirimlar-a-rlyg_cover.jpg",
+      "image_alt": "Net Global Sivas Demirağ OSB vagon üretim fabrikası ve boru üretim tesisleri.",
+      "image": {
+        "url": "https://image.dunya.com/rcman/Cw1280h720q95gc/storage/files/images/2026/09/09/net-global-endustriyel-yatirimlar-a-rlyg_cover.jpg",
+        "alt": "Net Global Sivas Demirağ OSB vagon üretim fabrikası ve boru üretim tesisleri."
+      },
+      "source_name": "Dünya Gazetesi",
+      "source_url": "https://www.dunya.com/sirketler/boruda-kapasite-buyutecek-vagon-uretmeye-baslayacak-haberi-839405",
+      "tags": [
+        "Net Global",
+        "Halka Arz",
+        "Sivas Demirağ OSB",
+        "Vagon Üretimi",
+        "Berk Kuter",
+        "Haydar Aydın"
       ],
       "quality_score": 76,
       "review_status": "published"
@@ -993,6 +1070,43 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/09:cocuk-atistirmalik-pazari-buyuyor-2035-te-155-milyar-dolara-ulasmasi-bekleniyor_20260909",
+      "slug": "cocuk-atistirmalik-pazari-buyuyor-2035-te-155-milyar-dolara-ulasmasi-bekleniyor_20260909",
+      "title": "Çocuk Atıştırmalık Pazarı Büyüyor: 2035'te 155 Milyar Dolara Ulaşması Bekleniyor",
+      "summary": "Şölen Çikolata CEO'su Erdoğan Çoban, global çocuk atıştırmalık pazarının yıllık %6-8 oranında büyüdüğünü ve 2035 yılına kadar 155,8 milyar dolarlık bir büyüklüğe ulaşmasının beklendiğini açıkladı. Bu büyümede ebeveynlerin çocuk gelişimi odaklı bilinçlenmesi...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "09.09.2026",
+      "date_iso": "2026-09-09",
+      "url": "/articles/2026/09/cocuk-atistirmalik-pazari-buyuyor-2035-te-155-milyar-dolara-ulasmasi-bekleniyor_20260909/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/cocuk-atistirmalik-pazari-buyuyor-2035-te-155-milyar-dolara-ulasmasi-bekleniyor_20260909/",
+      "detail_json_url": "/data/details/articles/2026/09/cocuk-atistirmalik-pazari-buyuyor-2035-te-155-milyar-dolara-ulasmasi-bekleniyor_20260909.json",
+      "image_url": "https://image.dunya.com/rcman/Cw1280h720q95gc/storage/files/images/2026/09/09/erdogan-coban-ajiy_cover.jpg",
+      "image_alt": "Çocukların sağlıklı ve eğlenceli atıştırmalıklar keyfini çıkardığı, küresel pazar büyümesini ve yenilikçiliği ima eden...",
+      "image": {
+        "url": "https://image.dunya.com/rcman/Cw1280h720q95gc/storage/files/images/2026/09/09/erdogan-coban-ajiy_cover.jpg",
+        "alt": "Çocukların sağlıklı ve eğlenceli atıştırmalıklar keyfini çıkardığı, küresel pazar büyümesini ve yenilikçiliği ima eden..."
+      },
+      "source_name": "Dünya Gazetesi",
+      "source_url": "https://www.dunya.com/sirketler/cocuk-atistirmalik-pazari-dunyada-yilda-yuzde-6-8-buyuyor-haberi-839394",
+      "tags": [
+        "çocuk atıştırmalıkları",
+        "pazar büyümesi",
+        "Şölen Çikolata",
+        "Erdoğan Çoban"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/09:cinin-nostradamusundan-urkuten-2027-kehaneti-buyuk-kirilma_20260909",
       "slug": "cinin-nostradamusundan-urkuten-2027-kehaneti-buyuk-kirilma_20260909",
       "title": "Çin'in 'Nostradamus'u'ndan Ürküten 2027 Kehaneti: 'Büyük Kırılma' Uyarısı",
@@ -1108,6 +1222,47 @@
         "Dış Ticaret",
         "Fuar",
         "Ekonomi"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:apple-ilk-katlanir-iphone-duo-tanitti_20260909",
+      "slug": "apple-ilk-katlanir-iphone-duo-tanitti_20260909",
+      "title": "Apple, İlk Katlanır iPhone'u iPhone Duo'yu Tanıttı",
+      "summary": "Apple, şirketin yeni CEO'su John Ternus'un ilk büyük lansmanında merakla beklenen ilk katlanır iPhone modeli iPhone Duo'yu tanıttı. Bu yenilikçi cihaz, Apple'ın mobil cihaz pazarındaki rekabet gücünü artırmayı hedeflerken, iPhone 18 Pro serisi, Apple Watch...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "09.09.2026",
+      "date_iso": "2026-09-09",
+      "url": "/articles/2026/09/apple-ilk-katlanir-iphone-duo-tanitti_20260909/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/apple-ilk-katlanir-iphone-duo-tanitti_20260909/",
+      "detail_json_url": "/data/details/articles/2026/09/apple-ilk-katlanir-iphone-duo-tanitti_20260909.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/apple-ilk-katlanir-iphone-duo-tanitti_20260909.webp",
+      "image_alt": "Apple'ın ilk katlanır iPhone modeli iPhone Duo, lansman etkinliğinde sergileniyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/apple-ilk-katlanir-iphone-duo-tanitti_20260909.webp",
+        "alt": "Apple'ın ilk katlanır iPhone modeli iPhone Duo, lansman etkinliğinde sergileniyor."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/ekonomi/apple-ternus-yonetiminde-ilk-katlanir-iphoneu-tanitti-3911413",
+      "tags": [
+        "Apple",
+        "iPhone Duo",
+        "Katlanır iPhone",
+        "Teknoloji Lansmanı",
+        "iPhone 18 Pro",
+        "Apple Watch Series 12",
+        "Apple Watch Ultra 4",
+        "A20 Pro İşlemci"
       ],
       "quality_score": 100,
       "review_status": "published"

@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-09T00:00:00+00:00",
-    "article_count": 1549,
+    "article_count": 1553,
     "schema_version": 2,
     "topic_slug": "teknoloji",
     "type": "topic"
@@ -84,6 +84,47 @@
         "Ekonomi"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:apple-ilk-katlanir-iphone-duo-tanitti_20260909",
+      "slug": "apple-ilk-katlanir-iphone-duo-tanitti_20260909",
+      "title": "Apple, İlk Katlanır iPhone'u iPhone Duo'yu Tanıttı",
+      "summary": "Apple, şirketin yeni CEO'su John Ternus'un ilk büyük lansmanında merakla beklenen ilk katlanır iPhone modeli iPhone Duo'yu tanıttı. Bu yenilikçi cihaz, Apple'ın mobil cihaz pazarındaki rekabet gücünü artırmayı hedeflerken, iPhone 18 Pro serisi, Apple Watch...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "09.09.2026",
+      "date_iso": "2026-09-09",
+      "url": "/articles/2026/09/apple-ilk-katlanir-iphone-duo-tanitti_20260909/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/apple-ilk-katlanir-iphone-duo-tanitti_20260909/",
+      "detail_json_url": "/data/details/articles/2026/09/apple-ilk-katlanir-iphone-duo-tanitti_20260909.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/apple-ilk-katlanir-iphone-duo-tanitti_20260909.webp",
+      "image_alt": "Apple'ın ilk katlanır iPhone modeli iPhone Duo, lansman etkinliğinde sergileniyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/apple-ilk-katlanir-iphone-duo-tanitti_20260909.webp",
+        "alt": "Apple'ın ilk katlanır iPhone modeli iPhone Duo, lansman etkinliğinde sergileniyor."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/ekonomi/apple-ternus-yonetiminde-ilk-katlanir-iphoneu-tanitti-3911413",
+      "tags": [
+        "Apple",
+        "iPhone Duo",
+        "Katlanır iPhone",
+        "Teknoloji Lansmanı",
+        "iPhone 18 Pro",
+        "Apple Watch Series 12",
+        "Apple Watch Ultra 4",
+        "A20 Pro İşlemci"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
