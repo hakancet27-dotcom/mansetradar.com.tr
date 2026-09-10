@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-10T00:00:00+00:00",
-    "article_count": 1580,
+    "article_count": 1585,
     "schema_version": 2,
     "category_slug": "teknoloji",
     "type": "category"
@@ -202,6 +202,44 @@
         "hava durumu"
       ],
       "quality_score": 90,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:aa-serdar-karagoz-gitex-ai-turkiye-2026-yapay-zeka_20260910",
+      "slug": "aa-serdar-karagoz-gitex-ai-turkiye-2026-yapay-zeka_20260910",
+      "title": "AA Genel Müdürü Karagöz'den GITEX Ai Türkiye 2026'da Yapay Zeka Açıklaması",
+      "summary": "Anadolu Ajansı Yönetim Kurulu Başkanı ve Genel Müdürü Serdar Karagöz, İstanbul Fuar Merkezi'nde düzenlenen GITEX Ai Türkiye 2026 etkinliğinde yapay zekanın medya ve gazetecilik üzerindeki etkilerini değerlendirdi. Karagöz, yapay zekanın haber alma ve işleme...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "10.09.2026",
+      "date_iso": "2026-09-10",
+      "url": "/articles/2026/09/aa-serdar-karagoz-gitex-ai-turkiye-2026-yapay-zeka_20260910/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/aa-serdar-karagoz-gitex-ai-turkiye-2026-yapay-zeka_20260910/",
+      "detail_json_url": "/data/details/articles/2026/09/aa-serdar-karagoz-gitex-ai-turkiye-2026-yapay-zeka_20260910.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/aa-serdar-karagoz-gitex-ai-turkiye-2026-yapay-zeka_20260910.webp",
+      "image_alt": "Serdar Karagöz GITEX Ai Türkiye 2026 panelinde yapay zeka ve gazetecilik üzerine konuşurken",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/aa-serdar-karagoz-gitex-ai-turkiye-2026-yapay-zeka_20260910.webp",
+        "alt": "Serdar Karagöz GITEX Ai Türkiye 2026 panelinde yapay zeka ve gazetecilik üzerine konuşurken"
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/bilim-teknoloji/aa-yonetim-kurulu-baskani-ve-genel-muduru-serdar-karagoz-gitex-ai-turkiye-2026ya-katildi/4053679",
+      "tags": [
+        "Serdar Karagöz",
+        "GITEX Ai Türkiye 2026",
+        "Yapay Zeka",
+        "Anadolu Ajansı",
+        "Medya ve Gazetecilik"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
