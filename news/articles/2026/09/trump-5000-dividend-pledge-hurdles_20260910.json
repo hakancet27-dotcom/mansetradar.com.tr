@@ -43,14 +43,6 @@
   "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/trump-5000-dividend-pledge-hurdles_20260910.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "clear",
-  "image_license_note": "Unsplash API photo",
-  "image_source_url": "https://unsplash.com/photos/a-golden-trump-head-stands-before-stacks-of-money-OCl0vCTQ0IE",
-  "image_provider": "unsplash",
-  "image_score": 76,
-  "image_query": "trump dividend",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "President Trump has pledged to give every American adult $5,000 if Republicans maintain control of both the House and Senate in the upcoming November midterms. However, this promise, framed as a dividend from the nation's \"tremendous economic success,\" faces significant political and logistical obstacles, including the need for congressional approval, a projected cost exceeding $1.2 trillion, and unfavorable...",
   "language": "English",
   "url_prefix": "news/articles/2026/09",
@@ -68,10 +60,7 @@
   "quality_notes": [],
   "quality_word_count": 507,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.unsplash.com/photo-1744829079401-66fab1d0ab8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwyfHx0cnVtcCUyMGRpdmlkZW5kfGVufDF8MHx8fDE3ODkwNjIyNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "original_image_url": "https://images.unsplash.com/photo-1744829079401-66fab1d0ab8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwyfHx0cnVtcCUyMGRpdmlkZW5kfGVufDF8MHx8fDE3ODkwNjIyNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "image_local_webp": "news/articles/2026/09/images/trump-5000-dividend-pledge-hurdles_20260910.webp",
-  "image_credit": "unsplash.com",
-  "image_credit_url": "https://unsplash.com/photos/a-golden-trump-head-stands-before-stacks-of-money-OCl0vCTQ0IE",
-  "image_finalized_at": "2026-09-10T17:44:11.972421Z"
+  "time": "17:30",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }
