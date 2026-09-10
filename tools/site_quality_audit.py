@@ -36,22 +36,33 @@ ROOT = Path(__file__).resolve().parents[1]
 REPORT_DIR = ROOT / "reports"
 SITE_ORIGIN = "https://mansetradar.com.tr"
 
-HTML_ROOTS = [
-    ROOT / "index.html",
-    ROOT / "haber.html",
-    ROOT / "haber" / "index.html",
-    ROOT / "news" / "index.html",
-    ROOT / "nachrichten" / "index.html",
-    *sorted((ROOT / "articles").glob("*.html")),
-    *sorted((ROOT / "news" / "articles").glob("*.html")),
-    *sorted((ROOT / "nachrichten" / "artikel").glob("*.html")),
-]
-JSON_ROOTS = [
-    *sorted((ROOT / "articles").glob("*.json")),
-    *sorted((ROOT / "news" / "articles").glob("*.json")),
-    *sorted((ROOT / "nachrichten" / "artikel").glob("*.json")),
-    *sorted((ROOT / "review" / "pending").glob("*.json")),
-]
+HTML_ROOTS: list[Path] = []
+JSON_ROOTS: list[Path] = []
+
+
+def set_site_root(path: Path | str) -> None:
+    global ROOT, REPORT_DIR, HTML_ROOTS, JSON_ROOTS
+    ROOT = Path(path).resolve()
+    REPORT_DIR = ROOT / "reports"
+    HTML_ROOTS = [
+        ROOT / "index.html",
+        ROOT / "haber.html",
+        ROOT / "haber" / "index.html",
+        ROOT / "news" / "index.html",
+        ROOT / "nachrichten" / "index.html",
+        *sorted((ROOT / "articles").glob("*.html")),
+        *sorted((ROOT / "news" / "articles").glob("*.html")),
+        *sorted((ROOT / "nachrichten" / "artikel").glob("*.html")),
+    ]
+    JSON_ROOTS = [
+        *sorted((ROOT / "articles").glob("*.json")),
+        *sorted((ROOT / "news" / "articles").glob("*.json")),
+        *sorted((ROOT / "nachrichten" / "artikel").glob("*.json")),
+        *sorted((ROOT / "review" / "pending").glob("*.json")),
+    ]
+
+
+set_site_root(ROOT)
 
 MOJIBAKE_RE = re.compile(
     r"(Ã.|Ä[^\s<]{0,3}|Å[^\s<]{0,3}|Â[^\s<]{0,3}|â(?:€|„|œ||†|™|œ|”|“|’|‘|¦|€¦|†’|†)|�)"
@@ -82,6 +93,44 @@ CATEGORY_KEYWORDS = {
     "Sağlık": ["sağlık", "saglik", "virüs", "virus", "ebola", "hastalık", "hastane", "salgın", "vaccine"],
     "Video": ["video", "youtube", "kanal"],
 }
+
+CATEGORY_ALIASES = {
+    "politics": "Siyaset",
+    "politik": "Siyaset",
+    "u.s. news": "Siyaset",
+    "us news": "Siyaset",
+    "u s news": "Siyaset",
+    "world": "Dünya",
+    "welt": "Dünya",
+    "economy": "Ekonomi",
+    "wirtschaft": "Ekonomi",
+    "business": "Ekonomi",
+    "health": "Sağlık",
+    "gesundheit": "Sağlık",
+    "technology": "Teknoloji",
+    "technologie": "Teknoloji",
+    "tech": "Teknoloji",
+    "sports": "Spor",
+    "sport": "Spor",
+    "culture": "Magazin",
+    "kultur": "Magazin",
+    "entertainment": "Magazin",
+    "breaking": "Son Dakika",
+    "agenda": "Gündem",
+}
+
+
+def filter_mojibake(matches: list[str]) -> list[str]:
+    valid_german_words = {"Ära", "Ärzte", "Ägypten", "Ähnlich", "Änderung", "Ärger", "Ältere"}
+    filtered = []
+    for m in matches:
+        if m in valid_german_words:
+            continue
+        if m.startswith("Ä") and len(m) > 1 and m[1:].isalpha():
+            continue
+        filtered.append(m)
+    return filtered
+
 
 LIVE_URL_EXPECTATIONS = [
     {"url": f"{SITE_ORIGIN}/haber.html", "statuses": [200, 301, 302], "location_contains": "/"},
@@ -436,7 +485,7 @@ def audit() -> dict[str, Any]:
         text = read_text(path)
         page_rel = rel(path)
         canonical_key = canonical_file_key(page_rel)
-        mojibake = MOJIBAKE_RE.findall(text)
+        mojibake = filter_mojibake(MOJIBAKE_RE.findall(text))
         if mojibake:
             report["utf8_suspects"].append({
                 "file": page_rel,
@@ -509,12 +558,17 @@ def audit() -> dict[str, Any]:
         slug = slug_for_json(path, data)
         seen_slugs[(scope_for_path(path_label), slug)].append(path_label)
         raw = path.read_text(encoding="utf-8", errors="replace")
-        mojibake = MOJIBAKE_RE.findall(raw)
+        mojibake = filter_mojibake(MOJIBAKE_RE.findall(raw))
         if mojibake:
             report["utf8_suspects"].append({"file": path_label, "count": len(mojibake), "examples": sorted(set(mojibake))[:8]})
         current = str(data.get("category", "")).strip()
+        normalized_current = CATEGORY_ALIASES.get(normalize_key(current), current)
         inferred, score = infer_category(data)
-        if current and inferred and score >= 2 and normalize_key(current) != normalize_key(inferred):
+        mismatch = normalize_key(normalized_current) != normalize_key(inferred)
+        if mismatch and scope_for_path(path_label) in {"news/articles", "nachrichten/artikel"}:
+            if {normalize_key(normalized_current), normalize_key(inferred)} <= {"siyaset", "dunya", "dünya"}:
+                mismatch = False
+        if current and inferred and score >= 2 and mismatch:
             report["category_mismatches"].append({
                 "file": path_label,
                 "title": str(data.get("title", ""))[:140],
@@ -606,6 +660,13 @@ def write_reports(report: dict[str, Any]) -> tuple[Path, Path]:
 
 
 if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description="Site quality audit tool.")
+    parser.add_argument("--site-root", default=None, help="Root directory of the site to audit.")
+    args, _ = parser.parse_known_args()
+    if args.site_root:
+        set_site_root(args.site_root)
+
     result = audit()
     json_report, md_report = write_reports(result)
     print(f"Audit written: {json_report.relative_to(ROOT)}")
