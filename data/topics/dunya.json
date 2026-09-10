@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-10T00:00:00+00:00",
-    "article_count": 1569,
+    "article_count": 1574,
     "schema_version": 2,
     "topic_slug": "dunya",
     "type": "topic"
@@ -47,6 +47,45 @@
         "MKE"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:husiler-mocha-sehrini-ele-gecirdi-yemen_20260910",
+      "slug": "husiler-mocha-sehrini-ele-gecirdi-yemen_20260910",
+      "title": "Husiler, Kızıldeniz'deki Stratejik Mocha Şehrini Ele Geçirdi",
+      "summary": "Yemen'de İran destekli Husiler, Kızıldeniz'deki stratejik öneme sahip Mocha şehrini ele geçirdiklerini duyurdu. Bu gelişme, Husilerin Babülmendep Boğazı üzerindeki kontrolünü artırma potansiyeli taşırken, uluslararası alanda tanınan Yemen hükümetinin güneyd...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "10.09.2026",
+      "date_iso": "2026-09-10",
+      "url": "/articles/2026/09/husiler-mocha-sehrini-ele-gecirdi-yemen_20260910/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/husiler-mocha-sehrini-ele-gecirdi-yemen_20260910/",
+      "detail_json_url": "/data/details/articles/2026/09/husiler-mocha-sehrini-ele-gecirdi-yemen_20260910.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/husiler-mocha-sehrini-ele-gecirdi-yemen_20260910.webp",
+      "image_alt": "Husiler, Kızıldeniz'deki Stratejik Mocha Şehrini Ele Geçirdi",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/husiler-mocha-sehrini-ele-gecirdi-yemen_20260910.webp",
+        "alt": "Husiler, Kızıldeniz'deki Stratejik Mocha Şehrini Ele Geçirdi"
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-yemendeki-husiler-duyurdu-mocha-sehrini-ele-gecirdik-7657788",
+      "tags": [
+        "Yemen",
+        "Husiler",
+        "Mocha",
+        "Babülmendep",
+        "Kızıldeniz",
+        "Çatışma"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
