@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "articles/2026/09:nvidia-geforce-game-ready-616-92-surucusu-yayinlandi_20260910",
+    "slug": "nvidia-geforce-game-ready-616-92-surucusu-yayinlandi_20260910",
+    "title": "Nvidia GeForce Game Ready 616.92 Sürücüsü Yayınlandı: Titreme Sorunu Çözüldü",
+    "summary": "Nvidia, GeForce ekran kartı kullanıcıları için hazırladığı Game Ready 616.92 sürücüsünü yayınlandı. Yeni güncelleme, 007 First Light oyunu için Path Tracing optimizasyonu sunarken web tarayıcılarındaki ekran titremesi ve RDP siyah ekran sorunlarını ortadan...",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "topic_slug": "gundem",
+    "topic_label": "Gündem",
+    "country": "Turkey",
+    "language": "tr",
+    "language_label": "Turkish",
+    "section": "articles",
+    "section_name": "Haberler",
+    "url_prefix": "articles/2026/09",
+    "date": "10.09.2026",
+    "date_iso": "2026-09-10",
+    "url": "/articles/2026/09/nvidia-geforce-game-ready-616-92-surucusu-yayinlandi_20260910/",
+    "canonical_url": "https://mansetradar.com.tr/articles/2026/09/nvidia-geforce-game-ready-616-92-surucusu-yayinlandi_20260910/",
+    "detail_json_url": "/data/details/articles/2026/09/nvidia-geforce-game-ready-616-92-surucusu-yayinlandi_20260910.json",
+    "image_url": "https://www.donanimhaber.com/images/images/haber/210293/1200x675nvidia-geforce-game-ready-616-92-surucusu-yayinlandi.jpg",
+    "image_alt": "Nvidia GeForce Game Ready ekran kartı ve bilgisayar kurulumu.",
+    "image": {
+      "url": "https://www.donanimhaber.com/images/images/haber/210293/1200x675nvidia-geforce-game-ready-616-92-surucusu-yayinlandi.jpg",
+      "alt": "Nvidia GeForce Game Ready ekran kartı ve bilgisayar kurulumu."
+    },
+    "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+    "source_url": "https://www.donanimhaber.com/nvidia-geforce-game-ready-616-92-surucusu-yayinlandi--210293",
+    "tags": [
+      "Nvidia",
+      "GeForce",
+      "Sürücü",
+      "Game Ready",
+      "Ekran Kartı",
+      "DLSS"
+    ],
+    "quality_score": 76,
+    "review_status": "published",
+    "content_html": "<h2>Önemli Gelişmeler</h2> <p>Teknoloji devi Nvidia, GeForce ekran kartı modelleri için geliştirdiği yeni <strong>GeForce Game Ready 616.92</strong> sürücüsünü resmi olarak kullanıma sundu. Yayınlanan yeni sürüm, özellikle <strong>007 First Light</strong> oyunu için duyurulan Path Tracing güncellemesine tam destek sunarak en yüksek grafik performansını hedefliyor. Sürücü paketi ayrıca Active Matter, Aniimo ve WARDOGS oyunlarında Nvidia'nın DLSS ile RTX teknolojilerine yönelik optimizasyonları bünyesinde barındırıyor.</p> <p>Güncelleme, performans iyileştirmelerinin yanında kullanıcıların yaşadığı ciddi teknik aksaklıkları da çözüme kavuşturuyor. Belirli internet sitelerinde gezinirken web tarayıcılarında beliren ekran titremesi problemi 616.92 sürümüyle birlikte düzeltildi. Bunun yanı sıra, bir önceki 616.56 sürümüne geçiş yapıldıktan sonra ortaya çıkan sanal ekranların oluşturulamaması hatası giderildi. Remote Desktop Protocol (RDP) oturumlarında uzaktan masaüstü bağlantısı kurulduğunda yaşanan siyah ekran sorunu da bu güncellemeyle son buldu.</p> <p>Nvidia, yeni sürücüyle birlikte devam eden bazı bilinen sorunları da kamuoyuyla paylaştı. Güç yönetimi ayarlarında yer alan \"Prefer Maximum Performance\" modunun bazı sistemlerde doğru şekilde uygulanamadığı bildirildi. Oyun tarafında ise Assassin's Creed Shadows oyununda uzun süreli oynanışın ardından masaüstüne atma hatasının sürdüğü açıklandı. Ayrıca Judgement, Lost Judgement ve Virtua Fighter 5 R.E.V.O. oyunlarında 616.56 sürümü sonrasında beliren oyunu başlatma sorunları 616.92 sürümünde de çözülmemiş sorunlar listesinde yer alıyor.</p> <h2>Öne Çıkan Noktalar</h2> <ul> <li><strong>007 First Light desteği:</strong> Oyuna eklenen Path Tracing güncellemesi için tam optimizasyon sağlandı.</li> <li><strong>Kritik hata düzeltmeleri:</strong> Tarayıcı titremesi, sanal ekran oluşturma hatası ve RDP siyah ekran sorunları çözüldü.</li> <li><strong>Süren bilinen sorunlar:</strong> Assassin's Creed Shadows ve belirli oyunlardaki başlatma ve çökme problemleri devam ediyor.</li> </ul> <h2>Neden Önemli?</h2> <p>Nvidia'nın 616.92 sürücüsü, sadece grafik performansı artışı arayan oyuncular için değil, günlük ve profesyonel bilgisayar kullanımı yapan geniş bir kitle için kritik düzeltmeler içeriyor. Bir önceki 616.56 güncellemesinden sonra sanal ekran ve uzaktan masaüstü bağlantılarında aksaklık yaşayan kullanıcılar için bu sürücü sorunsuz bir çalışma ortamı sunuyor. Diğer yandan, listelenen bilinen sorunlar nedeniyle adı geçen oyunları aktif şekilde oynayan sistem sahiplerinin yükleme yapmadan önce mevcut hataları göz önünde bulundurması gerekiyor.</p>",
+    "meta_title": "Nvidia GeForce 616.92 Sürücüsü Yayınlandı: Titreme Sorunu...",
+    "meta_description": "Nvidia GeForce Game Ready 616.92 sürücüsü yayınlandı. 007 First Light optimizasyonu, tarayıcı titremesi ve RDP siyah ekran düzeltmeleri geldi.",
+    "spot": "Nvidia, GeForce ekran kartı kullanıcıları için hazırladığı Game Ready 616.92 sürücüsünü yayınlandı. Yeni güncelleme, 007 First Light oyunu için Path Tracing optimizasyonu sunarken web tarayıcılarındaki ekran titremesi ve RDP siyah ekran sorunlarını ortadan kaldırıyor.",
+    "word_count": 316,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "Nvidia GeForce 616.92 Yayınlandı: Ekran Titremesi Sorununa Son",
+      "007 First Light ve RTX Güncellemesi: Nvidia Yeni Sürücüsünü Duyurdu",
+      "Nvidia 616.92 Sürücüsü Çıktı: Hangi Sorunlar Çözüldü, Hangi Hatalar Sürüyor?"
+    ],
+    "visual_keywords": [
+      "Nvidia GeForce graphics card",
+      "007 First Light Path Tracing update",
+      "computer desktop display setup"
+    ]
+  }
+}
