@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-10T00:00:00+00:00",
-    "article_count": 1574,
+    "article_count": 1575,
     "schema_version": 2
   },
   "hero": [
@@ -951,6 +951,47 @@
         "Trump-Dividende"
       ],
       "quality_score": 90,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/09:trump-5000-dividend-pledge-hurdles_20260910",
+      "slug": "trump-5000-dividend-pledge-hurdles_20260910",
+      "title": "Trump's $5,000 Dividend Pledge Faces Major Hurdles",
+      "summary": "President Trump has pledged to give every American adult $5,000 if Republicans maintain control of both the House and Senate in the upcoming November midterms. However, this promise, framed as a dividend from the nation's \"tremendous economic success,\" face...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "10.09.2026",
+      "date_iso": "2026-09-10",
+      "url": "/news/articles/2026/09/trump-5000-dividend-pledge-hurdles_20260910/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/trump-5000-dividend-pledge-hurdles_20260910/",
+      "detail_json_url": "/data/details/news/articles/2026/09/trump-5000-dividend-pledge-hurdles_20260910.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/trump-5000-dividend-pledge-hurdles_20260910.webp",
+      "image_alt": "Trump's $5,000 Dividend Pledge Faces Major Hurdles",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/trump-5000-dividend-pledge-hurdles_20260910.webp",
+        "alt": "Trump's $5,000 Dividend Pledge Faces Major Hurdles"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/trump-5000-dividend-checks-midterms/",
+      "tags": [
+        "Trump",
+        "$5000",
+        "Dividends",
+        "Midterms",
+        "US Economy",
+        "Congress",
+        "Republican",
+        "National Debt"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -3107,46 +3148,6 @@
         "İstanbul"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/09:dev-bankalar-brent-petrol-tahminlerini-yukseltti-fiyatlar-neden-artiyor_20260909",
-      "slug": "dev-bankalar-brent-petrol-tahminlerini-yukseltti-fiyatlar-neden-artiyor_20260909",
-      "title": "Dev Bankalar Brent Petrol Tahminlerini Yükseltti: Fiyatlar Neden Artıyor?",
-      "summary": "Dev bankalar, Orta Doğu'daki jeopolitik gerilimler ve arz endişeleri nedeniyle Brent petrol tahminlerini yükseltti. Brent, 8 Eylül'de 97,92 dolara ulaşarak son altı haftanın en yüksek seviyesini gördü.",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/09",
-      "date": "09.09.2026",
-      "date_iso": "2026-09-09",
-      "url": "/articles/2026/09/dev-bankalar-brent-petrol-tahminlerini-yukseltti-fiyatlar-neden-artiyor_20260909/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/dev-bankalar-brent-petrol-tahminlerini-yukseltti-fiyatlar-neden-artiyor_20260909/",
-      "detail_json_url": "/data/details/articles/2026/09/dev-bankalar-brent-petrol-tahminlerini-yukseltti-fiyatlar-neden-artiyor_20260909.json",
-      "image_url": "https://img.ekonomim.com/storage/files/images/2026/09/09/petrolde-yeni-denklem-dev-bankalar-brent-tahminlerini-neden-yukseltiyor-fgut_cover.jpg",
-      "image_alt": "Brent petrol varilleri ve yükselen fiyat grafiği, Orta Doğu haritası ve tanker gemisi silüetleri ile küresel enerji...",
-      "image": {
-        "url": "https://img.ekonomim.com/storage/files/images/2026/09/09/petrolde-yeni-denklem-dev-bankalar-brent-tahminlerini-neden-yukseltiyor-fgut_cover.jpg",
-        "alt": "Brent petrol varilleri ve yükselen fiyat grafiği, Orta Doğu haritası ve tanker gemisi silüetleri ile küresel enerji..."
-      },
-      "source_name": "Ekonomim",
-      "source_url": "https://www.ekonomim.com/sektorler/enerji/petrolde-yeni-denklem-dev-bankalar-brent-tahminlerini-neden-yukseltiyor-haberi-917124",
-      "tags": [
-        "Brent petrol",
-        "petrol fiyatları",
-        "enerji piyasası",
-        "Orta Doğu",
-        "Hürmüz Boğazı",
-        "ekonomi",
-        "banka tahminleri"
-      ],
-      "quality_score": 90,
       "review_status": "published"
     }
   ]
