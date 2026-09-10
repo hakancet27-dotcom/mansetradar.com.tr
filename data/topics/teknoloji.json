@@ -3,12 +3,52 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-10T00:00:00+00:00",
-    "article_count": 1575,
+    "article_count": 1580,
     "schema_version": 2,
     "topic_slug": "teknoloji",
     "type": "topic"
   },
   "articles": [
+    {
+      "id": "articles/2026/09:mitsubishi-eclipse-cross-batarya-sarj-guncellemesi_20260910",
+      "slug": "mitsubishi-eclipse-cross-batarya-sarj-guncellemesi_20260910",
+      "title": "Mitsubishi Eclipse Cross'a Kapsamlı Batarya ve Şarj Güncellemesi",
+      "summary": "Mitsubishi, tamamen elektrikli kompakt SUV modeli Eclipse Cross'u kapsamlı bir batarya ve teknik güncelleme ile yeniledi. Yeni LFP ve NMC batarya seçenekleri sayesinde araç, hem menzilini artırdı hem de DC hızlı şarj sürelerini önemli ölçüde kısalttı.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "10.09.2026",
+      "date_iso": "2026-09-10",
+      "url": "/articles/2026/09/mitsubishi-eclipse-cross-batarya-sarj-guncellemesi_20260910/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/mitsubishi-eclipse-cross-batarya-sarj-guncellemesi_20260910/",
+      "detail_json_url": "/data/details/articles/2026/09/mitsubishi-eclipse-cross-batarya-sarj-guncellemesi_20260910.json",
+      "image_url": "https://www.donanimhaber.com/images/images/haber/210321/1200x675elektrikli-mitsubishi-eclipse-cross-yenilendi-yeni-lfp-batarya.jpg",
+      "image_alt": "Yenilenen Mitsubishi Eclipse Cross elektrikli SUV hızlı şarj istasyonunda.",
+      "image": {
+        "url": "https://www.donanimhaber.com/images/images/haber/210321/1200x675elektrikli-mitsubishi-eclipse-cross-yenilendi-yeni-lfp-batarya.jpg",
+        "alt": "Yenilenen Mitsubishi Eclipse Cross elektrikli SUV hızlı şarj istasyonunda."
+      },
+      "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+      "source_url": "https://www.donanimhaber.com/elektrikli-mitsubishi-eclipse-cross-yenilendi-yeni-lfp-batarya--210321",
+      "tags": [
+        "Mitsubishi",
+        "Eclipse Cross",
+        "Elektrikli Araç",
+        "LFP Batarya",
+        "NMC Batarya",
+        "SUV",
+        "Renault Scénic E-Tech"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/09:apple-iphone-fiyatlarina-zam-yapti-en-ucuz-model-72999-tl_20260910",
       "slug": "apple-iphone-fiyatlarina-zam-yapti-en-ucuz-model-72999-tl_20260910",
@@ -47,6 +87,43 @@
         "iPhone 18"
       ],
       "quality_score": 90,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:anker-soundcore-liberty-5-pro-inceleme_20260910",
+      "slug": "anker-soundcore-liberty-5-pro-inceleme_20260910",
+      "title": "Anker Soundcore Liberty 5 Pro: Yeni Nesil Kablosuz Kulaklık Teknolojisi",
+      "summary": "Anker, yeni kablosuz kulaklığı Soundcore Liberty 5 Pro ile pazarda iddialı bir giriş yapıyor. Gelişmiş gürültü engelleme, kişiselleştirilebilir ses profilleri ve yapay zeka destekli özellikler sunan model, kullanıcıların beklentilerini yükseltiyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "10.09.2026",
+      "date_iso": "2026-09-10",
+      "url": "/articles/2026/09/anker-soundcore-liberty-5-pro-inceleme_20260910/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/anker-soundcore-liberty-5-pro-inceleme_20260910/",
+      "detail_json_url": "/data/details/articles/2026/09/anker-soundcore-liberty-5-pro-inceleme_20260910.json",
+      "image_url": "https://i.chip.com.tr/storage/files/images/2026/09/09/anker-soundcore-liberty-5-pro-inceleme-fqtq.jpg",
+      "image_alt": "Anker Soundcore Liberty 5 Pro kablosuz kulaklıklar ve şarj kutusu",
+      "image": {
+        "url": "https://i.chip.com.tr/storage/files/images/2026/09/09/anker-soundcore-liberty-5-pro-inceleme-fqtq.jpg",
+        "alt": "Anker Soundcore Liberty 5 Pro kablosuz kulaklıklar ve şarj kutusu"
+      },
+      "source_name": "CHIP Online",
+      "source_url": "https://www.chip.com.tr/inceleme/anker-soundcore-liberty-5-pro-inceleme_183617.html",
+      "tags": [
+        "Anker Soundcore Liberty 5 Pro",
+        "Kablosuz Kulaklık",
+        "Gürültü Engelleme",
+        "Ses Teknolojileri"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
