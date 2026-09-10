@@ -2,8 +2,8 @@
   "meta": {
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
-    "generated_at": "2026-09-09T00:00:00+00:00",
-    "article_count": 1553,
+    "generated_at": "2026-09-10T00:00:00+00:00",
+    "article_count": 1554,
     "schema_version": 2
   },
   "hero": [
@@ -797,6 +797,45 @@
     }
   ],
   "latest": [
+    {
+      "id": "news/articles/2026/09:clancy-trial-mistrial-juror-holdout-no-evidence_20260910",
+      "slug": "clancy-trial-mistrial-juror-holdout-no-evidence_20260910",
+      "title": "Clancy Trial Ends in Mistrial After Juror Holdout",
+      "summary": "A juror from the five-week Clancy trial, which concluded in a mistrial on September 4, has revealed that a holdout juror failed to present any evidence to justify their dissenting vote. The jury was unable to reach a unanimous verdict, leading to the trial'...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "10.09.2026",
+      "date_iso": "2026-09-10",
+      "url": "/news/articles/2026/09/clancy-trial-mistrial-juror-holdout-no-evidence_20260910/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/clancy-trial-mistrial-juror-holdout-no-evidence_20260910/",
+      "detail_json_url": "/data/details/news/articles/2026/09/clancy-trial-mistrial-juror-holdout-no-evidence_20260910.json",
+      "image_url": "https://s.abcnews.com/images/US/clancy-18-ap-gmh-260904_1788549755974_hpMain_4x3t_384.jpg",
+      "image_alt": "Clancy Trial Ends in Mistrial After Juror Holdout",
+      "image": {
+        "url": "https://s.abcnews.com/images/US/clancy-18-ap-gmh-260904_1788549755974_hpMain_4x3t_384.jpg",
+        "alt": "Clancy Trial Ends in Mistrial After Juror Holdout"
+      },
+      "source_name": "ABC News: Top Stories",
+      "source_url": "https://abcnews.com/GMA/News/clancy-juror-holdout-show-single-piece-evidence-explaining/story?id=136312798",
+      "tags": [
+        "Clancy trial",
+        "mistrial",
+        "jury deliberations",
+        "unanimous verdict",
+        "legal news",
+        "court case"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "nachrichten/artikel/2026/09:zollstreit-kanada-trump-verbannung-produkte-us-behoerden_20260909",
       "slug": "zollstreit-kanada-trump-verbannung-produkte-us-behoerden_20260909",
@@ -3119,44 +3158,6 @@
         "Trade Tariffs"
       ],
       "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "nachrichten/artikel/2026/09:trump-karte-kanada-mexiko-groenland-usa_20260908",
-      "slug": "trump-karte-kanada-mexiko-groenland-usa_20260908",
-      "title": "Trump teilt Karte, die Kanada, Mexiko und Grönland als Teil der USA zeigt",
-      "summary": "US-Präsident Donald Trump hat auf der Social-Media-Plattform Truth Social eine Landkarte veröffentlicht, die Kanada, Mexiko und Grönland als Teil der Vereinigten Staaten darstellt. Die Grafik, die die US-Flagge über diese Gebiete legt, sorgte für Aufsehen....",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Germany",
-      "language": "de",
-      "language_label": "German",
-      "section": "nachrichten/artikel",
-      "section_name": "Deutschland Nachrichten",
-      "url_prefix": "nachrichten/artikel/2026/09",
-      "date": "08.09.2026",
-      "date_iso": "2026-09-08",
-      "url": "/nachrichten/artikel/2026/09/trump-karte-kanada-mexiko-groenland-usa_20260908/",
-      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/trump-karte-kanada-mexiko-groenland-usa_20260908/",
-      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/trump-karte-kanada-mexiko-groenland-usa_20260908.json",
-      "image_url": "https://cdn.prod.www.spiegel.de/images/c00a583f-cf74-46fc-aaa9-ce9b4d824f79_w520_r2.08_fpx55.3_fpy44.94.jpg",
-      "image_alt": "Eine stilisierte Karte von Nordamerika, auf der Kanada, Mexiko und Grönland mit der amerikanischen Flagge überlagert sind.",
-      "image": {
-        "url": "https://cdn.prod.www.spiegel.de/images/c00a583f-cf74-46fc-aaa9-ce9b4d824f79_w520_r2.08_fpx55.3_fpy44.94.jpg",
-        "alt": "Eine stilisierte Karte von Nordamerika, auf der Kanada, Mexiko und Grönland mit der amerikanischen Flagge überlagert sind."
-      },
-      "source_name": "DER SPIEGEL - Schlagzeilen",
-      "source_url": "https://www.spiegel.de/ausland/donald-trump-karte-zeigt-kanada-mexiko-und-groenland-als-teil-der-usa-a-350199fd-7ebc-4eda-8dc5-3fc976e83d42#ref=rss",
-      "tags": [
-        "Donald Trump",
-        "USA",
-        "Kanada",
-        "Mexiko",
-        "Grönland"
-      ],
-      "quality_score": 90,
       "review_status": "published"
     }
   ]
