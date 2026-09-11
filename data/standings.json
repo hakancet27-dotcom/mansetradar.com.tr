@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T18:03:16.443Z",
+  "updatedAt": "2026-09-11T21:23:14.793Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
@@ -562,7 +562,7 @@
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-09-11T18:03:16.443Z",
+      "updatedAt": "2026-09-11T21:23:14.793Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
@@ -595,6 +595,20 @@
         },
         {
           "position": 3,
+          "team": "Sevilla",
+          "played": 5,
+          "won": 3,
+          "draw": 1,
+          "lost": 1,
+          "goalsFor": 8,
+          "goalsAgainst": 6,
+          "points": 10,
+          "goalDifference": 2,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/89.gif",
+          "form": []
+        },
+        {
+          "position": 4,
           "team": "Real Madrid",
           "played": 4,
           "won": 3,
@@ -608,7 +622,7 @@
           "form": []
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Real Betis",
           "played": 4,
           "won": 3,
@@ -622,7 +636,7 @@
           "form": []
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "Deportivo La Coruna",
           "played": 4,
           "won": 2,
@@ -636,7 +650,7 @@
           "form": []
         },
         {
-          "position": 6,
+          "position": 7,
           "team": "Atletico Madrid",
           "played": 4,
           "won": 2,
@@ -647,20 +661,6 @@
           "points": 7,
           "goalDifference": 1,
           "logo": "https://im.mackolik.com/img/logo/kucuk/86.gif",
-          "form": []
-        },
-        {
-          "position": 7,
-          "team": "Sevilla",
-          "played": 4,
-          "won": 2,
-          "draw": 1,
-          "lost": 1,
-          "goalsFor": 7,
-          "goalsAgainst": 6,
-          "points": 7,
-          "goalDifference": 1,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/89.gif",
           "form": []
         },
         {
@@ -834,14 +834,14 @@
         {
           "position": 20,
           "team": "Valencia",
-          "played": 4,
+          "played": 5,
           "won": 0,
           "draw": 1,
-          "lost": 3,
+          "lost": 4,
           "goalsFor": 1,
-          "goalsAgainst": 9,
+          "goalsAgainst": 10,
           "points": 1,
-          "goalDifference": -8,
+          "goalDifference": -9,
           "logo": "https://im.mackolik.com/img/logo/kucuk/80.gif",
           "form": []
         }
