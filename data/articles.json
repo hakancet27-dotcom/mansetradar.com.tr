@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-11T00:00:00+00:00",
-    "article_count": 1621,
+    "article_count": 1623,
     "schema_version": 2
   },
   "articles": [
@@ -562,6 +562,44 @@
       "review_status": "published"
     },
     {
+      "id": "news/articles/2026/09:nyc-observes-third-and-fourth-moments-of-silence-9-11-anniversary_20260911",
+      "slug": "nyc-observes-third-and-fourth-moments-of-silence-9-11-anniversary_20260911",
+      "title": "NYC Observes Third and Fourth Moments of Silence Commemorating 9/11 Attacks",
+      "summary": "New York City observed the third and fourth moments of silence on September 11th, 2026, as part of its annual commemoration of the tragic attacks. These solemn pauses in activity are a significant part of the remembrance ceremonies held across the city and...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "11.09.2026",
+      "date_iso": "2026-09-11",
+      "url": "/news/articles/2026/09/nyc-observes-third-and-fourth-moments-of-silence-9-11-anniversary_20260911/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/nyc-observes-third-and-fourth-moments-of-silence-9-11-anniversary_20260911/",
+      "detail_json_url": "/data/details/news/articles/2026/09/nyc-observes-third-and-fourth-moments-of-silence-9-11-anniversary_20260911.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/nyc-observes-third-and-fourth-moments-of-silence-9-11-anniversary_20260911.webp",
+      "image_alt": "People observing a moment of silence at the 9/11 Memorial in New York City.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/nyc-observes-third-and-fourth-moments-of-silence-9-11-anniversary_20260911.webp",
+        "alt": "People observing a moment of silence at the 9/11 Memorial in New York City."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/watch-third-and-fourth-moment-of-silence-in-nyc-and-timeline-of-911-attacks/",
+      "tags": [
+        "Son Dakika",
+        "9/11 Anniversary",
+        "New York City",
+        "Moments of Silence",
+        "September 11 Attacks"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/09:nato-tusas-anka-3-paylasimi-nato-3-0_20260911",
       "slug": "nato-tusas-anka-3-paylasimi-nato-3-0_20260911",
       "title": "NATO’dan TUSAŞ İmzalı ANKA-3 Paylaşımı: 'Uygulamada NATO 3.0'",
@@ -1068,6 +1106,44 @@
         "Ekonomi"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/09:flight-93-passengers-fight-back-9-11_20260911",
+      "slug": "flight-93-passengers-fight-back-9-11_20260911",
+      "title": "Flight 93 Passengers' Heroic Decision to Fight Back on 9/11",
+      "summary": "On September 11, 2001, the passengers and crew of United Airlines Flight 93 made a pivotal decision to confront the terrorists who had hijacked their plane. This act of bravery, occurring after the hijackers took control and diverted the flight from its int...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "11.09.2026",
+      "date_iso": "2026-09-11",
+      "url": "/news/articles/2026/09/flight-93-passengers-fight-back-9-11_20260911/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/flight-93-passengers-fight-back-9-11_20260911/",
+      "detail_json_url": "/data/details/news/articles/2026/09/flight-93-passengers-fight-back-9-11_20260911.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/flight-93-passengers-fight-back-9-11_20260911.webp",
+      "image_alt": "The Flight 93 National Memorial in Shanksville, Pennsylvania.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/flight-93-passengers-fight-back-9-11_20260911.webp",
+        "alt": "The Flight 93 National Memorial in Shanksville, Pennsylvania."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/how-americans-aboard-flight-93-that-crashed-in-shanksville-on-911-decided-to-fight-terrorists-back/",
+      "tags": [
+        "Son Dakika",
+        "9/11",
+        "Flight 93",
+        "Terrorism",
+        "Heroism"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
