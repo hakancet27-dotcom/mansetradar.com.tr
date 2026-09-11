@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-11T00:00:00+00:00",
-    "article_count": 1623,
+    "article_count": 1627,
     "schema_version": 2
   },
   "articles": [
@@ -362,6 +362,44 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/09:skg-w9-ultra-massageguertel-test-rueckenschmerzen_20260911",
+      "slug": "skg-w9-ultra-massageguertel-test-rueckenschmerzen_20260911",
+      "title": "SKG W9 Ultra im Test: Mobiler Massagegürtel für den Rücken",
+      "summary": "Ein neuer Praxistest zeigt, wie der mobile Massagegürtel SKG W9 Ultra mit einer Kombination aus Wärme, Vibration und elektrischen Impulsen gegen Verspannungen im unteren Rücken helfen kann. Das am 11. September 2026 vorgestellte Gadget verspricht Linderung...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "11.09.2026",
+      "date_iso": "2026-09-11",
+      "url": "/nachrichten/artikel/2026/09/skg-w9-ultra-massageguertel-test-rueckenschmerzen_20260911/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/skg-w9-ultra-massageguertel-test-rueckenschmerzen_20260911/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/skg-w9-ultra-massageguertel-test-rueckenschmerzen_20260911.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/skg-w9-ultra-massageguertel-test-rueckenschmerzen_20260911.webp",
+      "image_alt": "Der mobile Massagegürtel SKG W9 Ultra mit integrierter Wärme- und Massagefunktion.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/skg-w9-ultra-massageguertel-test-rueckenschmerzen_20260911.webp",
+        "alt": "Der mobile Massagegürtel SKG W9 Ultra mit integrierter Wärme- und Massagefunktion."
+      },
+      "source_name": "n-tv.de - Startseite",
+      "source_url": "https://www.n-tv.de/technik/Der-SKG-W9-Ultra-kann-den-unteren-Ruecken-entzuecken-id31295018.html",
+      "tags": [
+        "SKG W9 Ultra",
+        "Massagegürtel",
+        "Rückenschmerzen",
+        "Gesundheitstechnologie",
+        "AOK Umfrage"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "nachrichten/artikel/2026/09:roma-kuenstler-norbert-olah-identitaet-widerstand-ungarn_20260911",
       "slug": "roma-kuenstler-norbert-olah-identitaet-widerstand-ungarn_20260911",
       "title": "Roma-Künstler Norbert Olah: Identität und Widerstand unter Orbán",
@@ -634,6 +672,45 @@
         "SİHA",
         "NATO 3.0",
         "Ankara Zirvesi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/09:nato-fokus-nach-11-september-buendnisfall_20260911",
+      "slug": "nato-fokus-nach-11-september-buendnisfall_20260911",
+      "title": "Wie der 11. September die NATO für immer veränderte",
+      "summary": "Nach den Terroranschlägen vom 11. September 2001 in den USA rief die NATO zum ersten und bisher einzigen Mal in ihrer Geschichte den Bündnisfall nach Artikel 5 aus. Dieses historische Ereignis zwang das Verteidigungsbündnis zu einer fundamentalen Neuausrich...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "11.09.2026",
+      "date_iso": "2026-09-11",
+      "url": "/nachrichten/artikel/2026/09/nato-fokus-nach-11-september-buendnisfall_20260911/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/nato-fokus-nach-11-september-buendnisfall_20260911/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/nato-fokus-nach-11-september-buendnisfall_20260911.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/nato-fokus-nach-11-september-buendnisfall_20260911.webp",
+      "image_alt": "Die Flaggen vor dem NATO-Hauptquartier wehen halbmast nach den Anschlägen vom 11. September.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/nato-fokus-nach-11-september-buendnisfall_20260911.webp",
+        "alt": "Die Flaggen vor dem NATO-Hauptquartier wehen halbmast nach den Anschlägen vom 11. September."
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/ausland/amerika/11-september-nato-100.html",
+      "tags": [
+        "NATO",
+        "11. September",
+        "Artikel 5",
+        "Bündnisfall",
+        "George Robertson",
+        "Claudia Major"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -954,6 +1031,45 @@
         "dedektör"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/09:iran-usa-konflikt-us-zwischenwahlen-oelpreis_20260911",
+      "slug": "iran-usa-konflikt-us-zwischenwahlen-oelpreis_20260911",
+      "title": "Konflikt vor US-Zwischenwahlen: Irans kalkulierte Eskalation erhöht Druck auf Trump",
+      "summary": "Vor den US-Zwischenwahlen am 3. November 2026 verschärft sich der Konflikt zwischen den USA und dem Iran zusehends. Während Teheran durch gezielte Aktionen an wichtigen Seehandelswegen den Druck auf Washington erhöht, versucht US-Präsident Donald Trump, die...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "11.09.2026",
+      "date_iso": "2026-09-11",
+      "url": "/nachrichten/artikel/2026/09/iran-usa-konflikt-us-zwischenwahlen-oelpreis_20260911/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/iran-usa-konflikt-us-zwischenwahlen-oelpreis_20260911/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/iran-usa-konflikt-us-zwischenwahlen-oelpreis_20260911.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/iran-usa-konflikt-us-zwischenwahlen-oelpreis_20260911.webp",
+      "image_alt": "Ein Öltanker fährt bei Sonnenuntergang durch eine strategische Meerenge im Nahen Osten.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/iran-usa-konflikt-us-zwischenwahlen-oelpreis_20260911.webp",
+        "alt": "Ein Öltanker fährt bei Sonnenuntergang durch eine strategische Meerenge im Nahen Osten."
+      },
+      "source_name": "Deutsche Welle: DW.com Deutsch",
+      "source_url": "https://www.dw.com/de/irans-kalkül-vor-den-us-zwischenwahlen/a-79224834?maca=de-rss-de-all-1119-rdf",
+      "tags": [
+        "Iran",
+        "USA",
+        "Donald Trump",
+        "Ölpreis",
+        "US-Zwischenwahlen",
+        "Huthi-Rebellen"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -1459,6 +1575,44 @@
         "Fed",
         "Ekonomi",
         "Piyasalar"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/09:9-11-jahrestag-gedenken-new-york-pentagon_20260911",
+      "slug": "9-11-jahrestag-gedenken-new-york-pentagon_20260911",
+      "title": "25. Jahrestag von 9/11: Gedenken an die Opfer in New York und im Pentagon begonnen",
+      "summary": "Am 25. Jahrestag der Terroranschläge vom 11. September 2001 hat in den USA das offizielle Gedenken an die fast 3.000 Opfer begonnen. In New York läuteten die Glocken zu einer Schweigeminute, während hochrangige Politiker wie George W. Bush, Bill Clinton, Ba...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "11.09.2026",
+      "date_iso": "2026-09-11",
+      "url": "/nachrichten/artikel/2026/09/9-11-jahrestag-gedenken-new-york-pentagon_20260911/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/9-11-jahrestag-gedenken-new-york-pentagon_20260911/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/9-11-jahrestag-gedenken-new-york-pentagon_20260911.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/9-11-jahrestag-gedenken-new-york-pentagon_20260911.webp",
+      "image_alt": "Gedenkfeier am Ground Zero in New York zum 25. Jahrestag der Anschläge vom 11. September.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/9-11-jahrestag-gedenken-new-york-pentagon_20260911.webp",
+        "alt": "Gedenkfeier am Ground Zero in New York zum 25. Jahrestag der Anschläge vom 11. September."
+      },
+      "source_name": "DIE ZEIT | Nachrichten, News, Hintergründe und Debatten",
+      "source_url": "https://www.zeit.de/politik/ausland/2026-09/9-11-jahrestag-gedenkfeiern-new-york-zohran-mamdani-rudy-giuliani-gxe",
+      "tags": [
+        "9/11 Gedenken",
+        "New York",
+        "Donald Trump",
+        "Zohran Mamdani",
+        "Pentagon"
       ],
       "quality_score": 100,
       "review_status": "published"
