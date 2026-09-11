@@ -3,12 +3,51 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-11T00:00:00+00:00",
-    "article_count": 1588,
+    "article_count": 1621,
     "schema_version": 2,
     "category_slug": "son-dakika",
     "type": "category"
   },
   "articles": [
+    {
+      "id": "articles/2026/09:kozan-yangini-hastanede-aci-haber-evleri-kul-oldu_20260911",
+      "slug": "kozan-yangini-hastanede-aci-haber-evleri-kul-oldu_20260911",
+      "title": "Kozan Yangını: 2 Bin Hektar Kül Oldu, Bir Çift Evsiz Kaldı",
+      "summary": "Adana'nın Kozan ilçesinde 7 Eylül'de başlayan ve Aladağ ile İmamoğlu'na yayılan orman yangını, 3 günde kontrol altına alındı. Yangında 2 bin hektar alan zarar görürken, astım krizi nedeniyle hastanede olan Meryem ve Halil Bozkurt çiftinin ahşap evi ve hayva...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "11.09.2026",
+      "date_iso": "2026-09-11",
+      "url": "/articles/2026/09/kozan-yangini-hastanede-aci-haber-evleri-kul-oldu_20260911/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/kozan-yangini-hastanede-aci-haber-evleri-kul-oldu_20260911/",
+      "detail_json_url": "/data/details/articles/2026/09/kozan-yangini-hastanede-aci-haber-evleri-kul-oldu_20260911.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/kozan-yangini-hastanede-aci-haber-evleri-kul-oldu_20260911.webp",
+      "image_alt": "Adana Kozan'daki orman yangınında evi yanan Meryem ve Halil Bozkurt çifti, küle dönen evlerinin önünde duruyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/kozan-yangini-hastanede-aci-haber-evleri-kul-oldu_20260911.webp",
+        "alt": "Adana Kozan'daki orman yangınında evi yanan Meryem ve Halil Bozkurt çifti, küle dönen evlerinin önünde duruyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kozanda-baslayip-2-ilceye-yayilmisti-hastaneye-gittiler-telefonda-aci-haberi-aldilar-yalan-dunyanin-cennetiydi-43303155",
+      "tags": [
+        "Kozan yangını",
+        "Adana orman yangını",
+        "Meryem Bozkurt",
+        "Halil Bozkurt",
+        "Yangın felaketi",
+        "Doğal afet"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/09:yeni-dacia-spring-tanitildi-fiyat-ozellikler_20260908",
       "slug": "yeni-dacia-spring-tanitildi-fiyat-ozellikler_20260908",
