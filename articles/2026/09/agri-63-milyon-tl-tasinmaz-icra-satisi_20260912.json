@@ -47,14 +47,6 @@
   "image_url": "https://mansetradar.com.tr/articles/2026/09/images/agri-63-milyon-tl-tasinmaz-icra-satisi_20260912.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "source_provided",
-  "image_license_note": "RSS source image: Hürriyet",
-  "image_source_url": "https://www.hurriyet.com.tr/resmi-ilanlar/agri-icra-dairesi-mudurlugu-43303767",
-  "image_provider": "rss",
-  "image_score": 70,
-  "image_query": "AĞRI İCRA DAİRESİ MÜDÜRLÜĞÜ",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "Ağrı İcra Dairesi, Merkez Fatih Mahallesi'nde bulunan 86 dönümden fazla yüzölçümüne sahip, muhammen kıymeti 63 milyon TL'yi aşan bir taşınmazı borçtan dolayı satışa çıkardı. İhale, 19-26 Ekim 2026 ve 19-26 Kasım 2026 tarihlerinde iki ayrı oturumda gerçekleştirilecek.",
   "language": "Turkish",
   "url_prefix": "articles/2026/09",
@@ -77,10 +69,7 @@
   ],
   "quality_word_count": 385,
   "indexed_on_home": true,
-  "image_identity_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6aa3fdb53443bc75302b0086.jpg",
-  "original_image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6aa3fdb53443bc75302b0086.jpg",
-  "image_local_webp": "articles/2026/09/images/agri-63-milyon-tl-tasinmaz-icra-satisi_20260912.webp",
-  "image_credit": "hurriyet.com.tr",
-  "image_credit_url": "https://www.hurriyet.com.tr/resmi-ilanlar/agri-icra-dairesi-mudurlugu-43303767",
-  "image_finalized_at": "2026-09-12T00:41:08.534865Z"
+  "time": "21:00",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }
