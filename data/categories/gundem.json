@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-12T00:00:00+00:00",
-    "article_count": 1639,
+    "article_count": 1644,
     "schema_version": 2,
     "category_slug": "gundem",
     "type": "category"
@@ -47,6 +47,43 @@
         "Son Dakika"
       ],
       "quality_score": 95,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:beypazari-kamulastirma-davasi-fasil-mahallesi-155190-ada-2-parsel_20260912",
+      "slug": "beypazari-kamulastirma-davasi-fasil-mahallesi-155190-ada-2-parsel_20260912",
+      "title": "Beypazarı'nda Kamulaştırma Davası Açıldı: Fasıl Mahallesi'ndeki 155190 Ada 2 Parsel İçin...",
+      "summary": "Ankara'nın Beypazarı ilçesi Fasıl Mahallesi'nde bulunan 155190 ada 2 parsel numaralı taşınmaz, davacı idare tarafından kamulaştırılacak. Kamulaştırma bedelinin tespiti ve tescili amacıyla Beypazarı 2. Asliye Hukuk Mahkemesi'nde 2026/118 Esas numarasıyla dav...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "12.09.2026",
+      "date_iso": "2026-09-12",
+      "url": "/articles/2026/09/beypazari-kamulastirma-davasi-fasil-mahallesi-155190-ada-2-parsel_20260912/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/beypazari-kamulastirma-davasi-fasil-mahallesi-155190-ada-2-parsel_20260912/",
+      "detail_json_url": "/data/details/articles/2026/09/beypazari-kamulastirma-davasi-fasil-mahallesi-155190-ada-2-parsel_20260912.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/beypazari-kamulastirma-davasi-fasil-mahallesi-155190-ada-2-parsel_20260912.webp",
+      "image_alt": "Beypazarı'nda kamulaştırılacak taşınmazın havadan görünümü, mahkeme binası ve yasal ilan tabelası ile birlikte.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/beypazari-kamulastirma-davasi-fasil-mahallesi-155190-ada-2-parsel_20260912.webp",
+        "alt": "Beypazarı'nda kamulaştırılacak taşınmazın havadan görünümü, mahkeme binası ve yasal ilan tabelası ile birlikte."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/resmi-ilanlar/beypazari-2-asliye-hukuk-mahkemesi-43303774",
+      "tags": [
+        "Beypazarı",
+        "Kamulaştırma",
+        "Hukuk",
+        "Taşınmaz"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
