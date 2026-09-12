@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-12T00:00:00+00:00",
-    "article_count": 1671,
+    "article_count": 1675,
     "schema_version": 2,
     "section": "nachrichten-artikel"
   },
@@ -82,6 +82,43 @@
         "Unfall"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/09:us-open-alexander-zverev-trifft-im-finale-auf-ben-shelton_20260912",
+      "slug": "us-open-alexander-zverev-trifft-im-finale-auf-ben-shelton_20260912",
+      "title": "US Open 2026: Alexander Zverev trifft im Finale auf Ben Shelton",
+      "summary": "Deutschlands Tennissuperstar Alexander Zverev trifft am Sonntag im Finale der US Open in New York auf den US-Amerikaner Ben Shelton. Der 23-jährige Aufschlagspezialist setzte sich im Halbfinale gegen Frances Tiafoe durch und steht erstmals in seiner Karrier...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "12.09.2026",
+      "date_iso": "2026-09-12",
+      "url": "/nachrichten/artikel/2026/09/us-open-alexander-zverev-trifft-im-finale-auf-ben-shelton_20260912/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/us-open-alexander-zverev-trifft-im-finale-auf-ben-shelton_20260912/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/us-open-alexander-zverev-trifft-im-finale-auf-ben-shelton_20260912.json",
+      "image_url": "https://cdn.prod.www.spiegel.de/images/1da8f766-dcca-4295-970e-a684b07d8c34_w520_r2.08_fpx41.35_fpy49.99.jpg",
+      "image_alt": "US-Tennisspieler Ben Shelton auf dem Platz bei den US Open.",
+      "image": {
+        "url": "https://cdn.prod.www.spiegel.de/images/1da8f766-dcca-4295-970e-a684b07d8c34_w520_r2.08_fpx41.35_fpy49.99.jpg",
+        "alt": "US-Tennisspieler Ben Shelton auf dem Platz bei den US Open."
+      },
+      "source_name": "DER SPIEGEL - Schlagzeilen",
+      "source_url": "https://www.spiegel.de/sport/tennis/us-open-alexander-zverev-trifft-im-finale-auf-aufschlagriese-ben-shelton-a-1c206c67-3441-45a6-9451-7346db252e19#ref=rss",
+      "tags": [
+        "US Open",
+        "Alexander Zverev",
+        "Ben Shelton",
+        "Tennis"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
@@ -246,6 +283,44 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/09:klimawandel-malariarisiko-afrika-gesundheit_20260912",
+      "slug": "klimawandel-malariarisiko-afrika-gesundheit_20260912",
+      "title": "Klimawandel verändert Malariarisiko in Afrika: Neue Erkenntnisse zu Infektionen und Schutz",
+      "summary": "Der Klimawandel verändert die Ausbreitung von Malaria in Afrika grundlegend. Während steigende Temperaturen in Teilen Westafrikas die Übertragung dämpfen könnten, droht anderen Regionen eine Zunahme der Infektionen. Auf den Kontinent entfallen rund 95 Proze...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "12.09.2026",
+      "date_iso": "2026-09-12",
+      "url": "/nachrichten/artikel/2026/09/klimawandel-malariarisiko-afrika-gesundheit_20260912/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/klimawandel-malariarisiko-afrika-gesundheit_20260912/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/klimawandel-malariarisiko-afrika-gesundheit_20260912.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/klimawandel-malariarisiko-afrika-gesundheit_20260912.webp",
+      "image_alt": "Eine Mücke auf einem Blatt in einer tropischen Region Afrikas",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/klimawandel-malariarisiko-afrika-gesundheit_20260912.webp",
+        "alt": "Eine Mücke auf einem Blatt in einer tropischen Region Afrikas"
+      },
+      "source_name": "Deutsche Welle: DW.com Deutsch",
+      "source_url": "https://www.dw.com/de/wie-der-klimawandel-das-malariarisiko-in-afrika-verändert/a-79145135?maca=de-rss-de-all-1119-rdf",
+      "tags": [
+        "Malaria",
+        "Klimawandel",
+        "Afrika",
+        "WHO",
+        "Gesundheit"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "nachrichten/artikel/2026/09:hubig-mietpreisbremse-bussgelder_20260912",
       "slug": "hubig-mietpreisbremse-bussgelder_20260912",
       "title": "Hubig fordert Bußgelder gegen Mietpreisbremsen-Verstöße",
@@ -285,6 +360,44 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/09:gladbach-debakel-freiburg-5-0-niederlage-bundesliga_20260912",
+      "slug": "gladbach-debakel-freiburg-5-0-niederlage-bundesliga_20260912",
+      "title": "Debakel in Freiburg: Gladbach geht 0:5 unter und bleibt punktlos",
+      "summary": "Am 3. Spieltag der Fußball-Bundesliga hat Borussia Mönchengladbach eine schwere 0:5-Niederlage beim SC Freiburg erlitten. Für die Fohlenelf ist es erst das zweite Mal in der Vereinsgeschichte, dass das Team nach drei Spieltagen ohne einen einzigen Punkt das...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "12.09.2026",
+      "date_iso": "2026-09-12",
+      "url": "/nachrichten/artikel/2026/09/gladbach-debakel-freiburg-5-0-niederlage-bundesliga_20260912/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/gladbach-debakel-freiburg-5-0-niederlage-bundesliga_20260912/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/gladbach-debakel-freiburg-5-0-niederlage-bundesliga_20260912.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/gladbach-debakel-freiburg-5-0-niederlage-bundesliga_20260912.webp",
+      "image_alt": "Szene aus dem Bundesliga-Spiel zwischen dem SC Freiburg und Borussia Mönchengladbach im Stadion.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/gladbach-debakel-freiburg-5-0-niederlage-bundesliga_20260912.webp",
+        "alt": "Szene aus dem Bundesliga-Spiel zwischen dem SC Freiburg und Borussia Mönchengladbach im Stadion."
+      },
+      "source_name": "n-tv.de - Startseite",
+      "source_url": "https://www.n-tv.de/sport/fussball/Desolate-Gladbacher-gehen-in-Freiburg-unter-BVB-siegt-weiter-id31299206.html",
+      "tags": [
+        "Borussia Mönchengladbach",
+        "SC Freiburg",
+        "Bundesliga",
+        "Eugen Polanski",
+        "Tim Kleindienst"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "nachrichten/artikel/2026/09:frankreich-zugunglueck-normandie-44-verletzt_20260912",
       "slug": "frankreich-zugunglueck-normandie-44-verletzt_20260912",
       "title": "Zugunglück in der Normandie: Mindestens 44 Verletzte nach Entgleisung",
@@ -319,6 +432,45 @@
         "Unfall"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/09:e3-dc-chef-piepenbrink-stromnetz-nicht-durch-solarstrom-ueberlastet_20260912",
+      "slug": "e3-dc-chef-piepenbrink-stromnetz-nicht-durch-solarstrom-ueberlastet_20260912",
+      "title": "E3/DC-Chef stellt klar: Stromnetze sind durch Solarstrom nicht überlastet",
+      "summary": "Der Chef des Energieunternehmens E3/DC, Andreas Piepenbrink, widerspricht Darstellungen der Energiewirtschaft über eine angebliche Überlastung der Stromnetze durch den Solarausbau. Eine Auswertung von 110.000 Solaranlagen an Pfingsten zeigt laut dem Unterne...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "12.09.2026",
+      "date_iso": "2026-09-12",
+      "url": "/nachrichten/artikel/2026/09/e3-dc-chef-piepenbrink-stromnetz-nicht-durch-solarstrom-ueberlastet_20260912/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/e3-dc-chef-piepenbrink-stromnetz-nicht-durch-solarstrom-ueberlastet_20260912/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/e3-dc-chef-piepenbrink-stromnetz-nicht-durch-solarstrom-ueberlastet_20260912.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/e3-dc-chef-piepenbrink-stromnetz-nicht-durch-solarstrom-ueberlastet_20260912.webp",
+      "image_alt": "Photovoltaikanlagen auf Häuserdächern zur Erzeugung von Solarstrom",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/e3-dc-chef-piepenbrink-stromnetz-nicht-durch-solarstrom-ueberlastet_20260912.webp",
+        "alt": "Photovoltaikanlagen auf Häuserdächern zur Erzeugung von Solarstrom"
+      },
+      "source_name": "n-tv.de - Startseite",
+      "source_url": "https://www.n-tv.de/wirtschaft/E3-DC-Chef-Piepenbrink-Die-Energiewirtschaft-sagt-das-Ortsnetz-sei-ueberlastet-das-stimmt-nicht-id31286267.html",
+      "tags": [
+        "Energiewende",
+        "Solarstrom",
+        "Stromnetz",
+        "E3/DC",
+        "Andreas Piepenbrink",
+        "Netzentgelte"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
