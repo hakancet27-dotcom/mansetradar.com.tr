@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-12T00:00:00+00:00",
-    "article_count": 1680,
+    "article_count": 1683,
     "schema_version": 2,
     "category_slug": "gundem",
     "type": "category"
@@ -121,6 +121,44 @@
         "Taşınmaz"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:antalya-emniyeti-sube-mudurleri-gozaltina-alindi-rusvet-sorusturmasi_20260912",
+      "slug": "antalya-emniyeti-sube-mudurleri-gozaltina-alindi-rusvet-sorusturmasi_20260912",
+      "title": "Antalya Emniyetinde Rüşvet Soruşturması: İki Şube Müdürü Gözaltına Alındı",
+      "summary": "Antalya'da kamu görevlilerine rüşvet verildiği iddialarına yönelik yürütülen soruşturmada, Narkotik Şube Müdürü O.U. ile Koruma Şube Müdürü E.D.E. gözaltına alındı. Operasyon kapsamında toplam gözaltı sayısı 4'e yükseldi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "12.09.2026",
+      "date_iso": "2026-09-12",
+      "url": "/articles/2026/09/antalya-emniyeti-sube-mudurleri-gozaltina-alindi-rusvet-sorusturmasi_20260912/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/antalya-emniyeti-sube-mudurleri-gozaltina-alindi-rusvet-sorusturmasi_20260912/",
+      "detail_json_url": "/data/details/articles/2026/09/antalya-emniyeti-sube-mudurleri-gozaltina-alindi-rusvet-sorusturmasi_20260912.json",
+      "image_url": "https://image.dunya.com/rcman/Cw1280h720q95gc/storage/files/images/2025/09/16/gozalti-8jcx-cover-psg8_cover.jpg",
+      "image_alt": "Antalya Emniyet Müdürlüğü binası ve önündeki resmi polis araçları",
+      "image": {
+        "url": "https://image.dunya.com/rcman/Cw1280h720q95gc/storage/files/images/2025/09/16/gozalti-8jcx-cover-psg8_cover.jpg",
+        "alt": "Antalya Emniyet Müdürlüğü binası ve önündeki resmi polis araçları"
+      },
+      "source_name": "Dünya Gazetesi",
+      "source_url": "https://www.dunya.com/gundem/antalya-emniyetinde-2-sube-muduru-gozaltina-alindi-haberi-839803",
+      "tags": [
+        "antalya emniyeti",
+        "rüşvet soruşturması",
+        "gözaltı",
+        "narkotik şube müdürü",
+        "koruma şube müdürü"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
