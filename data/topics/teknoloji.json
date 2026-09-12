@@ -3,12 +3,51 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-12T00:00:00+00:00",
-    "article_count": 1661,
+    "article_count": 1666,
     "schema_version": 2,
     "topic_slug": "teknoloji",
     "type": "topic"
   },
   "articles": [
+    {
+      "id": "articles/2026/09:piyasalarda-haftalik-kapanis-borsa-altin-doviz-verileri_20260912",
+      "slug": "piyasalarda-haftalik-kapanis-borsa-altin-doviz-verileri_20260912",
+      "title": "Piyasalarda Haftalık Bilanço: Borsa Yükseldi, Altın Geriledi, Pasifik Teknoloji Zirveye...",
+      "summary": "Yatırım araçlarının haftalık performansında Borsa İstanbul ve döviz kurları değer kazanırken, altın fiyatlarında düşüş görüldü. BIST 100 endeksi haftayı yüzde 3,25 yükselişle tamamlarken, Pasifik Teknoloji hisseleri yüzde 31,49 kazançla haftanın lideri oldu.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "12.09.2026",
+      "date_iso": "2026-09-12",
+      "url": "/articles/2026/09/piyasalarda-haftalik-kapanis-borsa-altin-doviz-verileri_20260912/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/piyasalarda-haftalik-kapanis-borsa-altin-doviz-verileri_20260912/",
+      "detail_json_url": "/data/details/articles/2026/09/piyasalarda-haftalik-kapanis-borsa-altin-doviz-verileri_20260912.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/piyasalarda-haftalik-kapanis-borsa-altin-doviz-verileri_20260912.webp",
+      "image_alt": "Borsa İstanbul işlem ekranı, döviz kurları ve altın grafikleri",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/piyasalarda-haftalik-kapanis-borsa-altin-doviz-verileri_20260912.webp",
+        "alt": "Borsa İstanbul işlem ekranı, döviz kurları ve altın grafikleri"
+      },
+      "source_name": "Cumhuriyet Gazetesi - Ekonomi",
+      "source_url": "https://www.cumhuriyet.com.tr/ekonomi/altin-uzdu-borsa-guldurdu-o-hisse-bir-haftada-yuzde-31-kazandirdi-iste-piyasalarda-son-durum-2536923",
+      "tags": [
+        "BIST 100",
+        "Borsa İstanbul",
+        "Altın Fiyatları",
+        "Dolar TL",
+        "Pasifik Teknoloji",
+        "Piyasa Kapanış"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/09:volvo-xc40-ex40-yenilendi-gemini-entegrasyonu_20260911",
       "slug": "volvo-xc40-ex40-yenilendi-gemini-entegrasyonu_20260911",
