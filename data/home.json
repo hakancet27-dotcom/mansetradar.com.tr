@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-12T00:00:00+00:00",
-    "article_count": 1654,
+    "article_count": 1656,
     "schema_version": 2
   },
   "hero": [
@@ -834,6 +834,46 @@
       "review_status": "published"
     },
     {
+      "id": "news/articles/2026/09:trump-ireland-visit-diplomacy-golf-irish-open_20260912",
+      "slug": "trump-ireland-visit-diplomacy-golf-irish-open_20260912",
+      "title": "Trump Arrives in Ireland for Diplomatic Talks and Irish Open",
+      "summary": "President Trump arrived in Dublin, Ireland, on Saturday, September 12, 2026, commencing a weekend visit that includes high-level talks with Irish President Catherine Connolly and Prime Minister Micheál Martin. Following diplomatic engagements and remarks to...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "12.09.2026",
+      "date_iso": "2026-09-12",
+      "url": "/news/articles/2026/09/trump-ireland-visit-diplomacy-golf-irish-open_20260912/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/trump-ireland-visit-diplomacy-golf-irish-open_20260912/",
+      "detail_json_url": "/data/details/news/articles/2026/09/trump-ireland-visit-diplomacy-golf-irish-open_20260912.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/trump-ireland-visit-diplomacy-golf-irish-open_20260912.webp",
+      "image_alt": "President Trump arriving in Dublin, Ireland, for official talks and to attend the Irish Open.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/trump-ireland-visit-diplomacy-golf-irish-open_20260912.webp",
+        "alt": "President Trump arriving in Dublin, Ireland, for official talks and to attend the Irish Open."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/trump-ireland-dublin-visit-irish-open-golf/",
+      "tags": [
+        "Donald Trump",
+        "Ireland",
+        "Dublin",
+        "Irish Open",
+        "Diplomacy",
+        "Golf",
+        "Protests"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "nachrichten/artikel/2026/09:schalke-04-besiegt-union-berlin-erster-bundesliga-sieg-seit-drei-jahren_20260912",
       "slug": "schalke-04-besiegt-union-berlin-erster-bundesliga-sieg-seit-drei-jahren_20260912",
       "title": "Schalke 04 feiert ersten Bundesliga-Sieg seit drei Jahren gegen Union Berlin",
@@ -1070,6 +1110,47 @@
         "Son Dakika"
       ],
       "quality_score": 95,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/09:iran-backed-houthis-tighten-grip-on-key-oil-shipping-lane_20260912",
+      "slug": "iran-backed-houthis-tighten-grip-on-key-oil-shipping-lane_20260912",
+      "title": "Iran-Backed Houthis Tighten Grip on Key Oil Shipping Lane",
+      "summary": "Iran-backed Houthi fighters have tightened their control over the crucial Bab el-Mandeb Strait, a vital oil shipping lane. President Trump stated Saturday that the Houthis, who have taken control of a corridor linking Europe and Asia, have asked Washington...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "12.09.2026",
+      "date_iso": "2026-09-12",
+      "url": "/news/articles/2026/09/iran-backed-houthis-tighten-grip-on-key-oil-shipping-lane_20260912/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/iran-backed-houthis-tighten-grip-on-key-oil-shipping-lane_20260912/",
+      "detail_json_url": "/data/details/news/articles/2026/09/iran-backed-houthis-tighten-grip-on-key-oil-shipping-lane_20260912.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/iran-backed-houthis-tighten-grip-on-key-oil-shipping-lane_20260912.webp",
+      "image_alt": "Iran-Backed Houthis Tighten Grip on Key Oil Shipping Lane",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/iran-backed-houthis-tighten-grip-on-key-oil-shipping-lane_20260912.webp",
+        "alt": "Iran-Backed Houthis Tighten Grip on Key Oil Shipping Lane"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-diesel-price-record-houthis-red-sea/",
+      "tags": [
+        "Houthi",
+        "Yemen",
+        "Bab el-Mandeb",
+        "Iran",
+        "Saudi Arabia",
+        "Oil Shipping",
+        "Donald Trump",
+        "Lebanon"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -3062,86 +3143,6 @@
         "FK Bodø/Glimt"
       ],
       "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/09:cevdet-yilmaz-cari-acik-yuzde-2-altina-kisi-basi-gelir-25-bin-dolar_20260911",
-      "slug": "cevdet-yilmaz-cari-acik-yuzde-2-altina-kisi-basi-gelir-25-bin-dolar_20260911",
-      "title": "Yılmaz: Cari Açık Gelecek Yıl %2 Altına İnecek, Kişi Başı Gelir 25 Bin Dolar Olacak",
-      "summary": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, TİSK Zirvesi'nde yaptığı konuşmada, gelecek yıl cari açığı yüzde 2'nin altına indirme hedefini açıkladı. Yılmaz, enflasyonla mücadelede para, maliye ve arz yönlü politikaların bütüncül bir yaklaşımla uygulandığını vur...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "ekonomi",
-      "topic_label": "Ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/09",
-      "date": "11.09.2026",
-      "date_iso": "2026-09-11",
-      "url": "/articles/2026/09/cevdet-yilmaz-cari-acik-yuzde-2-altina-kisi-basi-gelir-25-bin-dolar_20260911/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/cevdet-yilmaz-cari-acik-yuzde-2-altina-kisi-basi-gelir-25-bin-dolar_20260911/",
-      "detail_json_url": "/data/details/articles/2026/09/cevdet-yilmaz-cari-acik-yuzde-2-altina-kisi-basi-gelir-25-bin-dolar_20260911.json",
-      "image_url": "https://image.dunya.com/rcman/Cw1280h720q95gc/storage/files/images/2026/09/11/cevdet-yilmaz-z5aq_cover.jpg",
-      "image_alt": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, TİSK zirvesinde ekonomi hedeflerini açıklarken.",
-      "image": {
-        "url": "https://image.dunya.com/rcman/Cw1280h720q95gc/storage/files/images/2026/09/11/cevdet-yilmaz-z5aq_cover.jpg",
-        "alt": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, TİSK zirvesinde ekonomi hedeflerini açıklarken."
-      },
-      "source_name": "Dünya Gazetesi",
-      "source_url": "https://www.dunya.com/ekonomi/yilmaz-cari-acigi-gelecek-yil-yuzde-2nin-altina-tasiyacagiz-haberi-839687",
-      "tags": [
-        "Cevdet Yılmaz",
-        "Ekonomi",
-        "Cari Açık",
-        "Enflasyon",
-        "Sosyal Konut",
-        "Kişi Başı Gelir",
-        "OVP",
-        "TİSK"
-      ],
-      "quality_score": 90,
-      "review_status": "published"
-    },
-    {
-      "id": "news/articles/2026/09:cbs-news-911-retrospective-bin-laden-afghanistan_20260911",
-      "slug": "cbs-news-911-retrospective-bin-laden-afghanistan_20260911",
-      "title": "CBS News to Air 9/11 Retrospective on Bin Laden, Afghanistan",
-      "summary": "CBSNews.com is set to release a significant video retrospective on September 11, 2026, titled \"Look back: 9/11, Osama bin Laden, and a safe haven in Afghanistan.\" The feature will delve into the profound impact of the September 11 attacks, the figure of Osa...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "USA",
-      "language": "en",
-      "language_label": "English",
-      "section": "news/articles",
-      "section_name": "US News",
-      "url_prefix": "news/articles/2026/09",
-      "date": "11.09.2026",
-      "date_iso": "2026-09-11",
-      "url": "/news/articles/2026/09/cbs-news-911-retrospective-bin-laden-afghanistan_20260911/",
-      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/cbs-news-911-retrospective-bin-laden-afghanistan_20260911/",
-      "detail_json_url": "/data/details/news/articles/2026/09/cbs-news-911-retrospective-bin-laden-afghanistan_20260911.json",
-      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/cbs-news-911-retrospective-bin-laden-afghanistan_20260911.webp",
-      "image_alt": "CBS News to Air 9/11 Retrospective on Bin Laden, Afghanistan",
-      "image": {
-        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/cbs-news-911-retrospective-bin-laden-afghanistan_20260911.webp",
-        "alt": "CBS News to Air 9/11 Retrospective on Bin Laden, Afghanistan"
-      },
-      "source_name": "Home - CBSNews.com",
-      "source_url": "https://www.cbsnews.com/video/look-back-911-osama-bin-laden-and-a-safe-haven-in-afghanistan/",
-      "tags": [
-        "9/11",
-        "Osama bin Laden",
-        "Afghanistan",
-        "Al-Qaeda",
-        "Terrorism",
-        "CBS News"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]
