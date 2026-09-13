@@ -3,12 +3,52 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-13T00:00:00+00:00",
-    "article_count": 1713,
+    "article_count": 1716,
     "schema_version": 2,
     "category_slug": "saglik",
     "type": "category"
   },
   "articles": [
+    {
+      "id": "articles/2026/09:istanbul-otobus-yangini-2-olu-8-yarali_20260913",
+      "slug": "istanbul-otobus-yangini-2-olu-8-yarali_20260913",
+      "title": "İstanbul'da Otobüs Yangını: 2 Ölü, 8 Yaralı",
+      "summary": "İstanbul'da Kuzey Marmara Otoyolu'nda Diyarbakır-İstanbul seferini yapan bir yolcu otobüsünde meydana gelen yangında 2 kişi hayatını kaybetti, 1'i ağır 8 kişi yaralandı. Yağışlı hava nedeniyle kayganlaşan yolda sürücünün direksiyon hakimiyetini kaybetmesi s...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "13.09.2026",
+      "date_iso": "2026-09-13",
+      "url": "/articles/2026/09/istanbul-otobus-yangini-2-olu-8-yarali_20260913/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/istanbul-otobus-yangini-2-olu-8-yarali_20260913/",
+      "detail_json_url": "/data/details/articles/2026/09/istanbul-otobus-yangini-2-olu-8-yarali_20260913.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/istanbul-otobus-yangini-2-olu-8-yarali_20260913.webp",
+      "image_alt": "İstanbul'da Kuzey Marmara Otoyolu'nda alev alev yanan yolcu otobüsü.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/istanbul-otobus-yangini-2-olu-8-yarali_20260913.webp",
+        "alt": "İstanbul'da Kuzey Marmara Otoyolu'nda alev alev yanan yolcu otobüsü."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/istanbulda-otobus-alev-alev-yandi-2-olu-4-yarali-43305491",
+      "tags": [
+        "Son Dakika",
+        "İstanbul",
+        "Otobüs Yangını",
+        "Trafik Kazası",
+        "Kuzey Marmara Otoyolu",
+        "Eyüpsultan",
+        "Eyüpsultan haberleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/09:turkiyede-sepsis-alarmi-yogun-bakimda-her-iki-sepsisli-hastadan-biri-oluyor_20260912",
       "slug": "turkiyede-sepsis-alarmi-yogun-bakimda-her-iki-sepsisli-hastadan-biri-oluyor_20260912",
