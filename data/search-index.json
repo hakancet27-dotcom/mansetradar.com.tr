@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-13T00:00:00+00:00",
-    "article_count": 1689,
+    "article_count": 1694,
     "schema_version": 2
   },
   "items": [
@@ -21,6 +21,19 @@
       "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/us-women-beat-spain-fiba-world-cup-final-france_20260913.webp"
     },
     {
+      "id": "articles/2026/09:tesla-roadster-1-ekim-tanitim_20260913",
+      "title": "Tesla Roadster'ın Tanıtım Tarihi Belli Oldu: 1 Ekim'de Geliyor",
+      "summary": "Tesla'nın uzun süredir beklenen yeni nesil Roadster modeli, CEO Elon Musk'ın açıklamasına göre 1 Ekim'de tanıtılacak. İlk kez 2017'de duyurulan ve teslimatları defalarca ertelenen elektrikli spor otomobil, tamamen yenilenmiş bir tasarımla geliyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "date_iso": "2026-09-13",
+      "url": "/articles/2026/09/tesla-roadster-1-ekim-tanitim_20260913/",
+      "detail_json_url": "/data/details/articles/2026/09/tesla-roadster-1-ekim-tanitim_20260913.json",
+      "image_url": "https://images.ntv.com.tr/images/2B3LVJRY2VPSTHPBGFKI5KJQ54-787608.jpg"
+    },
+    {
       "id": "nachrichten/artikel/2026/09:st-pauli-schockt-wolfsburg-erste-zweitliga-niederlage-seit-fast-30-jahren_20260913",
       "title": "St. Pauli schockt Wolfsburg: Erste Zweitliga-Niederlage seit fast 30 Jahren",
       "summary": "Der FC St. Pauli hat den VfL Wolfsburg im Topspiel der 2. Fußball-Bundesliga kurz vor Schluss geschlagen und dem Topfavoriten auf den Aufstieg die erste Zweitliga-Niederlage seit fast 30 Jahren zugefügt. Joel Chima Fujita erzielte in der 88. Minute das ents...",
@@ -32,6 +45,19 @@
       "url": "/nachrichten/artikel/2026/09/st-pauli-schockt-wolfsburg-erste-zweitliga-niederlage-seit-fast-30-jahren_20260913/",
       "detail_json_url": "/data/details/nachrichten/artikel/2026/09/st-pauli-schockt-wolfsburg-erste-zweitliga-niederlage-seit-fast-30-jahren_20260913.json",
       "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/st-pauli-schockt-wolfsburg-erste-zweitliga-niederlage-seit-fast-30-jahren_20260913.webp"
+    },
+    {
+      "id": "articles/2026/09:orta-doguda-catisma-riski-kizildeniz-hurmuz-gerilim_20260913",
+      "title": "Orta Doğu'da Çatışma Riski Artıyor: Kızıldeniz ve Hürmüz'de Gerilim Tırmandı",
+      "summary": "Orta Doğu'da Kızıldeniz ve Hürmüz Boğazı'nda tansiyon yükseliyor. Husilerin Yemen'deki ilerleyişi Suudi petrol ihracatını tehdit ederken, Hürmüz'de bir ticari gemiye düzenlenen saldırıda 1 kişi hayatını kaybetti, 3 kişi yaralandı. İran saldırıdan ABD'yi sor...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "date_iso": "2026-09-13",
+      "url": "/articles/2026/09/orta-doguda-catisma-riski-kizildeniz-hurmuz-gerilim_20260913/",
+      "detail_json_url": "/data/details/articles/2026/09/orta-doguda-catisma-riski-kizildeniz-hurmuz-gerilim_20260913.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/orta-doguda-catisma-riski-kizildeniz-hurmuz-gerilim_20260913.webp"
     },
     {
       "id": "nachrichten/artikel/2026/09:openai-boersengang-ki-sicherheit_20260913",
@@ -60,9 +86,22 @@
       "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/ki-chefs-fordern-langsamere-entwicklung-sicherheitsrisiken_20260913.webp"
     },
     {
+      "id": "articles/2026/09:izmir-otobus-kazasi-serra-nil-erdogan-telefonla-konusmuyordum_20260913",
+      "title": "Otobüsün Çarptığı Serra Nil Erdoğan: \"Telefonla Konuşmuyordum\" İddiası Gerçeği Yansıtmıyor",
+      "summary": "İzmir'in Bayraklı ilçesinde 7 Ağustos'ta stajına giderken ESHOT otobüsünün çarpması sonucu ağır yaralanan Marmara Üniversitesi öğrencisi Serra Nil Erdoğan, kaza tutanağında yer aldığı iddia edilen \"telefonla konuşuyordu\" ifadesinin gerçeği yansıtmadığını be...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "ulasim",
+      "topic_label": "Ulaşım",
+      "date_iso": "2026-09-13",
+      "url": "/articles/2026/09/izmir-otobus-kazasi-serra-nil-erdogan-telefonla-konusmuyordum_20260913/",
+      "detail_json_url": "/data/details/articles/2026/09/izmir-otobus-kazasi-serra-nil-erdogan-telefonla-konusmuyordum_20260913.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/izmir-otobus-kazasi-serra-nil-erdogan-telefonla-konusmuyordum_20260913.webp"
+    },
+    {
       "id": "articles/2026/09:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260913",
       "title": "İstanbul Şehir Bülteni (13 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu",
-      "summary": "13 Eylül 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 130 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
+      "summary": "13 Eylül 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 148 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
       "category": "Gündem",
       "category_slug": "gundem",
       "topic_slug": "kamu",
@@ -71,6 +110,19 @@
       "url": "/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260913/",
       "detail_json_url": "/data/details/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260913.json",
       "image_url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp"
+    },
+    {
+      "id": "articles/2026/09:iphone-duo-mu-galaxy-z-fold-8-mi-karsilastirma-fiyat-ozellikler_20260913",
+      "title": "iPhone Duo ve Galaxy Z Fold 8 Karşı Karşıya: Fiyat, Ekran ve Donanım Farkları",
+      "summary": "Apple'ın 23 Ekim'de teslimatlarına başlayacağı ilk katlanabilir telefonu iPhone Duo ile Samsung'un iddialı modeli Galaxy Z Fold 8'in teknik özellikleri ve Türkiye fiyatları netleşti; iki cihaz ekran kaplamasından kalem desteğine kadar pek çok alanda ayrışıyor.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "date_iso": "2026-09-13",
+      "url": "/articles/2026/09/iphone-duo-mu-galaxy-z-fold-8-mi-karsilastirma-fiyat-ozellikler_20260913/",
+      "detail_json_url": "/data/details/articles/2026/09/iphone-duo-mu-galaxy-z-fold-8-mi-karsilastirma-fiyat-ozellikler_20260913.json",
+      "image_url": "https://i.chip.com.tr/storage/files/images/2026/09/11/iphone-duo-mu-galaxy-z-fold-8-mi-fark-dusundugunuzden-fazla-n909.jpg"
     },
     {
       "id": "nachrichten/artikel/2026/09:filmfestspiele-venedig-goldener-loewe-women-unknown_20260913",
@@ -84,6 +136,19 @@
       "url": "/nachrichten/artikel/2026/09/filmfestspiele-venedig-goldener-loewe-women-unknown_20260913/",
       "detail_json_url": "/data/details/nachrichten/artikel/2026/09/filmfestspiele-venedig-goldener-loewe-women-unknown_20260913.json",
       "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/filmfestspiele-venedig-goldener-loewe-women-unknown_20260913.webp"
+    },
+    {
+      "id": "articles/2026/09:bakan-kurum-istanbul-kiralik-sosyal-konut-basvurulari-basliyor_20260913",
+      "title": "Bakan Kurum İstanbul'daki Kiralık Sosyal Konutların Görüntülerini Paylaştı",
+      "summary": "Çevre, Şehircilik ve İklim Değişikliği Bakanı Murat Kurum, İstanbul'da dar gelirli vatandaşların uygun fiyatlarla konuta erişimini kolaylaştırmak amacıyla hayata geçirilen kiralık sosyal konut projesinin örnek dairelerinin görüntülerini paylaştı. Yarın başl...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "date_iso": "2026-09-13",
+      "url": "/articles/2026/09/bakan-kurum-istanbul-kiralik-sosyal-konut-basvurulari-basliyor_20260913/",
+      "detail_json_url": "/data/details/articles/2026/09/bakan-kurum-istanbul-kiralik-sosyal-konut-basvurulari-basliyor_20260913.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/bakan-kurum-istanbul-kiralik-sosyal-konut-basvurulari-basliyor_20260913.webp"
     },
     {
       "id": "nachrichten/artikel/2026/09:zugunglueck-nordfrankreich-verletzt_20260912",
