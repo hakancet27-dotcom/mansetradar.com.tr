@@ -3,12 +3,51 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-13T00:00:00+00:00",
-    "article_count": 1716,
+    "article_count": 1721,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
   },
   "articles": [
+    {
+      "id": "articles/2026/09:kuru-uzum-fiyatlari-rekolte-kalite-sorunu_20260913",
+      "slug": "kuru-uzum-fiyatlari-rekolte-kalite-sorunu_20260913",
+      "title": "Kuru Üzümde Yüksek Rekolteye Rağmen Düşük Kalite ve Fiyat Sorunu",
+      "summary": "Toprak Mahsulleri Ofisi (TMO), kuru üzüm alım fiyatlarını açıklasa da, bu yılki yüksek rekolte ve düşük ürün kalitesi nedeniyle üreticiler beklenen geliri elde edemiyor. Manisa bölgesinde rekoltenin 300 bin ton civarında olması beklenirken, üzümlerin büyük...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "13.09.2026",
+      "date_iso": "2026-09-13",
+      "url": "/articles/2026/09/kuru-uzum-fiyatlari-rekolte-kalite-sorunu_20260913/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/kuru-uzum-fiyatlari-rekolte-kalite-sorunu_20260913/",
+      "detail_json_url": "/data/details/articles/2026/09/kuru-uzum-fiyatlari-rekolte-kalite-sorunu_20260913.json",
+      "image_url": "https://img.ekonomim.com/storage/files/images/2026/09/13/kuru-uzumde-verim-yuksek-kalite-ve-fiyat-dusuk-jpyb_cover.jpg",
+      "image_alt": "Kuru üzüm tarlasında düşük kaliteli üzümleri inceleyen endişeli bir çiftçi",
+      "image": {
+        "url": "https://img.ekonomim.com/storage/files/images/2026/09/13/kuru-uzumde-verim-yuksek-kalite-ve-fiyat-dusuk-jpyb_cover.jpg",
+        "alt": "Kuru üzüm tarlasında düşük kaliteli üzümleri inceleyen endişeli bir çiftçi"
+      },
+      "source_name": "Ekonomim",
+      "source_url": "https://www.ekonomim.com/ekonomi/kuru-uzumde-verim-yuksek-kalite-ve-fiyat-dusuk-haberi-917949",
+      "tags": [
+        "Kuru Üzüm",
+        "TMO",
+        "TARİŞ",
+        "Tarım",
+        "Üretici",
+        "Manisa"
+      ],
+      "quality_score": 90,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/09:kurtlar-vadisi-senaristleri-kozinoglu-sorusturmasinda-ifade-verecek_20260913",
       "slug": "kurtlar-vadisi-senaristleri-kozinoglu-sorusturmasinda-ifade-verecek_20260913",
@@ -165,6 +204,44 @@
         "Çok Kutuplu Dünya"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:akdeniz-trilyon-dolarlik-tsunami-riski-fransiz-rivierasi_20260913",
+      "slug": "akdeniz-trilyon-dolarlik-tsunami-riski-fransiz-rivierasi_20260913",
+      "title": "Akdeniz'de Trilyon Dolarlık Tsunami Riski: Fransız Rivierası İçin Kritik Uyarı",
+      "summary": "Akdeniz'in, Fransız Rivierası başta olmak üzere kıyı şeritlerinde trilyon dolarlık ekonomik risk taşıyan yıkıcı tsunami dalgalarına maruz kalabileceği belirtildi. Araştırmalar, deniz tabanındaki kaymalar sonrası dalgaların 10 dakikadan kısa sürede kıyıya ul...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "13.09.2026",
+      "date_iso": "2026-09-13",
+      "url": "/articles/2026/09/akdeniz-trilyon-dolarlik-tsunami-riski-fransiz-rivierasi_20260913/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/akdeniz-trilyon-dolarlik-tsunami-riski-fransiz-rivierasi_20260913/",
+      "detail_json_url": "/data/details/articles/2026/09/akdeniz-trilyon-dolarlik-tsunami-riski-fransiz-rivierasi_20260913.json",
+      "image_url": "https://image.dunya.com/rcman/Cw1280h720q95gc/storage/files/images/2026/09/13/r1-muaf_cover.jpg",
+      "image_alt": "Fransız Rivierası kıyısına yaklaşan potansiyel bir tsunami dalgasını gösteren dramatik bir hava fotoğrafı.",
+      "image": {
+        "url": "https://image.dunya.com/rcman/Cw1280h720q95gc/storage/files/images/2026/09/13/r1-muaf_cover.jpg",
+        "alt": "Fransız Rivierası kıyısına yaklaşan potansiyel bir tsunami dalgasını gösteren dramatik bir hava fotoğrafı."
+      },
+      "source_name": "Dünya Gazetesi",
+      "source_url": "https://www.dunya.com/surdurulebilir-dunya/akdenizde-trilyon-dolarlik-tsunami-riski-haberi-839878",
+      "tags": [
+        "Akdeniz",
+        "Tsunami",
+        "Fransız Rivierası",
+        "Afet Yönetimi",
+        "Uyarı Sistemi"
+      ],
+      "quality_score": 90,
       "review_status": "published"
     },
     {
