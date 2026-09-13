@@ -3,12 +3,51 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-13T00:00:00+00:00",
-    "article_count": 1701,
+    "article_count": 1706,
     "schema_version": 2,
     "topic_slug": "ekonomi",
     "type": "topic"
   },
   "articles": [
+    {
+      "id": "articles/2026/09:suudi-arabistan-petrol-hatti-devre-disi-kuresel-piyasalar-cokuste_20260913",
+      "slug": "suudi-arabistan-petrol-hatti-devre-disi-kuresel-piyasalar-cokuste_20260913",
+      "title": "Suudi Arabistan'ın Petrol Damarı Kesildi: Küresel Piyasalar Çöküşte",
+      "summary": "Suudi Arabistan'ın ana petrol boru hattı, Cuma günü düzenlenen insansız hava aracı saldırılarının ardından devre dışı kaldı. Bu durum, küresel petrol arzının yüzde 4'ünü tehlikeye atarak, ülkenin ihracat stoklarını birkaç gün içinde tüketme riski taşıyor ve...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "13.09.2026",
+      "date_iso": "2026-09-13",
+      "url": "/articles/2026/09/suudi-arabistan-petrol-hatti-devre-disi-kuresel-piyasalar-cokuste_20260913/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/suudi-arabistan-petrol-hatti-devre-disi-kuresel-piyasalar-cokuste_20260913/",
+      "detail_json_url": "/data/details/articles/2026/09/suudi-arabistan-petrol-hatti-devre-disi-kuresel-piyasalar-cokuste_20260913.json",
+      "image_url": "https://images.ntv.com.tr/images/1188336203-367792.jpg",
+      "image_alt": "Suudi Arabistan çölünde uzanan bir petrol boru hattı, üzerinde hafif hasar izleri ve uzakta uçan bir insansız hava aracı....",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/1188336203-367792.jpg",
+        "alt": "Suudi Arabistan çölünde uzanan bir petrol boru hattı, üzerinde hafif hasar izleri ve uzakta uçan bir insansız hava aracı...."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/dunya/galeri-suudi-arabistanin-petrol-damari-kesildi-kuresel-piyasalar-cokuste-1741677",
+      "tags": [
+        "Suudi Arabistan",
+        "Petrol",
+        "Küresel Arz",
+        "Enflasyon",
+        "Yakıt Fiyatları",
+        "Boru Hattı"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/09:yunanistan-calisan-maas-zam-kidem-2027_20260912",
       "slug": "yunanistan-calisan-maas-zam-kidem-2027_20260912",

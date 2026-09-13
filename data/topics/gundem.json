@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-13T00:00:00+00:00",
-    "article_count": 1701,
+    "article_count": 1706,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -45,6 +45,46 @@
         "Katlanabilir Telefon"
       ],
       "quality_score": 90,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:brics-zirvesi-batiya-meydan-okudu-yeni-dunya-duzeni_20260913",
+      "slug": "brics-zirvesi-batiya-meydan-okudu-yeni-dunya-duzeni_20260913",
+      "title": "BRICS Zirvesi: Batı'ya Meydan Okuma ve Küresel İşbirliği",
+      "summary": "Hindistan'ın başkenti Yeni Delhi'de düzenlenen 18. BRICS Zirvesi'nde Çin Devlet Başkanı Şi Cinping, grubun işbirliğini güçlendirmesi ve gelecek yılki dönem başkanlığını üstleneceklerini duyurdu. Zirve, Batı'nın katılımı olmadan küresel liderliğin nasıl bir...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "13.09.2026",
+      "date_iso": "2026-09-13",
+      "url": "/articles/2026/09/brics-zirvesi-batiya-meydan-okudu-yeni-dunya-duzeni_20260913/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/brics-zirvesi-batiya-meydan-okudu-yeni-dunya-duzeni_20260913/",
+      "detail_json_url": "/data/details/articles/2026/09/brics-zirvesi-batiya-meydan-okudu-yeni-dunya-duzeni_20260913.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/brics-zirvesi-batiya-meydan-okudu-yeni-dunya-duzeni_20260913.webp",
+      "image_alt": "Hindistan'ın Yeni Delhi kentinde düzenlenen 18. BRICS Zirvesi'nde Çin, Rusya, Hindistan ve İran liderlerinin grup fotoğrafı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/brics-zirvesi-batiya-meydan-okudu-yeni-dunya-duzeni_20260913.webp",
+        "alt": "Hindistan'ın Yeni Delhi kentinde düzenlenen 18. BRICS Zirvesi'nde Çin, Rusya, Hindistan ve İran liderlerinin grup fotoğrafı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/rusya-ile-cin-batiya-meydan-okudu-brics-zirvesinin-sifreleri-43305240",
+      "tags": [
+        "BRICS",
+        "Şi Cinping",
+        "Vladimir Putin",
+        "Narendra Modi",
+        "İran",
+        "Küresel Siyaset",
+        "Çok Kutuplu Dünya"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {

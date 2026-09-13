@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-13T09:49:32.701Z",
+  "updatedAt": "2026-09-13T14:46:02.144Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-09-13T09:49:32.701Z",
+      "updatedAt": "2026-09-13T14:46:02.144Z",
       "source": "Maçkolik arşiv 1/73482",
       "table": [
         {
@@ -561,7 +561,7 @@
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-09-13T09:49:32.701Z",
+      "updatedAt": "2026-09-13T14:46:02.144Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
@@ -748,6 +748,20 @@
         },
         {
           "position": 14,
+          "team": "Celta Vigo",
+          "played": 6,
+          "won": 0,
+          "draw": 4,
+          "lost": 2,
+          "goalsFor": 3,
+          "goalsAgainst": 6,
+          "points": 4,
+          "goalDifference": -3,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/76.gif",
+          "form": []
+        },
+        {
+          "position": 15,
           "team": "Getafe",
           "played": 4,
           "won": 1,
@@ -761,7 +775,7 @@
           "form": []
         },
         {
-          "position": 15,
+          "position": 16,
           "team": "Rayo Vallecano",
           "played": 5,
           "won": 1,
@@ -775,21 +789,21 @@
           "form": []
         },
         {
-          "position": 16,
-          "team": "Celta Vigo",
+          "position": 17,
+          "team": "Malaga",
           "played": 5,
           "won": 0,
           "draw": 3,
           "lost": 2,
           "goalsFor": 2,
-          "goalsAgainst": 5,
+          "goalsAgainst": 8,
           "points": 3,
-          "goalDifference": -3,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/76.gif",
+          "goalDifference": -6,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/78.gif",
           "form": []
         },
         {
-          "position": 17,
+          "position": 18,
           "team": "Villarreal",
           "played": 4,
           "won": 0,
@@ -800,20 +814,6 @@
           "points": 2,
           "goalDifference": -2,
           "logo": "https://im.mackolik.com/img/logo/kucuk/92.gif",
-          "form": []
-        },
-        {
-          "position": 18,
-          "team": "Malaga",
-          "played": 4,
-          "won": 0,
-          "draw": 2,
-          "lost": 2,
-          "goalsFor": 1,
-          "goalsAgainst": 7,
-          "points": 2,
-          "goalDifference": -6,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/78.gif",
           "form": []
         },
         {
@@ -1408,7 +1408,7 @@
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-09-13T09:49:32.701Z",
+      "updatedAt": "2026-09-13T14:46:02.144Z",
       "source": "Maçkolik arşiv 5/73279",
       "table": [
         {
