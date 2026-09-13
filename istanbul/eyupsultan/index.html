@@ -10,7 +10,7 @@
   <meta name="theme-color" content="#e10600">
   <link rel="manifest" href="/manifest.json">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://mansetradar.com.tr/"}, {"@type": "ListItem", "position": 2, "name": "İstanbul Şehir Masası", "item": "https://mansetradar.com.tr/hizmet/eczane/"}, {"@type": "ListItem", "position": 3, "name": "Eyüpsultan Portalı", "item": "https://mansetradar.com.tr/istanbul/eyupsultan/"}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Eyüpsultan'de bu gece hangi nöbetçi eczaneler açık?", "acceptedAnswer": {"@type": "Answer", "text": "Eyüpsultan ilçesinde bu gece İstanbul Eczacı Odası listesi güncellenmektedir. Nöbetçi eczanelerin tam adresi, tek tıkla arama telefonu ve harita konumu bu sayfada yer almaktadır."}}, {"@type": "Question", "name": "Eyüpsultan'de bugün su kesintisi var mı?", "acceptedAnswer": {"@type": "Answer", "text": "Eyüpsultan genelinde şebeke suyu normal akmaktadır. Acil su arıza ihbarları ve detaylı bilgi için 7/24 Alo 185 İSKİ hattını arayabilirsiniz."}}, {"@type": "Question", "name": "Eyüpsultan'de bugün elektrik kesintisi var mı?", "acceptedAnswer": {"@type": "Answer", "text": "BEDAŞ kayıtlarına göre 1 aktif bakım/onarım çalışması mevcuttur. Bölgesel kesinti bilgisi ve arıza bildirimleri için Alo 186 BEDAŞ hattı hizmet vermektedir."}}, {"@type": "Question", "name": "Eyüpsultan hava durumu nasıl?", "acceptedAnswer": {"@type": "Answer", "text": "Eyüpsultan ilçesinde şu an hava 27.4°C ve Çoğunlukla Açık. Günün en yüksek sıcaklığı 29.9°C olarak tahmin edilmektedir."}}]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Eyüpsultan'de bu gece hangi nöbetçi eczaneler açık?", "acceptedAnswer": {"@type": "Answer", "text": "Eyüpsultan ilçesinde bu gece İstanbul Eczacı Odası listesi güncellenmektedir. Nöbetçi eczanelerin tam adresi, tek tıkla arama telefonu ve harita konumu bu sayfada yer almaktadır."}}, {"@type": "Question", "name": "Eyüpsultan'de bugün su kesintisi var mı?", "acceptedAnswer": {"@type": "Answer", "text": "İSKİ kayıtlarına göre 1 bölgede planlı su kesintisi/onarım vardır. Acil su arıza ihbarları ve detaylı bilgi için 7/24 Alo 185 İSKİ hattını arayabilirsiniz."}}, {"@type": "Question", "name": "Eyüpsultan'de bugün elektrik kesintisi var mı?", "acceptedAnswer": {"@type": "Answer", "text": "BEDAŞ kayıtlarına göre 1 aktif bakım/onarım çalışması mevcuttur. Bölgesel kesinti bilgisi ve arıza bildirimleri için Alo 186 BEDAŞ hattı hizmet vermektedir."}}, {"@type": "Question", "name": "Eyüpsultan hava durumu nasıl?", "acceptedAnswer": {"@type": "Answer", "text": "Eyüpsultan ilçesinde şu an hava 27.4°C ve Çoğunlukla Açık. Günün en yüksek sıcaklığı 29.9°C olarak tahmin edilmektedir."}}]}</script>
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": []}</script>
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WeatherForecast", "name": "Eyüpsultan Canlı Hava Durumu & 5 Günlük Tahmin", "temperature": "27.4 °C", "description": "Çoğunlukla Açık", "windSpeed": "9.2 km/h"}</script>
   <style>
@@ -1090,9 +1090,20 @@
       <a href="/hizmet/kamu/" style="font-size:0.85rem; color:#0284c7; text-decoration:none; font-weight:700;">İstanbul Genel Raporu →</a>
     </div>
     
-          <div class="outage-block normal-block">
-            <strong style="color:#15803d; display:block; margin-bottom:4px;">🟢 İSKİ Şebeke Suyu Normal</strong>
-            <p style="margin:0; font-size:0.92rem; color:#166534;">Eyüpsultan genelinde ana iletim hatlarında acil su kesintisi bulunmamaktadır.</p>
+          <div class="outage-block iski-block">
+            <div class="outage-header">
+              <strong>💧 İSKİ Canlı Su Arıza Durumu (1 Aktif Bölge)</strong>
+              <a href="tel:185" class="btn-outage iski-btn">📞 Alo 185 Ara</a>
+            </div>
+            
+              <div class="outage-subitem iski-item">
+                <div class="outage-sub-top">
+                  <strong style="color:#0369a1;">💧 Su Kesintisi &amp; Onarım (İş Emri #10000513097)</strong>
+                  <span class="outage-badge">⏱️ Bitiş: 05/09/2026 14:00</span>
+                </div>
+                <div class="outage-loc">🏘️ Akpınar <small>(1 mahalle)</small></div>
+                <p class="outage-desc">İçme suyu hatlarında meydana gelen arıza sebebıyle 150 MM çaplı şebeke hattı arızası.</p>
+              </div>
           </div>
           <div class="outage-block bedas-block">
             <div class="outage-header">
@@ -1102,11 +1113,11 @@
             
               <div class="outage-subitem bedas-item">
                 <div class="outage-sub-top">
-                  <strong style="color:#c2410c;">⚡ Bildirimsiz (İş Emri #4854090)</strong>
-                  <span class="outage-badge">⏱️ Bitiş: 2026-09-13 17:48</span>
+                  <strong style="color:#c2410c;">⚡ Bildirimli Bakım/Yatırım (İş Emri #4843879)</strong>
+                  <span class="outage-badge">⏱️ Bitiş: 2026-09-05 17:00</span>
                 </div>
-                <div class="outage-loc">🏘️ Işıklar <small>(1 trafo bölgesi)</small></div>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
+                <div class="outage-loc">🏘️ Kısırkaya, Mithatpaşa <small>(10 trafo bölgesi)</small></div>
+                <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
               </div>
           </div>
 
@@ -1126,11 +1137,18 @@
     </div>
     <div class="grid-2">
       
-          <a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYmtyMDczMTBNNGpTUWRkeWxJaXM4dWhXdGo3UlF1N0FzX1p3VDRpQnRHREFIbVVPVVhRcWhNVXhUVmZsS3NydXpuRGplWW5JWlpFblRTczIwSUp0cTVfNG16UU5FUjBzODZtUFhTbUpHd1JzZ3VZX0NPWHJCSmMwR095WkNZS1FLeENET0JiUmVPTzdKaDkxd3NUYWw5MGxaYVMyVk40YnlHVWRGUXlfdUxCeFliYVRaVFdIYjZOMXJSUktwMG41akJMQi1WZVA5b1E?oc=5" target="_blank" rel="noopener" class="card news-card">
+          <a href="https://news.google.com/rss/articles/CBMickFVX3lxTFBMTEkwN0dBNVhSNjY1NHlpRmdxaE1yTGZvZk1DSDhVN1RBRGdNSUFYRkFhQlRxOGtIUE1NUGw5dzRRak5EX3o2OV9PVURSeFN2VHJqT19sUC1xOFZEZGNUUU1FQzZvRmhkWlBoVHEtWGUyUQ?oc=5" target="_blank" rel="noopener" class="card news-card">
             <div class="news-thumb-wrap news-thumb-fallback"><span>📰</span></div>
             <div class="news-info">
-              <strong class="news-headline">Taksinin bagajı cephanelik çıktı: Eyüpsultan&#x27;da 108 tabancayla yakalanan 2 şüpheli tutuklandı</strong>
-              <span class="news-meta">📅 2026-09-13 &middot; Yerel Haber<span class="source-tag">Hürriyet</span></span>
+              <strong class="news-headline">Eyüpsultan&#x27;da otobüste yangın</strong>
+              <span class="news-meta">📅 2026-09-13 &middot; Yerel Haber<span class="source-tag">İstanbul Gazetesi</span></span>
+            </div>
+          </a>
+          <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxNdjBnVTIxbTlIZGRFSXlyMVJBVHhpS1BZYUY0MmNYTFVZUm10d1JxUHBIZjNBOHNlcFBOTUtxUndhb3BrTFpZTXFBTjdKNHp6eGxhT1JKRDdOLTJYUmdQQUszcENkQjYyVHhOV0RUOEV5S0hPblFHNGxUN0o0ZjdLOHNlWFNxUmVRT2fSAYoBQVVfeXFMTXYwZ1UyMW05SGRkRUl5cjFSQVR4aUtQWWFGNDJjWExVWVJtdHdScVBwSGYzQThzZXBQTk1LcVJ3YW9wa0xaWU1xQU43SjR6enhsYU9SSkQ3Ti0yWFJnUEFLM3BDZEI2MlR4TldEVDhFeUtIT25RRzRsVDdKNGY3SzhzZVhTcVJlUU9n?oc=5" target="_blank" rel="noopener" class="card news-card">
+            <div class="news-thumb-wrap news-thumb-fallback"><span>📰</span></div>
+            <div class="news-info">
+              <strong class="news-headline">Eyüpsultan&#x27;da yolcu otobüsü yandı</strong>
+              <span class="news-meta">📅 2026-09-13 &middot; Yerel Haber<span class="source-tag">NTV Haber</span></span>
             </div>
           </a>
           <a href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdE56cEw0ZENVZk1rRDVlVHJBLUN0ajBhejdXSEdXMVVwWEJUcmZNeDZwa3A4Z2RJTDZ4SjN5SFdTT201dDQ3cnF5S0xxSzJYaDk5NWhaLVlXUEpKdDhVbmZQeGdPSWpQVEVNenJqblY0dFJGTVlXZWkzeUUwQ2NGLWRNWTZ6Vnc3YXA4N0pVVjNQbW1zaDdaSjZiMG9fZWY2ZWJVY0NYT0JDS2RUTG9pYTFuRmpQRlB6eEVsblZDaUptXzlpOHExVHRhWjR2Z0tNUTY3LW5NUQ?oc=5" target="_blank" rel="noopener" class="card news-card">
@@ -1147,25 +1165,18 @@
               <span class="news-meta">📅 2026-09-13 &middot; Yerel Haber<span class="source-tag">DHA | Demirören Haber Ajansı</span></span>
             </div>
           </a>
-          <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxOWVk2TDRhZjJmYUVpSWdVbE1lNWFZaWhaYnprcHhoaVVSQnluWUVSTk5RSUhIczlYUkhBOEtkZk80REJuTUR2X1lteERveFFQS0RQRW9xcjRNZ1FqLXhmTXdFUmRvU3NIaVppOEMybFNDdHo1NDQta1B2SGIzUTVLajVRSVdTc3ppeE8yanVUbV93cGw1UU1VVA?oc=5" target="_blank" rel="noopener" class="card news-card">
+          <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQWWhGNnk4SE5EUTFfN0xOUDlxbkRUWE9uMFB5bmVfQUFpM1NQSFRqQ1JIWWlGRW9MTWNPYTRfVzhzSXVaSHFXUlBYRzg5OENhNjVkVjczeWRhVVk1dHNjOE8tRXVWeXVWSlJSTXVsNDBVYlNLclR4LVVxZHo1eGxUTFg1N0Z4NDBfOF9FMGZNdS1XSnZfSGp6d0hhZkNEMzFoWlR4MkZhTXA2WEhzMFE?oc=5" target="_blank" rel="noopener" class="card news-card">
             <div class="news-thumb-wrap news-thumb-fallback"><span>📰</span></div>
             <div class="news-info">
-              <strong class="news-headline">Eyüpsultan’da taksinin bagajından 108 tabanca çıktı; 2 şüpheli tutuklandı</strong>
-              <span class="news-meta">📅 2026-09-13 &middot; Yerel Haber<span class="source-tag">Haberton</span></span>
+              <strong class="news-headline">Eyüpsultan&#x27;da yolcu otobüsünde korkutan yangın! Ekipler müdahale ediyor</strong>
+              <span class="news-meta">📅 2026-09-13 &middot; Yerel Haber<span class="source-tag">CNN Türk</span></span>
             </div>
           </a>
-          <a href="https://news.google.com/rss/articles/CBMifEFVX3lxTE1GdE1BSFVnQmZ5cjZFaUhXVEp5WFRUSlF0el9QaHFFYk5td1RZZEtGbHFTWlNza3lYRnlSaEh1cC1DWHh6akFfMV9jbHQ5eTJNSmhvNWNzSDdaYWtVbERjNzJmdFBEMW9pOWY1OTBSdkdpNUZiV3hkemdZSzA?oc=5" target="_blank" rel="noopener" class="card news-card">
+          <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxQVWFXTkNmdTd4Ny1kNllVZjRFZ0hua3B0M19wQjV4czV4eW1adGxVNmxUNGUzMDdrY1dKalE3WjJCTW8wbHczRlpfa3dDNE1ybG5EUjBzYV9YUHVreG1GTlRuY1dXVTdhNE90NWdPNDdCVUwtUG5veGM5WFR6dDNFZNIBgAFBVV95cUxQVWFXTkNmdTd4Ny1kNllVZjRFZ0hua3B0M19wQjV4czV4eW1adGxVNmxUNGUzMDdrY1dKalE3WjJCTW8wbHczRlpfa3dDNE1ybG5EUjBzYV9YUHVreG1GTlRuY1dXVTdhNE90NWdPNDdCVUwtUG5veGM5WFR6dDNFZA?oc=5" target="_blank" rel="noopener" class="card news-card">
             <div class="news-thumb-wrap news-thumb-fallback"><span>📰</span></div>
             <div class="news-info">
-              <strong class="news-headline">Cihantimur davasında erteleme kararı</strong>
-              <span class="news-meta">📅 2026-09-11 &middot; Yerel Haber<span class="source-tag">İstanbul Gazetesi</span></span>
-            </div>
-          </a>
-          <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxPM0pfd1E2aEVJSFRtR1FDSkY4UnR1UmhIajBGRHNNMEZPaVllb2Y0TTg3OUwzZXhfQXF3Z1A3X2s3UEQ5ZEV6LWFhX3pJOHJjOXNBUXFyOTk1VVVXSEowUlI2b1BRN1ZmZ08tMEhhMUFhZjV0TlUxVG91aDhfcWFvZDBFMFNqVXR4NzhmUTdWS3RENFFDNE05RkVTSmE2YklyeFljaHE1aXlTT0hLTlHSAbMBQVVfeXFMT05sU1NJbWQ2bExacUZWdW9PUG16WnRQUVBmbjd2VU1fY3pHLXgyaXRyTWVScy16ZE8zbjRVaTV4U0tJYzd4YlQzVTE1c3ZoSFNWa0o5ZE45T0hqV3BsZDliMXFBb0tzdzJUVkVPcktEb2FjYlFwSVdwRGl0OXlmOFJZMC1ObWx0bGFlaVRHWk9pdnBDSjZiaFFUWHZsR1N5ek1YM0t1a0dFSF8xd1FXT2NnN2s?oc=5" target="_blank" rel="noopener" class="card news-card">
-            <div class="news-thumb-wrap news-thumb-fallback"><span>📰</span></div>
-            <div class="news-info">
-              <strong class="news-headline">Eyüpsultan’da kaza sonrası tartışma çıktı: &quot;Eşimin yakasına yapıştı&quot;</strong>
-              <span class="news-meta">📅 2026-08-16 &middot; Yerel Haber<span class="source-tag">ntv.com.tr</span></span>
+              <strong class="news-headline">Eyüpsultan&#x27;da otobüste yangın</strong>
+              <span class="news-meta">📅 2026-09-13 &middot; Yerel Haber<span class="source-tag">Haberler</span></span>
             </div>
           </a>
     </div>
@@ -1237,7 +1248,7 @@
           </details>
           <details class="faq-item">
             <summary class="faq-question">❓ Eyüpsultan&#x27;de bugün su kesintisi var mı?</summary>
-            <div class="faq-answer"><p>Eyüpsultan genelinde şebeke suyu normal akmaktadır. Acil su arıza ihbarları ve detaylı bilgi için 7/24 Alo 185 İSKİ hattını arayabilirsiniz.</p></div>
+            <div class="faq-answer"><p>İSKİ kayıtlarına göre 1 bölgede planlı su kesintisi/onarım vardır. Acil su arıza ihbarları ve detaylı bilgi için 7/24 Alo 185 İSKİ hattını arayabilirsiniz.</p></div>
           </details>
           <details class="faq-item">
             <summary class="faq-question">❓ Eyüpsultan&#x27;de bugün elektrik kesintisi var mı?</summary>
