@@ -46,14 +46,6 @@
   "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/morton-illinois-pumpkin-capital-cbs-news-2026_20260913.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "clear",
-  "image_license_note": "Unsplash API photo",
-  "image_source_url": "https://unsplash.com/photos/a-small-bird-perched-on-a-dry-grass-stalk-kV6evVdMMtA",
-  "image_provider": "unsplash",
-  "image_score": 72,
-  "image_query": "morton illinois",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "CBSNews.com published a video report on September 13, 2026, highlighting Morton, Illinois, as the \"pumpkin capital of the world.\" Titled \"Good gourd! A visit to the pumpkin capital of the world,\" the feature explores the town's significant role in the global pumpkin industry.",
   "language": "English",
   "url_prefix": "news/articles/2026/09",
@@ -75,10 +67,7 @@
   ],
   "quality_word_count": 254,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.unsplash.com/photo-1766098554410-44045619122e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHw0fHxtb3J0b24lMjBpbGxpbm9pc3xlbnwxfDB8fHwxNzg5MzIwNDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "original_image_url": "https://images.unsplash.com/photo-1766098554410-44045619122e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHw0fHxtb3J0b24lMjBpbGxpbm9pc3xlbnwxfDB8fHwxNzg5MzIwNDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "image_local_webp": "news/articles/2026/09/images/morton-illinois-pumpkin-capital-cbs-news-2026_20260913.webp",
-  "image_credit": "unsplash.com",
-  "image_credit_url": "https://unsplash.com/photos/a-small-bird-perched-on-a-dry-grass-stalk-kV6evVdMMtA",
-  "image_finalized_at": "2026-09-13T17:26:45.041903Z"
+  "time": "14:27",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }
