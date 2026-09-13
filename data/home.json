@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-13T00:00:00+00:00",
-    "article_count": 1706,
+    "article_count": 1708,
     "schema_version": 2
   },
   "hero": [
@@ -1187,6 +1187,46 @@
       "review_status": "published"
     },
     {
+      "id": "news/articles/2026/09:morton-illinois-pumpkin-capital-cbs-news-2026_20260913",
+      "slug": "morton-illinois-pumpkin-capital-cbs-news-2026_20260913",
+      "title": "Morton, Illinois: The World's Pumpkin Capital Spotlighted by CBS News",
+      "summary": "CBSNews.com published a video report on September 13, 2026, highlighting Morton, Illinois, as the \"pumpkin capital of the world.\" Titled \"Good gourd! A visit to the pumpkin capital of the world,\" the feature explores the town's significant role in the globa...",
+      "category": "Video",
+      "category_slug": "video",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "13.09.2026",
+      "date_iso": "2026-09-13",
+      "url": "/news/articles/2026/09/morton-illinois-pumpkin-capital-cbs-news-2026_20260913/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/morton-illinois-pumpkin-capital-cbs-news-2026_20260913/",
+      "detail_json_url": "/data/details/news/articles/2026/09/morton-illinois-pumpkin-capital-cbs-news-2026_20260913.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/morton-illinois-pumpkin-capital-cbs-news-2026_20260913.webp",
+      "image_alt": "Aerial view of extensive pumpkin fields in Morton, Illinois, recognized as the world's pumpkin capital, as featured by CBS...",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/morton-illinois-pumpkin-capital-cbs-news-2026_20260913.webp",
+        "alt": "Aerial view of extensive pumpkin fields in Morton, Illinois, recognized as the world's pumpkin capital, as featured by CBS..."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/a-visit-to-the-pumpkin-capital-of-the-world-morton-illinois/",
+      "tags": [
+        "Morton Illinois",
+        "pumpkin capital",
+        "CBS News",
+        "agriculture",
+        "gourds",
+        "Illinois farming",
+        "news report"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "nachrichten/artikel/2026/09:ki-chefs-fordern-langsamere-entwicklung-sicherheitsrisiken_20260913",
       "slug": "ki-chefs-fordern-langsamere-entwicklung-sicherheitsrisiken_20260913",
       "title": "KI-Chefs fordern langsamere Entwicklung wegen Sicherheitsrisiken",
@@ -1698,6 +1738,45 @@
         "Ortadoğu",
         "YPG",
         "İsrail"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/09:admiral-brad-cooper-munition-shortage-not-concerned-2026-09-13_20260913",
+      "slug": "admiral-brad-cooper-munition-shortage-not-concerned-2026-09-13_20260913",
+      "title": "Admiral Cooper Unconcerned About Munition Shortage",
+      "summary": "Admiral Brad Cooper has publicly stated he is \"not concerned at all\" regarding a potential munition shortage, according to a report published by CBSNews.com on September 13, 2026. This declaration from a high-ranking military official comes amidst ongoing g...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "13.09.2026",
+      "date_iso": "2026-09-13",
+      "url": "/news/articles/2026/09/admiral-brad-cooper-munition-shortage-not-concerned-2026-09-13_20260913/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/admiral-brad-cooper-munition-shortage-not-concerned-2026-09-13_20260913/",
+      "detail_json_url": "/data/details/news/articles/2026/09/admiral-brad-cooper-munition-shortage-not-concerned-2026-09-13_20260913.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/admiral-brad-cooper-munition-shortage-not-concerned-2026-09-13_20260913.webp",
+      "image_alt": "Admiral Brad Cooper, a senior military official, looking confident while discussing military supplies and readiness.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/admiral-brad-cooper-munition-shortage-not-concerned-2026-09-13_20260913.webp",
+        "alt": "Admiral Brad Cooper, a senior military official, looking confident while discussing military supplies and readiness."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/admiral-brad-cooper-says-hes-not-concerned-at-all-about-munition-shortage/",
+      "tags": [
+        "Military Readiness",
+        "Munitions",
+        "Admiral Brad Cooper",
+        "Defense",
+        "Supply Chain",
+        "National Security"
       ],
       "quality_score": 100,
       "review_status": "published"
@@ -3073,89 +3152,6 @@
         "Terrorismus"
       ],
       "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/09:cia-11-eylul-uyarilari-belgeleri-desifre-oldu_20260912",
-      "slug": "cia-11-eylul-uyarilari-belgeleri-desifre-oldu_20260912",
-      "title": "CIA Belgeleri: 11 Eylül Öncesi Yönetim Defalarca Uyarılmış",
-      "summary": "ABD Merkezi Haberalma Teşkilatının (CIA) yeni paylaştığı gizliliği kaldırılmış belgeler, 11 Eylül 2001 saldırıları öncesinde ABD yönetimlerinin El Kaide tehditleri konusunda defalarca uyarıldığını ortaya koydu. Eski Başkanlar George W. Bush ve Bill Clinton'...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/09",
-      "date": "12.09.2026",
-      "date_iso": "2026-09-12",
-      "url": "/articles/2026/09/cia-11-eylul-uyarilari-belgeleri-desifre-oldu_20260912/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/cia-11-eylul-uyarilari-belgeleri-desifre-oldu_20260912/",
-      "detail_json_url": "/data/details/articles/2026/09/cia-11-eylul-uyarilari-belgeleri-desifre-oldu_20260912.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/cia-11-eylul-uyarilari-belgeleri-desifre-oldu_20260912.webp",
-      "image_alt": "CIA Belgeleri: 11 Eylül Öncesi Yönetim Defalarca Uyarılmış",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/09/images/cia-11-eylul-uyarilari-belgeleri-desifre-oldu_20260912.webp",
-        "alt": "CIA Belgeleri: 11 Eylül Öncesi Yönetim Defalarca Uyarılmış"
-      },
-      "source_name": "Anadolu Ajansı Güncel Haberler",
-      "source_url": "https://www.aa.com.tr/tr/dunya/ciain-yeni-paylastigi-belgelere-gore-11-eylul-saldirilari-oncesi-yonetim-defalarca-uyarilmis/4055113",
-      "tags": [
-        "CIA",
-        "11 Eylül",
-        "El Kaide",
-        "Usame bin Ladin",
-        "ABD",
-        "Terör",
-        "İstihbarat"
-      ],
-      "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/09:cem-yilmaz-kalp-krizi-sonrasi-bastonla-goruntulendi_20260912",
-      "slug": "cem-yilmaz-kalp-krizi-sonrasi-bastonla-goruntulendi_20260912",
-      "title": "Cem Yılmaz Kalp Krizi Sonrası Bastonla Görüntülendi",
-      "summary": "Ünlü komedyen Cem Yılmaz, geçirdiği ciddi kalp krizinin ardından ilk kez bir davette görüntülendi. Beykoz'daki etkinlikte bastonla yürümesi dikkat çekerken, Yılmaz'ın sağlık sürecinde sigarayı bıraktığı ve kilo verdiği öğrenildi.",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "topic_slug": "saglik",
-      "topic_label": "Sağlık",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/09",
-      "date": "12.09.2026",
-      "date_iso": "2026-09-12",
-      "url": "/articles/2026/09/cem-yilmaz-kalp-krizi-sonrasi-bastonla-goruntulendi_20260912/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/cem-yilmaz-kalp-krizi-sonrasi-bastonla-goruntulendi_20260912/",
-      "detail_json_url": "/data/details/articles/2026/09/cem-yilmaz-kalp-krizi-sonrasi-bastonla-goruntulendi_20260912.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/cem-yilmaz-kalp-krizi-sonrasi-bastonla-goruntulendi_20260912.webp",
-      "image_alt": "Kalp krizi geçiren Cem Yılmaz, bastonla bir davette yürürken görüntülendi.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/09/images/cem-yilmaz-kalp-krizi-sonrasi-bastonla-goruntulendi_20260912.webp",
-        "alt": "Kalp krizi geçiren Cem Yılmaz, bastonla bir davette yürürken görüntülendi."
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/magazin/kalp-krizi-gecirmisti-cem-yilmaz-bastonla-goruntulendi-7658721",
-      "tags": [
-        "Cem Yılmaz",
-        "kalp krizi",
-        "magazin",
-        "sağlık",
-        "baston",
-        "sigara",
-        "anjiyo",
-        "Beykoz",
-        "Beykoz haberleri",
-        "İstanbul"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]
