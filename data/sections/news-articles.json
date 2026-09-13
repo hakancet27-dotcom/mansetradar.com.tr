@@ -2,12 +2,50 @@
   "meta": {
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
-    "generated_at": "2026-09-12T00:00:00+00:00",
-    "article_count": 1683,
+    "generated_at": "2026-09-13T00:00:00+00:00",
+    "article_count": 1685,
     "schema_version": 2,
     "section": "news-articles"
   },
   "articles": [
+    {
+      "id": "news/articles/2026/09:us-women-beat-spain-fiba-world-cup-final-france_20260913",
+      "slug": "us-women-beat-spain-fiba-world-cup-final-france_20260913",
+      "title": "U.S. Women Top Spain 76-66 to Reach FIBA World Cup Final Against France",
+      "summary": "Breanna Stewart scored 16 points and Kahleah Copper added 13 as the U.S. women's basketball team defeated Spain 76-66 on Saturday, advancing to the FIBA World Cup championship game to face France.",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "13.09.2026",
+      "date_iso": "2026-09-13",
+      "url": "/news/articles/2026/09/us-women-beat-spain-fiba-world-cup-final-france_20260913/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/us-women-beat-spain-fiba-world-cup-final-france_20260913/",
+      "detail_json_url": "/data/details/news/articles/2026/09/us-women-beat-spain-fiba-world-cup-final-france_20260913.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/us-women-beat-spain-fiba-world-cup-final-france_20260913.webp",
+      "image_alt": "U.S. and Spain women's basketball players competing on the court during the FIBA World Cup semifinal game.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/us-women-beat-spain-fiba-world-cup-final-france_20260913.webp",
+        "alt": "U.S. and Spain women's basketball players competing on the court during the FIBA World Cup semifinal game."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/us-women-spain-fiba-world-cup-final-france/",
+      "tags": [
+        "FIBA Women's World Cup",
+        "USA Basketball",
+        "Breanna Stewart",
+        "Spain Women's Basketball",
+        "Kahleah Copper"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "news/articles/2026/09:trump-ireland-visit-diplomacy-golf-irish-open_20260912",
       "slug": "trump-ireland-visit-diplomacy-golf-irish-open_20260912",
