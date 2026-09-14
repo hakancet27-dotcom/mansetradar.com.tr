@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-14T00:00:00+00:00",
-    "article_count": 1745,
+    "article_count": 1746,
     "schema_version": 2
   },
   "hero": [
@@ -886,6 +886,44 @@
         "İstanbul"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/09:us-concerns-china-ai-race_20260914",
+      "slug": "us-concerns-china-ai-race_20260914",
+      "title": "US Concerns Grow Over China's Advancements in AI Race",
+      "summary": "The United States is increasingly concerned about China's rapid progress in the field of artificial intelligence, raising questions about the global balance of technological power. As both nations vie for dominance in AI, the implications for national secur...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "14.09.2026",
+      "date_iso": "2026-09-14",
+      "url": "/news/articles/2026/09/us-concerns-china-ai-race_20260914/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/us-concerns-china-ai-race_20260914/",
+      "detail_json_url": "/data/details/news/articles/2026/09/us-concerns-china-ai-race_20260914.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/us-concerns-china-ai-race_20260914.webp",
+      "image_alt": "Symbolic representation of the AI race between China and the United States.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/us-concerns-china-ai-race_20260914.webp",
+        "alt": "Symbolic representation of the AI race between China and the United States."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/understanding-the-concerns-of-china-and-ai-race/",
+      "tags": [
+        "Artificial Intelligence",
+        "China",
+        "United States",
+        "Technology Race",
+        "Geopolitics"
+      ],
+      "quality_score": 81,
       "review_status": "published"
     },
     {
@@ -3127,44 +3165,6 @@
         "Fransız Rivierası",
         "Afet Yönetimi",
         "Uyarı Sistemi"
-      ],
-      "quality_score": 90,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/09:akaryakitta-3-hane-alarmi-pompa-donusum-maliyeti-212-milyon-dolar_20260913",
-      "slug": "akaryakitta-3-hane-alarmi-pompa-donusum-maliyeti-212-milyon-dolar_20260913",
-      "title": "Akaryakıtta 3 Hane Alarmı: İstasyonlarda 212,5 Milyon Dolarlık Pompa Dönüşümü",
-      "summary": "Petrol piyasasındaki jeopolitik hareketlilik nedeniyle akaryakıt litre fiyatlarının 100 TL sınırına yaklaşması, Türkiye genelindeki akaryakıt istasyonlarında sayaç altyapısı alarmına yol açtı. 3 haneli fiyat gösterimine uyumsuz olan pompaların yenilenmesi v...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "ekonomi",
-      "topic_label": "Ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/09",
-      "date": "13.09.2026",
-      "date_iso": "2026-09-13",
-      "url": "/articles/2026/09/akaryakitta-3-hane-alarmi-pompa-donusum-maliyeti-212-milyon-dolar_20260913/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/akaryakitta-3-hane-alarmi-pompa-donusum-maliyeti-212-milyon-dolar_20260913/",
-      "detail_json_url": "/data/details/articles/2026/09/akaryakitta-3-hane-alarmi-pompa-donusum-maliyeti-212-milyon-dolar_20260913.json",
-      "image_url": "https://img.ekonomim.com/storage/files/images/2026/09/10/akaryakit-fiyatlarinda-son-durum-iste-10-eylul-2026-guncel-benzin-motorin-ve-lpg-fiyati-kxkn_cover.jpg",
-      "image_alt": "Akaryakıt istasyonunda 3 haneli fiyat gösterimine ilişkin pompa sayaç ekranı",
-      "image": {
-        "url": "https://img.ekonomim.com/storage/files/images/2026/09/10/akaryakit-fiyatlarinda-son-durum-iste-10-eylul-2026-guncel-benzin-motorin-ve-lpg-fiyati-kxkn_cover.jpg",
-        "alt": "Akaryakıt istasyonunda 3 haneli fiyat gösterimine ilişkin pompa sayaç ekranı"
-      },
-      "source_name": "Ekonomim",
-      "source_url": "https://www.ekonomim.com/ekonomi/akaryakitta-fiyatlar-3-haneye-yaklasti-istasyonlarda-pompa-alarmi-verildi-haberi-917944",
-      "tags": [
-        "akaryakıt fiyatları",
-        "akaryakıt istasyonu",
-        "EPDK",
-        "pompa fiyatları",
-        "ekonomi haberleri"
       ],
       "quality_score": 90,
       "review_status": "published"
