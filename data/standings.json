@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-14T16:37:25.256Z",
+  "updatedAt": "2026-09-14T20:36:20.458Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-09-14T16:37:25.256Z",
+      "updatedAt": "2026-09-14T20:36:20.458Z",
       "source": "Maçkolik arşiv 1/73482",
       "table": [
         {
@@ -95,6 +95,20 @@
         },
         {
           "position": 7,
+          "team": "Gaziantep FK",
+          "played": 5,
+          "won": 2,
+          "draw": 2,
+          "lost": 1,
+          "goalsFor": 7,
+          "goalsAgainst": 5,
+          "points": 8,
+          "goalDifference": 2,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/572.gif",
+          "form": []
+        },
+        {
+          "position": 8,
           "team": "Alanyaspor",
           "played": 5,
           "won": 2,
@@ -108,7 +122,7 @@
           "form": []
         },
         {
-          "position": 8,
+          "position": 9,
           "team": "Trabzonspor",
           "played": 5,
           "won": 2,
@@ -122,7 +136,7 @@
           "form": []
         },
         {
-          "position": 9,
+          "position": 10,
           "team": "Çorum FK",
           "played": 5,
           "won": 2,
@@ -136,21 +150,21 @@
           "form": []
         },
         {
-          "position": 10,
-          "team": "Gaziantep FK",
-          "played": 4,
+          "position": 11,
+          "team": "Fenerbahçe",
+          "played": 5,
           "won": 2,
           "draw": 1,
-          "lost": 1,
-          "goalsFor": 7,
-          "goalsAgainst": 5,
+          "lost": 2,
+          "goalsFor": 8,
+          "goalsAgainst": 6,
           "points": 7,
           "goalDifference": 2,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/572.gif",
+          "logo": "https://im.mackolik.com/img/logo/kucuk/2.gif",
           "form": []
         },
         {
-          "position": 11,
+          "position": 12,
           "team": "Gençlerbirliği",
           "played": 5,
           "won": 2,
@@ -161,20 +175,6 @@
           "points": 7,
           "goalDifference": -4,
           "logo": "https://im.mackolik.com/img/logo/kucuk/7.gif",
-          "form": []
-        },
-        {
-          "position": 12,
-          "team": "Fenerbahçe",
-          "played": 4,
-          "won": 2,
-          "draw": 0,
-          "lost": 2,
-          "goalsFor": 8,
-          "goalsAgainst": 6,
-          "points": 6,
-          "goalDifference": 2,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/2.gif",
           "form": []
         },
         {
@@ -561,7 +561,7 @@
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-09-14T16:37:25.256Z",
+      "updatedAt": "2026-09-14T20:36:20.458Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
@@ -1408,7 +1408,7 @@
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-09-14T16:37:25.256Z",
+      "updatedAt": "2026-09-14T20:36:20.458Z",
       "source": "Maçkolik arşiv 5/73279",
       "table": [
         {
@@ -1757,6 +1757,20 @@
     },
     {
       "position": 7,
+      "team": "Gaziantep FK",
+      "played": 5,
+      "won": 2,
+      "draw": 2,
+      "lost": 1,
+      "goalsFor": 7,
+      "goalsAgainst": 5,
+      "points": 8,
+      "goalDifference": 2,
+      "logo": "https://im.mackolik.com/img/logo/kucuk/572.gif",
+      "form": []
+    },
+    {
+      "position": 8,
       "team": "Alanyaspor",
       "played": 5,
       "won": 2,
@@ -1770,7 +1784,7 @@
       "form": []
     },
     {
-      "position": 8,
+      "position": 9,
       "team": "Trabzonspor",
       "played": 5,
       "won": 2,
@@ -1784,7 +1798,7 @@
       "form": []
     },
     {
-      "position": 9,
+      "position": 10,
       "team": "Çorum FK",
       "played": 5,
       "won": 2,
@@ -1798,21 +1812,21 @@
       "form": []
     },
     {
-      "position": 10,
-      "team": "Gaziantep FK",
-      "played": 4,
+      "position": 11,
+      "team": "Fenerbahçe",
+      "played": 5,
       "won": 2,
       "draw": 1,
-      "lost": 1,
-      "goalsFor": 7,
-      "goalsAgainst": 5,
+      "lost": 2,
+      "goalsFor": 8,
+      "goalsAgainst": 6,
       "points": 7,
       "goalDifference": 2,
-      "logo": "https://im.mackolik.com/img/logo/kucuk/572.gif",
+      "logo": "https://im.mackolik.com/img/logo/kucuk/2.gif",
       "form": []
     },
     {
-      "position": 11,
+      "position": 12,
       "team": "Gençlerbirliği",
       "played": 5,
       "won": 2,
@@ -1823,20 +1837,6 @@
       "points": 7,
       "goalDifference": -4,
       "logo": "https://im.mackolik.com/img/logo/kucuk/7.gif",
-      "form": []
-    },
-    {
-      "position": 12,
-      "team": "Fenerbahçe",
-      "played": 4,
-      "won": 2,
-      "draw": 0,
-      "lost": 2,
-      "goalsFor": 8,
-      "goalsAgainst": 6,
-      "points": 6,
-      "goalDifference": 2,
-      "logo": "https://im.mackolik.com/img/logo/kucuk/2.gif",
       "form": []
     },
     {
