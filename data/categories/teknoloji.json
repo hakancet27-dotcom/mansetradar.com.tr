@@ -3,12 +3,51 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-14T00:00:00+00:00",
-    "article_count": 1740,
+    "article_count": 1745,
     "schema_version": 2,
     "category_slug": "teknoloji",
     "type": "category"
   },
   "articles": [
+    {
+      "id": "articles/2026/09:yapay-zeka-gelisimi-durdurulmali-moratoryum-cagrisi_20260914",
+      "slug": "yapay-zeka-gelisimi-durdurulmali-moratoryum-cagrisi_20260914",
+      "title": "Yapay Zeka Uzmanından Şok Uyarı: \"Yavaşlamak Yetmez, Durdurmalıyız!\"",
+      "summary": "Yapay zeka güvenliği uzmanı Doç. Dr. David Krueger, yapay zeka gelişimini yavaşlatmanın yeterli olmayacağını belirterek, \"üst düzey performanslı yapay zeka sistemleri\" inşasının derhal ve süresiz olarak durdurulması için uluslararası moratoryum çağrısında b...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "14.09.2026",
+      "date_iso": "2026-09-14",
+      "url": "/articles/2026/09/yapay-zeka-gelisimi-durdurulmali-moratoryum-cagrisi_20260914/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/yapay-zeka-gelisimi-durdurulmali-moratoryum-cagrisi_20260914/",
+      "detail_json_url": "/data/details/articles/2026/09/yapay-zeka-gelisimi-durdurulmali-moratoryum-cagrisi_20260914.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/yapay-zeka-gelisimi-durdurulmali-moratoryum-cagrisi_20260914.webp",
+      "image_alt": "Yapay zeka gelişimini durdurma çağrısı yapan uzmanı temsil eden, insan kontrolünü aşan AI sistemlerini gösteren görsel.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/yapay-zeka-gelisimi-durdurulmali-moratoryum-cagrisi_20260914.webp",
+        "alt": "Yapay zeka gelişimini durdurma çağrısı yapan uzmanı temsil eden, insan kontrolünü aşan AI sistemlerini gösteren görsel."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/bilim-teknoloji/yapay-zeka-uzmanindan-yavaslamanin-yetmeyecegi-ileri-sistemlerin-insasinin-durdurulmasi-gerektigi-uyarisi/4057018",
+      "tags": [
+        "Yapay Zeka",
+        "AI Güvenliği",
+        "David Krueger",
+        "Teknoloji",
+        "Moratoryum",
+        "Montreal Üniversitesi"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/09:tesla-roadster-1-ekim-tanitim_20260913",
       "slug": "tesla-roadster-1-ekim-tanitim_20260913",
