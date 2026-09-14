@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-14T20:36:20.458Z",
+  "updatedAt": "2026-09-14T23:32:48.570Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-09-14T20:36:20.458Z",
+      "updatedAt": "2026-09-14T23:32:48.570Z",
       "source": "Maçkolik arşiv 1/73482",
       "table": [
         {
@@ -561,7 +561,7 @@
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-09-14T20:36:20.458Z",
+      "updatedAt": "2026-09-14T23:32:48.570Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
@@ -594,6 +594,20 @@
         },
         {
           "position": 3,
+          "team": "Real Betis",
+          "played": 5,
+          "won": 4,
+          "draw": 0,
+          "lost": 1,
+          "goalsFor": 7,
+          "goalsAgainst": 6,
+          "points": 12,
+          "goalDifference": 1,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/82.gif",
+          "form": []
+        },
+        {
+          "position": 4,
           "team": "Deportivo Alaves",
           "played": 5,
           "won": 3,
@@ -607,7 +621,7 @@
           "form": []
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Atletico Madrid",
           "played": 5,
           "won": 3,
@@ -621,7 +635,7 @@
           "form": []
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "Sevilla",
           "played": 5,
           "won": 3,
@@ -635,7 +649,7 @@
           "form": []
         },
         {
-          "position": 6,
+          "position": 7,
           "team": "Deportivo La Coruna",
           "played": 5,
           "won": 2,
@@ -646,20 +660,6 @@
           "points": 9,
           "goalDifference": 3,
           "logo": "https://im.mackolik.com/img/logo/kucuk/81.gif",
-          "form": []
-        },
-        {
-          "position": 7,
-          "team": "Real Betis",
-          "played": 4,
-          "won": 3,
-          "draw": 0,
-          "lost": 1,
-          "goalsFor": 5,
-          "goalsAgainst": 5,
-          "points": 9,
-          "goalDifference": 0,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/82.gif",
           "form": []
         },
         {
@@ -805,14 +805,14 @@
         {
           "position": 18,
           "team": "Villarreal",
-          "played": 4,
+          "played": 5,
           "won": 0,
           "draw": 2,
-          "lost": 2,
-          "goalsFor": 6,
-          "goalsAgainst": 8,
+          "lost": 3,
+          "goalsFor": 7,
+          "goalsAgainst": 10,
           "points": 2,
-          "goalDifference": -2,
+          "goalDifference": -3,
           "logo": "https://im.mackolik.com/img/logo/kucuk/92.gif",
           "form": []
         },
@@ -1408,7 +1408,7 @@
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-09-14T20:36:20.458Z",
+      "updatedAt": "2026-09-14T23:32:48.570Z",
       "source": "Maçkolik arşiv 5/73279",
       "table": [
         {
