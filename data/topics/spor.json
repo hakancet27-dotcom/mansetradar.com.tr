@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-15T00:00:00+00:00",
-    "article_count": 1783,
+    "article_count": 1788,
     "schema_version": 2,
     "topic_slug": "spor",
     "type": "topic"
@@ -132,6 +132,48 @@
         "İstanbul"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:klopp-almanya-kadrosu-sane-sok-nubel-mujde_20260915",
+      "slug": "klopp-almanya-kadrosu-sane-sok-nubel-mujde_20260915",
+      "title": "Klopp'tan Almanya Kadrosunda Sane Şoku, Nübel Müjdesi",
+      "summary": "Almanya Milli Takımı Teknik Direktörü Jürgen Klopp, perşembe günü açıklayacağı ilk kadrosuyla büyük sürprizlere hazırlanıyor. Alman basınına göre, Leroy Sane'nin milli takım kariyeri sona erebilirken, Beşiktaş'ın kalecisi Alexander Nübel'in kadroya dahil ed...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "15.09.2026",
+      "date_iso": "2026-09-15",
+      "url": "/articles/2026/09/klopp-almanya-kadrosu-sane-sok-nubel-mujde_20260915/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/klopp-almanya-kadrosu-sane-sok-nubel-mujde_20260915/",
+      "detail_json_url": "/data/details/articles/2026/09/klopp-almanya-kadrosu-sane-sok-nubel-mujde_20260915.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/klopp-almanya-kadrosu-sane-sok-nubel-mujde_20260915.webp",
+      "image_alt": "Klopp'tan Almanya Kadrosunda Sane Şoku, Nübel Müjdesi",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/klopp-almanya-kadrosu-sane-sok-nubel-mujde_20260915.webp",
+        "alt": "Klopp'tan Almanya Kadrosunda Sane Şoku, Nübel Müjdesi"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/alman-basini-duyurdu-leroy-saneye-buyuk-sok-alexander-nubele-mujde-43307492",
+      "tags": [
+        "Jürgen Klopp",
+        "Almanya Milli Takımı",
+        "Leroy Sane",
+        "Alexander Nübel",
+        "UEFA Uluslar Ligi",
+        "Futbol",
+        "Beşiktaş",
+        "Beşiktaş haberleri",
+        "İstanbul"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
