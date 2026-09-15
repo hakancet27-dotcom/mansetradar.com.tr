@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-15T00:00:00+00:00",
-    "article_count": 1778,
+    "article_count": 1783,
     "schema_version": 2
   },
   "articles": [
@@ -89,6 +89,47 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/09:us-renditen-finanzkrise-zinswende_20260915",
+      "slug": "us-renditen-finanzkrise-zinswende_20260915",
+      "title": "US-Renditen auf Finanzkrisen-Niveau: Globale Zinswende verfestigt sich",
+      "summary": "Die Renditen zehnjähriger US-Staatsanleihen sind auf 5,025 Prozent gestiegen, den höchsten Stand seit der Finanzkrise 2007. Auch deutsche Bundesanleihen erreichten mit 3,57 Prozent ein Mehrjahreshoch. Ursachen sind verstärkte Inflationssorgen durch den Iran...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "15.09.2026",
+      "date_iso": "2026-09-15",
+      "url": "/nachrichten/artikel/2026/09/us-renditen-finanzkrise-zinswende_20260915/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/us-renditen-finanzkrise-zinswende_20260915/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/us-renditen-finanzkrise-zinswende_20260915.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/us-renditen-finanzkrise-zinswende_20260915.webp",
+      "image_alt": "US-Renditen auf Finanzkrisen-Niveau: Globale Zinswende verfestigt sich",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/us-renditen-finanzkrise-zinswende_20260915.webp",
+        "alt": "US-Renditen auf Finanzkrisen-Niveau: Globale Zinswende verfestigt sich"
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/wirtschaft/verbraucher/marktbericht-renditen-100.html",
+      "tags": [
+        "Wirtschaft",
+        "Finanzmärkte",
+        "Zinsen",
+        "Anleihen",
+        "Inflation",
+        "USA",
+        "Deutschland",
+        "Staatsverschuldung"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "news/articles/2026/09:us-iran-war-weapons-shortage-pentagon-report_20260915",
       "slug": "us-iran-war-weapons-shortage-pentagon-report_20260915",
       "title": "Pentagon Report: Iran War Drains US Weapons Stockpiles",
@@ -166,6 +207,47 @@
         "Inflation"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/09:union-fuenf-jahres-tief-merz-unbeliebt_20260915",
+      "slug": "union-fuenf-jahres-tief-merz-unbeliebt_20260915",
+      "title": "Union auf Fünf-Jahres-Tief, Merz unbeliebter denn je",
+      "summary": "Im aktuellen RTL/ntv-Trendbarometer fällt die Union (CDU/CSU) auf einen Fünf-Jahres-Tiefstwert von nur noch 20 Prozent. Bundeskanzler Friedrich Merz erreicht mit lediglich 10 Prozent Zustimmung den niedrigsten Wert seiner gesamten Kanzlerschaft. Während die...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "15.09.2026",
+      "date_iso": "2026-09-15",
+      "url": "/nachrichten/artikel/2026/09/union-fuenf-jahres-tief-merz-unbeliebt_20260915/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/union-fuenf-jahres-tief-merz-unbeliebt_20260915/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/union-fuenf-jahres-tief-merz-unbeliebt_20260915.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/union-fuenf-jahres-tief-merz-unbeliebt_20260915.webp",
+      "image_alt": "Union auf Fünf-Jahres-Tief, Merz unbeliebter denn je",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/union-fuenf-jahres-tief-merz-unbeliebt_20260915.webp",
+        "alt": "Union auf Fünf-Jahres-Tief, Merz unbeliebter denn je"
+      },
+      "source_name": "n-tv.de - Startseite",
+      "source_url": "https://www.n-tv.de/politik/Union-faellt-auf-Fuenf-Jahres-Tiefstwert-Merz-unbeliebter-denn-je-id31307933.html",
+      "tags": [
+        "RTL/ntv-Trendbarometer",
+        "Union",
+        "CDU/CSU",
+        "Friedrich Merz",
+        "Umfragewerte",
+        "Bundestagswahl",
+        "Landtagswahlen",
+        "AfD"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -328,6 +410,47 @@
         "Bundeswehr"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/09:michael-j-fox-emmys-parkinson-rede_20260915",
+      "slug": "michael-j-fox-emmys-parkinson-rede_20260915",
+      "title": "Michael J. Fox hält bewegende Rede bei den Emmys über Parkinson",
+      "summary": "Der Schauspieler Michael J. Fox (65, bekannt aus „Zurück in die Zukunft“) hat bei den Emmy Awards am 14. September mit einer bewegenden Rede über sein Leben mit Parkinson für Aufsehen gesorgt. Fox, der mit dem Bob Hope Humanitarian Award für sein jahrelange...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "15.09.2026",
+      "date_iso": "2026-09-15",
+      "url": "/nachrichten/artikel/2026/09/michael-j-fox-emmys-parkinson-rede_20260915/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/michael-j-fox-emmys-parkinson-rede_20260915/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/michael-j-fox-emmys-parkinson-rede_20260915.json",
+      "image_url": "https://cdn.prod.www.spiegel.de/images/0c8fe240-a594-44ca-a782-8d8fec27e3a7_w520_r2.08_fpx35.3_fpy44.97.jpg",
+      "image_alt": "Michael J. Fox im Rollstuhl auf der Emmy-Bühne, den Bob Hope Humanitarian Award haltend, während er eine bewegende Rede...",
+      "image": {
+        "url": "https://cdn.prod.www.spiegel.de/images/0c8fe240-a594-44ca-a782-8d8fec27e3a7_w520_r2.08_fpx35.3_fpy44.97.jpg",
+        "alt": "Michael J. Fox im Rollstuhl auf der Emmy-Bühne, den Bob Hope Humanitarian Award haltend, während er eine bewegende Rede..."
+      },
+      "source_name": "DER SPIEGEL - Schlagzeilen",
+      "source_url": "https://www.spiegel.de/kultur/tv/michael-j-fox-spricht-bei-den-emmys-ueber-sein-leben-mit-parkinson-a-19c7273b-4a6a-4b17-a27a-738a42877928#ref=rss",
+      "tags": [
+        "Michael J. Fox",
+        "Parkinson",
+        "Emmys",
+        "Bob Hope Humanitarian Award",
+        "Schauspiel",
+        "Gesundheit",
+        "Prominente",
+        "Krankheit"
+      ],
+      "quality_score": 90,
       "review_status": "published"
     },
     {
@@ -535,6 +658,45 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/09:iran-vier-jahre-nach-jina-mahsa-amini-gesellschaft-im-wandel_20260915",
+      "slug": "iran-vier-jahre-nach-jina-mahsa-amini-gesellschaft-im-wandel_20260915",
+      "title": "Iran: Vier Jahre nach Jina Mahsa Amini – Gesellschaft im Wandel",
+      "summary": "Vier Jahre nach dem Tod von Jina Mahsa Amini, der die Bewegung \"Frau, Leben, Freiheit\" auslöste, erlebt die iranische Gesellschaft einen tiefgreifenden Wandel. Trotz brutaler Niederschlagung der Proteste und anhaltender Repression bleibt der Kopftuchzwang e...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "15.09.2026",
+      "date_iso": "2026-09-15",
+      "url": "/nachrichten/artikel/2026/09/iran-vier-jahre-nach-jina-mahsa-amini-gesellschaft-im-wandel_20260915/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/iran-vier-jahre-nach-jina-mahsa-amini-gesellschaft-im-wandel_20260915/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/iran-vier-jahre-nach-jina-mahsa-amini-gesellschaft-im-wandel_20260915.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/iran-vier-jahre-nach-jina-mahsa-amini-gesellschaft-im-wandel_20260915.webp",
+      "image_alt": "Iran: Vier Jahre nach Jina Mahsa Amini – Gesellschaft im Wandel",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/iran-vier-jahre-nach-jina-mahsa-amini-gesellschaft-im-wandel_20260915.webp",
+        "alt": "Iran: Vier Jahre nach Jina Mahsa Amini – Gesellschaft im Wandel"
+      },
+      "source_name": "Deutsche Welle: DW.com Deutsch",
+      "source_url": "https://www.dw.com/de/vier-jahre-nach-jina-mahsa-gesellschaft-irans-im-wandel/a-79268747?maca=de-rss-de-all-1119-rdf",
+      "tags": [
+        "Iran",
+        "Jina Mahsa Amini",
+        "Frau Leben Freiheit",
+        "Kopftuchzwang",
+        "Menschenrechte",
+        "Proteste"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/09:emekliligi-iptal-edilen-kadina-sgkdan-borc-soku_20260915",
       "slug": "emekliligi-iptal-edilen-kadina-sgkdan-borc-soku_20260915",
       "title": "Emekliliği İptal Edilen Kadına SGK'dan 158 Bin TL Borç Şoku",
@@ -733,6 +895,47 @@
         "Bütçe"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/09:apotheken-medizinische-dienstleister-gesetz-neue-kompetenzen_20260915",
+      "slug": "apotheken-medizinische-dienstleister-gesetz-neue-kompetenzen_20260915",
+      "title": "Apotheken werden zu medizinischen Dienstleistern: Neue Rolle durch Gesetz",
+      "summary": "Deutsche Apotheken erleben einen tiefgreifenden Wandel: Ein neues Gesetz, das Anfang Juli in Kraft trat, stärkt ihre Rolle als medizinische Dienstleister. Sie sollen künftig als \"Gesundheitslotsen\" agieren und dürfen mehr Impfungen sowie bestimmte Schnellte...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/09",
+      "date": "15.09.2026",
+      "date_iso": "2026-09-15",
+      "url": "/nachrichten/artikel/2026/09/apotheken-medizinische-dienstleister-gesetz-neue-kompetenzen_20260915/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/apotheken-medizinische-dienstleister-gesetz-neue-kompetenzen_20260915/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/09/apotheken-medizinische-dienstleister-gesetz-neue-kompetenzen_20260915.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/apotheken-medizinische-dienstleister-gesetz-neue-kompetenzen_20260915.webp",
+      "image_alt": "Ein Apotheker führt in einer modernen Apotheke einen Schnelltest bei einem Patienten durch.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/apotheken-medizinische-dienstleister-gesetz-neue-kompetenzen_20260915.webp",
+        "alt": "Ein Apotheker führt in einer modernen Apotheke einen Schnelltest bei einem Patienten durch."
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/wirtschaft/apotheken-apothekertag-linnemann-100.html",
+      "tags": [
+        "Apotheken",
+        "Gesundheitsversorgung",
+        "ApoVWG",
+        "Medizinische Dienstleistungen",
+        "Impfungen",
+        "Schnelltests",
+        "Deutschland",
+        "Gesetz"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
