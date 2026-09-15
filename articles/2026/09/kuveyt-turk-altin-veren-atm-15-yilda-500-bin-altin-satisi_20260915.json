@@ -46,14 +46,6 @@
   "image_url": "https://mansetradar.com.tr/articles/2026/09/images/kuveyt-turk-altin-veren-atm-15-yilda-500-bin-altin-satisi_20260915.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "clear",
-  "image_license_note": "Unsplash API photo",
-  "image_source_url": "https://unsplash.com/photos/stock-market-candlestick-chart-on-dark-screen-fiXLQXAhCfk",
-  "image_provider": "unsplash",
-  "image_score": 78,
-  "image_query": "stock market trading",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "Kuveyt Türk'ün \"Altın Veren ATM'ler\"i aracılığıyla 15 yılda yaklaşık 500 bin adet altın satışı gerçekleştirildi. Banka, 2011'de başlattığı bu yenilikçi hizmetle müşterilerine 7 gün 24 saat fiziki altın alma imkanı sunuyor.",
   "language": "Turkish",
   "url_prefix": "articles/2026/09",
@@ -71,10 +63,7 @@
   "quality_notes": [],
   "quality_word_count": 432,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxzdG9jayUyMG1hcmtldCUyMHRyYWRpbmd8ZW58MXwwfHx8MTc4OTQ2NTA0NXww&ixlib=rb-4.1.0&q=80&w=1080",
-  "original_image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxzdG9jayUyMG1hcmtldCUyMHRyYWRpbmd8ZW58MXwwfHx8MTc4OTQ2NTA0NXww&ixlib=rb-4.1.0&q=80&w=1080",
-  "image_local_webp": "articles/2026/09/images/kuveyt-turk-altin-veren-atm-15-yilda-500-bin-altin-satisi_20260915.webp",
-  "image_credit": "unsplash.com",
-  "image_credit_url": "https://unsplash.com/photos/stock-market-candlestick-chart-on-dark-screen-fiXLQXAhCfk",
-  "image_finalized_at": "2026-09-15T09:38:17.137689Z"
+  "time": "08:06",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }

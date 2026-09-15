@@ -44,14 +44,6 @@
   "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/09/images/us-renditen-finanzkrise-zinswende_20260915.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "source_provided",
-  "image_license_note": "RSS source image: tagesschau.de - Die Nachrichten der ARD",
-  "image_source_url": "https://www.tagesschau.de/wirtschaft/verbraucher/marktbericht-renditen-100.html",
-  "image_provider": "rss",
-  "image_score": 70,
-  "image_query": "Zinserwartungen verfestigt: US-Rendite auf Niveau der Finanzkrise",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "Die Renditen zehnjähriger US-Staatsanleihen sind auf 5,025 Prozent gestiegen, den höchsten Stand seit der Finanzkrise 2007. Auch deutsche Bundesanleihen erreichten mit 3,57 Prozent ein Mehrjahreshoch. Ursachen sind verstärkte Inflationssorgen durch den Iran-Krieg und steigende Ölpreise, Erwartungen weiterer Leitzinserhöhungen der Zentralbanken sowie die wachsende Staatsverschuldung, insbesondere in den USA.",
   "language": "German",
   "url_prefix": "nachrichten/artikel/2026/09",
@@ -69,10 +61,7 @@
   "quality_notes": [],
   "quality_word_count": 431,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.tagesschau.de/image/e123852e-9e33-48b6-a23d-20845d6ab747/AAABoKRy1k0/AAABnSSvrFg/16x9-big/nyse-456.jpg?width=1920",
-  "original_image_url": "https://images.tagesschau.de/image/e123852e-9e33-48b6-a23d-20845d6ab747/AAABoKRy1k0/AAABnSSvrFg/16x9-big/nyse-456.jpg?width=1920",
-  "image_local_webp": "nachrichten/artikel/2026/09/images/us-renditen-finanzkrise-zinswende_20260915.webp",
-  "image_credit": "tagesschau.de",
-  "image_credit_url": "https://www.tagesschau.de/wirtschaft/verbraucher/marktbericht-renditen-100.html",
-  "image_finalized_at": "2026-09-15T12:10:49.100376Z"
+  "time": "12:04",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }
