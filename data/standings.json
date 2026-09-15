@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-15T19:15:14.275Z",
+  "updatedAt": "2026-09-15T23:18:32.938Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-09-15T19:15:14.275Z",
+      "updatedAt": "2026-09-15T23:18:32.938Z",
       "source": "Maçkolik arşiv 1/73482",
       "table": [
         {
@@ -555,13 +555,13 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73340: 20 | HTML scrape: https://www.mackolik.com/puan-durumu/ingiltere-premier-lig/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | https://www.mackolik.com/puan-durumu/ingiltere-premier-league/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73340: 20 | HTML scrape: https://www.mackolik.com/puan-durumu/ingiltere-premier-lig/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | https://www.mackolik.com/puan-durumu/ingiltere-premier-league/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | football-data.org: PL: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
       "preservedPreviousTable": true
     },
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-09-15T19:15:14.275Z",
+      "updatedAt": "2026-09-15T23:18:32.938Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
@@ -581,14 +581,14 @@
         {
           "position": 2,
           "team": "Real Madrid",
-          "played": 5,
-          "won": 4,
+          "played": 6,
+          "won": 5,
           "draw": 0,
           "lost": 1,
-          "goalsFor": 14,
-          "goalsAgainst": 4,
-          "points": 12,
-          "goalDifference": 10,
+          "goalsFor": 17,
+          "goalsAgainst": 6,
+          "points": 15,
+          "goalDifference": 11,
           "logo": "https://im.mackolik.com/img/logo/kucuk/79.gif",
           "form": []
         },
@@ -609,14 +609,14 @@
         {
           "position": 4,
           "team": "Deportivo Alaves",
-          "played": 5,
+          "played": 6,
           "won": 3,
           "draw": 1,
-          "lost": 1,
+          "lost": 2,
           "goalsFor": 11,
-          "goalsAgainst": 5,
+          "goalsAgainst": 6,
           "points": 10,
-          "goalDifference": 6,
+          "goalDifference": 5,
           "logo": "https://im.mackolik.com/img/logo/kucuk/90.gif",
           "form": []
         },
@@ -720,20 +720,6 @@
         },
         {
           "position": 12,
-          "team": "Real Sociedad",
-          "played": 6,
-          "won": 2,
-          "draw": 1,
-          "lost": 3,
-          "goalsFor": 6,
-          "goalsAgainst": 11,
-          "points": 7,
-          "goalDifference": -5,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/77.gif",
-          "form": []
-        },
-        {
-          "position": 13,
           "team": "Rayo Vallecano",
           "played": 6,
           "won": 2,
@@ -744,6 +730,20 @@
           "points": 7,
           "goalDifference": -5,
           "logo": "https://im.mackolik.com/img/logo/kucuk/88.gif",
+          "form": []
+        },
+        {
+          "position": 13,
+          "team": "Real Sociedad",
+          "played": 6,
+          "won": 2,
+          "draw": 1,
+          "lost": 3,
+          "goalsFor": 6,
+          "goalsAgainst": 11,
+          "points": 7,
+          "goalDifference": -5,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/77.gif",
           "form": []
         },
         {
@@ -790,6 +790,20 @@
         },
         {
           "position": 17,
+          "team": "Valencia",
+          "played": 6,
+          "won": 1,
+          "draw": 1,
+          "lost": 4,
+          "goalsFor": 2,
+          "goalsAgainst": 10,
+          "points": 4,
+          "goalDifference": -8,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/80.gif",
+          "form": []
+        },
+        {
+          "position": 18,
           "team": "Malaga",
           "played": 5,
           "won": 0,
@@ -803,7 +817,7 @@
           "form": []
         },
         {
-          "position": 18,
+          "position": 19,
           "team": "Villarreal",
           "played": 5,
           "won": 0,
@@ -817,31 +831,17 @@
           "form": []
         },
         {
-          "position": 19,
+          "position": 20,
           "team": "Elche",
-          "played": 5,
+          "played": 6,
           "won": 0,
           "draw": 2,
-          "lost": 3,
-          "goalsFor": 6,
-          "goalsAgainst": 13,
-          "points": 2,
-          "goalDifference": -7,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/106.gif",
-          "form": []
-        },
-        {
-          "position": 20,
-          "team": "Valencia",
-          "played": 5,
-          "won": 0,
-          "draw": 1,
           "lost": 4,
-          "goalsFor": 1,
-          "goalsAgainst": 10,
-          "points": 1,
-          "goalDifference": -9,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/80.gif",
+          "goalsFor": 8,
+          "goalsAgainst": 16,
+          "points": 2,
+          "goalDifference": -8,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/106.gif",
           "form": []
         }
       ],
@@ -1110,7 +1110,7 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73455: 18 | HTML scrape: https://www.mackolik.com/puan-durumu/almanya-bundesliga/6by3h89i2eykc341oz7lv1ddd: no valid standings table | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73455: 18 | HTML scrape: https://www.mackolik.com/puan-durumu/almanya-bundesliga/6by3h89i2eykc341oz7lv1ddd: no valid standings table | football-data.org: BL1: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
       "preservedPreviousTable": true
     },
     {
@@ -1402,13 +1402,13 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73249: 20 | HTML scrape: https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao: no valid standings table | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73249: 20 | HTML scrape: https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao: no valid standings table | football-data.org: SA: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
       "preservedPreviousTable": true
     },
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-09-15T19:15:14.275Z",
+      "updatedAt": "2026-09-15T23:18:32.938Z",
       "source": "Maçkolik arşiv 5/73279",
       "table": [
         {
