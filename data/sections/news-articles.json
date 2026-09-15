@@ -2,12 +2,51 @@
   "meta": {
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
-    "generated_at": "2026-09-14T00:00:00+00:00",
-    "article_count": 1759,
+    "generated_at": "2026-09-15T00:00:00+00:00",
+    "article_count": 1761,
     "schema_version": 2,
     "section": "news-articles"
   },
   "articles": [
+    {
+      "id": "news/articles/2026/09:us-fuel-prices-soar-gas-diesel-record-high-2026_20260915",
+      "slug": "us-fuel-prices-soar-gas-diesel-record-high-2026_20260915",
+      "title": "Nationwide Gas Averages $4.31, Diesel Hits All-Time High",
+      "summary": "As of September 14, 2026, the national average price for gasoline has reached $4.31, while diesel fuel prices have climbed to an all-time high across the United States. This surge in fuel costs is described as 'painful' and 'real hard' for consumers and bus...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "15.09.2026",
+      "date_iso": "2026-09-15",
+      "url": "/news/articles/2026/09/us-fuel-prices-soar-gas-diesel-record-high-2026_20260915/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/us-fuel-prices-soar-gas-diesel-record-high-2026_20260915/",
+      "detail_json_url": "/data/details/news/articles/2026/09/us-fuel-prices-soar-gas-diesel-record-high-2026_20260915.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/us-fuel-prices-soar-gas-diesel-record-high-2026_20260915.webp",
+      "image_alt": "A digital display on a gas pump showing a high price per gallon, with a diesel truck in the background, symbolizing rising...",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/us-fuel-prices-soar-gas-diesel-record-high-2026_20260915.webp",
+        "alt": "A digital display on a gas pump showing a high price per gallon, with a diesel truck in the background, symbolizing rising..."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/gas-nationwide-diesel-fuel-all-time-high-painful/",
+      "tags": [
+        "Fuel Prices",
+        "Gasoline",
+        "Diesel Fuel",
+        "Economy",
+        "US Economy",
+        "Inflation"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "news/articles/2026/09:us-concerns-china-ai-race_20260914",
       "slug": "us-concerns-china-ai-race_20260914",
