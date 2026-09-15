@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-09-15T00:00:00+00:00",
-    "article_count": 1776,
+    "article_count": 1778,
     "schema_version": 2
   },
   "articles": [
@@ -86,6 +86,47 @@
         "Einwanderungspolitik"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/09:us-iran-war-weapons-shortage-pentagon-report_20260915",
+      "slug": "us-iran-war-weapons-shortage-pentagon-report_20260915",
+      "title": "Pentagon Report: Iran War Drains US Weapons Stockpiles",
+      "summary": "A mandatory report from the Pentagon's inspector general has revealed that the ongoing U.S. war in Iran has led to significant ammunition shortfalls and exposed industrial base bottlenecks. The conflict, dubbed Operation Epic Fury, cost an estimated $33.4 b...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "15.09.2026",
+      "date_iso": "2026-09-15",
+      "url": "/news/articles/2026/09/us-iran-war-weapons-shortage-pentagon-report_20260915/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/us-iran-war-weapons-shortage-pentagon-report_20260915/",
+      "detail_json_url": "/data/details/news/articles/2026/09/us-iran-war-weapons-shortage-pentagon-report_20260915.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/us-iran-war-weapons-shortage-pentagon-report_20260915.webp",
+      "image_alt": "An F-15 jet and MQ-9 Reaper drone, with a visual representation of depleted ammunition, symbolizing the U.S. military's...",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/us-iran-war-weapons-shortage-pentagon-report_20260915.webp",
+        "alt": "An F-15 jet and MQ-9 Reaper drone, with a visual representation of depleted ammunition, symbolizing the U.S. military's..."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/us-iran-war-ammunition-munition-shortage-shortfall-spending/",
+      "tags": [
+        "U.S. Military",
+        "Iran War",
+        "Pentagon Report",
+        "Ammunition Shortage",
+        "Defense Spending",
+        "Military Readiness",
+        "Operation Epic Fury",
+        "Lockheed Martin"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -448,6 +489,47 @@
         "Wahlkampf",
         "Meinungsfreiheit",
         "Kulturminister"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/09:iran-war-cost-strait-tensions-houthi-attacks-2026-09-15_20260915",
+      "slug": "iran-war-cost-strait-tensions-houthi-attacks-2026-09-15_20260915",
+      "title": "Iran War Costs U.S. $33.4 Billion Amid Strait Tensions and Houthi Attacks",
+      "summary": "A Pentagon report on September 15, 2026, reveals the Iran war has cost the U.S. military over $33.4 billion, mostly on munitions. This comes as Qatar warns against closing the Bab el-Mandeb Strait, following a months-long blockade of the Strait of Hormuz an...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/09",
+      "date": "15.09.2026",
+      "date_iso": "2026-09-15",
+      "url": "/news/articles/2026/09/iran-war-cost-strait-tensions-houthi-attacks-2026-09-15_20260915/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/09/iran-war-cost-strait-tensions-houthi-attacks-2026-09-15_20260915/",
+      "detail_json_url": "/data/details/news/articles/2026/09/iran-war-cost-strait-tensions-houthi-attacks-2026-09-15_20260915.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/09/images/iran-war-cost-strait-tensions-houthi-attacks-2026-09-15_20260915.webp",
+      "image_alt": "Iran War Costs U.S. $33.4 Billion Amid Strait Tensions and Houthi Attacks",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/09/images/iran-war-cost-strait-tensions-houthi-attacks-2026-09-15_20260915.webp",
+        "alt": "Iran War Costs U.S. $33.4 Billion Amid Strait Tensions and Houthi Attacks"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-oil-strait-of-hormuz/",
+      "tags": [
+        "Iran War",
+        "US Military Costs",
+        "Strait of Hormuz",
+        "Bab el-Mandeb",
+        "Houthi Attacks",
+        "Saudi Arabia",
+        "Yemen",
+        "Oil Tanker Fire"
       ],
       "quality_score": 100,
       "review_status": "published"
