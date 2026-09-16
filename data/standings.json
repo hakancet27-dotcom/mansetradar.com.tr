@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-15T23:18:32.938Z",
+  "updatedAt": "2026-09-16T23:23:41.588Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-09-15T23:18:32.938Z",
+      "updatedAt": "2026-09-16T23:23:41.588Z",
       "source": "Maçkolik arşiv 1/73482",
       "table": [
         {
@@ -561,20 +561,20 @@
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-09-15T23:18:32.938Z",
+      "updatedAt": "2026-09-16T23:23:41.588Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
           "position": 1,
           "team": "Barcelona",
-          "played": 5,
-          "won": 5,
+          "played": 6,
+          "won": 6,
           "draw": 0,
           "lost": 0,
-          "goalsFor": 21,
-          "goalsAgainst": 4,
-          "points": 15,
-          "goalDifference": 17,
+          "goalsFor": 28,
+          "goalsAgainst": 6,
+          "points": 18,
+          "goalDifference": 22,
           "logo": "https://im.mackolik.com/img/logo/kucuk/83.gif",
           "form": []
         },
@@ -594,6 +594,34 @@
         },
         {
           "position": 3,
+          "team": "Atletico Madrid",
+          "played": 6,
+          "won": 4,
+          "draw": 1,
+          "lost": 1,
+          "goalsFor": 14,
+          "goalsAgainst": 6,
+          "points": 13,
+          "goalDifference": 8,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/86.gif",
+          "form": []
+        },
+        {
+          "position": 4,
+          "team": "Sevilla",
+          "played": 6,
+          "won": 4,
+          "draw": 1,
+          "lost": 1,
+          "goalsFor": 9,
+          "goalsAgainst": 6,
+          "points": 13,
+          "goalDifference": 3,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/89.gif",
+          "form": []
+        },
+        {
+          "position": 5,
           "team": "Real Betis",
           "played": 5,
           "won": 4,
@@ -607,7 +635,7 @@
           "form": []
         },
         {
-          "position": 4,
+          "position": 6,
           "team": "Deportivo Alaves",
           "played": 6,
           "won": 3,
@@ -621,44 +649,16 @@
           "form": []
         },
         {
-          "position": 5,
-          "team": "Atletico Madrid",
-          "played": 5,
-          "won": 3,
-          "draw": 1,
-          "lost": 1,
-          "goalsFor": 10,
-          "goalsAgainst": 6,
-          "points": 10,
-          "goalDifference": 4,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/86.gif",
-          "form": []
-        },
-        {
-          "position": 6,
-          "team": "Sevilla",
-          "played": 5,
-          "won": 3,
-          "draw": 1,
-          "lost": 1,
-          "goalsFor": 8,
-          "goalsAgainst": 6,
-          "points": 10,
-          "goalDifference": 2,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/89.gif",
-          "form": []
-        },
-        {
           "position": 7,
           "team": "Deportivo La Coruna",
-          "played": 5,
+          "played": 6,
           "won": 2,
           "draw": 3,
-          "lost": 0,
+          "lost": 1,
           "goalsFor": 9,
-          "goalsAgainst": 6,
+          "goalsAgainst": 7,
           "points": 9,
-          "goalDifference": 3,
+          "goalDifference": 2,
           "logo": "https://im.mackolik.com/img/logo/kucuk/81.gif",
           "form": []
         },
@@ -693,33 +693,19 @@
         {
           "position": 10,
           "team": "Racing Santander",
-          "played": 5,
+          "played": 6,
           "won": 2,
           "draw": 1,
-          "lost": 2,
-          "goalsFor": 9,
-          "goalsAgainst": 9,
+          "lost": 3,
+          "goalsFor": 11,
+          "goalsAgainst": 16,
           "points": 7,
-          "goalDifference": 0,
+          "goalDifference": -5,
           "logo": "https://im.mackolik.com/img/logo/kucuk/84.gif",
           "form": []
         },
         {
           "position": 11,
-          "team": "Osasuna",
-          "played": 5,
-          "won": 2,
-          "draw": 1,
-          "lost": 2,
-          "goalsFor": 5,
-          "goalsAgainst": 8,
-          "points": 7,
-          "goalDifference": -3,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/93.gif",
-          "form": []
-        },
-        {
-          "position": 12,
           "team": "Rayo Vallecano",
           "played": 6,
           "won": 2,
@@ -733,7 +719,7 @@
           "form": []
         },
         {
-          "position": 13,
+          "position": 12,
           "team": "Real Sociedad",
           "played": 6,
           "won": 2,
@@ -744,6 +730,20 @@
           "points": 7,
           "goalDifference": -5,
           "logo": "https://im.mackolik.com/img/logo/kucuk/77.gif",
+          "form": []
+        },
+        {
+          "position": 13,
+          "team": "Osasuna",
+          "played": 6,
+          "won": 2,
+          "draw": 1,
+          "lost": 3,
+          "goalsFor": 5,
+          "goalsAgainst": 12,
+          "points": 7,
+          "goalDifference": -7,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/93.gif",
           "form": []
         },
         {
@@ -1408,7 +1408,7 @@
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-09-15T23:18:32.938Z",
+      "updatedAt": "2026-09-16T23:23:41.588Z",
       "source": "Maçkolik arşiv 5/73279",
       "table": [
         {
