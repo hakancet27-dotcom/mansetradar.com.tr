@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-16T23:23:41.588Z",
+  "updatedAt": "2026-09-17T23:15:19.827Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-09-16T23:23:41.588Z",
+      "updatedAt": "2026-09-17T23:15:19.827Z",
       "source": "Maçkolik arşiv 1/73482",
       "table": [
         {
@@ -555,13 +555,13 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73340: 20 | HTML scrape: https://www.mackolik.com/puan-durumu/ingiltere-premier-lig/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | https://www.mackolik.com/puan-durumu/ingiltere-premier-league/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | football-data.org: PL: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: invalid Maçkolik archive table 73340: 20 | HTML scrape: https://www.mackolik.com/puan-durumu/ingiltere-premier-lig/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | https://www.mackolik.com/puan-durumu/ingiltere-premier-league/2kwbbcootiqqgmrzs6o5inle5: HTTP 502 | football-data.org: PL: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
       "preservedPreviousTable": true
     },
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-09-16T23:23:41.588Z",
+      "updatedAt": "2026-09-17T23:15:19.827Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
@@ -594,6 +594,20 @@
         },
         {
           "position": 3,
+          "team": "Real Betis",
+          "played": 6,
+          "won": 5,
+          "draw": 0,
+          "lost": 1,
+          "goalsFor": 8,
+          "goalsAgainst": 6,
+          "points": 15,
+          "goalDifference": 2,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/82.gif",
+          "form": []
+        },
+        {
+          "position": 4,
           "team": "Atletico Madrid",
           "played": 6,
           "won": 4,
@@ -607,7 +621,7 @@
           "form": []
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Sevilla",
           "played": 6,
           "won": 4,
@@ -618,20 +632,6 @@
           "points": 13,
           "goalDifference": 3,
           "logo": "https://im.mackolik.com/img/logo/kucuk/89.gif",
-          "form": []
-        },
-        {
-          "position": 5,
-          "team": "Real Betis",
-          "played": 5,
-          "won": 4,
-          "draw": 0,
-          "lost": 1,
-          "goalsFor": 7,
-          "goalsAgainst": 6,
-          "points": 12,
-          "goalDifference": 1,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/82.gif",
           "form": []
         },
         {
@@ -748,6 +748,20 @@
         },
         {
           "position": 14,
+          "team": "Villarreal",
+          "played": 6,
+          "won": 1,
+          "draw": 2,
+          "lost": 3,
+          "goalsFor": 10,
+          "goalsAgainst": 11,
+          "points": 5,
+          "goalDifference": -1,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/92.gif",
+          "form": []
+        },
+        {
+          "position": 15,
           "team": "Levante",
           "played": 5,
           "won": 1,
@@ -761,21 +775,21 @@
           "form": []
         },
         {
-          "position": 15,
+          "position": 16,
           "team": "Getafe",
-          "played": 5,
+          "played": 6,
           "won": 1,
           "draw": 2,
-          "lost": 2,
+          "lost": 3,
           "goalsFor": 3,
-          "goalsAgainst": 6,
+          "goalsAgainst": 7,
           "points": 5,
-          "goalDifference": -3,
+          "goalDifference": -4,
           "logo": "https://im.mackolik.com/img/logo/kucuk/103.gif",
           "form": []
         },
         {
-          "position": 16,
+          "position": 17,
           "team": "Celta Vigo",
           "played": 6,
           "won": 0,
@@ -789,7 +803,7 @@
           "form": []
         },
         {
-          "position": 17,
+          "position": 18,
           "team": "Valencia",
           "played": 6,
           "won": 1,
@@ -803,31 +817,17 @@
           "form": []
         },
         {
-          "position": 18,
+          "position": 19,
           "team": "Malaga",
-          "played": 5,
+          "played": 6,
           "won": 0,
           "draw": 3,
-          "lost": 2,
-          "goalsFor": 2,
-          "goalsAgainst": 8,
-          "points": 3,
-          "goalDifference": -6,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/78.gif",
-          "form": []
-        },
-        {
-          "position": 19,
-          "team": "Villarreal",
-          "played": 5,
-          "won": 0,
-          "draw": 2,
           "lost": 3,
-          "goalsFor": 7,
-          "goalsAgainst": 10,
-          "points": 2,
-          "goalDifference": -3,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/92.gif",
+          "goalsFor": 3,
+          "goalsAgainst": 11,
+          "points": 3,
+          "goalDifference": -8,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/78.gif",
           "form": []
         },
         {
@@ -1408,7 +1408,7 @@
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-09-16T23:23:41.588Z",
+      "updatedAt": "2026-09-17T23:15:19.827Z",
       "source": "Maçkolik arşiv 5/73279",
       "table": [
         {
