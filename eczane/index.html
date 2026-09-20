@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4WP1H2EJ6F"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-4WP1H2EJ6F");</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Eczane haberleri.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
     <link rel="canonical" href="https://mansetradar.com.tr/eczane/">
     <title>Eczane</title>
     <style>
@@ -428,12 +428,136 @@
       background: white;
     }
 
+    /* TOP COUNTRY NAVIGATION PILLS */
+    .top-country-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 24px;
+      padding: 10px 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+    }
+    .country-pill-track {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .country-pill-label {
+      font-size: 0.78rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--muted);
+      margin-right: 4px;
+    }
+    .country-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 7px 14px;
+      border-radius: 999px;
+      background: var(--page);
+      border: 1px solid var(--border);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 700;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .country-pill:hover {
+      background: rgba(225, 6, 0, 0.08);
+      border-color: rgba(225, 6, 0, 0.3);
+      color: var(--red);
+      transform: translateY(-1px);
+    }
+    .country-pill.is-active {
+      background: var(--red);
+      border-color: var(--red);
+      color: #ffffff;
+      box-shadow: 0 4px 12px rgba(225, 6, 0, 0.28);
+    }
+    .pill-flag {
+      font-size: 1.05rem;
+      line-height: 1;
+    }
+    .pill-name {
+      font-weight: 700;
+    }
+    .pill-count {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 20px;
+      height: 20px;
+      padding: 0 6px;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 800;
+      background: rgba(0, 0, 0, 0.08);
+      color: inherit;
+    }
+    .country-pill.is-active .pill-count {
+      background: rgba(255, 255, 255, 0.25);
+      color: #ffffff;
+    }
+    body.dark-mode .country-pill {
+      background: #1e293b;
+      border-color: #334155;
+      color: #f1f5f9;
+    }
+    body.dark-mode .country-pill:hover {
+      background: rgba(225, 6, 0, 0.18);
+      border-color: var(--red);
+      color: #ffffff;
+    }
+    body.dark-mode .country-pill.is-active {
+      background: var(--red);
+      border-color: var(--red);
+      color: #ffffff;
+    }
+    .country-lang-switches {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .lang-switch-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 12px;
+      border-radius: 999px;
+      background: transparent;
+      border: 1px dashed var(--border);
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.78rem;
+      font-weight: 700;
+      transition: all 0.2s ease;
+    }
+    .lang-switch-pill:hover {
+      border-color: var(--red);
+      color: var(--red);
+      background: rgba(225, 6, 0, 0.04);
+    }
+    body.dark-mode .lang-switch-pill {
+      border-color: #334155;
+      color: #94a3b8;
+    }
+    body.dark-mode .lang-switch-pill:hover {
+      border-color: var(--red);
+      color: #ffffff;
+    }
+
     .container { margin: 30px auto; }
     .page-layout {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) 280px;
-      gap: 30px;
-      align-items: start;
+      display: block;
+      width: 100%;
     }
     .page-heading {
       font-size: 1.9rem;
@@ -489,15 +613,16 @@
       max-width: 250px;
     }
     .showcase-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.55fr) minmax(280px, 0.85fr);
-      gap: 18px;
-      align-items: stretch;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
     }
     .headline-slider {
       position: relative;
-      height: 456px;
-      border-radius: 8px;
+      width: 100%;
+      height: 480px;
+      border-radius: 12px;
       overflow: hidden;
       background: #11131f;
       box-shadow: var(--shadow-strong);
@@ -718,35 +843,50 @@
     }
     .side-headlines {
       display: grid;
-      grid-template-columns: 1fr;
-      gap: 14px;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      width: 100%;
     }
     .side-headlines.is-rotating .side-headline.is-side-rotation-hidden {
       display: none !important;
     }
     .side-headline {
-      min-height: 100px;
-      border-radius: 8px;
+      position: relative;
+      min-height: 145px;
+      height: 155px;
+      border-radius: 10px;
+      overflow: hidden;
       box-shadow: var(--shadow);
       text-decoration: none;
+      background: var(--dark);
+      transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s ease;
+    }
+    .side-headline:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
     }
     .side-headline .headline-content {
+      position: absolute;
       left: 14px;
       right: 14px;
       bottom: 12px;
+      z-index: 2;
     }
     .side-headline .headline-title {
-      font-size: 1rem;
-      line-height: 1.24;
-      -webkit-line-clamp: 3;
+      font-size: 0.96rem;
+      line-height: 1.26;
+      -webkit-line-clamp: 2;
       max-width: 100%;
+      font-weight: 800;
+      text-shadow: 0 1px 6px rgba(0,0,0,0.6);
     }
     .side-headline .headline-meta {
-      margin-bottom: 7px;
+      margin-bottom: 6px;
+      gap: 6px;
     }
     .side-headline .headline-tag,
     .side-headline .headline-topic {
-      font-size: 0.66rem;
+      font-size: 0.65rem;
       padding: 3px 7px;
     }
     .headline-card.has-text-image {
@@ -1289,94 +1429,7 @@
     }
     .read-more:hover { text-decoration: underline; }
 
-    .sidebar {
-      position: sticky;
-      top: 96px;
-      max-height: calc(100vh - 110px);
-      overflow: auto;
-      padding-right: 4px;
-      scrollbar-width: thin;
-      scrollbar-color: #d0d5dd transparent;
-    }
-    .sidebar::-webkit-scrollbar { width: 8px; }
-    .sidebar::-webkit-scrollbar-thumb { background: #d0d5dd; border-radius: 999px; }
-    .sidebar::-webkit-scrollbar-track { background: transparent; }
-    .sidebar-widget,
-    .youtube-widget {
-      border-radius: 8px;
-      margin-bottom: 20px;
-      box-shadow: var(--shadow);
-    }
-    .sidebar-widget {
-      background: var(--surface);
-      padding: 20px;
-    }
-    .widget-title {
-      font-size: 0.82rem;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 0.8px;
-      color: var(--muted);
-      margin-bottom: 15px;
-      padding-bottom: 10px;
-      border-bottom: 2px solid var(--red);
-    }
-    .country-filter {
-      list-style: none;
-      display: grid;
-      gap: 2px;
-    }
-    .country-filter a {
-      padding: 10px 0;
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-size: 0.9rem;
-      text-decoration: none;
-      color: var(--text);
-    }
-    .country-filter li:last-child a { border-bottom: none; }
-    .country-filter a:hover { color: var(--red); }
-    .country-filter .count {
-      margin-left: auto;
-      background: var(--page);
-      padding: 2px 8px;
-      border-radius: 10px;
-      font-size: 0.75rem;
-      color: var(--muted);
-    }
-    .latest-news-list {
-      list-style: none;
-      display: grid;
-      gap: 12px;
-    }
-    .latest-news-list li {
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 12px;
-    }
-    .latest-news-list li:last-child {
-      border-bottom: none;
-      padding-bottom: 0;
-    }
-    .latest-news-list a {
-      display: block;
-      color: var(--text);
-      text-decoration: none;
-      font-size: 0.88rem;
-      font-weight: 800;
-      line-height: 1.35;
-    }
-    .latest-news-list a:hover { color: var(--red); }
-    .latest-news-list span {
-      display: inline-block;
-      margin-bottom: 4px;
-      color: var(--red);
-      font-size: 0.68rem;
-      font-weight: 900;
-      letter-spacing: 0.3px;
-      text-transform: uppercase;
-    }
+    .sidebar { display: none !important; }
     .weather-list {
       list-style: none;
       display: grid;
@@ -1502,18 +1555,28 @@
         justify-content: flex-start;
         padding-bottom: 2px;
       }
-      .page-layout { grid-template-columns: 1fr; }
-      .showcase-grid { grid-template-columns: 1fr; }
       .headline-slider { height: 380px; }
       .side-headlines {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
-      .sidebar {
-        position: static;
-        display: grid;
-        grid-template-columns: 1fr;
-        max-height: none;
-        overflow: visible;
+      .top-country-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 12px;
+      }
+      .country-pill-track {
+        width: 100%;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        padding-bottom: 4px;
+        -webkit-overflow-scrolling: touch;
+      }
+      .country-pill-track::-webkit-scrollbar { display: none; }
+      .country-lang-switches {
+        width: 100%;
+        justify-content: flex-start;
+        border-top: 1px solid var(--border);
+        padding-top: 8px;
       }
       .news-grid { grid-template-columns: 1fr; }
       .news-grid .news-card:first-child { grid-column: span 1; }
@@ -1554,22 +1617,15 @@
 
     @media (min-width: 901px) {
       .showcase-grid .side-headlines {
-        position: relative;
-        height: 456px;
-        max-height: 456px;
         display: grid;
-        grid-template-rows: repeat(2, minmax(0, 1fr));
-        gap: 14px;
-        overflow: hidden;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        width: 100%;
+        height: auto;
+        max-height: none;
       }
       .showcase-grid .side-headlines .side-headline {
-        min-height: 0;
-        height: 221px;
-        overflow: hidden;
-      }
-      .showcase-grid .side-headlines:not(.is-rotating) .side-headline:nth-of-type(n+3),
-      .showcase-grid .side-headlines.is-rotating .side-headline.is-side-rotation-hidden {
-        display: none !important;
+        height: 155px;
       }
     }
 
