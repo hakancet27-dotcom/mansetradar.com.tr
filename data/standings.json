@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-20T22:18:23.005Z",
+  "updatedAt": "2026-09-20T22:47:18.525Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-09-20T22:18:23.005Z",
+      "updatedAt": "2026-09-20T22:47:18.525Z",
       "source": "Maçkolik arşiv 1/73482",
       "table": [
         {
@@ -269,7 +269,7 @@
     {
       "id": "premier-league",
       "name": "Premier League",
-      "updatedAt": "2026-09-20T18:35:52.942Z",
+      "updatedAt": "2026-09-20T22:47:18.525Z",
       "source": "Maçkolik arşiv 24/73340",
       "table": [
         {
@@ -555,13 +555,12 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 502 | HTML scrape: https://www.mackolik.com/puan-durumu/ingiltere-premier-lig/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | https://www.mackolik.com/puan-durumu/ingiltere-premier-league/2kwbbcootiqqgmrzs6o5inle5: HTTP 502 | football-data.org: PL: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
-      "preservedPreviousTable": true
+      "status": ""
     },
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-09-20T22:18:23.005Z",
+      "updatedAt": "2026-09-20T22:47:18.525Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
@@ -1408,7 +1407,7 @@
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-09-20T22:18:23.005Z",
+      "updatedAt": "2026-09-20T22:47:18.525Z",
       "source": "Maçkolik arşiv 5/73279",
       "table": [
         {
