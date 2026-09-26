@@ -46,8 +46,8 @@
   .container { padding: 7px 10px 20px !important; }
   .page-layout, .showcase-grid { display: block !important; }
   .showcase-header { display: none !important; }
-  .headline-slider { position: relative !important; height: 402px !important; min-height: 0 !important; margin: 0 !important; border-radius: 9px !important; }
-  .headline-card, .headline-image { height: 402px !important; min-height: 0 !important; border-radius: 9px !important; }
+  .headline-slider { position: relative !important; height: clamp(210px, 56.25vw, 290px) !important; min-height: 0 !important; margin: 0 !important; border-radius: 9px !important; }
+  .headline-card, .headline-image { height: clamp(210px, 56.25vw, 290px) !important; min-height: 0 !important; border-radius: 9px !important; }
   .headline-content { padding: 13px 14px 42px !important; }
   .headline-title { font-size: 1.34rem !important; line-height: 1.14 !important; }
   .headline-meta { margin-bottom: 7px !important; }

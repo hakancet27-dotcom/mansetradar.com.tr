@@ -1979,7 +1979,14 @@
     }
     .headline-slider {
       width: 100% !important;
-      height: clamp(460px, 48vw, 560px) !important;
+      height: clamp(320px, 32vw, 400px) !important;
+      border-radius: 12px !important;
+      overflow: hidden !important;
+    }
+    @media (max-width: 768px) {
+      .headline-slider {
+        height: clamp(210px, 56.25vw, 280px) !important;
+      }
     }
     .side-headlines {
       display: none !important;
@@ -2167,17 +2174,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
 }
 /* FIRST_PAINT_TOPIC_FILTER_END */
   </style>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WP1H2EJ6F"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-4WP1H2EJ6F');
-  </script>
-  <!-- Yandex Autoplacement 20110774 -->
-  <script src="https://yandex.ru/ads/system/context.js" async></script>
-  <script data-page-id="20110774" src="https://yandex.ru/ads/system/ap-loader.js" async></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
