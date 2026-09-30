@@ -2,18 +2,18 @@
   "meta": {
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
-    "generated_at": "2026-09-26T00:00:00+00:00",
-    "article_count": 1849,
+    "generated_at": "2026-09-30T00:00:00+00:00",
+    "article_count": 1860,
     "schema_version": 2,
     "topic_slug": "kamu",
     "type": "topic"
   },
   "articles": [
     {
-      "id": "articles:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260926",
-      "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260926",
-      "title": "İstanbul Şehir Bülteni (26 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu",
-      "summary": "26 Eylül 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 132 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
+      "id": "articles/2026/09:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260930",
+      "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260930",
+      "title": "İstanbul Şehir Bülteni (30 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu",
+      "summary": "30 Eylül 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 135 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
       "category": "Gündem",
       "category_slug": "gundem",
       "topic_slug": "kamu",
@@ -23,16 +23,16 @@
       "language_label": "tr",
       "section": "articles",
       "section_name": "Haberler",
-      "url_prefix": "articles",
-      "date": "26 Eylül 2026",
-      "date_iso": "2026-09-26",
-      "url": "/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260926/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260926/",
-      "detail_json_url": "/data/details/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260926.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260926.webp",
+      "url_prefix": "articles/2026/09",
+      "date": "30 Eylül 2026",
+      "date_iso": "2026-09-30",
+      "url": "/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260930/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260930/",
+      "detail_json_url": "/data/details/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260930.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
       "image_alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler",
       "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/09/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260924.webp",
+        "url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
         "alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler"
       },
       "source_name": "ManşetRadar",
@@ -50,7 +50,87 @@
       "review_status": "published"
     },
     {
-      "id": "articles:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260924",
+      "id": "articles/2026/09:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260927",
+      "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260927",
+      "title": "İstanbul Şehir Bülteni (27 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu",
+      "summary": "27 Eylül 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 132 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "kamu",
+      "topic_label": "Kamu Hizmetleri",
+      "country": "",
+      "language": "tr",
+      "language_label": "tr",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "27 Eylül 2026",
+      "date_iso": "2026-09-27",
+      "url": "/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260927/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260927/",
+      "detail_json_url": "/data/details/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260927.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260927.webp",
+      "image_alt": "İstanbul Şehir Bülteni, Nöbetçi Eczaneler ve Canlı Veriler (27 Eylül 2026)",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260927.webp",
+        "alt": "İstanbul Şehir Bülteni, Nöbetçi Eczaneler ve Canlı Veriler (27 Eylül 2026)"
+      },
+      "source_name": "ManşetRadar",
+      "source_url": "",
+      "tags": [
+        "İstanbul",
+        "Nöbetçi Eczaneler",
+        "İSKİ",
+        "Baraj Doluluk",
+        "BEDAŞ",
+        "İETT",
+        "Son Dakika"
+      ],
+      "quality_score": 95,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260926",
+      "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260926",
+      "title": "İstanbul Şehir Bülteni (26 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu",
+      "summary": "26 Eylül 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 132 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "kamu",
+      "topic_label": "Kamu Hizmetleri",
+      "country": "",
+      "language": "tr",
+      "language_label": "tr",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/09",
+      "date": "26 Eylül 2026",
+      "date_iso": "2026-09-26",
+      "url": "/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260926/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260926/",
+      "detail_json_url": "/data/details/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260926.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260926.webp",
+      "image_alt": "İstanbul Şehir Bülteni, Nöbetçi Eczaneler ve Canlı Veriler (26 Eylül 2026)",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260926.webp",
+        "alt": "İstanbul Şehir Bülteni, Nöbetçi Eczaneler ve Canlı Veriler (26 Eylül 2026)"
+      },
+      "source_name": "ManşetRadar",
+      "source_url": "",
+      "tags": [
+        "İstanbul",
+        "Nöbetçi Eczaneler",
+        "İSKİ",
+        "Baraj Doluluk",
+        "BEDAŞ",
+        "İETT",
+        "Son Dakika"
+      ],
+      "quality_score": 95,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/09:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260924",
       "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260924",
       "title": "İstanbul Şehir Bülteni (24 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu",
       "summary": "24 Eylül 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 132 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
@@ -63,16 +143,16 @@
       "language_label": "tr",
       "section": "articles",
       "section_name": "Haberler",
-      "url_prefix": "articles",
+      "url_prefix": "articles/2026/09",
       "date": "24 Eylül 2026",
       "date_iso": "2026-09-24",
       "url": "/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260924/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260924/",
-      "detail_json_url": "/data/details/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260924.json",
+      "detail_json_url": "/data/details/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260924.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/09/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260924.webp",
       "image_alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler",
       "image": {
-        "url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260924.webp",
         "alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler"
       },
       "source_name": "ManşetRadar",
@@ -148,10 +228,10 @@
       "url": "/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260921/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260921/",
       "detail_json_url": "/data/details/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260921.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260921.webp",
+      "image_url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
       "image_alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler",
       "image": {
-        "url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260915.webp",
+        "url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
         "alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler"
       },
       "source_name": "ManşetRadar",
@@ -191,7 +271,7 @@
       "image_url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260915.webp",
       "image_alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler",
       "image": {
-        "url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260914.webp",
+        "url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260915.webp",
         "alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler"
       },
       "source_name": "ManşetRadar",
@@ -231,7 +311,7 @@
       "image_url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260914.webp",
       "image_alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler",
       "image": {
-        "url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260913.webp",
+        "url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260914.webp",
         "alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler"
       },
       "source_name": "ManşetRadar",
@@ -268,10 +348,10 @@
       "url": "/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260913/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260913/",
       "detail_json_url": "/data/details/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260913.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260913.webp",
+      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260913.webp",
       "image_alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler",
       "image": {
-        "url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260912.webp",
+        "url": "https://mansetradar.com.tr/articles/2026/09/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260913.webp",
         "alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler"
       },
       "source_name": "ManşetRadar",
@@ -311,7 +391,7 @@
       "image_url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260912.webp",
       "image_alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler",
       "image": {
-        "url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260911.webp",
+        "url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260912.webp",
         "alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler"
       },
       "source_name": "ManşetRadar",
@@ -351,7 +431,7 @@
       "image_url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260911.webp",
       "image_alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler",
       "image": {
-        "url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260905.webp",
+        "url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260911.webp",
         "alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler"
       },
       "source_name": "ManşetRadar",
@@ -388,10 +468,10 @@
       "url": "/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260905/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260905/",
       "detail_json_url": "/data/details/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260905.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260905.webp",
+      "image_url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
       "image_alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler",
       "image": {
-        "url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260904.webp",
+        "url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
         "alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler"
       },
       "source_name": "ManşetRadar",
@@ -428,10 +508,10 @@
       "url": "/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260904/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260904/",
       "detail_json_url": "/data/details/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260904.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260904.webp",
+      "image_url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
       "image_alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler",
       "image": {
-        "url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260903.webp",
+        "url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
         "alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler"
       },
       "source_name": "ManşetRadar",
@@ -468,7 +548,7 @@
       "url": "/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260903/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260903/",
       "detail_json_url": "/data/details/articles/2026/09/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260903.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260903.webp",
+      "image_url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
       "image_alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler",
       "image": {
         "url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
