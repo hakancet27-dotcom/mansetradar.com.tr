@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-01T00:00:00+00:00",
-    "article_count": 1880,
+    "article_count": 1885,
     "schema_version": 2
   },
   "articles": [
@@ -205,6 +205,44 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/10:todesstrafe-usa-giftspritze-tennessee-gescheiterte-hinrichtung_20261001",
+      "slug": "todesstrafe-usa-giftspritze-tennessee-gescheiterte-hinrichtung_20261001",
+      "title": "Gescheiterte Hinrichtung in Tennessee wirft Fragen zur Giftspritze auf",
+      "summary": "Im US-Bundesstaat Tennessee ist die Hinrichtung der zum Tode verurteilten Christa Pike am Abend des 30. September 2026 gescheitert. Nach der Verabreichung einer Überdosis des Beruhigungsmittels Pentobarbital blieb Pike bei Bewusstsein und klagte über starke...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "01.10.2026",
+      "date_iso": "2026-10-01",
+      "url": "/nachrichten/artikel/2026/10/todesstrafe-usa-giftspritze-tennessee-gescheiterte-hinrichtung_20261001/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/todesstrafe-usa-giftspritze-tennessee-gescheiterte-hinrichtung_20261001/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/todesstrafe-usa-giftspritze-tennessee-gescheiterte-hinrichtung_20261001.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/todesstrafe-usa-giftspritze-tennessee-gescheiterte-hinrichtung_20261001.webp",
+      "image_alt": "Symbolbild für Justiz und Todesstrafe",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/todesstrafe-usa-giftspritze-tennessee-gescheiterte-hinrichtung_20261001.webp",
+        "alt": "Symbolbild für Justiz und Todesstrafe"
+      },
+      "source_name": "Deutsche Welle: DW.com Deutsch",
+      "source_url": "https://www.dw.com/de/todesstrafe-in-den-usa-die-grausamkeit-der-giftspritze/a-79506042?maca=de-rss-de-all-1119-rdf",
+      "tags": [
+        "Todesstrafe",
+        "USA",
+        "Giftspritze",
+        "Tennessee",
+        "Menschenrechte"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "nachrichten/artikel/2026/10:tennessee-supreme-court-erlaubt-hinrichtung-von-christa-pike_20261001",
       "slug": "tennessee-supreme-court-erlaubt-hinrichtung-von-christa-pike_20261001",
       "title": "Tennessee: Supreme Court erlaubt Hinrichtung von Christa Pike",
@@ -359,6 +397,44 @@
         "Steuern"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:pistorius-drohnenregiment-bundeswehr_20261001",
+      "slug": "pistorius-drohnenregiment-bundeswehr_20261001",
+      "title": "Pistorius kündigt Aufstellung eines Bundeswehr-Drohnenregiments an",
+      "summary": "Als Reaktion auf die technologischen Entwicklungen im Ukrainekrieg stellt die Bundeswehr erstmals ein eigenes Drohnenregiment auf. Dies gab Verteidigungsminister Boris Pistorius (SPD) am Donnerstag bekannt. Die neue Einheit soll Aufklärungs-, Wirkungs- und...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "01.10.2026",
+      "date_iso": "2026-10-01",
+      "url": "/nachrichten/artikel/2026/10/pistorius-drohnenregiment-bundeswehr_20261001/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/pistorius-drohnenregiment-bundeswehr_20261001/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/pistorius-drohnenregiment-bundeswehr_20261001.json",
+      "image_url": "https://cdn.prod.www.spiegel.de/images/109f6c83-4d23-463f-a54b-cde50d7c8f5a_w520_r2.08_fpx45.99_fpy44.99.jpg",
+      "image_alt": "Bundeswehr Soldat bedient eine Drohne",
+      "image": {
+        "url": "https://cdn.prod.www.spiegel.de/images/109f6c83-4d23-463f-a54b-cde50d7c8f5a_w520_r2.08_fpx45.99_fpy44.99.jpg",
+        "alt": "Bundeswehr Soldat bedient eine Drohne"
+      },
+      "source_name": "DER SPIEGEL - Schlagzeilen",
+      "source_url": "https://www.spiegel.de/politik/pistorius-laesst-drohnenregiment-aufstellen-a-9ce56de4-0fd5-4f22-93f2-c4c28e9f86ce#ref=rss",
+      "tags": [
+        "Bundeswehr",
+        "Drohnen",
+        "Boris Pistorius",
+        "Ukrainekrieg",
+        "Militär"
+      ],
+      "quality_score": 90,
       "review_status": "published"
     },
     {
@@ -723,6 +799,47 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/10:dax-faellt-unter-25000-punkte-energiepreise-anleihen-belasten_20261001",
+      "slug": "dax-faellt-unter-25000-punkte-energiepreise-anleihen-belasten_20261001",
+      "title": "DAX schließt erstmals seit Juli unter 25.000 Punkten",
+      "summary": "Der deutsche Leitindex DAX hat den ersten Handelstag des neuen Monats mit einem deutlichen Minus beendet und schloss erstmals seit Juli wieder unter der psychologisch wichtigen Marke von 25.000 Punkten. Steigende Energiepreise und weiter anziehende Anleiher...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "01.10.2026",
+      "date_iso": "2026-10-01",
+      "url": "/nachrichten/artikel/2026/10/dax-faellt-unter-25000-punkte-energiepreise-anleihen-belasten_20261001/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/dax-faellt-unter-25000-punkte-energiepreise-anleihen-belasten_20261001/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/dax-faellt-unter-25000-punkte-energiepreise-anleihen-belasten_20261001.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/dax-faellt-unter-25000-punkte-energiepreise-anleihen-belasten_20261001.webp",
+      "image_alt": "DAX-Anzeige mit fallenden Kursen unter 25.000 Punkten, symbolisiert durch rote Zahlen und Pfeile nach unten, im Hintergrund...",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/dax-faellt-unter-25000-punkte-energiepreise-anleihen-belasten_20261001.webp",
+        "alt": "DAX-Anzeige mit fallenden Kursen unter 25.000 Punkten, symbolisiert durch rote Zahlen und Pfeile nach unten, im Hintergrund..."
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-inflation-100.html",
+      "tags": [
+        "DAX",
+        "Börse",
+        "Aktienmarkt",
+        "Energiepreise",
+        "Anleihen",
+        "Eurokurs",
+        "Inflation",
+        "Wirtschaft"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:cay-ocaginda-silahli-saldiri-bir-kisi-hayatini-kandirdi_20261001",
       "slug": "cay-ocaginda-silahli-saldiri-bir-kisi-hayatini-kandirdi_20261001",
       "title": "Çay Ocağında Silahlı Saldırı: Bir Kişi Hayatını Kaybetti",
@@ -757,6 +874,85 @@
         "cinayet",
         "Gaziosmanpaşa haberleri",
         "İstanbul"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:bundeswehr-stellt-erstes-drohnenregiment-auf_20261001",
+      "slug": "bundeswehr-stellt-erstes-drohnenregiment-auf_20261001",
+      "title": "Bundeswehr stellt erstes Drohnenregiment auf",
+      "summary": "Als direkte Konsequenz aus dem Ukraine-Krieg wird die Bundeswehr im Laufe des Jahres 2027 ein eigenes Drohnenregiment aufstellen. Verteidigungsminister Boris Pistorius kündigte die Schaffung der neuen Einheit an, die mit bis zu 600 Soldatinnen und Soldaten...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "01.10.2026",
+      "date_iso": "2026-10-01",
+      "url": "/nachrichten/artikel/2026/10/bundeswehr-stellt-erstes-drohnenregiment-auf_20261001/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/bundeswehr-stellt-erstes-drohnenregiment-auf_20261001/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/bundeswehr-stellt-erstes-drohnenregiment-auf_20261001.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/bundeswehr-stellt-erstes-drohnenregiment-auf_20261001.webp",
+      "image_alt": "Bundeswehr-Soldat bedient ein Drohnen-Kontrollsystem.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/bundeswehr-stellt-erstes-drohnenregiment-auf_20261001.webp",
+        "alt": "Bundeswehr-Soldat bedient ein Drohnen-Kontrollsystem."
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/inland/innenpolitik/drohnenregiment-pistorius-100.html",
+      "tags": [
+        "Bundeswehr",
+        "Drohnen",
+        "Ukraine-Krieg",
+        "Pistorius",
+        "Militär"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:ard-deutschlandtrend-rekordfrust-ueber-regierung-und-merz_20261001",
+      "slug": "ard-deutschlandtrend-rekordfrust-ueber-regierung-und-merz_20261001",
+      "title": "ARD-Deutschlandtrend: Rekordfrust über Regierung und Merz",
+      "summary": "Der aktuelle ARD-Deutschlandtrend zeigt einen Rekordfrust der Deutschen mit der Bundesregierung und Kanzler Friedrich Merz. Nur jeder Zehnte ist zufrieden. Nach verheerenden Ergebnissen für die CDU bei drei Landtagswahlen im September profitiert die AfD, di...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "01.10.2026",
+      "date_iso": "2026-10-01",
+      "url": "/nachrichten/artikel/2026/10/ard-deutschlandtrend-rekordfrust-ueber-regierung-und-merz_20261001/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/ard-deutschlandtrend-rekordfrust-ueber-regierung-und-merz_20261001/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/ard-deutschlandtrend-rekordfrust-ueber-regierung-und-merz_20261001.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/ard-deutschlandtrend-rekordfrust-ueber-regierung-und-merz_20261001.webp",
+      "image_alt": "ARD-Deutschlandtrend: Rekordfrust über Regierung und Merz",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/ard-deutschlandtrend-rekordfrust-ueber-regierung-und-merz_20261001.webp",
+        "alt": "ARD-Deutschlandtrend: Rekordfrust über Regierung und Merz"
+      },
+      "source_name": "Deutsche Welle: DW.com Deutsch",
+      "source_url": "https://www.dw.com/de/ard-deutschlandtrend-rekordfrust-über-merz-und-die-regierung-warum-die-afd-profitiert-und-die-deutschen-so-verunsichert-sind-wie-lange-nicht/a-79507099?maca=de-rss-de-all-1119-rdf",
+      "tags": [
+        "ARD-Deutschlandtrend",
+        "Friedrich Merz",
+        "Bundesregierung",
+        "AfD",
+        "CDU",
+        "Landtagswahlen",
+        "Umfrage",
+        "Politik"
       ],
       "quality_score": 100,
       "review_status": "published"
