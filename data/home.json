@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-01T00:00:00+00:00",
-    "article_count": 1878,
+    "article_count": 1880,
     "schema_version": 2
   },
   "hero": [
@@ -92,7 +92,7 @@
       "id": "articles/2026/10:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261001",
       "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261001",
       "title": "İstanbul Şehir Bülteni (1 Ekim 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu",
-      "summary": "1 Ekim 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 127 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
+      "summary": "1 Ekim 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 133 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
       "category": "Gündem",
       "category_slug": "gundem",
       "topic_slug": "kamu",
@@ -804,6 +804,46 @@
   ],
   "latest": [
     {
+      "id": "news/articles/2026/10:whale-sinks-yacht-south-pacific-sailors-rescued_20261001",
+      "slug": "whale-sinks-yacht-south-pacific-sailors-rescued_20261001",
+      "title": "Whale Sinks Yacht in South Pacific; Four Sailors Rescued After 18-Hour Ordeal",
+      "summary": "Four sailors were rescued alive in the remote South Pacific after their 52-foot yacht, Tai Tam, was sunk by a sperm whale. The crew endured an 18-hour ordeal, activating an emergency beacon after the collision 250 nautical miles north of Norfolk Island, bef...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "01.10.2026",
+      "date_iso": "2026-10-01",
+      "url": "/news/articles/2026/10/whale-sinks-yacht-south-pacific-sailors-rescued_20261001/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/whale-sinks-yacht-south-pacific-sailors-rescued_20261001/",
+      "detail_json_url": "/data/details/news/articles/2026/10/whale-sinks-yacht-south-pacific-sailors-rescued_20261001.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/whale-sinks-yacht-south-pacific-sailors-rescued_20261001.webp",
+      "image_alt": "Whale Sinks Yacht in South Pacific; Four Sailors Rescued After 18-Hour Ordeal",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/whale-sinks-yacht-south-pacific-sailors-rescued_20261001.webp",
+        "alt": "Whale Sinks Yacht in South Pacific; Four Sailors Rescued After 18-Hour Ordeal"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/whale-sinks-yacht-south-pacific-sailors-rescued-new-zealand/",
+      "tags": [
+        "Whale collision",
+        "Yacht sinking",
+        "South Pacific",
+        "Maritime rescue",
+        "Sperm whale",
+        "New Zealand military",
+        "Tai Tam"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "nachrichten/artikel/2026/10:us-verteidigungsminister-hegseth-verschlankt-armee-musk-kriegsfuehrung_20261001",
       "slug": "us-verteidigungsminister-hegseth-verschlankt-armee-musk-kriegsfuehrung_20261001",
       "title": "Hegseth verschlankt US-Armee um 20%, Musk erforscht Kriegsführung",
@@ -1036,6 +1076,46 @@
         "Glamos"
       ],
       "quality_score": 90,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:renee-good-family-files-civil-lawsuits-against-federal-government_20261001",
+      "slug": "renee-good-family-files-civil-lawsuits-against-federal-government_20261001",
+      "title": "Renee Good Family Files Civil Lawsuits Against Federal Government",
+      "summary": "The family of Renee Good, who was fatally shot by an Immigration and Customs Enforcement (ICE) officer in Minneapolis in January, has initiated civil lawsuits against the federal government, federal agents, and officials. The legal actions aim to hold the g...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "01.10.2026",
+      "date_iso": "2026-10-01",
+      "url": "/news/articles/2026/10/renee-good-family-files-civil-lawsuits-against-federal-government_20261001/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/renee-good-family-files-civil-lawsuits-against-federal-government_20261001/",
+      "detail_json_url": "/data/details/news/articles/2026/10/renee-good-family-files-civil-lawsuits-against-federal-government_20261001.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/renee-good-family-files-civil-lawsuits-against-federal-government_20261001.webp",
+      "image_alt": "A courtroom illustration depicting a legal proceeding related to a civil lawsuit against the federal government.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/renee-good-family-files-civil-lawsuits-against-federal-government_20261001.webp",
+        "alt": "A courtroom illustration depicting a legal proceeding related to a civil lawsuit against the federal government."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/renee-good-family-civil-lawsuit-against-federal-government-ice-killing-minneapolis/",
+      "tags": [
+        "Son Dakika",
+        "Renee Good",
+        "ICE",
+        "Civil Lawsuit",
+        "Federal Government",
+        "Wrongful Death",
+        "Civil Rights Conspiracy"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -1282,7 +1362,7 @@
       "id": "articles/2026/10:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261001",
       "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261001",
       "title": "İstanbul Şehir Bülteni (1 Ekim 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu",
-      "summary": "1 Ekim 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 127 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
+      "summary": "1 Ekim 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 133 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
       "category": "Gündem",
       "category_slug": "gundem",
       "topic_slug": "kamu",
@@ -3090,84 +3170,6 @@
         "Ekonomi"
       ],
       "quality_score": 90,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/09:erdogan-fon-krizi-aciklamasi-finansal-sisteme-risk-yok_20260924",
-      "slug": "erdogan-fon-krizi-aciklamasi-finansal-sisteme-risk-yok_20260924",
-      "title": "Cumhurbaşkanı Erdoğan'dan Fon Krizi Açıklaması: \"Sistemik Risk Yok, Sorumlular Hesap Verecek\"",
-      "summary": "Cumhurbaşkanı Recep Tayyip Erdoğan, New York'taki BM 81. Genel Kurulu temaslarını tamamlayarak Türkiye'ye dönüş yolunda uçakta gazetecilerin sorularını yanıtladı. Sermaye piyasalarında yaşanan fon krizine ilk kez doğrudan değinen Erdoğan, Türkiye'nin bankac...",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "siyaset",
-      "topic_label": "Siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/09",
-      "date": "24.09.2026",
-      "date_iso": "2026-09-24",
-      "url": "/articles/2026/09/erdogan-fon-krizi-aciklamasi-finansal-sisteme-risk-yok_20260924/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/erdogan-fon-krizi-aciklamasi-finansal-sisteme-risk-yok_20260924/",
-      "detail_json_url": "/data/details/articles/2026/09/erdogan-fon-krizi-aciklamasi-finansal-sisteme-risk-yok_20260924.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/erdogan-fon-krizi-aciklamasi-finansal-sisteme-risk-yok_20260924.webp",
-      "image_alt": "Cumhurbaşkanı Erdoğan'dan fon krizi açıklaması.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/09/images/erdogan-fon-krizi-aciklamasi-finansal-sisteme-risk-yok_20260924.webp",
-        "alt": "Cumhurbaşkanı Erdoğan'dan fon krizi açıklaması."
-      },
-      "source_name": "",
-      "source_url": "",
-      "tags": [
-        "Erdoğan",
-        "Fon Krizi",
-        "BM Genel Kurulu",
-        "F-35",
-        "Siyaset",
-        "Ekonomi"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/09:bist-100-yuzde-274-dustu-fon-krizi-piyasalar-sert-geriledi_20260924",
-      "slug": "bist-100-yuzde-274-dustu-fon-krizi-piyasalar-sert-geriledi_20260924",
-      "title": "Borsa İstanbul'da Fon Krizi Satış Baskısı: BIST 100 Günü Yüzde 2,74 Kayıpla Tamamladı",
-      "summary": "Borsa İstanbul, fon tasfiyeleri ve genişleyen adli soruşturmaların yarattığı likidite çekincesiyle haftanın dördüncü işlem gününde sert satış dalgasıyla karşılaştı. BIST 100 endeksi günü yüzde 2,74 değer kaybıyla 12.888,33 puan seviyesinden tamamladı. Gün i...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "ekonomi",
-      "topic_label": "Ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/09",
-      "date": "24.09.2026",
-      "date_iso": "2026-09-24",
-      "url": "/articles/2026/09/bist-100-yuzde-274-dustu-fon-krizi-piyasalar-sert-geriledi_20260924/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/bist-100-yuzde-274-dustu-fon-krizi-piyasalar-sert-geriledi_20260924/",
-      "detail_json_url": "/data/details/articles/2026/09/bist-100-yuzde-274-dustu-fon-krizi-piyasalar-sert-geriledi_20260924.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/bist-100-yuzde-274-dustu-fon-krizi-piyasalar-sert-geriledi_20260924.webp",
-      "image_alt": "BIST 100 endeksi fon baskısıyla %2,74 düştü.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/09/images/bist-100-yuzde-274-dustu-fon-krizi-piyasalar-sert-geriledi_20260924.webp",
-        "alt": "BIST 100 endeksi fon baskısıyla %2,74 düştü."
-      },
-      "source_name": "",
-      "source_url": "",
-      "tags": [
-        "BIST 100",
-        "Borsa İstanbul",
-        "Dolar",
-        "Altın",
-        "Piyasalar",
-        "Ekonomi"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]
