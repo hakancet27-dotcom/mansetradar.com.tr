@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "news/articles/2026/10:trump-administration-loses-voter-data-lawsuits_20261001",
+    "slug": "trump-administration-loses-voter-data-lawsuits_20261001",
+    "title": "Trump Administration Loses Majority of Lawsuits Seeking State Voter Data",
+    "summary": "The Trump administration's extensive efforts to acquire complete voter registration lists from nearly all 50 states have largely been unsuccessful, with federal judges rejecting the majority of lawsuits filed by the Justice Department. The administration so...",
+    "category": "Siyaset",
+    "category_slug": "siyaset",
+    "topic_slug": "siyaset",
+    "topic_label": "Siyaset",
+    "country": "USA",
+    "language": "en",
+    "language_label": "English",
+    "section": "news/articles",
+    "section_name": "US News",
+    "url_prefix": "news/articles/2026/10",
+    "date": "01.10.2026",
+    "date_iso": "2026-10-01",
+    "url": "/news/articles/2026/10/trump-administration-loses-voter-data-lawsuits_20261001/",
+    "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/trump-administration-loses-voter-data-lawsuits_20261001/",
+    "detail_json_url": "/data/details/news/articles/2026/10/trump-administration-loses-voter-data-lawsuits_20261001.json",
+    "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/trump-administration-loses-voter-data-lawsuits_20261001.webp",
+    "image_alt": "A courtroom illustration depicting a judge and legal proceedings, symbolizing the lawsuits over voter data.",
+    "image": {
+      "url": "https://mansetradar.com.tr/news/articles/2026/10/images/trump-administration-loses-voter-data-lawsuits_20261001.webp",
+      "alt": "A courtroom illustration depicting a judge and legal proceedings, symbolizing the lawsuits over voter data."
+    },
+    "source_name": "Home - CBSNews.com",
+    "source_url": "https://www.cbsnews.com/news/trump-lawsuits-state-voter-rolls-justice-department/",
+    "tags": [
+      "voter data",
+      "Trump administration",
+      "election law",
+      "Justice Department",
+      "voter rolls"
+    ],
+    "quality_score": 100,
+    "review_status": "published",
+    "content_html": "<h2>Key Developments</h2> <p>President Trump's administration, through the Justice Department, pursued access to complete voter rolls in almost every U.S. state. The stated purpose was to verify state compliance with the Help America Vote Act and the National Voter Registration Act, laws designed to maintain accurate voter registration lists. The administration requested unredacted electronic copies of these lists, which contain personal details such as birthdates, addresses, partial Social Security numbers, and driver's license numbers.</p> <p>While many states provided publicly available versions of their voter rolls, they declined to release the full, unredacted data. In response, the Justice Department initiated lawsuits against 30 states and the District of Columbia. To date, the administration has lost 26 of these cases. Federal judges have rejected the Justice Department's requests for unredacted voter rolls in Arizona, California, Colorado, Connecticut, the District of Columbia, Georgia, Illinois, Kentucky, Maine, Maryland, Massachusetts, Michigan, Minnesota, Nevada, New Hampshire, New Jersey, New Mexico, New York, Oregon, Pennsylvania, Rhode Island, Vermont, Virginia, Washington, West Virginia, and Wisconsin.</p> <p>One case against Georgia was initially dismissed for being filed in the wrong court but was later refiled. The lawsuit against Oklahoma was voluntarily dismissed after the state agreed to provide its voter registration list. The remaining pending cases are in Delaware, Hawaii, Idaho, and Utah. The Justice Department has appealed many of the decisions, but an appeals court has already upheld a lower court's rejection of the administration's attempt to obtain Michigan's voter rolls.</p> <h2>Key Takeaways</h2> <ul> <li>The Trump administration filed lawsuits in 30 states and D.C. seeking unredacted voter registration data.</li> <li>Federal judges have rejected 26 of these lawsuits, denying the administration access to sensitive voter information.</li> <li>The Justice Department's appeals are ongoing, but at least one appeals court has upheld a ruling against the administration.</li> </ul> <h2>Why It Matters</h2> <p>These legal battles highlight a significant tension between federal oversight efforts and states' control over their election processes and voter data privacy. The administration's pursuit of sensitive voter information, and the widespread rejection of these efforts by courts, raises questions about the scope of federal authority in election administration and the protection of personal voter data. The outcomes of the remaining cases and ongoing appeals could set further precedents regarding access to voter rolls.</p>",
+    "meta_title": "Trump Administration Loses Most Lawsuits Seeking Voter Data",
+    "meta_description": "The Trump administration has faced significant setbacks in its efforts to obtain unredacted voter rolls from states, losing 26 out of 30 lawsuits filed.",
+    "spot": "The Trump administration's extensive efforts to acquire complete voter registration lists from nearly all 50 states have largely been unsuccessful, with federal judges rejecting the majority of lawsuits filed by the Justice Department. The administration sought sensitive voter information, arguing it was necessary to ensure compliance with federal voting...",
+    "word_count": 372,
+    "reading_time_minutes": 2,
+    "discover_titles": [
+      "Trump Administration's Voter Data Lawsuits Largely Rejected",
+      "States Push Back: Trump Administration Loses 26 Voter Data Lawsuits",
+      "Federal Judges Deny Trump Administration Access to Voter Rolls"
+    ],
+    "visual_keywords": [
+      "courtroom",
+      "government building",
+      "voting booth",
+      "data security",
+      "legal documents"
+    ]
+  }
+}

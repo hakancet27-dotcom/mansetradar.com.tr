@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-01T00:00:00+00:00",
-    "article_count": 1871,
+    "article_count": 1873,
     "schema_version": 2
   },
   "hero": [
@@ -845,6 +845,44 @@
       "review_status": "published"
     },
     {
+      "id": "news/articles/2026/10:trump-administration-loses-voter-data-lawsuits_20261001",
+      "slug": "trump-administration-loses-voter-data-lawsuits_20261001",
+      "title": "Trump Administration Loses Majority of Lawsuits Seeking State Voter Data",
+      "summary": "The Trump administration's extensive efforts to acquire complete voter registration lists from nearly all 50 states have largely been unsuccessful, with federal judges rejecting the majority of lawsuits filed by the Justice Department. The administration so...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "01.10.2026",
+      "date_iso": "2026-10-01",
+      "url": "/news/articles/2026/10/trump-administration-loses-voter-data-lawsuits_20261001/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/trump-administration-loses-voter-data-lawsuits_20261001/",
+      "detail_json_url": "/data/details/news/articles/2026/10/trump-administration-loses-voter-data-lawsuits_20261001.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/trump-administration-loses-voter-data-lawsuits_20261001.webp",
+      "image_alt": "A courtroom illustration depicting a judge and legal proceedings, symbolizing the lawsuits over voter data.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/trump-administration-loses-voter-data-lawsuits_20261001.webp",
+        "alt": "A courtroom illustration depicting a judge and legal proceedings, symbolizing the lawsuits over voter data."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/trump-lawsuits-state-voter-rolls-justice-department/",
+      "tags": [
+        "voter data",
+        "Trump administration",
+        "election law",
+        "Justice Department",
+        "voter rolls"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "nachrichten/artikel/2026/10:tennessee-supreme-court-erlaubt-hinrichtung-von-christa-pike_20261001",
       "slug": "tennessee-supreme-court-erlaubt-hinrichtung-von-christa-pike_20261001",
       "title": "Tennessee: Supreme Court erlaubt Hinrichtung von Christa Pike",
@@ -920,6 +958,44 @@
         "Glamos"
       ],
       "quality_score": 90,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:phishing-scams-boss-text-impersonation_20261001",
+      "slug": "phishing-scams-boss-text-impersonation_20261001",
+      "title": "Phishing Scams Target Employees via Boss's Text Messages",
+      "summary": "A new wave of phishing scams is targeting employees by impersonating their bosses through text messages. These fraudulent texts often aim to trick recipients into making quick, unauthorized purchases or transferring funds, posing a significant threat to bot...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "01.10.2026",
+      "date_iso": "2026-10-01",
+      "url": "/news/articles/2026/10/phishing-scams-boss-text-impersonation_20261001/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/phishing-scams-boss-text-impersonation_20261001/",
+      "detail_json_url": "/data/details/news/articles/2026/10/phishing-scams-boss-text-impersonation_20261001.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/phishing-scams-boss-text-impersonation_20261001.webp",
+      "image_alt": "Person receiving a suspicious text message from their boss on a smartphone.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/phishing-scams-boss-text-impersonation_20261001.webp",
+        "alt": "Person receiving a suspicious text message from their boss on a smartphone."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/phishing-attempt-is-your-boss-really-texting-you-money-moves-with-jill-schlesinger/",
+      "tags": [
+        "phishing",
+        "cybersecurity",
+        "scam",
+        "fraud",
+        "employee safety"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -3089,85 +3165,6 @@
         "Tutuklama",
         "Adalet",
         "Gündem"
-      ],
-      "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/09:cumhurbaskani-erdogan-bm-81-genel-kurulunda-tarihi-gazze-ve-reform-hitabi_20260923",
-      "slug": "cumhurbaskani-erdogan-bm-81-genel-kurulunda-tarihi-gazze-ve-reform-hitabi_20260923",
-      "title": "Cumhurbaşkanı Erdoğan BM Kürsüsünden Dünyaya Seslendi: \"Gazze Çağımızın En Utanç Verici Kampı Haline Geldi\"",
-      "summary": "Cumhurbaşkanı Recep Tayyip Erdoğan, New York'ta toplanan Birleşmiş Milletler (BM) 81. Genel Kurulu kürsüsünden dünya liderlerine tarihi bir hitap gerçekleştirdi. Konuşmasının merkezine Gazze'deki insanlık trajedisini yerleştiren Erdoğan, bölgenin 'dünyanın...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/09",
-      "date": "23.09.2026",
-      "date_iso": "2026-09-23",
-      "url": "/articles/2026/09/cumhurbaskani-erdogan-bm-81-genel-kurulunda-tarihi-gazze-ve-reform-hitabi_20260923/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/cumhurbaskani-erdogan-bm-81-genel-kurulunda-tarihi-gazze-ve-reform-hitabi_20260923/",
-      "detail_json_url": "/data/details/articles/2026/09/cumhurbaskani-erdogan-bm-81-genel-kurulunda-tarihi-gazze-ve-reform-hitabi_20260923.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/cumhurbaskani-erdogan-bm-81-genel-kurulunda-tarihi-gazze-ve-reform-hitabi_20260923.webp",
-      "image_alt": "Cumhurbaşkanı Erdoğan BM 81. Genel Kurulu'nda dünyaya hitap etti.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/09/images/cumhurbaskani-erdogan-bm-81-genel-kurulunda-tarihi-gazze-ve-reform-hitabi_20260923.webp",
-        "alt": "Cumhurbaşkanı Erdoğan BM 81. Genel Kurulu'nda dünyaya hitap etti."
-      },
-      "source_name": "",
-      "source_url": "",
-      "tags": [
-        "Erdoğan",
-        "BM Genel Kurulu",
-        "Gazze",
-        "New York",
-        "Dünya 5'ten Büyüktür",
-        "Dünya"
-      ],
-      "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/09:tera-portfoy-ve-fon-magdurlarindan-suc-duyurusu-takasbank-blokeleri-son-durum_20260921",
-      "slug": "tera-portfoy-ve-fon-magdurlarindan-suc-duyurusu-takasbank-blokeleri-son-durum_20260921",
-      "title": "Tera Portföy ve Fon Mağdurlarından Suç Duyurusu: Takasbank Blokeleri ve Hukuk Mücadelesinde Son Gelişmeler",
-      "summary": "Sermaye Piyasası Kurulu'nun (SPK) tasfiyesine karar verdiği portföy yönetim şirketleri arasında yer alan Tera Portföy fonlarında birikimleri bulunan binlerce yatırımcı, Takasbank nezdindeki hesaplara getirilen kısıtlamalar ve ödemelerin durması üzerine İsta...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "ekonomi",
-      "topic_label": "Ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/09",
-      "date": "21.09.2026",
-      "date_iso": "2026-09-21",
-      "url": "/articles/2026/09/tera-portfoy-ve-fon-magdurlarindan-suc-duyurusu-takasbank-blokeleri-son-durum_20260921/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/09/tera-portfoy-ve-fon-magdurlarindan-suc-duyurusu-takasbank-blokeleri-son-durum_20260921/",
-      "detail_json_url": "/data/details/articles/2026/09/tera-portfoy-ve-fon-magdurlarindan-suc-duyurusu-takasbank-blokeleri-son-durum_20260921.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/09/images/tera-portfoy-ve-fon-magdurlarindan-suc-duyurusu-takasbank-blokeleri-son-durum_20260921.webp",
-      "image_alt": "Tera Portföy ve fon mağdurları Takasbank blokeleri sonrası suç duyurusunda bulundu.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/09/images/tera-portfoy-ve-fon-magdurlarindan-suc-duyurusu-takasbank-blokeleri-son-durum_20260921.webp",
-        "alt": "Tera Portföy ve fon mağdurları Takasbank blokeleri sonrası suç duyurusunda bulundu."
-      },
-      "source_name": "",
-      "source_url": "",
-      "tags": [
-        "Tera Yatırım",
-        "Tera Portföy",
-        "Fon Mağdurları",
-        "Takasbank",
-        "SPK",
-        "Ekonomi",
-        "Dava"
       ],
       "quality_score": 100,
       "review_status": "published"
