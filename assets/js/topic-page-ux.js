@@ -521,7 +521,7 @@
     });
     if (dots) dots.remove();
 
-    articles.slice(0, 20).forEach(function (article, index) {
+    articles.slice(0, 10).forEach(function (article, index) {
       var slide = buildHeadlineSlideFromArticle(article, topic, index);
       if (slide) slider.insertBefore(slide, controls || null);
     });
@@ -530,7 +530,7 @@
     Array.prototype.slice.call(side.querySelectorAll('.side-headline')).forEach(function (card) {
       card.remove();
     });
-    var sideArticles = articles.length > 20 ? articles.slice(20, 30) : articles.slice(0, 10);
+    var sideArticles = articles.length > 10 ? articles.slice(10, 20) : articles.slice(0, 10);
     if (sideArticles.length < 10) {
       var usedSide = new Set(sideArticles.map(function (article) {
         return articleKey(articleUrl(article));
