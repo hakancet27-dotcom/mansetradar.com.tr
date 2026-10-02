@@ -2479,80 +2479,49 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
 }
 /* FIRST_PAINT_TOPIC_FILTER_END */
   </style>
-  <link rel="stylesheet" href="/assets/css/corporate-header.css?v=20261002_corp">
-  <link rel="stylesheet" href="/assets/css/mobile-home-ux.css?v=20260904_numdots">
-  <link rel="stylesheet" href="/assets/css/showcase-side-rotation.css?v=20260605e">
-  <link rel="stylesheet" href="/assets/css/mobile-market-static.css?v=20260526a">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
 
   <div class="top-bar">
     <div class="inner">
-      <div class="top-bar-left">
-        <span id="current-time">Loading...</span>
-        <span class="top-bar-badge">🔴 DE Ausgabe</span>
-      </div>
-      <div class="top-bar-right">
-        <div class="top-lang-switch" aria-label="Language / Edition">
-          <a href="/" class="lang-pill" title="Türkçe">TR</a>
-          <a href="/news/" class="lang-pill">EN</a>
-          <span class="lang-pill is-active">DE</span>
-        </div>
-        <button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Dark/Light Mode" title="Theme Toggle">🌓</button>
-        <a class="member-login-btn" href="#"><span class="login-icon">👤</span> Mitglieder Login</a>
+      <span id="current-time">Loading...</span>
+      <div class="top-links" aria-label="Top links">
+        <a href="./">Startseite</a>
+        <a href="/">Türkei</a>
+        <a href="./" aria-current="page">Aktuelle Deutschland Nachrichten</a>
       </div>
     </div>
   </div>
 
-  <header class="site-header">
+  <header>
     <div class="inner">
       <a href="./" class="logo" aria-label="Aktuelle Deutschland Nachrichten">
-        <div class="logo-icon">M</div>
+        <div class="logo-icon">H</div>
         <div class="logo-text">
           <strong>mansetradar.com.tr</strong>
           <span>Deutschland Nachrichten</span>
         </div>
       </a>
-      <div class="header-search" role="search" aria-label="Aktuelle Deutschland Nachrichten search">
-        <span class="search-icon" aria-hidden="true">&#128269;</span>
-        <input id="news-search-input" type="search" placeholder="Nach Schlagzeilen, Themen oder Datum suchen" autocomplete="off">
-        <button id="news-search-clear" type="button" hidden>Löschen</button>
+      <div class="header-tools">
+        <div class="header-search" role="search" aria-label="Aktuelle Deutschland Nachrichten search">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="news-search-input" type="search" placeholder="Nach Schlagzeilen, Themen oder Datum suchen" autocomplete="off">
+          <button id="news-search-clear" type="button" hidden>Löschen</button>
+        </div>
+        <a class="member-login-btn" href="#">Mitglieder Login</a>
       </div>
-      <div class="market-strip" aria-label="Verzögerte Referenzdaten">
-        <span class="market-label">Märkte</span>
-        <span class="market-item up" id="market-dax-item">
-          <span class="market-name">DAX 40</span>
-          <strong class="market-value" id="market-dax">19.380,45</strong>
-          <span class="market-change up" id="market-dax-change">+0,42%</span>
-        </span>
-        <span class="market-item up" id="market-eurostoxx-item">
-          <span class="market-name">Euro Stoxx 50</span>
-          <strong class="market-value" id="market-eurostoxx">5.025,80</strong>
-          <span class="market-change up" id="market-eurostoxx-change">+0,28%</span>
-        </span>
-        <span class="market-item down" id="market-eurusd-item">
-          <span class="market-name">EUR/USD</span>
-          <strong class="market-value" id="market-eurusd">1,0852</strong>
-          <span class="market-change down" id="market-eurusd-change">-0,14%</span>
-        </span>
-        <span class="market-item up" id="market-brent-item">
-          <span class="market-name">Brent Öl</span>
-          <strong class="market-value" id="market-brent">$71,85</strong>
-          <span class="market-change up" id="market-brent-change">+0,65%</span>
-        </span>
-        <span class="market-item up" id="market-bund-item">
-          <span class="market-name">Bund 10J</span>
-          <strong class="market-value" id="market-bund">2,21%</strong>
-          <span class="market-change up" id="market-bund-change">+0,02%</span>
-        </span>
-        <span class="market-status" id="market-status">Verzögerte Referenzdaten</span>
-      </div>
+      <nav aria-label="Main menu">
+        <a href="./">Startseite</a>
+        <a href="/">Türkei</a>
+        <a href="./" class="active" aria-current="page">DE</a>
+      </nav>
     </div>
   </header>
 
   <nav class="breaking" aria-label="News categories">
     <div class="inner">
+      <span class="breaking-label">RUBRIKEN</span>
       <div class="topic-list">
         <a class="topic-link primary" href="./" data-topic="son-dakika">Aktuell</a>
         <a class="topic-link" href="./?kategori=gundem" data-topic="gundem">Themen</a>
@@ -2569,33 +2538,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       </div>
     </div>
   </nav>
-
-  <aside class="corporate-city-bar corporate-city-bar-berlin" aria-label="Berlin Spezial und Bezirke-Guide">
-    <div class="inner">
-      <div class="ccb-main">
-        <a href="/berlin/" class="ccb-badge">📍 BERLIN SPEZIAL</a>
-        <select class="ccb-select" id="berlin-bezirk-dropdown" onchange="if(this.value) window.location.href=this.value;" aria-label="Bezirk wählen">
-          <option value="">Bezirk wählen (12 Bezirke)...</option>
-          <option value="/berlin/#mitte">Mitte</option>
-          <option value="/berlin/#kreuzberg">Friedrichshain-Kreuzberg</option>
-          <option value="/berlin/#charlottenburg">Charlottenburg-Wilmersdorf</option>
-          <option value="/berlin/#pankow">Pankow</option>
-          <option value="/berlin/#neukoelln">Neukölln</option>
-        </select>
-        <div class="ccb-chips">
-          <a href="/berlin/#mitte" class="ccb-chip">Mitte</a>
-          <a href="/berlin/#kreuzberg" class="ccb-chip">Kreuzberg</a>
-          <a href="/berlin/#charlottenburg" class="ccb-chip">Charlottenburg</a>
-        </div>
-      </div>
-      <div class="ccb-services">
-        <a class="ccb-srv" href="/berlin/#verkehr"><span class="ccb-icon">🚇</span> BVG Live: <strong>Normal</strong></a>
-        <a class="ccb-srv" href="/berlin/#apotheken"><span class="ccb-icon">💊</span> Notdienst: <strong>Aktiv</strong></a>
-        <span class="ccb-weather"><span class="ccb-icon">⛅</span> <strong>12°C</strong></span>
-        <a class="ccb-hub-link" href="/berlin/">Berlin Portal →</a>
-      </div>
-    </div>
-  </aside>
 
   <div class="container">
     <div class="page-layout">
@@ -2766,6 +2708,45 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                 <button class="slider-btn" type="button" data-slider-prev aria-label="Previous">‹</button>
                 <button class="slider-btn" type="button" data-slider-next aria-label="Next">›</button>
               </div>
+            </div>
+            <div class="side-headlines" aria-label="Featured stories">
+              
+              <a class="headline-card side-headline" href="/nachrichten/artikel/ard-deutschlandtrend-rekordfrust-ueber-regierung-und-merz_20261001/" data-topic="gundem" aria-label="ARD-Deutschlandtrend: Rekordfrust über Regierung und Merz">
+                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/ard-deutschlandtrend-rekordfrust-ueber-regierung-und-merz_20261001.webp" alt="ARD-Deutschlandtrend: Rekordfrust über Regierung und Merz" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="live-stream-badge"><span class="pulse-dot"></span> LIVE</span>
+                    <span class="headline-tag">Ausgewählt</span>
+                    <span class="headline-topic">Themen</span>
+                  </div>
+                  <h3 class="headline-title">ARD-Deutschlandtrend: Rekordfrust über Regierung und Merz</h3>
+                  <time class="headline-date" datetime="2026-10-01">01.10.2026</time>
+                </div>
+              </a>
+              <a class="headline-card side-headline" href="/nachrichten/artikel/italien-burkaverbot-sprachquote-schulen-meloni-regierung_20261001/" data-topic="gundem" aria-label="Italien: Burkaverbot und Sprachquote an Schulen in Kraft">
+                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/italien-burkaverbot-sprachquote-schulen-meloni-regierung_20261001.webp" alt="Italien: Burkaverbot und Sprachquote an Schulen in Kraft" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="live-stream-badge"><span class="pulse-dot"></span> LIVE</span>
+                    <span class="headline-tag">Ausgewählt</span>
+                    <span class="headline-topic">Themen</span>
+                  </div>
+                  <h3 class="headline-title">Italien: Burkaverbot und Sprachquote an Schulen in Kraft</h3>
+                  <time class="headline-date" datetime="2026-10-01">01.10.2026</time>
+                </div>
+              </a>
+              <a class="headline-card side-headline" href="/nachrichten/artikel/hausarztzentrierte-versorgung-baden-wuerttemberg-vorreiter_20261001/" data-topic="gundem" aria-label="Hausarztzentrierte Versorgung: Baden-Württemberg als Vorreiter für bundesweites System">
+                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/hausarztzentrierte-versorgung-baden-wuerttemberg-vorreiter_20261001.webp" alt="Hausarztzentrierte Versorgung: Baden-Württemberg als Vorreiter für bundesweites System" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="live-stream-badge"><span class="pulse-dot"></span> LIVE</span>
+                    <span class="headline-tag">Ausgewählt</span>
+                    <span class="headline-topic">Themen</span>
+                  </div>
+                  <h3 class="headline-title">Hausarztzentrierte Versorgung: Baden-Württemberg als Vorreiter für bundesweites System</h3>
+                  <time class="headline-date" datetime="2026-10-01">01.10.2026</time>
+                </div>
+              </a>
             </div>
           </div>
         </section>
@@ -5262,6 +5243,29 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         </div>
       </article>
       <article class="news-card topic-card" data-topic="gundem">
+        <a class="card-image-link" href="/nachrichten/artikel/xi-und-putin-militaerische-kooperation_20260520/" aria-label="Xi und Putin wollen militärische Kooperation stärken"><div class="card-image"><img src="https://images.unsplash.com/photo-1612383401582-e96cc0bc83d2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxYaSUyMEppbnBpbmd8ZW58MHwwfHx8MTc3OTI4MTM0OXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Xi und Putin wollen militärische Kooperation stärken" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Themen</span>
+            <time class="card-date" datetime="2026-05-20">20.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/xi-und-putin-militaerische-kooperation_20260520/">Xi und Putin wollen militärische Kooperation stärken</a>
+          </h3>
+          <p class="card-excerpt">Russlands Machthaber Wladimir Putin ist zu Besuch in Peking und hat eine gemeinsame Erklärung mit China abgegeben. Xi und Putin wollen die militärische Kooperation zwischen ihren...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/xi-und-putin-militaerische-kooperation_20260520/" aria-label="Xi und Putin wollen militärische Kooperation stärken Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fxi-und-putin-militaerische-kooperation_20260520%2F&text=Xi+und+Putin+wollen+milit%C3%A4rische+Kooperation+st%C3%A4rken" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fxi-und-putin-militaerische-kooperation_20260520%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Xi+und+Putin+wollen+milit%C3%A4rische+Kooperation+st%C3%A4rken%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fxi-und-putin-militaerische-kooperation_20260520%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fxi-und-putin-militaerische-kooperation_20260520%2F&text=Xi+und+Putin+wollen+milit%C3%A4rische+Kooperation+st%C3%A4rken" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="gundem">
         <a class="card-image-link" href="/nachrichten/artikel/israelische-angriffe-im-libanon_20260520/" aria-label="Mindestens 19 Tote bei israelischen Angriffen im Libanon"><div class="card-image"><img src="https://images.unsplash.com/photo-1547483029-77784da27709?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJc3JhZWx8ZW58MHwwfHx8MTc3OTI0MTAwNXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Mindestens 19 Tote bei israelischen Angriffen im Libanon" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
@@ -5445,29 +5449,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </div>
       </article>
-      <article class="news-card topic-card" data-topic="saglik">
-        <a class="card-image-link" href="/nachrichten/artikel/ebola-ausbreitung-kongo-who-besorgt-uganda-us-arzt-deutschland_20260520/" aria-label="WHO &#x27;sehr besorgt&#x27; über schnelle Ebola-Ausbreitung im Kongo"><div class="card-image"><img src="https://images.unsplash.com/photo-1706647155426-6fafce5ad47f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFYm9sYSUyMHZpcnVzfGVufDB8MHx8fDE3NzkyNTAwMDF8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="WHO &#x27;sehr besorgt&#x27; über schnelle Ebola-Ausbreitung im Kongo" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Deutschland</span>
-            <span class="card-topic">Gesundheit</span>
-            <time class="card-date" datetime="2026-05-20">20.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/ebola-ausbreitung-kongo-who-besorgt-uganda-us-arzt-deutschland_20260520/">WHO &#x27;sehr besorgt&#x27; über schnelle Ebola-Ausbreitung im Kongo</a>
-          </h3>
-          <p class="card-excerpt">Die Weltgesundheitsorganisation (WHO) hat große Besorgnis über die schnelle Ausbreitung des Ebola-Virus in der Demokratischen Republik Kongo geäußert. Die Situation wird als kriti...</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/ebola-ausbreitung-kongo-who-besorgt-uganda-us-arzt-deutschland_20260520/" aria-label="WHO &#x27;sehr besorgt&#x27; über schnelle Ebola-Ausbreitung im Kongo Artikel lesen">Weiterlesen →</a>
-            <div class="share-mini" aria-label="Teilen">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Febola-ausbreitung-kongo-who-besorgt-uganda-us-arzt-deutschland_20260520%2F&text=WHO+%27sehr+besorgt%27+%C3%BCber+schnelle+Ebola-Ausbreitung+im+Kongo" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Febola-ausbreitung-kongo-who-besorgt-uganda-us-arzt-deutschland_20260520%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=WHO+%27sehr+besorgt%27+%C3%BCber+schnelle+Ebola-Ausbreitung+im+Kongo%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Febola-ausbreitung-kongo-who-besorgt-uganda-us-arzt-deutschland_20260520%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Febola-ausbreitung-kongo-who-besorgt-uganda-us-arzt-deutschland_20260520%2F&text=WHO+%27sehr+besorgt%27+%C3%BCber+schnelle+Ebola-Ausbreitung+im+Kongo" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
       <article class="news-card topic-card" data-topic="gundem">
         <a class="card-image-link" href="/nachrichten/artikel/tote-bei-angriff-auf-islamisches-zentrum-in-san-diego_20260519/" aria-label="Tote bei Angriff auf islamisches Zentrum in San Diego"><div class="card-image"><img src="https://images.unsplash.com/photo-1519954352454-2d5a7353e277?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxTYW4lMjBEaWVnb3xlbnwwfDB8fHwxNzc5MjA1ODY0fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Tote bei Angriff auf islamisches Zentrum in San Diego" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
@@ -5510,29 +5491,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fsteuerreform-gering-mitteleinkommen-koalition-plant_20260519%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
               <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Schwarz-rote+Koalition+plant+Steuerreform+f%C3%BCr+Gering-+und+Mitteleinkommen%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fsteuerreform-gering-mitteleinkommen-koalition-plant_20260519%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
               <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fsteuerreform-gering-mitteleinkommen-koalition-plant_20260519%2F&text=Schwarz-rote+Koalition+plant+Steuerreform+f%C3%BCr+Gering-+und+Mitteleinkommen" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/putin-besucht-xi-china-strategische-partnerschaft_20260519/" aria-label="Putin besucht Xi in China: Fokus auf strategischer Partnerschaft und Wirtschaftsfragen"><div class="card-image"><img src="https://images.unsplash.com/photo-1534598974068-2d51eda7628f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxQdXRpbnxlbnwwfDB8fHwxNzc5MjIzODA3fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Putin besucht Xi in China: Fokus auf strategischer Partnerschaft und Wirtschaftsfragen" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Deutschland</span>
-            <span class="card-topic">Themen</span>
-            <time class="card-date" datetime="2026-05-19">19.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/putin-besucht-xi-china-strategische-partnerschaft_20260519/">Putin besucht Xi in China: Fokus auf strategischer Partnerschaft und Wirtschaftsfragen</a>
-          </h3>
-          <p class="card-excerpt">Russlands Präsident Wladimir Putin ist zu einem zweitägigen Staatsbesuch in China eingetroffen, um mit Präsident Xi Jinping über die Vertiefung der strategischen Partnerschaft bei...</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/putin-besucht-xi-china-strategische-partnerschaft_20260519/" aria-label="Putin besucht Xi in China: Fokus auf strategischer Partnerschaft und Wirtschaftsfragen Artikel lesen">Weiterlesen →</a>
-            <div class="share-mini" aria-label="Teilen">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fputin-besucht-xi-china-strategische-partnerschaft_20260519%2F&text=Putin+besucht+Xi+in+China%3A+Fokus+auf+strategischer+Partnerschaft+und+Wirtschaftsfragen" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fputin-besucht-xi-china-strategische-partnerschaft_20260519%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Putin+besucht+Xi+in+China%3A+Fokus+auf+strategischer+Partnerschaft+und+Wirtschaftsfragen%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fputin-besucht-xi-china-strategische-partnerschaft_20260519%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fputin-besucht-xi-china-strategische-partnerschaft_20260519%2F&text=Putin+besucht+Xi+in+China%3A+Fokus+auf+strategischer+Partnerschaft+und+Wirtschaftsfragen" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
@@ -6228,7 +6186,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         </div>
       </article>
       <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/spd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt/" aria-label="SPD-Fraktionschef Miersch sieht keine Zukunft für Tankrabatt"><div class="card-image"><img src="/nachrichten/artikel/images/spd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt.webp" alt="SPD-Fraktionschef Miersch sieht keine Zukunft für Tankrabatt" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/nachrichten/artikel/tankrabatt-zukunft-unklar/" aria-label="Tankrabatt: Zukunft unklar"><div class="card-image"><img src="/nachrichten/artikel/images/tankrabatt-zukunft-unklar.webp" alt="Tankrabatt: Zukunft unklar" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
@@ -6236,16 +6194,16 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
             <time class="card-date" datetime="2026-05-16">16.05.2026</time>
           </div>
           <h3 class="card-title">
-            <a href="/nachrichten/artikel/spd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt/">SPD-Fraktionschef Miersch sieht keine Zukunft für Tankrabatt</a>
+            <a href="/nachrichten/artikel/tankrabatt-zukunft-unklar/">Tankrabatt: Zukunft unklar</a>
           </h3>
           <p class="card-excerpt">Weitere Details finden Sie im Artikel.</p>
           <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/spd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt/" aria-label="SPD-Fraktionschef Miersch sieht keine Zukunft für Tankrabatt Artikel lesen">Weiterlesen →</a>
+            <a class="read-more" href="/nachrichten/artikel/tankrabatt-zukunft-unklar/" aria-label="Tankrabatt: Zukunft unklar Artikel lesen">Weiterlesen →</a>
             <div class="share-mini" aria-label="Teilen">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fspd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt%2F&text=SPD-Fraktionschef+Miersch+sieht+keine+Zukunft+f%C3%BCr+Tankrabatt" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fspd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=SPD-Fraktionschef+Miersch+sieht+keine+Zukunft+f%C3%BCr+Tankrabatt%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fspd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fspd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt%2F&text=SPD-Fraktionschef+Miersch+sieht+keine+Zukunft+f%C3%BCr+Tankrabatt" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftankrabatt-zukunft-unklar%2F&text=Tankrabatt%3A+Zukunft+unklar" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftankrabatt-zukunft-unklar%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Tankrabatt%3A+Zukunft+unklar%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftankrabatt-zukunft-unklar%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftankrabatt-zukunft-unklar%2F&text=Tankrabatt%3A+Zukunft+unklar" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
@@ -6522,6 +6480,29 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Firan-krieg-regierung-deutlichen-konjunkturdaeumerwartet%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
               <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Iran-Krieg%3A+Regierung+erwartet+deutlichen+Konjunkturd%C3%A4mpfer%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Firan-krieg-regierung-deutlichen-konjunkturdaeumerwartet%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
               <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Firan-krieg-regierung-deutlichen-konjunkturdaeumerwartet%2F&text=Iran-Krieg%3A+Regierung+erwartet+deutlichen+Konjunkturd%C3%A4mpfer" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="saglik">
+        <a class="card-image-link" href="/nachrichten/artikel/ebola-ausbruch-in-der-demokratischen-republik-kongo/" aria-label="Ebola-Ausbruch in der Demokratischen Republik Kongo"><div class="card-image"><img src="/nachrichten/artikel/images/ebola-ausbruch-in-der-demokratischen-republik-kongo.webp" alt="Ebola-Ausbruch in der Demokratischen Republik Kongo" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">🇩🇪 Deutschland</span>
+            <span class="card-topic">Gesundheit</span>
+            <time class="card-date" datetime="2026-05-16">16.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/ebola-ausbruch-in-der-demokratischen-republik-kongo/">Ebola-Ausbruch in der Demokratischen Republik Kongo</a>
+          </h3>
+          <p class="card-excerpt">Weitere Details finden Sie im Artikel.</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/ebola-ausbruch-in-der-demokratischen-republik-kongo/" aria-label="Ebola-Ausbruch in der Demokratischen Republik Kongo Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Febola-ausbruch-in-der-demokratischen-republik-kongo%2F&text=Ebola-Ausbruch+in+der+Demokratischen+Republik+Kongo" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Febola-ausbruch-in-der-demokratischen-republik-kongo%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Ebola-Ausbruch+in+der+Demokratischen+Republik+Kongo%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Febola-ausbruch-in-der-demokratischen-republik-kongo%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Febola-ausbruch-in-der-demokratischen-republik-kongo%2F&text=Ebola-Ausbruch+in+der+Demokratischen+Republik+Kongo" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
@@ -7018,25 +6999,5 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
     refreshNewsGrid();
   </script>
   <script defer src="/assets/js/json-search.js?v=20260613c"></script>
-  <script defer src="/assets/js/member-home-menu.js?v=20260525b"></script>
-  <script defer src="/assets/js/global-search.js?v=20260613c"></script>
-  <script defer src="/assets/js/mobile-home-ux.js?v=20260527a"></script>
-  <script defer src="/assets/js/showcase-side-rotation.js?v=20260605e"></script>
-  <script>
-    (function() {
-      const btn = document.getElementById('theme-toggle');
-      const saved = localStorage.getItem('theme');
-      if (saved === 'dark' || (!saved && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.body.classList.add('dark-mode');
-      }
-      if (btn) {
-        btn.addEventListener('click', function() {
-          document.body.classList.toggle('dark-mode');
-          const isDark = document.body.classList.contains('dark-mode');
-          localStorage.setItem('theme', isDark ? 'dark' : 'light');
-        });
-      }
-    })();
-  </script>
 </body>
 </html>
