@@ -2237,6 +2237,116 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
   display: none !important;
 }
 /* FIRST_PAINT_TOPIC_FILTER_END */
+  
+    /* TOP ISTANBUL MEGA-BAR */
+    .istanbul-mega-bar {
+      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
+      color: white;
+      border-bottom: 2px solid #dc2626;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+      font-size: 0.85rem;
+      position: relative;
+      z-index: 99;
+    }
+    .istanbul-mega-bar .inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .imb-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .imb-brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .imb-badge {
+      background: #dc2626;
+      color: white;
+      font-weight: 900;
+      font-size: 0.72rem;
+      padding: 3px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+    .imb-select {
+      background: #0f172a;
+      color: #f8fafc;
+      border: 1px solid #334155;
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      outline: none;
+    }
+    .imb-select:focus { border-color: #38bdf8; }
+    .imb-quick-chips {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+    .imb-chip-btn {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #e2e8f0;
+      border-radius: 999px;
+      padding: 3px 10px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+    .imb-chip-btn:hover {
+      background: #dc2626;
+      color: white;
+      border-color: #dc2626;
+    }
+    .imb-services {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .imb-srv {
+      color: #cbd5e1;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.82rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .imb-srv:hover {
+      background: rgba(255,255,255,0.1);
+      color: white;
+    }
+    .imb-weather-pill {
+      background: rgba(56,189,248,0.15);
+      color: #38bdf8;
+      border: 1px solid rgba(56,189,248,0.3);
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 0.78rem;
+    }
+    @media (max-width: 900px) {
+      .imb-quick-chips { display: none; }
+      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
+    }
+    
   </style>
 <link rel="stylesheet" href="/assets/css/mobile-home-ux.css?v=20260904_numdots">
   <link rel="stylesheet" href="/assets/css/showcase-side-rotation.css?v=20260605e">
@@ -2342,10 +2452,10 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       </div>
       <div class="imb-services">
         <a class="imb-srv" href="/hizmet/eczane/">💊 Nöbetçi Eczaneler (132)</a>
-        <a class="imb-srv" href="/hizmet/ulasim/">🚇 Canlı İETT (237)</a>
-        <a class="imb-srv" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ (8)</a>
+        <a class="imb-srv" href="/hizmet/ulasim/">🚇 Canlı İETT (241)</a>
+        <a class="imb-srv" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ (1)</a>
         <a class="imb-srv" href="/hizmet/kamu/">🌊 Baraj: %52,24</a>
-        <span class="imb-weather-pill">⛅ 18°C</span>
+        <span class="imb-weather-pill">⛅ 17°C</span>
       </div>
     </div>
   </div>
@@ -2618,8 +2728,8 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <p class="istanbul-desc">İBB, İETT, İSKİ, BEDAŞ ve İECO resmi verileriyle anlık ulaşım, su/elektrik arızaları, nöbetçi eczaneler ve 39 ilçe haberleri</p>
             </div>
             <div class="istanbul-chips">
-              <a class="istanbul-chip" href="/hizmet/ulasim/">🚇 Canlı İETT (237 Bildirim)</a>
-              <a class="istanbul-chip" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ (8 Arıza)</a>
+              <a class="istanbul-chip" href="/hizmet/ulasim/">🚇 Canlı İETT (241 Bildirim)</a>
+              <a class="istanbul-chip" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ (1 Arıza)</a>
               <a class="istanbul-chip" href="/hizmet/eczane/">💊 Nöbetçi Eczaneler (132 Açık)</a>
             </div>
           </div>
@@ -2630,14 +2740,14 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <span class="metric-icon">⛅</span>
               <div class="metric-body">
                 <span class="metric-label">İstanbul Hava</span>
-                <strong>18°C · Hafif Sağanak</strong>
+                <strong>17°C · Parçalı Bulutlu</strong>
               </div>
             </div>
             <div class="city-metric">
               <span class="metric-icon">🚇</span>
               <div class="metric-body">
                 <span class="metric-label">İETT Hat Bildirimi</span>
-                <strong>237 Canlı Hat Güzergahı</strong>
+                <strong>241 Canlı Hat Güzergahı</strong>
               </div>
             </div>
             <div class="city-metric">
@@ -2660,7 +2770,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           <div class="city-alerts-box">
             <div class="city-alerts-header">
               <span>⚠️ CANLI YOL KAPANMALARI &amp; İETT SEFER DEĞİŞİKLİKLERİ</span>
-              <a href="/hizmet/ulasim/">Tüm Hat Bildirimlerini Gör (237) →</a>
+              <a href="/hizmet/ulasim/">Tüm Hat Bildirimlerini Gör (241) →</a>
             </div>
             <div class="city-alerts-grid">
 
@@ -2668,7 +2778,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
             <span class="city-alert-badge">10</span>
             <div class="city-alert-content">
               <strong>Ü.EGT.ARS.HASTANESI - ATASEHIR / BOSTANCI (04:04)</strong>
-              <p>BOSTANCI PERONLAR dan Saat 13:50 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</p>
+              <p>BOSTANCI SANAYI dan Saat 19:16 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</p>
             </div>
           </div>
           <div class="city-alert-item">
@@ -2681,15 +2791,15 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           <div class="city-alert-item">
             <span class="city-alert-badge">11H</span>
             <div class="city-alert-content">
-              <strong>ORTAÇESME - ÜMRANIYE (04:04)</strong>
-              <p>TEPEÜSTÜ dan Saat 15:13 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</p>
+              <strong>ORTAÇESME - ÜMRANIYE (16:57)</strong>
+              <p>TEPEÜSTÜ dan Saat 19:15 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</p>
             </div>
           </div>
           <div class="city-alert-item">
-            <span class="city-alert-badge">11H</span>
+            <span class="city-alert-badge">11ÜS</span>
             <div class="city-alert-content">
-              <strong>ORTAÇESME - ÜMRANIYE (04:04)</strong>
-              <p>TEPEÜSTÜ dan Saat 15:24 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</p>
+              <strong>SULTANBEYLI - ÜSKÜDAR (15:35)</strong>
+              <p>YOGUN TRAFIK NEDENIYLE FATIH BULVARI KAPALIDIR. ARAÇLARIMIZ SULTANBEYLI PERONLARA DÖNÜSLERDE 52.HASANPASA DURAGINDAN GÜZERGAHTAN ÇIKIP 55.ÇIFTLIK DURAGINDAN GÜZERGAHA GIRECEKTIR.</p>
             </div>
           </div>
             </div>
@@ -2704,105 +2814,117 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
             <!-- ISTANBUL_CARDS_START -->
 
       <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/kudus-mucadelesinin-tarihsel-ve-teopolitik-kokenleri_20261002/" aria-label="Kudüs Mücadelesinin Tarihsel Kökenleri: Teopolitik Arka Plan">
-          <div class="istanbul-card-img"><img src="/articles/2026/10/images/kudus-mucadelesinin-tarihsel-ve-teopolitik-kokenleri_20261002.webp" alt="Kudüs Mücadelesinin Tarihsel Kökenleri: Teopolitik Arka Plan" loading="lazy" width="600" height="340"></div>
+        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261002/" aria-label="İstanbul Şehir Bülteni (2 Ekim 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
+          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (2 Ekim 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
           <div class="istanbul-card-body">
             <div class="istanbul-card-meta">
               <span class="istanbul-badge">📍 İstanbul</span>
               <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-10-02">02.10.2026</time>
+              <time datetime="2000-01-01">2 Ekim 2026</time>
             </div>
-            <h3 class="istanbul-card-title">Kudüs Mücadelesinin Tarihsel Kökenleri: Teopolitik Arka Plan</h3>
+            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (2 Ekim 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
             <div class="istanbul-card-footer">
-              <span class="istanbul-source">Anadolu Ajansı Güncel Haberler</span>
+              <span class="istanbul-source">ManşetRadar</span>
               <span class="istanbul-more">Haberi Oku →</span>
             </div>
           </div>
         </a>
       </article>
-
       <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/hurriyet-2-ekim-2026-gunluk-ev-yemegi-menusu_20261002/" aria-label="Hürriyet&#x27;ten 2 Ekim 2026 İçin Günlük Ev Yemeği Menüsü Önerisi">
-          <div class="istanbul-card-img"><img src="/articles/2026/10/images/hurriyet-2-ekim-2026-gunluk-ev-yemegi-menusu_20261002.webp" alt="Hürriyet&#x27;ten 2 Ekim 2026 İçin Günlük Ev Yemeği Menüsü Önerisi" loading="lazy" width="600" height="340"></div>
+        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261002/" aria-label="İstanbul Şehir Bülteni (2 Ekim 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
+          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (2 Ekim 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
           <div class="istanbul-card-body">
             <div class="istanbul-card-meta">
               <span class="istanbul-badge">📍 İstanbul</span>
               <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-10-02">02.10.2026</time>
+              <time datetime="2000-01-01">2 Ekim 2026</time>
             </div>
-            <h3 class="istanbul-card-title">Hürriyet&#x27;ten 2 Ekim 2026 İçin Günlük Ev Yemeği Menüsü Önerisi</h3>
+            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (2 Ekim 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
             <div class="istanbul-card-footer">
-              <span class="istanbul-source">Hürriyet</span>
+              <span class="istanbul-source">ManşetRadar</span>
               <span class="istanbul-more">Haberi Oku →</span>
             </div>
           </div>
         </a>
       </article>
-
       <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/istanbul-dahil-11-ilde-firtina-ve-saganak-alarmi_20261002/" aria-label="İstanbul Dahil 11 İle Sarı Kodlu Fırtına ve Sağanak Alarmı">
-          <div class="istanbul-card-img"><img src="/articles/2026/10/images/istanbul-dahil-11-ilde-firtina-ve-saganak-alarmi_20261002.webp" alt="İstanbul Dahil 11 İle Sarı Kodlu Fırtına ve Sağanak Alarmı" loading="lazy" width="600" height="340"></div>
+        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260921/" aria-label="İstanbul Şehir Bülteni (21 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
+          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (21 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
           <div class="istanbul-card-body">
             <div class="istanbul-card-meta">
               <span class="istanbul-badge">📍 İstanbul</span>
               <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-10-02">02.10.2026</time>
+              <time datetime="2000-01-01">21 Eylül 2026</time>
             </div>
-            <h3 class="istanbul-card-title">İstanbul Dahil 11 İle Sarı Kodlu Fırtına ve Sağanak Alarmı</h3>
+            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (21 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
             <div class="istanbul-card-footer">
-              <span class="istanbul-source">Hürriyet</span>
+              <span class="istanbul-source">ManşetRadar</span>
               <span class="istanbul-more">Haberi Oku →</span>
             </div>
           </div>
         </a>
       </article>
-
       <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/cay-ocaginda-silahli-saldiri-bir-kisi-hayatini-kandirdi_20261001/" aria-label="Çay Ocağında Silahlı Saldırı: Bir Kişi Hayatını Kaybetti">
-          <div class="istanbul-card-img"><img src="/articles/2026/10/images/cay-ocaginda-silahli-saldiri-bir-kisi-hayatini-kandirdi_20261001.webp" alt="Çay Ocağında Silahlı Saldırı: Bir Kişi Hayatını Kaybetti" loading="lazy" width="600" height="340"></div>
+        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260905/" aria-label="İstanbul Şehir Bülteni (5 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
+          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (5 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
           <div class="istanbul-card-body">
             <div class="istanbul-card-meta">
               <span class="istanbul-badge">📍 İstanbul</span>
               <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-10-01">01.10.2026</time>
+              <time datetime="2000-01-01">5 Eylül 2026</time>
             </div>
-            <h3 class="istanbul-card-title">Çay Ocağında Silahlı Saldırı: Bir Kişi Hayatını Kaybetti</h3>
+            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (5 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
             <div class="istanbul-card-footer">
-              <span class="istanbul-source">HABERTURK.COM</span>
+              <span class="istanbul-source">ManşetRadar</span>
               <span class="istanbul-more">Haberi Oku →</span>
             </div>
           </div>
         </a>
       </article>
-
       <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/istanbul-havalimani-34-kilo-kokain-operasyonu_20261001/" aria-label="İstanbul Havalimanı&#x27;nda Büyük Uyuşturucu Operasyonu: 34 Kilo Kokain Ele Geçirildi">
-          <div class="istanbul-card-img"><img src="/articles/images/istanbul-havalimani-34-kilo-kokain-operasyonu_20261001.webp" alt="İstanbul Havalimanı&#x27;nda Büyük Uyuşturucu Operasyonu: 34 Kilo Kokain Ele Geçirildi" loading="lazy" width="600" height="340"></div>
+        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260904/" aria-label="İstanbul Şehir Bülteni (4 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
+          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (4 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
           <div class="istanbul-card-body">
             <div class="istanbul-card-meta">
               <span class="istanbul-badge">📍 İstanbul</span>
               <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-10-01">01.10.2026</time>
+              <time datetime="2000-01-01"></time>
             </div>
-            <h3 class="istanbul-card-title">İstanbul Havalimanı&#x27;nda Büyük Uyuşturucu Operasyonu: 34 Kilo Kokain Ele Geçirildi</h3>
+            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (4 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
             <div class="istanbul-card-footer">
-              <span class="istanbul-source">ntv.com.tr</span>
+              <span class="istanbul-source">ManşetRadar</span>
               <span class="istanbul-more">Haberi Oku →</span>
             </div>
           </div>
         </a>
       </article>
-
       <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/konyada-42-bin-kisilik-kardeslik-tribunu-konyaspor-ile-filistin-dostluk-macinda-kazanan-insanlik-oldu_20260930/" aria-label="Konya&#x27;da 42 Bin Kişilik Kardeşlik Tribünü: Konyaspor ile Filistin Dostluk Maçında Kazanan İnsanlık Oldu">
-          <div class="istanbul-card-img"><img src="/articles/2026/09/images/konyada-42-bin-kisilik-kardeslik-tribunu-konyaspor-ile-filistin-dostluk-macinda-kazanan-insanlik-oldu_20260930.webp" alt="Konya&#x27;da 42 Bin Kişilik Kardeşlik Tribünü: Konyaspor ile Filistin Dostluk Maçında Kazanan İnsanlık Oldu" loading="lazy" width="600" height="340"></div>
+        <a class="istanbul-card-link" href="/articles/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20260903/" aria-label="İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu">
+          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu" loading="lazy" width="600" height="340"></div>
           <div class="istanbul-card-body">
             <div class="istanbul-card-meta">
               <span class="istanbul-badge">📍 İstanbul</span>
               <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-30">30.09.2026</time>
+              <time datetime="2000-01-01"></time>
             </div>
-            <h3 class="istanbul-card-title">Konya&#x27;da 42 Bin Kişilik Kardeşlik Tribünü: Konyaspor ile Filistin Dostluk Maçında Kazanan İnsanlık Oldu</h3>
+            <h3 class="istanbul-card-title">İstanbul Şehir Bülteni (3 Eylül 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu</h3>
+            <div class="istanbul-card-footer">
+              <span class="istanbul-source">ManşetRadar</span>
+              <span class="istanbul-more">Haberi Oku →</span>
+            </div>
+          </div>
+        </a>
+      </article>
+      <article class="istanbul-card topic-card" data-topic="gundem">
+        <a class="istanbul-card-link" href="/articles/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902/" aria-label="Bakan Uraloğlu açıkladı: İstanbul’a 180 kilometrelik raylı sistem! Yeni metro hatları geliyor...">
+          <div class="istanbul-card-img"><img src="/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp" alt="Bakan Uraloğlu açıkladı: İstanbul’a 180 kilometrelik raylı sistem! Yeni metro hatları geliyor..." loading="lazy" width="600" height="340"></div>
+          <div class="istanbul-card-body">
+            <div class="istanbul-card-meta">
+              <span class="istanbul-badge">📍 İstanbul</span>
+              <span class="istanbul-topic">Gündem</span>
+              <time datetime="2026-09-02">2026-09-02T11:22:46+00:00</time>
+            </div>
+            <h3 class="istanbul-card-title">Bakan Uraloğlu açıkladı: İstanbul’a 180 kilometrelik raylı sistem! Yeni metro hatları geliyor...</h3>
             <div class="istanbul-card-footer">
               <span class="istanbul-source">İstanbul Masası</span>
               <span class="istanbul-more">Haberi Oku →</span>
@@ -2810,35 +2932,16 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </a>
       </article>
-
-      <article class="istanbul-card topic-card" data-topic="spor">
-        <a class="istanbul-card-link" href="/articles/tff-bahis-gerekcesiyle-448-kulup-yoneticisini-pfdkya-sevk-etti-turk-futbolunda-tarihi-deprem_20260930/" aria-label="Türk Futbolunda Tarihi Disiplin Sevkleri: TFF Bahis Gerekçesiyle 448 Kulüp Yöneticisini PFDK&#x27;ya Sevk Etti">
-          <div class="istanbul-card-img"><img src="/articles/2026/09/images/tff-bahis-gerekcesiyle-448-kulup-yoneticisini-pfdkya-sevk-etti-turk-futbolunda-tarihi-deprem_20260930.webp" alt="Türk Futbolunda Tarihi Disiplin Sevkleri: TFF Bahis Gerekçesiyle 448 Kulüp Yöneticisini PFDK&#x27;ya Sevk Etti" loading="lazy" width="600" height="340"></div>
-          <div class="istanbul-card-body">
-            <div class="istanbul-card-meta">
-              <span class="istanbul-badge">📍 İstanbul</span>
-              <span class="istanbul-topic">Spor</span>
-              <time datetime="2026-09-30">30.09.2026</time>
-            </div>
-            <h3 class="istanbul-card-title">Türk Futbolunda Tarihi Disiplin Sevkleri: TFF Bahis Gerekçesiyle 448 Kulüp Yöneticisini PFDK&#x27;ya Sevk Etti</h3>
-            <div class="istanbul-card-footer">
-              <span class="istanbul-source">İstanbul Masası</span>
-              <span class="istanbul-more">Haberi Oku →</span>
-            </div>
-          </div>
-        </a>
-      </article>
-
       <article class="istanbul-card topic-card" data-topic="gundem">
-        <a class="istanbul-card-link" href="/articles/sermaye-piyasasi-ve-fon-sorusturmasinda-yeni-dalga-sarkici-nil-ozalp-gozaltina-alindi_20260930/" aria-label="Sermaye Piyasası ve Fon Soruşturmasında Yeni Dalga: Şarkıcı Nil Özalp Gözaltına Alındı">
-          <div class="istanbul-card-img"><img src="/articles/2026/09/images/sermaye-piyasasi-ve-fon-sorusturmasinda-yeni-dalga-sarkici-nil-ozalp-gozaltina-alindi_20260930.webp" alt="Sermaye Piyasası ve Fon Soruşturmasında Yeni Dalga: Şarkıcı Nil Özalp Gözaltına Alındı" loading="lazy" width="600" height="340"></div>
+        <a class="istanbul-card-link" href="/articles/havacilik-dunyasi-istanbul-da-bulustu-istanbul_20260902/" aria-label="Havacılık dünyası İstanbul’da buluştu #istanbul">
+          <div class="istanbul-card-img"><img src="/articles/images/havacilik-dunyasi-istanbul-da-bulustu-istanbul_20260902.webp" alt="Havacılık dünyası İstanbul’da buluştu #istanbul" loading="lazy" width="600" height="340"></div>
           <div class="istanbul-card-body">
             <div class="istanbul-card-meta">
               <span class="istanbul-badge">📍 İstanbul</span>
               <span class="istanbul-topic">Gündem</span>
-              <time datetime="2026-09-30">30.09.2026</time>
+              <time datetime="2026-09-02">2026-09-02T10:54:13+00:00</time>
             </div>
-            <h3 class="istanbul-card-title">Sermaye Piyasası ve Fon Soruşturmasında Yeni Dalga: Şarkıcı Nil Özalp Gözaltına Alındı</h3>
+            <h3 class="istanbul-card-title">Havacılık dünyası İstanbul’da buluştu #istanbul</h3>
             <div class="istanbul-card-footer">
               <span class="istanbul-source">İstanbul Masası</span>
               <span class="istanbul-more">Haberi Oku →</span>
@@ -2846,7 +2949,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </a>
       </article>
-              <!-- ISTANBUL_CARDS_END -->
+            <!-- ISTANBUL_CARDS_END -->
           </div>
         </section>
         <!-- ISTANBUL_SECTION_END -->
