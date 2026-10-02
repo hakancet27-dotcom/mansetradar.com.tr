@@ -1913,160 +1913,395 @@
     }
 
       .visually-hidden { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
-/* ─── NEWS PORTAL HERO SHOWCASE LAYOUT (BBC/Reuters/Hürriyet UX Best Practice) ─── */
-/* Desktop: 3:2 hero on left (≈62%), 2-card sidebar on right (≈38%)               */
-/* Tablet ≤992px: hero full-width 16:9, sidebar 2-col grid below                  */
-/* Mobile ≤640px: hero 16:9 vw-clamp, sidebar hidden (handled in feed below)       */
+/* ─── HABERLER.COM 1:1 EXACT SLIDER SHOWCASE (735x490 Aspect Ratio) ─── */
+/* Left-aligned with container, single hero, no side headlines           */
 
     .showcase-grid {
-      display: grid !important;
-      grid-template-columns: minmax(0, 1fr) 340px !important;
-      gap: 16px !important;
-      align-items: start !important;
+      display: block !important;
       width: 100% !important;
       max-width: 1280px !important;
-      margin: 0 auto 28px !important;
+      margin: 0 auto 24px !important;
     }
 
-    /* ── HERO SLIDER ── */
+    /* ── HERO SLIDER (Haberler.com 1:1 Exact 735x490) ── */
     .headline-slider {
+      position: relative !important;
       width: 100% !important;
-      /* 3:2 aspect gives 480px tall at 720px wide – perfect newspaper hero */
-      height: clamp(300px, 41.67vw, 520px) !important;
-      max-height: 520px !important;
-      border-radius: 12px !important;
+      max-width: 735px !important;
+      aspect-ratio: 735 / 490 !important;
+      height: auto !important;
+      min-height: 0 !important;
+      max-height: 490px !important;
+      border-radius: 6px !important;
       overflow: hidden !important;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.15) !important;
+      box-shadow: 0 3px 14px rgba(0,0,0,0.12) !important;
+      margin: 0 !important; /* Left-aligned under navigation, matching Haberler.com */
+      background: #111827 !important;
     }
 
-    /* ── SIDE PANEL ── */
-    .side-headlines {
-      display: flex !important;
-      flex-direction: column !important;
-      gap: 12px !important;
-      height: clamp(300px, 41.67vw, 520px) !important;
-      max-height: 520px !important;
-    }
-    .side-headline {
-      flex: 1 !important;
-      min-height: 0 !important;
-      border-radius: 10px !important;
-      position: relative !important;
-      overflow: hidden !important;
-      display: block !important;
-      text-decoration: none !important;
-      background: #111827 !important;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.12) !important;
-      transition: transform 0.2s ease, box-shadow 0.2s ease !important;
-    }
-    .side-headline:hover {
-      transform: translateY(-2px) !important;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.2) !important;
-    }
-    .side-headline .headline-image {
+    .headline-slide {
       position: absolute !important;
       inset: 0 !important;
       width: 100% !important;
       height: 100% !important;
+      aspect-ratio: 735 / 490 !important;
     }
-    .side-headline .headline-image img {
+
+    .headline-image,
+    .headline-image img {
+      position: absolute !important;
+      inset: 0 !important;
       width: 100% !important;
       height: 100% !important;
+      aspect-ratio: 735 / 490 !important;
       object-fit: cover !important;
-      object-position: center top !important;
+      object-position: center !important;
       display: block !important;
     }
-    /* ── gradient only in bottom 55% so headline is always readable ── */
-    .side-headline::after {
+
+    /* ── TITLE & GRADIENT (Haberler.com Style) ── */
+    .headline-card::after {
       content: "" !important;
       position: absolute !important;
       inset: 0 !important;
       background: linear-gradient(
         to top,
-        rgba(0,0,0,0.88) 0%,
-        rgba(0,0,0,0.55) 42%,
-        rgba(0,0,0,0.10) 72%,
+        rgba(0,0,0,0.92) 0%,
+        rgba(0,0,0,0.60) 36%,
+        rgba(0,0,0,0.08) 65%,
         transparent 100%
       ) !important;
       z-index: 1 !important;
     }
-    .side-headline .headline-content {
+
+    .headline-content {
       position: absolute !important;
-      left: 12px !important;
-      right: 12px !important;
-      bottom: 10px !important;
+      left: 18px !important;
+      right: 18px !important;
+      bottom: 38px !important; /* leave room for number strip */
       z-index: 2 !important;
     }
-    .side-headline .headline-title {
-      font-size: 0.9rem !important;
-      line-height: 1.3 !important;
-      font-weight: 700 !important;
+
+    .headline-title {
+      font-size: clamp(1.15rem, 2.2vw, 1.65rem) !important;
+      font-weight: 800 !important;
       color: #ffffff !important;
+      line-height: 1.22 !important;
       margin: 0 !important;
       display: -webkit-box !important;
       -webkit-line-clamp: 2 !important;
       -webkit-box-orient: vertical !important;
       overflow: hidden !important;
-      text-shadow: 0 1px 4px rgba(0,0,0,0.5) !important;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.7) !important;
     }
-    .side-headline .headline-meta {
+
+    .headline-meta {
       display: flex !important;
-      gap: 5px !important;
+      gap: 6px !important;
       align-items: center !important;
-      margin-bottom: 5px !important;
+      margin-bottom: 6px !important;
     }
 
-    /* ── TABLET (992px and below): stacked layout ── */
-    @media (max-width: 992px) {
-      .showcase-grid {
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 14px !important;
-        max-width: 100% !important;
-      }
-      .headline-slider {
-        max-width: 100% !important;
-        height: clamp(240px, 56.25vw, 420px) !important;
-        max-height: none !important;
-      }
-      .side-headlines {
-        display: grid !important;
-        grid-template-columns: repeat(3, 1fr) !important;
-        height: auto !important;
-        max-height: none !important;
-        gap: 10px !important;
-      }
-      .side-headline {
-        height: 160px !important;
-        flex: none !important;
-      }
+    /* ── NUMBER STRIP (Haberler.com 1:1 Number Buttons) ── */
+    .headline-slider .slider-dots {
+      position: absolute !important;
+      left: 0 !important;
+      right: 0 !important;
+      bottom: 0 !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      height: 30px !important;
+      transform: none !important;
+      display: flex !important;
+      align-items: stretch !important;
+      justify-content: stretch !important;
+      gap: 1px !important;
+      padding: 0 !important;
+      background: #e2e8f0 !important;
+      border: 0 !important;
+      border-radius: 0 !important;
+      box-shadow: none !important;
+      z-index: 5 !important;
+      overflow-x: auto !important;
+      scrollbar-width: none !important;
+    }
+    .headline-slider .slider-dots::-webkit-scrollbar { display: none !important; }
+
+    .headline-slider .slider-dot {
+      flex: 1 1 0 !important;
+      min-width: 24px !important;
+      height: 100% !important;
+      padding: 0 !important;
+      border: 0 !important;
+      border-radius: 0 !important;
+      background: #ffffff !important;
+      color: #1e293b !important;
+      font-size: 0.8rem !important;
+      font-weight: 700 !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      cursor: pointer !important;
+      transition: background 0.15s ease, color 0.15s ease !important;
+    }
+    .headline-slider .slider-dot:hover {
+      background: #f1f5f9 !important;
+      color: #dc2626 !important;
+    }
+    .headline-slider .slider-dot.is-active {
+      background: #e10600 !important;
+      color: #ffffff !important;
+      font-weight: 900 !important;
+      box-shadow: none !important;
     }
 
-    /* ── MOBILE (640px and below): minimal hero, hide sidebar ── */
-    @media (max-width: 640px) {
-      .showcase-grid {
-        gap: 10px !important;
-      }
+    /* ── SIDE HEADLINES COMPLETELY REMOVED ── */
+    .side-headlines {
+      display: none !important;
+    }
+
+    /* ── RESPONSIVE MOBILE (<=768px): 100% width, preserves 735:490 ratio ── */
+    @media (max-width: 768px) {
       .headline-slider {
-        height: clamp(220px, 56.25vw, 300px) !important;
-        border-radius: 8px !important;
+        max-width: 100% !important;
+        border-radius: 0 !important;
       }
-      .side-headlines {
-        grid-template-columns: 1fr 1fr !important;
-        gap: 8px !important;
+      .headline-content {
+        left: 12px !important;
+        right: 12px !important;
+        bottom: 34px !important;
       }
-      .side-headline {
-        height: 120px !important;
-        border-radius: 8px !important;
+      .headline-title {
+        font-size: 1.15rem !important;
       }
-      .side-headline .headline-title {
-        font-size: 0.78rem !important;
+      .headline-slider .slider-dots {
+        height: 28px !important;
+      }
+      .headline-slider .slider-dot {
+        font-size: 0.72rem !important;
+        min-width: 20px !important;
       }
     }
 
     /* hide mobile market strip (it renders in the feed below on mobile) */
     .mobile-market-strip {
       display: none !important;
+    }
+/* TOP ISTANBUL MEGA-BAR */
+    .istanbul-mega-bar {
+      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
+      color: white;
+      border-bottom: 2px solid #dc2626;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+      font-size: 0.85rem;
+      position: relative;
+      z-index: 99;
+    }
+    .istanbul-mega-bar .inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .imb-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .imb-brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .imb-badge {
+      background: #dc2626;
+      color: white;
+      font-weight: 900;
+      font-size: 0.72rem;
+      padding: 3px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+    .imb-select {
+      background: #0f172a;
+      color: #f8fafc;
+      border: 1px solid #334155;
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      outline: none;
+    }
+    .imb-select:focus { border-color: #38bdf8; }
+    .imb-quick-chips {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+    .imb-chip-btn {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #e2e8f0;
+      border-radius: 999px;
+      padding: 3px 10px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+    .imb-chip-btn:hover {
+      background: #dc2626;
+      color: white;
+      border-color: #dc2626;
+    }
+    .imb-services {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .imb-srv {
+      color: #cbd5e1;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.82rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .imb-srv:hover {
+      background: rgba(255,255,255,0.1);
+      color: white;
+    }
+    .imb-weather-pill {
+      background: rgba(56,189,248,0.15);
+      color: #38bdf8;
+      border: 1px solid rgba(56,189,248,0.3);
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 0.78rem;
+    }
+    @media (max-width: 900px) {
+      .imb-quick-chips { display: none; }
+      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
+    }
+/* TOP ISTANBUL MEGA-BAR */
+    .istanbul-mega-bar {
+      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
+      color: white;
+      border-bottom: 2px solid #dc2626;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+      font-size: 0.85rem;
+      position: relative;
+      z-index: 99;
+    }
+    .istanbul-mega-bar .inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .imb-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .imb-brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .imb-badge {
+      background: #dc2626;
+      color: white;
+      font-weight: 900;
+      font-size: 0.72rem;
+      padding: 3px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+    .imb-select {
+      background: #0f172a;
+      color: #f8fafc;
+      border: 1px solid #334155;
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      outline: none;
+    }
+    .imb-select:focus { border-color: #38bdf8; }
+    .imb-quick-chips {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+    .imb-chip-btn {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #e2e8f0;
+      border-radius: 999px;
+      padding: 3px 10px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+    .imb-chip-btn:hover {
+      background: #dc2626;
+      color: white;
+      border-color: #dc2626;
+    }
+    .imb-services {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .imb-srv {
+      color: #cbd5e1;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.82rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .imb-srv:hover {
+      background: rgba(255,255,255,0.1);
+      color: white;
+    }
+    .imb-weather-pill {
+      background: rgba(56,189,248,0.15);
+      color: #38bdf8;
+      border: 1px solid rgba(56,189,248,0.3);
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 0.78rem;
+    }
+    @media (max-width: 900px) {
+      .imb-quick-chips { display: none; }
+      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
     }
 /* FIRST_PAINT_TOPIC_FILTER_START */
 html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]) .topic-card {

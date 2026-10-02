@@ -1921,154 +1921,173 @@
     }
 
       .visually-hidden { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
-/* ─── NEWS PORTAL HERO SHOWCASE LAYOUT (BBC/Reuters/Hürriyet UX Best Practice) ─── */
-/* Desktop: 3:2 hero on left (≈62%), 2-card sidebar on right (≈38%)               */
-/* Tablet ≤992px: hero full-width 16:9, sidebar 2-col grid below                  */
-/* Mobile ≤640px: hero 16:9 vw-clamp, sidebar hidden (handled in feed below)       */
+/* ─── HABERLER.COM 1:1 EXACT SLIDER SHOWCASE (735x490 Aspect Ratio) ─── */
+/* Left-aligned with container, single hero, no side headlines           */
 
     .showcase-grid {
-      display: grid !important;
-      grid-template-columns: minmax(0, 1fr) 340px !important;
-      gap: 16px !important;
-      align-items: start !important;
+      display: block !important;
       width: 100% !important;
       max-width: 1280px !important;
-      margin: 0 auto 28px !important;
+      margin: 0 auto 24px !important;
     }
 
-    /* ── HERO SLIDER ── */
+    /* ── HERO SLIDER (Haberler.com 1:1 Exact 735x490) ── */
     .headline-slider {
+      position: relative !important;
       width: 100% !important;
-      /* 3:2 aspect gives 480px tall at 720px wide – perfect newspaper hero */
-      height: clamp(300px, 41.67vw, 520px) !important;
-      max-height: 520px !important;
-      border-radius: 12px !important;
+      max-width: 735px !important;
+      aspect-ratio: 735 / 490 !important;
+      height: auto !important;
+      min-height: 0 !important;
+      max-height: 490px !important;
+      border-radius: 6px !important;
       overflow: hidden !important;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.15) !important;
+      box-shadow: 0 3px 14px rgba(0,0,0,0.12) !important;
+      margin: 0 !important; /* Left-aligned under navigation, matching Haberler.com */
+      background: #111827 !important;
     }
 
-    /* ── SIDE PANEL ── */
-    .side-headlines {
-      display: flex !important;
-      flex-direction: column !important;
-      gap: 12px !important;
-      height: clamp(300px, 41.67vw, 520px) !important;
-      max-height: 520px !important;
-    }
-    .side-headline {
-      flex: 1 !important;
-      min-height: 0 !important;
-      border-radius: 10px !important;
-      position: relative !important;
-      overflow: hidden !important;
-      display: block !important;
-      text-decoration: none !important;
-      background: #111827 !important;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.12) !important;
-      transition: transform 0.2s ease, box-shadow 0.2s ease !important;
-    }
-    .side-headline:hover {
-      transform: translateY(-2px) !important;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.2) !important;
-    }
-    .side-headline .headline-image {
+    .headline-slide {
       position: absolute !important;
       inset: 0 !important;
       width: 100% !important;
       height: 100% !important;
+      aspect-ratio: 735 / 490 !important;
     }
-    .side-headline .headline-image img {
+
+    .headline-image,
+    .headline-image img {
+      position: absolute !important;
+      inset: 0 !important;
       width: 100% !important;
       height: 100% !important;
+      aspect-ratio: 735 / 490 !important;
       object-fit: cover !important;
-      object-position: center top !important;
+      object-position: center !important;
       display: block !important;
     }
-    /* ── gradient only in bottom 55% so headline is always readable ── */
-    .side-headline::after {
+
+    /* ── TITLE & GRADIENT (Haberler.com Style) ── */
+    .headline-card::after {
       content: "" !important;
       position: absolute !important;
       inset: 0 !important;
       background: linear-gradient(
         to top,
-        rgba(0,0,0,0.88) 0%,
-        rgba(0,0,0,0.55) 42%,
-        rgba(0,0,0,0.10) 72%,
+        rgba(0,0,0,0.92) 0%,
+        rgba(0,0,0,0.60) 36%,
+        rgba(0,0,0,0.08) 65%,
         transparent 100%
       ) !important;
       z-index: 1 !important;
     }
-    .side-headline .headline-content {
+
+    .headline-content {
       position: absolute !important;
-      left: 12px !important;
-      right: 12px !important;
-      bottom: 10px !important;
+      left: 18px !important;
+      right: 18px !important;
+      bottom: 38px !important; /* leave room for number strip */
       z-index: 2 !important;
     }
-    .side-headline .headline-title {
-      font-size: 0.9rem !important;
-      line-height: 1.3 !important;
-      font-weight: 700 !important;
+
+    .headline-title {
+      font-size: clamp(1.15rem, 2.2vw, 1.65rem) !important;
+      font-weight: 800 !important;
       color: #ffffff !important;
+      line-height: 1.22 !important;
       margin: 0 !important;
       display: -webkit-box !important;
       -webkit-line-clamp: 2 !important;
       -webkit-box-orient: vertical !important;
       overflow: hidden !important;
-      text-shadow: 0 1px 4px rgba(0,0,0,0.5) !important;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.7) !important;
     }
-    .side-headline .headline-meta {
+
+    .headline-meta {
       display: flex !important;
-      gap: 5px !important;
+      gap: 6px !important;
       align-items: center !important;
-      margin-bottom: 5px !important;
+      margin-bottom: 6px !important;
     }
 
-    /* ── TABLET (992px and below): stacked layout ── */
-    @media (max-width: 992px) {
-      .showcase-grid {
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 14px !important;
-        max-width: 100% !important;
-      }
-      .headline-slider {
-        max-width: 100% !important;
-        height: clamp(240px, 56.25vw, 420px) !important;
-        max-height: none !important;
-      }
-      .side-headlines {
-        display: grid !important;
-        grid-template-columns: repeat(3, 1fr) !important;
-        height: auto !important;
-        max-height: none !important;
-        gap: 10px !important;
-      }
-      .side-headline {
-        height: 160px !important;
-        flex: none !important;
-      }
+    /* ── NUMBER STRIP (Haberler.com 1:1 Number Buttons) ── */
+    .headline-slider .slider-dots {
+      position: absolute !important;
+      left: 0 !important;
+      right: 0 !important;
+      bottom: 0 !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      height: 30px !important;
+      transform: none !important;
+      display: flex !important;
+      align-items: stretch !important;
+      justify-content: stretch !important;
+      gap: 1px !important;
+      padding: 0 !important;
+      background: #e2e8f0 !important;
+      border: 0 !important;
+      border-radius: 0 !important;
+      box-shadow: none !important;
+      z-index: 5 !important;
+      overflow-x: auto !important;
+      scrollbar-width: none !important;
+    }
+    .headline-slider .slider-dots::-webkit-scrollbar { display: none !important; }
+
+    .headline-slider .slider-dot {
+      flex: 1 1 0 !important;
+      min-width: 24px !important;
+      height: 100% !important;
+      padding: 0 !important;
+      border: 0 !important;
+      border-radius: 0 !important;
+      background: #ffffff !important;
+      color: #1e293b !important;
+      font-size: 0.8rem !important;
+      font-weight: 700 !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      cursor: pointer !important;
+      transition: background 0.15s ease, color 0.15s ease !important;
+    }
+    .headline-slider .slider-dot:hover {
+      background: #f1f5f9 !important;
+      color: #dc2626 !important;
+    }
+    .headline-slider .slider-dot.is-active {
+      background: #e10600 !important;
+      color: #ffffff !important;
+      font-weight: 900 !important;
+      box-shadow: none !important;
     }
 
-    /* ── MOBILE (640px and below): minimal hero, hide sidebar ── */
-    @media (max-width: 640px) {
-      .showcase-grid {
-        gap: 10px !important;
-      }
+    /* ── SIDE HEADLINES COMPLETELY REMOVED ── */
+    .side-headlines {
+      display: none !important;
+    }
+
+    /* ── RESPONSIVE MOBILE (<=768px): 100% width, preserves 735:490 ratio ── */
+    @media (max-width: 768px) {
       .headline-slider {
-        height: clamp(220px, 56.25vw, 300px) !important;
-        border-radius: 8px !important;
+        max-width: 100% !important;
+        border-radius: 0 !important;
       }
-      .side-headlines {
-        grid-template-columns: 1fr 1fr !important;
-        gap: 8px !important;
+      .headline-content {
+        left: 12px !important;
+        right: 12px !important;
+        bottom: 34px !important;
       }
-      .side-headline {
-        height: 120px !important;
-        border-radius: 8px !important;
+      .headline-title {
+        font-size: 1.15rem !important;
       }
-      .side-headline .headline-title {
-        font-size: 0.78rem !important;
+      .headline-slider .slider-dots {
+        height: 28px !important;
+      }
+      .headline-slider .slider-dot {
+        font-size: 0.72rem !important;
+        min-width: 20px !important;
       }
     }
 
@@ -2292,8 +2311,7 @@
       .imb-quick-chips { display: none; }
       .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
     }
-    
-  /* FIRST_PAINT_TOPIC_FILTER_START */
+/* FIRST_PAINT_TOPIC_FILTER_START */
 html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]) .topic-card {
   display: none !important;
 }
@@ -2333,49 +2351,80 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
 }
 /* FIRST_PAINT_TOPIC_FILTER_END */
   </style>
+  <link rel="stylesheet" href="/assets/css/corporate-header.css?v=20261002_corp">
+  <link rel="stylesheet" href="/assets/css/mobile-home-ux.css?v=20260904_numdots">
+  <link rel="stylesheet" href="/assets/css/showcase-side-rotation.css?v=20260605e">
+  <link rel="stylesheet" href="/assets/css/mobile-market-static.css?v=20260526a">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
 
   <div class="top-bar">
     <div class="inner">
-      <span id="current-time">Loading...</span>
-      <div class="top-links" aria-label="Top links">
-        <a href="./">Home</a>
-        <a href="/">Turkey</a>
-        <a href="./" aria-current="page">Latest US News</a>
+      <div class="top-bar-left">
+        <span id="current-time">Loading...</span>
+        <span class="top-bar-badge">🔴 US Edition</span>
+      </div>
+      <div class="top-bar-right">
+        <div class="top-lang-switch" aria-label="Language / Edition">
+          <a href="/" class="lang-pill" title="Türkçe">TR</a>
+          <span class="lang-pill is-active">EN</span>
+          <a href="/nachrichten/" class="lang-pill">DE</a>
+        </div>
+        <button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Dark/Light Mode" title="Theme Toggle">🌓</button>
+        <a class="member-login-btn" href="#"><span class="login-icon">👤</span> Member Login</a>
       </div>
     </div>
   </div>
 
-  <header>
+  <header class="site-header">
     <div class="inner">
       <a href="./" class="logo" aria-label="Latest US News">
-        <div class="logo-icon">H</div>
+        <div class="logo-icon">M</div>
         <div class="logo-text">
           <strong>mansetradar.com.tr</strong>
           <span>US News Platform</span>
         </div>
       </a>
-      <div class="header-tools">
-        <div class="header-search" role="search" aria-label="Latest US News search">
-          <span class="search-icon" aria-hidden="true">⌕</span>
-          <input id="news-search-input" type="search" placeholder="Search headlines, topics, or dates" autocomplete="off">
-          <button id="news-search-clear" type="button" hidden>Clear</button>
-        </div>
-        <a class="member-login-btn" href="#">Member Login</a>
+      <div class="header-search" role="search" aria-label="Latest US News search">
+        <span class="search-icon" aria-hidden="true">&#128269;</span>
+        <input id="news-search-input" type="search" placeholder="Search headlines, topics, or dates" autocomplete="off">
+        <button id="news-search-clear" type="button" hidden>Clear</button>
       </div>
-      <nav aria-label="Main menu">
-        <a href="./">Home</a>
-        <a href="/">Turkey</a>
-        <a href="./" class="active" aria-current="page">US</a>
-      </nav>
+      <div class="market-strip" aria-label="Delayed reference data">
+        <span class="market-label">Markets</span>
+        <span class="market-item up" id="market-sp500-item">
+          <span class="market-name">S&amp;P 500</span>
+          <strong class="market-value" id="market-sp500">5,762.48</strong>
+          <span class="market-change up" id="market-sp500-change">+0.35%</span>
+        </span>
+        <span class="market-item up" id="market-dow-item">
+          <span class="market-name">Dow Jones</span>
+          <strong class="market-value" id="market-dow">42,330.15</strong>
+          <span class="market-change up" id="market-dow-change">+0.22%</span>
+        </span>
+        <span class="market-item up" id="market-nasdaq-item">
+          <span class="market-name">Nasdaq</span>
+          <strong class="market-value" id="market-nasdaq">18,189.17</strong>
+          <span class="market-change up" id="market-nasdaq-change">+0.48%</span>
+        </span>
+        <span class="market-item down" id="market-eurusd-item">
+          <span class="market-name">EUR/USD</span>
+          <strong class="market-value" id="market-eurusd">1.0852</strong>
+          <span class="market-change down" id="market-eurusd-change">-0.14%</span>
+        </span>
+        <span class="market-item up" id="market-gold-item">
+          <span class="market-name">Gold</span>
+          <strong class="market-value" id="market-gold">$2,662.10</strong>
+          <span class="market-change up" id="market-gold-change">+0.55%</span>
+        </span>
+        <span class="market-status" id="market-status">Delayed reference data</span>
+      </div>
     </div>
   </header>
 
   <nav class="breaking" aria-label="News categories">
     <div class="inner">
-      <span class="breaking-label">CATEGORIES</span>
       <div class="topic-list">
         <a class="topic-link primary" href="./" data-topic="son-dakika">Breaking</a>
         <a class="topic-link" href="./?kategori=gundem" data-topic="gundem">Agenda</a>
@@ -2392,6 +2441,33 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       </div>
     </div>
   </nav>
+
+  <aside class="corporate-city-bar corporate-city-bar-nyc" aria-label="NYC Metro Desk and Borough Guide">
+    <div class="inner">
+      <div class="ccb-main">
+        <a href="/new-york/" class="ccb-badge">📍 NYC DESK</a>
+        <select class="ccb-select" id="nyc-borough-dropdown" onchange="if(this.value) window.location.href=this.value;" aria-label="Select Borough">
+          <option value="">Select Borough (5 Boroughs)...</option>
+          <option value="/new-york/#manhattan">Manhattan</option>
+          <option value="/new-york/#brooklyn">Brooklyn</option>
+          <option value="/new-york/#queens">Queens</option>
+          <option value="/new-york/#bronx">The Bronx</option>
+          <option value="/new-york/#staten-island">Staten Island</option>
+        </select>
+        <div class="ccb-chips">
+          <a href="/new-york/#manhattan" class="ccb-chip">Manhattan</a>
+          <a href="/new-york/#brooklyn" class="ccb-chip">Brooklyn</a>
+          <a href="/new-york/#queens" class="ccb-chip">Queens</a>
+        </div>
+      </div>
+      <div class="ccb-services">
+        <a class="ccb-srv" href="/new-york/#transit"><span class="ccb-icon">🚇</span> MTA Live: <strong>Normal</strong></a>
+        <a class="ccb-srv" href="/new-york/#pharmacies"><span class="ccb-icon">💊</span> 24/7 Rx: <strong>Active</strong></a>
+        <span class="ccb-weather"><span class="ccb-icon">⛅</span> <strong>16°C</strong></span>
+        <a class="ccb-hub-link" href="/new-york/">NYC Guide →</a>
+      </div>
+    </div>
+  </aside>
 
   <div class="container">
     <div class="page-layout">
@@ -2562,45 +2638,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                 <button class="slider-btn" type="button" data-slider-prev aria-label="Previous">‹</button>
                 <button class="slider-btn" type="button" data-slider-next aria-label="Next">›</button>
               </div>
-            </div>
-            <div class="side-headlines" aria-label="Featured stories">
-              
-              <a class="headline-card side-headline" href="/news/articles/wisconsin-congressman-tom-tiffany-lake-emergency-landing_20260913/" data-topic="gundem" aria-label="Wisconsin Congressman Tom Tiffany Injured in Lake Wausau Emergency Landing">
-                <div class="headline-image"><img src="/news/articles/2026/09/images/wisconsin-congressman-tom-tiffany-lake-emergency-landing_20260913.webp" alt="Wisconsin Congressman Tom Tiffany Injured in Lake Wausau Emergency Landing" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="live-stream-badge"><span class="pulse-dot"></span> LIVE</span>
-                    <span class="headline-tag">Featured</span>
-                    <span class="headline-topic">Agenda</span>
-                  </div>
-                  <h3 class="headline-title">Wisconsin Congressman Tom Tiffany Injured in Lake Wausau Emergency Landing</h3>
-                  <time class="headline-date" datetime="2026-09-13">13.09.2026</time>
-                </div>
-              </a>
-              <a class="headline-card side-headline" href="/news/articles/pope-leo-xiv-9-11-anniversary-peace-call_20260913/" data-topic="gundem" aria-label="Pope Leo XIV Calls for Peace on 9/11 25th Anniversary">
-                <div class="headline-image"><img src="/news/articles/2026/09/images/pope-leo-xiv-9-11-anniversary-peace-call_20260913.webp" alt="Pope Leo XIV Calls for Peace on 9/11 25th Anniversary" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="live-stream-badge"><span class="pulse-dot"></span> LIVE</span>
-                    <span class="headline-tag">Featured</span>
-                    <span class="headline-topic">Agenda</span>
-                  </div>
-                  <h3 class="headline-title">Pope Leo XIV Calls for Peace on 9/11 25th Anniversary</h3>
-                  <time class="headline-date" datetime="2026-09-13">13.09.2026</time>
-                </div>
-              </a>
-              <a class="headline-card side-headline" href="/news/articles/admiral-brad-cooper-munition-shortage-not-concerned-2026-09-13_20260913/" data-topic="gundem" aria-label="Admiral Cooper Unconcerned About Munition Shortage">
-                <div class="headline-image"><img src="/news/articles/2026/09/images/admiral-brad-cooper-munition-shortage-not-concerned-2026-09-13_20260913.webp" alt="Admiral Cooper Unconcerned About Munition Shortage" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="live-stream-badge"><span class="pulse-dot"></span> LIVE</span>
-                    <span class="headline-tag">Featured</span>
-                    <span class="headline-topic">Agenda</span>
-                  </div>
-                  <h3 class="headline-title">Admiral Cooper Unconcerned About Munition Shortage</h3>
-                  <time class="headline-date" datetime="2026-09-13">13.09.2026</time>
-                </div>
-              </a>
             </div>
           </div>
         </section>
@@ -3463,6 +3500,29 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </div>
       </article>
+      <article class="news-card topic-card" data-topic="saglik">
+        <a class="card-image-link" href="/news/articles/congo-ebola-outbreak-mob-violence_20260523/" aria-label="Mob Burns Congo Ebola Center Amid Rare Strain Outbreak"><div class="card-image"><img src="https://images.unsplash.com/photo-1624448713098-baface803acf?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFYm9sYXxlbnwwfDB8fHwxNzc5NDg4ODIwfDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Mob Burns Congo Ebola Center Amid Rare Strain Outbreak" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">Health</span>
+            <time class="card-date" datetime="2026-05-23">23.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/congo-ebola-outbreak-mob-violence_20260523/">Mob Burns Congo Ebola Center Amid Rare Strain Outbreak</a>
+          </h3>
+          <p class="card-excerpt">A mob has burned an Ebola center in Congo amid a rare strain outbreak, highlighting public health concerns in the region. The incident occurred at a hospital, where the outbreak i...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/congo-ebola-outbreak-mob-violence_20260523/" aria-label="Mob Burns Congo Ebola Center Amid Rare Strain Outbreak read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fcongo-ebola-outbreak-mob-violence_20260523%2F&text=Mob+Burns+Congo+Ebola+Center+Amid+Rare+Strain+Outbreak" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fcongo-ebola-outbreak-mob-violence_20260523%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Mob+Burns+Congo+Ebola+Center+Amid+Rare+Strain+Outbreak%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fcongo-ebola-outbreak-mob-violence_20260523%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fcongo-ebola-outbreak-mob-violence_20260523%2F&text=Mob+Burns+Congo+Ebola+Center+Amid+Rare+Strain+Outbreak" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
       <article class="news-card topic-card" data-topic="siyaset">
         <a class="card-image-link" href="/news/articles/gop-immigration-enforcement-cuban-president-indictment_20260521/" aria-label="GOP Pushes for $72 Billion Immigration Enforcement Package, US Indicts Former Cuban President"><div class="card-image"><img src="https://images.unsplash.com/photo-1520525003249-2b9cdda513bc?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVUyUyMENhcGl0b2x8ZW58MHwwfHx8MTc3OTM4MDk3Mnww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="GOP Pushes for $72 Billion Immigration Enforcement Package, US Indicts Former Cuban President" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
@@ -4108,7 +4168,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         </div>
       </article>
       <article class="news-card topic-card" data-topic="dunya">
-        <a class="card-image-link" href="/news/articles/blocked-strait-of-hormuz-leads-to-new-opportunities-for-syria_20260518/" aria-label="Blocked Strait of Hormuz Leads to New Opportunities for Syria"><div class="card-image"><img src="https://images.unsplash.com/photo-1659781044995-1c68c81dcc67?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxTeXJpYXxlbnwwfDB8fHwxNzc5MTI3NjUzfDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Blocked Strait of Hormuz Leads to New Opportunities for Syria" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/news/articles/blocked-strait-hormuz-syria-economic-opportunities_20260518/" aria-label="Blocked Strait of Hormuz Leads to New Opportunities for Syria"><div class="card-image"><img src="https://images.unsplash.com/photo-1500252185289-40ca85eb23a7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxXYXJ8ZW58MHwwfHx8MTc3OTEwNDIyMnww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Blocked Strait of Hormuz Leads to New Opportunities for Syria" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇺🇸 United States</span>
@@ -4116,16 +4176,16 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
             <time class="card-date" datetime="2026-05-18">18.05.2026</time>
           </div>
           <h3 class="card-title">
-            <a href="/news/articles/blocked-strait-of-hormuz-leads-to-new-opportunities-for-syria_20260518/">Blocked Strait of Hormuz Leads to New Opportunities for Syria</a>
+            <a href="/news/articles/blocked-strait-hormuz-syria-economic-opportunities_20260518/">Blocked Strait of Hormuz Leads to New Opportunities for Syria</a>
           </h3>
           <p class="card-excerpt">More details are available in the full story.</p>
           <div class="card-footer">
-            <a class="read-more" href="/news/articles/blocked-strait-of-hormuz-leads-to-new-opportunities-for-syria_20260518/" aria-label="Blocked Strait of Hormuz Leads to New Opportunities for Syria read this story">Read More →</a>
+            <a class="read-more" href="/news/articles/blocked-strait-hormuz-syria-economic-opportunities_20260518/" aria-label="Blocked Strait of Hormuz Leads to New Opportunities for Syria read this story">Read More →</a>
             <div class="share-mini" aria-label="Share">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-of-hormuz-leads-to-new-opportunities-for-syria_20260518%2F&text=Blocked+Strait+of+Hormuz+Leads+to+New+Opportunities+for+Syria" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-of-hormuz-leads-to-new-opportunities-for-syria_20260518%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Blocked+Strait+of+Hormuz+Leads+to+New+Opportunities+for+Syria%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-of-hormuz-leads-to-new-opportunities-for-syria_20260518%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-of-hormuz-leads-to-new-opportunities-for-syria_20260518%2F&text=Blocked+Strait+of+Hormuz+Leads+to+New+Opportunities+for+Syria" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-hormuz-syria-economic-opportunities_20260518%2F&text=Blocked+Strait+of+Hormuz+Leads+to+New+Opportunities+for+Syria" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-hormuz-syria-economic-opportunities_20260518%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Blocked+Strait+of+Hormuz+Leads+to+New+Opportunities+for+Syria%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-hormuz-syria-economic-opportunities_20260518%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-hormuz-syria-economic-opportunities_20260518%2F&text=Blocked+Strait+of+Hormuz+Leads+to+New+Opportunities+for+Syria" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
@@ -4149,29 +4209,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Felon-musk-loses-150-billion-suit-against-openai_20260518%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
               <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Elon+Musk+Loses+%24150+Billion+Suit+Against+OpenAI%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Felon-musk-loses-150-billion-suit-against-openai_20260518%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
               <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Felon-musk-loses-150-billion-suit-against-openai_20260518%2F&text=Elon+Musk+Loses+%24150+Billion+Suit+Against+OpenAI" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="saglik">
-        <a class="card-image-link" href="/news/articles/us-restricts-travelers-from-africa-due-to-ebola-outbreak_20260518/" aria-label="US Restricts Travelers from Africa Due to Ebola Outbreak"><div class="card-image"><img src="https://images.unsplash.com/photo-1624448713098-baface803acf?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFYm9sYXxlbnwwfDB8fHwxNzc5MTAxNDU2fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="US Restricts Travelers from Africa Due to Ebola Outbreak" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">US United States</span>
-            <span class="card-topic">Health</span>
-            <time class="card-date" datetime="2026-05-18">18.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/news/articles/us-restricts-travelers-from-africa-due-to-ebola-outbreak_20260518/">US Restricts Travelers from Africa Due to Ebola Outbreak</a>
-          </h3>
-          <p class="card-excerpt">More details are available in the full story.</p>
-          <div class="card-footer">
-            <a class="read-more" href="/news/articles/us-restricts-travelers-from-africa-due-to-ebola-outbreak_20260518/" aria-label="US Restricts Travelers from Africa Due to Ebola Outbreak read this story">Read More →</a>
-            <div class="share-mini" aria-label="Share">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fus-restricts-travelers-from-africa-due-to-ebola-outbreak_20260518%2F&text=US+Restricts+Travelers+from+Africa+Due+to+Ebola+Outbreak" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fus-restricts-travelers-from-africa-due-to-ebola-outbreak_20260518%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=US+Restricts+Travelers+from+Africa+Due+to+Ebola+Outbreak%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fus-restricts-travelers-from-africa-due-to-ebola-outbreak_20260518%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fus-restricts-travelers-from-africa-due-to-ebola-outbreak_20260518%2F&text=US+Restricts+Travelers+from+Africa+Due+to+Ebola+Outbreak" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
@@ -4967,5 +5004,25 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
     refreshNewsGrid();
   </script>
   <script defer src="/assets/js/json-search.js?v=20260613c"></script>
+  <script defer src="/assets/js/member-home-menu.js?v=20260525b"></script>
+  <script defer src="/assets/js/global-search.js?v=20260613c"></script>
+  <script defer src="/assets/js/mobile-home-ux.js?v=20260527a"></script>
+  <script defer src="/assets/js/showcase-side-rotation.js?v=20260605e"></script>
+  <script>
+    (function() {
+      const btn = document.getElementById('theme-toggle');
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark' || (!saved && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.body.classList.add('dark-mode');
+      }
+      if (btn) {
+        btn.addEventListener('click', function() {
+          document.body.classList.toggle('dark-mode');
+          const isDark = document.body.classList.contains('dark-mode');
+          localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        });
+      }
+    })();
+  </script>
 </body>
 </html>

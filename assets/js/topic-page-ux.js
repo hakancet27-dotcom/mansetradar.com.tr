@@ -511,8 +511,7 @@
 
   function renderCategoryShowcase(articles, topic) {
     var slider = document.querySelector('.headline-slider');
-    var side = document.querySelector('.side-headlines');
-    if (!slider || !side || !articles.length) return;
+    if (!slider || !articles.length) return;
 
     var controls = slider.querySelector('.slider-controls');
     var dots = slider.querySelector('.slider-dots');
@@ -527,27 +526,10 @@
     });
     initCategoryHeadlineSlider(slider);
 
-    Array.prototype.slice.call(side.querySelectorAll('.side-headline')).forEach(function (card) {
-      card.remove();
-    });
-    var sideArticles = articles.length > 10 ? articles.slice(10, 20) : articles.slice(0, 10);
-    if (sideArticles.length < 10) {
-      var usedSide = new Set(sideArticles.map(function (article) {
-        return articleKey(articleUrl(article));
-      }));
-      articles.some(function (article) {
-        var key = articleKey(articleUrl(article));
-        if (!key || usedSide.has(key)) return false;
-        sideArticles.push(article);
-        usedSide.add(key);
-        return sideArticles.length >= 10;
-      });
+    var side = document.querySelector('.side-headlines');
+    if (side) {
+      side.remove();
     }
-    sideArticles.forEach(function (article) {
-      var card = buildSideHeadlineFromArticle(article, topic);
-      if (card) side.appendChild(card);
-    });
-    if (typeof window.refreshSideHeadlineRotation === 'function') window.refreshSideHeadlineRotation();
   }
 
   async function ensureCategoryShowcase() {

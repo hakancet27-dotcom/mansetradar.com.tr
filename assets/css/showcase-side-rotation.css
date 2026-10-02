@@ -1,5 +1,5 @@
-/* Compact rotating secondary headlines beside the desktop hero. */
-.side-headlines.is-rotating .side-headline.is-side-rotation-hidden {
+/* Side headlines removed per single hero requirement. */
+.side-headlines {
   display: none !important;
 }
 
