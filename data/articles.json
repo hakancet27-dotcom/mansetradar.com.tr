@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-02T00:00:00+00:00",
-    "article_count": 1907,
+    "article_count": 1909,
     "schema_version": 2
   },
   "articles": [
@@ -406,6 +406,47 @@
       "review_status": "published"
     },
     {
+      "id": "news/articles/2026/10:flydubai-pilot-survival-story-co-pilot-attack_20261002",
+      "slug": "flydubai-pilot-survival-story-co-pilot-attack_20261002",
+      "title": "FlyDubai Pilot's Heroic Survival Story After Co-Pilot Attack",
+      "summary": "FlyDubai Captain Smit Machchhar, an Indian national, shared his harrowing survival story with India's Prime Minister Narendra Modi from his hospital bed in Saudi Arabia, after being stabbed by his co-pilot during a Wednesday flight to Israel. Machchhar's qu...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "02.10.2026",
+      "date_iso": "2026-10-02",
+      "url": "/news/articles/2026/10/flydubai-pilot-survival-story-co-pilot-attack_20261002/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/flydubai-pilot-survival-story-co-pilot-attack_20261002/",
+      "detail_json_url": "/data/details/news/articles/2026/10/flydubai-pilot-survival-story-co-pilot-attack_20261002.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/flydubai-pilot-survival-story-co-pilot-attack_20261002.webp",
+      "image_alt": "FlyDubai Pilot's Heroic Survival Story After Co-Pilot Attack",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/flydubai-pilot-survival-story-co-pilot-attack_20261002.webp",
+        "alt": "FlyDubai Pilot's Heroic Survival Story After Co-Pilot Attack"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/flydubai-flight-incident-pilot-tells-india-leader-modi-his-story/",
+      "tags": [
+        "FlyDubai",
+        "Pilot Attack",
+        "Smit Machchhar",
+        "Narendra Modi",
+        "Aviation Safety",
+        "Co-pilot",
+        "Israel Flight",
+        "Saudi Arabia"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:enda-enerji-izmir-kapasite-artisi-10-milyon-dolar_20261002",
       "slug": "enda-enerji-izmir-kapasite-artisi-10-milyon-dolar_20261002",
       "title": "Enda Enerji, İzmir'deki Rüzgar Enerjisi Kapasitesini Artırıyor",
@@ -514,6 +555,45 @@
         "DFB-Debüt",
         "Jürgen Klopp",
         "Nationalmannschaft"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:cornell-case-accused-man-allegedly-asked-student-to-keep-quiet_20261002",
+      "slug": "cornell-case-accused-man-allegedly-asked-student-to-keep-quiet_20261002",
+      "title": "Cornell Case: Accused Man Allegedly Asked Student to Keep Quiet",
+      "summary": "New details have emerged in the Cornell University alleged rape case, revealing that an accused man allegedly asked a student to ensure a friend didn't \"say anything\" about the incident. This request, initially dismissed, gained significance after a campus...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "02.10.2026",
+      "date_iso": "2026-10-02",
+      "url": "/news/articles/2026/10/cornell-case-accused-man-allegedly-asked-student-to-keep-quiet_20261002/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/cornell-case-accused-man-allegedly-asked-student-to-keep-quiet_20261002/",
+      "detail_json_url": "/data/details/news/articles/2026/10/cornell-case-accused-man-allegedly-asked-student-to-keep-quiet_20261002.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/cornell-case-accused-man-allegedly-asked-student-to-keep-quiet_20261002.webp",
+      "image_alt": "Cornell Case: Accused Man Allegedly Asked Student to Keep Quiet",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/cornell-case-accused-man-allegedly-asked-student-to-keep-quiet_20261002.webp",
+        "alt": "Cornell Case: Accused Man Allegedly Asked Student to Keep Quiet"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/cornell-university-case-jane-doe-man-accused-transcript/",
+      "tags": [
+        "Cornell University",
+        "Alleged Rape",
+        "Title IX",
+        "Tompkins County DA",
+        "Chi Phi",
+        "Campus Crime"
       ],
       "quality_score": 100,
       "review_status": "published"
