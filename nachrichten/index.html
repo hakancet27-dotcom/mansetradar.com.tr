@@ -2876,6 +2876,114 @@
       .imb-quick-chips { display: none; }
       .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
     }
+/* TOP ISTANBUL MEGA-BAR */
+    .istanbul-mega-bar {
+      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
+      color: white;
+      border-bottom: 2px solid #dc2626;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+      font-size: 0.85rem;
+      position: relative;
+      z-index: 99;
+    }
+    .istanbul-mega-bar .inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .imb-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .imb-brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .imb-badge {
+      background: #dc2626;
+      color: white;
+      font-weight: 900;
+      font-size: 0.72rem;
+      padding: 3px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+    .imb-select {
+      background: #0f172a;
+      color: #f8fafc;
+      border: 1px solid #334155;
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      outline: none;
+    }
+    .imb-select:focus { border-color: #38bdf8; }
+    .imb-quick-chips {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+    .imb-chip-btn {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #e2e8f0;
+      border-radius: 999px;
+      padding: 3px 10px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+    .imb-chip-btn:hover {
+      background: #dc2626;
+      color: white;
+      border-color: #dc2626;
+    }
+    .imb-services {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .imb-srv {
+      color: #cbd5e1;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.82rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .imb-srv:hover {
+      background: rgba(255,255,255,0.1);
+      color: white;
+    }
+    .imb-weather-pill {
+      background: rgba(56,189,248,0.15);
+      color: #38bdf8;
+      border: 1px solid rgba(56,189,248,0.3);
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 0.78rem;
+    }
+    @media (max-width: 900px) {
+      .imb-quick-chips { display: none; }
+      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
+    }
     
   /* FIRST_PAINT_TOPIC_FILTER_START */
 html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]) .topic-card {
@@ -3012,24 +3120,11 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           <div class="showcase-grid">
             <div class="headline-slider" aria-label="Aktuelle Deutschland Nachrichten">
               
-              <a class="headline-slide headline-card topic-card is-active" href="/nachrichten/artikel/ard-deutschlandtrend-rekordfrust-ueber-regierung-und-merz_20261001/" data-topic="gundem" aria-label="ARD-Deutschlandtrend: Rekordfrust über Regierung und Merz">
-                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/ard-deutschlandtrend-rekordfrust-ueber-regierung-und-merz_20261001.webp" alt="ARD-Deutschlandtrend: Rekordfrust über Regierung und Merz" loading="eager" fetchpriority="high" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card is-active" href="/nachrichten/artikel/tennessee-supreme-court-erlaubt-hinrichtung-von-christa-pike_20261001/" data-topic="gundem" aria-label="Tennessee: Supreme Court erlaubt Hinrichtung von Christa Pike">
+                <div class="headline-image"><img src="/nachrichten/artikel/images/tennessee-supreme-court-erlaubt-hinrichtung-von-christa-pike_20261001.webp" alt="Tennessee: Supreme Court erlaubt Hinrichtung von Christa Pike" loading="eager" fetchpriority="high" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
                     <span class="headline-tag">Topmeldung #1</span>
-                    <span class="headline-topic">Themen</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
-                  </div>
-                  <h2 class="headline-title">ARD-Deutschlandtrend: Rekordfrust über Regierung und Merz</h2>
-                  <time class="headline-date" datetime="2026-10-01">01.10.2026</time>
-                </div>
-              </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/tennessee-supreme-court-erlaubt-hinrichtung-von-christa-pike_20261001/" data-topic="gundem" aria-label="Tennessee: Supreme Court erlaubt Hinrichtung von Christa Pike">
-                <div class="headline-image"><img src="/nachrichten/artikel/images/tennessee-supreme-court-erlaubt-hinrichtung-von-christa-pike_20261001.webp" alt="Tennessee: Supreme Court erlaubt Hinrichtung von Christa Pike" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #2</span>
                     <span class="headline-topic">Themen</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3042,7 +3137,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                 <div class="headline-image"><img src="/nachrichten/artikel/images/schweizer-gletscher-beispielloser-eisschwund-2026_20261001.webp" alt="Schweizer Gletscher: Beispielloser Eisschwund 2026" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #3</span>
+                    <span class="headline-tag">Topmeldung #2</span>
                     <span class="headline-topic">Themen</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3055,7 +3150,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                 <div class="headline-image"><img src="/nachrichten/artikel/images/pistorius-drohnenregiment-bundeswehr_20261001.webp" alt="Pistorius kündigt Aufstellung eines Bundeswehr-Drohnenregiments an" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #4</span>
+                    <span class="headline-tag">Topmeldung #3</span>
                     <span class="headline-topic">Themen</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3064,16 +3159,16 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                   <time class="headline-date" datetime="2026-10-01">01.10.2026</time>
                 </div>
               </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/todesstrafe-usa-giftspritze-tennessee-gescheiterte-hinrichtung_20261001/" data-topic="gundem" aria-label="Gescheiterte Hinrichtung in Tennessee wirft Fragen zur Giftspritze auf">
-                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/todesstrafe-usa-giftspritze-tennessee-gescheiterte-hinrichtung_20261001.webp" alt="Gescheiterte Hinrichtung in Tennessee wirft Fragen zur Giftspritze auf" loading="lazy" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/ard-deutschlandtrend-rekordfrust-ueber-regierung-und-merz_20261001/" data-topic="gundem" aria-label="ARD-Deutschlandtrend: Rekordfrust über Regierung und Merz">
+                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/ard-deutschlandtrend-rekordfrust-ueber-regierung-und-merz_20261001.webp" alt="ARD-Deutschlandtrend: Rekordfrust über Regierung und Merz" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #5</span>
+                    <span class="headline-tag">Topmeldung #4</span>
                     <span class="headline-topic">Themen</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
                   </div>
-                  <h2 class="headline-title">Gescheiterte Hinrichtung in Tennessee wirft Fragen zur Giftspritze auf</h2>
+                  <h2 class="headline-title">ARD-Deutschlandtrend: Rekordfrust über Regierung und Merz</h2>
                   <time class="headline-date" datetime="2026-10-01">01.10.2026</time>
                 </div>
               </a>
@@ -3081,7 +3176,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/italien-burkaverbot-sprachquote-schulen-meloni-regierung_20261001.webp" alt="Italien: Burkaverbot und Sprachquote an Schulen in Kraft" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #6</span>
+                    <span class="headline-tag">Topmeldung #5</span>
                     <span class="headline-topic">Themen</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3094,7 +3189,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/hausarztzentrierte-versorgung-baden-wuerttemberg-vorreiter_20261001.webp" alt="Hausarztzentrierte Versorgung: Baden-Württemberg als Vorreiter für bundesweites System" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #7</span>
+                    <span class="headline-tag">Topmeldung #6</span>
                     <span class="headline-topic">Themen</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3107,12 +3202,25 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                 <div class="headline-image"><img src="/nachrichten/artikel/images/us-anleihen-renditen-hoehepunkt-irankrieg-inflation_20261001.webp" alt="US-Anleihen: Renditen auf Höchststand seit 25 Jahren – Irankrieg treibt Inflation und Zinsen" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #8</span>
+                    <span class="headline-tag">Topmeldung #7</span>
                     <span class="headline-topic">Wirtschaft</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
                   </div>
                   <h2 class="headline-title">US-Anleihen: Renditen auf Höchststand seit 25 Jahren – Irankrieg treibt Inflation und Zinsen</h2>
+                  <time class="headline-date" datetime="2026-10-01">01.10.2026</time>
+                </div>
+              </a>
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/r-v-studie-aengste-deutsche-teuerung-2026_20261001/" data-topic="ekonomi" aria-label="R+V-Studie 2026: Steigende Lebenshaltungskosten größte Angst der Deutschen">
+                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/r-v-studie-aengste-deutsche-teuerung-2026_20261001.webp" alt="R+V-Studie 2026: Steigende Lebenshaltungskosten größte Angst der Deutschen" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Topmeldung #8</span>
+                    <span class="headline-topic">Wirtschaft</span>
+                    <span class="headline-trust">✅ Verifiziert</span>
+                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                  </div>
+                  <h2 class="headline-title">R+V-Studie 2026: Steigende Lebenshaltungskosten größte Angst der Deutschen</h2>
                   <time class="headline-date" datetime="2026-10-01">01.10.2026</time>
                 </div>
               </a>
@@ -3129,16 +3237,16 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                   <time class="headline-date" datetime="2026-10-01">01.10.2026</time>
                 </div>
               </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/r-v-studie-aengste-deutsche-teuerung-2026_20261001/" data-topic="ekonomi" aria-label="R+V-Studie 2026: Steigende Lebenshaltungskosten größte Angst der Deutschen">
-                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/r-v-studie-aengste-deutsche-teuerung-2026_20261001.webp" alt="R+V-Studie 2026: Steigende Lebenshaltungskosten größte Angst der Deutschen" loading="lazy" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/bundeswehr-stellt-erstes-drohnenregiment-auf_20261001/" data-topic="dunya" aria-label="Bundeswehr stellt erstes Drohnenregiment auf">
+                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/bundeswehr-stellt-erstes-drohnenregiment-auf_20261001.webp" alt="Bundeswehr stellt erstes Drohnenregiment auf" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
                     <span class="headline-tag">Topmeldung #10</span>
-                    <span class="headline-topic">Wirtschaft</span>
+                    <span class="headline-topic">Welt</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
                   </div>
-                  <h2 class="headline-title">R+V-Studie 2026: Steigende Lebenshaltungskosten größte Angst der Deutschen</h2>
+                  <h2 class="headline-title">Bundeswehr stellt erstes Drohnenregiment auf</h2>
                   <time class="headline-date" datetime="2026-10-01">01.10.2026</time>
                 </div>
               </a>
@@ -3149,18 +3257,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
             </div>
             <div class="side-headlines" aria-label="Featured stories">
               
-              <a class="headline-card side-headline" href="/nachrichten/artikel/bundeswehr-stellt-erstes-drohnenregiment-auf_20261001/" data-topic="dunya" aria-label="Bundeswehr stellt erstes Drohnenregiment auf">
-                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/bundeswehr-stellt-erstes-drohnenregiment-auf_20261001.webp" alt="Bundeswehr stellt erstes Drohnenregiment auf" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="live-stream-badge"><span class="pulse-dot"></span> LIVE</span>
-                    <span class="headline-tag">Ausgewählt</span>
-                    <span class="headline-topic">Welt</span>
-                  </div>
-                  <h3 class="headline-title">Bundeswehr stellt erstes Drohnenregiment auf</h3>
-                  <time class="headline-date" datetime="2026-10-01">01.10.2026</time>
-                </div>
-              </a>
               <a class="headline-card side-headline" href="/nachrichten/artikel/us-verteidigungsminister-hegseth-verschlankt-armee-musk-kriegsfuehrung_20261001/" data-topic="teknoloji" aria-label="Hegseth verschlankt US-Armee um 20%, Musk erforscht Kriegsführung">
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/us-verteidigungsminister-hegseth-verschlankt-armee-musk-kriegsfuehrung_20261001.webp" alt="Hegseth verschlankt US-Armee um 20%, Musk erforscht Kriegsführung" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
@@ -3183,6 +3279,18 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
                   </div>
                   <h3 class="headline-title">Pentagon setzt auf KI: Hegseth streicht Generäle und holt Elon Musk für Roboter-Armee</h3>
                   <time class="headline-date" datetime="2026-10-01">01.10.2026</time>
+                </div>
+              </a>
+              <a class="headline-card side-headline" href="/nachrichten/artikel/michael-j-fox-emmys-parkinson-rede_20260915/" data-topic="gundem" aria-label="Michael J. Fox hält bewegende Rede bei den Emmys über Parkinson">
+                <div class="headline-image"><img src="/nachrichten/artikel/images/michael-j-fox-emmys-parkinson-rede_20260915.webp" alt="Michael J. Fox hält bewegende Rede bei den Emmys über Parkinson" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="live-stream-badge"><span class="pulse-dot"></span> LIVE</span>
+                    <span class="headline-tag">Ausgewählt</span>
+                    <span class="headline-topic">Themen</span>
+                  </div>
+                  <h3 class="headline-title">Michael J. Fox hält bewegende Rede bei den Emmys über Parkinson</h3>
+                  <time class="headline-date" datetime="2026-09-15">15.09.2026</time>
                 </div>
               </a>
             </div>
@@ -3219,29 +3327,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
           <div class="news-grid" id="grid-main">
             
-      <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/michael-j-fox-emmys-parkinson-rede_20260915/" aria-label="Michael J. Fox hält bewegende Rede bei den Emmys über Parkinson"><div class="card-image"><img src="/nachrichten/artikel/images/michael-j-fox-emmys-parkinson-rede_20260915.webp" alt="Michael J. Fox hält bewegende Rede bei den Emmys über Parkinson" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Deutschland</span>
-            <span class="card-topic">Themen</span>
-            <time class="card-date" datetime="2026-09-15">15.09.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/michael-j-fox-emmys-parkinson-rede_20260915/">Michael J. Fox hält bewegende Rede bei den Emmys über Parkinson</a>
-          </h3>
-          <p class="card-excerpt">Der Schauspieler Michael J. Fox (65, bekannt aus „Zurück in die Zukunft“) hat bei den Emmy Awards am 14. September mit einer bewegenden Rede über sein Leben mit Parkinson für Aufs...</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/michael-j-fox-emmys-parkinson-rede_20260915/" aria-label="Michael J. Fox hält bewegende Rede bei den Emmys über Parkinson Artikel lesen">Weiterlesen →</a>
-            <div class="share-mini" aria-label="Teilen">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fmichael-j-fox-emmys-parkinson-rede_20260915%2F&text=Michael+J.+Fox+h%C3%A4lt+bewegende+Rede+bei+den+Emmys+%C3%BCber+Parkinson" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fmichael-j-fox-emmys-parkinson-rede_20260915%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Michael+J.+Fox+h%C3%A4lt+bewegende+Rede+bei+den+Emmys+%C3%BCber+Parkinson%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fmichael-j-fox-emmys-parkinson-rede_20260915%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fmichael-j-fox-emmys-parkinson-rede_20260915%2F&text=Michael+J.+Fox+h%C3%A4lt+bewegende+Rede+bei+den+Emmys+%C3%BCber+Parkinson" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
       <article class="news-card topic-card" data-topic="gundem">
         <a class="card-image-link" href="/nachrichten/artikel/ralf-richter-schauspieler-das-boot-bang-boom-bang-tot_20260915/" aria-label="Ralf Richter ist tot: „Das Boot“- und „Bang Boom Bang“-Star mit 69 gestorben"><div class="card-image"><img src="/nachrichten/artikel/images/ralf-richter-schauspieler-das-boot-bang-boom-bang-tot_20260915.webp" alt="Ralf Richter ist tot: „Das Boot“- und „Bang Boom Bang“-Star mit 69 gestorben" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
