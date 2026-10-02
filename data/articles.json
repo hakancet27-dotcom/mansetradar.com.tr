@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-02T00:00:00+00:00",
-    "article_count": 1921,
+    "article_count": 1925,
     "schema_version": 2
   },
   "articles": [
@@ -157,6 +157,43 @@
         "Magazin Haberleri"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:rente-rechnungshof-warnt-wachsende-belastung-bundeshaushalt_20261002",
+      "slug": "rente-rechnungshof-warnt-wachsende-belastung-bundeshaushalt_20261002",
+      "title": "Bundesrechnungshof warnt vor steigender Rentenlast für den Bundeshaushalt",
+      "summary": "Der Bundesrechnungshof warnt eindringlich vor einer stark wachsenden finanziellen Belastung des Bundeshaushalts durch die Rentenkasse. Nach aktuellen Prognosen könnte die Bundesregierung im Jahr 2040 voraussichtlich 36,7 Prozent aller Steuereinnahmen des Bu...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "02.10.2026",
+      "date_iso": "2026-10-02",
+      "url": "/nachrichten/artikel/2026/10/rente-rechnungshof-warnt-wachsende-belastung-bundeshaushalt_20261002/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/rente-rechnungshof-warnt-wachsende-belastung-bundeshaushalt_20261002/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/rente-rechnungshof-warnt-wachsende-belastung-bundeshaushalt_20261002.json",
+      "image_url": "https://cdn.prod.www.spiegel.de/images/6dcab525-a7e9-47d5-8c07-38a24c760a53_w520_r2.08_fpx60.67_fpy45.jpg",
+      "image_alt": "Symbolische Darstellung der steigenden Rentenlast für den deutschen Bundeshaushalt.",
+      "image": {
+        "url": "https://cdn.prod.www.spiegel.de/images/6dcab525-a7e9-47d5-8c07-38a24c760a53_w520_r2.08_fpx60.67_fpy45.jpg",
+        "alt": "Symbolische Darstellung der steigenden Rentenlast für den deutschen Bundeshaushalt."
+      },
+      "source_name": "DER SPIEGEL - Schlagzeilen",
+      "source_url": "https://www.spiegel.de/politik/deutschland/rente-rechnungshof-warnt-vor-wachsender-belastung-des-bundeshaushalts-a-078e77e8-7152-4158-8fba-dd68fca2779d#ref=rss",
+      "tags": [
+        "Rentenversicherung",
+        "Bundesrechnungshof",
+        "Bundeshaushalt",
+        "Rentenreform"
+      ],
+      "quality_score": 90,
       "review_status": "published"
     },
     {
@@ -873,6 +910,45 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/10:coldmirror-distanziert-sich-von-harry-potter-wegen-jk-rowling_20261002",
+      "slug": "coldmirror-distanziert-sich-von-harry-potter-wegen-jk-rowling_20261002",
+      "title": "Coldmirror distanziert sich von Harry Potter: „Keine Liebe mehr“ wegen J.K. Rowling",
+      "summary": "Die YouTuberin Kathrin Fricke, besser bekannt als Coldmirror, hat ihre einstige Leidenschaft für die Harry Potter-Welt verloren. Grund dafür sind die kontroversen Äußerungen der Autorin J.K. Rowling zu Trans-Menschen. Coldmirror, die mit ihren Neusynchronis...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "02.10.2026",
+      "date_iso": "2026-10-02",
+      "url": "/nachrichten/artikel/2026/10/coldmirror-distanziert-sich-von-harry-potter-wegen-jk-rowling_20261002/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/coldmirror-distanziert-sich-von-harry-potter-wegen-jk-rowling_20261002/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/coldmirror-distanziert-sich-von-harry-potter-wegen-jk-rowling_20261002.json",
+      "image_url": "https://cdn.prod.www.spiegel.de/images/7218fde7-5f32-4b06-b194-c81cc80137fa_w520_r2.08_fpx55.08_fpy45.jpg",
+      "image_alt": "YouTuberin Coldmirror distanziert sich von Harry Potter wegen J.K. Rowlings Äußerungen.",
+      "image": {
+        "url": "https://cdn.prod.www.spiegel.de/images/7218fde7-5f32-4b06-b194-c81cc80137fa_w520_r2.08_fpx55.08_fpy45.jpg",
+        "alt": "YouTuberin Coldmirror distanziert sich von Harry Potter wegen J.K. Rowlings Äußerungen."
+      },
+      "source_name": "DER SPIEGEL - Schlagzeilen",
+      "source_url": "https://www.spiegel.de/kultur/coldmirror-youtuberin-empfindet-keine-liebe-mehr-fuer-harry-potter-a-1e59345c-210e-44e6-8a91-2d018284fb56#ref=rss",
+      "tags": [
+        "Coldmirror",
+        "Harry Potter",
+        "J.K. Rowling",
+        "Transfeindlichkeit",
+        "YouTuberin",
+        "Medienkunst"
+      ],
+      "quality_score": 90,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:cagla-boz-uyusturucu-sorusturmasi-aciklamasi-sac-testi-pozitif_20261002",
       "slug": "cagla-boz-uyusturucu-sorusturmasi-aciklamasi-sac-testi-pozitif_20261002",
       "title": "Çağla Boz'dan Uyuşturucu Soruşturması Açıklaması: Saç Testi Pozitif Çıktı",
@@ -991,6 +1067,43 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/10:bilger-fordert-bahn-verbesserung-bis-2029_20261002",
+      "slug": "bilger-fordert-bahn-verbesserung-bis-2029_20261002",
+      "title": "Verkehrsminister Bilger fordert spürbare Verbesserung bei der Bahn bis 2029",
+      "summary": "Bundesverkehrsminister Steffen Bilger (CDU) hat der Deutschen Bahn eine Frist gesetzt: Bis 2029 soll es eine \"spürbare Verbesserung\" für die Bahnkunden geben. Dies beinhaltet auch eine Anhebung des Pünktlichkeitsziels im Fernverkehr auf 70 Prozent. Bilger k...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "02.10.2026",
+      "date_iso": "2026-10-02",
+      "url": "/nachrichten/artikel/2026/10/bilger-fordert-bahn-verbesserung-bis-2029_20261002/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/bilger-fordert-bahn-verbesserung-bis-2029_20261002/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/bilger-fordert-bahn-verbesserung-bis-2029_20261002.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/bilger-fordert-bahn-verbesserung-bis-2029_20261002.webp",
+      "image_alt": "Ein moderner deutscher Bahnhof mit einem einfahrenden Zug und einer digitalen Anzeigetafel, die auf Verbesserungen im...",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/bilger-fordert-bahn-verbesserung-bis-2029_20261002.webp",
+        "alt": "Ein moderner deutscher Bahnhof mit einem einfahrenden Zug und einer digitalen Anzeigetafel, die auf Verbesserungen im..."
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/inland/bilger-verspricht-besserung-bei-bahn-100.html",
+      "tags": [
+        "Deutsche Bahn",
+        "Steffen Bilger",
+        "Verkehrspolitik",
+        "Infrastruktur"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "nachrichten/artikel/2026/10:autoritaere-erziehung-depression-kinder_20261002",
       "slug": "autoritaere-erziehung-depression-kinder_20261002",
       "title": "Autoritäre Erziehung: Wie ein harter Erziehungsstil die Psyche von Kindern schädigt",
@@ -1066,6 +1179,46 @@
         "2026"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:apple-watch-12-praezise-gesundheitsdaten-tagesform_20261002",
+      "slug": "apple-watch-12-praezise-gesundheitsdaten-tagesform_20261002",
+      "title": "Apple Watch 12: Präzise Gesundheitsdaten und neue Tagesform-Analyse",
+      "summary": "Die Apple Watch 12 bringt ein umfassendes Upgrade für Gesundheits- und Fitness-Tracking. Mit einem neuen, präzisen Sensorsystem misst sie Herzfrequenz und andere Körperdaten genauer als je zuvor. Dies ermöglicht nicht nur detailliertere Einblicke, sondern a...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "02.10.2026",
+      "date_iso": "2026-10-02",
+      "url": "/nachrichten/artikel/2026/10/apple-watch-12-praezise-gesundheitsdaten-tagesform_20261002/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/apple-watch-12-praezise-gesundheitsdaten-tagesform_20261002/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/apple-watch-12-praezise-gesundheitsdaten-tagesform_20261002.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/apple-watch-12-praezise-gesundheitsdaten-tagesform_20261002.webp",
+      "image_alt": "Apple Watch 12 zeigt präzise Gesundheitsdaten und Herzfrequenz auf dem Display, mit Fokus auf die Sensorik.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/apple-watch-12-praezise-gesundheitsdaten-tagesform_20261002.webp",
+        "alt": "Apple Watch 12 zeigt präzise Gesundheitsdaten und Herzfrequenz auf dem Display, mit Fokus auf die Sensorik."
+      },
+      "source_name": "n-tv.de - Startseite",
+      "source_url": "https://www.n-tv.de/technik/Die-Apple-Watch-12-nimmt-es-ganz-genau-id31373758.html",
+      "tags": [
+        "Apple Watch 12",
+        "Herzfrequenz",
+        "Gesundheitsdaten",
+        "HFV",
+        "Wearable",
+        "Technologie",
+        "Fitness-Tracking"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
