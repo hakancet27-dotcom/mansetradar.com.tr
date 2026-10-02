@@ -1986,7 +1986,7 @@
       position: absolute !important;
       left: 18px !important;
       right: 18px !important;
-      bottom: 38px !important; /* leave room for number strip */
+      bottom: 44px !important; /* sits cleanly above the 32px number strip */
       z-index: 2 !important;
     }
 
@@ -2010,7 +2010,56 @@
       margin-bottom: 6px !important;
     }
 
-    /* ── NUMBER STRIP (Haberler.com 1:1 Number Buttons) ── */
+    /* ── SLIDER CONTROLS (Haberler.com 1:1 Left & Right Vertically Centered Chevrons) ── */
+    .headline-slider .slider-controls {
+      position: absolute !important;
+      inset: 0 !important;
+      pointer-events: none !important;
+      z-index: 8 !important;
+      display: block !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    .headline-slider .slider-btn {
+      pointer-events: auto !important;
+      position: absolute !important;
+      top: calc(50% - 16px) !important;
+      transform: translateY(-50%) !important;
+      width: 40px !important;
+      height: 40px !important;
+      border-radius: 50% !important;
+      background: rgba(0, 0, 0, 0.6) !important;
+      border: 1px solid rgba(255, 255, 255, 0.25) !important;
+      color: #ffffff !important;
+      font-size: 1.5rem !important;
+      font-weight: 700 !important;
+      line-height: 1 !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      cursor: pointer !important;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important;
+      transition: background 0.2s ease, transform 0.2s ease !important;
+    }
+
+    .headline-slider .slider-btn:hover {
+      background: #e10600 !important;
+      border-color: #e10600 !important;
+      transform: translateY(-50%) scale(1.08) !important;
+    }
+
+    .headline-slider .slider-btn[data-slider-prev] {
+      left: 12px !important;
+      right: auto !important;
+    }
+
+    .headline-slider .slider-btn[data-slider-next] {
+      right: 12px !important;
+      left: auto !important;
+    }
+
+    /* ── NUMBER STRIP (Haberler.com 1:1 Exact Number Buttons) ── */
     .headline-slider .slider-dots {
       position: absolute !important;
       left: 0 !important;
@@ -2018,33 +2067,34 @@
       bottom: 0 !important;
       width: 100% !important;
       max-width: 100% !important;
-      height: 30px !important;
+      height: 32px !important;
       transform: none !important;
       display: flex !important;
       align-items: stretch !important;
       justify-content: stretch !important;
-      gap: 1px !important;
+      gap: 0 !important;
       padding: 0 !important;
-      background: #e2e8f0 !important;
+      background: #ffffff !important;
       border: 0 !important;
+      border-top: 1px solid #d1d5db !important;
       border-radius: 0 !important;
       box-shadow: none !important;
-      z-index: 5 !important;
-      overflow-x: auto !important;
-      scrollbar-width: none !important;
+      z-index: 6 !important;
+      overflow: hidden !important;
     }
-    .headline-slider .slider-dots::-webkit-scrollbar { display: none !important; }
 
     .headline-slider .slider-dot {
       flex: 1 1 0 !important;
-      min-width: 24px !important;
+      min-width: 0 !important;
       height: 100% !important;
       padding: 0 !important;
+      margin: 0 !important;
       border: 0 !important;
+      border-right: 1px solid #e5e7eb !important;
       border-radius: 0 !important;
       background: #ffffff !important;
-      color: #1e293b !important;
-      font-size: 0.8rem !important;
+      color: #374151 !important;
+      font-size: 0.85rem !important;
       font-weight: 700 !important;
       display: inline-flex !important;
       align-items: center !important;
@@ -2052,10 +2102,16 @@
       cursor: pointer !important;
       transition: background 0.15s ease, color 0.15s ease !important;
     }
-    .headline-slider .slider-dot:hover {
-      background: #f1f5f9 !important;
-      color: #dc2626 !important;
+
+    .headline-slider .slider-dot:last-child {
+      border-right: none !important;
     }
+
+    .headline-slider .slider-dot:hover {
+      background: #f3f4f6 !important;
+      color: #e10600 !important;
+    }
+
     .headline-slider .slider-dot.is-active {
       background: #e10600 !important;
       color: #ffffff !important;
@@ -2068,6 +2124,74 @@
       display: none !important;
     }
 
+    /* ── İSTANBUL MASASI SEAMLESS CORPORATE REDESIGN ── */
+    .istanbul-showcase {
+      margin-bottom: 40px !important;
+      background: transparent !important;
+      border: none !important;
+      padding: 0 !important;
+      box-shadow: none !important;
+    }
+
+    .istanbul-header {
+      display: flex !important;
+      align-items: flex-end !important;
+      justify-content: space-between !important;
+      gap: 16px !important;
+      margin-bottom: 16px !important;
+      padding-bottom: 12px !important;
+      border-bottom: 2px solid rgba(225, 6, 0, 0.4) !important;
+    }
+
+    .istanbul-title {
+      font-size: 1.45rem !important;
+      font-weight: 800 !important;
+      color: #ffffff !important;
+    }
+
+    .istanbul-desc {
+      color: #94a3b8 !important;
+      font-size: 0.84rem !important;
+      margin-top: 2px !important;
+    }
+
+    .city-metrics-bar {
+      display: grid !important;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+      gap: 10px !important;
+      margin: 14px 0 20px !important;
+    }
+
+    .city-metric {
+      background: #1e293b !important;
+      border: 1px solid rgba(255, 255, 255, 0.08) !important;
+      border-radius: 8px !important;
+      padding: 10px 14px !important;
+      display: flex !important;
+      align-items: center !important;
+      gap: 10px !important;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2) !important;
+    }
+
+    .city-metric .metric-icon {
+      font-size: 1.4rem !important;
+    }
+
+    .city-metric .metric-label {
+      color: #94a3b8 !important;
+      font-size: 0.72rem !important;
+      text-transform: uppercase !important;
+    }
+
+    .city-metric strong {
+      color: #f8fafc !important;
+      font-size: 0.88rem !important;
+    }
+
+    .city-alerts-box {
+      display: none !important;
+    }
+
     /* ── RESPONSIVE MOBILE (<=768px): 100% width, preserves 735:490 ratio ── */
     @media (max-width: 768px) {
       .headline-slider {
@@ -2077,7 +2201,7 @@
       .headline-content {
         left: 12px !important;
         right: 12px !important;
-        bottom: 34px !important;
+        bottom: 38px !important;
       }
       .headline-title {
         font-size: 1.15rem !important;
@@ -2087,7 +2211,11 @@
       }
       .headline-slider .slider-dot {
         font-size: 0.72rem !important;
-        min-width: 20px !important;
+      }
+      .headline-slider .slider-btn {
+        width: 34px !important;
+        height: 34px !important;
+        font-size: 1.25rem !important;
       }
     }
 
