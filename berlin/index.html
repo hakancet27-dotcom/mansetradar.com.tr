@@ -9,8 +9,90 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Berlin Spezial &amp; 12 Bezirke | Mansetradar Deutschland">
   <meta property="og:description" content="Aktuelle Nachrichten, BVG-Verkehr, Notdienst-Apotheken und Bürgeramt-Updates aus Berlin.">
-  <meta property="og:url" content="https://mansetradar.com.tr/berlin/">
   <title>Berlin Spezial &amp; 12 Bezirke | Mansetradar Deutschland</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://mansetradar.com.tr/berlin/#webpage",
+        "url": "https://mansetradar.com.tr/berlin/",
+        "name": "Berlin Spezial & 12 Bezirke | Mansetradar Deutschland",
+        "description": "Berlin Spezial: Aktuelle Nachrichten, BVG-Verkehrsstörungen, Notdienst-Apotheken und Bürgeramt-Services aus allen 12 Berliner Bezirken.",
+        "inLanguage": "de",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://mansetradar.com.tr/#website",
+          "name": "Manşet Radar",
+          "url": "https://mansetradar.com.tr"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://mansetradar.com.tr/berlin/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Startseite",
+            "item": "https://mansetradar.com.tr"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Deutschland Nachrichten",
+            "item": "https://mansetradar.com.tr/nachrichten/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Berlin Spezial",
+            "item": "https://mansetradar.com.tr/berlin/"
+          }
+        ]
+      },
+      {
+        "@type": "City",
+        "name": "Berlin",
+        "url": "https://mansetradar.com.tr/berlin/",
+        "containedInPlace": {
+          "@type": "Country",
+          "name": "Deutschland"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Welche 12 Bezirke gehören zu Berlin?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Berlin gliedert sich in 12 Verwaltungsbezirke: Mitte, Friedrichshain-Kreuzberg, Pankow, Charlottenburg-Wilmersdorf, Spandau, Steglitz-Zehlendorf, Tempelhof-Schöneberg, Neukölln, Treptow-Köpenick, Marzahn-Hellersdorf, Lichtenberg und Reinickendorf."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wo finde ich Notdienst-Apotheken in Berlin?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Die Berliner Notdienst-Apotheken stehen im Nacht- und Wochenenddienst rund um die Uhr zur Verfügung. Über die offizielle Berliner Apothekenkammer und die Mansetradar Berlin-Zentrale können Sie die nächstgelegene Notapotheke direkt einsehen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wie erfahre ich von aktuellen BVG-Verkehrsstörungen?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Echtzeit-Störungsmeldungen zu U-Bahn, S-Bahn, Tram und Buslinien im gesamten Berliner Stadtgebiet werden laufend aktualisiert und über das Berlin-Portal bereitgestellt."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
   <style>
     :root {
       --red: #e10600;
@@ -122,11 +204,12 @@
         <div class="logo-badge">B</div>
         <span>Mansetradar <strong>Berlin</strong></span>
       </a>
-      <nav class="main-nav">
+      <nav class="main-nav" style="display:flex; align-items:center;">
         <a href="/nachrichten/">Startseite</a>
         <a href="/berlin/" class="active">Berlin Desk</a>
         <a href="#dienste">Dienste</a>
         <a href="#bezirke">12 Bezirke</a>
+        <button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Dark/Light Mode" title="Theme Toggle" style="background:none; border:1px solid var(--border); border-radius:8px; padding:4px 8px; cursor:pointer; font-size:1.05rem; margin-left:14px;">🌓</button>
       </nav>
     </div>
   </header>
@@ -275,5 +358,21 @@
       </div>
     </div>
   </footer>
+  <script>
+    (function() {
+      const btn = document.getElementById('theme-toggle');
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark' || (!saved && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.body.classList.add('dark-mode');
+      }
+      if (btn) {
+        btn.addEventListener('click', function() {
+          document.body.classList.toggle('dark-mode');
+          const isDark = document.body.classList.contains('dark-mode');
+          localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        });
+      }
+    })();
+  </script>
 </body>
 </html>
