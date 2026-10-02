@@ -1897,45 +1897,7 @@
     .market-item.down .market-value,
     .market-item.down .market-change { color: #7f1d1d; }
     .market-status { white-space: nowrap; color: #7a1a12; font-weight: 800; }
-    /* Mobil üst alan dengeleme: piyasa + arama + üye girişi taşmalarını önler */
-    @media (max-width: 900px) {
-      header .inner {
-        grid-template-columns: 1fr !important;
-        gap: 10px !important;
-        align-items: stretch;
-      }
-      header .inner nav {
-        justify-self: stretch;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-      }
-      .market-strip {
-        max-width: 100%;
-        overflow-x: auto;
-        white-space: nowrap;
-        border-radius: 14px;
-        padding: 6px;
-      }
-      .header-tools {
-        width: 100%;
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) auto;
-        gap: 8px;
-        align-items: center;
-      }
-      .header-search,
-      .header-search.is-open,
-      .header-search:focus-within {
-        width: 100%;
-        min-width: 0;
-      }
-      .member-login-btn {
-        white-space: nowrap;
-        min-height: 38px;
-      }
-    }
+    
     @media (max-width: 640px) {
       .top-bar .inner {
         flex-direction: column;
@@ -2128,902 +2090,6 @@
     .mobile-market-strip {
       display: none !important;
     }
-
-    /* TOP ISTANBUL MEGA-BAR */
-    .istanbul-mega-bar {
-      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
-      color: white;
-      border-bottom: 2px solid #dc2626;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-      font-size: 0.85rem;
-      position: relative;
-      z-index: 99;
-    }
-    .istanbul-mega-bar .inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 10px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .imb-left {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-    .imb-brand {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .imb-badge {
-      background: #dc2626;
-      color: white;
-      font-weight: 900;
-      font-size: 0.72rem;
-      padding: 3px 8px;
-      border-radius: 4px;
-      letter-spacing: 0.5px;
-    }
-    .imb-select {
-      background: #0f172a;
-      color: #f8fafc;
-      border: 1px solid #334155;
-      border-radius: 6px;
-      padding: 5px 10px;
-      font-size: 0.82rem;
-      font-weight: 700;
-      cursor: pointer;
-      outline: none;
-    }
-    .imb-select:focus { border-color: #38bdf8; }
-    .imb-quick-chips {
-      display: flex;
-      gap: 6px;
-      align-items: center;
-    }
-    .imb-chip-btn {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.15);
-      color: #e2e8f0;
-      border-radius: 999px;
-      padding: 3px 10px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-chip-btn:hover {
-      background: #dc2626;
-      color: white;
-      border-color: #dc2626;
-    }
-    .imb-services {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .imb-srv {
-      color: #cbd5e1;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 0.82rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 4px 8px;
-      border-radius: 6px;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-srv:hover {
-      background: rgba(255,255,255,0.1);
-      color: white;
-    }
-    .imb-weather-pill {
-      background: rgba(56,189,248,0.15);
-      color: #38bdf8;
-      border: 1px solid rgba(56,189,248,0.3);
-      padding: 3px 10px;
-      border-radius: 999px;
-      font-weight: 800;
-      font-size: 0.78rem;
-    }
-    @media (max-width: 900px) {
-      .imb-quick-chips { display: none; }
-      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
-    }
-/* FORCE VISIBLE NUMBERS ON ALL SLIDER DOTS */
-    .headline-slider .slider-dots .slider-dot,
-    .slider-dots .slider-dot {
-      min-width: 26px !important;
-      height: 26px !important;
-      width: auto !important;
-      padding: 0 6px !important;
-      border: 0 !important;
-      border-radius: 6px !important;
-      background: rgba(255, 255, 255, 0.22) !important;
-      color: #ffffff !important;
-      font-size: 0.76rem !important;
-      font-weight: 800 !important;
-      cursor: pointer !important;
-      display: inline-flex !important;
-      align-items: center !important;
-      justify-content: center !important;
-      line-height: 1 !important;
-      text-indent: 0 !important;
-      overflow: visible !important;
-      opacity: 1 !important;
-      visibility: visible !important;
-    }
-    .headline-slider .slider-dots .slider-dot.is-active,
-    .slider-dots .slider-dot.is-active {
-      min-width: 32px !important;
-      background: #e10600 !important;
-      color: #ffffff !important;
-      font-weight: 900 !important;
-      box-shadow: 0 2px 10px rgba(225, 6, 0, 0.55) !important;
-    }
-/* TOP ISTANBUL MEGA-BAR */
-    .istanbul-mega-bar {
-      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
-      color: white;
-      border-bottom: 2px solid #dc2626;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-      font-size: 0.85rem;
-      position: relative;
-      z-index: 99;
-    }
-    .istanbul-mega-bar .inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 10px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .imb-left {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-    .imb-brand {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .imb-badge {
-      background: #dc2626;
-      color: white;
-      font-weight: 900;
-      font-size: 0.72rem;
-      padding: 3px 8px;
-      border-radius: 4px;
-      letter-spacing: 0.5px;
-    }
-    .imb-select {
-      background: #0f172a;
-      color: #f8fafc;
-      border: 1px solid #334155;
-      border-radius: 6px;
-      padding: 5px 10px;
-      font-size: 0.82rem;
-      font-weight: 700;
-      cursor: pointer;
-      outline: none;
-    }
-    .imb-select:focus { border-color: #38bdf8; }
-    .imb-quick-chips {
-      display: flex;
-      gap: 6px;
-      align-items: center;
-    }
-    .imb-chip-btn {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.15);
-      color: #e2e8f0;
-      border-radius: 999px;
-      padding: 3px 10px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-chip-btn:hover {
-      background: #dc2626;
-      color: white;
-      border-color: #dc2626;
-    }
-    .imb-services {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .imb-srv {
-      color: #cbd5e1;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 0.82rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 4px 8px;
-      border-radius: 6px;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-srv:hover {
-      background: rgba(255,255,255,0.1);
-      color: white;
-    }
-    .imb-weather-pill {
-      background: rgba(56,189,248,0.15);
-      color: #38bdf8;
-      border: 1px solid rgba(56,189,248,0.3);
-      padding: 3px 10px;
-      border-radius: 999px;
-      font-weight: 800;
-      font-size: 0.78rem;
-    }
-    @media (max-width: 900px) {
-      .imb-quick-chips { display: none; }
-      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
-    }
-/* TOP ISTANBUL MEGA-BAR */
-    .istanbul-mega-bar {
-      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
-      color: white;
-      border-bottom: 2px solid #dc2626;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-      font-size: 0.85rem;
-      position: relative;
-      z-index: 99;
-    }
-    .istanbul-mega-bar .inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 10px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .imb-left {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-    .imb-brand {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .imb-badge {
-      background: #dc2626;
-      color: white;
-      font-weight: 900;
-      font-size: 0.72rem;
-      padding: 3px 8px;
-      border-radius: 4px;
-      letter-spacing: 0.5px;
-    }
-    .imb-select {
-      background: #0f172a;
-      color: #f8fafc;
-      border: 1px solid #334155;
-      border-radius: 6px;
-      padding: 5px 10px;
-      font-size: 0.82rem;
-      font-weight: 700;
-      cursor: pointer;
-      outline: none;
-    }
-    .imb-select:focus { border-color: #38bdf8; }
-    .imb-quick-chips {
-      display: flex;
-      gap: 6px;
-      align-items: center;
-    }
-    .imb-chip-btn {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.15);
-      color: #e2e8f0;
-      border-radius: 999px;
-      padding: 3px 10px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-chip-btn:hover {
-      background: #dc2626;
-      color: white;
-      border-color: #dc2626;
-    }
-    .imb-services {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .imb-srv {
-      color: #cbd5e1;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 0.82rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 4px 8px;
-      border-radius: 6px;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-srv:hover {
-      background: rgba(255,255,255,0.1);
-      color: white;
-    }
-    .imb-weather-pill {
-      background: rgba(56,189,248,0.15);
-      color: #38bdf8;
-      border: 1px solid rgba(56,189,248,0.3);
-      padding: 3px 10px;
-      border-radius: 999px;
-      font-weight: 800;
-      font-size: 0.78rem;
-    }
-    @media (max-width: 900px) {
-      .imb-quick-chips { display: none; }
-      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
-    }
-/* TOP ISTANBUL MEGA-BAR */
-    .istanbul-mega-bar {
-      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
-      color: white;
-      border-bottom: 2px solid #dc2626;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-      font-size: 0.85rem;
-      position: relative;
-      z-index: 99;
-    }
-    .istanbul-mega-bar .inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 10px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .imb-left {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-    .imb-brand {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .imb-badge {
-      background: #dc2626;
-      color: white;
-      font-weight: 900;
-      font-size: 0.72rem;
-      padding: 3px 8px;
-      border-radius: 4px;
-      letter-spacing: 0.5px;
-    }
-    .imb-select {
-      background: #0f172a;
-      color: #f8fafc;
-      border: 1px solid #334155;
-      border-radius: 6px;
-      padding: 5px 10px;
-      font-size: 0.82rem;
-      font-weight: 700;
-      cursor: pointer;
-      outline: none;
-    }
-    .imb-select:focus { border-color: #38bdf8; }
-    .imb-quick-chips {
-      display: flex;
-      gap: 6px;
-      align-items: center;
-    }
-    .imb-chip-btn {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.15);
-      color: #e2e8f0;
-      border-radius: 999px;
-      padding: 3px 10px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-chip-btn:hover {
-      background: #dc2626;
-      color: white;
-      border-color: #dc2626;
-    }
-    .imb-services {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .imb-srv {
-      color: #cbd5e1;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 0.82rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 4px 8px;
-      border-radius: 6px;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-srv:hover {
-      background: rgba(255,255,255,0.1);
-      color: white;
-    }
-    .imb-weather-pill {
-      background: rgba(56,189,248,0.15);
-      color: #38bdf8;
-      border: 1px solid rgba(56,189,248,0.3);
-      padding: 3px 10px;
-      border-radius: 999px;
-      font-weight: 800;
-      font-size: 0.78rem;
-    }
-    @media (max-width: 900px) {
-      .imb-quick-chips { display: none; }
-      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
-    }
-/* TOP ISTANBUL MEGA-BAR */
-    .istanbul-mega-bar {
-      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
-      color: white;
-      border-bottom: 2px solid #dc2626;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-      font-size: 0.85rem;
-      position: relative;
-      z-index: 99;
-    }
-    .istanbul-mega-bar .inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 10px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .imb-left {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-    .imb-brand {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .imb-badge {
-      background: #dc2626;
-      color: white;
-      font-weight: 900;
-      font-size: 0.72rem;
-      padding: 3px 8px;
-      border-radius: 4px;
-      letter-spacing: 0.5px;
-    }
-    .imb-select {
-      background: #0f172a;
-      color: #f8fafc;
-      border: 1px solid #334155;
-      border-radius: 6px;
-      padding: 5px 10px;
-      font-size: 0.82rem;
-      font-weight: 700;
-      cursor: pointer;
-      outline: none;
-    }
-    .imb-select:focus { border-color: #38bdf8; }
-    .imb-quick-chips {
-      display: flex;
-      gap: 6px;
-      align-items: center;
-    }
-    .imb-chip-btn {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.15);
-      color: #e2e8f0;
-      border-radius: 999px;
-      padding: 3px 10px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-chip-btn:hover {
-      background: #dc2626;
-      color: white;
-      border-color: #dc2626;
-    }
-    .imb-services {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .imb-srv {
-      color: #cbd5e1;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 0.82rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 4px 8px;
-      border-radius: 6px;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-srv:hover {
-      background: rgba(255,255,255,0.1);
-      color: white;
-    }
-    .imb-weather-pill {
-      background: rgba(56,189,248,0.15);
-      color: #38bdf8;
-      border: 1px solid rgba(56,189,248,0.3);
-      padding: 3px 10px;
-      border-radius: 999px;
-      font-weight: 800;
-      font-size: 0.78rem;
-    }
-    @media (max-width: 900px) {
-      .imb-quick-chips { display: none; }
-      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
-    }
-/* TOP ISTANBUL MEGA-BAR */
-    .istanbul-mega-bar {
-      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
-      color: white;
-      border-bottom: 2px solid #dc2626;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-      font-size: 0.85rem;
-      position: relative;
-      z-index: 99;
-    }
-    .istanbul-mega-bar .inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 10px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .imb-left {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-    .imb-brand {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .imb-badge {
-      background: #dc2626;
-      color: white;
-      font-weight: 900;
-      font-size: 0.72rem;
-      padding: 3px 8px;
-      border-radius: 4px;
-      letter-spacing: 0.5px;
-    }
-    .imb-select {
-      background: #0f172a;
-      color: #f8fafc;
-      border: 1px solid #334155;
-      border-radius: 6px;
-      padding: 5px 10px;
-      font-size: 0.82rem;
-      font-weight: 700;
-      cursor: pointer;
-      outline: none;
-    }
-    .imb-select:focus { border-color: #38bdf8; }
-    .imb-quick-chips {
-      display: flex;
-      gap: 6px;
-      align-items: center;
-    }
-    .imb-chip-btn {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.15);
-      color: #e2e8f0;
-      border-radius: 999px;
-      padding: 3px 10px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-chip-btn:hover {
-      background: #dc2626;
-      color: white;
-      border-color: #dc2626;
-    }
-    .imb-services {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .imb-srv {
-      color: #cbd5e1;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 0.82rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 4px 8px;
-      border-radius: 6px;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-srv:hover {
-      background: rgba(255,255,255,0.1);
-      color: white;
-    }
-    .imb-weather-pill {
-      background: rgba(56,189,248,0.15);
-      color: #38bdf8;
-      border: 1px solid rgba(56,189,248,0.3);
-      padding: 3px 10px;
-      border-radius: 999px;
-      font-weight: 800;
-      font-size: 0.78rem;
-    }
-    @media (max-width: 900px) {
-      .imb-quick-chips { display: none; }
-      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
-    }
-/* TOP ISTANBUL MEGA-BAR */
-    .istanbul-mega-bar {
-      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
-      color: white;
-      border-bottom: 2px solid #dc2626;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-      font-size: 0.85rem;
-      position: relative;
-      z-index: 99;
-    }
-    .istanbul-mega-bar .inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 10px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .imb-left {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-    .imb-brand {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .imb-badge {
-      background: #dc2626;
-      color: white;
-      font-weight: 900;
-      font-size: 0.72rem;
-      padding: 3px 8px;
-      border-radius: 4px;
-      letter-spacing: 0.5px;
-    }
-    .imb-select {
-      background: #0f172a;
-      color: #f8fafc;
-      border: 1px solid #334155;
-      border-radius: 6px;
-      padding: 5px 10px;
-      font-size: 0.82rem;
-      font-weight: 700;
-      cursor: pointer;
-      outline: none;
-    }
-    .imb-select:focus { border-color: #38bdf8; }
-    .imb-quick-chips {
-      display: flex;
-      gap: 6px;
-      align-items: center;
-    }
-    .imb-chip-btn {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.15);
-      color: #e2e8f0;
-      border-radius: 999px;
-      padding: 3px 10px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-chip-btn:hover {
-      background: #dc2626;
-      color: white;
-      border-color: #dc2626;
-    }
-    .imb-services {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .imb-srv {
-      color: #cbd5e1;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 0.82rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 4px 8px;
-      border-radius: 6px;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-srv:hover {
-      background: rgba(255,255,255,0.1);
-      color: white;
-    }
-    .imb-weather-pill {
-      background: rgba(56,189,248,0.15);
-      color: #38bdf8;
-      border: 1px solid rgba(56,189,248,0.3);
-      padding: 3px 10px;
-      border-radius: 999px;
-      font-weight: 800;
-      font-size: 0.78rem;
-    }
-    @media (max-width: 900px) {
-      .imb-quick-chips { display: none; }
-      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
-    }
-/* TOP ISTANBUL MEGA-BAR */
-    .istanbul-mega-bar {
-      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
-      color: white;
-      border-bottom: 2px solid #dc2626;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-      font-size: 0.85rem;
-      position: relative;
-      z-index: 99;
-    }
-    .istanbul-mega-bar .inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 10px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .imb-left {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-    .imb-brand {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .imb-badge {
-      background: #dc2626;
-      color: white;
-      font-weight: 900;
-      font-size: 0.72rem;
-      padding: 3px 8px;
-      border-radius: 4px;
-      letter-spacing: 0.5px;
-    }
-    .imb-select {
-      background: #0f172a;
-      color: #f8fafc;
-      border: 1px solid #334155;
-      border-radius: 6px;
-      padding: 5px 10px;
-      font-size: 0.82rem;
-      font-weight: 700;
-      cursor: pointer;
-      outline: none;
-    }
-    .imb-select:focus { border-color: #38bdf8; }
-    .imb-quick-chips {
-      display: flex;
-      gap: 6px;
-      align-items: center;
-    }
-    .imb-chip-btn {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.15);
-      color: #e2e8f0;
-      border-radius: 999px;
-      padding: 3px 10px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-chip-btn:hover {
-      background: #dc2626;
-      color: white;
-      border-color: #dc2626;
-    }
-    .imb-services {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .imb-srv {
-      color: #cbd5e1;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 0.82rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 4px 8px;
-      border-radius: 6px;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-srv:hover {
-      background: rgba(255,255,255,0.1);
-      color: white;
-    }
-    .imb-weather-pill {
-      background: rgba(56,189,248,0.15);
-      color: #38bdf8;
-      border: 1px solid rgba(56,189,248,0.3);
-      padding: 3px 10px;
-      border-radius: 999px;
-      font-weight: 800;
-      font-size: 0.78rem;
-    }
-    @media (max-width: 900px) {
-      .imb-quick-chips { display: none; }
-      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
-    }
 /* FIRST_PAINT_TOPIC_FILTER_START */
 html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]) .topic-card {
   display: none !important;
@@ -3070,138 +2136,110 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
   <!-- Yandex Autoplacement 20110774 -->
   <script src="https://yandex.ru/ads/system/context.js" async></script>
   <script data-page-id="20110774" src="https://yandex.ru/ads/system/ap-loader.js" async></script>
+  <link rel="stylesheet" href="/assets/css/corporate-header.css?v=20261002_corp">
 </head>
 <body>
   <a class="skip-link" href="#main-content">İçeriğe geç</a>
 
-  <div class="top-bar">
+    <div class="top-bar">
     <div class="inner">
-      <span id="current-time">Yükleniyor...</span>
-      <div class="top-links" aria-label="Üst bağlantılar">
-        <a href="/">Ana Sayfa</a>
-        <a href="/hakkinda/">Hakkında</a>
-        <a href="/iletisim/">İletişim</a>
+      <div class="top-bar-left">
+        <span id="current-time">02 Ekim 2026, Cuma</span>
+        <span class="top-bar-badge">🔴 Canlı Haber</span>
+      </div>
+      <div class="top-bar-right">
+        <div class="top-lang-switch" aria-label="Dil / Language / Sprache">
+          <span class="lang-pill is-active" title="Türkçe">TR</span>
+          <a href="/news/" class="lang-pill" title="English Edition">EN</a>
+          <a href="/nachrichten/" class="lang-pill" title="Deutsche Ausgabe">DE</a>
+        </div>
+        <button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Karanlık/Aydınlık Tema" title="Karanlık / Aydınlık Mod">🌓</button>
+        <a class="member-login-btn" href="/login.html"><span class="login-icon">👤</span> Üye Girişi</a>
       </div>
     </div>
   </div>
 
-  <header>
+  <header class="site-header">
     <div class="inner">
       <a href="/" class="logo" aria-label="mansetradar.com.tr ana sayfa">
-        <div class="logo-icon">H</div>
+        <div class="logo-icon">M</div>
         <div class="logo-text">
-          <strong>mansetradar.com.tr</strong>
-          <span>Güncel Haber Platformu</span>
+          <strong>MANŞETRADAR</strong>
+          <span>Bağımsız Haber Portalı</span>
         </div>
       </a>
-      <div class="market-strip" aria-label="Gecikmeli referans piyasa verileri">
-        <span class="market-label">Piyasalar</span>
-        <span class="market-item neutral" id="market-usd-item">
+      <div class="header-search" role="search" aria-label="Haberlerde ara">
+        <span class="search-icon" aria-hidden="true">&#128269;</span>
+        <input id="news-search-input" type="search" placeholder="Haber, konu veya yazar ara..." autocomplete="off">
+        <button id="news-search-clear" type="button" hidden>Temizle</button>
+      </div>
+      <div class="market-strip" aria-label="Piyasa verileri">
+        <span class="market-item up" id="market-usd-item">
           <span class="market-name">USD/TRY</span>
           <strong class="market-value" id="market-usd">40,75</strong>
-          <span class="market-change" id="market-usd-change">Beklemede</span>
+          <span class="market-change up" id="market-usd-change">+0.12%</span>
         </span>
-        <span class="market-item neutral" id="market-eur-item">
+        <span class="market-item up" id="market-eur-item">
           <span class="market-name">EUR/TRY</span>
           <strong class="market-value" id="market-eur">47,70</strong>
-          <span class="market-change" id="market-eur-change">Beklemede</span>
+          <span class="market-change up" id="market-eur-change">+0.08%</span>
         </span>
-        <span class="market-item neutral" id="market-gbp-item">
-          <span class="market-name">GBP/TRY</span>
-          <strong class="market-value" id="market-gbp">55,80</strong>
-          <span class="market-change" id="market-gbp-change">Beklemede</span>
-        </span>
-        <span class="market-item neutral" id="market-btc-item">
+        <span class="market-item up" id="market-btc-item">
           <span class="market-name">BTC</span>
           <strong class="market-value" id="market-btc">4,35 Mn</strong>
-          <span class="market-change" id="market-btc-change">Beklemede</span>
+          <span class="market-change up" id="market-btc-change">+1.40%</span>
         </span>
-        <span class="market-status" id="market-status">Referans veri yükleniyor</span>
       </div>
-            <div class="header-tools">
-        <div class="header-search" role="search" aria-label="Haberlerde ara">
-          <span class="search-icon" aria-hidden="true">&#128269;</span>
-          <input id="news-search-input" type="search" placeholder="Haberlerde ara" autocomplete="off">
-          <button id="news-search-clear" type="button" hidden>Temizle</button>
-        </div>
-        <a class="member-login-btn" href="/login.html">&Uuml;ye Giri&#351;i</a>
-        <button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Karanlık/Aydınlık Tema" title="Karanlık / Aydınlık Mod">🌓</button>
-      </div>
-<nav aria-label="Ana menü">
-        <a href="/">Ana Sayfa</a>
-        <a href="/" class="active" aria-current="page">Haberler</a>
-      </nav>
     </div>
   </header>
-<!-- TOP_ISTANBUL_MEGA_BAR_START -->
-  <div class="istanbul-mega-bar" aria-label="İstanbul Şehir Masası ve 39 İlçe Rehberi">
-    <div class="inner">
-      <div class="imb-left">
-        <div class="imb-brand">
-          <span class="imb-badge">📍 İSTANBUL MASASI</span>
-        </div>
-        <select class="imb-select" id="imb-district-dropdown" onchange="if(this.value) window.location.href=this.value;" aria-label="İstanbul ilçesi seç">
-          <option value="">İlçeni Seç (39 İlçe)...</option>
-          <option value="/istanbul/adalar/">Adalar</option><option value="/istanbul/arnavutkoy/">Arnavutköy</option><option value="/istanbul/atasehir/">Ataşehir</option><option value="/istanbul/avcilar/">Avcılar</option><option value="/istanbul/bahcelievler/">Bahçelievler</option><option value="/istanbul/bakirkoy/">Bakırköy</option><option value="/istanbul/bayrampasa/">Bayrampaşa</option><option value="/istanbul/bagcilar/">Bağcılar</option><option value="/istanbul/basaksehir/">Başakşehir</option><option value="/istanbul/beykoz/">Beykoz</option><option value="/istanbul/beylikduzu/">Beylikdüzü</option><option value="/istanbul/beyoglu/">Beyoğlu</option><option value="/istanbul/besiktas/">Beşiktaş</option><option value="/istanbul/buyukcekmece/">Büyükçekmece</option><option value="/istanbul/esenler/">Esenler</option><option value="/istanbul/esenyurt/">Esenyurt</option><option value="/istanbul/eyupsultan/">Eyüpsultan</option><option value="/istanbul/fatih/">Fatih</option><option value="/istanbul/gaziosmanpasa/">Gaziosmanpaşa</option><option value="/istanbul/gungoren/">Güngören</option><option value="/istanbul/kadikoy/">Kadıköy</option><option value="/istanbul/kartal/">Kartal</option><option value="/istanbul/kagithane/">Kağıthane</option><option value="/istanbul/kucukcekmece/">Küçükçekmece</option><option value="/istanbul/maltepe/">Maltepe</option><option value="/istanbul/pendik/">Pendik</option><option value="/istanbul/sancaktepe/">Sancaktepe</option><option value="/istanbul/sariyer/">Sarıyer</option><option value="/istanbul/silivri/">Silivri</option><option value="/istanbul/sultanbeyli/">Sultanbeyli</option><option value="/istanbul/sultangazi/">Sultangazi</option><option value="/istanbul/tuzla/">Tuzla</option><option value="/istanbul/zeytinburnu/">Zeytinburnu</option><option value="/istanbul/catalca/">Çatalca</option><option value="/istanbul/cekmekoy/">Çekmeköy</option><option value="/istanbul/umraniye/">Ümraniye</option><option value="/istanbul/uskudar/">Üsküdar</option><option value="/istanbul/sile/">Şile</option><option value="/istanbul/sisli/">Şişli</option>
-        </select>
-        <div class="imb-quick-chips">
-          <button type="button" class="imb-chip-btn" onclick="window.location.href='/istanbul/kadikoy/'">Kadıköy</button>
-          <button type="button" class="imb-chip-btn" onclick="window.location.href='/istanbul/besiktas/'">Beşiktaş</button>
-          <button type="button" class="imb-chip-btn" onclick="window.location.href='/istanbul/uskudar/'">Üsküdar</button>
-          <button type="button" class="imb-chip-btn" onclick="window.location.href='/istanbul/sisli/'">Şişli</button>
-          <button type="button" class="imb-chip-btn" onclick="window.location.href='/istanbul/fatih/'">Fatih</button>
-          <button type="button" class="imb-chip-btn" onclick="window.location.href='/istanbul/bakirkoy/'">Bakırköy</button>
-        </div>
-      </div>
-      <div class="imb-services">
-        <a class="imb-srv" href="/hizmet/eczane/">💊 Nöbetçi Eczaneler (133)</a>
-        <a class="imb-srv" href="/hizmet/ulasim/">🚇 Canlı İETT (72)</a>
-        <a class="imb-srv" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ (1)</a>
-        <a class="imb-srv" href="/hizmet/kamu/">🌊 Baraj: %52,24</a>
-        <span class="imb-weather-pill">⛅ 15°C</span>
-      </div>
-    </div>
-  </div>
-  <!-- TOP_ISTANBUL_MEGA_BAR_END -->
-
-  <!-- TRENDING_TOPICS_BAR_START -->
-  <aside class="trending-bar" aria-label="Gündemdeki Konular">
-    <div class="inner">
-      <span class="trending-label">🔥 GÜNDEM:</span>
-      <div class="trending-items">
-        <a class="trending-item" href="/?kategori=gundem">#SonDakika</a>
-        <a class="trending-item" href="/istanbul/kadikoy/">#Kadıköy</a>
-        <a class="trending-item" href="/hizmet/eczane/">#NöbetçiEczane</a>
-        <a class="trending-item" href="/hizmet/ulasim/">#İETTSeferleri</a>
-        <a class="trending-item" href="/istanbul/besiktas/">#Beşiktaş</a>
-        <a class="trending-item" href="/hizmet/kamu/">#İSKİBarajlar</a>
-        <a class="trending-item" href="/?kategori=ekonomi">#Ekonomi</a>
-        <a class="trending-item" href="/?kategori=spor">#SüperLig</a>
-        <a class="trending-item" href="/istanbul/uskudar/">#Üsküdar</a>
-        <a class="trending-item" href="/istanbul/sisli/">#Şişli</a>
-      </div>
-    </div>
-  </aside>
-  <!-- TRENDING_TOPICS_BAR_END -->
 
   <nav class="breaking" aria-label="Haber kategorileri">
     <div class="inner">
-      <span class="breaking-label">KATEGORİLER</span>
       <div class="topic-list">
-        <a class="topic-link primary" href="/" data-topic="son-dakika">Son Dakika</a>
+        <a class="topic-link primary is-active" href="/" data-topic="son-dakika">Son Dakika</a>
         <a class="topic-link" href="/?kategori=gundem" data-topic="gundem">Gündem</a>
-        <a class="topic-link" href="/?kategori=siyaset" data-topic="siyaset">Siyaset</a>
         <a class="topic-link" href="/?kategori=ekonomi" data-topic="ekonomi">Ekonomi</a>
+        <a class="topic-link" href="/?kategori=siyaset" data-topic="siyaset">Siyaset</a>
         <a class="topic-link" href="/?kategori=dunya" data-topic="dunya">Dünya</a>
         <a class="topic-link" href="/?kategori=spor" data-topic="spor">Spor</a>
         <a class="topic-link" href="/?kategori=magazin" data-topic="magazin">Magazin</a>
         <a class="topic-link" href="/?kategori=teknoloji" data-topic="teknoloji">Teknoloji</a>
         <a class="topic-link" href="/?kategori=saglik" data-topic="saglik">Sağlık</a>
+        <a class="topic-link" href="/istanbul/" data-topic="istanbul">İstanbul Masası</a>
         <a class="topic-link" href="/video/">Video</a>
         <a class="topic-link" href="/oyunlar/">Oyunlar</a>
       </div>
     </div>
   </nav>
+
+<!-- TOP_ISTANBUL_MEGA_BAR_START -->
+  <aside class="corporate-city-bar" aria-label="İstanbul Şehir Masası ve 39 İlçe Rehberi">
+    <div class="inner">
+      <div class="ccb-main">
+        <a href="/istanbul/" class="ccb-badge">📍 İSTANBUL MASASI</a>
+        <select class="ccb-select" id="imb-district-dropdown" onchange="if(this.value) window.location.href=this.value;" aria-label="İstanbul ilçesi seç">
+          <option value="">İlçe Seç (39 İlçe)...</option>
+          <option value="/istanbul/adalar/">Adalar</option><option value="/istanbul/arnavutkoy/">Arnavutköy</option><option value="/istanbul/atasehir/">Ataşehir</option><option value="/istanbul/avcilar/">Avcılar</option><option value="/istanbul/bahcelievler/">Bahçelievler</option><option value="/istanbul/bakirkoy/">Bakırköy</option><option value="/istanbul/bayrampasa/">Bayrampaşa</option><option value="/istanbul/bagcilar/">Bağcılar</option><option value="/istanbul/basaksehir/">Başakşehir</option><option value="/istanbul/beykoz/">Beykoz</option><option value="/istanbul/beylikduzu/">Beylikdüzü</option><option value="/istanbul/beyoglu/">Beyoğlu</option><option value="/istanbul/besiktas/">Beşiktaş</option><option value="/istanbul/buyukcekmece/">Büyükçekmece</option><option value="/istanbul/esenler/">Esenler</option><option value="/istanbul/esenyurt/">Esenyurt</option><option value="/istanbul/eyupsultan/">Eyüpsultan</option><option value="/istanbul/fatih/">Fatih</option><option value="/istanbul/gaziosmanpasa/">Gaziosmanpaşa</option><option value="/istanbul/gungoren/">Güngören</option><option value="/istanbul/kadikoy/">Kadıköy</option><option value="/istanbul/kartal/">Kartal</option><option value="/istanbul/kagithane/">Kağıthane</option><option value="/istanbul/kucukcekmece/">Küçükçekmece</option><option value="/istanbul/maltepe/">Maltepe</option><option value="/istanbul/pendik/">Pendik</option><option value="/istanbul/sancaktepe/">Sancaktepe</option><option value="/istanbul/sariyer/">Sarıyer</option><option value="/istanbul/silivri/">Silivri</option><option value="/istanbul/sultanbeyli/">Sultanbeyli</option><option value="/istanbul/sultangazi/">Sultangazi</option><option value="/istanbul/tuzla/">Tuzla</option><option value="/istanbul/zeytinburnu/">Zeytinburnu</option><option value="/istanbul/catalca/">Çatalca</option><option value="/istanbul/cekmekoy/">Çekmeköy</option><option value="/istanbul/umraniye/">Ümraniye</option><option value="/istanbul/uskudar/">Üsküdar</option><option value="/istanbul/sile/">Şile</option><option value="/istanbul/sisli/">Şişli</option>
+        </select>
+        <div class="ccb-chips">
+          <a href="/istanbul/kadikoy/" class="ccb-chip">Kadıköy</a>
+          <a href="/istanbul/besiktas/" class="ccb-chip">Beşiktaş</a>
+          <a href="/istanbul/uskudar/" class="ccb-chip">Üsküdar</a>
+          <a href="/istanbul/sisli/" class="ccb-chip">Şişli</a>
+          <a href="/istanbul/bakirkoy/" class="ccb-chip">Bakırköy</a>
+        </div>
+      </div>
+      <div class="ccb-services">
+        <a class="ccb-srv" href="/hizmet/eczane/"><span class="ccb-icon">💊</span> Nöbetçi: <strong>131</strong></a>
+        <a class="ccb-srv" href="/hizmet/ulasim/"><span class="ccb-icon">🚇</span> Canlı İETT: <strong>247</strong></a>
+        <a class="ccb-srv" href="/hizmet/kamu/"><span class="ccb-icon">💧</span> Kesinti: <strong>5</strong></a>
+        <a class="ccb-srv" href="/hizmet/kamu/"><span class="ccb-icon">🌊</span> Baraj: <strong>%52,24</strong></a>
+        <span class="ccb-weather"><span class="ccb-icon">⛅</span> <strong>18°C</strong></span>
+        <a class="ccb-hub-link" href="/istanbul/">Tümü →</a>
+      </div>
+    </div>
+  </aside>
+  <!-- TOP_ISTANBUL_MEGA_BAR_END -->
 
   <div class="container">
     <div class="page-layout">
@@ -3470,9 +2508,9 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <p class="istanbul-desc">İBB, İETT, İSKİ, BEDAŞ ve İECO resmi verileriyle anlık ulaşım, su/elektrik arızaları, nöbetçi eczaneler ve 39 ilçe haberleri</p>
             </div>
             <div class="istanbul-chips">
-              <a class="istanbul-chip" href="/hizmet/ulasim/">🚇 Canlı İETT (72 Bildirim)</a>
-              <a class="istanbul-chip" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ (1 Arıza)</a>
-              <a class="istanbul-chip" href="/hizmet/eczane/">💊 Nöbetçi Eczaneler (133 Açık)</a>
+              <a class="istanbul-chip" href="/hizmet/ulasim/">🚇 Canlı İETT (247 Bildirim)</a>
+              <a class="istanbul-chip" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ (5 Arıza)</a>
+              <a class="istanbul-chip" href="/hizmet/eczane/">💊 Nöbetçi Eczaneler (131 Açık)</a>
             </div>
           </div>
 
@@ -3482,21 +2520,21 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <span class="metric-icon">⛅</span>
               <div class="metric-body">
                 <span class="metric-label">İstanbul Hava</span>
-                <strong>15°C · Bulutlu</strong>
+                <strong>18°C · Bulutlu</strong>
               </div>
             </div>
             <div class="city-metric">
               <span class="metric-icon">🚇</span>
               <div class="metric-body">
                 <span class="metric-label">İETT Hat Bildirimi</span>
-                <strong>72 Canlı Hat Güzergahı</strong>
+                <strong>247 Canlı Hat Güzergahı</strong>
               </div>
             </div>
             <div class="city-metric">
               <span class="metric-icon">💊</span>
               <div class="metric-body">
                 <span class="metric-label">Nöbetçi Eczaneler</span>
-                <strong>133 Eczane Açık (39 İlçe)</strong>
+                <strong>131 Eczane Açık (39 İlçe)</strong>
               </div>
             </div>
             <div class="city-metric">
@@ -3512,10 +2550,17 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           <div class="city-alerts-box">
             <div class="city-alerts-header">
               <span>⚠️ CANLI YOL KAPANMALARI &amp; İETT SEFER DEĞİŞİKLİKLERİ</span>
-              <a href="/hizmet/ulasim/">Tüm Hat Bildirimlerini Gör (72) →</a>
+              <a href="/hizmet/ulasim/">Tüm Hat Bildirimlerini Gör (247) →</a>
             </div>
             <div class="city-alerts-grid">
 
+          <div class="city-alert-item">
+            <span class="city-alert-badge">10</span>
+            <div class="city-alert-content">
+              <strong>Ü.EGT.ARS.HASTANESI - ATASEHIR / BOSTANCI (04:04)</strong>
+              <p>ÜMRANIYE EGITIM VE ARASTIRMA HASTANESI dan Saat 11:55 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</p>
+            </div>
+          </div>
           <div class="city-alert-item">
             <span class="city-alert-badge">10B</span>
             <div class="city-alert-content">
@@ -3524,24 +2569,17 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
             </div>
           </div>
           <div class="city-alert-item">
-            <span class="city-alert-badge">11ÜS</span>
+            <span class="city-alert-badge">11C</span>
             <div class="city-alert-content">
-              <strong>SULTANBEYLI - ÜSKÜDAR (15:35)</strong>
-              <p>YOGUN TRAFIK NEDENIYLE FATIH BULVARI KAPALIDIR. ARAÇLARIMIZ SULTANBEYLI PERONLARA DÖNÜSLERDE 52.HASANPASA DURAGINDAN GÜZERGAHTAN ÇIKIP 55.ÇIFTLIK DURAGINDAN GÜZERGAHA GIRECEKTIR.</p>
+              <strong>BURHANIYE MAHALLESI - ÜSKÜDAR MARMARAY (04:04)</strong>
+              <p>HATTAT HASAN ÇELEBI CADDESI dan Saat 11:30 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</p>
             </div>
           </div>
           <div class="city-alert-item">
-            <span class="city-alert-badge">132</span>
+            <span class="city-alert-badge">11H</span>
             <div class="city-alert-content">
-              <strong>AKFIRAT / TEPEÖREN - KARTAL (05:54)</strong>
-              <p>ISKI ÇALISMASI NEDENIYLE AKFIRAT CADDESI HER IKI YÖNDE KAPALIDIR. ARAÇLARIMIZ AKFIRAT KIZILAY DURAGINDAN GÜZERGAH DISINA ÇIKARAK AKFIRAT DURAGINDAN GÜZERGAHA GIRECEKTIR.</p>
-            </div>
-          </div>
-          <div class="city-alert-item">
-            <span class="city-alert-badge">133F</span>
-            <div class="city-alert-content">
-              <strong>ACARLAR SITESI - MALTEPE / CEVIZLI PERONLAR (06:35)</strong>
-              <p>ALT GEÇIT ÇALISMASI NEDENIYLE MIMAR SINAN CADDESI GIRISI KAPALIDIR. ARAÇLARIMIZ ACARLARA GIDISTE MALTEPE SAHIL DURAGINDAN GÜZERGAH DISINA ÇIKARAK MEHMET AKIF DUR. GÜZERGAHA GIRECEKTIR.</p>
+              <strong>ORTAÇESME - ÜMRANIYE (04:04)</strong>
+              <p>ÇIFTEÇINARLAR dan Saat 13:03 de hareket etmesi planlanan seferimiz  çesitli nedenlerle yapilamayacaktir.</p>
             </div>
           </div>
             </div>

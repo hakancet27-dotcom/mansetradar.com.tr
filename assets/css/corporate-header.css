@@ -1,0 +1,604 @@
+/* ==========================================================================
+   CORPORATE UNIFIED HEADER & NICHE DESK SYSTEM (TR / EN / DE)
+   Version: 2026-10-02
+   ========================================================================== */
+
+:root {
+  --header-bg: #ffffff;
+  --header-text: #0f172a;
+  --header-border: #e2e8f0;
+  --topbar-bg: #0b1120;
+  --topbar-text: #94a3b8;
+  --brand-red: #dc2626;
+  --brand-red-dark: #b91c1c;
+  --niche-bar-bg: #0f172a;
+}
+
+body.dark-mode {
+  --header-bg: #0b1120;
+  --header-text: #f8fafc;
+  --header-border: #1e293b;
+  --topbar-bg: #070b14;
+  --topbar-text: #64748b;
+  --niche-bar-bg: #070b14;
+}
+
+/* 1. TIER 1: TOP UTILITY & EDITION BAR */
+.top-bar {
+  background: var(--topbar-bg) !important;
+  color: var(--topbar-text) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  font-size: 0.78rem !important;
+  line-height: 1 !important;
+  position: relative !important;
+  z-index: 35 !important;
+}
+
+.top-bar .inner {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 16px !important;
+  height: 34px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 12px !important;
+}
+
+.top-bar-left {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.top-bar-left #current-time {
+  color: #cbd5e1 !important;
+  font-weight: 500 !important;
+  font-size: 0.76rem !important;
+}
+
+.top-bar-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+  background: rgba(220, 38, 38, 0.15) !important;
+  color: #f87171 !important;
+  border: 1px solid rgba(220, 38, 38, 0.3) !important;
+  padding: 2px 7px !important;
+  border-radius: 999px !important;
+  font-size: 0.7rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.2px !important;
+}
+
+.top-bar-right {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.top-lang-switch {
+  display: inline-flex !important;
+  align-items: center !important;
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 999px !important;
+  padding: 2px !important;
+  gap: 2px !important;
+}
+
+.top-lang-switch .lang-pill {
+  color: #94a3b8 !important;
+  text-decoration: none !important;
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  padding: 3px 8px !important;
+  border-radius: 999px !important;
+  transition: all 0.15s ease !important;
+  line-height: 1 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 3px !important;
+}
+
+.top-lang-switch .lang-pill:hover {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.12) !important;
+}
+
+.top-lang-switch .lang-pill.is-active {
+  background: var(--brand-red) !important;
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  box-shadow: 0 1px 4px rgba(220, 38, 38, 0.4) !important;
+}
+
+.top-bar .theme-toggle-btn {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  color: #f8fafc !important;
+  width: 26px !important;
+  height: 26px !important;
+  border-radius: 6px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  font-size: 0.85rem !important;
+  padding: 0 !important;
+  transition: all 0.15s ease !important;
+}
+
+.top-bar .theme-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.18) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.top-bar .member-login-btn {
+  background: transparent !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  color: #e2e8f0 !important;
+  padding: 3px 10px !important;
+  border-radius: 6px !important;
+  font-size: 0.74rem !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+  transition: all 0.15s ease !important;
+}
+
+.top-bar .member-login-btn:hover {
+  background: rgba(255, 255, 255, 0.12) !important;
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.35) !important;
+}
+
+/* 2. TIER 2: MAIN BRAND & SEARCH HEADER */
+header.site-header, header {
+  background: var(--header-bg) !important;
+  border-bottom: 1px solid var(--header-border) !important;
+  padding: 8px 0 !important;
+  position: relative !important;
+  z-index: 30 !important;
+}
+
+header .inner {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 16px !important;
+}
+
+/* Clean up old inner nav */
+header .inner > nav {
+  display: none !important;
+}
+
+.logo {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  text-decoration: none !important;
+  flex-shrink: 0 !important;
+}
+
+.logo-icon {
+  width: 38px !important;
+  height: 38px !important;
+  border-radius: 8px !important;
+  background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%) !important;
+  color: #ffffff !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-weight: 900 !important;
+  font-size: 1.25rem !important;
+  box-shadow: 0 2px 8px rgba(220, 38, 38, 0.3) !important;
+}
+
+.logo-text strong {
+  display: block !important;
+  font-size: 1.35rem !important;
+  font-weight: 900 !important;
+  letter-spacing: -0.5px !important;
+  color: var(--header-text) !important;
+  line-height: 1.05 !important;
+}
+
+.logo-text span {
+  display: block !important;
+  font-size: 0.72rem !important;
+  font-weight: 600 !important;
+  color: #64748b !important;
+  letter-spacing: 0.3px !important;
+  text-transform: uppercase !important;
+}
+
+/* Modern Pill Search */
+.header-search {
+  position: relative !important;
+  flex: 1 !important;
+  max-width: 440px !important;
+  height: 40px !important;
+  display: flex !important;
+  align-items: center !important;
+  background: #f8fafc !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 999px !important;
+  padding: 0 14px !important;
+  transition: all 0.2s ease !important;
+}
+
+body.dark-mode .header-search {
+  background: #1e293b !important;
+  border-color: #334155 !important;
+}
+
+.header-search:focus-within {
+  background: #ffffff !important;
+  border-color: var(--brand-red) !important;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.12) !important;
+}
+
+body.dark-mode .header-search:focus-within {
+  background: #0f172a !important;
+  border-color: #f87171 !important;
+  box-shadow: 0 0 0 3px rgba(248, 113, 113, 0.15) !important;
+}
+
+.header-search .search-icon {
+  color: #64748b !important;
+  font-size: 1.05rem !important;
+  margin-right: 8px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+.header-search input {
+  width: 100% !important;
+  border: none !important;
+  background: transparent !important;
+  outline: none !important;
+  font-size: 0.85rem !important;
+  color: var(--header-text) !important;
+}
+
+.header-search input::placeholder {
+  color: #94a3b8 !important;
+}
+
+#news-search-clear {
+  border: none !important;
+  background: transparent !important;
+  color: #94a3b8 !important;
+  font-size: 0.75rem !important;
+  cursor: pointer !important;
+  padding: 2px 6px !important;
+}
+
+/* Compact Market Pills */
+header .market-strip {
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+}
+
+header .market-strip .market-item {
+  display: inline-flex !important;
+  align-items: baseline !important;
+  gap: 5px !important;
+  background: #f8fafc !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 6px !important;
+  padding: 4px 8px !important;
+  font-size: 0.72rem !important;
+  line-height: 1 !important;
+  box-shadow: none !important;
+}
+
+body.dark-mode header .market-strip .market-item {
+  background: #1e293b !important;
+  border-color: #334155 !important;
+}
+
+header .market-name {
+  color: #64748b !important;
+  font-weight: 700 !important;
+  font-size: 0.68rem !important;
+}
+
+header .market-value {
+  color: var(--header-text) !important;
+  font-weight: 800 !important;
+  font-size: 0.78rem !important;
+}
+
+header .market-change {
+  font-size: 0.65rem !important;
+  font-weight: 700 !important;
+  padding: 1px 4px !important;
+  border-radius: 4px !important;
+}
+
+header .market-change.up { color: #15803d !important; background: #dcfce7 !important; }
+header .market-change.down { color: #b91c1c !important; background: #fee2e2 !important; }
+body.dark-mode header .market-change.up { color: #4ade80 !important; background: rgba(34, 197, 94, 0.15) !important; }
+body.dark-mode header .market-change.down { color: #f87171 !important; background: rgba(239, 68, 68, 0.15) !important; }
+header .market-label, header .market-status { display: none !important; }
+
+/* 3. TIER 3: PRIMARY CORPORATE RED NAVIGATION */
+.breaking {
+  background: var(--brand-red) !important;
+  border: none !important;
+  padding: 0 !important;
+  height: 40px !important;
+  position: relative !important;
+  z-index: 25 !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.breaking .inner {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 16px !important;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.breaking-label { display: none !important; }
+
+.topic-list {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0 !important;
+  height: 100% !important;
+  overflow-x: auto !important;
+  scrollbar-width: none !important;
+  white-space: nowrap !important;
+}
+
+.topic-list::-webkit-scrollbar { display: none !important; }
+
+.topic-link {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 0.84rem !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  padding: 0 14px !important;
+  height: 40px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  border-radius: 0 !important;
+  transition: all 0.15s ease !important;
+  border-bottom: 3px solid transparent !important;
+}
+
+.topic-link:hover {
+  color: #ffffff !important;
+  background: rgba(0, 0, 0, 0.12) !important;
+}
+
+.topic-link.primary, .topic-link.active, .topic-link.is-active {
+  color: #ffffff !important;
+  background: rgba(0, 0, 0, 0.18) !important;
+  border-bottom-color: #ffffff !important;
+}
+
+/* 4. TIER 4: CORPORATE CITY & NICHE DESK BAR */
+.corporate-city-bar {
+  background: var(--niche-bar-bg) !important;
+  border-bottom: 2px solid var(--brand-red) !important;
+  color: #f1f5f9 !important;
+  font-size: 0.78rem !important;
+  position: relative !important;
+  z-index: 20 !important;
+}
+
+.corporate-city-bar.corporate-city-bar-nyc {
+  border-bottom-color: #2563eb !important;
+}
+
+.corporate-city-bar .inner {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 16px !important;
+  height: 38px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 12px !important;
+}
+
+.ccb-main {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  flex-shrink: 0 !important;
+}
+
+.ccb-badge {
+  background: var(--brand-red) !important;
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  font-size: 0.72rem !important;
+  padding: 3px 8px !important;
+  border-radius: 4px !important;
+  letter-spacing: 0.4px !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+}
+
+.corporate-city-bar-nyc .ccb-badge {
+  background: #2563eb !important;
+}
+
+.ccb-select {
+  background: #1e293b !important;
+  color: #f1f5f9 !important;
+  border: 1px solid #334155 !important;
+  border-radius: 4px !important;
+  padding: 3px 8px !important;
+  font-size: 0.74rem !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  outline: none !important;
+}
+
+.ccb-chips {
+  display: flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+}
+
+.ccb-chip {
+  color: #94a3b8 !important;
+  text-decoration: none !important;
+  padding: 2px 7px !important;
+  border-radius: 4px !important;
+  font-size: 0.74rem !important;
+  font-weight: 600 !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  transition: all 0.15s !important;
+}
+
+.ccb-chip:hover {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.15) !important;
+}
+
+.ccb-services {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  overflow-x: auto !important;
+  scrollbar-width: none !important;
+  white-space: nowrap !important;
+}
+
+.ccb-services::-webkit-scrollbar { display: none !important; }
+
+.ccb-srv {
+  color: #cbd5e1 !important;
+  text-decoration: none !important;
+  font-size: 0.75rem !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+  transition: color 0.15s !important;
+}
+
+.ccb-srv strong { color: #f8fafc !important; font-weight: 700 !important; }
+.ccb-srv:hover { color: #38bdf8 !important; }
+
+.ccb-weather {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+  color: #38bdf8 !important;
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  background: rgba(56, 189, 248, 0.12) !important;
+  padding: 2px 8px !important;
+  border-radius: 999px !important;
+}
+
+.ccb-hub-link {
+  color: #f87171 !important;
+  text-decoration: none !important;
+  font-weight: 700 !important;
+  font-size: 0.75rem !important;
+  margin-left: 4px !important;
+}
+
+.ccb-hub-link:hover { text-decoration: underline !important; color: #fca5a5 !important; }
+
+/* 5. MOBILE & TABLET RESPONSIVE RULES (Max-width: 900px) */
+@media (max-width: 900px) {
+  .top-bar .inner {
+    height: 30px !important;
+    padding: 0 10px !important;
+  }
+  .top-bar-left #current-time {
+    font-size: 0.7rem !important;
+  }
+  .top-bar-badge {
+    display: none !important;
+  }
+  .top-bar .member-login-btn {
+    display: none !important;
+  }
+  
+  header .inner {
+    padding: 6px 10px !important;
+    gap: 8px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+  }
+  .logo-icon {
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 1.05rem !important;
+  }
+  .logo-text strong {
+    font-size: 1.05rem !important;
+  }
+  .logo-text span {
+    display: none !important;
+  }
+  header .market-strip {
+    display: none !important;
+  }
+  
+  .breaking {
+    height: 36px !important;
+  }
+  .topic-link {
+    font-size: 0.78rem !important;
+    padding: 0 10px !important;
+    height: 36px !important;
+  }
+  
+  .corporate-city-bar {
+    height: 34px !important;
+    overflow-x: auto !important;
+    scrollbar-width: none !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+  .corporate-city-bar::-webkit-scrollbar { display: none !important; }
+  .corporate-city-bar .inner {
+    height: 34px !important;
+    width: max-content !important;
+    min-width: 100% !important;
+    padding: 0 10px !important;
+    gap: 8px !important;
+    justify-content: flex-start !important;
+    flex-wrap: nowrap !important;
+  }
+  .ccb-chips {
+    display: none !important;
+  }
+  
+  .trending-bar {
+    display: none !important;
+  }
+}
+
+/* Hide redundant bars to keep pages ultra-clean */
+.top-country-bar {
+  display: none !important;
+}
+
