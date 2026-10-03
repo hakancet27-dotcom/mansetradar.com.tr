@@ -3,12 +3,51 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-03T00:00:00+00:00",
-    "article_count": 1952,
+    "article_count": 1958,
     "schema_version": 2,
     "category_slug": "dunya",
     "type": "category"
   },
   "articles": [
+    {
+      "id": "articles/2026/10:kuzey-kore-yapay-zeka-entegreli-fuze-iddiasi_20261003",
+      "slug": "kuzey-kore-yapay-zeka-entegreli-fuze-iddiasi_20261003",
+      "title": "Kuzey Kore'den Yapay Zeka Entegre Füze İddiası: Bölgesel Gerilim Artıyor",
+      "summary": "Kuzey Kore'nin, yapay zeka entegre edilmiş ve takip sistemlerine takılmayan bir orta menzilli füze fırlattığı iddia edildi. Kuzey Kore lideri Kim Jong-un'un kız kardeşi Kim Yo-jong tarafından yapılan açıklamada, füzenin alçak irtifada uçuş yörüngesini değiş...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "03.10.2026",
+      "date_iso": "2026-10-03",
+      "url": "/articles/2026/10/kuzey-kore-yapay-zeka-entegreli-fuze-iddiasi_20261003/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/kuzey-kore-yapay-zeka-entegreli-fuze-iddiasi_20261003/",
+      "detail_json_url": "/data/details/articles/2026/10/kuzey-kore-yapay-zeka-entegreli-fuze-iddiasi_20261003.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/kuzey-kore-yapay-zeka-entegreli-fuze-iddiasi_20261003.webp",
+      "image_alt": "Kuzey Kore'den yapay zeka entegre edildiği iddia edilen bir füzenin fırlatılma anı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/kuzey-kore-yapay-zeka-entegreli-fuze-iddiasi_20261003.webp",
+        "alt": "Kuzey Kore'den yapay zeka entegre edildiği iddia edilen bir füzenin fırlatılma anı."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-kuzey-koreden-dengeleri-sarsan-hamle-yapay-zeka-entegreli-fuze-firlatildi-7672379",
+      "tags": [
+        "Kuzey Kore",
+        "füze denemesi",
+        "yapay zeka",
+        "askeri tatbikat",
+        "Güney Kore",
+        "bölgesel gerilim"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/10:fko-israil-bati-seria-parcalama-planlari-hizlandiriyor_20261003",
       "slug": "fko-israil-bati-seria-parcalama-planlari-hizlandiriyor_20261003",
