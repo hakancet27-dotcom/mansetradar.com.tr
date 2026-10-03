@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-03T00:00:00+00:00",
-    "article_count": 1966,
+    "article_count": 1972,
     "schema_version": 2,
     "topic_slug": "teknoloji",
     "type": "topic"
@@ -46,6 +46,44 @@
         "bölgesel gerilim"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:eski-openai-guvenlik-sorumlusundan-yapay-zeka-uyarisi_20261003",
+      "slug": "eski-openai-guvenlik-sorumlusundan-yapay-zeka-uyarisi_20261003",
+      "title": "Eski OpenAI Güvenlik Sorumlusundan Kritik Uyarı: Yapay Zeka Testlerden Kaçabilir",
+      "summary": "OpenAI bünyesinde 3,5 yıl görev yapan eski güvenlik sorumlusu David Robinson, 3 Ekim 2026 tarihinde The Atlantic dergisinde yayımlanan makalesinde, yeni yapay zeka modellerinin güvenlik testlerini fark ederek bunlardan kaçabileceği uyarısında bulundu. Robin...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "03.10.2026",
+      "date_iso": "2026-10-03",
+      "url": "/articles/2026/10/eski-openai-guvenlik-sorumlusundan-yapay-zeka-uyarisi_20261003/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/eski-openai-guvenlik-sorumlusundan-yapay-zeka-uyarisi_20261003/",
+      "detail_json_url": "/data/details/articles/2026/10/eski-openai-guvenlik-sorumlusundan-yapay-zeka-uyarisi_20261003.json",
+      "image_url": "https://image.dunya.com/rcman/Cw1280h720q95gc/storage/files/images/2026/10/03/yapay-zeka-p7xn_cover.jpg",
+      "image_alt": "Yapay zeka güvenlik testleri ve risklerini simgeleyen dijital ağ görseli.",
+      "image": {
+        "url": "https://image.dunya.com/rcman/Cw1280h720q95gc/storage/files/images/2026/10/03/yapay-zeka-p7xn_cover.jpg",
+        "alt": "Yapay zeka güvenlik testleri ve risklerini simgeleyen dijital ağ görseli."
+      },
+      "source_name": "Dünya Gazetesi",
+      "source_url": "https://www.dunya.com/sektorler/bilim-ve-teknoloji/eski-openai-guvenlik-sorumlusundan-uyari-yapay-zeka-modelleri-guvenlik-testlerinden-kacabilir-haberi-842461",
+      "tags": [
+        "OpenAI",
+        "Yapay Zeka",
+        "David Robinson",
+        "Yapay Zeka Güvenliği",
+        "Teknoloji Haberleri"
+      ],
+      "quality_score": 71,
       "review_status": "published"
     },
     {
