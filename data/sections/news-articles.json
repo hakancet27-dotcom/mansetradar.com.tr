@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-03T00:00:00+00:00",
-    "article_count": 1942,
+    "article_count": 1943,
     "schema_version": 2,
     "section": "news-articles"
   },
@@ -43,6 +43,45 @@
         "Political Rhetoric"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:trump-iran-war-end-us-troops-uk-probe_20261003",
+      "slug": "trump-iran-war-end-us-troops-uk-probe_20261003",
+      "title": "Trump Vows Quick Iran War End as US Troops Deploy, UK Probes Incident",
+      "summary": "President Trump has pledged the war with Iran will conclude \"very quickly,\" potentially \"right after the election,\" as an additional 9,000 U.S. troops deploy to the Middle East. This comes amidst a UK counter-terrorism investigation into an incident near an...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "03.10.2026",
+      "date_iso": "2026-10-03",
+      "url": "/news/articles/2026/10/trump-iran-war-end-us-troops-uk-probe_20261003/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/trump-iran-war-end-us-troops-uk-probe_20261003/",
+      "detail_json_url": "/data/details/news/articles/2026/10/trump-iran-war-end-us-troops-uk-probe_20261003.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/trump-iran-war-end-us-troops-uk-probe_20261003.webp",
+      "image_alt": "Trump Vows Quick Iran War End as US Troops Deploy, UK Probes Incident",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/trump-iran-war-end-us-troops-uk-probe_20261003.webp",
+        "alt": "Trump Vows Quick Iran War End as US Troops Deploy, UK Probes Incident"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/live-updates/trump-iran-war-us-midterm-elections-troops-deployment/",
+      "tags": [
+        "US-Iran Conflict",
+        "Donald Trump",
+        "Middle East",
+        "UK Counter-Terrorism",
+        "Oil Prices",
+        "Iran"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
