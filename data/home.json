@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-03T00:00:00+00:00",
-    "article_count": 1958,
+    "article_count": 1959,
     "schema_version": 2
   },
   "hero": [
@@ -1032,6 +1032,46 @@
         "Flávio Bolsonaro"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:ufc-332-wang-cong-natalia-silva-womens-featherweight-title-fight_20261003",
+      "slug": "ufc-332-wang-cong-natalia-silva-womens-featherweight-title-fight_20261003",
+      "title": "UFC 332: Wang Cong and Natalia Silva Set for Women's Featherweight Title Clash",
+      "summary": "UFC has announced a highly anticipated women's featherweight title bout for UFC 332, featuring Wang Cong challenging Natalia Silva for the championship.",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "03.10.2026",
+      "date_iso": "2026-10-03",
+      "url": "/news/articles/2026/10/ufc-332-wang-cong-natalia-silva-womens-featherweight-title-fight_20261003/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/ufc-332-wang-cong-natalia-silva-womens-featherweight-title-fight_20261003/",
+      "detail_json_url": "/data/details/news/articles/2026/10/ufc-332-wang-cong-natalia-silva-womens-featherweight-title-fight_20261003.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/ufc-332-wang-cong-natalia-silva-womens-featherweight-title-fight_20261003.webp",
+      "image_alt": "Wang Cong and Natalia Silva face off in the UFC octagon with the featherweight championship belt.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/ufc-332-wang-cong-natalia-silva-womens-featherweight-title-fight_20261003.webp",
+        "alt": "Wang Cong and Natalia Silva face off in the UFC octagon with the featherweight championship belt."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/wang-cong-to-face-natalia-silva-in-fight-for-ufc-332-womens-featherweight-title/",
+      "tags": [
+        "UFC",
+        "Mixed Martial Arts",
+        "Women's Featherweight",
+        "Title Fight",
+        "Wang Cong",
+        "Natalia Silva",
+        "UFC 332"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -3109,45 +3149,6 @@
         "Asgari Ödeme"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:bddk-kredi-karti-telefon-kredisi-duzenleme_20261002",
-      "slug": "bddk-kredi-karti-telefon-kredisi-duzenleme_20261002",
-      "title": "BDDK'den Kredi Kartlarına ve Cep Telefonu Kredilerine Yeni Düzenlemeler",
-      "summary": "Bankacılık Düzenleme ve Denetleme Kurulu (BDDK), kredi kartı kullanıcılarını ve cep telefonu alacakları yakından ilgilendiren yeni düzenlemeler yaptı. Bu düzenlemelerle kredi kartlarında asgari ödeme oranının belirlenmesinde kullanılan limit sınırı 50 bin l...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "02.10.2026",
-      "date_iso": "2026-10-02",
-      "url": "/articles/2026/10/bddk-kredi-karti-telefon-kredisi-duzenleme_20261002/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/bddk-kredi-karti-telefon-kredisi-duzenleme_20261002/",
-      "detail_json_url": "/data/details/articles/2026/10/bddk-kredi-karti-telefon-kredisi-duzenleme_20261002.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/bddk-kredi-karti-telefon-kredisi-duzenleme_20261002.webp",
-      "image_alt": "BDDK düzenlemeleri ve cep telefonu alımlarına getirilen yeni kredi kartı ve vade sınırlarını temsil eden görsel.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/10/images/bddk-kredi-karti-telefon-kredisi-duzenleme_20261002.webp",
-        "alt": "BDDK düzenlemeleri ve cep telefonu alımlarına getirilen yeni kredi kartı ve vade sınırlarını temsil eden görsel."
-      },
-      "source_name": "Cumhuriyet Gazetesi - Ekonomi",
-      "source_url": "https://www.cumhuriyet.com.tr/ekonomi/son-dakika-telefon-alacaklar-dikkat-bddk-den-kredi-kartlarina-yeni-duzenleme-100-bin-lira-siniri-geldi-2543201",
-      "tags": [
-        "BDDK",
-        "Kredi Kartı",
-        "Cep Telefonu",
-        "Tüketici Kredisi",
-        "Asgari Ödeme",
-        "Vade Sınırı"
-      ],
-      "quality_score": 100,
       "review_status": "published"
     }
   ]
