@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-04T00:00:00+00:00",
-    "article_count": 2007,
+    "article_count": 2012,
     "schema_version": 2,
     "category_slug": "gundem",
     "type": "category"
@@ -13,7 +13,7 @@
       "id": "articles/2026/10:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261004",
       "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261004",
       "title": "İstanbul Şehir Bülteni (4 Ekim 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu",
-      "summary": "4 Ekim 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 132 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
+      "summary": "4 Ekim 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 149 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
       "category": "Gündem",
       "category_slug": "gundem",
       "topic_slug": "kamu",
@@ -47,6 +47,48 @@
         "Son Dakika"
       ],
       "quality_score": 95,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:ioanna-kucuradi-veda-toreni-omer-celik-mesaji_20261004",
+      "slug": "ioanna-kucuradi-veda-toreni-omer-celik-mesaji_20261004",
+      "title": "Prof. Dr. İoanna Kuçuradi'ye Veda: Dersleri Unutulmayacak",
+      "summary": "Türkiye Felsefe Kurumu Başkanı ve Dünya Felsefe Kuruluşları Federasyonu Onursal Başkanı Prof. Dr. İoanna Kuçuradi (89) için Maltepe Üniversitesi'nde veda töreni düzenlendi. Törende konuşan AK Parti Sözcüsü Ömer Çelik, Kuçuradi'yi \"insan olmanın anlamını öğr...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/articles/2026/10/ioanna-kucuradi-veda-toreni-omer-celik-mesaji_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/ioanna-kucuradi-veda-toreni-omer-celik-mesaji_20261004/",
+      "detail_json_url": "/data/details/articles/2026/10/ioanna-kucuradi-veda-toreni-omer-celik-mesaji_20261004.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/ioanna-kucuradi-veda-toreni-omer-celik-mesaji_20261004.webp",
+      "image_alt": "Prof. Dr. İoanna Kuçuradi'ye Veda: Dersleri Unutulmayacak",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/ioanna-kucuradi-veda-toreni-omer-celik-mesaji_20261004.webp",
+        "alt": "Prof. Dr. İoanna Kuçuradi'ye Veda: Dersleri Unutulmayacak"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/ioanna-kucuradi-icin-veda-toreni-ak-parti-sozcusu-celik-derslerinizi-unutmayacagiz-43329134",
+      "tags": [
+        "İoanna Kuçuradi",
+        "Felsefe",
+        "Ömer Çelik",
+        "Maltepe Üniversitesi",
+        "İnsan Hakları",
+        "Veda Töreni",
+        "Maltepe",
+        "Maltepe haberleri",
+        "İstanbul"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
