@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-04T00:00:00+00:00",
-    "article_count": 2012,
+    "article_count": 2014,
     "schema_version": 2
   },
   "hero": [
@@ -927,6 +927,46 @@
       "review_status": "published"
     },
     {
+      "id": "news/articles/2026/10:supreme-court-to-hear-major-climate-change-lawsuit-against-energy-companies_20261004",
+      "slug": "supreme-court-to-hear-major-climate-change-lawsuit-against-energy-companies_20261004",
+      "title": "Supreme Court to Hear Major Climate Change Lawsuit Against Energy Companies",
+      "summary": "The U.S. Supreme Court is set to begin its new term by reviewing a pivotal climate change lawsuit initiated by the city and county of Boulder, Colorado. The case, *Suncor Energy v. County Commissioners of Boulder County*, will determine whether Boulder's ef...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/news/articles/2026/10/supreme-court-to-hear-major-climate-change-lawsuit-against-energy-companies_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/supreme-court-to-hear-major-climate-change-lawsuit-against-energy-companies_20261004/",
+      "detail_json_url": "/data/details/news/articles/2026/10/supreme-court-to-hear-major-climate-change-lawsuit-against-energy-companies_20261004.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/supreme-court-to-hear-major-climate-change-lawsuit-against-energy-companies_20261004.webp",
+      "image_alt": "Supreme Court to Hear Major Climate Change Lawsuit Against Energy Companies",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/supreme-court-to-hear-major-climate-change-lawsuit-against-energy-companies_20261004.webp",
+        "alt": "Supreme Court to Hear Major Climate Change Lawsuit Against Energy Companies"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/supreme-court-climate-change-suncor-energy-v-county-commissioners-of-boulder-county/",
+      "tags": [
+        "Supreme Court",
+        "Climate Change",
+        "Fossil Fuels",
+        "Exxon Mobil",
+        "Suncor Energy",
+        "Boulder Colorado",
+        "Lawsuit"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:roketsan-r-nova-simulasyonu-ise-alim-surecleri_20261004",
       "slug": "roketsan-r-nova-simulasyonu-ise-alim-surecleri_20261004",
       "title": "ROKETSAN'ın R-NOVA Simülasyonu İşe Alım Süreçlerini Dijitalleştiriyor",
@@ -1671,6 +1711,47 @@
         "Sultangazi",
         "Sultangazi haberleri",
         "İstanbul"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:democrats-house-advantage-prices-gop-turnout_20261004",
+      "slug": "democrats-house-advantage-prices-gop-turnout_20261004",
+      "title": "Democrats Maintain House Advantage Amid Voter Concern Over Rising Prices, Poll Finds",
+      "summary": "A CBS News poll published October 4, 2026, indicates Democrats maintain a narrow House majority advantage and national vote preference lead. This is largely driven by voter concern over rising prices, attributed to Trump administration policies, and a less...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/news/articles/2026/10/democrats-house-advantage-prices-gop-turnout_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/democrats-house-advantage-prices-gop-turnout_20261004/",
+      "detail_json_url": "/data/details/news/articles/2026/10/democrats-house-advantage-prices-gop-turnout_20261004.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/democrats-house-advantage-prices-gop-turnout_20261004.webp",
+      "image_alt": "Poll results showing Democrats with a slight lead over Republicans in House preference, with visual cues of rising prices...",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/democrats-house-advantage-prices-gop-turnout_20261004.webp",
+        "alt": "Poll results showing Democrats with a slight lead over Republicans in House preference, with visual cues of rising prices..."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/midterm-poll-battleground-tracker-democrats-house-advantage/",
+      "tags": [
+        "Midterm Elections 2026",
+        "US Politics",
+        "Economy",
+        "Inflation",
+        "Voter Turnout",
+        "Donald Trump",
+        "Democratic Party",
+        "Republican Party"
       ],
       "quality_score": 100,
       "review_status": "published"
@@ -3084,83 +3165,6 @@
         "Harry Kane"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:husiler-riyad-aramco-fuze-iha-saldirisi_20261003",
-      "slug": "husiler-riyad-aramco-fuze-iha-saldirisi_20261003",
-      "title": "Husiler: Riyad'daki Aramco Tesislerini Füze ve İHA'larla Hedef Aldık",
-      "summary": "Husilerin askeri sözcüsü Yahya Seri, Suudi Arabistan'ın Yemen'e yönelik hava saldırılarına karşılık olarak başkent Riyad'daki Aramco tesislerini çok sayıda balistik füze ve İHA ile hedef aldıklarını açıkladı. Seri, saldırılar sonucunda hedef alınan bölgeler...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "03.10.2026",
-      "date_iso": "2026-10-03",
-      "url": "/articles/2026/10/husiler-riyad-aramco-fuze-iha-saldirisi_20261003/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/husiler-riyad-aramco-fuze-iha-saldirisi_20261003/",
-      "detail_json_url": "/data/details/articles/2026/10/husiler-riyad-aramco-fuze-iha-saldirisi_20261003.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/husiler-riyad-aramco-fuze-iha-saldirisi_20261003.webp",
-      "image_alt": "Husilerin Riyad'daki Aramco tesislerine yönelik füze ve İHA saldırısını gösteren temsili görsel.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/10/images/husiler-riyad-aramco-fuze-iha-saldirisi_20261003.webp",
-        "alt": "Husilerin Riyad'daki Aramco tesislerine yönelik füze ve İHA saldırısını gösteren temsili görsel."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/dunya/husiler-riyadda-aramcoyu-fuze-ve-ihalarla-hedef-aldik-43328794",
-      "tags": [
-        "Husiler",
-        "Suudi Arabistan",
-        "Aramco",
-        "Yemen İç Savaşı",
-        "Füze Saldırısı",
-        "İHA Saldırısı"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "nachrichten/artikel/2026/10:holocaust-ueberlebende-irene-butter-in-usa-verstorben_20261003",
-      "slug": "holocaust-ueberlebende-irene-butter-in-usa-verstorben_20261003",
-      "title": "Holocaust-Überlebende Irene Butter in den USA verstorben",
-      "summary": "Die Holocaust-Überlebende und Friedensaktivistin Irene Butter ist am Freitag im Kreise ihrer Familie und Freunde in den USA gestorben. Die gebürtige Berlinerin wurde 95 Jahre alt. Für ihre Aufklärungsarbeit als Zeitzeugin wurde sie 2024 mit dem Bundesverdie...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Germany",
-      "language": "de",
-      "language_label": "German",
-      "section": "nachrichten/artikel",
-      "section_name": "Deutschland Nachrichten",
-      "url_prefix": "nachrichten/artikel/2026/10",
-      "date": "03.10.2026",
-      "date_iso": "2026-10-03",
-      "url": "/nachrichten/artikel/2026/10/holocaust-ueberlebende-irene-butter-in-usa-verstorben_20261003/",
-      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/holocaust-ueberlebende-irene-butter-in-usa-verstorben_20261003/",
-      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/holocaust-ueberlebende-irene-butter-in-usa-verstorben_20261003.json",
-      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/holocaust-ueberlebende-irene-butter-in-usa-verstorben_20261003.webp",
-      "image_alt": "Porträt von Irene Butter, einer Holocaust-Überlebenden und Friedensaktivistin.",
-      "image": {
-        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/holocaust-ueberlebende-irene-butter-in-usa-verstorben_20261003.webp",
-        "alt": "Porträt von Irene Butter, einer Holocaust-Überlebenden und Friedensaktivistin."
-      },
-      "source_name": "tagesschau.de - Die Nachrichten der ARD",
-      "source_url": "https://www.tagesschau.de/ausland/amerika/irene-butter-gestorben-100.html",
-      "tags": [
-        "Holocaust",
-        "Zeitzeugin",
-        "Irene Butter",
-        "NS-Regime",
-        "Gedenken"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]
