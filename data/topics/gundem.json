@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-04T00:00:00+00:00",
-    "article_count": 2004,
+    "article_count": 2007,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -126,6 +126,46 @@
         "itfaiye"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:8-faili-mechul-cinayet-aydinlatildi-bakan-gurlek-duyurdu_20261004",
+      "slug": "8-faili-mechul-cinayet-aydinlatildi-bakan-gurlek-duyurdu_20261004",
+      "title": "8 Faili Meçhul Cinayet Aydınlatıldı: 39 Yıllık Sır Perdesi Aralandı",
+      "summary": "Adalet Bakanı Akın Gürlek, Faili Meçhul Suçları Araştırma Daire Başkanlığı koordinasyonunda yürütülen çalışmalar sonucunda 8 faili meçhul cinayet dosyasının aydınlatıldığını duyurdu. Artvin'de 39 yıl sonra kemik kalıntılarına ulaşılan Nigar Bilgin cinayeti...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/articles/2026/10/8-faili-mechul-cinayet-aydinlatildi-bakan-gurlek-duyurdu_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/8-faili-mechul-cinayet-aydinlatildi-bakan-gurlek-duyurdu_20261004/",
+      "detail_json_url": "/data/details/articles/2026/10/8-faili-mechul-cinayet-aydinlatildi-bakan-gurlek-duyurdu_20261004.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/8-faili-mechul-cinayet-aydinlatildi-bakan-gurlek-duyurdu_20261004.webp",
+      "image_alt": "8 Faili Meçhul Cinayet Aydınlatıldı: 39 Yıllık Sır Perdesi Aralandı",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/8-faili-mechul-cinayet-aydinlatildi-bakan-gurlek-duyurdu_20261004.webp",
+        "alt": "8 Faili Meçhul Cinayet Aydınlatıldı: 39 Yıllık Sır Perdesi Aralandı"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/8-cinayet-daha-aydinlatildi-43328811",
+      "tags": [
+        "Faili Meçhul",
+        "Cinayet",
+        "Adalet Bakanlığı",
+        "Akın Gürlek",
+        "Türkiye",
+        "Suç",
+        "Hürriyet"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
