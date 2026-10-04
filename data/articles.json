@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-04T00:00:00+00:00",
-    "article_count": 2030,
+    "article_count": 2036,
     "schema_version": 2
   },
   "articles": [
@@ -202,6 +202,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/10:teknofest-sanliurfa-rekor-ziyaretci-1-3-milyon_20261004",
+      "slug": "teknofest-sanliurfa-rekor-ziyaretci-1-3-milyon_20261004",
+      "title": "TEKNOFEST Şanlıurfa'da Rekor Kırdı: 5 Günde 1,3 Milyon Ziyaretçi",
+      "summary": "Şanlıurfa GAP Havalimanı'nda düzenlenen TEKNOFEST, kapanış töreninin ardından sona erdi. T3 Vakfı Mütevelli Heyeti Başkanı Selçuk Bayraktar, festival alanını 5 günde 1,3 milyon kişinin ziyaret ettiğini belirterek, bu rakamın bir Anadolu kenti için rekor old...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/articles/2026/10/teknofest-sanliurfa-rekor-ziyaretci-1-3-milyon_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/teknofest-sanliurfa-rekor-ziyaretci-1-3-milyon_20261004/",
+      "detail_json_url": "/data/details/articles/2026/10/teknofest-sanliurfa-rekor-ziyaretci-1-3-milyon_20261004.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/teknofest-sanliurfa-rekor-ziyaretci-1-3-milyon_20261004.webp",
+      "image_alt": "TEKNOFEST Şanlıurfa GAP Havalimanı ziyaretçi kalabalığı ve teknoloji festivali alanı",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/teknofest-sanliurfa-rekor-ziyaretci-1-3-milyon_20261004.webp",
+        "alt": "TEKNOFEST Şanlıurfa GAP Havalimanı ziyaretçi kalabalığı ve teknoloji festivali alanı"
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/bilim-teknoloji/teknofest-yonetim-kurulu-baskani-bayraktar-1-3-milyon-kisi-de-sadece-bu-alana-5-gun-icinde-geldi/4077784",
+      "tags": [
+        "TEKNOFEST",
+        "Selçuk Bayraktar",
+        "Şanlıurfa",
+        "Teknoloji",
+        "T3 Vakfı"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "news/articles/2026/10:supreme-court-to-hear-major-climate-change-lawsuit-against-energy-companies_20261004",
       "slug": "supreme-court-to-hear-major-climate-change-lawsuit-against-energy-companies_20261004",
       "title": "Supreme Court to Hear Major Climate Change Lawsuit Against Energy Companies",
@@ -242,6 +280,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/10:serkan-bayram-ak-parti-ozur-aciklamasi_20261004",
+      "slug": "serkan-bayram-ak-parti-ozur-aciklamasi_20261004",
+      "title": "Serkan Bayram'dan AK Parti ve Erdoğan'dan Özür Açıklaması",
+      "summary": "AK Parti İstanbul Milletvekili Serkan Bayram, son günlerde yaptığı ve parti içinde rahatsızlığa yol açan açıklamaları nedeniyle Cumhurbaşkanı Recep Tayyip Erdoğan’dan, AK Parti teşkilatlarından ve vatandaşlardan özür diledi. Bayram, devam eden hukuki süreçl...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/articles/2026/10/serkan-bayram-ak-parti-ozur-aciklamasi_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/serkan-bayram-ak-parti-ozur-aciklamasi_20261004/",
+      "detail_json_url": "/data/details/articles/2026/10/serkan-bayram-ak-parti-ozur-aciklamasi_20261004.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/serkan-bayram-ak-parti-ozur-aciklamasi_20261004.webp",
+      "image_alt": "AK Parti İstanbul Milletvekili Serkan Bayram'ın özür açıklaması.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/serkan-bayram-ak-parti-ozur-aciklamasi_20261004.webp",
+        "alt": "AK Parti İstanbul Milletvekili Serkan Bayram'ın özür açıklaması."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/gundem/siyasi-sorumlulugun-gerektirdigi-uslupla-ifade-etmem-gerekirdi-3917184",
+      "tags": [
+        "Serkan Bayram",
+        "AK Parti",
+        "Recep Tayyip Erdoğan",
+        "Devlet Denetleme Kurulu",
+        "Özür Açıklaması"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:roketsan-r-nova-simulasyonu-ise-alim-surecleri_20261004",
       "slug": "roketsan-r-nova-simulasyonu-ise-alim-surecleri_20261004",
       "title": "ROKETSAN'ın R-NOVA Simülasyonu İşe Alım Süreçlerini Dijitalleştiriyor",
@@ -275,6 +351,43 @@
         "R-NOVA",
         "İnsan Kaynakları",
         "Teknoloji"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:oyuncu-gonca-cilasun-rolunun-acisini-yansitmak-icin-8-kilo-verdi_20261004",
+      "slug": "oyuncu-gonca-cilasun-rolunun-acisini-yansitmak-icin-8-kilo-verdi_20261004",
+      "title": "Oyuncu Gonca Cilasun, Rolünün Acısını Yansıtmak İçin 8 Kilo Verdi",
+      "summary": "Oyuncu Gonca Cilasun, Kanal D'de yayınlanan 'Uzak Şehir' dizisindeki Sadakat karakterinin yaşadığı derin evlat acısını daha iyi yansıtabilmek amacıyla 8 kilo verdiğini belirtti. Cilasun, karakterin kendi eliyle evladının hayatına son vermesiyle yaşadığı vic...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "magazin",
+      "topic_label": "Magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/articles/2026/10/oyuncu-gonca-cilasun-rolunun-acisini-yansitmak-icin-8-kilo-verdi_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/oyuncu-gonca-cilasun-rolunun-acisini-yansitmak-icin-8-kilo-verdi_20261004/",
+      "detail_json_url": "/data/details/articles/2026/10/oyuncu-gonca-cilasun-rolunun-acisini-yansitmak-icin-8-kilo-verdi_20261004.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/oyuncu-gonca-cilasun-rolunun-acisini-yansitmak-icin-8-kilo-verdi_20261004.webp",
+      "image_alt": "Oyuncu Gonca Cilasun, rolünün acısını yansıtmak için kilo vermiş halde.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/oyuncu-gonca-cilasun-rolunun-acisini-yansitmak-icin-8-kilo-verdi_20261004.webp",
+        "alt": "Oyuncu Gonca Cilasun, rolünün acısını yansıtmak için kilo vermiş halde."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/kelebek/televizyon/gonca-cilasun-evlat-acisini-yansitabilmek-icin-8-kilo-verdi-43329366",
+      "tags": [
+        "Gonca Cilasun",
+        "Uzak Şehir",
+        "Evlat Acısı",
+        "Dizi Oyuncusu"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -1109,6 +1222,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/10:erdogan-ihracatta-211-milyar-dolarla-rekor-kirdik_20261004",
+      "slug": "erdogan-ihracatta-211-milyar-dolarla-rekor-kirdik_20261004",
+      "title": "Erdoğan: İhracatta 211 Milyar Dolarla Yeni Rekor Kırdık",
+      "summary": "Cumhurbaşkanı Erdoğan, Türkiye'nin ihracatta yeni bir rekora imza attığını duyurdu. Yılbaşından bu yana ihracatın yüzde 5,2 artışla 211 milyar dolara ulaştığını belirten Erdoğan, eylül ayında 26 milyar dolarlık ihracatla Cumhuriyet tarihinin en yüksek eylül...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/articles/2026/10/erdogan-ihracatta-211-milyar-dolarla-rekor-kirdik_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/erdogan-ihracatta-211-milyar-dolarla-rekor-kirdik_20261004/",
+      "detail_json_url": "/data/details/articles/2026/10/erdogan-ihracatta-211-milyar-dolarla-rekor-kirdik_20261004.json",
+      "image_url": "https://images.ntv.com.tr/images/erdogan1-872867.jpg",
+      "image_alt": "Erdoğan: İhracatta 211 Milyar Dolarla Yeni Rekor Kırdık",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/erdogan1-872867.jpg",
+        "alt": "Erdoğan: İhracatta 211 Milyar Dolarla Yeni Rekor Kırdık"
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-ihracatta-211-milyar-dolarla-rekor-kirdik-1744789",
+      "tags": [
+        "İhracat",
+        "Ekonomi",
+        "Recep Tayyip Erdoğan",
+        "Ticaret Bakanlığı",
+        "Türkiye İhracatçılar Meclisi"
+      ],
+      "quality_score": 90,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:djokovic-cin-acik-rekor-nadal-zverev_20261004",
       "slug": "djokovic-cin-acik-rekor-nadal-zverev_20261004",
       "title": "Novak Djokovic'ten Tarihi Rekor: Nadal'ı Geride Bıraktı",
@@ -1577,6 +1728,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/10:bakan-yumakli-yilin-12-ayi-her-turlu-urunu-uretme-pozisyonundayiz_20261004",
+      "slug": "bakan-yumakli-yilin-12-ayi-her-turlu-urunu-uretme-pozisyonundayiz_20261004",
+      "title": "Bakan Yumaklı: Yılın 12 Ayı Her Türlü Ürünü Üretme Pozisyonundayız",
+      "summary": "Tarım ve Orman Bakanı İbrahim Yumaklı, Şanlıurfa'da düzenlenen TEKNOFEST'te Türkiye'nin devasa potansiyeliyle yılın 12 ayı her türlü ürünü üretebilecek konumda olduğunu söyledi. Yumaklı, gıda arz güvenliğinin bir milli güvenlik meselesi olduğunu ifade etti.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/articles/2026/10/bakan-yumakli-yilin-12-ayi-her-turlu-urunu-uretme-pozisyonundayiz_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/bakan-yumakli-yilin-12-ayi-her-turlu-urunu-uretme-pozisyonundayiz_20261004/",
+      "detail_json_url": "/data/details/articles/2026/10/bakan-yumakli-yilin-12-ayi-her-turlu-urunu-uretme-pozisyonundayiz_20261004.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/bakan-yumakli-yilin-12-ayi-her-turlu-urunu-uretme-pozisyonundayiz_20261004.webp",
+      "image_alt": "Tarım ve Orman Bakanı İbrahim Yumaklı TEKNOFEST Şanlıurfa alanında tarım teknolojilerini inceliyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/bakan-yumakli-yilin-12-ayi-her-turlu-urunu-uretme-pozisyonundayiz_20261004.webp",
+        "alt": "Tarım ve Orman Bakanı İbrahim Yumaklı TEKNOFEST Şanlıurfa alanında tarım teknolojilerini inceliyor."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/ekonomi/bakan-yumakli-yilin-12-ayi-her-turlu-urunu-talep-etme-ve-uretme-pozisyonundayiz/4077702",
+      "tags": [
+        "İbrahim Yumaklı",
+        "TEKNOFEST",
+        "Tarım Teknolojileri",
+        "Gıda Güvenliği",
+        "Şanlıurfa"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:aydin-umurlu-apartman-yangini_20261004",
       "slug": "aydin-umurlu-apartman-yangini_20261004",
       "title": "Aydın'da Gece Yarısı Yangın Paniği: 5 Kişi Hastaneye Kaldırıldı",
@@ -1656,6 +1845,48 @@
         "İstanbul"
       ],
       "quality_score": 95,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:adana-ve-osmaniyede-korkutan-depremler_20261004",
+      "slug": "adana-ve-osmaniyede-korkutan-depremler_20261004",
+      "title": "Adana ve Osmaniye'de Art Arda Depremler: En Yükseği 5.2 Büyüklüğünde",
+      "summary": "Adana'nın Saimbeyli ilçesi ve Osmaniye'nin Sumbas ilçesinde peş peşe depremler meydana geldi. AFAD verilerine göre en büyüğü Osmaniye'nin Sumbas ilçesinde saat 14.43'te 5,2 büyüklüğünde kaydedildi. Adana'nın Saimbeyli ilçesinde ise saat 14.19'da 4,8, saat 1...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/articles/2026/10/adana-ve-osmaniyede-korkutan-depremler_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/adana-ve-osmaniyede-korkutan-depremler_20261004/",
+      "detail_json_url": "/data/details/articles/2026/10/adana-ve-osmaniyede-korkutan-depremler_20261004.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/adana-ve-osmaniyede-korkutan-depremler_20261004.webp",
+      "image_alt": "Adana ve Osmaniye'nin kırsal manzarası, evler ve tarlalar görünüyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/adana-ve-osmaniyede-korkutan-depremler_20261004.webp",
+        "alt": "Adana ve Osmaniye'nin kırsal manzarası, evler ve tarlalar görünüyor."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/gundem/son-dakika-adana-da-4-8-buyuklugunde-deprem-3917148",
+      "tags": [
+        "Son Dakika",
+        "Adana deprem",
+        "Osmaniye deprem",
+        "Saimbeyli deprem",
+        "Sumbas deprem",
+        "AFAD",
+        "Bakırköy",
+        "Bakırköy haberleri",
+        "İstanbul"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
