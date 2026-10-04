@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-04T00:00:00+00:00",
-    "article_count": 2039,
+    "article_count": 2042,
     "schema_version": 2
   },
   "hero": [
@@ -121,6 +121,43 @@
         "Hürriyet",
         "Digger",
         "Top Gun Maverick"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:teknofest-sanliurfada-rekor-katilimla-sona-erdi-1-3-milyon-ziyaretci-agirladi_20261004",
+      "slug": "teknofest-sanliurfada-rekor-katilimla-sona-erdi-1-3-milyon-ziyaretci-agirladi_20261004",
+      "title": "TEKNOFEST Şanlıurfa'da Rekor Katılımla Sona Erdi: 1,3 Milyon Ziyaretçi Ağırladı",
+      "summary": "Sanayi ve Teknoloji Bakanlığı ile T3 Vakfı yürütücülüğündeki Havacılık, Uzay ve Teknoloji Festivali (TEKNOFEST), Şanlıurfa GAP Havalimanı'nda düzenlenen kapanış töreniyle sona erdi. Festivalin bu yılki durağı olan Şanlıurfa'da, 5 gün içinde 1,3 milyon ziyar...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/articles/2026/10/teknofest-sanliurfada-rekor-katilimla-sona-erdi-1-3-milyon-ziyaretci-agirladi_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/teknofest-sanliurfada-rekor-katilimla-sona-erdi-1-3-milyon-ziyaretci-agirladi_20261004/",
+      "detail_json_url": "/data/details/articles/2026/10/teknofest-sanliurfada-rekor-katilimla-sona-erdi-1-3-milyon-ziyaretci-agirladi_20261004.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/teknofest-sanliurfada-rekor-katilimla-sona-erdi-1-3-milyon-ziyaretci-agirladi_20261004.webp",
+      "image_alt": "TEKNOFEST Şanlıurfa etkinliğinden genel görünüm, binlerce katılımcı ve teknolojik sergiler.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/teknofest-sanliurfada-rekor-katilimla-sona-erdi-1-3-milyon-ziyaretci-agirladi_20261004.webp",
+        "alt": "TEKNOFEST Şanlıurfa etkinliğinden genel görünüm, binlerce katılımcı ve teknolojik sergiler."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/bilim-teknoloji/teknofest-yonetim-kurulu-baskani-bayraktar-1-3-milyon-kisi-sadece-bu-alana-5-gun-icinde-geldi/4077784",
+      "tags": [
+        "TEKNOFEST",
+        "Şanlıurfa",
+        "Selçuk Bayraktar",
+        "Teknoloji Festivali"
       ],
       "quality_score": 100,
       "review_status": "published"
@@ -751,44 +788,6 @@
       ],
       "quality_score": 100,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:google-turkiye-kisisel-veri-kaldirma-basvurusu_20261004",
-      "slug": "google-turkiye-kisisel-veri-kaldirma-basvurusu_20261004",
-      "title": "Google'dan Türkiye'ye Özel 'Unutulma Hakkı' Adımı: 30 Günlük Süreç Başladı",
-      "summary": "Kişisel Verileri Koruma Kurumu (KVKK) Başkanı Prof. Dr. Faruk Bilir, Google'ın Türkiye'ye özel olarak kişisel verilerin kaldırılmasına yönelik yeni bir başvuru mekanizması oluşturduğunu açıkladı. TEKNOFEST kapsamında açıklamalarda bulunan Bilir, arama motor...",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "topic_slug": "teknoloji",
-      "topic_label": "Teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "04.10.2026",
-      "date_iso": "2026-10-04",
-      "url": "/articles/2026/10/google-turkiye-kisisel-veri-kaldirma-basvurusu_20261004/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/google-turkiye-kisisel-veri-kaldirma-basvurusu_20261004/",
-      "detail_json_url": "/data/details/articles/2026/10/google-turkiye-kisisel-veri-kaldirma-basvurusu_20261004.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/google-turkiye-kisisel-veri-kaldirma-basvurusu_20261004.webp",
-      "image_alt": "Google arama motoru ve kişisel veri güvenliği konsepti",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/10/images/google-turkiye-kisisel-veri-kaldirma-basvurusu_20261004.webp",
-        "alt": "Google arama motoru ve kişisel veri güvenliği konsepti"
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/teknoloji/google-istenmeyen-kisisel-veriler-icin-turkiyede-ozel-basvuru-yolunu-acti-30-gun-icinde-yanitlamak-zorunda-7672305",
-      "tags": [
-        "Google",
-        "KVKK",
-        "Kişisel Verilerin Korunması",
-        "Unutulma Hakkı",
-        "Faruk Bilir"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -984,6 +983,43 @@
         "Mittelalter"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:teknofest-sanliurfada-rekor-katilimla-sona-erdi-1-3-milyon-ziyaretci-agirladi_20261004",
+      "slug": "teknofest-sanliurfada-rekor-katilimla-sona-erdi-1-3-milyon-ziyaretci-agirladi_20261004",
+      "title": "TEKNOFEST Şanlıurfa'da Rekor Katılımla Sona Erdi: 1,3 Milyon Ziyaretçi Ağırladı",
+      "summary": "Sanayi ve Teknoloji Bakanlığı ile T3 Vakfı yürütücülüğündeki Havacılık, Uzay ve Teknoloji Festivali (TEKNOFEST), Şanlıurfa GAP Havalimanı'nda düzenlenen kapanış töreniyle sona erdi. Festivalin bu yılki durağı olan Şanlıurfa'da, 5 gün içinde 1,3 milyon ziyar...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/articles/2026/10/teknofest-sanliurfada-rekor-katilimla-sona-erdi-1-3-milyon-ziyaretci-agirladi_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/teknofest-sanliurfada-rekor-katilimla-sona-erdi-1-3-milyon-ziyaretci-agirladi_20261004/",
+      "detail_json_url": "/data/details/articles/2026/10/teknofest-sanliurfada-rekor-katilimla-sona-erdi-1-3-milyon-ziyaretci-agirladi_20261004.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/teknofest-sanliurfada-rekor-katilimla-sona-erdi-1-3-milyon-ziyaretci-agirladi_20261004.webp",
+      "image_alt": "TEKNOFEST Şanlıurfa etkinliğinden genel görünüm, binlerce katılımcı ve teknolojik sergiler.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/teknofest-sanliurfada-rekor-katilimla-sona-erdi-1-3-milyon-ziyaretci-agirladi_20261004.webp",
+        "alt": "TEKNOFEST Şanlıurfa etkinliğinden genel görünüm, binlerce katılımcı ve teknolojik sergiler."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/bilim-teknoloji/teknofest-yonetim-kurulu-baskani-bayraktar-1-3-milyon-kisi-sadece-bu-alana-5-gun-icinde-geldi/4077784",
+      "tags": [
+        "TEKNOFEST",
+        "Şanlıurfa",
+        "Selçuk Bayraktar",
+        "Teknoloji Festivali"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -2789,6 +2825,47 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/10:adana-osmaniye-deprem-pes-pese_20261004",
+      "slug": "adana-osmaniye-deprem-pes-pese_20261004",
+      "title": "Adana ve Osmaniye'de Peş Peşe Depremler: Sarsıntılar Devam Ediyor",
+      "summary": "Adana'nın Saimbeyli ilçesi ve Osmaniye'nin Sumbas ilçesinde gün içinde meydana gelen Richter ölçeğine göre 4.8, 4.9, 5.2 büyüklüğündeki depremlerin ardından akşam saatlerinde de 4.4 ve 4.3 büyüklüğünde iki sarsıntı daha kaydedildi. AFAD tarafından duyurulan...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/articles/2026/10/adana-osmaniye-deprem-pes-pese_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/adana-osmaniye-deprem-pes-pese_20261004/",
+      "detail_json_url": "/data/details/articles/2026/10/adana-osmaniye-deprem-pes-pese_20261004.json",
+      "image_url": "https://images.ntv.com.tr/images/deprem-802935.webp",
+      "image_alt": "Adana ve Osmaniye'de deprem sonrası durum",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/deprem-802935.webp",
+        "alt": "Adana ve Osmaniye'de deprem sonrası durum"
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/adana-ve-osmaniyede-pes-pese-depremler-sarsintilar-devam-ediyor-1744783",
+      "tags": [
+        "Son Dakika",
+        "Adana deprem",
+        "Osmaniye deprem",
+        "deprem",
+        "AFAD",
+        "Bakırköy",
+        "Bakırköy haberleri",
+        "İstanbul"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:adana-altin-koza-film-festivali-odulleri-sahiplerini-buldu-2026_20261004",
       "slug": "adana-altin-koza-film-festivali-odulleri-sahiplerini-buldu-2026_20261004",
       "title": "33. Adana Altın Koza Film Festivali Ödülleri Sahiplerini Buldu: En İyi Film 'Bir Arada Yalnız'",
@@ -2992,6 +3069,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/10:16-yasindaki-kiz-icin-tartisti-genc-adini-13-yerinden-bicakladi-kan-donduran-ola_20261004",
+      "slug": "16-yasindaki-kiz-icin-tartisti-genc-adini-13-yerinden-bicakladi-kan-donduran-ola_20261004",
+      "title": "16 Yaşındaki Kız İçin Tartıştı, Genç Adamı 13 Yerinden Bıçakladı: Kan Donduran Olayda Yeni...",
+      "summary": "Antalya'nın Gazipaşa ilçesinde, 16 yaşındaki bir genç kızla ilişkisi olduğu iddia edilen 20 yaşındaki Yasin Erdem Bayır, kızın babası Mustafa Ö. tarafından 13 yerinden bıçaklanarak öldürüldü. Baba, ifadesinde genç adamın kızına \"4 aylık karım\" demesi üzerin...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/articles/2026/10/16-yasindaki-kiz-icin-tartisti-genc-adini-13-yerinden-bicakladi-kan-donduran-ola_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/16-yasindaki-kiz-icin-tartisti-genc-adini-13-yerinden-bicakladi-kan-donduran-ola_20261004/",
+      "detail_json_url": "/data/details/articles/2026/10/16-yasindaki-kiz-icin-tartisti-genc-adini-13-yerinden-bicakladi-kan-donduran-ola_20261004.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/16-yasindaki-kiz-icin-tartisti-genc-adini-13-yerinden-bicakladi-kan-donduran-ola_20261004.webp",
+      "image_alt": "Gazipaşa'da işlenen kan donduran cinayet sonrası olay yeri incelemesi.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/16-yasindaki-kiz-icin-tartisti-genc-adini-13-yerinden-bicakladi-kan-donduran-ola_20261004.webp",
+        "alt": "Gazipaşa'da işlenen kan donduran cinayet sonrası olay yeri incelemesi."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/13-yerinden-bicaklanmisti-kan-donduran-olay-yeni-detaylar-ortaya-cikti-43329582",
+      "tags": [
+        "cinayet",
+        "Antalya",
+        "Gazipaşa",
+        "aile içi şiddet",
+        "genç cinayeti"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:yakup-bozkurt-cinayeti-14-yillik-sir-cozuldu_20261003",
       "slug": "yakup-bozkurt-cinayeti-14-yillik-sir-cozuldu_20261003",
       "title": "Yakup Bozkurt Cinayeti: 14 Yıllık Sır Annenin İfadesiyle Çözüldü",
@@ -3028,123 +3143,6 @@
         "Eskişehir",
         "JASAT",
         "Adalet Bakanlığı"
-      ],
-      "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "nachrichten/artikel/2026/10:xai-gesetz-ki-nacktbilder-us-berufungsgericht-grok_20261003",
-      "slug": "xai-gesetz-ki-nacktbilder-us-berufungsgericht-grok_20261003",
-      "title": "xAI stoppt Gesetz gegen KI-Nacktbilder: Teilerfolg für Musks Unternehmen vor US-Gericht",
-      "summary": "Das KI-Unternehmen xAI von Elon Musk hat vor einem US-Berufungsgericht in St. Louis eine vorläufige Aussetzung eines Gesetzes im Bundesstaat Minnesota erzielt. Die Regelung sollte Softwareanbietern und Webseitenbetreibern verbieten, Werkzeuge zur Erstellung...",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "topic_slug": "teknoloji",
-      "topic_label": "Teknoloji",
-      "country": "Germany",
-      "language": "de",
-      "language_label": "German",
-      "section": "nachrichten/artikel",
-      "section_name": "Deutschland Nachrichten",
-      "url_prefix": "nachrichten/artikel/2026/10",
-      "date": "03.10.2026",
-      "date_iso": "2026-10-03",
-      "url": "/nachrichten/artikel/2026/10/xai-gesetz-ki-nacktbilder-us-berufungsgericht-grok_20261003/",
-      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/xai-gesetz-ki-nacktbilder-us-berufungsgericht-grok_20261003/",
-      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/xai-gesetz-ki-nacktbilder-us-berufungsgericht-grok_20261003.json",
-      "image_url": "https://cdn.prod.www.spiegel.de/images/8ae7b3f3-d01f-49a7-9972-2376ef62c5cb_w520_r2.08_fpx53.31_fpy49.99.jpg",
-      "image_alt": "Symbolbild zu Künstlicher Intelligenz und juristischen Streitigkeiten vor Gericht.",
-      "image": {
-        "url": "https://cdn.prod.www.spiegel.de/images/8ae7b3f3-d01f-49a7-9972-2376ef62c5cb_w520_r2.08_fpx53.31_fpy49.99.jpg",
-        "alt": "Symbolbild zu Künstlicher Intelligenz und juristischen Streitigkeiten vor Gericht."
-      },
-      "source_name": "DER SPIEGEL - Schlagzeilen",
-      "source_url": "https://www.spiegel.de/netzwelt/grok-musks-xai-setzt-us-gesetz-gegen-ki-nacktbilder-vorerst-ausser-kraft-a-8629cb55-4cd8-44d1-8c6c-050e5466217f#ref=rss",
-      "tags": [
-        "xAI",
-        "Elon Musk",
-        "Grok",
-        "Künstliche Intelligenz",
-        "Deepfakes",
-        "USA"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:viransehirli-ogrenciler-denizati-ilhamli-sarsinti-azaltan-modul-gelistirdi_20261003",
-      "slug": "viransehirli-ogrenciler-denizati-ilhamli-sarsinti-azaltan-modul-gelistirdi_20261003",
-      "title": "Viranşehirli Öğrencilerden Denizatından İlhamla Sarsıntı Azaltan Modül",
-      "summary": "Şanlıurfa'nın Viranşehir ilçesinde taşımalı eğitim gören öğrenciler, her gün kullandıkları bozuk köy yollarına çözüm arayışıyla denizatının kuyruk yapısından ilham alarak esnek bir modül geliştirdi. Bu yenilikçi proje, araç ve binalardaki sarsıntıları azalt...",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "03.10.2026",
-      "date_iso": "2026-10-03",
-      "url": "/articles/2026/10/viransehirli-ogrenciler-denizati-ilhamli-sarsinti-azaltan-modul-gelistirdi_20261003/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/viransehirli-ogrenciler-denizati-ilhamli-sarsinti-azaltan-modul-gelistirdi_20261003/",
-      "detail_json_url": "/data/details/articles/2026/10/viransehirli-ogrenciler-denizati-ilhamli-sarsinti-azaltan-modul-gelistirdi_20261003.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/viransehirli-ogrenciler-denizati-ilhamli-sarsinti-azaltan-modul-gelistirdi_20261003.webp",
-      "image_alt": "Şanlıurfa Viranşehirli öğrencilerin denizatından esinlenerek geliştirdiği sarsıntı azaltan esnek modül, TEKNOFEST'te...",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/10/images/viransehirli-ogrenciler-denizati-ilhamli-sarsinti-azaltan-modul-gelistirdi_20261003.webp",
-        "alt": "Şanlıurfa Viranşehirli öğrencilerin denizatından esinlenerek geliştirdiği sarsıntı azaltan esnek modül, TEKNOFEST'te..."
-      },
-      "source_name": "Anadolu Ajansı Güncel Haberler",
-      "source_url": "https://www.aa.com.tr/tr/teknofest/yasadiklari-yol-sorununa-denizatinin-kuyrugundan-ilhamla-teknoloji-gelistirdiler/4076855",
-      "tags": [
-        "TEKNOFEST",
-        "Biyomimetri",
-        "Şanlıurfa",
-        "Viranşehir",
-        "Eğitim",
-        "İnovasyon",
-        "Denizatı"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "nachrichten/artikel/2026/10:verstappen-pole-sepang-mercedes-debakel-formel-1-2026_20261003",
-      "slug": "verstappen-pole-sepang-mercedes-debakel-formel-1-2026_20261003",
-      "title": "Max Verstappen holt Sepang-Pole – Mercedes nach Update-Debakel ratlos",
-      "summary": "Max Verstappen hat sich beim Qualifying zum Formel-1-Rennen in Sepang die erste Pole Position der Saison gesichert. Während der Red-Bull-Pilot vor Lewis Hamilton glänzte, erlebte Mercedes ein Enttäuschungs-Qualifying: Neue Upgrades machten den Wagen langsam...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Germany",
-      "language": "de",
-      "language_label": "German",
-      "section": "nachrichten/artikel",
-      "section_name": "Deutschland Nachrichten",
-      "url_prefix": "nachrichten/artikel/2026/10",
-      "date": "03.10.2026",
-      "date_iso": "2026-10-03",
-      "url": "/nachrichten/artikel/2026/10/verstappen-pole-sepang-mercedes-debakel-formel-1-2026_20261003/",
-      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/verstappen-pole-sepang-mercedes-debakel-formel-1-2026_20261003/",
-      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/verstappen-pole-sepang-mercedes-debakel-formel-1-2026_20261003.json",
-      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/verstappen-pole-sepang-mercedes-debakel-formel-1-2026_20261003.webp",
-      "image_alt": "Max Verstappen fährt im Red-Bull-Formel-1-Wagen auf dem Sepang International Circuit.",
-      "image": {
-        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/verstappen-pole-sepang-mercedes-debakel-formel-1-2026_20261003.webp",
-        "alt": "Max Verstappen fährt im Red-Bull-Formel-1-Wagen auf dem Sepang International Circuit."
-      },
-      "source_name": "n-tv.de - Startseite",
-      "source_url": "https://www.n-tv.de/sport/formel1/Ratlos-Mercedes-Formel-1-Plan-geht-maechtig-nach-hinten-los-id31376797.html",
-      "tags": [
-        "Formel 1",
-        "Max Verstappen",
-        "Mercedes",
-        "Toto Wolff",
-        "Sepang"
       ],
       "quality_score": 100,
       "review_status": "published"
