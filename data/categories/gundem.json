@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-04T00:00:00+00:00",
-    "article_count": 1990,
+    "article_count": 1997,
     "schema_version": 2,
     "category_slug": "gundem",
     "type": "category"
@@ -47,6 +47,44 @@
         "Son Dakika"
       ],
       "quality_score": 95,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:aydin-umurlu-apartman-yangini_20261004",
+      "slug": "aydin-umurlu-apartman-yangini_20261004",
+      "title": "Aydın'da Gece Yarısı Yangın Paniği: 5 Kişi Hastaneye Kaldırıldı",
+      "summary": "Aydın'ın Efeler ilçesine bağlı Umurlu Mahallesi'nde gece saatlerinde bir apartman dairesinde çıkan yangın, mahalle sakinlerine korku dolu anlar yaşattı. İtfaiye ekiplerinin zamanında müdahalesiyle evde mahsur kalan 5 kişi kurtarılarak hastaneye kaldırıldı.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/articles/2026/10/aydin-umurlu-apartman-yangini_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/aydin-umurlu-apartman-yangini_20261004/",
+      "detail_json_url": "/data/details/articles/2026/10/aydin-umurlu-apartman-yangini_20261004.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/aydin-umurlu-apartman-yangini_20261004.webp",
+      "image_alt": "Aydın'da bir apartmanda çıkan yangına müdahale eden itfaiye ekipleri.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/aydin-umurlu-apartman-yangini_20261004.webp",
+        "alt": "Aydın'da bir apartmanda çıkan yangına müdahale eden itfaiye ekipleri."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/gece-yarisi-facianin-esiginden-donuldu-yangina-uykularinda-yakalandilar-43328848",
+      "tags": [
+        "Aydın",
+        "yangın",
+        "Umurlu",
+        "son dakika",
+        "itfaiye"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
