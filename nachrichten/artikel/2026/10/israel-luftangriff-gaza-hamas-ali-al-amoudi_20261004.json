@@ -42,14 +42,6 @@
   "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/israel-luftangriff-gaza-hamas-ali-al-amoudi_20261004.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "source_provided",
-  "image_license_note": "RSS source image: tagesschau.de - Die Nachrichten der ARD",
-  "image_source_url": "https://www.tagesschau.de/ausland/asien/gaza-angriffe-israel-106.html",
-  "image_provider": "rss",
-  "image_score": 70,
-  "image_query": "Luftangriff: Rettungskräfte melden Tote im Gazastreifen",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "Die israelische Armee hat bei einem Luftangriff im Gazastreifen den ranghöchsten Hamas-Vertreter Ali Al-Amoudi ins Visier genommen. Während Rettungskräfte aus Gaza mehrere Tote und Verletzte melden, prüft das israelische Militär die Ergebnisse des Einsatzes.",
   "language": "German",
   "url_prefix": "nachrichten/artikel/2026/10",
@@ -71,10 +63,7 @@
   ],
   "quality_word_count": 398,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.tagesschau.de/image/e8bf4b11-ec9e-4b8d-8dd6-a79a12c50d61/AAABoQP9eZU/AAABnSSvrFg/16x9-big/gaza-angriff-truemmer-haus-100.jpg?width=1920",
-  "original_image_url": "https://images.tagesschau.de/image/e8bf4b11-ec9e-4b8d-8dd6-a79a12c50d61/AAABoQP9eZU/AAABnSSvrFg/16x9-big/gaza-angriff-truemmer-haus-100.jpg?width=1920",
-  "image_local_webp": "nachrichten/artikel/2026/10/images/israel-luftangriff-gaza-hamas-ali-al-amoudi_20261004.webp",
-  "image_credit": "tagesschau.de",
-  "image_credit_url": "https://www.tagesschau.de/ausland/asien/gaza-angriffe-israel-106.html",
-  "image_finalized_at": "2026-10-04T02:04:34.382102Z"
+  "time": "23:54",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }
