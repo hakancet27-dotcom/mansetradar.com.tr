@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-04T00:00:00+00:00",
-    "article_count": 2036,
+    "article_count": 2039,
     "schema_version": 2,
     "topic_slug": "dunya",
     "type": "topic"
@@ -44,6 +44,43 @@
         "Yaz Saati Uygulaması",
         "Tom Cotton",
         "Kongre Seçimleri"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:israil-bati-seria-filistinlilere-saldiri-rapor_20261004",
+      "slug": "israil-bati-seria-filistinlilere-saldiri-rapor_20261004",
+      "title": "İsrail'den Batı Şeria'da Filistinlilere Yönelik Yaklaşık 63 Bin Saldırı",
+      "summary": "Anadolu Ajansı'nın güncellediği verilere göre, İsrail güçleri ve yerleşimciler, 7 Ekim 2023'ten bu yana Batı Şeria'da Filistinlilere, topraklarına ve mülklerine yönelik yaklaşık 63 bin saldırı gerçekleştirdi. Bu saldırılar arasında İsrail askerlerinin 48 bi...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/articles/2026/10/israil-bati-seria-filistinlilere-saldiri-rapor_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/israil-bati-seria-filistinlilere-saldiri-rapor_20261004/",
+      "detail_json_url": "/data/details/articles/2026/10/israil-bati-seria-filistinlilere-saldiri-rapor_20261004.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/israil-bati-seria-filistinlilere-saldiri-rapor_20261004.webp",
+      "image_alt": "Batı Şeria'da İsrail yerleşimlerinin Filistin topraklarına doğru genişlediği, ön planda zeytinliklerin bulunduğu havadan...",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/israil-bati-seria-filistinlilere-saldiri-rapor_20261004.webp",
+        "alt": "Batı Şeria'da İsrail yerleşimlerinin Filistin topraklarına doğru genişlediği, ön planda zeytinliklerin bulunduğu havadan..."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/dunya/israil-2023ten-bu-yana-bati-seriada-filistinlilere-yonelik-yaklasik-63-bin-saldiri-gerceklestirdi-/4077807",
+      "tags": [
+        "İsrail",
+        "Batı Şeria",
+        "Filistin",
+        "Saldırı Raporu"
       ],
       "quality_score": 100,
       "review_status": "published"

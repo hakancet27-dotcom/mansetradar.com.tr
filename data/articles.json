@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-04T00:00:00+00:00",
-    "article_count": 2036,
+    "article_count": 2039,
     "schema_version": 2
   },
   "articles": [
@@ -313,6 +313,46 @@
         "Recep Tayyip Erdoğan",
         "Devlet Denetleme Kurulu",
         "Özür Açıklaması"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:savunma-sanayiinde-yerlilik-orani-yuzde-83e-ulasti_20261004",
+      "slug": "savunma-sanayiinde-yerlilik-orani-yuzde-83e-ulasti_20261004",
+      "title": "Savunma Sanayiinde Yerlilik Oranı Yüzde 83'e Ulaştı",
+      "summary": "Cumhurbaşkanlığı Savunma Sanayii Başkanı Haluk Görgün, Şanlıurfa'da düzenlenen TEKNOFEST Güneydoğu'da yaptığı açıklamada, Türkiye'nin savunma sanayiinde yerlilik oranının son 20 yılda yüzde 20'lerden yüzde 83'e ulaştığını bildirdi. Görgün, bu başarının Cumh...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/articles/2026/10/savunma-sanayiinde-yerlilik-orani-yuzde-83e-ulasti_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/savunma-sanayiinde-yerlilik-orani-yuzde-83e-ulasti_20261004/",
+      "detail_json_url": "/data/details/articles/2026/10/savunma-sanayiinde-yerlilik-orani-yuzde-83e-ulasti_20261004.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/savunma-sanayiinde-yerlilik-orani-yuzde-83e-ulasti_20261004.webp",
+      "image_alt": "TEKNOFEST Güneydoğu etkinliğinde savunma sanayii ürünleri ve medya teknolojileri sergileniyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/savunma-sanayiinde-yerlilik-orani-yuzde-83e-ulasti_20261004.webp",
+        "alt": "TEKNOFEST Güneydoğu etkinliğinde savunma sanayii ürünleri ve medya teknolojileri sergileniyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/cumhurbaskanligi-savunma-sanayii-baskani-gorgun-yerlilik-orani-yuzde-83e-ulasmis-durumda-43329556",
+      "tags": [
+        "Savunma Sanayii",
+        "Yerlilik Oranı",
+        "Haluk Görgün",
+        "TEKNOFEST",
+        "Fatih",
+        "Fatih haberleri",
+        "İstanbul"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -716,6 +756,43 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/10:kenan-yildiz-icin-dev-transfer-plani-100-milyon-euroluk-teklif-kapida_20261004",
+      "slug": "kenan-yildiz-icin-dev-transfer-plani-100-milyon-euroluk-teklif-kapida_20261004",
+      "title": "Kenan Yıldız'a 100 Milyon Euro'luk Teklif İddiası",
+      "summary": "Juventus'ta forma giyen milli futbolcu Kenan Yıldız, Avrupa'nın önde gelen kulüplerinin radarına girdi. İtalyan basını, Real Madrid, Arsenal ve Bayern Münih'in genç oyuncuyu yakından takip ettiğini ve Juventus'un Şampiyonlar Ligi'ne katılamaması durumunda K...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/articles/2026/10/kenan-yildiz-icin-dev-transfer-plani-100-milyon-euroluk-teklif-kapida_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/kenan-yildiz-icin-dev-transfer-plani-100-milyon-euroluk-teklif-kapida_20261004/",
+      "detail_json_url": "/data/details/articles/2026/10/kenan-yildiz-icin-dev-transfer-plani-100-milyon-euroluk-teklif-kapida_20261004.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/kenan-yildiz-icin-dev-transfer-plani-100-milyon-euroluk-teklif-kapida_20261004.webp",
+      "image_alt": "Kenan Yıldız'a dev transfer teklifi iddiası",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/kenan-yildiz-icin-dev-transfer-plani-100-milyon-euroluk-teklif-kapida_20261004.webp",
+        "alt": "Kenan Yıldız'a dev transfer teklifi iddiası"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/kenan-yildiz-icin-dev-transfer-plani-100-milyon-euroluk-teklif-kapida-43329562",
+      "tags": [
+        "Kenan Yıldız",
+        "Juventus",
+        "Real Madrid",
+        "Transfer"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "nachrichten/artikel/2026/10:jemen-regierung-offensive-huthi-miliz-militaereinsatz_20261004",
       "slug": "jemen-regierung-offensive-huthi-miliz-militaereinsatz_20261004",
       "title": "Regierung im Jemen startet umfassende Militäroffensive gegen Huthi-Miliz",
@@ -830,6 +907,43 @@
         "Son Dakika"
       ],
       "quality_score": 95,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:israil-bati-seria-filistinlilere-saldiri-rapor_20261004",
+      "slug": "israil-bati-seria-filistinlilere-saldiri-rapor_20261004",
+      "title": "İsrail'den Batı Şeria'da Filistinlilere Yönelik Yaklaşık 63 Bin Saldırı",
+      "summary": "Anadolu Ajansı'nın güncellediği verilere göre, İsrail güçleri ve yerleşimciler, 7 Ekim 2023'ten bu yana Batı Şeria'da Filistinlilere, topraklarına ve mülklerine yönelik yaklaşık 63 bin saldırı gerçekleştirdi. Bu saldırılar arasında İsrail askerlerinin 48 bi...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/articles/2026/10/israil-bati-seria-filistinlilere-saldiri-rapor_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/israil-bati-seria-filistinlilere-saldiri-rapor_20261004/",
+      "detail_json_url": "/data/details/articles/2026/10/israil-bati-seria-filistinlilere-saldiri-rapor_20261004.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/israil-bati-seria-filistinlilere-saldiri-rapor_20261004.webp",
+      "image_alt": "Batı Şeria'da İsrail yerleşimlerinin Filistin topraklarına doğru genişlediği, ön planda zeytinliklerin bulunduğu havadan...",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/israil-bati-seria-filistinlilere-saldiri-rapor_20261004.webp",
+        "alt": "Batı Şeria'da İsrail yerleşimlerinin Filistin topraklarına doğru genişlediği, ön planda zeytinliklerin bulunduğu havadan..."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/dunya/israil-2023ten-bu-yana-bati-seriada-filistinlilere-yonelik-yaklasik-63-bin-saldiri-gerceklestirdi-/4077807",
+      "tags": [
+        "İsrail",
+        "Batı Şeria",
+        "Filistin",
+        "Saldırı Raporu"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
