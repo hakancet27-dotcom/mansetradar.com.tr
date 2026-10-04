@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-04T00:00:00+00:00",
-    "article_count": 2023,
+    "article_count": 2025,
     "schema_version": 2,
     "section": "news-articles"
   },
@@ -90,6 +90,43 @@
       "review_status": "published"
     },
     {
+      "id": "news/articles/2026/10:democrats-maintain-house-advantage-cbs-news-poll_20261004",
+      "slug": "democrats-maintain-house-advantage-cbs-news-poll_20261004",
+      "title": "Democrats Hold Advantage in House Control, CBS News Poll Indicates",
+      "summary": "A new Battleground Tracker poll from CBS News indicates that Democrats are currently maintaining an advantage in the contest for control of the House of Representatives. The findings suggest a competitive landscape as the election cycle progresses.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/news/articles/2026/10/democrats-maintain-house-advantage-cbs-news-poll_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/democrats-maintain-house-advantage-cbs-news-poll_20261004/",
+      "detail_json_url": "/data/details/news/articles/2026/10/democrats-maintain-house-advantage-cbs-news-poll_20261004.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/democrats-maintain-house-advantage-cbs-news-poll_20261004.webp",
+      "image_alt": "US Capitol building with a poll graphic indicating Democratic advantage.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/democrats-maintain-house-advantage-cbs-news-poll_20261004.webp",
+        "alt": "US Capitol building with a poll graphic indicating Democratic advantage."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/cbs-news-battleground-tracker-poll-finds-democrats-maintain-house-advantage/",
+      "tags": [
+        "US Politics",
+        "House of Representatives",
+        "Midterm Elections",
+        "Polling"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "news/articles/2026/10:democrats-house-advantage-prices-gop-turnout_20261004",
       "slug": "democrats-house-advantage-prices-gop-turnout_20261004",
       "title": "Democrats Maintain House Advantage Amid Voter Concern Over Rising Prices, Poll Finds",
@@ -126,6 +163,45 @@
         "Donald Trump",
         "Democratic Party",
         "Republican Party"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:biden-aide-recalls-draconian-measures-considered-against-israel_20261004",
+      "slug": "biden-aide-recalls-draconian-measures-considered-against-israel_20261004",
+      "title": "Biden Aide Recalls \"Draconian Measures\" Considered Against Israel",
+      "summary": "President Joe Biden was on the verge of implementing \"draconian measures\" against Israel after an Israeli military drone strike killed seven World Central Kitchen aid workers in Gaza in April 2024. However, U.S. intelligence indicating an imminent and \"unpr...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "04.10.2026",
+      "date_iso": "2026-10-04",
+      "url": "/news/articles/2026/10/biden-aide-recalls-draconian-measures-considered-against-israel_20261004/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/biden-aide-recalls-draconian-measures-considered-against-israel_20261004/",
+      "detail_json_url": "/data/details/news/articles/2026/10/biden-aide-recalls-draconian-measures-considered-against-israel_20261004.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/biden-aide-recalls-draconian-measures-considered-against-israel_20261004.webp",
+      "image_alt": "Brett McGurk, a senior Middle East adviser, speaking about U.S. policy towards Israel.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/biden-aide-recalls-draconian-measures-considered-against-israel_20261004.webp",
+        "alt": "Brett McGurk, a senior Middle East adviser, speaking about U.S. policy towards Israel."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/brett-mcgurk-biden-israel-hamas-iran-brink/",
+      "tags": [
+        "Brett McGurk",
+        "Joe Biden",
+        "Israel",
+        "Gaza",
+        "Iran",
+        "World Central Kitchen"
       ],
       "quality_score": 100,
       "review_status": "published"
