@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-05T00:00:00+00:00",
-    "article_count": 2059,
+    "article_count": 2061,
     "schema_version": 2
   },
   "articles": [
@@ -80,6 +80,45 @@
         "Wahlen",
         "Republika Srpska",
         "Staatspräsidium"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:justice-alito-denies-political-agenda-amidst-trump-jabs_20261005",
+      "slug": "justice-alito-denies-political-agenda-amidst-trump-jabs_20261005",
+      "title": "Justice Alito Denies Political Agenda Amidst 'Trump Jabs'",
+      "summary": "U.S. Supreme Court Justice Samuel Alito has publicly responded to recent criticisms, described as 'Trump jabs,' by firmly stating, 'We are not attempting to further any political agenda.' This declaration, emphasizing judicial impartiality, was reported by...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "05.10.2026",
+      "date_iso": "2026-10-05",
+      "url": "/news/articles/2026/10/justice-alito-denies-political-agenda-amidst-trump-jabs_20261005/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/justice-alito-denies-political-agenda-amidst-trump-jabs_20261005/",
+      "detail_json_url": "/data/details/news/articles/2026/10/justice-alito-denies-political-agenda-amidst-trump-jabs_20261005.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/justice-alito-denies-political-agenda-amidst-trump-jabs_20261005.webp",
+      "image_alt": "Justice Alito Denies Political Agenda Amidst 'Trump Jabs'",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/justice-alito-denies-political-agenda-amidst-trump-jabs_20261005.webp",
+        "alt": "Justice Alito Denies Political Agenda Amidst 'Trump Jabs'"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/justice-samuel-alito-reacts-to-trump-jabs-we-are-not-attempting-to-further-any-political-agenda/",
+      "tags": [
+        "Samuel Alito",
+        "Supreme Court",
+        "Judiciary",
+        "Trump",
+        "Politics",
+        "CBS News"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -234,6 +273,45 @@
         "Nations League",
         "Florian Wirtz",
         "Griechenland"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:cornell-chi-phi-drug-arrest-alleged-gang-rape-timeline_20261005",
+      "slug": "cornell-chi-phi-drug-arrest-alleged-gang-rape-timeline_20261005",
+      "title": "Cornell Chi Phi: Drug Arrest Preceded Alleged Gang Rape, Logs Show",
+      "summary": "Cornell police made a drug arrest at the Chi Phi fraternity house 22 hours prior to an alleged gang rape incident reported at the same location, according to official police logs. This timeline reveals a concerning sequence of events at the campus fraternit...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "05.10.2026",
+      "date_iso": "2026-10-05",
+      "url": "/news/articles/2026/10/cornell-chi-phi-drug-arrest-alleged-gang-rape-timeline_20261005/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/cornell-chi-phi-drug-arrest-alleged-gang-rape-timeline_20261005/",
+      "detail_json_url": "/data/details/news/articles/2026/10/cornell-chi-phi-drug-arrest-alleged-gang-rape-timeline_20261005.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/cornell-chi-phi-drug-arrest-alleged-gang-rape-timeline_20261005.webp",
+      "image_alt": "Cornell Chi Phi: Drug Arrest Preceded Alleged Gang Rape, Logs Show",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/cornell-chi-phi-drug-arrest-alleged-gang-rape-timeline_20261005.webp",
+        "alt": "Cornell Chi Phi: Drug Arrest Preceded Alleged Gang Rape, Logs Show"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/cornell-police-made-drug-arrest-chi-phi-22-hours-before-alleged-gang-rape-log/",
+      "tags": [
+        "Cornell University",
+        "Chi Phi Fraternity",
+        "Drug Arrest",
+        "Alleged Gang Rape",
+        "Campus Safety",
+        "Police Logs"
       ],
       "quality_score": 86,
       "review_status": "published"
