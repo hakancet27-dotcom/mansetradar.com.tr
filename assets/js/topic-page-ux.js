@@ -607,6 +607,8 @@
 
     var sec = document.getElementById('turkiye');
     if (sec) sec.hidden = false;
+    var akis = document.getElementById('turkiye-akis');
+    if (akis) akis.hidden = false;
 
     if (typeof window.dedupeNewsCards === 'function') window.dedupeNewsCards();
     if (typeof window.applyTopicFilter === 'function') window.applyTopicFilter();
@@ -653,6 +655,8 @@
 
     var sec = document.getElementById('turkiye');
     if (sec) sec.hidden = false;
+    var akis = document.getElementById('turkiye-akis');
+    if (akis) akis.hidden = false;
 
     var articles = await loadCategoryArticles(topic);
     if (currentActiveTopic !== topic) return;

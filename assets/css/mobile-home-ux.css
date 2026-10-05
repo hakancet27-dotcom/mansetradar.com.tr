@@ -161,33 +161,26 @@
   .headline-title { font-size: 1.34rem !important; line-height: 1.14 !important; }
   .headline-meta { margin-bottom: 7px !important; }
   .headline-slider .slider-controls {
-    position: absolute !important; left: 0 !important; right: 0 !important; top: 50% !important; bottom: auto !important;
-    transform: translateY(-50%) !important; display: flex !important; justify-content: space-between !important;
-    align-items: center !important; padding: 0 9px !important; z-index: 8 !important; pointer-events: none !important;
-  }
-  .headline-slider .slider-btn {
-    pointer-events: auto !important; width: 40px !important; height: 40px !important; min-width: 40px !important;
-    border-radius: 50% !important; display: inline-flex !important; align-items: center !important; justify-content: center !important;
-    background: rgba(17,24,39,.62) !important; border: 1px solid rgba(255,255,255,.65) !important;
-    color: #fff !important; font-size: 1.55rem !important; line-height: 1 !important; box-shadow: 0 2px 8px rgba(0,0,0,.18) !important;
+    display: none !important;
   }
   .headline-slider .slider-dots {
-    left: 50% !important; right: auto !important; bottom: 12px !important; top: auto !important;
-    transform: translateX(-50%) !important; z-index: 9 !important; max-width: calc(100% - 112px) !important;
-    gap: 5px !important; padding: 6px 9px !important; background: rgba(17,24,39,.48) !important;
-    border: 1px solid rgba(255,255,255,.28) !important; box-shadow: 0 3px 12px rgba(0,0,0,.18) !important;
+    left: 50% !important; right: auto !important; bottom: 8px !important; top: auto !important;
+    transform: translateX(-50%) !important; z-index: 9 !important; width: max-content !important; max-width: calc(100% - 20px) !important;
+    gap: 4px !important; padding: 4px 8px !important; background: rgba(17,24,39,.65) !important;
+    border: 1px solid rgba(255,255,255,.28) !important; border-radius: 999px !important; box-shadow: 0 3px 12px rgba(0,0,0,.22) !important;
     overflow-x: auto !important; scrollbar-width: none !important;
+    display: flex !important; justify-content: center !important; align-items: center !important;
   }
   .headline-slider .slider-dots::-webkit-scrollbar { display: none !important; }
   .headline-slider .slider-dot {
-    min-width: 24px !important;
-    height: 24px !important;
-    width: auto !important;
-    padding: 0 6px !important;
-    border-radius: 6px !important;
+    min-width: 22px !important;
+    height: 22px !important;
+    width: 22px !important;
+    padding: 0 !important;
+    border-radius: 50% !important;
     background: rgba(255,255,255,.24) !important;
     color: #ffffff !important;
-    font-size: 0.74rem !important;
+    font-size: 0.7rem !important;
     font-weight: 800 !important;
     display: inline-flex !important;
     align-items: center !important;
@@ -195,24 +188,114 @@
     line-height: 1 !important;
   }
   .headline-slider .slider-dot.is-active {
-    min-width: 30px !important;
+    min-width: 24px !important;
+    width: 24px !important;
+    height: 24px !important;
     background: #e10600 !important;
     color: #ffffff !important;
     font-weight: 900 !important;
-    box-shadow: 0 2px 8px rgba(225,6,0,0.55) !important;
+    box-shadow: 0 2px 8px rgba(225,6,0,0.6) !important;
   }
   body:not(.mobile-home-ux-ready) .market-strip { display: none !important; }
-  body.mobile-home-ux-ready .market-strip { margin: 9px 0 14px !important; width: 100% !important; max-width: none !important; display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 5px !important; padding: 6px !important; overflow: visible !important; white-space: normal !important; border: 1px solid #e4e7ec !important; border-radius: 9px !important; background: #f7f8fa !important; scroll-snap-type: none !important; }
+  body.mobile-home-ux-ready .market-strip {
+    margin: 8px 0 12px !important;
+    width: 100% !important;
+    max-width: none !important;
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 4px !important;
+    padding: 5px !important;
+    overflow: visible !important;
+    white-space: normal !important;
+    border: 1px solid #e4e7ec !important;
+    border-radius: 9px !important;
+    background: #f7f8fa !important;
+    scroll-snap-type: none !important;
+  }
   .market-label { display: none !important; }
-  .market-item, .market-item.up, .market-item.down { width: 100% !important; min-width: 0 !important; padding: 6px 7px !important; display: grid !important; grid-template-columns: minmax(0, 1fr) auto !important; gap: 3px 5px !important; align-items: center !important; background: #fff !important; border: 1px solid #e9ecf1 !important; border-radius: 6px !important; box-shadow: none !important; }
+  .market-item, .market-item.up, .market-item.down {
+    width: 100% !important;
+    min-width: 0 !important;
+    padding: 5px 6px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 2px !important;
+    background: #fff !important;
+    border: 1px solid #e9ecf1 !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+  }
   .market-item.up { background: #f6fbf8 !important; border-color: #d8ede0 !important; }
   .market-item.down { background: #fff8f7 !important; border-color: #f2d8d5 !important; }
   .market-name { color: #667085 !important; font-size: .62rem !important; font-weight: 700 !important; }
-  .market-value, .market-item.up .market-value, .market-item.down .market-value { color: #101828 !important; font-size: .84rem !important; min-width: 0 !important; }
-  .market-change, .market-item.neutral .market-change { grid-column: 2 !important; grid-row: 1 / span 2 !important; min-width: 0 !important; padding: 3px 5px !important; border-radius: 999px !important; font-size: .6rem !important; font-weight: 700 !important; color: #344054 !important; background: #f2f4f7 !important; }
+  .market-value, .market-item.up .market-value, .market-item.down .market-value { color: #101828 !important; font-size: .82rem !important; font-weight: 800 !important; min-width: 0 !important; }
+  .market-change, .market-item.neutral .market-change { padding: 1px 4px !important; border-radius: 4px !important; font-size: .58rem !important; font-weight: 700 !important; }
   .market-change.up, .market-item.up .market-change { color: #067647 !important; background: #eaf7ef !important; }
   .market-change.down, .market-item.down .market-change { color: #b42318 !important; background: #fff1f0 !important; }
-  .market-status { grid-column: 1 / -1 !important; display: block !important; padding: 1px 3px 0 !important; font-size: .61rem !important; color: #667085 !important; white-space: normal !important; }
+  .market-status { display: none !important; }
+
+  /* Istanbul Section Mobile Optimizations */
+  .istanbul-showcase {
+    padding: 14px 12px !important;
+    margin-bottom: 20px !important;
+    border-radius: 10px !important;
+  }
+  .istanbul-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 10px !important;
+    margin-bottom: 14px !important;
+    padding-bottom: 12px !important;
+  }
+  .istanbul-title {
+    font-size: 1.25rem !important;
+    line-height: 1.25 !important;
+  }
+  .istanbul-desc {
+    font-size: 0.8rem !important;
+    margin-top: 3px !important;
+  }
+  .istanbul-chips {
+    width: 100% !important;
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    scrollbar-width: none !important;
+    gap: 6px !important;
+    padding-bottom: 2px !important;
+  }
+  .istanbul-chips::-webkit-scrollbar { display: none !important; }
+  .istanbul-chip {
+    padding: 5px 10px !important;
+    font-size: 0.74rem !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+  }
+  .city-metrics-bar {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 6px !important;
+    margin-bottom: 14px !important;
+  }
+  .city-metric {
+    padding: 7px 9px !important;
+    border-radius: 8px !important;
+    gap: 7px !important;
+    align-items: center !important;
+  }
+  .city-metric .metric-icon { font-size: 1.15rem !important; }
+  .city-metric .metric-label { font-size: 0.65rem !important; }
+  .city-metric strong { font-size: 0.78rem !important; line-height: 1.2 !important; }
+  .istanbul-subhead {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 4px !important;
+    margin: 16px 0 10px !important;
+  }
+  .istanbul-subhead h3 { font-size: 1.12rem !important; }
+  .istanbul-subhead a { font-size: 0.8rem !important; }
 }
 
 /* Disable title crossfade overlap: a single headline remains legible during rotation. */

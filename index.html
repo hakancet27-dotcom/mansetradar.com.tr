@@ -3244,7 +3244,7 @@ html.has-topic-filter .topic-card[hidden] {
           </div>
 
           <!-- İSTANBUL HABERLERİ VİTRİNİ -->
-          <div style="display:flex; justify-content:space-between; align-items:center; margin:24px 0 16px;">
+          <div class="istanbul-subhead">
             <h3 style="font-size:1.25rem; font-weight:800; color:var(--dark); margin:0;">Megakent &amp; İlçelerden En Son Haberler</h3>
             <a href="/hizmet/eczane/" style="font-size:0.85rem; font-weight:700; color:#dc2626; text-decoration:none;">İlçelere Göre Haber &amp; Eczane Rehberi →</a>
           </div>
@@ -4876,7 +4876,7 @@ html.has-topic-filter .topic-card[hidden] {
       document.querySelectorAll('[data-news-section]').forEach(section => {
         const hasVisibleCards = section.querySelector('.topic-card[data-filtered-out="false"]');
         visibleTotal += section.querySelectorAll('.topic-card[data-filtered-out="false"]').length;
-        section.hidden = !showAll && !hasVisibleCards && section.id !== 'turkiye';
+        section.hidden = !showAll && !hasVisibleCards && !section.id.startsWith('turkiye');
       });
 
       const empty = document.getElementById('empty-topic');
