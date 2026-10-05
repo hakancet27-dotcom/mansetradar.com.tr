@@ -147,7 +147,7 @@
   async function loadCategoryArticles(topic) {
     if (!topic || topic === 'son-dakika') return [];
     if (!categoryFeedCache[topic]) {
-      categoryFeedCache[topic] = fetch('/data/categories/' + encodeURIComponent(topic) + '.json', { cache: 'no-store' })
+      categoryFeedCache[topic] = fetch('/data/categories/' + encodeURIComponent(topic) + '.json')
         .then(function (response) {
           if (!response.ok) return [];
           return response.json();
@@ -331,7 +331,7 @@
     var title = (article.title || '').trim();
     if (!href || !title) return null;
 
-    var slide = makeElement('a', 'headline-slide headline-card topic-card is-json-category-hero');
+    var slide = makeElement('a', 'headline-slide headline-card is-json-category-hero');
     if (index === 0) slide.classList.add('is-active');
     slide.href = href;
     slide.dataset.topic = topic;
@@ -639,6 +639,10 @@
       }
     }
 
+    if (!categoryFeedCache[topic]) {
+      document.documentElement.classList.remove('category-showcase-ready', 'category-page-ready');
+    }
+
     document.documentElement.dataset.activeTopic = topic;
     document.querySelectorAll('.topic-link[data-topic]').forEach(function (l) {
       l.classList.toggle('is-active', l.dataset.topic === topic);
@@ -741,19 +745,9 @@
 
   function prefetchCategories() {
     var categoryKeys = ['gundem', 'ekonomi', 'spor', 'siyaset', 'dunya', 'magazin', 'teknoloji', 'saglik'];
-    var idx = 0;
-    function next() {
-      if (idx >= categoryKeys.length) return;
-      var key = categoryKeys[idx++];
-      loadCategoryArticles(key).finally(function () {
-        setTimeout(next, 250);
-      });
-    }
-    if (window.requestIdleCallback) {
-      window.requestIdleCallback(function () { setTimeout(next, 600); });
-    } else {
-      setTimeout(next, 1200);
-    }
+    categoryKeys.forEach(function (key) {
+      loadCategoryArticles(key);
+    });
   }
 
   function installAccurateCount() {
