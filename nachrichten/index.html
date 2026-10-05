@@ -2872,24 +2872,28 @@
       .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
     }
 /* FIRST_PAINT_TOPIC_FILTER_START */
-html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]) .topic-card {
+html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]) .topic-card:not(.headline-slide) {
   display: none !important;
 }
-html.has-topic-filter[data-active-topic="gundem"] .topic-card[data-topic="gundem"],
-html.has-topic-filter[data-active-topic="siyaset"] .topic-card[data-topic="siyaset"],
-html.has-topic-filter[data-active-topic="ekonomi"] .topic-card[data-topic="ekonomi"],
-html.has-topic-filter[data-active-topic="dunya"] .topic-card[data-topic="dunya"],
-html.has-topic-filter[data-active-topic="kamu"] .topic-card[data-topic="kamu"],
-html.has-topic-filter[data-active-topic="eczane"] .topic-card[data-topic="eczane"],
-html.has-topic-filter[data-active-topic="ulasim"] .topic-card[data-topic="ulasim"],
-html.has-topic-filter[data-active-topic="spor"] .topic-card[data-topic="spor"],
-html.has-topic-filter[data-active-topic="magazin"] .topic-card[data-topic="magazin"],
-html.has-topic-filter[data-active-topic="teknoloji"] .topic-card[data-topic="teknoloji"],
-html.has-topic-filter[data-active-topic="saglik"] .topic-card[data-topic="saglik"] {
+html.has-topic-filter[data-active-topic="gundem"] .topic-card:not(.headline-slide)[data-topic="gundem"],
+html.has-topic-filter[data-active-topic="siyaset"] .topic-card:not(.headline-slide)[data-topic="siyaset"],
+html.has-topic-filter[data-active-topic="ekonomi"] .topic-card:not(.headline-slide)[data-topic="ekonomi"],
+html.has-topic-filter[data-active-topic="dunya"] .topic-card:not(.headline-slide)[data-topic="dunya"],
+html.has-topic-filter[data-active-topic="kamu"] .topic-card:not(.headline-slide)[data-topic="kamu"],
+html.has-topic-filter[data-active-topic="eczane"] .topic-card:not(.headline-slide)[data-topic="eczane"],
+html.has-topic-filter[data-active-topic="ulasim"] .topic-card:not(.headline-slide)[data-topic="ulasim"],
+html.has-topic-filter[data-active-topic="spor"] .topic-card:not(.headline-slide)[data-topic="spor"],
+html.has-topic-filter[data-active-topic="magazin"] .topic-card:not(.headline-slide)[data-topic="magazin"],
+html.has-topic-filter[data-active-topic="teknoloji"] .topic-card:not(.headline-slide)[data-topic="teknoloji"],
+html.has-topic-filter[data-active-topic="saglik"] .topic-card:not(.headline-slide)[data-topic="saglik"] {
   display: block !important;
 }
-html.has-topic-filter .topic-card[hidden] {
+html.has-topic-filter .topic-card:not(.headline-slide)[hidden] {
   display: none !important;
+}
+html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="son-dakika"]) .headline-slider .headline-slide {
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
 /* FIRST_PAINT_TOPIC_FILTER_END */
   </style>
@@ -3046,24 +3050,11 @@ html.has-topic-filter .topic-card[hidden] {
           <div class="showcase-grid">
             <div class="headline-slider" aria-label="Aktuelle Deutschland Nachrichten">
               
-              <a class="headline-slide headline-card topic-card is-active" href="/nachrichten/artikel/serbien-vucic-schicksalswahl-studenten-herausforderung_20261005/" data-topic="gundem" aria-label="Serbien: Vucic vor Schicksalswahl – Studenten fordern Macht heraus">
-                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/serbien-vucic-schicksalswahl-studenten-herausforderung_20261005.webp" alt="Serbien: Vucic vor Schicksalswahl – Studenten fordern Macht heraus" loading="eager" fetchpriority="high" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card is-active" href="/nachrichten/artikel/extraenergie-gericht-preiserhoehungen-unzulaessig_20261005/" data-topic="gundem" aria-label="ExtraEnergie: Gericht erklärt frühere Preiserhöhungen für unzulässig">
+                <div class="headline-image"><img src="/nachrichten/artikel/images/extraenergie-gericht-preiserhoehungen-unzulaessig_20261005.webp" alt="ExtraEnergie: Gericht erklärt frühere Preiserhöhungen für unzulässig" loading="eager" fetchpriority="high" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
                     <span class="headline-tag">Topmeldung #1</span>
-                    <span class="headline-topic">Themen</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
-                  </div>
-                  <h2 class="headline-title">Serbien: Vucic vor Schicksalswahl – Studenten fordern Macht heraus</h2>
-                  <time class="headline-date" datetime="2026-10-05">05.10.2026</time>
-                </div>
-              </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/extraenergie-gericht-preiserhoehungen-unzulaessig_20261005/" data-topic="gundem" aria-label="ExtraEnergie: Gericht erklärt frühere Preiserhöhungen für unzulässig">
-                <div class="headline-image"><img src="/nachrichten/artikel/images/extraenergie-gericht-preiserhoehungen-unzulaessig_20261005.webp" alt="ExtraEnergie: Gericht erklärt frühere Preiserhöhungen für unzulässig" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #2</span>
                     <span class="headline-topic">Themen</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3072,55 +3063,16 @@ html.has-topic-filter .topic-card[hidden] {
                   <time class="headline-date" datetime="2026-10-05">05.10.2026</time>
                 </div>
               </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/schiff-schwarzes-meer-gesunken-drohnenangriff-selenskyj_20261005/" data-topic="gundem" aria-label="Schiff im Schwarzen Meer gesunken: Zwei Tote nach mutmaßlichem Drohnenangriff">
-                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/schiff-schwarzes-meer-gesunken-drohnenangriff-selenskyj_20261005.webp" alt="Schiff im Schwarzen Meer gesunken: Zwei Tote nach mutmaßlichem Drohnenangriff" loading="lazy" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/serbien-vucic-schicksalswahl-studenten-herausforderung_20261005/" data-topic="gundem" aria-label="Serbien: Vucic vor Schicksalswahl – Studenten fordern Macht heraus">
+                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/serbien-vucic-schicksalswahl-studenten-herausforderung_20261005.webp" alt="Serbien: Vucic vor Schicksalswahl – Studenten fordern Macht heraus" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #3</span>
+                    <span class="headline-tag">Topmeldung #2</span>
                     <span class="headline-topic">Themen</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
                   </div>
-                  <h2 class="headline-title">Schiff im Schwarzen Meer gesunken: Zwei Tote nach mutmaßlichem Drohnenangriff</h2>
-                  <time class="headline-date" datetime="2026-10-05">05.10.2026</time>
-                </div>
-              </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/dfb-team-nations-league-griechenland-juergen-klopp-remis_20261005/" data-topic="gundem" aria-label="Nullnummer in Thessaloniki: DFB-Team verpasst Sieg gegen Griechenland">
-                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/dfb-team-nations-league-griechenland-juergen-klopp-remis_20261005.webp" alt="Nullnummer in Thessaloniki: DFB-Team verpasst Sieg gegen Griechenland" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #4</span>
-                    <span class="headline-topic">Themen</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
-                  </div>
-                  <h2 class="headline-title">Nullnummer in Thessaloniki: DFB-Team verpasst Sieg gegen Griechenland</h2>
-                  <time class="headline-date" datetime="2026-10-05">05.10.2026</time>
-                </div>
-              </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/brasilien-wahl-stichwahl-lula-bolsonaro_20261005/" data-topic="gundem" aria-label="Stichwahl in Brasilien: Lula und Flávio Bolsonaro kämpfen um das Präsidentenamt">
-                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/brasilien-wahl-stichwahl-lula-bolsonaro_20261005.webp" alt="Stichwahl in Brasilien: Lula und Flávio Bolsonaro kämpfen um das Präsidentenamt" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #5</span>
-                    <span class="headline-topic">Themen</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
-                  </div>
-                  <h2 class="headline-title">Stichwahl in Brasilien: Lula und Flávio Bolsonaro kämpfen um das Präsidentenamt</h2>
-                  <time class="headline-date" datetime="2026-10-05">05.10.2026</time>
-                </div>
-              </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/nationalisten-siegen-bei-wahlen-in-bosnien-und-herzegowina_20261005/" data-topic="siyaset" aria-label="Nationalisten siegen bei Wahlen in Bosnien und Herzegowina">
-                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/nationalisten-siegen-bei-wahlen-in-bosnien-und-herzegowina_20261005.webp" alt="Nationalisten siegen bei Wahlen in Bosnien und Herzegowina" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #6</span>
-                    <span class="headline-topic">Politik</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
-                  </div>
-                  <h2 class="headline-title">Nationalisten siegen bei Wahlen in Bosnien und Herzegowina</h2>
+                  <h2 class="headline-title">Serbien: Vucic vor Schicksalswahl – Studenten fordern Macht heraus</h2>
                   <time class="headline-date" datetime="2026-10-05">05.10.2026</time>
                 </div>
               </a>
@@ -3128,7 +3080,7 @@ html.has-topic-filter .topic-card[hidden] {
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/flugpreise-deutschland-verdoppelt-drehkreuze-verlieren-bedeutung_20261005.webp" alt="Flugpreise ab Deutschland verdoppelt: Drehkreuze verlieren an Bedeutung" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #7</span>
+                    <span class="headline-tag">Topmeldung #3</span>
                     <span class="headline-topic">Wirtschaft</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3137,24 +3089,11 @@ html.has-topic-filter .topic-card[hidden] {
                   <time class="headline-date" datetime="2026-10-05">05.10.2026</time>
                 </div>
               </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/israel-psychische-gesundheit-krise-nach-7-oktober_20261005/" data-topic="dunya" aria-label="Israels psychische Gesundheit in der Krise: Drei Jahre nach dem 7. Oktober">
-                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/israel-psychische-gesundheit-krise-nach-7-oktober_20261005.webp" alt="Israels psychische Gesundheit in der Krise: Drei Jahre nach dem 7. Oktober" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #8</span>
-                    <span class="headline-topic">Welt</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
-                  </div>
-                  <h2 class="headline-title">Israels psychische Gesundheit in der Krise: Drei Jahre nach dem 7. Oktober</h2>
-                  <time class="headline-date" datetime="2026-10-05">05.10.2026</time>
-                </div>
-              </a>
               <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/raf-fairford-us-bomber-abzug-iran-drohung_20261005/" data-topic="dunya" aria-label="US-Luftwaffe zieht alle Bomber von RAF Fairford ab: Anschlagsverdacht erhärtet sich">
                 <div class="headline-image"><img src="/nachrichten/artikel/images/raf-fairford-us-bomber-abzug-iran-drohung_20261005.webp" alt="US-Luftwaffe zieht alle Bomber von RAF Fairford ab: Anschlagsverdacht erhärtet sich" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #9</span>
+                    <span class="headline-tag">Topmeldung #4</span>
                     <span class="headline-topic">Welt</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3163,8 +3102,73 @@ html.has-topic-filter .topic-card[hidden] {
                   <time class="headline-date" datetime="2026-10-05">05.10.2026</time>
                 </div>
               </a>
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/israel-psychische-gesundheit-krise-nach-7-oktober_20261005/" data-topic="dunya" aria-label="Israels psychische Gesundheit in der Krise: Drei Jahre nach dem 7. Oktober">
+                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/israel-psychische-gesundheit-krise-nach-7-oktober_20261005.webp" alt="Israels psychische Gesundheit in der Krise: Drei Jahre nach dem 7. Oktober" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Topmeldung #5</span>
+                    <span class="headline-topic">Welt</span>
+                    <span class="headline-trust">✅ Verifiziert</span>
+                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                  </div>
+                  <h2 class="headline-title">Israels psychische Gesundheit in der Krise: Drei Jahre nach dem 7. Oktober</h2>
+                  <time class="headline-date" datetime="2026-10-05">05.10.2026</time>
+                </div>
+              </a>
               <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/heidi-klum-tochter-lou-samuel-fashion-week-paris_20261004/" data-topic="gundem" aria-label="Heidi Klum besucht mit Tochter Lou Samuel erstmals die Fashion Week in Paris">
                 <div class="headline-image"><img src="/nachrichten/artikel/images/heidi-klum-tochter-lou-samuel-fashion-week-paris_20261004.webp" alt="Heidi Klum besucht mit Tochter Lou Samuel erstmals die Fashion Week in Paris" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Topmeldung #6</span>
+                    <span class="headline-topic">Themen</span>
+                    <span class="headline-trust">✅ Verifiziert</span>
+                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                  </div>
+                  <h2 class="headline-title">Heidi Klum besucht mit Tochter Lou Samuel erstmals die Fashion Week in Paris</h2>
+                  <time class="headline-date" datetime="2026-10-04">04.10.2026</time>
+                </div>
+              </a>
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/teppich-von-bayeux-british-museum-warteschlangen-massnahmen_20261004/" data-topic="gundem" aria-label="Teppich von Bayeux im British Museum: Maßnahmen gegen lange Warteschlangen">
+                <div class="headline-image"><img src="/nachrichten/artikel/images/teppich-von-bayeux-british-museum-warteschlangen-massnahmen_20261004.webp" alt="Teppich von Bayeux im British Museum: Maßnahmen gegen lange Warteschlangen" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Topmeldung #7</span>
+                    <span class="headline-topic">Themen</span>
+                    <span class="headline-trust">✅ Verifiziert</span>
+                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                  </div>
+                  <h2 class="headline-title">Teppich von Bayeux im British Museum: Maßnahmen gegen lange Warteschlangen</h2>
+                  <time class="headline-date" datetime="2026-10-04">04.10.2026</time>
+                </div>
+              </a>
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/cornell-university-praesident-mutmassliche-gruppenvergewaltigung_20261004/" data-topic="gundem" aria-label="Cornell University: Präsident äußert sich zu mutmaßlicher Gruppenvergewaltigung">
+                <div class="headline-image"><img src="/nachrichten/artikel/images/cornell-university-praesident-mutmassliche-gruppenvergewaltigung_20261004.webp" alt="Cornell University: Präsident äußert sich zu mutmaßlicher Gruppenvergewaltigung" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Topmeldung #8</span>
+                    <span class="headline-topic">Themen</span>
+                    <span class="headline-trust">✅ Verifiziert</span>
+                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                  </div>
+                  <h2 class="headline-title">Cornell University: Präsident äußert sich zu mutmaßlicher Gruppenvergewaltigung</h2>
+                  <time class="headline-date" datetime="2026-10-04">04.10.2026</time>
+                </div>
+              </a>
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/boris-rhein-cdu-fordert-afd-ausschussvorsitze-bundestag_20261004/" data-topic="gundem" aria-label="AfD-Ausschussvorsitze im Bundestag: Hessens Ministerpräsident Boris Rhein fordert Kurswechsel">
+                <div class="headline-image"><img src="/nachrichten/artikel/images/boris-rhein-cdu-fordert-afd-ausschussvorsitze-bundestag_20261004.webp" alt="AfD-Ausschussvorsitze im Bundestag: Hessens Ministerpräsident Boris Rhein fordert Kurswechsel" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Topmeldung #9</span>
+                    <span class="headline-topic">Themen</span>
+                    <span class="headline-trust">✅ Verifiziert</span>
+                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                  </div>
+                  <h2 class="headline-title">AfD-Ausschussvorsitze im Bundestag: Hessens Ministerpräsident Boris Rhein fordert Kurswechsel</h2>
+                  <time class="headline-date" datetime="2026-10-04">04.10.2026</time>
+                </div>
+              </a>
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/eu-asylantraege-sinken-deutschland-platz-drei_20261004/" data-topic="gundem" aria-label="EU-Asylanträge sinken deutlich – Deutschland nur noch auf Platz drei">
+                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/eu-asylantraege-sinken-deutschland-platz-drei_20261004.webp" alt="EU-Asylanträge sinken deutlich – Deutschland nur noch auf Platz drei" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
                     <span class="headline-tag">Topmeldung #10</span>
@@ -3172,7 +3176,7 @@ html.has-topic-filter .topic-card[hidden] {
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
                   </div>
-                  <h2 class="headline-title">Heidi Klum besucht mit Tochter Lou Samuel erstmals die Fashion Week in Paris</h2>
+                  <h2 class="headline-title">EU-Asylanträge sinken deutlich – Deutschland nur noch auf Platz drei</h2>
                   <time class="headline-date" datetime="2026-10-04">04.10.2026</time>
                 </div>
               </a>
@@ -3214,98 +3218,6 @@ html.has-topic-filter .topic-card[hidden] {
           </div>
           <div class="news-grid" id="grid-main">
             
-      <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/eu-asylantraege-sinken-deutschland-platz-drei_20261004/" aria-label="EU-Asylanträge sinken deutlich – Deutschland nur noch auf Platz drei"><div class="card-image"><img src="/nachrichten/artikel/2026/10/images/eu-asylantraege-sinken-deutschland-platz-drei_20261004.webp" alt="EU-Asylanträge sinken deutlich – Deutschland nur noch auf Platz drei" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Deutschland</span>
-            <span class="card-topic">Themen</span>
-            <time class="card-date" datetime="2026-10-04">04.10.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/eu-asylantraege-sinken-deutschland-platz-drei_20261004/">EU-Asylanträge sinken deutlich – Deutschland nur noch auf Platz drei</a>
-          </h3>
-          <p class="card-excerpt">Die Zahl der Asylanträge in der Europäischen Union (EU) sowie Norwegen und der Schweiz ist in den ersten neun Monaten des Jahres 2026 um 24,3 Prozent gesunken. Insgesamt wurden 45...</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/eu-asylantraege-sinken-deutschland-platz-drei_20261004/" aria-label="EU-Asylanträge sinken deutlich – Deutschland nur noch auf Platz drei Artikel lesen">Weiterlesen →</a>
-            <div class="share-mini" aria-label="Teilen">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Feu-asylantraege-sinken-deutschland-platz-drei_20261004%2F&text=EU-Asylantr%C3%A4ge+sinken+deutlich+%E2%80%93+Deutschland+nur+noch+auf+Platz+drei" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Feu-asylantraege-sinken-deutschland-platz-drei_20261004%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=EU-Asylantr%C3%A4ge+sinken+deutlich+%E2%80%93+Deutschland+nur+noch+auf+Platz+drei%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Feu-asylantraege-sinken-deutschland-platz-drei_20261004%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Feu-asylantraege-sinken-deutschland-platz-drei_20261004%2F&text=EU-Asylantr%C3%A4ge+sinken+deutlich+%E2%80%93+Deutschland+nur+noch+auf+Platz+drei" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/brasilien-wahl-bolsonaro-sohn-fordert-praesident-lula-heraus_20261004/" aria-label="Brasilien-Wahl: Lulas Sohn fordert Präsident Lula heraus"><div class="card-image"><img src="/nachrichten/artikel/2026/10/images/brasilien-wahl-bolsonaro-sohn-fordert-praesident-lula-heraus_20261004.webp" alt="Brasilien-Wahl: Lulas Sohn fordert Präsident Lula heraus" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Deutschland</span>
-            <span class="card-topic">Themen</span>
-            <time class="card-date" datetime="2026-10-04">04.10.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/brasilien-wahl-bolsonaro-sohn-fordert-praesident-lula-heraus_20261004/">Brasilien-Wahl: Lulas Sohn fordert Präsident Lula heraus</a>
-          </h3>
-          <p class="card-excerpt">In Brasilien stehen die Bürger vor einer entscheidenden Präsidentschaftswahl. Amtsinhaber Luiz Inácio Lula da Silva von der linken Arbeiterpartei (PT) tritt gegen Flávio Bolsonaro...</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/brasilien-wahl-bolsonaro-sohn-fordert-praesident-lula-heraus_20261004/" aria-label="Brasilien-Wahl: Lulas Sohn fordert Präsident Lula heraus Artikel lesen">Weiterlesen →</a>
-            <div class="share-mini" aria-label="Teilen">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fbrasilien-wahl-bolsonaro-sohn-fordert-praesident-lula-heraus_20261004%2F&text=Brasilien-Wahl%3A+Lulas+Sohn+fordert+Pr%C3%A4sident+Lula+heraus" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fbrasilien-wahl-bolsonaro-sohn-fordert-praesident-lula-heraus_20261004%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Brasilien-Wahl%3A+Lulas+Sohn+fordert+Pr%C3%A4sident+Lula+heraus%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fbrasilien-wahl-bolsonaro-sohn-fordert-praesident-lula-heraus_20261004%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fbrasilien-wahl-bolsonaro-sohn-fordert-praesident-lula-heraus_20261004%2F&text=Brasilien-Wahl%3A+Lulas+Sohn+fordert+Pr%C3%A4sident+Lula+heraus" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/oktoberfest-2026-rekord-besucher-bier_20261004/" aria-label="Oktoberfest 2026: Neuer Besucher- und Bierrekord in München"><div class="card-image"><img src="/nachrichten/artikel/2026/10/images/oktoberfest-2026-rekord-besucher-bier_20261004.webp" alt="Oktoberfest 2026: Neuer Besucher- und Bierrekord in München" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Deutschland</span>
-            <span class="card-topic">Themen</span>
-            <time class="card-date" datetime="2026-10-04">04.10.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/oktoberfest-2026-rekord-besucher-bier_20261004/">Oktoberfest 2026: Neuer Besucher- und Bierrekord in München</a>
-          </h3>
-          <p class="card-excerpt">Das Oktoberfest 2026 in München ist mit einem neuen Besucherrekord zu Ende gegangen. Insgesamt strömten 7,4 Millionen Menschen auf die Theresienwiese, was die Wiesn zur meistbesuc...</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/oktoberfest-2026-rekord-besucher-bier_20261004/" aria-label="Oktoberfest 2026: Neuer Besucher- und Bierrekord in München Artikel lesen">Weiterlesen →</a>
-            <div class="share-mini" aria-label="Teilen">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Foktoberfest-2026-rekord-besucher-bier_20261004%2F&text=Oktoberfest+2026%3A+Neuer+Besucher-+und+Bierrekord+in+M%C3%BCnchen" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Foktoberfest-2026-rekord-besucher-bier_20261004%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Oktoberfest+2026%3A+Neuer+Besucher-+und+Bierrekord+in+M%C3%BCnchen%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Foktoberfest-2026-rekord-besucher-bier_20261004%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Foktoberfest-2026-rekord-besucher-bier_20261004%2F&text=Oktoberfest+2026%3A+Neuer+Besucher-+und+Bierrekord+in+M%C3%BCnchen" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="ekonomi">
-        <a class="card-image-link" href="/nachrichten/artikel/deutsche-bahn-fuehrt-familienticket-dauerhaft-ein_20261004/" aria-label="Deutsche Bahn führt Familienticket dauerhaft ein"><div class="card-image"><img src="/nachrichten/artikel/2026/10/images/deutsche-bahn-fuehrt-familienticket-dauerhaft-ein_20261004.webp" alt="Deutsche Bahn führt Familienticket dauerhaft ein" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Deutschland</span>
-            <span class="card-topic">Wirtschaft</span>
-            <time class="card-date" datetime="2026-10-04">04.10.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/deutsche-bahn-fuehrt-familienticket-dauerhaft-ein_20261004/">Deutsche Bahn führt Familienticket dauerhaft ein</a>
-          </h3>
-          <p class="card-excerpt">Das beliebte Familienticket der Deutschen Bahn wird dauerhaft ins Sortiment aufgenommen. Nach Angaben von Bahn-Chefin Evelyn Palla war das Angebot während der Sommerferien ein vol...</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/deutsche-bahn-fuehrt-familienticket-dauerhaft-ein_20261004/" aria-label="Deutsche Bahn führt Familienticket dauerhaft ein Artikel lesen">Weiterlesen →</a>
-            <div class="share-mini" aria-label="Teilen">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fdeutsche-bahn-fuehrt-familienticket-dauerhaft-ein_20261004%2F&text=Deutsche+Bahn+f%C3%BChrt+Familienticket+dauerhaft+ein" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fdeutsche-bahn-fuehrt-familienticket-dauerhaft-ein_20261004%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Deutsche+Bahn+f%C3%BChrt+Familienticket+dauerhaft+ein%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fdeutsche-bahn-fuehrt-familienticket-dauerhaft-ein_20261004%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fdeutsche-bahn-fuehrt-familienticket-dauerhaft-ein_20261004%2F&text=Deutsche+Bahn+f%C3%BChrt+Familienticket+dauerhaft+ein" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
       <article class="news-card topic-card" data-topic="dunya">
         <a class="card-image-link" href="/nachrichten/artikel/maria-kolesnikowa-beethovenfest-kunst-freiheit-belarus_20261004/" aria-label="Belarussische Oppositionelle Kolesnikowa spricht über Kunst und Freiheit"><div class="card-image"><img src="/nachrichten/artikel/2026/10/images/maria-kolesnikowa-beethovenfest-kunst-freiheit-belarus_20261004.webp" alt="Belarussische Oppositionelle Kolesnikowa spricht über Kunst und Freiheit" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
@@ -3325,52 +3237,6 @@ html.has-topic-filter .topic-card[hidden] {
               <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fmaria-kolesnikowa-beethovenfest-kunst-freiheit-belarus_20261004%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
               <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Belarussische+Oppositionelle+Kolesnikowa+spricht+%C3%BCber+Kunst+und+Freiheit%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fmaria-kolesnikowa-beethovenfest-kunst-freiheit-belarus_20261004%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
               <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fmaria-kolesnikowa-beethovenfest-kunst-freiheit-belarus_20261004%2F&text=Belarussische+Oppositionelle+Kolesnikowa+spricht+%C3%BCber+Kunst+und+Freiheit" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="dunya">
-        <a class="card-image-link" href="/nachrichten/artikel/jemen-regierung-offensive-huthi-miliz-militaereinsatz_20261004/" aria-label="Regierung im Jemen startet umfassende Militäroffensive gegen Huthi-Miliz"><div class="card-image"><img src="/nachrichten/artikel/2026/10/images/jemen-regierung-offensive-huthi-miliz-militaereinsatz_20261004.webp" alt="Regierung im Jemen startet umfassende Militäroffensive gegen Huthi-Miliz" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Deutschland</span>
-            <span class="card-topic">Welt</span>
-            <time class="card-date" datetime="2026-10-04">04.10.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/jemen-regierung-offensive-huthi-miliz-militaereinsatz_20261004/">Regierung im Jemen startet umfassende Militäroffensive gegen Huthi-Miliz</a>
-          </h3>
-          <p class="card-excerpt">Nach dem Scheitern diplomatischer Bemühungen hat die international anerkannte Regierung des Jemen eine landesweite Großoffensive gegen die Huthi-Miliz ausgerufen. Der Einsatz erst...</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/jemen-regierung-offensive-huthi-miliz-militaereinsatz_20261004/" aria-label="Regierung im Jemen startet umfassende Militäroffensive gegen Huthi-Miliz Artikel lesen">Weiterlesen →</a>
-            <div class="share-mini" aria-label="Teilen">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fjemen-regierung-offensive-huthi-miliz-militaereinsatz_20261004%2F&text=Regierung+im+Jemen+startet+umfassende+Milit%C3%A4roffensive+gegen+Huthi-Miliz" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fjemen-regierung-offensive-huthi-miliz-militaereinsatz_20261004%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Regierung+im+Jemen+startet+umfassende+Milit%C3%A4roffensive+gegen+Huthi-Miliz%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fjemen-regierung-offensive-huthi-miliz-militaereinsatz_20261004%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fjemen-regierung-offensive-huthi-miliz-militaereinsatz_20261004%2F&text=Regierung+im+Jemen+startet+umfassende+Milit%C3%A4roffensive+gegen+Huthi-Miliz" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="teknoloji">
-        <a class="card-image-link" href="/nachrichten/artikel/trump-us-behoerden-superintelligenz-statt-kuenstliche-intelligenz_20261004/" aria-label="Trumps Namensstreit: US-Behörden sollen „Superintelligenz“ statt KI nutzen"><div class="card-image"><img src="/nachrichten/artikel/2026/10/images/trump-us-behoerden-superintelligenz-statt-kuenstliche-intelligenz_20261004.webp" alt="Trumps Namensstreit: US-Behörden sollen „Superintelligenz“ statt KI nutzen" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Deutschland</span>
-            <span class="card-topic">Technologie</span>
-            <time class="card-date" datetime="2026-10-04">04.10.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/trump-us-behoerden-superintelligenz-statt-kuenstliche-intelligenz_20261004/">Trumps Namensstreit: US-Behörden sollen „Superintelligenz“ statt KI nutzen</a>
-          </h3>
-          <p class="card-excerpt">Donald Trump hat US-Behörden angewiesen, den Begriff „künstliche Intelligenz“ durch „Superintelligenz“ zu ersetzen, da die bisherige Bezeichnung ungenau klinge. Während die neue F...</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/trump-us-behoerden-superintelligenz-statt-kuenstliche-intelligenz_20261004/" aria-label="Trumps Namensstreit: US-Behörden sollen „Superintelligenz“ statt KI nutzen Artikel lesen">Weiterlesen →</a>
-            <div class="share-mini" aria-label="Teilen">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftrump-us-behoerden-superintelligenz-statt-kuenstliche-intelligenz_20261004%2F&text=Trumps+Namensstreit%3A+US-Beh%C3%B6rden+sollen+%E2%80%9ESuperintelligenz%E2%80%9C+statt+KI+nutzen" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftrump-us-behoerden-superintelligenz-statt-kuenstliche-intelligenz_20261004%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Trumps+Namensstreit%3A+US-Beh%C3%B6rden+sollen+%E2%80%9ESuperintelligenz%E2%80%9C+statt+KI+nutzen%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftrump-us-behoerden-superintelligenz-statt-kuenstliche-intelligenz_20261004%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftrump-us-behoerden-superintelligenz-statt-kuenstliche-intelligenz_20261004%2F&text=Trumps+Namensstreit%3A+US-Beh%C3%B6rden+sollen+%E2%80%9ESuperintelligenz%E2%80%9C+statt+KI+nutzen" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
@@ -7835,7 +7701,7 @@ html.has-topic-filter .topic-card[hidden] {
       document.querySelectorAll('.topic-link[data-topic]').forEach(link => {
         link.classList.toggle('is-active', link.dataset.topic === activeTopic);
       });
-      document.querySelectorAll('.topic-card').forEach(card => {
+      document.querySelectorAll('.topic-card:not(.headline-slide)').forEach(card => {
         const keep = showAll || card.dataset.topic === activeTopic;
         card.dataset.filteredOut = keep ? 'false' : 'true';
       });

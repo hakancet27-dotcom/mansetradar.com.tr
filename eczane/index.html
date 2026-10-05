@@ -2864,24 +2864,28 @@
       .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
     }
 /* FIRST_PAINT_TOPIC_FILTER_START */
-html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]) .topic-card {
+html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]) .topic-card:not(.headline-slide) {
   display: none !important;
 }
-html.has-topic-filter[data-active-topic="gundem"] .topic-card[data-topic="gundem"],
-html.has-topic-filter[data-active-topic="siyaset"] .topic-card[data-topic="siyaset"],
-html.has-topic-filter[data-active-topic="ekonomi"] .topic-card[data-topic="ekonomi"],
-html.has-topic-filter[data-active-topic="dunya"] .topic-card[data-topic="dunya"],
-html.has-topic-filter[data-active-topic="kamu"] .topic-card[data-topic="kamu"],
-html.has-topic-filter[data-active-topic="eczane"] .topic-card[data-topic="eczane"],
-html.has-topic-filter[data-active-topic="ulasim"] .topic-card[data-topic="ulasim"],
-html.has-topic-filter[data-active-topic="spor"] .topic-card[data-topic="spor"],
-html.has-topic-filter[data-active-topic="magazin"] .topic-card[data-topic="magazin"],
-html.has-topic-filter[data-active-topic="teknoloji"] .topic-card[data-topic="teknoloji"],
-html.has-topic-filter[data-active-topic="saglik"] .topic-card[data-topic="saglik"] {
+html.has-topic-filter[data-active-topic="gundem"] .topic-card:not(.headline-slide)[data-topic="gundem"],
+html.has-topic-filter[data-active-topic="siyaset"] .topic-card:not(.headline-slide)[data-topic="siyaset"],
+html.has-topic-filter[data-active-topic="ekonomi"] .topic-card:not(.headline-slide)[data-topic="ekonomi"],
+html.has-topic-filter[data-active-topic="dunya"] .topic-card:not(.headline-slide)[data-topic="dunya"],
+html.has-topic-filter[data-active-topic="kamu"] .topic-card:not(.headline-slide)[data-topic="kamu"],
+html.has-topic-filter[data-active-topic="eczane"] .topic-card:not(.headline-slide)[data-topic="eczane"],
+html.has-topic-filter[data-active-topic="ulasim"] .topic-card:not(.headline-slide)[data-topic="ulasim"],
+html.has-topic-filter[data-active-topic="spor"] .topic-card:not(.headline-slide)[data-topic="spor"],
+html.has-topic-filter[data-active-topic="magazin"] .topic-card:not(.headline-slide)[data-topic="magazin"],
+html.has-topic-filter[data-active-topic="teknoloji"] .topic-card:not(.headline-slide)[data-topic="teknoloji"],
+html.has-topic-filter[data-active-topic="saglik"] .topic-card:not(.headline-slide)[data-topic="saglik"] {
   display: block !important;
 }
-html.has-topic-filter .topic-card[hidden] {
+html.has-topic-filter .topic-card:not(.headline-slide)[hidden] {
   display: none !important;
+}
+html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="son-dakika"]) .headline-slider .headline-slide {
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
 /* FIRST_PAINT_TOPIC_FILTER_END */
   </style>
