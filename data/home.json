@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-06T00:00:00+00:00",
-    "article_count": 2097,
+    "article_count": 2099,
     "schema_version": 2
   },
   "hero": [
@@ -1734,6 +1734,46 @@
       "review_status": "published"
     },
     {
+      "id": "news/articles/2026/10:ex-cia-official-david-rush-pleads-guilty-200m-fraud_20261006",
+      "slug": "ex-cia-official-david-rush-pleads-guilty-200m-fraud_20261006",
+      "title": "Ex-CIA Official Pleads Guilty to $200M Fraud Scheme Involving Gold Bars and Florida Mansions",
+      "summary": "Former CIA official David Rush pleaded guilty to wire fraud, admitting he created fake classified programs to siphon nearly $200 million in government funds, which he used to acquire Florida mansions and $40 million in gold bars. He faces up to 20 years in...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "06.10.2026",
+      "date_iso": "2026-10-06",
+      "url": "/news/articles/2026/10/ex-cia-official-david-rush-pleads-guilty-200m-fraud_20261006/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/ex-cia-official-david-rush-pleads-guilty-200m-fraud_20261006/",
+      "detail_json_url": "/data/details/news/articles/2026/10/ex-cia-official-david-rush-pleads-guilty-200m-fraud_20261006.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/ex-cia-official-david-rush-pleads-guilty-200m-fraud_20261006.webp",
+      "image_alt": "Ex-CIA Official Pleads Guilty to $200M Fraud Scheme Involving Gold Bars and Florida Mansions",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/ex-cia-official-david-rush-pleads-guilty-200m-fraud_20261006.webp",
+        "alt": "Ex-CIA Official Pleads Guilty to $200M Fraud Scheme Involving Gold Bars and Florida Mansions"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/david-rush-guilty-plea-cia-gold-bars/",
+      "tags": [
+        "CIA",
+        "Fraud",
+        "Wire Fraud",
+        "Government Corruption",
+        "David Rush",
+        "Gold Bars",
+        "Florida Mansions"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:dugun-gunu-vazgecen-damada-yargitaydan-manevi-tazminat-soku_20261006",
       "slug": "dugun-gunu-vazgecen-damada-yargitaydan-manevi-tazminat-soku_20261006",
       "title": "Düğün Günü Evlilikten Vazgeçen Damada Yargıtay'dan Manevi Tazminat Şoku!",
@@ -1773,6 +1813,44 @@
         "İstanbul"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:cornell-university-sally-yates-sexual-misconduct-review_20261006",
+      "slug": "cornell-university-sally-yates-sexual-misconduct-review_20261006",
+      "title": "Cornell University Taps Sally Yates to Lead Sexual Misconduct Review",
+      "summary": "Cornell University has announced that former Deputy U.S. Attorney General Sally Yates will lead a comprehensive, independent review of the institution's handling of sexual misconduct claims. The move follows intense public scrutiny and campus protests regar...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "06.10.2026",
+      "date_iso": "2026-10-06",
+      "url": "/news/articles/2026/10/cornell-university-sally-yates-sexual-misconduct-review_20261006/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/cornell-university-sally-yates-sexual-misconduct-review_20261006/",
+      "detail_json_url": "/data/details/news/articles/2026/10/cornell-university-sally-yates-sexual-misconduct-review_20261006.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/cornell-university-sally-yates-sexual-misconduct-review_20261006.webp",
+      "image_alt": "Sally Yates, former Deputy U.S. Attorney General, appointed to lead Cornell University review.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/cornell-university-sally-yates-sexual-misconduct-review_20261006.webp",
+        "alt": "Sally Yates, former Deputy U.S. Attorney General, appointed to lead Cornell University review."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/cornell-university-sexual-assault-sally-yates-independent-review/",
+      "tags": [
+        "Cornell University",
+        "Sally Yates",
+        "Sexual Misconduct",
+        "Higher Education",
+        "Campus Safety"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -3058,84 +3136,6 @@
         "Şanlıurfa",
         "Teknoloji",
         "T3 Vakfı"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "news/articles/2026/10:supreme-court-to-hear-major-climate-change-lawsuit-against-energy-companies_20261004",
-      "slug": "supreme-court-to-hear-major-climate-change-lawsuit-against-energy-companies_20261004",
-      "title": "Supreme Court to Hear Major Climate Change Lawsuit Against Energy Companies",
-      "summary": "The U.S. Supreme Court is set to begin its new term by reviewing a pivotal climate change lawsuit initiated by the city and county of Boulder, Colorado. The case, *Suncor Energy v. County Commissioners of Boulder County*, will determine whether Boulder's ef...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "USA",
-      "language": "en",
-      "language_label": "English",
-      "section": "news/articles",
-      "section_name": "US News",
-      "url_prefix": "news/articles/2026/10",
-      "date": "04.10.2026",
-      "date_iso": "2026-10-04",
-      "url": "/news/articles/2026/10/supreme-court-to-hear-major-climate-change-lawsuit-against-energy-companies_20261004/",
-      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/supreme-court-to-hear-major-climate-change-lawsuit-against-energy-companies_20261004/",
-      "detail_json_url": "/data/details/news/articles/2026/10/supreme-court-to-hear-major-climate-change-lawsuit-against-energy-companies_20261004.json",
-      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/supreme-court-to-hear-major-climate-change-lawsuit-against-energy-companies_20261004.webp",
-      "image_alt": "Supreme Court to Hear Major Climate Change Lawsuit Against Energy Companies",
-      "image": {
-        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/supreme-court-to-hear-major-climate-change-lawsuit-against-energy-companies_20261004.webp",
-        "alt": "Supreme Court to Hear Major Climate Change Lawsuit Against Energy Companies"
-      },
-      "source_name": "Home - CBSNews.com",
-      "source_url": "https://www.cbsnews.com/news/supreme-court-climate-change-suncor-energy-v-county-commissioners-of-boulder-county/",
-      "tags": [
-        "Supreme Court",
-        "Climate Change",
-        "Fossil Fuels",
-        "Exxon Mobil",
-        "Suncor Energy",
-        "Boulder Colorado",
-        "Lawsuit"
-      ],
-      "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:serkan-bayram-ak-parti-ozur-aciklamasi_20261004",
-      "slug": "serkan-bayram-ak-parti-ozur-aciklamasi_20261004",
-      "title": "Serkan Bayram'dan AK Parti ve Erdoğan'dan Özür Açıklaması",
-      "summary": "AK Parti İstanbul Milletvekili Serkan Bayram, son günlerde yaptığı ve parti içinde rahatsızlığa yol açan açıklamaları nedeniyle Cumhurbaşkanı Recep Tayyip Erdoğan’dan, AK Parti teşkilatlarından ve vatandaşlardan özür diledi. Bayram, devam eden hukuki süreçl...",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "siyaset",
-      "topic_label": "Siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "04.10.2026",
-      "date_iso": "2026-10-04",
-      "url": "/articles/2026/10/serkan-bayram-ak-parti-ozur-aciklamasi_20261004/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/serkan-bayram-ak-parti-ozur-aciklamasi_20261004/",
-      "detail_json_url": "/data/details/articles/2026/10/serkan-bayram-ak-parti-ozur-aciklamasi_20261004.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/serkan-bayram-ak-parti-ozur-aciklamasi_20261004.webp",
-      "image_alt": "AK Parti İstanbul Milletvekili Serkan Bayram'ın özür açıklaması.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/10/images/serkan-bayram-ak-parti-ozur-aciklamasi_20261004.webp",
-        "alt": "AK Parti İstanbul Milletvekili Serkan Bayram'ın özür açıklaması."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/gundem/siyasi-sorumlulugun-gerektirdigi-uslupla-ifade-etmem-gerekirdi-3917184",
-      "tags": [
-        "Serkan Bayram",
-        "AK Parti",
-        "Recep Tayyip Erdoğan",
-        "Devlet Denetleme Kurulu",
-        "Özür Açıklaması"
       ],
       "quality_score": 86,
       "review_status": "published"
