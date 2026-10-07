@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-07T00:00:00+00:00",
-    "article_count": 2124,
+    "article_count": 2129,
     "schema_version": 2,
     "category_slug": "gundem",
     "type": "category"
@@ -45,6 +45,45 @@
         "İstanbul",
         "Tutuklama",
         "Sancaktepe haberleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:memurluk-vaadiyle-5-kisiyi-3-milyon-570-bin-lira-dolandiran-sahte-savci-yakaland_20261007",
+      "slug": "memurluk-vaadiyle-5-kisiyi-3-milyon-570-bin-lira-dolandiran-sahte-savci-yakaland_20261007",
+      "title": "Memurluk Vaadiyle 5 Kişiyi Dolandıran Sahte Savcı Yakalandı",
+      "summary": "Büyükçekmece'de, kendisini savcı olarak tanıtarak iş ve memurluk vaadiyle 5 kişiyi toplam 3 milyon 570 bin lira dolandıran Cüneyt A. ve suç ortağı Kadir M. polis ekiplerince yakalandı. Şüphelilerin ikametlerinde yapılan aramalarda ruhsatsız av tüfeği ve sah...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "07.10.2026",
+      "date_iso": "2026-10-07",
+      "url": "/articles/2026/10/memurluk-vaadiyle-5-kisiyi-3-milyon-570-bin-lira-dolandiran-sahte-savci-yakaland_20261007/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/memurluk-vaadiyle-5-kisiyi-3-milyon-570-bin-lira-dolandiran-sahte-savci-yakaland_20261007/",
+      "detail_json_url": "/data/details/articles/2026/10/memurluk-vaadiyle-5-kisiyi-3-milyon-570-bin-lira-dolandiran-sahte-savci-yakaland_20261007.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/memurluk-vaadiyle-5-kisiyi-3-milyon-570-bin-lira-dolandiran-sahte-savci-yakaland_20261007.webp",
+      "image_alt": "Polis, memurluk vaadiyle dolandırıcılık yapan sahte savcıyı yakaladı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/memurluk-vaadiyle-5-kisiyi-3-milyon-570-bin-lira-dolandiran-sahte-savci-yakaland_20261007.webp",
+        "alt": "Polis, memurluk vaadiyle dolandırıcılık yapan sahte savcıyı yakaladı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/memurluk-vaadiyle-5-kisiyi-3-milyon-570-bin-lira-dolandirdi-sahte-savci-yakalandi-43333065",
+      "tags": [
+        "dolandırıcılık",
+        "sahte savcı",
+        "Büyükçekmece",
+        "memurluk vaadi",
+        "Büyükçekmece haberleri",
+        "İstanbul"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -134,7 +173,7 @@
       "id": "articles/2026/10:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261007",
       "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261007",
       "title": "İstanbul Şehir Bülteni (7 Ekim 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu",
-      "summary": "7 Ekim 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 132 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
+      "summary": "7 Ekim 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 133 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
       "category": "Gündem",
       "category_slug": "gundem",
       "topic_slug": "kamu",
