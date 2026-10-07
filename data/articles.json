@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-07T00:00:00+00:00",
-    "article_count": 2129,
+    "article_count": 2130,
     "schema_version": 2
   },
   "articles": [
@@ -243,6 +243,47 @@
         "İstanbul",
         "Tutuklama",
         "Sancaktepe haberleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:omer-celik-ak-parti-myk-aciklamalari-fon-ve-cemil-tugay_20261007",
+      "slug": "omer-celik-ak-parti-myk-aciklamalari-fon-ve-cemil-tugay_20261007",
+      "title": "Ömer Çelik'ten MYK Sonrası Açıklamalar: Cemil Tugay ve Fon Vurgunu Yanıtı",
+      "summary": "AK Parti Sözcüsü Ömer Çelik, MYK toplantısının ardından fon tartışmalarından Cemil Tugay'ın partiye katılmasına ve Bekir Bozdağ'ın yeni görevine kadar gündemdeki başlıklara ilişkin açıklamalarda bulundu.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "07.10.2026",
+      "date_iso": "2026-10-07",
+      "url": "/articles/2026/10/omer-celik-ak-parti-myk-aciklamalari-fon-ve-cemil-tugay_20261007/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/omer-celik-ak-parti-myk-aciklamalari-fon-ve-cemil-tugay_20261007/",
+      "detail_json_url": "/data/details/articles/2026/10/omer-celik-ak-parti-myk-aciklamalari-fon-ve-cemil-tugay_20261007.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/omer-celik-ak-parti-myk-aciklamalari-fon-ve-cemil-tugay_20261007.webp",
+      "image_alt": "AK Parti Sözcüsü Ömer Çelik MYK toplantısı sonrası basın toplantısında açıklamalarda bulunuyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/omer-celik-ak-parti-myk-aciklamalari-fon-ve-cemil-tugay_20261007.webp",
+        "alt": "AK Parti Sözcüsü Ömer Çelik MYK toplantısı sonrası basın toplantısında açıklamalarda bulunuyor."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/ak-parti-myk-sona-erdi-omer-celikten-onemli-aciklamalar-43332909",
+      "tags": [
+        "Ömer Çelik",
+        "AK Parti MYK",
+        "Cemil Tugay",
+        "Bekir Bozdağ",
+        "Fon Koordinasyon Kurulu",
+        "Beylikdüzü",
+        "Beylikdüzü haberleri",
+        "İstanbul"
       ],
       "quality_score": 86,
       "review_status": "published"
