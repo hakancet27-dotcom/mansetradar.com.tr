@@ -3,10 +3,51 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-07T00:00:00+00:00",
-    "article_count": 2121,
+    "article_count": 2124,
     "schema_version": 2
   },
   "articles": [
+    {
+      "id": "nachrichten/artikel/2026/10:us-bauzinsen-dreijahreshoch-druck-trump_20261007",
+      "slug": "us-bauzinsen-dreijahreshoch-druck-trump_20261007",
+      "title": "US-Bauzinsen auf Dreijahreshoch: Druck auf Trump",
+      "summary": "Die Bauzinsen in den USA sind auf den höchsten Stand seit fast drei Jahren gestiegen, was den Hauskauf für viele erschwert und Präsident Donald Trump politisch unter Druck setzt. Der durchschnittliche Zinssatz für eine 30-jährige Festhypothek erreichte 7,49...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "07.10.2026",
+      "date_iso": "2026-10-07",
+      "url": "/nachrichten/artikel/2026/10/us-bauzinsen-dreijahreshoch-druck-trump_20261007/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/us-bauzinsen-dreijahreshoch-druck-trump_20261007/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/us-bauzinsen-dreijahreshoch-druck-trump_20261007.json",
+      "image_url": "https://cdn.prod.www.spiegel.de/images/b4c52de7-6eea-4de9-b7cf-c9a237de9c63_w520_r2.08_fpx66.67_fpy50.jpg",
+      "image_alt": "US-Bauzinsen auf Dreijahreshoch: Druck auf Trump",
+      "image": {
+        "url": "https://cdn.prod.www.spiegel.de/images/b4c52de7-6eea-4de9-b7cf-c9a237de9c63_w520_r2.08_fpx66.67_fpy50.jpg",
+        "alt": "US-Bauzinsen auf Dreijahreshoch: Druck auf Trump"
+      },
+      "source_name": "DER SPIEGEL - Schlagzeilen",
+      "source_url": "https://www.spiegel.de/wirtschaft/service/usa-bauzinsen-auf-hoechstem-stand-seit-drei-jahren-a-64c44b6f-34d3-4355-b540-40f6d8077181#ref=rss",
+      "tags": [
+        "Bauzinsen USA",
+        "Hypothekenzinsen",
+        "Immobilienmarkt",
+        "Donald Trump",
+        "US-Wirtschaft",
+        "Inflation",
+        "Fed",
+        "Kongresswahlen"
+      ],
+      "quality_score": 90,
+      "review_status": "published"
+    },
     {
       "id": "nachrichten/artikel/2026/10:un-menschenrechtsrat-ki-schutz-resolution_20261007",
       "slug": "un-menschenrechtsrat-ki-schutz-resolution_20261007",
@@ -285,6 +326,44 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/10:klimawandel-gefaehrdet-sardinen-adria_20261007",
+      "slug": "klimawandel-gefaehrdet-sardinen-adria_20261007",
+      "title": "Klimawandel und Überfischung bedrohen Sardinen in der Adria",
+      "summary": "Steigende Wassertemperaturen und Überfischung setzen den Sardinen in der Adria stark zu. Forscher beobachten schrumpfende Fischgrößen, was die historische Konservenindustrie in Kroatien massiv gefährdet.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "07.10.2026",
+      "date_iso": "2026-10-07",
+      "url": "/nachrichten/artikel/2026/10/klimawandel-gefaehrdet-sardinen-adria_20261007/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/klimawandel-gefaehrdet-sardinen-adria_20261007/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/klimawandel-gefaehrdet-sardinen-adria_20261007.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/klimawandel-gefaehrdet-sardinen-adria_20261007.webp",
+      "image_alt": "Frische Sardinen auf Eis an der Adria-Küste",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/klimawandel-gefaehrdet-sardinen-adria_20261007.webp",
+        "alt": "Frische Sardinen auf Eis an der Adria-Küste"
+      },
+      "source_name": "Deutsche Welle: DW.com Deutsch",
+      "source_url": "https://www.dw.com/de/klimawandel-gefährdet-sardinen-das-superfood-der-adria/a-79577044?maca=de-rss-de-all-1119-rdf",
+      "tags": [
+        "Sardinen",
+        "Adria",
+        "Klimawandel",
+        "Kroatien",
+        "Fischerei"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:kiyamet-kahini-salgin-kehaneti-sibirya-olum_20261007",
       "slug": "kiyamet-kahini-salgin-kehaneti-sibirya-olum_20261007",
       "title": "Kıyamet Kahini'nin Salgın Kehaneti ve Sibirya'daki Gizemli Ölüm",
@@ -560,6 +639,44 @@
         "Son Dakika"
       ],
       "quality_score": 95,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:eu-erwaegt-grosskonzern-abgabe-statt-digitalsteuer_20261007",
+      "slug": "eu-erwaegt-grosskonzern-abgabe-statt-digitalsteuer_20261007",
+      "title": "EU erwägt Großkonzern-Abgabe statt reiner Digitalsteuer",
+      "summary": "Die Europäische Union erwägt Medienberichten zufolge eine Abgabe für alle in der EU tätigen Großunternehmen anstelle einer reinen Digitalsteuer. Damit soll eine Gegenreaktion der US-Regierung vermieden werden.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "07.10.2026",
+      "date_iso": "2026-10-07",
+      "url": "/nachrichten/artikel/2026/10/eu-erwaegt-grosskonzern-abgabe-statt-digitalsteuer_20261007/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/eu-erwaegt-grosskonzern-abgabe-statt-digitalsteuer_20261007/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/eu-erwaegt-grosskonzern-abgabe-statt-digitalsteuer_20261007.json",
+      "image_url": "https://cdn.prod.www.spiegel.de/images/ab4c1deb-35e0-4265-9a98-7cd6e10e01cc_w520_r2.08_fpx52_fpy50.jpg",
+      "image_alt": "EU-Kommission in Brüssel",
+      "image": {
+        "url": "https://cdn.prod.www.spiegel.de/images/ab4c1deb-35e0-4265-9a98-7cd6e10e01cc_w520_r2.08_fpx52_fpy50.jpg",
+        "alt": "EU-Kommission in Brüssel"
+      },
+      "source_name": "DER SPIEGEL - Schlagzeilen",
+      "source_url": "https://www.spiegel.de/wirtschaft/unternehmen/eu-erwaegt-offenbar-grosskonzern-abgabe-statt-digitalsteuer-a-a7d7544f-b9f7-4810-94c5-18fc0c3c11ef#ref=rss",
+      "tags": [
+        "EU",
+        "Digitalsteuer",
+        "US-Techkonzerne",
+        "Wirtschaft",
+        "Finanzen"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
