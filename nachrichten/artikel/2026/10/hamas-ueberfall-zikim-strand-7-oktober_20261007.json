@@ -43,14 +43,6 @@
   "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/hamas-ueberfall-zikim-strand-7-oktober_20261007.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "source_provided",
-  "image_license_note": "RSS source image: tagesschau.de - Die Nachrichten der ARD",
-  "image_source_url": "https://www.tagesschau.de/ausland/asien/israel-gedenktag-ueberfall-hamas-zikim-100.html",
-  "image_provider": "rss",
-  "image_score": 70,
-  "image_query": "Hamas-Überfall auf Israel: Der Strand, an dem der 7. Oktober begann",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "Am 7. Oktober 2023 startete der Hamas-Überfall auf Israel auch am Strand von Zikim, wo Terroristen vom Meer aus angriffen. Bei dem Massaker starben 18 Menschen, doch der Versuch, in den nahegelegenen Kibbuz Zikim einzudringen, scheiterte nach erbitterten Kämpfen. Bewohner wie Reut und Danny Burda berichten von dramatischen Stunden und einem tiefen Vertrauensverlust in die staatliche Verteidigung.",
   "language": "German",
   "url_prefix": "nachrichten/artikel/2026/10",
@@ -68,10 +60,7 @@
   "quality_notes": [],
   "quality_word_count": 431,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.tagesschau.de/image/b021ebad-2e98-4227-bb08-040c732b961b/AAABoRYAt5w/AAABnSSvrFg/16x9-big/strand-zikim-100.jpg?width=1920",
-  "original_image_url": "https://images.tagesschau.de/image/b021ebad-2e98-4227-bb08-040c732b961b/AAABoRYAt5w/AAABnSSvrFg/16x9-big/strand-zikim-100.jpg?width=1920",
-  "image_local_webp": "nachrichten/artikel/2026/10/images/hamas-ueberfall-zikim-strand-7-oktober_20261007.webp",
-  "image_credit": "tagesschau.de",
-  "image_credit_url": "https://www.tagesschau.de/ausland/asien/israel-gedenktag-ueberfall-hamas-zikim-100.html",
-  "image_finalized_at": "2026-10-07T20:12:33.309501Z"
+  "time": "17:31",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }

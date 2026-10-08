@@ -44,14 +44,6 @@
   "image_url": "https://mansetradar.com.tr/articles/2026/10/images/dso-cocuk-ergen-obezite-raporu_20261007.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "clear",
-  "image_license_note": "Unsplash API photo",
-  "image_source_url": "https://unsplash.com/photos/woman-in-white-button-up-shirt-and-blue-stethoscope-l0j0DHVWcIE",
-  "image_provider": "unsplash",
-  "image_score": 71,
-  "image_query": "hospital doctor nurse",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "Dünya Sağlık Örgütü (DSÖ), dünya genelinde 5-19 yaş arasındaki 170 milyon çocuk ve ergenin obezite ile yaşadığını duyurdu. 1990 yılından bu yana bu yaş grubundaki obezite yaygınlığının 4 kat artarak yüzde 8 seviyesine ulaştığını belirten DSÖ, obezitenin yönetilebilir kronik bir hastalık olduğunu vurgulayarak, çocuk ve ergenler için ilk kapsamlı bakım kılavuzunu yayımladı.",
   "language": "Turkish",
   "url_prefix": "articles/2026/10",
@@ -73,10 +65,7 @@
   ],
   "quality_word_count": 308,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxob3NwaXRhbCUyMGRvY3RvciUyMG51cnNlfGVufDF8MHx8fDE3OTEzOTYyNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "original_image_url": "https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxob3NwaXRhbCUyMGRvY3RvciUyMG51cnNlfGVufDF8MHx8fDE3OTEzOTYyNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "image_local_webp": "articles/2026/10/images/dso-cocuk-ergen-obezite-raporu_20261007.webp",
-  "image_credit": "unsplash.com",
-  "image_credit_url": "https://unsplash.com/photos/woman-in-white-button-up-shirt-and-blue-stethoscope-l0j0DHVWcIE",
-  "image_finalized_at": "2026-10-07T18:04:34.163766Z"
+  "time": "15:20",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }
