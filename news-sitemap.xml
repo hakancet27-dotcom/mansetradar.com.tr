@@ -2,50 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://mansetradar.com.tr/articles/2026/10/hakan-buyukcingil-iki-dunya-sampiyonlugu-hedefliyor_20261008/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>tr</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-08T00:00:00+03:00</news:publication_date>
-      <news:title>Milli Güreşçi Hakan Büyükçıngıl İki Dünya Şampiyonluğu Hedefliyor</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/articles/2026/10/kerem-demirbay-galatasaray-aciklamasi-sozlerim-carpitildi_20261008/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>tr</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-08T00:00:00+03:00</news:publication_date>
-      <news:title>Kerem Demirbay&#x27;dan Galatasaray Açıklaması: &quot;Sözlerim Çarpıtıldı&quot;</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/articles/2026/10/verstappen-singapur-gp-yarim-kalan-hesap_20261008/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>tr</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-08T00:00:00+03:00</news:publication_date>
-      <news:title>Verstappen&#x27;den Singapur GP Öncesi İddialı Sözler: &quot;Yarım Kalan Hesabım Var&quot;</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/articles/2026/10/galatasaray-kasimpasa-maci-ne-zaman-saat-kacta_20261008/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>tr</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-08T00:00:00+03:00</news:publication_date>
-      <news:title>Galatasaray - Kasımpaşa Maçı Ne Zaman, Hangi Kanalda? Tüm Detaylar</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://mansetradar.com.tr/articles/2026/10/maltepe-bina-cokmesi-can-kaybi-2ye-yukseldi-kurtarma-calismalari-suruyor_20261008/</loc>
     <news:news>
       <news:publication>
@@ -98,6 +54,50 @@
       </news:publication>
       <news:publication_date>2026-10-08T00:00:00+03:00</news:publication_date>
       <news:title>2026 Nobel Edebiyat Ödülü Kanadalı Anne Carson&#x27;ın Oldu</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://mansetradar.com.tr/articles/2026/10/hakan-buyukcingil-iki-dunya-sampiyonlugu-hedefliyor_20261008/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>mansetradar.com.tr</news:name>
+        <news:language>tr</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-08T00:00:00+03:00</news:publication_date>
+      <news:title>Milli Güreşçi Hakan Büyükçıngıl İki Dünya Şampiyonluğu Hedefliyor</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://mansetradar.com.tr/articles/2026/10/kerem-demirbay-galatasaray-aciklamasi-sozlerim-carpitildi_20261008/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>mansetradar.com.tr</news:name>
+        <news:language>tr</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-08T00:00:00+03:00</news:publication_date>
+      <news:title>Kerem Demirbay&#x27;dan Galatasaray Açıklaması: &quot;Sözlerim Çarpıtıldı&quot;</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://mansetradar.com.tr/articles/2026/10/verstappen-singapur-gp-yarim-kalan-hesap_20261008/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>mansetradar.com.tr</news:name>
+        <news:language>tr</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-08T00:00:00+03:00</news:publication_date>
+      <news:title>Verstappen&#x27;den Singapur GP Öncesi İddialı Sözler: &quot;Yarım Kalan Hesabım Var&quot;</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://mansetradar.com.tr/articles/2026/10/galatasaray-kasimpasa-maci-ne-zaman-saat-kacta_20261008/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>mansetradar.com.tr</news:name>
+        <news:language>tr</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-08T00:00:00+03:00</news:publication_date>
+      <news:title>Galatasaray - Kasımpaşa Maçı Ne Zaman, Hangi Kanalda? Tüm Detaylar</news:title>
     </news:news>
   </url>
   <url>
@@ -266,116 +266,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://mansetradar.com.tr/articles/2026/10/yeni-parti-ozgur-ozel-grup-toplantisi-secim-iddiasi_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>tr</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>Özgür Özel: YENİ Parti Demokrasiyle Büyüyor, Seçimi Alacağız</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/articles/2026/10/yemen-catismalar-babulemendep-husiler-suudi-arabistan_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>tr</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>Yemen&#x27;de Çatışmalar Tırmanıyor: Babülmendep Ele Geçirildi, Husiler Suudi Arabistan&#x27;ı Vurdu</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/articles/2026/10/bakan-ersoy-yks-derecesi-yapan-ahmet-denizi-agirladi_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>tr</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>Bakan Ersoy, YKS&#x27;de Türkiye Derecesi Yapan Ahmet Deniz&#x27;i Ağırladı</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/articles/2026/10/geceyi-aydinlatacak-uydu-projesine-fcc-den-onay_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>tr</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>Geceyi Aydınlatacak Uydu Projesine FCC&#x27;den Onay Çıktı</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/articles/2026/10/samsung-galaxy-a57-one-ui-9-guncellemesi-aldi_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>tr</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>Galaxy A57, One UI 9 Güncellemesini Alan İlk Orta Segment Telefon Oldu</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/articles/2026/10/kocamustafapasa-ilkokulu-150-yillik-egitim-mirasi_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>tr</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>Kocamustafapaşa İlkokulu: Develi Han&#x27;dan 150 Yıllık Eğitim Mirası</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/articles/2026/10/dugun-gunu-vazgecen-damada-yargitaydan-manevi-tazminat-soku_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>tr</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>Düğün Günü Evlilikten Vazgeçen Damada Yargıtay&#x27;dan Manevi Tazminat Şoku!</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/articles/2026/10/basavciliktan-tera-daki-14-milyar-lira-iddiasina-iliskin-aciklama_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>tr</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>Başsavcılık: Tera&#x27;daki 14 Milyar Lira İddiası Gerçeği Yansıtmıyor</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/articles/2026/10/shell-tasit-tanima-sistemi-30-yilini-kutluyor-filo-cozumleri-gelisiyor_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>tr</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>Shell Taşıt Tanıma Sistemi 30 Yaşında: Filo Yönetiminde Dijital Dönüşüm</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/articles/2026/10/bakan-isikhan-issizlik-orani-yaklasik-40-aydir-tek-hanede_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>tr</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>Bakan Işıkhan: İşsizlik oranı yaklaşık 40 aydır tek hanede</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://mansetradar.com.tr/news/articles/unc-student-faith-hedgepeth-murder-trial-dna-evidence_20261008/</loc>
     <news:news>
       <news:publication>
@@ -406,17 +296,6 @@
       </news:publication>
       <news:publication_date>2026-10-08T00:00:00+03:00</news:publication_date>
       <news:title>USS Abraham Lincoln Concludes Historic 10-Month Deployment, Returns to San Diego</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/news/articles/ex-cia-official-david-rush-pleads-guilty-200m-fraud_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>Ex-CIA Official Pleads Guilty to $200M Fraud Scheme Involving Gold Bars and Florida Mansions</news:title>
     </news:news>
   </url>
   <url>
@@ -659,105 +538,6 @@
       </news:publication>
       <news:publication_date>2026-10-07T00:00:00+03:00</news:publication_date>
       <news:title>Hamas-Überfall auf Zikim: Der Strand, an dem der 7. Oktober begann</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/nachrichten/artikel/tankstellen-12-uhr-regel-verstoesse-sinken-konzentration-auf-wenige-betreiber_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>de</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>Tankstellen: Weniger Verstöße gegen 12-Uhr-Regel, aber hartnäckige Sünder</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/nachrichten/artikel/sachsen-anhalt-afd-landtagspraesident-rausch-bsw_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>de</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>AfD strebt Landtagspräsidentenamt in Sachsen-Anhalt an</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/nachrichten/artikel/kriegsdienstverweigerung-deutschland-anstieg-antraege_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>de</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>Kriegsdienstverweigerung in Deutschland: Zahl der Anträge verdreifacht sich</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/nachrichten/artikel/karl-bushby-weltumwanderer-rueckkehr-england_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>de</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>Nach 28 Jahren: Weltumwanderer Karl Bushby erreicht wieder England</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/nachrichten/artikel/tesla-bewerber-droht-anschlaegen-schweineaugen-geldstrafe-bestaetigt_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>de</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>Tesla-Bewerber droht mit Anschlägen und verschickt Schweineaugen: Geldstrafe bestätigt</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/nachrichten/artikel/tuerkei-pakistan-truppen-saudi-arabien-huthi-angriffe_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>de</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>Türkei und Pakistan entsenden Truppen nach Saudi-Arabien</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/nachrichten/artikel/raf-fairford-trump-widerspricht-rubio-bomber-abzug_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>de</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>Trump widerspricht Rubio zu Bomber-Abzug aus Fairford</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/nachrichten/artikel/spanien-zehntausende-demonstrieren-barcelona-mietkrise-wohnungsnot_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>de</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>Mietkrise in Spanien: Zehntausende demonstrieren in Barcelona gegen Wohnungsnot</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://mansetradar.com.tr/nachrichten/artikel/afd-politiker-tobias-rausch-landtagspraesident-sachsen-anhalt_20261006/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>mansetradar.com.tr</news:name>
-        <news:language>de</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T00:00:00+03:00</news:publication_date>
-      <news:title>AfD-Politiker Tobias Rausch wird Landtagspräsident in Sachsen-Anhalt</news:title>
     </news:news>
   </url>
 </urlset>
