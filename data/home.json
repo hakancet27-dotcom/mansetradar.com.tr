@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-09T00:00:00+00:00",
-    "article_count": 2210,
+    "article_count": 2211,
     "schema_version": 2
   },
   "hero": [
@@ -1299,6 +1299,44 @@
         "Cinayet",
         "Mahkeme",
         "Kadına Şiddet"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:mike-ditka-legendary-chicago-bears-coach-dies-at-86_20261009",
+      "slug": "mike-ditka-legendary-chicago-bears-coach-dies-at-86_20261009",
+      "title": "Mike Ditka, Hall of Fame Player and Legendary Chicago Bears Coach, Dies at 86",
+      "summary": "Mike Ditka, the Pro Football Hall of Fame tight end and legendary head coach who guided the Chicago Bears to a Super Bowl XX championship, has died at the age of 86, his family announced.",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "09.10.2026",
+      "date_iso": "2026-10-09",
+      "url": "/news/articles/2026/10/mike-ditka-legendary-chicago-bears-coach-dies-at-86_20261009/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/mike-ditka-legendary-chicago-bears-coach-dies-at-86_20261009/",
+      "detail_json_url": "/data/details/news/articles/2026/10/mike-ditka-legendary-chicago-bears-coach-dies-at-86_20261009.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/mike-ditka-legendary-chicago-bears-coach-dies-at-86_20261009.webp",
+      "image_alt": "Mike Ditka, legendary Chicago Bears head coach and Hall of Famer, pictured during an NFL game.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/mike-ditka-legendary-chicago-bears-coach-dies-at-86_20261009.webp",
+        "alt": "Mike Ditka, legendary Chicago Bears head coach and Hall of Famer, pictured during an NFL game."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/mike-ditka-former-head-coach-chicago-bears-obit/",
+      "tags": [
+        "Mike Ditka",
+        "Chicago Bears",
+        "NFL",
+        "Pro Football Hall of Fame",
+        "Super Bowl XX"
       ],
       "quality_score": 100,
       "review_status": "published"
@@ -3109,47 +3147,6 @@
         "Son Dakika"
       ],
       "quality_score": 95,
-      "review_status": "published"
-    },
-    {
-      "id": "nachrichten/artikel/2026/10:israel-gedenkt-dritter-jahrestag-7-oktober-trauer-proteste_20261008",
-      "slug": "israel-gedenkt-dritter-jahrestag-7-oktober-trauer-proteste_20261008",
-      "title": "Israel gedenkt 3 Jahre nach dem 7. Oktober: Trauer und Proteste",
-      "summary": "Drei Jahre nach dem verheerenden Hamas-Angriff vom 7. Oktober 2023 hat Israel der über 1200 Todesopfer gedacht. In Tel Aviv versammelten sich 50.000 Menschen zu einer zentralen Gedenkveranstaltung, die von tiefer Trauer, aber auch von Protesten begleitet wu...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Germany",
-      "language": "de",
-      "language_label": "German",
-      "section": "nachrichten/artikel",
-      "section_name": "Deutschland Nachrichten",
-      "url_prefix": "nachrichten/artikel/2026/10",
-      "date": "08.10.2026",
-      "date_iso": "2026-10-08",
-      "url": "/nachrichten/artikel/2026/10/israel-gedenkt-dritter-jahrestag-7-oktober-trauer-proteste_20261008/",
-      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/israel-gedenkt-dritter-jahrestag-7-oktober-trauer-proteste_20261008/",
-      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/israel-gedenkt-dritter-jahrestag-7-oktober-trauer-proteste_20261008.json",
-      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/israel-gedenkt-dritter-jahrestag-7-oktober-trauer-proteste_20261008.webp",
-      "image_alt": "Tausende Menschen versammeln sich im Yarkon-Park in Tel Aviv zum Gedenken an die Opfer des 7. Oktober, mit einer Bühne, die...",
-      "image": {
-        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/israel-gedenkt-dritter-jahrestag-7-oktober-trauer-proteste_20261008.webp",
-        "alt": "Tausende Menschen versammeln sich im Yarkon-Park in Tel Aviv zum Gedenken an die Opfer des 7. Oktober, mit einer Bühne, die..."
-      },
-      "source_name": "tagesschau.de - Die Nachrichten der ARD",
-      "source_url": "https://www.tagesschau.de/ausland/asien/israel-gedenktag-hamas-ueberfall-100.html",
-      "tags": [
-        "Israel",
-        "7. Oktober",
-        "Hamas",
-        "Gedenktag",
-        "Tel Aviv",
-        "Opfer",
-        "Gedenken",
-        "Proteste"
-      ],
-      "quality_score": 100,
       "review_status": "published"
     }
   ]
