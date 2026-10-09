@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-09T18:56:45.156Z",
+  "updatedAt": "2026-10-09T19:32:11.551Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-10-09T18:56:45.156Z",
+      "updatedAt": "2026-10-09T19:32:11.551Z",
       "source": "Maçkolik arşiv 1/73482",
       "table": [
         {
@@ -555,12 +555,13 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": ""
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 504 | HTML scrape: https://www.mackolik.com/puan-durumu/ingiltere-premier-lig/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | https://www.mackolik.com/puan-durumu/ingiltere-premier-league/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
+      "preservedPreviousTable": true
     },
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-10-09T18:56:45.156Z",
+      "updatedAt": "2026-10-09T19:32:11.551Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
@@ -851,7 +852,7 @@
     {
       "id": "bundesliga",
       "name": "Bundesliga",
-      "updatedAt": "2026-10-09T18:56:45.156Z",
+      "updatedAt": "2026-10-09T19:32:11.551Z",
       "source": "Maçkolik arşiv 3/73455",
       "table": [
         {
@@ -1400,12 +1401,13 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": ""
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 504 | HTML scrape: https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao: no valid standings table | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
+      "preservedPreviousTable": true
     },
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-10-09T18:56:45.156Z",
+      "updatedAt": "2026-10-09T19:32:11.551Z",
       "source": "Maçkolik arşiv 5/73279",
       "table": [
         {

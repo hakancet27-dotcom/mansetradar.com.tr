@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-09T00:00:00+00:00",
-    "article_count": 2207,
+    "article_count": 2210,
     "schema_version": 2
   },
   "hero": [
@@ -126,6 +126,44 @@
         "İstanbul"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:navi-pillay-nobel-baris-odulu_20261009",
+      "slug": "navi-pillay-nobel-baris-odulu_20261009",
+      "title": "Navi Pillay'a Nobel Barış Ödülü: Apartheid'dan Uluslararası Adalete Uzanan Mücadele",
+      "summary": "2026 Nobel Barış Ödülü, uluslararası adaletin geliştirilmesine yönelik çığır açan çalışmaları nedeniyle Güney Afrikalı hukukçu Navi Pillay'a verildi. Apartheid karşıtı mücadeleden Ruanda ve Myanmar'daki soykırım yargılamalarına ve Gazze soruşturmasına kadar...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "09.10.2026",
+      "date_iso": "2026-10-09",
+      "url": "/articles/2026/10/navi-pillay-nobel-baris-odulu_20261009/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/navi-pillay-nobel-baris-odulu_20261009/",
+      "detail_json_url": "/data/details/articles/2026/10/navi-pillay-nobel-baris-odulu_20261009.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/navi-pillay-nobel-baris-odulu_20261009.webp",
+      "image_alt": "Güney Afrikalı hukukçu Navi Pillay'ın Nobel Barış Ödülü'nü kazandığını gösteren bir görsel.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/navi-pillay-nobel-baris-odulu_20261009.webp",
+        "alt": "Güney Afrikalı hukukçu Navi Pillay'ın Nobel Barış Ödülü'nü kazandığını gösteren bir görsel."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/kultur/apartheid-karsiti-mucadeleden-nobel-baris-odulune-guney-afrikali-hukukcu-navi-pillay/4083932",
+      "tags": [
+        "Navi Pillay",
+        "Nobel Barış Ödülü",
+        "Uluslararası Adalet",
+        "Apartheid",
+        "İnsan Hakları"
+      ],
+      "quality_score": 95,
       "review_status": "published"
     },
     {
@@ -288,7 +326,7 @@
       "id": "articles/2026/10:maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009",
       "slug": "maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009",
       "title": "Maltepe'deki Bina Faciasında Mimar ve Şantiye Şefi Tutuklandı",
-      "summary": "İstanbul Maltepe'de 5 kişinin yaşamını yitirdiği 7 katlı binanın çökmesine ilişkin başlatılan soruşturma kapsamında gözaltına alınan mimar H.B. ile şantiye şefi M.O., çıkarıldıkları mahkemece tutuklanarak cezaevine gönderildi.",
+      "summary": "İstanbul Maltepe'de 8 Ekim günü 7 katlı bir binanın çökmesi sonucu 5 kişinin hayatını kaybettiği facianın ardından yürütülen soruşturmada, binanın mimarı H.B. ile şantiye şefi M.O. sevk edildikleri adli makamlarca tutuklandı.",
       "category": "Gündem",
       "category_slug": "gundem",
       "topic_slug": "gundem",
@@ -305,20 +343,19 @@
       "canonical_url": "https://mansetradar.com.tr/articles/2026/10/maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009/",
       "detail_json_url": "/data/details/articles/2026/10/maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/10/images/maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009.webp",
-      "image_alt": "Maltepe'de çöken binanın ardından başlatılan adli soruşturmada mimar ve şantiye şefi tutuklandı.",
+      "image_alt": "Maltepe Cevizli Mahallesi'nde çöken bina çevresinde alınan güvenlik önlemleri ve arama kurtarma çalışmaları",
       "image": {
         "url": "https://mansetradar.com.tr/articles/2026/10/images/maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009.webp",
-        "alt": "Maltepe'de çöken binanın ardından başlatılan adli soruşturmada mimar ve şantiye şefi tutuklandı."
+        "alt": "Maltepe Cevizli Mahallesi'nde çöken bina çevresinde alınan güvenlik önlemleri ve arama kurtarma çalışmaları"
       },
       "source_name": "Hürriyet",
       "source_url": "https://www.hurriyet.com.tr/gundem/maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi-43335914",
       "tags": [
         "Maltepe",
-        "bina çökmesi",
-        "facia",
-        "tutuklama",
-        "soruşturma",
+        "Bina Çökmesi",
+        "Anadolu Cumhuriyet Başsavcılığı",
         "Cevizli Mahallesi",
+        "Tutuklama",
         "Maltepe haberleri",
         "İstanbul"
       ],
@@ -690,6 +727,43 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/10:bae-bassavcisi-flydubai-yardimci-pilotu-11-eylul-den-esinlenerek-saldiri-planlad_20261009",
+      "slug": "bae-bassavcisi-flydubai-yardimci-pilotu-11-eylul-den-esinlenerek-saldiri-planlad_20261009",
+      "title": "BAE Başsavcısı: Flydubai Yardımcı Pilotu, 11 Eylül'den Esinlenerek Saldırı Planladığını...",
+      "summary": "Birleşik Arap Emirlikleri (BAE) Başsavcısı Hamad Seyf eş-Şamisi, Dubai-Tel Aviv seferini yapan Flydubai uçağında saldırı girişiminde bulunan yardımcı pilotun, 11 Eylül saldırılarından esinlenerek eylemi planladığını ve tek başına hareket ettiğini itiraf ett...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "09.10.2026",
+      "date_iso": "2026-10-09",
+      "url": "/articles/2026/10/bae-bassavcisi-flydubai-yardimci-pilotu-11-eylul-den-esinlenerek-saldiri-planlad_20261009/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/bae-bassavcisi-flydubai-yardimci-pilotu-11-eylul-den-esinlenerek-saldiri-planlad_20261009/",
+      "detail_json_url": "/data/details/articles/2026/10/bae-bassavcisi-flydubai-yardimci-pilotu-11-eylul-den-esinlenerek-saldiri-planlad_20261009.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/bae-bassavcisi-flydubai-yardimci-pilotu-11-eylul-den-esinlenerek-saldiri-planlad_20261009.webp",
+      "image_alt": "Ticari bir uçak, alacakaranlıkta şehir silüeti üzerinde uçuyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/bae-bassavcisi-flydubai-yardimci-pilotu-11-eylul-den-esinlenerek-saldiri-planlad_20261009.webp",
+        "alt": "Ticari bir uçak, alacakaranlıkta şehir silüeti üzerinde uçuyor."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/dunya/bae-bassavcisi-flydubai-yardimci-pilotu-sanik-11-eylul-den-esinlenerek-saldiriyi-planladigini-itiraf-etti/4083927",
+      "tags": [
+        "Flydubai",
+        "Terör Saldırısı",
+        "11 Eylül Saldırıları",
+        "BAE Başsavcılığı"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:apple-iphone-18-pro-siparis-kesintisi-hisse-dusu_20261009",
       "slug": "apple-iphone-18-pro-siparis-kesintisi-hisse-dusu_20261009",
       "title": "Apple Hisseleri iPhone 18 Pro Sipariş Kesintisi İddiasıyla Düştü",
@@ -725,85 +799,6 @@
         "Ekonomi"
       ],
       "quality_score": 90,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:ak-parti-genel-sekreteri-inan-ntvye-konustu_20261009",
-      "slug": "ak-parti-genel-sekreteri-inan-ntvye-konustu_20261009",
-      "title": "AK Parti Genel Sekreteri İnan'dan Önemli Açıklamalar: Fon Soruşturması ve İzmir'deki Yeni...",
-      "summary": "AK Parti Genel Sekreteri Eyyüp Kadir İnan, NTV'de gündeme dair önemli açıklamalarda bulundu. İnan, fon soruşturması iddialarına yönelik muhalefete sert tepki göstererek, 'Karşımızda bir yalan şebekesi var' dedi. Ayrıca, İzmir Büyükşehir Belediye Başkanı Cem...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "09.10.2026",
-      "date_iso": "2026-10-09",
-      "url": "/articles/2026/10/ak-parti-genel-sekreteri-inan-ntvye-konustu_20261009/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/ak-parti-genel-sekreteri-inan-ntvye-konustu_20261009/",
-      "detail_json_url": "/data/details/articles/2026/10/ak-parti-genel-sekreteri-inan-ntvye-konustu_20261009.json",
-      "image_url": "https://images.ntv.com.tr/images/Başlıksız-18Nisan202612.29.23-14-520019.jpeg",
-      "image_alt": "AK Parti Genel Sekreteri Eyyüp Kadir İnan, NTV'de açıklama yapıyor.",
-      "image": {
-        "url": "https://images.ntv.com.tr/images/Başlıksız-18Nisan202612.29.23-14-520019.jpeg",
-        "alt": "AK Parti Genel Sekreteri Eyyüp Kadir İnan, NTV'de açıklama yapıyor."
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/turkiye/ak-parti-genel-sekreteri-eyyup-kadir-inan-ntvye-konustu-1745537",
-      "tags": [
-        "AK Parti",
-        "Eyyüp Kadir İnan",
-        "Cemil Tugay",
-        "İzmir",
-        "Fon Soruşturması",
-        "Beylikdüzü",
-        "Beylikdüzü haberleri",
-        "İstanbul"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:2026-nobel-baris-odulu-navi-pillay_20261009",
-      "slug": "2026-nobel-baris-odulu-navi-pillay_20261009",
-      "title": "2026 Nobel Barış Ödülü Navi Pillay'a Verildi",
-      "summary": "2026 Nobel Barış Ödülü, Uluslararası Ceza Mahkemesi (UCM) eski yargıcı Navanethem \"Navi\" Pillay'a verildi. Pillay, barışın ve uluslararası hukukun geliştirilmesine yönelik çabaları ve soykırım suçlarının yargılanmasındaki kilit rolü nedeniyle bu prestijli ö...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "09.10.2026",
-      "date_iso": "2026-10-09",
-      "url": "/articles/2026/10/2026-nobel-baris-odulu-navi-pillay_20261009/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/2026-nobel-baris-odulu-navi-pillay_20261009/",
-      "detail_json_url": "/data/details/articles/2026/10/2026-nobel-baris-odulu-navi-pillay_20261009.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/2026-nobel-baris-odulu-navi-pillay_20261009.webp",
-      "image_alt": "2026 Nobel Barış Ödülü Navi Pillay'a Verildi",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/10/images/2026-nobel-baris-odulu-navi-pillay_20261009.webp",
-        "alt": "2026 Nobel Barış Ödülü Navi Pillay'a Verildi"
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-2026-nobel-baris-odulunu-kazanan-belli-oldu-7676235",
-      "tags": [
-        "Nobel Barış Ödülü",
-        "Navi Pillay",
-        "Uluslararası Ceza Mahkemesi",
-        "İnsan Hakları",
-        "Donald Trump"
-      ],
-      "quality_score": 100,
       "review_status": "published"
     }
   ],
@@ -1232,6 +1227,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/10:navi-pillay-nobel-baris-odulu_20261009",
+      "slug": "navi-pillay-nobel-baris-odulu_20261009",
+      "title": "Navi Pillay'a Nobel Barış Ödülü: Apartheid'dan Uluslararası Adalete Uzanan Mücadele",
+      "summary": "2026 Nobel Barış Ödülü, uluslararası adaletin geliştirilmesine yönelik çığır açan çalışmaları nedeniyle Güney Afrikalı hukukçu Navi Pillay'a verildi. Apartheid karşıtı mücadeleden Ruanda ve Myanmar'daki soykırım yargılamalarına ve Gazze soruşturmasına kadar...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "09.10.2026",
+      "date_iso": "2026-10-09",
+      "url": "/articles/2026/10/navi-pillay-nobel-baris-odulu_20261009/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/navi-pillay-nobel-baris-odulu_20261009/",
+      "detail_json_url": "/data/details/articles/2026/10/navi-pillay-nobel-baris-odulu_20261009.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/navi-pillay-nobel-baris-odulu_20261009.webp",
+      "image_alt": "Güney Afrikalı hukukçu Navi Pillay'ın Nobel Barış Ödülü'nü kazandığını gösteren bir görsel.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/navi-pillay-nobel-baris-odulu_20261009.webp",
+        "alt": "Güney Afrikalı hukukçu Navi Pillay'ın Nobel Barış Ödülü'nü kazandığını gösteren bir görsel."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/kultur/apartheid-karsiti-mucadeleden-nobel-baris-odulune-guney-afrikali-hukukcu-navi-pillay/4083932",
+      "tags": [
+        "Navi Pillay",
+        "Nobel Barış Ödülü",
+        "Uluslararası Adalet",
+        "Apartheid",
+        "İnsan Hakları"
+      ],
+      "quality_score": 95,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:nagihan-karadeniz-cinayeti-halit-dertli-savunma-yapmadi_20261009",
       "slug": "nagihan-karadeniz-cinayeti-halit-dertli-savunma-yapmadi_20261009",
       "title": "Halit Dertli Savunma Yapmadı: Nagihan Karadeniz Cinayeti Davası",
@@ -1391,7 +1424,7 @@
       "id": "articles/2026/10:maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009",
       "slug": "maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009",
       "title": "Maltepe'deki Bina Faciasında Mimar ve Şantiye Şefi Tutuklandı",
-      "summary": "İstanbul Maltepe'de 5 kişinin yaşamını yitirdiği 7 katlı binanın çökmesine ilişkin başlatılan soruşturma kapsamında gözaltına alınan mimar H.B. ile şantiye şefi M.O., çıkarıldıkları mahkemece tutuklanarak cezaevine gönderildi.",
+      "summary": "İstanbul Maltepe'de 8 Ekim günü 7 katlı bir binanın çökmesi sonucu 5 kişinin hayatını kaybettiği facianın ardından yürütülen soruşturmada, binanın mimarı H.B. ile şantiye şefi M.O. sevk edildikleri adli makamlarca tutuklandı.",
       "category": "Gündem",
       "category_slug": "gundem",
       "topic_slug": "gundem",
@@ -1408,20 +1441,19 @@
       "canonical_url": "https://mansetradar.com.tr/articles/2026/10/maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009/",
       "detail_json_url": "/data/details/articles/2026/10/maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009.json",
       "image_url": "https://mansetradar.com.tr/articles/2026/10/images/maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009.webp",
-      "image_alt": "Maltepe'de çöken binanın ardından başlatılan adli soruşturmada mimar ve şantiye şefi tutuklandı.",
+      "image_alt": "Maltepe Cevizli Mahallesi'nde çöken bina çevresinde alınan güvenlik önlemleri ve arama kurtarma çalışmaları",
       "image": {
         "url": "https://mansetradar.com.tr/articles/2026/10/images/maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009.webp",
-        "alt": "Maltepe'de çöken binanın ardından başlatılan adli soruşturmada mimar ve şantiye şefi tutuklandı."
+        "alt": "Maltepe Cevizli Mahallesi'nde çöken bina çevresinde alınan güvenlik önlemleri ve arama kurtarma çalışmaları"
       },
       "source_name": "Hürriyet",
       "source_url": "https://www.hurriyet.com.tr/gundem/maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi-43335914",
       "tags": [
         "Maltepe",
-        "bina çökmesi",
-        "facia",
-        "tutuklama",
-        "soruşturma",
+        "Bina Çökmesi",
+        "Anadolu Cumhuriyet Başsavcılığı",
         "Cevizli Mahallesi",
+        "Tutuklama",
         "Maltepe haberleri",
         "İstanbul"
       ],
@@ -1943,6 +1975,43 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/10:bae-bassavcisi-flydubai-yardimci-pilotu-11-eylul-den-esinlenerek-saldiri-planlad_20261009",
+      "slug": "bae-bassavcisi-flydubai-yardimci-pilotu-11-eylul-den-esinlenerek-saldiri-planlad_20261009",
+      "title": "BAE Başsavcısı: Flydubai Yardımcı Pilotu, 11 Eylül'den Esinlenerek Saldırı Planladığını...",
+      "summary": "Birleşik Arap Emirlikleri (BAE) Başsavcısı Hamad Seyf eş-Şamisi, Dubai-Tel Aviv seferini yapan Flydubai uçağında saldırı girişiminde bulunan yardımcı pilotun, 11 Eylül saldırılarından esinlenerek eylemi planladığını ve tek başına hareket ettiğini itiraf ett...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "09.10.2026",
+      "date_iso": "2026-10-09",
+      "url": "/articles/2026/10/bae-bassavcisi-flydubai-yardimci-pilotu-11-eylul-den-esinlenerek-saldiri-planlad_20261009/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/bae-bassavcisi-flydubai-yardimci-pilotu-11-eylul-den-esinlenerek-saldiri-planlad_20261009/",
+      "detail_json_url": "/data/details/articles/2026/10/bae-bassavcisi-flydubai-yardimci-pilotu-11-eylul-den-esinlenerek-saldiri-planlad_20261009.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/bae-bassavcisi-flydubai-yardimci-pilotu-11-eylul-den-esinlenerek-saldiri-planlad_20261009.webp",
+      "image_alt": "Ticari bir uçak, alacakaranlıkta şehir silüeti üzerinde uçuyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/bae-bassavcisi-flydubai-yardimci-pilotu-11-eylul-den-esinlenerek-saldiri-planlad_20261009.webp",
+        "alt": "Ticari bir uçak, alacakaranlıkta şehir silüeti üzerinde uçuyor."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/dunya/bae-bassavcisi-flydubai-yardimci-pilotu-sanik-11-eylul-den-esinlenerek-saldiriyi-planladigini-itiraf-etti/4083927",
+      "tags": [
+        "Flydubai",
+        "Terör Saldırısı",
+        "11 Eylül Saldırıları",
+        "BAE Başsavcılığı"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:apple-iphone-18-pro-siparis-kesintisi-hisse-dusu_20261009",
       "slug": "apple-iphone-18-pro-siparis-kesintisi-hisse-dusu_20261009",
       "title": "Apple Hisseleri iPhone 18 Pro Sipariş Kesintisi İddiasıyla Düştü",
@@ -2019,6 +2088,47 @@
         "İstanbul"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:abdulkerim-bardakci-kasimpasa-macinda-tarihe-gecti-bulent-korkmazi-geride-birakt_20261009",
+      "slug": "abdulkerim-bardakci-kasimpasa-macinda-tarihe-gecti-bulent-korkmazi-geride-birakt_20261009",
+      "title": "Abdülkerim Bardakcı Kasımpaşa Maçında Tarihe Geçti: Bülent Korkmaz'ı Geride Bıraktı",
+      "summary": "Trendyol Süper Lig'in 7. haftasında Kasımpaşa'yı 3-1 mağlup eden Galatasaray'da Abdülkerim Bardakcı, kaydettiği kafa golüyle sarı-kırmızılı formayla 19 gole ulaşarak kulüp efsanesi Bülent Korkmaz'ı geride bıraktı.",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "09.10.2026",
+      "date_iso": "2026-10-09",
+      "url": "/articles/2026/10/abdulkerim-bardakci-kasimpasa-macinda-tarihe-gecti-bulent-korkmazi-geride-birakt_20261009/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/abdulkerim-bardakci-kasimpasa-macinda-tarihe-gecti-bulent-korkmazi-geride-birakt_20261009/",
+      "detail_json_url": "/data/details/articles/2026/10/abdulkerim-bardakci-kasimpasa-macinda-tarihe-gecti-bulent-korkmazi-geride-birakt_20261009.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/abdulkerim-bardakci-kasimpasa-macinda-tarihe-gecti-bulent-korkmazi-geride-birakt_20261009.webp",
+      "image_alt": "Galatasaraylı futbolcu Abdülkerim Bardakcı'nın Kasımpaşa maçında attığı gol sonrası sevinci.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/abdulkerim-bardakci-kasimpasa-macinda-tarihe-gecti-bulent-korkmazi-geride-birakt_20261009.webp",
+        "alt": "Galatasaraylı futbolcu Abdülkerim Bardakcı'nın Kasımpaşa maçında attığı gol sonrası sevinci."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/abdulkerim-bardakcidan-tarihi-gol-galatasaray-efsanesini-geride-birakti-43335967",
+      "tags": [
+        "Abdülkerim Bardakcı",
+        "Galatasaray",
+        "Kasımpaşa",
+        "Bülent Korkmaz",
+        "Trendyol Süper Lig",
+        "Beyoğlu",
+        "Beyoğlu haberleri",
+        "İstanbul"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -3040,124 +3150,6 @@
         "Proteste"
       ],
       "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:hititlerin-devlet-hafizasi-kayalipinar-sivas-2026_20261008",
-      "slug": "hititlerin-devlet-hafizasi-kayalipinar-sivas-2026_20261008",
-      "title": "Hititlerin Devlet Hafızası Sivas Kayalıpınar'da Gün Yüzüne Çıktı",
-      "summary": "Sivas'ın Yıldızeli ilçesindeki Kayalıpınar'da yürütülen kazılarda, Hititlerin yaklaşık 3 bin 400 yıl önceki devlet hafızasına ışık tutan 131 yeni çivi yazılı tablet ve parçası gün yüzüne çıkarıldı. Kültür ve Turizm Bakanı Mehmet Nuri Ersoy tarafından duyuru...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "topic_slug": "saglik",
-      "topic_label": "Sağlık",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "08.10.2026",
-      "date_iso": "2026-10-08",
-      "url": "/articles/2026/10/hititlerin-devlet-hafizasi-kayalipinar-sivas-2026_20261008/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/hititlerin-devlet-hafizasi-kayalipinar-sivas-2026_20261008/",
-      "detail_json_url": "/data/details/articles/2026/10/hititlerin-devlet-hafizasi-kayalipinar-sivas-2026_20261008.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/hititlerin-devlet-hafizasi-kayalipinar-sivas-2026_20261008.webp",
-      "image_alt": "Sivas Kayalıpınar'da yapılan kazılarda gün yüzüne çıkarılan Hitit dönemine ait çivi yazılı tabletler.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/10/images/hititlerin-devlet-hafizasi-kayalipinar-sivas-2026_20261008.webp",
-        "alt": "Sivas Kayalıpınar'da yapılan kazılarda gün yüzüne çıkarılan Hitit dönemine ait çivi yazılı tabletler."
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/hititlerin-devlet-hafizasi-3-bin-400-yil-sonra-gun-isigina-kavustu-43333593",
-      "tags": [
-        "Hititler",
-        "Kayalıpınar",
-        "Sivas",
-        "Arkeoloji",
-        "Çivi Yazısı",
-        "Mehmet Nuri Ersoy",
-        "Antik Tarih",
-        "Beşiktaş",
-        "Beşiktaş haberleri",
-        "İstanbul"
-      ],
-      "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:hakan-buyukcingil-iki-dunya-sampiyonlugu-hedefliyor_20261008",
-      "slug": "hakan-buyukcingil-iki-dunya-sampiyonlugu-hedefliyor_20261008",
-      "title": "Milli Güreşçi Hakan Büyükçıngıl İki Dünya Şampiyonluğu Hedefliyor",
-      "summary": "Türkiye'yi 125 kiloda temsil eden 22 yaşındaki milli güreşçi Hakan Büyükçıngıl, ekim ayında ABD ve Kazakistan'da düzenlenecek 23 Yaş Altı ve Büyükler Dünya Şampiyonalarında altın madalya kazanarak çifte şampiyonluk yaşamayı hedefliyor.",
-      "category": "Spor",
-      "category_slug": "spor",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "08.10.2026",
-      "date_iso": "2026-10-08",
-      "url": "/articles/2026/10/hakan-buyukcingil-iki-dunya-sampiyonlugu-hedefliyor_20261008/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/hakan-buyukcingil-iki-dunya-sampiyonlugu-hedefliyor_20261008/",
-      "detail_json_url": "/data/details/articles/2026/10/hakan-buyukcingil-iki-dunya-sampiyonlugu-hedefliyor_20261008.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/hakan-buyukcingil-iki-dunya-sampiyonlugu-hedefliyor_20261008.webp",
-      "image_alt": "Milli güreşçi Hakan Büyükçıngıl antrenman yaparken",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/10/images/hakan-buyukcingil-iki-dunya-sampiyonlugu-hedefliyor_20261008.webp",
-        "alt": "Milli güreşçi Hakan Büyükçıngıl antrenman yaparken"
-      },
-      "source_name": "Anadolu Ajansı Güncel Haberler",
-      "source_url": "https://www.aa.com.tr/tr/spor/milli-guresci-hakan-buyukcingil-iki-dunya-sampiyonlugu-pesinde/4082827",
-      "tags": [
-        "Hakan Büyükçıngıl",
-        "Milli Güreşçi",
-        "Dünya Güreş Şampiyonası",
-        "Güreş",
-        "Akdeniz Oyunları"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "nachrichten/artikel/2026/10:gerhard-schroeder-feiert-mit-wladimir-putin-kreml-bestaetigt_20261008",
-      "slug": "gerhard-schroeder-feiert-mit-wladimir-putin-kreml-bestaetigt_20261008",
-      "title": "Gerhard Schröder feiert mit Wladimir Putin – Kreml bestätigt Einladung",
-      "summary": "Der ehemalige deutsche Bundeskanzler Gerhard Schröder hat nach Angaben des Kremls an der Geburtstagsfeier von Wladimir Putin in Moskau teilgenommen. Putin wurde am Mittwoch 74 Jahre alt. Der Kreml teilte mit, dass der russische Präsident erst am Mittwochmor...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Germany",
-      "language": "de",
-      "language_label": "German",
-      "section": "nachrichten/artikel",
-      "section_name": "Deutschland Nachrichten",
-      "url_prefix": "nachrichten/artikel/2026/10",
-      "date": "08.10.2026",
-      "date_iso": "2026-10-08",
-      "url": "/nachrichten/artikel/2026/10/gerhard-schroeder-feiert-mit-wladimir-putin-kreml-bestaetigt_20261008/",
-      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/gerhard-schroeder-feiert-mit-wladimir-putin-kreml-bestaetigt_20261008/",
-      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/gerhard-schroeder-feiert-mit-wladimir-putin-kreml-bestaetigt_20261008.json",
-      "image_url": "https://cdn.prod.www.spiegel.de/images/f99cc04c-dd17-43ba-bf83-839e79185892_w520_r2.08_fpx43.98_fpy50.jpg",
-      "image_alt": "Gerhard Schröder und Wladimir Putin bei einer herzlichen Begegnung",
-      "image": {
-        "url": "https://cdn.prod.www.spiegel.de/images/f99cc04c-dd17-43ba-bf83-839e79185892_w520_r2.08_fpx43.98_fpy50.jpg",
-        "alt": "Gerhard Schröder und Wladimir Putin bei einer herzlichen Begegnung"
-      },
-      "source_name": "DER SPIEGEL - Schlagzeilen",
-      "source_url": "https://www.spiegel.de/ausland/gerhard-schroeder-altbundeskanzler-war-laut-kreml-bei-wladimir-putin-zum-geburstag-a-c12b2ebe-f253-4f3c-a2b4-313f96f8b5c8#ref=rss",
-      "tags": [
-        "Gerhard Schröder",
-        "Wladimir Putin",
-        "Russland",
-        "Moskau"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]
