@@ -1,7 +1,6 @@
 User-agent: *
 Allow: /
-Disallow: /data/
-Disallow: /*.json$
+Allow: /data/
 
 Sitemap: https://mansetradar.com.tr/sitemap.xml
 Sitemap: https://mansetradar.com.tr/news-sitemap.xml
