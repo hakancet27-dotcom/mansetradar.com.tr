@@ -45,14 +45,6 @@
   "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/uss-abraham-lincoln-returns-san-diego-10-month-deployment_20261008.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "clear",
-  "image_license_note": "Unsplash API photo",
-  "image_source_url": "https://unsplash.com/photos/abraham-lincoln-statue-8recjlHwCWA",
-  "image_provider": "unsplash",
-  "image_score": 78,
-  "image_query": "abraham lincoln",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "The USS Abraham Lincoln aircraft carrier has returned to its homeport in San Diego, concluding a historic 10-month deployment. The homecoming, reported on October 8, 2026, marks the end of an extended mission at sea for the formidable warship and its crew.",
   "language": "English",
   "url_prefix": "news/articles/2026/10",
@@ -74,10 +66,7 @@
   ],
   "quality_word_count": 385,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.unsplash.com/photo-1576802466762-dc57e4cedcf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHw0fHxhYnJhaGFtJTIwbGluY29sbnxlbnwxfDB8fHwxNzkxNDg5NDcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "original_image_url": "https://images.unsplash.com/photo-1576802466762-dc57e4cedcf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHw0fHxhYnJhaGFtJTIwbGluY29sbnxlbnwxfDB8fHwxNzkxNDg5NDcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "image_local_webp": "news/articles/2026/10/images/uss-abraham-lincoln-returns-san-diego-10-month-deployment_20261008.webp",
-  "image_credit": "unsplash.com",
-  "image_credit_url": "https://unsplash.com/photos/abraham-lincoln-statue-8recjlHwCWA",
-  "image_finalized_at": "2026-10-08T19:58:26.910662Z"
+  "time": "19:25",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }
