@@ -312,7 +312,7 @@ function extractFormFromHtml(html) {
 
 function plausiblePoints(won, draw, points) {
   const expected = won * 3 + draw;
-  return points > 0 && points <= expected && points >= Math.max(1, expected - 12);
+  return points >= 0 && points <= expected && points >= Math.max(0, expected - 15);
 }
 
 function buildRowFromNumbers(position, team, numbers, logo, form) {
@@ -395,10 +395,10 @@ function tableToStandingsRows(rawRows) {
     const points = parseNumber(cellText(cells, pointsIndex >= 0 ? pointsIndex : cells.length - 1));
     const goalDifference = parseNumber(cellText(cells, gdIndex >= 0 ? gdIndex : Math.max(cells.length - 2, 6))) || goalsFor - goalsAgainst;
     const headerMapped = enrichRow({ position, team, played, won, draw, lost, goalsFor, goalsAgainst, points, goalDifference, logo, form });
-    if (played > 0 && won >= 0 && draw >= 0 && lost >= 0 && won + draw + lost === played && plausiblePoints(won, draw, points)) return headerMapped;
+    if (played >= 0 && won >= 0 && draw >= 0 && lost >= 0 && won + draw + lost === played && plausiblePoints(won, draw, points)) return headerMapped;
     const numbers = cells.slice(safeTeamIndex + 1).map((cell) => parseNumber(cell.text)).filter((value) => Number.isFinite(value));
     return buildRowFromNumbers(position, team, numbers, logo, form);
-  }).filter((row) => row.team && row.played > 0 && row.points > 0 && row.won >= 0 && row.draw >= 0 && row.lost >= 0 && row.won + row.draw + row.lost === row.played && plausiblePoints(row.won, row.draw, row.points));
+  }).filter((row) => row.team && row.played >= 0 && row.points >= 0 && row.won >= 0 && row.draw >= 0 && row.lost >= 0 && row.won + row.draw + row.lost === row.played && plausiblePoints(row.won, row.draw, row.points));
 }
 
 function validateCurrentStandings(table, league) {
@@ -408,7 +408,7 @@ function validateCurrentStandings(table, league) {
   const hasKnownTeam = knownTeams.some((team) => teams.includes(normalizeText(team)));
   const rowsArePlausible = table.every((row) => {
     const resultTotal = row.won + row.draw + row.lost;
-    return row.played > 0 && row.points > 0 && Math.abs(resultTotal - row.played) <= 1 && plausiblePoints(row.won, row.draw, row.points);
+    return row.played >= 0 && row.points >= 0 && Math.abs(resultTotal - row.played) <= 1 && plausiblePoints(row.won, row.draw, row.points);
   });
   return hasKnownTeam && rowsArePlausible;
 }
