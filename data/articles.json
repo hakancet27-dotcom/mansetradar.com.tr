@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-09T00:00:00+00:00",
-    "article_count": 2191,
+    "article_count": 2193,
     "schema_version": 2
   },
   "articles": [
@@ -155,6 +155,45 @@
         "Bundestag"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:nobel-peace-prize-navi-pillay-2026_20261009",
+      "slug": "nobel-peace-prize-navi-pillay-2026_20261009",
+      "title": "Nobel Peace Prize Awarded to Former ICC Judge Navanethem \"Navi\" Pillay",
+      "summary": "Former International Criminal Court judge and UN human rights chief Navanethem \"Navi\" Pillay was awarded the Nobel Peace Prize on Friday, October 9, 2026, recognized for her efforts to promote peace and international law. The award comes amidst significant...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "09.10.2026",
+      "date_iso": "2026-10-09",
+      "url": "/news/articles/2026/10/nobel-peace-prize-navi-pillay-2026_20261009/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/nobel-peace-prize-navi-pillay-2026_20261009/",
+      "detail_json_url": "/data/details/news/articles/2026/10/nobel-peace-prize-navi-pillay-2026_20261009.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/nobel-peace-prize-navi-pillay-2026_20261009.webp",
+      "image_alt": "Navanethem \"Navi\" Pillay, recipient of the 2026 Nobel Peace Prize.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/nobel-peace-prize-navi-pillay-2026_20261009.webp",
+        "alt": "Navanethem \"Navi\" Pillay, recipient of the 2026 Nobel Peace Prize."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/nobel-peace-prize-2026-navanethem-navi-pillay-south-africa/",
+      "tags": [
+        "Nobel Peace Prize",
+        "Navi Pillay",
+        "International Law",
+        "United Nations",
+        "ICC",
+        "Israel-Gaza Conflict"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -432,6 +471,43 @@
         "fintek",
         "PwC",
         "tahsilat süreleri"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:hurricane-isaias-category-3-gulf-coast-threat_20261009",
+      "slug": "hurricane-isaias-category-3-gulf-coast-threat_20261009",
+      "title": "Hurricane Isaias Strengthens to Category 3, Threatens Northern Gulf Coast",
+      "summary": "Hurricane Isaias, the first storm of the 2026 Atlantic season, has intensified into a dangerous Category 3 major hurricane with 120 mph winds, threatening the northern Gulf Coast. Landfall is expected tonight or early Saturday, bringing hurricane warnings,...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "09.10.2026",
+      "date_iso": "2026-10-09",
+      "url": "/news/articles/2026/10/hurricane-isaias-category-3-gulf-coast-threat_20261009/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/hurricane-isaias-category-3-gulf-coast-threat_20261009/",
+      "detail_json_url": "/data/details/news/articles/2026/10/hurricane-isaias-category-3-gulf-coast-threat_20261009.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/hurricane-isaias-category-3-gulf-coast-threat_20261009.webp",
+      "image_alt": "Satellite view of Hurricane Isaias, a Category 3 storm, nearing the northern Gulf Coast with heavy clouds and strong winds.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/hurricane-isaias-category-3-gulf-coast-threat_20261009.webp",
+        "alt": "Satellite view of Hurricane Isaias, a Category 3 storm, nearing the northern Gulf Coast with heavy clouds and strong winds."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/hurricane-isaias-first-storm-2026-atlantic-season-record/",
+      "tags": [
+        "Hurricane Isaias",
+        "Gulf Coast",
+        "Category 3",
+        "Weather Warning"
       ],
       "quality_score": 100,
       "review_status": "published"
