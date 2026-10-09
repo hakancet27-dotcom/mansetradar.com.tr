@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-09T00:00:00+00:00",
-    "article_count": 2198,
+    "article_count": 2203,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -43,6 +43,45 @@
         "Yolsuzluk",
         "Pavyon Soruşturması",
         "Kamu Görevlileri"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:segway-zt3-pro-f3-pro-elektrikli-scooter-sehir-ulasim_20261009",
+      "slug": "segway-zt3-pro-f3-pro-elektrikli-scooter-sehir-ulasim_20261009",
+      "title": "Segway ZT3 Pro ve F3 Pro ile Şehirde Yeni Ulaşım Çağı",
+      "summary": "Segway, şehir içi ulaşımı dönüştürmek amacıyla yeni elektrikli scooter modelleri ZT3 Pro ve F3 Pro'yu piyasaya sürdü. Trafik, park yeri arayışı ve artan akaryakıt maliyetlerine pratik, ekonomik ve keyifli bir alternatif sunan bu modeller, güçlü motorları, u...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "09.10.2026",
+      "date_iso": "2026-10-09",
+      "url": "/articles/2026/10/segway-zt3-pro-f3-pro-elektrikli-scooter-sehir-ulasim_20261009/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/segway-zt3-pro-f3-pro-elektrikli-scooter-sehir-ulasim_20261009/",
+      "detail_json_url": "/data/details/articles/2026/10/segway-zt3-pro-f3-pro-elektrikli-scooter-sehir-ulasim_20261009.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/segway-zt3-pro-f3-pro-elektrikli-scooter-sehir-ulasim_20261009.webp",
+      "image_alt": "Segway ZT3 Pro ve F3 Pro ile Şehirde Yeni Ulaşım Çağı",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/segway-zt3-pro-f3-pro-elektrikli-scooter-sehir-ulasim_20261009.webp",
+        "alt": "Segway ZT3 Pro ve F3 Pro ile Şehirde Yeni Ulaşım Çağı"
+      },
+      "source_name": "LOG Teknoloji Haberleri",
+      "source_url": "https://www.log.com.tr/segway-zt3-pro-ve-f3-pro-ile-sehirde-yol-artik-sizin/",
+      "tags": [
+        "Segway",
+        "Elektrikli Scooter",
+        "Şehir İçi Ulaşım",
+        "ZT3 Pro",
+        "F3 Pro",
+        "Mikro Mobilite"
       ],
       "quality_score": 100,
       "review_status": "published"
@@ -161,6 +200,47 @@
         "uyuşturucu ticareti",
         "mağdur",
         "tanık"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009",
+      "slug": "maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009",
+      "title": "Maltepe'deki Bina Faciasında Mimar ve Şantiye Şefi Tutuklandı",
+      "summary": "İstanbul Maltepe'de 5 kişinin yaşamını yitirdiği 7 katlı binanın çökmesine ilişkin başlatılan soruşturma kapsamında gözaltına alınan mimar H.B. ile şantiye şefi M.O., çıkarıldıkları mahkemece tutuklanarak cezaevine gönderildi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "09.10.2026",
+      "date_iso": "2026-10-09",
+      "url": "/articles/2026/10/maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009/",
+      "detail_json_url": "/data/details/articles/2026/10/maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009.webp",
+      "image_alt": "Maltepe'de çöken binanın ardından başlatılan adli soruşturmada mimar ve şantiye şefi tutuklandı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi_20261009.webp",
+        "alt": "Maltepe'de çöken binanın ardından başlatılan adli soruşturmada mimar ve şantiye şefi tutuklandı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/maltepedeki-bina-faciasinda-mimar-ve-santiye-sefi-tutuklandi-43335914",
+      "tags": [
+        "Maltepe",
+        "bina çökmesi",
+        "facia",
+        "tutuklama",
+        "soruşturma",
+        "Cevizli Mahallesi",
+        "Maltepe haberleri",
+        "İstanbul"
       ],
       "quality_score": 86,
       "review_status": "published"
