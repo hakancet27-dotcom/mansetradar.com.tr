@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-09T19:32:11.551Z",
+  "updatedAt": "2026-10-09T21:58:42.826Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-10-09T19:32:11.551Z",
+      "updatedAt": "2026-10-09T21:58:42.826Z",
       "source": "Maçkolik arşiv 1/73482",
       "table": [
         {
@@ -269,7 +269,7 @@
     {
       "id": "premier-league",
       "name": "Premier League",
-      "updatedAt": "2026-10-09T18:56:45.156Z",
+      "updatedAt": "2026-10-09T21:58:42.826Z",
       "source": "Maçkolik arşiv 24/73340",
       "table": [
         {
@@ -555,13 +555,12 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 504 | HTML scrape: https://www.mackolik.com/puan-durumu/ingiltere-premier-lig/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | https://www.mackolik.com/puan-durumu/ingiltere-premier-league/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
-      "preservedPreviousTable": true
+      "status": ""
     },
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-10-09T19:32:11.551Z",
+      "updatedAt": "2026-10-09T21:58:42.826Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
@@ -706,6 +705,20 @@
         },
         {
           "position": 11,
+          "team": "Espanyol",
+          "played": 8,
+          "won": 2,
+          "draw": 2,
+          "lost": 4,
+          "goalsFor": 11,
+          "goalsAgainst": 11,
+          "points": 8,
+          "goalDifference": 0,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/95.gif",
+          "form": []
+        },
+        {
+          "position": 12,
           "team": "Getafe",
           "played": 7,
           "won": 2,
@@ -719,7 +732,7 @@
           "form": []
         },
         {
-          "position": 12,
+          "position": 13,
           "team": "Rayo Vallecano",
           "played": 7,
           "won": 2,
@@ -733,7 +746,7 @@
           "form": []
         },
         {
-          "position": 13,
+          "position": 14,
           "team": "Osasuna",
           "played": 7,
           "won": 2,
@@ -747,7 +760,7 @@
           "form": []
         },
         {
-          "position": 14,
+          "position": 15,
           "team": "Celta Vigo",
           "played": 7,
           "won": 1,
@@ -758,20 +771,6 @@
           "points": 7,
           "goalDifference": 2,
           "logo": "https://im.mackolik.com/img/logo/kucuk/76.gif",
-          "form": []
-        },
-        {
-          "position": 15,
-          "team": "Espanyol",
-          "played": 7,
-          "won": 2,
-          "draw": 1,
-          "lost": 4,
-          "goalsFor": 10,
-          "goalsAgainst": 10,
-          "points": 7,
-          "goalDifference": 0,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/95.gif",
           "form": []
         },
         {
@@ -833,13 +832,13 @@
         {
           "position": 20,
           "team": "Malaga",
-          "played": 7,
+          "played": 8,
           "won": 0,
-          "draw": 3,
+          "draw": 4,
           "lost": 4,
-          "goalsFor": 3,
-          "goalsAgainst": 12,
-          "points": 3,
+          "goalsFor": 4,
+          "goalsAgainst": 13,
+          "points": 4,
           "goalDifference": -9,
           "logo": "https://im.mackolik.com/img/logo/kucuk/78.gif",
           "form": []
@@ -852,19 +851,19 @@
     {
       "id": "bundesliga",
       "name": "Bundesliga",
-      "updatedAt": "2026-10-09T19:32:11.551Z",
+      "updatedAt": "2026-10-09T21:58:42.826Z",
       "source": "Maçkolik arşiv 3/73455",
       "table": [
         {
           "position": 1,
           "team": "Borussia Dortmund",
-          "played": 4,
+          "played": 5,
           "won": 4,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "goalsFor": 9,
-          "goalsAgainst": 2,
-          "points": 12,
+          "goalsFor": 11,
+          "goalsAgainst": 4,
+          "points": 13,
           "goalDifference": 7,
           "logo": "https://im.mackolik.com/img/logo/kucuk/120.gif",
           "form": []
@@ -899,6 +898,20 @@
         },
         {
           "position": 4,
+          "team": "Werder Bremen",
+          "played": 5,
+          "won": 2,
+          "draw": 2,
+          "lost": 1,
+          "goalsFor": 10,
+          "goalsAgainst": 10,
+          "points": 8,
+          "goalDifference": 0,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/121.gif",
+          "form": []
+        },
+        {
+          "position": 5,
           "team": "Augsburg",
           "played": 4,
           "won": 2,
@@ -912,7 +925,7 @@
           "form": []
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "Bayer Leverkusen",
           "played": 4,
           "won": 2,
@@ -926,7 +939,7 @@
           "form": []
         },
         {
-          "position": 6,
+          "position": 7,
           "team": "Mainz 05",
           "played": 4,
           "won": 2,
@@ -940,7 +953,7 @@
           "form": []
         },
         {
-          "position": 7,
+          "position": 8,
           "team": "Elversberg",
           "played": 4,
           "won": 2,
@@ -951,20 +964,6 @@
           "points": 7,
           "goalDifference": 1,
           "logo": "https://im.mackolik.com/img/logo/kucuk/915.gif",
-          "form": []
-        },
-        {
-          "position": 8,
-          "team": "Werder Bremen",
-          "played": 4,
-          "won": 2,
-          "draw": 1,
-          "lost": 1,
-          "goalsFor": 8,
-          "goalsAgainst": 8,
-          "points": 7,
-          "goalDifference": 0,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/121.gif",
           "form": []
         },
         {
@@ -1115,7 +1114,7 @@
     {
       "id": "serie-a",
       "name": "Serie A",
-      "updatedAt": "2026-10-09T18:56:45.156Z",
+      "updatedAt": "2026-10-09T21:58:42.826Z",
       "source": "Maçkolik arşiv 15/73249",
       "table": [
         {
@@ -1401,13 +1400,12 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 504 | HTML scrape: https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao: no valid standings table | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
-      "preservedPreviousTable": true
+      "status": ""
     },
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-10-09T19:32:11.551Z",
+      "updatedAt": "2026-10-09T21:58:42.826Z",
       "source": "Maçkolik arşiv 5/73279",
       "table": [
         {
