@@ -671,12 +671,18 @@
       color: white;
       text-decoration: none;
       opacity: 0;
-      pointer-events: none;
+      pointer-events: none !important;
+      z-index: 1 !important;
       transition: opacity 0.35s ease;
     }
     .headline-slide.is-active {
-      opacity: 1;
-      pointer-events: auto;
+      opacity: 1 !important;
+      pointer-events: auto !important;
+      z-index: 6 !important;
+      cursor: pointer !important;
+    }
+    .headline-slide.is-active * {
+      cursor: pointer;
     }
     .headline-card {
       position: relative;
@@ -756,6 +762,7 @@
       inset: 0;
       background: linear-gradient(to top, rgba(0,0,0,0.86), rgba(0,0,0,0.35) 48%, rgba(0,0,0,0.06));
       z-index: 1;
+      pointer-events: none !important;
     }
     .headline-content {
       position: absolute;
@@ -807,7 +814,7 @@
       position: absolute;
       right: 18px;
       bottom: 18px;
-      z-index: 4;
+      z-index: 8;
       display: flex;
       gap: 8px;
     }
@@ -815,7 +822,7 @@
       position: absolute;
       left: 50%;
       bottom: 16px;
-      z-index: 5;
+      z-index: 9;
       transform: translateX(-50%);
       display: flex;
       align-items: center;
@@ -4992,7 +4999,20 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
       }
       if (controls) controls.hidden = slides.length <= 1;
 
-      allSlides.forEach(slide => slide.classList.remove('is-active'));
+      allSlides.forEach(slide => {
+        slide.classList.remove('is-active');
+        slide.addEventListener('click', function(e) {
+          if (!this.classList.contains('is-active')) {
+            e.preventDefault();
+            return;
+          }
+          if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
+          const href = this.getAttribute('href');
+          if (href && !e.defaultPrevented) {
+            window.location.href = href;
+          }
+        });
+      });
       const preferred = slides.findIndex(slide => slide.querySelector('.headline-image img'));
       let current = preferred >= 0 ? preferred : 0;
       let autoPausedUntil = 0;
