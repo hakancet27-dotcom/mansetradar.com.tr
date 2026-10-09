@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-09T00:00:00+00:00",
-    "article_count": 2211,
+    "article_count": 2216,
     "schema_version": 2
   },
   "articles": [
@@ -197,6 +197,84 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/10:surfer-ueberlebt-nacht-nordsee-borkum_20261009",
+      "slug": "surfer-ueberlebt-nacht-nordsee-borkum_20261009",
+      "title": "Surfer überlebt Nacht auf stürmischer Nordsee vor Borkum",
+      "summary": "Ein 69-jähriger Surfer hat eine Nacht auf der stürmischen Nordsee vor Borkum überlebt. Nach stundenlanger Suche, die aufgrund von Windstärke 6 und nächtlicher Dunkelheit erschwert wurde, wurde er am Freitagmorgen wohlbehalten bei Angehörigen aufgefunden. Di...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "09.10.2026",
+      "date_iso": "2026-10-09",
+      "url": "/nachrichten/artikel/2026/10/surfer-ueberlebt-nacht-nordsee-borkum_20261009/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/surfer-ueberlebt-nacht-nordsee-borkum_20261009/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/surfer-ueberlebt-nacht-nordsee-borkum_20261009.json",
+      "image_url": "https://cdn.prod.www.spiegel.de/images/7d19db7a-6f95-4cc1-a1cf-120b49af4c91_w520_r2.08_fpx51.31_fpy54.99.jpg",
+      "image_alt": "Surfer überlebt Nacht auf stürmischer Nordsee vor Borkum",
+      "image": {
+        "url": "https://cdn.prod.www.spiegel.de/images/7d19db7a-6f95-4cc1-a1cf-120b49af4c91_w520_r2.08_fpx51.31_fpy54.99.jpg",
+        "alt": "Surfer überlebt Nacht auf stürmischer Nordsee vor Borkum"
+      },
+      "source_name": "DER SPIEGEL - Schlagzeilen",
+      "source_url": "https://www.spiegel.de/panorama/borkum-surfer-ueberlebt-nacht-auf-stuermischer-nordsee-mit-seinem-surfbrett-a-6b8b077d-e760-4524-97dd-0cc845c1c7f1#ref=rss",
+      "tags": [
+        "Borkum",
+        "Nordsee",
+        "Surfen",
+        "Seenotrettung",
+        "Unfall"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:streit-bundestag-afd-landtagsprasident-wahl_20261009",
+      "slug": "streit-bundestag-afd-landtagsprasident-wahl_20261009",
+      "title": "Streit im Bundestag: Debatte über Wahl eines AfD-Politikers zum Landtagspräsidenten",
+      "summary": "Im Bundestag ist eine hitzige Debatte über die Wahl des AfD-Politikers Tobias Rausch zum Landtagspräsidenten in Sachsen-Anhalt entbrannt. Die Linksfraktion hatte eine Aktuelle Stunde beantragt, die von gegenseitigen Vorwürfen und Zwischenrufen geprägt war....",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "09.10.2026",
+      "date_iso": "2026-10-09",
+      "url": "/nachrichten/artikel/2026/10/streit-bundestag-afd-landtagsprasident-wahl_20261009/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/streit-bundestag-afd-landtagsprasident-wahl_20261009/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/streit-bundestag-afd-landtagsprasident-wahl_20261009.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/streit-bundestag-afd-landtagsprasident-wahl_20261009.webp",
+      "image_alt": "Bundestag Plenarsaal während einer hitzigen Debatte über die Wahl eines AfD-Politikers zum Landtagspräsidenten.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/streit-bundestag-afd-landtagsprasident-wahl_20261009.webp",
+        "alt": "Bundestag Plenarsaal während einer hitzigen Debatte über die Wahl eines AfD-Politikers zum Landtagspräsidenten."
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/inland/innenpolitik/aktuelle-stunde-rechtsextremisten-100.html",
+      "tags": [
+        "Bundestag",
+        "AfD",
+        "Sachsen-Anhalt",
+        "CDU",
+        "Linke",
+        "Landtagspräsident",
+        "Politik"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:segway-zt3-pro-f3-pro-elektrikli-scooter-sehir-ulasim_20261009",
       "slug": "segway-zt3-pro-f3-pro-elektrikli-scooter-sehir-ulasim_20261009",
       "title": "Segway ZT3 Pro ve F3 Pro ile Şehirde Yeni Ulaşım Çağı",
@@ -231,6 +309,44 @@
         "ZT3 Pro",
         "F3 Pro",
         "Mikro Mobilite"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:schuelerinnen-fordern-verbot-von-schuluniformen-in-pornos_20261009",
+      "slug": "schuelerinnen-fordern-verbot-von-schuluniformen-in-pornos_20261009",
+      "title": "Schülerinnen fordern Verbot von Schuluniformen in Pornos",
+      "summary": "Zwei 15-jährige Schülerinnen aus England haben eine Petition gestartet, die darauf abzielt, die Darstellung von Schuluniformen in pornografischen Videos zu verbieten. Sie begründen dies mit negativen Erfahrungen und der Verunsicherung, die durch die Kommerz...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "09.10.2026",
+      "date_iso": "2026-10-09",
+      "url": "/nachrichten/artikel/2026/10/schuelerinnen-fordern-verbot-von-schuluniformen-in-pornos_20261009/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/schuelerinnen-fordern-verbot-von-schuluniformen-in-pornos_20261009/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/schuelerinnen-fordern-verbot-von-schuluniformen-in-pornos_20261009.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/schuelerinnen-fordern-verbot-von-schuluniformen-in-pornos_20261009.webp",
+      "image_alt": "Schülerinnen demonstrieren für ein Verbot von Schuluniformen in Pornos.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/schuelerinnen-fordern-verbot-von-schuluniformen-in-pornos_20261009.webp",
+        "alt": "Schülerinnen demonstrieren für ein Verbot von Schuluniformen in Pornos."
+      },
+      "source_name": "Deutsche Welle: DW.com Deutsch",
+      "source_url": "https://www.dw.com/de/schülerinnen-fordern-verbot-von-schuluniformen-in-pornos/a-79493286?maca=de-rss-de-all-1119-rdf",
+      "tags": [
+        "Schuluniform",
+        "Pornografie",
+        "Sexuelle Belästigung",
+        "Jugendschutz",
+        "Petition"
       ],
       "quality_score": 100,
       "review_status": "published"
@@ -466,6 +582,44 @@
         "İnsan Hakları"
       ],
       "quality_score": 95,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:navanethem-pillay-friedensnobelpreis_20261009",
+      "slug": "navanethem-pillay-friedensnobelpreis_20261009",
+      "title": "Navanethem Pillay mit Friedensnobelpreis ausgezeichnet",
+      "summary": "Die Juristin Navanethem Pillay ist für ihren unermüdlichen Einsatz gegen Gewalt und Unrecht mit dem Friedensnobelpreis ausgezeichnet worden. Die Nachricht erreichte sie während einer Fachtagung in Nürnberg. Pillay, die während der Apartheid in Südafrika auf...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "09.10.2026",
+      "date_iso": "2026-10-09",
+      "url": "/nachrichten/artikel/2026/10/navanethem-pillay-friedensnobelpreis_20261009/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/navanethem-pillay-friedensnobelpreis_20261009/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/navanethem-pillay-friedensnobelpreis_20261009.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/navanethem-pillay-friedensnobelpreis_20261009.webp",
+      "image_alt": "Porträt von Navanethem Pillay, Friedensnobelpreisträgerin",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/navanethem-pillay-friedensnobelpreis_20261009.webp",
+        "alt": "Porträt von Navanethem Pillay, Friedensnobelpreisträgerin"
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/ausland/afrika/nobelpreis-pillay-portrait-100.html",
+      "tags": [
+        "Navanethem Pillay",
+        "Friedensnobelpreis",
+        "Menschenrechte",
+        "Apartheid",
+        "Völkerstrafrecht"
+      ],
+      "quality_score": 81,
       "review_status": "published"
     },
     {
@@ -1407,6 +1561,44 @@
         "Uluslararası Ceza Mahkemesi",
         "İnsan Hakları",
         "Donald Trump"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:2-bundesliga-7-spieltag-heidenheim-kaiserslautern-braunschweig-kiel_20261009",
+      "slug": "2-bundesliga-7-spieltag-heidenheim-kaiserslautern-braunschweig-kiel_20261009",
+      "title": "Torarmer Auftakt in der 2. Bundesliga: Heidenheim und Kaiserslautern teilen Punkte,...",
+      "summary": "Nach der Länderspielpause ist der 7. Spieltag der 2. Fußball-Bundesliga mit magerer Torausbeute gestartet: Im Verfolgerduell trennten sich der 1. FC Heidenheim und der 1. FC Kaiserslautern torlos mit 0:0, während Eintracht Braunschweig einen knappen 1:0-Erf...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "09.10.2026",
+      "date_iso": "2026-10-09",
+      "url": "/nachrichten/artikel/2026/10/2-bundesliga-7-spieltag-heidenheim-kaiserslautern-braunschweig-kiel_20261009/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/2-bundesliga-7-spieltag-heidenheim-kaiserslautern-braunschweig-kiel_20261009/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/2-bundesliga-7-spieltag-heidenheim-kaiserslautern-braunschweig-kiel_20261009.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/2-bundesliga-7-spieltag-heidenheim-kaiserslautern-braunschweig-kiel_20261009.webp",
+      "image_alt": "Szene aus der 2. Fußball-Bundesliga während des Spieltags am Freitagabend.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/2-bundesliga-7-spieltag-heidenheim-kaiserslautern-braunschweig-kiel_20261009.webp",
+        "alt": "Szene aus der 2. Fußball-Bundesliga während des Spieltags am Freitagabend."
+      },
+      "source_name": "n-tv.de - Startseite",
+      "source_url": "https://www.n-tv.de/sport/fussball/Herbst-Blues-legt-die-2-Fussball-Bundeliga-schlafen-id31402304.html",
+      "tags": [
+        "2. Fußball-Bundesliga",
+        "1. FC Heidenheim",
+        "1. FC Kaiserslautern",
+        "Eintracht Braunschweig",
+        "Holstein Kiel"
       ],
       "quality_score": 100,
       "review_status": "published"
