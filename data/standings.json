@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-10T23:52:37.863Z",
+  "updatedAt": "2026-10-10T23:57:59.047Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-10-10T23:52:37.863Z",
+      "updatedAt": "2026-10-10T23:57:59.047Z",
       "source": "Maçkolik arşiv 1/73482",
       "table": [
         {
@@ -39,20 +39,6 @@
         },
         {
           "position": 3,
-          "team": "Fenerbahçe",
-          "played": 7,
-          "won": 4,
-          "draw": 1,
-          "lost": 2,
-          "goalsFor": 19,
-          "goalsAgainst": 6,
-          "points": 13,
-          "goalDifference": 13,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/2.gif",
-          "form": []
-        },
-        {
-          "position": 4,
           "team": "Trabzonspor",
           "played": 7,
           "won": 4,
@@ -66,7 +52,7 @@
           "form": []
         },
         {
-          "position": 5,
+          "position": 4,
           "team": "Beşiktaş",
           "played": 6,
           "won": 4,
@@ -80,7 +66,7 @@
           "form": []
         },
         {
-          "position": 6,
+          "position": 5,
           "team": "Kocaelispor",
           "played": 6,
           "won": 4,
@@ -94,7 +80,7 @@
           "form": []
         },
         {
-          "position": 7,
+          "position": 6,
           "team": "Alanyaspor",
           "played": 7,
           "won": 3,
@@ -108,7 +94,35 @@
           "form": []
         },
         {
+          "position": 7,
+          "team": "Fenerbahçe",
+          "played": 6,
+          "won": 3,
+          "draw": 1,
+          "lost": 2,
+          "goalsFor": 16,
+          "goalsAgainst": 6,
+          "points": 10,
+          "goalDifference": 10,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/2.gif",
+          "form": []
+        },
+        {
           "position": 8,
+          "team": "Çaykur Rizespor",
+          "played": 6,
+          "won": 3,
+          "draw": 1,
+          "lost": 2,
+          "goalsFor": 7,
+          "goalsAgainst": 6,
+          "points": 10,
+          "goalDifference": 1,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/448.gif",
+          "form": []
+        },
+        {
+          "position": 9,
           "team": "Kasımpaşa",
           "played": 7,
           "won": 2,
@@ -119,20 +133,6 @@
           "points": 10,
           "goalDifference": 0,
           "logo": "https://im.mackolik.com/img/logo/kucuk/656.gif",
-          "form": []
-        },
-        {
-          "position": 9,
-          "team": "Çaykur Rizespor",
-          "played": 7,
-          "won": 3,
-          "draw": 1,
-          "lost": 3,
-          "goalsFor": 7,
-          "goalsAgainst": 9,
-          "points": 10,
-          "goalDifference": -2,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/448.gif",
           "form": []
         },
         {
@@ -269,7 +269,7 @@
     {
       "id": "premier-league",
       "name": "Premier League",
-      "updatedAt": "2026-10-10T23:52:37.863Z",
+      "updatedAt": "2026-10-10T23:57:59.047Z",
       "source": "Maçkolik arşiv 24/73340",
       "table": [
         {
@@ -429,13 +429,13 @@
         {
           "position": 12,
           "team": "Manchester United",
-          "played": 6,
+          "played": 5,
           "won": 1,
-          "draw": 3,
+          "draw": 2,
           "lost": 2,
-          "goalsFor": 9,
-          "goalsAgainst": 9,
-          "points": 6,
+          "goalsFor": 8,
+          "goalsAgainst": 8,
+          "points": 5,
           "goalDifference": 0,
           "logo": "https://im.mackolik.com/img/logo/kucuk/32.gif",
           "form": []
@@ -512,20 +512,6 @@
         },
         {
           "position": 18,
-          "team": "Tottenham",
-          "played": 6,
-          "won": 0,
-          "draw": 3,
-          "lost": 3,
-          "goalsFor": 3,
-          "goalsAgainst": 9,
-          "points": 3,
-          "goalDifference": -6,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/37.gif",
-          "form": []
-        },
-        {
-          "position": 19,
           "team": "Coventry",
           "played": 5,
           "won": 1,
@@ -539,7 +525,7 @@
           "form": []
         },
         {
-          "position": 20,
+          "position": 19,
           "team": "Fulham",
           "played": 6,
           "won": 0,
@@ -551,6 +537,20 @@
           "goalDifference": -4,
           "logo": "https://im.mackolik.com/img/logo/kucuk/28.gif",
           "form": []
+        },
+        {
+          "position": 20,
+          "team": "Tottenham",
+          "played": 5,
+          "won": 0,
+          "draw": 2,
+          "lost": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 8,
+          "points": 2,
+          "goalDifference": -6,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/37.gif",
+          "form": []
         }
       ],
       "fixtures": [],
@@ -560,7 +560,7 @@
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-10-10T23:52:37.863Z",
+      "updatedAt": "2026-10-10T23:57:59.047Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
@@ -851,7 +851,7 @@
     {
       "id": "bundesliga",
       "name": "Bundesliga",
-      "updatedAt": "2026-10-10T23:52:37.863Z",
+      "updatedAt": "2026-10-10T23:57:59.047Z",
       "source": "Maçkolik arşiv 3/73455",
       "table": [
         {
@@ -1114,7 +1114,7 @@
     {
       "id": "serie-a",
       "name": "Serie A",
-      "updatedAt": "2026-10-10T23:52:37.863Z",
+      "updatedAt": "2026-10-10T23:57:59.047Z",
       "source": "Maçkolik arşiv 15/73249",
       "table": [
         {
@@ -1189,6 +1189,20 @@
         },
         {
           "position": 6,
+          "team": "Frosinone",
+          "played": 5,
+          "won": 3,
+          "draw": 1,
+          "lost": 1,
+          "goalsFor": 9,
+          "goalsAgainst": 4,
+          "points": 10,
+          "goalDifference": 5,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/1671.gif",
+          "form": []
+        },
+        {
+          "position": 7,
           "team": "Juventus",
           "played": 5,
           "won": 3,
@@ -1202,7 +1216,7 @@
           "form": []
         },
         {
-          "position": 7,
+          "position": 8,
           "team": "Como",
           "played": 5,
           "won": 3,
@@ -1216,31 +1230,17 @@
           "form": []
         },
         {
-          "position": 8,
-          "team": "Napoli",
-          "played": 6,
-          "won": 3,
-          "draw": 1,
-          "lost": 2,
-          "goalsFor": 10,
-          "goalsAgainst": 6,
-          "points": 10,
-          "goalDifference": 4,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/182.gif",
-          "form": []
-        },
-        {
           "position": 9,
-          "team": "Frosinone",
-          "played": 6,
-          "won": 3,
+          "team": "Napoli",
+          "played": 5,
+          "won": 2,
           "draw": 1,
           "lost": 2,
-          "goalsFor": 9,
-          "goalsAgainst": 7,
-          "points": 10,
-          "goalDifference": 2,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/1671.gif",
+          "goalsFor": 7,
+          "goalsAgainst": 6,
+          "points": 7,
+          "goalDifference": 1,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/182.gif",
           "form": []
         },
         {
@@ -1405,25 +1405,11 @@
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-10-10T20:21:45.996Z",
+      "updatedAt": "2026-10-10T23:57:59.047Z",
       "source": "Maçkolik arşiv 5/73279",
       "table": [
         {
           "position": 1,
-          "team": "Lille",
-          "played": 6,
-          "won": 4,
-          "draw": 1,
-          "lost": 1,
-          "goalsFor": 9,
-          "goalsAgainst": 4,
-          "points": 13,
-          "goalDifference": 5,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/203.gif",
-          "form": []
-        },
-        {
-          "position": 2,
           "team": "Monaco",
           "played": 5,
           "won": 4,
@@ -1437,7 +1423,7 @@
           "form": []
         },
         {
-          "position": 3,
+          "position": 2,
           "team": "Lyon",
           "played": 6,
           "won": 3,
@@ -1451,7 +1437,7 @@
           "form": []
         },
         {
-          "position": 4,
+          "position": 3,
           "team": "Paris FC",
           "played": 5,
           "won": 3,
@@ -1462,6 +1448,20 @@
           "points": 11,
           "goalDifference": 5,
           "logo": "https://im.mackolik.com/img/logo/kucuk/1920.gif",
+          "form": []
+        },
+        {
+          "position": 4,
+          "team": "Lille",
+          "played": 5,
+          "won": 3,
+          "draw": 1,
+          "lost": 1,
+          "goalsFor": 8,
+          "goalsAgainst": 4,
+          "points": 10,
+          "goalDifference": 4,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/203.gif",
           "form": []
         },
         {
@@ -1649,22 +1649,21 @@
         {
           "position": 18,
           "team": "Le Havre",
-          "played": 6,
+          "played": 5,
           "won": 0,
           "draw": 2,
-          "lost": 4,
+          "lost": 3,
           "goalsFor": 4,
-          "goalsAgainst": 8,
+          "goalsAgainst": 7,
           "points": 2,
-          "goalDifference": -4,
+          "goalDifference": -3,
           "logo": "https://im.mackolik.com/img/logo/kucuk/209.gif",
           "form": []
         }
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 502 | HTML scrape: https://www.mackolik.com/puan-durumu/fransa-ligue-1/dm5ka0os1e3dxcp3vh05kmp33: no valid standings table | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
-      "preservedPreviousTable": true
+      "status": ""
     }
   ],
   "competition": "Süper Lig",
@@ -1699,20 +1698,6 @@
     },
     {
       "position": 3,
-      "team": "Fenerbahçe",
-      "played": 7,
-      "won": 4,
-      "draw": 1,
-      "lost": 2,
-      "goalsFor": 19,
-      "goalsAgainst": 6,
-      "points": 13,
-      "goalDifference": 13,
-      "logo": "https://im.mackolik.com/img/logo/kucuk/2.gif",
-      "form": []
-    },
-    {
-      "position": 4,
       "team": "Trabzonspor",
       "played": 7,
       "won": 4,
@@ -1726,7 +1711,7 @@
       "form": []
     },
     {
-      "position": 5,
+      "position": 4,
       "team": "Beşiktaş",
       "played": 6,
       "won": 4,
@@ -1740,7 +1725,7 @@
       "form": []
     },
     {
-      "position": 6,
+      "position": 5,
       "team": "Kocaelispor",
       "played": 6,
       "won": 4,
@@ -1754,7 +1739,7 @@
       "form": []
     },
     {
-      "position": 7,
+      "position": 6,
       "team": "Alanyaspor",
       "played": 7,
       "won": 3,
@@ -1768,7 +1753,35 @@
       "form": []
     },
     {
+      "position": 7,
+      "team": "Fenerbahçe",
+      "played": 6,
+      "won": 3,
+      "draw": 1,
+      "lost": 2,
+      "goalsFor": 16,
+      "goalsAgainst": 6,
+      "points": 10,
+      "goalDifference": 10,
+      "logo": "https://im.mackolik.com/img/logo/kucuk/2.gif",
+      "form": []
+    },
+    {
       "position": 8,
+      "team": "Çaykur Rizespor",
+      "played": 6,
+      "won": 3,
+      "draw": 1,
+      "lost": 2,
+      "goalsFor": 7,
+      "goalsAgainst": 6,
+      "points": 10,
+      "goalDifference": 1,
+      "logo": "https://im.mackolik.com/img/logo/kucuk/448.gif",
+      "form": []
+    },
+    {
+      "position": 9,
       "team": "Kasımpaşa",
       "played": 7,
       "won": 2,
@@ -1779,20 +1792,6 @@
       "points": 10,
       "goalDifference": 0,
       "logo": "https://im.mackolik.com/img/logo/kucuk/656.gif",
-      "form": []
-    },
-    {
-      "position": 9,
-      "team": "Çaykur Rizespor",
-      "played": 7,
-      "won": 3,
-      "draw": 1,
-      "lost": 3,
-      "goalsFor": 7,
-      "goalsAgainst": 9,
-      "points": 10,
-      "goalDifference": -2,
-      "logo": "https://im.mackolik.com/img/logo/kucuk/448.gif",
       "form": []
     },
     {
