@@ -2,12 +2,51 @@
   "meta": {
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
-    "generated_at": "2026-10-09T00:00:00+00:00",
-    "article_count": 2220,
+    "generated_at": "2026-10-10T00:00:00+00:00",
+    "article_count": 2222,
     "schema_version": 2,
     "section": "news-articles"
   },
   "articles": [
+    {
+      "id": "news/articles/2026/10:pentagon-fort-hood-gunman-execution-livestreamed-20261010_20261010",
+      "slug": "pentagon-fort-hood-gunman-execution-livestreamed-20261010_20261010",
+      "title": "Pentagon Announces Livestreamed Execution of Fort Hood Gunman",
+      "summary": "The Pentagon announced on October 10, 2026, that the execution of the individual identified as the Fort Hood gunman will be livestreamed. This marks a significant and potentially unprecedented development in military justice proceedings.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "10.10.2026",
+      "date_iso": "2026-10-10",
+      "url": "/news/articles/2026/10/pentagon-fort-hood-gunman-execution-livestreamed-20261010_20261010/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/pentagon-fort-hood-gunman-execution-livestreamed-20261010_20261010/",
+      "detail_json_url": "/data/details/news/articles/2026/10/pentagon-fort-hood-gunman-execution-livestreamed-20261010_20261010.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/pentagon-fort-hood-gunman-execution-livestreamed-20261010_20261010.webp",
+      "image_alt": "Illustration of military justice with a livestream icon, representing the Pentagon's announcement of the Fort Hood gunman's...",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/pentagon-fort-hood-gunman-execution-livestreamed-20261010_20261010.webp",
+        "alt": "Illustration of military justice with a livestream icon, representing the Pentagon's announcement of the Fort Hood gunman's..."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/execution-fort-hood-gunman-livestreamed-pentagon/",
+      "tags": [
+        "Fort Hood gunman",
+        "Pentagon",
+        "Execution",
+        "Livestream",
+        "Military Justice",
+        "Capital Punishment"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "news/articles/2026/10:nobel-peace-prize-navi-pillay-2026_20261009",
       "slug": "nobel-peace-prize-navi-pillay-2026_20261009",
