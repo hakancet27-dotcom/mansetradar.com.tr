@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-10T00:00:00+00:00",
-    "article_count": 2247,
+    "article_count": 2251,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -47,6 +47,46 @@
         "Edirne"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:yahsihan-belediye-baskanvekili-aydin-demirdirek-gorevden-uzaklastirildi_20261010",
+      "slug": "yahsihan-belediye-baskanvekili-aydin-demirdirek-gorevden-uzaklastirildi_20261010",
+      "title": "Yahşihan Belediye Başkanvekili Aydın Demirdirek Görevden Uzaklaştırıldı",
+      "summary": "Kırıkkale'de Yahşihan Belediyesi'ne yönelik yürütülen yolsuzluk soruşturmasının ikinci dalgasında tutuklanan Yahşihan Belediye Başkanvekili Aydın Demirdirek, İçişleri Bakanlığı tarafından geçici tedbirle görevden uzaklaştırıldı. Demirdirek, 'Rüşvet, İhaleye...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "10.10.2026",
+      "date_iso": "2026-10-10",
+      "url": "/articles/2026/10/yahsihan-belediye-baskanvekili-aydin-demirdirek-gorevden-uzaklastirildi_20261010/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/yahsihan-belediye-baskanvekili-aydin-demirdirek-gorevden-uzaklastirildi_20261010/",
+      "detail_json_url": "/data/details/articles/2026/10/yahsihan-belediye-baskanvekili-aydin-demirdirek-gorevden-uzaklastirildi_20261010.json",
+      "image_url": "https://images.ntv.com.tr/images/yahşihanoperasyonu-818848.png",
+      "image_alt": "Yahşihan Belediyesi yolsuzluk soruşturması kapsamında adliye önünde polis ve araçlar.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/yahşihanoperasyonu-818848.png",
+        "alt": "Yahşihan Belediyesi yolsuzluk soruşturması kapsamında adliye önünde polis ve araçlar."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/yahsihan-belediyesi-sorusturmasi-baskanvekili-aydin-demirdirek-gorevden-uzaklastirildi-1745723",
+      "tags": [
+        "Son Dakika",
+        "Yahşihan Belediyesi",
+        "Yolsuzluk Soruşturması",
+        "Aydın Demirdirek",
+        "Görevden Uzaklaştırma",
+        "Rüşvet",
+        "İhaleye Fesat Karıştırma"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {
