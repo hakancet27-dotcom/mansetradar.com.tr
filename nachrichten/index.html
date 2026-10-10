@@ -32,11 +32,12 @@
     }
 
     body.dark-mode {
+      --dark: #f8fafc;
       --surface: #121826;
       --page: #0a0d14;
       --border: #1e293b;
       --text: #f1f5f9;
-      --muted: #94a3b8;
+      --muted: #cbd5e1;
       --shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
       --shadow-strong: 0 10px 30px rgba(0, 0, 0, 0.6);
     }
@@ -72,6 +73,55 @@
     }
     body.dark-mode .topic-link {
       color: #cbd5e1;
+    }
+    body.dark-mode .showcase-title,
+    body.dark-mode #turkiye-title {
+      color: #f8fafc !important;
+    }
+    body.dark-mode .showcase-note {
+      color: #cbd5e1 !important;
+    }
+    body.dark-mode .istanbul-subheading,
+    body.dark-mode .istanbul-showcase h3 {
+      color: #f8fafc !important;
+    }
+    body.dark-mode .istanbul-card-title {
+      color: #f8fafc !important;
+    }
+    body.dark-mode .istanbul-card-footer {
+      border-top-color: #1e293b !important;
+    }
+    body.dark-mode .istanbul-card-footer span,
+    body.dark-mode .istanbul-source {
+      color: #94a3b8 !important;
+    }
+    body.dark-mode .istanbul-card-footer .istanbul-more {
+      color: #60a5fa !important;
+    }
+    body.dark-mode .country-title {
+      color: #f8fafc !important;
+    }
+    body.dark-mode .country-subtitle {
+      color: #cbd5e1 !important;
+    }
+    body.dark-mode .card-title,
+    body.dark-mode .card-title a {
+      color: #f8fafc !important;
+    }
+    body.dark-mode .card-excerpt {
+      color: #cbd5e1 !important;
+    }
+    body.dark-mode .page-heading,
+    body.dark-mode .logo-text strong,
+    body.dark-mode .market-value,
+    body.dark-mode .weather-temp {
+      color: #f8fafc !important;
+    }
+    body.dark-mode .city-metric .metric-label {
+      color: #cbd5e1 !important;
+    }
+    body.dark-mode .city-metric strong {
+      color: #ffffff !important;
     }
     .theme-toggle-btn {
       background: #f1f5f9;
@@ -2153,13 +2203,19 @@
     .istanbul-title {
       font-size: 1.45rem !important;
       font-weight: 800 !important;
-      color: #ffffff !important;
+      color: #0f172a !important;
+    }
+    body.dark-mode .istanbul-title {
+      color: #f8fafc !important;
     }
 
     .istanbul-desc {
-      color: #94a3b8 !important;
+      color: #475569 !important;
       font-size: 0.84rem !important;
       margin-top: 2px !important;
+    }
+    body.dark-mode .istanbul-desc {
+      color: #cbd5e1 !important;
     }
 
     .city-metrics-bar {
@@ -3057,11 +3113,24 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
           <div class="showcase-grid">
             <div class="headline-slider" aria-label="Aktuelle Deutschland Nachrichten">
               
-              <a class="headline-slide headline-card topic-card is-active" href="/nachrichten/artikel/trump-putin-russland-diesel-lieferungen-sanktionen_20261010/" data-topic="gundem" aria-label="Trump und Putin vereinbaren russische Diesel-Lieferungen">
-                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/trump-putin-russland-diesel-lieferungen-sanktionen_20261010.webp" alt="Trump und Putin vereinbaren russische Diesel-Lieferungen" loading="eager" fetchpriority="high" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card is-active" href="/nachrichten/artikel/jugendwort-des-jahres-2026-ragebait-gewinnt_20261010/" data-topic="gundem" aria-label="Jugendwort des Jahres 2026: »Ragebait« gewinnt Langenscheidt-Abstimmung">
+                <div class="headline-image"><img src="/nachrichten/artikel/images/jugendwort-des-jahres-2026-ragebait-gewinnt_20261010.webp" alt="Jugendwort des Jahres 2026: »Ragebait« gewinnt Langenscheidt-Abstimmung" loading="eager" fetchpriority="high" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
                     <span class="headline-tag">Topmeldung #1</span>
+                    <span class="headline-topic">Themen</span>
+                    <span class="headline-trust">✅ Verifiziert</span>
+                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                  </div>
+                  <h2 class="headline-title">Jugendwort des Jahres 2026: »Ragebait« gewinnt Langenscheidt-Abstimmung</h2>
+                  <time class="headline-date" datetime="2026-10-10">10.10.2026</time>
+                </div>
+              </a>
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/trump-putin-russland-diesel-lieferungen-sanktionen_20261010/" data-topic="gundem" aria-label="Trump und Putin vereinbaren russische Diesel-Lieferungen">
+                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/trump-putin-russland-diesel-lieferungen-sanktionen_20261010.webp" alt="Trump und Putin vereinbaren russische Diesel-Lieferungen" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Topmeldung #2</span>
                     <span class="headline-topic">Themen</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3074,7 +3143,7 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/ragebait-jugendwort-des-jahres-2026_20261010.webp" alt="„Ragebait“ ist Jugendwort des Jahres 2026" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #2</span>
+                    <span class="headline-tag">Topmeldung #3</span>
                     <span class="headline-topic">Themen</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3087,7 +3156,7 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/trump-kuendigt-russische-diesel-lieferungen-an_20261010.webp" alt="US-Präsident Trump kündigt russische Diesel-Lieferungen an" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #3</span>
+                    <span class="headline-tag">Topmeldung #4</span>
                     <span class="headline-topic">Themen</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3096,50 +3165,11 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
                   <time class="headline-date" datetime="2026-10-10">10.10.2026</time>
                 </div>
               </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/jugendwort-des-jahres-2026-ragebait-gewinnt_20261010/" data-topic="gundem" aria-label="Jugendwort des Jahres 2026: »Ragebait« gewinnt Langenscheidt-Abstimmung">
-                <div class="headline-image"><img src="/nachrichten/artikel/images/jugendwort-des-jahres-2026-ragebait-gewinnt_20261010.webp" alt="Jugendwort des Jahres 2026: »Ragebait« gewinnt Langenscheidt-Abstimmung" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #4</span>
-                    <span class="headline-topic">Themen</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
-                  </div>
-                  <h2 class="headline-title">Jugendwort des Jahres 2026: »Ragebait« gewinnt Langenscheidt-Abstimmung</h2>
-                  <time class="headline-date" datetime="2026-10-10">10.10.2026</time>
-                </div>
-              </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/james-middleton-trauert-um-hund-zulu_20261010/" data-topic="gundem" aria-label="Emotionaler Abschied: James Middleton trauert um seinen Cockerspaniel Zulu">
-                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/james-middleton-trauert-um-hund-zulu_20261010.webp" alt="Emotionaler Abschied: James Middleton trauert um seinen Cockerspaniel Zulu" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #5</span>
-                    <span class="headline-topic">Themen</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
-                  </div>
-                  <h2 class="headline-title">Emotionaler Abschied: James Middleton trauert um seinen Cockerspaniel Zulu</h2>
-                  <time class="headline-date" datetime="2026-10-10">10.10.2026</time>
-                </div>
-              </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/erdbeben-panama-staerke-7-7_20261010/" data-topic="gundem" aria-label="Schweres Erdbeben der Stärke 7,7 erschüttert Panama">
-                <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/erdbeben-panama-staerke-7-7_20261010.webp" alt="Schweres Erdbeben der Stärke 7,7 erschüttert Panama" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #6</span>
-                    <span class="headline-topic">Themen</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
-                  </div>
-                  <h2 class="headline-title">Schweres Erdbeben der Stärke 7,7 erschüttert Panama</h2>
-                  <time class="headline-date" datetime="2026-10-10">10.10.2026</time>
-                </div>
-              </a>
               <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/waffen-ss-rassistische-elite-multiethnische-armee_20261010/" data-topic="dunya" aria-label="Waffen-SS: Rassistische Elite formte multiethnische Armee">
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/waffen-ss-rassistische-elite-multiethnische-armee_20261010.webp" alt="Waffen-SS: Rassistische Elite formte multiethnische Armee" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #7</span>
+                    <span class="headline-tag">Topmeldung #5</span>
                     <span class="headline-topic">Welt</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3152,7 +3182,7 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/10/images/selenskyj-kritisiert-trumps-diesel-deal-mit-putin_20261010.webp" alt="Selenskyj kritisiert Trumps Diesel-Deal mit Putin scharf" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #8</span>
+                    <span class="headline-tag">Topmeldung #6</span>
                     <span class="headline-topic">Welt</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3165,7 +3195,7 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
                 <div class="headline-image"><img src="/nachrichten/artikel/images/fort-hood-pentagon-plant-livestream-der-hinrichtung-von-nidal-hasan_20261009.webp" alt="Pentagon plant Livestream der Hinrichtung von Nidal Hasan" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #9</span>
+                    <span class="headline-tag">Topmeldung #7</span>
                     <span class="headline-topic">Themen</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3178,12 +3208,38 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
                 <div class="headline-image"><img src="/nachrichten/artikel/images/surfer-ueberlebt-nacht-nordsee-borkum_20261009.webp" alt="Surfer überlebt Nacht auf stürmischer Nordsee vor Borkum" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #10</span>
+                    <span class="headline-tag">Topmeldung #8</span>
                     <span class="headline-topic">Themen</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
                   </div>
                   <h2 class="headline-title">Surfer überlebt Nacht auf stürmischer Nordsee vor Borkum</h2>
+                  <time class="headline-date" datetime="2026-10-09">09.10.2026</time>
+                </div>
+              </a>
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/pete-hegseth-plant-oeffentliche-hinrichtung-nidal-hasan_20261009/" data-topic="gundem" aria-label="Pete Hegseth plant öffentliche Hinrichtung von Fort-Hood-Attentäter">
+                <div class="headline-image"><img src="/nachrichten/artikel/images/pete-hegseth-plant-oeffentliche-hinrichtung-nidal-hasan_20261009.webp" alt="Pete Hegseth plant öffentliche Hinrichtung von Fort-Hood-Attentäter" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Topmeldung #9</span>
+                    <span class="headline-topic">Themen</span>
+                    <span class="headline-trust">✅ Verifiziert</span>
+                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                  </div>
+                  <h2 class="headline-title">Pete Hegseth plant öffentliche Hinrichtung von Fort-Hood-Attentäter</h2>
+                  <time class="headline-date" datetime="2026-10-09">09.10.2026</time>
+                </div>
+              </a>
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/klitschko-verwaltet-erbe-hayden-panettiere-tochter-kaya_20261009/" data-topic="gundem" aria-label="Wladimir Klitschko verwaltet Erbe von Hayden Panettiere für Tochter">
+                <div class="headline-image"><img src="/nachrichten/artikel/images/klitschko-verwaltet-erbe-hayden-panettiere-tochter-kaya_20261009.webp" alt="Wladimir Klitschko verwaltet Erbe von Hayden Panettiere für Tochter" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Topmeldung #10</span>
+                    <span class="headline-topic">Themen</span>
+                    <span class="headline-trust">✅ Verifiziert</span>
+                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                  </div>
+                  <h2 class="headline-title">Wladimir Klitschko verwaltet Erbe von Hayden Panettiere für Tochter</h2>
                   <time class="headline-date" datetime="2026-10-09">09.10.2026</time>
                 </div>
               </a>
@@ -3225,52 +3281,6 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
           </div>
           <div class="news-grid" id="grid-main">
             
-      <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/schuelerinnen-fordern-verbot-von-schuluniformen-in-pornos_20261009/" aria-label="Schülerinnen fordern Verbot von Schuluniformen in Pornos"><div class="card-image"><img src="/nachrichten/artikel/2026/10/images/schuelerinnen-fordern-verbot-von-schuluniformen-in-pornos_20261009.webp" alt="Schülerinnen fordern Verbot von Schuluniformen in Pornos" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Deutschland</span>
-            <span class="card-topic">Themen</span>
-            <time class="card-date" datetime="2026-10-09">09.10.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/schuelerinnen-fordern-verbot-von-schuluniformen-in-pornos_20261009/">Schülerinnen fordern Verbot von Schuluniformen in Pornos</a>
-          </h3>
-          <p class="card-excerpt">Zwei 15-jährige Schülerinnen aus England haben eine Petition gestartet, die darauf abzielt, die Darstellung von Schuluniformen in pornografischen Videos zu verbieten. Sie begründe...</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/schuelerinnen-fordern-verbot-von-schuluniformen-in-pornos_20261009/" aria-label="Schülerinnen fordern Verbot von Schuluniformen in Pornos Artikel lesen">Weiterlesen →</a>
-            <div class="share-mini" aria-label="Teilen">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fschuelerinnen-fordern-verbot-von-schuluniformen-in-pornos_20261009%2F&text=Sch%C3%BClerinnen+fordern+Verbot+von+Schuluniformen+in+Pornos" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fschuelerinnen-fordern-verbot-von-schuluniformen-in-pornos_20261009%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Sch%C3%BClerinnen+fordern+Verbot+von+Schuluniformen+in+Pornos%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fschuelerinnen-fordern-verbot-von-schuluniformen-in-pornos_20261009%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fschuelerinnen-fordern-verbot-von-schuluniformen-in-pornos_20261009%2F&text=Sch%C3%BClerinnen+fordern+Verbot+von+Schuluniformen+in+Pornos" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="dunya">
-        <a class="card-image-link" href="/nachrichten/artikel/trump-hofft-weiter-auf-friedensnobelpreis-chancen-gelten-als-gering_20261009/" aria-label="Trump hofft weiter auf Friedensnobelpreis – Chancen gelten als gering"><div class="card-image"><img src="/nachrichten/artikel/2026/10/images/trump-hofft-weiter-auf-friedensnobelpreis-chancen-gelten-als-gering_20261009.webp" alt="Trump hofft weiter auf Friedensnobelpreis – Chancen gelten als gering" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Deutschland</span>
-            <span class="card-topic">Welt</span>
-            <time class="card-date" datetime="2026-10-09">09.10.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/trump-hofft-weiter-auf-friedensnobelpreis-chancen-gelten-als-gering_20261009/">Trump hofft weiter auf Friedensnobelpreis – Chancen gelten als gering</a>
-          </h3>
-          <p class="card-excerpt">Donald Trump hat seinen Wunsch nach dem Friedensnobelpreis noch nicht aufgegeben. Er fühlt sich ungerecht behandelt, da er den Preis nie erhalten habe, im Gegensatz zu seinem Vorg...</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/trump-hofft-weiter-auf-friedensnobelpreis-chancen-gelten-als-gering_20261009/" aria-label="Trump hofft weiter auf Friedensnobelpreis – Chancen gelten als gering Artikel lesen">Weiterlesen →</a>
-            <div class="share-mini" aria-label="Teilen">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftrump-hofft-weiter-auf-friedensnobelpreis-chancen-gelten-als-gering_20261009%2F&text=Trump+hofft+weiter+auf+Friedensnobelpreis+%E2%80%93+Chancen+gelten+als+gering" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftrump-hofft-weiter-auf-friedensnobelpreis-chancen-gelten-als-gering_20261009%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Trump+hofft+weiter+auf+Friedensnobelpreis+%E2%80%93+Chancen+gelten+als+gering%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftrump-hofft-weiter-auf-friedensnobelpreis-chancen-gelten-als-gering_20261009%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftrump-hofft-weiter-auf-friedensnobelpreis-chancen-gelten-als-gering_20261009%2F&text=Trump+hofft+weiter+auf+Friedensnobelpreis+%E2%80%93+Chancen+gelten+als+gering" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
       <article class="news-card topic-card" data-topic="dunya">
         <a class="card-image-link" href="/nachrichten/artikel/streit-bundestag-afd-landtagsprasident-wahl_20261009/" aria-label="Streit im Bundestag: Debatte über Wahl eines AfD-Politikers zum Landtagspräsidenten"><div class="card-image"><img src="/nachrichten/artikel/2026/10/images/streit-bundestag-afd-landtagsprasident-wahl_20261009.webp" alt="Streit im Bundestag: Debatte über Wahl eines AfD-Politikers zum Landtagspräsidenten" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
