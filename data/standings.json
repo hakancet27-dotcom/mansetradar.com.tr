@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-10T16:27:56.163Z",
+  "updatedAt": "2026-10-10T19:54:53.062Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-10-10T10:50:42.831Z",
+      "updatedAt": "2026-10-10T19:54:53.062Z",
       "source": "Maçkolik arşiv 1/73482",
       "table": [
         {
@@ -26,19 +26,33 @@
         {
           "position": 2,
           "team": "Amed SK",
-          "played": 6,
+          "played": 7,
           "won": 4,
-          "draw": 1,
+          "draw": 2,
           "lost": 1,
-          "goalsFor": 15,
-          "goalsAgainst": 7,
-          "points": 13,
+          "goalsFor": 17,
+          "goalsAgainst": 9,
+          "points": 14,
           "goalDifference": 8,
           "logo": "https://im.mackolik.com/img/logo/kucuk/591.gif",
           "form": []
         },
         {
           "position": 3,
+          "team": "Trabzonspor",
+          "played": 7,
+          "won": 4,
+          "draw": 1,
+          "lost": 2,
+          "goalsFor": 16,
+          "goalsAgainst": 5,
+          "points": 13,
+          "goalDifference": 11,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/4.gif",
+          "form": []
+        },
+        {
+          "position": 4,
           "team": "Beşiktaş",
           "played": 6,
           "won": 4,
@@ -52,7 +66,7 @@
           "form": []
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Kocaelispor",
           "played": 6,
           "won": 4,
@@ -66,21 +80,21 @@
           "form": []
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "Alanyaspor",
-          "played": 6,
+          "played": 7,
           "won": 3,
-          "draw": 2,
+          "draw": 3,
           "lost": 1,
           "goalsFor": 8,
           "goalsAgainst": 6,
-          "points": 11,
+          "points": 12,
           "goalDifference": 2,
           "logo": "https://im.mackolik.com/img/logo/kucuk/619.gif",
           "form": []
         },
         {
-          "position": 6,
+          "position": 7,
           "team": "Fenerbahçe",
           "played": 6,
           "won": 3,
@@ -91,20 +105,6 @@
           "points": 10,
           "goalDifference": 10,
           "logo": "https://im.mackolik.com/img/logo/kucuk/2.gif",
-          "form": []
-        },
-        {
-          "position": 7,
-          "team": "Trabzonspor",
-          "played": 6,
-          "won": 3,
-          "draw": 1,
-          "lost": 2,
-          "goalsFor": 13,
-          "goalsAgainst": 5,
-          "points": 10,
-          "goalDifference": 8,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/4.gif",
           "form": []
         },
         {
@@ -151,6 +151,34 @@
         },
         {
           "position": 11,
+          "team": "Gençlerbirliği",
+          "played": 7,
+          "won": 2,
+          "draw": 2,
+          "lost": 3,
+          "goalsFor": 7,
+          "goalsAgainst": 15,
+          "points": 8,
+          "goalDifference": -8,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/7.gif",
+          "form": []
+        },
+        {
+          "position": 12,
+          "team": "Erzurumspor FK",
+          "played": 7,
+          "won": 2,
+          "draw": 2,
+          "lost": 3,
+          "goalsFor": 3,
+          "goalsAgainst": 11,
+          "points": 8,
+          "goalDifference": -8,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/9632.gif",
+          "form": []
+        },
+        {
+          "position": 13,
           "team": "Çorum FK",
           "played": 6,
           "won": 2,
@@ -164,7 +192,7 @@
           "form": []
         },
         {
-          "position": 12,
+          "position": 14,
           "team": "Başakşehir FK",
           "played": 6,
           "won": 2,
@@ -175,34 +203,6 @@
           "points": 7,
           "goalDifference": -1,
           "logo": "https://im.mackolik.com/img/logo/kucuk/451.gif",
-          "form": []
-        },
-        {
-          "position": 13,
-          "team": "Gençlerbirliği",
-          "played": 6,
-          "won": 2,
-          "draw": 1,
-          "lost": 3,
-          "goalsFor": 5,
-          "goalsAgainst": 13,
-          "points": 7,
-          "goalDifference": -8,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/7.gif",
-          "form": []
-        },
-        {
-          "position": 14,
-          "team": "Erzurumspor FK",
-          "played": 6,
-          "won": 2,
-          "draw": 1,
-          "lost": 3,
-          "goalsFor": 3,
-          "goalsAgainst": 11,
-          "points": 7,
-          "goalDifference": -8,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/9632.gif",
           "form": []
         },
         {
@@ -222,14 +222,14 @@
         {
           "position": 16,
           "team": "Samsunspor",
-          "played": 6,
+          "played": 7,
           "won": 1,
           "draw": 1,
-          "lost": 4,
+          "lost": 5,
           "goalsFor": 6,
-          "goalsAgainst": 12,
+          "goalsAgainst": 15,
           "points": 4,
-          "goalDifference": -6,
+          "goalDifference": -9,
           "logo": "https://im.mackolik.com/img/logo/kucuk/8.gif",
           "form": []
         },
@@ -264,13 +264,12 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 500 | HTML scrape: https://www.mackolik.com/puan-durumu/t%C3%BCrkiye-s%C3%BCper-lig/482ofyysbdbeoxauk19yg7tdt: no valid standings table | https://www.skorlar.com/futbol/turkiye/super-lig/puan-durumu: fetch failed | https://www.skorlar.com/futbol/turkiye/super-lig: fetch failed | https://www.skorlar.com: fetch failed | https://skorlar.com: fetch failed | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
-      "preservedPreviousTable": true
+      "status": ""
     },
     {
       "id": "premier-league",
       "name": "Premier League",
-      "updatedAt": "2026-10-10T16:27:56.163Z",
+      "updatedAt": "2026-10-10T19:54:53.062Z",
       "source": "Maçkolik arşiv 24/73340",
       "table": [
         {
@@ -304,33 +303,47 @@
         {
           "position": 3,
           "team": "Brighton & Hove Albion",
-          "played": 5,
-          "won": 3,
+          "played": 6,
+          "won": 4,
           "draw": 1,
           "lost": 1,
-          "goalsFor": 16,
+          "goalsFor": 18,
           "goalsAgainst": 5,
-          "points": 10,
-          "goalDifference": 11,
+          "points": 13,
+          "goalDifference": 13,
           "logo": "https://im.mackolik.com/img/logo/kucuk/41.gif",
           "form": []
         },
         {
           "position": 4,
           "team": "Brentford",
-          "played": 5,
+          "played": 6,
           "won": 2,
-          "draw": 3,
+          "draw": 4,
           "lost": 0,
-          "goalsFor": 10,
-          "goalsAgainst": 4,
-          "points": 9,
+          "goalsFor": 12,
+          "goalsAgainst": 6,
+          "points": 10,
           "goalDifference": 6,
           "logo": "https://im.mackolik.com/img/logo/kucuk/960.gif",
           "form": []
         },
         {
           "position": 5,
+          "team": "Chelsea",
+          "played": 6,
+          "won": 3,
+          "draw": 1,
+          "lost": 2,
+          "goalsFor": 15,
+          "goalsAgainst": 13,
+          "points": 10,
+          "goalDifference": 2,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/26.gif",
+          "form": []
+        },
+        {
+          "position": 6,
           "team": "Leeds United",
           "played": 6,
           "won": 2,
@@ -344,7 +357,7 @@
           "form": []
         },
         {
-          "position": 6,
+          "position": 7,
           "team": "Liverpool",
           "played": 5,
           "won": 2,
@@ -358,7 +371,7 @@
           "form": []
         },
         {
-          "position": 7,
+          "position": 8,
           "team": "Everton",
           "played": 5,
           "won": 2,
@@ -372,7 +385,21 @@
           "form": []
         },
         {
-          "position": 8,
+          "position": 9,
+          "team": "Ipswich Town",
+          "played": 6,
+          "won": 3,
+          "draw": 0,
+          "lost": 3,
+          "goalsFor": 9,
+          "goalsAgainst": 12,
+          "points": 9,
+          "goalDifference": -3,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/48.gif",
+          "form": []
+        },
+        {
+          "position": 10,
           "team": "Hull City",
           "played": 5,
           "won": 2,
@@ -386,7 +413,7 @@
           "form": []
         },
         {
-          "position": 9,
+          "position": 11,
           "team": "Newcastle United",
           "played": 5,
           "won": 2,
@@ -397,34 +424,6 @@
           "points": 8,
           "goalDifference": 0,
           "logo": "https://im.mackolik.com/img/logo/kucuk/34.gif",
-          "form": []
-        },
-        {
-          "position": 10,
-          "team": "Chelsea",
-          "played": 5,
-          "won": 2,
-          "draw": 1,
-          "lost": 2,
-          "goalsFor": 10,
-          "goalsAgainst": 12,
-          "points": 7,
-          "goalDifference": -2,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/26.gif",
-          "form": []
-        },
-        {
-          "position": 11,
-          "team": "Ipswich Town",
-          "played": 5,
-          "won": 2,
-          "draw": 0,
-          "lost": 3,
-          "goalsFor": 7,
-          "goalsAgainst": 11,
-          "points": 6,
-          "goalDifference": -4,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/48.gif",
           "form": []
         },
         {
@@ -457,16 +456,16 @@
         },
         {
           "position": 14,
-          "team": "Sunderland",
-          "played": 5,
+          "team": "Aston Villa",
+          "played": 6,
           "won": 1,
-          "draw": 1,
+          "draw": 2,
           "lost": 3,
           "goalsFor": 6,
-          "goalsAgainst": 10,
-          "points": 4,
-          "goalDifference": -4,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/36.gif",
+          "goalsAgainst": 11,
+          "points": 5,
+          "goalDifference": -5,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/21.gif",
           "form": []
         },
         {
@@ -485,29 +484,29 @@
         },
         {
           "position": 16,
-          "team": "Aston Villa",
-          "played": 5,
+          "team": "Sunderland",
+          "played": 6,
           "won": 1,
           "draw": 1,
-          "lost": 3,
-          "goalsFor": 4,
-          "goalsAgainst": 9,
+          "lost": 4,
+          "goalsFor": 6,
+          "goalsAgainst": 12,
           "points": 4,
-          "goalDifference": -5,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/21.gif",
+          "goalDifference": -6,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/36.gif",
           "form": []
         },
         {
           "position": 17,
           "team": "Bournemouth",
-          "played": 5,
+          "played": 6,
           "won": 0,
           "draw": 3,
-          "lost": 2,
-          "goalsFor": 6,
-          "goalsAgainst": 8,
+          "lost": 3,
+          "goalsFor": 7,
+          "goalsAgainst": 13,
           "points": 3,
-          "goalDifference": -2,
+          "goalDifference": -6,
           "logo": "https://im.mackolik.com/img/logo/kucuk/959.gif",
           "form": []
         },
@@ -528,14 +527,14 @@
         {
           "position": 19,
           "team": "Fulham",
-          "played": 5,
+          "played": 6,
           "won": 0,
           "draw": 2,
-          "lost": 3,
-          "goalsFor": 5,
-          "goalsAgainst": 8,
+          "lost": 4,
+          "goalsFor": 6,
+          "goalsAgainst": 10,
           "points": 2,
-          "goalDifference": -3,
+          "goalDifference": -4,
           "logo": "https://im.mackolik.com/img/logo/kucuk/28.gif",
           "form": []
         },
@@ -561,34 +560,34 @@
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-10-10T10:50:42.831Z",
+      "updatedAt": "2026-10-10T19:54:53.062Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
           "position": 1,
           "team": "Barcelona",
-          "played": 7,
-          "won": 7,
+          "played": 8,
+          "won": 8,
           "draw": 0,
           "lost": 0,
-          "goalsFor": 31,
+          "goalsFor": 34,
           "goalsAgainst": 7,
-          "points": 21,
-          "goalDifference": 24,
+          "points": 24,
+          "goalDifference": 27,
           "logo": "https://im.mackolik.com/img/logo/kucuk/83.gif",
           "form": []
         },
         {
           "position": 2,
           "team": "Atletico Madrid",
-          "played": 7,
-          "won": 5,
+          "played": 8,
+          "won": 6,
           "draw": 1,
           "lost": 1,
-          "goalsFor": 16,
-          "goalsAgainst": 7,
-          "points": 16,
-          "goalDifference": 9,
+          "goalsFor": 18,
+          "goalsAgainst": 8,
+          "points": 19,
+          "goalDifference": 10,
           "logo": "https://im.mackolik.com/img/logo/kucuk/86.gif",
           "form": []
         },
@@ -637,14 +636,14 @@
         {
           "position": 6,
           "team": "Deportivo Alaves",
-          "played": 7,
+          "played": 8,
           "won": 3,
           "draw": 2,
-          "lost": 2,
-          "goalsFor": 11,
-          "goalsAgainst": 6,
+          "lost": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 8,
           "points": 11,
-          "goalDifference": 5,
+          "goalDifference": 4,
           "logo": "https://im.mackolik.com/img/logo/kucuk/90.gif",
           "form": []
         },
@@ -706,16 +705,16 @@
         },
         {
           "position": 11,
-          "team": "Getafe",
-          "played": 7,
+          "team": "Espanyol",
+          "played": 8,
           "won": 2,
           "draw": 2,
-          "lost": 3,
-          "goalsFor": 4,
-          "goalsAgainst": 7,
+          "lost": 4,
+          "goalsFor": 11,
+          "goalsAgainst": 11,
           "points": 8,
-          "goalDifference": -3,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/103.gif",
+          "goalDifference": 0,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/95.gif",
           "form": []
         },
         {
@@ -734,6 +733,20 @@
         },
         {
           "position": 13,
+          "team": "Getafe",
+          "played": 8,
+          "won": 2,
+          "draw": 2,
+          "lost": 4,
+          "goalsFor": 4,
+          "goalsAgainst": 10,
+          "points": 8,
+          "goalDifference": -6,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/103.gif",
+          "form": []
+        },
+        {
+          "position": 14,
           "team": "Osasuna",
           "played": 7,
           "won": 2,
@@ -747,7 +760,7 @@
           "form": []
         },
         {
-          "position": 14,
+          "position": 15,
           "team": "Celta Vigo",
           "played": 7,
           "won": 1,
@@ -758,20 +771,6 @@
           "points": 7,
           "goalDifference": 2,
           "logo": "https://im.mackolik.com/img/logo/kucuk/76.gif",
-          "form": []
-        },
-        {
-          "position": 15,
-          "team": "Espanyol",
-          "played": 7,
-          "won": 2,
-          "draw": 1,
-          "lost": 4,
-          "goalsFor": 10,
-          "goalsAgainst": 10,
-          "points": 7,
-          "goalDifference": 0,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/95.gif",
           "form": []
         },
         {
@@ -833,13 +832,13 @@
         {
           "position": 20,
           "team": "Malaga",
-          "played": 7,
+          "played": 8,
           "won": 0,
-          "draw": 3,
+          "draw": 4,
           "lost": 4,
-          "goalsFor": 3,
-          "goalsAgainst": 12,
-          "points": 3,
+          "goalsFor": 4,
+          "goalsAgainst": 13,
+          "points": 4,
           "goalDifference": -9,
           "logo": "https://im.mackolik.com/img/logo/kucuk/78.gif",
           "form": []
@@ -847,13 +846,12 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 500 | HTML scrape: https://www.mackolik.com/puan-durumu/ispanya-la-liga/34pl8szyvrbwcmfkuocjm3r6t: no valid standings table | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
-      "preservedPreviousTable": true
+      "status": ""
     },
     {
       "id": "bundesliga",
       "name": "Bundesliga",
-      "updatedAt": "2026-10-10T16:27:56.163Z",
+      "updatedAt": "2026-10-10T19:54:53.062Z",
       "source": "Maçkolik arşiv 3/73455",
       "table": [
         {
@@ -914,6 +912,20 @@
         },
         {
           "position": 5,
+          "team": "RB Leipzig",
+          "played": 5,
+          "won": 3,
+          "draw": 0,
+          "lost": 2,
+          "goalsFor": 15,
+          "goalsAgainst": 5,
+          "points": 9,
+          "goalDifference": 10,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/911.gif",
+          "form": []
+        },
+        {
+          "position": 6,
           "team": "Augsburg",
           "played": 5,
           "won": 2,
@@ -927,7 +939,7 @@
           "form": []
         },
         {
-          "position": 6,
+          "position": 7,
           "team": "Werder Bremen",
           "played": 5,
           "won": 2,
@@ -941,7 +953,7 @@
           "form": []
         },
         {
-          "position": 7,
+          "position": 8,
           "team": "Mainz 05",
           "played": 5,
           "won": 2,
@@ -955,7 +967,7 @@
           "form": []
         },
         {
-          "position": 8,
+          "position": 9,
           "team": "Elversberg",
           "played": 5,
           "won": 2,
@@ -966,20 +978,6 @@
           "points": 7,
           "goalDifference": 0,
           "logo": "https://im.mackolik.com/img/logo/kucuk/915.gif",
-          "form": []
-        },
-        {
-          "position": 9,
-          "team": "RB Leipzig",
-          "played": 4,
-          "won": 2,
-          "draw": 0,
-          "lost": 2,
-          "goalsFor": 9,
-          "goalsAgainst": 5,
-          "points": 6,
-          "goalDifference": 4,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/911.gif",
           "form": []
         },
         {
@@ -1012,20 +1010,6 @@
         },
         {
           "position": 12,
-          "team": "Eintracht Frankfurt",
-          "played": 4,
-          "won": 1,
-          "draw": 2,
-          "lost": 1,
-          "goalsFor": 9,
-          "goalsAgainst": 10,
-          "points": 5,
-          "goalDifference": -1,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/141.gif",
-          "form": []
-        },
-        {
-          "position": 13,
           "team": "Schalke 04",
           "played": 4,
           "won": 1,
@@ -1036,6 +1020,20 @@
           "points": 5,
           "goalDifference": -1,
           "logo": "https://im.mackolik.com/img/logo/kucuk/122.gif",
+          "form": []
+        },
+        {
+          "position": 13,
+          "team": "Eintracht Frankfurt",
+          "played": 5,
+          "won": 1,
+          "draw": 2,
+          "lost": 2,
+          "goalsFor": 9,
+          "goalsAgainst": 16,
+          "points": 5,
+          "goalDifference": -7,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/141.gif",
           "form": []
         },
         {
@@ -1116,11 +1114,25 @@
     {
       "id": "serie-a",
       "name": "Serie A",
-      "updatedAt": "2026-10-10T00:23:05.247Z",
+      "updatedAt": "2026-10-10T19:54:53.062Z",
       "source": "Maçkolik arşiv 15/73249",
       "table": [
         {
           "position": 1,
+          "team": "Inter",
+          "played": 6,
+          "won": 5,
+          "draw": 1,
+          "lost": 0,
+          "goalsFor": 18,
+          "goalsAgainst": 8,
+          "points": 16,
+          "goalDifference": 10,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/155.gif",
+          "form": []
+        },
+        {
+          "position": 2,
           "team": "Roma",
           "played": 5,
           "won": 4,
@@ -1131,20 +1143,6 @@
           "points": 13,
           "goalDifference": 11,
           "logo": "https://im.mackolik.com/img/logo/kucuk/161.gif",
-          "form": []
-        },
-        {
-          "position": 2,
-          "team": "Inter",
-          "played": 5,
-          "won": 4,
-          "draw": 1,
-          "lost": 0,
-          "goalsFor": 15,
-          "goalsAgainst": 8,
-          "points": 13,
-          "goalDifference": 7,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/155.gif",
           "form": []
         },
         {
@@ -1317,20 +1315,6 @@
         },
         {
           "position": 15,
-          "team": "Parma",
-          "played": 5,
-          "won": 1,
-          "draw": 1,
-          "lost": 3,
-          "goalsFor": 4,
-          "goalsAgainst": 7,
-          "points": 4,
-          "goalDifference": -3,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/162.gif",
-          "form": []
-        },
-        {
-          "position": 16,
           "team": "Monza",
           "played": 5,
           "won": 1,
@@ -1344,21 +1328,49 @@
           "form": []
         },
         {
-          "position": 17,
-          "team": "Fiorentina",
-          "played": 5,
+          "position": 16,
+          "team": "Genoa",
+          "played": 6,
           "won": 1,
           "draw": 1,
-          "lost": 3,
-          "goalsFor": 6,
-          "goalsAgainst": 12,
+          "lost": 4,
+          "goalsFor": 5,
+          "goalsAgainst": 11,
           "points": 4,
           "goalDifference": -6,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/1189.gif",
+          "logo": "https://im.mackolik.com/img/logo/kucuk/180.gif",
+          "form": []
+        },
+        {
+          "position": 17,
+          "team": "Parma",
+          "played": 6,
+          "won": 1,
+          "draw": 1,
+          "lost": 4,
+          "goalsFor": 4,
+          "goalsAgainst": 10,
+          "points": 4,
+          "goalDifference": -6,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/162.gif",
           "form": []
         },
         {
           "position": 18,
+          "team": "Fiorentina",
+          "played": 6,
+          "won": 1,
+          "draw": 1,
+          "lost": 4,
+          "goalsFor": 7,
+          "goalsAgainst": 14,
+          "points": 4,
+          "goalDifference": -7,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/1189.gif",
+          "form": []
+        },
+        {
+          "position": 19,
           "team": "Bologna",
           "played": 5,
           "won": 0,
@@ -1369,20 +1381,6 @@
           "points": 2,
           "goalDifference": -3,
           "logo": "https://im.mackolik.com/img/logo/kucuk/158.gif",
-          "form": []
-        },
-        {
-          "position": 19,
-          "team": "Genoa",
-          "played": 5,
-          "won": 0,
-          "draw": 1,
-          "lost": 4,
-          "goalsFor": 3,
-          "goalsAgainst": 10,
-          "points": 1,
-          "goalDifference": -7,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/180.gif",
           "form": []
         },
         {
@@ -1402,13 +1400,12 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 502 | HTML scrape: https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao: no valid standings table | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
-      "preservedPreviousTable": true
+      "status": ""
     },
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-10-10T16:27:56.163Z",
+      "updatedAt": "2026-10-10T19:54:53.062Z",
       "source": "Maçkolik arşiv 5/73279",
       "table": [
         {
@@ -1688,19 +1685,33 @@
     {
       "position": 2,
       "team": "Amed SK",
-      "played": 6,
+      "played": 7,
       "won": 4,
-      "draw": 1,
+      "draw": 2,
       "lost": 1,
-      "goalsFor": 15,
-      "goalsAgainst": 7,
-      "points": 13,
+      "goalsFor": 17,
+      "goalsAgainst": 9,
+      "points": 14,
       "goalDifference": 8,
       "logo": "https://im.mackolik.com/img/logo/kucuk/591.gif",
       "form": []
     },
     {
       "position": 3,
+      "team": "Trabzonspor",
+      "played": 7,
+      "won": 4,
+      "draw": 1,
+      "lost": 2,
+      "goalsFor": 16,
+      "goalsAgainst": 5,
+      "points": 13,
+      "goalDifference": 11,
+      "logo": "https://im.mackolik.com/img/logo/kucuk/4.gif",
+      "form": []
+    },
+    {
+      "position": 4,
       "team": "Beşiktaş",
       "played": 6,
       "won": 4,
@@ -1714,7 +1725,7 @@
       "form": []
     },
     {
-      "position": 4,
+      "position": 5,
       "team": "Kocaelispor",
       "played": 6,
       "won": 4,
@@ -1728,21 +1739,21 @@
       "form": []
     },
     {
-      "position": 5,
+      "position": 6,
       "team": "Alanyaspor",
-      "played": 6,
+      "played": 7,
       "won": 3,
-      "draw": 2,
+      "draw": 3,
       "lost": 1,
       "goalsFor": 8,
       "goalsAgainst": 6,
-      "points": 11,
+      "points": 12,
       "goalDifference": 2,
       "logo": "https://im.mackolik.com/img/logo/kucuk/619.gif",
       "form": []
     },
     {
-      "position": 6,
+      "position": 7,
       "team": "Fenerbahçe",
       "played": 6,
       "won": 3,
@@ -1753,20 +1764,6 @@
       "points": 10,
       "goalDifference": 10,
       "logo": "https://im.mackolik.com/img/logo/kucuk/2.gif",
-      "form": []
-    },
-    {
-      "position": 7,
-      "team": "Trabzonspor",
-      "played": 6,
-      "won": 3,
-      "draw": 1,
-      "lost": 2,
-      "goalsFor": 13,
-      "goalsAgainst": 5,
-      "points": 10,
-      "goalDifference": 8,
-      "logo": "https://im.mackolik.com/img/logo/kucuk/4.gif",
       "form": []
     },
     {
@@ -1813,6 +1810,34 @@
     },
     {
       "position": 11,
+      "team": "Gençlerbirliği",
+      "played": 7,
+      "won": 2,
+      "draw": 2,
+      "lost": 3,
+      "goalsFor": 7,
+      "goalsAgainst": 15,
+      "points": 8,
+      "goalDifference": -8,
+      "logo": "https://im.mackolik.com/img/logo/kucuk/7.gif",
+      "form": []
+    },
+    {
+      "position": 12,
+      "team": "Erzurumspor FK",
+      "played": 7,
+      "won": 2,
+      "draw": 2,
+      "lost": 3,
+      "goalsFor": 3,
+      "goalsAgainst": 11,
+      "points": 8,
+      "goalDifference": -8,
+      "logo": "https://im.mackolik.com/img/logo/kucuk/9632.gif",
+      "form": []
+    },
+    {
+      "position": 13,
       "team": "Çorum FK",
       "played": 6,
       "won": 2,
@@ -1826,7 +1851,7 @@
       "form": []
     },
     {
-      "position": 12,
+      "position": 14,
       "team": "Başakşehir FK",
       "played": 6,
       "won": 2,
@@ -1837,34 +1862,6 @@
       "points": 7,
       "goalDifference": -1,
       "logo": "https://im.mackolik.com/img/logo/kucuk/451.gif",
-      "form": []
-    },
-    {
-      "position": 13,
-      "team": "Gençlerbirliği",
-      "played": 6,
-      "won": 2,
-      "draw": 1,
-      "lost": 3,
-      "goalsFor": 5,
-      "goalsAgainst": 13,
-      "points": 7,
-      "goalDifference": -8,
-      "logo": "https://im.mackolik.com/img/logo/kucuk/7.gif",
-      "form": []
-    },
-    {
-      "position": 14,
-      "team": "Erzurumspor FK",
-      "played": 6,
-      "won": 2,
-      "draw": 1,
-      "lost": 3,
-      "goalsFor": 3,
-      "goalsAgainst": 11,
-      "points": 7,
-      "goalDifference": -8,
-      "logo": "https://im.mackolik.com/img/logo/kucuk/9632.gif",
       "form": []
     },
     {
@@ -1884,14 +1881,14 @@
     {
       "position": 16,
       "team": "Samsunspor",
-      "played": 6,
+      "played": 7,
       "won": 1,
       "draw": 1,
-      "lost": 4,
+      "lost": 5,
       "goalsFor": 6,
-      "goalsAgainst": 12,
+      "goalsAgainst": 15,
       "points": 4,
-      "goalDifference": -6,
+      "goalDifference": -9,
       "logo": "https://im.mackolik.com/img/logo/kucuk/8.gif",
       "form": []
     },
