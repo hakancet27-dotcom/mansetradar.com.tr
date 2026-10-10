@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-10T00:00:00+00:00",
-    "article_count": 2231,
+    "article_count": 2233,
     "schema_version": 2
   },
   "hero": [
@@ -988,6 +988,47 @@
       "review_status": "published"
     },
     {
+      "id": "news/articles/2026/10:putin-relays-iran-deal-stance-trump-mideast-tensions_20261010",
+      "slug": "putin-relays-iran-deal-stance-trump-mideast-tensions_20261010",
+      "title": "Putin Relays Iran's Peace Stance to Trump Amid Escalating Tensions",
+      "summary": "Russian President Vladimir Putin has relayed Iran's position on a potential Mideast peace deal to U.S. President Donald Trump, the Kremlin confirmed Saturday. The diplomatic exchange comes amidst stalled peace efforts and strong rhetoric from President Trum...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "10.10.2026",
+      "date_iso": "2026-10-10",
+      "url": "/news/articles/2026/10/putin-relays-iran-deal-stance-trump-mideast-tensions_20261010/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/putin-relays-iran-deal-stance-trump-mideast-tensions_20261010/",
+      "detail_json_url": "/data/details/news/articles/2026/10/putin-relays-iran-deal-stance-trump-mideast-tensions_20261010.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/putin-relays-iran-deal-stance-trump-mideast-tensions_20261010.webp",
+      "image_alt": "Russian President Vladimir Putin and U.S. President Donald Trump engaged in diplomatic discussions regarding Iran's...",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/putin-relays-iran-deal-stance-trump-mideast-tensions_20261010.webp",
+        "alt": "Russian President Vladimir Putin and U.S. President Donald Trump engaged in diplomatic discussions regarding Iran's..."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+      "tags": [
+        "Iran",
+        "Russia",
+        "United States",
+        "Donald Trump",
+        "Vladimir Putin",
+        "Middle East",
+        "Yemen",
+        "Saudi Arabia"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "news/articles/2026/10:pentagon-fort-hood-gunman-execution-livestreamed-20261010_20261010",
       "slug": "pentagon-fort-hood-gunman-execution-livestreamed-20261010_20261010",
       "title": "Pentagon Announces Livestreamed Execution of Fort Hood Gunman",
@@ -1181,6 +1222,45 @@
         "Filistin"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:isaias-weakens-power-outages-southeast-flooding_20261010",
+      "slug": "isaias-weakens-power-outages-southeast-flooding_20261010",
+      "title": "Isaias Weakens, Leaves Nearly 900,000 Without Power in Southeast",
+      "summary": "Isaias, now a post-tropical cyclone, continues to weaken as it moves across the Southeast U.S. after making landfall as a Category 2 hurricane Friday night. Nearly 900,000 customers are without power, primarily in Florida, Alabama, and Georgia, while heavy...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "10.10.2026",
+      "date_iso": "2026-10-10",
+      "url": "/news/articles/2026/10/isaias-weakens-power-outages-southeast-flooding_20261010/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/isaias-weakens-power-outages-southeast-flooding_20261010/",
+      "detail_json_url": "/data/details/news/articles/2026/10/isaias-weakens-power-outages-southeast-flooding_20261010.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/isaias-weakens-power-outages-southeast-flooding_20261010.webp",
+      "image_alt": "Flooded streets and downed power lines in a residential area of the Southeast U.S. after Isaias, with emergency vehicles...",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/isaias-weakens-power-outages-southeast-flooding_20261010.webp",
+        "alt": "Flooded streets and downed power lines in a residential area of the Southeast U.S. after Isaias, with emergency vehicles..."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/live-updates/isaias-southeastern-u-s-gulf-coast/",
+      "tags": [
+        "Isaias",
+        "Tropical Cyclone",
+        "Power Outages",
+        "Southeast U.S.",
+        "Flooding",
+        "Hurricane"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -3046,84 +3126,6 @@
         "S.S.Y."
       ],
       "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:verstappen-singapur-gp-yarim-kalan-hesap_20261008",
-      "slug": "verstappen-singapur-gp-yarim-kalan-hesap_20261008",
-      "title": "Verstappen'den Singapur GP Öncesi İddialı Sözler: \"Yarım Kalan Hesabım Var\"",
-      "summary": "Malezya Grand Prix'sinde sezonun ilk zaferini elde eden dört kez dünya şampiyonu Max Verstappen, gözünü henüz kazanamadığı Singapur Grand Prix'sine çevirdi. Hollandalı pilot, \"Singapur daha önce hiç kazanamadığım bir yarış, dolayısıyla bu pistte yarım kalan...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "08.10.2026",
-      "date_iso": "2026-10-08",
-      "url": "/articles/2026/10/verstappen-singapur-gp-yarim-kalan-hesap_20261008/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/verstappen-singapur-gp-yarim-kalan-hesap_20261008/",
-      "detail_json_url": "/data/details/articles/2026/10/verstappen-singapur-gp-yarim-kalan-hesap_20261008.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/verstappen-singapur-gp-yarim-kalan-hesap_20261008.webp",
-      "image_alt": "Max Verstappen'in Red Bull aracıyla Singapur Grand Prix'sinde gece yarışı sırasında viraj alırken çekilmiş dinamik bir...",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/10/images/verstappen-singapur-gp-yarim-kalan-hesap_20261008.webp",
-        "alt": "Max Verstappen'in Red Bull aracıyla Singapur Grand Prix'sinde gece yarışı sırasında viraj alırken çekilmiş dinamik bir..."
-      },
-      "source_name": "Ajansspor - Son Haberler",
-      "source_url": "https://ajansspor.com/haber/verstappenin-singapur-gp-oncesi-sozleri-gundem-oldu-yarim-kalan-bir-hesabim-var-736208",
-      "tags": [
-        "Max Verstappen",
-        "Formula 1",
-        "Singapur Grand Prix",
-        "Red Bull",
-        "Motor Sporları",
-        "F1"
-      ],
-      "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "news/articles/2026/10:uss-abraham-lincoln-returns-san-diego-10-month-deployment_20261008",
-      "slug": "uss-abraham-lincoln-returns-san-diego-10-month-deployment_20261008",
-      "title": "USS Abraham Lincoln Concludes Historic 10-Month Deployment, Returns to San Diego",
-      "summary": "The USS Abraham Lincoln aircraft carrier has returned to its homeport in San Diego, concluding a historic 10-month deployment. The homecoming, reported on October 8, 2026, marks the end of an extended mission at sea for the formidable warship and its crew.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "USA",
-      "language": "en",
-      "language_label": "English",
-      "section": "news/articles",
-      "section_name": "US News",
-      "url_prefix": "news/articles/2026/10",
-      "date": "08.10.2026",
-      "date_iso": "2026-10-08",
-      "url": "/news/articles/2026/10/uss-abraham-lincoln-returns-san-diego-10-month-deployment_20261008/",
-      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/uss-abraham-lincoln-returns-san-diego-10-month-deployment_20261008/",
-      "detail_json_url": "/data/details/news/articles/2026/10/uss-abraham-lincoln-returns-san-diego-10-month-deployment_20261008.json",
-      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/uss-abraham-lincoln-returns-san-diego-10-month-deployment_20261008.webp",
-      "image_alt": "The USS Abraham Lincoln aircraft carrier returning to San Diego after a 10-month deployment, with crew members on deck and...",
-      "image": {
-        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/uss-abraham-lincoln-returns-san-diego-10-month-deployment_20261008.webp",
-        "alt": "The USS Abraham Lincoln aircraft carrier returning to San Diego after a 10-month deployment, with crew members on deck and..."
-      },
-      "source_name": "Home - CBSNews.com",
-      "source_url": "https://www.cbsnews.com/video/uss-abraham-lincoln-returns-san-diego-10-month-deployment/",
-      "tags": [
-        "USS Abraham Lincoln",
-        "Aircraft Carrier",
-        "San Diego",
-        "US Navy",
-        "Deployment",
-        "Naval Operations"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]

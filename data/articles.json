@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-10T00:00:00+00:00",
-    "article_count": 2231,
+    "article_count": 2233,
     "schema_version": 2
   },
   "articles": [
@@ -196,6 +196,47 @@
         "Ukraine-Krieg",
         "Energiepolitik",
         "Diesel-Deal"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:putin-relays-iran-deal-stance-trump-mideast-tensions_20261010",
+      "slug": "putin-relays-iran-deal-stance-trump-mideast-tensions_20261010",
+      "title": "Putin Relays Iran's Peace Stance to Trump Amid Escalating Tensions",
+      "summary": "Russian President Vladimir Putin has relayed Iran's position on a potential Mideast peace deal to U.S. President Donald Trump, the Kremlin confirmed Saturday. The diplomatic exchange comes amidst stalled peace efforts and strong rhetoric from President Trum...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "10.10.2026",
+      "date_iso": "2026-10-10",
+      "url": "/news/articles/2026/10/putin-relays-iran-deal-stance-trump-mideast-tensions_20261010/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/putin-relays-iran-deal-stance-trump-mideast-tensions_20261010/",
+      "detail_json_url": "/data/details/news/articles/2026/10/putin-relays-iran-deal-stance-trump-mideast-tensions_20261010.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/putin-relays-iran-deal-stance-trump-mideast-tensions_20261010.webp",
+      "image_alt": "Russian President Vladimir Putin and U.S. President Donald Trump engaged in diplomatic discussions regarding Iran's...",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/putin-relays-iran-deal-stance-trump-mideast-tensions_20261010.webp",
+        "alt": "Russian President Vladimir Putin and U.S. President Donald Trump engaged in diplomatic discussions regarding Iran's..."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+      "tags": [
+        "Iran",
+        "Russia",
+        "United States",
+        "Donald Trump",
+        "Vladimir Putin",
+        "Middle East",
+        "Yemen",
+        "Saudi Arabia"
       ],
       "quality_score": 100,
       "review_status": "published"
@@ -394,6 +435,45 @@
         "Filistin"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:isaias-weakens-power-outages-southeast-flooding_20261010",
+      "slug": "isaias-weakens-power-outages-southeast-flooding_20261010",
+      "title": "Isaias Weakens, Leaves Nearly 900,000 Without Power in Southeast",
+      "summary": "Isaias, now a post-tropical cyclone, continues to weaken as it moves across the Southeast U.S. after making landfall as a Category 2 hurricane Friday night. Nearly 900,000 customers are without power, primarily in Florida, Alabama, and Georgia, while heavy...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "10.10.2026",
+      "date_iso": "2026-10-10",
+      "url": "/news/articles/2026/10/isaias-weakens-power-outages-southeast-flooding_20261010/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/isaias-weakens-power-outages-southeast-flooding_20261010/",
+      "detail_json_url": "/data/details/news/articles/2026/10/isaias-weakens-power-outages-southeast-flooding_20261010.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/isaias-weakens-power-outages-southeast-flooding_20261010.webp",
+      "image_alt": "Flooded streets and downed power lines in a residential area of the Southeast U.S. after Isaias, with emergency vehicles...",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/isaias-weakens-power-outages-southeast-flooding_20261010.webp",
+        "alt": "Flooded streets and downed power lines in a residential area of the Southeast U.S. after Isaias, with emergency vehicles..."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/live-updates/isaias-southeastern-u-s-gulf-coast/",
+      "tags": [
+        "Isaias",
+        "Tropical Cyclone",
+        "Power Outages",
+        "Southeast U.S.",
+        "Flooding",
+        "Hurricane"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
