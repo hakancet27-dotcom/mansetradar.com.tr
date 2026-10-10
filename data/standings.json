@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-10T00:23:05.247Z",
+  "updatedAt": "2026-10-10T10:50:42.831Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-10-10T00:23:05.247Z",
+      "updatedAt": "2026-10-10T10:50:42.831Z",
       "source": "Maçkolik arşiv 1/73482",
       "table": [
         {
@@ -269,7 +269,7 @@
     {
       "id": "premier-league",
       "name": "Premier League",
-      "updatedAt": "2026-10-10T00:23:05.247Z",
+      "updatedAt": "2026-10-10T10:50:42.831Z",
       "source": "Maçkolik arşiv 24/73340",
       "table": [
         {
@@ -560,7 +560,7 @@
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-10-10T00:23:05.247Z",
+      "updatedAt": "2026-10-10T10:50:42.831Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
@@ -705,20 +705,6 @@
         },
         {
           "position": 11,
-          "team": "Espanyol",
-          "played": 8,
-          "won": 2,
-          "draw": 2,
-          "lost": 4,
-          "goalsFor": 11,
-          "goalsAgainst": 11,
-          "points": 8,
-          "goalDifference": 0,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/95.gif",
-          "form": []
-        },
-        {
-          "position": 12,
           "team": "Getafe",
           "played": 7,
           "won": 2,
@@ -732,7 +718,7 @@
           "form": []
         },
         {
-          "position": 13,
+          "position": 12,
           "team": "Rayo Vallecano",
           "played": 7,
           "won": 2,
@@ -746,7 +732,7 @@
           "form": []
         },
         {
-          "position": 14,
+          "position": 13,
           "team": "Osasuna",
           "played": 7,
           "won": 2,
@@ -760,7 +746,7 @@
           "form": []
         },
         {
-          "position": 15,
+          "position": 14,
           "team": "Celta Vigo",
           "played": 7,
           "won": 1,
@@ -771,6 +757,20 @@
           "points": 7,
           "goalDifference": 2,
           "logo": "https://im.mackolik.com/img/logo/kucuk/76.gif",
+          "form": []
+        },
+        {
+          "position": 15,
+          "team": "Espanyol",
+          "played": 7,
+          "won": 2,
+          "draw": 1,
+          "lost": 4,
+          "goalsFor": 10,
+          "goalsAgainst": 10,
+          "points": 7,
+          "goalDifference": 0,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/95.gif",
           "form": []
         },
         {
@@ -832,13 +832,13 @@
         {
           "position": 20,
           "team": "Malaga",
-          "played": 8,
+          "played": 7,
           "won": 0,
-          "draw": 4,
+          "draw": 3,
           "lost": 4,
-          "goalsFor": 4,
-          "goalsAgainst": 13,
-          "points": 4,
+          "goalsFor": 3,
+          "goalsAgainst": 12,
+          "points": 3,
           "goalDifference": -9,
           "logo": "https://im.mackolik.com/img/logo/kucuk/78.gif",
           "form": []
@@ -851,7 +851,7 @@
     {
       "id": "bundesliga",
       "name": "Bundesliga",
-      "updatedAt": "2026-10-10T00:23:05.247Z",
+      "updatedAt": "2026-10-10T10:50:42.831Z",
       "source": "Maçkolik arşiv 3/73455",
       "table": [
         {
@@ -1400,7 +1400,8 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": ""
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 504 | HTML scrape: https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao: no valid standings table | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
+      "preservedPreviousTable": true
     },
     {
       "id": "ligue-1",
@@ -1663,7 +1664,8 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": ""
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 504 | HTML scrape: https://www.mackolik.com/puan-durumu/fransa-ligue-1/dm5ka0os1e3dxcp3vh05kmp33: no valid standings table | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
+      "preservedPreviousTable": true
     }
   ],
   "competition": "Süper Lig",
