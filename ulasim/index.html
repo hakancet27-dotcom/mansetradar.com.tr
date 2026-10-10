@@ -24,11 +24,12 @@
     }
 
     body.dark-mode {
+      --dark: #f8fafc;
       --surface: #121826;
       --page: #0a0d14;
       --border: #1e293b;
       --text: #f1f5f9;
-      --muted: #94a3b8;
+      --muted: #cbd5e1;
       --shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
       --shadow-strong: 0 10px 30px rgba(0, 0, 0, 0.6);
     }
@@ -64,6 +65,55 @@
     }
     body.dark-mode .topic-link {
       color: #cbd5e1;
+    }
+    body.dark-mode .showcase-title,
+    body.dark-mode #turkiye-title {
+      color: #f8fafc !important;
+    }
+    body.dark-mode .showcase-note {
+      color: #cbd5e1 !important;
+    }
+    body.dark-mode .istanbul-subheading,
+    body.dark-mode .istanbul-showcase h3 {
+      color: #f8fafc !important;
+    }
+    body.dark-mode .istanbul-card-title {
+      color: #f8fafc !important;
+    }
+    body.dark-mode .istanbul-card-footer {
+      border-top-color: #1e293b !important;
+    }
+    body.dark-mode .istanbul-card-footer span,
+    body.dark-mode .istanbul-source {
+      color: #94a3b8 !important;
+    }
+    body.dark-mode .istanbul-card-footer .istanbul-more {
+      color: #60a5fa !important;
+    }
+    body.dark-mode .country-title {
+      color: #f8fafc !important;
+    }
+    body.dark-mode .country-subtitle {
+      color: #cbd5e1 !important;
+    }
+    body.dark-mode .card-title,
+    body.dark-mode .card-title a {
+      color: #f8fafc !important;
+    }
+    body.dark-mode .card-excerpt {
+      color: #cbd5e1 !important;
+    }
+    body.dark-mode .page-heading,
+    body.dark-mode .logo-text strong,
+    body.dark-mode .market-value,
+    body.dark-mode .weather-temp {
+      color: #f8fafc !important;
+    }
+    body.dark-mode .city-metric .metric-label {
+      color: #cbd5e1 !important;
+    }
+    body.dark-mode .city-metric strong {
+      color: #ffffff !important;
     }
     .theme-toggle-btn {
       background: #f1f5f9;
@@ -2145,13 +2195,19 @@
     .istanbul-title {
       font-size: 1.45rem !important;
       font-weight: 800 !important;
-      color: #ffffff !important;
+      color: #0f172a !important;
+    }
+    body.dark-mode .istanbul-title {
+      color: #f8fafc !important;
     }
 
     .istanbul-desc {
-      color: #94a3b8 !important;
+      color: #475569 !important;
       font-size: 0.84rem !important;
       margin-top: 2px !important;
+    }
+    body.dark-mode .istanbul-desc {
+      color: #cbd5e1 !important;
     }
 
     .city-metrics-bar {
