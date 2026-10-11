@@ -3,12 +3,51 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-11T00:00:00+00:00",
-    "article_count": 2279,
+    "article_count": 2286,
     "schema_version": 2,
     "topic_slug": "saglik",
     "type": "topic"
   },
   "articles": [
+    {
+      "id": "articles/2026/10:papa-leo-karadeniz-tahil-cagrisi-ameliyat-duyurusu_20261011",
+      "slug": "papa-leo-karadeniz-tahil-cagrisi-ameliyat-duyurusu_20261011",
+      "title": "Papa Leo'dan Karadeniz'e Tahıl Çağrısı ve Ameliyat Duyurusu",
+      "summary": "Papa 14. Leo, Rusya-Ukrayna Savaşı nedeniyle Karadeniz'de tahılın güvenli taşınması çağrısı yaparken, aynı zamanda akciğerindeki bir nodül nedeniyle ameliyat olacağını duyurdu. Milyonlarca insanın ekmeğinin savaşın rehinesi olamayacağını vurguladı.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "11.10.2026",
+      "date_iso": "2026-10-11",
+      "url": "/articles/2026/10/papa-leo-karadeniz-tahil-cagrisi-ameliyat-duyurusu_20261011/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/papa-leo-karadeniz-tahil-cagrisi-ameliyat-duyurusu_20261011/",
+      "detail_json_url": "/data/details/articles/2026/10/papa-leo-karadeniz-tahil-cagrisi-ameliyat-duyurusu_20261011.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/papa-leo-karadeniz-tahil-cagrisi-ameliyat-duyurusu_20261011.webp",
+      "image_alt": "Papa Leo'dan Karadeniz'e Tahıl Çağrısı ve Ameliyat Duyurusu",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/papa-leo-karadeniz-tahil-cagrisi-ameliyat-duyurusu_20261011.webp",
+        "alt": "Papa Leo'dan Karadeniz'e Tahıl Çağrısı ve Ameliyat Duyurusu"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/papa-leodan-karadeniz-cagrisi-43337759",
+      "tags": [
+        "Papa Leo",
+        "Vatikan",
+        "Karadeniz Tahıl Koridoru",
+        "Rusya-Ukrayna Savaşı",
+        "Sağlık",
+        "Ameliyat"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/10:sigara-satisi-kimlikle-olacak-saglik-bakani-acikladi_20261010",
       "slug": "sigara-satisi-kimlikle-olacak-saglik-bakani-acikladi_20261010",
