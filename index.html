@@ -234,6 +234,43 @@
       background: #3f1515;
       color: #f87171;
     }
+    .trending-services {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+    .trending-item.service-item {
+      background: #e2e8f0;
+      color: #0f172a;
+      font-weight: 800;
+      border: 1px solid #cbd5e1;
+    }
+    .trending-item.service-item:hover {
+      background: #fee2e2;
+      border-color: #fca5a5;
+      color: var(--red);
+    }
+    body.dark-mode .trending-item.service-item {
+      background: #1e293b;
+      border-color: #334155;
+      color: #f8fafc;
+    }
+    body.dark-mode .trending-item.service-item:hover {
+      background: #331f24;
+      border-color: #7f1d1d;
+      color: #f87171;
+    }
+    .trending-divider {
+      width: 1px;
+      height: 18px;
+      background: var(--border);
+      flex-shrink: 0;
+      margin: 0 4px;
+    }
+    body.dark-mode .trending-divider {
+      background: #334155;
+    }
 
     body {
       font-family: "Segoe UI", Arial, sans-serif;
@@ -3052,8 +3089,17 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
     </div>
   </header>
 
-                                                                                                                      <div class="trending-bar" aria-label="Günün Sıcak Trendleri">
+  <div class="trending-bar" aria-label="Canlı Servisler ve Günün Sıcak Trendleri">
     <div class="inner">
+      <div class="trending-services">
+        <a href="/puan-durumu/" class="trending-item service-item">⚽ Puan Durumu</a>
+        <a href="/weather/" class="trending-item service-item">☀️ Hava Durumu</a>
+        <a href="/namaz/" class="trending-item service-item">🕌 Namaz</a>
+        <a href="/horoscope/" class="trending-item service-item">🔮 Burçlar</a>
+        <a href="/hizmet/eczane/" class="trending-item service-item">💊 Nöbetçi Eczane</a>
+        <a href="/piyasa/" class="trending-item service-item">📈 Piyasa &amp; Altın</a>
+      </div>
+      <span class="trending-divider" aria-hidden="true"></span>
       <span class="trending-label">🔥 Sıcak Gündem:</span>
       <div class="trending-items">
         <a href="/haber/alanya-hava-durumu.html" class="trending-item" title="Alanya Hava Durumu Uyarısı: Meteoroloji&#x27;den Son Dakika Raporu ve 7 Günlük Detaylı Tahmin">Alanya Hava Durumu Uyarısı</a><a href="/haber/zeynep-sonmez.html" class="trending-item" title="Zeynep Sönmez Fırtınası: Türk Tenisinin Yeni Yıldızı Dünya Arenasını Sallıyor!">Zeynep Sönmez Fırtınası</a><a href="/haber/yeralti-2-sezon-ne-zaman-baslayacak.html" class="trending-item" title="Yeraltı&#x27;nda Sessizlik Bozuluyor: 2. Sezon Ne Zaman Geliyor? İşte Büyük Sır Perdesini Aralayan Kulis Bilgileri!">Yeraltı&#x27;nda Sessizlik Bozuluyor</a><a href="/haber/yunus-yildirim.html" class="trending-item" title="Futbol Dünyasını Sarsan Çıkış: Yunus Yıldırım&#x27;dan Hakemlik Sistemine Bomba İddialar!">Futbol Dünyasını Sarsan Çıkış</a><a href="/haber/yeniden-refah-partisi.html" class="trending-item" title="Siyaset Sahnesinde Kartlar Yeniden Dağıtılıyor: Yeniden Refah Partisi’nin Büyüme Stratejisi ve Türk Siyasetine Derin Etkisi">Siyaset Sahnesinde Kartlar Yeniden Dağıtılıyo...</a><a href="/haber/yahsi-cazibe-simge.html" class="trending-item" title="Yahşi Cazibe&#x27;nin Unutulmaz Simge&#x27;si Neden Yeniden Gündemde? Dijital Çağda Yükselen Bir Fenomenin Perde Arkası">Yahşi Cazibe&#x27;nin Unutulmaz Simge&#x27;si Neden Yen...</a><a href="/haber/uranyum.html" class="trending-item" title="Uranyum Ateşi Yükseliyor: Küresel Enerji Denkleminde Yeni Güç Dengesi ve Türkiye&#x27;nin Kritik Rolü">Uranyum Ateşi Yükseliyor</a><a href="/haber/tur.html" class="trending-item" title="Türkiye&#x27;de &#x27;Tur&#x27; Hız Kesmiyor: Ekonominin Dinamosu, Vatandaşın Yeni Gözdesi! Gizemli Yükselişin Perde Arkası">Türkiye&#x27;de &#x27;Tur&#x27; Hız Kesmiyor</a><a href="/haber/trendyol-super-lig-puan-durumu.html" class="trending-item" title="Trendyol Süper Lig&#x27;de Zirve Ateşi Harlıyor: Puan Durumu Nasıl Şekillendi, Şampiyonluk İddiaları Nereye Evriliyor?">Trendyol Süper Lig&#x27;de Zirve Ateşi Harlıyor</a><a href="/haber/tev-bursu.html" class="trending-item" title="TEV Bursu Fırtınası: Geleceğin Mimarı Gençlere Nefes Veren O Dev Destek! Başvuru Süreci, Kriterler ve Bilinmesi Gereken Her Şey">TEV Bursu Fırtınası</a><a href="/haber/tennis-scores-today.html" class="trending-item" title="Tenis Kortlarında Bugün Büyük Heyecan: Favoriler Mi Kazandı, Sürprizler Mi Yaşandı?">Tenis Kortlarında Bugün Büyük Heyecan</a><a href="/haber/tabii.html" class="trending-item" title="Dijital Yayıncılıkta Yeni Bir Dev: TRT&#x27;nin &quot;Tabii&quot; Platformu Piyasayı Nasıl Salladı ve Geleceği Ne?">Dijital Yayıncılıkta Yeni Bir Dev</a><a href="/haber/super-loto.html" class="trending-item" title="Süper Loto Çılgınlığı Dorukta: Milyonluk Hayallerin Perde Arkası ve Kazanmanın Sırları">Süper Loto Çılgınlığı Dorukta</a><a href="/haber/super-lig-fikstur.html" class="trending-item" title="Süper Lig Fikstürü Açıklandı: Şampiyonluğun Rotası Çizildi mi? İşte Her Takımın Kaderini Belirleyecek Kritik Virajlar!">Süper Lig Fikstürü Açıklandı</a><a href="/haber/sozcu-gazetesi.html" class="trending-item" title="Sözcü Gazetesi Gündemi Sallıyor: Bağımsız Medyanın Nabzı ve Gelecek Senaryoları">Sözcü Gazetesi Gündemi Sallıyor</a>
@@ -3066,12 +3112,6 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
     <div class="inner">
       <div class="topic-list">
         <a class="topic-link primary is-active" href="/" data-topic="son-dakika">Son Dakika</a>
-        <a class="topic-link" href="/puan-durumu/">⚽ Puan Durumu</a>
-        <a class="topic-link" href="/hizmet/eczane/">💊 Nöbetçi Eczane</a>
-        <a class="topic-link" href="/weather/">☀️ Hava Durumu</a>
-        <a class="topic-link" href="/piyasa/">📈 Piyasa &amp; Altın</a>
-        <a class="topic-link" href="/namaz/">🕌 Namaz</a>
-        <a class="topic-link" href="/horoscope/">🔮 Burçlar</a>
         <a class="topic-link" href="/?kategori=gundem" data-topic="gundem">Gündem</a>
         <a class="topic-link" href="/?kategori=ekonomi" data-topic="ekonomi">Ekonomi</a>
         <a class="topic-link" href="/?kategori=siyaset" data-topic="siyaset">Siyaset</a>
