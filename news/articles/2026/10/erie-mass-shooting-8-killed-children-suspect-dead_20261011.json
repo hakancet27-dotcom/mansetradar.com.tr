@@ -45,14 +45,6 @@
   "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/erie-mass-shooting-8-killed-children-suspect-dead_20261011.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "clear",
-  "image_license_note": "Unsplash API photo",
-  "image_source_url": "https://unsplash.com/photos/a-group-of-people-standing-next-to-a-yellow-police-line-g86cBfIbd6E",
-  "image_provider": "unsplash",
-  "image_score": 78,
-  "image_query": "crime scene",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "Eight people, including two children, were killed in a mass shooting Friday in Erie, Pennsylvania. The suspected gunman is also dead. Authorities identified the victims as a 1-year-old girl, a 5-year-old boy, four women (one pregnant), and two young men. The suspected shooter was related to seven of the eight victims. Police responded to Perry Street around 5 p.m. Friday after reports of a man firing a gun before...",
   "language": "English",
   "url_prefix": "news/articles/2026/10",
@@ -70,10 +62,7 @@
   "quality_notes": [],
   "quality_word_count": 457,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.unsplash.com/photo-1690400524283-4e410dce7318?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwzfHxjcmltZSUyMHNjZW5lfGVufDF8MHx8fDE3OTE2ODA0OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "original_image_url": "https://images.unsplash.com/photo-1690400524283-4e410dce7318?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwzfHxjcmltZSUyMHNjZW5lfGVufDF8MHx8fDE3OTE2ODA0OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "image_local_webp": "news/articles/2026/10/images/erie-mass-shooting-8-killed-children-suspect-dead_20261011.webp",
-  "image_credit": "unsplash.com",
-  "image_credit_url": "https://unsplash.com/photos/a-group-of-people-standing-next-to-a-yellow-police-line-g86cBfIbd6E",
-  "image_finalized_at": "2026-10-11T01:01:43.120951Z"
+  "time": "00:24",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }
