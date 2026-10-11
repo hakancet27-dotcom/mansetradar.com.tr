@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-11T00:00:00+00:00",
-    "article_count": 2273,
+    "article_count": 2274,
     "schema_version": 2
   },
   "hero": [
@@ -1173,6 +1173,46 @@
         "İnfaz",
         "Tennessee",
         "Cinayet"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:india-cockroach-party-leaders-released-detention-protests_20261011",
+      "slug": "india-cockroach-party-leaders-released-detention-protests_20261011",
+      "title": "India's 'Cockroach Party' Leaders Released Amid Crackdown",
+      "summary": "Leaders of India's youth movement, the Cockroach Janata Party, Abhijeet Dipke, Saurav Das, and Ashutosh Ranka, were released from detention Sunday. Their arrest Saturday in New Delhi preceded planned protests against contentious voter list revisions and dem...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "11.10.2026",
+      "date_iso": "2026-10-11",
+      "url": "/news/articles/2026/10/india-cockroach-party-leaders-released-detention-protests_20261011/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/india-cockroach-party-leaders-released-detention-protests_20261011/",
+      "detail_json_url": "/data/details/news/articles/2026/10/india-cockroach-party-leaders-released-detention-protests_20261011.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/india-cockroach-party-leaders-released-detention-protests_20261011.webp",
+      "image_alt": "Leaders of India's Cockroach Janata Party, Abhijeet Dipke, Saurav Das, and Ashutosh Ranka, after their release from...",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/india-cockroach-party-leaders-released-detention-protests_20261011.webp",
+        "alt": "Leaders of India's Cockroach Janata Party, Abhijeet Dipke, Saurav Das, and Ashutosh Ranka, after their release from..."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/india-cockroach-party-leaders-released-protests/",
+      "tags": [
+        "India",
+        "Protests",
+        "Detention",
+        "Narendra Modi",
+        "Cockroach Janata Party",
+        "Youth Movement",
+        "Voter Lists"
       ],
       "quality_score": 100,
       "review_status": "published"
@@ -3093,44 +3133,6 @@
         "USA"
       ],
       "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "nachrichten/artikel/2026/10:surfer-ueberlebt-nacht-nordsee-borkum_20261009",
-      "slug": "surfer-ueberlebt-nacht-nordsee-borkum_20261009",
-      "title": "Surfer überlebt Nacht auf stürmischer Nordsee vor Borkum",
-      "summary": "Ein 69-jähriger Surfer hat eine Nacht auf der stürmischen Nordsee vor Borkum überlebt. Nach stundenlanger Suche, die aufgrund von Windstärke 6 und nächtlicher Dunkelheit erschwert wurde, wurde er am Freitagmorgen wohlbehalten bei Angehörigen aufgefunden. Di...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Germany",
-      "language": "de",
-      "language_label": "German",
-      "section": "nachrichten/artikel",
-      "section_name": "Deutschland Nachrichten",
-      "url_prefix": "nachrichten/artikel/2026/10",
-      "date": "09.10.2026",
-      "date_iso": "2026-10-09",
-      "url": "/nachrichten/artikel/2026/10/surfer-ueberlebt-nacht-nordsee-borkum_20261009/",
-      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/surfer-ueberlebt-nacht-nordsee-borkum_20261009/",
-      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/surfer-ueberlebt-nacht-nordsee-borkum_20261009.json",
-      "image_url": "https://cdn.prod.www.spiegel.de/images/7d19db7a-6f95-4cc1-a1cf-120b49af4c91_w520_r2.08_fpx51.31_fpy54.99.jpg",
-      "image_alt": "Surfer überlebt Nacht auf stürmischer Nordsee vor Borkum",
-      "image": {
-        "url": "https://cdn.prod.www.spiegel.de/images/7d19db7a-6f95-4cc1-a1cf-120b49af4c91_w520_r2.08_fpx51.31_fpy54.99.jpg",
-        "alt": "Surfer überlebt Nacht auf stürmischer Nordsee vor Borkum"
-      },
-      "source_name": "DER SPIEGEL - Schlagzeilen",
-      "source_url": "https://www.spiegel.de/panorama/borkum-surfer-ueberlebt-nacht-auf-stuermischer-nordsee-mit-seinem-surfbrett-a-6b8b077d-e760-4524-97dd-0cc845c1c7f1#ref=rss",
-      "tags": [
-        "Borkum",
-        "Nordsee",
-        "Surfen",
-        "Seenotrettung",
-        "Unfall"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]
