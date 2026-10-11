@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-11T00:00:00+00:00",
-    "article_count": 2291,
+    "article_count": 2295,
     "schema_version": 2,
     "section": "nachrichten-artikel"
   },
@@ -47,6 +47,44 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/10:trump-energie-waffenruhe-russland-ukraine_20261011",
+      "slug": "trump-energie-waffenruhe-russland-ukraine_20261011",
+      "title": "Trump verkündet \"Energie-Waffenruhe\" zwischen Russland und Ukraine – Kiew und Moskau schweigen",
+      "summary": "US-Präsident Donald Trump hat auf seiner Social-Media-Plattform Truth Social eine \"Energie-Waffenruhe\" zwischen Russland und der Ukraine verkündet, die mit sofortiger Wirkung in Kraft treten soll. Beide Seiten hätten dem zugestimmt, so Trump. Eine Bestätigu...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "11.10.2026",
+      "date_iso": "2026-10-11",
+      "url": "/nachrichten/artikel/2026/10/trump-energie-waffenruhe-russland-ukraine_20261011/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/trump-energie-waffenruhe-russland-ukraine_20261011/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/trump-energie-waffenruhe-russland-ukraine_20261011.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/trump-energie-waffenruhe-russland-ukraine_20261011.webp",
+      "image_alt": "Symbolbild: Donald Trump verkündet \"Energie-Waffenruhe\" zwischen Russland und Ukraine",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/trump-energie-waffenruhe-russland-ukraine_20261011.webp",
+        "alt": "Symbolbild: Donald Trump verkündet \"Energie-Waffenruhe\" zwischen Russland und Ukraine"
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/ausland/amerika/trump-russland-ukraine-energie-waffenrufe-100.html",
+      "tags": [
+        "Energie-Waffenruhe",
+        "Russland",
+        "Ukraine",
+        "Donald Trump",
+        "Wolodymyr Selenskyj"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "nachrichten/artikel/2026/10:strasse-von-hormus-oeltanker-nach-angriff-in-brand_20261011",
       "slug": "strasse-von-hormus-oeltanker-nach-angriff-in-brand_20261011",
       "title": "Angriff in der Straße von Hormus: Öltanker nach Treffer in Brand geraten",
@@ -82,6 +120,43 @@
         "Schifffahrt"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:sc-freiburg-neuer-tabellenfuehrer-bundesliga_20261011",
+      "slug": "sc-freiburg-neuer-tabellenfuehrer-bundesliga_20261011",
+      "title": "SC Freiburg erobert Tabellenspitze der Bundesliga",
+      "summary": "Der SC Freiburg hat am 5. Spieltag der Fußball-Bundesliga die Tabellenführung übernommen. Die Breisgauer besiegten den FC Schalke 04 trotz Unterzahl in der Schlussphase mit 2:1 und verdrängten Borussia Dortmund von der Spitzenposition. Maximilian Eggestein...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "11.10.2026",
+      "date_iso": "2026-10-11",
+      "url": "/nachrichten/artikel/2026/10/sc-freiburg-neuer-tabellenfuehrer-bundesliga_20261011/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/sc-freiburg-neuer-tabellenfuehrer-bundesliga_20261011/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/sc-freiburg-neuer-tabellenfuehrer-bundesliga_20261011.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/sc-freiburg-neuer-tabellenfuehrer-bundesliga_20261011.webp",
+      "image_alt": "SC Freiburg feiert einen Treffer gegen Schalke 04 in der Bundesliga",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/sc-freiburg-neuer-tabellenfuehrer-bundesliga_20261011.webp",
+        "alt": "SC Freiburg feiert einen Treffer gegen Schalke 04 in der Bundesliga"
+      },
+      "source_name": "n-tv.de - Startseite",
+      "source_url": "https://www.n-tv.de/sport/fussball/SC-Freiburg-ist-neuer-Tabellenfuehrer-id31405950.html",
+      "tags": [
+        "SC Freiburg",
+        "Bundesliga",
+        "Tabellenführer",
+        "FC Schalke 04"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -317,6 +392,80 @@
         "Torwart"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:guy-parmelin-schweiz-regiert-am-besten-wer-am-wenigsten-auffaellt_20261011",
+      "slug": "guy-parmelin-schweiz-regiert-am-besten-wer-am-wenigsten-auffaellt_20261011",
+      "title": "Guy Parmelin: Schweiz regiert am besten, wer am wenigsten auffällt",
+      "summary": "Bundespräsident Guy Parmelin hat eine klare Vorstellung davon, wie die Schweiz am besten regiert wird: nämlich dann, wenn die Politik möglichst wenig auffällt. Diese Haltung spiegelt eine tief verwurzelte Tradition der Schweizer Politik wider, die auf Konse...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "11.10.2026",
+      "date_iso": "2026-10-11",
+      "url": "/nachrichten/artikel/2026/10/guy-parmelin-schweiz-regiert-am-besten-wer-am-wenigsten-auffaellt_20261011/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/guy-parmelin-schweiz-regiert-am-besten-wer-am-wenigsten-auffaellt_20261011/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/guy-parmelin-schweiz-regiert-am-besten-wer-am-wenigsten-auffaellt_20261011.json",
+      "image_url": "https://cdn.prod.www.spiegel.de/images/5b542bbe-2190-4e63-b12d-cfadf613b457_w520_r2.08_fpx33.25_fpy49.88.jpg",
+      "image_alt": "Bundespräsident Guy Parmelin mit einem Ferkel auf der Olma-Messe in St. Gallen.",
+      "image": {
+        "url": "https://cdn.prod.www.spiegel.de/images/5b542bbe-2190-4e63-b12d-cfadf613b457_w520_r2.08_fpx33.25_fpy49.88.jpg",
+        "alt": "Bundespräsident Guy Parmelin mit einem Ferkel auf der Olma-Messe in St. Gallen."
+      },
+      "source_name": "DER SPIEGEL - Schlagzeilen",
+      "source_url": "https://www.spiegel.de/ausland/guy-parmelin-die-schweiz-regiert-am-besten-wer-am-wenigsten-auffaellt-a-d3426b3d-1ff9-4f99-805c-2e38e5c14210#ref=rss",
+      "tags": [
+        "Guy Parmelin",
+        "Schweizer Politik",
+        "Regierung",
+        "Konsens"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:gladbach-verliert-derby-gegen-koeln-saisonkrise-verschaerft-sich_20261011",
+      "slug": "gladbach-verliert-derby-gegen-koeln-saisonkrise-verschaerft-sich_20261011",
+      "title": "Gladbach verliert Derby gegen Köln – Saisonkrise verschärft sich",
+      "summary": "Borussia Mönchengladbach hat im 101. Rheinischen Derby die fünfte Saisonniederlage kassiert. Gegen den Erzrivalen 1. FC Köln unterlag die Elf von Neu-Trainer Alexander Blessin mit 1:2. Shootingstar Said El Mala erzielte den Siegtreffer für die Kölner. Die s...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "11.10.2026",
+      "date_iso": "2026-10-11",
+      "url": "/nachrichten/artikel/2026/10/gladbach-verliert-derby-gegen-koeln-saisonkrise-verschaerft-sich_20261011/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/gladbach-verliert-derby-gegen-koeln-saisonkrise-verschaerft-sich_20261011/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/gladbach-verliert-derby-gegen-koeln-saisonkrise-verschaerft-sich_20261011.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/gladbach-verliert-derby-gegen-koeln-saisonkrise-verschaerft-sich_20261011.webp",
+      "image_alt": "Fußballspiel in der Bundesliga mit jubelnden Fans und Spielern.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/gladbach-verliert-derby-gegen-koeln-saisonkrise-verschaerft-sich_20261011.webp",
+        "alt": "Fußballspiel in der Bundesliga mit jubelnden Fans und Spielern."
+      },
+      "source_name": "n-tv.de - Startseite",
+      "source_url": "https://www.n-tv.de/sport/fussball/Gladbach-kassiert-schmerzhafteste-Pleite-der-Saison-id31405789.html",
+      "tags": [
+        "Bundesliga",
+        "1. FC Köln",
+        "Borussia Mönchengladbach",
+        "Derby"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
