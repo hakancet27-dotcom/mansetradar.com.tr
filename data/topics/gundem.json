@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-12T00:00:00+00:00",
-    "article_count": 2326,
+    "article_count": 2330,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -82,6 +82,44 @@
         "Sakarya",
         "Adalet",
         "Dijital Delil"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:ingiliz-futbolunda-41-yillik-alkol-yasagi-tartismasi_20261012",
+      "slug": "ingiliz-futbolunda-41-yillik-alkol-yasagi-tartismasi_20261012",
+      "title": "İngiliz Futbolunda 41 Yıllık Yasak İçin Kritik Çağrı",
+      "summary": "İngiltere ve Galler'de 1985 yılından bu yana uygulanan, futbol maçlarında tribünden sahayı izlerken alkol tüketimini yasaklayan düzenleme yeniden tartışmaya açıldı. Manchester Belediye Başkanı Andy Burnham'ın yasağın kaldırılması yönündeki çağrısı, İngiliz...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "12.10.2026",
+      "date_iso": "2026-10-12",
+      "url": "/articles/2026/10/ingiliz-futbolunda-41-yillik-alkol-yasagi-tartismasi_20261012/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/ingiliz-futbolunda-41-yillik-alkol-yasagi-tartismasi_20261012/",
+      "detail_json_url": "/data/details/articles/2026/10/ingiliz-futbolunda-41-yillik-alkol-yasagi-tartismasi_20261012.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/ingiliz-futbolunda-41-yillik-alkol-yasagi-tartismasi_20261012.webp",
+      "image_alt": "İngiltere'de bir futbol stadyumunda tribünler ve taraftarlar.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/ingiliz-futbolunda-41-yillik-alkol-yasagi-tartismasi_20261012.webp",
+        "alt": "İngiltere'de bir futbol stadyumunda tribünler ve taraftarlar."
+      },
+      "source_name": "Ajansspor - Son Haberler",
+      "source_url": "https://ajansspor.com/haber/41-yildir-yasakti-futbol-tribunlerinde-yeni-donem-gundemde-736473",
+      "tags": [
+        "İngiltere",
+        "Futbol",
+        "Andy Burnham",
+        "Alkol Yasağı",
+        "Stadyum Güvenliği"
       ],
       "quality_score": 86,
       "review_status": "published"
