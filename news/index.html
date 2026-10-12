@@ -205,6 +205,43 @@
       background: #3f1515;
       color: #f87171;
     }
+    .trending-services {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+    .trending-item.service-item {
+      background: #e2e8f0;
+      color: #0f172a;
+      font-weight: 800;
+      border: 1px solid #cbd5e1;
+    }
+    .trending-item.service-item:hover {
+      background: #fee2e2;
+      border-color: #fca5a5;
+      color: var(--red);
+    }
+    body.dark-mode .trending-item.service-item {
+      background: #1e293b;
+      border-color: #334155;
+      color: #f8fafc;
+    }
+    body.dark-mode .trending-item.service-item:hover {
+      background: #331f24;
+      border-color: #7f1d1d;
+      color: #f87171;
+    }
+    .trending-divider {
+      width: 1px;
+      height: 18px;
+      background: var(--border);
+      flex-shrink: 0;
+      margin: 0 4px;
+    }
+    body.dark-mode .trending-divider {
+      background: #334155;
+    }
 
     body {
       font-family: "Segoe UI", Arial, sans-serif;
