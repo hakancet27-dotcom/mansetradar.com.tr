@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-12T00:00:00+00:00",
-    "article_count": 2333,
+    "article_count": 2337,
     "schema_version": 2,
     "topic_slug": "dunya",
     "type": "topic"
@@ -85,6 +85,82 @@
         "Kanal D International"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:israil-secimleri-eisenkot-netanyahu-anket_20261012",
+      "slug": "israil-secimleri-eisenkot-netanyahu-anket_20261012",
+      "title": "Eisenkot, İsrail Başbakanlık Yarışında Netanyahu'yu Geride Bıraktı",
+      "summary": "İsrail'de yapılan son kamuoyu yoklamasına göre, başbakanlık için en uygun aday olarak Eisenkot yüzde 43 destekle Netanyahu'nun (yüzde 38) önüne geçti. Netanyahu bloğu sandalye sayısını 53'e çıkarırken, muhalefet bloğu 50 sandalyeye geriledi. 27 Ekim'deki pa...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "12.10.2026",
+      "date_iso": "2026-10-12",
+      "url": "/articles/2026/10/israil-secimleri-eisenkot-netanyahu-anket_20261012/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/israil-secimleri-eisenkot-netanyahu-anket_20261012/",
+      "detail_json_url": "/data/details/articles/2026/10/israil-secimleri-eisenkot-netanyahu-anket_20261012.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/israil-secimleri-eisenkot-netanyahu-anket_20261012.webp",
+      "image_alt": "İsrail'de başbakanlık anketinde Eisenkot'un Netanyahu'yu geçtiğini gösteren bir grafik.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/israil-secimleri-eisenkot-netanyahu-anket_20261012.webp",
+        "alt": "İsrail'de başbakanlık anketinde Eisenkot'un Netanyahu'yu geçtiğini gösteren bir grafik."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/eisenkot-basbakanlik-yarisinda-netanyahu-ile-arasindaki-farki-aciyor-7678060",
+      "tags": [
+        "İsrail Seçimleri",
+        "Eisenkot",
+        "Netanyahu",
+        "Kamuoyu Yoklaması",
+        "Siyaset"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:ab-abd-canli-infaz-yayin-uyarisi_20261012",
+      "slug": "ab-abd-canli-infaz-yayin-uyarisi_20261012",
+      "title": "AB'den ABD'deki 'Canlı Yayın' İnfazına Karşı Dijital Hizmetler Yasası Uyarısı",
+      "summary": "ABD Savunma Bakanı Pete Hegseth'in, 2009'da 13 kişiyi öldüren eski Binbaşı Nidal Malik Hasan'ın kurşuna dizilerek infazının halka açık ve canlı yayımlanacağını duyurması Avrupa Birliği'ni alarma geçirdi. AB, dijital platformları Dijital Hizmetler Yasası (DS...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "12.10.2026",
+      "date_iso": "2026-10-12",
+      "url": "/articles/2026/10/ab-abd-canli-infaz-yayin-uyarisi_20261012/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/ab-abd-canli-infaz-yayin-uyarisi_20261012/",
+      "detail_json_url": "/data/details/articles/2026/10/ab-abd-canli-infaz-yayin-uyarisi_20261012.json",
+      "image_url": "https://images.ntv.com.tr/images/malik-119717.jpg",
+      "image_alt": "AB ve ABD arasındaki dijital infaz yayını tartışmasını temsil eden sembolik görsel.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/malik-119717.jpg",
+        "alt": "AB ve ABD arasındaki dijital infaz yayını tartışmasını temsil eden sembolik görsel."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/dunya/abde-canli-yayinda-infaz-alarmi-kursuna-dizilecek-1746002",
+      "tags": [
+        "ABD",
+        "Avrupa Birliği",
+        "Nidal Malik Hasan",
+        "Dijital Hizmetler Yasası",
+        "İnfaz"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {

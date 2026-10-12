@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-12T00:00:00+00:00",
-    "article_count": 2333,
+    "article_count": 2337,
     "schema_version": 2
   },
   "articles": [
@@ -318,6 +318,45 @@
         "Middle East Conflict",
         "Energy Security",
         "US Foreign Policy"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:sanal-medya-okul-saldirilari-yeni-nesil-tehditler_20261012",
+      "slug": "sanal-medya-okul-saldirilari-yeni-nesil-tehditler_20261012",
+      "title": "Sanal Medya Öfkeli Gençleri Şiddete Yöneltiyor",
+      "summary": "ABD'li Kriminoloji uzmanı Prof. Dr. James Densley, dünya genelinde artan okul saldırılarında sanal medyanın rolüne dikkat çekti. Densley, yalnız ve öfkeli gençlerin şiddete yönelmesinde internetin bir yol haritası sunduğunu ve yeni nesil saldırgan profilini...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "12.10.2026",
+      "date_iso": "2026-10-12",
+      "url": "/articles/2026/10/sanal-medya-okul-saldirilari-yeni-nesil-tehditler_20261012/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/sanal-medya-okul-saldirilari-yeni-nesil-tehditler_20261012/",
+      "detail_json_url": "/data/details/articles/2026/10/sanal-medya-okul-saldirilari-yeni-nesil-tehditler_20261012.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/sanal-medya-okul-saldirilari-yeni-nesil-tehditler_20261012.webp",
+      "image_alt": "Sanal Medya Öfkeli Gençleri Şiddete Yöneltiyor",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/sanal-medya-okul-saldirilari-yeni-nesil-tehditler_20261012.webp",
+        "alt": "Sanal Medya Öfkeli Gençleri Şiddete Yöneltiyor"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/sanal-medya-ofkeli-genclere-yol-gosteriyor-43339076",
+      "tags": [
+        "sanal medya",
+        "okul saldırıları",
+        "James Densley",
+        "gençlik şiddeti",
+        "kriminoloji",
+        "dijital platformlar"
       ],
       "quality_score": 100,
       "review_status": "published"
@@ -789,6 +828,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/10:israil-secimleri-eisenkot-netanyahu-anket_20261012",
+      "slug": "israil-secimleri-eisenkot-netanyahu-anket_20261012",
+      "title": "Eisenkot, İsrail Başbakanlık Yarışında Netanyahu'yu Geride Bıraktı",
+      "summary": "İsrail'de yapılan son kamuoyu yoklamasına göre, başbakanlık için en uygun aday olarak Eisenkot yüzde 43 destekle Netanyahu'nun (yüzde 38) önüne geçti. Netanyahu bloğu sandalye sayısını 53'e çıkarırken, muhalefet bloğu 50 sandalyeye geriledi. 27 Ekim'deki pa...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "12.10.2026",
+      "date_iso": "2026-10-12",
+      "url": "/articles/2026/10/israil-secimleri-eisenkot-netanyahu-anket_20261012/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/israil-secimleri-eisenkot-netanyahu-anket_20261012/",
+      "detail_json_url": "/data/details/articles/2026/10/israil-secimleri-eisenkot-netanyahu-anket_20261012.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/israil-secimleri-eisenkot-netanyahu-anket_20261012.webp",
+      "image_alt": "İsrail'de başbakanlık anketinde Eisenkot'un Netanyahu'yu geçtiğini gösteren bir grafik.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/israil-secimleri-eisenkot-netanyahu-anket_20261012.webp",
+        "alt": "İsrail'de başbakanlık anketinde Eisenkot'un Netanyahu'yu geçtiğini gösteren bir grafik."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/eisenkot-basbakanlik-yarisinda-netanyahu-ile-arasindaki-farki-aciyor-7678060",
+      "tags": [
+        "İsrail Seçimleri",
+        "Eisenkot",
+        "Netanyahu",
+        "Kamuoyu Yoklaması",
+        "Siyaset"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:ingiliz-futbolunda-41-yillik-alkol-yasagi-tartismasi_20261012",
       "slug": "ingiliz-futbolunda-41-yillik-alkol-yasagi-tartismasi_20261012",
       "title": "İngiliz Futbolunda 41 Yıllık Yasak İçin Kritik Çağrı",
@@ -1113,6 +1190,43 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/10:banglades-dang-hummasi-100-bin-vaka_20261012",
+      "slug": "banglades-dang-hummasi-100-bin-vaka_20261012",
+      "title": "Bangladeş'te Dang Humması Salgını: Vaka Sayısı 100 Bini Aştı",
+      "summary": "Bangladeş'te sivrisinekler aracılığıyla yayılan dang humması salgını endişe verici boyutlara ulaştı. Ülkede yılbaşından bu yana 101 bin 442 kişi hastalığa yakalanırken, 307 kişi hayatını kaybetti. Son 24 saatte ise 2 bin 167 yeni vaka ve 4 ölüm bildirildi.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "12.10.2026",
+      "date_iso": "2026-10-12",
+      "url": "/articles/2026/10/banglades-dang-hummasi-100-bin-vaka_20261012/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/banglades-dang-hummasi-100-bin-vaka_20261012/",
+      "detail_json_url": "/data/details/articles/2026/10/banglades-dang-hummasi-100-bin-vaka_20261012.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/banglades-dang-hummasi-100-bin-vaka_20261012.webp",
+      "image_alt": "Dang humması taşıyan sivrisinek illüstrasyonu, Bangladeş'teki salgın tehlikesini vurguluyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/banglades-dang-hummasi-100-bin-vaka_20261012.webp",
+        "alt": "Dang humması taşıyan sivrisinek illüstrasyonu, Bangladeş'teki salgın tehlikesini vurguluyor."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/sivrisinekle-bulasan-tehlike-bangladeste-dang-hummasi-vakasi-100-bini-gecti-7678160",
+      "tags": [
+        "Dang Humması",
+        "Bangladeş",
+        "Sivrisinek",
+        "Sağlık"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "nachrichten/artikel/2026/10:baerbel-bas-ruecktritt-roemmele-analyse_20261012",
       "slug": "baerbel-bas-ruecktritt-roemmele-analyse_20261012",
       "title": "Rücktritt von Bärbel Bas: „Gewaltig“ für SPD, „Bombe“ in Berlin",
@@ -1232,6 +1346,44 @@
         "İstanbul"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:ab-abd-canli-infaz-yayin-uyarisi_20261012",
+      "slug": "ab-abd-canli-infaz-yayin-uyarisi_20261012",
+      "title": "AB'den ABD'deki 'Canlı Yayın' İnfazına Karşı Dijital Hizmetler Yasası Uyarısı",
+      "summary": "ABD Savunma Bakanı Pete Hegseth'in, 2009'da 13 kişiyi öldüren eski Binbaşı Nidal Malik Hasan'ın kurşuna dizilerek infazının halka açık ve canlı yayımlanacağını duyurması Avrupa Birliği'ni alarma geçirdi. AB, dijital platformları Dijital Hizmetler Yasası (DS...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "12.10.2026",
+      "date_iso": "2026-10-12",
+      "url": "/articles/2026/10/ab-abd-canli-infaz-yayin-uyarisi_20261012/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/ab-abd-canli-infaz-yayin-uyarisi_20261012/",
+      "detail_json_url": "/data/details/articles/2026/10/ab-abd-canli-infaz-yayin-uyarisi_20261012.json",
+      "image_url": "https://images.ntv.com.tr/images/malik-119717.jpg",
+      "image_alt": "AB ve ABD arasındaki dijital infaz yayını tartışmasını temsil eden sembolik görsel.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/malik-119717.jpg",
+        "alt": "AB ve ABD arasındaki dijital infaz yayını tartışmasını temsil eden sembolik görsel."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/dunya/abde-canli-yayinda-infaz-alarmi-kursuna-dizilecek-1746002",
+      "tags": [
+        "ABD",
+        "Avrupa Birliği",
+        "Nidal Malik Hasan",
+        "Dijital Hizmetler Yasası",
+        "İnfaz"
+      ],
+      "quality_score": 76,
       "review_status": "published"
     },
     {

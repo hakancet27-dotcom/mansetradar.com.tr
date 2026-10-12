@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-12T00:00:00+00:00",
-    "article_count": 2333,
+    "article_count": 2337,
     "schema_version": 2,
     "topic_slug": "saglik",
     "type": "topic"
@@ -164,6 +164,43 @@
         "sigara",
         "egzersiz",
         "Prof. Dr. Ercan Akşit"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:banglades-dang-hummasi-100-bin-vaka_20261012",
+      "slug": "banglades-dang-hummasi-100-bin-vaka_20261012",
+      "title": "Bangladeş'te Dang Humması Salgını: Vaka Sayısı 100 Bini Aştı",
+      "summary": "Bangladeş'te sivrisinekler aracılığıyla yayılan dang humması salgını endişe verici boyutlara ulaştı. Ülkede yılbaşından bu yana 101 bin 442 kişi hastalığa yakalanırken, 307 kişi hayatını kaybetti. Son 24 saatte ise 2 bin 167 yeni vaka ve 4 ölüm bildirildi.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "12.10.2026",
+      "date_iso": "2026-10-12",
+      "url": "/articles/2026/10/banglades-dang-hummasi-100-bin-vaka_20261012/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/banglades-dang-hummasi-100-bin-vaka_20261012/",
+      "detail_json_url": "/data/details/articles/2026/10/banglades-dang-hummasi-100-bin-vaka_20261012.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/banglades-dang-hummasi-100-bin-vaka_20261012.webp",
+      "image_alt": "Dang humması taşıyan sivrisinek illüstrasyonu, Bangladeş'teki salgın tehlikesini vurguluyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/banglades-dang-hummasi-100-bin-vaka_20261012.webp",
+        "alt": "Dang humması taşıyan sivrisinek illüstrasyonu, Bangladeş'teki salgın tehlikesini vurguluyor."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/sivrisinekle-bulasan-tehlike-bangladeste-dang-hummasi-vakasi-100-bini-gecti-7678160",
+      "tags": [
+        "Dang Humması",
+        "Bangladeş",
+        "Sivrisinek",
+        "Sağlık"
       ],
       "quality_score": 86,
       "review_status": "published"
