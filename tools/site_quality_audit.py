@@ -40,26 +40,61 @@ HTML_ROOTS: list[Path] = []
 JSON_ROOTS: list[Path] = []
 
 
-def set_site_root(path: Path | str) -> None:
+def set_site_root(path: Path | str, article_limit: int = 150) -> None:
     global ROOT, REPORT_DIR, HTML_ROOTS, JSON_ROOTS
     ROOT = Path(path).resolve()
     REPORT_DIR = ROOT / "reports"
-    HTML_ROOTS = [
+
+    core_htmls = [
         ROOT / "index.html",
         ROOT / "haber.html",
         ROOT / "haber" / "index.html",
         ROOT / "news" / "index.html",
         ROOT / "nachrichten" / "index.html",
-        *sorted((ROOT / "articles").glob("*.html")),
-        *sorted((ROOT / "news" / "articles").glob("*.html")),
-        *sorted((ROOT / "nachrichten" / "artikel").glob("*.html")),
+        ROOT / "puan-durumu" / "index.html",
+        ROOT / "weather" / "index.html",
+        ROOT / "horoscope.html",
+        ROOT / "hizmet" / "eczane" / "index.html",
+        ROOT / "hizmet" / "ulasim" / "index.html",
+        ROOT / "hizmet" / "kamu" / "index.html",
+        ROOT / "istanbul" / "index.html",
+        *sorted((ROOT / "istanbul").glob("*/index.html")),
     ]
-    JSON_ROOTS = [
-        *sorted((ROOT / "articles").glob("*.json")),
-        *sorted((ROOT / "news" / "articles").glob("*.json")),
-        *sorted((ROOT / "nachrichten" / "artikel").glob("*.json")),
-        *sorted((ROOT / "review" / "pending").glob("*.json")),
-    ]
+    core_htmls = [p for p in core_htmls if p.exists()]
+
+    def collect_latest_files(base_dir: Path, ext: str, limit: int) -> list[Path]:
+        if not base_dir.exists():
+            return []
+        matches = [
+            p for p in base_dir.rglob(f"*.{ext}")
+            if not p.name.startswith(".") and "images" not in p.parts
+        ]
+        matches.sort(key=lambda p: p.stat().st_mtime, reverse=True)
+        return matches[:limit]
+
+    tr_htmls = collect_latest_files(ROOT / "articles", "html", article_limit)
+    us_htmls = collect_latest_files(ROOT / "news" / "articles", "html", 30)
+    de_htmls = collect_latest_files(ROOT / "nachrichten" / "artikel", "html", 30)
+    root_htmls = [p for p in (ROOT / "articles").glob("*.html") if p.is_file()]
+
+    seen_h = set()
+    HTML_ROOTS = []
+    for p in core_htmls + tr_htmls + us_htmls + de_htmls + root_htmls:
+        if p not in seen_h:
+            seen_h.add(p)
+            HTML_ROOTS.append(p)
+
+    tr_jsons = collect_latest_files(ROOT / "articles", "json", article_limit)
+    us_jsons = collect_latest_files(ROOT / "news" / "articles", "json", 30)
+    de_jsons = collect_latest_files(ROOT / "nachrichten" / "artikel", "json", 30)
+    pending_jsons = sorted((ROOT / "review" / "pending").glob("*.json")) if (ROOT / "review" / "pending").exists() else []
+
+    seen_j = set()
+    JSON_ROOTS = []
+    for p in tr_jsons + us_jsons + de_jsons + pending_jsons:
+        if p not in seen_j:
+            seen_j.add(p)
+            JSON_ROOTS.append(p)
 
 
 set_site_root(ROOT)
@@ -121,12 +156,12 @@ CATEGORY_ALIASES = {
 
 
 def filter_mojibake(matches: list[str]) -> list[str]:
-    valid_german_words = {"Ära", "Ärzte", "Ägypten", "Ähnlich", "Änderung", "Ärger", "Ältere"}
+    valid_words = {"Ära", "Ärzte", "Ägypten", "Ähnlich", "Änderung", "Ärger", "Ältere", "Åkesson", "Åland"}
     filtered = []
     for m in matches:
-        if m in valid_german_words:
+        if m in valid_words:
             continue
-        if m.startswith("Ä") and len(m) > 1 and m[1:].isalpha():
+        if m.startswith(("Ä", "Å", "Â")) and len(m) > 1 and m[1:].isalpha():
             continue
         filtered.append(m)
     return filtered
@@ -213,6 +248,57 @@ def is_redirect_stub(text: str) -> bool:
         or "http-equiv='refresh'" in lowered
         or "window.location.replace" in lowered
     )
+
+
+def check_sitemaps_and_robots(site_root: Path) -> list[dict[str, Any]]:
+    import xml.etree.ElementTree as ET
+    issues = []
+
+    robots_path = site_root / "robots.txt"
+    if not robots_path.exists():
+        issues.append({"file": "robots.txt", "issue": "robots.txt dosyasi bulunamadi!"})
+    else:
+        content = robots_path.read_text(encoding="utf-8", errors="replace")
+        if "sitemap.xml" not in content.lower():
+            issues.append({"file": "robots.txt", "issue": "robots.txt icinde sitemap.xml referansi eksik!"})
+
+    sitemap_path = site_root / "sitemap.xml"
+    if not sitemap_path.exists():
+        issues.append({"file": "sitemap.xml", "issue": "sitemap.xml dosyasi bulunamadi!"})
+    else:
+        try:
+            tree = ET.parse(sitemap_path)
+            root_elem = tree.getroot()
+            if not len(root_elem):
+                issues.append({"file": "sitemap.xml", "issue": "sitemap.xml bos (0 alt harita)!"})
+        except Exception as e:
+            issues.append({"file": "sitemap.xml", "issue": f"sitemap.xml XML parse hatasi: {e}"})
+
+    news_sitemap = site_root / "news-sitemap.xml"
+    if not news_sitemap.exists():
+        issues.append({"file": "news-sitemap.xml", "issue": "news-sitemap.xml dosyasi bulunamadi!"})
+    else:
+        try:
+            tree = ET.parse(news_sitemap)
+            if not len(tree.getroot()):
+                issues.append({"file": "news-sitemap.xml", "issue": "news-sitemap.xml bos!"})
+        except Exception as e:
+            issues.append({"file": "news-sitemap.xml", "issue": f"news-sitemap.xml XML parse hatasi: {e}"})
+
+    ist_sitemap = site_root / "sitemap-istanbul.xml"
+    if not ist_sitemap.exists():
+        ist_sitemap = site_root / "sitemaps" / "istanbul.xml"
+    if not ist_sitemap.exists():
+        issues.append({"file": "sitemap-istanbul.xml", "issue": "Istanbul sitemap dosyasi bulunamadi!"})
+    else:
+        try:
+            tree = ET.parse(ist_sitemap)
+            if len(tree.getroot()) < 39:
+                issues.append({"file": "sitemap-istanbul.xml", "issue": f"Istanbul sitemap eksik ilce iceriyor ({len(tree.getroot())} < 39)!"})
+        except Exception as e:
+            issues.append({"file": "sitemap-istanbul.xml", "issue": f"Istanbul sitemap XML parse hatasi: {e}"})
+
+    return issues
 
 
 def heading_issues(text: str) -> list[str]:
@@ -429,6 +515,7 @@ def build_severity(report: dict[str, Any]) -> dict[str, list[Any]]:
         if not item.get("ok") and item.get("status") is None
     ]
     critical = []
+    critical.extend(report.get("sitemap_issues", []))
     critical.extend(report.get("utf8_suspects", []))
     critical.extend(report.get("broken_links", []))
     critical.extend(report.get("json_errors", []))
@@ -461,6 +548,7 @@ def audit() -> dict[str, Any]:
     json_files = [path for path in JSON_ROOTS if path.exists()]
     report: dict[str, Any] = {
         "summary": {"html_files": len(html_files), "json_files": len(json_files)},
+        "sitemap_issues": check_sitemaps_and_robots(ROOT),
         "utf8_suspects": [],
         "broken_links": [],
         "duplicate_titles": [],
@@ -496,12 +584,13 @@ def audit() -> dict[str, Any]:
         visible = clean_text(text)
         title = html_title(text)
         redirect_stub = is_redirect_stub(text)
-        if title and 'name="robots" content="noindex' not in text.lower():
-            title_map[(scope_for_path(page_rel), normalize_key(title))].append(canonical_key)
-        fingerprint_source = normalize_key(visible[:5000])
-        if fingerprint_source:
-            digest = hashlib.sha1(fingerprint_source.encode("utf-8", errors="ignore")).hexdigest()[:16]
-            content_map[digest].append(canonical_key)
+        if not redirect_stub:
+            if title and 'name="robots" content="noindex' not in text.lower():
+                title_map[(scope_for_path(page_rel), normalize_key(title))].append(canonical_key)
+            fingerprint_source = normalize_key(visible[:5000])
+            if fingerprint_source:
+                digest = hashlib.sha1(fingerprint_source.encode("utf-8", errors="ignore")).hexdigest()[:16]
+                content_map[digest].append(canonical_key)
 
         if not redirect_stub and (len(visible) < 450 or not title):
             report["empty_or_thin_pages"].append({"file": page_rel, "chars": len(visible), "title": title})
@@ -608,6 +697,8 @@ def item_label(item: Any) -> str:
     if isinstance(item, str):
         return item
     if isinstance(item, dict):
+        if "file" in item and "issue" in item:
+            return f"{item['file']}: {item['issue']}"
         return str(item.get("file") or item.get("url") or item.get("title_key") or item.get("fingerprint") or item.get("slug") or item)
     return str(item)
 
@@ -633,6 +724,7 @@ def write_reports(report: dict[str, Any]) -> tuple[Path, Path]:
         lines.append("")
 
     for section in [
+        "sitemap_issues",
         "live_url_checks",
         "utf8_suspects",
         "broken_links",
@@ -661,14 +753,37 @@ def write_reports(report: dict[str, Any]) -> tuple[Path, Path]:
 
 if __name__ == "__main__":
     import argparse
+    import sys
     parser = argparse.ArgumentParser(description="Site quality audit tool.")
     parser.add_argument("--site-root", default=None, help="Root directory of the site to audit.")
+    parser.add_argument("--article-limit", type=int, default=150, help="Number of latest articles to audit.")
+    parser.add_argument("--fail-on-critical", action="store_true", help="Exit with code 1 if critical issues found.")
     args, _ = parser.parse_known_args()
     if args.site_root:
-        set_site_root(args.site_root)
+        set_site_root(args.site_root, article_limit=args.article_limit)
+    else:
+        set_site_root(ROOT, article_limit=args.article_limit)
 
     result = audit()
     json_report, md_report = write_reports(result)
     print(f"Audit written: {json_report.relative_to(ROOT)}")
     print(f"Markdown written: {md_report.relative_to(ROOT)}")
     print(json.dumps(result["summary"], ensure_ascii=False, indent=2))
+
+    sev = result.get("severity", {})
+    criticals = sev.get("critical", [])
+    warnings = sev.get("warning", [])
+
+    for crit in criticals:
+        msg = crit.get("issue") or crit.get("error") or str(crit)
+        f = crit.get("file", "site")
+        print(f"::error file={f}::{msg}")
+
+    for warn in warnings[:15]:
+        msg = warn.get("issue") or warn.get("error") or str(warn)
+        f = warn.get("file", "site")
+        print(f"::warning file={f}::{msg}")
+
+    if args.fail_on_critical and len(criticals) > 0:
+        print(f"\n[FAIL] Site Quality Audit tespit edilen {len(criticals)} KRITIK hata nedeniyle durduruldu!")
+        sys.exit(1)
