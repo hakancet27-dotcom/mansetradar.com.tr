@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-12T00:00:00+00:00",
-    "article_count": 2320,
+    "article_count": 2326,
     "schema_version": 2,
     "topic_slug": "dunya",
     "type": "topic"
@@ -46,6 +46,45 @@
         "insan hakları"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:kanal-d-cannes-cikarmasi-mipcom-2026-turk-dizileri_20261012",
+      "slug": "kanal-d-cannes-cikarmasi-mipcom-2026-turk-dizileri_20261012",
+      "title": "Kanal D'den Cannes Çıkarması: MIPCOM 2026'da Türk Dizileri Rüzgarı Esiyor",
+      "summary": "Kanal D, televizyon sektörünün en prestijli buluşmalarından MIPCOM 2026 kapsamında Fransa'nın Cannes kentine çıkarma yaparak yeni ve kült dizilerini dünya pazarının beğenisine sundu.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "12.10.2026",
+      "date_iso": "2026-10-12",
+      "url": "/articles/2026/10/kanal-d-cannes-cikarmasi-mipcom-2026-turk-dizileri_20261012/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/kanal-d-cannes-cikarmasi-mipcom-2026-turk-dizileri_20261012/",
+      "detail_json_url": "/data/details/articles/2026/10/kanal-d-cannes-cikarmasi-mipcom-2026-turk-dizileri_20261012.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/kanal-d-cannes-cikarmasi-mipcom-2026-turk-dizileri_20261012.webp",
+      "image_alt": "MIPCOM 2026 televizyon fuarının düzenlendiği Cannes Palais des Festivals binası ve cadde tanıtımları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/kanal-d-cannes-cikarmasi-mipcom-2026-turk-dizileri_20261012.webp",
+        "alt": "MIPCOM 2026 televizyon fuarının düzenlendiği Cannes Palais des Festivals binası ve cadde tanıtımları."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/magazin/kanal-dden-cannes-cikarmasi-demiroren-medya-tv-grup-baskani-murat-yanci-dunyaya-turkce-ogretiyoruz-7678017",
+      "tags": [
+        "Kanal D",
+        "MIPCOM 2026",
+        "Cannes",
+        "Murat Yancı",
+        "Türk Dizileri",
+        "Kanal D International"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
