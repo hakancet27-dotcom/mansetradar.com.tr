@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-12T00:00:00+00:00",
-    "article_count": 2337,
+    "article_count": 2342,
     "schema_version": 2,
     "topic_slug": "ekonomi",
     "type": "topic"
@@ -45,6 +45,44 @@
         "Ekonomi"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:halka-arz-endeksi-degerinin-ucte-ikisini-kaybetti_20261012",
+      "slug": "halka-arz-endeksi-degerinin-ucte-ikisini-kaybetti_20261012",
+      "title": "Halka Arz Endeksi Değerinin Üçte İkisini Kaybetti",
+      "summary": "Yatırım fonu krizinin etkisiyle Halka Arz Endeksi, 15 Eylül'den bu yana değerinin üçte ikisini kaybederek büyük bir düşüş yaşadı. Endeks, 441 bin 947,3 puandan 193 bin 333 puana gerileyerek yüzde 56,30'luk bir kayıp kaydetti. 57 şirketin bulunduğu endekste...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "12.10.2026",
+      "date_iso": "2026-10-12",
+      "url": "/articles/2026/10/halka-arz-endeksi-degerinin-ucte-ikisini-kaybetti_20261012/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/halka-arz-endeksi-degerinin-ucte-ikisini-kaybetti_20261012/",
+      "detail_json_url": "/data/details/articles/2026/10/halka-arz-endeksi-degerinin-ucte-ikisini-kaybetti_20261012.json",
+      "image_url": "https://img.ekonomim.com/storage/files/images/2026/10/12/halka-arz-endeksinin-ucte-ikisi-buharlasti-pujz_cover.jpg",
+      "image_alt": "Halka Arz Endeksi'ndeki düşüşü gösteren kırmızı oklarla aşağı yönlü bir borsa grafiği.",
+      "image": {
+        "url": "https://img.ekonomim.com/storage/files/images/2026/10/12/halka-arz-endeksinin-ucte-ikisi-buharlasti-pujz_cover.jpg",
+        "alt": "Halka Arz Endeksi'ndeki düşüşü gösteren kırmızı oklarla aşağı yönlü bir borsa grafiği."
+      },
+      "source_name": "Ekonomim",
+      "source_url": "https://www.ekonomim.com/ekonomi/halka-arz-endeksinin-ucte-ikisi-buharlasti-haberi-924229",
+      "tags": [
+        "Halka Arz Endeksi",
+        "Borsa İstanbul",
+        "Yatırım Fonu Krizi",
+        "Destek Finans Faktoring",
+        "Ekonomi"
+      ],
+      "quality_score": 90,
       "review_status": "published"
     },
     {
