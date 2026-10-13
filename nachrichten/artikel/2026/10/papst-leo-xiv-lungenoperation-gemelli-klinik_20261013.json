@@ -46,14 +46,6 @@
   "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/papst-leo-xiv-lungenoperation-gemelli-klinik_20261013.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "source_provided",
-  "image_license_note": "RSS source image: tagesschau.de - Die Nachrichten der ARD",
-  "image_source_url": "https://www.tagesschau.de/ausland/europa/papst-krankenhaus-operation-100.html",
-  "image_provider": "rss",
-  "image_score": 70,
-  "image_query": "Papst Leo XIV. für Lungenoperation im Krankenhaus eingetroffen",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "Papst Leo XIV. ist am Mittag in der römischen Gemelli-Klinik eingetroffen, wo er sich am Nachmittag einer Lungenoperation unterziehen wird. Ein Knoten soll entfernt werden, der laut Vatikan \"in einem sehr frühen Stadium\" entdeckt wurde. Seine Audienzen sind bis zum 20. Oktober abgesagt.",
   "language": "German",
   "url_prefix": "nachrichten/artikel/2026/10",
@@ -75,10 +67,7 @@
   ],
   "quality_word_count": 335,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.tagesschau.de/image/7c9bd027-e9bc-43f7-b5e8-f689b07472ce/AAABoTUml9M/AAABnSSvrFg/16x9-big/papst-1148.jpg?width=1920",
-  "original_image_url": "https://images.tagesschau.de/image/7c9bd027-e9bc-43f7-b5e8-f689b07472ce/AAABoTUml9M/AAABnSSvrFg/16x9-big/papst-1148.jpg?width=1920",
-  "image_local_webp": "nachrichten/artikel/2026/10/images/papst-leo-xiv-lungenoperation-gemelli-klinik_20261013.webp",
-  "image_credit": "tagesschau.de",
-  "image_credit_url": "https://www.tagesschau.de/ausland/europa/papst-krankenhaus-operation-100.html",
-  "image_finalized_at": "2026-10-13T14:37:17.393338Z"
+  "time": "11:57",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }
