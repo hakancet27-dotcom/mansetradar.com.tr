@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-13T00:00:00+00:00",
-    "article_count": 2353,
+    "article_count": 2354,
     "schema_version": 2
   },
   "hero": [
@@ -825,6 +825,43 @@
         "Diesel-Abkommen",
         "Wladimir Putin",
         "Ukraine-Krieg"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:trump-considers-firing-kimberly-guilfoyle-shores-up-republican-support-in-ohio_20261013",
+      "slug": "trump-considers-firing-kimberly-guilfoyle-shores-up-republican-support-in-ohio_20261013",
+      "title": "Trump Considers Firing Guilfoyle, Rallies Republicans in Ohio",
+      "summary": "Former President Donald Trump is reportedly considering the dismissal of Kimberly Guilfoyle. This consideration comes as Trump actively sought to bolster Republican support in Ohio during a recent rally. The dual focus on internal staff matters and state-le...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "13.10.2026",
+      "date_iso": "2026-10-13",
+      "url": "/news/articles/2026/10/trump-considers-firing-kimberly-guilfoyle-shores-up-republican-support-in-ohio_20261013/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/trump-considers-firing-kimberly-guilfoyle-shores-up-republican-support-in-ohio_20261013/",
+      "detail_json_url": "/data/details/news/articles/2026/10/trump-considers-firing-kimberly-guilfoyle-shores-up-republican-support-in-ohio_20261013.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/trump-considers-firing-kimberly-guilfoyle-shores-up-republican-support-in-ohio_20261013.webp",
+      "image_alt": "Donald Trump speaking at a rally in Ohio.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/trump-considers-firing-kimberly-guilfoyle-shores-up-republican-support-in-ohio_20261013.webp",
+        "alt": "Donald Trump speaking at a rally in Ohio."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/trump-considers-firing-kimberly-guilfoyle-ohio-rally/",
+      "tags": [
+        "Donald Trump",
+        "Kimberly Guilfoyle",
+        "Ohio Politics",
+        "Republican Party"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -3109,43 +3146,6 @@
         "Ekonomi"
       ],
       "quality_score": 90,
-      "review_status": "published"
-    },
-    {
-      "id": "nachrichten/artikel/2026/10:sc-freiburg-neuer-tabellenfuehrer-bundesliga_20261011",
-      "slug": "sc-freiburg-neuer-tabellenfuehrer-bundesliga_20261011",
-      "title": "SC Freiburg erobert Tabellenspitze der Bundesliga",
-      "summary": "Der SC Freiburg hat am 5. Spieltag der Fußball-Bundesliga die Tabellenführung übernommen. Die Breisgauer besiegten den FC Schalke 04 trotz Unterzahl in der Schlussphase mit 2:1 und verdrängten Borussia Dortmund von der Spitzenposition. Maximilian Eggestein...",
-      "category": "Spor",
-      "category_slug": "spor",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Germany",
-      "language": "de",
-      "language_label": "German",
-      "section": "nachrichten/artikel",
-      "section_name": "Deutschland Nachrichten",
-      "url_prefix": "nachrichten/artikel/2026/10",
-      "date": "11.10.2026",
-      "date_iso": "2026-10-11",
-      "url": "/nachrichten/artikel/2026/10/sc-freiburg-neuer-tabellenfuehrer-bundesliga_20261011/",
-      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/sc-freiburg-neuer-tabellenfuehrer-bundesliga_20261011/",
-      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/sc-freiburg-neuer-tabellenfuehrer-bundesliga_20261011.json",
-      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/sc-freiburg-neuer-tabellenfuehrer-bundesliga_20261011.webp",
-      "image_alt": "SC Freiburg feiert einen Treffer gegen Schalke 04 in der Bundesliga",
-      "image": {
-        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/sc-freiburg-neuer-tabellenfuehrer-bundesliga_20261011.webp",
-        "alt": "SC Freiburg feiert einen Treffer gegen Schalke 04 in der Bundesliga"
-      },
-      "source_name": "n-tv.de - Startseite",
-      "source_url": "https://www.n-tv.de/sport/fussball/SC-Freiburg-ist-neuer-Tabellenfuehrer-id31405950.html",
-      "tags": [
-        "SC Freiburg",
-        "Bundesliga",
-        "Tabellenführer",
-        "FC Schalke 04"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]

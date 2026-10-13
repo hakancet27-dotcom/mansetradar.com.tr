@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-13T00:00:00+00:00",
-    "article_count": 2353,
+    "article_count": 2354,
     "schema_version": 2
   },
   "articles": [
@@ -42,6 +42,43 @@
         "Diesel-Abkommen",
         "Wladimir Putin",
         "Ukraine-Krieg"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:trump-considers-firing-kimberly-guilfoyle-shores-up-republican-support-in-ohio_20261013",
+      "slug": "trump-considers-firing-kimberly-guilfoyle-shores-up-republican-support-in-ohio_20261013",
+      "title": "Trump Considers Firing Guilfoyle, Rallies Republicans in Ohio",
+      "summary": "Former President Donald Trump is reportedly considering the dismissal of Kimberly Guilfoyle. This consideration comes as Trump actively sought to bolster Republican support in Ohio during a recent rally. The dual focus on internal staff matters and state-le...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "13.10.2026",
+      "date_iso": "2026-10-13",
+      "url": "/news/articles/2026/10/trump-considers-firing-kimberly-guilfoyle-shores-up-republican-support-in-ohio_20261013/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/trump-considers-firing-kimberly-guilfoyle-shores-up-republican-support-in-ohio_20261013/",
+      "detail_json_url": "/data/details/news/articles/2026/10/trump-considers-firing-kimberly-guilfoyle-shores-up-republican-support-in-ohio_20261013.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/trump-considers-firing-kimberly-guilfoyle-shores-up-republican-support-in-ohio_20261013.webp",
+      "image_alt": "Donald Trump speaking at a rally in Ohio.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/trump-considers-firing-kimberly-guilfoyle-shores-up-republican-support-in-ohio_20261013.webp",
+        "alt": "Donald Trump speaking at a rally in Ohio."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/trump-considers-firing-kimberly-guilfoyle-ohio-rally/",
+      "tags": [
+        "Donald Trump",
+        "Kimberly Guilfoyle",
+        "Ohio Politics",
+        "Republican Party"
       ],
       "quality_score": 86,
       "review_status": "published"
