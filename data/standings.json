@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-12T21:31:18.464Z",
+  "updatedAt": "2026-10-13T02:18:41.352Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-10-12T21:31:18.464Z",
+      "updatedAt": "2026-10-13T02:18:41.352Z",
       "source": "Maçkolik arşiv 1/73482",
       "table": [
         {
@@ -269,7 +269,7 @@
     {
       "id": "premier-league",
       "name": "Premier League",
-      "updatedAt": "2026-10-12T21:31:18.464Z",
+      "updatedAt": "2026-10-13T02:18:41.352Z",
       "source": "Maçkolik arşiv 24/73340",
       "table": [
         {
@@ -415,14 +415,14 @@
         {
           "position": 11,
           "team": "Newcastle United",
-          "played": 6,
+          "played": 5,
           "won": 2,
           "draw": 2,
-          "lost": 2,
-          "goalsFor": 10,
-          "goalsAgainst": 13,
+          "lost": 1,
+          "goalsFor": 9,
+          "goalsAgainst": 9,
           "points": 8,
-          "goalDifference": -3,
+          "goalDifference": 0,
           "logo": "https://im.mackolik.com/img/logo/kucuk/34.gif",
           "form": []
         },
@@ -456,20 +456,6 @@
         },
         {
           "position": 14,
-          "team": "Coventry",
-          "played": 6,
-          "won": 2,
-          "draw": 0,
-          "lost": 4,
-          "goalsFor": 5,
-          "goalsAgainst": 11,
-          "points": 6,
-          "goalDifference": -6,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/43.gif",
-          "form": []
-        },
-        {
-          "position": 15,
           "team": "Nottingham Forest",
           "played": 6,
           "won": 1,
@@ -483,7 +469,7 @@
           "form": []
         },
         {
-          "position": 16,
+          "position": 15,
           "team": "Aston Villa",
           "played": 6,
           "won": 1,
@@ -497,7 +483,7 @@
           "form": []
         },
         {
-          "position": 17,
+          "position": 16,
           "team": "Sunderland",
           "played": 6,
           "won": 1,
@@ -511,7 +497,7 @@
           "form": []
         },
         {
-          "position": 18,
+          "position": 17,
           "team": "Bournemouth",
           "played": 6,
           "won": 0,
@@ -525,7 +511,7 @@
           "form": []
         },
         {
-          "position": 19,
+          "position": 18,
           "team": "Tottenham",
           "played": 6,
           "won": 0,
@@ -536,6 +522,20 @@
           "points": 3,
           "goalDifference": -6,
           "logo": "https://im.mackolik.com/img/logo/kucuk/37.gif",
+          "form": []
+        },
+        {
+          "position": 19,
+          "team": "Coventry",
+          "played": 5,
+          "won": 1,
+          "draw": 0,
+          "lost": 4,
+          "goalsFor": 1,
+          "goalsAgainst": 10,
+          "points": 3,
+          "goalDifference": -9,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/43.gif",
           "form": []
         },
         {
@@ -560,7 +560,7 @@
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-10-12T21:31:18.464Z",
+      "updatedAt": "2026-10-13T02:18:41.352Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
@@ -622,13 +622,13 @@
         {
           "position": 5,
           "team": "Sevilla",
-          "played": 8,
+          "played": 7,
           "won": 4,
-          "draw": 2,
+          "draw": 1,
           "lost": 2,
-          "goalsFor": 13,
-          "goalsAgainst": 12,
-          "points": 14,
+          "goalsFor": 10,
+          "goalsAgainst": 9,
+          "points": 13,
           "goalDifference": 1,
           "logo": "https://im.mackolik.com/img/logo/kucuk/89.gif",
           "form": []
@@ -789,20 +789,6 @@
         },
         {
           "position": 17,
-          "team": "Levante",
-          "played": 7,
-          "won": 1,
-          "draw": 3,
-          "lost": 3,
-          "goalsFor": 11,
-          "goalsAgainst": 15,
-          "points": 6,
-          "goalDifference": -4,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/100.gif",
-          "form": []
-        },
-        {
-          "position": 18,
           "team": "Elche",
           "played": 8,
           "won": 1,
@@ -813,6 +799,20 @@
           "points": 6,
           "goalDifference": -6,
           "logo": "https://im.mackolik.com/img/logo/kucuk/106.gif",
+          "form": []
+        },
+        {
+          "position": 18,
+          "team": "Levante",
+          "played": 6,
+          "won": 1,
+          "draw": 2,
+          "lost": 3,
+          "goalsFor": 8,
+          "goalsAgainst": 12,
+          "points": 5,
+          "goalDifference": -4,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/100.gif",
           "form": []
         },
         {
@@ -851,7 +851,7 @@
     {
       "id": "bundesliga",
       "name": "Bundesliga",
-      "updatedAt": "2026-10-12T21:31:18.464Z",
+      "updatedAt": "2026-10-13T02:18:41.352Z",
       "source": "Maçkolik arşiv 3/73455",
       "table": [
         {
@@ -1114,7 +1114,7 @@
     {
       "id": "serie-a",
       "name": "Serie A",
-      "updatedAt": "2026-10-12T21:31:18.464Z",
+      "updatedAt": "2026-10-13T02:18:41.352Z",
       "source": "Maçkolik arşiv 15/73249",
       "table": [
         {
@@ -1405,7 +1405,7 @@
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-10-12T17:25:36.676Z",
+      "updatedAt": "2026-10-13T02:18:41.352Z",
       "source": "Maçkolik arşiv 5/73279",
       "table": [
         {
@@ -1663,8 +1663,7 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 502 | HTML scrape: https://www.mackolik.com/puan-durumu/fransa-ligue-1/dm5ka0os1e3dxcp3vh05kmp33: no valid standings table | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: incomplete table 2025-2026: 5 rows | Unexpected end of JSON input | Unexpected end of JSON input",
-      "preservedPreviousTable": true
+      "status": ""
     }
   ],
   "competition": "Süper Lig",
