@@ -2,11 +2,51 @@
   "meta": {
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
-    "generated_at": "2026-10-12T00:00:00+00:00",
-    "article_count": 2342,
+    "generated_at": "2026-10-13T00:00:00+00:00",
+    "article_count": 2343,
     "schema_version": 2
   },
   "hero": [
+    {
+      "id": "articles/2026/10:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261013",
+      "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261013",
+      "title": "İstanbul Şehir Bülteni (13 Ekim 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu",
+      "summary": "13 Ekim 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 131 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "kamu",
+      "topic_label": "Kamu Hizmetleri",
+      "country": "",
+      "language": "tr",
+      "language_label": "tr",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "13 Ekim 2026",
+      "date_iso": "2026-10-13",
+      "url": "/articles/2026/10/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261013/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261013/",
+      "detail_json_url": "/data/details/articles/2026/10/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261013.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
+      "image_alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
+        "alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler"
+      },
+      "source_name": "ManşetRadar",
+      "source_url": "",
+      "tags": [
+        "İstanbul",
+        "Nöbetçi Eczaneler",
+        "İSKİ",
+        "Baraj Doluluk",
+        "BEDAŞ",
+        "İETT",
+        "Son Dakika"
+      ],
+      "quality_score": 95,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/10:yesilcam-oyuncusu-nihat-ziyalan-hayatini-kaybetti_20261012",
       "slug": "yesilcam-oyuncusu-nihat-ziyalan-hayatini-kaybetti_20261012",
@@ -742,53 +782,49 @@
       ],
       "quality_score": 100,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:cemil-tugay-tepkilere-yanit-vatan-haini-izmir_20261012",
-      "slug": "cemil-tugay-tepkilere-yanit-vatan-haini-izmir_20261012",
-      "title": "AKP'li Cemil Tugay'dan Tepkilere Sert Yanıt: \"Adeta Vatan Haini İlan Edildim\"",
-      "summary": "AKP'ye transfer olan İzmir Büyükşehir Belediye Başkanı Cemil Tugay, kendisine yöneltilen tepkilere ve yaşam tarzı endişelerine sert yanıtlar verdi. Tugay, \"Adeta vatan haini ilan edildim, insan utanır\" diyerek eleştirileri \"linç kampanyası\" olarak nitelendi...",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "12.10.2026",
-      "date_iso": "2026-10-12",
-      "url": "/articles/2026/10/cemil-tugay-tepkilere-yanit-vatan-haini-izmir_20261012/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/cemil-tugay-tepkilere-yanit-vatan-haini-izmir_20261012/",
-      "detail_json_url": "/data/details/articles/2026/10/cemil-tugay-tepkilere-yanit-vatan-haini-izmir_20261012.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/cemil-tugay-tepkilere-yanit-vatan-haini-izmir_20261012.webp",
-      "image_alt": "İzmir Büyükşehir Belediye Başkanı Cemil Tugay, kendisine yöneltilen eleştirilere yanıt verirken çekilmiş kararlı bir portre...",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/10/images/cemil-tugay-tepkilere-yanit-vatan-haini-izmir_20261012.webp",
-        "alt": "İzmir Büyükşehir Belediye Başkanı Cemil Tugay, kendisine yöneltilen eleştirilere yanıt verirken çekilmiş kararlı bir portre..."
-      },
-      "source_name": "Cumhuriyet Gazetesi - Siyaset",
-      "source_url": "https://www.cumhuriyet.com.tr/siyaset/akp-li-cemil-tugay-tepkileri-boyle-yanitladi-adeta-vatan-haini-ilan-edildim-insan-utanir-2545926",
-      "tags": [
-        "Cemil Tugay",
-        "İzmir",
-        "AKP",
-        "Belediye Başkanı",
-        "Siyaset",
-        "Yaşam Tarzı",
-        "Tepkiler",
-        "Linç Kampanyası",
-        "Beylikdüzü",
-        "Beylikdüzü haberleri",
-        "İstanbul"
-      ],
-      "quality_score": 100,
-      "review_status": "published"
     }
   ],
   "latest": [
+    {
+      "id": "articles/2026/10:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261013",
+      "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261013",
+      "title": "İstanbul Şehir Bülteni (13 Ekim 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu",
+      "summary": "13 Ekim 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 131 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "kamu",
+      "topic_label": "Kamu Hizmetleri",
+      "country": "",
+      "language": "tr",
+      "language_label": "tr",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "13 Ekim 2026",
+      "date_iso": "2026-10-13",
+      "url": "/articles/2026/10/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261013/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261013/",
+      "detail_json_url": "/data/details/articles/2026/10/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261013.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
+      "image_alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
+        "alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler"
+      },
+      "source_name": "ManşetRadar",
+      "source_url": "",
+      "tags": [
+        "İstanbul",
+        "Nöbetçi Eczaneler",
+        "İSKİ",
+        "Baraj Doluluk",
+        "BEDAŞ",
+        "İETT",
+        "Son Dakika"
+      ],
+      "quality_score": 95,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/10:yesilcam-oyuncusu-nihat-ziyalan-hayatini-kaybetti_20261012",
       "slug": "yesilcam-oyuncusu-nihat-ziyalan-hayatini-kaybetti_20261012",
@@ -3103,45 +3139,6 @@
         "Torwart"
       ],
       "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:manisa-akhisar-otoyol-kazasi-11-olu-27-yarali_20261011",
-      "slug": "manisa-akhisar-otoyol-kazasi-11-olu-27-yarali_20261011",
-      "title": "Manisa Akhisar'da Tur Otobüsü Kazası: 11 Can Kaybı, Çok Sayıda Yaralı",
-      "summary": "Manisa'nın Akhisar ilçesinde, İzmir-İstanbul otoyolunda bir tur otobüsü ile çekicinin çarpışması sonucu meydana gelen feci kazada 11 kişi hayatını kaybetti, biri ağır 27 kişi yaralandı. Kaza, 11 Ekim 2026 tarihinde saat 11.11 sıralarında Akhisar Gişeleri me...",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "11.10.2026",
-      "date_iso": "2026-10-11",
-      "url": "/articles/2026/10/manisa-akhisar-otoyol-kazasi-11-olu-27-yarali_20261011/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/manisa-akhisar-otoyol-kazasi-11-olu-27-yarali_20261011/",
-      "detail_json_url": "/data/details/articles/2026/10/manisa-akhisar-otoyol-kazasi-11-olu-27-yarali_20261011.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/manisa-akhisar-otoyol-kazasi-11-olu-27-yarali_20261011.webp",
-      "image_alt": "Manisa Akhisar'da tur otobüsü ve çekicinin karıştığı feci kazanın ardından olay yerindeki kurtarma çalışmaları.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/10/images/manisa-akhisar-otoyol-kazasi-11-olu-27-yarali_20261011.webp",
-        "alt": "Manisa Akhisar'da tur otobüsü ve çekicinin karıştığı feci kazanın ardından olay yerindeki kurtarma çalışmaları."
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/turkiye/galeri-manisada-katliam-gibi-kaza-11-can-kaybi-var-1745808",
-      "tags": [
-        "Manisa",
-        "Akhisar",
-        "trafik kazası",
-        "tur otobüsü",
-        "İzmir-İstanbul Otoyolu",
-        "can kaybı"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]
