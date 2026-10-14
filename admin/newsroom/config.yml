@@ -34,7 +34,7 @@ collections:
       - { label: Saglayici, name: provider, widget: string, required: false }
       - { label: Lisans, name: license, widget: string, required: false }
       - { label: Kaynak Sayfasi, name: source_url, widget: string, required: false }
-      - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, widget: string } }
+      - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, name: tag, widget: string } }
       - { label: Not, name: note, widget: text, required: false, hint: "Ornek: spor genel kullanima uygun, insan kalabaligi yok." }
 
   - name: newsroom_status
@@ -193,11 +193,11 @@ collections:
       - { label: Spot, name: spot, widget: text, required: false, hint: "Haberi bir iki cumlede ozetleyen kisa giris." }
       - { label: Haber Govdesi HTML, name: content_html, widget: text, required: false }
       - { label: Dogrulanmis Ham Bilgi, name: source_note, widget: text, required: false }
-      - { label: Kaynak Linkleri, name: source_urls, widget: list, required: false, field: { label: URL, widget: string } }
+      - { label: Kaynak Linkleri, name: source_urls, widget: list, required: false, field: { label: URL, name: url, widget: string } }
       - { label: AI Talimati, name: editor_ai_instruction, widget: text, required: false }
       - { label: Gorsel Yukle, name: uploaded_image, widget: image, required: false, hint: "Haberde gorsel yoksa buradan dosya secip ekleyebilirsin." }
       - { label: Gorsel Alt Metni, name: image_alt, widget: string, required: false, hint: "Gorseli bir insan gibi kisa ve net tarif et." }
-      - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, widget: string } }
+      - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, name: tag, widget: string } }
       - { label: Meta Baslik, name: meta_title, widget: string, required: false }
       - { label: Meta Aciklama, name: meta_description, widget: text, required: false }
       - { label: Sonuc, name: processor_result, widget: text, required: false, readonly: true }
@@ -226,7 +226,7 @@ collections:
       - { label: Kisa Ozet, name: editor_summary, widget: text, required: false, readonly: true }
       - { label: Sonraki Adim, name: editor_next_step, widget: text, required: false, readonly: true }
       - { label: Liste Ipuclari, name: editor_list_hint, widget: string, required: false, readonly: true }
-      - { label: Editor Kontrol Listesi, name: editor_checklist, widget: list, required: false, readonly: true, field: { label: Madde, widget: string } }
+      - { label: Editor Kontrol Listesi, name: editor_checklist, widget: list, required: false, readonly: true, field: { label: Madde, name: item, widget: string } }
       - { label: Kategori, name: category, widget: select, options: [Son Dakika, Gundem, Siyaset, Ekonomi, Dunya, Spor, Magazin, Teknoloji, Saglik, Video] }
       - { label: Baslik, name: title, widget: string }
       - { label: Spot, name: spot, widget: text, required: false, hint: "Yayina gidecek kisa giris metni." }
@@ -234,16 +234,16 @@ collections:
       - { label: Gorsel Yukle, name: uploaded_image, widget: image, required: false, hint: "Haberde gorsel yoksa en kolay yol buradan gorsel yuklemek." }
       - { label: Gorsel URL, name: image_url, widget: string, required: false, hint: "Hazir bir gorsel URL'i varsa kullan; yoksa yukaridaki alan daha pratiktir." }
       - { label: Gorsel Alt Metni, name: image_alt, widget: string, required: false, hint: "Okuyucuya ve Google'a gorselin ne anlattigini kisaca yaz." }
-      - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, widget: string } }
+      - { label: Etiketler, name: tags, widget: list, required: false, field: { label: Etiket, name: tag, widget: string } }
       - { label: Meta Baslik, name: meta_title, widget: string, required: false }
       - { label: Meta Aciklama, name: meta_description, widget: text, required: false }
       - { label: Slug, name: slug, widget: string, readonly: true }
       - { label: Quality Score, name: quality_score, widget: number, required: false, readonly: true }
       - { label: Quality Status, name: quality_status, widget: string, required: false, readonly: true }
       - { label: Risk Bayragi, name: flag, widget: string, required: false, readonly: true }
-      - { label: Quality Flags, name: quality_flags, widget: list, required: false, readonly: true, field: { label: Flag, widget: string } }
+      - { label: Quality Flags, name: quality_flags, widget: list, required: false, readonly: true, field: { label: Flag, name: flag, widget: string } }
       - { label: Kelime Sayisi, name: quality_word_count, widget: number, required: false, readonly: true }
-      - { label: Notlar, name: quality_notes, widget: list, required: false, readonly: true, field: { label: Not, widget: string } }
+      - { label: Notlar, name: quality_notes, widget: list, required: false, readonly: true, field: { label: Not, name: note, widget: string } }
       - { label: Sonuc, name: processor_result, widget: text, required: false, readonly: true }
 
   - name: newsroom_review_archive
@@ -276,7 +276,7 @@ collections:
       - { label: Konu / Input, name: topic, widget: string, hint: "AI'ye verilecek ana konu veya haber fikri." }
       - { label: Uretim Modu, name: mode, widget: select, default: full_seo_article, hint: "Genelde full_seo_article veya source_based yeterlidir.", options: [full_seo_article, short_breaking, source_based, rewrite, discover] }
       - { label: Kategori, name: category, widget: select, default: auto, hint: "Emin degilsen auto birak.", options: [auto, son-dakika, gundem, siyaset, ekonomi, dunya, spor, magazin, teknoloji, saglik] }
-      - { label: Kaynak URL'leri, name: source_urls, widget: list, required: false, field: { label: URL, widget: string } }
+      - { label: Kaynak URL'leri, name: source_urls, widget: list, required: false, field: { label: URL, name: url, widget: string } }
       - { label: Dogrulanmis Ham Bilgi, name: raw_notes, widget: text, required: false, hint: "En kritik alan burasi. Kaynak notu ne kadar iyi olursa AI taslagi o kadar saglikli olur." }
       - { label: Gorsel Olustur / Bul, name: create_image, widget: boolean, default: true }
       - { label: Gorsel Talimati, name: image_instruction, widget: text, required: false, hint: "Gorsel icin ekstra yonlendirme gerekiyorsa doldur." }
@@ -305,7 +305,7 @@ collections:
       - { label: Bolge, name: region, widget: select, default: TR, options: [TR, US, DE, WORLD] }
       - { label: Kategori, name: category, widget: select, default: auto, options: [auto, gundem, siyaset, ekonomi, dunya, spor, magazin, teknoloji, saglik] }
       - { label: Trend Skoru, name: trend_score, widget: number, required: false, readonly: true }
-      - { label: Onerilen Basliklar, name: suggested_titles, widget: list, required: false, readonly: true, field: { label: Baslik, widget: string } }
+      - { label: Onerilen Basliklar, name: suggested_titles, widget: list, required: false, readonly: true, field: { label: Baslik, name: title, widget: string } }
       - { label: Son Kontrol, name: checked_at, widget: string, required: false, readonly: true }
 
   - name: newsroom_workflow_requests
@@ -375,7 +375,7 @@ collections:
           - { label: Kaliteyi Yeniden Kontrol Et, value: quality_recheck }
           - { label: SEO Yeniden Isleme, value: seo_rebuild }
           - { label: Yeniden Indeksle, value: reindex }
-      - { label: "Hangi haber(ler)?", name: slugs, widget: list, hint: "Her satira bir slug gir. Tek haber de olur.", field: { label: Slug, widget: string } }
+      - { label: "Hangi haber(ler)?", name: slugs, widget: list, hint: "Her satira bir slug gir. Tek haber de olur.", field: { label: Slug, name: slug, widget: string } }
       - { label: "Neden?", name: note, widget: text, required: false, hint: "Kisa bir not yaz. Ornek: Icerik eski, guncel akis icin uygun degil." }
       - label: Durum
         name: status
@@ -421,7 +421,7 @@ collections:
       - { label: EXIF Temizle, name: strip_exif, widget: boolean, default: true }
       - { label: Kalite, name: quality, widget: number, default: 78, min: 40, max: 95 }
       - { label: Alt Metin, name: image_alt, widget: string, required: false }
-      - { label: Ciktilar, name: outputs, widget: list, required: false, readonly: true, field: { label: Dosya, widget: string } }
+      - { label: Ciktilar, name: outputs, widget: list, required: false, readonly: true, field: { label: Dosya, name: file, widget: string } }
       - { label: Sonuc, name: result, widget: text, required: false, readonly: true }
 
   - name: newsroom_reports
