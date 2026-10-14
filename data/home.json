@@ -2,11 +2,51 @@
   "meta": {
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
-    "generated_at": "2026-10-13T00:00:00+00:00",
-    "article_count": 2375,
+    "generated_at": "2026-10-14T00:00:00+00:00",
+    "article_count": 2376,
     "schema_version": 2
   },
   "hero": [
+    {
+      "id": "articles/2026/10:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261014",
+      "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261014",
+      "title": "İstanbul Şehir Bülteni (14 Ekim 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu",
+      "summary": "14 Ekim 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 134 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "kamu",
+      "topic_label": "Kamu Hizmetleri",
+      "country": "",
+      "language": "tr",
+      "language_label": "tr",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "14 Ekim 2026",
+      "date_iso": "2026-10-14",
+      "url": "/articles/2026/10/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261014/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261014/",
+      "detail_json_url": "/data/details/articles/2026/10/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261014.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
+      "image_alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
+        "alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler"
+      },
+      "source_name": "ManşetRadar",
+      "source_url": "",
+      "tags": [
+        "İstanbul",
+        "Nöbetçi Eczaneler",
+        "İSKİ",
+        "Baraj Doluluk",
+        "BEDAŞ",
+        "İETT",
+        "Son Dakika"
+      ],
+      "quality_score": 95,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/10:yeni-parti-istanbul-kongresi-ozgur-celik-cagri_20261013",
       "slug": "yeni-parti-istanbul-kongresi-ozgur-celik-cagri_20261013",
@@ -769,48 +809,49 @@
       ],
       "quality_score": 100,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:sanal-medya-okul-saldirilari-yeni-nesil-tehditler_20261012",
-      "slug": "sanal-medya-okul-saldirilari-yeni-nesil-tehditler_20261012",
-      "title": "Sanal Medya Öfkeli Gençleri Şiddete Yöneltiyor",
-      "summary": "ABD'li Kriminoloji uzmanı Prof. Dr. James Densley, dünya genelinde artan okul saldırılarında sanal medyanın rolüne dikkat çekti. Densley, yalnız ve öfkeli gençlerin şiddete yönelmesinde internetin bir yol haritası sunduğunu ve yeni nesil saldırgan profilini...",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "12.10.2026",
-      "date_iso": "2026-10-12",
-      "url": "/articles/2026/10/sanal-medya-okul-saldirilari-yeni-nesil-tehditler_20261012/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/sanal-medya-okul-saldirilari-yeni-nesil-tehditler_20261012/",
-      "detail_json_url": "/data/details/articles/2026/10/sanal-medya-okul-saldirilari-yeni-nesil-tehditler_20261012.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/sanal-medya-okul-saldirilari-yeni-nesil-tehditler_20261012.webp",
-      "image_alt": "Sanal Medya Öfkeli Gençleri Şiddete Yöneltiyor",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/10/images/sanal-medya-okul-saldirilari-yeni-nesil-tehditler_20261012.webp",
-        "alt": "Sanal Medya Öfkeli Gençleri Şiddete Yöneltiyor"
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/gundem/sanal-medya-ofkeli-genclere-yol-gosteriyor-43339076",
-      "tags": [
-        "sanal medya",
-        "okul saldırıları",
-        "James Densley",
-        "gençlik şiddeti",
-        "kriminoloji",
-        "dijital platformlar"
-      ],
-      "quality_score": 100,
-      "review_status": "published"
     }
   ],
   "latest": [
+    {
+      "id": "articles/2026/10:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261014",
+      "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261014",
+      "title": "İstanbul Şehir Bülteni (14 Ekim 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu",
+      "summary": "14 Ekim 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 134 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "kamu",
+      "topic_label": "Kamu Hizmetleri",
+      "country": "",
+      "language": "tr",
+      "language_label": "tr",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "14 Ekim 2026",
+      "date_iso": "2026-10-14",
+      "url": "/articles/2026/10/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261014/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261014/",
+      "detail_json_url": "/data/details/articles/2026/10/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261014.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
+      "image_alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/bakan-uraloglu-acikladi-istanbul-a-180-kilometrelik-rayli-sistem-yeni-metro_20260902.webp",
+        "alt": "İstanbul Şehir Bülteni ve Nöbetçi Eczaneler"
+      },
+      "source_name": "ManşetRadar",
+      "source_url": "",
+      "tags": [
+        "İstanbul",
+        "Nöbetçi Eczaneler",
+        "İSKİ",
+        "Baraj Doluluk",
+        "BEDAŞ",
+        "İETT",
+        "Son Dakika"
+      ],
+      "quality_score": 95,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/10:yeni-parti-istanbul-kongresi-ozgur-celik-cagri_20261013",
       "slug": "yeni-parti-istanbul-kongresi-ozgur-celik-cagri_20261013",
@@ -3134,44 +3175,6 @@
         "Nahost-Konflikt"
       ],
       "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:halka-arz-endeksi-degerinin-ucte-ikisini-kaybetti_20261012",
-      "slug": "halka-arz-endeksi-degerinin-ucte-ikisini-kaybetti_20261012",
-      "title": "Halka Arz Endeksi Değerinin Üçte İkisini Kaybetti",
-      "summary": "Yatırım fonu krizinin etkisiyle Halka Arz Endeksi, 15 Eylül'den bu yana değerinin üçte ikisini kaybederek büyük bir düşüş yaşadı. Endeks, 441 bin 947,3 puandan 193 bin 333 puana gerileyerek yüzde 56,30'luk bir kayıp kaydetti. 57 şirketin bulunduğu endekste...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "ekonomi",
-      "topic_label": "Ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "12.10.2026",
-      "date_iso": "2026-10-12",
-      "url": "/articles/2026/10/halka-arz-endeksi-degerinin-ucte-ikisini-kaybetti_20261012/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/halka-arz-endeksi-degerinin-ucte-ikisini-kaybetti_20261012/",
-      "detail_json_url": "/data/details/articles/2026/10/halka-arz-endeksi-degerinin-ucte-ikisini-kaybetti_20261012.json",
-      "image_url": "https://img.ekonomim.com/storage/files/images/2026/10/12/halka-arz-endeksinin-ucte-ikisi-buharlasti-pujz_cover.jpg",
-      "image_alt": "Halka Arz Endeksi'ndeki düşüşü gösteren kırmızı oklarla aşağı yönlü bir borsa grafiği.",
-      "image": {
-        "url": "https://img.ekonomim.com/storage/files/images/2026/10/12/halka-arz-endeksinin-ucte-ikisi-buharlasti-pujz_cover.jpg",
-        "alt": "Halka Arz Endeksi'ndeki düşüşü gösteren kırmızı oklarla aşağı yönlü bir borsa grafiği."
-      },
-      "source_name": "Ekonomim",
-      "source_url": "https://www.ekonomim.com/ekonomi/halka-arz-endeksinin-ucte-ikisi-buharlasti-haberi-924229",
-      "tags": [
-        "Halka Arz Endeksi",
-        "Borsa İstanbul",
-        "Yatırım Fonu Krizi",
-        "Destek Finans Faktoring",
-        "Ekonomi"
-      ],
-      "quality_score": 90,
       "review_status": "published"
     }
   ]
