@@ -45,14 +45,6 @@
   "image_url": "https://mansetradar.com.tr/articles/2026/10/images/audi-a2-e-tron-paris-tanitildi-ozellikler-fiyat_20261014.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "clear",
-  "image_license_note": "Unsplash API photo",
-  "image_source_url": "https://unsplash.com/photos/a-black-car-parked-on-a-road-jFKH2XsRQC8",
-  "image_provider": "unsplash",
-  "image_score": 78,
-  "image_query": "audi tron",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "Audi, yıllar önce kompakt sınıfta iz bırakan A2 modelini tamamen elektrikli A2 e-tron olarak Paris Motor Show 2026'da tanıttı. \"Şimdiye kadarki en verimli Audi\" olarak lanse edilen model, 646 km'ye varan menzili ve 38.200 Euro'dan başlayan Almanya fiyatıyla dikkat çekiyor.",
   "language": "Turkish",
   "url_prefix": "articles/2026/10",
@@ -70,10 +62,7 @@
   "quality_notes": [],
   "quality_word_count": 443,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.unsplash.com/photo-1655126275641-21e114342284?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxhdWRpJTIwdHJvbnxlbnwxfDB8fHwxNzkxOTcxMDIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "original_image_url": "https://images.unsplash.com/photo-1655126275641-21e114342284?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxhdWRpJTIwdHJvbnxlbnwxfDB8fHwxNzkxOTcxMDIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "image_local_webp": "articles/2026/10/images/audi-a2-e-tron-paris-tanitildi-ozellikler-fiyat_20261014.webp",
-  "image_credit": "unsplash.com",
-  "image_credit_url": "https://unsplash.com/photos/a-black-car-parked-on-a-road-jFKH2XsRQC8",
-  "image_finalized_at": "2026-10-14T09:45:01.929366Z"
+  "time": "08:41",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }
