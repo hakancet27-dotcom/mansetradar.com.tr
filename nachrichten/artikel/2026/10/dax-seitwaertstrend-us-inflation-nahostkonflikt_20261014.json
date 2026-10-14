@@ -42,14 +42,6 @@
   "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/dax-seitwaertstrend-us-inflation-nahostkonflikt_20261014.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "source_provided",
-  "image_license_note": "RSS source image: tagesschau.de - Die Nachrichten der ARD",
-  "image_source_url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-nasdaq-berichtssaison-100.html",
-  "image_provider": "rss",
-  "image_score": 70,
-  "image_query": "Marktbericht: DAX bleibt im Seitwärtstrend",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "Der DAX verharrt im Seitwärtstrend um die Marke von 25.000 Punkten, während neue US-Inflationsdaten mit 3,7 Prozent im September höher als erwartet ausfielen. Anleger bleiben angesichts des Nahostkonflikts, hoher Ölpreise und der beginnenden US-Berichtssaison zurückhaltend, was die Erwartung weiterer Zinsanhebungen verstärkt.",
   "language": "German",
   "url_prefix": "nachrichten/artikel/2026/10",
@@ -67,10 +59,7 @@
   "quality_notes": [],
   "quality_word_count": 466,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.tagesschau.de/image/b67c6b6d-ed89-46e7-9b57-495550086b8e/AAABn1pS1lI/AAABnSSvrFg/16x9-big/boerse-524.jpg?width=1920",
-  "original_image_url": "https://images.tagesschau.de/image/b67c6b6d-ed89-46e7-9b57-495550086b8e/AAABn1pS1lI/AAABnSSvrFg/16x9-big/boerse-524.jpg?width=1920",
-  "image_local_webp": "nachrichten/artikel/2026/10/images/dax-seitwaertstrend-us-inflation-nahostkonflikt_20261014.webp",
-  "image_credit": "tagesschau.de",
-  "image_credit_url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-nasdaq-berichtssaison-100.html",
-  "image_finalized_at": "2026-10-14T18:56:18.131787Z"
+  "time": "16:24",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }

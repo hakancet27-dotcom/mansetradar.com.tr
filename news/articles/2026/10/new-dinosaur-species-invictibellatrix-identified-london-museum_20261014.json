@@ -48,14 +48,6 @@
   "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/new-dinosaur-species-invictibellatrix-identified-london-museum_20261014.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
-  "image_kind": "licensed_real_photo",
-  "image_license_status": "clear",
-  "image_license_note": "Unsplash API photo",
-  "image_source_url": "https://unsplash.com/photos/a-statue-of-a-dinosaur-in-a-grassy-area-x-JNASSWc34",
-  "image_provider": "unsplash",
-  "image_score": 71,
-  "image_query": "dinosaur species",
-  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
   "summary": "A new dinosaur species, Invictibellatrix amberina, a long-clawed predator related to the T. rex, has been identified from a fossil that sat overlooked in London's Natural History Museum for nearly a century. The discovery, detailed in the Royal Society Open Science journal, reveals a feathered carnivore that hunted with its formidable claws and would have posed a greater threat to humans than a T. rex.",
   "language": "English",
   "url_prefix": "news/articles/2026/10",
@@ -73,10 +65,7 @@
   "quality_notes": [],
   "quality_word_count": 512,
   "indexed_on_home": true,
-  "image_identity_url": "https://images.unsplash.com/photo-1633876204719-dd74580764ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwyfHxkaW5vc2F1ciUyMHNwZWNpZXN8ZW58MXwwfHx8MTc5MjAwMzA5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-  "original_image_url": "https://images.unsplash.com/photo-1633876204719-dd74580764ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwyfHxkaW5vc2F1ciUyMHNwZWNpZXN8ZW58MXwwfHx8MTc5MjAwMzA5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-  "image_local_webp": "news/articles/2026/10/images/new-dinosaur-species-invictibellatrix-identified-london-museum_20261014.webp",
-  "image_credit": "unsplash.com",
-  "image_credit_url": "https://unsplash.com/photos/a-statue-of-a-dinosaur-in-a-grassy-area-x-JNASSWc34",
-  "image_finalized_at": "2026-10-14T18:38:37.565111Z"
+  "time": "16:35",
+  "image_provider": "cms",
+  "image_license_status": "cms_editor_selected"
 }
