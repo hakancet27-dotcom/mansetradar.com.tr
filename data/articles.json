@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-14T00:00:00+00:00",
-    "article_count": 2396,
+    "article_count": 2398,
     "schema_version": 2
   },
   "articles": [
@@ -328,6 +328,88 @@
         "Rom"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:new-dinosaur-species-invictibellatrix-identified-london-museum_20261014",
+      "slug": "new-dinosaur-species-invictibellatrix-identified-london-museum_20261014",
+      "title": "New Dinosaur Species, Invictibellatrix, Identified After 100 Years in Museum",
+      "summary": "A new dinosaur species, Invictibellatrix amberina, a long-clawed predator related to the T. rex, has been identified from a fossil that sat overlooked in London's Natural History Museum for nearly a century. The discovery, detailed in the Royal Society Open...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "14.10.2026",
+      "date_iso": "2026-10-14",
+      "url": "/news/articles/2026/10/new-dinosaur-species-invictibellatrix-identified-london-museum_20261014/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/new-dinosaur-species-invictibellatrix-identified-london-museum_20261014/",
+      "detail_json_url": "/data/details/news/articles/2026/10/new-dinosaur-species-invictibellatrix-identified-london-museum_20261014.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/new-dinosaur-species-invictibellatrix-identified-london-museum_20261014.webp",
+      "image_alt": "Artistic rendering of Invictibellatrix amberina, a feathered, long-clawed dinosaur, with a fossil skull fragment in the...",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/new-dinosaur-species-invictibellatrix-identified-london-museum_20261014.webp",
+        "alt": "Artistic rendering of Invictibellatrix amberina, a feathered, long-clawed dinosaur, with a fossil skull fragment in the..."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/new-dinosaur-species-invictibellatrix-amberina-fossil-overlooked-100-years/",
+      "tags": [
+        "Dinosaur",
+        "Paleontology",
+        "Invictibellatrix amberina",
+        "T. rex",
+        "Megaraptoran",
+        "Natural History Museum",
+        "Fossil",
+        "Isle of Wight"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:mi5-warns-russia-iran-hybrid-attacks-europe_20261014",
+      "slug": "mi5-warns-russia-iran-hybrid-attacks-europe_20261014",
+      "title": "MI5 Warns of New Era of Hybrid Attacks from Russia and Iran",
+      "summary": "MI5 Director-General Sir Ken McCallum warned Tuesday of a \"new era\" of national security threats, citing escalating hybrid attacks from Russia and Iran targeting the UK and Europe. He highlighted Russia as the primary aggressor, while noting a significant e...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "14.10.2026",
+      "date_iso": "2026-10-14",
+      "url": "/news/articles/2026/10/mi5-warns-russia-iran-hybrid-attacks-europe_20261014/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/mi5-warns-russia-iran-hybrid-attacks-europe_20261014/",
+      "detail_json_url": "/data/details/news/articles/2026/10/mi5-warns-russia-iran-hybrid-attacks-europe_20261014.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/mi5-warns-russia-iran-hybrid-attacks-europe_20261014.webp",
+      "image_alt": "MI5 Warns of New Era of Hybrid Attacks from Russia and Iran",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/mi5-warns-russia-iran-hybrid-attacks-europe_20261014.webp",
+        "alt": "MI5 Warns of New Era of Hybrid Attacks from Russia and Iran"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/iran-russia-uk-mi5-hybrid-attacks-spy-chief-says-mccallum/",
+      "tags": [
+        "MI5",
+        "hybrid warfare",
+        "Russia",
+        "Iran",
+        "national security",
+        "UK",
+        "Europe",
+        "intelligence"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
