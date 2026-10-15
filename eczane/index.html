@@ -7,16 +7,14 @@
     <meta name="robots" content="index, follow, max-image-preview:large">
     <link rel="canonical" href="https://mansetradar.com.tr/eczane/">
     <title>Eczane</title>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/site-typography.css?v=20261015">
-  <style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/site-typography.css?v=20261015">
+    <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
     :root {
-    --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    --font-serif: 'Lora', Georgia, 'Times New Roman', serif;
       --red: #e10600;
       --red-dark: #a80000;
       --dark: #171727;
@@ -27,47 +25,49 @@
       --muted: #667085;
       --shadow: 0 2px 10px rgba(15, 23, 42, 0.07);
       --shadow-strong: 0 10px 26px rgba(15, 23, 42, 0.13);
+      --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --font-serif: 'Lora', Georgia, "Times New Roman", Cambria, serif;
     }
 
     body.dark-mode {
       --dark: #f8fafc;
-      --surface: #121826;
-      --page: #0a0d14;
-      --border: #1e293b;
-      --text: #f1f5f9;
-      --muted: #cbd5e1;
-      --shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
-      --shadow-strong: 0 10px 30px rgba(0, 0, 0, 0.6);
+      --surface: #18181b;
+      --page: #09090b;
+      --border: #27272a;
+      --text: #f8fafc;
+      --muted: #a1a1aa;
+      --shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      --shadow-strong: 0 10px 30px rgba(0, 0, 0, 0.7);
     }
     body.dark-mode header {
-      background: #0f172a;
+      background: #18181b;
       border-bottom-color: var(--red);
     }
     body.dark-mode .market-strip {
-      background: #1e293b;
-      border-color: #334155;
+      background: #18181b;
+      border-color: #27272a;
     }
     body.dark-mode .market-item {
-      background: #0f172a;
-      border-color: #334155;
+      background: #09090b;
+      border-color: #27272a;
     }
     body.dark-mode .header-search {
-      background: #1e293b;
-      border-color: #334155;
+      background: #27272a;
+      border-color: #3f3f46;
     }
     body.dark-mode .header-search input {
-      color: #f1f5f9;
+      color: #f8fafc;
     }
     body.dark-mode .news-card, body.dark-mode .topic-card, body.dark-mode .istanbul-card {
-      background: #121826;
-      border-color: #1e293b;
+      background: #18181b;
+      border-color: #27272a;
     }
     body.dark-mode .news-card a, body.dark-mode .topic-card a, body.dark-mode .istanbul-card a {
-      color: #f1f5f9;
+      color: #f8fafc;
     }
     body.dark-mode .sidebar-block, body.dark-mode .category-nav, body.dark-mode .quick-summary {
-      background: #121826;
-      border-color: #1e293b;
+      background: #18181b;
+      border-color: #27272a;
     }
     body.dark-mode .topic-link {
       color: #cbd5e1;
@@ -87,7 +87,7 @@
       color: #f8fafc !important;
     }
     body.dark-mode .istanbul-card-footer {
-      border-top-color: #1e293b !important;
+      border-top-color: #27272a !important;
     }
     body.dark-mode .istanbul-card-footer span,
     body.dark-mode .istanbul-source {
@@ -246,6 +246,23 @@
       background: var(--page);
       color: var(--text);
       line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Editorial Serif Headlines & Titles */
+    h1, h2, h3,
+    .headline-title,
+    .showcase-title,
+    .card-title,
+    .card-title a,
+    .istanbul-title,
+    .istanbul-card-title,
+    .country-title,
+    .country-title a,
+    .page-heading {
+      font-family: var(--font-serif);
+      letter-spacing: -0.015em;
     }
 
 
