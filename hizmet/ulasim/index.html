@@ -55,8 +55,14 @@
     }
   }
   </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/site-typography.css?v=20261015">
   <style>
     :root {
+    --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-serif: 'Lora', Georgia, 'Times New Roman', serif;
       --red: #e10600;
       --red-dark: #b30000;
       --dark: #0f172a;
@@ -66,7 +72,7 @@
       --text: #1e293b;
       --muted: #64748b;
     }
-    body { background: var(--page); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.5; margin: 0; }
+    body { background: var(--page); color: var(--text); font-family: var(--font-ui); line-height: 1.5; margin: 0; }
     .header { background: var(--dark); color: white; padding: 14px 20px; border-bottom: 3px solid var(--red); }
     .header-inner { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
     .header-logo { font-size: 1.25rem; font-weight: 800; color: white; text-decoration: none; }
@@ -121,7 +127,7 @@
       <p class="hero-desc">İBB Ulaşım Yönetim Merkezi veritabanından doğrudan çekilen anlık hat iptalleri, kaza/yol kapanmaları ve geçici güzergah düzenlemeleri.</p>
       <div class="quick-chips">
         <span class="chip">🚌 72 Aktif Hat Bildirimi</span>
-        <span class="chip">⏱️ Son Güncelleme: 02:54</span>
+        <span class="chip">⏱️ Son Güncelleme: 01:45</span>
         <a class="chip" href="/hizmet/kamu/">💧 İSKİ &amp; BEDAŞ Kesintileri →</a>
         <a class="chip" href="/hizmet/eczane/">💊 Nöbetçi Eczaneler →</a>
       </div>

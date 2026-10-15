@@ -1,0 +1,131 @@
+/* ==========================================================================
+   MANSETRADAR EDITORIAL TYPOGRAPHY & DESIGN SYSTEM (TR / EN / DE)
+   Version: 2026-10-15
+   Fonts: Inter (UI, Meta, Badges, Buttons) + Lora (Editorial Serif Headings & Content)
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+:root {
+  --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: 'Lora', Georgia, "Times New Roman", Cambria, serif;
+}
+
+/* Base Body & Layout Typography */
+html, body {
+  font-family: var(--font-ui) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* ==========================================================================
+   Editorial Serif Headlines & Section Titles (Across All Platforms & Hubs)
+   ========================================================================== */
+h1, h2, h3,
+.headline-title,
+.showcase-title,
+.card-title,
+.card-title a,
+.istanbul-title,
+.istanbul-card-title,
+.card-dist-name,
+.hero-title,
+.hero h1,
+.detail-title,
+.page-heading,
+.article-title,
+.country-title,
+.country-title a,
+.seo-panel h2,
+.related-news h2,
+.article-takeaways li,
+.article-body,
+.article-body p,
+.article-body blockquote {
+  font-family: var(--font-serif) !important;
+}
+
+/* Subtle editorial letter-spacing adjustments */
+h1,
+.headline-title,
+.hero-title,
+.hero h1,
+.article-title,
+.showcase-title,
+.country-title {
+  letter-spacing: -0.02em;
+}
+
+.card-title,
+.card-title a,
+.istanbul-card-title,
+.card-dist-name {
+  letter-spacing: -0.012em;
+}
+
+/* ==========================================================================
+   UI Controls, Navigation, Badges & Metadata (Crisp Sans-Serif)
+   ========================================================================== */
+.top-bar,
+.site-header,
+.trending-bar,
+.category-nav,
+.nav,
+.nav-links,
+.header-search,
+.meta-tag,
+.card-tag,
+.headline-tag,
+.headline-meta,
+.card-meta,
+.card-date,
+.card-topic,
+.tool-btn,
+.member-login-btn,
+.stat-pill,
+.card-pharm-badge,
+.meta,
+.kicker,
+.spot,
+.tag-list span,
+.article-source,
+.article-district-banner,
+.article-meta,
+.author-info,
+.comment-form,
+.btn-card-primary,
+.btn-card-sub,
+.district-banner-btn,
+.quick-summary,
+.sidebar-block,
+.market-strip,
+button,
+input,
+select,
+textarea,
+footer {
+  font-family: var(--font-ui) !important;
+}
+
+/* Logo: Editorial Serif Mark + Modern Sans Brand Text */
+.logo-icon, .mark {
+  font-family: var(--font-serif) !important;
+}
+.logo-text strong, .brand {
+  font-family: var(--font-ui) !important;
+  letter-spacing: -0.02em;
+}
+
+/* ==========================================================================
+   Refined Modern Zinc Dark Mode Tokens
+   ========================================================================== */
+body.dark-mode {
+  --zinc-bg: #09090b;
+  --zinc-surface: #18181b;
+  --zinc-surface-elevated: #27272a;
+  --zinc-border: #27272a;
+  --zinc-border-strong: #3f3f46;
+  --zinc-text: #f8fafc;
+  --zinc-muted: #a1a1aa;
+}

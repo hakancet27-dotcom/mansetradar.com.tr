@@ -1,26 +1,28 @@
 /* ==========================================================================
    CORPORATE UNIFIED HEADER & NICHE DESK SYSTEM (TR / EN / DE)
-   Version: 2026-10-02
+   Version: 2026-10-15
    ========================================================================== */
+
+@import url('/assets/css/site-typography.css');
 
 :root {
   --header-bg: #ffffff;
   --header-text: #0f172a;
   --header-border: #e2e8f0;
-  --topbar-bg: #0b1120;
+  --topbar-bg: #09090b;
   --topbar-text: #94a3b8;
   --brand-red: #dc2626;
   --brand-red-dark: #b91c1c;
-  --niche-bar-bg: #0f172a;
+  --niche-bar-bg: #09090b;
 }
 
 body.dark-mode {
-  --header-bg: #0b1120;
+  --header-bg: #18181b;
   --header-text: #f8fafc;
-  --header-border: #1e293b;
-  --topbar-bg: #070b14;
-  --topbar-text: #64748b;
-  --niche-bar-bg: #070b14;
+  --header-border: #27272a;
+  --topbar-bg: #09090b;
+  --topbar-text: #a1a1aa;
+  --niche-bar-bg: #09090b;
 }
 
 /* 1. TIER 1: TOP UTILITY & EDITION BAR */
