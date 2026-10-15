@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-15T00:00:00+00:00",
-    "article_count": 2479,
+    "article_count": 2483,
     "schema_version": 2,
     "topic_slug": "saglik",
     "type": "topic"
@@ -79,6 +79,44 @@
         "Kuduz Aşısı",
         "Sokak Hayvanları",
         "Sağlık Önlemleri"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:ab-bati-nil-virusu-vakalari-rekor-seviyeye-ulasti_20261015",
+      "slug": "ab-bati-nil-virusu-vakalari-rekor-seviyeye-ulasti_20261015",
+      "title": "AB'de Batı Nil Virüsü Vakaları Rekor Seviyeye Ulaştı",
+      "summary": "Avrupa Hastalık Önleme ve Kontrol Merkezi (ECDC), Avrupa Birliği (AB) ülkelerinde 7 Ekim itibarıyla yerel kaynaklı 1715 Batı Nil virüsü vakasının kaydedildiğini duyurdu. Bu sayı, bugüne kadar kayıtlara geçen en yüksek vaka sayısı olarak belirtildi. Virüsün...",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/ab-bati-nil-virusu-vakalari-rekor-seviyeye-ulasti_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/ab-bati-nil-virusu-vakalari-rekor-seviyeye-ulasti_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/ab-bati-nil-virusu-vakalari-rekor-seviyeye-ulasti_20261015.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/ab-bati-nil-virusu-vakalari-rekor-seviyeye-ulasti_20261015.webp",
+      "image_alt": "Batı Nil virüsü bulaştıran sivrisinek ve Avrupa haritası",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/ab-bati-nil-virusu-vakalari-rekor-seviyeye-ulasti_20261015.webp",
+        "alt": "Batı Nil virüsü bulaştıran sivrisinek ve Avrupa haritası"
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/dunya/abde-bati-nil-virusu-vakalari-rekor-seviyeye-ulasti/4090193",
+      "tags": [
+        "Batı Nil Virüsü",
+        "ECDC",
+        "Avrupa Birliği",
+        "Sivrisinek",
+        "Halk Sağlığı"
       ],
       "quality_score": 100,
       "review_status": "published"
