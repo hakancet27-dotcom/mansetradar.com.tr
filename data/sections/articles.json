@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-15T00:00:00+00:00",
-    "article_count": 2472,
+    "article_count": 2478,
     "schema_version": 2,
     "section": "articles"
   },
@@ -240,6 +240,44 @@
         "Hava Ulaşımı",
         "Turizm İş Birliği",
         "Mehmet Nuri Ersoy"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:trump-nidal-hasan-infaz-canli-yayin-karari_20261015",
+      "slug": "trump-nidal-hasan-infaz-canli-yayin-karari_20261015",
+      "title": "Trump, Fort Hood saldırganı Nidal Hasan'ın infazında canlı yayın kararından vazgeçti",
+      "summary": "ABD Başkanı Donald Trump, Kasım 2009'da Fort Hood Üssü'nde 13 kişiyi öldüren eski ordu psikiyatristi Nidal Hasan'ın infazının canlı yayınlanmayacağını duyurdu. Daha önce Savunma Bakanı Pete Hegseth tarafından gündeme getirilen 'halka açık infaz' planı, gele...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/trump-nidal-hasan-infaz-canli-yayin-karari_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/trump-nidal-hasan-infaz-canli-yayin-karari_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/trump-nidal-hasan-infaz-canli-yayin-karari_20261015.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/trump-nidal-hasan-infaz-canli-yayin-karari_20261015.webp",
+      "image_alt": "ABD Başkanı Trump ve Fort Hood saldırısı ile ilgili hukuki süreçleri temsil eden bir görsel.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/trump-nidal-hasan-infaz-canli-yayin-karari_20261015.webp",
+        "alt": "ABD Başkanı Trump ve Fort Hood saldırısı ile ilgili hukuki süreçleri temsil eden bir görsel."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/trump-idam-kararindan-geri-adim-atti-7680520",
+      "tags": [
+        "Trump",
+        "Nidal Hasan",
+        "Fort Hood",
+        "ABD",
+        "İdam"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -744,6 +782,44 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/10:kocaeli-ve-sakaryada-siddetli-yagis-felaketi_20261015",
+      "slug": "kocaeli-ve-sakaryada-siddetli-yagis-felaketi_20261015",
+      "title": "Kocaeli ve Sakarya'da şiddetli yağış felaketi: Okullar tatil edildi, heyelanlar yaşandı",
+      "summary": "Kocaeli ve Sakarya'da etkili olan şiddetli sağanak yağışlar, heyelanlara, dere taşkınlarına ve altyapı hasarlarına yol açtı. Bölgede arama kurtarma çalışmaları sürerken, her iki ilde de eğitime ara verildi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/kocaeli-ve-sakaryada-siddetli-yagis-felaketi_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/kocaeli-ve-sakaryada-siddetli-yagis-felaketi_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/kocaeli-ve-sakaryada-siddetli-yagis-felaketi_20261015.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/kocaeli-ve-sakaryada-siddetli-yagis-felaketi_20261015.webp",
+      "image_alt": "Kocaeli'de şiddetli yağış sonrası meydana gelen heyelan ve sel felaketinden bir görüntü.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/kocaeli-ve-sakaryada-siddetli-yagis-felaketi_20261015.webp",
+        "alt": "Kocaeli'de şiddetli yağış sonrası meydana gelen heyelan ve sel felaketinden bir görüntü."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/gundem/son-dakika-haberleri-siddetli-yagis-yon-degistirdi-sakarya-ve-kocaeli-de-etkili-saganak-3919889",
+      "tags": [
+        "Kocaeli",
+        "Sakarya",
+        "sağanak",
+        "heyelan",
+        "okullar tatil"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:istanbulda-siddetli-saganak-murat-boz-ve-yuzlerce-kisi-mahsur-kaldi_20261015",
       "slug": "istanbulda-siddetli-saganak-murat-boz-ve-yuzlerce-kisi-mahsur-kaldi_20261015",
       "title": "İstanbul'da Şiddetli Sağanak: Murat Boz ve Yüzlerce Kişi Mahsur Kaldı",
@@ -817,6 +893,47 @@
         "Sel",
         "Beylikdüzü",
         "Beylikdüzü haberleri"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:istanbul-valisi-gul-den-yeni-saganak-aciklamasi-kayip-5-kisi-araniyor-motosiklet_20261015",
+      "slug": "istanbul-valisi-gul-den-yeni-saganak-aciklamasi-kayip-5-kisi-araniyor-motosiklet_20261015",
+      "title": "İstanbul Valisi Gül'den Sağanak Açıklaması: 5 Kişi Aranıyor, Motosikletliler İçin Yeni Karar",
+      "summary": "İstanbul'da etkili olan sağanak ve sel felaketinin ardından İstanbul Valisi Davut Gül, Kemerburgaz'da basın mensuplarına açıklamalarda bulundu. Vali Gül, şu ana kadar yaklaşık 270 kilogram yağış düştüğünü, 3 kişinin hayatını kaybettiğini ve 5 kişinin kayıp...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/istanbul-valisi-gul-den-yeni-saganak-aciklamasi-kayip-5-kisi-araniyor-motosiklet_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/istanbul-valisi-gul-den-yeni-saganak-aciklamasi-kayip-5-kisi-araniyor-motosiklet_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/istanbul-valisi-gul-den-yeni-saganak-aciklamasi-kayip-5-kisi-araniyor-motosiklet_20261015.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/istanbul-valisi-gul-den-yeni-saganak-aciklamasi-kayip-5-kisi-araniyor-motosiklet_20261015.webp",
+      "image_alt": "İstanbul'da sağanak yağış sonrası oluşan selde kurtarma çalışmaları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/istanbul-valisi-gul-den-yeni-saganak-aciklamasi-kayip-5-kisi-araniyor-motosiklet_20261015.webp",
+        "alt": "İstanbul'da sağanak yağış sonrası oluşan selde kurtarma çalışmaları."
+      },
+      "source_name": "Cumhuriyet Gazetesi",
+      "source_url": "https://www.cumhuriyet.com.tr/turkiye/istanbul-valisi-gul-den-yeni-saganak-aciklamasi-kayip-5-kisi-araniyor-motosikletliler-icin-karar-verildi-2547138",
+      "tags": [
+        "İstanbul Valiliği",
+        "Davut Gül",
+        "Sağanak Yağış",
+        "Sel Felaketi",
+        "Kayıp Kişiler",
+        "Eyüpsultan",
+        "Eyüpsultan haberleri",
+        "İstanbul"
       ],
       "quality_score": 100,
       "review_status": "published"
@@ -977,6 +1094,47 @@
         "İstanbul"
       ],
       "quality_score": 95,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:istanbul-da-sel-felaketi-can-kaybi-ve-kayip-sayilari-guncellendi_20261015",
+      "slug": "istanbul-da-sel-felaketi-can-kaybi-ve-kayip-sayilari-guncellendi_20261015",
+      "title": "İstanbul'da Sel Felaketi: Can Kaybı ve Kayıp Sayıları Güncellendi",
+      "summary": "İstanbul Valiliği, kentte etkili olan sağanak yağışın yol açtığı sel felaketinde hayatını kaybedenlerin sayısının 3'e yükseldiğini, 5 kişinin ise kayıp olduğunu duyurdu. Beykoz'da okul inşaatında kuyu tahliyesi sırasında düşen bir işçi hayatını kaybederken,...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/istanbul-da-sel-felaketi-can-kaybi-ve-kayip-sayilari-guncellendi_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/istanbul-da-sel-felaketi-can-kaybi-ve-kayip-sayilari-guncellendi_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/istanbul-da-sel-felaketi-can-kaybi-ve-kayip-sayilari-guncellendi_20261015.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/istanbul-da-sel-felaketi-can-kaybi-ve-kayip-sayilari-guncellendi_20261015.webp",
+      "image_alt": "İstanbul'da sel felaketinin ardından sular altında kalan bir şehir manzarası.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/istanbul-da-sel-felaketi-can-kaybi-ve-kayip-sayilari-guncellendi_20261015.webp",
+        "alt": "İstanbul'da sel felaketinin ardından sular altında kalan bir şehir manzarası."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/gundem/istanbul-da-sel-son-dakika-istanbul-da-afeti-yasadi-metrekareye-242-kg-yagis-can-kayiplarimiz-var-3919827",
+      "tags": [
+        "Son Dakika",
+        "İstanbul Sel",
+        "Can Kaybı",
+        "Kayıp",
+        "Doğal Afet",
+        "Beykoz",
+        "Beykoz haberleri",
+        "İstanbul"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
@@ -1292,6 +1450,46 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/10:dundar-ziya-gultekin-kimdir-trafik-kazasinda-hayatini-kaybetti_20261015",
+      "slug": "dundar-ziya-gultekin-kimdir-trafik-kazasinda-hayatini-kaybetti_20261015",
+      "title": "Üsküdar Belediye Başkanvekili Dündar Ziya Gültekin trafik kazasında hayatını kaybetti",
+      "summary": "Üsküdar Belediye Başkanvekili Dündar Ziya Gültekin, Düzce'de yağış nedeniyle kayganlaşan yolda meydana gelen zincirleme trafik kazasında hayatını kaybetti. Siyaset dünyasını yasa boğan acı haberin ardından Gültekin'in yaşamı ve kariyeri merak konusu oldu.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/dundar-ziya-gultekin-kimdir-trafik-kazasinda-hayatini-kaybetti_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/dundar-ziya-gultekin-kimdir-trafik-kazasinda-hayatini-kaybetti_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/dundar-ziya-gultekin-kimdir-trafik-kazasinda-hayatini-kaybetti_20261015.json",
+      "image_url": "https://images.ntv.com.tr/images/thumbs_b_c_13e7cc6574679112dfc92484e4bf59a8-657692.jpg",
+      "image_alt": "Üsküdar Belediye Başkanvekili Dündar Ziya Gültekin",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/thumbs_b_c_13e7cc6574679112dfc92484e4bf59a8-657692.jpg",
+        "alt": "Üsküdar Belediye Başkanvekili Dündar Ziya Gültekin"
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/galeri-dundar-ziya-gultekin-kimdir-uskudar-belediye-baskanvekili-dundar-ziya-gultekin-neden-oldu-1746481",
+      "tags": [
+        "Dündar Ziya Gültekin",
+        "Üsküdar Belediyesi",
+        "Düzce trafik kazası",
+        "Son Dakika",
+        "Üsküdar",
+        "Üsküdar haberleri",
+        "İstanbul"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:didem-balcin-zayiflik-sirrini-acikladi_20261015",
       "slug": "didem-balcin-zayiflik-sirrini-acikladi_20261015",
       "title": "Didem Balçın Zayıflama Sırrını Açıkladı: Kilo Verme Sürecinde Ablasının Rolü Büyük",
@@ -1485,6 +1683,47 @@
         "Dead Space"
       ],
       "quality_score": 90,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:baskan-erdogandan-sel-felaketi-aciklamasi_20261015",
+      "slug": "baskan-erdogandan-sel-felaketi-aciklamasi_20261015",
+      "title": "Başkan Erdoğan'dan sel felaketi açıklaması: 3 vatandaşımız hayatını kaybetti",
+      "summary": "Başkan Recep Tayyip Erdoğan, Beştepe Millet Kütüphanesi'nde düzenlenen Türkiye Maarif Vakfı 10. Yıl Programı'nda İstanbul ve Antalya'daki sel felaketine ilişkin önemli açıklamalarda bulundu. Selde 3 vatandaşın hayatını kaybettiğini belirten Erdoğan, devleti...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/baskan-erdogandan-sel-felaketi-aciklamasi_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/baskan-erdogandan-sel-felaketi-aciklamasi_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/baskan-erdogandan-sel-felaketi-aciklamasi_20261015.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/baskan-erdogandan-sel-felaketi-aciklamasi_20261015.webp",
+      "image_alt": "Başkan Recep Tayyip Erdoğan, Beştepe Millet Kütüphanesi'nde açıklamalarda bulunurken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/baskan-erdogandan-sel-felaketi-aciklamasi_20261015.webp",
+        "alt": "Başkan Recep Tayyip Erdoğan, Beştepe Millet Kütüphanesi'nde açıklamalarda bulunurken."
+      },
+      "source_name": "SABAH",
+      "source_url": "https://www.sabah.com.tr/gundem/2026/10/15/son-dakika-baskan-erdogandan-onemli-aciklamalar",
+      "tags": [
+        "Recep Tayyip Erdoğan",
+        "sel felaketi",
+        "İstanbul",
+        "Antalya",
+        "Türkiye Maarif Vakfı",
+        "AFAD",
+        "Üsküdar",
+        "Üsküdar haberleri"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
