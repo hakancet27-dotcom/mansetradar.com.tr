@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-15T00:00:00+00:00",
-    "article_count": 2460,
+    "article_count": 2466,
     "schema_version": 2,
     "category_slug": "gundem",
     "type": "category"
@@ -87,6 +87,45 @@
         "Aydın Çalış",
         "Sancaktepe",
         "Sancaktepe haberleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:kocaelide-saganak-felaketi-kopru-coktu-1-kisi-kayip-okullar-tatil_20261015",
+      "slug": "kocaelide-saganak-felaketi-kopru-coktu-1-kisi-kayip-okullar-tatil_20261015",
+      "title": "Kocaeli'de Sağanak Felaketi: Dere Taştı, Köprü Çöktü, 1 Kişi Sel Sularına Kapıldı",
+      "summary": "Kocaeli genelinde etkili olan şiddetli sağanak yağış ve derelerin taşması sonucu su baskınları ve heyelanlar meydana geldi. Başiskele'de sel sularına kapılan eski muhtar Mustafa Gedikli'yi arama çalışmaları sürerken, Doğantepe Mahallesi'nde bir köprü çöktü...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/kocaelide-saganak-felaketi-kopru-coktu-1-kisi-kayip-okullar-tatil_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/kocaelide-saganak-felaketi-kopru-coktu-1-kisi-kayip-okullar-tatil_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/kocaelide-saganak-felaketi-kopru-coktu-1-kisi-kayip-okullar-tatil_20261015.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/kocaelide-saganak-felaketi-kopru-coktu-1-kisi-kayip-okullar-tatil_20261015.webp",
+      "image_alt": "Kocaeli'de aşırı yağışlar sonrası su baskını ve arama kurtarma çalışmaları",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/kocaelide-saganak-felaketi-kopru-coktu-1-kisi-kayip-okullar-tatil_20261015.webp",
+        "alt": "Kocaeli'de aşırı yağışlar sonrası su baskını ve arama kurtarma çalışmaları"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kocaelide-sel-sularina-kapilan-kisi-halatlarla-kurtarildi-kayip-1-kisi-araniyor-43342944",
+      "tags": [
+        "Kocaeli",
+        "Sel",
+        "Sağanak Yağış",
+        "Başiskele",
+        "AFAD",
+        "Gölcük"
       ],
       "quality_score": 86,
       "review_status": "published"

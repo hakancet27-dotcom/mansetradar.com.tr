@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-15T00:00:00+00:00",
-    "article_count": 2460,
+    "article_count": 2466,
     "schema_version": 2,
     "topic_slug": "teknoloji",
     "type": "topic"
@@ -48,6 +48,82 @@
         "Siber Güvenlik"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:yoneticiler-yemek-yerken-yapay-zeka-ajanlari-kendi-aralarinda-toplandi_20261015",
+      "slug": "yoneticiler-yemek-yerken-yapay-zeka-ajanlari-kendi-aralarinda-toplandi_20261015",
+      "title": "Yöneticiler yemek yerken yapay zeka ajanları kendi aralarında toplandı",
+      "summary": "New York'ta bir restoranda bir araya gelen 22 teknoloji yatırımcısı, dijital dünyada eşi benzeri görülmemiş bir deneye imza attı. Yatırımcılar yemek yerken, onları temsil eden 14 otonom yapay zeka ajanı sanal ortamda kendi aralarında bağımsız bir oturum ger...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/yoneticiler-yemek-yerken-yapay-zeka-ajanlari-kendi-aralarinda-toplandi_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/yoneticiler-yemek-yerken-yapay-zeka-ajanlari-kendi-aralarinda-toplandi_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/yoneticiler-yemek-yerken-yapay-zeka-ajanlari-kendi-aralarinda-toplandi_20261015.json",
+      "image_url": "https://images.ntv.com.tr/images/G7C2DHKVYZNCFJ2YYQWOGBYWO4-568842.jpg",
+      "image_alt": "Sanal ortamda kendi aralarında iletişim kuran otonom yapay zeka ajanlarını temsil eden dijital grafik.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/G7C2DHKVYZNCFJ2YYQWOGBYWO4-568842.jpg",
+        "alt": "Sanal ortamda kendi aralarında iletişim kuran otonom yapay zeka ajanlarını temsil eden dijital grafik."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/teknoloji/galeri-yoneticileri-masada-yemek-yiyordu-yapay-zeka-ajanlari-kendi-aralarinda-ne-konustu-1746442",
+      "tags": [
+        "yapay zeka",
+        "otonom yazılım",
+        "teknoloji",
+        "yapay zeka ajanları"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:danimarka-8-8-milyon-veri-ihlali-123456-sifre_20261015",
+      "slug": "danimarka-8-8-milyon-veri-ihlali-123456-sifre_20261015",
+      "title": "Danimarka'da 8.8 Milyon Kişinin Verileri '123456' Şifresiyle Çalındı",
+      "summary": "Danimarka'da Merkezi Kişi Kaydı (CPR) sistemine '123456' şifresi kullanılarak sızıldı ve 8.8 milyon kişinin adı, adresi ile kimlik numaraları ele geçirildi. Saldırı, Pays ApS adlı özel bir şirketin yetkili hesabının kötüye kullanılmasıyla gerçekleşti.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/danimarka-8-8-milyon-veri-ihlali-123456-sifre_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/danimarka-8-8-milyon-veri-ihlali-123456-sifre_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/danimarka-8-8-milyon-veri-ihlali-123456-sifre_20261015.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/danimarka-8-8-milyon-veri-ihlali-123456-sifre_20261015.webp",
+      "image_alt": "Danimarka'da 8.8 Milyon Kişinin Verileri '123456' Şifresiyle Çalındı",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/danimarka-8-8-milyon-veri-ihlali-123456-sifre_20261015.webp",
+        "alt": "Danimarka'da 8.8 Milyon Kişinin Verileri '123456' Şifresiyle Çalındı"
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/teknoloji/8-8-milyon-kisinin-verileri-123456-sifresi-uzerinden-ele-gecirildi-7680315",
+      "tags": [
+        "Danimarka",
+        "Veri İhlali",
+        "Siber Güvenlik",
+        "123456 Şifresi",
+        "Kişisel Veriler",
+        "CPR Sistemi"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {

@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "articles/2026/10:danimarka-8-8-milyon-veri-ihlali-123456-sifre_20261015",
+    "slug": "danimarka-8-8-milyon-veri-ihlali-123456-sifre_20261015",
+    "title": "Danimarka'da 8.8 Milyon Kişinin Verileri '123456' Şifresiyle Çalındı",
+    "summary": "Danimarka'da Merkezi Kişi Kaydı (CPR) sistemine '123456' şifresi kullanılarak sızıldı ve 8.8 milyon kişinin adı, adresi ile kimlik numaraları ele geçirildi. Saldırı, Pays ApS adlı özel bir şirketin yetkili hesabının kötüye kullanılmasıyla gerçekleşti.",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "topic_slug": "teknoloji",
+    "topic_label": "Teknoloji",
+    "country": "Turkey",
+    "language": "tr",
+    "language_label": "Turkish",
+    "section": "articles",
+    "section_name": "Haberler",
+    "url_prefix": "articles/2026/10",
+    "date": "15.10.2026",
+    "date_iso": "2026-10-15",
+    "url": "/articles/2026/10/danimarka-8-8-milyon-veri-ihlali-123456-sifre_20261015/",
+    "canonical_url": "https://mansetradar.com.tr/articles/2026/10/danimarka-8-8-milyon-veri-ihlali-123456-sifre_20261015/",
+    "detail_json_url": "/data/details/articles/2026/10/danimarka-8-8-milyon-veri-ihlali-123456-sifre_20261015.json",
+    "image_url": "https://mansetradar.com.tr/articles/2026/10/images/danimarka-8-8-milyon-veri-ihlali-123456-sifre_20261015.webp",
+    "image_alt": "Danimarka'da 8.8 Milyon Kişinin Verileri '123456' Şifresiyle Çalındı",
+    "image": {
+      "url": "https://mansetradar.com.tr/articles/2026/10/images/danimarka-8-8-milyon-veri-ihlali-123456-sifre_20261015.webp",
+      "alt": "Danimarka'da 8.8 Milyon Kişinin Verileri '123456' Şifresiyle Çalındı"
+    },
+    "source_name": "Milliyet",
+    "source_url": "https://www.milliyet.com.tr/teknoloji/8-8-milyon-kisinin-verileri-123456-sifresi-uzerinden-ele-gecirildi-7680315",
+    "tags": [
+      "Danimarka",
+      "Veri İhlali",
+      "Siber Güvenlik",
+      "123456 Şifresi",
+      "Kişisel Veriler",
+      "CPR Sistemi"
+    ],
+    "quality_score": 86,
+    "review_status": "published",
+    "content_html": "<h2>Önemli Gelişmeler</h2><p>Danimarka'da Merkezi Kişi Kaydı (CPR) sistemine yönelik gerçekleştirilen bir siber saldırıda, dünya genelinde en sık kullanılan zayıf şifrelerden biri olan '123456' kullanılarak 8.8 milyon kişinin kişisel verileri ele geçirildi. Eylül ayında gerçekleşen bu veri ihlalinde, hayatta olan ve hayatını kaybetmiş kişilere ait ad, adres ve kimlik numaraları açığa çıktı.</p><p>Saldırgan, Danimarka'nın bölgesel yayın kuruluşlarından Politiken'e yaptığı açıklamada, hedef alınan bir şirkete ait en az üç hesabın aynı zayıf şifreyi kullandığını ve bunlardan birinin yönetici hesabı olduğunu iddia etti. Danimarkalı yetkililer, saldırganın CPR sistemine erişim yetkisi bulunan özel bir şirketin hesabını kötüye kullanarak verilere ulaştığını doğruladı. Kurum, hedef alınan şirketin adını açıklamazken, Pays ApS şirketinin genel müdürü Sophie Laursen, 9 Ekim'de yaptığı açıklamada şirketlerinin sisteme erişim yetkisinin kötüye kullanıldığını belirtti. Pays ApS'nin internet sitesi de daha sonra erişime kapatıldı.</p><p>Ortaya çıkan belgelere göre, saldırgan 10-20 Eylül tarihleri arasında CPR sistemi üzerinde otomatik araçlarla yaklaşık 14 milyon arama gerçekleştirdi. Bu durum, Araştırma, Eğitim ve Dijitalleşme Bakanlığında çalışan bir personelin, Pays ApS'nin normalden çok daha fazla arama yaptığını gösteren bir faturayı incelemesiyle fark edildi. Saldırgan, çaldığı bilgileri satmayı veya internette yayımlamayı planlamadığını iddia etse de, bu açıklamanın doğruluğu henüz teyit edilmedi.</p><h2>Öne Çıkan Noktalar</h2><ul><li>Danimarka'da Merkezi Kişi Kaydı (CPR) sisteminden 8.8 milyon kişinin adı, adresi ve kimlik numaraları sızdırıldı.</li><li>Veri ihlali, dünya genelinde en yaygın şifrelerden biri olan '123456' kullanılarak gerçekleştirildi.</li><li>Saldırı, CPR sistemine erişim yetkisi olan Pays ApS adlı özel bir şirketin hesabının kötüye kullanılmasıyla mümkün oldu.</li></ul><h2>Neden Önemli?</h2><p>Danimarka'da yaşanan bu olay, özellikle hassas kişisel verileri işleyen kurum ve şirketler için siber güvenlik önlemlerinin, özellikle de güçlü ve benzersiz parolaların kullanılmasının ne denli kritik olduğunu bir kez daha gözler önüne serdi. '123456' gibi basit şifreler, geçen yıl yaklaşık 7.6 milyon hesap tarafından kullanıldığı bildirilen ve siber saldırganlar için kolay bir hedef olmaya devam eden bir zafiyet kaynağıdır. Bu durum, erişim yetkilerinin düzenli olarak denetlenmesi ve zayıf şifre politikalarının terk edilmesi gerektiğini vurgulamaktadır. Kamu ve özel sektördeki tüm kuruluşların, veri güvenliği protokollerini sıkılaştırması ve çalışanlarını siber tehditlere karşı bilinçlendirmesi büyük önem taşımaktadır.</p>",
+    "meta_title": "Danimarka'da 8.8 Milyon Kişinin Verileri '123456'...",
+    "meta_description": "Danimarka'da Merkezi Kişi Kaydı (CPR) sistemine sızan bir bilgisayar korsanı, '123456' şifresini kullanarak 8.8 milyon kişinin verilerini ele geçirdi. Olay,...",
+    "spot": "Danimarka'da Merkezi Kişi Kaydı (CPR) sistemine '123456' şifresi kullanılarak sızıldı ve 8.8 milyon kişinin adı, adresi ile kimlik numaraları ele geçirildi. Saldırı, Pays ApS adlı özel bir şirketin yetkili hesabının kötüye kullanılmasıyla gerçekleşti.",
+    "word_count": 335,
+    "reading_time_minutes": 2,
+    "discover_titles": [
+      "Danimarka'da Büyük Veri İhlali: 8.8 Milyon Kişinin Bilgileri '123456'...",
+      "Siber Güvenlik Alarmı: '123456' Şifresi Danimarka'da Milyonlarca Veriyi...",
+      "Zayıf Şifre Felaketi: Danimarka'da 8.8 Milyon Kişisel Veri Tehlikede"
+    ],
+    "visual_keywords": [
+      "8.8 milyon kişinin verileri, '123456' şifresi..."
+    ]
+  }
+}
