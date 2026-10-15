@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-15T00:00:00+00:00",
-    "article_count": 2443,
+    "article_count": 2445,
     "schema_version": 2
   },
   "articles": [
@@ -398,6 +398,45 @@
         "Edinburgh Dükü"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:pakistan-school-collapse-peshawar-deaths_20261015",
+      "slug": "pakistan-school-collapse-peshawar-deaths_20261015",
+      "title": "Pakistan School Collapse Kills Almost 30 Students and a Teacher in Peshawar",
+      "summary": "Almost 30 students and a teacher were killed when the roof of a private school, the Al-Khair Education Center, collapsed on Thursday in Peshawar's southwest Dir district, Pakistan. Local officials confirmed 29 fatalities, including 17 children and a female...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/news/articles/2026/10/pakistan-school-collapse-peshawar-deaths_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/pakistan-school-collapse-peshawar-deaths_20261015/",
+      "detail_json_url": "/data/details/news/articles/2026/10/pakistan-school-collapse-peshawar-deaths_20261015.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/pakistan-school-collapse-peshawar-deaths_20261015.webp",
+      "image_alt": "Pakistan School Collapse Kills Almost 30 Students and a Teacher in Peshawar",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/pakistan-school-collapse-peshawar-deaths_20261015.webp",
+        "alt": "Pakistan School Collapse Kills Almost 30 Students and a Teacher in Peshawar"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/pakistan-school-collapse-peshawar-student-teacher-deaths/",
+      "tags": [
+        "Pakistan",
+        "Peshawar",
+        "School Collapse",
+        "Building Safety",
+        "Education",
+        "Disaster"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -823,6 +862,44 @@
         "Ünlü polemikleri"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:hilary-swank-pregnant-third-child-52_20261015",
+      "slug": "hilary-swank-pregnant-third-child-52_20261015",
+      "title": "Hilary Swank Expecting Third Child at 52",
+      "summary": "Oscar-winning actress Hilary Swank, 52, has announced she is pregnant with her third child, due in December. The news comes three years after she welcomed twins, Aya and Ohm, with her husband Philip Schneider. Swank shared the surprise announcement via a so...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/news/articles/2026/10/hilary-swank-pregnant-third-child-52_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/hilary-swank-pregnant-third-child-52_20261015/",
+      "detail_json_url": "/data/details/news/articles/2026/10/hilary-swank-pregnant-third-child-52_20261015.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/hilary-swank-pregnant-third-child-52_20261015.webp",
+      "image_alt": "Hilary Swank, 52, smiling and showing her baby bump, announcing her third pregnancy.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/hilary-swank-pregnant-third-child-52_20261015.webp",
+        "alt": "Hilary Swank, 52, smiling and showing her baby bump, announcing her third pregnancy."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/hilary-swank-pregnant-third-child-52/",
+      "tags": [
+        "Hilary Swank",
+        "Pregnancy",
+        "Celebrity News",
+        "Parenting",
+        "IVF"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
