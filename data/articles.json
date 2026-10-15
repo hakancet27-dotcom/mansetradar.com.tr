@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-15T00:00:00+00:00",
-    "article_count": 2478,
+    "article_count": 2479,
     "schema_version": 2
   },
   "articles": [
@@ -2065,6 +2065,46 @@
         "Magazin Haberleri"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:david-jolly-florida-governor-race-fraud-ties_20261015",
+      "slug": "david-jolly-florida-governor-race-fraud-ties_20261015",
+      "title": "As Jolly runs for Florida gov., he confronts prior ties to alleged fraudster",
+      "summary": "Florida gubernatorial candidate David Jolly is addressing his past employment ties to businessman Leo Govoni, who was indicted for allegedly siphoning over $100 million from a nonprofit. Jolly worked for a Govoni-owned firm where millions were reportedly tr...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/news/articles/2026/10/david-jolly-florida-governor-race-fraud-ties_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/david-jolly-florida-governor-race-fraud-ties_20261015/",
+      "detail_json_url": "/data/details/news/articles/2026/10/david-jolly-florida-governor-race-fraud-ties_20261015.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/david-jolly-florida-governor-race-fraud-ties_20261015.webp",
+      "image_alt": "David Jolly, Democratic candidate for Florida governor, addressing the public amidst questions about his past ties to an...",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/david-jolly-florida-governor-race-fraud-ties_20261015.webp",
+        "alt": "David Jolly, Democratic candidate for Florida governor, addressing the public amidst questions about his past ties to an..."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/david-jolly-leo-govoni-florida-governor/",
+      "tags": [
+        "David Jolly",
+        "Florida Governor",
+        "Leo Govoni",
+        "Political Campaign",
+        "Fraud Allegations",
+        "Democratic Party",
+        "Byron Donalds"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
