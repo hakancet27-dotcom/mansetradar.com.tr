@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-15T00:00:00+00:00",
-    "article_count": 2490,
+    "article_count": 2495,
     "schema_version": 2,
     "category_slug": "gundem",
     "type": "category"
@@ -246,6 +246,47 @@
         "okullar tatil"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:istanbulda-84-yilin-rekor-sel-felaketi_20261015",
+      "slug": "istanbulda-84-yilin-rekor-sel-felaketi_20261015",
+      "title": "İstanbul'da 84 Yılın Rekor Sel Felaketi: 3 Can Kaybı, 5 Kayıp",
+      "summary": "İstanbul, 15 Ekim 2026 tarihinde son 84 yılın en yüksek yağış değerlerinden birinin kaydedildiği şiddetli bir sel felaketiyle sarsıldı. Kent genelinde metrekareye 261 kilogram yağış düşerken, Beykoz'da 1942'den bu yana ölçülen en yüksek miktar olan 277,1 ki...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/istanbulda-84-yilin-rekor-sel-felaketi_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/istanbulda-84-yilin-rekor-sel-felaketi_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/istanbulda-84-yilin-rekor-sel-felaketi_20261015.json",
+      "image_url": "https://image.dunya.com/rcman/Cw1280h720q95gc/storage/files/images/2026/10/15/istanbul-sel-fucy_cover.jpg",
+      "image_alt": "İstanbul'da sel sularına gömülmüş caddeler ve sürüklenen araçlar, kurtarma ekipleri çalışırken",
+      "image": {
+        "url": "https://image.dunya.com/rcman/Cw1280h720q95gc/storage/files/images/2026/10/15/istanbul-sel-fucy_cover.jpg",
+        "alt": "İstanbul'da sel sularına gömülmüş caddeler ve sürüklenen araçlar, kurtarma ekipleri çalışırken"
+      },
+      "source_name": "Dünya Gazetesi",
+      "source_url": "https://www.dunya.com/gundem/istanbulda-84-yilin-rekor-felaketi-haberi-844053",
+      "tags": [
+        "İstanbul",
+        "Sel Felaketi",
+        "Doğal Afet",
+        "Yağış Rekoru",
+        "Altyapı",
+        "Can Kaybı",
+        "Beykoz",
+        "Beykoz haberleri"
+      ],
+      "quality_score": 90,
       "review_status": "published"
     },
     {

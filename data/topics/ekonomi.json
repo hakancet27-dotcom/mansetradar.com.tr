@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-15T00:00:00+00:00",
-    "article_count": 2490,
+    "article_count": 2495,
     "schema_version": 2,
     "topic_slug": "ekonomi",
     "type": "topic"
@@ -84,6 +84,43 @@
         "Sektörel Performans"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:abd-iran-yeni-yaptirimlar-finansal-aglar_20261015",
+      "slug": "abd-iran-yeni-yaptirimlar-finansal-aglar_20261015",
+      "title": "ABD'den İran'a Yeni Yaptırımlar: Finansal Ağlar Hedef Alındı",
+      "summary": "ABD Hazine Bakanlığı, İran'ın uluslararası finans sistemine sızma ve yaptırımlardan kaçma çabalarını hedef alan yeni yaptırımlar açıkladı. Irak merkezli International Development Bank for Investment and Finance (IDB) ve Küba merkezli Banco Internacional de...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/abd-iran-yeni-yaptirimlar-finansal-aglar_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/abd-iran-yeni-yaptirimlar-finansal-aglar_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/abd-iran-yeni-yaptirimlar-finansal-aglar_20261015.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/abd-iran-yeni-yaptirimlar-finansal-aglar_20261015.webp",
+      "image_alt": "ABD ve İran bayrakları arasında finansal ağları temsil eden grafikler.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/abd-iran-yeni-yaptirimlar-finansal-aglar_20261015.webp",
+        "alt": "ABD ve İran bayrakları arasında finansal ağları temsil eden grafikler."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/abd-hazine-bakanligi-acikladi-irana-yeni-yaptirim-hamlesi-43343375",
+      "tags": [
+        "ABD Yaptırımları",
+        "İran Ekonomisi",
+        "Uluslararası Finans",
+        "Hazine Bakanlığı"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {

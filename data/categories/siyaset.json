@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-15T00:00:00+00:00",
-    "article_count": 2490,
+    "article_count": 2495,
     "schema_version": 2,
     "category_slug": "siyaset",
     "type": "category"
@@ -43,6 +43,44 @@
         "Çocuk İstismarı",
         "DUP",
         "Hapis Cezası"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:ispanya-basbakani-pedro-sanchez-hakkinda-secim-sorusturmasi_20261015",
+      "slug": "ispanya-basbakani-pedro-sanchez-hakkinda-secim-sorusturmasi_20261015",
+      "title": "İspanya Başbakanı Pedro Sanchez Hakkında Seçim Soruşturması Başlatıldı",
+      "summary": "İspanya Merkez Seçim Kurulu, 29 Kasım'daki erken genel seçim kararının hemen ardından Başbakanlık konutunda düzenlediği basın toplantısında kamu kaynaklarını seçim amaçlı kullandığı gerekçesiyle Başbakan Pedro Sanchez hakkında soruşturma başlattı.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/ispanya-basbakani-pedro-sanchez-hakkinda-secim-sorusturmasi_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/ispanya-basbakani-pedro-sanchez-hakkinda-secim-sorusturmasi_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/ispanya-basbakani-pedro-sanchez-hakkinda-secim-sorusturmasi_20261015.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/ispanya-basbakani-pedro-sanchez-hakkinda-secim-sorusturmasi_20261015.webp",
+      "image_alt": "İspanya Başbakanı Pedro Sanchez basın toplantısında açıklama yapıyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/ispanya-basbakani-pedro-sanchez-hakkinda-secim-sorusturmasi_20261015.webp",
+        "alt": "İspanya Başbakanı Pedro Sanchez basın toplantısında açıklama yapıyor."
+      },
+      "source_name": "Bloomberg HT - Tüm Haberler",
+      "source_url": "https://www.bloomberght.com/ispanya-basbakani-sanchez-hakkinda-secim-sorusturmasi-3791519",
+      "tags": [
+        "İspanya",
+        "Pedro Sanchez",
+        "Merkez Seçim Kurulu",
+        "Halk Partisi",
+        "Erken Seçim"
       ],
       "quality_score": 86,
       "review_status": "published"

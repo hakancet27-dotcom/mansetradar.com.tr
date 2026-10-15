@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-15T00:00:00+00:00",
-    "article_count": 2490,
+    "article_count": 2495,
     "schema_version": 2,
     "topic_slug": "dunya",
     "type": "topic"
@@ -276,6 +276,45 @@
         "East Potomac Golf Links",
         "Ağaç Kesimi",
         "ABD Mahkemeleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:abd-lukoil-yaptirim-muafiyetini-uzatti-2027_20261015",
+      "slug": "abd-lukoil-yaptirim-muafiyetini-uzatti-2027_20261015",
+      "title": "ABD'den Lukoil Kararı: Yaptırım Muafiyeti 2027'ye Kadar Uzatıldı",
+      "summary": "ABD Hazine Bakanlığı, yaptırım listesinde yer alan Rus petrol şirketi Lukoil'in Rusya dışındaki fiziki akaryakıt istasyonlarına yönelik belirli işlemlere sağlanan muafiyet süresini 24 Nisan 2027 tarihine kadar uzattığını duyurdu.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/abd-lukoil-yaptirim-muafiyetini-uzatti-2027_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/abd-lukoil-yaptirim-muafiyetini-uzatti-2027_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/abd-lukoil-yaptirim-muafiyetini-uzatti-2027_20261015.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/abd-lukoil-yaptirim-muafiyetini-uzatti-2027_20261015.webp",
+      "image_alt": "Rus petrol şirketi Lukoil'e ait bir akaryakıt istasyonu ve yakıt pompaları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/abd-lukoil-yaptirim-muafiyetini-uzatti-2027_20261015.webp",
+        "alt": "Rus petrol şirketi Lukoil'e ait bir akaryakıt istasyonu ve yakıt pompaları."
+      },
+      "source_name": "Bloomberg HT - Tüm Haberler",
+      "source_url": "https://www.bloomberght.com/abd-lukoil-e-yonelik-yaptirim-muafiyetini-uzatti-3791522",
+      "tags": [
+        "Lukoil",
+        "ABD Hazine Bakanlığı",
+        "OFAC",
+        "yaptırım muafiyeti",
+        "Rusya petrolü",
+        "Donald Trump"
       ],
       "quality_score": 86,
       "review_status": "published"
