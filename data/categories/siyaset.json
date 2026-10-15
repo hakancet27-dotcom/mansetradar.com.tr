@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-15T00:00:00+00:00",
-    "article_count": 2466,
+    "article_count": 2472,
     "schema_version": 2,
     "category_slug": "siyaset",
     "type": "category"
@@ -43,6 +43,44 @@
         "Çocuk İstismarı",
         "DUP",
         "Hapis Cezası"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:husiler-yemenin-gecici-baskenti-adendeki-baskanlik-sarayini-vurdu_20261015",
+      "slug": "husiler-yemenin-gecici-baskenti-adendeki-baskanlik-sarayini-vurdu_20261015",
+      "title": "Husiler, Yemen'in Geçici Başkenti Aden'deki Başkanlık Sarayını Vurdu",
+      "summary": "Yemen'in geçici başkenti Aden'deki Maaşik Başkanlık Sarayı, 5 füze ile hedef alındı. Saldırı sırasında sarayda bulunan Yemen Başbakanı ve kabine üyelerinin güvende olduğu bildirildi. Enformasyon Bakanı İryani, saldırıyı terörist Husi milislerinin gerçekleşt...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/husiler-yemenin-gecici-baskenti-adendeki-baskanlik-sarayini-vurdu_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/husiler-yemenin-gecici-baskenti-adendeki-baskanlik-sarayini-vurdu_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/husiler-yemenin-gecici-baskenti-adendeki-baskanlik-sarayini-vurdu_20261015.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/husiler-yemenin-gecici-baskenti-adendeki-baskanlik-sarayini-vurdu_20261015.webp",
+      "image_alt": "Yemen'in geçici başkenti Aden'deki Maaşik Başkanlık Sarayı'na düzenlenen füze saldırısının ardından dumanlar yükseliyor.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/husiler-yemenin-gecici-baskenti-adendeki-baskanlik-sarayini-vurdu_20261015.webp",
+        "alt": "Yemen'in geçici başkenti Aden'deki Maaşik Başkanlık Sarayı'na düzenlenen füze saldırısının ardından dumanlar yükseliyor."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/basbakan-ve-bakanlar-saraydayken-saldirdilar-husiler-yemenin-gecici-baskenti-adendeki-maasik-baskanlik-sarayini-5-fuzeyle-vurdu-7680517",
+      "tags": [
+        "Yemen",
+        "Husiler",
+        "Aden",
+        "Başkanlık Sarayı",
+        "Saldırı"
       ],
       "quality_score": 86,
       "review_status": "published"

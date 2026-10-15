@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-15T00:00:00+00:00",
-    "article_count": 2466,
+    "article_count": 2472,
     "schema_version": 2,
     "topic_slug": "ekonomi",
     "type": "topic"
@@ -45,6 +45,45 @@
         "TCL CSOT"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:bist-100-15-ekim-2026-piyasa-ozeti-sektorel-analiz_20261015",
+      "slug": "bist-100-15-ekim-2026-piyasa-ozeti-sektorel-analiz_20261015",
+      "title": "BIST 100 Günü Düşüşle Kapattı: Sektörlerde Son Durum",
+      "summary": "15 Ekim 2026 Perşembe günü BIST 100 endeksi, günü %0.50 düşüşle 12.057,35 puandan tamamladı. Gün içinde en yüksek 12.160,40, en düşük ise 11.962,25 puanı gören endekste, bankacılık ve turizm sektörleri yükseliş kaydederken, metal eşya makina ve inşaat sektö...",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/bist-100-15-ekim-2026-piyasa-ozeti-sektorel-analiz_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/bist-100-15-ekim-2026-piyasa-ozeti-sektorel-analiz_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/bist-100-15-ekim-2026-piyasa-ozeti-sektorel-analiz_20261015.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/bist-100-15-ekim-2026-piyasa-ozeti-sektorel-analiz_20261015.webp",
+      "image_alt": "BIST 100 Günü Düşüşle Kapattı: Sektörlerde Son Durum",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/bist-100-15-ekim-2026-piyasa-ozeti-sektorel-analiz_20261015.webp",
+        "alt": "BIST 100 Günü Düşüşle Kapattı: Sektörlerde Son Durum"
+      },
+      "source_name": "Bloomberg HT - Tüm Haberler",
+      "source_url": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-15-ekim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3791504",
+      "tags": [
+        "BIST 100",
+        "Borsa İstanbul",
+        "Ekonomi",
+        "Hisse Senetleri",
+        "Piyasa Analizi",
+        "Sektörel Performans"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
