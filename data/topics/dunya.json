@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-15T00:00:00+00:00",
-    "article_count": 2424,
+    "article_count": 2428,
     "schema_version": 2,
     "topic_slug": "dunya",
     "type": "topic"
@@ -44,6 +44,45 @@
         "Batı Şeria",
         "Kızılay",
         "Devlet Hastanesi"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:abdde-yargic-reyes-trump-yonetiminin-tarihi-golf-sahasindaki-agac-kesimini-durdu_20261015",
+      "slug": "abdde-yargic-reyes-trump-yonetiminin-tarihi-golf-sahasindaki-agac-kesimini-durdu_20261015",
+      "title": "ABD'de Yargıç Reyes, Trump Yönetiminin Tarihi Golf Sahasındaki Ağaç Kesimini Durdurdu",
+      "summary": "ABD Bölge Yargıcı Ana C. Reyes, Donald Trump yönetiminin başkent Washington'da yer alan East Potomac Golf Links sahasında yürüttüğü ağaç kesim işlemlerini 26 Ekim'e kadar durdurma kararı aldı.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/abdde-yargic-reyes-trump-yonetiminin-tarihi-golf-sahasindaki-agac-kesimini-durdu_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/abdde-yargic-reyes-trump-yonetiminin-tarihi-golf-sahasindaki-agac-kesimini-durdu_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/abdde-yargic-reyes-trump-yonetiminin-tarihi-golf-sahasindaki-agac-kesimini-durdu_20261015.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/abdde-yargic-reyes-trump-yonetiminin-tarihi-golf-sahasindaki-agac-kesimini-durdu_20261015.webp",
+      "image_alt": "Washington'daki East Potomac Golf Links sahasında kesilmiş büyük ağaç gövdeleri ve talaş öbekleri",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/abdde-yargic-reyes-trump-yonetiminin-tarihi-golf-sahasindaki-agac-kesimini-durdu_20261015.webp",
+        "alt": "Washington'daki East Potomac Golf Links sahasında kesilmiş büyük ağaç gövdeleri ve talaş öbekleri"
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/dunya/abdde-yargic-trump-yonetiminin-washingtondaki-golf-sahasinda-yaptigi-agac-kesimini-durdurdu/4089151",
+      "tags": [
+        "Donald Trump",
+        "Washington",
+        "Ana C Reyes",
+        "East Potomac Golf Links",
+        "Ağaç Kesimi",
+        "ABD Mahkemeleri"
       ],
       "quality_score": 86,
       "review_status": "published"
