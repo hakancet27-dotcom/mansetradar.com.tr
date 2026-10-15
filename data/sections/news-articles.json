@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-15T00:00:00+00:00",
-    "article_count": 2434,
+    "article_count": 2435,
     "schema_version": 2,
     "section": "news-articles"
   },
@@ -45,6 +45,43 @@
         "Donald Trump"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:new-dinosaur-species-animation-discovery_20261015",
+      "slug": "new-dinosaur-species-animation-discovery_20261015",
+      "title": "New Dinosaur Species Revealed in Scientific Animation",
+      "summary": "Paleontologists have officially announced the discovery of a previously unknown dinosaur species, providing a rare glimpse into prehistoric life through a newly released scientific animation.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/news/articles/2026/10/new-dinosaur-species-animation-discovery_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/new-dinosaur-species-animation-discovery_20261015/",
+      "detail_json_url": "/data/details/news/articles/2026/10/new-dinosaur-species-animation-discovery_20261015.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/new-dinosaur-species-animation-discovery_20261015.webp",
+      "image_alt": "A digital animation of a newly discovered dinosaur species.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/new-dinosaur-species-animation-discovery_20261015.webp",
+        "alt": "A digital animation of a newly discovered dinosaur species."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/animation-depicts-newly-discovered-dinosaur-species/",
+      "tags": [
+        "Paleontology",
+        "Dinosaurs",
+        "Scientific Discovery",
+        "Fossil Research"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {

@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-15T00:00:00+00:00",
-    "article_count": 2434,
+    "article_count": 2435,
     "schema_version": 2
   },
   "hero": [
@@ -1013,6 +1013,43 @@
         "İngiliz Kraliyet Ailesi",
         "Kral Charles",
         "Edinburgh Dükü"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:new-dinosaur-species-animation-discovery_20261015",
+      "slug": "new-dinosaur-species-animation-discovery_20261015",
+      "title": "New Dinosaur Species Revealed in Scientific Animation",
+      "summary": "Paleontologists have officially announced the discovery of a previously unknown dinosaur species, providing a rare glimpse into prehistoric life through a newly released scientific animation.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/news/articles/2026/10/new-dinosaur-species-animation-discovery_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/new-dinosaur-species-animation-discovery_20261015/",
+      "detail_json_url": "/data/details/news/articles/2026/10/new-dinosaur-species-animation-discovery_20261015.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/new-dinosaur-species-animation-discovery_20261015.webp",
+      "image_alt": "A digital animation of a newly discovered dinosaur species.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/new-dinosaur-species-animation-discovery_20261015.webp",
+        "alt": "A digital animation of a newly discovered dinosaur species."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/animation-depicts-newly-discovered-dinosaur-species/",
+      "tags": [
+        "Paleontology",
+        "Dinosaurs",
+        "Scientific Discovery",
+        "Fossil Research"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -3110,46 +3147,6 @@
         "AKTOB",
         "Resort Turizmi",
         "Kaan Kaşif Kavaloğlu"
-      ],
-      "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:yeni-parti-istanbul-kongresi-ozgur-celik-cagri_20261013",
-      "slug": "yeni-parti-istanbul-kongresi-ozgur-celik-cagri_20261013",
-      "title": "YENİ Parti'den İstanbul Kongresi Öncesi Önemli Çağrı: 'Gelin Birlikte Karar Verelim'",
-      "summary": "YENİ Parti İstanbul İl Başkanı Özgür Çelik, partisinin 1. İstanbul Kongresi öncesinde İstanbulluları ve parti üyelerini önemli bir çağrıyla davet etti. Çelik, 17-18 Ekim tarihlerinde gerçekleşecek kongrede İstanbul'un geleceğine birlikte karar verme ve il b...",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "siyaset",
-      "topic_label": "Siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "13.10.2026",
-      "date_iso": "2026-10-13",
-      "url": "/articles/2026/10/yeni-parti-istanbul-kongresi-ozgur-celik-cagri_20261013/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/yeni-parti-istanbul-kongresi-ozgur-celik-cagri_20261013/",
-      "detail_json_url": "/data/details/articles/2026/10/yeni-parti-istanbul-kongresi-ozgur-celik-cagri_20261013.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/yeni-parti-istanbul-kongresi-ozgur-celik-cagri_20261013.webp",
-      "image_alt": "YENİ Parti İstanbul İl Başkanı Özgür Çelik, partisinin 1. İstanbul Kongresi'nde konuşma yaparken.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/10/images/yeni-parti-istanbul-kongresi-ozgur-celik-cagri_20261013.webp",
-        "alt": "YENİ Parti İstanbul İl Başkanı Özgür Çelik, partisinin 1. İstanbul Kongresi'nde konuşma yaparken."
-      },
-      "source_name": "Cumhuriyet Gazetesi",
-      "source_url": "https://www.cumhuriyet.com.tr/siyaset/ozgur-celik-ten-yeni-partililere-cagri-gelin-istanbul-un-gelecegine-birlikte-karar-verelim-2546438",
-      "tags": [
-        "YENİ Parti",
-        "Özgür Çelik",
-        "İstanbul Kongresi",
-        "Ön Seçim",
-        "İstanbul Siyaseti",
-        "Ekrem İmamoğlu",
-        "Özgür Özel"
       ],
       "quality_score": 100,
       "review_status": "published"
