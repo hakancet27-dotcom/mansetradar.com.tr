@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-15T00:00:00+00:00",
-    "article_count": 2495,
+    "article_count": 2500,
     "schema_version": 2
   },
   "hero": [
@@ -279,6 +279,48 @@
         "İdam"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:trabzonspor-thomas-reis-kups-galibiyeti-besiktas-derbisi-konferans-ligi_20261015",
+      "slug": "trabzonspor-thomas-reis-kups-galibiyeti-besiktas-derbisi-konferans-ligi_20261015",
+      "title": "Thomas Reis: \"Doğru Anlarda Golleri Bularak Kazandık\"",
+      "summary": "Trabzonspor Teknik Direktörü Thomas Reis, UEFA Konferans Ligi'nde KuPS Kuopio'yu deplasmanda 4-2 mağlup ettikleri maçın ardından yaptığı açıklamada, hak ettikleri bir galibiyet aldıklarını ve doğru anlarda buldukları gollerle kazandıklarını belirtti. Reis,...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/trabzonspor-thomas-reis-kups-galibiyeti-besiktas-derbisi-konferans-ligi_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/trabzonspor-thomas-reis-kups-galibiyeti-besiktas-derbisi-konferans-ligi_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/trabzonspor-thomas-reis-kups-galibiyeti-besiktas-derbisi-konferans-ligi_20261015.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/trabzonspor-thomas-reis-kups-galibiyeti-besiktas-derbisi-konferans-ligi_20261015.webp",
+      "image_alt": "Thomas Reis: \"Doğru Anlarda Golleri Bularak Kazandık\"",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/trabzonspor-thomas-reis-kups-galibiyeti-besiktas-derbisi-konferans-ligi_20261015.webp",
+        "alt": "Thomas Reis: \"Doğru Anlarda Golleri Bularak Kazandık\""
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/thomas-reis-dogru-anlarda-golleri-bularak-kazandik-43343402",
+      "tags": [
+        "Trabzonspor",
+        "Thomas Reis",
+        "UEFA Konferans Ligi",
+        "KuPS Kuopio",
+        "Beşiktaş",
+        "Süper Lig",
+        "Futbol",
+        "Beşiktaş haberleri",
+        "İstanbul"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -745,43 +787,6 @@
       ],
       "quality_score": 76,
       "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:kuduz-asisi-tedavi-degil-koruyucu-onlem_20261015",
-      "slug": "kuduz-asisi-tedavi-degil-koruyucu-onlem_20261015",
-      "title": "Kuduz Aşısı: Tedavi Değil, Hayat Kurtaran Koruyucu Önlem",
-      "summary": "NKÜ Tıp Fakültesi Enfeksiyon Hastalıkları Anabilim Dalı Öğretim Üyesi Doç. Dr. Mustafa Doğan, kuduzun tedavi edilebilir bir hastalık olmadığını, en etkili yöntemin koruyucu önlemler almak olduğunu belirtti. Sokak hayvanlarının tırmalama veya ısırması gibi d...",
-      "category": "Sağlık",
-      "category_slug": "saglik",
-      "topic_slug": "saglik",
-      "topic_label": "Sağlık",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "15.10.2026",
-      "date_iso": "2026-10-15",
-      "url": "/articles/2026/10/kuduz-asisi-tedavi-degil-koruyucu-onlem_20261015/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/kuduz-asisi-tedavi-degil-koruyucu-onlem_20261015/",
-      "detail_json_url": "/data/details/articles/2026/10/kuduz-asisi-tedavi-degil-koruyucu-onlem_20261015.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/kuduz-asisi-tedavi-degil-koruyucu-onlem_20261015.webp",
-      "image_alt": "Doktor, kuduz aşısının önemini bir aileye anlatıyor.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/10/images/kuduz-asisi-tedavi-degil-koruyucu-onlem_20261015.webp",
-        "alt": "Doktor, kuduz aşısının önemini bir aileye anlatıyor."
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/saglik/kuduzun-tedavi-yontemi-koruyucu-onlem-haberler-3919697",
-      "tags": [
-        "Kuduz",
-        "Kuduz Aşısı",
-        "Sokak Hayvanları",
-        "Sağlık Önlemleri"
-      ],
-      "quality_score": 100,
-      "review_status": "published"
     }
   ],
   "latest": [
@@ -1175,6 +1180,48 @@
         "İdam"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:trabzonspor-thomas-reis-kups-galibiyeti-besiktas-derbisi-konferans-ligi_20261015",
+      "slug": "trabzonspor-thomas-reis-kups-galibiyeti-besiktas-derbisi-konferans-ligi_20261015",
+      "title": "Thomas Reis: \"Doğru Anlarda Golleri Bularak Kazandık\"",
+      "summary": "Trabzonspor Teknik Direktörü Thomas Reis, UEFA Konferans Ligi'nde KuPS Kuopio'yu deplasmanda 4-2 mağlup ettikleri maçın ardından yaptığı açıklamada, hak ettikleri bir galibiyet aldıklarını ve doğru anlarda buldukları gollerle kazandıklarını belirtti. Reis,...",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/trabzonspor-thomas-reis-kups-galibiyeti-besiktas-derbisi-konferans-ligi_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/trabzonspor-thomas-reis-kups-galibiyeti-besiktas-derbisi-konferans-ligi_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/trabzonspor-thomas-reis-kups-galibiyeti-besiktas-derbisi-konferans-ligi_20261015.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/trabzonspor-thomas-reis-kups-galibiyeti-besiktas-derbisi-konferans-ligi_20261015.webp",
+      "image_alt": "Thomas Reis: \"Doğru Anlarda Golleri Bularak Kazandık\"",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/trabzonspor-thomas-reis-kups-galibiyeti-besiktas-derbisi-konferans-ligi_20261015.webp",
+        "alt": "Thomas Reis: \"Doğru Anlarda Golleri Bularak Kazandık\""
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/sporarena/thomas-reis-dogru-anlarda-golleri-bularak-kazandik-43343402",
+      "tags": [
+        "Trabzonspor",
+        "Thomas Reis",
+        "UEFA Konferans Ligi",
+        "KuPS Kuopio",
+        "Beşiktaş",
+        "Süper Lig",
+        "Futbol",
+        "Beşiktaş haberleri",
+        "İstanbul"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -2261,6 +2308,84 @@
       "review_status": "published"
     },
     {
+      "id": "articles/2026/10:istanbul-ve-kocaelide-sel-felaketi-3-olu-6-kayip_20261015",
+      "slug": "istanbul-ve-kocaelide-sel-felaketi-3-olu-6-kayip_20261015",
+      "title": "Bakan Çiftçi: İstanbul ve Kocaeli’deki yağışlarda 3 kişi hayatını kaybetti, kayıp 6 kişi...",
+      "summary": "İçişleri Bakanı Mustafa Çiftçi, İstanbul ve Kocaeli'de etkili olan şiddetli yağışlar sonucunda 3 vatandaşın hayatını kaybettiğini, 6 kişinin ise kayıp olduğunu ve arama çalışmalarının aralıksız sürdüğünü duyurdu.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/istanbul-ve-kocaelide-sel-felaketi-3-olu-6-kayip_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/istanbul-ve-kocaelide-sel-felaketi-3-olu-6-kayip_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/istanbul-ve-kocaelide-sel-felaketi-3-olu-6-kayip_20261015.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/istanbul-ve-kocaelide-sel-felaketi-3-olu-6-kayip_20261015.webp",
+      "image_alt": "İstanbul'da sel felaketi sonrası AFAD ekiplerinin arama kurtarma çalışmaları.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/istanbul-ve-kocaelide-sel-felaketi-3-olu-6-kayip_20261015.webp",
+        "alt": "İstanbul'da sel felaketi sonrası AFAD ekiplerinin arama kurtarma çalışmaları."
+      },
+      "source_name": "Anadolu Ajansı Güncel Haberler",
+      "source_url": "https://www.aa.com.tr/tr/gundem/bakan-ciftci-istanbul-ve-kocaeli-deki-yagislarda-3-kisi-hayatini-kaybetti-kayip-6-kisi-araniyor/4090333",
+      "tags": [
+        "İstanbul",
+        "Kocaeli",
+        "sel",
+        "AFAD",
+        "Mustafa Çiftçi",
+        "hava durumu"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:istanbul-ve-5-il-daha-okullar-tatil-edildi-siddetli-yagis-hayati-felc-etti_20261015",
+      "slug": "istanbul-ve-5-il-daha-okullar-tatil-edildi-siddetli-yagis-hayati-felc-etti_20261015",
+      "title": "İstanbul ve 5 İl Daha Tatil: Şiddetli Yağış Hayatı Felç Etti",
+      "summary": "Sağanak yağışın etkisini sürdürdüğü İstanbul, Kocaeli, Sakarya, Yalova, Düzce ve Zonguldak'ta okullar bugün (16 Ekim Cuma) tatil edildi. İstanbul'da 84 yılın en büyük yağışı kaydedilirken, sel ve su baskınları nedeniyle hayat durma noktasına geldi. Üç kişin...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "15.10.2026",
+      "date_iso": "2026-10-15",
+      "url": "/articles/2026/10/istanbul-ve-5-il-daha-okullar-tatil-edildi-siddetli-yagis-hayati-felc-etti_20261015/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/istanbul-ve-5-il-daha-okullar-tatil-edildi-siddetli-yagis-hayati-felc-etti_20261015/",
+      "detail_json_url": "/data/details/articles/2026/10/istanbul-ve-5-il-daha-okullar-tatil-edildi-siddetli-yagis-hayati-felc-etti_20261015.json",
+      "image_url": "https://images.ntv.com.tr/images/images-693887.jpg",
+      "image_alt": "İstanbul'da sel felaketi sonrası havadan görünüm, sular altında kalmış sokaklar ve araçlar.",
+      "image": {
+        "url": "https://images.ntv.com.tr/images/images-693887.jpg",
+        "alt": "İstanbul'da sel felaketi sonrası havadan görünüm, sular altında kalmış sokaklar ve araçlar."
+      },
+      "source_name": "ntv.com.tr",
+      "source_url": "https://www.ntv.com.tr/turkiye/istanbul-kocaeli-ve-sakaryada-okullar-yarin-da-tatil-1746416",
+      "tags": [
+        "Son Dakika",
+        "İstanbul",
+        "Okullar Tatil",
+        "Sağanak Yağış",
+        "Sel Felaketi",
+        "Meteoroloji"
+      ],
+      "quality_score": 90,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:istanbul-valisi-gul-den-yeni-saganak-aciklamasi-kayip-5-kisi-araniyor-motosiklet_20261015",
       "slug": "istanbul-valisi-gul-den-yeni-saganak-aciklamasi-kayip-5-kisi-araniyor-motosiklet_20261015",
       "title": "İstanbul Valisi Gül'den Sağanak Açıklaması: 5 Kişi Aranıyor, Motosikletliler İçin Yeni Karar",
@@ -3005,122 +3130,6 @@
         "Nettozahler"
       ],
       "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:dundar-ziya-gultekin-kimdir-trafik-kazasinda-hayatini-kaybetti_20261015",
-      "slug": "dundar-ziya-gultekin-kimdir-trafik-kazasinda-hayatini-kaybetti_20261015",
-      "title": "Üsküdar Belediye Başkanvekili Dündar Ziya Gültekin trafik kazasında hayatını kaybetti",
-      "summary": "Üsküdar Belediye Başkanvekili Dündar Ziya Gültekin, Düzce'de yağış nedeniyle kayganlaşan yolda meydana gelen zincirleme trafik kazasında hayatını kaybetti. Siyaset dünyasını yasa boğan acı haberin ardından Gültekin'in yaşamı ve kariyeri merak konusu oldu.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "15.10.2026",
-      "date_iso": "2026-10-15",
-      "url": "/articles/2026/10/dundar-ziya-gultekin-kimdir-trafik-kazasinda-hayatini-kaybetti_20261015/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/dundar-ziya-gultekin-kimdir-trafik-kazasinda-hayatini-kaybetti_20261015/",
-      "detail_json_url": "/data/details/articles/2026/10/dundar-ziya-gultekin-kimdir-trafik-kazasinda-hayatini-kaybetti_20261015.json",
-      "image_url": "https://images.ntv.com.tr/images/thumbs_b_c_13e7cc6574679112dfc92484e4bf59a8-657692.jpg",
-      "image_alt": "Üsküdar Belediye Başkanvekili Dündar Ziya Gültekin",
-      "image": {
-        "url": "https://images.ntv.com.tr/images/thumbs_b_c_13e7cc6574679112dfc92484e4bf59a8-657692.jpg",
-        "alt": "Üsküdar Belediye Başkanvekili Dündar Ziya Gültekin"
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/turkiye/galeri-dundar-ziya-gultekin-kimdir-uskudar-belediye-baskanvekili-dundar-ziya-gultekin-neden-oldu-1746481",
-      "tags": [
-        "Dündar Ziya Gültekin",
-        "Üsküdar Belediyesi",
-        "Düzce trafik kazası",
-        "Son Dakika",
-        "Üsküdar",
-        "Üsküdar haberleri",
-        "İstanbul"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "nachrichten/artikel/2026/10:doris-schroeder-koepf-legt-mandat-niedersaechsischer-landtag-nieder_20261015",
-      "slug": "doris-schroeder-koepf-legt-mandat-niedersaechsischer-landtag-nieder_20261015",
-      "title": "Doris Schröder-Köpf legt Mandat im niedersächsischen Landtag nieder",
-      "summary": "Nach mehr als 13 Jahren im niedersächsischen Landtag hat die SPD-Politikerin Doris Schröder-Köpf ihr Amt niedergelegt. Mit ihrem Abschied verliert die Partei ein bundesweit bekanntes Gesicht.",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "gundem",
-      "topic_label": "Gündem",
-      "country": "Germany",
-      "language": "de",
-      "language_label": "German",
-      "section": "nachrichten/artikel",
-      "section_name": "Deutschland Nachrichten",
-      "url_prefix": "nachrichten/artikel/2026/10",
-      "date": "15.10.2026",
-      "date_iso": "2026-10-15",
-      "url": "/nachrichten/artikel/2026/10/doris-schroeder-koepf-legt-mandat-niedersaechsischer-landtag-nieder_20261015/",
-      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/doris-schroeder-koepf-legt-mandat-niedersaechsischer-landtag-nieder_20261015/",
-      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/doris-schroeder-koepf-legt-mandat-niedersaechsischer-landtag-nieder_20261015.json",
-      "image_url": "https://cdn.prod.www.spiegel.de/images/4749ed33-30cd-4206-9ded-35a9f79b47ca_w520_r2.08_fpx39.32_fpy54.99.jpg",
-      "image_alt": "Doris Schröder-Köpf",
-      "image": {
-        "url": "https://cdn.prod.www.spiegel.de/images/4749ed33-30cd-4206-9ded-35a9f79b47ca_w520_r2.08_fpx39.32_fpy54.99.jpg",
-        "alt": "Doris Schröder-Köpf"
-      },
-      "source_name": "DER SPIEGEL - Schlagzeilen",
-      "source_url": "https://www.spiegel.de/politik/spd-doris-schroeder-koepf-hoert-auf-a-cd041199-57c5-42b9-bcee-8cfa8a63b6a5#ref=rss",
-      "tags": [
-        "Doris Schröder-Köpf",
-        "SPD",
-        "Niedersachsen",
-        "Landtag",
-        "Politik"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:disisleri-bakanligindan-7-cica-zirvesi-sonrasi-aciklama-baris-istikrar-vurgusu_20261015",
-      "slug": "disisleri-bakanligindan-7-cica-zirvesi-sonrasi-aciklama-baris-istikrar-vurgusu_20261015",
-      "title": "Dışişleri Bakanlığı'ndan CICA Zirvesi Sonrası Açıklama: Barış ve İstikrar Vurgusu",
-      "summary": "Dışişleri Bakanlığı, Asya'da İşbirliği ve Güven Artırıcı Önlemler Konferansı'nın (CICA) 7. Zirvesi'nde kabul edilen Bakü Deklarasyonu ile üye ülkelerin, Asya coğrafyasında bölgesel sahiplenme anlayışını temel alan ortak işbirliği ruhuyla barış, refah ve ist...",
-      "category": "Sağlık",
-      "category_slug": "saglik",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "15.10.2026",
-      "date_iso": "2026-10-15",
-      "url": "/articles/2026/10/disisleri-bakanligindan-7-cica-zirvesi-sonrasi-aciklama-baris-istikrar-vurgusu_20261015/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/disisleri-bakanligindan-7-cica-zirvesi-sonrasi-aciklama-baris-istikrar-vurgusu_20261015/",
-      "detail_json_url": "/data/details/articles/2026/10/disisleri-bakanligindan-7-cica-zirvesi-sonrasi-aciklama-baris-istikrar-vurgusu_20261015.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/disisleri-bakanligindan-7-cica-zirvesi-sonrasi-aciklama-baris-istikrar-vurgusu_20261015.webp",
-      "image_alt": "Dışişleri Bakanlığı binası ve Asya ülkeleri bayrakları ile işbirliği ve barış sembolleri.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/10/images/disisleri-bakanligindan-7-cica-zirvesi-sonrasi-aciklama-baris-istikrar-vurgusu_20261015.webp",
-        "alt": "Dışişleri Bakanlığı binası ve Asya ülkeleri bayrakları ile işbirliği ve barış sembolleri."
-      },
-      "source_name": "Anadolu Ajansı Güncel Haberler",
-      "source_url": "https://www.aa.com.tr/tr/gundem/disisleri-bakanligindan-7-cica-zirvesine-iliskin-paylasim/4090182",
-      "tags": [
-        "CICA",
-        "Dışişleri Bakanlığı",
-        "Bakü Deklarasyonu",
-        "Asya İşbirliği",
-        "Güven Artırıcı Önlemler"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]
