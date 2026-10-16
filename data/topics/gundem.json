@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-16T00:00:00+00:00",
-    "article_count": 2542,
+    "article_count": 2548,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -93,6 +93,44 @@
         "İstanbul"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:openai-ve-anthropic-yapay-zeka-guvenligi-sorusturmasi_20261016",
+      "slug": "openai-ve-anthropic-yapay-zeka-guvenligi-sorusturmasi_20261016",
+      "title": "OpenAI ve Anthropic'e FTC Soruşturması: Yapay Zeka Güvenliği Mercek Altında",
+      "summary": "ABD Federal Ticaret Komisyonu (FTC), yapay zeka sektörünün iki dev ismi OpenAI ve Anthropic hakkında kapsamlı bir soruşturma başlattı. Yapay zeka modellerinin karıştığı güvenlik olayları ve tüketiciyi koruma yasalarının olası ihlalleri üzerine odaklanan inc...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "16.10.2026",
+      "date_iso": "2026-10-16",
+      "url": "/articles/2026/10/openai-ve-anthropic-yapay-zeka-guvenligi-sorusturmasi_20261016/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/openai-ve-anthropic-yapay-zeka-guvenligi-sorusturmasi_20261016/",
+      "detail_json_url": "/data/details/articles/2026/10/openai-ve-anthropic-yapay-zeka-guvenligi-sorusturmasi_20261016.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/openai-ve-anthropic-yapay-zeka-guvenligi-sorusturmasi_20261016.webp",
+      "image_alt": "FTC'nin OpenAI ve Anthropic hakkında başlattığı yapay zeka güvenliği soruşturmasını temsil eden görsel.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/openai-ve-anthropic-yapay-zeka-guvenligi-sorusturmasi_20261016.webp",
+        "alt": "FTC'nin OpenAI ve Anthropic hakkında başlattığı yapay zeka güvenliği soruşturmasını temsil eden görsel."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/teknoloji/yapay-zeka-guvenligiyle-nedeniyle-openai-ve-anthropice-sorusturma-acildi-7680916",
+      "tags": [
+        "OpenAI",
+        "Anthropic",
+        "FTC",
+        "Yapay Zeka Güvenliği",
+        "Teknoloji Soruşturması"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {

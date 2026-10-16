@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-16T00:00:00+00:00",
-    "article_count": 2542,
+    "article_count": 2548,
     "schema_version": 2,
     "topic_slug": "dunya",
     "type": "topic"
@@ -47,6 +47,45 @@
         "Fort Hood"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:hyundai-bayon-yenilendi-paris-fuari-hibrit-motor_20261016",
+      "slug": "hyundai-bayon-yenilendi-paris-fuari-hibrit-motor_20261016",
+      "title": "Hyundai BAYON Yenilendi: Paris Fuarı'nda Tanıtıldı, Hibrit Motor Geliyor",
+      "summary": "Hyundai, 2026 Paris Otomobil Fuarı'nda yenilenen BAYON modelini tanıttı. Yeni BAYON, 440 litrelik bagaj hacmi, çift ekran seçeneği ve 2027'de eklenecek hibrit motor planıyla dikkat çekiyor. Ayrıca TUCSON'un Avrupa versiyonu da fuarda yerini aldı.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "16.10.2026",
+      "date_iso": "2026-10-16",
+      "url": "/articles/2026/10/hyundai-bayon-yenilendi-paris-fuari-hibrit-motor_20261016/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/hyundai-bayon-yenilendi-paris-fuari-hibrit-motor_20261016/",
+      "detail_json_url": "/data/details/articles/2026/10/hyundai-bayon-yenilendi-paris-fuari-hibrit-motor_20261016.json",
+      "image_url": "https://img.chip.com.tr/storage/files/images/2026/10/16/hyundai-bayon-yenilendi-440-litrelik-bagaj-ve-hibrit-motor-plani-lxg4.jpg",
+      "image_alt": "Hyundai BAYON Yenilendi: Paris Fuarı'nda Tanıtıldı, Hibrit Motor Geliyor",
+      "image": {
+        "url": "https://img.chip.com.tr/storage/files/images/2026/10/16/hyundai-bayon-yenilendi-440-litrelik-bagaj-ve-hibrit-motor-plani-lxg4.jpg",
+        "alt": "Hyundai BAYON Yenilendi: Paris Fuarı'nda Tanıtıldı, Hibrit Motor Geliyor"
+      },
+      "source_name": "CHIP Online",
+      "source_url": "https://www.chip.com.tr/galeri/hyundai-bayon-yenilendi-440-litrelik-bagaj-ve-hibrit-motor-plani_184673.html",
+      "tags": [
+        "Hyundai",
+        "BAYON",
+        "Paris Otomobil Fuarı",
+        "Hibrit",
+        "SUV",
+        "Otomobil"
+      ],
+      "quality_score": 90,
       "review_status": "published"
     },
     {
