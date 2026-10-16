@@ -3,11 +3,51 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-16T00:00:00+00:00",
-    "article_count": 2550,
+    "article_count": 2552,
     "schema_version": 2,
     "section": "nachrichten-artikel"
   },
   "articles": [
+    {
+      "id": "nachrichten/artikel/2026/10:trumps-sprecherin-zweifel-qualifikation-anwaltspruefung_20261016",
+      "slug": "trumps-sprecherin-zweifel-qualifikation-anwaltspruefung_20261016",
+      "title": "Trumps Sprecherin unter Druck: Anwaltsprüfung nicht bestanden",
+      "summary": "Nur wenige Tage nach ihrem Amtsantritt als neue Sprecherin des Weißen Hauses steht Katie Zacharia im Fokus der Öffentlichkeit. Sie hat zugegeben, eine Anwaltsprüfung nicht bestanden zu haben. Dies wirft Fragen zu ihren beruflichen Qualifikationen auf, zumal...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "16.10.2026",
+      "date_iso": "2026-10-16",
+      "url": "/nachrichten/artikel/2026/10/trumps-sprecherin-zweifel-qualifikation-anwaltspruefung_20261016/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/trumps-sprecherin-zweifel-qualifikation-anwaltspruefung_20261016/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/trumps-sprecherin-zweifel-qualifikation-anwaltspruefung_20261016.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/trumps-sprecherin-zweifel-qualifikation-anwaltspruefung_20261016.webp",
+      "image_alt": "Katie Zacharia, Sprecherin des Weißen Hauses",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/trumps-sprecherin-zweifel-qualifikation-anwaltspruefung_20261016.webp",
+        "alt": "Katie Zacharia, Sprecherin des Weißen Hauses"
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/ausland/amerika/trump-sprecherin-zacharia-100.html",
+      "tags": [
+        "Katie Zacharia",
+        "Donald Trump",
+        "Weißes Haus",
+        "Anwaltsprüfung",
+        "Qualifikation",
+        "USA",
+        "Politik"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
     {
       "id": "nachrichten/artikel/2026/10:toedliche-schuesse-an-us-grundschule-in-oregon-drei-kinder-getoetet_20261016",
       "slug": "toedliche-schuesse-an-us-grundschule-in-oregon-drei-kinder-getoetet_20261016",
@@ -118,6 +158,45 @@
         "Schulgewalt"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:ex-hertha-investor-joshua-wander-betrug-schuldig-bekenntnis_20261016",
+      "slug": "ex-hertha-investor-joshua-wander-betrug-schuldig-bekenntnis_20261016",
+      "title": "Ex-Hertha-Investor Joshua Wander bekennt sich schuldig in 500-Mio.-Dollar-Betrug",
+      "summary": "Joshua Wander, Mitbegründer der Investmentfirma 777 Partners und ehemaliger Hauptaktionär von Hertha BSC, hat sich wegen Betrugs in Höhe von über 500 Millionen US-Dollar schuldig bekannt. Er nutzte seine Firma, um Kreditgeber und Investoren zu täuschen, wob...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "16.10.2026",
+      "date_iso": "2026-10-16",
+      "url": "/nachrichten/artikel/2026/10/ex-hertha-investor-joshua-wander-betrug-schuldig-bekenntnis_20261016/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/ex-hertha-investor-joshua-wander-betrug-schuldig-bekenntnis_20261016/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/ex-hertha-investor-joshua-wander-betrug-schuldig-bekenntnis_20261016.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/ex-hertha-investor-joshua-wander-betrug-schuldig-bekenntnis_20261016.webp",
+      "image_alt": "Joshua Wander, ehemaliger Hertha BSC Investor, im Gerichtssaal nach seinem Schuldbekenntnis wegen Betrugs.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/ex-hertha-investor-joshua-wander-betrug-schuldig-bekenntnis_20261016.webp",
+        "alt": "Joshua Wander, ehemaliger Hertha BSC Investor, im Gerichtssaal nach seinem Schuldbekenntnis wegen Betrugs."
+      },
+      "source_name": "n-tv.de - Startseite",
+      "source_url": "https://www.n-tv.de/sport/fussball/500-Millionen-Schwindel-Ex-Hertha-Investor-bekennt-sich-schuldig-id31424827.html",
+      "tags": [
+        "Joshua Wander",
+        "777 Partners",
+        "Hertha BSC",
+        "Betrug",
+        "Finanzskandal",
+        "US-Justiz"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
