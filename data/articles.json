@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-16T00:00:00+00:00",
-    "article_count": 2548,
+    "article_count": 2550,
     "schema_version": 2
   },
   "articles": [
@@ -522,6 +522,45 @@
       "review_status": "published"
     },
     {
+      "id": "news/articles/2026/10:oregon-school-shooting-3-children-1-teacher-killed_20261016",
+      "slug": "oregon-school-shooting-3-children-1-teacher-killed_20261016",
+      "title": "3 Children, 1 Teacher Killed in Oregon School Shooting",
+      "summary": "A school shooting at Silver Rail Elementary in Bend, Oregon, on Thursday resulted in the deaths of three children and one teacher. A 16-year-old male suspect was shot and killed by a bystander who pursued him into the school. Two others, a 7-year-old child...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "16.10.2026",
+      "date_iso": "2026-10-16",
+      "url": "/news/articles/2026/10/oregon-school-shooting-3-children-1-teacher-killed_20261016/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/oregon-school-shooting-3-children-1-teacher-killed_20261016/",
+      "detail_json_url": "/data/details/news/articles/2026/10/oregon-school-shooting-3-children-1-teacher-killed_20261016.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/oregon-school-shooting-3-children-1-teacher-killed_20261016.webp",
+      "image_alt": "3 Children, 1 Teacher Killed in Oregon School Shooting",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/oregon-school-shooting-3-children-1-teacher-killed_20261016.webp",
+        "alt": "3 Children, 1 Teacher Killed in Oregon School Shooting"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/live-updates/oregon-silver-rail-elementary-shooting-bend/",
+      "tags": [
+        "Oregon School Shooting",
+        "Bend Oregon",
+        "School Violence",
+        "Active Shooter",
+        "Gun Violence",
+        "Silver Rail Elementary"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "news/articles/2026/10:oregon-elementary-school-shooter-16-year-old-male-identified_20261016",
       "slug": "oregon-elementary-school-shooter-16-year-old-male-identified_20261016",
       "title": "Oregon Elementary School Shooter Identified as 16-Year-Old Male",
@@ -749,6 +788,45 @@
         "NTT DOCOMO"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:lake-mead-barrel-body-identified-edward-jackson-unsolved-homicide_20261016",
+      "slug": "lake-mead-barrel-body-identified-edward-jackson-unsolved-homicide_20261016",
+      "title": "Body in Lake Mead Barrel Identified as Arkansas Man, Cold Case Continues",
+      "summary": "The decades-old mystery of a body found in a barrel at Lake Mead deepened today with the identification of the victim as Edward Lelburian Jackson, an Arkansas man shot in the head. Discovered in May 2022 after receding water levels exposed the rusted barrel...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "16.10.2026",
+      "date_iso": "2026-10-16",
+      "url": "/news/articles/2026/10/lake-mead-barrel-body-identified-edward-jackson-unsolved-homicide_20261016/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/lake-mead-barrel-body-identified-edward-jackson-unsolved-homicide_20261016/",
+      "detail_json_url": "/data/details/news/articles/2026/10/lake-mead-barrel-body-identified-edward-jackson-unsolved-homicide_20261016.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/lake-mead-barrel-body-identified-edward-jackson-unsolved-homicide_20261016.webp",
+      "image_alt": "Body in Lake Mead Barrel Identified as Arkansas Man, Cold Case Continues",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/lake-mead-barrel-body-identified-edward-jackson-unsolved-homicide_20261016.webp",
+        "alt": "Body in Lake Mead Barrel Identified as Arkansas Man, Cold Case Continues"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/body-barrel-lake-mead-identified-homicide-victim-edward-jackson/",
+      "tags": [
+        "Lake Mead",
+        "Edward Jackson",
+        "Unsolved Homicide",
+        "Cold Case",
+        "Las Vegas Mob",
+        "Genealogy Profiling"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
