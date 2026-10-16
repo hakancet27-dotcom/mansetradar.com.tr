@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-16T00:00:00+00:00",
-    "article_count": 2568,
+    "article_count": 2574,
     "schema_version": 2,
     "topic_slug": "saglik",
     "type": "topic"
@@ -119,6 +119,44 @@
         "Sağlık Farkındalığı"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:2027-butcesi-kamu-personeli-giderleri-6-trilyon-lira_20261016",
+      "slug": "2027-butcesi-kamu-personeli-giderleri-6-trilyon-lira_20261016",
+      "title": "2027 Bütçe Teklifi Açıklandı: Kamu Personeli Giderlerine 6,3 Trilyon Lira",
+      "summary": "2027 Yılı Merkezi Yönetim Bütçe Kanunu Teklifi verilerine göre, kamu personeli giderleri için gelecek yıl toplam 6,3 trilyon lira ödenek ayrıldı. Bütçenin yaklaşık yüzde 23,2'sini oluşturan harcamalarda en büyük payı Milli Eğitim Bakanlığı aldı.",
+      "category": "Son Dakika",
+      "category_slug": "son-dakika",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "16.10.2026",
+      "date_iso": "2026-10-16",
+      "url": "/articles/2026/10/2027-butcesi-kamu-personeli-giderleri-6-trilyon-lira_20261016/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/2027-butcesi-kamu-personeli-giderleri-6-trilyon-lira_20261016/",
+      "detail_json_url": "/data/details/articles/2026/10/2027-butcesi-kamu-personeli-giderleri-6-trilyon-lira_20261016.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/2027-butcesi-kamu-personeli-giderleri-6-trilyon-lira_20261016.webp",
+      "image_alt": "2027 yılı merkezi yönetim bütçe teklifi ve Türk lirası sembolleri.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/2027-butcesi-kamu-personeli-giderleri-6-trilyon-lira_20261016.webp",
+        "alt": "2027 yılı merkezi yönetim bütçe teklifi ve Türk lirası sembolleri."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/kamu-personeline-gelecek-yil-6-3-trilyon-lira-odenecek-43344687",
+      "tags": [
+        "2027 bütçesi",
+        "kamu personeli",
+        "merkezi yönetim bütçesi",
+        "personel giderleri",
+        "milli eğitim bakanlığı bütçesi"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
