@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-16T00:00:00+00:00",
-    "article_count": 2561,
+    "article_count": 2568,
     "schema_version": 2
   },
   "articles": [
@@ -42,6 +42,44 @@
         "Teknoloji Ekonomisi",
         "Küresel Ticaret",
         "Yarı İletken"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:vzmore-ax9-max-mini-pc-test-lokale-ki-gaming_20261016",
+      "slug": "vzmore-ax9-max-mini-pc-test-lokale-ki-gaming_20261016",
+      "title": "Vzmore AX9 Max: Neuer Mini-PC punktet bei lokaler KI und Gaming",
+      "summary": "Mit dem AX9 Max präsentiert der Hersteller Vzmore ein neues Flaggschiff im Segment der Mini-PCs. Das kompakte Gerät schließt eine bisherige Marktlücke, indem es ausreichend Leistung für grafikintensive Spiele sowie die lokale Ausführung von KI-Modellen bietet.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "16.10.2026",
+      "date_iso": "2026-10-16",
+      "url": "/nachrichten/artikel/2026/10/vzmore-ax9-max-mini-pc-test-lokale-ki-gaming_20261016/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/vzmore-ax9-max-mini-pc-test-lokale-ki-gaming_20261016/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/vzmore-ax9-max-mini-pc-test-lokale-ki-gaming_20261016.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/vzmore-ax9-max-mini-pc-test-lokale-ki-gaming_20261016.webp",
+      "image_alt": "Der kompakte Mini-PC Vzmore AX9 Max auf einem modernen Schreibtisch",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/vzmore-ax9-max-mini-pc-test-lokale-ki-gaming_20261016.webp",
+        "alt": "Der kompakte Mini-PC Vzmore AX9 Max auf einem modernen Schreibtisch"
+      },
+      "source_name": "n-tv.de - Startseite",
+      "source_url": "https://www.n-tv.de/technik/Der-Vzmore-AX9-Max-ist-ein-neuer-Star-am-Mini-PC-Himmel-id31425363.html",
+      "tags": [
+        "Vzmore",
+        "Mini PC",
+        "AX9 Max",
+        "Künstliche Intelligenz",
+        "Gaming"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -328,6 +366,43 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/10:thomas-jefferson-erbe-debatte_20261016",
+      "slug": "thomas-jefferson-erbe-debatte_20261016",
+      "title": "Thomas Jefferson: Zwischen Gründervater und dunklem Erbe",
+      "summary": "Thomas Jefferson gilt als einer der bedeutendsten Gründerväter der Vereinigten Staaten. Doch eine historische Debatte über sein Verhältnis zu Sally Hemings stellt sein Bild als Nationalheiliger infrage und wirft schwierige Fragen über Machtmissbrauch und Sk...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "16.10.2026",
+      "date_iso": "2026-10-16",
+      "url": "/nachrichten/artikel/2026/10/thomas-jefferson-erbe-debatte_20261016/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/thomas-jefferson-erbe-debatte_20261016/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/thomas-jefferson-erbe-debatte_20261016.json",
+      "image_url": "https://cdn.prod.www.spiegel.de/images/95a8871d-c171-4fd7-8735-0d7694f08d2d_w520_r2.08_fpx65.53_fpy44.99.jpg",
+      "image_alt": "Thomas Jefferson vor dem Hintergrund seines Anwesens Monticello.",
+      "image": {
+        "url": "https://cdn.prod.www.spiegel.de/images/95a8871d-c171-4fd7-8735-0d7694f08d2d_w520_r2.08_fpx65.53_fpy44.99.jpg",
+        "alt": "Thomas Jefferson vor dem Hintergrund seines Anwesens Monticello."
+      },
+      "source_name": "DER SPIEGEL - Schlagzeilen",
+      "source_url": "https://www.spiegel.de/geschichte/thomas-jefferson-gruendervater-nationalheiliger-und-vergewaltiger-a-f087073a-b26e-4ab2-b44b-d77e39bcd26b#ref=rss",
+      "tags": [
+        "Thomas Jefferson",
+        "US-Geschichte",
+        "Sklaverei",
+        "Sally Hemings"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:tencent-yapay-zeka-alibaba-veri-toplama-krizi_20261016",
       "slug": "tencent-yapay-zeka-alibaba-veri-toplama-krizi_20261016",
       "title": "Tencent'in Yapay Zekası Kontrolden Çıktı: Alibaba'dan Gizlice Veri Topladı",
@@ -562,6 +637,43 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/10:schaltsekunde-abgeschafft-was-bedeutet-das-fuer-die-zeitsysteme_20261016",
+      "slug": "schaltsekunde-abgeschafft-was-bedeutet-das-fuer-die-zeitsysteme_20261016",
+      "title": "Schaltsekunde wird abgeschafft: Was bedeutet das für die Zeitmessung?",
+      "summary": "Ein internationales Gremium hat entschieden: Die Schaltsekunde wird abgeschafft. Seit 1972 diente sie dazu, die astronomische Erdrotation mit der präzisen Atomzeit in Einklang zu bringen. Die letzte Schaltsekunde fand zum Jahreswechsel 2016/17 statt. Künfti...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "16.10.2026",
+      "date_iso": "2026-10-16",
+      "url": "/nachrichten/artikel/2026/10/schaltsekunde-abgeschafft-was-bedeutet-das-fuer-die-zeitsysteme_20261016/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/schaltsekunde-abgeschafft-was-bedeutet-das-fuer-die-zeitsysteme_20261016/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/schaltsekunde-abgeschafft-was-bedeutet-das-fuer-die-zeitsysteme_20261016.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/schaltsekunde-abgeschafft-was-bedeutet-das-fuer-die-zeitsysteme_20261016.webp",
+      "image_alt": "Symbolbild für die Abschaffung der Schaltsekunde und die Auswirkungen auf die digitale Zeitmessung.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/schaltsekunde-abgeschafft-was-bedeutet-das-fuer-die-zeitsysteme_20261016.webp",
+        "alt": "Symbolbild für die Abschaffung der Schaltsekunde und die Auswirkungen auf die digitale Zeitmessung."
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/wissen/forschung/schaltsekunde-abschaffung-100.html",
+      "tags": [
+        "Schaltsekunde",
+        "Atomzeit",
+        "Erdrotation",
+        "Zeitmessung"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
       "id": "nachrichten/artikel/2026/10:sc-freiburg-trainer-jubilaeum-conference-league-sieg_20261016",
       "slug": "sc-freiburg-trainer-jubilaeum-conference-league-sieg_20261016",
       "title": "SC Freiburg feiert Jubiläumssieg in der Conference League",
@@ -634,6 +746,44 @@
         "Magazin"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:pietro-lombardi-sehverlust-hornhaut-diagnose_20261016",
+      "slug": "pietro-lombardi-sehverlust-hornhaut-diagnose_20261016",
+      "title": "Pietro Lombardi: Sorge um Sehkraft – Nur noch 40 Prozent Sehleistung auf einem Auge",
+      "summary": "Der Sänger Pietro Lombardi schlägt Alarm: Nach einer Laser-Operation vor zwei Jahren hat sich seine Sehkraft massiv verschlechtert. Aktuell sieht der 34-Jährige auf einem Auge nur noch verschwommen, was laut ärztlicher Diagnose auf eine stark ausgedünnte Ho...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "16.10.2026",
+      "date_iso": "2026-10-16",
+      "url": "/nachrichten/artikel/2026/10/pietro-lombardi-sehverlust-hornhaut-diagnose_20261016/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/pietro-lombardi-sehverlust-hornhaut-diagnose_20261016/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/pietro-lombardi-sehverlust-hornhaut-diagnose_20261016.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/pietro-lombardi-sehverlust-hornhaut-diagnose_20261016.webp",
+      "image_alt": "Pietro Lombardi spricht über seinen massiven Sehverlust.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/pietro-lombardi-sehverlust-hornhaut-diagnose_20261016.webp",
+        "alt": "Pietro Lombardi spricht über seinen massiven Sehverlust."
+      },
+      "source_name": "n-tv.de - Startseite",
+      "source_url": "https://www.n-tv.de/leute/Pietro-Lombardi-hat-grossen-Teil-seiner-Sehkraft-verloren-id31427303.html",
+      "tags": [
+        "Pietro Lombardi",
+        "Gesundheit",
+        "Augenheilkunde",
+        "Prominente",
+        "Patchwork Boys"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -1696,6 +1846,44 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/10:eu-gipfel-ukraine-unterstuetzung-brruessel_20261016",
+      "slug": "eu-gipfel-ukraine-unterstuetzung-brruessel_20261016",
+      "title": "EU-Gipfel in Brüssel: Diskussionen über die Unterstützung für die Ukraine",
+      "summary": "Beim EU-Gipfel in Brüssel sind Bundeskanzler Merz, der ukrainische Präsident Wolodymyr Selenskyj und EU-Ratspräsident António Costa zusammengekommen, um über die anhaltende Unterstützung für die Ukraine zu beraten.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "16.10.2026",
+      "date_iso": "2026-10-16",
+      "url": "/nachrichten/artikel/2026/10/eu-gipfel-ukraine-unterstuetzung-brruessel_20261016/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/eu-gipfel-ukraine-unterstuetzung-brruessel_20261016/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/eu-gipfel-ukraine-unterstuetzung-brruessel_20261016.json",
+      "image_url": "https://cdn.prod.www.spiegel.de/images/63fed4fa-9f73-480e-8cad-d9f8d028a23d_w520_r2.08_fpx54.55_fpy49.99.jpg",
+      "image_alt": "EU-Gipfel in Brüssel mit internationalen Politikern",
+      "image": {
+        "url": "https://cdn.prod.www.spiegel.de/images/63fed4fa-9f73-480e-8cad-d9f8d028a23d_w520_r2.08_fpx54.55_fpy49.99.jpg",
+        "alt": "EU-Gipfel in Brüssel mit internationalen Politikern"
+      },
+      "source_name": "DER SPIEGEL - Schlagzeilen",
+      "source_url": "https://www.spiegel.de/politik/deutschland/eu-gipfel-broeckelt-jetzt-die-unterstuetzung-fuer-die-ukraine-a-c0bbe93c-b8ee-48c0-a6a9-e4c83304e644#ref=rss",
+      "tags": [
+        "EU-Gipfel",
+        "Ukraine",
+        "Bundeskanzler Merz",
+        "Wolodymyr Selenskyj",
+        "Brüssel"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:endonezya-orman-yanginlari-can-kaybi-bolgesel-etki_20261016",
       "slug": "endonezya-orman-yanginlari-can-kaybi-bolgesel-etki_20261016",
       "title": "Endonezya'da Son 10 Yılın En Şiddetli Orman Yangınları: 4 Can Kaybı",
@@ -1923,6 +2111,47 @@
         "Metin Oktay",
         "Saffet Sancaklı",
         "Futbol Rekoru"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:bundestag-kolonialverbrechen-herero-nama-aufarbeitung_20261016",
+      "slug": "bundestag-kolonialverbrechen-herero-nama-aufarbeitung_20261016",
+      "title": "Bundestag debattiert Deutschlands Kolonialverbrechen: Aufarbeitung der Völkermorde an Herero...",
+      "summary": "Die Opposition hat eine Debatte im Bundestag über die deutschen Kolonialverbrechen und die Völkermorde an den Herero und Nama erzwungen. Vertreter der indigenen Völker Namibias fordern eine bedingungslose Entschuldigung und die volle Anerkennung der Verbrec...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "16.10.2026",
+      "date_iso": "2026-10-16",
+      "url": "/nachrichten/artikel/2026/10/bundestag-kolonialverbrechen-herero-nama-aufarbeitung_20261016/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/bundestag-kolonialverbrechen-herero-nama-aufarbeitung_20261016/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/bundestag-kolonialverbrechen-herero-nama-aufarbeitung_20261016.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/bundestag-kolonialverbrechen-herero-nama-aufarbeitung_20261016.webp",
+      "image_alt": "Bundestag Debatte über Kolonialverbrechen mit Vertretern aus Namibia",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/bundestag-kolonialverbrechen-herero-nama-aufarbeitung_20261016.webp",
+        "alt": "Bundestag Debatte über Kolonialverbrechen mit Vertretern aus Namibia"
+      },
+      "source_name": "Deutsche Welle: DW.com Deutsch",
+      "source_url": "https://www.dw.com/de/deutschland-und-der-kolonialismus-wo-bleibt-die-aufarbeitung/a-79672893?maca=de-rss-de-all-1119-rdf",
+      "tags": [
+        "Kolonialismus",
+        "Deutschland",
+        "Namibia",
+        "Herero",
+        "Nama",
+        "Völkermord",
+        "Bundestag",
+        "Aufarbeitung"
       ],
       "quality_score": 86,
       "review_status": "published"
@@ -2158,6 +2387,43 @@
         "Beyoğlu",
         "Beyoğlu haberleri",
         "İstanbul"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:angriff-auf-ns-dokumentationszentrum-koeln-buttersaeure_20261016",
+      "slug": "angriff-auf-ns-dokumentationszentrum-koeln-buttersaeure_20261016",
+      "title": "Angriff auf NS-Dokumentationszentrum in Köln: Buttersäure-Anschlag auf EL-DE-Haus",
+      "summary": "In der Nacht auf Freitag wurde das NS-Dokumentationszentrum in Köln Ziel eines Angriffs. Unbekannte verunreinigten die Eingangsbereiche mit einer übelriechenden Flüssigkeit, bei der es sich laut Polizei um Buttersäure handelt. Der Staatsschutz hat die Ermit...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "16.10.2026",
+      "date_iso": "2026-10-16",
+      "url": "/nachrichten/artikel/2026/10/angriff-auf-ns-dokumentationszentrum-koeln-buttersaeure_20261016/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/angriff-auf-ns-dokumentationszentrum-koeln-buttersaeure_20261016/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/angriff-auf-ns-dokumentationszentrum-koeln-buttersaeure_20261016.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/angriff-auf-ns-dokumentationszentrum-koeln-buttersaeure_20261016.webp",
+      "image_alt": "NS-Dokumentationszentrum in Köln nach dem Angriff",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/angriff-auf-ns-dokumentationszentrum-koeln-buttersaeure_20261016.webp",
+        "alt": "NS-Dokumentationszentrum in Köln nach dem Angriff"
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/inland/regional/nordrheinwestfalen/angriff-auf-ns-dokumentationszentrum-in-koeln-100.html",
+      "tags": [
+        "NS-Dokumentationszentrum Köln",
+        "Buttersäure",
+        "Staatsschutz",
+        "Erinnerungskultur"
       ],
       "quality_score": 86,
       "review_status": "published"
