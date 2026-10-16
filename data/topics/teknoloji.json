@@ -3,12 +3,51 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-16T00:00:00+00:00",
-    "article_count": 2507,
+    "article_count": 2515,
     "schema_version": 2,
     "topic_slug": "teknoloji",
     "type": "topic"
   },
   "articles": [
+    {
+      "id": "articles/2026/10:g7-yapay-zeka-siber-saldirilari-tatbikat_20261016",
+      "slug": "g7-yapay-zeka-siber-saldirilari-tatbikat_20261016",
+      "title": "G7'den Yapay Zeka Siber Saldırılarına Karşı Küresel Tatbikat Kararı",
+      "summary": "G7 maliye liderleri, yapay zeka destekli siber saldırılara karşı koymak amacıyla masa başı tatbikatları düzenleme konusunda anlaştı. Bu karar, Uluslararası Para Fonu'nun (IMF) finans kurumlarına yönelik yapay zeka kaynaklı siber saldırıların güveni sarsabil...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "16.10.2026",
+      "date_iso": "2026-10-16",
+      "url": "/articles/2026/10/g7-yapay-zeka-siber-saldirilari-tatbikat_20261016/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/g7-yapay-zeka-siber-saldirilari-tatbikat_20261016/",
+      "detail_json_url": "/data/details/articles/2026/10/g7-yapay-zeka-siber-saldirilari-tatbikat_20261016.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/g7-yapay-zeka-siber-saldirilari-tatbikat_20261016.webp",
+      "image_alt": "G7 maliye liderleri, yapay zeka kaynaklı siber saldırılara karşı alınacak önlemleri görüşürken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/g7-yapay-zeka-siber-saldirilari-tatbikat_20261016.webp",
+        "alt": "G7 maliye liderleri, yapay zeka kaynaklı siber saldırılara karşı alınacak önlemleri görüşürken."
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/son-dakika-g7-yapay-zeka-siber-saldirilarina-karsi-yeni-onlem-tatbikatlar-baslatacak-7680914",
+      "tags": [
+        "G7",
+        "Yapay Zeka",
+        "Siber Güvenlik",
+        "IMF",
+        "Finans",
+        "Siber Saldırı"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/10:z-kusagi-dijital-ayak-izi-yesil-teknoloji-talebi_20261015",
       "slug": "z-kusagi-dijital-ayak-izi-yesil-teknoloji-talebi_20261015",
