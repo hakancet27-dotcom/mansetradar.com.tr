@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-17T09:53:33.465Z",
+  "updatedAt": "2026-10-17T13:14:17.157Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-10-17T09:53:33.465Z",
+      "updatedAt": "2026-10-17T13:14:17.157Z",
       "source": "Maçkolik arşiv 1/73482",
       "table": [
         {
@@ -123,6 +123,20 @@
         },
         {
           "position": 9,
+          "team": "Erzurumspor FK",
+          "played": 8,
+          "won": 3,
+          "draw": 2,
+          "lost": 3,
+          "goalsFor": 5,
+          "goalsAgainst": 11,
+          "points": 11,
+          "goalDifference": -6,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/9632.gif",
+          "form": []
+        },
+        {
+          "position": 10,
           "team": "Kasımpaşa",
           "played": 7,
           "won": 2,
@@ -136,7 +150,7 @@
           "form": []
         },
         {
-          "position": 10,
+          "position": 11,
           "team": "Çaykur Rizespor",
           "played": 8,
           "won": 3,
@@ -150,7 +164,7 @@
           "form": []
         },
         {
-          "position": 11,
+          "position": 12,
           "team": "Başakşehir FK",
           "played": 7,
           "won": 2,
@@ -164,7 +178,7 @@
           "form": []
         },
         {
-          "position": 12,
+          "position": 13,
           "team": "Gaziantep FK",
           "played": 7,
           "won": 2,
@@ -178,7 +192,7 @@
           "form": []
         },
         {
-          "position": 13,
+          "position": 14,
           "team": "Gençlerbirliği",
           "played": 7,
           "won": 2,
@@ -189,20 +203,6 @@
           "points": 8,
           "goalDifference": -8,
           "logo": "https://im.mackolik.com/img/logo/kucuk/7.gif",
-          "form": []
-        },
-        {
-          "position": 14,
-          "team": "Erzurumspor FK",
-          "played": 7,
-          "won": 2,
-          "draw": 2,
-          "lost": 3,
-          "goalsFor": 3,
-          "goalsAgainst": 11,
-          "points": 8,
-          "goalDifference": -8,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/9632.gif",
           "form": []
         },
         {
@@ -250,14 +250,14 @@
         {
           "position": 18,
           "team": "Eyüpspor",
-          "played": 7,
+          "played": 8,
           "won": 1,
           "draw": 0,
-          "lost": 6,
+          "lost": 7,
           "goalsFor": 2,
-          "goalsAgainst": 20,
+          "goalsAgainst": 22,
           "points": 3,
-          "goalDifference": -18,
+          "goalDifference": -20,
           "logo": "https://im.mackolik.com/img/logo/kucuk/557.gif",
           "form": []
         }
@@ -269,7 +269,7 @@
     {
       "id": "premier-league",
       "name": "Premier League",
-      "updatedAt": "2026-10-17T09:53:33.465Z",
+      "updatedAt": "2026-10-17T13:14:17.157Z",
       "source": "Maçkolik arşiv 24/73340",
       "table": [
         {
@@ -560,7 +560,7 @@
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-10-17T09:53:33.465Z",
+      "updatedAt": "2026-10-17T13:14:17.157Z",
       "source": "Maçkolik arşiv 20/73446",
       "table": [
         {
@@ -851,7 +851,7 @@
     {
       "id": "bundesliga",
       "name": "Bundesliga",
-      "updatedAt": "2026-10-17T09:53:33.465Z",
+      "updatedAt": "2026-10-17T13:14:17.157Z",
       "source": "Maçkolik arşiv 3/73455",
       "table": [
         {
@@ -1114,7 +1114,7 @@
     {
       "id": "serie-a",
       "name": "Serie A",
-      "updatedAt": "2026-10-17T09:53:33.465Z",
+      "updatedAt": "2026-10-17T13:14:17.157Z",
       "source": "Maçkolik arşiv 15/73249",
       "table": [
         {
@@ -1405,7 +1405,7 @@
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-10-17T09:53:33.465Z",
+      "updatedAt": "2026-10-17T13:14:17.157Z",
       "source": "Maçkolik arşiv 5/73279",
       "table": [
         {
@@ -1782,6 +1782,20 @@
     },
     {
       "position": 9,
+      "team": "Erzurumspor FK",
+      "played": 8,
+      "won": 3,
+      "draw": 2,
+      "lost": 3,
+      "goalsFor": 5,
+      "goalsAgainst": 11,
+      "points": 11,
+      "goalDifference": -6,
+      "logo": "https://im.mackolik.com/img/logo/kucuk/9632.gif",
+      "form": []
+    },
+    {
+      "position": 10,
       "team": "Kasımpaşa",
       "played": 7,
       "won": 2,
@@ -1795,7 +1809,7 @@
       "form": []
     },
     {
-      "position": 10,
+      "position": 11,
       "team": "Çaykur Rizespor",
       "played": 8,
       "won": 3,
@@ -1809,7 +1823,7 @@
       "form": []
     },
     {
-      "position": 11,
+      "position": 12,
       "team": "Başakşehir FK",
       "played": 7,
       "won": 2,
@@ -1823,7 +1837,7 @@
       "form": []
     },
     {
-      "position": 12,
+      "position": 13,
       "team": "Gaziantep FK",
       "played": 7,
       "won": 2,
@@ -1837,7 +1851,7 @@
       "form": []
     },
     {
-      "position": 13,
+      "position": 14,
       "team": "Gençlerbirliği",
       "played": 7,
       "won": 2,
@@ -1848,20 +1862,6 @@
       "points": 8,
       "goalDifference": -8,
       "logo": "https://im.mackolik.com/img/logo/kucuk/7.gif",
-      "form": []
-    },
-    {
-      "position": 14,
-      "team": "Erzurumspor FK",
-      "played": 7,
-      "won": 2,
-      "draw": 2,
-      "lost": 3,
-      "goalsFor": 3,
-      "goalsAgainst": 11,
-      "points": 8,
-      "goalDifference": -8,
-      "logo": "https://im.mackolik.com/img/logo/kucuk/9632.gif",
       "form": []
     },
     {
@@ -1909,14 +1909,14 @@
     {
       "position": 18,
       "team": "Eyüpspor",
-      "played": 7,
+      "played": 8,
       "won": 1,
       "draw": 0,
-      "lost": 6,
+      "lost": 7,
       "goalsFor": 2,
-      "goalsAgainst": 20,
+      "goalsAgainst": 22,
       "points": 3,
-      "goalDifference": -18,
+      "goalDifference": -20,
       "logo": "https://im.mackolik.com/img/logo/kucuk/557.gif",
       "form": []
     }
