@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-17T00:00:00+00:00",
-    "article_count": 2578,
+    "article_count": 2615,
     "schema_version": 2,
     "topic_slug": "dunya",
     "type": "topic"
@@ -47,6 +47,44 @@
         "Hürriyet"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:husiler-savas-ucagi-dusurdu-iddiasi_20261017",
+      "slug": "husiler-savas-ucagi-dusurdu-iddiasi_20261017",
+      "title": "Husiler Suudi Arabistan'a Ait Eurofighter Typhoon Savaş Uçağını Düşürdüğünü İddia Etti",
+      "summary": "Yemen'de Husiler, Suudi Arabistan'a ait olduğu öne sürülen ve dünyanın en gelişmiş savaş uçaklarından biri olarak gösterilen Eurofighter Typhoon'u düşürdüklerini iddia etti. Husi yanlısı medya tarafından yayınlanan görüntülerde, bir savaş uçağına doğru iler...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "17.10.2026 12:18",
+      "date_iso": "2026-10-17",
+      "url": "/articles/2026/10/husiler-savas-ucagi-dusurdu-iddiasi_20261017/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/husiler-savas-ucagi-dusurdu-iddiasi_20261017/",
+      "detail_json_url": "/data/details/articles/2026/10/husiler-savas-ucagi-dusurdu-iddiasi_20261017.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/husiler-savas-ucagi-dusurdu-iddiasi_20261017.webp",
+      "image_alt": "Eurofighter Typhoon savaş uçağına füze saldırısı ve patlama anı.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/husiler-savas-ucagi-dusurdu-iddiasi_20261017.webp",
+        "alt": "Eurofighter Typhoon savaş uçağına füze saldırısı ve patlama anı."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/catismalarin-seyrini-degistirecek-hamle-savas-ucagi-darbesi-neler-yasandi-goruntulerdeki-sir-ne-43343903",
+      "tags": [
+        "Husiler",
+        "Suudi Arabistan",
+        "Eurofighter Typhoon",
+        "Yemen",
+        "Savaş Uçağı"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
