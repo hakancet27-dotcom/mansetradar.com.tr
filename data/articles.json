@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-17T00:00:00+00:00",
-    "article_count": 2600,
+    "article_count": 2604,
     "schema_version": 2
   },
   "articles": [
@@ -44,6 +44,45 @@
         "Scott Bessent"
       ],
       "quality_score": 76,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:un-generalsekretaer-wahl-grynspan-vetomaechte-blockade_20261017",
+      "slug": "un-generalsekretaer-wahl-grynspan-vetomaechte-blockade_20261017",
+      "title": "UN-Generalsekretär-Wahl: Favoritin Grynspan scheitert an Vetomächten",
+      "summary": "Die frühere Vizepräsidentin Costa Ricas, Rebeca Grynspan, bleibt Favoritin für die Nachfolge von UN-Generalsekretär Guterres, scheiterte jedoch in der sechsten Probeabstimmung an zwei Vetomächten. Alle Kandidaten fielen durch, was den Auswahlprozess erschwe...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "17.10.2026",
+      "date_iso": "2026-10-17",
+      "url": "/nachrichten/artikel/2026/10/un-generalsekretaer-wahl-grynspan-vetomaechte-blockade_20261017/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/un-generalsekretaer-wahl-grynspan-vetomaechte-blockade_20261017/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/un-generalsekretaer-wahl-grynspan-vetomaechte-blockade_20261017.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/un-generalsekretaer-wahl-grynspan-vetomaechte-blockade_20261017.webp",
+      "image_alt": "UN-Generalsekretär-Wahl: Favoritin Grynspan scheitert an Vetomächten",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/un-generalsekretaer-wahl-grynspan-vetomaechte-blockade_20261017.webp",
+        "alt": "UN-Generalsekretär-Wahl: Favoritin Grynspan scheitert an Vetomächten"
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/ausland/amerika/un-generalsekretaer-wahl-100.html",
+      "tags": [
+        "UN-Generalsekretär",
+        "Rebeca Grynspan",
+        "UN-Sicherheitsrat",
+        "Vetomächte",
+        "António Guterres",
+        "Annalena Baerbock"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
@@ -238,6 +277,44 @@
       "review_status": "published"
     },
     {
+      "id": "nachrichten/artikel/2026/10:rinderdiebstahl-brandenburg-ueber-200-tiere-gestohlen_20261017",
+      "slug": "rinderdiebstahl-brandenburg-ueber-200-tiere-gestohlen_20261017",
+      "title": "Rinderdiebstahl in Brandenburg: Über 200 Tiere gestohlen – Spur führt nach Polen",
+      "summary": "In Südbrandenburg sind im Frühjahr über 200 seltene Zuchtrinder gestohlen worden. Die Polizei konnte nun zwei polnische Tatverdächtige festnehmen, die die Tiere offenbar nach Polen verbracht hatten. Der Schaden beläuft sich auf über 300.000 Euro. Experten g...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "17.10.2026",
+      "date_iso": "2026-10-17",
+      "url": "/nachrichten/artikel/2026/10/rinderdiebstahl-brandenburg-ueber-200-tiere-gestohlen_20261017/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/rinderdiebstahl-brandenburg-ueber-200-tiere-gestohlen_20261017/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/rinderdiebstahl-brandenburg-ueber-200-tiere-gestohlen_20261017.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/rinderdiebstahl-brandenburg-ueber-200-tiere-gestohlen_20261017.webp",
+      "image_alt": "Rinder auf einer Weide mit Polizeiauto im Hintergrund",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/rinderdiebstahl-brandenburg-ueber-200-tiere-gestohlen_20261017.webp",
+        "alt": "Rinder auf einer Weide mit Polizeiauto im Hintergrund"
+      },
+      "source_name": "n-tv.de - Startseite",
+      "source_url": "https://www.n-tv.de/panorama/So-haben-Viehdiebe-ueber-200-Rinder-geklaut-id31419988.html",
+      "tags": [
+        "Rinderdiebstahl",
+        "Brandenburg",
+        "Polen",
+        "Viehdiebstahl",
+        "Zuchtrinder"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/10:reyhanli-katliami-davasinda-3-saniga-53er-kez-muebbet_20261017",
       "slug": "reyhanli-katliami-davasinda-3-saniga-53er-kez-muebbet_20261017",
       "title": "Reyhanlı Katliamı Davasında 3 Sanığa 53'er Kez Müebbet",
@@ -349,6 +426,47 @@
         "Gönül Dağı",
         "Sosyal Sorumluluk",
         "Hürriyet"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:news-kompakt-selenskyj-fordert-70-milliarden-euro-von-der-eu_20261017",
+      "slug": "news-kompakt-selenskyj-fordert-70-milliarden-euro-von-der-eu_20261017",
+      "title": "Ukraine fordert 70 Milliarden Euro von der EU für Verteidigung",
+      "summary": "Angesichts der anhaltenden russischen Angriffe hat der ukrainische Präsident Wolodymyr Selenskyj auf dem EU-Gipfel in Brüssel weitere finanzielle Unterstützung in Höhe von 70 Milliarden Euro für das kommende Jahr gefordert. Diese Mittel seien essenziell für...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "17.10.2026",
+      "date_iso": "2026-10-17",
+      "url": "/nachrichten/artikel/2026/10/news-kompakt-selenskyj-fordert-70-milliarden-euro-von-der-eu_20261017/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/news-kompakt-selenskyj-fordert-70-milliarden-euro-von-der-eu_20261017/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/news-kompakt-selenskyj-fordert-70-milliarden-euro-von-der-eu_20261017.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/news-kompakt-selenskyj-fordert-70-milliarden-euro-von-der-eu_20261017.webp",
+      "image_alt": "Symbolbild: Selenskyj fordert EU-Hilfe, Trump stoppt Russland-Sanktionen, Drohnenangriff im Sudan",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/news-kompakt-selenskyj-fordert-70-milliarden-euro-von-der-eu_20261017.webp",
+        "alt": "Symbolbild: Selenskyj fordert EU-Hilfe, Trump stoppt Russland-Sanktionen, Drohnenangriff im Sudan"
+      },
+      "source_name": "Deutsche Welle: DW.com Deutsch",
+      "source_url": "https://www.dw.com/de/news-kompakt-selenskyj-fordert-70-milliarden-euro-von-der-eu/a-79685651?maca=de-rss-de-all-1119-rdf",
+      "tags": [
+        "Ukraine",
+        "EU",
+        "Russland",
+        "Sanktionen",
+        "Donald Trump",
+        "Wolodymyr Selenskyj",
+        "Sudan",
+        "Darfur"
       ],
       "quality_score": 100,
       "review_status": "published"
@@ -587,6 +705,45 @@
         "Manuela Schwesig"
       ],
       "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/10:joy-lance-mickels-vom-feuerwehrmann-traum-zum-cl-helden-in-ruanda_20261017",
+      "slug": "joy-lance-mickels-vom-feuerwehrmann-traum-zum-cl-helden-in-ruanda_20261017",
+      "title": "Joy-Lance Mickels: Vom Feuerwehrmann-Traum zum CL-Helden in Ruanda",
+      "summary": "Joy-Lance Mickels, einst am Karriereende und kurz davor, Feuerwehrmann zu werden, hat sich zu einem gefeierten Fußballstar entwickelt. Der ehemalige Borusse erzielte 2026 ein historisches Champions-League-Tor für Sabah FK, wurde zum „Man of the Match“ gekür...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/10",
+      "date": "17.10.2026",
+      "date_iso": "2026-10-17",
+      "url": "/nachrichten/artikel/2026/10/joy-lance-mickels-vom-feuerwehrmann-traum-zum-cl-helden-in-ruanda_20261017/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/joy-lance-mickels-vom-feuerwehrmann-traum-zum-cl-helden-in-ruanda_20261017/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/joy-lance-mickels-vom-feuerwehrmann-traum-zum-cl-helden-in-ruanda_20261017.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/joy-lance-mickels-vom-feuerwehrmann-traum-zum-cl-helden-in-ruanda_20261017.webp",
+      "image_alt": "Joy-Lance Mickels: Vom Feuerwehrmann-Traum zum CL-Helden in Ruanda",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/joy-lance-mickels-vom-feuerwehrmann-traum-zum-cl-helden-in-ruanda_20261017.webp",
+        "alt": "Joy-Lance Mickels: Vom Feuerwehrmann-Traum zum CL-Helden in Ruanda"
+      },
+      "source_name": "n-tv.de - Startseite",
+      "source_url": "https://www.n-tv.de/sport/fussball/Ex-Borusse-wird-Star-in-einer-Welt-die-ihn-schockte-id31421015.html",
+      "tags": [
+        "Joy-Lance Mickels",
+        "Champions League",
+        "Sabah FK",
+        "Ruanda",
+        "Fußball",
+        "Karriere"
+      ],
+      "quality_score": 100,
       "review_status": "published"
     },
     {
