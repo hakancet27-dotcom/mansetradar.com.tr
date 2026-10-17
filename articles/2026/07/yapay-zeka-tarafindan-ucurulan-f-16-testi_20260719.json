@@ -37,7 +37,7 @@
   "flag": "TR",
   "country": "Turkey",
   "display_country": "Türkiye",
-  "image_url": "https://www.donanimhaber.com/images/images/haber/208252/1200x675bu-f-16-digerlerinden-farkli-yapay-zeka-tarafindan-ucuruldu.jpg",
+  "image_url": "https://mansetradar.com.tr/articles/images/yapay-zeka-tarafindan-ucurulan-f-16-testi_20260719.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
   "image_kind": "licensed_real_photo",
@@ -71,5 +71,7 @@
   ],
   "quality_word_count": 273,
   "indexed_on_home": true,
-  "time": "16:30"
+  "time": "16:30",
+  "source_image_url": "https://www.donanimhaber.com/images/images/haber/208252/1200x675bu-f-16-digerlerinden-farkli-yapay-zeka-tarafindan-ucuruldu.jpg",
+  "image_storage": "local_webp_cache"
 }

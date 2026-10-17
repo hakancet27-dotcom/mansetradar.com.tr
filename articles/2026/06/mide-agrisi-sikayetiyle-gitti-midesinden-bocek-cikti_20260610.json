@@ -37,7 +37,7 @@
   "flag": "TR",
   "country": "Turkey",
   "display_country": "Türkiye",
-  "image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2920795a781208840b26ed.jpg",
+  "image_url": "https://mansetradar.com.tr/articles/images/mide-agrisi-sikayetiyle-gitti-midesinden-bocek-cikti_20260610.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
   "image_kind": "licensed_real_photo",
@@ -69,5 +69,7 @@
   ],
   "quality_word_count": 250,
   "indexed_on_home": true,
-  "time": "08:33"
+  "time": "08:33",
+  "source_image_url": "https://image.hurimg.com/i/hurriyet/90/620x350/6a2920795a781208840b26ed.jpg",
+  "image_storage": "local_webp_cache"
 }

@@ -36,7 +36,7 @@
   "flag": "TR",
   "country": "Turkey",
   "display_country": "Türkiye",
-  "image_url": "https://images.ntv.com.tr/images/meclis-217021.jpg",
+  "image_url": "https://mansetradar.com.tr/articles/images/chpde-tarihi-ayrilik-ozgur-ozel-ve-91-milletvekili-istifa-etti_20260724.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
   "image_kind": "licensed_real_photo",
@@ -70,5 +70,7 @@
   ],
   "quality_word_count": 235,
   "indexed_on_home": true,
-  "time": "08:59"
+  "time": "08:59",
+  "source_image_url": "https://images.ntv.com.tr/images/meclis-217021.jpg",
+  "image_storage": "local_webp_cache"
 }

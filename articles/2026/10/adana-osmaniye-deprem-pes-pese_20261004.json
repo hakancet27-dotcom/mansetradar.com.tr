@@ -44,7 +44,7 @@
   "flag": "TR",
   "country": "Turkey",
   "display_country": "Türkiye",
-  "image_url": "https://images.ntv.com.tr/images/deprem-802935.webp",
+  "image_url": "https://mansetradar.com.tr/articles/images/adana-osmaniye-deprem-pes-pese_20261004.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
   "image_kind": "licensed_real_photo",
@@ -79,5 +79,7 @@
   ],
   "quality_word_count": 333,
   "indexed_on_home": true,
-  "time": "17:40"
+  "time": "17:40",
+  "source_image_url": "https://images.ntv.com.tr/images/deprem-802935.webp",
+  "image_storage": "local_webp_cache"
 }

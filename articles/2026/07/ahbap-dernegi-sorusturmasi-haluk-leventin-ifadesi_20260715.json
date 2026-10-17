@@ -35,7 +35,7 @@
   "flag": "TR",
   "country": "Turkey",
   "display_country": "Türkiye",
-  "image_url": "https://images.ntv.com.tr/images/haluk1-293681.png",
+  "image_url": "https://mansetradar.com.tr/articles/images/ahbap-dernegi-sorusturmasi-haluk-leventin-ifadesi_20260715.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
   "image_kind": "licensed_real_photo",
@@ -69,5 +69,7 @@
   ],
   "quality_word_count": 236,
   "indexed_on_home": true,
-  "time": "08:59"
+  "time": "08:59",
+  "source_image_url": "https://images.ntv.com.tr/images/haluk1-293681.png",
+  "image_storage": "local_webp_cache"
 }

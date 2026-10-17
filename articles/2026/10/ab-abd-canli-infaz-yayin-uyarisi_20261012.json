@@ -41,7 +41,7 @@
   "flag": "TR",
   "country": "Turkey",
   "display_country": "Türkiye",
-  "image_url": "https://images.ntv.com.tr/images/malik-119717.jpg",
+  "image_url": "https://mansetradar.com.tr/articles/images/ab-abd-canli-infaz-yayin-uyarisi_20261012.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
   "image_kind": "licensed_real_photo",
@@ -75,5 +75,7 @@
   ],
   "quality_word_count": 313,
   "indexed_on_home": true,
-  "time": "13:24"
+  "time": "13:24",
+  "source_image_url": "https://images.ntv.com.tr/images/malik-119717.jpg",
+  "image_storage": "local_webp_cache"
 }

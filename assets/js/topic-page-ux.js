@@ -83,6 +83,9 @@
         link.setAttribute('href', '/');
         return;
       }
+      if (!topics[topic]) {
+        return;
+      }
       link.setAttribute('href', '/?kategori=' + encodeURIComponent(topic));
     });
   }
@@ -155,13 +158,19 @@
         .then(function (payload) {
           var articles = Array.isArray(payload) ? payload : (payload.articles || []);
           var seen = new Set();
-          return articles.filter(function (article) {
+          var filtered = articles.filter(function (article) {
             var href = articleUrl(article);
             var key = articleKey(href);
             if (!key || seen.has(key) || !(article.title || '').trim()) return false;
             seen.add(key);
             return true;
           });
+          filtered.sort(function (a, b) {
+            var da = (a.date_iso || '') + '|' + (a.published_at || '') + '|' + (a.slug || '');
+            var db = (b.date_iso || '') + '|' + (b.published_at || '') + '|' + (b.slug || '');
+            return db.localeCompare(da);
+          });
+          return filtered;
         })
         .catch(function (error) {
           console.warn('Kategori haberleri yuklenemedi:', error);
@@ -528,7 +537,7 @@
 
     var side = document.querySelector('.side-headlines');
     if (side) {
-      side.remove();
+      side.hidden = true;
     }
   }
 
@@ -575,6 +584,11 @@
     var note = document.querySelector('.showcase-note');
     if (note && initialSonDakikaNote) note.textContent = initialSonDakikaNote;
     if (initialDocumentTitle) document.title = initialDocumentTitle;
+
+    var side = document.querySelector('.side-headlines');
+    if (side) {
+      side.hidden = false;
+    }
 
     var slider = document.querySelector('.headline-slider');
     if (slider && initialSonDakikaSlides.length) {

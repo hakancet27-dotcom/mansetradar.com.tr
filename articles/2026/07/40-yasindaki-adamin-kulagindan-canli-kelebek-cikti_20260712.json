@@ -37,7 +37,7 @@
   "flag": "TR",
   "country": "Turkey",
   "display_country": "Türkiye",
-  "image_url": "https://images.ntv.com.tr/images/kelebek-310290.jpg",
+  "image_url": "https://mansetradar.com.tr/articles/images/40-yasindaki-adamin-kulagindan-canli-kelebek-cikti_20260712.webp",
   "real_image_required": true,
   "real_image_status": "approved_real_image",
   "image_kind": "licensed_real_photo",
@@ -71,5 +71,7 @@
   ],
   "quality_word_count": 227,
   "indexed_on_home": true,
-  "time": "08:06"
+  "time": "08:06",
+  "source_image_url": "https://images.ntv.com.tr/images/kelebek-310290.jpg",
+  "image_storage": "local_webp_cache"
 }
