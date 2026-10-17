@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-17T00:00:00+00:00",
-    "article_count": 2622,
+    "article_count": 2624,
     "schema_version": 2
   },
   "hero": [
@@ -825,6 +825,90 @@
     }
   ],
   "latest": [
+    {
+      "id": "news/articles/2026/10:trump-waives-tariffs-russian-oil-buyers_20261017",
+      "slug": "trump-waives-tariffs-russian-oil-buyers_20261017",
+      "title": "Trump Waives Tariffs on Largest Buyers of Russian Oil",
+      "summary": "President Trump has waived new sanctions on Russia and significant tariffs on the world's largest buyers of Russian oil and natural gas, reversing a bipartisan law aimed at pressuring Moscow. The decision, made late Friday, seeks to ease energy prices but d...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "17.10.2026 13:43",
+      "date_iso": "2026-10-17",
+      "published_at": "2026-10-17T13:43:46+03:00",
+      "url": "/news/articles/2026/10/trump-waives-tariffs-russian-oil-buyers_20261017/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/trump-waives-tariffs-russian-oil-buyers_20261017/",
+      "detail_json_url": "/data/details/news/articles/2026/10/trump-waives-tariffs-russian-oil-buyers_20261017.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/trump-waives-tariffs-russian-oil-buyers_20261017.webp",
+      "image_alt": "President Donald Trump signing a document, symbolizing the waiver of tariffs on Russian oil, with a serious expression.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/trump-waives-tariffs-russian-oil-buyers_20261017.webp",
+        "alt": "President Donald Trump signing a document, symbolizing the waiver of tariffs on Russian oil, with a serious expression."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/trump-waives-sanctions-tariffs-russian-oil-lindsey-graham/",
+      "tags": [
+        "Russia",
+        "Tariffs",
+        "Sanctions",
+        "Donald Trump",
+        "Oil",
+        "Energy",
+        "Ukraine",
+        "Geopolitics"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/10:strait-of-hormuz-attacks-record-highs-october-2026_20261017",
+      "slug": "strait-of-hormuz-attacks-record-highs-october-2026_20261017",
+      "title": "Strait of Hormuz Attacks Hit Record Highs Amid New Incidents",
+      "summary": "Attacks on ships in the Strait of Hormuz have reached record highs, with Iran reporting a supertanker on fire after hitting a mine and a British monitoring agency detailing two other vessel attacks off Saudi Arabia on Friday, October 17, 2026.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "17.10.2026 13:43",
+      "date_iso": "2026-10-17",
+      "published_at": "2026-10-17T13:43:29+03:00",
+      "url": "/news/articles/2026/10/strait-of-hormuz-attacks-record-highs-october-2026_20261017/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/strait-of-hormuz-attacks-record-highs-october-2026_20261017/",
+      "detail_json_url": "/data/details/news/articles/2026/10/strait-of-hormuz-attacks-record-highs-october-2026_20261017.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/strait-of-hormuz-attacks-record-highs-october-2026_20261017.webp",
+      "image_alt": "Strait of Hormuz Attacks Hit Record Highs Amid New Incidents",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/strait-of-hormuz-attacks-record-highs-october-2026_20261017.webp",
+        "alt": "Strait of Hormuz Attacks Hit Record Highs Amid New Incidents"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/",
+      "tags": [
+        "Strait of Hormuz",
+        "Maritime Security",
+        "Oil Tanker Attack",
+        "Middle East Conflict",
+        "Shipping",
+        "Iran",
+        "Saudi Arabia",
+        "UKMTO"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/10:renault-yeni-ekran-ve-otomotiv-gundemi_20261017",
       "slug": "renault-yeni-ekran-ve-otomotiv-gundemi_20261017",
@@ -3164,83 +3248,6 @@
         "Gaming"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "nachrichten/artikel/2026/10:eu-gipfel-ukraine-unterstuetzung-brruessel_20261016",
-      "slug": "eu-gipfel-ukraine-unterstuetzung-brruessel_20261016",
-      "title": "EU-Gipfel in Brüssel: Diskussionen über die Unterstützung für die Ukraine",
-      "summary": "Beim EU-Gipfel in Brüssel sind Bundeskanzler Merz, der ukrainische Präsident Wolodymyr Selenskyj und EU-Ratspräsident António Costa zusammengekommen, um über die anhaltende Unterstützung für die Ukraine zu beraten.",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Germany",
-      "language": "de",
-      "language_label": "German",
-      "section": "nachrichten/artikel",
-      "section_name": "Deutschland Nachrichten",
-      "url_prefix": "nachrichten/artikel/2026/10",
-      "date": "16.10.2026",
-      "date_iso": "2026-10-16",
-      "published_at": "2026-10-16T19:20:00+03:00",
-      "url": "/nachrichten/artikel/2026/10/eu-gipfel-ukraine-unterstuetzung-brruessel_20261016/",
-      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/eu-gipfel-ukraine-unterstuetzung-brruessel_20261016/",
-      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/eu-gipfel-ukraine-unterstuetzung-brruessel_20261016.json",
-      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/images/eu-gipfel-ukraine-unterstuetzung-brruessel_20261016.webp",
-      "image_alt": "EU-Gipfel in Brüssel mit internationalen Politikern",
-      "image": {
-        "url": "https://mansetradar.com.tr/nachrichten/artikel/images/eu-gipfel-ukraine-unterstuetzung-brruessel_20261016.webp",
-        "alt": "EU-Gipfel in Brüssel mit internationalen Politikern"
-      },
-      "source_name": "DER SPIEGEL - Schlagzeilen",
-      "source_url": "https://www.spiegel.de/politik/deutschland/eu-gipfel-broeckelt-jetzt-die-unterstuetzung-fuer-die-ukraine-a-c0bbe93c-b8ee-48c0-a6a9-e4c83304e644#ref=rss",
-      "tags": [
-        "EU-Gipfel",
-        "Ukraine",
-        "Bundeskanzler Merz",
-        "Wolodymyr Selenskyj",
-        "Brüssel"
-      ],
-      "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "nachrichten/artikel/2026/10:schaltsekunde-abgeschafft-was-bedeutet-das-fuer-die-zeitsysteme_20261016",
-      "slug": "schaltsekunde-abgeschafft-was-bedeutet-das-fuer-die-zeitsysteme_20261016",
-      "title": "Schaltsekunde wird abgeschafft: Was bedeutet das für die Zeitmessung?",
-      "summary": "Ein internationales Gremium hat entschieden: Die Schaltsekunde wird abgeschafft. Seit 1972 diente sie dazu, die astronomische Erdrotation mit der präzisen Atomzeit in Einklang zu bringen. Die letzte Schaltsekunde fand zum Jahreswechsel 2016/17 statt. Künfti...",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "topic_slug": "teknoloji",
-      "topic_label": "Teknoloji",
-      "country": "Germany",
-      "language": "de",
-      "language_label": "German",
-      "section": "nachrichten/artikel",
-      "section_name": "Deutschland Nachrichten",
-      "url_prefix": "nachrichten/artikel/2026/10",
-      "date": "16.10.2026",
-      "date_iso": "2026-10-16",
-      "published_at": "2026-10-16T17:50:10+03:00",
-      "url": "/nachrichten/artikel/2026/10/schaltsekunde-abgeschafft-was-bedeutet-das-fuer-die-zeitsysteme_20261016/",
-      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/schaltsekunde-abgeschafft-was-bedeutet-das-fuer-die-zeitsysteme_20261016/",
-      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/schaltsekunde-abgeschafft-was-bedeutet-das-fuer-die-zeitsysteme_20261016.json",
-      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/schaltsekunde-abgeschafft-was-bedeutet-das-fuer-die-zeitsysteme_20261016.webp",
-      "image_alt": "Symbolbild für die Abschaffung der Schaltsekunde und die Auswirkungen auf die digitale Zeitmessung.",
-      "image": {
-        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/schaltsekunde-abgeschafft-was-bedeutet-das-fuer-die-zeitsysteme_20261016.webp",
-        "alt": "Symbolbild für die Abschaffung der Schaltsekunde und die Auswirkungen auf die digitale Zeitmessung."
-      },
-      "source_name": "tagesschau.de - Die Nachrichten der ARD",
-      "source_url": "https://www.tagesschau.de/wissen/forschung/schaltsekunde-abschaffung-100.html",
-      "tags": [
-        "Schaltsekunde",
-        "Atomzeit",
-        "Erdrotation",
-        "Zeitmessung"
-      ],
-      "quality_score": 100,
       "review_status": "published"
     }
   ]
