@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-17T00:00:00+00:00",
-    "article_count": 2615,
+    "article_count": 2622,
     "schema_version": 2,
     "topic_slug": "gundem",
     "type": "topic"
@@ -46,6 +46,44 @@
         "THKP-C Acilciler"
       ],
       "quality_score": 100,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:prof-dr-murat-turkes-siddetli-yagislar-ve-afet-uyarisi_20261017",
+      "slug": "prof-dr-murat-turkes-siddetli-yagislar-ve-afet-uyarisi_20261017",
+      "title": "Prof. Dr. Murat Türkeş Uyardı: Şiddetli Yağışlar ve Afet Riski Sürecek",
+      "summary": "Boğaziçi Üniversitesi İklim Değişikliği ve Politikaları Uygulama ve Araştırma Merkezi Yönetim Kurulu Üyesi Prof. Dr. Murat Türkeş, Marmara'da etkili olan aşırı yağışların ardından kış mevsimi tahminlerini paylaşarak sellere ve su baskınlarına yol açan şidde...",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "17.10.2026 12:51",
+      "date_iso": "2026-10-17",
+      "url": "/articles/2026/10/prof-dr-murat-turkes-siddetli-yagislar-ve-afet-uyarisi_20261017/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/prof-dr-murat-turkes-siddetli-yagislar-ve-afet-uyarisi_20261017/",
+      "detail_json_url": "/data/details/articles/2026/10/prof-dr-murat-turkes-siddetli-yagislar-ve-afet-uyarisi_20261017.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/prof-dr-murat-turkes-siddetli-yagislar-ve-afet-uyarisi_20261017.webp",
+      "image_alt": "Şiddetli sağanak yağış ve fırtına bulutları altında şehir manzarası.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/prof-dr-murat-turkes-siddetli-yagislar-ve-afet-uyarisi_20261017.webp",
+        "alt": "Şiddetli sağanak yağış ve fırtına bulutları altında şehir manzarası."
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/gundem/prof-dr-turkes-bu-tur-afetlere-yol-acabilecek-siddetli-yagislari-bundan-sonra-da-bekliyoruz-43344907",
+      "tags": [
+        "Murat Türkeş",
+        "iklim değişikliği",
+        "sağanak yağış",
+        "sel uyarısı",
+        "hava durumu"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
