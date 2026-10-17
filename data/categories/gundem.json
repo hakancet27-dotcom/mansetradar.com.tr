@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-17T00:00:00+00:00",
-    "article_count": 2584,
+    "article_count": 2591,
     "schema_version": 2,
     "category_slug": "gundem",
     "type": "category"
@@ -47,6 +47,45 @@
         "Son Dakika"
       ],
       "quality_score": 95,
+      "review_status": "published"
+    },
+    {
+      "id": "articles/2026/10:aydin-4-asliye-hukuk-mahkemesinden-tapu-iptali-ve-tescil-ilani_20261017",
+      "slug": "aydin-4-asliye-hukuk-mahkemesinden-tapu-iptali-ve-tescil-ilani_20261017",
+      "title": "Aydın 4. Asliye Hukuk Mahkemesi'nden Tapu İptali ve Tescil İlanı",
+      "summary": "Aydın 4. Asliye Hukuk Mahkemesi, İncirliova ilçesi Erbeyli Mahallesi'nde yer alan 629 parsel sayılı taşınmaz için zilyetliğe dayalı tapu iptali ve tescil davası kapsamında hak iddia edenlere 3 aylık yasal başvuru çağrısında bulundu.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "17.10.2026",
+      "date_iso": "2026-10-17",
+      "url": "/articles/2026/10/aydin-4-asliye-hukuk-mahkemesinden-tapu-iptali-ve-tescil-ilani_20261017/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/aydin-4-asliye-hukuk-mahkemesinden-tapu-iptali-ve-tescil-ilani_20261017/",
+      "detail_json_url": "/data/details/articles/2026/10/aydin-4-asliye-hukuk-mahkemesinden-tapu-iptali-ve-tescil-ilani_20261017.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/aydin-4-asliye-hukuk-mahkemesinden-tapu-iptali-ve-tescil-ilani_20261017.webp",
+      "image_alt": "Aydın 4. Asliye Hukuk Mahkemesi tapu iptali ve tescil davası ilan görseli",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/aydin-4-asliye-hukuk-mahkemesinden-tapu-iptali-ve-tescil-ilani_20261017.webp",
+        "alt": "Aydın 4. Asliye Hukuk Mahkemesi tapu iptali ve tescil davası ilan görseli"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/resmi-ilanlar/aydin-4-asliye-hukuk-mahkemesi-43344505",
+      "tags": [
+        "Aydın 4. Asliye Hukuk Mahkemesi",
+        "Tapu İptali ve Tescil",
+        "İncirliova",
+        "Erbeyli Mahallesi",
+        "Resmi İlan",
+        "TMK 713"
+      ],
+      "quality_score": 86,
       "review_status": "published"
     },
     {
