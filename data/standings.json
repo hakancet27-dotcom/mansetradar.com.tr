@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T20:23:10.623Z",
+  "updatedAt": "2026-10-18T22:40:24.519Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
@@ -1410,11 +1410,25 @@
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-10-18T20:23:10.623Z",
+      "updatedAt": "2026-10-18T22:40:24.519Z",
       "source": "Maçkolik arşiv 5/73279",
       "table": [
         {
           "position": 1,
+          "team": "Lyon",
+          "played": 7,
+          "won": 4,
+          "draw": 2,
+          "lost": 1,
+          "goalsFor": 13,
+          "goalsAgainst": 5,
+          "points": 14,
+          "goalDifference": 8,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/201.gif",
+          "form": []
+        },
+        {
+          "position": 2,
           "team": "PSG",
           "played": 7,
           "won": 4,
@@ -1428,7 +1442,7 @@
           "form": []
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Paris FC",
           "played": 7,
           "won": 4,
@@ -1442,7 +1456,7 @@
           "form": []
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Lille",
           "played": 7,
           "won": 4,
@@ -1456,7 +1470,7 @@
           "form": []
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "Monaco",
           "played": 7,
           "won": 4,
@@ -1470,7 +1484,7 @@
           "form": []
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "Rennes",
           "played": 7,
           "won": 4,
@@ -1481,20 +1495,6 @@
           "points": 13,
           "goalDifference": 1,
           "logo": "https://im.mackolik.com/img/logo/kucuk/212.gif",
-          "form": []
-        },
-        {
-          "position": 6,
-          "team": "Lyon",
-          "played": 6,
-          "won": 3,
-          "draw": 2,
-          "lost": 1,
-          "goalsFor": 11,
-          "goalsAgainst": 4,
-          "points": 11,
-          "goalDifference": 7,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/201.gif",
           "form": []
         },
         {
@@ -1584,14 +1584,14 @@
         {
           "position": 13,
           "team": "Nice",
-          "played": 6,
+          "played": 7,
           "won": 2,
           "draw": 2,
-          "lost": 2,
-          "goalsFor": 5,
-          "goalsAgainst": 7,
+          "lost": 3,
+          "goalsFor": 6,
+          "goalsAgainst": 9,
           "points": 8,
-          "goalDifference": -2,
+          "goalDifference": -3,
           "logo": "https://im.mackolik.com/img/logo/kucuk/194.gif",
           "form": []
         },
