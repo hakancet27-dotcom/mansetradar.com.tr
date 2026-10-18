@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T17:10:56.827Z",
+  "updatedAt": "2026-10-18T19:43:33.179Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
@@ -264,7 +264,8 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": ""
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 403 | HTML scrape: https://www.mackolik.com/puan-durumu/t%C3%BCrkiye-s%C3%BCper-lig/482ofyysbdbeoxauk19yg7tdt: no valid standings table | https://www.skorlar.com/futbol/turkiye/super-lig/puan-durumu: fetch failed | https://www.skorlar.com/futbol/turkiye/super-lig: fetch failed | https://www.skorlar.com: fetch failed | https://skorlar.com: fetch failed | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
+      "preservedPreviousTable": true
     },
     {
       "id": "premier-league",
@@ -555,7 +556,7 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 403 | HTML scrape: https://www.mackolik.com/puan-durumu/ingiltere-premier-lig/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | https://www.mackolik.com/puan-durumu/ingiltere-premier-league/2kwbbcootiqqgmrzs6o5inle5: HTTP 403 | football-data.org: PL: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 502 | HTML scrape: https://www.mackolik.com/puan-durumu/ingiltere-premier-lig/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | https://www.mackolik.com/puan-durumu/ingiltere-premier-league/2kwbbcootiqqgmrzs6o5inle5: HTTP 502 | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
       "preservedPreviousTable": true
     },
     {
@@ -847,13 +848,13 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 403 | HTML scrape: https://www.mackolik.com/puan-durumu/ispanya-la-liga/34pl8szyvrbwcmfkuocjm3r6t: HTTP 403 | football-data.org: PD: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 502 | HTML scrape: https://www.mackolik.com/puan-durumu/ispanya-la-liga/34pl8szyvrbwcmfkuocjm3r6t: HTTP 403 | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
       "preservedPreviousTable": true
     },
     {
       "id": "bundesliga",
       "name": "Bundesliga",
-      "updatedAt": "2026-10-18T00:38:30.378Z",
+      "updatedAt": "2026-10-18T19:43:33.179Z",
       "source": "Maçkolik arşiv 3/73455",
       "table": [
         {
@@ -887,28 +888,28 @@
         {
           "position": 3,
           "team": "Freiburg",
-          "played": 5,
+          "played": 6,
           "won": 4,
           "draw": 1,
-          "lost": 0,
-          "goalsFor": 14,
-          "goalsAgainst": 4,
+          "lost": 1,
+          "goalsFor": 15,
+          "goalsAgainst": 6,
           "points": 13,
-          "goalDifference": 10,
+          "goalDifference": 9,
           "logo": "https://im.mackolik.com/img/logo/kucuk/137.gif",
           "form": []
         },
         {
           "position": 4,
           "team": "Bayer Leverkusen",
-          "played": 5,
-          "won": 3,
+          "played": 6,
+          "won": 4,
           "draw": 1,
           "lost": 1,
-          "goalsFor": 14,
-          "goalsAgainst": 8,
-          "points": 10,
-          "goalDifference": 6,
+          "goalsFor": 16,
+          "goalsAgainst": 9,
+          "points": 13,
+          "goalDifference": 7,
           "logo": "https://im.mackolik.com/img/logo/kucuk/133.gif",
           "form": []
         },
@@ -1040,6 +1041,20 @@
         },
         {
           "position": 14,
+          "team": "Hoffenheim",
+          "played": 6,
+          "won": 2,
+          "draw": 0,
+          "lost": 4,
+          "goalsFor": 11,
+          "goalsAgainst": 14,
+          "points": 6,
+          "goalDifference": -3,
+          "logo": "https://im.mackolik.com/img/logo/kucuk/918.gif",
+          "form": []
+        },
+        {
+          "position": 15,
           "team": "Schalke 04",
           "played": 6,
           "won": 1,
@@ -1053,7 +1068,7 @@
           "form": []
         },
         {
-          "position": 15,
+          "position": 16,
           "team": "Paderborn",
           "played": 6,
           "won": 1,
@@ -1067,7 +1082,7 @@
           "form": []
         },
         {
-          "position": 16,
+          "position": 17,
           "team": "Union Berlin",
           "played": 6,
           "won": 1,
@@ -1081,38 +1096,23 @@
           "form": []
         },
         {
-          "position": 17,
-          "team": "Hoffenheim",
-          "played": 5,
-          "won": 1,
-          "draw": 0,
-          "lost": 4,
-          "goalsFor": 9,
-          "goalsAgainst": 13,
-          "points": 3,
-          "goalDifference": -4,
-          "logo": "https://im.mackolik.com/img/logo/kucuk/918.gif",
-          "form": []
-        },
-        {
           "position": 18,
           "team": "Mönchengladbach",
-          "played": 5,
+          "played": 6,
           "won": 0,
           "draw": 0,
-          "lost": 5,
-          "goalsFor": 7,
-          "goalsAgainst": 18,
+          "lost": 6,
+          "goalsFor": 8,
+          "goalsAgainst": 20,
           "points": 0,
-          "goalDifference": -11,
+          "goalDifference": -12,
           "logo": "https://im.mackolik.com/img/logo/kucuk/126.gif",
           "form": []
         }
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 403 | HTML scrape: https://www.mackolik.com/puan-durumu/almanya-bundesliga/6by3h89i2eykc341oz7lv1ddd: no valid standings table | football-data.org: BL1: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
-      "preservedPreviousTable": true
+      "status": ""
     },
     {
       "id": "serie-a",
@@ -1403,7 +1403,7 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 403 | HTML scrape: https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao: no valid standings table | football-data.org: SA: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 502 | HTML scrape: https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao: no valid standings table | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
       "preservedPreviousTable": true
     },
     {
@@ -1667,7 +1667,8 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": ""
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 403 | HTML scrape: https://www.mackolik.com/puan-durumu/fransa-ligue-1/dm5ka0os1e3dxcp3vh05kmp33: no valid standings table | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
+      "preservedPreviousTable": true
     }
   ],
   "competition": "Süper Lig",
