@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T09:07:24.107Z",
+  "updatedAt": "2026-10-18T13:36:12.679Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
@@ -556,7 +556,8 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": ""
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 403 | HTML scrape: https://www.mackolik.com/puan-durumu/ingiltere-premier-lig/2kwbbcootiqqgmrzs6o5inle5: no valid standings table | https://www.mackolik.com/puan-durumu/ingiltere-premier-league/2kwbbcootiqqgmrzs6o5inle5: HTTP 502 | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
+      "preservedPreviousTable": true
     },
     {
       "id": "la-liga",
@@ -847,7 +848,8 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": ""
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 403 | HTML scrape: https://www.mackolik.com/puan-durumu/ispanya-la-liga/34pl8szyvrbwcmfkuocjm3r6t: HTTP 403 | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
+      "preservedPreviousTable": true
     },
     {
       "id": "bundesliga",
