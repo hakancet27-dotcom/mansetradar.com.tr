@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-19T00:00:00+00:00",
-    "article_count": 2765,
+    "article_count": 2766,
     "schema_version": 2
   },
   "hero": [
@@ -806,6 +806,46 @@
     }
   ],
   "latest": [
+    {
+      "id": "news/articles/2026/10:ex-openai-engineer-bugging-saudi-royal-family-contact_20261019",
+      "slug": "ex-openai-engineer-bugging-saudi-royal-family-contact_20261019",
+      "title": "Ex-OpenAI Engineer Accused of Bugging Office, Saudi Royal Family Contact",
+      "summary": "An ex-OpenAI engineer is alleged to have planted listening devices within the company's offices and was reportedly in contact with the Saudi royal family, according to new details from CBS News published on October 19, 2026. This development raises signific...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/10",
+      "date": "19.10.2026 22:56",
+      "date_iso": "2026-10-19",
+      "published_at": "2026-10-19T22:56:34+03:00",
+      "url": "/news/articles/2026/10/ex-openai-engineer-bugging-saudi-royal-family-contact_20261019/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/10/ex-openai-engineer-bugging-saudi-royal-family-contact_20261019/",
+      "detail_json_url": "/data/details/news/articles/2026/10/ex-openai-engineer-bugging-saudi-royal-family-contact_20261019.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/10/images/ex-openai-engineer-bugging-saudi-royal-family-contact_20261019.webp",
+      "image_alt": "Ex-OpenAI Engineer Accused of Bugging Office, Saudi Royal Family Contact",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/10/images/ex-openai-engineer-bugging-saudi-royal-family-contact_20261019.webp",
+        "alt": "Ex-OpenAI Engineer Accused of Bugging Office, Saudi Royal Family Contact"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/new-details-on-ex-openai-engineer-who-allegedly-planted-listening-devices/",
+      "tags": [
+        "OpenAI",
+        "Corporate Espionage",
+        "Saudi Royal Family",
+        "AI Security",
+        "Technology News",
+        "Listening Devices"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/10:bulent-inal-ve-dolunay-soysertin-tiyatro-oyunu-tartisma-yaratti_20261019",
       "slug": "bulent-inal-ve-dolunay-soysertin-tiyatro-oyunu-tartisma-yaratti_20261019",
@@ -3162,45 +3202,6 @@
         "Fußball-Transfers"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "nachrichten/artikel/2026/10:fake-sneaker-markt-replikate-social-media-hacoo_20261018",
-      "slug": "fake-sneaker-markt-replikate-social-media-hacoo_20261018",
-      "title": "Boomendes Geschäft mit Fake-Sneakern: Warum immer mehr Käufer zu Replikaten greifen",
-      "summary": "Kult-Sneaker kosten im Original oft vierstellige Summen, weshalb immer mehr Verbraucher zu deutlich günstigeren Fälschungen greifen. Neue Recherchen des ARD-Formats ECHT? zeigen, wie professionell der Markt für Replikate inzwischen agiert und wie soziale Ne...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "ekonomi",
-      "topic_label": "Ekonomi",
-      "country": "Germany",
-      "language": "de",
-      "language_label": "German",
-      "section": "nachrichten/artikel",
-      "section_name": "Deutschland Nachrichten",
-      "url_prefix": "nachrichten/artikel/2026/10",
-      "date": "18.10.2026 20:35",
-      "date_iso": "2026-10-18",
-      "published_at": "2026-10-18T20:35:13+03:00",
-      "url": "/nachrichten/artikel/2026/10/fake-sneaker-markt-replikate-social-media-hacoo_20261018/",
-      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/fake-sneaker-markt-replikate-social-media-hacoo_20261018/",
-      "detail_json_url": "/data/details/nachrichten/artikel/2026/10/fake-sneaker-markt-replikate-social-media-hacoo_20261018.json",
-      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/fake-sneaker-markt-replikate-social-media-hacoo_20261018.webp",
-      "image_alt": "Modische Sneaker stehen nebeneinander im Fokus vor einem unscharfen Hintergrund.",
-      "image": {
-        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/fake-sneaker-markt-replikate-social-media-hacoo_20261018.webp",
-        "alt": "Modische Sneaker stehen nebeneinander im Fokus vor einem unscharfen Hintergrund."
-      },
-      "source_name": "tagesschau.de - Die Nachrichten der ARD",
-      "source_url": "https://www.tagesschau.de/wirtschaft/verbraucher/sneaker-kultmodelle-investment-100.html",
-      "tags": [
-        "Sneaker",
-        "Fake",
-        "Markenplagiate",
-        "Verbraucherschutz",
-        "Wirtschaftskriminalität"
-      ],
-      "quality_score": 86,
       "review_status": "published"
     }
   ]
