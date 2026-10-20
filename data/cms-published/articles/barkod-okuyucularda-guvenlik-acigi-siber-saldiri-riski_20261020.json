@@ -1,0 +1,92 @@
+{
+  "title": "Barkod Okuyucularda Kritik Güvenlik Açığı Tespit Edildi: Siber Saldırı Riski",
+  "meta_title": "Barkod Okuyucularda Kritik Güvenlik Açığı: Siber Saldırı...",
+  "meta_description": "Kaspersky araştırmacıları, depo ve perakende sektöründe yaygın kullanılan barkod okuyucularda ciddi bir güvenlik açığı buldu. Bu zafiyet, saldırganların...",
+  "discover_titles": [
+    "Depo ve Mağazalardaki Barkod Okuyucular Tehlikede: Yeni Siber Saldırı...",
+    "Kaspersky Uyardı: Barkod Okuyucular Üzerinden Kritik Sistemlere Sızma Riski",
+    "Siber Güvenlikte Yeni Tehdit: Barkod Okuyucular Operasyonel Ağlara Giriş..."
+  ],
+  "slug": "barkod-okuyucularda-guvenlik-acigi-siber-saldiri-riski_20261020",
+  "category": "Teknoloji",
+  "spot": "Kaspersky Security Services araştırmacıları, depo ve perakende sektöründe yaygın olarak kullanılan barkod okuyucularda kritik bir güvenlik açığı tespit etti. Bu zafiyet, saldırganların cihazın kablosuz bağlantısı üzerinden operasyonel teknoloji (OT) ağına sızarak uzaktan kod çalıştırmasına olanak tanıyor. Güvenlik açığı, baz istasyonu ile barkod okuyucular arasında kimlik doğrulama mekanizmasının bulunmamasından...",
+  "content_html": "<h2>Önemli Gelişmeler</h2> <p>Kaspersky Security Services araştırmacıları, depo altyapısındaki potansiyel riskleri belirlemek amacıyla yürüttükleri kapsamlı bir çalışma sonucunda, büyük bir üreticinin barkod okuyucu modelinde ciddi bir güvenlik açığı keşfetti. Bu tür cihazlar, depolar, perakende sektörü ve birçok operasyonel alanda yoğun bir şekilde kullanılıyor. Araştırma, bu cihazların operasyonel teknoloji (OT) ağına giriş noktası olarak kullanılabileceğini ortaya koydu.</p> <p>Saldırı yöntemi, el tipi barkod okuyucuların baz istasyonuyla iletişim kurduğu klasik kurulumlarda ortaya çıkıyor. Temel güvenlik zafiyeti, baz istasyonu ile barkod okuyucular arasında herhangi bir kimlik doğrulama mekanizmasının olmamasıdır. Bu durum, saldırganların cihazın kablosuz bağlantısı üzerinden sisteme sızmasına olanak tanıyor. Araştırmacılar, cihazın kapsama alanındaki bir saldırganın, bağlı bilgisayara klavye tuş vuruşları gönderebildiğini ve kullanıcı müdahalesine gerek kalmadan uzaktan kod çalıştırma imkanı elde edebildiğini belirtti.</p> <p>Olası bir saldırı senaryosunda, bir çalışan günlük işlerini yaparken, saldırgan pasif olarak Bluetooth trafiğini dinleyerek baz istasyonunun Bluetooth adresini öğrenebiliyor. Ardından, kurulan Bluetooth bağlantısı üzerinden baz istasyonuna kötü amaçlı bir veri yükü göndererek klavye tuş vuruşlarını taklit ediyor. Baz istasyonu bu tuş vuruşlarını bağlı bilgisayara iletiyor ve bilgisayar bunları meşru bir kullanıcıdan gelen girişler olarak algılıyor. Böylece saldırgan, yetkisiz komutları çalıştırmak için bu mekanizmadan faydalanabiliyor. Bu saldırı yönteminin birden fazla üreticinin cihazlarında gözlemlendiği de belirtildi.</p> <h2>Öne Çıkan Noktalar</h2> <ul> <li>Kaspersky araştırmacıları, depo ve perakende sektöründe yaygın kullanılan barkod okuyucularda yeni bir siber saldırı yöntemi keşfetti.</li> <li>Saldırının temelinde, barkod okuyucuların baz istasyonlarıyla iletişiminde kimlik doğrulama mekanizmasının bulunmaması yatıyor.</li> <li>Saldırganlar, kablosuz bağlantı üzerinden klavye tuş vuruşlarını taklit ederek bağlı bilgisayarlarda uzaktan kod çalıştırabiliyor ve operasyonel ağlara sızabiliyor.</li> </ul> <h2>Neden Önemli?</h2> <p>Bu güvenlik açığı, sadece barkod okuyucunun kendisini değil, bağlı olduğu tüm operasyonel ağı ve kritik sistemleri tehdit ediyor. Saldırgan, bu yöntemle depo ağı içerisindeki bir bilgisayarda ilk kalıcı erişim noktasını elde edebiliyor. Barkod okuyucu burada sadece sisteme sızmak için bir basamak görevi görüyor. Ele geçirilen bilgisayarın operasyonel ortamdaki güvenilir konumu ve kritik sistemlerle olan doğrudan bağlantısı, bu erişimi son derece tehlikeli hale getiriyor. Bu saldırı vektörleri yalnızca depo sektörü için değil; perakende ve bu tür cihazların yoğun biçimde kullanıldığı tüm operasyonel alanlar için ciddi bir risk oluşturuyor. Kurumların, bu tür cihazların güvenlik protokollerini gözden geçirmesi ve gerekli önlemleri alması büyük önem taşıyor.</p>",
+  "key_takeaways": [
+    "Kaspersky Security Services araştırmacıları, depo ve perakende sektöründe yaygın olarak kullanılan barkod okuyucularda kritik...",
+    "Bu zafiyet, saldırganların cihazın kablosuz bağlantısı üzerinden operasyonel teknoloji (OT) ağına sızarak uzaktan kod...",
+    "Güvenlik açığı, baz istasyonu ile barkod okuyucular arasında kimlik doğrulama mekanizmasının bulunmamasından..."
+  ],
+  "tags": [
+    "siber güvenlik",
+    "barkod okuyucu",
+    "Kaspersky",
+    "güvenlik açığı",
+    "depo",
+    "perakende",
+    "OT ağı"
+  ],
+  "visual_keywords": [
+    "barkod okuyucu",
+    "siber güvenlik",
+    "hacker",
+    "bilgisayar",
+    "depo",
+    "veri"
+  ],
+  "image_prompt": "A stylized image showing a barcode scanner wirelessly connected to a computer, with a subtle overlay of digital threat icons or a padlock symbol, emphasizing a security...",
+  "image_alt": "Barkod okuyucu ve bilgisayar arasında siber güvenlik tehdidini simgeleyen dijital bir görsel",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 3,
+  "word_count": 395,
+  "date": "20.10.2026 12:39",
+  "date_iso": "2026-10-20T12:39:32+03:00",
+  "published_at": "2026-10-20T12:39:32+03:00",
+  "flag": "TR",
+  "country": "Turkey",
+  "display_country": "Türkiye",
+  "image_url": "https://mansetradar.com.tr/articles/2026/10/images/barkod-okuyucularda-guvenlik-acigi-siber-saldiri-riski_20261020.webp",
+  "real_image_required": true,
+  "real_image_status": "approved_real_image",
+  "image_kind": "licensed_real_photo",
+  "image_license_status": "source_provided",
+  "image_license_note": "RSS source image: HABERTURK.COM",
+  "image_source_url": "https://www.haberturk.com/ekonomi/barkod-okuyucularda-guvenlik-acigi-3921040",
+  "image_provider": "rss",
+  "image_score": 70,
+  "image_query": "Barkod okuyucularda güvenlik açığı",
+  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
+  "summary": "Kaspersky Security Services araştırmacıları, depo ve perakende sektöründe yaygın olarak kullanılan barkod okuyucularda kritik bir güvenlik açığı tespit etti. Bu zafiyet, saldırganların cihazın kablosuz bağlantısı üzerinden operasyonel teknoloji (OT) ağına sızarak uzaktan kod çalıştırmasına olanak tanıyor. Güvenlik açığı, baz istasyonu ile barkod okuyucular arasında kimlik doğrulama mekanizmasının bulunmamasından...",
+  "language": "Turkish",
+  "url_prefix": "articles/2026/10",
+  "source_language": "Turkish",
+  "target_language": "Turkish",
+  "source_name": "HABERTURK.COM",
+  "source_url": "https://www.haberturk.com/ekonomi/barkod-okuyucularda-guvenlik-acigi-3921040",
+  "source_published_at": "2026-10-20T07:52:40+00:00",
+  "source_fact_score": 10,
+  "source_fact_word_count": 288,
+  "quality_score": 86,
+  "quality_status": "published",
+  "review_required": false,
+  "quality_flags": [
+    "short_article"
+  ],
+  "quality_notes": [
+    "Metin hedefin altinda (395 kelime)."
+  ],
+  "quality_word_count": 395,
+  "indexed_on_home": true,
+  "image_identity_url": "https://im.haberturk.com/l/2026/10/20/ver1792482760/3921040/jpg/200x113",
+  "original_image_url": "https://im.haberturk.com/l/2026/10/20/ver1792482760/3921040/jpg/200x113",
+  "image_local_webp": "articles/2026/10/images/barkod-okuyucularda-guvenlik-acigi-siber-saldiri-riski_20261020.webp",
+  "image_credit": "haberturk.com",
+  "image_credit_url": "https://www.haberturk.com/ekonomi/barkod-okuyucularda-guvenlik-acigi-3921040",
+  "image_finalized_at": "2026-10-20T09:40:06.312454Z",
+  "time": "07:52",
+  "public_url": "/articles/2026/10/barkod-okuyucularda-guvenlik-acigi-siber-saldiri-riski_20261020/",
+  "source_json_path": "articles/2026/10/barkod-okuyucularda-guvenlik-acigi-siber-saldiri-riski_20261020.json",
+  "cms_generated_from_monthly_source": true
+}
