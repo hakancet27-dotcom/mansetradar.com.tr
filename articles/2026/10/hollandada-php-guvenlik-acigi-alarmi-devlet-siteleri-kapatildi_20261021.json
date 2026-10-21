@@ -1,0 +1,82 @@
+{
+  "title": "Hollanda'da PHP Güvenlik Açığı Alarmı: Tüm Devlet Siteleri Kapatıldı",
+  "meta_title": "Hollanda'da PHP Güvenlik Açığı Alarmı: Devlet Siteleri...",
+  "meta_description": "Dünyayı sarsan PHP güvenlik açığı sonrasında Hollanda, DigiD ve MijnOverheid dahil tüm kritik devlet sitelerini geçici olarak çevrim dışı bıraktı.",
+  "discover_titles": [
+    "Hollanda'da kritik PHP alarmı: Devlet siteleri kapatıldı",
+    "Siber güvenlik açığı dünyayı sarstı: Hollanda'dan hamle",
+    "PHP açıklarında büyük alarm: DigiD ve devlet siteleri kapandı"
+  ],
+  "slug": "hollandada-php-guvenlik-acigi-alarmi-devlet-siteleri-kapatildi_20261021",
+  "category": "Teknoloji",
+  "spot": "PHP yazılım dilinde tespit edilen iki kritik güvenlik açığı küresel çapta alarma neden olurken, Hollanda hükümeti Ulusal Siber Güvenlik Merkezi'nin (NCSC) uyarıları doğrultusunda tüm devlet sitelerini ve dijital vatandaşlık hizmetlerini geçici olarak çevrim dışı bıraktı.",
+  "content_html": "<h2>Önemli Gelişmeler</h2> <p>Dünya genelinde birçok hükümet sitesinin kısmen ya da tamamen askıya alınmasına yol açan PHP güvenlik açıkları, Hollanda'da en üst düzeyde alarma neden oldu. Başbakan Rob Jetten, sosyal medya hesabından yaptığı açıklamada, hükümetin durumu yakından takip ettiğini duyurdu. Ulusal Siber Güvenlik Merkezinin (NCSC) tavsiyelerini yineleyen Başbakan Jetten, güvenlik yamalarının derhal yüklenmesini ve savunmasız sistemlerin çevrim dışı tutulmasını istedi.</p> <p>Bu kapsamda Hollanda'da vatandaşların vergi, sağlık sigortası ve sosyal güvenlik gibi pek çok kamu hizmetine giriş yaptığı <strong>DigiD</strong> ile resmi bilgilerin görüntülendiği devlet portalı <strong>MijnOverheid</strong> gibi dijital vatandaşlık hizmetleri geçici olarak kapatıldı. Yetkililer, güvenlik tamamen sağlandığında bu sitelerin yeniden erişime açılacağını belirtti. Adalet ve Güvenlik Bakanı David van Weel de PHP açıklarının etkisinin büyük olabileceğini vurgulayarak, kötüye kullanımın önüne geçilmesi için ilgili taraflara sitelerini geçici olarak kapatma çağrısında bulundu ve açıkları gideren yamanın artık mevcut olduğunu bildirdi.</p> <h2>Öne Çıkan Noktalar</h2> <ul> <li><strong>İki kritik açık:</strong> NCSC, internetten gelen talepleri işleyen tüm PHP kurulumlarını etkileyen yüksek öncelikli iki kritik açığın tespit edildiğini açıkladı.</li> <li><strong>Kullanıcı doğrulaması gerekmiyor:</strong> Açıkların herhangi bir kullanıcı adı veya şifre gerekmeden internet üzerinden istismar edilebildiği ve uzaktan komut çalıştırmaya imkan tanıdığı bildirildi.</li> <li><strong>Kritik hizmetler askıya alındı:</strong> Hollanda'da DigiD ve MijnOverheid başta olmak üzere kritik dijital vatandaşlık ve kamu hizmeti siteleri güvenlik amacıyla geçici olarak kapatıldı.</li> </ul> <h2>Neden Önemli?</h2> <p>PHP altyapısında ortaya çıkan bu güvenlik açıkları, dünya genelindeki web siteleri ve kritik kamu altyapıları için büyük bir tehdit oluşturuyor. Yetki doğrulaması gerektirmeden uzaktan müdahaleye olanak tanıyabilen bu açıklar, siber saldırganların hassas devlet verilerine erişmesine veya sunucuları ele geçirmesine zemin hazırlayabilir. Hollanda hükümetinin tüm devlet sitelerini aynı anda çevrim dışı bırakması ve acil yama çağrısı yapması, krizin boyutunun ve potansiyel siber risklerin büyüklüğünü açıkça gözler önüne seriyor.</p>",
+  "key_takeaways": [
+    "PHP yazılım dilinde tespit edilen iki kritik güvenlik açığı küresel çapta alarma neden olurken, Hollanda hükümeti Ulusal Siber..."
+  ],
+  "tags": [
+    "PHP",
+    "Siber Güvenlik",
+    "Hollanda",
+    "NCSC",
+    "Teknoloji Haberleri"
+  ],
+  "visual_keywords": [
+    "cyber security server warning digital lock",
+    "hacker code screen php vulnerability",
+    "netherlands government building amsterdam",
+    "digital identity login screen digid"
+  ],
+  "image_prompt": "A digital security concept showing glowing PHP code with warning icons and a server room background, symbolizing a critical cyber vulnerability.",
+  "image_alt": "PHP siber güvenlik açığı ve sunucu alarmı konsept görseli",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 3,
+  "word_count": 312,
+  "date": "21.10.2026 22:35",
+  "date_iso": "2026-10-21T22:35:41+03:00",
+  "published_at": "2026-10-21T22:35:41+03:00",
+  "flag": "TR",
+  "country": "Turkey",
+  "display_country": "Türkiye",
+  "image_url": "https://mansetradar.com.tr/articles/2026/10/images/hollandada-php-guvenlik-acigi-alarmi-devlet-siteleri-kapatildi_20261021.webp",
+  "real_image_required": true,
+  "real_image_status": "approved_real_image",
+  "image_kind": "licensed_real_photo",
+  "image_license_status": "source_provided",
+  "image_license_note": "RSS source image: Milliyet",
+  "image_source_url": "https://www.milliyet.com.tr/dunya/dunyada-php-alarmi-siber-guvenlik-acigi-harekete-gecirdi-hollanda-tum-devlet-sitelerini-kapatti-7684801",
+  "image_provider": "rss",
+  "image_score": 90,
+  "image_query": "Dünyada PHP alarmı! Siber güvenlik açığı harekete geçirdi: Hollanda tüm devlet s",
+  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
+  "summary": "PHP yazılım dilinde tespit edilen iki kritik güvenlik açığı küresel çapta alarma neden olurken, Hollanda hükümeti Ulusal Siber Güvenlik Merkezi'nin (NCSC) uyarıları doğrultusunda tüm devlet sitelerini ve dijital vatandaşlık hizmetlerini geçici olarak çevrim dışı bıraktı.",
+  "language": "Turkish",
+  "url_prefix": "articles/2026/10",
+  "source_language": "Turkish",
+  "target_language": "Turkish",
+  "source_name": "Milliyet",
+  "source_url": "https://www.milliyet.com.tr/dunya/dunyada-php-alarmi-siber-guvenlik-acigi-harekete-gecirdi-hollanda-tum-devlet-sitelerini-kapatti-7684801",
+  "source_published_at": "2026-10-21T19:23:41+00:00",
+  "source_fact_score": 10,
+  "source_fact_word_count": 296,
+  "quality_score": 86,
+  "quality_status": "published",
+  "review_required": false,
+  "quality_flags": [
+    "short_article"
+  ],
+  "quality_notes": [
+    "Metin hedefin altinda (312 kelime)."
+  ],
+  "quality_word_count": 312,
+  "indexed_on_home": true,
+  "image_identity_url": "https://image.milimaj.com/i/milliyet/75/460x340/6ad910c7ad4ceab0d14ffcd5.jpg",
+  "original_image_url": "https://image.milimaj.com/i/milliyet/75/460x340/6ad910c7ad4ceab0d14ffcd5.jpg",
+  "image_local_webp": "articles/2026/10/images/hollandada-php-guvenlik-acigi-alarmi-devlet-siteleri-kapatildi_20261021.webp",
+  "image_credit": "milliyet.com.tr",
+  "image_credit_url": "https://www.milliyet.com.tr/dunya/dunyada-php-alarmi-siber-guvenlik-acigi-harekete-gecirdi-hollanda-tum-devlet-sitelerini-kapatti-7684801",
+  "image_finalized_at": "2026-10-21T19:35:53.698962Z"
+}

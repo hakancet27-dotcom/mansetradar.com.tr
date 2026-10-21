@@ -3,12 +3,51 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-10-21T00:00:00+00:00",
-    "article_count": 2925,
+    "article_count": 2931,
     "schema_version": 2,
     "topic_slug": "teknoloji",
     "type": "topic"
   },
   "articles": [
+    {
+      "id": "articles/2026/10:hollandada-php-guvenlik-acigi-alarmi-devlet-siteleri-kapatildi_20261021",
+      "slug": "hollandada-php-guvenlik-acigi-alarmi-devlet-siteleri-kapatildi_20261021",
+      "title": "Hollanda'da PHP Güvenlik Açığı Alarmı: Tüm Devlet Siteleri Kapatıldı",
+      "summary": "PHP yazılım dilinde tespit edilen iki kritik güvenlik açığı küresel çapta alarma neden olurken, Hollanda hükümeti Ulusal Siber Güvenlik Merkezi'nin (NCSC) uyarıları doğrultusunda tüm devlet sitelerini ve dijital vatandaşlık hizmetlerini geçici olarak çevrim...",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/10",
+      "date": "21.10.2026 22:35",
+      "date_iso": "2026-10-21",
+      "published_at": "2026-10-21T22:35:41+03:00",
+      "url": "/articles/2026/10/hollandada-php-guvenlik-acigi-alarmi-devlet-siteleri-kapatildi_20261021/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/hollandada-php-guvenlik-acigi-alarmi-devlet-siteleri-kapatildi_20261021/",
+      "detail_json_url": "/data/details/articles/2026/10/hollandada-php-guvenlik-acigi-alarmi-devlet-siteleri-kapatildi_20261021.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/hollandada-php-guvenlik-acigi-alarmi-devlet-siteleri-kapatildi_20261021.webp",
+      "image_alt": "PHP siber güvenlik açığı ve sunucu alarmı konsept görseli",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/10/images/hollandada-php-guvenlik-acigi-alarmi-devlet-siteleri-kapatildi_20261021.webp",
+        "alt": "PHP siber güvenlik açığı ve sunucu alarmı konsept görseli"
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/dunya/dunyada-php-alarmi-siber-guvenlik-acigi-harekete-gecirdi-hollanda-tum-devlet-sitelerini-kapatti-7684801",
+      "tags": [
+        "PHP",
+        "Siber Güvenlik",
+        "Hollanda",
+        "NCSC",
+        "Teknoloji Haberleri"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/10:openai-yapay-zeka-modelleri-guvenlik-uyarilarini-engelledi_20261021",
       "slug": "openai-yapay-zeka-modelleri-guvenlik-uyarilarini-engelledi_20261021",
