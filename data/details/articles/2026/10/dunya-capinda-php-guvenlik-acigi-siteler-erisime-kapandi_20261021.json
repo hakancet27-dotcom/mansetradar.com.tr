@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "articles/2026/10:dunya-capinda-php-guvenlik-acigi-siteler-erisime-kapandi_20261021",
+    "slug": "dunya-capinda-php-guvenlik-acigi-siteler-erisime-kapandi_20261021",
+    "title": "Dünya Çapında PHP Güvenlik Açığı Alarmı: Çok Sayıda Site Erişime Kapatıldı",
+    "summary": "Popüler programlama dili PHP'de tespit edilen kritik güvenlik açıklarının ardından, aralarında hükümet platformlarının da bulunduğu çok sayıda internet sitesi tedbir amaçlı çevrim dışı bırakıldı.",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "topic_slug": "teknoloji",
+    "topic_label": "Teknoloji",
+    "country": "Turkey",
+    "language": "tr",
+    "language_label": "Turkish",
+    "section": "articles",
+    "section_name": "Haberler",
+    "url_prefix": "articles/2026/10",
+    "date": "21.10.2026 23:01",
+    "date_iso": "2026-10-21",
+    "published_at": "2026-10-21T23:01:44+03:00",
+    "url": "/articles/2026/10/dunya-capinda-php-guvenlik-acigi-siteler-erisime-kapandi_20261021/",
+    "canonical_url": "https://mansetradar.com.tr/articles/2026/10/dunya-capinda-php-guvenlik-acigi-siteler-erisime-kapandi_20261021/",
+    "detail_json_url": "/data/details/articles/2026/10/dunya-capinda-php-guvenlik-acigi-siteler-erisime-kapandi_20261021.json",
+    "image_url": "https://mansetradar.com.tr/articles/2026/10/images/dunya-capinda-php-guvenlik-acigi-siteler-erisime-kapandi_20261021.webp",
+    "image_alt": "PHP güvenlik açığı ve siber güvenlik konsept görseli",
+    "image": {
+      "url": "https://mansetradar.com.tr/articles/2026/10/images/dunya-capinda-php-guvenlik-acigi-siteler-erisime-kapandi_20261021.webp",
+      "alt": "PHP güvenlik açığı ve siber güvenlik konsept görseli"
+    },
+    "source_name": "Anadolu Ajansı Güncel Haberler",
+    "source_url": "https://www.aa.com.tr/tr/bilim-teknoloji/dunya-capinda-php-kaynakli-guvenlik-aciginin-giderilmesi-icin-cok-sayida-internet-sitesi-erisime-kapatildi/4096454",
+    "tags": [
+      "PHP",
+      "siber güvenlik",
+      "FBI",
+      "Teknoloji",
+      "internet siteleri"
+    ],
+    "quality_score": 86,
+    "review_status": "published",
+    "content_html": "<h2>Önemli Gelişmeler</h2> <p>Dünya genelinde milyonlarca internet sitesinin altyapısını destekleyen PHP programlama dilinde tespit edilen ciddi güvenlik açıkları, küresel çapta geniş güvenlik önlemlerinin alınmasına yol açtı. Ağustos ayında Calif adlı güvenlik şirketinin yapay zeka yardımıyla tespit ettiği açıkların basına sızdırılmasının ardından, pek çok ülke ve uluslararası kurum art arda uyarılar yayımladı.</p> <p>ABD Federal Soruşturma Bürosu (FBI) ve ABD Ulusal Güvenlik Ajansı (NSA), PHP'de iki kritik güvenlik açığının bulunduğunu duyurdu. FBI'ın siber suçlar birimi, bu açıkların kötü niyetli kişilerin uzaktan kod çalıştırmasına olanak tanıyarak hassas verileri ve ağ güvenliğini tehlikeye atabileceğini belirtti. Güncelleme yapamayan kurum ve kişilere sitelerini geçici olarak çevrim dışı bırakmaları tavsiye edildi.</p> <p>Japonya, Danimarka, Norveç ve Finlandiya gibi ülkelerde de resmi kurumlar uyarılar yayımladı. Japonya Sağlık, Çalışma ve Refah Bakanlığı bakım hizmetleri bilgi paylaşım sitesini askıya alırken; Norveç'te Dijitalleşme Müdürlüğü ile eğitim ve araştırma sektöründe kullanılan Feide gibi kritik platformlar devre dışı bırakıldı.</p> <h2>Öne Çıkan Noktalar</h2> <ul> <li><strong>Kritik Güvenlik Açığı:</strong> Ağustos ayında yapay zeka yardımıyla keşfedilen PHP açıklarının dün basına sızmasıyla küresel alarm verildi.</li> <li><strong>Resmi Uyarılar:</strong> FBI ve NSA, açıkların uzaktan kod çalıştırma riski taşıdığı konusunda uyarıda bulunarak sitelerin çevrim dışı edilmesini önerdi.</li> <li><strong>Uluslararası Tedbirler:</strong> Japonya, Norveç, Danimarka ve Finlandiya'da resmi ve kurumsal birçok internet sitesi geçici olarak erişime kapatıldı.</li> </ul> <h2>Neden Önemli?</h2> <p>Dünyadaki internet sitelerinin yaklaşık yüzde 70'ini destekleyen PHP dilindeki bu denli büyük bir güvenlik açığı, siber saldırganların parola veya giriş işlemine gerek duymadan sistemlerin kontrolünü ele geçirmesine zemin hazırlayabiliyor. Bu durum, hassas devlet verilerinin, kurumsal ağların ve kritik altyapıların korunması adına acil çevrim dışı bırakma ve güncelleme tedbirlerinin alınmasını zorunlu kılıyor.</p>",
+    "meta_title": "PHP Güvenlik Açığı Nedeniyle Dünya Genelinde Siteler...",
+    "meta_description": "PHP'deki kritik güvenlik açıkları nedeniyle dünya çapında hükümet siteleri dahil çok sayıda internet sitesi tedbir amacıyla geçici olarak erişime kapatıldı.",
+    "spot": "Popüler programlama dili PHP'de tespit edilen kritik güvenlik açıklarının ardından, aralarında hükümet platformlarının da bulunduğu çok sayıda internet sitesi tedbir amaçlı çevrim dışı bırakıldı.",
+    "word_count": 253,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "PHP'deki kritik açık küresel alarm yarattı: Siteler kapatılıyor",
+      "FBI ve NSA'dan PHP uyarısı: İnternet siteleri çevrim dışı",
+      "Dünya genelinde PHP alarmı: Hükümet siteleri erişimi askıya aldı"
+    ],
+    "visual_keywords": [
+      "siber guvenlik",
+      "bilgisayar kodu",
+      "teknoloji haberleri",
+      "sunucu odasi"
+    ]
+  }
+}
