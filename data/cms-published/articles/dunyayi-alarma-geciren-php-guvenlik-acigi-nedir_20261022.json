@@ -1,0 +1,87 @@
+{
+  "title": "Dünyayı Alarm Geçiren PHP Güvenlik Açığı Nedir?",
+  "meta_title": "PHP'de Kritik Güvenlik Açığı: Siteler Kapatılıyor",
+  "meta_description": "Milyonlarca internet sitesini etkileyen PHP güvenlik açığı dünyayı alarma geçirdi. FBI ve AB yetkililerinden acil güncelleme ve kapatma uyarısı geldi.",
+  "discover_titles": [
+    "Milyonlarca Siteyi Tehdit Eden PHP Açığı Dünyayı Alarma Geçirdi",
+    "Yazılım Tarihinin En Ciddi Açığı: Sitelere Kapatma Uyarısı",
+    "PHP Güvenlik Açığı Nedir? FBI ve AB'den Kritik Uyarı"
+  ],
+  "slug": "dunyayi-alarma-geciren-php-guvenlik-acigi-nedir_20261022",
+  "category": "Teknoloji",
+  "spot": "Dünya genelinde milyonlarca internet sitesinin altyapısını oluşturan PHP programlama dilinde tespit edilen iki kritik güvenlik açığı, pek çok ülkede sitelerin geçici olarak kapatılmasına yol açtı. FBI ve AB siber güvenlik yetkilileri acil güncelleme çağrısı yaparken, uzmanlar durumu en yüksek alarm seviyesi olan DEFCON 1 olarak değerlendiriyor.",
+  "content_html": "<h2>Önemli Gelişmeler</h2> <p>Dünya genelinde milyonlarca internet sitesinin arkasında yer alan programlama dili PHP'de tespit edilen iki kritik güvenlik açığı, pek çok ülkede internet sitelerinin geçici olarak kapatılmasına ve küresel düzeyde alarm verilmesine neden oldu. PHP geliştiricileri çarşamba günü yaptıkları açıklamada, söz konusu kritik güvenlik açıklarını gidermek üzere güvenlik güncellemeleri yayımlayacaklarını duyurdu.</p> <p>Avrupa Birliği'nin siber güvenlik yetkilileri ve CERT-EU, gerekli güncellemeleri derhal uygulayamayan kuruluşları etkilenen internet sitelerini geçici olarak kapatmaları konusunda uyardı. Benzer şekilde, ABD Federal Soruşturma Bürosu'nun (FBI) siber güvenlikten sorumlu birimi de hemen güncelleme yapılamaması durumunda bu yazılımı kullananların web sitelerini çevrimdışı hale getirmesini tavsiye etti.</p> <p>Google'ın çatı şirketi Alphabet bünyesindeki siber güvenlik şirketi Wiz, bulguların PHP'de şimdiye kadar keşfedilen en ciddi güvenlik açıkları arasında yer aldığını ve yazılım tarihindeki en ciddi açıklar olarak değerlendirilebileceğini belirtti. Wiz araştırmacısı Tomer Schwartz durumu, ABD ordusunun kullandığı en yüksek alarm seviyesi olan DEFCON 1 seviyesine benzetti.</p> <h2>Öne Çıkan Noktalar</h2> <ul> <li><strong>Kritik Skor:</strong> Tespit edilen iki güvenlik açığı, CVSS v4.0 metriğinde 10 üzerinden 9,2 puan aldı.</li> <li><strong>Yetki Gereksinimi:</strong> Açıklar, kimlik doğrulaması gerektirmeyen uzaktan kod çalıştırma riskine işaret ediyor.</li> <li><strong>Yaygın Kullanım:</strong> W3Techs verilerine göre PHP, kullanılan dili tespit edilebilen internet sitelerinin yaklaşık yüzde 70'inde yer alıyor.</li> </ul> <h2>Neden Önemli?</h2> <p>PHP, internet sitelerinin arka planda çalışmasını sağlayan ücretsiz ve açık kaynak kodlu temel bir programlama dilidir. Kişisel bloglardan küçük işletme sitelerine, kamu portallarından e-ticaret platformlarına ve haber sitelerine kadar geniş bir yelpazede kullanılmaktadır. Uzmanların tespitiyle yazılım tarihinin en ciddi açıklarından biri olarak değerlendirilen bu durum, web ekosisteminin güvenliği açısından büyük bir küresel risk oluşturmaktadır.</p>",
+  "key_takeaways": [
+    "Dünya genelinde milyonlarca internet sitesinin altyapısını oluşturan PHP programlama dilinde tespit edilen iki kritik güvenlik...",
+    "FBI ve AB siber güvenlik yetkilileri acil güncelleme çağrısı yaparken, uzmanlar durumu en yüksek alarm seviyesi olan DEFCON 1..."
+  ],
+  "tags": [
+    "PHP",
+    "Siber Güvenlik",
+    "FBI",
+    "Teknoloji Haberleri",
+    "Wiz"
+  ],
+  "visual_keywords": [
+    "cyber security alert",
+    "coding screen server",
+    "hacker warning lock",
+    "technology digital threat"
+  ],
+  "image_prompt": "A professional digital cybersecurity concept showing server error codes and high-level warning alert on a dark blue background, symbolizing critical software vulnerability.",
+  "image_alt": "PHP Güvenlik Açığı ve Siber Güvenlik Uyarısı",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 3,
+  "word_count": 303,
+  "date": "22.10.2026 12:39",
+  "date_iso": "2026-10-22T12:39:00+03:00",
+  "published_at": "2026-10-22T12:39:00+03:00",
+  "flag": "TR",
+  "country": "Turkey",
+  "display_country": "Türkiye",
+  "image_url": "https://mansetradar.com.tr/articles/2026/10/images/dunyayi-alarma-geciren-php-guvenlik-acigi-nedir_20261022.webp",
+  "real_image_required": true,
+  "real_image_status": "approved_real_image",
+  "image_kind": "licensed_real_photo",
+  "image_license_status": "source_provided",
+  "image_license_note": "RSS source image: HABERTURK.COM",
+  "image_source_url": "https://www.haberturk.com/ekonomi/dunyayi-alarma-geciren-php2shell-acigi-nedir-ve-ne-kadar-kritik-3921654",
+  "image_provider": "rss",
+  "image_score": 78,
+  "image_query": "Dünyayı alarma geçiren 'PHP2Shell' açığı nedir?",
+  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
+  "summary": "Dünya genelinde milyonlarca internet sitesinin altyapısını oluşturan PHP programlama dilinde tespit edilen iki kritik güvenlik açığı, pek çok ülkede sitelerin geçici olarak kapatılmasına yol açtı. FBI ve AB siber güvenlik yetkilileri acil güncelleme çağrısı yaparken, uzmanlar durumu en yüksek alarm seviyesi olan DEFCON 1 olarak değerlendiriyor.",
+  "language": "Turkish",
+  "url_prefix": "articles/2026/10",
+  "source_language": "Turkish",
+  "target_language": "Turkish",
+  "source_name": "HABERTURK.COM",
+  "source_url": "https://www.haberturk.com/ekonomi/dunyayi-alarma-geciren-php2shell-acigi-nedir-ve-ne-kadar-kritik-3921654",
+  "source_published_at": "2026-10-22T09:23:07+00:00",
+  "source_fact_score": 11,
+  "source_fact_word_count": 310,
+  "quality_score": 86,
+  "quality_status": "published",
+  "review_required": false,
+  "quality_flags": [
+    "short_article"
+  ],
+  "quality_notes": [
+    "Metin hedefin altinda (303 kelime)."
+  ],
+  "quality_word_count": 303,
+  "indexed_on_home": true,
+  "image_identity_url": "https://im.haberturk.com/l/2026/10/22/ver1792658619/3921654/jpg/200x113",
+  "original_image_url": "https://im.haberturk.com/l/2026/10/22/ver1792658619/3921654/jpg/200x113",
+  "image_local_webp": "articles/2026/10/images/dunyayi-alarma-geciren-php-guvenlik-acigi-nedir_20261022.webp",
+  "image_credit": "haberturk.com",
+  "image_credit_url": "https://www.haberturk.com/ekonomi/dunyayi-alarma-geciren-php2shell-acigi-nedir-ve-ne-kadar-kritik-3921654",
+  "image_finalized_at": "2026-10-22T09:39:36.027499Z",
+  "time": "09:23",
+  "public_url": "/articles/2026/10/dunyayi-alarma-geciren-php-guvenlik-acigi-nedir_20261022/",
+  "source_json_path": "articles/2026/10/dunyayi-alarma-geciren-php-guvenlik-acigi-nedir_20261022.json",
+  "cms_generated_from_monthly_source": true
+}

@@ -1,0 +1,86 @@
+{
+  "title": "Dünyada internette PHP depremi! Türkiye'den e-Devlet açıklaması ve son durum",
+  "meta_title": "PHP Güvenlik Açığı Krizi Dünyayı Sarstı: Son Durum ve...",
+  "meta_description": "PHP'de tespit edilen kritik güvenlik açıkları dünya genelinde siber krize yol açtı. e-Devlet ve ülke genelindeki önlemler, detaylar haberimizde.",
+  "discover_titles": [
+    "Dünyayı sarsan PHP krizinde son durum: Resmi siteler kapatıldı",
+    "İnternet altyapısında PHP alarmı: Kritik açıklar ne anlama geliyor?",
+    "PHP2Shell güvenlik açığı sonrası ulusal çapta taramalar başladı"
+  ],
+  "slug": "dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022",
+  "category": "Teknoloji",
+  "spot": "Milyonlarca internet sitesinin altyapısını oluşturan PHP programlama dilinde tespit edilen iki kritik güvenlik açığı, küresel çapta büyük bir siber krize neden oldu. PHP2Shell olarak adlandırılan açıklar sebebiyle birçok ülkede kamu siteleri kapatılırken, Türkiye'de de güvenlik önlemleri ve taramalar üst seviyeye çıkarıldı.",
+  "content_html": "<h2>Önemli Gelişmeler</h2> <p>Dünya genelinde pek çok internet sitesinin altyapısında kullanılan PHP dilinde ortaya çıkan iki kritik güvenlik açığı, küresel bir krizin patlak vermesine yol açtı. Saldırganların sunucular üzerinde uzaktan kod çalıştırmasına olanak tanıyan PHP2Shell açıkları için güvenlik güncellemeleri yayınlanmış olsa da, kriz etkisini sürdürmeye devam ediyor. PHP ekibi, yayınlanan güncellemeler haricinde tam koruma sağlayan herhangi bir geçici çözümün bulunmadığını duyurdu. Bu gelişme üzerine ülkemizin de aralarında bulunduğu pek çok ülke ulusal çapta güvenlik taramaları başlattı. Bazı Avrupa ülkelerinde ise önlem amacıyla kamuya açık internet sitelerine geçici olarak erişim kapatıldı.</p> <p>Yaşanan alarm durumunun merkezinde, CVE-2026-109618 ve CVE-2026-109619 kodlarıyla takip edilen iki kritik açık yer alıyor. CVSS v4.0 değerlendirmesinde 10 üzerinden 9.2 puan alan bu açıklar, belirli koşullar altında saldırganların herhangi bir kullanıcı adı ve şifreye ihtiyaç duymadan sunucularda kod çalıştırmasına zemin hazırlayabiliyor. Sorunun doğrudan PHP'nin çalışma ortamından kaynaklanması, yalnızca tek bir siteyi değil, savunmasız PHP sürümlerini kullanan tüm web sitelerini, WordPress, Drupal, Joomla gibi içerik yönetim sistemlerini, çevrim içi mağazaları ve kurumsal uygulamaları ciddi bir risk altına sokuyor.</p> <h2>Öne Çıkan Noktalar</h2> <ul> <li>PHP'de tespit edilen CVE-2026-109618 ve CVE-2026-109619 kodlu kritik açıklar, CVSS v4.0 sisteminden 9.2 puan aldı.</li> <li>Saldırganların kimlik doğrulama gerektirmeden sunucularda uzaktan kod çalıştırmasına imkan tanıyan PHP2Shell açıkları küresel kriz yarattı.</li> <li>Güncelleme dışında tam koruma sağlayan bir geçici çözüm bulunmazken, Avrupa'da bazı kamu siteleri önlem amaçlı kapatıldı ve Türkiye'de taramalar başlatıldı.</li> </ul> <h2>Neden Önemli?</h2> <p>İnternet sitelerinin dinamik ve etkileşimli çalışmasını sağlayan en temel programlama dillerinden biri olan PHP, dünya çapında geniş bir kullanım alanına sahip. WordPress, e-ticaret siteleri, kurumsal uygulamalar ve veritabanı iletişimi kuran pek çok sistem bu altyapıyı kullanıyor. Açıkların doğrudan PHP çalışma ortamını hedeflemesi ve kimlik doğrulama olmaksızın uzaktan kod çalıştırma riski taşıması, milyonlarca web sitesini ve kullanıcı verilerini hedef haline getiriyor. Bu nedenle uluslararası düzeyde alınan önlemler ve siber güvenlik taramaları hayati önem taşıyor.</p>",
+  "key_takeaways": [
+    "Milyonlarca internet sitesinin altyapısını oluşturan PHP programlama dilinde tespit edilen iki kritik güvenlik açığı, küresel...",
+    "PHP2Shell olarak adlandırılan açıklar sebebiyle birçok ülkede kamu siteleri kapatılırken, Türkiye'de de güvenlik önlemleri ve..."
+  ],
+  "tags": [
+    "PHP",
+    "Siber Güvenlik",
+    "Teknoloji Haberleri",
+    "e-Devlet",
+    "PHP2Shell"
+  ],
+  "visual_keywords": [
+    "cyber security server room",
+    "php programming code on screen",
+    "internet security warning digital background"
+  ],
+  "image_prompt": "A high-tech digital security warning background representing a global internet crisis, glowing server racks and abstract code lines on screens, professional news photography style.",
+  "image_alt": "Dünyayı sarsan PHP güvenlik açığı krizi ve sunucu güvenliği",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 3,
+  "word_count": 354,
+  "date": "22.10.2026 12:39",
+  "date_iso": "2026-10-22T12:39:12+03:00",
+  "published_at": "2026-10-22T12:39:12+03:00",
+  "flag": "TR",
+  "country": "Turkey",
+  "display_country": "Türkiye",
+  "image_url": "https://mansetradar.com.tr/articles/2026/10/images/dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022.webp",
+  "real_image_required": true,
+  "real_image_status": "approved_real_image",
+  "image_kind": "licensed_real_photo",
+  "image_license_status": "source_provided",
+  "image_license_note": "RSS source image: Milliyet",
+  "image_source_url": "https://www.milliyet.com.tr/teknoloji/son-dakika-dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi-iste-ulke-ulke-son-durum-7684975",
+  "image_provider": "rss",
+  "image_score": 90,
+  "image_query": "Dünyada internette PHP depremi! Türkiye'den e-Devlet açıklaması... İşte ülke ülk",
+  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
+  "summary": "Milyonlarca internet sitesinin altyapısını oluşturan PHP programlama dilinde tespit edilen iki kritik güvenlik açığı, küresel çapta büyük bir siber krize neden oldu. PHP2Shell olarak adlandırılan açıklar sebebiyle birçok ülkede kamu siteleri kapatılırken, Türkiye'de de güvenlik önlemleri ve taramalar üst seviyeye çıkarıldı.",
+  "language": "Turkish",
+  "url_prefix": "articles/2026/10",
+  "source_language": "Turkish",
+  "target_language": "Turkish",
+  "source_name": "Milliyet",
+  "source_url": "https://www.milliyet.com.tr/teknoloji/son-dakika-dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi-iste-ulke-ulke-son-durum-7684975",
+  "source_published_at": "2026-10-22T09:12:16+00:00",
+  "source_fact_score": 11,
+  "source_fact_word_count": 306,
+  "quality_score": 86,
+  "quality_status": "published",
+  "review_required": false,
+  "quality_flags": [
+    "short_article"
+  ],
+  "quality_notes": [
+    "Metin hedefin altinda (354 kelime)."
+  ],
+  "quality_word_count": 354,
+  "indexed_on_home": true,
+  "image_identity_url": "https://image.milimaj.com/i/milliyet/75/460x340/6a91433ac94edb5656ee92a2.jpg",
+  "original_image_url": "https://image.milimaj.com/i/milliyet/75/460x340/6a91433ac94edb5656ee92a2.jpg",
+  "image_local_webp": "articles/2026/10/images/dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022.webp",
+  "image_credit": "milliyet.com.tr",
+  "image_credit_url": "https://www.milliyet.com.tr/teknoloji/son-dakika-dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi-iste-ulke-ulke-son-durum-7684975",
+  "image_finalized_at": "2026-10-22T09:39:35.907955Z",
+  "time": "09:12",
+  "public_url": "/articles/2026/10/dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022/",
+  "source_json_path": "articles/2026/10/dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022.json",
+  "cms_generated_from_monthly_source": true
+}

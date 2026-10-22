@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "articles/2026/10:dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022",
+    "slug": "dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022",
+    "title": "Dünyada internette PHP depremi! Türkiye'den e-Devlet açıklaması ve son durum",
+    "summary": "Milyonlarca internet sitesinin altyapısını oluşturan PHP programlama dilinde tespit edilen iki kritik güvenlik açığı, küresel çapta büyük bir siber krize neden oldu. PHP2Shell olarak adlandırılan açıklar sebebiyle birçok ülkede kamu siteleri kapatılırken, T...",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "topic_slug": "teknoloji",
+    "topic_label": "Teknoloji",
+    "country": "Turkey",
+    "language": "tr",
+    "language_label": "Turkish",
+    "section": "articles",
+    "section_name": "Haberler",
+    "url_prefix": "articles/2026/10",
+    "date": "22.10.2026 12:39",
+    "date_iso": "2026-10-22",
+    "published_at": "2026-10-22T12:39:12+03:00",
+    "url": "/articles/2026/10/dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022/",
+    "canonical_url": "https://mansetradar.com.tr/articles/2026/10/dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022/",
+    "detail_json_url": "/data/details/articles/2026/10/dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022.json",
+    "image_url": "https://mansetradar.com.tr/articles/2026/10/images/dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022.webp",
+    "image_alt": "Dünyayı sarsan PHP güvenlik açığı krizi ve sunucu güvenliği",
+    "image": {
+      "url": "https://mansetradar.com.tr/articles/2026/10/images/dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022.webp",
+      "alt": "Dünyayı sarsan PHP güvenlik açığı krizi ve sunucu güvenliği"
+    },
+    "source_name": "Milliyet",
+    "source_url": "https://www.milliyet.com.tr/teknoloji/son-dakika-dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi-iste-ulke-ulke-son-durum-7684975",
+    "tags": [
+      "PHP",
+      "Siber Güvenlik",
+      "Teknoloji Haberleri",
+      "e-Devlet",
+      "PHP2Shell"
+    ],
+    "quality_score": 86,
+    "review_status": "published",
+    "content_html": "<h2>Önemli Gelişmeler</h2> <p>Dünya genelinde pek çok internet sitesinin altyapısında kullanılan PHP dilinde ortaya çıkan iki kritik güvenlik açığı, küresel bir krizin patlak vermesine yol açtı. Saldırganların sunucular üzerinde uzaktan kod çalıştırmasına olanak tanıyan PHP2Shell açıkları için güvenlik güncellemeleri yayınlanmış olsa da, kriz etkisini sürdürmeye devam ediyor. PHP ekibi, yayınlanan güncellemeler haricinde tam koruma sağlayan herhangi bir geçici çözümün bulunmadığını duyurdu. Bu gelişme üzerine ülkemizin de aralarında bulunduğu pek çok ülke ulusal çapta güvenlik taramaları başlattı. Bazı Avrupa ülkelerinde ise önlem amacıyla kamuya açık internet sitelerine geçici olarak erişim kapatıldı.</p> <p>Yaşanan alarm durumunun merkezinde, CVE-2026-109618 ve CVE-2026-109619 kodlarıyla takip edilen iki kritik açık yer alıyor. CVSS v4.0 değerlendirmesinde 10 üzerinden 9.2 puan alan bu açıklar, belirli koşullar altında saldırganların herhangi bir kullanıcı adı ve şifreye ihtiyaç duymadan sunucularda kod çalıştırmasına zemin hazırlayabiliyor. Sorunun doğrudan PHP'nin çalışma ortamından kaynaklanması, yalnızca tek bir siteyi değil, savunmasız PHP sürümlerini kullanan tüm web sitelerini, WordPress, Drupal, Joomla gibi içerik yönetim sistemlerini, çevrim içi mağazaları ve kurumsal uygulamaları ciddi bir risk altına sokuyor.</p> <h2>Öne Çıkan Noktalar</h2> <ul> <li>PHP'de tespit edilen CVE-2026-109618 ve CVE-2026-109619 kodlu kritik açıklar, CVSS v4.0 sisteminden 9.2 puan aldı.</li> <li>Saldırganların kimlik doğrulama gerektirmeden sunucularda uzaktan kod çalıştırmasına imkan tanıyan PHP2Shell açıkları küresel kriz yarattı.</li> <li>Güncelleme dışında tam koruma sağlayan bir geçici çözüm bulunmazken, Avrupa'da bazı kamu siteleri önlem amaçlı kapatıldı ve Türkiye'de taramalar başlatıldı.</li> </ul> <h2>Neden Önemli?</h2> <p>İnternet sitelerinin dinamik ve etkileşimli çalışmasını sağlayan en temel programlama dillerinden biri olan PHP, dünya çapında geniş bir kullanım alanına sahip. WordPress, e-ticaret siteleri, kurumsal uygulamalar ve veritabanı iletişimi kuran pek çok sistem bu altyapıyı kullanıyor. Açıkların doğrudan PHP çalışma ortamını hedeflemesi ve kimlik doğrulama olmaksızın uzaktan kod çalıştırma riski taşıması, milyonlarca web sitesini ve kullanıcı verilerini hedef haline getiriyor. Bu nedenle uluslararası düzeyde alınan önlemler ve siber güvenlik taramaları hayati önem taşıyor.</p>",
+    "meta_title": "PHP Güvenlik Açığı Krizi Dünyayı Sarstı: Son Durum ve...",
+    "meta_description": "PHP'de tespit edilen kritik güvenlik açıkları dünya genelinde siber krize yol açtı. e-Devlet ve ülke genelindeki önlemler, detaylar haberimizde.",
+    "spot": "Milyonlarca internet sitesinin altyapısını oluşturan PHP programlama dilinde tespit edilen iki kritik güvenlik açığı, küresel çapta büyük bir siber krize neden oldu. PHP2Shell olarak adlandırılan açıklar sebebiyle birçok ülkede kamu siteleri kapatılırken, Türkiye'de de güvenlik önlemleri ve taramalar üst seviyeye çıkarıldı.",
+    "word_count": 299,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "Dünyayı sarsan PHP krizinde son durum: Resmi siteler kapatıldı",
+      "İnternet altyapısında PHP alarmı: Kritik açıklar ne anlama geliyor?",
+      "PHP2Shell güvenlik açığı sonrası ulusal çapta taramalar başladı"
+    ],
+    "visual_keywords": [
+      "cyber security server room",
+      "php programming code on screen",
+      "internet security warning digital background"
+    ]
+  }
+}

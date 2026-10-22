@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "articles/2026/10:dunyayi-alarma-geciren-php-guvenlik-acigi-nedir_20261022",
+    "slug": "dunyayi-alarma-geciren-php-guvenlik-acigi-nedir_20261022",
+    "title": "Dünyayı Alarm Geçiren PHP Güvenlik Açığı Nedir?",
+    "summary": "Dünya genelinde milyonlarca internet sitesinin altyapısını oluşturan PHP programlama dilinde tespit edilen iki kritik güvenlik açığı, pek çok ülkede sitelerin geçici olarak kapatılmasına yol açtı. FBI ve AB siber güvenlik yetkilileri acil güncelleme çağrısı...",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "topic_slug": "teknoloji",
+    "topic_label": "Teknoloji",
+    "country": "Turkey",
+    "language": "tr",
+    "language_label": "Turkish",
+    "section": "articles",
+    "section_name": "Haberler",
+    "url_prefix": "articles/2026/10",
+    "date": "22.10.2026 12:39",
+    "date_iso": "2026-10-22",
+    "published_at": "2026-10-22T12:39:00+03:00",
+    "url": "/articles/2026/10/dunyayi-alarma-geciren-php-guvenlik-acigi-nedir_20261022/",
+    "canonical_url": "https://mansetradar.com.tr/articles/2026/10/dunyayi-alarma-geciren-php-guvenlik-acigi-nedir_20261022/",
+    "detail_json_url": "/data/details/articles/2026/10/dunyayi-alarma-geciren-php-guvenlik-acigi-nedir_20261022.json",
+    "image_url": "https://mansetradar.com.tr/articles/2026/10/images/dunyayi-alarma-geciren-php-guvenlik-acigi-nedir_20261022.webp",
+    "image_alt": "PHP Güvenlik Açığı ve Siber Güvenlik Uyarısı",
+    "image": {
+      "url": "https://mansetradar.com.tr/articles/2026/10/images/dunyayi-alarma-geciren-php-guvenlik-acigi-nedir_20261022.webp",
+      "alt": "PHP Güvenlik Açığı ve Siber Güvenlik Uyarısı"
+    },
+    "source_name": "HABERTURK.COM",
+    "source_url": "https://www.haberturk.com/ekonomi/dunyayi-alarma-geciren-php2shell-acigi-nedir-ve-ne-kadar-kritik-3921654",
+    "tags": [
+      "PHP",
+      "Siber Güvenlik",
+      "FBI",
+      "Teknoloji Haberleri",
+      "Wiz"
+    ],
+    "quality_score": 86,
+    "review_status": "published",
+    "content_html": "<h2>Önemli Gelişmeler</h2> <p>Dünya genelinde milyonlarca internet sitesinin arkasında yer alan programlama dili PHP'de tespit edilen iki kritik güvenlik açığı, pek çok ülkede internet sitelerinin geçici olarak kapatılmasına ve küresel düzeyde alarm verilmesine neden oldu. PHP geliştiricileri çarşamba günü yaptıkları açıklamada, söz konusu kritik güvenlik açıklarını gidermek üzere güvenlik güncellemeleri yayımlayacaklarını duyurdu.</p> <p>Avrupa Birliği'nin siber güvenlik yetkilileri ve CERT-EU, gerekli güncellemeleri derhal uygulayamayan kuruluşları etkilenen internet sitelerini geçici olarak kapatmaları konusunda uyardı. Benzer şekilde, ABD Federal Soruşturma Bürosu'nun (FBI) siber güvenlikten sorumlu birimi de hemen güncelleme yapılamaması durumunda bu yazılımı kullananların web sitelerini çevrimdışı hale getirmesini tavsiye etti.</p> <p>Google'ın çatı şirketi Alphabet bünyesindeki siber güvenlik şirketi Wiz, bulguların PHP'de şimdiye kadar keşfedilen en ciddi güvenlik açıkları arasında yer aldığını ve yazılım tarihindeki en ciddi açıklar olarak değerlendirilebileceğini belirtti. Wiz araştırmacısı Tomer Schwartz durumu, ABD ordusunun kullandığı en yüksek alarm seviyesi olan DEFCON 1 seviyesine benzetti.</p> <h2>Öne Çıkan Noktalar</h2> <ul> <li><strong>Kritik Skor:</strong> Tespit edilen iki güvenlik açığı, CVSS v4.0 metriğinde 10 üzerinden 9,2 puan aldı.</li> <li><strong>Yetki Gereksinimi:</strong> Açıklar, kimlik doğrulaması gerektirmeyen uzaktan kod çalıştırma riskine işaret ediyor.</li> <li><strong>Yaygın Kullanım:</strong> W3Techs verilerine göre PHP, kullanılan dili tespit edilebilen internet sitelerinin yaklaşık yüzde 70'inde yer alıyor.</li> </ul> <h2>Neden Önemli?</h2> <p>PHP, internet sitelerinin arka planda çalışmasını sağlayan ücretsiz ve açık kaynak kodlu temel bir programlama dilidir. Kişisel bloglardan küçük işletme sitelerine, kamu portallarından e-ticaret platformlarına ve haber sitelerine kadar geniş bir yelpazede kullanılmaktadır. Uzmanların tespitiyle yazılım tarihinin en ciddi açıklarından biri olarak değerlendirilen bu durum, web ekosisteminin güvenliği açısından büyük bir küresel risk oluşturmaktadır.</p>",
+    "meta_title": "PHP'de Kritik Güvenlik Açığı: Siteler Kapatılıyor",
+    "meta_description": "Milyonlarca internet sitesini etkileyen PHP güvenlik açığı dünyayı alarma geçirdi. FBI ve AB yetkililerinden acil güncelleme ve kapatma uyarısı geldi.",
+    "spot": "Dünya genelinde milyonlarca internet sitesinin altyapısını oluşturan PHP programlama dilinde tespit edilen iki kritik güvenlik açığı, pek çok ülkede sitelerin geçici olarak kapatılmasına yol açtı. FBI ve AB siber güvenlik yetkilileri acil güncelleme çağrısı yaparken, uzmanlar durumu en yüksek alarm seviyesi olan DEFCON 1 olarak değerlendiriyor.",
+    "word_count": 249,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "Milyonlarca Siteyi Tehdit Eden PHP Açığı Dünyayı Alarma Geçirdi",
+      "Yazılım Tarihinin En Ciddi Açığı: Sitelere Kapatma Uyarısı",
+      "PHP Güvenlik Açığı Nedir? FBI ve AB'den Kritik Uyarı"
+    ],
+    "visual_keywords": [
+      "cyber security alert",
+      "coding screen server",
+      "hacker warning lock",
+      "technology digital threat"
+    ]
+  }
+}

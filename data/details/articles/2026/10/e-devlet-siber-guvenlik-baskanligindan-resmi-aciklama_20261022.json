@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "articles/2026/10:e-devlet-siber-guvenlik-baskanligindan-resmi-aciklama_20261022",
+    "slug": "e-devlet-siber-guvenlik-baskanligindan-resmi-aciklama_20261022",
+    "title": "Siber Güvenlik Başkanlığı'ndan e-Devlet ve PHP Açığı Açıklaması",
+    "summary": "Cumhurbaşkanlığı Siber Güvenlik Başkanlığı, PHP yazılımındaki kritik açıklar sonrasında e-Devlet Kapısı'nda tüm güvenlik kontrollerinin tamamlandığını, sistemde herhangi bir sorun bulunmadığını açıkladı ve resmi ile özel kurumlara güncelleme çağrısı yaptı.",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "topic_slug": "teknoloji",
+    "topic_label": "Teknoloji",
+    "country": "Turkey",
+    "language": "tr",
+    "language_label": "Turkish",
+    "section": "articles",
+    "section_name": "Haberler",
+    "url_prefix": "articles/2026/10",
+    "date": "22.10.2026 12:39",
+    "date_iso": "2026-10-22",
+    "published_at": "2026-10-22T12:39:35+03:00",
+    "url": "/articles/2026/10/e-devlet-siber-guvenlik-baskanligindan-resmi-aciklama_20261022/",
+    "canonical_url": "https://mansetradar.com.tr/articles/2026/10/e-devlet-siber-guvenlik-baskanligindan-resmi-aciklama_20261022/",
+    "detail_json_url": "/data/details/articles/2026/10/e-devlet-siber-guvenlik-baskanligindan-resmi-aciklama_20261022.json",
+    "image_url": "https://mansetradar.com.tr/articles/2026/10/images/e-devlet-siber-guvenlik-baskanligindan-resmi-aciklama_20261022.webp",
+    "image_alt": "Siber Güvenlik Başkanlığı ve e-Devlet dijital altyapı güvenlik görseli",
+    "image": {
+      "url": "https://mansetradar.com.tr/articles/2026/10/images/e-devlet-siber-guvenlik-baskanligindan-resmi-aciklama_20261022.webp",
+      "alt": "Siber Güvenlik Başkanlığı ve e-Devlet dijital altyapı güvenlik görseli"
+    },
+    "source_name": "Milliyet",
+    "source_url": "https://www.milliyet.com.tr/teknoloji/e-devlette-sorun-yok-siber-guvenlik-baskanligindan-resmi-ve-ozel-kurumlara-cagri-7685244",
+    "tags": [
+      "e-Devlet",
+      "Siber Güvenlik Başkanlığı",
+      "PHP güvenlik açığı",
+      "teknoloji haberleri",
+      "siber güvenlik"
+    ],
+    "quality_score": 86,
+    "review_status": "published",
+    "content_html": "<h2>Önemli Gelişmeler</h2> <p>Cumhurbaşkanlığı Siber Güvenlik Başkanlığı, dünya genelinde yaygın olarak kullanılan PHP yazılımında tespit edilen kritik güvenlik açıklarına ilişkin kapsamlı bir açıklama yayımladı. Açıklamada, 69 milyonu aşkın vatandaşa hizmet veren e-Devlet Kapısı'nda gerekli tüm güvenlik kontrollerinin eksiksiz bir şekilde tamamlandığı ve hizmetlerin güvenliğini olumsuz etkileyen herhangi bir aksaklığın bulunmadığı vurgulandı.</p> <p>Başkanlık, e-Devlet altyapısının kişisel verileri korumak amacıyla çok katmanlı güvenlik tedbirleriyle korunduğunu belirtti. Bilgilerin tek bir merkezde toplanmak yerine ilgili kamu kurumlarının sistemleriyle kurulan güvenli bağlantılar üzerinden sunulduğu, sistemlerin 7 gün 24 saat kesintisiz izlendiği ifade edildi. Öte yandan, PHP yazılımında \"PHP2Shell\" olarak adlandırılan kritik açıklar nedeniyle ulusal ölçekte taramaların başlatıldığı ve ilgili kurum ile Siber Olaylara Müdahale Ekipleriyle (SOME) koordinasyonun sürdürüldüğü kaydedildi.</p> <h2>Öne Çıkan Noktalar</h2> <ul> <li><strong>e-Devlet Güvenli:</strong> 69 milyonu aşkın kullanıcısı bulunan e-Devlet Kapısı'nda PHP açıklarına yönelik kontroller tamamlandı; herhangi bir güvenlik sorunu tespit edilmedi.</li> <li><strong>Kurumlara Çağrı:</strong> Kamu kurumları ve özel sektör kuruluşlarının PHP altyapılarını acilen kontrol etmeleri, güncellemeleri uygulamaları ve güvenli sürümlere geçmeleri istendi.</li> <li><strong>Kesintisiz İzleme:</strong> Başkanlık ve ilgili ekipler ulusal ölçekte güvenlik taramalarını, teknik takipleri ve çok katmanlı koruma tedbirlerini 7/24 sürdürüyor.</li> </ul> <h2>Neden Önemli?</h2> <p>Küresel ölçekte yazılım altyapılarını tehdit eden güvenlik açıklarına karşı proaktif bir yaklaşım sergileyen Siber Güvenlik Başkanlığı'nın bu hamlesi, ulusal siber savunmanın korunması açısından büyük önem taşıyor. Milyonlarca vatandaşın kişisel verilerini barındıran ve kamu hizmetlerinin dijital omurgasını oluşturan e-Devlet Kapısı'nda sorun bulunmadığının teyit edilmesi kamu düzeni ve güveni adına kritik bir güvence sağlarken, özel ve resmi kurumlara yapılan acil güncelleme çağrısı olası siber sızıntıların önüne geçilmesinde kritik rol oynuyor.</p>",
+    "meta_title": "e-Devlet'te Güvenlik Açığı Var mı? Başkanlıktan Resmi...",
+    "meta_description": "Cumhurbaşkanlığı Siber Güvenlik Başkanlığı, e-Devlet'te güvenlik kontrollerinin tamamlandığını ve sorun olmadığını duyurarak kurumlara güncelleme çağrısı yaptı.",
+    "spot": "Cumhurbaşkanlığı Siber Güvenlik Başkanlığı, PHP yazılımındaki kritik açıklar sonrasında e-Devlet Kapısı'nda tüm güvenlik kontrollerinin tamamlandığını, sistemde herhangi bir sorun bulunmadığını açıkladı ve resmi ile özel kurumlara güncelleme çağrısı yaptı.",
+    "word_count": 246,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "Siber Güvenlik Başkanlığı'ndan e-Devlet açıklaması: Sorun yok",
+      "PHP yazılımındaki açıklar sonrası kurumlara acil güvenlik çağrısı",
+      "e-Devlet'te PHP güvenlik kontrolleri tamamlandı: 69 milyon kullanıcı güvende"
+    ],
+    "visual_keywords": [
+      "e-devlet kapisi logosu",
+      "siber guvenlik merkezi",
+      "bilgisayar ekraninda kodlar",
+      "siber guvenlik teknolojisi"
+    ]
+  }
+}
