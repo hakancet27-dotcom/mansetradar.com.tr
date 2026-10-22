@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "nachrichten/artikel/2026/10:weltweite-internet-probleme-php-sicherheitsluecke_20261022",
+    "slug": "weltweite-internet-probleme-php-sicherheitsluecke_20261022",
+    "title": "Weltweite Internet-Probleme: Millionen Angriffe nach kritischer PHP-Sicherheitslücke",
+    "summary": "Wegen einer neu entdeckten und hochkritischen Sicherheitslücke in der weit verbreiteten Programmiersprache PHP kommt es weltweit zu massiven Internet-Problemen. Experten und Behörden verzeichnen bereits Millionen von Hackerangriffen und fordern Betreiber vo...",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "topic_slug": "teknoloji",
+    "topic_label": "Teknoloji",
+    "country": "Germany",
+    "language": "de",
+    "language_label": "German",
+    "section": "nachrichten/artikel",
+    "section_name": "Deutschland Nachrichten",
+    "url_prefix": "nachrichten/artikel/2026/10",
+    "date": "22.10.2026 15:29",
+    "date_iso": "2026-10-22",
+    "published_at": "2026-10-22T15:29:00+03:00",
+    "url": "/nachrichten/artikel/2026/10/weltweite-internet-probleme-php-sicherheitsluecke_20261022/",
+    "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/weltweite-internet-probleme-php-sicherheitsluecke_20261022/",
+    "detail_json_url": "/data/details/nachrichten/artikel/2026/10/weltweite-internet-probleme-php-sicherheitsluecke_20261022.json",
+    "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/weltweite-internet-probleme-php-sicherheitsluecke_20261022.webp",
+    "image_alt": "Server-Racks in einem Rechenzentrum mit visuellen Hinweisen auf Cybersicherheit",
+    "image": {
+      "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/10/images/weltweite-internet-probleme-php-sicherheitsluecke_20261022.webp",
+      "alt": "Server-Racks in einem Rechenzentrum mit visuellen Hinweisen auf Cybersicherheit"
+    },
+    "source_name": "Deutsche Welle: DW.com Deutsch",
+    "source_url": "https://www.dw.com/de/weiter-weltweit-internet-probleme-wegen-php-sicherheitslücke/a-79728533?maca=de-rss-de-all-1119-rdf",
+    "tags": [
+      "PHP",
+      "Sicherheitslücke",
+      "BSI",
+      "Hackerangriffe",
+      "Cybersicherheit"
+    ],
+    "quality_score": 86,
+    "review_status": "published",
+    "content_html": "<h2>Wichtige Entwicklungen</h2> <p>Bei Betreibern von Internetseiten herrscht große Furcht, nachdem eine kritische Sicherheitslücke in der wichtigen Programmiersprache PHP bekannt wurde. Laut Angaben von Matthew Prince, Chef des US-amerikanischen IT-Unternehmens Cloudflare, gab es weltweit bereits Millionen von Hackerangriffen, die versuchten, die Schwachstelle auszunutzen.</p> <p>Da PHP die Basis für einen Großteil des gesamten Internets bildet – darunter einfache Blogs, große Nachrichtenportale, Onlineshops und Content-Management-Systeme wie WordPress –, sind zahlreiche Webseiten gefährdet. Das Bundesamt für Sicherheit in der Informationstechnik (BSI) gab daraufhin eine offizielle Cybersicherheitswarnung heraus. Mehrere deutsche Bundesländer, Kommunen, Behörden, Universitäten und Krankenhäuser nahmen ihre Webseiten vorsorglich vorübergehend vom Netz.</p> <p>Das BSI und die US-amerikanische NSA rieten zur sofortigen Installation eines entsprechenden Sicherheitsupdates, das zur Verfügung gestellt wurde. IT-Sicherheitsexperten wie Christoph Fischer warnten, dass ungeschützte PHP-Anwendungen eine offene Tür für Kriminelle darstellen und Angreifer im schlimmsten Fall Server ohne Passwort übernehmen können.</p> <h2>Zentrale Punkte</h2> <ul> <li><strong>Millionen Angriffe:</strong> Weltweit versuchen Kriminelle massiv, die neu entdeckte Schwachstelle in PHP auszunutzen.</li> <li><strong>Offizielle Warnungen:</strong> Das BSI und die NSA raten zur sofortigen Installation von Sicherheitsupdates oder zur vorübergehenden Abschaltung gefährdeter Webseiten.</li> <li><strong>Massive Auswirkungen:</strong> Deutsche Behörden, Universitäten und Kliniken nahmen ihre Internetpräsenzen vorsorglich vom Netz.</li> </ul> <h2>Warum das wichtig ist</h2> <p>Die Programmiersprache PHP ist das Fundament eines enormen Teils der weltweiten Internetinfrastruktur. Wenn Sicherheitslücken in diesem Bereich ungeschützt bleiben, haben Cyberkriminelle leichtes Spiel, Server komplett zu kompromittieren und sensible Daten abzugreifen. Die drastischen Maßnahmen deutscher Institutionen verdeutlichen das enorme Bedrohungspotenzial, dem sowohl Betreiber als auch Verwaltungen derzeit ausgesetzt sind.</p>",
+    "meta_title": "Weltweite Internet-Probleme wegen PHP-Sicherheitslücke",
+    "meta_description": "Eine kritische Sicherheitslücke in der Programmiersprache PHP sorgt weltweit für massive Internet-Probleme. Millionen Angriffe wurden registriert.",
+    "spot": "Wegen einer neu entdeckten und hochkritischen Sicherheitslücke in der weit verbreiteten Programmiersprache PHP kommt es weltweit zu massiven Internet-Problemen. Experten und Behörden verzeichnen bereits Millionen von Hackerangriffen und fordern Betreiber von Webseiten zum sofortigen Handeln auf.",
+    "word_count": 238,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "PHP-Sicherheitslücke: Millionen Angriffe weltweit registriert",
+      "Kritische Schwachstelle: Behörden raten zur Netzabschaltung",
+      "Globale Internet-Probleme durch folgenschweren PHP-Fehler"
+    ],
+    "visual_keywords": [
+      "server room digital security",
+      "cyber security warning screen",
+      "php code on computer monitor"
+    ]
+  }
+}
