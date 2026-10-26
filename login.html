@@ -51,5 +51,131 @@
   </main>
   <script src="/assets/js/member-auth.js?v=20260530d"></script>
   <script src="/assets/js/login-page.js?v=20260605a"></script>
+  <script>
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      const lang = (params.get('lang') || '').toLowerCase();
+      if (!lang || lang === 'tr') return;
+
+      const I18N = {
+        de: {
+          title: "Mitglieder-Login | mansetradar.com.tr",
+          backHome: "← Zur Startseite",
+          homeHref: "/nachrichten/",
+          heading: "Mitglieder-Login",
+          desc: "Melden Sie sich an, um Artikel zu speichern, Kommentare abzugeben und Einstellungen zu verwalten.",
+          emailLabel: "E-Mail",
+          emailPlaceholder: "beispiel@mail.com",
+          passLabel: "Passwort",
+          loginBtn: "Anmelden",
+          forgotPass: "Passwort vergessen?",
+          divider: "oder",
+          googleBtn: "Mit Google fortfahren",
+          signupHeading: "Neues Mitgliederkonto",
+          nameLabel: "Vollständiger Name",
+          namePlaceholder: "Vorname Nachname",
+          signupPassPlaceholder: "Mindestens 8 Zeichen",
+          signupBtn: "Konto erstellen",
+          accountBtn: "Zum Benutzerkonto"
+        },
+        en: {
+          title: "Member Login | mansetradar.com.tr",
+          backHome: "← Back to home",
+          homeHref: "/news/",
+          heading: "Member Login",
+          desc: "Sign in to save articles, participate in discussions, and manage your account settings.",
+          emailLabel: "Email address",
+          emailPlaceholder: "name@example.com",
+          passLabel: "Password",
+          loginBtn: "Sign In",
+          forgotPass: "Forgot password?",
+          divider: "or",
+          googleBtn: "Continue with Google",
+          signupHeading: "Create New Account",
+          nameLabel: "Full Name",
+          namePlaceholder: "First Last",
+          signupPassPlaceholder: "At least 8 characters",
+          signupBtn: "Sign Up",
+          accountBtn: "Go to Account"
+        }
+      };
+
+      const t = I18N[lang];
+      if (!t) return;
+
+      document.title = t.title;
+      document.documentElement.lang = lang;
+
+      const backHome = document.querySelector('.member-back-home');
+      if (backHome) { backHome.textContent = t.backHome; backHome.href = t.homeHref; }
+
+      const brand = document.querySelector('.member-brand');
+      if (brand) brand.href = t.homeHref;
+
+      const h1 = document.querySelector('h1');
+      if (h1) h1.textContent = t.heading;
+
+      const desc = document.querySelector('.member-muted');
+      if (desc) desc.textContent = t.desc;
+
+      const loginEmail = document.getElementById('login-email');
+      if (loginEmail) {
+        loginEmail.placeholder = t.emailPlaceholder;
+        const lbl = loginEmail.closest('label');
+        if (lbl) lbl.childNodes[0].nodeValue = t.emailLabel;
+      }
+
+      const loginPass = document.getElementById('login-password');
+      if (loginPass) {
+        const lbl = loginPass.closest('label');
+        if (lbl) lbl.childNodes[0].nodeValue = t.passLabel;
+      }
+
+      const loginBtn = document.querySelector('#login-form button[type="submit"]');
+      if (loginBtn) loginBtn.textContent = t.loginBtn;
+
+      const forgotLink = document.getElementById('forgot-password-link');
+      if (forgotLink) forgotLink.textContent = t.forgotPass;
+
+      const divider = document.querySelector('.member-divider');
+      if (divider) divider.textContent = t.divider;
+
+      const googleBtn = document.getElementById('google-login');
+      if (googleBtn) googleBtn.textContent = t.googleBtn;
+
+      const h2 = document.querySelector('h2');
+      if (h2) h2.textContent = t.signupHeading;
+
+      const signupName = document.getElementById('signup-name');
+      if (signupName) {
+        signupName.placeholder = t.namePlaceholder;
+        const lbl = signupName.closest('label');
+        if (lbl) lbl.childNodes[0].nodeValue = t.nameLabel;
+      }
+
+      const signupEmail = document.getElementById('signup-email');
+      if (signupEmail) {
+        signupEmail.placeholder = t.emailPlaceholder;
+        const lbl = signupEmail.closest('label');
+        if (lbl) lbl.childNodes[0].nodeValue = t.emailLabel;
+      }
+
+      const signupPass = document.getElementById('signup-password');
+      if (signupPass) {
+        signupPass.placeholder = t.signupPassPlaceholder;
+        const lbl = signupPass.closest('label');
+        if (lbl) lbl.childNodes[0].nodeValue = t.passLabel;
+      }
+
+      const signupBtn = document.querySelector('#signup-form button[type="submit"]');
+      if (signupBtn) signupBtn.textContent = t.signupBtn;
+
+      const actionHome = document.querySelector('.member-card-actions a.member-inline-btn[href="/"]');
+      if (actionHome) { actionHome.textContent = t.backHome.replace('← ', ''); actionHome.href = t.homeHref; }
+
+      const actionAccount = document.querySelector('.member-card-actions a.member-inline-btn[href="/account.html"]');
+      if (actionAccount) actionAccount.textContent = t.accountBtn;
+    })();
+  </script>
 </body>
 </html>
