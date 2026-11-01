@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-01T00:00:00+00:00",
-    "article_count": 3012,
+    "article_count": 3014,
     "schema_version": 2
   },
   "hero": [
@@ -796,6 +796,84 @@
     }
   ],
   "latest": [
+    {
+      "id": "news/articles/2026/11:trump-iran-targets-doha-talks-gulf-tensions_20261101",
+      "slug": "trump-iran-targets-doha-talks-gulf-tensions_20261101",
+      "title": "Trump Warns of Remaining Targets in Iran as Doha Diplomacy Continues Amid Gulf Tensions",
+      "summary": "As Iranian and Qatari officials hold diplomatic talks in Doha, President Donald Trump stated that the United States still has remaining targets to address in Iran, even after decimating much of the country's military and nuclear program.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/11",
+      "date": "01.11.2026 16:22",
+      "date_iso": "2026-11-01",
+      "published_at": "2026-11-01T16:22:28+03:00",
+      "url": "/news/articles/2026/11/trump-iran-targets-doha-talks-gulf-tensions_20261101/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/trump-iran-targets-doha-talks-gulf-tensions_20261101/",
+      "detail_json_url": "/data/details/news/articles/2026/11/trump-iran-targets-doha-talks-gulf-tensions_20261101.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/trump-iran-targets-doha-talks-gulf-tensions_20261101.webp",
+      "image_alt": "Doha skyline where diplomatic talks between mediators and Iranian officials are taking place.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/11/images/trump-iran-targets-doha-talks-gulf-tensions_20261101.webp",
+        "alt": "Doha skyline where diplomatic talks between mediators and Iranian officials are taking place."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/",
+      "tags": [
+        "Donald Trump",
+        "Iran",
+        "Doha",
+        "Qatar",
+        "U.S. Foreign Policy"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
+      "id": "news/articles/2026/11:daylight-saving-time-ends-2026_20261101",
+      "slug": "daylight-saving-time-ends-2026_20261101",
+      "title": "Daylight Saving Time Ends for 2026 as U.S. Returns to Standard Time",
+      "summary": "Millions of Americans gained an hour of sleep this weekend as clocks fell back at 2 a.m. on Sunday, marking the official end of daylight saving time for 2026 and a return to standard time across most of the United States.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/11",
+      "date": "01.11.2026 16:22",
+      "date_iso": "2026-11-01",
+      "published_at": "2026-11-01T16:22:22+03:00",
+      "url": "/news/articles/2026/11/daylight-saving-time-ends-2026_20261101/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/daylight-saving-time-ends-2026_20261101/",
+      "detail_json_url": "/data/details/news/articles/2026/11/daylight-saving-time-ends-2026_20261101.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/daylight-saving-time-ends-2026_20261101.webp",
+      "image_alt": "A clock set against an autumn backdrop marking the end of daylight saving time.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/11/images/daylight-saving-time-ends-2026_20261101.webp",
+        "alt": "A clock set against an autumn backdrop marking the end of daylight saving time."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/daylight-saving-time-ends-2026/",
+      "tags": [
+        "Daylight Saving Time",
+        "Time Change",
+        "Standard Time",
+        "Sunshine Protection Act",
+        "United States"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/11:sosyal-medyada-e-devlet-yas-dogrulamasi-basladi_20261101",
       "slug": "sosyal-medyada-e-devlet-yas-dogrulamasi-basladi_20261101",
@@ -3061,84 +3139,6 @@
         "Demir Çelik Sektörü"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022",
-      "slug": "dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022",
-      "title": "Dünyada internette PHP depremi! Türkiye'den e-Devlet açıklaması ve son durum",
-      "summary": "Milyonlarca internet sitesinin altyapısını oluşturan PHP programlama dilinde tespit edilen iki kritik güvenlik açığı, küresel çapta büyük bir siber krize neden oldu. PHP2Shell olarak adlandırılan açıklar sebebiyle birçok ülkede kamu siteleri kapatılırken, T...",
-      "category": "Teknoloji",
-      "category_slug": "teknoloji",
-      "topic_slug": "teknoloji",
-      "topic_label": "Teknoloji",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "22.10.2026 12:39",
-      "date_iso": "2026-10-22",
-      "published_at": "2026-10-22T12:39:12+03:00",
-      "url": "/articles/2026/10/dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022/",
-      "detail_json_url": "/data/details/articles/2026/10/dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022.webp",
-      "image_alt": "Dünyayı sarsan PHP güvenlik açığı krizi ve sunucu güvenliği",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/10/images/dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi_20261022.webp",
-        "alt": "Dünyayı sarsan PHP güvenlik açığı krizi ve sunucu güvenliği"
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/teknoloji/son-dakika-dunyada-internette-php-depremi-turkiyeden-e-devlet-aciklamasi-iste-ulke-ulke-son-durum-7684975",
-      "tags": [
-        "PHP",
-        "Siber Güvenlik",
-        "Teknoloji Haberleri",
-        "e-Devlet",
-        "PHP2Shell"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/10:deepseek-15-milyar-dolar-yatirim-halka-arz_20261022",
-      "slug": "deepseek-15-milyar-dolar-yatirim-halka-arz_20261022",
-      "title": "Çinli Yapay Zeka Girişimi DeepSeek 15 Milyar Dolarlık Fon Toplayarak Halka Arza Hazırlanıyor",
-      "summary": "Çin merkezli yapay zeka girişimi DeepSeek, aralarında CATL ve Tencent'in de bulunduğu mevcut ve yeni yatırımcılardan yaklaşık 15 milyar dolar kaynak sağlayarak halka arz sürecine doğru ilerliyor.",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "ekonomi",
-      "topic_label": "Ekonomi",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/10",
-      "date": "22.10.2026 12:39",
-      "date_iso": "2026-10-22",
-      "published_at": "2026-10-22T12:39:05+03:00",
-      "url": "/articles/2026/10/deepseek-15-milyar-dolar-yatirim-halka-arz_20261022/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/10/deepseek-15-milyar-dolar-yatirim-halka-arz_20261022/",
-      "detail_json_url": "/data/details/articles/2026/10/deepseek-15-milyar-dolar-yatirim-halka-arz_20261022.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/10/images/deepseek-15-milyar-dolar-yatirim-halka-arz_20261022.webp",
-      "image_alt": "DeepSeek yapay zeka teknolojisi ve finansal büyüme grafikleri",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/10/images/deepseek-15-milyar-dolar-yatirim-halka-arz_20261022.webp",
-        "alt": "DeepSeek yapay zeka teknolojisi ve finansal büyüme grafikleri"
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/teknoloji/galeri-15-milyar-dolarlik-yatirimla-halka-arza-hazirlaniyorlar-1747458",
-      "tags": [
-        "DeepSeek",
-        "Yapay Zeka",
-        "Teknoloji",
-        "Halka Arz",
-        "Çin"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]
