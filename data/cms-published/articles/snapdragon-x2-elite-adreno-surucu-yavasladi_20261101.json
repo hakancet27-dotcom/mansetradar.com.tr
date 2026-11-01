@@ -1,0 +1,86 @@
+{
+  "title": "Snapdragon X2 Elite İşlemcilerde Şok Yavaşlama: Adreno Sürücüsü Performansı Düşürdü",
+  "meta_title": "Snapdragon X2 Elite'te Adreno Sürücüsü Yapay Zekayı...",
+  "meta_description": "Snapdragon X2 Elite kullanan bazı kişiler, yeni Adreno sürücüsünden sonra yerel yapay zekâ ve video kurgusunda ciddi performans düşüşü yaşandığını bildirdi.",
+  "discover_titles": [
+    "Snapdragon X2 Elite'te Beklenmeyen Performans Kaybı",
+    "Adreno Sürücüsü Güncellemesi Yapay Zekayı Yavaşlattı",
+    "Snapdragon X2 Elite Sahipleri İçin Sürücü Uyarısı"
+  ],
+  "slug": "snapdragon-x2-elite-adreno-surucu-yavasladi_20261101",
+  "category": "Teknoloji",
+  "spot": "Qualcomm'un Snapdragon X2 Elite işlemcisini kullanan bazı kullanıcılar, yayınlanan son Adreno ekran kartı sürücüsünün ardından yerel yapay zekâ ve video kurgu işlemlerinde büyük bir performans kaybı yaşandığını bildirdi.",
+  "content_html": "<h2>Önemli Gelişmeler</h2> <p>Qualcomm'un iddialı işlemcisi Snapdragon X2 Elite'i kullanan bazı kullanıcılar, Adreno ekran kartı sürücüsünün 32.0.181.0 sürümüne güncellenmesinin ardından ciddi performans sorunlarıyla karşılaştı. Şikâyetler farklı iş yüklerinde ortaya çıkarken, yavaşlamanın hem yapay zekâ uygulamalarında hem de video kurgu süreçlerinde görüldüğü rapor edildi.</p> <p>Reddit üzerinde detaylı ölçümler paylaşan 'u/NonVeganLasVegan' adlı bir Surface Laptop 8th Edition kullanıcısı, testlerini Adreno X2-85 ekran kartı ile gerçekleştirdi. Sürüm 32.0.172.2'den 32.0.181.0'e geçildiğinde, llama.cpp'nin OpenCL arka ucunda metin üretim hızının yüzde 69 ila yüzde 87 oranında azaldığı tespit edildi. Aynı kullanıcının testlerinde cihaz prize takılı kalırken, yazılım, modeller ve işletim sistemi değiştirilmedi. Sürücünün geri alınıp yeniden yüklenmesiyle yavaşlamanın kaybolup tekrar gelmesi, sorunun doğrudan yeni sürücüden kaynaklandığını gösterdi. Benzer şekilde Zenbook A16 sahibi bir başka kullanıcı da Adobe Premiere Pro'da 7 dakikalık bir 1080p videonun render süresinin 1 dakika 40 saniyeden yaklaşık 10 dakikaya çıktığını, yani yaklaşık altı kat yavaşladığını belirtti.</p> <h2>Öne Çıkan Noktalar</h2> <ul> <li><strong>Büyük Performans Kaybı:</strong> 32.0.181.0 numaralı yeni Adreno sürücüsü, yerel yapay zekâ işlemlerinde yüzde 87'ye varan düşüşlere yol açtı.</li> <li><strong>Video Kurgusunda Yavaşlama:</strong> Adobe Premiere Pro kullanan bir başka kaynak, render süresinin yaklaşık 6 kat uzadığını ifade etti.</li> <li><strong>Sorun Kaynağı:</strong> Sorunun Qualcomm Developers Discord sunucusunda da paylaşılması, şirketin yeni bir düzeltme güncellemesi yayınlayabileceği ihtimalini güçlendirdi.</li> </ul> <h2>Neden Önemli?</h2> <p>Snapdragon X2 Elite gibi yeni nesil işlemcilerde özellikle yerel yapay zekâ ve donanım hızlandırmalı video kurgu yetenekleri ön plana çıkıyor. Sürücü kaynaklı bu tür büyük çaplı yavaşlamalar, kullanıcı deneyimini doğrudan sekteye uğratıyor. Sorunun özellikle OpenCL tabanlı yollarda ve belirli büyük modellerde (Qwen3-Coder-30B-A3B-Instruct gibi) kendini göstermesi, GPU tabanlı iş yüklerine güvenen profesyonellerin iş akışlarını olumsuz etkiliyor. Bu nedenle, Qualcomm resmi bir yama yayınlayana kadar kullanıcıların mevcut sürücüde kalması veya güncellemeyi ertelemesi öneriliyor.</p>",
+  "key_takeaways": [
+    "Qualcomm'un Snapdragon X2 Elite işlemcisini kullanan bazı kullanıcılar, yayınlanan son Adreno ekran kartı sürücüsünün ardından..."
+  ],
+  "tags": [
+    "Snapdragon X2 Elite",
+    "Adreno",
+    "Yapay Zekâ",
+    "Qualcomm",
+    "Donanım"
+  ],
+  "visual_keywords": [
+    "Snapdragon X2 Elite laptop",
+    "Adreno GPU driver",
+    "AI performance test",
+    "Video editing render"
+  ],
+  "image_prompt": "A modern laptop powered by Snapdragon processor resting on a clean desk, displaying system performance graphs and code on screen.",
+  "image_alt": "Snapdragon X2 Elite işlemcili dizüstü bilgisayar ekranında performans grafikleri",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 3,
+  "word_count": 327,
+  "date": "01.11.2026 20:15",
+  "date_iso": "2026-11-01T20:15:19+03:00",
+  "published_at": "2026-11-01T20:15:19+03:00",
+  "flag": "TR",
+  "country": "Turkey",
+  "display_country": "Türkiye",
+  "image_url": "https://mansetradar.com.tr/articles/2026/11/images/snapdragon-x2-elite-adreno-surucu-yavasladi_20261101.webp",
+  "real_image_required": true,
+  "real_image_status": "approved_real_image",
+  "image_kind": "licensed_real_photo",
+  "image_license_status": "source_provided",
+  "image_license_note": "RSS source image: ShiftDelete.Net",
+  "image_source_url": "https://shiftdelete.net/snapdragon-x2-elite-adreno-surucu-yavasladi",
+  "image_provider": "rss",
+  "image_score": 78,
+  "image_query": "Snapdragon X2 Elite'te yapay zekâ hızı düştü",
+  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
+  "summary": "Qualcomm'un Snapdragon X2 Elite işlemcisini kullanan bazı kullanıcılar, yayınlanan son Adreno ekran kartı sürücüsünün ardından yerel yapay zekâ ve video kurgu işlemlerinde büyük bir performans kaybı yaşandığını bildirdi.",
+  "language": "Turkish",
+  "url_prefix": "articles/2026/11",
+  "source_language": "Turkish",
+  "target_language": "Turkish",
+  "source_name": "ShiftDelete.Net",
+  "source_url": "https://shiftdelete.net/snapdragon-x2-elite-adreno-surucu-yavasladi",
+  "source_published_at": "2026-11-01T13:43:10+00:00",
+  "source_fact_score": 11,
+  "source_fact_word_count": 335,
+  "quality_score": 86,
+  "quality_status": "published",
+  "review_required": false,
+  "quality_flags": [
+    "short_article"
+  ],
+  "quality_notes": [
+    "Metin hedefin altinda (327 kelime)."
+  ],
+  "quality_word_count": 327,
+  "indexed_on_home": true,
+  "image_identity_url": "https://ares.shiftdelete.net/static/sdnweb-haberbotu/hb/6e18e9869669bea7ba2c324893595801c3ed2627.webp",
+  "original_image_url": "https://ares.shiftdelete.net/static/sdnweb-haberbotu/hb/6e18e9869669bea7ba2c324893595801c3ed2627.webp",
+  "image_local_webp": "articles/2026/11/images/snapdragon-x2-elite-adreno-surucu-yavasladi_20261101.webp",
+  "image_credit": "shiftdelete.net",
+  "image_credit_url": "https://shiftdelete.net/snapdragon-x2-elite-adreno-surucu-yavasladi",
+  "image_finalized_at": "2026-11-01T17:18:27.522529Z",
+  "time": "13:43",
+  "public_url": "/articles/2026/11/snapdragon-x2-elite-adreno-surucu-yavasladi_20261101/",
+  "source_json_path": "articles/2026/11/snapdragon-x2-elite-adreno-surucu-yavasladi_20261101.json",
+  "cms_generated_from_monthly_source": true
+}
