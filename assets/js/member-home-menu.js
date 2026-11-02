@@ -1,6 +1,38 @@
 (function(){
   'use strict';
 
+  /* ── Dil algılama ── */
+  function detectLang(){
+    var link=document.querySelector('.member-login-btn');
+    if(link){
+      var m=String(link.href||link.getAttribute('href')||'').match(/[?&]lang=([a-z]{2})/);
+      if(m)return m[1];
+    }
+    var p=location.pathname;
+    if(p.startsWith('/nachrichten')||p.startsWith('/berlin')||p.includes('/de'))return 'de';
+    if(p.startsWith('/news')||p.startsWith('/new-york')||p.includes('/en'))return 'en';
+    return 'tr';
+  }
+
+  var I18N={
+    tr:{myAccount:'Hesabım',saved:'Kaydettiklerim',interests:'İlgi Alanlarım',notifications:'Bildirim Tercihlerim',logout:'Çıkış Yap',fallback:'Hesabım',logoutPath:'/'},
+    en:{myAccount:'My Account',saved:'Saved Articles',interests:'My Interests',notifications:'Notification Settings',logout:'Sign Out',fallback:'Account',logoutPath:'/news/'},
+    de:{myAccount:'Mein Konto',saved:'Gespeicherte Artikel',interests:'Meine Interessen',notifications:'Benachrichtigungen',logout:'Abmelden',fallback:'Konto',logoutPath:'/nachrichten/'}
+  };
+
+  function t(key){
+    var lang=detectLang();
+    var dict=I18N[lang]||I18N.tr;
+    return dict[key]||I18N.tr[key]||key;
+  }
+
+  function accountPath(){
+    var lang=detectLang();
+    if(lang==='en')return'/account.html?lang=en';
+    if(lang==='de')return'/account.html?lang=de';
+    return'/account.html';
+  }
+
   function loadMemberAuth(){
     return new Promise(function(resolve,reject){
       if(window.HaberMember){resolve();return;}
@@ -25,7 +57,7 @@
     var value=String(meta.display_name||meta.full_name||meta.name||'').trim();
     if(value)return value.split(/\s+/)[0];
     var email=String(user&&user.email||'');
-    return email?email.split('@')[0]:'Hesabım';
+    return email?email.split('@')[0]:t('fallback');
   }
 
   function firstLetter(name){
@@ -57,6 +89,15 @@
     link.appendChild(caret);
   }
 
+  function buildMenu(){
+    var acc=accountPath();
+    return '<a href="'+acc+'" role="menuitem">'+t('myAccount')+'</a>'
+      +'<a href="'+acc+'#saved" role="menuitem">'+t('saved')+'</a>'
+      +'<a href="'+acc+'#interests" role="menuitem">'+t('interests')+'</a>'
+      +'<a href="'+acc+'#notifications" role="menuitem">'+t('notifications')+'</a>'
+      +'<button class="member-logout" type="button" role="menuitem">'+t('logout')+'</button>';
+  }
+
   async function init(){
     var link=document.querySelector('.member-login-btn');
     if(!link)return;
@@ -71,14 +112,14 @@
       shell.appendChild(link);
       var name=memberName(active.user);
       link.classList.add('is-member');
-      link.href='/account.html';
+      link.href=accountPath();
       renderMemberButton(link,name);
       link.setAttribute('aria-haspopup','menu');
       link.setAttribute('aria-expanded','false');
       var menu=document.createElement('div');
       menu.className='member-account-menu';
       menu.setAttribute('role','menu');
-      menu.innerHTML='<a href="/account.html" role="menuitem">Hesabım</a><a href="/account.html#saved" role="menuitem">Kaydettiklerim</a><a href="/account.html#interests" role="menuitem">İlgi Alanlarım</a><a href="/account.html#notifications" role="menuitem">Bildirim Tercihlerim</a><button class="member-logout" type="button" role="menuitem">Çıkış Yap</button>';
+      menu.innerHTML=buildMenu();
       shell.appendChild(menu);
       link.addEventListener('click',function(event){
         event.preventDefault();
@@ -87,7 +128,9 @@
       });
       menu.querySelector('.member-logout').addEventListener('click',async function(){
         await window.HaberMember.logout();
-        location.href='/';
+        var lang=detectLang();
+        var dict=I18N[lang]||I18N.tr;
+        location.href=dict.logoutPath;
       });
       document.addEventListener('click',function(event){
         if(shell.contains(event.target))return;
@@ -95,7 +138,7 @@
         link.setAttribute('aria-expanded','false');
       });
     }catch(error){
-      console.warn('Üye oturumu ana sayfada yüklenemedi.');
+      console.warn('Member session could not be loaded.');
     }
   }
 
