@@ -44,101 +44,49 @@
       --muted: #667085;
       --shadow: 0 2px 10px rgba(15, 23, 42, 0.07);
       --shadow-strong: 0 10px 26px rgba(15, 23, 42, 0.13);
-      --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      --font-serif: 'Lora', Georgia, "Times New Roman", Cambria, serif;
     }
 
     body.dark-mode {
-      --dark: #f8fafc;
-      --surface: #18181b;
-      --page: #09090b;
-      --border: #27272a;
-      --text: #f8fafc;
-      --muted: #a1a1aa;
-      --shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
-      --shadow-strong: 0 10px 30px rgba(0, 0, 0, 0.7);
+      --surface: #121826;
+      --page: #0a0d14;
+      --border: #1e293b;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+      --shadow-strong: 0 10px 30px rgba(0, 0, 0, 0.6);
     }
     body.dark-mode header {
-      background: #18181b;
+      background: #0f172a;
       border-bottom-color: var(--red);
     }
     body.dark-mode .market-strip {
-      background: #18181b;
-      border-color: #27272a;
+      background: #1e293b;
+      border-color: #334155;
     }
     body.dark-mode .market-item {
-      background: #09090b;
-      border-color: #27272a;
+      background: #0f172a;
+      border-color: #334155;
     }
     body.dark-mode .header-search {
-      background: #27272a;
-      border-color: #3f3f46;
+      background: #1e293b;
+      border-color: #334155;
     }
     body.dark-mode .header-search input {
-      color: #f8fafc;
+      color: #f1f5f9;
     }
     body.dark-mode .news-card, body.dark-mode .topic-card, body.dark-mode .istanbul-card {
-      background: #18181b;
-      border-color: #27272a;
+      background: #121826;
+      border-color: #1e293b;
     }
     body.dark-mode .news-card a, body.dark-mode .topic-card a, body.dark-mode .istanbul-card a {
-      color: #f8fafc;
+      color: #f1f5f9;
     }
     body.dark-mode .sidebar-block, body.dark-mode .category-nav, body.dark-mode .quick-summary {
-      background: #18181b;
-      border-color: #27272a;
+      background: #121826;
+      border-color: #1e293b;
     }
     body.dark-mode .topic-link {
       color: #cbd5e1;
-    }
-    body.dark-mode .showcase-title,
-    body.dark-mode #turkiye-title {
-      color: #f8fafc !important;
-    }
-    body.dark-mode .showcase-note {
-      color: #cbd5e1 !important;
-    }
-    body.dark-mode .istanbul-subheading,
-    body.dark-mode .istanbul-showcase h3 {
-      color: #f8fafc !important;
-    }
-    body.dark-mode .istanbul-card-title {
-      color: #f8fafc !important;
-    }
-    body.dark-mode .istanbul-card-footer {
-      border-top-color: #27272a !important;
-    }
-    body.dark-mode .istanbul-card-footer span,
-    body.dark-mode .istanbul-source {
-      color: #94a3b8 !important;
-    }
-    body.dark-mode .istanbul-card-footer .istanbul-more {
-      color: #60a5fa !important;
-    }
-    body.dark-mode .country-title {
-      color: #f8fafc !important;
-    }
-    body.dark-mode .country-subtitle {
-      color: #cbd5e1 !important;
-    }
-    body.dark-mode .card-title,
-    body.dark-mode .card-title a {
-      color: #f8fafc !important;
-    }
-    body.dark-mode .card-excerpt {
-      color: #cbd5e1 !important;
-    }
-    body.dark-mode .page-heading,
-    body.dark-mode .logo-text strong,
-    body.dark-mode .market-value,
-    body.dark-mode .weather-temp {
-      color: #f8fafc !important;
-    }
-    body.dark-mode .city-metric .metric-label {
-      color: #cbd5e1 !important;
-    }
-    body.dark-mode .city-metric strong {
-      color: #ffffff !important;
     }
     .theme-toggle-btn {
       background: #f1f5f9;
@@ -222,66 +170,12 @@
       background: #3f1515;
       color: #f87171;
     }
-    .trending-services {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      flex-shrink: 0;
-    }
-    .trending-item.service-item {
-      background: #e2e8f0;
-      color: #0f172a;
-      font-weight: 800;
-      border: 1px solid #cbd5e1;
-    }
-    .trending-item.service-item:hover {
-      background: #fee2e2;
-      border-color: #fca5a5;
-      color: var(--red);
-    }
-    body.dark-mode .trending-item.service-item {
-      background: #1e293b;
-      border-color: #334155;
-      color: #f8fafc;
-    }
-    body.dark-mode .trending-item.service-item:hover {
-      background: #331f24;
-      border-color: #7f1d1d;
-      color: #f87171;
-    }
-    .trending-divider {
-      width: 1px;
-      height: 18px;
-      background: var(--border);
-      flex-shrink: 0;
-      margin: 0 4px;
-    }
-    body.dark-mode .trending-divider {
-      background: #334155;
-    }
 
     body {
-      font-family: var(--font-ui);
+      font-family: "Segoe UI", Arial, sans-serif;
       background: var(--page);
       color: var(--text);
       line-height: 1.55;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-
-    /* Editorial Serif Headlines & Titles */
-    h1, h2, h3,
-    .headline-title,
-    .showcase-title,
-    .card-title,
-    .card-title a,
-    .istanbul-title,
-    .istanbul-card-title,
-    .country-title,
-    .country-title a,
-    .page-heading {
-      font-family: var(--font-serif);
-      letter-spacing: -0.015em;
     }
 
 
@@ -763,18 +657,12 @@
       color: white;
       text-decoration: none;
       opacity: 0;
-      pointer-events: none !important;
-      z-index: 1 !important;
+      pointer-events: none;
       transition: opacity 0.35s ease;
     }
     .headline-slide.is-active {
-      opacity: 1 !important;
-      pointer-events: auto !important;
-      z-index: 6 !important;
-      cursor: pointer !important;
-    }
-    .headline-slide.is-active * {
-      cursor: pointer;
+      opacity: 1;
+      pointer-events: auto;
     }
     .headline-card {
       position: relative;
@@ -854,7 +742,6 @@
       inset: 0;
       background: linear-gradient(to top, rgba(0,0,0,0.86), rgba(0,0,0,0.35) 48%, rgba(0,0,0,0.06));
       z-index: 1;
-      pointer-events: none !important;
     }
     .headline-content {
       position: absolute;
@@ -906,7 +793,7 @@
       position: absolute;
       right: 18px;
       bottom: 18px;
-      z-index: 8;
+      z-index: 4;
       display: flex;
       gap: 8px;
     }
@@ -914,7 +801,7 @@
       position: absolute;
       left: 50%;
       bottom: 16px;
-      z-index: 9;
+      z-index: 5;
       transform: translateX(-50%);
       display: flex;
       align-items: center;
@@ -1751,6 +1638,19 @@
       .news-card:first-child .card-title { font-size: 1.1rem; }
     }
 
+    @media (min-width: 901px) {
+      .showcase-grid .side-headlines {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        width: 100%;
+        height: auto;
+        max-height: none;
+      }
+      .showcase-grid .side-headlines .side-headline {
+        height: 155px;
+      }
+    }
 
 
     /* CODEX_ENHANCEMENTS_START */
@@ -1972,7 +1872,45 @@
     .market-item.down .market-value,
     .market-item.down .market-change { color: #7f1d1d; }
     .market-status { white-space: nowrap; color: #7a1a12; font-weight: 800; }
-    
+    /* Mobil üst alan dengeleme: piyasa + arama + üye girişi taşmalarını önler */
+    @media (max-width: 900px) {
+      header .inner {
+        grid-template-columns: 1fr !important;
+        gap: 10px !important;
+        align-items: stretch;
+      }
+      header .inner nav {
+        justify-self: stretch;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+      .market-strip {
+        max-width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        border-radius: 14px;
+        padding: 6px;
+      }
+      .header-tools {
+        width: 100%;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 8px;
+        align-items: center;
+      }
+      .header-search,
+      .header-search.is-open,
+      .header-search:focus-within {
+        width: 100%;
+        min-width: 0;
+      }
+      .member-login-btn {
+        white-space: nowrap;
+        min-height: 38px;
+      }
+    }
     @media (max-width: 640px) {
       .top-bar .inner {
         flex-direction: column;
@@ -2049,315 +1987,23 @@
     }
 
       .visually-hidden { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
-/* ─── HABERLER.COM 1:1 EXACT SLIDER SHOWCASE (735x490 Aspect Ratio) ─── */
-/* Left-aligned with container, single hero, no side headlines           */
-
+/* FULL WIDTH HERO & ISTANBUL MEGA-BAR STYLES */
     .showcase-grid {
       display: block !important;
       width: 100% !important;
-      max-width: 1280px !important;
-      margin: 0 auto 24px !important;
     }
-
-    /* ── HERO SLIDER (Haberler.com 1:1 Exact 735x490) ── */
     .headline-slider {
-      position: relative !important;
       width: 100% !important;
-      max-width: 735px !important;
-      aspect-ratio: 735 / 490 !important;
-      height: auto !important;
-      min-height: 0 !important;
-      max-height: 490px !important;
-      border-radius: 6px !important;
-      overflow: hidden !important;
-      box-shadow: 0 3px 14px rgba(0,0,0,0.12) !important;
-      margin: 0 !important; /* Left-aligned under navigation, matching Haberler.com */
-      background: #111827 !important;
+      height: clamp(460px, 48vw, 560px) !important;
     }
-
-    .headline-slide {
-      position: absolute !important;
-      inset: 0 !important;
-      width: 100% !important;
-      height: 100% !important;
-      aspect-ratio: 735 / 490 !important;
-    }
-
-    .headline-image,
-    .headline-image img {
-      position: absolute !important;
-      inset: 0 !important;
-      width: 100% !important;
-      height: 100% !important;
-      aspect-ratio: 735 / 490 !important;
-      object-fit: cover !important;
-      object-position: center !important;
-      display: block !important;
-    }
-
-    /* ── TITLE & GRADIENT (Haberler.com Style) ── */
-    .headline-card::after {
-      content: "" !important;
-      position: absolute !important;
-      inset: 0 !important;
-      background: linear-gradient(
-        to top,
-        rgba(0,0,0,0.92) 0%,
-        rgba(0,0,0,0.60) 36%,
-        rgba(0,0,0,0.08) 65%,
-        transparent 100%
-      ) !important;
-      z-index: 1 !important;
-    }
-
-    .headline-content {
-      position: absolute !important;
-      left: 18px !important;
-      right: 18px !important;
-      bottom: 44px !important; /* sits cleanly above the 32px number strip */
-      z-index: 2 !important;
-    }
-
-    .headline-title {
-      font-size: clamp(1.15rem, 2.2vw, 1.65rem) !important;
-      font-weight: 800 !important;
-      color: #ffffff !important;
-      line-height: 1.22 !important;
-      margin: 0 !important;
-      display: -webkit-box !important;
-      -webkit-line-clamp: 2 !important;
-      -webkit-box-orient: vertical !important;
-      overflow: hidden !important;
-      text-shadow: 0 2px 8px rgba(0,0,0,0.7) !important;
-    }
-
-    .headline-meta {
-      display: flex !important;
-      gap: 6px !important;
-      align-items: center !important;
-      margin-bottom: 6px !important;
-    }
-
-    /* ── SLIDER CONTROLS (Haberler.com 1:1 Left & Right Vertically Centered Chevrons) ── */
-    .headline-slider .slider-controls {
-      position: absolute !important;
-      inset: 0 !important;
-      pointer-events: none !important;
-      z-index: 8 !important;
-      display: block !important;
-      margin: 0 !important;
-      padding: 0 !important;
-    }
-
-    .headline-slider .slider-btn {
-      pointer-events: auto !important;
-      position: absolute !important;
-      top: calc(50% - 16px) !important;
-      transform: translateY(-50%) !important;
-      width: 40px !important;
-      height: 40px !important;
-      border-radius: 50% !important;
-      background: rgba(0, 0, 0, 0.6) !important;
-      border: 1px solid rgba(255, 255, 255, 0.25) !important;
-      color: #ffffff !important;
-      font-size: 1.5rem !important;
-      font-weight: 700 !important;
-      line-height: 1 !important;
-      display: flex !important;
-      align-items: center !important;
-      justify-content: center !important;
-      cursor: pointer !important;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important;
-      transition: background 0.2s ease, transform 0.2s ease !important;
-    }
-
-    .headline-slider .slider-btn:hover {
-      background: #e10600 !important;
-      border-color: #e10600 !important;
-      transform: translateY(-50%) scale(1.08) !important;
-    }
-
-    .headline-slider .slider-btn[data-slider-prev] {
-      left: 12px !important;
-      right: auto !important;
-    }
-
-    .headline-slider .slider-btn[data-slider-next] {
-      right: 12px !important;
-      left: auto !important;
-    }
-
-    /* ── NUMBER STRIP (Haberler.com 1:1 Exact Number Buttons) ── */
-    .headline-slider .slider-dots {
-      position: absolute !important;
-      left: 0 !important;
-      right: 0 !important;
-      bottom: 0 !important;
-      width: 100% !important;
-      max-width: 100% !important;
-      height: 32px !important;
-      transform: none !important;
-      display: flex !important;
-      align-items: stretch !important;
-      justify-content: stretch !important;
-      gap: 0 !important;
-      padding: 0 !important;
-      background: #ffffff !important;
-      border: 0 !important;
-      border-top: 1px solid #d1d5db !important;
-      border-radius: 0 !important;
-      box-shadow: none !important;
-      z-index: 6 !important;
-      overflow: hidden !important;
-    }
-
-    .headline-slider .slider-dot {
-      flex: 1 1 0 !important;
-      min-width: 0 !important;
-      height: 100% !important;
-      padding: 0 !important;
-      margin: 0 !important;
-      border: 0 !important;
-      border-right: 1px solid #e5e7eb !important;
-      border-radius: 0 !important;
-      background: #ffffff !important;
-      color: #374151 !important;
-      font-size: 0.85rem !important;
-      font-weight: 700 !important;
-      display: inline-flex !important;
-      align-items: center !important;
-      justify-content: center !important;
-      cursor: pointer !important;
-      transition: background 0.15s ease, color 0.15s ease !important;
-    }
-
-    .headline-slider .slider-dot:last-child {
-      border-right: none !important;
-    }
-
-    .headline-slider .slider-dot:hover {
-      background: #f3f4f6 !important;
-      color: #e10600 !important;
-    }
-
-    .headline-slider .slider-dot.is-active {
-      background: #e10600 !important;
-      color: #ffffff !important;
-      font-weight: 900 !important;
-      box-shadow: none !important;
-    }
-
-    /* ── SIDE HEADLINES COMPLETELY REMOVED ── */
     .side-headlines {
       display: none !important;
     }
-
-    /* ── İSTANBUL MASASI SEAMLESS CORPORATE REDESIGN ── */
-    .istanbul-showcase {
-      margin-bottom: 40px !important;
-      background: transparent !important;
-      border: none !important;
-      padding: 0 !important;
-      box-shadow: none !important;
-    }
-
-    .istanbul-header {
-      display: flex !important;
-      align-items: flex-end !important;
-      justify-content: space-between !important;
-      gap: 16px !important;
-      margin-bottom: 16px !important;
-      padding-bottom: 12px !important;
-      border-bottom: 2px solid rgba(225, 6, 0, 0.4) !important;
-    }
-
-    .istanbul-title {
-      font-size: 1.45rem !important;
-      font-weight: 800 !important;
-      color: #0f172a !important;
-    }
-    body.dark-mode .istanbul-title {
-      color: #f8fafc !important;
-    }
-
-    .istanbul-desc {
-      color: #475569 !important;
-      font-size: 0.84rem !important;
-      margin-top: 2px !important;
-    }
-    body.dark-mode .istanbul-desc {
-      color: #cbd5e1 !important;
-    }
-
-    .city-metrics-bar {
-      display: grid !important;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
-      gap: 10px !important;
-      margin: 14px 0 20px !important;
-    }
-
-    .city-metric {
-      background: #1e293b !important;
-      border: 1px solid rgba(255, 255, 255, 0.08) !important;
-      border-radius: 8px !important;
-      padding: 10px 14px !important;
-      display: flex !important;
-      align-items: center !important;
-      gap: 10px !important;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2) !important;
-    }
-
-    .city-metric .metric-icon {
-      font-size: 1.4rem !important;
-    }
-
-    .city-metric .metric-label {
-      color: #94a3b8 !important;
-      font-size: 0.72rem !important;
-      text-transform: uppercase !important;
-    }
-
-    .city-metric strong {
-      color: #f8fafc !important;
-      font-size: 0.88rem !important;
-    }
-
-    .city-alerts-box {
-      display: none !important;
-    }
-
-    /* ── RESPONSIVE MOBILE (<=768px): 100% width, preserves 735:490 ratio ── */
-    @media (max-width: 768px) {
-      .headline-slider {
-        max-width: 100% !important;
-        border-radius: 0 !important;
-      }
-      .headline-content {
-        left: 12px !important;
-        right: 12px !important;
-        bottom: 38px !important;
-      }
-      .headline-title {
-        font-size: 1.15rem !important;
-      }
-      .headline-slider .slider-dots {
-        height: 28px !important;
-      }
-      .headline-slider .slider-dot {
-        font-size: 0.72rem !important;
-      }
-      .headline-slider .slider-btn {
-        width: 34px !important;
-        height: 34px !important;
-        font-size: 1.25rem !important;
-      }
-    }
-
-    /* hide mobile market strip (it renders in the feed below on mobile) */
     .mobile-market-strip {
       display: none !important;
     }
-/* TOP ISTANBUL MEGA-BAR */
+
+    /* TOP ISTANBUL MEGA-BAR */
     .istanbul-mega-bar {
       background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
       color: white;
@@ -2465,569 +2111,74 @@
       .imb-quick-chips { display: none; }
       .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
     }
-/* TOP ISTANBUL MEGA-BAR */
-    .istanbul-mega-bar {
-      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
-      color: white;
-      border-bottom: 2px solid #dc2626;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-      font-size: 0.85rem;
-      position: relative;
-      z-index: 99;
-    }
-    .istanbul-mega-bar .inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 10px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .imb-left {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-    .imb-brand {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .imb-badge {
-      background: #dc2626;
-      color: white;
-      font-weight: 900;
-      font-size: 0.72rem;
-      padding: 3px 8px;
-      border-radius: 4px;
-      letter-spacing: 0.5px;
-    }
-    .imb-select {
-      background: #0f172a;
-      color: #f8fafc;
-      border: 1px solid #334155;
-      border-radius: 6px;
-      padding: 5px 10px;
-      font-size: 0.82rem;
-      font-weight: 700;
-      cursor: pointer;
-      outline: none;
-    }
-    .imb-select:focus { border-color: #38bdf8; }
-    .imb-quick-chips {
-      display: flex;
-      gap: 6px;
-      align-items: center;
-    }
-    .imb-chip-btn {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.15);
-      color: #e2e8f0;
-      border-radius: 999px;
-      padding: 3px 10px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-chip-btn:hover {
-      background: #dc2626;
-      color: white;
-      border-color: #dc2626;
-    }
-    .imb-services {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .imb-srv {
-      color: #cbd5e1;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 0.82rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 4px 8px;
-      border-radius: 6px;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-srv:hover {
-      background: rgba(255,255,255,0.1);
-      color: white;
-    }
-    .imb-weather-pill {
-      background: rgba(56,189,248,0.15);
-      color: #38bdf8;
-      border: 1px solid rgba(56,189,248,0.3);
-      padding: 3px 10px;
-      border-radius: 999px;
-      font-weight: 800;
-      font-size: 0.78rem;
-    }
-    @media (max-width: 900px) {
-      .imb-quick-chips { display: none; }
-      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
-    }
-/* TOP ISTANBUL MEGA-BAR */
-    .istanbul-mega-bar {
-      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
-      color: white;
-      border-bottom: 2px solid #dc2626;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-      font-size: 0.85rem;
-      position: relative;
-      z-index: 99;
-    }
-    .istanbul-mega-bar .inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 10px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .imb-left {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-    .imb-brand {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .imb-badge {
-      background: #dc2626;
-      color: white;
-      font-weight: 900;
-      font-size: 0.72rem;
-      padding: 3px 8px;
-      border-radius: 4px;
-      letter-spacing: 0.5px;
-    }
-    .imb-select {
-      background: #0f172a;
-      color: #f8fafc;
-      border: 1px solid #334155;
-      border-radius: 6px;
-      padding: 5px 10px;
-      font-size: 0.82rem;
-      font-weight: 700;
-      cursor: pointer;
-      outline: none;
-    }
-    .imb-select:focus { border-color: #38bdf8; }
-    .imb-quick-chips {
-      display: flex;
-      gap: 6px;
-      align-items: center;
-    }
-    .imb-chip-btn {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.15);
-      color: #e2e8f0;
-      border-radius: 999px;
-      padding: 3px 10px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-chip-btn:hover {
-      background: #dc2626;
-      color: white;
-      border-color: #dc2626;
-    }
-    .imb-services {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .imb-srv {
-      color: #cbd5e1;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 0.82rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 4px 8px;
-      border-radius: 6px;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-srv:hover {
-      background: rgba(255,255,255,0.1);
-      color: white;
-    }
-    .imb-weather-pill {
-      background: rgba(56,189,248,0.15);
-      color: #38bdf8;
-      border: 1px solid rgba(56,189,248,0.3);
-      padding: 3px 10px;
-      border-radius: 999px;
-      font-weight: 800;
-      font-size: 0.78rem;
-    }
-    @media (max-width: 900px) {
-      .imb-quick-chips { display: none; }
-      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
-    }
-/* TOP ISTANBUL MEGA-BAR */
-    .istanbul-mega-bar {
-      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
-      color: white;
-      border-bottom: 2px solid #dc2626;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-      font-size: 0.85rem;
-      position: relative;
-      z-index: 99;
-    }
-    .istanbul-mega-bar .inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 10px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .imb-left {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-    .imb-brand {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .imb-badge {
-      background: #dc2626;
-      color: white;
-      font-weight: 900;
-      font-size: 0.72rem;
-      padding: 3px 8px;
-      border-radius: 4px;
-      letter-spacing: 0.5px;
-    }
-    .imb-select {
-      background: #0f172a;
-      color: #f8fafc;
-      border: 1px solid #334155;
-      border-radius: 6px;
-      padding: 5px 10px;
-      font-size: 0.82rem;
-      font-weight: 700;
-      cursor: pointer;
-      outline: none;
-    }
-    .imb-select:focus { border-color: #38bdf8; }
-    .imb-quick-chips {
-      display: flex;
-      gap: 6px;
-      align-items: center;
-    }
-    .imb-chip-btn {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.15);
-      color: #e2e8f0;
-      border-radius: 999px;
-      padding: 3px 10px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-chip-btn:hover {
-      background: #dc2626;
-      color: white;
-      border-color: #dc2626;
-    }
-    .imb-services {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .imb-srv {
-      color: #cbd5e1;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 0.82rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 4px 8px;
-      border-radius: 6px;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-srv:hover {
-      background: rgba(255,255,255,0.1);
-      color: white;
-    }
-    .imb-weather-pill {
-      background: rgba(56,189,248,0.15);
-      color: #38bdf8;
-      border: 1px solid rgba(56,189,248,0.3);
-      padding: 3px 10px;
-      border-radius: 999px;
-      font-weight: 800;
-      font-size: 0.78rem;
-    }
-    @media (max-width: 900px) {
-      .imb-quick-chips { display: none; }
-      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
-    }
-/* TOP ISTANBUL MEGA-BAR */
-    .istanbul-mega-bar {
-      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
-      color: white;
-      border-bottom: 2px solid #dc2626;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-      font-size: 0.85rem;
-      position: relative;
-      z-index: 99;
-    }
-    .istanbul-mega-bar .inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 10px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .imb-left {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-    .imb-brand {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .imb-badge {
-      background: #dc2626;
-      color: white;
-      font-weight: 900;
-      font-size: 0.72rem;
-      padding: 3px 8px;
-      border-radius: 4px;
-      letter-spacing: 0.5px;
-    }
-    .imb-select {
-      background: #0f172a;
-      color: #f8fafc;
-      border: 1px solid #334155;
-      border-radius: 6px;
-      padding: 5px 10px;
-      font-size: 0.82rem;
-      font-weight: 700;
-      cursor: pointer;
-      outline: none;
-    }
-    .imb-select:focus { border-color: #38bdf8; }
-    .imb-quick-chips {
-      display: flex;
-      gap: 6px;
-      align-items: center;
-    }
-    .imb-chip-btn {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.15);
-      color: #e2e8f0;
-      border-radius: 999px;
-      padding: 3px 10px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-chip-btn:hover {
-      background: #dc2626;
-      color: white;
-      border-color: #dc2626;
-    }
-    .imb-services {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .imb-srv {
-      color: #cbd5e1;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 0.82rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 4px 8px;
-      border-radius: 6px;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-srv:hover {
-      background: rgba(255,255,255,0.1);
-      color: white;
-    }
-    .imb-weather-pill {
-      background: rgba(56,189,248,0.15);
-      color: #38bdf8;
-      border: 1px solid rgba(56,189,248,0.3);
-      padding: 3px 10px;
-      border-radius: 999px;
-      font-weight: 800;
-      font-size: 0.78rem;
-    }
-    @media (max-width: 900px) {
-      .imb-quick-chips { display: none; }
-      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
-    }
-/* TOP ISTANBUL MEGA-BAR */
-    .istanbul-mega-bar {
-      background: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
-      color: white;
-      border-bottom: 2px solid #dc2626;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-      font-size: 0.85rem;
-      position: relative;
-      z-index: 99;
-    }
-    .istanbul-mega-bar .inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 10px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .imb-left {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-    .imb-brand {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .imb-badge {
-      background: #dc2626;
-      color: white;
-      font-weight: 900;
-      font-size: 0.72rem;
-      padding: 3px 8px;
-      border-radius: 4px;
-      letter-spacing: 0.5px;
-    }
-    .imb-select {
-      background: #0f172a;
-      color: #f8fafc;
-      border: 1px solid #334155;
-      border-radius: 6px;
-      padding: 5px 10px;
-      font-size: 0.82rem;
-      font-weight: 700;
-      cursor: pointer;
-      outline: none;
-    }
-    .imb-select:focus { border-color: #38bdf8; }
-    .imb-quick-chips {
-      display: flex;
-      gap: 6px;
-      align-items: center;
-    }
-    .imb-chip-btn {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.15);
-      color: #e2e8f0;
-      border-radius: 999px;
-      padding: 3px 10px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-chip-btn:hover {
-      background: #dc2626;
-      color: white;
-      border-color: #dc2626;
-    }
-    .imb-services {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .imb-srv {
-      color: #cbd5e1;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 0.82rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 4px 8px;
-      border-radius: 6px;
-      transition: background 0.15s, color 0.15s;
-    }
-    .imb-srv:hover {
-      background: rgba(255,255,255,0.1);
-      color: white;
-    }
-    .imb-weather-pill {
-      background: rgba(56,189,248,0.15);
-      color: #38bdf8;
-      border: 1px solid rgba(56,189,248,0.3);
-      padding: 3px 10px;
-      border-radius: 999px;
-      font-weight: 800;
-      font-size: 0.78rem;
-    }
-    @media (max-width: 900px) {
-      .imb-quick-chips { display: none; }
-      .istanbul-mega-bar .inner { flex-direction: column; align-items: flex-start; }
+/* FORCE VISIBLE NUMBERS ON ALL SLIDER DOTS */
+    .headline-slider .slider-dots .slider-dot,
+    .slider-dots .slider-dot {
+      min-width: 26px !important;
+      height: 26px !important;
+      width: auto !important;
+      padding: 0 6px !important;
+      border: 0 !important;
+      border-radius: 6px !important;
+      background: rgba(255, 255, 255, 0.22) !important;
+      color: #ffffff !important;
+      font-size: 0.76rem !important;
+      font-weight: 800 !important;
+      cursor: pointer !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      line-height: 1 !important;
+      text-indent: 0 !important;
+      overflow: visible !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+    }
+    .headline-slider .slider-dots .slider-dot.is-active,
+    .slider-dots .slider-dot.is-active {
+      min-width: 32px !important;
+      background: #e10600 !important;
+      color: #ffffff !important;
+      font-weight: 900 !important;
+      box-shadow: 0 2px 10px rgba(225, 6, 0, 0.55) !important;
     }
 /* FIRST_PAINT_TOPIC_FILTER_START */
-html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]) .topic-card:not(.headline-slide) {
+html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]) .topic-card {
   display: none !important;
 }
-html.has-topic-filter[data-active-topic="gundem"] .topic-card:not(.headline-slide)[data-topic="gundem"],
-html.has-topic-filter[data-active-topic="siyaset"] .topic-card:not(.headline-slide)[data-topic="siyaset"],
-html.has-topic-filter[data-active-topic="ekonomi"] .topic-card:not(.headline-slide)[data-topic="ekonomi"],
-html.has-topic-filter[data-active-topic="dunya"] .topic-card:not(.headline-slide)[data-topic="dunya"],
-html.has-topic-filter[data-active-topic="kamu"] .topic-card:not(.headline-slide)[data-topic="kamu"],
-html.has-topic-filter[data-active-topic="eczane"] .topic-card:not(.headline-slide)[data-topic="eczane"],
-html.has-topic-filter[data-active-topic="ulasim"] .topic-card:not(.headline-slide)[data-topic="ulasim"],
-html.has-topic-filter[data-active-topic="spor"] .topic-card:not(.headline-slide)[data-topic="spor"],
-html.has-topic-filter[data-active-topic="magazin"] .topic-card:not(.headline-slide)[data-topic="magazin"],
-html.has-topic-filter[data-active-topic="teknoloji"] .topic-card:not(.headline-slide)[data-topic="teknoloji"],
-html.has-topic-filter[data-active-topic="saglik"] .topic-card:not(.headline-slide)[data-topic="saglik"] {
+html.has-topic-filter[data-active-topic="gundem"] .topic-card[data-topic="gundem"],
+html.has-topic-filter[data-active-topic="siyaset"] .topic-card[data-topic="siyaset"],
+html.has-topic-filter[data-active-topic="ekonomi"] .topic-card[data-topic="ekonomi"],
+html.has-topic-filter[data-active-topic="dunya"] .topic-card[data-topic="dunya"],
+html.has-topic-filter[data-active-topic="kamu"] .topic-card[data-topic="kamu"],
+html.has-topic-filter[data-active-topic="eczane"] .topic-card[data-topic="eczane"],
+html.has-topic-filter[data-active-topic="ulasim"] .topic-card[data-topic="ulasim"],
+html.has-topic-filter[data-active-topic="spor"] .topic-card[data-topic="spor"],
+html.has-topic-filter[data-active-topic="magazin"] .topic-card[data-topic="magazin"],
+html.has-topic-filter[data-active-topic="teknoloji"] .topic-card[data-topic="teknoloji"],
+html.has-topic-filter[data-active-topic="saglik"] .topic-card[data-topic="saglik"] {
   display: block !important;
 }
-html.has-topic-filter .topic-card:not(.headline-slide)[hidden] {
+html.has-topic-filter .topic-card[hidden] {
   display: none !important;
 }
-html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="son-dakika"]) .headline-slider .headline-slide {
-  opacity: 0 !important;
-  pointer-events: none !important;
+html.category-navigation-pending .container,
+html.has-topic-filter:not(.category-page-ready) .container {
+  visibility: hidden;
+  pointer-events: none;
+}
+html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):not(.category-page-ready) .page-layout {
+  visibility: hidden;
+  pointer-events: none;
+}
+html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):not(.category-showcase-ready) .headline-slider,
+html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):not(.category-showcase-ready) .side-headlines {
+  visibility: hidden;
+  pointer-events: none;
+}
+html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):not(.category-showcase-ready) #turkiye .showcase-grid,
+html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):not(.category-feed-ready) #grid-turkey {
+  display: none !important;
 }
 /* FIRST_PAINT_TOPIC_FILTER_END */
   </style>
@@ -3184,11 +2335,50 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
           <div class="showcase-grid">
             <div class="headline-slider" aria-label="Aktuelle Deutschland Nachrichten">
               
-              <a class="headline-slide headline-card topic-card is-active" href="/nachrichten/artikel/2026/11/kinderarzt-gesteht-missbrauch-prozess-potsdam_20261102/" data-topic="gundem" aria-label="Missbrauchs-Prozess in Potsdam: Kinderarzt gesteht Taten vor Gericht">
-                <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/kinderarzt-gesteht-missbrauch-prozess-potsdam_20261102.webp" alt="Missbrauchs-Prozess in Potsdam: Kinderarzt gesteht Taten vor Gericht" loading="eager" fetchpriority="high" width="1080" height="720"></div>
+              <a class="headline-slide headline-card topic-card is-active" href="/nachrichten/artikel/2026/11/anthropic-vor-ipo-umsatzplus-milliardenverlust_20261102/" data-topic="ekonomi" aria-label="Anthropic meldet vor IPO gewaltiges Umsatzplus und Milliardenverlust">
+                <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/anthropic-vor-ipo-umsatzplus-milliardenverlust_20261102.webp" alt="Anthropic meldet vor IPO gewaltiges Umsatzplus und Milliardenverlust" loading="eager" fetchpriority="high" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
                     <span class="headline-tag">Topmeldung #1</span>
+                    <span class="headline-topic">Wirtschaft</span>
+                    <span class="headline-trust">✅ Verifiziert</span>
+                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                  </div>
+                  <h2 class="headline-title">Anthropic meldet vor IPO gewaltiges Umsatzplus und Milliardenverlust</h2>
+                  <time class="headline-date" datetime="2026-11-03">03.11.2026 00:21</time>
+                </div>
+              </a>
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/2026/11/russischer-luftangriff-auf-hilfsverteilung-ukraine-tote_20261102/" data-topic="dunya" aria-label="Russischer Luftangriff auf Hilfsverteilung in der Ukraine: Mindestens 26 Tote">
+                <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/russischer-luftangriff-auf-hilfsverteilung-ukraine-tote_20261102.webp" alt="Russischer Luftangriff auf Hilfsverteilung in der Ukraine: Mindestens 26 Tote" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Topmeldung #2</span>
+                    <span class="headline-topic">Welt</span>
+                    <span class="headline-trust">✅ Verifiziert</span>
+                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                  </div>
+                  <h2 class="headline-title">Russischer Luftangriff auf Hilfsverteilung in der Ukraine: Mindestens 26 Tote</h2>
+                  <time class="headline-date" datetime="2026-11-03">03.11.2026 00:21</time>
+                </div>
+              </a>
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/2026/11/cherson-oleschky-waffenruhe-erlebnis_20261102/" data-topic="dunya" aria-label="Cherson und die Oleschky-Waffenruhe: Zwischen Hoffnung und ständiger Bedrohung">
+                <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/cherson-oleschky-waffenruhe-erlebnis_20261102.webp" alt="Cherson und die Oleschky-Waffenruhe: Zwischen Hoffnung und ständiger Bedrohung" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Topmeldung #3</span>
+                    <span class="headline-topic">Welt</span>
+                    <span class="headline-trust">✅ Verifiziert</span>
+                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                  </div>
+                  <h2 class="headline-title">Cherson und die Oleschky-Waffenruhe: Zwischen Hoffnung und ständiger Bedrohung</h2>
+                  <time class="headline-date" datetime="2026-11-03">03.11.2026 00:21</time>
+                </div>
+              </a>
+              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/2026/11/kinderarzt-gesteht-missbrauch-prozess-potsdam_20261102/" data-topic="gundem" aria-label="Missbrauchs-Prozess in Potsdam: Kinderarzt gesteht Taten vor Gericht">
+                <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/kinderarzt-gesteht-missbrauch-prozess-potsdam_20261102.webp" alt="Missbrauchs-Prozess in Potsdam: Kinderarzt gesteht Taten vor Gericht" loading="lazy" width="1080" height="720"></div>
+                <div class="headline-content">
+                  <div class="headline-meta">
+                    <span class="headline-tag">Topmeldung #4</span>
                     <span class="headline-topic">Themen</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3201,7 +2391,7 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/prozess-misshandlung-soest-gestaendnis_20261102.webp" alt="Prozess um Misshandlung in Soest: Hauptangeklagter bစ္" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #2</span>
+                    <span class="headline-tag">Topmeldung #5</span>
                     <span class="headline-topic">Themen</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3214,7 +2404,7 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/polen-verfassungsgericht-machtkampf-tusk-pis_20261102.webp" alt="Machtkampf in Polen: Tusk-Lager übernimmt Verfassungsgericht" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #3</span>
+                    <span class="headline-tag">Topmeldung #6</span>
                     <span class="headline-topic">Politik</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3227,7 +2417,7 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/flugzeugabsturz-florida-mar-a-lago-neun-tote_20261102.webp" alt="Privatjet in Florida abgestürzt: Alle neun Insassen tot" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #4</span>
+                    <span class="headline-tag">Topmeldung #7</span>
                     <span class="headline-topic">Politik</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3236,37 +2426,11 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
                   <time class="headline-date" datetime="2026-11-02">02.11.2026 04:51</time>
                 </div>
               </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/2026/11/jana-lantratowa-menschenrechtsbeauftragte-oleschky_20261102/" data-topic="dunya" aria-label="Jana Lantratowa: Umstrittene Russin als Menschenrechtsbeauftragte im Einsatz">
-                <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/jana-lantratowa-menschenrechtsbeauftragte-oleschky_20261102.webp" alt="Jana Lantratowa: Umstrittene Russin als Menschenrechtsbeauftragte im Einsatz" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #5</span>
-                    <span class="headline-topic">Welt</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
-                  </div>
-                  <h2 class="headline-title">Jana Lantratowa: Umstrittene Russin als Menschenrechtsbeauftragte im Einsatz</h2>
-                  <time class="headline-date" datetime="2026-11-02">02.11.2026 19:34</time>
-                </div>
-              </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/2026/11/belgien-staatsanwaltschaft-ermittelt-nach-attacken-auf-supermarkt-kuehltheken_20261102/" data-topic="dunya" aria-label="Belgien: Staatsanwaltschaft ermittelt nach Cyberangriffen auf Supermarkt-Kühltheken">
-                <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/belgien-staatsanwaltschaft-ermittelt-nach-attacken-auf-supermarkt-kuehltheken_20261102.webp" alt="Belgien: Staatsanwaltschaft ermittelt nach Cyberangriffen auf Supermarkt-Kühltheken" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #6</span>
-                    <span class="headline-topic">Welt</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
-                  </div>
-                  <h2 class="headline-title">Belgien: Staatsanwaltschaft ermittelt nach Cyberangriffen auf Supermarkt-Kühltheken</h2>
-                  <time class="headline-date" datetime="2026-11-02">02.11.2026 19:34</time>
-                </div>
-              </a>
               <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/2026/11/kinderarzt-missbrauchsprozess-landgericht-potsdam-gestaendnis_20261102/" data-topic="saglik" aria-label="Missbrauchsprozess in Potsdam: Kinderarzt legt Geständnis ab">
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/kinderarzt-missbrauchsprozess-landgericht-potsdam-gestaendnis_20261102.webp" alt="Missbrauchsprozess in Potsdam: Kinderarzt legt Geständnis ab" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #7</span>
+                    <span class="headline-tag">Topmeldung #8</span>
                     <span class="headline-topic">Gesundheit</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3279,7 +2443,7 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/formel-1-kimi-antonelli-juengster-weltmeister_20261101.webp" alt="Formel 1: Kimi Antonelli ist jüngster Weltmeister der Geschichte" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #8</span>
+                    <span class="headline-tag">Topmeldung #9</span>
                     <span class="headline-topic">Gesundheit</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
@@ -3292,26 +2456,13 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/ravens-schock-lamar-jackson-verletzt-operation_20261102.webp" alt="NFL-Schock für die Baltimore Ravens: Operation bei Star-Quarterback Lamar Jackson" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #9</span>
+                    <span class="headline-tag">Topmeldung #10</span>
                     <span class="headline-topic">Sport</span>
                     <span class="headline-trust">✅ Verifiziert</span>
                     <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
                   </div>
                   <h2 class="headline-title">NFL-Schock für die Baltimore Ravens: Operation bei Star-Quarterback Lamar Jackson</h2>
                   <time class="headline-date" datetime="2026-11-02">02.11.2026 04:50</time>
-                </div>
-              </a>
-              <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/2026/11/kimi-antonelli-formel-1-weltmeister-vettel-rekord_20261101/" data-topic="spor" aria-label="Kimi Antonelli krönt sich zum Formel-1-Weltmeister und bricht Vettel-Rekord">
-                <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/kimi-antonelli-formel-1-weltmeister-vettel-rekord_20261101.webp" alt="Kimi Antonelli krönt sich zum Formel-1-Weltmeister und bricht Vettel-Rekord" loading="lazy" width="1080" height="720"></div>
-                <div class="headline-content">
-                  <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #10</span>
-                    <span class="headline-topic">Sport</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
-                  </div>
-                  <h2 class="headline-title">Kimi Antonelli krönt sich zum Formel-1-Weltmeister und bricht Vettel-Rekord</h2>
-                  <time class="headline-date" datetime="2026-11-02">02.11.2026 02:07</time>
                 </div>
               </a>
               <div class="slider-controls" aria-label="Headline controls">
@@ -3353,6 +2504,98 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
           <div class="news-grid" id="grid-main">
             
       <article class="news-card topic-card" data-topic="dunya">
+        <a class="card-image-link" href="/nachrichten/artikel/2026/11/jana-lantratowa-menschenrechtsbeauftragte-oleschky_20261102/" aria-label="Jana Lantratowa: Umstrittene Russin als Menschenrechtsbeauftragte im Einsatz"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/jana-lantratowa-menschenrechtsbeauftragte-oleschky_20261102.webp" alt="Jana Lantratowa: Umstrittene Russin als Menschenrechtsbeauftragte im Einsatz" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Welt</span>
+            <time class="card-date" datetime="2026-11-02">02.11.2026 19:34</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/2026/11/jana-lantratowa-menschenrechtsbeauftragte-oleschky_20261102/">Jana Lantratowa: Umstrittene Russin als Menschenrechtsbeauftragte im Einsatz</a>
+          </h3>
+          <p class="card-excerpt">In der besetzten ukrainischen Stadt Oleschky inszeniert sich die Putin-treue Jana Lantratowa als Menschenrechtlerin. Trotz ihrer Vergangenheit als Kriegsbefürworterin arbeitet Kie...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/2026/11/jana-lantratowa-menschenrechtsbeauftragte-oleschky_20261102/" aria-label="Jana Lantratowa: Umstrittene Russin als Menschenrechtsbeauftragte im Einsatz Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fjana-lantratowa-menschenrechtsbeauftragte-oleschky_20261102%2F&text=Jana+Lantratowa%3A+Umstrittene+Russin+als+Menschenrechtsbeauftragte+im+Einsatz" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fjana-lantratowa-menschenrechtsbeauftragte-oleschky_20261102%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Jana+Lantratowa%3A+Umstrittene+Russin+als+Menschenrechtsbeauftragte+im+Einsatz%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fjana-lantratowa-menschenrechtsbeauftragte-oleschky_20261102%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fjana-lantratowa-menschenrechtsbeauftragte-oleschky_20261102%2F&text=Jana+Lantratowa%3A+Umstrittene+Russin+als+Menschenrechtsbeauftragte+im+Einsatz" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="dunya">
+        <a class="card-image-link" href="/nachrichten/artikel/2026/11/belgien-staatsanwaltschaft-ermittelt-nach-attacken-auf-supermarkt-kuehltheken_20261102/" aria-label="Belgien: Staatsanwaltschaft ermittelt nach Cyberangriffen auf Supermarkt-Kühltheken"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/belgien-staatsanwaltschaft-ermittelt-nach-attacken-auf-supermarkt-kuehltheken_20261102.webp" alt="Belgien: Staatsanwaltschaft ermittelt nach Cyberangriffen auf Supermarkt-Kühltheken" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Welt</span>
+            <time class="card-date" datetime="2026-11-02">02.11.2026 19:34</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/2026/11/belgien-staatsanwaltschaft-ermittelt-nach-attacken-auf-supermarkt-kuehltheken_20261102/">Belgien: Staatsanwaltschaft ermittelt nach Cyberangriffen auf Supermarkt-Kühltheken</a>
+          </h3>
+          <p class="card-excerpt">Unbekannte Cyberkriminelle haben in mehreren europäischen Ländern Kühlanlagen von Supermärkten und Geschäften manipuliert und in den Abtaumodus versetzt. Die belgische Staatsanwal...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/2026/11/belgien-staatsanwaltschaft-ermittelt-nach-attacken-auf-supermarkt-kuehltheken_20261102/" aria-label="Belgien: Staatsanwaltschaft ermittelt nach Cyberangriffen auf Supermarkt-Kühltheken Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fbelgien-staatsanwaltschaft-ermittelt-nach-attacken-auf-supermarkt-kuehltheken_20261102%2F&text=Belgien%3A+Staatsanwaltschaft+ermittelt+nach+Cyberangriffen+auf+Supermarkt-K%C3%BChltheken" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fbelgien-staatsanwaltschaft-ermittelt-nach-attacken-auf-supermarkt-kuehltheken_20261102%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Belgien%3A+Staatsanwaltschaft+ermittelt+nach+Cyberangriffen+auf+Supermarkt-K%C3%BChltheken%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fbelgien-staatsanwaltschaft-ermittelt-nach-attacken-auf-supermarkt-kuehltheken_20261102%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fbelgien-staatsanwaltschaft-ermittelt-nach-attacken-auf-supermarkt-kuehltheken_20261102%2F&text=Belgien%3A+Staatsanwaltschaft+ermittelt+nach+Cyberangriffen+auf+Supermarkt-K%C3%BChltheken" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="dunya">
+        <a class="card-image-link" href="/nachrichten/artikel/2026/11/juedische-akademie-frankfurt-eroeffnung-antisemitismus_20261102/" aria-label="Eröffnung der Jüdischen Akademie in Frankfurt am Main von Sorgen überschattet"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/juedische-akademie-frankfurt-eroeffnung-antisemitismus_20261102.webp" alt="Eröffnung der Jüdischen Akademie in Frankfurt am Main von Sorgen überschattet" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Welt</span>
+            <time class="card-date" datetime="2026-11-02">02.11.2026 19:34</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/2026/11/juedische-akademie-frankfurt-eroeffnung-antisemitismus_20261102/">Eröffnung der Jüdischen Akademie in Frankfurt am Main von Sorgen überschattet</a>
+          </h3>
+          <p class="card-excerpt">Mit großer Sorge vor wachsendem Antisemitismus ist in Frankfurt am Main die Jüdische Akademie als erste Bildungseinrichtung dieser Art in Europa eröffnet worden. Zentralratspräsid...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/2026/11/juedische-akademie-frankfurt-eroeffnung-antisemitismus_20261102/" aria-label="Eröffnung der Jüdischen Akademie in Frankfurt am Main von Sorgen überschattet Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fjuedische-akademie-frankfurt-eroeffnung-antisemitismus_20261102%2F&text=Er%C3%B6ffnung+der+J%C3%BCdischen+Akademie+in+Frankfurt+am+Main+von+Sorgen+%C3%BCberschattet" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fjuedische-akademie-frankfurt-eroeffnung-antisemitismus_20261102%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Er%C3%B6ffnung+der+J%C3%BCdischen+Akademie+in+Frankfurt+am+Main+von+Sorgen+%C3%BCberschattet%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fjuedische-akademie-frankfurt-eroeffnung-antisemitismus_20261102%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fjuedische-akademie-frankfurt-eroeffnung-antisemitismus_20261102%2F&text=Er%C3%B6ffnung+der+J%C3%BCdischen+Akademie+in+Frankfurt+am+Main+von+Sorgen+%C3%BCberschattet" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="dunya">
+        <a class="card-image-link" href="/nachrichten/artikel/2026/11/ukraine-feuerpause-oleschky-ausgelaufen_20261102/" aria-label="Ukraine: Sechstägige Feuerpause in Oleschky ausgelaufen"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/ukraine-feuerpause-oleschky-ausgelaufen_20261102.webp" alt="Ukraine: Sechstägige Feuerpause in Oleschky ausgelaufen" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Welt</span>
+            <time class="card-date" datetime="2026-11-02">02.11.2026 04:50</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/2026/11/ukraine-feuerpause-oleschky-ausgelaufen_20261102/">Ukraine: Sechstägige Feuerpause in Oleschky ausgelaufen</a>
+          </h3>
+          <p class="card-excerpt">Nach sechs Tagen ist die lokale Feuerpause in der russisch besetzten ukrainischen Frontstadt Oleschky zu Ende gegangen. Kurz vor dem Ablauf der Frist nutzte das ukrainische Militä...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/2026/11/ukraine-feuerpause-oleschky-ausgelaufen_20261102/" aria-label="Ukraine: Sechstägige Feuerpause in Oleschky ausgelaufen Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fukraine-feuerpause-oleschky-ausgelaufen_20261102%2F&text=Ukraine%3A+Sechst%C3%A4gige+Feuerpause+in+Oleschky+ausgelaufen" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fukraine-feuerpause-oleschky-ausgelaufen_20261102%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Ukraine%3A+Sechst%C3%A4gige+Feuerpause+in+Oleschky+ausgelaufen%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fukraine-feuerpause-oleschky-ausgelaufen_20261102%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fukraine-feuerpause-oleschky-ausgelaufen_20261102%2F&text=Ukraine%3A+Sechst%C3%A4gige+Feuerpause+in+Oleschky+ausgelaufen" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="dunya">
         <a class="card-image-link" href="/nachrichten/artikel/2026/11/ukraine-armeechef-drapatyj-100-tage_20261102/" aria-label="100 Tage im Amt: Ukraines Armeechef Drapatyj setzt auf Reformen und Eigenverantwortung"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/ukraine-armeechef-drapatyj-100-tage_20261102.webp" alt="100 Tage im Amt: Ukraines Armeechef Drapatyj setzt auf Reformen und Eigenverantwortung" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
@@ -3371,6 +2614,29 @@ html:not(.category-showcase-ready)[data-active-topic]:not([data-active-topic="so
               <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fukraine-armeechef-drapatyj-100-tage_20261102%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
               <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=100+Tage+im+Amt%3A+Ukraines+Armeechef+Drapatyj+setzt+auf+Reformen+und+Eigenverantwortung%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fukraine-armeechef-drapatyj-100-tage_20261102%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
               <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fukraine-armeechef-drapatyj-100-tage_20261102%2F&text=100+Tage+im+Amt%3A+Ukraines+Armeechef+Drapatyj+setzt+auf+Reformen+und+Eigenverantwortung" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="spor">
+        <a class="card-image-link" href="/nachrichten/artikel/2026/11/kimi-antonelli-formel-1-weltmeister-vettel-rekord_20261101/" aria-label="Kimi Antonelli krönt sich zum Formel-1-Weltmeister und bricht Vettel-Rekord"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/kimi-antonelli-formel-1-weltmeister-vettel-rekord_20261101.webp" alt="Kimi Antonelli krönt sich zum Formel-1-Weltmeister und bricht Vettel-Rekord" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Sport</span>
+            <time class="card-date" datetime="2026-11-02">02.11.2026 02:07</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/2026/11/kimi-antonelli-formel-1-weltmeister-vettel-rekord_20261101/">Kimi Antonelli krönt sich zum Formel-1-Weltmeister und bricht Vettel-Rekord</a>
+          </h3>
+          <p class="card-excerpt">Kimi Antonelli hat Formel-1-Geschichte geschrieben: Der Mercedes-Pilot wurde beim Großen Preis von Mexiko vorzeitig Weltmeister und löste Sebastian Vettel als jüngsten Champion de...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/2026/11/kimi-antonelli-formel-1-weltmeister-vettel-rekord_20261101/" aria-label="Kimi Antonelli krönt sich zum Formel-1-Weltmeister und bricht Vettel-Rekord Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fkimi-antonelli-formel-1-weltmeister-vettel-rekord_20261101%2F&text=Kimi+Antonelli+kr%C3%B6nt+sich+zum+Formel-1-Weltmeister+und+bricht+Vettel-Rekord" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fkimi-antonelli-formel-1-weltmeister-vettel-rekord_20261101%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Kimi+Antonelli+kr%C3%B6nt+sich+zum+Formel-1-Weltmeister+und+bricht+Vettel-Rekord%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fkimi-antonelli-formel-1-weltmeister-vettel-rekord_20261101%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fkimi-antonelli-formel-1-weltmeister-vettel-rekord_20261101%2F&text=Kimi+Antonelli+kr%C3%B6nt+sich+zum+Formel-1-Weltmeister+und+bricht+Vettel-Rekord" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
