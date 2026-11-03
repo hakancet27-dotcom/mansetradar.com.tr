@@ -3,11 +3,50 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-03T00:00:00+00:00",
-    "article_count": 3121,
+    "article_count": 3123,
     "schema_version": 2,
     "section": "news-articles"
   },
   "articles": [
+    {
+      "id": "news/articles/2026/11:supreme-court-rejects-trump-california-mail-ballots-dispute_20261103",
+      "slug": "supreme-court-rejects-trump-california-mail-ballots-dispute_20261103",
+      "title": "Supreme Court Rejects Trump Request to Separate California Mail Ballots",
+      "summary": "The U.S. Supreme Court has turned down a last-ditch effort by the Trump administration to force California election officials to segregate mail ballots received from thousands of individuals flagged as potential noncitizens.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/11",
+      "date": "03.11.2026 06:28",
+      "date_iso": "2026-11-03",
+      "published_at": "2026-11-03T06:28:57+03:00",
+      "url": "/news/articles/2026/11/supreme-court-rejects-trump-california-mail-ballots-dispute_20261103/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/supreme-court-rejects-trump-california-mail-ballots-dispute_20261103/",
+      "detail_json_url": "/data/details/news/articles/2026/11/supreme-court-rejects-trump-california-mail-ballots-dispute_20261103.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/supreme-court-rejects-trump-california-mail-ballots-dispute_20261103.webp",
+      "image_alt": "The United States Supreme Court building in Washington, D.C.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/11/images/supreme-court-rejects-trump-california-mail-ballots-dispute_20261103.webp",
+        "alt": "The United States Supreme Court building in Washington, D.C."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/supreme-court-rejects-trump-california-mail-ballots-alleged-noncitizens/",
+      "tags": [
+        "Supreme Court",
+        "Trump Administration",
+        "California",
+        "Mail Ballots",
+        "2026 Midterms"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "news/articles/2026/11:european-grocery-stores-fridge-freezer-cyberattacks_20261102",
       "slug": "european-grocery-stores-fridge-freezer-cyberattacks_20261102",
