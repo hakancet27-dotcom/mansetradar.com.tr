@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-03T00:00:00+00:00",
-    "article_count": 3152,
+    "article_count": 3153,
     "schema_version": 2
   },
   "hero": [
@@ -792,6 +792,45 @@
     }
   ],
   "latest": [
+    {
+      "id": "news/articles/2026/11:marc-elias-justice-department-alaska-ballot-investigation_20261103",
+      "slug": "marc-elias-justice-department-alaska-ballot-investigation_20261103",
+      "title": "Prominent Democratic Attorney Marc Elias Targeted in Justice Department Alaska Ballot Probe",
+      "summary": "Prominent Democratic attorney Marc Elias and his law firm have become targets in a Justice Department criminal investigation examining whether Democrats recruited a same-name candidate to confuse voters during an Alaska Senate race.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/11",
+      "date": "03.11.2026 23:33",
+      "date_iso": "2026-11-03",
+      "published_at": "2026-11-03T23:33:55+03:00",
+      "url": "/news/articles/2026/11/marc-elias-justice-department-alaska-ballot-investigation_20261103/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/marc-elias-justice-department-alaska-ballot-investigation_20261103/",
+      "detail_json_url": "/data/details/news/articles/2026/11/marc-elias-justice-department-alaska-ballot-investigation_20261103.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/marc-elias-justice-department-alaska-ballot-investigation_20261103.webp",
+      "image_alt": "The U.S. Department of Justice building in Washington.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/11/images/marc-elias-justice-department-alaska-ballot-investigation_20261103.webp",
+        "alt": "The U.S. Department of Justice building in Washington."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/alaska-ballot-investigation-democrats-marc-elias/",
+      "tags": [
+        "Marc Elias",
+        "Justice Department",
+        "Alaska",
+        "Dan Sullivan",
+        "Politics"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/11:arda-turanli-shakhtar-sportinge-maglup_20261103",
       "slug": "arda-turanli-shakhtar-sportinge-maglup_20261103",
@@ -3094,45 +3133,6 @@
         "Soruşturma",
         "Tutuklama",
         "İstanbul Emniyet Müdürlüğü"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/11:efkandan-haberturke-aciklamalar-ak-partinin-adayi-erdogan_20261102",
-      "slug": "efkandan-haberturke-aciklamalar-ak-partinin-adayi-erdogan_20261102",
-      "title": "Efkan Ala'dan Habertürk'e Açıklamalar: AK Parti'nin Adayı Erdoğan",
-      "summary": "AK Parti Genel Başkanvekili Efkan Ala, Habertürk TV Ankara Temsilcisi Nasuhi Güngör'e yaptığı açıklamalarda, partisinin Cumhurbaşkanı Recep Tayyip Erdoğan'ın adaylığı konusunda net olduğunu vurguladı ve siyasi gündeme dair değerlendirmelerde bulundu.",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "siyaset",
-      "topic_label": "Siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/11",
-      "date": "02.11.2026 22:03",
-      "date_iso": "2026-11-02",
-      "published_at": "2026-11-02T22:03:20+03:00",
-      "url": "/articles/2026/11/efkandan-haberturke-aciklamalar-ak-partinin-adayi-erdogan_20261102/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/11/efkandan-haberturke-aciklamalar-ak-partinin-adayi-erdogan_20261102/",
-      "detail_json_url": "/data/details/articles/2026/11/efkandan-haberturke-aciklamalar-ak-partinin-adayi-erdogan_20261102.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/11/images/efkandan-haberturke-aciklamalar-ak-partinin-adayi-erdogan_20261102.webp",
-      "image_alt": "AK Parti Genel Başkanvekili Efkan Ala Habertürk yayınında konuk oldu",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/11/images/efkandan-haberturke-aciklamalar-ak-partinin-adayi-erdogan_20261102.webp",
-        "alt": "AK Parti Genel Başkanvekili Efkan Ala Habertürk yayınında konuk oldu"
-      },
-      "source_name": "HABERTURK.COM",
-      "source_url": "https://www.haberturk.com/gundem/ak-parti-genel-baskanvekili-efkan-ala-dan-gundeme-iliskin-aciklamalar-3924422",
-      "tags": [
-        "Efkan Ala",
-        "AK Parti",
-        "Recep Tayyip Erdoğan",
-        "Habertürk",
-        "Siyaset"
       ],
       "quality_score": 86,
       "review_status": "published"
