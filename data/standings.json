@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T02:05:48.817Z",
+  "updatedAt": "2026-11-03T02:42:55.455Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
@@ -1404,7 +1404,7 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 403 | HTML scrape: https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao: HTTP 403 | football-data.org: SA: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 403 | HTML scrape: https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao: no valid standings table | football-data.org: SA: HTTP 400 | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: {\"plan\":\"Free plans do not have access to this season, try from 2022 to 2024.\"} | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
       "preservedPreviousTable": true
     },
     {
