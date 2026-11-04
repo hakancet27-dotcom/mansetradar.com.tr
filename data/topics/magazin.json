@@ -2,13 +2,52 @@
   "meta": {
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
-    "generated_at": "2026-11-03T00:00:00+00:00",
-    "article_count": 3160,
+    "generated_at": "2026-11-04T00:00:00+00:00",
+    "article_count": 3163,
     "schema_version": 2,
     "topic_slug": "magazin",
     "type": "topic"
   },
   "articles": [
+    {
+      "id": "articles/2026/11:derya-ulug-asil-gok-dugun-tarihi-belli-oldu_20261104",
+      "slug": "derya-ulug-asil-gok-dugun-tarihi-belli-oldu_20261104",
+      "title": "Derya Uluğ ile Asil Gök'ün düğün tarihi belli oldu",
+      "summary": "Magazin dünyasının gözde çiftlerinden Derya Uluğ ile meslektaşı Asil Gök'ün evleneceği tarih belli oldu. Şubat 2026'da evlilik teklifi alan ünlü çift, 25 Kasım'da düzenlenecek sade bir törenle dünyaevine girecek.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "magazin",
+      "topic_label": "Magazin",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/11",
+      "date": "04.11.2026 03:53",
+      "date_iso": "2026-11-04",
+      "published_at": "2026-11-04T03:53:02+03:00",
+      "url": "/articles/2026/11/derya-ulug-asil-gok-dugun-tarihi-belli-oldu_20261104/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/11/derya-ulug-asil-gok-dugun-tarihi-belli-oldu_20261104/",
+      "detail_json_url": "/data/details/articles/2026/11/derya-ulug-asil-gok-dugun-tarihi-belli-oldu_20261104.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/11/images/derya-ulug-asil-gok-dugun-tarihi-belli-oldu_20261104.webp",
+      "image_alt": "Derya Uluğ ve Asil Gök",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/11/images/derya-ulug-asil-gok-dugun-tarihi-belli-oldu_20261104.webp",
+        "alt": "Derya Uluğ ve Asil Gök"
+      },
+      "source_name": "Milliyet",
+      "source_url": "https://www.milliyet.com.tr/magazin/galeri/dugun-tarihi-belli-oldu-derya-ulug-ile-asil-gok-evleniyor-7693690",
+      "tags": [
+        "Derya Uluğ",
+        "Asil Gök",
+        "Magazin",
+        "Düğün",
+        "Müzik"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/11:now-tvdn-kadir-ezildi-karari-yerine-pelin-oztekin-geliyor_20261102",
       "slug": "now-tvdn-kadir-ezildi-karari-yerine-pelin-oztekin-geliyor_20261102",
