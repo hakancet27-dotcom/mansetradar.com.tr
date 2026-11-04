@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-04T00:00:00+00:00",
-    "article_count": 3173,
+    "article_count": 3174,
     "schema_version": 2
   },
   "hero": [
@@ -799,6 +799,45 @@
     }
   ],
   "latest": [
+    {
+      "id": "news/articles/2026/11:botox-anti-aging-salmon-sperm-facials-what-works_20261104",
+      "slug": "botox-anti-aging-salmon-sperm-facials-what-works_20261104",
+      "title": "Botox, Anti-Aging, and Salmon Sperm Facials: What Actually Works?",
+      "summary": "CBS News examines the efficacy of popular anti-aging treatments and skincare trends, ranging from traditional procedures like Botox to unconventional options like salmon sperm facials.",
+      "category": "Sağlık",
+      "category_slug": "saglik",
+      "topic_slug": "saglik",
+      "topic_label": "Sağlık",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/11",
+      "date": "04.11.2026 17:31",
+      "date_iso": "2026-11-04",
+      "published_at": "2026-11-04T17:31:31+03:00",
+      "url": "/news/articles/2026/11/botox-anti-aging-salmon-sperm-facials-what-works_20261104/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/botox-anti-aging-salmon-sperm-facials-what-works_20261104/",
+      "detail_json_url": "/data/details/news/articles/2026/11/botox-anti-aging-salmon-sperm-facials-what-works_20261104.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/botox-anti-aging-salmon-sperm-facials-what-works_20261104.webp",
+      "image_alt": "A modern dermatology and skincare clinic setting.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/11/images/botox-anti-aging-salmon-sperm-facials-what-works_20261104.webp",
+        "alt": "A modern dermatology and skincare clinic setting."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/110426-botox-anti-aging-and-salmon-sperm-facials-what-works-healthful/",
+      "tags": [
+        "Botox",
+        "Anti-Aging",
+        "Salmon Sperm Facials",
+        "Health",
+        "Skincare"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/11:resul-emrah-sahandan-dem-partili-meclis-uyelerinin-kararina-destek_20261104",
       "slug": "resul-emrah-sahandan-dem-partili-meclis-uyelerinin-kararina-destek_20261104",
@@ -3103,45 +3142,6 @@
         "ABD",
         "Abbas Arakçi",
         "Katar"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/11:genclerbirligi-alanyasporu-5-0-yendi-7-hafta-sonra-kazandi_20261102",
-      "slug": "genclerbirligi-alanyasporu-5-0-yendi-7-hafta-sonra-kazandi_20261102",
-      "title": "Gençlerbirliği Alanyaspor'u 5-0 yenerek 7 maçlık galibiyet hasretine son verdi",
-      "summary": "Trendyol Süper Lig'in 10. haftasının kapanış maçında Gençlerbirliği, sahasında Alanyaspor'u 5-0 mağlup ederek ligde tam 7 hafta sonra 3 puan sevinci yaşadı.",
-      "category": "Spor",
-      "category_slug": "spor",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/11",
-      "date": "03.11.2026 00:26",
-      "date_iso": "2026-11-03",
-      "published_at": "2026-11-03T00:26:06+03:00",
-      "url": "/articles/2026/11/genclerbirligi-alanyasporu-5-0-yendi-7-hafta-sonra-kazandi_20261102/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/11/genclerbirligi-alanyasporu-5-0-yendi-7-hafta-sonra-kazandi_20261102/",
-      "detail_json_url": "/data/details/articles/2026/11/genclerbirligi-alanyasporu-5-0-yendi-7-hafta-sonra-kazandi_20261102.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/11/images/genclerbirligi-alanyasporu-5-0-yendi-7-hafta-sonra-kazandi_20261102.webp",
-      "image_alt": "Gençlerbirliği futbolcuları Alanyaspor galibiyetini kutluyor",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/11/images/genclerbirligi-alanyasporu-5-0-yendi-7-hafta-sonra-kazandi_20261102.webp",
-        "alt": "Gençlerbirliği futbolcuları Alanyaspor galibiyetini kutluyor"
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/sporskor/genclerbirligi-gol-oldu-yagdi-1749100",
-      "tags": [
-        "Gençlerbirliği",
-        "Alanyaspor",
-        "Süper Lig",
-        "Futbol",
-        "Maç Sonucu"
       ],
       "quality_score": 86,
       "review_status": "published"
