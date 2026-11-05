@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-05T00:00:00+00:00",
-    "article_count": 3195,
+    "article_count": 3196,
     "schema_version": 2
   },
   "hero": [
@@ -802,6 +802,45 @@
     }
   ],
   "latest": [
+    {
+      "id": "news/articles/2026/11:zelenskyy-hopes-us-democrats-bolster-ukraine-support_20261105",
+      "slug": "zelenskyy-hopes-us-democrats-bolster-ukraine-support_20261105",
+      "title": "Zelenskyy Hopes U.S. Democrats Will Bolster Ukraine Support Amid Wartime Hardships",
+      "summary": "Ukrainian President Volodymyr Zelenskyy expresses hope that U.S. Democrats will bolster support for Ukraine following midterm election results, while Ukrainian citizens continue to make do without water amid ongoing infrastructure challenges.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/11",
+      "date": "05.11.2026 17:38",
+      "date_iso": "2026-11-05",
+      "published_at": "2026-11-05T17:38:43+03:00",
+      "url": "/news/articles/2026/11/zelenskyy-hopes-us-democrats-bolster-ukraine-support_20261105/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/zelenskyy-hopes-us-democrats-bolster-ukraine-support_20261105/",
+      "detail_json_url": "/data/details/news/articles/2026/11/zelenskyy-hopes-us-democrats-bolster-ukraine-support_20261105.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/zelenskyy-hopes-us-democrats-bolster-ukraine-support_20261105.webp",
+      "image_alt": "Ukrainian President Volodymyr Zelenskyy addressing the public regarding international support and domestic challenges.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/11/images/zelenskyy-hopes-us-democrats-bolster-ukraine-support_20261105.webp",
+        "alt": "Ukrainian President Volodymyr Zelenskyy addressing the public regarding international support and domestic challenges."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/zelenskyy-reacts-to-us-midterm-results/",
+      "tags": [
+        "Zelenskyy",
+        "Ukraine",
+        "US Midterms",
+        "Democrats",
+        "World Politics"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/11:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261105",
       "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261105",
@@ -3113,45 +3152,6 @@
         "Midterms",
         "USA",
         "Trump"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "news/articles/2026/11:2026-midterm-election-results-timing-congress_20261103",
-      "slug": "2026-midterm-election-results-timing-congress_20261103",
-      "title": "Why Control of Congress May Not Be Decided on Election Night in the 2026 Midterms",
-      "summary": "As voters head to the polls for the 2026 midterm elections, experts warn that control of the House and Senate may remain unclear on election night, pointing to close races and cautioning against premature claims of fraud.",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "siyaset",
-      "topic_label": "Siyaset",
-      "country": "USA",
-      "language": "en",
-      "language_label": "English",
-      "section": "news/articles",
-      "section_name": "US News",
-      "url_prefix": "news/articles/2026/11",
-      "date": "03.11.2026 17:12",
-      "date_iso": "2026-11-03",
-      "published_at": "2026-11-03T17:12:58+03:00",
-      "url": "/news/articles/2026/11/2026-midterm-election-results-timing-congress_20261103/",
-      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/2026-midterm-election-results-timing-congress_20261103/",
-      "detail_json_url": "/data/details/news/articles/2026/11/2026-midterm-election-results-timing-congress_20261103.json",
-      "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/2026-midterm-election-results-timing-congress_20261103.webp",
-      "image_alt": "Election workers sorting and counting ballots in a tabulation center.",
-      "image": {
-        "url": "https://mansetradar.com.tr/news/articles/2026/11/images/2026-midterm-election-results-timing-congress_20261103.webp",
-        "alt": "Election workers sorting and counting ballots in a tabulation center."
-      },
-      "source_name": "Home - CBSNews.com",
-      "source_url": "https://www.cbsnews.com/news/2026-midterm-elections-race-call-timing/",
-      "tags": [
-        "2026 midterms",
-        "election results",
-        "Congress",
-        "voting security",
-        "election misinformation"
       ],
       "quality_score": 86,
       "review_status": "published"
