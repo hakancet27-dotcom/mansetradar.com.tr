@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-06T00:00:00+00:00",
-    "article_count": 3228,
+    "article_count": 3229,
     "schema_version": 2
   },
   "hero": [
@@ -802,6 +802,45 @@
     }
   ],
   "latest": [
+    {
+      "id": "news/articles/2026/11:matthew-farwell-sandra-birchmore-trial-key-moments_20261106",
+      "slug": "matthew-farwell-sandra-birchmore-trial-key-moments_20261106",
+      "title": "Jury Deliberates in Murder Trial of Ex-Cop Matthew Farwell Over Sandra Birchmore's Death",
+      "summary": "A federal jury is now deliberating the fate of former Massachusetts police officer Matthew Farwell, who is accused by prosecutors of murdering 23-year-old Sandra Birchmore and her unborn son in 2021 after years of sexual abuse.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "gundem",
+      "topic_label": "Gündem",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/11",
+      "date": "06.11.2026 23:29",
+      "date_iso": "2026-11-06",
+      "published_at": "2026-11-06T23:29:09+03:00",
+      "url": "/news/articles/2026/11/matthew-farwell-sandra-birchmore-trial-key-moments_20261106/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/matthew-farwell-sandra-birchmore-trial-key-moments_20261106/",
+      "detail_json_url": "/data/details/news/articles/2026/11/matthew-farwell-sandra-birchmore-trial-key-moments_20261106.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/matthew-farwell-sandra-birchmore-trial-key-moments_20261106.webp",
+      "image_alt": "U.S. District Court in Boston where the Matthew Farwell trial was held",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/11/images/matthew-farwell-sandra-birchmore-trial-key-moments_20261106.webp",
+        "alt": "U.S. District Court in Boston where the Matthew Farwell trial was held"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/matthew-farwell-trial-sandra-birchmore-key-moments/",
+      "tags": [
+        "Matthew Farwell",
+        "Sandra Birchmore",
+        "Boston",
+        "Crime",
+        "Massachusetts"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/11:trumptan-secim-yenilgisi-sonrasi-ilk-hamle-susie-wiles-gorevden-alindi_20261106",
       "slug": "trumptan-secim-yenilgisi-sonrasi-ilk-hamle-susie-wiles-gorevden-alindi_20261106",
@@ -3119,46 +3158,6 @@
         "Esenyurt",
         "Esenyurt haberleri",
         "İstanbul"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/11:abd-ara-secimleri-sonrasi-trump-iran-politikasi-3-ocak_20261104",
-      "slug": "abd-ara-secimleri-sonrasi-trump-iran-politikasi-3-ocak_20261104",
-      "title": "ABD Araç Seçimleri Sonrası Kritik Eşik: Trump İçin 3 Ocak Tarihi Neden Önemli?",
-      "summary": "ABD'de Başkan Donald Trump'ın kalan görev süresini ve Orta Doğu dengelerini etkileyen ara seçimlerde Demokratlar Kongre'nin iki kanadında da çoğunluğu elde etti. Seçim sonuçlarını değerlendiren Trump İran savaşının kayıplarında etkili olduğunu kabul ederken...",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "siyaset",
-      "topic_label": "Siyaset",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/11",
-      "date": "04.11.2026 15:30",
-      "date_iso": "2026-11-04",
-      "published_at": "2026-11-04T15:30:28+03:00",
-      "url": "/articles/2026/11/abd-ara-secimleri-sonrasi-trump-iran-politikasi-3-ocak_20261104/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/11/abd-ara-secimleri-sonrasi-trump-iran-politikasi-3-ocak_20261104/",
-      "detail_json_url": "/data/details/articles/2026/11/abd-ara-secimleri-sonrasi-trump-iran-politikasi-3-ocak_20261104.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/11/images/abd-ara-secimleri-sonrasi-trump-iran-politikasi-3-ocak_20261104.webp",
-      "image_alt": "ABD ara seçim sonuçları ve Trump'ın İran politikası",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/11/images/abd-ara-secimleri-sonrasi-trump-iran-politikasi-3-ocak_20261104.webp",
-        "alt": "ABD ara seçim sonuçları ve Trump'ın İran politikası"
-      },
-      "source_name": "Hürriyet",
-      "source_url": "https://www.hurriyet.com.tr/dunya/tehlikeli-denklem-3-ocak-kirilma-tarihi-plan-degisti-iste-son-koz-43365500",
-      "tags": [
-        "ABD",
-        "Donald Trump",
-        "Seçim",
-        "İran",
-        "Kongre",
-        "Orta Doğu"
       ],
       "quality_score": 86,
       "review_status": "published"
