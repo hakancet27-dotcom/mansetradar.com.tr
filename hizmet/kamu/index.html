@@ -145,177 +145,42 @@
       <h2 style="margin:0; font-size:inherit; font-weight:inherit;">💧 Canlı İSKİ Su Kesintisi Bildirimleri (1)</h2>
       <a href="tel:185" style="color:var(--red); text-decoration:none; font-size:0.9rem;">📞 Alo 185 Su Arıza Ara →</a>
     </div>
-    
+    <div class="kamu-district-chips" style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px;"><button type="button" class="kamu-chip iski-chip active" onclick="filterIskiDistrict('all', this)">Tüm İlçeler (1)</button><button type="button" class="kamu-chip iski-chip" onclick="filterIskiDistrict('arnavutkoy', this)">Arnavutköy (1)</button></div>
     <div class="outages-grid" id="iski-outages-grid">
 
-          <div class="outage-card normal">
-            <div class="outage-badge">💧 İSKİ Şebeke Durumu</div>
-            <div class="outage-status ok">🟢 Normal Akış</div>
-            <h3 class="outage-title">Tüm İlçelerde Şebeke Suyu Normal</h3>
-            <p class="outage-desc">İstanbul genelinde ana iletim hatlarında plansız büyük bir su arızası bulunmamaktadır.</p>
-            <div class="outage-actions">
-              <a href="tel:185" class="btn-action">📞 Alo 185 Danışma</a>
-            </div>
-          </div>
+              <div class="outage-card iski" data-district="arnavutkoy">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+                  <span class="outage-badge">💧 İSKİ Su Arızası</span>
+                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 17/10/2026 14:30</span>
+                </div>
+                <h3 class="outage-title">📍 Arnavutköy İlçesi</h3>
+                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
+                  🏘️ Taşoluk <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">1 Mahalle</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #10000513775</div>
+                <p class="outage-desc">İçme suyu hatlarında meydana gelen arıza sebebıyle 100 MM çaplı şebeke hattı arızası.</p>
+                <div class="outage-actions">
+                  <a href="tel:185" class="btn-action">📞 Alo 185 İSKİ Arıza Bildir</a>
+                </div>
+              </div>
     </div>
 
     <div class="section-heading">
-      <h2 style="margin:0; font-size:inherit; font-weight:inherit;">⚡ Canlı BEDAŞ Elektrik Kesintileri &amp; İş Emirleri (10)</h2>
+      <h2 style="margin:0; font-size:inherit; font-weight:inherit;">⚡ Canlı BEDAŞ Elektrik Kesintileri &amp; İş Emirleri (1)</h2>
       <a href="tel:186" style="color:var(--red); text-decoration:none; font-size:0.9rem;">📞 Alo 186 Elektrik Arıza Ara →</a>
     </div>
-    <div class="kamu-district-chips" style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px;"><button type="button" class="kamu-chip bedas-chip active" onclick="filterKamuDistrict('all', this)">Tüm İlçeler (10)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('bagcilar', this)">Bağcılar (1)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('basaksehir', this)">Başakşehir (1)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('besiktas', this)">Beşiktaş (1)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('eyupsultan', this)">Eyüpsultan (1)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('gungoren', this)">Güngören (1)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('silivri', this)">Silivri (2)</button><button type="button" class="kamu-chip bedas-chip" onclick="filterKamuDistrict('sisli', this)">Şişli (1)</button></div>
+    
     <div class="outages-grid" id="bedas-outages-grid">
 
-              <div class="outage-card bedas" data-district="bagcilar">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
-                  <span class="outage-badge">⚡ Bildirimli Bakım/Yatırım</span>
-                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-11-07 17:00</span>
-                </div>
-                <h3 class="outage-title">📍 Bağcılar İlçesi</h3>
-                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
-                  🏘️ Yenimahalle 
-                </div>
-                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4967930</div>
-                <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
-                </div>
-              </div>
-              <div class="outage-card bedas" data-district="basaksehir">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
-                  <span class="outage-badge">⚡ Bildirimsiz</span>
-                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-11-07 15:00</span>
-                </div>
-                <h3 class="outage-title">📍 Başakşehir İlçesi</h3>
-                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
-                  🏘️ Bahçeşehir 1. Kısım <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">3 Trafo Bölgesi</span>
-                </div>
-                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4968294</div>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 2 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
-                </div>
-              </div>
-              <div class="outage-card bedas" data-district="besiktas">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
-                  <span class="outage-badge">⚡ Bildirimsiz</span>
-                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-11-07 14:32</span>
-                </div>
-                <h3 class="outage-title">📍 Beşiktaş İlçesi</h3>
-                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
-                  🏘️ Konaklar <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">5 Trafo Bölgesi</span>
-                </div>
-                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4968034</div>
-                <p class="outage-desc">Şebeke arızası, ekip çalışıyor. Yaklaşık 1 saat içerisinde enerji verilmesi öngörülmektedir.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
-                </div>
-              </div>
-              <div class="outage-card bedas" data-district="eyupsultan">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
-                  <span class="outage-badge">⚡ Bildirimli Bakım/Yatırım</span>
-                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-11-07 15:14</span>
-                </div>
-                <h3 class="outage-title">📍 Eyüpsultan İlçesi</h3>
-                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
-                  🏘️ Merkez 
-                </div>
-                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4968220</div>
-                <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
-                </div>
-              </div>
-              <div class="outage-card bedas" data-district="gungoren">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
-                  <span class="outage-badge">⚡ Bildirimli Bakım/Yatırım</span>
-                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-11-07 15:00</span>
-                </div>
-                <h3 class="outage-title">📍 Güngören İlçesi</h3>
-                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
-                  🏘️ Merkez 
-                </div>
-                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4968368</div>
-                <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
-                </div>
-              </div>
-              <div class="outage-card bedas" data-district="silivri">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
-                  <span class="outage-badge">⚡ Bildirimli Bakım/Yatırım</span>
-                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-11-07 13:10</span>
-                </div>
-                <h3 class="outage-title">📍 Silivri İlçesi</h3>
-                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
-                  🏘️ Sancaktepe 
-                </div>
-                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4968094</div>
-                <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
-                </div>
-              </div>
-              <div class="outage-card bedas" data-district="silivri">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
-                  <span class="outage-badge">⚡ Bildirimli Bakım/Yatırım</span>
-                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-11-07 14:10</span>
-                </div>
-                <h3 class="outage-title">📍 Silivri İlçesi</h3>
-                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
-                  🏘️ Kavaklı, Yeni <span style="background:#e0f2fe; color:#0369a1; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:4px; margin-left:6px;">19 Trafo Bölgesi</span>
-                </div>
-                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4968208</div>
-                <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
-                </div>
-              </div>
-              <div class="outage-card bedas" data-district="istanbul-avrupa-yakasi">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
-                  <span class="outage-badge">⚡ Bildirimli Bakım/Yatırım</span>
-                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-11-07 14:12</span>
-                </div>
-                <h3 class="outage-title">📍 İstanbul Avrupa Yakası İlçesi</h3>
-                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
-                  🏘️ Belirtilen Bölgeler 
-                </div>
-                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4968249</div>
-                <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
-                </div>
-              </div>
-              <div class="outage-card bedas" data-district="istanbul-avrupa-yakasi">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
-                  <span class="outage-badge">⚡ Bildirimli Bakım/Yatırım</span>
-                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-11-07 16:30</span>
-                </div>
-                <h3 class="outage-title">📍 İstanbul Avrupa Yakası İlçesi</h3>
-                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
-                  🏘️ Belirtilen Bölgeler 
-                </div>
-                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4968270</div>
-                <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
-                </div>
-              </div>
-              <div class="outage-card bedas" data-district="sisli">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
-                  <span class="outage-badge">⚡ Bildirimli Bakım/Yatırım</span>
-                  <span class="outage-status est" style="margin-bottom:0;">⏱️ Bitiş: 2026-11-07 17:00</span>
-                </div>
-                <h3 class="outage-title">📍 Şişli İlçesi</h3>
-                <div style="font-size:0.92rem; font-weight:700; color:#0f172a; margin:4px 0 6px;">
-                  🏘️ Feriköy 
-                </div>
-                <div style="font-size:0.8rem; color:#64748b; margin-bottom:8px; font-weight:600;">İş Emri #4967994</div>
-                <p class="outage-desc">Bildirimli Kesinti: Bakım/Yatırım Çalışması Sebebi ile İş Sağlığı ve Güvenliği’ni de gözeterek elektrik kesintisi yapılmaktadır.</p>
-                <div class="outage-actions">
-                  <a href="tel:186" class="btn-action">📞 Alo 186 BEDAŞ Arıza Ara</a>
-                </div>
-              </div>
+          <div class="outage-card normal">
+            <div class="outage-badge">⚡ BEDAŞ Şebeke Durumu</div>
+            <div class="outage-status ok">🟢 Kesinti Bildirilmedi</div>
+            <h3 class="outage-title">BEDAŞ Bölgesinde Şebeke Normal</h3>
+            <p class="outage-desc">Avrupa yakasında kayıtlı büyük çaplı acil kesinti iş emri bulunmamaktadır.</p>
+            <div class="outage-actions">
+              <a href="tel:186" class="btn-action">📞 Alo 186 Elektrik Danışma</a>
+            </div>
+          </div>
     </div>
 
     <div class="section-heading">
