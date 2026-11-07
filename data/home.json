@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-07T00:00:00+00:00",
-    "article_count": 3256,
+    "article_count": 3257,
     "schema_version": 2
   },
   "hero": [
@@ -796,6 +796,45 @@
     }
   ],
   "latest": [
+    {
+      "id": "news/articles/2026/11:paraguay-president-santiago-pena-house-arrest-ueno-bank_20261107",
+      "slug": "paraguay-president-santiago-pena-house-arrest-ueno-bank_20261107",
+      "title": "Paraguay President Santiago Peña Placed Under House Arrest Following Massive Bank Collapse",
+      "summary": "Paraguayan President Santiago Peña has been placed under house arrest and removed from office by the Senate following the sudden collapse of Ueno Bank, which locked nearly half the country's population out of their accounts and triggered a severe political...",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/11",
+      "date": "07.11.2026 15:59",
+      "date_iso": "2026-11-07",
+      "published_at": "2026-11-07T15:59:14+03:00",
+      "url": "/news/articles/2026/11/paraguay-president-santiago-pena-house-arrest-ueno-bank_20261107/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/paraguay-president-santiago-pena-house-arrest-ueno-bank_20261107/",
+      "detail_json_url": "/data/details/news/articles/2026/11/paraguay-president-santiago-pena-house-arrest-ueno-bank_20261107.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/paraguay-president-santiago-pena-house-arrest-ueno-bank_20261107.webp",
+      "image_alt": "Government buildings in Asuncion, Paraguay during the political crisis.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/11/images/paraguay-president-santiago-pena-house-arrest-ueno-bank_20261107.webp",
+        "alt": "Government buildings in Asuncion, Paraguay during the political crisis."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/news/paraguay-president-arrest-bank-ueno-collapse/",
+      "tags": [
+        "Paraguay",
+        "Santiago Peña",
+        "Ueno Bank",
+        "World News",
+        "Impeachment"
+      ],
+      "quality_score": 100,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/11:disisleri-bakani-hakan-fidan-turkiye-surdurulebilir-diplomasiyi-saglamaya-calisi_20261107",
       "slug": "disisleri-bakani-hakan-fidan-turkiye-surdurulebilir-diplomasiyi-saglamaya-calisi_20261107",
@@ -3109,47 +3148,6 @@
         "Sermaye Piyasası"
       ],
       "quality_score": 76,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/11:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261105",
-      "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261105",
-      "title": "İstanbul Şehir Bülteni (5 Kasım 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu",
-      "summary": "5 Kasım 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 134 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "topic_slug": "kamu",
-      "topic_label": "Kamu Hizmetleri",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "tr",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/11",
-      "date": "05.11.2026",
-      "date_iso": "2026-11-05",
-      "published_at": "2026-11-05T20:54:10+03:00",
-      "url": "/articles/2026/11/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261105/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/11/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261105/",
-      "detail_json_url": "/data/details/articles/2026/11/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261105.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-kapak.webp",
-      "image_alt": "5 Kasım 2026 İstanbul Şehir Bülteni ve 39 İlçe Nöbetçi Eczaneler",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-kapak.webp",
-        "alt": "5 Kasım 2026 İstanbul Şehir Bülteni ve 39 İlçe Nöbetçi Eczaneler"
-      },
-      "source_name": "ManşetRadar",
-      "source_url": "",
-      "tags": [
-        "İstanbul",
-        "Nöbetçi Eczaneler",
-        "İSKİ",
-        "Baraj Doluluk",
-        "BEDAŞ",
-        "İETT",
-        "Son Dakika"
-      ],
-      "quality_score": 95,
       "review_status": "published"
     }
   ]
