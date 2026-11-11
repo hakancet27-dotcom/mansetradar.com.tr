@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <!-- Google tag (gtag.js) -->
@@ -2208,31 +2208,25 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
     </div>
   </div>
 
-  <header class="site-header">
+    <header class="site-header">
     <div class="inner">
-      <a href="./" class="logo" aria-label="Latest US News">
+      <a href="./" class="logo" aria-label="MANŞETRADAR US News">
         <div class="logo-icon">M</div>
         <div class="logo-text">
-          <strong>mansetradar.com.tr</strong>
-          <span>US News Platform</span>
+          <strong>MANŞETRADAR</strong>
+          <span>Independent News Portal</span>
         </div>
       </a>
-      <div class="header-search" role="search" aria-label="Latest US News search">
+      <div class="header-search" role="search" aria-label="Search US News">
         <span class="search-icon" aria-hidden="true">&#128269;</span>
         <input id="news-search-input" type="search" placeholder="Search headlines, topics, or dates" autocomplete="off">
         <button id="news-search-clear" type="button" hidden>Clear</button>
       </div>
-      <div class="market-strip" aria-label="Delayed reference data">
-        <span class="market-label">Markets</span>
+      <div class="market-strip" aria-label="Markets">
         <span class="market-item up" id="market-sp500-item">
           <span class="market-name">S&amp;P 500</span>
           <strong class="market-value" id="market-sp500">5,762.48</strong>
           <span class="market-change up" id="market-sp500-change">+0.35%</span>
-        </span>
-        <span class="market-item up" id="market-dow-item">
-          <span class="market-name">Dow Jones</span>
-          <strong class="market-value" id="market-dow">42,330.15</strong>
-          <span class="market-change up" id="market-dow-change">+0.22%</span>
         </span>
         <span class="market-item up" id="market-nasdaq-item">
           <span class="market-name">Nasdaq</span>
@@ -2244,15 +2238,28 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           <strong class="market-value" id="market-eurusd">1.0852</strong>
           <span class="market-change down" id="market-eurusd-change">-0.14%</span>
         </span>
-        <span class="market-item up" id="market-gold-item">
-          <span class="market-name">Gold</span>
-          <strong class="market-value" id="market-gold">$2,662.10</strong>
-          <span class="market-change up" id="market-gold-change">+0.55%</span>
-        </span>
-        <span class="market-status" id="market-status">Delayed reference data</span>
       </div>
     </div>
   </header>
+
+  <div class="trending-bar" aria-label="Live Services and Hot Trends">
+    <div class="inner">
+      <div class="trending-services">
+        <a href="/standings.html" class="trending-item service-item">⚽ Standings</a>
+        <a href="/weather.html?city=New+York" class="trending-item service-item">☀️ Weather</a>
+        <a href="/new-york/#transit" class="trending-item service-item">🚇 MTA Live</a>
+        <a href="/new-york/#pharmacies" class="trending-item service-item">💊 24/7 Rx</a>
+        <a href="/news/#markets" class="trending-item service-item">📈 Markets</a>
+      </div>
+      <span class="trending-divider" aria-hidden="true"></span>
+      <span class="trending-label">🔥 Hot News:</span>
+      <div class="trending-items">
+        <a href="./#top-stories" class="trending-item">Live Updates: Today's Most Important Headlines</a>
+        <a href="./#latest" class="trending-item">Economy & Markets in Focus</a>
+        <a href="/new-york/" class="trending-item">NYC Metropolitan Desk & Boroughs</a>
+      </div>
+    </div>
+  </div>
 
   <nav class="breaking" aria-label="News categories">
     <div class="inner">

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="de">
 <head>
   <!-- Google tag (gtag.js) -->
@@ -2208,22 +2208,21 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
     </div>
   </div>
 
-  <header class="site-header">
+    <header class="site-header">
     <div class="inner">
-      <a href="./" class="logo" aria-label="Aktuelle Deutschland Nachrichten">
+      <a href="./" class="logo" aria-label="MANŞETRADAR Deutschland Nachrichten">
         <div class="logo-icon">M</div>
         <div class="logo-text">
-          <strong>mansetradar.com.tr</strong>
-          <span>Deutschland Nachrichten</span>
+          <strong>MANŞETRADAR</strong>
+          <span>Unabhängiges Nachrichtenportal</span>
         </div>
       </a>
-      <div class="header-search" role="search" aria-label="Aktuelle Deutschland Nachrichten search">
+      <div class="header-search" role="search" aria-label="Deutschland Nachrichten Suche">
         <span class="search-icon" aria-hidden="true">&#128269;</span>
         <input id="news-search-input" type="search" placeholder="Nach Schlagzeilen, Themen oder Datum suchen" autocomplete="off">
         <button id="news-search-clear" type="button" hidden>Löschen</button>
       </div>
-      <div class="market-strip" aria-label="Verzögerte Referenzdaten">
-        <span class="market-label">Märkte</span>
+      <div class="market-strip" aria-label="Märkte">
         <span class="market-item up" id="market-dax-item">
           <span class="market-name">DAX 40</span>
           <strong class="market-value" id="market-dax">19.380,45</strong>
@@ -2239,20 +2238,28 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           <strong class="market-value" id="market-eurusd">1,0852</strong>
           <span class="market-change down" id="market-eurusd-change">-0,14%</span>
         </span>
-        <span class="market-item up" id="market-brent-item">
-          <span class="market-name">Brent Öl</span>
-          <strong class="market-value" id="market-brent">$71,85</strong>
-          <span class="market-change up" id="market-brent-change">+0,65%</span>
-        </span>
-        <span class="market-item up" id="market-bund-item">
-          <span class="market-name">Bund 10J</span>
-          <strong class="market-value" id="market-bund">2,21%</strong>
-          <span class="market-change up" id="market-bund-change">+0,02%</span>
-        </span>
-        <span class="market-status" id="market-status">Verzögerte Referenzdaten</span>
       </div>
     </div>
   </header>
+
+  <div class="trending-bar" aria-label="Live-Dienste und aktuelle Trends">
+    <div class="inner">
+      <div class="trending-services">
+        <a href="/standings.html" class="trending-item service-item">⚽ Bundesliga</a>
+        <a href="/berlin/wetter.html" class="trending-item service-item">☀️ Berliner Wetter</a>
+        <a href="/berlin/#verkehr" class="trending-item service-item">🚇 BVG Live</a>
+        <a href="/berlin/#apotheken" class="trending-item service-item">💊 Notdienst</a>
+        <a href="/nachrichten/#wirtschaft" class="trending-item service-item">📈 Märkte</a>
+      </div>
+      <span class="trending-divider" aria-hidden="true"></span>
+      <span class="trending-label">🔥 Aktuell:</span>
+      <div class="trending-items">
+        <a href="./#top-stories" class="trending-item">Schlagzeilen des Tages im Überblick</a>
+        <a href="./#latest" class="trending-item">Wirtschaft & Finanzen aktuell</a>
+        <a href="/berlin/" class="trending-item">Berlin Portal & 12 Bezirke</a>
+      </div>
+    </div>
+  </div>
 
   <nav class="breaking" aria-label="News categories">
     <div class="inner">

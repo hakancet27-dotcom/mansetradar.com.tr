@@ -1,4 +1,4 @@
-/* ==========================================================================
+﻿/* ==========================================================================
    CORPORATE UNIFIED HEADER & NICHE DESK SYSTEM (TR / EN / DE)
    Version: 2026-10-15
    ========================================================================== */
@@ -208,6 +208,7 @@ header .inner > nav {
   display: block !important;
   font-size: 1.35rem !important;
   font-weight: 900 !important;
+  text-transform: uppercase !important;
   letter-spacing: -0.5px !important;
   color: var(--header-text) !important;
   line-height: 1.05 !important;
