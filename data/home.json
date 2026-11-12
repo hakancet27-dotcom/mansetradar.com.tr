@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-12T00:00:00+00:00",
-    "article_count": 3446,
+    "article_count": 3447,
     "schema_version": 2
   },
   "hero": [
@@ -24,7 +24,7 @@
       "url_prefix": "articles/2026/11",
       "date": "12.11.2026",
       "date_iso": "2026-11-12",
-      "published_at": "2026-11-12T01:15:10+03:00",
+      "published_at": "2026-11-12T05:13:26+03:00",
       "url": "/articles/2026/11/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261112/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/11/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261112/",
       "detail_json_url": "/data/details/articles/2026/11/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261112.json",
@@ -789,6 +789,45 @@
   ],
   "latest": [
     {
+      "id": "news/articles/2026/11:dangerous-storms-midwest-winter-weather-east_20261112",
+      "slug": "dangerous-storms-midwest-winter-weather-east_20261112",
+      "title": "Dangerous Storms Impact the Midwest While Winter Weather Hits the East",
+      "summary": "A powerful weather system has triggered dangerous storms across the Midwest while winter weather conditions begin impacting regions in the East.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/11",
+      "date": "12.11.2026 05:59",
+      "date_iso": "2026-11-12",
+      "published_at": "2026-11-12T05:59:04+03:00",
+      "url": "/news/articles/2026/11/dangerous-storms-midwest-winter-weather-east_20261112/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/dangerous-storms-midwest-winter-weather-east_20261112/",
+      "detail_json_url": "/data/details/news/articles/2026/11/dangerous-storms-midwest-winter-weather-east_20261112.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/dangerous-storms-midwest-winter-weather-east_20261112.webp",
+      "image_alt": "Dangerous storms in the Midwest and winter weather hitting the East",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/11/images/dangerous-storms-midwest-winter-weather-east_20261112.webp",
+        "alt": "Dangerous storms in the Midwest and winter weather hitting the East"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/dangerous-storms-midwest-while-winter-weather-hits-east/",
+      "tags": [
+        "weather",
+        "Midwest storms",
+        "winter weather",
+        "CBS News",
+        "severe weather"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
+    {
       "id": "articles/2026/11:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261112",
       "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261112",
       "title": "İstanbul Şehir Bülteni (12 Kasım 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu",
@@ -805,7 +844,7 @@
       "url_prefix": "articles/2026/11",
       "date": "12.11.2026",
       "date_iso": "2026-11-12",
-      "published_at": "2026-11-12T01:15:10+03:00",
+      "published_at": "2026-11-12T05:13:26+03:00",
       "url": "/articles/2026/11/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261112/",
       "canonical_url": "https://mansetradar.com.tr/articles/2026/11/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261112/",
       "detail_json_url": "/data/details/articles/2026/11/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261112.json",
@@ -3103,45 +3142,6 @@
         "Donald Trump"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "nachrichten/artikel/2026/11:bund-kauft-anteil-an-panzerhersteller-knds_20261110",
-      "slug": "bund-kauft-anteil-an-panzerhersteller-knds_20261110",
-      "title": "Bund kauft Anteil an Panzerhersteller KNDS für 6,6 Milliarden Euro",
-      "summary": "Für 6,6 Milliarden Euro übernimmt der Bund einen 50-Prozent-Anteil am deutsch-französischen Rüstungskonzern KNDS. Mit dem Kaufvertrag, der noch im November abgeschlossen werden soll, will die Bundesregierung den Zugriff auf wichtige Schlüsseltechnologien un...",
-      "category": "Ekonomi",
-      "category_slug": "ekonomi",
-      "topic_slug": "ekonomi",
-      "topic_label": "Ekonomi",
-      "country": "Germany",
-      "language": "de",
-      "language_label": "German",
-      "section": "nachrichten/artikel",
-      "section_name": "Deutschland Nachrichten",
-      "url_prefix": "nachrichten/artikel/2026/11",
-      "date": "10.11.2026 07:20",
-      "date_iso": "2026-11-10",
-      "published_at": "2026-11-10T07:20:54+03:00",
-      "url": "/nachrichten/artikel/2026/11/bund-kauft-anteil-an-panzerhersteller-knds_20261110/",
-      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/bund-kauft-anteil-an-panzerhersteller-knds_20261110/",
-      "detail_json_url": "/data/details/nachrichten/artikel/2026/11/bund-kauft-anteil-an-panzerhersteller-knds_20261110.json",
-      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/images/bund-kauft-anteil-an-panzerhersteller-knds_20261110.webp",
-      "image_alt": "Fertigung von gepanzerten Fahrzeugen in einer Produktionshalle",
-      "image": {
-        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/images/bund-kauft-anteil-an-panzerhersteller-knds_20261110.webp",
-        "alt": "Fertigung von gepanzerten Fahrzeugen in einer Produktionshalle"
-      },
-      "source_name": "DER SPIEGEL - Schlagzeilen",
-      "source_url": "https://www.spiegel.de/politik/deutschland/bund-kauft-anteil-an-panzerhersteller-knds-fuer-6-6-milliarden-euro-a-d5902cfc-42fc-4980-81f7-bbc078b8df29#ref=rss",
-      "tags": [
-        "KNDS",
-        "Bundeswehr",
-        "Rüstungsindustrie",
-        "Leopard",
-        "Bundesregierung"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]

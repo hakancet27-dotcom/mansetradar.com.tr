@@ -3,11 +3,50 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-12T00:00:00+00:00",
-    "article_count": 3446,
+    "article_count": 3447,
     "schema_version": 2,
     "section": "news-articles"
   },
   "articles": [
+    {
+      "id": "news/articles/2026/11:dangerous-storms-midwest-winter-weather-east_20261112",
+      "slug": "dangerous-storms-midwest-winter-weather-east_20261112",
+      "title": "Dangerous Storms Impact the Midwest While Winter Weather Hits the East",
+      "summary": "A powerful weather system has triggered dangerous storms across the Midwest while winter weather conditions begin impacting regions in the East.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/11",
+      "date": "12.11.2026 05:59",
+      "date_iso": "2026-11-12",
+      "published_at": "2026-11-12T05:59:04+03:00",
+      "url": "/news/articles/2026/11/dangerous-storms-midwest-winter-weather-east_20261112/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/dangerous-storms-midwest-winter-weather-east_20261112/",
+      "detail_json_url": "/data/details/news/articles/2026/11/dangerous-storms-midwest-winter-weather-east_20261112.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/dangerous-storms-midwest-winter-weather-east_20261112.webp",
+      "image_alt": "Dangerous storms in the Midwest and winter weather hitting the East",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/11/images/dangerous-storms-midwest-winter-weather-east_20261112.webp",
+        "alt": "Dangerous storms in the Midwest and winter weather hitting the East"
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/dangerous-storms-midwest-while-winter-weather-hits-east/",
+      "tags": [
+        "weather",
+        "Midwest storms",
+        "winter weather",
+        "CBS News",
+        "severe weather"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "news/articles/2026/11:2026-midterm-elections-uncalled-races-congress_20261111",
       "slug": "2026-midterm-elections-uncalled-races-congress_20261111",
