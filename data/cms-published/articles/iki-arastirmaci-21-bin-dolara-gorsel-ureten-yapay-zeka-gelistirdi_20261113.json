@@ -1,0 +1,84 @@
+{
+  "title": "İki Araştırmacı Sadece 21 Bin Dolar Bütçeyle Görsel Üreten Yapay Zekâ Geliştirdi",
+  "meta_title": "21 Bin Dolarla Görsel Üreten Yapay Zekâ Modeli Geliştirildi",
+  "meta_description": "Linum ekibinden iki araştırmacı, devasa bütçelere gerek duyulmadan sadece 21 bin dolar harcayarak görsel üretebilen Pyramid-JiT modelini geliştirdi.",
+  "discover_titles": [
+    "Sadece 21 Bin Dolara Görsel Üreten Yapay Zekâ Geliştirildi",
+    "Devasa Bütçelere Meydan Okuyan Yapay Zekâ Modeli P-JiT Duyuruldu",
+    "Araştırmacılar Düşük Maliyetle Görsel Üreten Yapay Zekâ Üretti"
+  ],
+  "slug": "iki-arastirmaci-21-bin-dolara-gorsel-ureten-yapay-zeka-gelistirdi_20261113",
+  "category": "Teknoloji",
+  "spot": "Linum ekibinden iki araştırmacı, devasa GPU kümeleri ve milyonlarca dolarlık bütçeler gerektiren sektöre karşı çıkarak, sadece 21 bin dolar harcama ile görsel üretebilen 2,18 milyar parametreli Pyramid-JiT modelini geliştirdi ve açık ağırlıklarıyla araştırmacılara sundu.",
+  "content_html": "<h2>Önemli Gelişmeler</h2> <p>Yapay zekâ modellerini eğitmek geleneksel olarak devasa GPU kümelerini ve uzun eğitim süreçlerini zorunlu kıldığı için milyonlarca dolarlık ciddi bütçeler gerektiriyor. Ancak Linum ekibini oluşturan iki araştırmacı, bu ezberi bozan çığır açıcı bir çalışmaya imza attı. İkili, yalnızca 21 bin dolar harcayarak görsel üretebilme yeteneğine sahip bir yapay zekâ modeli geliştirmeyi başardı. Pyramid-JiT (P-JiT) adı verilen 2,18 milyar parametreli bu yeni model geçtiğimiz günlerde yayınlanırken, Linum ekibi modelin açık ağırlıklarını da geliştiricilerin ve araştırmacıların kullanımına açtı.</p> <p>P-JiT modelinin son derece düşük bir bütçeyle hayata geçirilebilmesinin temel sebebi, Stable Diffusion ve FLUX gibi yaygın popüler görsel üretim araçlarından farklı bir mimari tercih etmesi olarak öne çıkıyor. Geleneksel sistemler görüntüleri doğrudan pikseller yerine VAE (Variational Autoencoder) sistemiyle latent uzaya dönüştürüp sıkıştırırken, P-JiT bu ara aşamaya ihtiyaç duymadan doğrudan piksel uzayında çalışıyor. Görüntüleri 32x32 piksellik segmentlere ayıran model, her segmenti sıkıştırarak 3:1 oranında verimlilik sağlıyor. Piramit mimarisi sayesinde önce düşük çözünürlüklü taslaklar oluşturan yapı, süreci aşamalı olarak yüksek çözünürlüğe taşıyor.</p> <h2>Öne Çıkan Noktalar</h2> <ul> <li>Linum ekibinden iki araştırmacı, sadece 21 bin dolar bütçeyle 2,18 milyar parametreli görsel üreten P-JiT modelini geliştirdi.</li> <li>Model, geleneksel sistemlerden farklı olarak ara sıkıştırma adımlarını atlayıp doğrudan piksel uzayında ve segment tabanlı çalışıyor.</li> <li>Geliştirilen modelin açık ağırlıkları, araştırmacıların ve geliştiricilerin erişimine sunuldu.</li> </ul> <h2>Neden Önemli?</h2> <p>Yapay zekâ geliştirme maliyetlerinin devasa seviyelere ulaştığı bir dönemde, bu tarz düşük bütçeli ve verimli alternatiflerin ortaya çıkması sektörün geleceği açısından büyük önem taşıyor. Geleneksel Transformer modellerinde dikkat mekanizmasının hesaplama karmaşıklığı giriş dizisinin karesiyle artarken, P-JiT'nin benimsediği mimari yaklaşım özellikle yüksek çözünürlüklü görsellerde eğitim ve üretim maliyetlerini ciddi ölçüde aşağı çekiyor. Bu durum, bağımsız araştırmacıların ve küçük ekiplerin de gelişmiş yapay zekâ teknolojilerine erişebilmesinin önünü açıyor.</p>",
+  "key_takeaways": [
+    "Linum ekibinden iki araştırmacı, devasa GPU kümeleri ve milyonlarca dolarlık bütçeler gerektiren sektöre karşı çıkarak, sadece..."
+  ],
+  "tags": [
+    "yapay zeka",
+    "Pyramid-JiT",
+    "Linum",
+    "teknoloji"
+  ],
+  "visual_keywords": [
+    "yapay zeka gorsel uretimi",
+    "teknoloji arastirmasi",
+    "bilgisayar ekraninda kodlar",
+    "veri analizi"
+  ],
+  "image_prompt": "A modern tech laboratory workspace with two researchers collaborating in front of monitors displaying neural network architectures and high-resolution AI-generated graphics,...",
+  "image_alt": "İki araştırmacı düşük bütçeli yapay zekâ modeli geliştirirken çalışıyor",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 3,
+  "word_count": 318,
+  "date": "13.11.2026 15:08",
+  "date_iso": "2026-11-13T15:08:54+03:00",
+  "published_at": "2026-11-13T15:08:54+03:00",
+  "flag": "TR",
+  "country": "Turkey",
+  "display_country": "Türkiye",
+  "image_url": "https://mansetradar.com.tr/articles/2026/11/images/iki-arastirmaci-21-bin-dolara-gorsel-ureten-yapay-zeka-gelistirdi_20261113.webp",
+  "real_image_required": true,
+  "real_image_status": "approved_real_image",
+  "image_kind": "licensed_real_photo",
+  "image_license_status": "source_provided",
+  "image_license_note": "RSS source image: DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+  "image_source_url": "https://www.donanimhaber.com/iki-arastirmaci-sadece-21-bin-dolara-yapay-zeka-gelistirdi--212866",
+  "image_provider": "rss",
+  "image_score": 90,
+  "image_query": "İki araştırmacı, sadece 21 bin dolar bütçeyle görsel üreten yapay zekâ geliştird",
+  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
+  "summary": "Linum ekibinden iki araştırmacı, devasa GPU kümeleri ve milyonlarca dolarlık bütçeler gerektiren sektöre karşı çıkarak, sadece 21 bin dolar harcama ile görsel üretebilen 2,18 milyar parametreli Pyramid-JiT modelini geliştirdi ve açık ağırlıklarıyla araştırmacılara sundu.",
+  "language": "Turkish",
+  "url_prefix": "articles/2026/11",
+  "source_language": "Turkish",
+  "target_language": "Turkish",
+  "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+  "source_url": "https://www.donanimhaber.com/iki-arastirmaci-sadece-21-bin-dolara-yapay-zeka-gelistirdi--212866",
+  "source_published_at": "2026-11-13T11:21:00+00:00",
+  "source_fact_score": 11,
+  "source_fact_word_count": 307,
+  "quality_score": 76,
+  "quality_status": "published",
+  "review_required": false,
+  "quality_flags": [
+    "short_article",
+    "generated_image"
+  ],
+  "quality_notes": [
+    "Metin hedefin altinda (318 kelime).",
+    "Haber stok/gercek fotograf yerine uretilmis gorsel kullaniyor."
+  ],
+  "quality_word_count": 318,
+  "indexed_on_home": true,
+  "source_image_url": "https://www.donanimhaber.com/images/images/haber/212866/1200x675iki-arastirmaci-sadece-21-bin-dolara-yapay-zeka-gelistirdi.jpg",
+  "image_storage": "local_webp_cache",
+  "image_localized_at": "2026-11-13T12:09:19Z",
+  "time": "11:21",
+  "public_url": "/articles/2026/11/iki-arastirmaci-21-bin-dolara-gorsel-ureten-yapay-zeka-gelistirdi_20261113/",
+  "source_json_path": "articles/2026/11/iki-arastirmaci-21-bin-dolara-gorsel-ureten-yapay-zeka-gelistirdi_20261113.json",
+  "cms_generated_from_monthly_source": true
+}

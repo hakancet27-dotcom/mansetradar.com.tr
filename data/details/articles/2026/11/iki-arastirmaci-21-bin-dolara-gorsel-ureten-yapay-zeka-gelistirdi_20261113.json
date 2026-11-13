@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "articles/2026/11:iki-arastirmaci-21-bin-dolara-gorsel-ureten-yapay-zeka-gelistirdi_20261113",
+    "slug": "iki-arastirmaci-21-bin-dolara-gorsel-ureten-yapay-zeka-gelistirdi_20261113",
+    "title": "İki Araştırmacı Sadece 21 Bin Dolar Bütçeyle Görsel Üreten Yapay Zekâ Geliştirdi",
+    "summary": "Linum ekibinden iki araştırmacı, devasa GPU kümeleri ve milyonlarca dolarlık bütçeler gerektiren sektöre karşı çıkarak, sadece 21 bin dolar harcama ile görsel üretebilen 2,18 milyar parametreli Pyramid-JiT modelini geliştirdi ve açık ağırlıklarıyla araştırm...",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "topic_slug": "teknoloji",
+    "topic_label": "Teknoloji",
+    "country": "Turkey",
+    "language": "tr",
+    "language_label": "Turkish",
+    "section": "articles",
+    "section_name": "Haberler",
+    "url_prefix": "articles/2026/11",
+    "date": "13.11.2026 15:08",
+    "date_iso": "2026-11-13",
+    "published_at": "2026-11-13T15:08:54+03:00",
+    "url": "/articles/2026/11/iki-arastirmaci-21-bin-dolara-gorsel-ureten-yapay-zeka-gelistirdi_20261113/",
+    "canonical_url": "https://mansetradar.com.tr/articles/2026/11/iki-arastirmaci-21-bin-dolara-gorsel-ureten-yapay-zeka-gelistirdi_20261113/",
+    "detail_json_url": "/data/details/articles/2026/11/iki-arastirmaci-21-bin-dolara-gorsel-ureten-yapay-zeka-gelistirdi_20261113.json",
+    "image_url": "https://mansetradar.com.tr/articles/2026/11/images/iki-arastirmaci-21-bin-dolara-gorsel-ureten-yapay-zeka-gelistirdi_20261113.webp",
+    "image_alt": "İki araştırmacı düşük bütçeli yapay zekâ modeli geliştirirken çalışıyor",
+    "image": {
+      "url": "https://mansetradar.com.tr/articles/2026/11/images/iki-arastirmaci-21-bin-dolara-gorsel-ureten-yapay-zeka-gelistirdi_20261113.webp",
+      "alt": "İki araştırmacı düşük bütçeli yapay zekâ modeli geliştirirken çalışıyor"
+    },
+    "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+    "source_url": "https://www.donanimhaber.com/iki-arastirmaci-sadece-21-bin-dolara-yapay-zeka-gelistirdi--212866",
+    "tags": [
+      "yapay zeka",
+      "Pyramid-JiT",
+      "Linum",
+      "teknoloji"
+    ],
+    "quality_score": 76,
+    "review_status": "published",
+    "content_html": "<h2>Önemli Gelişmeler</h2> <p>Yapay zekâ modellerini eğitmek geleneksel olarak devasa GPU kümelerini ve uzun eğitim süreçlerini zorunlu kıldığı için milyonlarca dolarlık ciddi bütçeler gerektiriyor. Ancak Linum ekibini oluşturan iki araştırmacı, bu ezberi bozan çığır açıcı bir çalışmaya imza attı. İkili, yalnızca 21 bin dolar harcayarak görsel üretebilme yeteneğine sahip bir yapay zekâ modeli geliştirmeyi başardı. Pyramid-JiT (P-JiT) adı verilen 2,18 milyar parametreli bu yeni model geçtiğimiz günlerde yayınlanırken, Linum ekibi modelin açık ağırlıklarını da geliştiricilerin ve araştırmacıların kullanımına açtı.</p> <p>P-JiT modelinin son derece düşük bir bütçeyle hayata geçirilebilmesinin temel sebebi, Stable Diffusion ve FLUX gibi yaygın popüler görsel üretim araçlarından farklı bir mimari tercih etmesi olarak öne çıkıyor. Geleneksel sistemler görüntüleri doğrudan pikseller yerine VAE (Variational Autoencoder) sistemiyle latent uzaya dönüştürüp sıkıştırırken, P-JiT bu ara aşamaya ihtiyaç duymadan doğrudan piksel uzayında çalışıyor. Görüntüleri 32x32 piksellik segmentlere ayıran model, her segmenti sıkıştırarak 3:1 oranında verimlilik sağlıyor. Piramit mimarisi sayesinde önce düşük çözünürlüklü taslaklar oluşturan yapı, süreci aşamalı olarak yüksek çözünürlüğe taşıyor.</p> <h2>Öne Çıkan Noktalar</h2> <ul> <li>Linum ekibinden iki araştırmacı, sadece 21 bin dolar bütçeyle 2,18 milyar parametreli görsel üreten P-JiT modelini geliştirdi.</li> <li>Model, geleneksel sistemlerden farklı olarak ara sıkıştırma adımlarını atlayıp doğrudan piksel uzayında ve segment tabanlı çalışıyor.</li> <li>Geliştirilen modelin açık ağırlıkları, araştırmacıların ve geliştiricilerin erişimine sunuldu.</li> </ul> <h2>Neden Önemli?</h2> <p>Yapay zekâ geliştirme maliyetlerinin devasa seviyelere ulaştığı bir dönemde, bu tarz düşük bütçeli ve verimli alternatiflerin ortaya çıkması sektörün geleceği açısından büyük önem taşıyor. Geleneksel Transformer modellerinde dikkat mekanizmasının hesaplama karmaşıklığı giriş dizisinin karesiyle artarken, P-JiT'nin benimsediği mimari yaklaşım özellikle yüksek çözünürlüklü görsellerde eğitim ve üretim maliyetlerini ciddi ölçüde aşağı çekiyor. Bu durum, bağımsız araştırmacıların ve küçük ekiplerin de gelişmiş yapay zekâ teknolojilerine erişebilmesinin önünü açıyor.</p>",
+    "meta_title": "21 Bin Dolarla Görsel Üreten Yapay Zekâ Modeli Geliştirildi",
+    "meta_description": "Linum ekibinden iki araştırmacı, devasa bütçelere gerek duyulmadan sadece 21 bin dolar harcayarak görsel üretebilen Pyramid-JiT modelini geliştirdi.",
+    "spot": "Linum ekibinden iki araştırmacı, devasa GPU kümeleri ve milyonlarca dolarlık bütçeler gerektiren sektöre karşı çıkarak, sadece 21 bin dolar harcama ile görsel üretebilen 2,18 milyar parametreli Pyramid-JiT modelini geliştirdi ve açık ağırlıklarıyla araştırmacılara sundu.",
+    "word_count": 275,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "Sadece 21 Bin Dolara Görsel Üreten Yapay Zekâ Geliştirildi",
+      "Devasa Bütçelere Meydan Okuyan Yapay Zekâ Modeli P-JiT Duyuruldu",
+      "Araştırmacılar Düşük Maliyetle Görsel Üreten Yapay Zekâ Üretti"
+    ],
+    "visual_keywords": [
+      "yapay zeka gorsel uretimi",
+      "teknoloji arastirmasi",
+      "bilgisayar ekraninda kodlar",
+      "veri analizi"
+    ]
+  }
+}
