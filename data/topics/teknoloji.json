@@ -3,12 +3,51 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-13T00:00:00+00:00",
-    "article_count": 3487,
+    "article_count": 3493,
     "schema_version": 2,
     "topic_slug": "teknoloji",
     "type": "topic"
   },
   "articles": [
+    {
+      "id": "articles/2026/11:yasak-ask-skandali-donald-trumba-uzandi-abd-baskani-azledilebilir_20261113",
+      "slug": "yasak-ask-skandali-donald-trumba-uzandi-abd-baskani-azledilebilir_20261113",
+      "title": "Yasak Aşk Skandalı Donald Trump'a Uzandı: ABD Başkanı Azledilebilir",
+      "summary": "Nvidia CEO'su Jensen Huang'ın Çin adına casuslukla suçlanan Alice Huang ile yaşadığı yasak aşk ve istifası küresel piyasaları sarstı. Skandalın ardından ABD Başkanı Donald Trump'ın görevinden azledilebileceği iddia edildi.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/11",
+      "date": "13.11.2026 11:27",
+      "date_iso": "2026-11-13",
+      "published_at": "2026-11-13T11:27:22+03:00",
+      "url": "/articles/2026/11/yasak-ask-skandali-donald-trumba-uzandi-abd-baskani-azledilebilir_20261113/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/11/yasak-ask-skandali-donald-trumba-uzandi-abd-baskani-azledilebilir_20261113/",
+      "detail_json_url": "/data/details/articles/2026/11/yasak-ask-skandali-donald-trumba-uzandi-abd-baskani-azledilebilir_20261113.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/11/images/yasak-ask-skandali-donald-trumba-uzandi-abd-baskani-azledilebilir_20261113.webp",
+      "image_alt": "Jensen Huang ve Donald Trump yasak aşk skandalı haberi görseli",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/11/images/yasak-ask-skandali-donald-trumba-uzandi-abd-baskani-azledilebilir_20261113.webp",
+        "alt": "Jensen Huang ve Donald Trump yasak aşk skandalı haberi görseli"
+      },
+      "source_name": "Hürriyet",
+      "source_url": "https://www.hurriyet.com.tr/dunya/yasak-ask-skandali-donald-trumpa-uzandi-abd-baskani-azledilebilir-43376631",
+      "tags": [
+        "Jensen Huang",
+        "Nvidia",
+        "Donald Trump",
+        "ABD",
+        "Teknoloji"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/11:spacex-abd-yapay-zeka-altyapisi-yatirim-74-milyar-dolar_20261112",
       "slug": "spacex-abd-yapay-zeka-altyapisi-yatirim-74-milyar-dolar_20261112",
