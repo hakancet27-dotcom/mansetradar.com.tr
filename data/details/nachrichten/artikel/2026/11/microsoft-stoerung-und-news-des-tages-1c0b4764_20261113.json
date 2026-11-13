@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "nachrichten/artikel/2026/11:microsoft-stoerung-und-news-des-tages-1c0b4764_20261113",
+    "slug": "microsoft-stoerung-und-news-des-tages-1c0b4764_20261113",
+    "title": "Massiver Microsoft-Ausfall und aktuelle politische Entwicklungen",
+    "summary": "Ein massiver Ausfall von Microsoft-Diensten hat Nutzer in 74 Ländern getroffen und den E-Mail-Verkehr lahmgelegt. Gleichzeitig sorgen politische Themen wie Vorkehrungen bei Gasmangel und Vorkommnisse im EU-Parlament für Schlagzeilen.",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "topic_slug": "teknoloji",
+    "topic_label": "Teknoloji",
+    "country": "Germany",
+    "language": "de",
+    "language_label": "German",
+    "section": "nachrichten/artikel",
+    "section_name": "Deutschland Nachrichten",
+    "url_prefix": "nachrichten/artikel/2026/11",
+    "date": "13.11.2026 19:37",
+    "date_iso": "2026-11-13",
+    "published_at": "2026-11-13T19:37:58+03:00",
+    "url": "/nachrichten/artikel/2026/11/microsoft-stoerung-und-news-des-tages-1c0b4764_20261113/",
+    "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/microsoft-stoerung-und-news-des-tages-1c0b4764_20261113/",
+    "detail_json_url": "/data/details/nachrichten/artikel/2026/11/microsoft-stoerung-und-news-des-tages-1c0b4764_20261113.json",
+    "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/images/microsoft-stoerung-und-news-des-tages-1c0b4764_20261113.webp",
+    "image_alt": "Computerbildschirm mit einer Fehlermeldung bei einem E-Mail-Dienst",
+    "image": {
+      "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/images/microsoft-stoerung-und-news-des-tages-1c0b4764_20261113.webp",
+      "alt": "Computerbildschirm mit einer Fehlermeldung bei einem E-Mail-Dienst"
+    },
+    "source_name": "DER SPIEGEL - Schlagzeilen",
+    "source_url": "https://www.spiegel.de/politik/deutschland/news-des-tages-stoerung-bei-microsoft-issa-rammo-im-eu-parlament-katherina-reiche-plant-notfall-gesetz-fuer-gasmangel-a-1c0b4764-61eb-438c-90aa-d262874a8fbf#ref=rss",
+    "tags": [
+      "Microsoft",
+      "Outlook",
+      "Störung",
+      "Wirtschaft",
+      "Technologie"
+    ],
+    "quality_score": 76,
+    "review_status": "published",
+    "content_html": "<h2>Wichtige Entwicklungen</h2> <p>Eine massive Störung bei Microsoft hat am Donnerstagabend und Freitag den Zugriff auf E-Mail- und Kommunikationsdienste in 74 Ländern erschwert. Knapp 130.000 Probleme wurden zunächst gemeldet, am Freitagmorgen waren es noch rund 4500. Neben Outlook waren auch Microsoft Teams, der KI-Assistent Copilot sowie die Online-Versionen von Word und Excel betroffen. Millionen wichtiger Nachrichten von Unternehmen blieben unverschickt oder ungelesen.</p> <p>Laut Microsoft griffen die Gegenmaßnahmen in der Nacht nicht wie erhofft. Es gebe jedoch keine Hinweise auf böswillige Aktivitäten. Ursache sei vielmehr ein Teil der Infrastruktur in mehreren Regionen gewesen, der einer erhöhten Auslastung ausgesetzt war. Eine genaue Untersuchung soll in einem Nachbericht folgen.</p> <h2>Zentrale Punkte</h2> <ul> <li><strong>Globale Störung:</strong> Microsoft-Dienste wie Outlook und Teams in 74 Ländern von Ausfällen betroffen.</li> <li><strong>Wirtschaftliche Auswirkungen:</strong> Millionen geschäftliche E-Mails konnten zeitweise nicht verschickt werden.</li> <li><strong>Ursache:</strong> Microsoft gibt erhöhte Auslastung in mehreren Regionen als Grund an; keine Hinweise auf Angriffe.</li> </ul> <h2>Warum das wichtig ist</h2> <p>Der Vorfall zeigt die enorme Abhängigkeit moderner Unternehmensstrukturen von zentralisierten Cloud- und Kommunikationsdiensten. Wenn zentrale Systeme wie Outlook und Teams ausfallen, sind Geschäftsprozesse in zahlreichen Branchen unmittelbar beeinträchtigt. Der genaue Schaden für die Wirtschaft wird derzeit analysiert, unterstreicht jedoch die Verwundbarkeit digitaler Infrastrukturen im Alltag.</p>",
+    "meta_title": "Microsoft-Störung, EU-Parlament und Gasmangel: News des...",
+    "meta_description": "Massive Microsoft-Störung legt Outlook in 74 Ländern lahm. Dazu Neuigkeiten aus dem EU-Parlament um Issa Rammo und Pläne für ein Notfall-Gesetz.",
+    "spot": "Ein massiver Ausfall von Microsoft-Diensten hat Nutzer in 74 Ländern getroffen und den E-Mail-Verkehr lahmgelegt. Gleichzeitig sorgen politische Themen wie Vorkehrungen bei Gasmangel und Vorkommnisse im EU-Parlament für Schlagzeilen.",
+    "word_count": 195,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "Weltweiter Microsoft-Ausfall: Millionen Mails betroffen",
+      "Störung bei Outlook und Teams in 74 Ländern",
+      "Aktuelle News: Microsoft-Probleme und Politik-Updates"
+    ],
+    "visual_keywords": [
+      "Microsoft logo",
+      "Computer screen with error message",
+      "Office workers using laptops",
+      "Server room infrastructure"
+    ]
+  }
+}
