@@ -211,17 +211,20 @@
 
     var content = makeElement('div', 'headline-content');
     var meta = makeElement('div', 'headline-meta');
-    meta.appendChild(makeElement('span', 'headline-tag', 'Öne Çıkan'));
     meta.appendChild(makeElement('span', 'headline-topic', topics[topic].label));
+    meta.appendChild(makeElement('span', 'headline-page-counter', '1 / 1'));
     content.appendChild(meta);
     content.appendChild(makeElement('h3', 'headline-title', title));
 
+    var bottomRow = makeElement('div', 'headline-bottom-row');
     var sourceDate = source.querySelector('.card-date');
     if (sourceDate) {
       var date = makeElement('time', 'headline-date', sourceDate.textContent.trim());
       if (sourceDate.getAttribute('datetime')) date.setAttribute('datetime', sourceDate.getAttribute('datetime'));
-      content.appendChild(date);
+      bottomRow.appendChild(date);
     }
+    bottomRow.appendChild(makeElement('span', 'headline-swipe-cue', 'Kaydır: sayfa çevir ↔'));
+    content.appendChild(bottomRow);
 
     slide.appendChild(media);
     slide.appendChild(content);
@@ -368,13 +371,16 @@
 
     var content = makeElement('div', 'headline-content');
     var meta = makeElement('div', 'headline-meta');
-    meta.appendChild(makeElement('span', 'headline-tag', 'Öne Çıkan'));
     meta.appendChild(makeElement('span', 'headline-topic', topics[topic].label));
+    meta.appendChild(makeElement('span', 'headline-page-counter', String(index + 1) + ' / 10'));
     content.appendChild(meta);
     content.appendChild(makeElement('h3', 'headline-title', title));
+    var bottomRow = makeElement('div', 'headline-bottom-row');
     var date = makeElement('time', 'headline-date', articleDateText(article));
     if (article.date_iso) date.setAttribute('datetime', article.date_iso);
-    content.appendChild(date);
+    bottomRow.appendChild(date);
+    bottomRow.appendChild(makeElement('span', 'headline-swipe-cue', 'Kaydır: sayfa çevir ↔'));
+    content.appendChild(bottomRow);
     slide.appendChild(content);
     return slide;
   }
@@ -423,21 +429,22 @@
 
   function initCategoryHeadlineSlider(slider) {
     if (!slider) return;
-    var slides = Array.prototype.slice.call(slider.querySelectorAll('.is-json-category-hero'));
-    var controls = slider.querySelector('.slider-controls');
-    var nextBtn = slider.querySelector('[data-slider-next]');
-    var prevBtn = slider.querySelector('[data-slider-prev]');
-    var dotsWrap = slider.querySelector('.slider-dots');
-    var current = 0;
-    var autoPausedUntil = 0;
-    var reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
     if (categorySliderTimer) {
       window.clearInterval(categorySliderTimer);
       categorySliderTimer = null;
     }
+    var controls = slider.querySelector('.slider-controls');
+    if (controls) controls.hidden = true;
+    if (typeof window.initHeadlineSlider === 'function') {
+      window.initHeadlineSlider(slider, '.is-json-category-hero', 3000);
+      return;
+    }
+    var slides = Array.prototype.slice.call(slider.querySelectorAll('.is-json-category-hero'));
+    var dotsWrap = slider.querySelector('.slider-dots');
+    var current = 0;
+    var autoPausedUntil = 0;
+    var reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (!slides.length) return;
-    if (controls) controls.hidden = slides.length <= 1;
     if (!dotsWrap) {
       dotsWrap = makeElement('div', 'slider-dots');
       dotsWrap.setAttribute('aria-label', 'Manşet sırası');
@@ -467,6 +474,8 @@
     }
 
     slides.forEach(function (slide, index) {
+      var counter = slide.querySelector('.headline-page-counter');
+      if (counter) counter.textContent = String(index + 1) + ' / ' + String(slides.length);
       slide.classList.toggle('is-active', index === 0);
       var dot = makeElement('button', 'slider-dot', String(index + 1));
       dot.type = 'button';
@@ -482,15 +491,6 @@
 
     slider.classList.toggle('has-image-active', Boolean(slides[0].querySelector('.headline-image img')));
     updateDots();
-
-    if (nextBtn) nextBtn.onclick = function () {
-      pauseAuto();
-      showSlide(current + 1);
-    };
-    if (prevBtn) prevBtn.onclick = function () {
-      pauseAuto();
-      showSlide(current - 1);
-    };
 
     var touchStartX = 0;
     var touchDeltaX = 0;

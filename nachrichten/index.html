@@ -2141,6 +2141,203 @@
       font-weight: 900 !important;
       box-shadow: 0 2px 10px rgba(225, 6, 0, 0.55) !important;
     }
+    .headline-slider {
+      user-select: none !important;
+      touch-action: pan-y !important;
+    }
+    .headline-slider .headline-slide {
+      transition: none !important;
+      z-index: 1;
+    }
+    .headline-slider .headline-slide.is-active,
+    .headline-slider .headline-slide.is-under-stay {
+      opacity: 1 !important;
+      z-index: 2 !important;
+    }
+    .headline-slider .headline-slide.is-under-stay {
+      pointer-events: none !important;
+    }
+    .headline-slider .slider-controls,
+    .slider-controls {
+      display: none !important;
+    }
+    .headline-slider .headline-tag,
+    .headline-slider .headline-trust,
+    .headline-slider .headline-read-time {
+      display: none !important;
+    }
+    .headline-slider .headline-content {
+      position: absolute !important;
+      inset: 0 0 50px 0 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: flex-end !important;
+      padding: 14px 18px 10px !important;
+      z-index: 2 !important;
+    }
+    .headline-slider .headline-meta {
+      margin-bottom: auto !important;
+      width: 100% !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      gap: 8px !important;
+    }
+    .headline-slider .headline-topic {
+      background: #c8102e !important;
+      color: #ffffff !important;
+      font-size: 0.72rem !important;
+      font-weight: 800 !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.35px !important;
+      padding: 4px 10px !important;
+      border-radius: 5px !important;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+    }
+    .headline-page-counter {
+      background: rgba(15, 23, 42, 0.72);
+      color: #f8fafc;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      backdrop-filter: blur(4px);
+    }
+    .headline-slider .headline-title {
+      max-width: 100% !important;
+    }
+    .headline-bottom-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-top: 6px;
+    }
+    .headline-slider .headline-date {
+      margin-top: 0 !important;
+    }
+    .headline-swipe-cue {
+      color: rgba(248, 250, 252, 0.9);
+      font-size: 0.72rem;
+      font-weight: 600;
+    }
+    .headline-slider .slider-dots {
+      z-index: 12 !important;
+    }
+    .headline-paper-edges {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 6px;
+      z-index: 9;
+      pointer-events: none;
+      background: repeating-linear-gradient(
+        to left,
+        rgba(255, 255, 255, 0.52) 0px,
+        rgba(255, 255, 255, 0.52) 1px,
+        rgba(15, 23, 42, 0.35) 1px,
+        rgba(15, 23, 42, 0.35) 2px
+      );
+    }
+    .headline-under-darken {
+      position: absolute;
+      inset: 0;
+      background: rgba(2, 6, 23, 0.55);
+      pointer-events: none;
+      z-index: 3;
+      opacity: 0;
+    }
+    .headline-under-darken.animating {
+      transition: opacity 0.58s ease;
+    }
+    .headline-flip-stage {
+      position: absolute;
+      inset: 0;
+      z-index: 5;
+      pointer-events: none;
+      perspective: 1400px;
+      perspective-origin: center center;
+      overflow: hidden;
+      display: none;
+    }
+    .headline-flip-leaf {
+      position: absolute;
+      inset: 0;
+      transform-origin: left center;
+      transform-style: preserve-3d;
+      will-change: transform;
+    }
+    .headline-flip-leaf.animating {
+      transition: transform 0.62s cubic-bezier(0.24, 0.62, 0.32, 1);
+    }
+    .headline-leaf-face {
+      position: absolute;
+      inset: 0;
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      overflow: hidden;
+    }
+    .headline-leaf-back {
+      transform: rotateY(180deg);
+      background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 55%, #cbd5e1 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .headline-leaf-back::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to left, rgba(15, 23, 42, 0.28) 0%, transparent 28%);
+      pointer-events: none;
+    }
+    .headline-back-print {
+      width: 100%;
+      height: 100%;
+      border: 1px dashed rgba(100, 116, 139, 0.32);
+      border-radius: 6px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      opacity: 0.48;
+    }
+    .headline-back-line {
+      height: 7px;
+      border-radius: 4px;
+      background: #94a3b8;
+      margin-bottom: 8px;
+    }
+    .headline-fold-shadow {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.42) 0%,
+        rgba(255, 255, 255, 0.14) 16%,
+        rgba(0, 0, 0, 0) 45%,
+        rgba(0, 0, 0, 0.22) 100%
+      );
+      opacity: 0;
+      z-index: 6;
+    }
+    .headline-fold-shadow.animating {
+      transition: opacity 0.55s ease;
+    }
+    @media (max-width: 768px) {
+      .headline-slider .headline-content {
+        inset: 0 0 46px 0 !important;
+        padding: 10px 12px 8px !important;
+      }
+      .headline-slider .headline-title {
+        font-size: 1.15rem !important;
+        line-height: 1.24 !important;
+      }
+    }
     .topic-card[hidden],
     .news-card[hidden],
     [data-news-section][hidden],
@@ -2148,7 +2345,7 @@
       display: none !important;
     }
   </style>
-  <link rel="stylesheet" href="/assets/css/corporate-header.css?v=20261002_corp">
+  <link rel="stylesheet" href="/assets/css/corporate-header.css?v=20261114_pageflip">
   <link rel="stylesheet" href="/assets/css/mobile-home-ux.css?v=20260904_numdots">
   <link rel="stylesheet" href="/assets/css/showcase-side-rotation.css?v=20260605e">
   <link rel="stylesheet" href="/assets/css/mobile-market-static.css?v=20260526a">
@@ -2303,130 +2500,140 @@
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/mecklenburg-vorpommern-rot-rot-gruene-landesregierung_20261114.webp" alt="Mecklenburg-Vorpommern bekommt erste rot-rot-grüne Landesregierung" loading="eager" fetchpriority="high" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #1</span>
                     <span class="headline-topic">Politik</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                    <span class="headline-page-counter">1 / 10</span>
                   </div>
                   <h2 class="headline-title">Mecklenburg-Vorpommern bekommt erste rot-rot-grüne Landesregierung</h2>
-                  <time class="headline-date" datetime="2026-11-14">14.11.2026 16:55</time>
+                  <div class="headline-bottom-row">
+                    <time class="headline-date" datetime="2026-11-14">14.11.2026 16:55</time>
+                    <span class="headline-swipe-cue">Wischen: umblättern ↔</span>
+                  </div>
                 </div>
               </a>
               <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/2026/11/trauerstaatsakt-muenchen-abschied-hubert-aiwanger_20261114/" data-topic="siyaset" aria-label="Trauerstaatsakt in München: Bayern nimmt Abschied von Hubert Aiwanger">
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/trauerstaatsakt-muenchen-abschied-hubert-aiwanger_20261114.webp" alt="Trauerstaatsakt in München: Bayern nimmt Abschied von Hubert Aiwanger" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #2</span>
                     <span class="headline-topic">Politik</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                    <span class="headline-page-counter">2 / 10</span>
                   </div>
                   <h2 class="headline-title">Trauerstaatsakt in München: Bayern nimmt Abschied von Hubert Aiwanger</h2>
-                  <time class="headline-date" datetime="2026-11-14">14.11.2026 16:55</time>
+                  <div class="headline-bottom-row">
+                    <time class="headline-date" datetime="2026-11-14">14.11.2026 16:55</time>
+                    <span class="headline-swipe-cue">Wischen: umblättern ↔</span>
+                  </div>
                 </div>
               </a>
               <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/2026/11/mississippi-kollision-dampfer-tanker-new-orleans_20261114/" data-topic="dunya" aria-label="Mississippi: 32 Verletzte nach Kollision von Dampfer und Tanker in New Orleans">
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/mississippi-kollision-dampfer-tanker-new-orleans_20261114.webp" alt="Mississippi: 32 Verletzte nach Kollision von Dampfer und Tanker in New Orleans" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #3</span>
                     <span class="headline-topic">Welt</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                    <span class="headline-page-counter">3 / 10</span>
                   </div>
                   <h2 class="headline-title">Mississippi: 32 Verletzte nach Kollision von Dampfer und Tanker in New Orleans</h2>
-                  <time class="headline-date" datetime="2026-11-14">14.11.2026 17:14</time>
+                  <div class="headline-bottom-row">
+                    <time class="headline-date" datetime="2026-11-14">14.11.2026 17:14</time>
+                    <span class="headline-swipe-cue">Wischen: umblättern ↔</span>
+                  </div>
                 </div>
               </a>
               <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/2026/11/selenskyj-usa-stellen-nato-beitritt-fuer-verzicht-auf-donbass-zur-debatte_20261114/" data-topic="dunya" aria-label="Selenskyj: USA bringen Nato-Beitritt gegen Donbass-Verzicht ins Gespräch">
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/selenskyj-usa-stellen-nato-beitritt-fuer-verzicht-auf-donbass-zur-debatte_20261114.webp" alt="Selenskyj: USA bringen Nato-Beitritt gegen Donbass-Verzicht ins Gespräch" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #4</span>
                     <span class="headline-topic">Welt</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                    <span class="headline-page-counter">4 / 10</span>
                   </div>
                   <h2 class="headline-title">Selenskyj: USA bringen Nato-Beitritt gegen Donbass-Verzicht ins Gespräch</h2>
-                  <time class="headline-date" datetime="2026-11-14">14.11.2026 16:56</time>
+                  <div class="headline-bottom-row">
+                    <time class="headline-date" datetime="2026-11-14">14.11.2026 16:56</time>
+                    <span class="headline-swipe-cue">Wischen: umblättern ↔</span>
+                  </div>
                 </div>
               </a>
               <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/2026/11/reporter-beleidigt-leclerc-fia-entzieht-akkreditierung_20261114/" data-topic="spor" aria-label="Reporter-Legende beleidigt Leclerc und wird von FIA gesperrt – Zeitung boykottiert F1">
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/reporter-beleidigt-leclerc-fia-entzieht-akkreditierung_20261114.webp" alt="Reporter-Legende beleidigt Leclerc und wird von FIA gesperrt – Zeitung boykottiert F1" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #5</span>
                     <span class="headline-topic">Sport</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                    <span class="headline-page-counter">5 / 10</span>
                   </div>
                   <h2 class="headline-title">Reporter-Legende beleidigt Leclerc und wird von FIA gesperrt – Zeitung boykottiert F1</h2>
-                  <time class="headline-date" datetime="2026-11-14">14.11.2026 05:42</time>
+                  <div class="headline-bottom-row">
+                    <time class="headline-date" datetime="2026-11-14">14.11.2026 05:42</time>
+                    <span class="headline-swipe-cue">Wischen: umblättern ↔</span>
+                  </div>
                 </div>
               </a>
               <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/2026/11/stephen-king-the-other-mommy-josh-malerman-horror_20261114/" data-topic="magazin" aria-label="Stephen King lobt Horror-Schocker: Warum „The Other Mommy“ das Fürchten lehrt">
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/stephen-king-the-other-mommy-josh-malerman-horror_20261114.webp" alt="Stephen King lobt Horror-Schocker: Warum „The Other Mommy“ das Fürchten lehrt" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #6</span>
                     <span class="headline-topic">Kultur</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                    <span class="headline-page-counter">6 / 10</span>
                   </div>
                   <h2 class="headline-title">Stephen King lobt Horror-Schocker: Warum „The Other Mommy“ das Fürchten lehrt</h2>
-                  <time class="headline-date" datetime="2026-11-14">14.11.2026 16:55</time>
+                  <div class="headline-bottom-row">
+                    <time class="headline-date" datetime="2026-11-14">14.11.2026 16:55</time>
+                    <span class="headline-swipe-cue">Wischen: umblättern ↔</span>
+                  </div>
                 </div>
               </a>
               <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/2026/11/unternehmensinsolvenzen-deutschland-hoechststand-destatis-2026_20261113/" data-topic="ekonomi" aria-label="Unternehmensinsolvenzen in Deutschland erreichen Höchststand seit Jahren">
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/unternehmensinsolvenzen-deutschland-hoechststand-destatis-2026_20261113.webp" alt="Unternehmensinsolvenzen in Deutschland erreichen Höchststand seit Jahren" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #7</span>
                     <span class="headline-topic">Wirtschaft</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                    <span class="headline-page-counter">7 / 10</span>
                   </div>
                   <h2 class="headline-title">Unternehmensinsolvenzen in Deutschland erreichen Höchststand seit Jahren</h2>
-                  <time class="headline-date" datetime="2026-11-13">13.11.2026 17:57</time>
+                  <div class="headline-bottom-row">
+                    <time class="headline-date" datetime="2026-11-13">13.11.2026 17:57</time>
+                    <span class="headline-swipe-cue">Wischen: umblättern ↔</span>
+                  </div>
                 </div>
               </a>
               <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/2026/11/eu-verhaengt-millionenstrafe-gegen-tinder_20261113/" data-topic="teknoloji" aria-label="EU verhängt Millionenstrafe gegen Tinder wegen Umgangs mit Nutzerdaten">
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/eu-verhaengt-millionenstrafe-gegen-tinder_20261113.webp" alt="EU verhängt Millionenstrafe gegen Tinder wegen Umgangs mit Nutzerdaten" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #8</span>
                     <span class="headline-topic">Technologie</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                    <span class="headline-page-counter">8 / 10</span>
                   </div>
                   <h2 class="headline-title">EU verhängt Millionenstrafe gegen Tinder wegen Umgangs mit Nutzerdaten</h2>
-                  <time class="headline-date" datetime="2026-11-13">13.11.2026 19:43</time>
+                  <div class="headline-bottom-row">
+                    <time class="headline-date" datetime="2026-11-13">13.11.2026 19:43</time>
+                    <span class="headline-swipe-cue">Wischen: umblättern ↔</span>
+                  </div>
                 </div>
               </a>
               <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/2026/11/amazon-kindle-colorsoft-test-vorteile_20261113/" data-topic="teknoloji" aria-label="Amazon Kindle Colorsoft im Test: Lohnt sich der Aufpreis für das neue Farb-Display?">
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/amazon-kindle-colorsoft-test-vorteile_20261113.webp" alt="Amazon Kindle Colorsoft im Test: Lohnt sich der Aufpreis für das neue Farb-Display?" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #9</span>
                     <span class="headline-topic">Technologie</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                    <span class="headline-page-counter">9 / 10</span>
                   </div>
                   <h2 class="headline-title">Amazon Kindle Colorsoft im Test: Lohnt sich der Aufpreis für das neue Farb-Display?</h2>
-                  <time class="headline-date" datetime="2026-11-13">13.11.2026 19:38</time>
+                  <div class="headline-bottom-row">
+                    <time class="headline-date" datetime="2026-11-13">13.11.2026 19:38</time>
+                    <span class="headline-swipe-cue">Wischen: umblättern ↔</span>
+                  </div>
                 </div>
               </a>
               <a class="headline-slide headline-card topic-card" href="/nachrichten/artikel/2026/11/serbien-marakana-dfb-geisterspiel-klopp_20261113/" data-topic="spor" aria-label="Serbiens Marakana erlebt Geisterspiel gegen DFB-Elf">
                 <div class="headline-image"><img src="/nachrichten/artikel/2026/11/images/serbien-marakana-dfb-geisterspiel-klopp_20261113.webp" alt="Serbiens Marakana erlebt Geisterspiel gegen DFB-Elf" loading="lazy" width="1080" height="720"></div>
                 <div class="headline-content">
                   <div class="headline-meta">
-                    <span class="headline-tag">Topmeldung #10</span>
                     <span class="headline-topic">Sport</span>
-                    <span class="headline-trust">✅ Verifiziert</span>
-                    <span class="headline-read-time">⏱️ 2 Min. Lesezeit</span>
+                    <span class="headline-page-counter">10 / 10</span>
                   </div>
                   <h2 class="headline-title">Serbiens Marakana erlebt Geisterspiel gegen DFB-Elf</h2>
-                  <time class="headline-date" datetime="2026-11-13">13.11.2026 19:42</time>
+                  <div class="headline-bottom-row">
+                    <time class="headline-date" datetime="2026-11-13">13.11.2026 19:42</time>
+                    <span class="headline-swipe-cue">Wischen: umblättern ↔</span>
+                  </div>
                 </div>
               </a>
               <div class="slider-controls" aria-label="Headline controls">
@@ -18837,29 +19044,75 @@
       const allSlides = Array.from(slider.querySelectorAll('.headline-slide'));
       const slides = allSlides.filter(slide => !slide.hidden);
       const controls = slider.querySelector('.slider-controls');
+      if (controls) controls.hidden = true;
       let dotsWrap = slider.querySelector('.slider-dots');
-      const isMobile = window.matchMedia('(max-width: 900px)').matches;
+      slider.querySelectorAll('.headline-under-darken, .headline-flip-stage, .headline-paper-edges').forEach(el => el.remove());
+
       if (slides.length === 0) {
         slider.classList.remove('has-image-active');
-        if (controls) controls.hidden = true;
         if (dotsWrap) dotsWrap.hidden = true;
         return;
       }
-      if (controls) controls.hidden = isMobile || slides.length <= 1;
-      allSlides.forEach(slide => slide.classList.remove('is-active'));
+      const isSingle = slides.length <= 1;
+      const reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      allSlides.forEach(slide => slide.classList.remove('is-active', 'is-under-stay'));
+      slides.forEach((slide, index) => {
+        const counter = slide.querySelector('.headline-page-counter');
+        if (counter) counter.textContent = `${index + 1} / ${slides.length}`;
+        if (!slide.dataset.clickBound) {
+          slide.dataset.clickBound = '1';
+          slide.addEventListener('click', function(e) {
+            if (slider.__suppressClickUntil && Date.now() < slider.__suppressClickUntil) {
+              e.preventDefault();
+              return;
+            }
+            if (!this.classList.contains('is-active')) {
+              e.preventDefault();
+            }
+          });
+        }
+      });
+
       const preferred = slides.findIndex(slide => slide.querySelector('.headline-image img'));
       let current = preferred >= 0 ? preferred : 0;
       let autoPausedUntil = 0;
       const pauseAuto = (duration = 12000) => {
         autoPausedUntil = Date.now() + duration;
       };
+
+      const underDarken = document.createElement('div');
+      underDarken.className = 'headline-under-darken';
+      const flipStage = document.createElement('div');
+      flipStage.className = 'headline-flip-stage';
+      flipStage.innerHTML =
+        '<div class="headline-flip-leaf">' +
+          '<div class="headline-leaf-face headline-leaf-front"></div>' +
+          '<div class="headline-leaf-face headline-leaf-back">' +
+            '<div class="headline-back-print">' +
+              '<div><div class="headline-back-line" style="width:45%"></div><div class="headline-back-line" style="width:92%"></div><div class="headline-back-line" style="width:76%"></div><div class="headline-back-line" style="width:84%"></div></div>' +
+              '<div><div class="headline-back-line" style="width:62%"></div><div class="headline-back-line" style="width:38%"></div></div>' +
+            '</div>' +
+          '</div>' +
+          '<div class="headline-fold-shadow"></div>' +
+        '</div>';
+      const paperEdges = document.createElement('div');
+      paperEdges.className = 'headline-paper-edges';
+      paperEdges.hidden = isSingle;
+      slider.appendChild(underDarken);
+      slider.appendChild(flipStage);
+      slider.appendChild(paperEdges);
+
+      const flipLeaf = flipStage.querySelector('.headline-flip-leaf');
+      const frontFace = flipStage.querySelector('.headline-leaf-front');
+      const foldShadow = flipStage.querySelector('.headline-fold-shadow');
+
       if (!dotsWrap) {
         dotsWrap = document.createElement('div');
         dotsWrap.className = 'slider-dots';
         dotsWrap.setAttribute('aria-label', 'Schlagzeilen-Reihenfolge');
         slider.appendChild(dotsWrap);
       }
-      dotsWrap.hidden = slides.length <= 1;
+      dotsWrap.hidden = isSingle;
       dotsWrap.replaceChildren();
       const dots = slides.map((slide, index) => {
         const dot = document.createElement('button');
@@ -18874,58 +19127,272 @@
         dotsWrap.appendChild(dot);
         return dot;
       });
-      const updateDots = () => {
+      const updateDots = (activeIdx = current) => {
         dots.forEach((dot, index) => {
-          const active = index === current;
+          const active = index === activeIdx;
           dot.classList.toggle('is-active', active);
           dot.setAttribute('aria-current', active ? 'true' : 'false');
         });
       };
-      slides[current].classList.add('is-active');
-      slider.classList.toggle('has-image-active', Boolean(slides[current].querySelector('.headline-image img')));
-      updateDots();
-      const showSlide = (nextIndex) => {
-        slides[current].classList.remove('is-active');
-        current = (nextIndex + slides.length) % slides.length;
-        slides[current].classList.add('is-active');
+      const cloneSlideVisual = (slideNode) => {
+        const cloneWrap = document.createElement('div');
+        cloneWrap.className = slideNode.className.replace(/\btopic-card\b/g, '') + ' is-active';
+        cloneWrap.classList.remove('is-under-stay');
+        cloneWrap.style.cssText = 'opacity:1 !important;position:absolute;inset:0;transform:none;pointer-events:none;transition:none !important;';
+        cloneWrap.innerHTML = slideNode.innerHTML;
+        const img = cloneWrap.querySelector('img');
+        if (img) img.setAttribute('loading', 'eager');
+        return cloneWrap;
+      };
+      const ensureImgEager = (slideNode) => {
+        const img = slideNode.querySelector('img');
+        if (img && img.getAttribute('loading') === 'lazy') img.setAttribute('loading', 'eager');
+      };
+      const setAnimClass = (on) => {
+        flipLeaf.classList.toggle('animating', on);
+        underDarken.classList.toggle('animating', on);
+        foldShadow.classList.toggle('animating', on);
+      };
+
+      let isAnimating = false;
+      let flipTarget = current;
+      let flipTimerId = null;
+
+      const finishFlipNow = (commitIdx) => {
+        if (flipTimerId) {
+          clearTimeout(flipTimerId);
+          flipTimerId = null;
+        }
+        slides.forEach(s => s.classList.remove('is-under-stay'));
+        if (typeof commitIdx === 'number' && commitIdx !== current) {
+          slides[current].classList.remove('is-active');
+          current = commitIdx;
+          slides[current].classList.add('is-active');
+        }
+        setAnimClass(false);
+        flipStage.style.display = 'none';
+        flipLeaf.style.transform = 'rotateY(0deg)';
+        foldShadow.style.opacity = '0';
+        underDarken.style.opacity = '0';
+        frontFace.replaceChildren();
         slider.classList.toggle('has-image-active', Boolean(slides[current].querySelector('.headline-image img')));
-        updateDots();
+        updateDots(current);
+        isAnimating = false;
       };
-      const nextBtn = slider.querySelector('[data-slider-next]');
-      const prevBtn = slider.querySelector('[data-slider-prev]');
-      if (nextBtn) nextBtn.onclick = () => {
+
+      slides[current].classList.add('is-active');
+      ensureImgEager(slides[current]);
+      ensureImgEager(slides[(current + 1) % slides.length]);
+      slider.classList.toggle('has-image-active', Boolean(slides[current].querySelector('.headline-image img')));
+      updateDots(current);
+
+      const showSlide = (nextIndex, explicitDir) => {
+        const targetIdx = (nextIndex + slides.length) % slides.length;
+        if (isAnimating) {
+          if (targetIdx === flipTarget) return;
+          finishFlipNow(flipTarget);
+        }
+        if (targetIdx === current) return;
+        ensureImgEager(slides[targetIdx]);
+        ensureImgEager(slides[(targetIdx + 1) % slides.length]);
+        if (reducedMotion) {
+          slides[current].classList.remove('is-active');
+          current = targetIdx;
+          slides[current].classList.add('is-active');
+          slider.classList.toggle('has-image-active', Boolean(slides[current].querySelector('.headline-image img')));
+          updateDots(current);
+          return;
+        }
+        const dir = explicitDir || ((targetIdx > current && !(current === 0 && targetIdx === slides.length - 1)) || (current === slides.length - 1 && targetIdx === 0) ? 'next' : 'prev');
+        isAnimating = true;
+        flipTarget = targetIdx;
+        frontFace.replaceChildren();
+        flipStage.style.display = 'block';
+        setAnimClass(false);
+        if (dir === 'next') {
+          frontFace.appendChild(cloneSlideVisual(slides[current]));
+          slides[current].classList.remove('is-active');
+          current = targetIdx;
+          slides[current].classList.add('is-active');
+          slider.classList.toggle('has-image-active', Boolean(slides[current].querySelector('.headline-image img')));
+          flipLeaf.style.transform = 'rotateY(0deg)';
+          foldShadow.style.opacity = '0';
+          underDarken.style.opacity = '0.75';
+          updateDots(targetIdx);
+          requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+              setAnimClass(true);
+              flipLeaf.style.transform = 'rotateY(-122deg)';
+              foldShadow.style.opacity = '1';
+              underDarken.style.opacity = '0';
+            });
+          });
+        } else {
+          frontFace.appendChild(cloneSlideVisual(slides[targetIdx]));
+          slides[current].classList.add('is-under-stay');
+          flipLeaf.style.transform = 'rotateY(-118deg)';
+          foldShadow.style.opacity = '0.85';
+          underDarken.style.opacity = '0';
+          updateDots(targetIdx);
+          requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+              setAnimClass(true);
+              flipLeaf.style.transform = 'rotateY(0deg)';
+              foldShadow.style.opacity = '0';
+              underDarken.style.opacity = '0.55';
+            });
+          });
+        }
+        flipTimerId = setTimeout(() => {
+          finishFlipNow(targetIdx);
+        }, 640);
+      };
+
+      let dragging = false;
+      let dragStartX = 0;
+      let dragStartY = 0;
+      let dragDir = null;
+      let dragTarget = 0;
+      let lastProgress = 0;
+      const onDragStart = (clientX, clientY, targetEl) => {
+        if (slides.length <= 1 || isAnimating) return;
+        if (targetEl && targetEl.closest && targetEl.closest('.slider-dots')) return;
+        dragging = true;
+        dragStartX = clientX;
+        dragStartY = clientY || 0;
+        dragDir = null;
+        lastProgress = 0;
         pauseAuto();
-        showSlide(current + 1);
       };
-      if (prevBtn) prevBtn.onclick = () => {
-        pauseAuto();
-        showSlide(current - 1);
+      const onDragMove = (clientX, clientY, eventObj) => {
+        if (!dragging || isAnimating) return;
+        const dx = clientX - dragStartX;
+        const dy = (clientY || 0) - dragStartY;
+        if (!dragDir) {
+          if (Math.abs(dy) > Math.abs(dx) + 8 && Math.abs(dx) < 12) {
+            dragging = false;
+            return;
+          }
+          if (Math.abs(dx) < 8) return;
+          slider.__suppressClickUntil = Date.now() + 500;
+          dragDir = dx < 0 ? 'next' : 'prev';
+          dragTarget = dragDir === 'next' ? (current + 1) % slides.length : (current - 1 + slides.length) % slides.length;
+          ensureImgEager(slides[dragTarget]);
+          frontFace.replaceChildren();
+          flipStage.style.display = 'block';
+          setAnimClass(false);
+          if (dragDir === 'next') {
+            frontFace.appendChild(cloneSlideVisual(slides[current]));
+            slides[current].classList.remove('is-active');
+            slides[dragTarget].classList.add('is-under-stay');
+          } else {
+            frontFace.appendChild(cloneSlideVisual(slides[dragTarget]));
+            slides[current].classList.add('is-under-stay');
+          }
+        }
+        if (eventObj && eventObj.cancelable) eventObj.preventDefault();
+        const w = slider.clientWidth || 380;
+        if (dragDir === 'next') {
+          const p = Math.max(0, Math.min(1, (-dx) / (w * 0.72)));
+          lastProgress = p;
+          flipLeaf.style.transform = `rotateY(${(-(p * 122)).toFixed(1)}deg)`;
+          foldShadow.style.opacity = String(Math.min(1, p * 1.3));
+          underDarken.style.opacity = String(Math.max(0, 0.75 * (1 - p)));
+        } else {
+          const pPrev = Math.max(0, Math.min(1, dx / (w * 0.72)));
+          lastProgress = pPrev;
+          flipLeaf.style.transform = `rotateY(${(-122 * (1 - pPrev)).toFixed(1)}deg)`;
+          foldShadow.style.opacity = String(Math.max(0, 1 - pPrev));
+          underDarken.style.opacity = String(Math.min(0.55, pPrev * 0.55));
+        }
       };
+      const onDragEnd = () => {
+        if (!dragging) return;
+        dragging = false;
+        if (!dragDir) return;
+        slider.__suppressClickUntil = Date.now() + 500;
+        isAnimating = true;
+        setAnimClass(true);
+        if (lastProgress >= 0.2) {
+          flipTarget = dragTarget;
+          updateDots(dragTarget);
+          if (dragDir === 'next') {
+            flipLeaf.style.transform = 'rotateY(-122deg)';
+            foldShadow.style.opacity = '1';
+            underDarken.style.opacity = '0';
+          } else {
+            flipLeaf.style.transform = 'rotateY(0deg)';
+            foldShadow.style.opacity = '0';
+            underDarken.style.opacity = '0.5';
+          }
+          flipTimerId = setTimeout(() => {
+            slides[dragTarget].classList.remove('is-under-stay');
+            finishFlipNow(dragTarget);
+          }, 520);
+        } else {
+          flipTarget = current;
+          if (dragDir === 'next') {
+            slides[current].classList.add('is-active');
+            flipLeaf.style.transform = 'rotateY(0deg)';
+            foldShadow.style.opacity = '0';
+          } else {
+            flipLeaf.style.transform = 'rotateY(-122deg)';
+            foldShadow.style.opacity = '0.9';
+          }
+          underDarken.style.opacity = '0';
+          flipTimerId = setTimeout(() => {
+            finishFlipNow(current);
+          }, 480);
+        }
+      };
+
       slider.__sliderPause = () => pauseAuto();
-      slider.__sliderAdvance = (delta) => {
-        pauseAuto();
-        showSlide(current + delta);
-      };
+      slider.__dragHandlers = { onDragStart, onDragMove, onDragEnd, pauseAuto };
       if (slider.dataset.sliderTouchBound !== '1') {
         slider.dataset.sliderTouchBound = '1';
-        let touchStartX = 0;
-        slider.addEventListener('touchstart', (event) => {
-          if (slider.__sliderPause) slider.__sliderPause();
-          touchStartX = event.changedTouches[0].clientX;
+        let activeInput = null;
+        slider.addEventListener('dragstart', (e) => e.preventDefault());
+        slider.addEventListener('touchstart', (e) => {
+          activeInput = 'touch';
+          const t = e.changedTouches[0];
+          if (slider.__dragHandlers && t) slider.__dragHandlers.onDragStart(t.clientX, t.clientY, e.target);
         }, { passive: true });
-        slider.addEventListener('pointerdown', () => {
-          if (slider.__sliderPause) slider.__sliderPause();
+        slider.addEventListener('touchmove', (e) => {
+          if (activeInput !== 'touch') return;
+          const t = e.changedTouches[0];
+          if (slider.__dragHandlers && t) slider.__dragHandlers.onDragMove(t.clientX, t.clientY, e);
+        }, { passive: false });
+        slider.addEventListener('touchend', () => {
+          if (activeInput !== 'touch') return;
+          activeInput = null;
+          if (slider.__dragHandlers) slider.__dragHandlers.onDragEnd();
         }, { passive: true });
-        slider.addEventListener('touchend', (event) => {
-          const delta = event.changedTouches[0].clientX - touchStartX;
-          if (Math.abs(delta) < 40 || !slider.__sliderAdvance) return;
-          slider.__sliderAdvance(delta < 0 ? 1 : -1);
+        slider.addEventListener('touchcancel', () => {
+          if (activeInput !== 'touch') return;
+          activeInput = null;
+          if (slider.__dragHandlers) slider.__dragHandlers.onDragEnd();
         }, { passive: true });
+        slider.addEventListener('pointerdown', (e) => {
+          if (e.pointerType === 'touch') return;
+          if (slider.__dragHandlers) slider.__dragHandlers.onDragStart(e.clientX, e.clientY, e.target);
+        });
+        slider.addEventListener('pointermove', (e) => {
+          if (e.pointerType === 'touch') return;
+          if (slider.__dragHandlers) slider.__dragHandlers.onDragMove(e.clientX, e.clientY, e);
+        });
+        slider.addEventListener('pointerup', (e) => {
+          if (e.pointerType === 'touch') return;
+          if (slider.__dragHandlers) slider.__dragHandlers.onDragEnd();
+        });
+        slider.addEventListener('pointercancel', (e) => {
+          if (e.pointerType === 'touch') return;
+          if (slider.__dragHandlers) slider.__dragHandlers.onDragEnd();
+        });
       }
       if (slides.length > 1) {
         window.__mrLangSliderTimer = setInterval(() => {
           if (Date.now() < autoPausedUntil) return;
-          showSlide(current + 1);
+          showSlide(current + 1, 'next');
         }, 3000);
       }
     }
