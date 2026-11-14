@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "nachrichten/artikel/2026/11:microsoft-stoerung-komplett-wiederhergestellt_20261114",
+    "slug": "microsoft-stoerung-komplett-wiederhergestellt_20261114",
+    "title": "Microsoft: Alle Cloud-Systeme nach weltweiter Störung wiederhergestellt",
+    "summary": "Eine massive Störung bei zentralen Microsoft-Cloud-Diensten hat weltweit Unternehmen und Behörden lahmgelegt. Nach Angaben des US-Konzerns laufen nun sämtliche Systeme wieder. Auslöser war ein hausgemachtes Problem bei einem Netzwerk-Upgrade, Hinweise auf e...",
+    "category": "Dünya",
+    "category_slug": "dunya",
+    "topic_slug": "dunya",
+    "topic_label": "Dünya",
+    "country": "Germany",
+    "language": "de",
+    "language_label": "German",
+    "section": "nachrichten/artikel",
+    "section_name": "Deutschland Nachrichten",
+    "url_prefix": "nachrichten/artikel/2026/11",
+    "date": "14.11.2026 16:55",
+    "date_iso": "2026-11-14",
+    "published_at": "2026-11-14T16:55:56+03:00",
+    "url": "/nachrichten/artikel/2026/11/microsoft-stoerung-komplett-wiederhergestellt_20261114/",
+    "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/microsoft-stoerung-komplett-wiederhergestellt_20261114/",
+    "detail_json_url": "/data/details/nachrichten/artikel/2026/11/microsoft-stoerung-komplett-wiederhergestellt_20261114.json",
+    "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/images/microsoft-stoerung-komplett-wiederhergestellt_20261114.webp",
+    "image_alt": "Microsoft Logo und Büroarbeitsplatz mit Computern",
+    "image": {
+      "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/images/microsoft-stoerung-komplett-wiederhergestellt_20261114.webp",
+      "alt": "Microsoft Logo und Büroarbeitsplatz mit Computern"
+    },
+    "source_name": "tagesschau.de - Die Nachrichten der ARD",
+    "source_url": "https://www.tagesschau.de/wirtschaft/unternehmen/microsoft-stoerung-behoben-100.html",
+    "tags": [
+      "Microsoft",
+      "Cloud",
+      "Outlook",
+      "Störung",
+      "Technologie"
+    ],
+    "quality_score": 86,
+    "review_status": "published",
+    "content_html": "<h2>Wichtige Entwicklungen</h2> <p>Nach einem tagelangen Ausfall hat der US-Softwarekonzern Microsoft am Samstagmorgen (MEZ) bekannt gegeben, dass alle Systeme wieder vollständig einsatzbereit sind. Die massiven Probleme hatten am Donnerstagabend begonnen und zentrale Cloud-Dienste weltweit beeinträchtigt. Betroffen waren neben dem E-Mail-Dienst Outlook vor allem die Anwendungen des gesamten Microsoft-365-Pakets. Nutzer konnten zeitweise keine E-Mails versenden, ihre Kalender verwalten oder Videokonferenzen abhalten. Auch der KI-Assistent Copilot sowie Schnittstellen zu Drittanbietern wie OpenAI und Anthropic waren zeitweise gestört.</p> <p>Die Störung hatte weltweite Auswirkungen auf Unternehmen und Behörden, da Outlook und Teams zu den meistgenutzten Büroanwendungen gehören. Unter anderem meldeten Geheimdienste und Bundespolizei in Australien sowie das US-Repräsentantenhaus Einschränkungen. Die Bundesverwaltung in Deutschland blieb nach Angaben des Bundesamtes für Sicherheit in der Informationstechnik (BSI) hingegen arbeitsfähig und im Wesentlichen unbeeinträchtigt.</p> <p>Microsoft betonte bereits am Freitagnachmittag, dass die Ursache in einem hausgemachten Problem und nicht in einer Cyberattacke liege. Der Grund lag demnach in einem zuvor durchgeführten Upgrade der Netzwerk-Kapazität. Einen Zusammenhang mit einer separaten Technikpanne, die in den USA zu Tausenden Flugausfällen geführt hatte, schloss das Unternehmen ebenfalls aus.</p> <h2>Zentrale Punkte</h2> <ul> <li><strong>Vollständige Wiederherstellung:</strong> Alle Microsoft-Cloud-Dienste und betroffenen Regionen laufen seit Samstagmorgen wieder reibungslos.</li> <li><strong>Keine Cyberattacke:</strong> Microsoft bestätigte, dass ein internes Netzwerk-Upgrade und kein böswilliger Angriff die Ursache war.</li> <li><strong>Internationale Folgen:</strong> Behörden und Unternehmen weltweit, darunter in Australien und den USA, waren von den Ausfällen betroffen; deutsche Bundesbehörden blieben jedoch verschont.</li> </ul> <h2>Warum das wichtig ist</h2> <p>Der Vorfall verdeutlicht die enorme Abhängigkeit moderner Wirtschaftszweige und staatlicher Institutionen von zentralisierten Cloud-Infrastrukturen. Wenn Plattformen wie Microsoft 365 ausfallen, sind wesentliche Kommunikations- und Verwaltungsprozesse weltweit blockiert. Dass es sich um einen technischen Fehler im Rahmen eines internen Upgrades handelte, lenkt die Aufmerksamkeit erneut auf die Stabilität und Risikomanagement-Prozesse großer Software-Anbieter, deren Dienste das Rückgrat der globalen Digitalisierung bilden.</p>",
+    "meta_title": "Microsoft-Störung behoben: Alle Cloud-Dienste wieder online",
+    "meta_description": "Nach einer massiven weltweiten Störung laufen alle Microsoft-Cloud-Dienste wieder. Es gab keine Hinweise auf Cyberattacken oder böswillige Aktivitäten.",
+    "spot": "Eine massive Störung bei zentralen Microsoft-Cloud-Diensten hat weltweit Unternehmen und Behörden lahmgelegt. Nach Angaben des US-Konzerns laufen nun sämtliche Systeme wieder. Auslöser war ein hausgemachtes Problem bei einem Netzwerk-Upgrade, Hinweise auf eine Cyberattacke gibt es nicht.",
+    "word_count": 288,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "Microsoft gibt Entwarnung: Cloud-Systeme laufen wieder",
+      "Weltweiter Microsoft-Ausfall komplett behoben",
+      "Nach Mega-Störung: Microsoft 365 und Outlook wieder erreichbar"
+    ],
+    "visual_keywords": [
+      "Microsoft logo building",
+      "server room technology",
+      "computer error screen",
+      "business office technology"
+    ]
+  }
+}
