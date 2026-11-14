@@ -441,12 +441,11 @@
     .topic-link.is-active::after {
       background: white;
     }
-    .topic-link.primary,
     .topic-link.primary.is-active {
       color: white;
       opacity: 1;
     }
-    .topic-link.primary::after {
+    .topic-link.primary.is-active::after {
       color: white;
       background: white;
     }
@@ -2142,45 +2141,12 @@
       font-weight: 900 !important;
       box-shadow: 0 2px 10px rgba(225, 6, 0, 0.55) !important;
     }
-/* FIRST_PAINT_TOPIC_FILTER_START */
-html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]) .topic-card {
-  display: none !important;
-}
-html.has-topic-filter[data-active-topic="gundem"] .topic-card[data-topic="gundem"],
-html.has-topic-filter[data-active-topic="siyaset"] .topic-card[data-topic="siyaset"],
-html.has-topic-filter[data-active-topic="ekonomi"] .topic-card[data-topic="ekonomi"],
-html.has-topic-filter[data-active-topic="dunya"] .topic-card[data-topic="dunya"],
-html.has-topic-filter[data-active-topic="kamu"] .topic-card[data-topic="kamu"],
-html.has-topic-filter[data-active-topic="eczane"] .topic-card[data-topic="eczane"],
-html.has-topic-filter[data-active-topic="ulasim"] .topic-card[data-topic="ulasim"],
-html.has-topic-filter[data-active-topic="spor"] .topic-card[data-topic="spor"],
-html.has-topic-filter[data-active-topic="magazin"] .topic-card[data-topic="magazin"],
-html.has-topic-filter[data-active-topic="teknoloji"] .topic-card[data-topic="teknoloji"],
-html.has-topic-filter[data-active-topic="saglik"] .topic-card[data-topic="saglik"] {
-  display: block !important;
-}
-html.has-topic-filter .topic-card[hidden] {
-  display: none !important;
-}
-html.category-navigation-pending .container,
-html.has-topic-filter:not(.category-page-ready) .container {
-  visibility: hidden;
-  pointer-events: none;
-}
-html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):not(.category-page-ready) .page-layout {
-  visibility: hidden;
-  pointer-events: none;
-}
-html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):not(.category-showcase-ready) .headline-slider,
-html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):not(.category-showcase-ready) .side-headlines {
-  visibility: hidden;
-  pointer-events: none;
-}
-html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):not(.category-showcase-ready) #turkiye .showcase-grid,
-html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):not(.category-feed-ready) #grid-turkey {
-  display: none !important;
-}
-/* FIRST_PAINT_TOPIC_FILTER_END */
+    .topic-card[hidden],
+    .news-card[hidden],
+    [data-news-section][hidden],
+    [hidden] {
+      display: none !important;
+    }
   </style>
   <link rel="stylesheet" href="/assets/css/corporate-header.css?v=20261002_corp">
   <link rel="stylesheet" href="/assets/css/mobile-home-ux.css?v=20260904_numdots">
@@ -2213,7 +2179,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       <a href="./" class="logo" aria-label="Latest US News">
         <div class="logo-icon">M</div>
         <div class="logo-text">
-          <strong>mansetradar.com.tr</strong>
+          <strong>Manşet Radar</strong>
           <span>US News Platform</span>
         </div>
       </a>
@@ -2257,13 +2223,13 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
   <nav class="breaking" aria-label="News categories">
     <div class="inner">
       <div class="topic-list">
-        <a class="topic-link primary" href="./" data-topic="son-dakika">Breaking</a>
+        <a class="topic-link primary is-active" href="./" data-topic="son-dakika">Breaking</a>
         <a class="topic-link" href="./?kategori=gundem" data-topic="gundem">Agenda</a>
         <a class="topic-link" href="./?kategori=siyaset" data-topic="siyaset">Politics</a>
         <a class="topic-link" href="./?kategori=ekonomi" data-topic="ekonomi">Economy</a>
         <a class="topic-link" href="./?kategori=dunya" data-topic="dunya">World</a>
-        <a class="topic-link" href="/hizmet/eczane/" data-topic="eczane">Pharmacy</a>
-        <a class="topic-link" href="/hizmet/ulasim/" data-topic="ulasim">Transport</a>
+        <a class="topic-link" href="/new-york/#pharmacies" data-topic="eczane">Pharmacy</a>
+        <a class="topic-link" href="/new-york/#transit" data-topic="ulasim">Transport</a>
         <a class="topic-link" href="./?kategori=spor" data-topic="spor">Sports</a>
         <a class="topic-link" href="./?kategori=magazin" data-topic="magazin">Culture</a>
         <a class="topic-link" href="./?kategori=teknoloji" data-topic="teknoloji">Technology</a>
@@ -2503,6 +2469,305 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
           <div class="news-grid" id="grid-main">
             
+      <article class="news-card topic-card" data-topic="siyaset">
+        <a class="card-image-link" href="/news/articles/2026/11/democrats-filibuster-proof-budget-bill-affordability_20261114/" aria-label="Top Democrat Eyes Filibuster-Proof Budget Bill to Unlock Affordability Agenda"><div class="card-image"><img src="/news/articles/2026/11/images/democrats-filibuster-proof-budget-bill-affordability_20261114.webp" alt="Top Democrat Eyes Filibuster-Proof Budget Bill to Unlock Affordability Agenda" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">Politics</span>
+            <time class="card-date" datetime="2026-11-14">14.11.2026 16:30</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/2026/11/democrats-filibuster-proof-budget-bill-affordability_20261114/">Top Democrat Eyes Filibuster-Proof Budget Bill to Unlock Affordability Agenda</a>
+          </h3>
+          <p class="card-excerpt">Representative Brendan Boyle, poised to lead the House Budget Committee, is exploring a filibuster-proof budget bill to bypass minority opposition, push through a sweeping economi...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/2026/11/democrats-filibuster-proof-budget-bill-affordability_20261114/" aria-label="Top Democrat Eyes Filibuster-Proof Budget Bill to Unlock Affordability Agenda read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fdemocrats-filibuster-proof-budget-bill-affordability_20261114%2F&text=Top+Democrat+Eyes+Filibuster-Proof+Budget+Bill+to+Unlock+Affordability+Agenda" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fdemocrats-filibuster-proof-budget-bill-affordability_20261114%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Top+Democrat+Eyes+Filibuster-Proof+Budget+Bill+to+Unlock+Affordability+Agenda%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fdemocrats-filibuster-proof-budget-bill-affordability_20261114%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fdemocrats-filibuster-proof-budget-bill-affordability_20261114%2F&text=Top+Democrat+Eyes+Filibuster-Proof+Budget+Bill+to+Unlock+Affordability+Agenda" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="dunya">
+        <a class="card-image-link" href="/news/articles/2026/11/faa-lifts-nationwide-ground-stop-telecommunication-outage_20261114/" aria-label="FAA Lifts Nationwide Ground Stop After Major Telecommunication Outage"><div class="card-image"><img src="/news/articles/2026/11/images/faa-lifts-nationwide-ground-stop-telecommunication-outage_20261114.webp" alt="FAA Lifts Nationwide Ground Stop After Major Telecommunication Outage" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">World</span>
+            <time class="card-date" datetime="2026-11-14">14.11.2026 16:30</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/2026/11/faa-lifts-nationwide-ground-stop-telecommunication-outage_20261114/">FAA Lifts Nationwide Ground Stop After Major Telecommunication Outage</a>
+          </h3>
+          <p class="card-excerpt">Federal airspace is operating normally following a nationwide ground stop on all departing U.S. flights caused by a telecommunication outage. Transportation Secretary Sean Duffy r...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/2026/11/faa-lifts-nationwide-ground-stop-telecommunication-outage_20261114/" aria-label="FAA Lifts Nationwide Ground Stop After Major Telecommunication Outage read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Ffaa-lifts-nationwide-ground-stop-telecommunication-outage_20261114%2F&text=FAA+Lifts+Nationwide+Ground+Stop+After+Major+Telecommunication+Outage" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Ffaa-lifts-nationwide-ground-stop-telecommunication-outage_20261114%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=FAA+Lifts+Nationwide+Ground+Stop+After+Major+Telecommunication+Outage%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Ffaa-lifts-nationwide-ground-stop-telecommunication-outage_20261114%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Ffaa-lifts-nationwide-ground-stop-telecommunication-outage_20261114%2F&text=FAA+Lifts+Nationwide+Ground+Stop+After+Major+Telecommunication+Outage" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="dunya">
+        <a class="card-image-link" href="/news/articles/2026/11/un-nuclear-agency-iran-facility-strait-of-hormuz-tankers_20261114/" aria-label="UN Nuclear Agency Seeks Access to Key Iran Facility Amid Strait of Hormuz Tanker Mine Blasts"><div class="card-image"><img src="/news/articles/2026/11/images/un-nuclear-agency-iran-facility-strait-of-hormuz-tankers_20261114.webp" alt="UN Nuclear Agency Seeks Access to Key Iran Facility Amid Strait of Hormuz Tanker Mine Blasts" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">World</span>
+            <time class="card-date" datetime="2026-11-14">14.11.2026 16:30</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/2026/11/un-nuclear-agency-iran-facility-strait-of-hormuz-tankers_20261114/">UN Nuclear Agency Seeks Access to Key Iran Facility Amid Strait of Hormuz Tanker Mine Blasts</a>
+          </h3>
+          <p class="card-excerpt">As the U.N. nuclear watchdog pushes for access to a key Iranian uranium facility amid a leaked report, the Islamic Revolutionary Guard Corps reports that three oil tankers have st...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/2026/11/un-nuclear-agency-iran-facility-strait-of-hormuz-tankers_20261114/" aria-label="UN Nuclear Agency Seeks Access to Key Iran Facility Amid Strait of Hormuz Tanker Mine Blasts read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fun-nuclear-agency-iran-facility-strait-of-hormuz-tankers_20261114%2F&text=UN+Nuclear+Agency+Seeks+Access+to+Key+Iran+Facility+Amid+Strait+of+Hormuz+Tanker+Mine+Blasts" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fun-nuclear-agency-iran-facility-strait-of-hormuz-tankers_20261114%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=UN+Nuclear+Agency+Seeks+Access+to+Key+Iran+Facility+Amid+Strait+of+Hormuz+Tanker+Mine+Blasts%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fun-nuclear-agency-iran-facility-strait-of-hormuz-tankers_20261114%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fun-nuclear-agency-iran-facility-strait-of-hormuz-tankers_20261114%2F&text=UN+Nuclear+Agency+Seeks+Access+to+Key+Iran+Facility+Amid+Strait+of+Hormuz+Tanker+Mine+Blasts" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="teknoloji">
+        <a class="card-image-link" href="/news/articles/2026/11/jensen-huang-nvidia-resigns-scandal-silicon-valley_20261114/" aria-label="Nvidia CEO Jensen Huang Resigns After Stunning Scandal Shocks Silicon Valley"><div class="card-image"><img src="/news/articles/2026/11/images/jensen-huang-nvidia-resigns-scandal-silicon-valley_20261114.webp" alt="Nvidia CEO Jensen Huang Resigns After Stunning Scandal Shocks Silicon Valley" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">Technology</span>
+            <time class="card-date" datetime="2026-11-14">14.11.2026 16:30</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/2026/11/jensen-huang-nvidia-resigns-scandal-silicon-valley_20261114/">Nvidia CEO Jensen Huang Resigns After Stunning Scandal Shocks Silicon Valley</a>
+          </h3>
+          <p class="card-excerpt">Nvidia chief executive Jensen Huang has abruptly resigned following a stunning scandal involving an affair with a woman, Alice Huang, whom U.S. officials believe was spying for Ch...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/2026/11/jensen-huang-nvidia-resigns-scandal-silicon-valley_20261114/" aria-label="Nvidia CEO Jensen Huang Resigns After Stunning Scandal Shocks Silicon Valley read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fjensen-huang-nvidia-resigns-scandal-silicon-valley_20261114%2F&text=Nvidia+CEO+Jensen+Huang+Resigns+After+Stunning+Scandal+Shocks+Silicon+Valley" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fjensen-huang-nvidia-resigns-scandal-silicon-valley_20261114%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Nvidia+CEO+Jensen+Huang+Resigns+After+Stunning+Scandal+Shocks+Silicon+Valley%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fjensen-huang-nvidia-resigns-scandal-silicon-valley_20261114%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fjensen-huang-nvidia-resigns-scandal-silicon-valley_20261114%2F&text=Nvidia+CEO+Jensen+Huang+Resigns+After+Stunning+Scandal+Shocks+Silicon+Valley" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="teknoloji">
+        <a class="card-image-link" href="/news/articles/2026/11/spacex-launches-huge-starship-rocket-15th-test-flight_20261114/" aria-label="SpaceX Launches Massive Starship Rocket on 15th Test Flight"><div class="card-image"><img src="/news/articles/2026/11/images/spacex-launches-huge-starship-rocket-15th-test-flight_20261114.webp" alt="SpaceX Launches Massive Starship Rocket on 15th Test Flight" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">Technology</span>
+            <time class="card-date" datetime="2026-11-14">14.11.2026 05:26</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/2026/11/spacex-launches-huge-starship-rocket-15th-test-flight_20261114/">SpaceX Launches Massive Starship Rocket on 15th Test Flight</a>
+          </h3>
+          <p class="card-excerpt">SpaceX has conducted the 15th test flight of its massive Starship rocket, continuing its ambitious development program for deep space transportation.</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/2026/11/spacex-launches-huge-starship-rocket-15th-test-flight_20261114/" aria-label="SpaceX Launches Massive Starship Rocket on 15th Test Flight read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fspacex-launches-huge-starship-rocket-15th-test-flight_20261114%2F&text=SpaceX+Launches+Massive+Starship+Rocket+on+15th+Test+Flight" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fspacex-launches-huge-starship-rocket-15th-test-flight_20261114%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=SpaceX+Launches+Massive+Starship+Rocket+on+15th+Test+Flight%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fspacex-launches-huge-starship-rocket-15th-test-flight_20261114%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fspacex-launches-huge-starship-rocket-15th-test-flight_20261114%2F&text=SpaceX+Launches+Massive+Starship+Rocket+on+15th+Test+Flight" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="gundem">
+        <a class="card-image-link" href="/news/articles/2026/11/fbi-seizes-1-2-billion-crypto-binance_20261113/" aria-label="FBI Seizes $1.2 Billion in Crypto Stolen from Binance in Historic Heist"><div class="card-image"><img src="/news/articles/2026/11/images/fbi-seizes-1-2-billion-crypto-binance_20261113.webp" alt="FBI Seizes $1.2 Billion in Crypto Stolen from Binance in Historic Heist" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">Agenda</span>
+            <time class="card-date" datetime="2026-11-13">13.11.2026 15:18</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/2026/11/fbi-seizes-1-2-billion-crypto-binance_20261113/">FBI Seizes $1.2 Billion in Crypto Stolen from Binance in Historic Heist</a>
+          </h3>
+          <p class="card-excerpt">The FBI announced Thursday it has seized more than $1.2 billion in cryptocurrency stolen from Binance last month during the largest crypto heist in history, attributing the cyberc...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/2026/11/fbi-seizes-1-2-billion-crypto-binance_20261113/" aria-label="FBI Seizes $1.2 Billion in Crypto Stolen from Binance in Historic Heist read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Ffbi-seizes-1-2-billion-crypto-binance_20261113%2F&text=FBI+Seizes+%241.2+Billion+in+Crypto+Stolen+from+Binance+in+Historic+Heist" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Ffbi-seizes-1-2-billion-crypto-binance_20261113%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=FBI+Seizes+%241.2+Billion+in+Crypto+Stolen+from+Binance+in+Historic+Heist%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Ffbi-seizes-1-2-billion-crypto-binance_20261113%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Ffbi-seizes-1-2-billion-crypto-binance_20261113%2F&text=FBI+Seizes+%241.2+Billion+in+Crypto+Stolen+from+Binance+in+Historic+Heist" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="siyaset">
+        <a class="card-image-link" href="/news/articles/2026/11/christian-right-midterm-election-losses-2028_20261113/" aria-label="Christian Right Scrambles to Regroup Following Midterm Election Losses"><div class="card-image"><img src="/news/articles/2026/11/images/christian-right-midterm-election-losses-2028_20261113.webp" alt="Christian Right Scrambles to Regroup Following Midterm Election Losses" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">Politics</span>
+            <time class="card-date" datetime="2026-11-13">13.11.2026 17:34</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/2026/11/christian-right-midterm-election-losses-2028_20261113/">Christian Right Scrambles to Regroup Following Midterm Election Losses</a>
+          </h3>
+          <p class="card-excerpt">Following a crushing defeat in the midterm elections, the Christian right is facing deep frustration and uncertainty, prompting activists and leaders to scramble to regroup ahead...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/2026/11/christian-right-midterm-election-losses-2028_20261113/" aria-label="Christian Right Scrambles to Regroup Following Midterm Election Losses read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fchristian-right-midterm-election-losses-2028_20261113%2F&text=Christian+Right+Scrambles+to+Regroup+Following+Midterm+Election+Losses" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fchristian-right-midterm-election-losses-2028_20261113%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Christian+Right+Scrambles+to+Regroup+Following+Midterm+Election+Losses%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fchristian-right-midterm-election-losses-2028_20261113%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fchristian-right-midterm-election-losses-2028_20261113%2F&text=Christian+Right+Scrambles+to+Regroup+Following+Midterm+Election+Losses" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="magazin">
+        <a class="card-image-link" href="/news/articles/2026/11/u2-nicely-chaotic-preview-cbs-news_20261113/" aria-label="U2 Opens Up About Being Nicely Chaotic Ahead of Special Preview"><div class="card-image"><img src="/news/articles/2026/11/images/u2-nicely-chaotic-preview-cbs-news_20261113.webp" alt="U2 Opens Up About Being Nicely Chaotic Ahead of Special Preview" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">Culture</span>
+            <time class="card-date" datetime="2026-11-13">13.11.2026 17:34</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/2026/11/u2-nicely-chaotic-preview-cbs-news_20261113/">U2 Opens Up About Being Nicely Chaotic Ahead of Special Preview</a>
+          </h3>
+          <p class="card-excerpt">Legendary rock band U2 discusses their dynamic approach to music and life in a special preview highlighting their unique brand of being &#x27;nicely chaotic.&#x27;</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/2026/11/u2-nicely-chaotic-preview-cbs-news_20261113/" aria-label="U2 Opens Up About Being Nicely Chaotic Ahead of Special Preview read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fu2-nicely-chaotic-preview-cbs-news_20261113%2F&text=U2+Opens+Up+About+Being+Nicely+Chaotic+Ahead+of+Special+Preview" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fu2-nicely-chaotic-preview-cbs-news_20261113%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=U2+Opens+Up+About+Being+Nicely+Chaotic+Ahead+of+Special+Preview%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fu2-nicely-chaotic-preview-cbs-news_20261113%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fu2-nicely-chaotic-preview-cbs-news_20261113%2F&text=U2+Opens+Up+About+Being+Nicely+Chaotic+Ahead+of+Special+Preview" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="ekonomi">
+        <a class="card-image-link" href="/news/articles/2026/11/college-tuition-sticker-shock-jill-schlesinger_20261112/" aria-label="The Reality of College Tuition Sticker Shock Explored in Money Moves with Jill Schlesinger"><div class="card-image"><img src="/news/articles/2026/11/images/college-tuition-sticker-shock-jill-schlesinger_20261112.webp" alt="The Reality of College Tuition Sticker Shock Explored in Money Moves with Jill Schlesinger" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">Economy</span>
+            <time class="card-date" datetime="2026-11-12">12.11.2026 18:13</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/2026/11/college-tuition-sticker-shock-jill-schlesinger_20261112/">The Reality of College Tuition Sticker Shock Explored in Money Moves with Jill Schlesinger</a>
+          </h3>
+          <p class="card-excerpt">CBS News features a detailed discussion on the financial realities of higher education costs and tuition sticker shock through Money Moves with Jill Schlesinger.</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/2026/11/college-tuition-sticker-shock-jill-schlesinger_20261112/" aria-label="The Reality of College Tuition Sticker Shock Explored in Money Moves with Jill Schlesinger read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fcollege-tuition-sticker-shock-jill-schlesinger_20261112%2F&text=The+Reality+of+College+Tuition+Sticker+Shock+Explored+in+Money+Moves+with+Jill+Schlesinger" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fcollege-tuition-sticker-shock-jill-schlesinger_20261112%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=The+Reality+of+College+Tuition+Sticker+Shock+Explored+in+Money+Moves+with+Jill+Schlesinger%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fcollege-tuition-sticker-shock-jill-schlesinger_20261112%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fcollege-tuition-sticker-shock-jill-schlesinger_20261112%2F&text=The+Reality+of+College+Tuition+Sticker+Shock+Explored+in+Money+Moves+with+Jill+Schlesinger" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="gundem">
+        <a class="card-image-link" href="/news/articles/2026/11/kings-of-leon-rose-cbs-saturday-sessions_20261107/" aria-label="Kings of Leon Perform &#x27;Rose&#x27; on CBS Saturday Sessions"><div class="card-image"><img src="/news/articles/2026/11/images/kings-of-leon-rose-cbs-saturday-sessions_20261107.webp" alt="Kings of Leon Perform &#x27;Rose&#x27; on CBS Saturday Sessions" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">Agenda</span>
+            <time class="card-date" datetime="2026-11-07">07.11.2026 21:47</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/2026/11/kings-of-leon-rose-cbs-saturday-sessions_20261107/">Kings of Leon Perform &#x27;Rose&#x27; on CBS Saturday Sessions</a>
+          </h3>
+          <p class="card-excerpt">Rock band Kings of Leon take to the stage to perform their song &#x27;Rose&#x27; as part of the CBS Saturday Sessions musical segment.</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/2026/11/kings-of-leon-rose-cbs-saturday-sessions_20261107/" aria-label="Kings of Leon Perform &#x27;Rose&#x27; on CBS Saturday Sessions read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fkings-of-leon-rose-cbs-saturday-sessions_20261107%2F&text=Kings+of+Leon+Perform+%27Rose%27+on+CBS+Saturday+Sessions" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fkings-of-leon-rose-cbs-saturday-sessions_20261107%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Kings+of+Leon+Perform+%27Rose%27+on+CBS+Saturday+Sessions%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fkings-of-leon-rose-cbs-saturday-sessions_20261107%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fkings-of-leon-rose-cbs-saturday-sessions_20261107%2F&text=Kings+of+Leon+Perform+%27Rose%27+on+CBS+Saturday+Sessions" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="siyaset">
+        <a class="card-image-link" href="/news/articles/2026/11/democrats-white-house-budget-powers_20261113/" aria-label="Democrats Eye Strict New Limits on White House Budget Powers"><div class="card-image"><img src="/news/articles/2026/11/images/democrats-white-house-budget-powers_20261113.webp" alt="Democrats Eye Strict New Limits on White House Budget Powers" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">Politics</span>
+            <time class="card-date" datetime="2026-11-13">13.11.2026 15:18</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/2026/11/democrats-white-house-budget-powers_20261113/">Democrats Eye Strict New Limits on White House Budget Powers</a>
+          </h3>
+          <p class="card-excerpt">Following an overwhelming electoral victory, incoming congressional Democrats are plotting aggressive oversight and strict new limits to check President Trump&#x27;s budget powers and...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/2026/11/democrats-white-house-budget-powers_20261113/" aria-label="Democrats Eye Strict New Limits on White House Budget Powers read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fdemocrats-white-house-budget-powers_20261113%2F&text=Democrats+Eye+Strict+New+Limits+on+White+House+Budget+Powers" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fdemocrats-white-house-budget-powers_20261113%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Democrats+Eye+Strict+New+Limits+on+White+House+Budget+Powers%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fdemocrats-white-house-budget-powers_20261113%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fdemocrats-white-house-budget-powers_20261113%2F&text=Democrats+Eye+Strict+New+Limits+on+White+House+Budget+Powers" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="dunya">
+        <a class="card-image-link" href="/news/articles/2026/11/darth-vader-lightsaber-sells-for-5-million-auction_20261113/" aria-label="Darth Vader&#x27;s Iconic Star Wars Lightsaber Sells for Nearly $5 Million at Auction"><div class="card-image"><img src="/news/articles/2026/11/images/darth-vader-lightsaber-sells-for-5-million-auction_20261113.webp" alt="Darth Vader&#x27;s Iconic Star Wars Lightsaber Sells for Nearly $5 Million at Auction" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">World</span>
+            <time class="card-date" datetime="2026-11-13">13.11.2026 17:34</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/2026/11/darth-vader-lightsaber-sells-for-5-million-auction_20261113/">Darth Vader&#x27;s Iconic Star Wars Lightsaber Sells for Nearly $5 Million at Auction</a>
+          </h3>
+          <p class="card-excerpt">A lightsaber used by Darth Vader in &#x27;The Empire Strikes Back&#x27; and &#x27;Return of the Jedi&#x27; has sold for $4.875 million at a Heritage Auctions event, setting a new world record for any...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/2026/11/darth-vader-lightsaber-sells-for-5-million-auction_20261113/" aria-label="Darth Vader&#x27;s Iconic Star Wars Lightsaber Sells for Nearly $5 Million at Auction read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fdarth-vader-lightsaber-sells-for-5-million-auction_20261113%2F&text=Darth+Vader%27s+Iconic+Star+Wars+Lightsaber+Sells+for+Nearly+%245+Million+at+Auction" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fdarth-vader-lightsaber-sells-for-5-million-auction_20261113%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Darth+Vader%27s+Iconic+Star+Wars+Lightsaber+Sells+for+Nearly+%245+Million+at+Auction%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fdarth-vader-lightsaber-sells-for-5-million-auction_20261113%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Fdarth-vader-lightsaber-sells-for-5-million-auction_20261113%2F&text=Darth+Vader%27s+Iconic+Star+Wars+Lightsaber+Sells+for+Nearly+%245+Million+at+Auction" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="dunya">
+        <a class="card-image-link" href="/news/articles/2026/11/iran-claims-us-radar-attack-bahrain-strait-of-hormuz_20261113/" aria-label="Iran Claims Attack on U.S. Radar in Bahrain Amid Escalating Strait of Hormuz Tensions"><div class="card-image"><img src="/news/articles/2026/11/images/iran-claims-us-radar-attack-bahrain-strait-of-hormuz_20261113.webp" alt="Iran Claims Attack on U.S. Radar in Bahrain Amid Escalating Strait of Hormuz Tensions" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">World</span>
+            <time class="card-date" datetime="2026-11-13">13.11.2026 15:18</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/2026/11/iran-claims-us-radar-attack-bahrain-strait-of-hormuz_20261113/">Iran Claims Attack on U.S. Radar in Bahrain Amid Escalating Strait of Hormuz Tensions</a>
+          </h3>
+          <p class="card-excerpt">Iran&#x27;s Revolutionary Guard reports destroying a U.S. early warning radar in Bahrain following a U.S. strike in Iran, as regional conflict continues to disrupt maritime navigation...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/2026/11/iran-claims-us-radar-attack-bahrain-strait-of-hormuz_20261113/" aria-label="Iran Claims Attack on U.S. Radar in Bahrain Amid Escalating Strait of Hormuz Tensions read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Firan-claims-us-radar-attack-bahrain-strait-of-hormuz_20261113%2F&text=Iran+Claims+Attack+on+U.S.+Radar+in+Bahrain+Amid+Escalating+Strait+of+Hormuz+Tensions" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Firan-claims-us-radar-attack-bahrain-strait-of-hormuz_20261113%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Iran+Claims+Attack+on+U.S.+Radar+in+Bahrain+Amid+Escalating+Strait+of+Hormuz+Tensions%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Firan-claims-us-radar-attack-bahrain-strait-of-hormuz_20261113%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2F2026%2F11%2Firan-claims-us-radar-attack-bahrain-strait-of-hormuz_20261113%2F&text=Iran+Claims+Attack+on+U.S.+Radar+in+Bahrain+Amid+Escalating+Strait+of+Hormuz+Tensions" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
       <article class="news-card topic-card" data-topic="teknoloji">
         <a class="card-image-link" href="/news/articles/2026/11/lutnick-nvidia-commerce-china-chips_20261113/" aria-label="Commerce Secretary Howard Lutnick Faced Scrutiny Over Nvidia Controls"><div class="card-image"><img src="/news/articles/2026/11/images/lutnick-nvidia-commerce-china-chips_20261113.webp" alt="Commerce Secretary Howard Lutnick Faced Scrutiny Over Nvidia Controls" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
@@ -5563,6 +5828,29 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         </div>
       </article>
       <article class="news-card topic-card" data-topic="saglik">
+        <a class="card-image-link" href="/news/articles/akobo-south-sudan-ebola-risk_20260522/" aria-label="On the Ground in South Sudan: Why Akobo Faces an Ebola Risk"><div class="card-image"><img src="https://images.unsplash.com/photo-1535253868107-da56da1693db?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxTb3V0aCUyMFN1ZGFufGVufDB8MHx8fDE3Nzk0OTE1NjN8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="On the Ground in South Sudan: Why Akobo Faces an Ebola Risk" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">Health</span>
+            <time class="card-date" datetime="2026-05-22">22.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/akobo-south-sudan-ebola-risk_20260522/">On the Ground in South Sudan: Why Akobo Faces an Ebola Risk</a>
+          </h3>
+          <p class="card-excerpt">In Akobo, South Sudan, residents are grappling with hunger and conflict, making the area vulnerable to an Ebola outbreak, which could have devastating consequences.</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/akobo-south-sudan-ebola-risk_20260522/" aria-label="On the Ground in South Sudan: Why Akobo Faces an Ebola Risk read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fakobo-south-sudan-ebola-risk_20260522%2F&text=On+the+Ground+in+South+Sudan%3A+Why+Akobo+Faces+an+Ebola+Risk" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fakobo-south-sudan-ebola-risk_20260522%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=On+the+Ground+in+South+Sudan%3A+Why+Akobo+Faces+an+Ebola+Risk%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fakobo-south-sudan-ebola-risk_20260522%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fakobo-south-sudan-ebola-risk_20260522%2F&text=On+the+Ground+in+South+Sudan%3A+Why+Akobo+Faces+an+Ebola+Risk" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="saglik">
         <a class="card-image-link" href="/news/articles/trumps-rural-health-fund-gaps_20260522/" aria-label="The Gaps in Trump&#x27;s Rural Health Fund"><div class="card-image"><img src="https://images.unsplash.com/photo-1761941077063-d50843a5e62d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxydXJhbCUyMGhvc3BpdGFsfGVufDB8MHx8fDE3Nzk0OTE1NTZ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="The Gaps in Trump&#x27;s Rural Health Fund" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
@@ -5770,6 +6058,29 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         </div>
       </article>
       <article class="news-card topic-card" data-topic="gundem">
+        <a class="card-image-link" href="/news/articles/us-israel-iran-regime-change_20260520/" aria-label="US and Israel Sought Regime Change in Iran with Ahmadinejad as Leader"><div class="card-image"><img src="https://images.unsplash.com/photo-1613930648631-7191115e83d4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJcmFufGVufDB8MHx8fDE3NzkyMDczNDZ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="US and Israel Sought Regime Change in Iran with Ahmadinejad as Leader" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">Agenda</span>
+            <time class="card-date" datetime="2026-05-20">20.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/us-israel-iran-regime-change_20260520/">US and Israel Sought Regime Change in Iran with Ahmadinejad as Leader</a>
+          </h3>
+          <p class="card-excerpt">US officials said an Israeli strike was part of an effort to bring about regime change in Iran and install Mahmoud Ahmadinejad as the leader, marking a significant revelation abou...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/us-israel-iran-regime-change_20260520/" aria-label="US and Israel Sought Regime Change in Iran with Ahmadinejad as Leader read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fus-israel-iran-regime-change_20260520%2F&text=US+and+Israel+Sought+Regime+Change+in+Iran+with+Ahmadinejad+as+Leader" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fus-israel-iran-regime-change_20260520%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=US+and+Israel+Sought+Regime+Change+in+Iran+with+Ahmadinejad+as+Leader%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fus-israel-iran-regime-change_20260520%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fus-israel-iran-regime-change_20260520%2F&text=US+and+Israel+Sought+Regime+Change+in+Iran+with+Ahmadinejad+as+Leader" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="gundem">
         <a class="card-image-link" href="/news/articles/ups-plane-crash-faulty-part_20260520/" aria-label="Faulty Part in UPS Plane Crash Was Often Overlooked"><div class="card-image"><img src="https://images.unsplash.com/photo-1624933796245-4b07a2ae0cbf?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxwbGFuZSUyMGNyYXNofGVufDB8MHx8fDE3NzkyODEzMjB8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Faulty Part in UPS Plane Crash Was Often Overlooked" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
@@ -5816,6 +6127,29 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         </div>
       </article>
       <article class="news-card topic-card" data-topic="gundem">
+        <a class="card-image-link" href="/news/articles/senate-votes-to-limit-trump-iran-war-powers_20260520/" aria-label="Senate Moves to Limit Trump&#x27;s Authority on Iran Conflict"><div class="card-image"><img src="https://images.unsplash.com/photo-1600870003315-e1c945702030?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVUyUyMFNlbmF0ZXxlbnwwfDB8fHwxNzc5MjQwOTExfDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Senate Moves to Limit Trump&#x27;s Authority on Iran Conflict" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">Agenda</span>
+            <time class="card-date" datetime="2026-05-20">20.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/senate-votes-to-limit-trump-iran-war-powers_20260520/">Senate Moves to Limit Trump&#x27;s Authority on Iran Conflict</a>
+          </h3>
+          <p class="card-excerpt">The Senate voted to advance a resolution that would force President Trump to end hostilities with Iran or win authorization from Congress, marking a significant move to limit the...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/senate-votes-to-limit-trump-iran-war-powers_20260520/" aria-label="Senate Moves to Limit Trump&#x27;s Authority on Iran Conflict read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fsenate-votes-to-limit-trump-iran-war-powers_20260520%2F&text=Senate+Moves+to+Limit+Trump%27s+Authority+on+Iran+Conflict" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fsenate-votes-to-limit-trump-iran-war-powers_20260520%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Senate+Moves+to+Limit+Trump%27s+Authority+on+Iran+Conflict%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fsenate-votes-to-limit-trump-iran-war-powers_20260520%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fsenate-votes-to-limit-trump-iran-war-powers_20260520%2F&text=Senate+Moves+to+Limit+Trump%27s+Authority+on+Iran+Conflict" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="gundem">
         <a class="card-image-link" href="/news/articles/los-angeles-wildfires-prompt-evacuations_20260520/" aria-label="2 Wildfires Near Los Angeles Prompt Evacuations"><div class="card-image"><img src="https://images.unsplash.com/photo-1507680465142-ef2223e23308?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHx3aWxkZmlyZXxlbnwwfDB8fHwxNzc5Mjc0ODQxfDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="2 Wildfires Near Los Angeles Prompt Evacuations" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
@@ -5834,6 +6168,29 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Flos-angeles-wildfires-prompt-evacuations_20260520%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
               <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=2+Wildfires+Near+Los+Angeles+Prompt+Evacuations%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Flos-angeles-wildfires-prompt-evacuations_20260520%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
               <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Flos-angeles-wildfires-prompt-evacuations_20260520%2F&text=2+Wildfires+Near+Los+Angeles+Prompt+Evacuations" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="gundem">
+        <a class="card-image-link" href="/news/articles/iran-war-leverage_20260520/" aria-label="Iran&#x27;s Strategic Leverage in the War"><div class="card-image"><img src="https://images.unsplash.com/photo-1613930648631-7191115e83d4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJcmFufGVufDB8MHx8fDE3NzkyMDczNDZ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Iran&#x27;s Strategic Leverage in the War" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">Agenda</span>
+            <time class="card-date" datetime="2026-05-20">20.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/iran-war-leverage_20260520/">Iran&#x27;s Strategic Leverage in the War</a>
+          </h3>
+          <p class="card-excerpt">Iran has gained leverage in the war by using &#x27;triangular coercion&#x27;, attacking Gulf states and closing the Strait of Hormuz, which points to a long-term US vulnerability.</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/iran-war-leverage_20260520/" aria-label="Iran&#x27;s Strategic Leverage in the War read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Firan-war-leverage_20260520%2F&text=Iran%27s+Strategic+Leverage+in+the+War" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Firan-war-leverage_20260520%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Iran%27s+Strategic+Leverage+in+the+War%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Firan-war-leverage_20260520%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Firan-war-leverage_20260520%2F&text=Iran%27s+Strategic+Leverage+in+the+War" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
@@ -5976,12 +6333,12 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </div>
       </article>
-      <article class="news-card topic-card" data-topic="siyaset">
+      <article class="news-card topic-card" data-topic="ekonomi">
         <a class="card-image-link" href="/news/articles/china-boeing-planes-purchase_20260520/" aria-label="China Confirms Purchase of 200 Boeing Planes"><div class="card-image"><img src="https://images.unsplash.com/photo-1778529852031-c06cd6828cf7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxCb2VpbmclMjBwbGFuZXN8ZW58MHwwfHx8MTc3OTI4MTMxNHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="China Confirms Purchase of 200 Boeing Planes" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">US United States</span>
-            <span class="card-topic">Politics</span>
+            <span class="card-topic">Economy</span>
             <time class="card-date" datetime="2026-05-20">20.05.2026</time>
           </div>
           <h3 class="card-title">
@@ -6018,75 +6375,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fearly-war-goal-install-ahmadinejad-iran-leader_20260520%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
               <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Early+War+Goal%3A+Install+Ahmadinejad+as+Iran%27s+Leader%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fearly-war-goal-install-ahmadinejad-iran-leader_20260520%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
               <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fearly-war-goal-install-ahmadinejad-iran-leader_20260520%2F&text=Early+War+Goal%3A+Install+Ahmadinejad+as+Iran%27s+Leader" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="dunya">
-        <a class="card-image-link" href="/news/articles/us-israel-iran-regime-change_20260520/" aria-label="US and Israel Sought Regime Change in Iran with Ahmadinejad as Leader"><div class="card-image"><img src="https://images.unsplash.com/photo-1613930648631-7191115e83d4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJcmFufGVufDB8MHx8fDE3NzkyMDczNDZ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="US and Israel Sought Regime Change in Iran with Ahmadinejad as Leader" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">US United States</span>
-            <span class="card-topic">World</span>
-            <time class="card-date" datetime="2026-05-20">20.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/news/articles/us-israel-iran-regime-change_20260520/">US and Israel Sought Regime Change in Iran with Ahmadinejad as Leader</a>
-          </h3>
-          <p class="card-excerpt">US officials said an Israeli strike was part of an effort to bring about regime change in Iran and install Mahmoud Ahmadinejad as the leader, marking a significant revelation abou...</p>
-          <div class="card-footer">
-            <a class="read-more" href="/news/articles/us-israel-iran-regime-change_20260520/" aria-label="US and Israel Sought Regime Change in Iran with Ahmadinejad as Leader read this story">Read More →</a>
-            <div class="share-mini" aria-label="Share">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fus-israel-iran-regime-change_20260520%2F&text=US+and+Israel+Sought+Regime+Change+in+Iran+with+Ahmadinejad+as+Leader" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fus-israel-iran-regime-change_20260520%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=US+and+Israel+Sought+Regime+Change+in+Iran+with+Ahmadinejad+as+Leader%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fus-israel-iran-regime-change_20260520%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fus-israel-iran-regime-change_20260520%2F&text=US+and+Israel+Sought+Regime+Change+in+Iran+with+Ahmadinejad+as+Leader" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="dunya">
-        <a class="card-image-link" href="/news/articles/senate-votes-to-limit-trump-iran-war-powers_20260520/" aria-label="Senate Moves to Limit Trump&#x27;s Authority on Iran Conflict"><div class="card-image"><img src="https://images.unsplash.com/photo-1600870003315-e1c945702030?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVUyUyMFNlbmF0ZXxlbnwwfDB8fHwxNzc5MjQwOTExfDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Senate Moves to Limit Trump&#x27;s Authority on Iran Conflict" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">US United States</span>
-            <span class="card-topic">World</span>
-            <time class="card-date" datetime="2026-05-20">20.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/news/articles/senate-votes-to-limit-trump-iran-war-powers_20260520/">Senate Moves to Limit Trump&#x27;s Authority on Iran Conflict</a>
-          </h3>
-          <p class="card-excerpt">The Senate voted to advance a resolution that would force President Trump to end hostilities with Iran or win authorization from Congress, marking a significant move to limit the...</p>
-          <div class="card-footer">
-            <a class="read-more" href="/news/articles/senate-votes-to-limit-trump-iran-war-powers_20260520/" aria-label="Senate Moves to Limit Trump&#x27;s Authority on Iran Conflict read this story">Read More →</a>
-            <div class="share-mini" aria-label="Share">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fsenate-votes-to-limit-trump-iran-war-powers_20260520%2F&text=Senate+Moves+to+Limit+Trump%27s+Authority+on+Iran+Conflict" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fsenate-votes-to-limit-trump-iran-war-powers_20260520%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Senate+Moves+to+Limit+Trump%27s+Authority+on+Iran+Conflict%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fsenate-votes-to-limit-trump-iran-war-powers_20260520%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fsenate-votes-to-limit-trump-iran-war-powers_20260520%2F&text=Senate+Moves+to+Limit+Trump%27s+Authority+on+Iran+Conflict" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="dunya">
-        <a class="card-image-link" href="/news/articles/iran-war-leverage_20260520/" aria-label="Iran&#x27;s Strategic Leverage in the War"><div class="card-image"><img src="https://images.unsplash.com/photo-1613930648631-7191115e83d4?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxJcmFufGVufDB8MHx8fDE3NzkyMDczNDZ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Iran&#x27;s Strategic Leverage in the War" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">US United States</span>
-            <span class="card-topic">World</span>
-            <time class="card-date" datetime="2026-05-20">20.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/news/articles/iran-war-leverage_20260520/">Iran&#x27;s Strategic Leverage in the War</a>
-          </h3>
-          <p class="card-excerpt">Iran has gained leverage in the war by using &#x27;triangular coercion&#x27;, attacking Gulf states and closing the Strait of Hormuz, which points to a long-term US vulnerability.</p>
-          <div class="card-footer">
-            <a class="read-more" href="/news/articles/iran-war-leverage_20260520/" aria-label="Iran&#x27;s Strategic Leverage in the War read this story">Read More →</a>
-            <div class="share-mini" aria-label="Share">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Firan-war-leverage_20260520%2F&text=Iran%27s+Strategic+Leverage+in+the+War" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Firan-war-leverage_20260520%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Iran%27s+Strategic+Leverage+in+the+War%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Firan-war-leverage_20260520%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Firan-war-leverage_20260520%2F&text=Iran%27s+Strategic+Leverage+in+the+War" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
@@ -6133,29 +6421,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Ftrump-push-defeat-thomas-massie_20260519%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
               <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Trump%E2%80%99s+Push+to+Defeat+Thomas+Massie+Is+the+Most+Expensive+House+Primary+in+Recent+Years%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Ftrump-push-defeat-thomas-massie_20260519%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
               <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Ftrump-push-defeat-thomas-massie_20260519%2F&text=Trump%E2%80%99s+Push+to+Defeat+Thomas+Massie+Is+the+Most+Expensive+House+Primary+in+Recent+Years" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/news/articles/trump-administration-proposes-10000-white-south-african-refugees-100-million-cos_20260519/" aria-label="Trump Administration Proposes Admitting 10,000 White South African Refugees at $100 Million Cost"><div class="card-image"><img src="https://images.unsplash.com/photo-1550531996-ff3dcede9477?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxUcnVtcHxlbnwwfDB8fHwxNzc5MTEwNTU1fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Trump Administration Proposes Admitting 10,000 White South African Refugees at $100 Million Cost" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">US United States</span>
-            <span class="card-topic">Agenda</span>
-            <time class="card-date" datetime="2026-05-19">19.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/news/articles/trump-administration-proposes-10000-white-south-african-refugees-100-million-cos_20260519/">Trump Administration Proposes Admitting 10,000 White South African Refugees at $100 Million Cost</a>
-          </h3>
-          <p class="card-excerpt">More details are available in the full story.</p>
-          <div class="card-footer">
-            <a class="read-more" href="/news/articles/trump-administration-proposes-10000-white-south-african-refugees-100-million-cos_20260519/" aria-label="Trump Administration Proposes Admitting 10,000 White South African Refugees at $100 Million Cost read this story">Read More →</a>
-            <div class="share-mini" aria-label="Share">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Ftrump-administration-proposes-10000-white-south-african-refugees-100-million-cos_20260519%2F&text=Trump+Administration+Proposes+Admitting+10%2C000+White+South+African+Refugees+at+%24100+Million+Cost" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Ftrump-administration-proposes-10000-white-south-african-refugees-100-million-cos_20260519%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Trump+Administration+Proposes+Admitting+10%2C000+White+South+African+Refugees+at+%24100+Million+Cost%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Ftrump-administration-proposes-10000-white-south-african-refugees-100-million-cos_20260519%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Ftrump-administration-proposes-10000-white-south-african-refugees-100-million-cos_20260519%2F&text=Trump+Administration+Proposes+Admitting+10%2C000+White+South+African+Refugees+at+%24100+Million+Cost" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
@@ -6252,6 +6517,29 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </div>
       </article>
+      <article class="news-card topic-card" data-topic="siyaset">
+        <a class="card-image-link" href="/news/articles/trump-administration-proposes-10000-white-south-african-refugees-100-million-cos_20260519/" aria-label="Trump Administration Proposes Admitting 10,000 White South African Refugees at $100 Million Cost"><div class="card-image"><img src="https://images.unsplash.com/photo-1550531996-ff3dcede9477?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxUcnVtcHxlbnwwfDB8fHwxNzc5MTEwNTU1fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Trump Administration Proposes Admitting 10,000 White South African Refugees at $100 Million Cost" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">US United States</span>
+            <span class="card-topic">Politics</span>
+            <time class="card-date" datetime="2026-05-19">19.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/trump-administration-proposes-10000-white-south-african-refugees-100-million-cos_20260519/">Trump Administration Proposes Admitting 10,000 White South African Refugees at $100 Million Cost</a>
+          </h3>
+          <p class="card-excerpt">More details are available in the full story.</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/trump-administration-proposes-10000-white-south-african-refugees-100-million-cos_20260519/" aria-label="Trump Administration Proposes Admitting 10,000 White South African Refugees at $100 Million Cost read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Ftrump-administration-proposes-10000-white-south-african-refugees-100-million-cos_20260519%2F&text=Trump+Administration+Proposes+Admitting+10%2C000+White+South+African+Refugees+at+%24100+Million+Cost" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Ftrump-administration-proposes-10000-white-south-african-refugees-100-million-cos_20260519%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Trump+Administration+Proposes+Admitting+10%2C000+White+South+African+Refugees+at+%24100+Million+Cost%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Ftrump-administration-proposes-10000-white-south-african-refugees-100-million-cos_20260519%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Ftrump-administration-proposes-10000-white-south-african-refugees-100-million-cos_20260519%2F&text=Trump+Administration+Proposes+Admitting+10%2C000+White+South+African+Refugees+at+%24100+Million+Cost" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
       <article class="news-card topic-card" data-topic="ekonomi">
         <a class="card-image-link" href="/news/articles/bond-yields-hit-highest-level-since-2007_20260519/" aria-label="Bond Yields Hit Highest Level Since 2007 as Inflation Fears Set In"><div class="card-image"><img src="https://images.unsplash.com/photo-1648275913341-7973ae7bc9b3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxib25kJTIweWllbGRzfGVufDB8MHx8fDE3NzkyMjUyNTd8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Bond Yields Hit Highest Level Since 2007 as Inflation Fears Set In" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
@@ -6340,29 +6628,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Firan-war-exposes-shortcomings-in-us-military-industrial-base_20260519%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
               <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Iran+War+Exposes+Shortcomings+in+U.S.+Military+Industrial+Base%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Firan-war-exposes-shortcomings-in-us-military-industrial-base_20260519%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
               <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Firan-war-exposes-shortcomings-in-us-military-industrial-base_20260519%2F&text=Iran+War+Exposes+Shortcomings+in+U.S.+Military+Industrial+Base" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="saglik">
-        <a class="card-image-link" href="/news/articles/us-travel-restrictions-ebola-africa-outbreak_20260519/" aria-label="US Imposes Travel Restrictions on Three African Nations Amid Ebola Crisis"><div class="card-image"><img src="https://images.unsplash.com/photo-1580378156095-317d986123f8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFYm9sYXxlbnwwfDB8fHwxNzc5MjE0NDAwfDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="US Imposes Travel Restrictions on Three African Nations Amid Ebola Crisis" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">US United States</span>
-            <span class="card-topic">Health</span>
-            <time class="card-date" datetime="2026-05-19">19.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/news/articles/us-travel-restrictions-ebola-africa-outbreak_20260519/">US Imposes Travel Restrictions on Three African Nations Amid Ebola Crisis</a>
-          </h3>
-          <p class="card-excerpt">More details are available in the full story.</p>
-          <div class="card-footer">
-            <a class="read-more" href="/news/articles/us-travel-restrictions-ebola-africa-outbreak_20260519/" aria-label="US Imposes Travel Restrictions on Three African Nations Amid Ebola Crisis read this story">Read More →</a>
-            <div class="share-mini" aria-label="Share">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fus-travel-restrictions-ebola-africa-outbreak_20260519%2F&text=US+Imposes+Travel+Restrictions+on+Three+African+Nations+Amid+Ebola+Crisis" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fus-travel-restrictions-ebola-africa-outbreak_20260519%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=US+Imposes+Travel+Restrictions+on+Three+African+Nations+Amid+Ebola+Crisis%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fus-travel-restrictions-ebola-africa-outbreak_20260519%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fus-travel-restrictions-ebola-africa-outbreak_20260519%2F&text=US+Imposes+Travel+Restrictions+on+Three+African+Nations+Amid+Ebola+Crisis" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
@@ -6482,6 +6747,29 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </div>
       </article>
+      <article class="news-card topic-card" data-topic="ekonomi">
+        <a class="card-image-link" href="/news/articles/blocked-strait-hormuz-syria-economic-opportunities_20260518/" aria-label="Blocked Strait of Hormuz Leads to New Opportunities for Syria"><div class="card-image"><img src="https://images.unsplash.com/photo-1500252185289-40ca85eb23a7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxXYXJ8ZW58MHwwfHx8MTc3OTEwNDIyMnww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Blocked Strait of Hormuz Leads to New Opportunities for Syria" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">🇺🇸 United States</span>
+            <span class="card-topic">Economy</span>
+            <time class="card-date" datetime="2026-05-18">18.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/news/articles/blocked-strait-hormuz-syria-economic-opportunities_20260518/">Blocked Strait of Hormuz Leads to New Opportunities for Syria</a>
+          </h3>
+          <p class="card-excerpt">More details are available in the full story.</p>
+          <div class="card-footer">
+            <a class="read-more" href="/news/articles/blocked-strait-hormuz-syria-economic-opportunities_20260518/" aria-label="Blocked Strait of Hormuz Leads to New Opportunities for Syria read this story">Read More →</a>
+            <div class="share-mini" aria-label="Share">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-hormuz-syria-economic-opportunities_20260518%2F&text=Blocked+Strait+of+Hormuz+Leads+to+New+Opportunities+for+Syria" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-hormuz-syria-economic-opportunities_20260518%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Blocked+Strait+of+Hormuz+Leads+to+New+Opportunities+for+Syria%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-hormuz-syria-economic-opportunities_20260518%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-hormuz-syria-economic-opportunities_20260518%2F&text=Blocked+Strait+of+Hormuz+Leads+to+New+Opportunities+for+Syria" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
       <article class="news-card topic-card" data-topic="dunya">
         <a class="card-image-link" href="/news/articles/trump-warns-iran-clock-ticking-middle-east-tensions_20260518/" aria-label="Trump Warns Iran the ‘Clock Is Ticking’ as Tensions Surge Again in Middle East"><div class="card-image"><img src="https://images.unsplash.com/photo-1550531996-ff3dcede9477?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxUcnVtcHxlbnwwfDB8fHwxNzc5MTEwNTU1fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Trump Warns Iran the ‘Clock Is Ticking’ as Tensions Surge Again in Middle East" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
@@ -6528,31 +6816,8 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </div>
       </article>
-      <article class="news-card topic-card" data-topic="dunya">
-        <a class="card-image-link" href="/news/articles/blocked-strait-of-hormuz-leads-to-new-opportunities-for-syria_20260518/" aria-label="Blocked Strait of Hormuz Leads to New Opportunities for Syria"><div class="card-image"><img src="https://images.unsplash.com/photo-1659781044995-1c68c81dcc67?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxTeXJpYXxlbnwwfDB8fHwxNzc5MTI3NjUzfDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Blocked Strait of Hormuz Leads to New Opportunities for Syria" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">🇺🇸 United States</span>
-            <span class="card-topic">World</span>
-            <time class="card-date" datetime="2026-05-18">18.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/news/articles/blocked-strait-of-hormuz-leads-to-new-opportunities-for-syria_20260518/">Blocked Strait of Hormuz Leads to New Opportunities for Syria</a>
-          </h3>
-          <p class="card-excerpt">More details are available in the full story.</p>
-          <div class="card-footer">
-            <a class="read-more" href="/news/articles/blocked-strait-of-hormuz-leads-to-new-opportunities-for-syria_20260518/" aria-label="Blocked Strait of Hormuz Leads to New Opportunities for Syria read this story">Read More →</a>
-            <div class="share-mini" aria-label="Share">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-of-hormuz-leads-to-new-opportunities-for-syria_20260518%2F&text=Blocked+Strait+of+Hormuz+Leads+to+New+Opportunities+for+Syria" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-of-hormuz-leads-to-new-opportunities-for-syria_20260518%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Blocked+Strait+of+Hormuz+Leads+to+New+Opportunities+for+Syria%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-of-hormuz-leads-to-new-opportunities-for-syria_20260518%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Fblocked-strait-of-hormuz-leads-to-new-opportunities-for-syria_20260518%2F&text=Blocked+Strait+of+Hormuz+Leads+to+New+Opportunities+for+Syria" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
       <article class="news-card topic-card" data-topic="teknoloji">
-        <a class="card-image-link" href="/news/articles/elon-musk-openai-sam-altman-lawsuit-dismissed_20260518/" aria-label="Elon Musk&#x27;s $150 Billion Lawsuit Against OpenAI and Sam Altman Dismissed"><div class="card-image"><img src="https://images.unsplash.com/photo-1617704548623-340376564e68?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFbG9uJTIwTXVza3xlbnwwfDB8fHwxNzc5MTM3OTc4fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Elon Musk&#x27;s $150 Billion Lawsuit Against OpenAI and Sam Altman Dismissed" loading="lazy" width="1080" height="720"></div></a>
+        <a class="card-image-link" href="/news/articles/elon-musk-loses-150-billion-suit-against-openai_20260518/" aria-label="Elon Musk Loses $150 Billion Suit Against OpenAI"><div class="card-image"><img src="https://images.unsplash.com/photo-1617704548623-340376564e68?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxFbG9uJTIwTXVza3xlbnwwfDB8fHwxNzc5MTM3OTc4fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Elon Musk Loses $150 Billion Suit Against OpenAI" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">US United States</span>
@@ -6560,16 +6825,16 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
             <time class="card-date" datetime="2026-05-18">18.05.2026</time>
           </div>
           <h3 class="card-title">
-            <a href="/news/articles/elon-musk-openai-sam-altman-lawsuit-dismissed_20260518/">Elon Musk&#x27;s $150 Billion Lawsuit Against OpenAI and Sam Altman Dismissed</a>
+            <a href="/news/articles/elon-musk-loses-150-billion-suit-against-openai_20260518/">Elon Musk Loses $150 Billion Suit Against OpenAI</a>
           </h3>
           <p class="card-excerpt">More details are available in the full story.</p>
           <div class="card-footer">
-            <a class="read-more" href="/news/articles/elon-musk-openai-sam-altman-lawsuit-dismissed_20260518/" aria-label="Elon Musk&#x27;s $150 Billion Lawsuit Against OpenAI and Sam Altman Dismissed read this story">Read More →</a>
+            <a class="read-more" href="/news/articles/elon-musk-loses-150-billion-suit-against-openai_20260518/" aria-label="Elon Musk Loses $150 Billion Suit Against OpenAI read this story">Read More →</a>
             <div class="share-mini" aria-label="Share">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Felon-musk-openai-sam-altman-lawsuit-dismissed_20260518%2F&text=Elon+Musk%27s+%24150+Billion+Lawsuit+Against+OpenAI+and+Sam+Altman+Dismissed" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Felon-musk-openai-sam-altman-lawsuit-dismissed_20260518%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Elon+Musk%27s+%24150+Billion+Lawsuit+Against+OpenAI+and+Sam+Altman+Dismissed%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Felon-musk-openai-sam-altman-lawsuit-dismissed_20260518%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Felon-musk-openai-sam-altman-lawsuit-dismissed_20260518%2F&text=Elon+Musk%27s+%24150+Billion+Lawsuit+Against+OpenAI+and+Sam+Altman+Dismissed" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Felon-musk-loses-150-billion-suit-against-openai_20260518%2F&text=Elon+Musk+Loses+%24150+Billion+Suit+Against+OpenAI" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Felon-musk-loses-150-billion-suit-against-openai_20260518%2F" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Elon+Musk+Loses+%24150+Billion+Suit+Against+OpenAI%20https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Felon-musk-loses-150-billion-suit-against-openai_20260518%2F" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnews%2Farticles%2Felon-musk-loses-150-billion-suit-against-openai_20260518%2F&text=Elon+Musk+Loses+%24150+Billion+Suit+Against+OpenAI" aria-label="Share on Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
@@ -6924,9 +7189,22 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
     const weatherNoDataText = "No data";
     const weatherWindText = "Wind";
     const searchNoResultsText = "No matching news found.";
+    const topicMetaMap = {"son-dakika": {"kicker": "US News", "heading": "Latest US News", "note": "Breaking developments and selected headlines from US sources.", "flow_title": "US News Feed", "title": "US News | mansetradar.com.tr"}, "gundem": {"kicker": "US Desk · Agenda", "heading": "Agenda & Breaking Stories", "note": "National headlines, public safety, courts, and top developing stories.", "flow_title": "Agenda News Feed", "title": "Agenda News | mansetradar.com.tr"}, "siyaset": {"kicker": "US Desk · Politics", "heading": "Politics & Policy", "note": "White House, Congress, elections, governance, and diplomatic decisions.", "flow_title": "Politics News Feed", "title": "Politics News | mansetradar.com.tr"}, "ekonomi": {"kicker": "US Desk · Economy", "heading": "Economy & Markets", "note": "Federal Reserve policy, inflation, Wall Street, energy, and business trends.", "flow_title": "Economy News Feed", "title": "Economy News | mansetradar.com.tr"}, "dunya": {"kicker": "US Desk · World", "heading": "World & International", "note": "Global conflicts, foreign affairs, alliances, and international summits.", "flow_title": "World News Feed", "title": "World News | mansetradar.com.tr"}, "spor": {"kicker": "US Desk · Sports", "heading": "Sports Coverage", "note": "Major leagues, championships, international tournaments, and match results.", "flow_title": "Sports News Feed", "title": "Sports News | mansetradar.com.tr"}, "magazin": {"kicker": "US Desk · Culture", "heading": "Culture & Entertainment", "note": "Arts, film, music, media events, and cultural highlights.", "flow_title": "Culture News Feed", "title": "Culture News | mansetradar.com.tr"}, "teknoloji": {"kicker": "US Desk · Technology", "heading": "Technology & AI", "note": "Artificial intelligence, semiconductors, software, science, and innovation.", "flow_title": "Technology News Feed", "title": "Technology News | mansetradar.com.tr"}, "saglik": {"kicker": "US Desk · Health", "heading": "Health & Medicine", "note": "Public health alerts, medical breakthroughs, research, and healthcare updates.", "flow_title": "Health News Feed", "title": "Health News | mansetradar.com.tr"}};
+    const loadMoreLabelText = "More stories";
+    const emptyCategoryText = "No stories published in this category yet.";
+    const heroLabelText = "Top Story";
+    const heroTrustBadgeText = "✅ Verified";
+    const heroReadTimeText = "⏱️ 2 min read";
+    const editionShortCode = "US";
     let activeSearchTerm = '';
     let searchIndexReady = false;
     let searchDebounceId = null;
+
+    const heroSliderNode = document.querySelector('.headline-slider');
+    const heroSliderControls = heroSliderNode ? heroSliderNode.querySelector('.slider-controls') : null;
+    const initialHeroSlides = heroSliderNode
+      ? Array.from(heroSliderNode.querySelectorAll('.headline-slide')).map((node) => node.cloneNode(true))
+      : [];
 
     function normalizeSearchText(value) {
       return (value || '').toLocaleLowerCase('en-US').replace(/\s+/g, ' ').trim();
@@ -7068,26 +7346,196 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
     function countCards() {
       const node = document.getElementById('count-main');
       if (!node) return;
-      node.textContent = Array.from(document.querySelectorAll('.topic-card'))
+      node.textContent = Array.from(document.querySelectorAll('#grid-main .news-card.topic-card'))
         .filter(card => !card.hidden).length;
+    }
+
+    function buildHeroSlideFromCard(card, index) {
+      const link = card.querySelector('a.read-more') || card.querySelector('.card-title a') || card.querySelector('a[href]');
+      const titleNode = card.querySelector('.card-title');
+      const topicNode = card.querySelector('.card-topic');
+      const dateNode = card.querySelector('.card-date');
+      const imgNode = card.querySelector('.card-image img');
+      const href = link ? (link.getAttribute('href') || '#') : '#';
+      const title = titleNode ? titleNode.textContent.trim() : '';
+      const topicText = topicNode ? topicNode.textContent.trim() : '';
+      const dateText = dateNode ? dateNode.textContent.trim() : '';
+      const dateTimeAttr = dateNode ? (dateNode.getAttribute('datetime') || '') : '';
+      const topicSlug = card.dataset.topic || '';
+
+      const slide = document.createElement('a');
+      slide.className = 'headline-slide headline-card topic-card';
+      slide.href = href;
+      if (topicSlug) slide.dataset.topic = topicSlug;
+      slide.setAttribute('aria-label', title);
+      slide.dataset.filteredOut = 'false';
+      slide.dataset.searchHidden = 'false';
+
+      if (imgNode && imgNode.getAttribute('src')) {
+        const media = document.createElement('div');
+        media.className = 'headline-image';
+        const img = document.createElement('img');
+        img.src = imgNode.getAttribute('src');
+        img.alt = title;
+        img.loading = index === 0 ? 'eager' : 'lazy';
+        if (index === 0) img.setAttribute('fetchpriority', 'high');
+        img.width = 1080;
+        img.height = 720;
+        media.appendChild(img);
+        slide.appendChild(media);
+      } else {
+        const placeholder = document.createElement('div');
+        placeholder.className = 'headline-placeholder';
+        placeholder.setAttribute('aria-hidden', 'true');
+        const badge = document.createElement('span');
+        badge.textContent = editionShortCode;
+        placeholder.appendChild(badge);
+        slide.appendChild(placeholder);
+      }
+
+      const content = document.createElement('div');
+      content.className = 'headline-content';
+
+      const meta = document.createElement('div');
+      meta.className = 'headline-meta';
+      const tag = document.createElement('span');
+      tag.className = 'headline-tag';
+      tag.textContent = `${heroLabelText} #${index + 1}`;
+      meta.appendChild(tag);
+
+      if (topicText) {
+        const topicBadge = document.createElement('span');
+        topicBadge.className = 'headline-topic';
+        topicBadge.textContent = topicText;
+        meta.appendChild(topicBadge);
+      }
+
+      const trust = document.createElement('span');
+      trust.className = 'headline-trust';
+      trust.textContent = heroTrustBadgeText;
+      meta.appendChild(trust);
+
+      const readTime = document.createElement('span');
+      readTime.className = 'headline-read-time';
+      readTime.textContent = heroReadTimeText;
+      meta.appendChild(readTime);
+      content.appendChild(meta);
+
+      const heading = document.createElement('h2');
+      heading.className = 'headline-title';
+      heading.textContent = title;
+      content.appendChild(heading);
+
+      const time = document.createElement('time');
+      time.className = 'headline-date';
+      if (dateTimeAttr) time.setAttribute('datetime', dateTimeAttr);
+      time.textContent = dateText;
+      content.appendChild(time);
+
+      slide.appendChild(content);
+      return slide;
+    }
+
+    function normalizedPathname(href) {
+      try {
+        return new URL(href, window.location.href).pathname;
+      } catch (_err) {
+        return href || '';
+      }
+    }
+
+    function rebuildHeroSlides(activeTopic, showAll, matchingGridCards) {
+      if (!heroSliderNode) return;
+      heroSliderNode.querySelectorAll('.headline-slide').forEach((node) => node.remove());
+      const nextSlides = [];
+      if (showAll) {
+        initialHeroSlides.slice(0, 10).forEach((orig) => {
+          const clone = orig.cloneNode(true);
+          clone.classList.remove('is-active');
+          clone.hidden = false;
+          clone.dataset.filteredOut = 'false';
+          clone.dataset.searchHidden = 'false';
+          nextSlides.push(clone);
+        });
+      } else {
+        const seenPaths = new Set();
+        initialHeroSlides.forEach((orig) => {
+          if (nextSlides.length >= 10 || orig.dataset.topic !== activeTopic) return;
+          const clone = orig.cloneNode(true);
+          const tagNode = clone.querySelector('.headline-tag');
+          if (tagNode) tagNode.textContent = `${heroLabelText} #${nextSlides.length + 1}`;
+          clone.classList.remove('is-active');
+          clone.hidden = false;
+          clone.dataset.filteredOut = 'false';
+          clone.dataset.searchHidden = 'false';
+          const pathKey = normalizedPathname(clone.getAttribute('href') || '');
+          if (pathKey) seenPaths.add(pathKey);
+          nextSlides.push(clone);
+        });
+        matchingGridCards.forEach((card) => {
+          if (nextSlides.length >= 10) return;
+          const link = card.querySelector('a.read-more') || card.querySelector('.card-title a') || card.querySelector('a[href]');
+          const pathKey = normalizedPathname(link ? (link.getAttribute('href') || '') : '');
+          if (pathKey && seenPaths.has(pathKey)) return;
+          if (pathKey) seenPaths.add(pathKey);
+          nextSlides.push(buildHeroSlideFromCard(card, nextSlides.length));
+        });
+      }
+      nextSlides.forEach((slide) => {
+        heroSliderNode.insertBefore(slide, heroSliderControls || null);
+      });
+      searchIndexReady = false;
     }
 
     function applyTopicFilter() {
       const params = new URLSearchParams(window.location.search);
-      const activeTopic = params.get('kategori') || 'son-dakika';
+      const requestedTopic = params.get('kategori') || 'son-dakika';
+      const hasTopicMeta = Object.prototype.hasOwnProperty.call(topicMetaMap, requestedTopic);
+      const hasNavLink = Array.from(document.querySelectorAll('.topic-link[data-topic]'))
+        .some((link) => link.dataset.topic === requestedTopic);
+      const activeTopic = (requestedTopic === 'son-dakika' || hasTopicMeta || hasNavLink)
+        ? requestedTopic
+        : 'son-dakika';
       const showAll = activeTopic === 'son-dakika';
-      document.querySelectorAll('.topic-link[data-topic]').forEach(link => {
-        link.classList.toggle('is-active', link.dataset.topic === activeTopic);
+
+      const rootEl = document.documentElement;
+      rootEl.dataset.activeTopic = activeTopic;
+      rootEl.classList.toggle('has-topic-filter', !showAll);
+
+      document.querySelectorAll('.topic-link[data-topic]').forEach((link) => {
+        const isMatch = link.dataset.topic === activeTopic;
+        link.classList.toggle('is-active', isMatch);
+        link.classList.toggle('primary', isMatch);
+        if (isMatch) link.setAttribute('aria-current', 'page');
+        else link.removeAttribute('aria-current');
       });
-      document.querySelectorAll('.topic-card:not(.headline-slide)').forEach(card => {
+
+      const meta = topicMetaMap[activeTopic] || topicMetaMap['son-dakika'] || {};
+      const kickerNode = document.querySelector('.showcase-kicker');
+      const mainTitleNode = document.getElementById('main-title');
+      const showcaseNoteNode = document.querySelector('.showcase-note');
+      const feedTitleNode = document.querySelector('#latest .country-name');
+      if (kickerNode && meta.kicker) kickerNode.textContent = meta.kicker;
+      if (mainTitleNode && meta.heading) mainTitleNode.textContent = meta.heading;
+      if (showcaseNoteNode && meta.note) showcaseNoteNode.textContent = meta.note;
+      if (feedTitleNode && meta.flow_title) feedTitleNode.textContent = meta.flow_title;
+      if (meta.title) document.title = meta.title;
+
+      const matchingGridCards = [];
+      document.querySelectorAll('#grid-main .news-card.topic-card').forEach((card) => {
         const keep = showAll || card.dataset.topic === activeTopic;
         card.dataset.filteredOut = keep ? 'false' : 'true';
+        if (keep) matchingGridCards.push(card);
       });
+
+      rebuildHeroSlides(activeTopic, showAll, matchingGridCards);
+      rootEl.classList.add('category-page-ready', 'category-showcase-ready', 'category-feed-ready');
     }
 
     function applySearchFilter() {
       const hasSearch = activeSearchTerm.length > 0;
       document.body.dataset.searchActive = hasSearch ? 'true' : 'false';
+      if (hasSearch && !searchIndexReady) ensureSearchIndex();
       document.querySelectorAll('.topic-card').forEach((card) => {
         const baseVisible = card.dataset.filteredOut !== 'true';
         if (!baseVisible) {
@@ -7110,14 +7558,17 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         section.hidden = !section.querySelector('.topic-card:not([hidden])');
       });
 
+      const visibleCount = document.querySelectorAll('.topic-card:not([hidden])').length;
       const empty = document.getElementById('empty-topic');
-      if (empty) empty.hidden = document.querySelectorAll('.topic-card:not([hidden])').length > 0;
+      if (empty) empty.hidden = visibleCount > 0;
 
       const searchState = document.getElementById('news-search-status');
       if (searchState) {
-        searchState.textContent = hasSearch && document.querySelectorAll('.topic-card:not([hidden])').length === 0
-          ? searchNoResultsText
-          : '';
+        if (visibleCount === 0) {
+          searchState.textContent = hasSearch ? searchNoResultsText : emptyCategoryText;
+        } else {
+          searchState.textContent = '';
+        }
       }
       if (typeof window.refreshSideHeadlineRotation === 'function') window.refreshSideHeadlineRotation();
     }
@@ -7245,7 +7696,8 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
 
     function initPagination(gridId, pageSize = 20) {
       const grid = document.getElementById(gridId);
-      if (!grid) return;
+      if (!grid || !grid.parentElement) return;
+      grid.parentElement.querySelectorAll('.load-more-btn').forEach((oldBtn) => oldBtn.remove());
       const cards = Array.from(grid.querySelectorAll('.news-card'))
         .filter(card => card.dataset.filteredOut !== 'true' && card.dataset.searchHidden !== 'true');
       cards.forEach((card) => { card.hidden = false; });
@@ -7257,18 +7709,22 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       const btn = document.createElement('button');
       btn.className = 'load-more-btn';
       btn.type = 'button';
-      btn.textContent = `More stories (${cards.length - shown})`;
+      btn.textContent = `${loadMoreLabelText} (${cards.length - shown})`;
       grid.parentElement.appendChild(btn);
       btn.addEventListener('click', () => {
         const nextShown = Math.min(shown + pageSize, cards.length);
         for (let i = shown; i < nextShown; i++) cards[i].hidden = false;
         shown = nextShown;
         if (shown >= cards.length) btn.remove();
-        else btn.textContent = `More stories (${cards.length - shown})`;
+        else btn.textContent = `${loadMoreLabelText} (${cards.length - shown})`;
       });
     }
 
     function initHeadlineSlider() {
+      if (window.__mrLangSliderTimer) {
+        clearInterval(window.__mrLangSliderTimer);
+        window.__mrLangSliderTimer = null;
+      }
       const slider = document.querySelector('.headline-slider');
       if (!slider) return;
       const allSlides = Array.from(slider.querySelectorAll('.headline-slide'));
@@ -7277,6 +7733,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       let dotsWrap = slider.querySelector('.slider-dots');
       const isMobile = window.matchMedia('(max-width: 900px)').matches;
       if (slides.length === 0) {
+        slider.classList.remove('has-image-active');
         if (controls) controls.hidden = true;
         if (dotsWrap) dotsWrap.hidden = true;
         return;
@@ -7329,30 +7786,76 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       };
       const nextBtn = slider.querySelector('[data-slider-next]');
       const prevBtn = slider.querySelector('[data-slider-prev]');
-      if (nextBtn) nextBtn.addEventListener('click', () => {
+      if (nextBtn) nextBtn.onclick = () => {
         pauseAuto();
         showSlide(current + 1);
-      });
-      if (prevBtn) prevBtn.addEventListener('click', () => {
+      };
+      if (prevBtn) prevBtn.onclick = () => {
         pauseAuto();
         showSlide(current - 1);
+      };
+      slider.__sliderPause = () => pauseAuto();
+      slider.__sliderAdvance = (delta) => {
+        pauseAuto();
+        showSlide(current + delta);
+      };
+      if (slider.dataset.sliderTouchBound !== '1') {
+        slider.dataset.sliderTouchBound = '1';
+        let touchStartX = 0;
+        slider.addEventListener('touchstart', (event) => {
+          if (slider.__sliderPause) slider.__sliderPause();
+          touchStartX = event.changedTouches[0].clientX;
+        }, { passive: true });
+        slider.addEventListener('pointerdown', () => {
+          if (slider.__sliderPause) slider.__sliderPause();
+        }, { passive: true });
+        slider.addEventListener('touchend', (event) => {
+          const delta = event.changedTouches[0].clientX - touchStartX;
+          if (Math.abs(delta) < 40 || !slider.__sliderAdvance) return;
+          slider.__sliderAdvance(delta < 0 ? 1 : -1);
+        }, { passive: true });
+      }
+      if (slides.length > 1) {
+        window.__mrLangSliderTimer = setInterval(() => {
+          if (Date.now() < autoPausedUntil) return;
+          showSlide(current + 1);
+        }, 3000);
+      }
+    }
+
+    function initCategoryNavigation() {
+      const topicLinks = Array.from(document.querySelectorAll('.topic-link[data-topic]'));
+      if (!topicLinks.length) return;
+      topicLinks.forEach((link) => {
+        link.addEventListener('click', (event) => {
+          if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+            return;
+          }
+          const topicSlug = link.dataset.topic || '';
+          if (!topicSlug) return;
+          if (topicSlug !== 'son-dakika' && !Object.prototype.hasOwnProperty.call(topicMetaMap, topicSlug)) {
+            return;
+          }
+          event.preventDefault();
+          const nextUrl = new URL(link.href, window.location.href);
+          const currentFull = window.location.pathname + window.location.search;
+          const nextFull = nextUrl.pathname + nextUrl.search;
+          if (currentFull !== nextFull) {
+            window.history.pushState({ kategori: topicSlug }, '', nextFull);
+          }
+          refreshNewsGrid();
+          const mainNode = document.getElementById('main-content');
+          if (mainNode && typeof mainNode.scrollIntoView === 'function') {
+            const rect = mainNode.getBoundingClientRect();
+            if (rect.top < 0 || rect.top > window.innerHeight * 0.45) {
+              mainNode.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
+        });
       });
-      let touchStartX = 0;
-      slider.addEventListener('touchstart', (event) => {
-        pauseAuto();
-        touchStartX = event.changedTouches[0].clientX;
-      }, { passive: true });
-      slider.addEventListener('pointerdown', () => pauseAuto(), { passive: true });
-      slider.addEventListener('touchend', (event) => {
-        const delta = event.changedTouches[0].clientX - touchStartX;
-        if (Math.abs(delta) < 40) return;
-        pauseAuto();
-        showSlide(delta < 0 ? current + 1 : current - 1);
-      }, { passive: true });
-      if (slides.length > 1) setInterval(() => {
-        if (Date.now() < autoPausedUntil) return;
-        showSlide(current + 1);
-      }, 3000);
+      window.addEventListener('popstate', () => {
+        refreshNewsGrid();
+      });
     }
 
     updateTime();
@@ -7363,6 +7866,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
     updateWeather();
     setInterval(updateWeather, 600000);
     initSearchBar();
+    initCategoryNavigation();
     refreshNewsGrid();
   </script>
   <script defer src="/assets/js/json-search.js?v=20260613c"></script>

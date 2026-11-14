@@ -227,10 +227,14 @@ header .inner > nav {
 .header-search {
   position: relative !important;
   flex: 1 !important;
+  width: 100% !important;
   max-width: 440px !important;
   height: 40px !important;
   display: flex !important;
   align-items: center !important;
+  justify-content: flex-start !important;
+  overflow: visible !important;
+  cursor: text !important;
   background: #f8fafc !important;
   border: 1px solid #cbd5e1 !important;
   border-radius: 999px !important;
@@ -264,6 +268,8 @@ body.dark-mode .header-search:focus-within {
 }
 
 .header-search input {
+  min-width: 0 !important;
+  opacity: 1 !important;
   width: 100% !important;
   border: none !important;
   background: transparent !important;
@@ -393,7 +399,7 @@ header .market-label, header .market-status { display: none !important; }
   background: rgba(0, 0, 0, 0.12) !important;
 }
 
-.topic-link.primary, .topic-link.active, .topic-link.is-active {
+.topic-link.primary.is-active, .topic-link.active, .topic-link.is-active {
   color: #ffffff !important;
   background: rgba(0, 0, 0, 0.18) !important;
   border-bottom-color: #ffffff !important;

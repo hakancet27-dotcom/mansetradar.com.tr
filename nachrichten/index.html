@@ -441,12 +441,11 @@
     .topic-link.is-active::after {
       background: white;
     }
-    .topic-link.primary,
     .topic-link.primary.is-active {
       color: white;
       opacity: 1;
     }
-    .topic-link.primary::after {
+    .topic-link.primary.is-active::after {
       color: white;
       background: white;
     }
@@ -2142,45 +2141,12 @@
       font-weight: 900 !important;
       box-shadow: 0 2px 10px rgba(225, 6, 0, 0.55) !important;
     }
-/* FIRST_PAINT_TOPIC_FILTER_START */
-html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]) .topic-card {
-  display: none !important;
-}
-html.has-topic-filter[data-active-topic="gundem"] .topic-card[data-topic="gundem"],
-html.has-topic-filter[data-active-topic="siyaset"] .topic-card[data-topic="siyaset"],
-html.has-topic-filter[data-active-topic="ekonomi"] .topic-card[data-topic="ekonomi"],
-html.has-topic-filter[data-active-topic="dunya"] .topic-card[data-topic="dunya"],
-html.has-topic-filter[data-active-topic="kamu"] .topic-card[data-topic="kamu"],
-html.has-topic-filter[data-active-topic="eczane"] .topic-card[data-topic="eczane"],
-html.has-topic-filter[data-active-topic="ulasim"] .topic-card[data-topic="ulasim"],
-html.has-topic-filter[data-active-topic="spor"] .topic-card[data-topic="spor"],
-html.has-topic-filter[data-active-topic="magazin"] .topic-card[data-topic="magazin"],
-html.has-topic-filter[data-active-topic="teknoloji"] .topic-card[data-topic="teknoloji"],
-html.has-topic-filter[data-active-topic="saglik"] .topic-card[data-topic="saglik"] {
-  display: block !important;
-}
-html.has-topic-filter .topic-card[hidden] {
-  display: none !important;
-}
-html.category-navigation-pending .container,
-html.has-topic-filter:not(.category-page-ready) .container {
-  visibility: hidden;
-  pointer-events: none;
-}
-html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):not(.category-page-ready) .page-layout {
-  visibility: hidden;
-  pointer-events: none;
-}
-html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):not(.category-showcase-ready) .headline-slider,
-html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):not(.category-showcase-ready) .side-headlines {
-  visibility: hidden;
-  pointer-events: none;
-}
-html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):not(.category-showcase-ready) #turkiye .showcase-grid,
-html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):not(.category-feed-ready) #grid-turkey {
-  display: none !important;
-}
-/* FIRST_PAINT_TOPIC_FILTER_END */
+    .topic-card[hidden],
+    .news-card[hidden],
+    [data-news-section][hidden],
+    [hidden] {
+      display: none !important;
+    }
   </style>
   <link rel="stylesheet" href="/assets/css/corporate-header.css?v=20261002_corp">
   <link rel="stylesheet" href="/assets/css/mobile-home-ux.css?v=20260904_numdots">
@@ -2213,7 +2179,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       <a href="./" class="logo" aria-label="Aktuelle Deutschland Nachrichten">
         <div class="logo-icon">M</div>
         <div class="logo-text">
-          <strong>mansetradar.com.tr</strong>
+          <strong>Manşet Radar</strong>
           <span>Deutschland Nachrichten</span>
         </div>
       </a>
@@ -2257,13 +2223,13 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
   <nav class="breaking" aria-label="News categories">
     <div class="inner">
       <div class="topic-list">
-        <a class="topic-link primary" href="./" data-topic="son-dakika">Aktuell</a>
+        <a class="topic-link primary is-active" href="./" data-topic="son-dakika">Aktuell</a>
         <a class="topic-link" href="./?kategori=gundem" data-topic="gundem">Themen</a>
         <a class="topic-link" href="./?kategori=siyaset" data-topic="siyaset">Politik</a>
         <a class="topic-link" href="./?kategori=ekonomi" data-topic="ekonomi">Wirtschaft</a>
         <a class="topic-link" href="./?kategori=dunya" data-topic="dunya">Welt</a>
-        <a class="topic-link" href="/hizmet/eczane/" data-topic="eczane">Apotheke</a>
-        <a class="topic-link" href="/hizmet/ulasim/" data-topic="ulasim">Verkehr</a>
+        <a class="topic-link" href="/berlin/#apotheken" data-topic="eczane">Apotheke</a>
+        <a class="topic-link" href="/berlin/#verkehr" data-topic="ulasim">Verkehr</a>
         <a class="topic-link" href="./?kategori=spor" data-topic="spor">Sport</a>
         <a class="topic-link" href="./?kategori=magazin" data-topic="magazin">Kultur</a>
         <a class="topic-link" href="./?kategori=teknoloji" data-topic="teknoloji">Technologie</a>
@@ -2503,6 +2469,305 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
           <div class="news-grid" id="grid-main">
             
+      <article class="news-card topic-card" data-topic="siyaset">
+        <a class="card-image-link" href="/nachrichten/artikel/2026/11/mecklenburg-vorpommern-rot-rot-gruene-landesregierung_20261114/" aria-label="Mecklenburg-Vorpommern bekommt erste rot-rot-grüne Landesregierung"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/mecklenburg-vorpommern-rot-rot-gruene-landesregierung_20261114.webp" alt="Mecklenburg-Vorpommern bekommt erste rot-rot-grüne Landesregierung" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Politik</span>
+            <time class="card-date" datetime="2026-11-14">14.11.2026 16:55</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/2026/11/mecklenburg-vorpommern-rot-rot-gruene-landesregierung_20261114/">Mecklenburg-Vorpommern bekommt erste rot-rot-grüne Landesregierung</a>
+          </h3>
+          <p class="card-excerpt">In Mecklenburg-Vorpommern steht die erste rot-rot-grüne Landesregierung bevor. Nachdem bereits Grüne und Linke zugestimmt hatten, votierten am Samstag auch die Delegierten auf dem...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/2026/11/mecklenburg-vorpommern-rot-rot-gruene-landesregierung_20261114/" aria-label="Mecklenburg-Vorpommern bekommt erste rot-rot-grüne Landesregierung Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fmecklenburg-vorpommern-rot-rot-gruene-landesregierung_20261114%2F&text=Mecklenburg-Vorpommern+bekommt+erste+rot-rot-gr%C3%BCne+Landesregierung" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fmecklenburg-vorpommern-rot-rot-gruene-landesregierung_20261114%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Mecklenburg-Vorpommern+bekommt+erste+rot-rot-gr%C3%BCne+Landesregierung%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fmecklenburg-vorpommern-rot-rot-gruene-landesregierung_20261114%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fmecklenburg-vorpommern-rot-rot-gruene-landesregierung_20261114%2F&text=Mecklenburg-Vorpommern+bekommt+erste+rot-rot-gr%C3%BCne+Landesregierung" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="siyaset">
+        <a class="card-image-link" href="/nachrichten/artikel/2026/11/trauerstaatsakt-muenchen-abschied-hubert-aiwanger_20261114/" aria-label="Trauerstaatsakt in München: Bayern nimmt Abschied von Hubert Aiwanger"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/trauerstaatsakt-muenchen-abschied-hubert-aiwanger_20261114.webp" alt="Trauerstaatsakt in München: Bayern nimmt Abschied von Hubert Aiwanger" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Politik</span>
+            <time class="card-date" datetime="2026-11-14">14.11.2026 16:55</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/2026/11/trauerstaatsakt-muenchen-abschied-hubert-aiwanger_20261114/">Trauerstaatsakt in München: Bayern nimmt Abschied von Hubert Aiwanger</a>
+          </h3>
+          <p class="card-excerpt">Mit einem feierlichen Trauerstaatsakt in der Münchner Frauenkirche hat Bayern Abschied von Hubert Aiwanger genommen. Mehr als 1.000 Gäste erwiesen dem überraschend mit 55 Jahren v...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/2026/11/trauerstaatsakt-muenchen-abschied-hubert-aiwanger_20261114/" aria-label="Trauerstaatsakt in München: Bayern nimmt Abschied von Hubert Aiwanger Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Ftrauerstaatsakt-muenchen-abschied-hubert-aiwanger_20261114%2F&text=Trauerstaatsakt+in+M%C3%BCnchen%3A+Bayern+nimmt+Abschied+von+Hubert+Aiwanger" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Ftrauerstaatsakt-muenchen-abschied-hubert-aiwanger_20261114%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Trauerstaatsakt+in+M%C3%BCnchen%3A+Bayern+nimmt+Abschied+von+Hubert+Aiwanger%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Ftrauerstaatsakt-muenchen-abschied-hubert-aiwanger_20261114%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Ftrauerstaatsakt-muenchen-abschied-hubert-aiwanger_20261114%2F&text=Trauerstaatsakt+in+M%C3%BCnchen%3A+Bayern+nimmt+Abschied+von+Hubert+Aiwanger" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="dunya">
+        <a class="card-image-link" href="/nachrichten/artikel/2026/11/mississippi-kollision-dampfer-tanker-new-orleans_20261114/" aria-label="Mississippi: 32 Verletzte nach Kollision von Dampfer und Tanker in New Orleans"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/mississippi-kollision-dampfer-tanker-new-orleans_20261114.webp" alt="Mississippi: 32 Verletzte nach Kollision von Dampfer und Tanker in New Orleans" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Welt</span>
+            <time class="card-date" datetime="2026-11-14">14.11.2026 17:14</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/2026/11/mississippi-kollision-dampfer-tanker-new-orleans_20261114/">Mississippi: 32 Verletzte nach Kollision von Dampfer und Tanker in New Orleans</a>
+          </h3>
+          <p class="card-excerpt">Beim Zusammenstoß eines Tankers mit einem Flusskreuzfahrtschiff auf dem Mississippi in New Orleans sind 32 Menschen verletzt worden. Der Dampfer kenterte am Freitagmittag im Hafen...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/2026/11/mississippi-kollision-dampfer-tanker-new-orleans_20261114/" aria-label="Mississippi: 32 Verletzte nach Kollision von Dampfer und Tanker in New Orleans Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fmississippi-kollision-dampfer-tanker-new-orleans_20261114%2F&text=Mississippi%3A+32+Verletzte+nach+Kollision+von+Dampfer+und+Tanker+in+New+Orleans" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fmississippi-kollision-dampfer-tanker-new-orleans_20261114%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Mississippi%3A+32+Verletzte+nach+Kollision+von+Dampfer+und+Tanker+in+New+Orleans%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fmississippi-kollision-dampfer-tanker-new-orleans_20261114%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fmississippi-kollision-dampfer-tanker-new-orleans_20261114%2F&text=Mississippi%3A+32+Verletzte+nach+Kollision+von+Dampfer+und+Tanker+in+New+Orleans" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="dunya">
+        <a class="card-image-link" href="/nachrichten/artikel/2026/11/selenskyj-usa-stellen-nato-beitritt-fuer-verzicht-auf-donbass-zur-debatte_20261114/" aria-label="Selenskyj: USA bringen Nato-Beitritt gegen Donbass-Verzicht ins Gespräch"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/selenskyj-usa-stellen-nato-beitritt-fuer-verzicht-auf-donbass-zur-debatte_20261114.webp" alt="Selenskyj: USA bringen Nato-Beitritt gegen Donbass-Verzicht ins Gespräch" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Welt</span>
+            <time class="card-date" datetime="2026-11-14">14.11.2026 16:56</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/2026/11/selenskyj-usa-stellen-nato-beitritt-fuer-verzicht-auf-donbass-zur-debatte_20261114/">Selenskyj: USA bringen Nato-Beitritt gegen Donbass-Verzicht ins Gespräch</a>
+          </h3>
+          <p class="card-excerpt">In den Verhandlungen zur Beendigung des Ukraine-Krieges haben die USA laut Präsident Wolodymyr Selenskyj die Idee aufgeworfen, der Ukraine eine Nato-Mitgliedschaft im Gegenzug für...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/2026/11/selenskyj-usa-stellen-nato-beitritt-fuer-verzicht-auf-donbass-zur-debatte_20261114/" aria-label="Selenskyj: USA bringen Nato-Beitritt gegen Donbass-Verzicht ins Gespräch Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fselenskyj-usa-stellen-nato-beitritt-fuer-verzicht-auf-donbass-zur-debatte_20261114%2F&text=Selenskyj%3A+USA+bringen+Nato-Beitritt+gegen+Donbass-Verzicht+ins+Gespr%C3%A4ch" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fselenskyj-usa-stellen-nato-beitritt-fuer-verzicht-auf-donbass-zur-debatte_20261114%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Selenskyj%3A+USA+bringen+Nato-Beitritt+gegen+Donbass-Verzicht+ins+Gespr%C3%A4ch%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fselenskyj-usa-stellen-nato-beitritt-fuer-verzicht-auf-donbass-zur-debatte_20261114%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fselenskyj-usa-stellen-nato-beitritt-fuer-verzicht-auf-donbass-zur-debatte_20261114%2F&text=Selenskyj%3A+USA+bringen+Nato-Beitritt+gegen+Donbass-Verzicht+ins+Gespr%C3%A4ch" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="spor">
+        <a class="card-image-link" href="/nachrichten/artikel/2026/11/reporter-beleidigt-leclerc-fia-entzieht-akkreditierung_20261114/" aria-label="Reporter-Legende beleidigt Leclerc und wird von FIA gesperrt – Zeitung boykottiert F1"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/reporter-beleidigt-leclerc-fia-entzieht-akkreditierung_20261114.webp" alt="Reporter-Legende beleidigt Leclerc und wird von FIA gesperrt – Zeitung boykottiert F1" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Sport</span>
+            <time class="card-date" datetime="2026-11-14">14.11.2026 05:42</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/2026/11/reporter-beleidigt-leclerc-fia-entzieht-akkreditierung_20261114/">Reporter-Legende beleidigt Leclerc und wird von FIA gesperrt – Zeitung boykottiert F1</a>
+          </h3>
+          <p class="card-excerpt">Wegen einer heftigen Beleidigung gegen Ferrari-Pilot Charles Leclerc hat der Automobil-Weltverband FIA dem britischen Reporter Jonathan McEvoy die Akkreditierung für die verbleibe...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/2026/11/reporter-beleidigt-leclerc-fia-entzieht-akkreditierung_20261114/" aria-label="Reporter-Legende beleidigt Leclerc und wird von FIA gesperrt – Zeitung boykottiert F1 Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Freporter-beleidigt-leclerc-fia-entzieht-akkreditierung_20261114%2F&text=Reporter-Legende+beleidigt+Leclerc+und+wird+von+FIA+gesperrt+%E2%80%93+Zeitung+boykottiert+F1" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Freporter-beleidigt-leclerc-fia-entzieht-akkreditierung_20261114%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Reporter-Legende+beleidigt+Leclerc+und+wird+von+FIA+gesperrt+%E2%80%93+Zeitung+boykottiert+F1%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Freporter-beleidigt-leclerc-fia-entzieht-akkreditierung_20261114%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Freporter-beleidigt-leclerc-fia-entzieht-akkreditierung_20261114%2F&text=Reporter-Legende+beleidigt+Leclerc+und+wird+von+FIA+gesperrt+%E2%80%93+Zeitung+boykottiert+F1" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="magazin">
+        <a class="card-image-link" href="/nachrichten/artikel/2026/11/stephen-king-the-other-mommy-josh-malerman-horror_20261114/" aria-label="Stephen King lobt Horror-Schocker: Warum „The Other Mommy“ das Fürchten lehrt"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/stephen-king-the-other-mommy-josh-malerman-horror_20261114.webp" alt="Stephen King lobt Horror-Schocker: Warum „The Other Mommy“ das Fürchten lehrt" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Kultur</span>
+            <time class="card-date" datetime="2026-11-14">14.11.2026 16:55</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/2026/11/stephen-king-the-other-mommy-josh-malerman-horror_20261114/">Stephen King lobt Horror-Schocker: Warum „The Other Mommy“ das Fürchten lehrt</a>
+          </h3>
+          <p class="card-excerpt">Selbst der Meister des Makabren zeigt sich tief beeindruckt: Horror-Autor Stephen King gesteht, dass ihm selten ein Buch so viel Angst eingejagt hat wie Josh Malermans Werk „The O...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/2026/11/stephen-king-the-other-mommy-josh-malerman-horror_20261114/" aria-label="Stephen King lobt Horror-Schocker: Warum „The Other Mommy“ das Fürchten lehrt Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fstephen-king-the-other-mommy-josh-malerman-horror_20261114%2F&text=Stephen+King+lobt+Horror-Schocker%3A+Warum+%E2%80%9EThe+Other+Mommy%E2%80%9C+das+F%C3%BCrchten+lehrt" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fstephen-king-the-other-mommy-josh-malerman-horror_20261114%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Stephen+King+lobt+Horror-Schocker%3A+Warum+%E2%80%9EThe+Other+Mommy%E2%80%9C+das+F%C3%BCrchten+lehrt%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fstephen-king-the-other-mommy-josh-malerman-horror_20261114%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fstephen-king-the-other-mommy-josh-malerman-horror_20261114%2F&text=Stephen+King+lobt+Horror-Schocker%3A+Warum+%E2%80%9EThe+Other+Mommy%E2%80%9C+das+F%C3%BCrchten+lehrt" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="ekonomi">
+        <a class="card-image-link" href="/nachrichten/artikel/2026/11/unternehmensinsolvenzen-deutschland-hoechststand-destatis-2026_20261113/" aria-label="Unternehmensinsolvenzen in Deutschland erreichen Höchststand seit Jahren"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/unternehmensinsolvenzen-deutschland-hoechststand-destatis-2026_20261113.webp" alt="Unternehmensinsolvenzen in Deutschland erreichen Höchststand seit Jahren" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Wirtschaft</span>
+            <time class="card-date" datetime="2026-11-13">13.11.2026 17:57</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/2026/11/unternehmensinsolvenzen-deutschland-hoechststand-destatis-2026_20261113/">Unternehmensinsolvenzen in Deutschland erreichen Höchststand seit Jahren</a>
+          </h3>
+          <p class="card-excerpt">In Deutschland hat die Zahl der Unternehmensinsolvenzen im August den höchsten Stand seit 13 Jahren erreicht. Nach Angaben des Statistischen Bundesamtes meldeten die Amtsgerichte...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/2026/11/unternehmensinsolvenzen-deutschland-hoechststand-destatis-2026_20261113/" aria-label="Unternehmensinsolvenzen in Deutschland erreichen Höchststand seit Jahren Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Funternehmensinsolvenzen-deutschland-hoechststand-destatis-2026_20261113%2F&text=Unternehmensinsolvenzen+in+Deutschland+erreichen+H%C3%B6chststand+seit+Jahren" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Funternehmensinsolvenzen-deutschland-hoechststand-destatis-2026_20261113%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Unternehmensinsolvenzen+in+Deutschland+erreichen+H%C3%B6chststand+seit+Jahren%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Funternehmensinsolvenzen-deutschland-hoechststand-destatis-2026_20261113%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Funternehmensinsolvenzen-deutschland-hoechststand-destatis-2026_20261113%2F&text=Unternehmensinsolvenzen+in+Deutschland+erreichen+H%C3%B6chststand+seit+Jahren" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="teknoloji">
+        <a class="card-image-link" href="/nachrichten/artikel/2026/11/eu-verhaengt-millionenstrafe-gegen-tinder_20261113/" aria-label="EU verhängt Millionenstrafe gegen Tinder wegen Umgangs mit Nutzerdaten"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/eu-verhaengt-millionenstrafe-gegen-tinder_20261113.webp" alt="EU verhängt Millionenstrafe gegen Tinder wegen Umgangs mit Nutzerdaten" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Technologie</span>
+            <time class="card-date" datetime="2026-11-13">13.11.2026 19:43</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/2026/11/eu-verhaengt-millionenstrafe-gegen-tinder_20261113/">EU verhängt Millionenstrafe gegen Tinder wegen Umgangs mit Nutzerdaten</a>
+          </h3>
+          <p class="card-excerpt">Die EU-Datenschützer haben den Tinder-Betreiber Match Group zu einer Geldstrafe in Höhe von elf Millionen Euro verurteilt. Grund dafür ist, dass die Dating-App Nutzern beim Herunt...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/2026/11/eu-verhaengt-millionenstrafe-gegen-tinder_20261113/" aria-label="EU verhängt Millionenstrafe gegen Tinder wegen Umgangs mit Nutzerdaten Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Feu-verhaengt-millionenstrafe-gegen-tinder_20261113%2F&text=EU+verh%C3%A4ngt+Millionenstrafe+gegen+Tinder+wegen+Umgangs+mit+Nutzerdaten" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Feu-verhaengt-millionenstrafe-gegen-tinder_20261113%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=EU+verh%C3%A4ngt+Millionenstrafe+gegen+Tinder+wegen+Umgangs+mit+Nutzerdaten%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Feu-verhaengt-millionenstrafe-gegen-tinder_20261113%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Feu-verhaengt-millionenstrafe-gegen-tinder_20261113%2F&text=EU+verh%C3%A4ngt+Millionenstrafe+gegen+Tinder+wegen+Umgangs+mit+Nutzerdaten" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="teknoloji">
+        <a class="card-image-link" href="/nachrichten/artikel/2026/11/amazon-kindle-colorsoft-test-vorteile_20261113/" aria-label="Amazon Kindle Colorsoft im Test: Lohnt sich der Aufpreis für das neue Farb-Display?"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/amazon-kindle-colorsoft-test-vorteile_20261113.webp" alt="Amazon Kindle Colorsoft im Test: Lohnt sich der Aufpreis für das neue Farb-Display?" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Technologie</span>
+            <time class="card-date" datetime="2026-11-13">13.11.2026 19:38</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/2026/11/amazon-kindle-colorsoft-test-vorteile_20261113/">Amazon Kindle Colorsoft im Test: Lohnt sich der Aufpreis für das neue Farb-Display?</a>
+          </h3>
+          <p class="card-excerpt">Amazon hat eine neue Generation des Kindle Colorsoft veröffentlicht, die mit einer verbesserten Farbdarstellung und praktischen Design-Anpassungen punktet. Ein ausführlicher Praxi...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/2026/11/amazon-kindle-colorsoft-test-vorteile_20261113/" aria-label="Amazon Kindle Colorsoft im Test: Lohnt sich der Aufpreis für das neue Farb-Display? Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Famazon-kindle-colorsoft-test-vorteile_20261113%2F&text=Amazon+Kindle+Colorsoft+im+Test%3A+Lohnt+sich+der+Aufpreis+f%C3%BCr+das+neue+Farb-Display%3F" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Famazon-kindle-colorsoft-test-vorteile_20261113%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Amazon+Kindle+Colorsoft+im+Test%3A+Lohnt+sich+der+Aufpreis+f%C3%BCr+das+neue+Farb-Display%3F%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Famazon-kindle-colorsoft-test-vorteile_20261113%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Famazon-kindle-colorsoft-test-vorteile_20261113%2F&text=Amazon+Kindle+Colorsoft+im+Test%3A+Lohnt+sich+der+Aufpreis+f%C3%BCr+das+neue+Farb-Display%3F" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="spor">
+        <a class="card-image-link" href="/nachrichten/artikel/2026/11/serbien-marakana-dfb-geisterspiel-klopp_20261113/" aria-label="Serbiens Marakana erlebt Geisterspiel gegen DFB-Elf"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/serbien-marakana-dfb-geisterspiel-klopp_20261113.webp" alt="Serbiens Marakana erlebt Geisterspiel gegen DFB-Elf" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Sport</span>
+            <time class="card-date" datetime="2026-11-13">13.11.2026 19:42</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/2026/11/serbien-marakana-dfb-geisterspiel-klopp_20261113/">Serbiens Marakana erlebt Geisterspiel gegen DFB-Elf</a>
+          </h3>
+          <p class="card-excerpt">Für die deutsche Fußball-Nationalmannschaft und Bundestrainer Jürgen Klopp steht in Belgrad ein ungewohntes Länderspiel an. Im legendären Stadion Rajko Mitic empfängt Serbien das...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/2026/11/serbien-marakana-dfb-geisterspiel-klopp_20261113/" aria-label="Serbiens Marakana erlebt Geisterspiel gegen DFB-Elf Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fserbien-marakana-dfb-geisterspiel-klopp_20261113%2F&text=Serbiens+Marakana+erlebt+Geisterspiel+gegen+DFB-Elf" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fserbien-marakana-dfb-geisterspiel-klopp_20261113%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Serbiens+Marakana+erlebt+Geisterspiel+gegen+DFB-Elf%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fserbien-marakana-dfb-geisterspiel-klopp_20261113%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fserbien-marakana-dfb-geisterspiel-klopp_20261113%2F&text=Serbiens+Marakana+erlebt+Geisterspiel+gegen+DFB-Elf" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="siyaset">
+        <a class="card-image-link" href="/nachrichten/artikel/2026/11/fifa-arsene-wenger-moeglicher-kandidat-infantino-nachfolge_20261114/" aria-label="Fifa: Arsène Wenger als möglicher Kandidat für Infantino-Nachfolge"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/fifa-arsene-wenger-moeglicher-kandidat-infantino-nachfolge_20261114.webp" alt="Fifa: Arsène Wenger als möglicher Kandidat für Infantino-Nachfolge" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Politik</span>
+            <time class="card-date" datetime="2026-11-14">14.11.2026 16:55</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/2026/11/fifa-arsene-wenger-moeglicher-kandidat-infantino-nachfolge_20261114/">Fifa: Arsène Wenger als möglicher Kandidat für Infantino-Nachfolge</a>
+          </h3>
+          <p class="card-excerpt">Arsène Wenger erwägt Medienberichten zufolge eine Kandidatur gegen Fifa-Präsident Gianni Infantino im März 2027. DFB-Vizepräsident Hans-Joachim Watzke hält den früheren Arsenal-Tr...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/2026/11/fifa-arsene-wenger-moeglicher-kandidat-infantino-nachfolge_20261114/" aria-label="Fifa: Arsène Wenger als möglicher Kandidat für Infantino-Nachfolge Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Ffifa-arsene-wenger-moeglicher-kandidat-infantino-nachfolge_20261114%2F&text=Fifa%3A+Ars%C3%A8ne+Wenger+als+m%C3%B6glicher+Kandidat+f%C3%BCr+Infantino-Nachfolge" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Ffifa-arsene-wenger-moeglicher-kandidat-infantino-nachfolge_20261114%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Fifa%3A+Ars%C3%A8ne+Wenger+als+m%C3%B6glicher+Kandidat+f%C3%BCr+Infantino-Nachfolge%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Ffifa-arsene-wenger-moeglicher-kandidat-infantino-nachfolge_20261114%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Ffifa-arsene-wenger-moeglicher-kandidat-infantino-nachfolge_20261114%2F&text=Fifa%3A+Ars%C3%A8ne+Wenger+als+m%C3%B6glicher+Kandidat+f%C3%BCr+Infantino-Nachfolge" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="siyaset">
+        <a class="card-image-link" href="/nachrichten/artikel/2026/11/kubas-fuehrung-bereitet-sich-auf-angriff-der-usa-vor_20261114/" aria-label="Kubas Führung bereitet sich auf möglichen US-Militärangriff vor"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/kubas-fuehrung-bereitet-sich-auf-angriff-der-usa-vor_20261114.webp" alt="Kubas Führung bereitet sich auf möglichen US-Militärangriff vor" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Politik</span>
+            <time class="card-date" datetime="2026-11-14">14.11.2026 05:42</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/2026/11/kubas-fuehrung-bereitet-sich-auf-angriff-der-usa-vor_20261114/">Kubas Führung bereitet sich auf möglichen US-Militärangriff vor</a>
+          </h3>
+          <p class="card-excerpt">Angesichts drastischer Drohungen von US-Präsident Donald Trump sieht sich Kuba in Alarmbereitschaft. Präsident Miguel Díaz-Canel hat erklärt, dass sich das Land auf einen mögliche...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/2026/11/kubas-fuehrung-bereitet-sich-auf-angriff-der-usa-vor_20261114/" aria-label="Kubas Führung bereitet sich auf möglichen US-Militärangriff vor Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fkubas-fuehrung-bereitet-sich-auf-angriff-der-usa-vor_20261114%2F&text=Kubas+F%C3%BChrung+bereitet+sich+auf+m%C3%B6glichen+US-Milit%C3%A4rangriff+vor" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fkubas-fuehrung-bereitet-sich-auf-angriff-der-usa-vor_20261114%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Kubas+F%C3%BChrung+bereitet+sich+auf+m%C3%B6glichen+US-Milit%C3%A4rangriff+vor%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fkubas-fuehrung-bereitet-sich-auf-angriff-der-usa-vor_20261114%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fkubas-fuehrung-bereitet-sich-auf-angriff-der-usa-vor_20261114%2F&text=Kubas+F%C3%BChrung+bereitet+sich+auf+m%C3%B6glichen+US-Milit%C3%A4rangriff+vor" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="dunya">
+        <a class="card-image-link" href="/nachrichten/artikel/2026/11/microsoft-stoerung-komplett-wiederhergestellt_20261114/" aria-label="Microsoft: Alle Cloud-Systeme nach weltweiter Störung wiederhergestellt"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/microsoft-stoerung-komplett-wiederhergestellt_20261114.webp" alt="Microsoft: Alle Cloud-Systeme nach weltweiter Störung wiederhergestellt" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Welt</span>
+            <time class="card-date" datetime="2026-11-14">14.11.2026 16:55</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/2026/11/microsoft-stoerung-komplett-wiederhergestellt_20261114/">Microsoft: Alle Cloud-Systeme nach weltweiter Störung wiederhergestellt</a>
+          </h3>
+          <p class="card-excerpt">Eine massive Störung bei zentralen Microsoft-Cloud-Diensten hat weltweit Unternehmen und Behörden lahmgelegt. Nach Angaben des US-Konzerns laufen nun sämtliche Systeme wieder. Aus...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/2026/11/microsoft-stoerung-komplett-wiederhergestellt_20261114/" aria-label="Microsoft: Alle Cloud-Systeme nach weltweiter Störung wiederhergestellt Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fmicrosoft-stoerung-komplett-wiederhergestellt_20261114%2F&text=Microsoft%3A+Alle+Cloud-Systeme+nach+weltweiter+St%C3%B6rung+wiederhergestellt" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fmicrosoft-stoerung-komplett-wiederhergestellt_20261114%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Microsoft%3A+Alle+Cloud-Systeme+nach+weltweiter+St%C3%B6rung+wiederhergestellt%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fmicrosoft-stoerung-komplett-wiederhergestellt_20261114%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2F2026%2F11%2Fmicrosoft-stoerung-komplett-wiederhergestellt_20261114%2F&text=Microsoft%3A+Alle+Cloud-Systeme+nach+weltweiter+St%C3%B6rung+wiederhergestellt" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
       <article class="news-card topic-card" data-topic="dunya">
         <a class="card-image-link" href="/nachrichten/artikel/2026/11/papst-leo-xiv-besuch-frueheres-bistum-peru_20261114/" aria-label="Papst Leo XIV. besucht sein früheres Bistum Chiclayo in Peru"><div class="card-image"><img src="/nachrichten/artikel/2026/11/images/papst-leo-xiv-besuch-frueheres-bistum-peru_20261114.webp" alt="Papst Leo XIV. besucht sein früheres Bistum Chiclayo in Peru" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
@@ -16510,6 +16775,29 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </div>
       </article>
+      <article class="news-card topic-card" data-topic="siyaset">
+        <a class="card-image-link" href="/nachrichten/artikel/nato-aussenminister-beraten-in-schweden-ueber-ukraine-unterstuetzung_20260522/" aria-label="NATO-Außenminister beraten in Schweden über Ukraine-Unterstützung"><div class="card-image"><img src="https://images.unsplash.com/photo-1647006872171-0d8a19ba96da?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxOQVRPfGVufDB8MHx8fDE3Nzk0MjI5NTB8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="NATO-Außenminister beraten in Schweden über Ukraine-Unterstützung" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Politik</span>
+            <time class="card-date" datetime="2026-05-22">22.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/nato-aussenminister-beraten-in-schweden-ueber-ukraine-unterstuetzung_20260522/">NATO-Außenminister beraten in Schweden über Ukraine-Unterstützung</a>
+          </h3>
+          <p class="card-excerpt">Die NATO-Außenminister kommen zu einem zweitägigen Treffen im schwedischen Helsingborg zusammen, um über die Ukraine-Unterstützung zu beraten. Die Zusammenkunft findet in Helsingb...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/nato-aussenminister-beraten-in-schweden-ueber-ukraine-unterstuetzung_20260522/" aria-label="NATO-Außenminister beraten in Schweden über Ukraine-Unterstützung Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fnato-aussenminister-beraten-in-schweden-ueber-ukraine-unterstuetzung_20260522%2F&text=NATO-Au%C3%9Fenminister+beraten+in+Schweden+%C3%BCber+Ukraine-Unterst%C3%BCtzung" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fnato-aussenminister-beraten-in-schweden-ueber-ukraine-unterstuetzung_20260522%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=NATO-Au%C3%9Fenminister+beraten+in+Schweden+%C3%BCber+Ukraine-Unterst%C3%BCtzung%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fnato-aussenminister-beraten-in-schweden-ueber-ukraine-unterstuetzung_20260522%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fnato-aussenminister-beraten-in-schweden-ueber-ukraine-unterstuetzung_20260522%2F&text=NATO-Au%C3%9Fenminister+beraten+in+Schweden+%C3%BCber+Ukraine-Unterst%C3%BCtzung" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
       <article class="news-card topic-card" data-topic="dunya">
         <a class="card-image-link" href="/nachrichten/artikel/usa-taiwan-waffengeschaeft-auf-eis_20260522/" aria-label="USA setzen Waffengeschäft mit Taiwan auf Eis"><div class="card-image"><img src="https://images.unsplash.com/photo-1595590424283-b8f17842773f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxXYWZmZW58ZW58MHwwfHx8MTc3OTQ3Mjg5NXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="USA setzen Waffengeschäft mit Taiwan auf Eis" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
@@ -16529,29 +16817,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fusa-taiwan-waffengeschaeft-auf-eis_20260522%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
               <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=USA+setzen+Waffengesch%C3%A4ft+mit+Taiwan+auf+Eis%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fusa-taiwan-waffengeschaeft-auf-eis_20260522%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
               <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fusa-taiwan-waffengeschaeft-auf-eis_20260522%2F&text=USA+setzen+Waffengesch%C3%A4ft+mit+Taiwan+auf+Eis" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="siyaset">
-        <a class="card-image-link" href="/nachrichten/artikel/nato-aussenminister-helsingborg-ukraine-us-soldaten_20260521/" aria-label="NATO-Außenminister beraten in Schweden über Ukraine-Hilfe und US-Truppen"><div class="card-image"><img src="https://images.unsplash.com/photo-1745774941054-7fb1fd0e841a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxOQVRPLVRyZWZmZW58ZW58MHwwfHx8MTc3OTM4NzEwOHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="NATO-Außenminister beraten in Schweden über Ukraine-Hilfe und US-Truppen" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Deutschland</span>
-            <span class="card-topic">Politik</span>
-            <time class="card-date" datetime="2026-05-21">21.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/nato-aussenminister-helsingborg-ukraine-us-soldaten_20260521/">NATO-Außenminister beraten in Schweden über Ukraine-Hilfe und US-Truppen</a>
-          </h3>
-          <p class="card-excerpt">Die Außenminister der NATO-Staaten treffen sich zu einem zweitägigen Treffen im schwedischen Helsingborg. Im Mittelpunkt der Beratungen stehen die weitere Unterstützung für die Uk...</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/nato-aussenminister-helsingborg-ukraine-us-soldaten_20260521/" aria-label="NATO-Außenminister beraten in Schweden über Ukraine-Hilfe und US-Truppen Artikel lesen">Weiterlesen →</a>
-            <div class="share-mini" aria-label="Teilen">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fnato-aussenminister-helsingborg-ukraine-us-soldaten_20260521%2F&text=NATO-Au%C3%9Fenminister+beraten+in+Schweden+%C3%BCber+Ukraine-Hilfe+und+US-Truppen" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fnato-aussenminister-helsingborg-ukraine-us-soldaten_20260521%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=NATO-Au%C3%9Fenminister+beraten+in+Schweden+%C3%BCber+Ukraine-Hilfe+und+US-Truppen%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fnato-aussenminister-helsingborg-ukraine-us-soldaten_20260521%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fnato-aussenminister-helsingborg-ukraine-us-soldaten_20260521%2F&text=NATO-Au%C3%9Fenminister+beraten+in+Schweden+%C3%BCber+Ukraine-Hilfe+und+US-Truppen" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
@@ -16948,29 +17213,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         </div>
       </article>
       <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/steuerreform-gering-mitteleinkommen-koalition-plant_20260519/" aria-label="Schwarz-rote Koalition plant Steuerreform für Gering- und Mitteleinkommen"><div class="card-image"><img src="https://images.unsplash.com/photo-1598432439250-0330f9130e14?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxTdGV1ZXJyZWZvcm18ZW58MHwwfHx8MTc3OTE4NjUwOXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Schwarz-rote Koalition plant Steuerreform für Gering- und Mitteleinkommen" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Deutschland</span>
-            <span class="card-topic">Themen</span>
-            <time class="card-date" datetime="2026-05-19">19.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/steuerreform-gering-mitteleinkommen-koalition-plant_20260519/">Schwarz-rote Koalition plant Steuerreform für Gering- und Mitteleinkommen</a>
-          </h3>
-          <p class="card-excerpt">Weitere Details finden Sie im Artikel.</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/steuerreform-gering-mitteleinkommen-koalition-plant_20260519/" aria-label="Schwarz-rote Koalition plant Steuerreform für Gering- und Mitteleinkommen Artikel lesen">Weiterlesen →</a>
-            <div class="share-mini" aria-label="Teilen">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fsteuerreform-gering-mitteleinkommen-koalition-plant_20260519%2F&text=Schwarz-rote+Koalition+plant+Steuerreform+f%C3%BCr+Gering-+und+Mitteleinkommen" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fsteuerreform-gering-mitteleinkommen-koalition-plant_20260519%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Schwarz-rote+Koalition+plant+Steuerreform+f%C3%BCr+Gering-+und+Mitteleinkommen%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fsteuerreform-gering-mitteleinkommen-koalition-plant_20260519%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fsteuerreform-gering-mitteleinkommen-koalition-plant_20260519%2F&text=Schwarz-rote+Koalition+plant+Steuerreform+f%C3%BCr+Gering-+und+Mitteleinkommen" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="gundem">
         <a class="card-image-link" href="/nachrichten/artikel/kolumbianische-kaempfer-in-der-ukraine_20260519/" aria-label="Kolumbianische Kämpfer in der Ukraine"><div class="card-image"><img src="https://images.unsplash.com/photo-1639341267320-2d062b250c0d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVa3JhaW5lJTIwZmxhZ3xlbnwwfDB8fHwxNzc5MTg0NDIyfDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Kolumbianische Kämpfer in der Ukraine" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
@@ -16994,29 +17236,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         </div>
       </article>
       <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/bundesregierung-startet-uniper-reprivatisierung_20260519/" aria-label="Bundesregierung startet Uniper-Reprivatisierung"><div class="card-image"><img src="https://images.unsplash.com/photo-1642888621621-ff7d83f3fdcf?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVbmlwZXJ8ZW58MHwwfHx8MTc3OTE4NjQ4M3ww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Bundesregierung startet Uniper-Reprivatisierung" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">DE Deutschland</span>
-            <span class="card-topic">Themen</span>
-            <time class="card-date" datetime="2026-05-19">19.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/bundesregierung-startet-uniper-reprivatisierung_20260519/">Bundesregierung startet Uniper-Reprivatisierung</a>
-          </h3>
-          <p class="card-excerpt">Weitere Details finden Sie im Artikel.</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/bundesregierung-startet-uniper-reprivatisierung_20260519/" aria-label="Bundesregierung startet Uniper-Reprivatisierung Artikel lesen">Weiterlesen →</a>
-            <div class="share-mini" aria-label="Teilen">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fbundesregierung-startet-uniper-reprivatisierung_20260519%2F&text=Bundesregierung+startet+Uniper-Reprivatisierung" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fbundesregierung-startet-uniper-reprivatisierung_20260519%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Bundesregierung+startet+Uniper-Reprivatisierung%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fbundesregierung-startet-uniper-reprivatisierung_20260519%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fbundesregierung-startet-uniper-reprivatisierung_20260519%2F&text=Bundesregierung+startet+Uniper-Reprivatisierung" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="gundem">
         <a class="card-image-link" href="/nachrichten/artikel/bund-rendite-steigt-krisensignale-anleihemarkt_20260519/" aria-label="Bund-Rendite steigt: Krisensignale vom Anleihemarkt häufen sich"><div class="card-image"><img src="https://images.unsplash.com/photo-1698432292965-3b298724f5a8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxHZXJtYW4lMjBib25kfGVufDB8MHx8fDE3NzkyMTQ1NjR8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Bund-Rendite steigt: Krisensignale vom Anleihemarkt häufen sich" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
@@ -17035,6 +17254,29 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fbund-rendite-steigt-krisensignale-anleihemarkt_20260519%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
               <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Bund-Rendite+steigt%3A+Krisensignale+vom+Anleihemarkt+h%C3%A4ufen+sich%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fbund-rendite-steigt-krisensignale-anleihemarkt_20260519%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
               <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fbund-rendite-steigt-krisensignale-anleihemarkt_20260519%2F&text=Bund-Rendite+steigt%3A+Krisensignale+vom+Anleihemarkt+h%C3%A4ufen+sich" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="siyaset">
+        <a class="card-image-link" href="/nachrichten/artikel/steuerreform-gering-mitteleinkommen-koalition-plant_20260519/" aria-label="Schwarz-rote Koalition plant Steuerreform für Gering- und Mitteleinkommen"><div class="card-image"><img src="https://images.unsplash.com/photo-1598432439250-0330f9130e14?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxTdGV1ZXJyZWZvcm18ZW58MHwwfHx8MTc3OTE4NjUwOXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Schwarz-rote Koalition plant Steuerreform für Gering- und Mitteleinkommen" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Politik</span>
+            <time class="card-date" datetime="2026-05-19">19.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/steuerreform-gering-mitteleinkommen-koalition-plant_20260519/">Schwarz-rote Koalition plant Steuerreform für Gering- und Mitteleinkommen</a>
+          </h3>
+          <p class="card-excerpt">Weitere Details finden Sie im Artikel.</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/steuerreform-gering-mitteleinkommen-koalition-plant_20260519/" aria-label="Schwarz-rote Koalition plant Steuerreform für Gering- und Mitteleinkommen Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fsteuerreform-gering-mitteleinkommen-koalition-plant_20260519%2F&text=Schwarz-rote+Koalition+plant+Steuerreform+f%C3%BCr+Gering-+und+Mitteleinkommen" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fsteuerreform-gering-mitteleinkommen-koalition-plant_20260519%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Schwarz-rote+Koalition+plant+Steuerreform+f%C3%BCr+Gering-+und+Mitteleinkommen%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fsteuerreform-gering-mitteleinkommen-koalition-plant_20260519%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fsteuerreform-gering-mitteleinkommen-koalition-plant_20260519%2F&text=Schwarz-rote+Koalition+plant+Steuerreform+f%C3%BCr+Gering-+und+Mitteleinkommen" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
@@ -17085,6 +17327,29 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </div>
       </article>
+      <article class="news-card topic-card" data-topic="ekonomi">
+        <a class="card-image-link" href="/nachrichten/artikel/bundesregierung-startet-uniper-reprivatisierung_20260519/" aria-label="Bundesregierung startet Uniper-Reprivatisierung"><div class="card-image"><img src="https://images.unsplash.com/photo-1642888621621-ff7d83f3fdcf?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVbmlwZXJ8ZW58MHwwfHx8MTc3OTE4NjQ4M3ww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Bundesregierung startet Uniper-Reprivatisierung" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Wirtschaft</span>
+            <time class="card-date" datetime="2026-05-19">19.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/bundesregierung-startet-uniper-reprivatisierung_20260519/">Bundesregierung startet Uniper-Reprivatisierung</a>
+          </h3>
+          <p class="card-excerpt">Weitere Details finden Sie im Artikel.</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/bundesregierung-startet-uniper-reprivatisierung_20260519/" aria-label="Bundesregierung startet Uniper-Reprivatisierung Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fbundesregierung-startet-uniper-reprivatisierung_20260519%2F&text=Bundesregierung+startet+Uniper-Reprivatisierung" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fbundesregierung-startet-uniper-reprivatisierung_20260519%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Bundesregierung+startet+Uniper-Reprivatisierung%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fbundesregierung-startet-uniper-reprivatisierung_20260519%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fbundesregierung-startet-uniper-reprivatisierung_20260519%2F&text=Bundesregierung+startet+Uniper-Reprivatisierung" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
       <article class="news-card topic-card" data-topic="dunya">
         <a class="card-image-link" href="/nachrichten/artikel/ukraine-lenkbare-bombe-entwicklung_20260519/" aria-label="Ukraine entwickelt eigene lenkbare Bombe zur Stärkung der Luftverteidigung"><div class="card-image"><img src="https://images.unsplash.com/photo-1639341267320-2d062b250c0d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxVa3JhaW5lfGVufDB8MHx8fDE3NzkyMDc0NTJ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Ukraine entwickelt eigene lenkbare Bombe zur Stärkung der Luftverteidigung" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
@@ -17127,6 +17392,29 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftrump-angriff-iran-abgesagt_20260519%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
               <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Trump%3A+F%C3%BCr+heute+geplanter+Angriff+auf+Iran+abgesagt%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftrump-angriff-iran-abgesagt_20260519%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
               <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftrump-angriff-iran-abgesagt_20260519%2F&text=Trump%3A+F%C3%BCr+heute+geplanter+Angriff+auf+Iran+abgesagt" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="dunya">
+        <a class="card-image-link" href="/nachrichten/artikel/putin-besucht-xi-china-strategische-partnerschaft_20260519/" aria-label="Putin besucht Xi in China: Fokus auf strategischer Partnerschaft und Wirtschaftsfragen"><div class="card-image"><img src="https://images.unsplash.com/photo-1534598974068-2d51eda7628f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxQdXRpbnxlbnwwfDB8fHwxNzc5MjIzODA3fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Putin besucht Xi in China: Fokus auf strategischer Partnerschaft und Wirtschaftsfragen" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">DE Deutschland</span>
+            <span class="card-topic">Welt</span>
+            <time class="card-date" datetime="2026-05-19">19.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/putin-besucht-xi-china-strategische-partnerschaft_20260519/">Putin besucht Xi in China: Fokus auf strategischer Partnerschaft und Wirtschaftsfragen</a>
+          </h3>
+          <p class="card-excerpt">Russlands Präsident Wladimir Putin ist zu einem zweitägigen Staatsbesuch in China eingetroffen, um mit Präsident Xi Jinping über die Vertiefung der strategischen Partnerschaft bei...</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/putin-besucht-xi-china-strategische-partnerschaft_20260519/" aria-label="Putin besucht Xi in China: Fokus auf strategischer Partnerschaft und Wirtschaftsfragen Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fputin-besucht-xi-china-strategische-partnerschaft_20260519%2F&text=Putin+besucht+Xi+in+China%3A+Fokus+auf+strategischer+Partnerschaft+und+Wirtschaftsfragen" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fputin-besucht-xi-china-strategische-partnerschaft_20260519%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Putin+besucht+Xi+in+China%3A+Fokus+auf+strategischer+Partnerschaft+und+Wirtschaftsfragen%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fputin-besucht-xi-china-strategische-partnerschaft_20260519%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fputin-besucht-xi-china-strategische-partnerschaft_20260519%2F&text=Putin+besucht+Xi+in+China%3A+Fokus+auf+strategischer+Partnerschaft+und+Wirtschaftsfragen" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
@@ -17338,35 +17626,12 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </div>
       </article>
-      <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/dax-konzerne-gewinne-umsatzflaute-ey_20260518/" aria-label="DAX-Konzerne trotzen Konjunkturschwäche: Gewinne steigen trotz stagnierender Umsätze"><div class="card-image"><img src="https://images.unsplash.com/photo-1672953966838-e47cbfb4933f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxEQVh8ZW58MHwwfHx8MTc3OTExMDYyNnww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="DAX-Konzerne trotzen Konjunkturschwäche: Gewinne steigen trotz stagnierender Umsätze" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">🇩🇪 Deutschland</span>
-            <span class="card-topic">Themen</span>
-            <time class="card-date" datetime="2026-05-18">18.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/dax-konzerne-gewinne-umsatzflaute-ey_20260518/">DAX-Konzerne trotzen Konjunkturschwäche: Gewinne steigen trotz stagnierender Umsätze</a>
-          </h3>
-          <p class="card-excerpt">Weitere Details finden Sie im Artikel.</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/dax-konzerne-gewinne-umsatzflaute-ey_20260518/" aria-label="DAX-Konzerne trotzen Konjunkturschwäche: Gewinne steigen trotz stagnierender Umsätze Artikel lesen">Weiterlesen →</a>
-            <div class="share-mini" aria-label="Teilen">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fdax-konzerne-gewinne-umsatzflaute-ey_20260518%2F&text=DAX-Konzerne+trotzen+Konjunkturschw%C3%A4che%3A+Gewinne+steigen+trotz+stagnierender+Ums%C3%A4tze" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fdax-konzerne-gewinne-umsatzflaute-ey_20260518%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=DAX-Konzerne+trotzen+Konjunkturschw%C3%A4che%3A+Gewinne+steigen+trotz+stagnierender+Ums%C3%A4tze%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fdax-konzerne-gewinne-umsatzflaute-ey_20260518%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fdax-konzerne-gewinne-umsatzflaute-ey_20260518%2F&text=DAX-Konzerne+trotzen+Konjunkturschw%C3%A4che%3A+Gewinne+steigen+trotz+stagnierender+Ums%C3%A4tze" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="gundem">
+      <article class="news-card topic-card" data-topic="siyaset">
         <a class="card-image-link" href="/nachrichten/artikel/bundestag-cdu-abgeordneter-wilhelm-gebhard-diätenerhohung_20260518/" aria-label="Bundestag: CDU-Abgeordneter Wilhelm Gebhard über Diätenerhöhung"><div class="card-image"><img src="/nachrichten/artikel/images/bundestag-cdu-abgeordneter-wilhelm-gebhard-diätenerhohung_20260518.webp" alt="Bundestag: CDU-Abgeordneter Wilhelm Gebhard über Diätenerhöhung" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
-            <span class="card-topic">Themen</span>
+            <span class="card-topic">Politik</span>
             <time class="card-date" datetime="2026-05-18">18.05.2026</time>
           </div>
           <h3 class="card-title">
@@ -17380,6 +17645,29 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fbundestag-cdu-abgeordneter-wilhelm-gebhard-di%C3%A4tenerhohung_20260518%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
               <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Bundestag%3A+CDU-Abgeordneter+Wilhelm+Gebhard+%C3%BCber+Di%C3%A4tenerh%C3%B6hung%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fbundestag-cdu-abgeordneter-wilhelm-gebhard-di%C3%A4tenerhohung_20260518%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
               <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fbundestag-cdu-abgeordneter-wilhelm-gebhard-di%C3%A4tenerhohung_20260518%2F&text=Bundestag%3A+CDU-Abgeordneter+Wilhelm+Gebhard+%C3%BCber+Di%C3%A4tenerh%C3%B6hung" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="news-card topic-card" data-topic="ekonomi">
+        <a class="card-image-link" href="/nachrichten/artikel/dax-konzerne-gewinne-umsatzflaute-ey_20260518/" aria-label="DAX-Konzerne trotzen Konjunkturschwäche: Gewinne steigen trotz stagnierender Umsätze"><div class="card-image"><img src="https://images.unsplash.com/photo-1672953966838-e47cbfb4933f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxEQVh8ZW58MHwwfHx8MTc3OTExMDYyNnww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="DAX-Konzerne trotzen Konjunkturschwäche: Gewinne steigen trotz stagnierender Umsätze" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">🇩🇪 Deutschland</span>
+            <span class="card-topic">Wirtschaft</span>
+            <time class="card-date" datetime="2026-05-18">18.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/dax-konzerne-gewinne-umsatzflaute-ey_20260518/">DAX-Konzerne trotzen Konjunkturschwäche: Gewinne steigen trotz stagnierender Umsätze</a>
+          </h3>
+          <p class="card-excerpt">Weitere Details finden Sie im Artikel.</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/dax-konzerne-gewinne-umsatzflaute-ey_20260518/" aria-label="DAX-Konzerne trotzen Konjunkturschwäche: Gewinne steigen trotz stagnierender Umsätze Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fdax-konzerne-gewinne-umsatzflaute-ey_20260518%2F&text=DAX-Konzerne+trotzen+Konjunkturschw%C3%A4che%3A+Gewinne+steigen+trotz+stagnierender+Ums%C3%A4tze" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fdax-konzerne-gewinne-umsatzflaute-ey_20260518%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=DAX-Konzerne+trotzen+Konjunkturschw%C3%A4che%3A+Gewinne+steigen+trotz+stagnierender+Ums%C3%A4tze%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fdax-konzerne-gewinne-umsatzflaute-ey_20260518%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fdax-konzerne-gewinne-umsatzflaute-ey_20260518%2F&text=DAX-Konzerne+trotzen+Konjunkturschw%C3%A4che%3A+Gewinne+steigen+trotz+stagnierender+Ums%C3%A4tze" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
@@ -17591,12 +17879,12 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </div>
       </article>
-      <article class="news-card topic-card" data-topic="gundem">
+      <article class="news-card topic-card" data-topic="ekonomi">
         <a class="card-image-link" href="/nachrichten/artikel/deutsche-wirtschaft-stabil_20260517/" aria-label="Deutsche Wirtschaft zeigt sich stabil"><div class="card-image"><img src="https://images.unsplash.com/photo-1618259278412-2819cbdea4dc?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NTE1NzF8MHwxfHNlYXJjaHwxfHxEZXV0c2NoZSUyMFdpcnRzY2hhZnR8ZW58MHwwfHx8MTc3OTAxMjI4N3ww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Deutsche Wirtschaft zeigt sich stabil" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
           <div class="card-meta">
             <span class="card-category">🇩🇪 Deutschland</span>
-            <span class="card-topic">Themen</span>
+            <span class="card-topic">Wirtschaft</span>
             <time class="card-date" datetime="2026-05-17">17.05.2026</time>
           </div>
           <h3 class="card-title">
@@ -17656,29 +17944,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fusa-toeten-is-vizechef%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
               <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=USA+t%C3%B6ten+IS-Vizechef%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fusa-toeten-is-vizechef%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
               <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fusa-toeten-is-vizechef%2F&text=USA+t%C3%B6ten+IS-Vizechef" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/tankrabatt-zukunft-unklar/" aria-label="Tankrabatt: Zukunft unklar"><div class="card-image"><img src="/nachrichten/artikel/images/tankrabatt-zukunft-unklar.webp" alt="Tankrabatt: Zukunft unklar" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">🇩🇪 Deutschland</span>
-            <span class="card-topic">Themen</span>
-            <time class="card-date" datetime="2026-05-16">16.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/tankrabatt-zukunft-unklar/">Tankrabatt: Zukunft unklar</a>
-          </h3>
-          <p class="card-excerpt">Weitere Details finden Sie im Artikel.</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/tankrabatt-zukunft-unklar/" aria-label="Tankrabatt: Zukunft unklar Artikel lesen">Weiterlesen →</a>
-            <div class="share-mini" aria-label="Teilen">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftankrabatt-zukunft-unklar%2F&text=Tankrabatt%3A+Zukunft+unklar" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftankrabatt-zukunft-unklar%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Tankrabatt%3A+Zukunft+unklar%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftankrabatt-zukunft-unklar%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Ftankrabatt-zukunft-unklar%2F&text=Tankrabatt%3A+Zukunft+unklar" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
@@ -17748,29 +18013,6 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
               <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Frassistische-parolen-am-vatertag-in-hamburg%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
               <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Rassistische+Parolen+am+Vatertag+in+Hamburg%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Frassistische-parolen-am-vatertag-in-hamburg%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
               <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Frassistische-parolen-am-vatertag-in-hamburg%2F&text=Rassistische+Parolen+am+Vatertag+in+Hamburg" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="news-card topic-card" data-topic="gundem">
-        <a class="card-image-link" href="/nachrichten/artikel/putin-besucht-xi-jinping-in-china/" aria-label="Wladimir Putin bei Xi Jinping in China"><div class="card-image"><img src="/nachrichten/artikel/images/putin-besucht-xi-jinping-in-china.webp" alt="Wladimir Putin bei Xi Jinping in China" loading="lazy" width="1080" height="720"></div></a>
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-category">🇩🇪 Deutschland</span>
-            <span class="card-topic">Themen</span>
-            <time class="card-date" datetime="2026-05-16">16.05.2026</time>
-          </div>
-          <h3 class="card-title">
-            <a href="/nachrichten/artikel/putin-besucht-xi-jinping-in-china/">Wladimir Putin bei Xi Jinping in China</a>
-          </h3>
-          <p class="card-excerpt">Weitere Details finden Sie im Artikel.</p>
-          <div class="card-footer">
-            <a class="read-more" href="/nachrichten/artikel/putin-besucht-xi-jinping-in-china/" aria-label="Wladimir Putin bei Xi Jinping in China Artikel lesen">Weiterlesen →</a>
-            <div class="share-mini" aria-label="Teilen">
-              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fputin-besucht-xi-jinping-in-china%2F&text=Wladimir+Putin+bei+Xi+Jinping+in+China" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
-              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fputin-besucht-xi-jinping-in-china%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
-              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=Wladimir+Putin+bei+Xi+Jinping+in+China%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fputin-besucht-xi-jinping-in-china%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
-              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fputin-besucht-xi-jinping-in-china%2F&text=Wladimir+Putin+bei+Xi+Jinping+in+China" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
             </div>
           </div>
         </div>
@@ -17913,6 +18155,29 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
           </div>
         </div>
       </article>
+      <article class="news-card topic-card" data-topic="siyaset">
+        <a class="card-image-link" href="/nachrichten/artikel/spd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt/" aria-label="SPD-Fraktionschef Miersch sieht keine Zukunft für Tankrabatt"><div class="card-image"><img src="/nachrichten/artikel/images/spd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt.webp" alt="SPD-Fraktionschef Miersch sieht keine Zukunft für Tankrabatt" loading="lazy" width="1080" height="720"></div></a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-category">🇩🇪 Deutschland</span>
+            <span class="card-topic">Politik</span>
+            <time class="card-date" datetime="2026-05-16">16.05.2026</time>
+          </div>
+          <h3 class="card-title">
+            <a href="/nachrichten/artikel/spd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt/">SPD-Fraktionschef Miersch sieht keine Zukunft für Tankrabatt</a>
+          </h3>
+          <p class="card-excerpt">Weitere Details finden Sie im Artikel.</p>
+          <div class="card-footer">
+            <a class="read-more" href="/nachrichten/artikel/spd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt/" aria-label="SPD-Fraktionschef Miersch sieht keine Zukunft für Tankrabatt Artikel lesen">Weiterlesen →</a>
+            <div class="share-mini" aria-label="Teilen">
+              <a class="share-btn share-x" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fspd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt%2F&text=SPD-Fraktionschef+Miersch+sieht+keine+Zukunft+f%C3%BCr+Tankrabatt" aria-label="Auf X teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4l14 16M19 4L5 20"/></svg></a>
+              <a class="share-btn share-fb" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fspd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt%2F" aria-label="Auf Facebook teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V4h-2c-3 0-5 2-5 5v2H7v4h2v5h4v-5h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+              <a class="share-btn share-wa" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?text=SPD-Fraktionschef+Miersch+sieht+keine+Zukunft+f%C3%BCr+Tankrabatt%20https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fspd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt%2F" aria-label="Auf WhatsApp teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.4A7 7 0 1 1 9 18.4L5 19z"/><path d="M9.5 8.8c.3-.5.6-.5.9-.2l.7 1c.2.3.2.6 0 .9l-.3.4c.5.9 1.2 1.6 2.2 2.1l.5-.4c.3-.2.6-.2.9 0l1 .7c.3.2.3.6.1.9-.4.7-1 1-1.8.8-2.7-.6-4.6-2.5-5.3-5.1-.2-.5.1-1 .5-1.1z"/></svg></a>
+              <a class="share-btn share-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=https%3A%2F%2Fmansetradar.com.tr%2Fnachrichten%2Fartikel%2Fspd-fraktionschef-miersch-keine-zukunft-fuer-tankrabatt%2F&text=SPD-Fraktionschef+Miersch+sieht+keine+Zukunft+f%C3%BCr+Tankrabatt" aria-label="Auf Telegram teilen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5L4 11.5l5.8 2.1L12 19l3-4.2 4.2-8.9z"/><path d="M9.8 13.6L20 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </article>
       <article class="news-card topic-card" data-topic="dunya">
         <a class="card-image-link" href="/nachrichten/artikel/russlands-krieg-gegen-die-ukraine-zahl-der-toten-in-kiew-steigt-auf-24/" aria-label="Russlands Krieg gegen die Ukraine: Zahl der Toten in Kiew steigt auf 24"><div class="card-image"><img src="/nachrichten/artikel/images/russlands-krieg-gegen-die-ukraine-zahl-der-toten-in-kiew-steigt-auf-24.webp" alt="Russlands Krieg gegen die Ukraine: Zahl der Toten in Kiew steigt auf 24" loading="lazy" width="1080" height="720"></div></a>
         <div class="card-body">
@@ -18033,9 +18298,22 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
     const weatherNoDataText = "Keine Daten";
     const weatherWindText = "Wind";
     const searchNoResultsText = "Keine passenden Nachrichten gefunden.";
+    const topicMetaMap = {"son-dakika": {"kicker": "Deutschland", "heading": "Aktuelle Deutschland Nachrichten", "note": "Aus deutschen Quellen ausgewählte Schlagzeilen und aktuelle Entwicklungen.", "flow_title": "Nachrichtenfluss Deutschland", "title": "Deutschland Nachrichten | mansetradar.com.tr"}, "gundem": {"kicker": "Deutschland · Themen", "heading": "Aktuelle Themen & Eilmeldungen", "note": "Wichtige Inlandsmeldungen, Sicherheit, Justiz, Bildung und Hintergründe.", "flow_title": "Nachrichtenfluss Themen", "title": "Themen | Deutschland Nachrichten | mansetradar.com.tr"}, "siyaset": {"kicker": "Deutschland · Politik", "heading": "Politik & Bundestag", "note": "Bundesregierung, Bundestag, Wahlen, Koalitionsdebatten und Beschlüsse.", "flow_title": "Nachrichtenfluss Politik", "title": "Politik | Deutschland Nachrichten | mansetradar.com.tr"}, "ekonomi": {"kicker": "Deutschland · Wirtschaft", "heading": "Wirtschaft & Märkte", "note": "DAX-Konzerne, Konjunktur, Inflation, Energiepreise und Arbeitsmarkt.", "flow_title": "Nachrichtenfluss Wirtschaft", "title": "Wirtschaft | Deutschland Nachrichten | mansetradar.com.tr"}, "dunya": {"kicker": "Deutschland · Welt", "heading": "Welt & Ausland", "note": "Internationale Krisen, Diplomatie, EU-Politik und globale Entwicklungen.", "flow_title": "Nachrichtenfluss Welt", "title": "Welt | Deutschland Nachrichten | mansetradar.com.tr"}, "spor": {"kicker": "Deutschland · Sport", "heading": "Sport & Bundesliga", "note": "Bundesliga, Nationalmannschaft, internationale Wettbewerbe und Ergebnisse.", "flow_title": "Nachrichtenfluss Sport", "title": "Sport | Deutschland Nachrichten | mansetradar.com.tr"}, "magazin": {"kicker": "Deutschland · Kultur", "heading": "Kultur & Gesellschaft", "note": "Kunst, Kino, Musik, Festivals, Medien und gesellschaftliche Debatten.", "flow_title": "Nachrichtenfluss Kultur", "title": "Kultur | Deutschland Nachrichten | mansetradar.com.tr"}, "teknoloji": {"kicker": "Deutschland · Technologie", "heading": "Technologie & Wissenschaft", "note": "Künstliche Intelligenz, Digitalisierung, Raumfahrt, Forschung und Innovation.", "flow_title": "Nachrichtenfluss Technologie", "title": "Technologie | Deutschland Nachrichten | mansetradar.com.tr"}, "saglik": {"kicker": "Deutschland · Gesundheit", "heading": "Gesundheit & Medizin", "note": "Gesundheitswesen, medizinische Studien, Prävention und Krankenhäuser.", "flow_title": "Nachrichtenfluss Gesundheit", "title": "Gesundheit | Deutschland Nachrichten | mansetradar.com.tr"}};
+    const loadMoreLabelText = "Weitere Meldungen";
+    const emptyCategoryText = "Für diese Rubrik liegen derzeit noch keine Meldungen vor.";
+    const heroLabelText = "Topmeldung";
+    const heroTrustBadgeText = "✅ Verifiziert";
+    const heroReadTimeText = "⏱️ 2 Min. Lesezeit";
+    const editionShortCode = "DE";
     let activeSearchTerm = '';
     let searchIndexReady = false;
     let searchDebounceId = null;
+
+    const heroSliderNode = document.querySelector('.headline-slider');
+    const heroSliderControls = heroSliderNode ? heroSliderNode.querySelector('.slider-controls') : null;
+    const initialHeroSlides = heroSliderNode
+      ? Array.from(heroSliderNode.querySelectorAll('.headline-slide')).map((node) => node.cloneNode(true))
+      : [];
 
     function normalizeSearchText(value) {
       return (value || '').toLocaleLowerCase('de-DE').replace(/\s+/g, ' ').trim();
@@ -18177,26 +18455,196 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
     function countCards() {
       const node = document.getElementById('count-main');
       if (!node) return;
-      node.textContent = Array.from(document.querySelectorAll('.topic-card'))
+      node.textContent = Array.from(document.querySelectorAll('#grid-main .news-card.topic-card'))
         .filter(card => !card.hidden).length;
+    }
+
+    function buildHeroSlideFromCard(card, index) {
+      const link = card.querySelector('a.read-more') || card.querySelector('.card-title a') || card.querySelector('a[href]');
+      const titleNode = card.querySelector('.card-title');
+      const topicNode = card.querySelector('.card-topic');
+      const dateNode = card.querySelector('.card-date');
+      const imgNode = card.querySelector('.card-image img');
+      const href = link ? (link.getAttribute('href') || '#') : '#';
+      const title = titleNode ? titleNode.textContent.trim() : '';
+      const topicText = topicNode ? topicNode.textContent.trim() : '';
+      const dateText = dateNode ? dateNode.textContent.trim() : '';
+      const dateTimeAttr = dateNode ? (dateNode.getAttribute('datetime') || '') : '';
+      const topicSlug = card.dataset.topic || '';
+
+      const slide = document.createElement('a');
+      slide.className = 'headline-slide headline-card topic-card';
+      slide.href = href;
+      if (topicSlug) slide.dataset.topic = topicSlug;
+      slide.setAttribute('aria-label', title);
+      slide.dataset.filteredOut = 'false';
+      slide.dataset.searchHidden = 'false';
+
+      if (imgNode && imgNode.getAttribute('src')) {
+        const media = document.createElement('div');
+        media.className = 'headline-image';
+        const img = document.createElement('img');
+        img.src = imgNode.getAttribute('src');
+        img.alt = title;
+        img.loading = index === 0 ? 'eager' : 'lazy';
+        if (index === 0) img.setAttribute('fetchpriority', 'high');
+        img.width = 1080;
+        img.height = 720;
+        media.appendChild(img);
+        slide.appendChild(media);
+      } else {
+        const placeholder = document.createElement('div');
+        placeholder.className = 'headline-placeholder';
+        placeholder.setAttribute('aria-hidden', 'true');
+        const badge = document.createElement('span');
+        badge.textContent = editionShortCode;
+        placeholder.appendChild(badge);
+        slide.appendChild(placeholder);
+      }
+
+      const content = document.createElement('div');
+      content.className = 'headline-content';
+
+      const meta = document.createElement('div');
+      meta.className = 'headline-meta';
+      const tag = document.createElement('span');
+      tag.className = 'headline-tag';
+      tag.textContent = `${heroLabelText} #${index + 1}`;
+      meta.appendChild(tag);
+
+      if (topicText) {
+        const topicBadge = document.createElement('span');
+        topicBadge.className = 'headline-topic';
+        topicBadge.textContent = topicText;
+        meta.appendChild(topicBadge);
+      }
+
+      const trust = document.createElement('span');
+      trust.className = 'headline-trust';
+      trust.textContent = heroTrustBadgeText;
+      meta.appendChild(trust);
+
+      const readTime = document.createElement('span');
+      readTime.className = 'headline-read-time';
+      readTime.textContent = heroReadTimeText;
+      meta.appendChild(readTime);
+      content.appendChild(meta);
+
+      const heading = document.createElement('h2');
+      heading.className = 'headline-title';
+      heading.textContent = title;
+      content.appendChild(heading);
+
+      const time = document.createElement('time');
+      time.className = 'headline-date';
+      if (dateTimeAttr) time.setAttribute('datetime', dateTimeAttr);
+      time.textContent = dateText;
+      content.appendChild(time);
+
+      slide.appendChild(content);
+      return slide;
+    }
+
+    function normalizedPathname(href) {
+      try {
+        return new URL(href, window.location.href).pathname;
+      } catch (_err) {
+        return href || '';
+      }
+    }
+
+    function rebuildHeroSlides(activeTopic, showAll, matchingGridCards) {
+      if (!heroSliderNode) return;
+      heroSliderNode.querySelectorAll('.headline-slide').forEach((node) => node.remove());
+      const nextSlides = [];
+      if (showAll) {
+        initialHeroSlides.slice(0, 10).forEach((orig) => {
+          const clone = orig.cloneNode(true);
+          clone.classList.remove('is-active');
+          clone.hidden = false;
+          clone.dataset.filteredOut = 'false';
+          clone.dataset.searchHidden = 'false';
+          nextSlides.push(clone);
+        });
+      } else {
+        const seenPaths = new Set();
+        initialHeroSlides.forEach((orig) => {
+          if (nextSlides.length >= 10 || orig.dataset.topic !== activeTopic) return;
+          const clone = orig.cloneNode(true);
+          const tagNode = clone.querySelector('.headline-tag');
+          if (tagNode) tagNode.textContent = `${heroLabelText} #${nextSlides.length + 1}`;
+          clone.classList.remove('is-active');
+          clone.hidden = false;
+          clone.dataset.filteredOut = 'false';
+          clone.dataset.searchHidden = 'false';
+          const pathKey = normalizedPathname(clone.getAttribute('href') || '');
+          if (pathKey) seenPaths.add(pathKey);
+          nextSlides.push(clone);
+        });
+        matchingGridCards.forEach((card) => {
+          if (nextSlides.length >= 10) return;
+          const link = card.querySelector('a.read-more') || card.querySelector('.card-title a') || card.querySelector('a[href]');
+          const pathKey = normalizedPathname(link ? (link.getAttribute('href') || '') : '');
+          if (pathKey && seenPaths.has(pathKey)) return;
+          if (pathKey) seenPaths.add(pathKey);
+          nextSlides.push(buildHeroSlideFromCard(card, nextSlides.length));
+        });
+      }
+      nextSlides.forEach((slide) => {
+        heroSliderNode.insertBefore(slide, heroSliderControls || null);
+      });
+      searchIndexReady = false;
     }
 
     function applyTopicFilter() {
       const params = new URLSearchParams(window.location.search);
-      const activeTopic = params.get('kategori') || 'son-dakika';
+      const requestedTopic = params.get('kategori') || 'son-dakika';
+      const hasTopicMeta = Object.prototype.hasOwnProperty.call(topicMetaMap, requestedTopic);
+      const hasNavLink = Array.from(document.querySelectorAll('.topic-link[data-topic]'))
+        .some((link) => link.dataset.topic === requestedTopic);
+      const activeTopic = (requestedTopic === 'son-dakika' || hasTopicMeta || hasNavLink)
+        ? requestedTopic
+        : 'son-dakika';
       const showAll = activeTopic === 'son-dakika';
-      document.querySelectorAll('.topic-link[data-topic]').forEach(link => {
-        link.classList.toggle('is-active', link.dataset.topic === activeTopic);
+
+      const rootEl = document.documentElement;
+      rootEl.dataset.activeTopic = activeTopic;
+      rootEl.classList.toggle('has-topic-filter', !showAll);
+
+      document.querySelectorAll('.topic-link[data-topic]').forEach((link) => {
+        const isMatch = link.dataset.topic === activeTopic;
+        link.classList.toggle('is-active', isMatch);
+        link.classList.toggle('primary', isMatch);
+        if (isMatch) link.setAttribute('aria-current', 'page');
+        else link.removeAttribute('aria-current');
       });
-      document.querySelectorAll('.topic-card:not(.headline-slide)').forEach(card => {
+
+      const meta = topicMetaMap[activeTopic] || topicMetaMap['son-dakika'] || {};
+      const kickerNode = document.querySelector('.showcase-kicker');
+      const mainTitleNode = document.getElementById('main-title');
+      const showcaseNoteNode = document.querySelector('.showcase-note');
+      const feedTitleNode = document.querySelector('#latest .country-name');
+      if (kickerNode && meta.kicker) kickerNode.textContent = meta.kicker;
+      if (mainTitleNode && meta.heading) mainTitleNode.textContent = meta.heading;
+      if (showcaseNoteNode && meta.note) showcaseNoteNode.textContent = meta.note;
+      if (feedTitleNode && meta.flow_title) feedTitleNode.textContent = meta.flow_title;
+      if (meta.title) document.title = meta.title;
+
+      const matchingGridCards = [];
+      document.querySelectorAll('#grid-main .news-card.topic-card').forEach((card) => {
         const keep = showAll || card.dataset.topic === activeTopic;
         card.dataset.filteredOut = keep ? 'false' : 'true';
+        if (keep) matchingGridCards.push(card);
       });
+
+      rebuildHeroSlides(activeTopic, showAll, matchingGridCards);
+      rootEl.classList.add('category-page-ready', 'category-showcase-ready', 'category-feed-ready');
     }
 
     function applySearchFilter() {
       const hasSearch = activeSearchTerm.length > 0;
       document.body.dataset.searchActive = hasSearch ? 'true' : 'false';
+      if (hasSearch && !searchIndexReady) ensureSearchIndex();
       document.querySelectorAll('.topic-card').forEach((card) => {
         const baseVisible = card.dataset.filteredOut !== 'true';
         if (!baseVisible) {
@@ -18219,14 +18667,17 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
         section.hidden = !section.querySelector('.topic-card:not([hidden])');
       });
 
+      const visibleCount = document.querySelectorAll('.topic-card:not([hidden])').length;
       const empty = document.getElementById('empty-topic');
-      if (empty) empty.hidden = document.querySelectorAll('.topic-card:not([hidden])').length > 0;
+      if (empty) empty.hidden = visibleCount > 0;
 
       const searchState = document.getElementById('news-search-status');
       if (searchState) {
-        searchState.textContent = hasSearch && document.querySelectorAll('.topic-card:not([hidden])').length === 0
-          ? searchNoResultsText
-          : '';
+        if (visibleCount === 0) {
+          searchState.textContent = hasSearch ? searchNoResultsText : emptyCategoryText;
+        } else {
+          searchState.textContent = '';
+        }
       }
       if (typeof window.refreshSideHeadlineRotation === 'function') window.refreshSideHeadlineRotation();
     }
@@ -18354,7 +18805,8 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
 
     function initPagination(gridId, pageSize = 20) {
       const grid = document.getElementById(gridId);
-      if (!grid) return;
+      if (!grid || !grid.parentElement) return;
+      grid.parentElement.querySelectorAll('.load-more-btn').forEach((oldBtn) => oldBtn.remove());
       const cards = Array.from(grid.querySelectorAll('.news-card'))
         .filter(card => card.dataset.filteredOut !== 'true' && card.dataset.searchHidden !== 'true');
       cards.forEach((card) => { card.hidden = false; });
@@ -18366,18 +18818,22 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       const btn = document.createElement('button');
       btn.className = 'load-more-btn';
       btn.type = 'button';
-      btn.textContent = `More stories (${cards.length - shown})`;
+      btn.textContent = `${loadMoreLabelText} (${cards.length - shown})`;
       grid.parentElement.appendChild(btn);
       btn.addEventListener('click', () => {
         const nextShown = Math.min(shown + pageSize, cards.length);
         for (let i = shown; i < nextShown; i++) cards[i].hidden = false;
         shown = nextShown;
         if (shown >= cards.length) btn.remove();
-        else btn.textContent = `More stories (${cards.length - shown})`;
+        else btn.textContent = `${loadMoreLabelText} (${cards.length - shown})`;
       });
     }
 
     function initHeadlineSlider() {
+      if (window.__mrLangSliderTimer) {
+        clearInterval(window.__mrLangSliderTimer);
+        window.__mrLangSliderTimer = null;
+      }
       const slider = document.querySelector('.headline-slider');
       if (!slider) return;
       const allSlides = Array.from(slider.querySelectorAll('.headline-slide'));
@@ -18386,6 +18842,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       let dotsWrap = slider.querySelector('.slider-dots');
       const isMobile = window.matchMedia('(max-width: 900px)').matches;
       if (slides.length === 0) {
+        slider.classList.remove('has-image-active');
         if (controls) controls.hidden = true;
         if (dotsWrap) dotsWrap.hidden = true;
         return;
@@ -18438,30 +18895,76 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
       };
       const nextBtn = slider.querySelector('[data-slider-next]');
       const prevBtn = slider.querySelector('[data-slider-prev]');
-      if (nextBtn) nextBtn.addEventListener('click', () => {
+      if (nextBtn) nextBtn.onclick = () => {
         pauseAuto();
         showSlide(current + 1);
-      });
-      if (prevBtn) prevBtn.addEventListener('click', () => {
+      };
+      if (prevBtn) prevBtn.onclick = () => {
         pauseAuto();
         showSlide(current - 1);
+      };
+      slider.__sliderPause = () => pauseAuto();
+      slider.__sliderAdvance = (delta) => {
+        pauseAuto();
+        showSlide(current + delta);
+      };
+      if (slider.dataset.sliderTouchBound !== '1') {
+        slider.dataset.sliderTouchBound = '1';
+        let touchStartX = 0;
+        slider.addEventListener('touchstart', (event) => {
+          if (slider.__sliderPause) slider.__sliderPause();
+          touchStartX = event.changedTouches[0].clientX;
+        }, { passive: true });
+        slider.addEventListener('pointerdown', () => {
+          if (slider.__sliderPause) slider.__sliderPause();
+        }, { passive: true });
+        slider.addEventListener('touchend', (event) => {
+          const delta = event.changedTouches[0].clientX - touchStartX;
+          if (Math.abs(delta) < 40 || !slider.__sliderAdvance) return;
+          slider.__sliderAdvance(delta < 0 ? 1 : -1);
+        }, { passive: true });
+      }
+      if (slides.length > 1) {
+        window.__mrLangSliderTimer = setInterval(() => {
+          if (Date.now() < autoPausedUntil) return;
+          showSlide(current + 1);
+        }, 3000);
+      }
+    }
+
+    function initCategoryNavigation() {
+      const topicLinks = Array.from(document.querySelectorAll('.topic-link[data-topic]'));
+      if (!topicLinks.length) return;
+      topicLinks.forEach((link) => {
+        link.addEventListener('click', (event) => {
+          if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+            return;
+          }
+          const topicSlug = link.dataset.topic || '';
+          if (!topicSlug) return;
+          if (topicSlug !== 'son-dakika' && !Object.prototype.hasOwnProperty.call(topicMetaMap, topicSlug)) {
+            return;
+          }
+          event.preventDefault();
+          const nextUrl = new URL(link.href, window.location.href);
+          const currentFull = window.location.pathname + window.location.search;
+          const nextFull = nextUrl.pathname + nextUrl.search;
+          if (currentFull !== nextFull) {
+            window.history.pushState({ kategori: topicSlug }, '', nextFull);
+          }
+          refreshNewsGrid();
+          const mainNode = document.getElementById('main-content');
+          if (mainNode && typeof mainNode.scrollIntoView === 'function') {
+            const rect = mainNode.getBoundingClientRect();
+            if (rect.top < 0 || rect.top > window.innerHeight * 0.45) {
+              mainNode.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
+        });
       });
-      let touchStartX = 0;
-      slider.addEventListener('touchstart', (event) => {
-        pauseAuto();
-        touchStartX = event.changedTouches[0].clientX;
-      }, { passive: true });
-      slider.addEventListener('pointerdown', () => pauseAuto(), { passive: true });
-      slider.addEventListener('touchend', (event) => {
-        const delta = event.changedTouches[0].clientX - touchStartX;
-        if (Math.abs(delta) < 40) return;
-        pauseAuto();
-        showSlide(delta < 0 ? current + 1 : current - 1);
-      }, { passive: true });
-      if (slides.length > 1) setInterval(() => {
-        if (Date.now() < autoPausedUntil) return;
-        showSlide(current + 1);
-      }, 3000);
+      window.addEventListener('popstate', () => {
+        refreshNewsGrid();
+      });
     }
 
     updateTime();
@@ -18472,6 +18975,7 @@ html.has-topic-filter[data-active-topic]:not([data-active-topic="son-dakika"]):n
     updateWeather();
     setInterval(updateWeather, 600000);
     initSearchBar();
+    initCategoryNavigation();
     refreshNewsGrid();
   </script>
   <script defer src="/assets/js/json-search.js?v=20260613c"></script>
