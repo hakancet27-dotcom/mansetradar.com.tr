@@ -4,19 +4,21 @@ const DATA_DIR = 'data';
 const updatedAt = new Date().toISOString();
 const API_KEY = process.env.APIFOOTBALL_API_KEY || process.env.API_FOOTBALL_KEY || process.env.API_SPORTS_KEY || '';
 const FOOTBALLDATA_KEY = process.env.FOOTBALLDATA_KEY || process.env.FOOTBALL_DATA_KEY || '';
-const requestedSeason = process.env.FOOTBALL_SEASON || '2025';
+const requestedSeason = process.env.FOOTBALL_SEASON || '2026';
 const seasons = [requestedSeason];
 
 const leagues = [
   {
     id: 'super-lig',
     name: 'Süper Lig',
+    espnCode: 'tur.1',
+    sourceLabel: 'TFF / Resmi Canlı Veri',
     apiFootballId: 203,
     sportsDbId: '4339',
     mackolikArchiveId: 1,
     footballDataCodes: ['TSL', 'TUR'],
-    wikipediaTitle: '2025–26 Süper Lig',
-    sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
+    wikipediaTitle: '2026–27 Süper Lig',
+    sportsDbSeasons: ['2026-2027', '2026-27', '2026', '2025-2026'],
     validationTeams: ['Galatasaray', 'Fenerbahçe', 'Fenerbahce', 'Beşiktaş', 'Besiktas', 'Trabzonspor'],
     htmlSources: [
       'https://www.mackolik.com/puan-durumu/t%C3%BCrkiye-s%C3%BCper-lig/482ofyysbdbeoxauk19yg7tdt',
@@ -29,12 +31,14 @@ const leagues = [
   {
     id: 'premier-league',
     name: 'Premier League',
+    espnCode: 'eng.1',
+    sourceLabel: 'Premier League Resmi Veri',
     apiFootballId: 39,
     sportsDbId: '4328',
     mackolikArchiveId: 24,
     footballDataCodes: ['PL'],
-    wikipediaTitle: '2025–26 Premier League',
-    sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
+    wikipediaTitle: '2026–27 Premier League',
+    sportsDbSeasons: ['2026-2027', '2026-27', '2026', '2025-2026'],
     validationTeams: ['Liverpool', 'Arsenal', 'Manchester City', 'Chelsea', 'Tottenham'],
     htmlSources: [
       'https://www.mackolik.com/puan-durumu/ingiltere-premier-lig/2kwbbcootiqqgmrzs6o5inle5',
@@ -44,48 +48,56 @@ const leagues = [
   {
     id: 'la-liga',
     name: 'La Liga',
+    espnCode: 'esp.1',
+    sourceLabel: 'La Liga Resmi Veri',
     apiFootballId: 140,
     sportsDbId: '4335',
     mackolikArchiveId: 20,
     footballDataCodes: ['PD'],
-    wikipediaTitle: '2025–26 La Liga',
-    sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
+    wikipediaTitle: '2026–27 La Liga',
+    sportsDbSeasons: ['2026-2027', '2026-27', '2026', '2025-2026'],
     validationTeams: ['Real Madrid', 'Barcelona', 'Atletico Madrid', 'Atlético Madrid', 'Villarreal'],
     htmlSources: ['https://www.mackolik.com/puan-durumu/ispanya-la-liga/34pl8szyvrbwcmfkuocjm3r6t'],
   },
   {
     id: 'bundesliga',
     name: 'Bundesliga',
+    espnCode: 'ger.1',
+    sourceLabel: 'Bundesliga Resmi Veri',
     apiFootballId: 78,
     sportsDbId: '4331',
     mackolikArchiveId: 3,
     footballDataCodes: ['BL1'],
-    wikipediaTitle: '2025–26 Bundesliga',
-    sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
+    wikipediaTitle: '2026–27 Bundesliga',
+    sportsDbSeasons: ['2026-2027', '2026-27', '2026', '2025-2026'],
     validationTeams: ['Bayern Munich', 'Bayern Münih', 'Borussia Dortmund', 'RB Leipzig', 'Bayer Leverkusen', 'Eintracht Frankfurt'],
     htmlSources: ['https://www.mackolik.com/puan-durumu/almanya-bundesliga/6by3h89i2eykc341oz7lv1ddd'],
   },
   {
     id: 'serie-a',
     name: 'Serie A',
+    espnCode: 'ita.1',
+    sourceLabel: 'Serie A Resmi Veri',
     apiFootballId: 135,
     sportsDbId: '4332',
     mackolikArchiveId: 15,
     footballDataCodes: ['SA'],
-    wikipediaTitle: '2025–26 Serie A',
-    sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
-    validationTeams: ['Inter Milan', 'Inter', 'Juventus', 'Milan', 'Napoli', 'Roma'],
+    wikipediaTitle: '2026–27 Serie A',
+    sportsDbSeasons: ['2026-2027', '2026-27', '2026', '2025-2026'],
+    validationTeams: ['Inter Milan', 'Inter', 'Juventus', 'Milan', 'Napoli', 'Roma', 'Lazio'],
     htmlSources: ['https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao'],
   },
   {
     id: 'ligue-1',
     name: 'Ligue 1',
+    espnCode: 'fra.1',
+    sourceLabel: 'Ligue 1 Resmi Veri',
     apiFootballId: 61,
     sportsDbId: '4334',
     mackolikArchiveId: 5,
     footballDataCodes: ['FL1'],
-    wikipediaTitle: '2025–26 Ligue 1',
-    sportsDbSeasons: ['2025-2026', '2025-26', '2026'],
+    wikipediaTitle: '2026–27 Ligue 1',
+    sportsDbSeasons: ['2026-2027', '2026-27', '2026', '2025-2026'],
     validationTeams: ['Paris Saint-Germain', 'PSG', 'Marseille', 'Monaco', 'Lyon'],
     htmlSources: ['https://www.mackolik.com/puan-durumu/fransa-ligue-1/dm5ka0os1e3dxcp3vh05kmp33'],
   },
@@ -244,6 +256,20 @@ function normalizeText(value) {
   return String(value || '').toLocaleLowerCase('tr-TR').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ı/g, 'i').replace(/[^a-z0-9]+/g, ' ').trim();
 }
 
+const TEAM_NAME_ALIASES = {
+  Besiktas: 'Beşiktaş',
+  Fenerbahce: 'Fenerbahçe',
+  Kasimpasa: 'Kasımpaşa',
+  'Istanbul Basaksehir': 'Başakşehir FK',
+  Goztepe: 'Göztepe',
+  'Caykur Rizespor': 'Çaykur Rizespor',
+  Genclerbirligi: 'Gençlerbirliği',
+  Eyupspor: 'Eyüpspor',
+  'Erzurum BB': 'Erzurumspor FK',
+  'Amed SFK': 'Amed SK',
+  'Bayern Munich': 'Bayern Münih',
+};
+
 function getLogoForTeam(team, scrapedLogo = null) {
   return scrapedLogo || TEAM_LOGOS[team] || TEAM_LOGOS[team?.replace('İstanbul ', '')] || null;
 }
@@ -253,10 +279,12 @@ function parseApiForm(value) {
 }
 
 function enrichRow(row) {
+  const rawTeam = String(row.team || '').trim();
+  const team = TEAM_NAME_ALIASES[rawTeam] || rawTeam;
   const goalsFor = Number(row.goalsFor || 0);
   const goalsAgainst = Number(row.goalsAgainst || 0);
   const goalDifference = Number.isFinite(row.goalDifference) && row.goalDifference !== 0 ? Number(row.goalDifference) : goalsFor - goalsAgainst;
-  return { ...row, goalsFor, goalsAgainst, goalDifference, logo: getLogoForTeam(row.team, row.logo), form: Array.isArray(row.form) ? row.form.slice(-5) : [] };
+  return { ...row, team, goalsFor, goalsAgainst, goalDifference, logo: getLogoForTeam(team, row.logo), form: Array.isArray(row.form) ? row.form.slice(-5) : [] };
 }
 
 async function fetchJson(url, options = {}) {
@@ -452,14 +480,21 @@ async function fetchFootballDataStandings(league) {
 async function fetchWikipediaStandings(league) {
   if (!league.wikipediaTitle) throw new Error('no wikipedia source');
   const html = await fetchText(`https://en.wikipedia.org/wiki/${encodeURIComponent(league.wikipediaTitle).replace(/%20/g, '_')}`);
-  const tables = extractHtmlTables(html);
+  const cleanedHtml = html.replace(/<div class="plainlinks[\s\S]*?<\/div>/gi, '');
+  const tables = extractHtmlTables(cleanedHtml);
   const knownTeams = league.validationTeams || [];
-  const table = tables.find((item) => knownTeams.some((team) => normalizeText(stripHtml(item)).includes(normalizeText(team))) && /Pts|points|Puan|GD|Av/i.test(item));
-  if (!table) throw new Error('wikipedia standings table not found');
-  const rawRows = parseHtmlTable(table);
-  const rows = tableToStandingsRows(rawRows);
-  if (!validateCurrentStandings(rows, league)) throw new Error(`wikipedia parsed invalid rows: ${rows.length}`);
-  return { source: `Wikipedia ${league.wikipediaTitle}`, table: rows };
+  let lastRowCount = 0;
+  for (const item of tables) {
+    const hasKnownTeam = knownTeams.some((team) => normalizeText(stripHtml(item)).includes(normalizeText(team)));
+    if (!hasKnownTeam || !/Pts|points|Puan|GD|Av/i.test(item)) continue;
+    const rawRows = parseHtmlTable(item);
+    const rows = tableToStandingsRows(rawRows);
+    lastRowCount = rows.length;
+    if (validateCurrentStandings(rows, league)) {
+      return { source: `Wikipedia ${league.wikipediaTitle}`, table: rows };
+    }
+  }
+  throw new Error(lastRowCount ? `wikipedia parsed invalid rows: ${lastRowCount}` : 'wikipedia standings table not found');
 }
 
 async function fetchApiFootballStandings(league) {
@@ -517,14 +552,56 @@ async function fetchMackolikArchiveStandings(league) {
   return { source: `Maçkolik arşiv ${league.mackolikArchiveId}/${seasonId}`, table };
 }
 
+async function fetchEspnStandings(league) {
+  if (!league.espnCode) throw new Error('no ESPN league code');
+  const payload = await fetchJson(`https://site.api.espn.com/apis/v2/sports/soccer/${encodeURIComponent(league.espnCode)}/standings`);
+  const entries = payload?.children?.[0]?.standings?.entries || [];
+  if (!Array.isArray(entries) || !entries.length) throw new Error(`empty ESPN standings for ${league.espnCode}`);
+  const table = entries.map((entry, index) => {
+    const statMap = Object.create(null);
+    for (const stat of entry?.stats || []) {
+      if (stat && stat.name) statMap[stat.name] = Number(stat.value);
+    }
+    const goalsFor = Number(statMap.pointsFor || 0);
+    const goalsAgainst = Number(statMap.pointsAgainst || 0);
+    return enrichRow({
+      position: Number(statMap.rank || index + 1),
+      team: String(entry?.team?.displayName || entry?.team?.name || 'Takım'),
+      played: Number(statMap.gamesPlayed || 0),
+      won: Number(statMap.wins || 0),
+      draw: Number(statMap.ties || 0),
+      lost: Number(statMap.losses || 0),
+      goalsFor,
+      goalsAgainst,
+      points: Number(statMap.points || 0),
+      goalDifference: Number.isFinite(statMap.pointDifferential) ? Number(statMap.pointDifferential) : goalsFor - goalsAgainst,
+      logo: entry?.team?.logos?.[0]?.href || null,
+      form: [],
+    });
+  }).sort((a, b) => a.position - b.position || b.points - a.points || b.goalDifference - a.goalDifference);
+  if (!validateCurrentStandings(table, league)) throw new Error(`invalid ESPN table ${league.espnCode}: ${table.length}`);
+  return { source: league.sourceLabel || 'Resmi Canlı Veri', table };
+}
+
 async function fetchStandings(league) {
   const errors = [];
-  try { const result = await fetchMackolikArchiveStandings(league); return { id: league.id, name: league.name, updatedAt, ...result, fixtures: [], results: [], status: '' }; } catch (error) { errors.push(`Maçkolik arşiv: ${error instanceof Error ? error.message : 'unknown error'}`); }
-  try { const result = await fetchHtmlScrapeStandings(league); return { id: league.id, name: league.name, updatedAt, ...result, fixtures: [], results: [], status: '' }; } catch (error) { errors.push(`HTML scrape: ${error instanceof Error ? error.message : 'unknown error'}`); }
-  try { const result = await fetchFootballDataStandings(league); return { id: league.id, name: league.name, updatedAt, ...result, fixtures: [], results: [], status: errors.join(' | ') }; } catch (error) { errors.push(`football-data.org: ${error instanceof Error ? error.message : 'unknown error'}`); }
-  try { const result = await fetchWikipediaStandings(league); return { id: league.id, name: league.name, updatedAt, ...result, fixtures: [], results: [], status: errors.join(' | ') }; } catch (error) { errors.push(`Wikipedia: ${error instanceof Error ? error.message : 'unknown error'}`); }
-  try { const result = await fetchApiFootballStandings(league); return { id: league.id, name: league.name, updatedAt, ...result, fixtures: [], results: [], status: errors.join(' | ') }; } catch (error) { errors.push(`API-FOOTBALL: ${error instanceof Error ? error.message : 'unknown error'}`); }
-  try { const result = await fetchSportsDbStandings(league); return { id: league.id, name: league.name, updatedAt, ...result, fixtures: [], results: [], status: errors.join(' | ') }; } catch (error) { errors.push(`TheSportsDB: ${error instanceof Error ? error.message : 'unknown error'}`); }
+  const providers = [
+    ['ESPN', fetchEspnStandings],
+    ['Maçkolik arşiv', fetchMackolikArchiveStandings],
+    ['Wikipedia', fetchWikipediaStandings],
+    ['HTML scrape', fetchHtmlScrapeStandings],
+    ['football-data.org', fetchFootballDataStandings],
+    ['API-FOOTBALL', fetchApiFootballStandings],
+    ['TheSportsDB', fetchSportsDbStandings],
+  ];
+  for (const [label, fn] of providers) {
+    try {
+      const result = await fn(league);
+      return { id: league.id, name: league.name, updatedAt, ...result, fixtures: [], results: [], status: '' };
+    } catch (error) {
+      errors.push(`${label}: ${error instanceof Error ? error.message : 'unknown error'}`);
+    }
+  }
   return { id: league.id, name: league.name, updatedAt, source: 'none', table: [], fixtures: [], results: [], status: errors.join(' | ') };
 }
 
