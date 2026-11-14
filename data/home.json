@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-14T00:00:00+00:00",
-    "article_count": 3616,
+    "article_count": 3617,
     "schema_version": 2
   },
   "hero": [
@@ -796,6 +796,44 @@
     }
   ],
   "latest": [
+    {
+      "id": "nachrichten/artikel/2026/11:mississippi-kollision-dampfer-tanker-new-orleans_20261114",
+      "slug": "mississippi-kollision-dampfer-tanker-new-orleans_20261114",
+      "title": "Mississippi: 32 Verletzte nach Kollision von Dampfer und Tanker in New Orleans",
+      "summary": "Beim Zusammenstoß eines Tankers mit einem Flusskreuzfahrtschiff auf dem Mississippi in New Orleans sind 32 Menschen verletzt worden. Der Dampfer kenterte am Freitagmittag im Hafen, nachdem er von dem 160 Meter langen Frachter gerammt wurde. Alle Passagiere...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/11",
+      "date": "14.11.2026 17:14",
+      "date_iso": "2026-11-14",
+      "published_at": "2026-11-14T17:14:09+03:00",
+      "url": "/nachrichten/artikel/2026/11/mississippi-kollision-dampfer-tanker-new-orleans_20261114/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/mississippi-kollision-dampfer-tanker-new-orleans_20261114/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/11/mississippi-kollision-dampfer-tanker-new-orleans_20261114.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/images/mississippi-kollision-dampfer-tanker-new-orleans_20261114.webp",
+      "image_alt": "Gekenterter Flussdampfer im Mississippi nach Kollision mit einem Tanker in New Orleans",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/images/mississippi-kollision-dampfer-tanker-new-orleans_20261114.webp",
+        "alt": "Gekenterter Flussdampfer im Mississippi nach Kollision mit einem Tanker in New Orleans"
+      },
+      "source_name": "tagesschau.de - Die Nachrichten der ARD",
+      "source_url": "https://www.tagesschau.de/ausland/amerika/kreuzfahrtschiff-unfall-new-orleans-102.html",
+      "tags": [
+        "Mississippi",
+        "New Orleans",
+        "Schiffsunglück",
+        "Kreuzfahrtschiff"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "nachrichten/artikel/2026/11:selenskyj-usa-stellen-nato-beitritt-fuer-verzicht-auf-donbass-zur-debatte_20261114",
       "slug": "selenskyj-usa-stellen-nato-beitritt-fuer-verzicht-auf-donbass-zur-debatte_20261114",
@@ -3107,46 +3145,6 @@
         "Yeniköy",
         "Balıkçılar",
         "Son Dakika"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/11:abd-guatemaladaki-uc-grubu-kuresel-teroristler-listesine-aldi_20261113",
-      "slug": "abd-guatemaladaki-uc-grubu-kuresel-teroristler-listesine-aldi_20261113",
-      "title": "ABD, Guatemala'daki üç grubu 'küresel teröristler' listesine aldı",
-      "summary": "ABD Dışişleri ve Hazine Bakanlıkları, Meksika kartelleriyle derin bağları bulunan ve yasa dışı uyuşturucu nakliyesine aracılık eden Guatemala merkezli Los Lorenzanas, Los Huistas ve Los Mendoza gruplarını 'küresel teröristler' listesine dahil etti.",
-      "category": "Dünya",
-      "category_slug": "dunya",
-      "topic_slug": "dunya",
-      "topic_label": "Dünya",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/11",
-      "date": "13.11.2026 22:45",
-      "date_iso": "2026-11-13",
-      "published_at": "2026-11-13T22:45:10+03:00",
-      "url": "/articles/2026/11/abd-guatemaladaki-uc-grubu-kuresel-teroristler-listesine-aldi_20261113/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/11/abd-guatemaladaki-uc-grubu-kuresel-teroristler-listesine-aldi_20261113/",
-      "detail_json_url": "/data/details/articles/2026/11/abd-guatemaladaki-uc-grubu-kuresel-teroristler-listesine-aldi_20261113.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/11/images/abd-guatemaladaki-uc-grubu-kuresel-teroristler-listesine-aldi_20261113.webp",
-      "image_alt": "ABD Dışişleri Bakanlığı ve Guatemala haritası konulu haber görseli",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/11/images/abd-guatemaladaki-uc-grubu-kuresel-teroristler-listesine-aldi_20261113.webp",
-        "alt": "ABD Dışişleri Bakanlığı ve Guatemala haritası konulu haber görseli"
-      },
-      "source_name": "Milliyet",
-      "source_url": "https://www.milliyet.com.tr/dunya/abd-guatemaladaki-uc-grubu-kuresel-teroristler-listesine-aldi-7700394",
-      "tags": [
-        "ABD",
-        "Guatemala",
-        "terör listesi",
-        "Meksika kartelleri",
-        "uyuşturucu kaçakçılığı",
-        "Dünya"
       ],
       "quality_score": 86,
       "review_status": "published"
