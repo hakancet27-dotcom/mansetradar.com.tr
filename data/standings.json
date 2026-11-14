@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T07:34:27.884Z",
+  "updatedAt": "2026-11-14T07:39:31.710Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
@@ -1112,7 +1112,7 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 403 | HTML scrape: https://www.mackolik.com/puan-durumu/almanya-bundesliga/6by3h89i2eykc341oz7lv1ddd: no valid standings table | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 403 | HTML scrape: https://www.mackolik.com/puan-durumu/almanya-bundesliga/6by3h89i2eykc341oz7lv1ddd: HTTP 403 | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
       "preservedPreviousTable": true
     },
     {
