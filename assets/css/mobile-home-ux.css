@@ -10,25 +10,59 @@
     z-index: 35 !important;
   }
   .top-bar .inner {
-    height: 32px !important;
-    min-height: 32px !important;
-    padding: 0 10px !important;
+    height: 34px !important;
+    min-height: 34px !important;
+    padding: 0 8px !important;
     display: flex !important;
     flex-direction: row !important;
+    flex-wrap: nowrap !important;
     align-items: center !important;
     justify-content: space-between !important;
+    gap: 6px !important;
   }
-  .top-bar-left #current-time { font-size: 0.72rem !important; color: #cbd5e1 !important; }
+  .top-bar-left {
+    min-width: 0 !important;
+    flex: 1 1 auto !important;
+    overflow: hidden !important;
+  }
+  .top-bar-left #current-time {
+    font-size: 0.68rem !important;
+    color: #cbd5e1 !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: block !important;
+  }
   .top-bar-badge { display: none !important; }
-  .top-bar .member-login-btn { display: none !important; }
+  .top-bar-right {
+    gap: 5px !important;
+    flex-shrink: 0 !important;
+  }
+  .top-bar .member-login-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 4px !important;
+    padding: 3px 8px !important;
+    min-height: 24px !important;
+    height: 24px !important;
+    border-radius: 6px !important;
+    font-size: 0.68rem !important;
+    font-weight: 700 !important;
+    line-height: 1 !important;
+    background: rgba(220, 38, 38, 0.88) !important;
+    border: 1px solid rgba(248, 113, 113, 0.55) !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+    white-space: nowrap !important;
+  }
   .top-lang-switch {
     display: inline-flex !important;
-    gap: 3px !important;
-    padding: 1px 3px !important;
+    gap: 1px !important;
+    padding: 1px 2px !important;
   }
   .top-lang-switch .lang-pill {
-    font-size: 0.68rem !important;
-    padding: 2px 6px !important;
+    font-size: 0.66rem !important;
+    padding: 2px 5px !important;
     border-radius: 999px !important;
   }
   .top-lang-switch .lang-pill.is-active {

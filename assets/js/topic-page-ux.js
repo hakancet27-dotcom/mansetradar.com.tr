@@ -211,6 +211,7 @@
 
     var content = makeElement('div', 'headline-content');
     var meta = makeElement('div', 'headline-meta');
+    meta.appendChild(makeElement('span', 'headline-tag', 'Kategori Manşeti'));
     meta.appendChild(makeElement('span', 'headline-topic', topics[topic].label));
     meta.appendChild(makeElement('span', 'headline-page-counter', '1 / 1'));
     content.appendChild(meta);
@@ -371,7 +372,10 @@
 
     var content = makeElement('div', 'headline-content');
     var meta = makeElement('div', 'headline-meta');
+    meta.appendChild(makeElement('span', 'headline-tag', 'Manşet #' + (index + 1)));
     meta.appendChild(makeElement('span', 'headline-topic', topics[topic].label));
+    meta.appendChild(makeElement('span', 'headline-trust', '✅ Doğrulanmış'));
+    meta.appendChild(makeElement('span', 'headline-read-time', '⏱️ 2 dk okuma'));
     meta.appendChild(makeElement('span', 'headline-page-counter', String(index + 1) + ' / 10'));
     content.appendChild(meta);
     content.appendChild(makeElement('h3', 'headline-title', title));
@@ -434,12 +438,12 @@
       categorySliderTimer = null;
     }
     var controls = slider.querySelector('.slider-controls');
-    if (controls) controls.hidden = true;
     if (typeof window.initHeadlineSlider === 'function') {
       window.initHeadlineSlider(slider, '.is-json-category-hero', 3000);
       return;
     }
     var slides = Array.prototype.slice.call(slider.querySelectorAll('.is-json-category-hero'));
+    if (controls) controls.hidden = slides.length <= 1;
     var dotsWrap = slider.querySelector('.slider-dots');
     var current = 0;
     var autoPausedUntil = 0;
