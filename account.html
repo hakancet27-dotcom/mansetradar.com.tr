@@ -1,67 +1,191 @@
 <!doctype html>
 <html lang="tr">
 <head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4WP1H2EJ6F"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-4WP1H2EJ6F");</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4WP1H2EJ6F"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-4WP1H2EJ6F");</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WP1H2EJ6F"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-4WP1H2EJ6F");</script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Hesabım | mansetradar.com.tr</title>
+  <title id="page-title">Hesap Yönetimi | Manşet Radar Üye Merkezi</title>
   <meta name="robots" content="noindex,follow">
   <meta name="haber-member-url" content="https://kgliiuwczfkmalanaang.supabase.co">
   <meta name="haber-member-public" content="sb_publishable_7ehLzytgnRBEauRBEhRsog_oiaQbHp9">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/site-typography.css?v=20261015">
-  <link rel="stylesheet" href="/assets/css/member.css">
+  <link rel="stylesheet" href="/assets/css/member.css?v=20261114">
   <!-- Yandex Autoplacement 20110774 -->
   <script src="https://yandex.ru/ads/system/context.js" async></script>
   <script data-page-id="20110774" src="https://yandex.ru/ads/system/ap-loader.js" async></script>
 </head>
-<body class="member-page">
-  <header class="member-top">
-    <div>
-      <div class="member-card-nav" aria-label="Hesap sayfası gezinme">
-        <a class="member-back-home" href="/">← Ana sayfaya dön</a>
+<body class="member-page member-portal-page">
+  <div class="portal-top-bar">
+    <div class="portal-container top-bar-inner">
+      <div class="top-bar-left">
+        <span id="portal-date"></span>
+        <span class="top-bar-dot">•</span>
+        <span id="portal-top-label">Manşet Radar Kurumsal Üye Portalı</span>
       </div>
-      <a class="member-brand" href="/">mansetradar.com.tr</a>
-      <p class="member-eyebrow">Üye Merkezi</p>
-      <h1>Hesabım</h1>
-      <p class="member-greeting" id="member-greeting"></p>
-      <p class="member-muted" id="member-email"></p>
-      <p id="member-error" class="member-message error"></p>
+      <div class="top-bar-right">
+        <span id="session-status" class="top-session">Oturum Açık</span>
+        <div class="lang-pill-group" role="group" aria-label="Language switcher">
+          <a href="?lang=tr" class="lang-pill active" data-lang="tr">TR</a>
+          <a href="?lang=en" class="lang-pill" data-lang="en">EN</a>
+          <a href="?lang=de" class="lang-pill" data-lang="de">DE</a>
+        </div>
+      </div>
     </div>
-    <div class="member-header-actions">
-      <a class="member-inline-btn" href="/">Haberler</a>
-      <button id="logout" class="member-btn secondary" type="button">Çıkış Yap</button>
+  </div>
+
+  <header class="portal-header">
+    <div class="portal-container header-inner">
+      <a id="brand-home-link" href="/" class="brand">
+        <span class="brand-mark">M</span>
+        <div class="brand-copy">
+          <strong>MANŞET RADAR</strong>
+          <span id="brand-subtitle">Üye Merkezi</span>
+        </div>
+      </a>
+      <div class="header-actions">
+        <a id="back-home-btn" href="/" class="btn-outline">← Ana Sayfaya Dön</a>
+        <button id="logout" type="button" class="btn-ghost-danger">Oturumu Kapat</button>
+      </div>
     </div>
   </header>
-  <nav class="member-tabs" aria-label="Üyelik bölümleri">
-    <a href="/">Haberler</a>
-    <a href="#saved">Kaydettiklerim</a>
-    <a href="#interests">İlgi Alanlarım</a>
-    <a href="#notifications">Bildirimler</a>
-  </nav>
-  <main class="member-grid">
-    <section class="member-panel">
-      <h2>Kaydettiklerim</h2>
-      <div id="saved-list" class="member-list"><p class="member-muted">Yükleniyor...</p></div>
-    </section>
-    <section class="member-panel">
-      <h2>Bildirim Tercihleri</h2>
-      <p class="member-notice">Bildirim sistemi hazırlık aşamasında. Buradaki seçimler yalnızca tercih kaydıdır; şu anda aktif bildirim gönderimi yapılmaz.</p>
-      <form id="prefs-form" class="member-form">
-        <label><input id="pref-mail" type="checkbox"> Günlük e-posta özeti</label>
-        <label><input id="pref-push" type="checkbox"> Son dakika bildirimi</label>
-        <button class="member-btn" type="submit">Tercihleri Kaydet</button>
-      </form>
-      <p id="prefs-message" class="member-message"></p>
-      <h2>Premium</h2>
-      <p class="member-muted">Premium üyelik altyapısı hazır. Ödeme ve abonelik yönetimi ayrı aşamada bağlanacaktır.</p>
-      <a class="member-btn" href="/premium.html">Premium Bilgisi</a>
-    </section>
+
+  <main class="portal-container portal-main">
+    <aside class="sidebar-card">
+      <div class="profile-box">
+        <div class="profile-top">
+          <div class="avatar" id="member-avatar">ÜM</div>
+          <div class="profile-meta">
+            <div class="profile-name" id="member-greeting">Sayın Üye</div>
+            <div class="profile-email" id="member-email"></div>
+          </div>
+        </div>
+        <div class="verified-pill">
+          <span class="verified-dot"></span>
+          <span id="verified-label">Doğrulanmış Aktif Hesap</span>
+        </div>
+      </div>
+
+      <div class="sidebar-stats">
+        <div class="sidebar-stat">
+          <strong id="saved-count">0</strong>
+          <span id="stat-saved-label">Kayıtlı Haber</span>
+        </div>
+        <div class="sidebar-stat">
+          <strong id="stat-tier-value">Standart</strong>
+          <span id="stat-tier-label">Üyelik</span>
+        </div>
+        <div class="sidebar-stat">
+          <strong id="stat-status-value" class="stat-active">Aktif</strong>
+          <span id="stat-status-label">Durum</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav" aria-label="Hesap bölümleri">
+        <a href="#saved" class="nav-item active" data-section="saved">
+          <span id="nav-saved-text">Kaydedilen Haberler</span>
+          <span class="nav-count" id="nav-saved-count">0</span>
+        </a>
+        <a href="#interests" class="nav-item" data-section="interests">
+          <span id="nav-interests-text">Takip Edilen Konular</span>
+          <span class="nav-count" id="nav-interests-count">0</span>
+        </a>
+        <a href="#notifications" class="nav-item" data-section="notifications">
+          <span id="nav-notifications-text">Bülten ve Bildirim Ayarları</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <button id="sidebar-logout" type="button" class="logout-link">Oturumu Kapat</button>
+      </div>
+    </aside>
+
+    <div class="workspace">
+      <p id="member-error" class="member-message error"></p>
+
+      <div class="page-title-bar">
+        <div>
+          <h1 id="page-heading">Hesap Yönetimi</h1>
+          <p id="page-subtext">Kayıtlı haber arşivinizi, takip ettiğiniz konu başlıklarını ve bülten tercihlerinizi buradan yönetebilirsiniz.</p>
+        </div>
+        <span class="breadcrumb" id="page-breadcrumb">Ana Sayfa / Hesabım</span>
+      </div>
+
+      <section id="saved" class="panel member-panel">
+        <div class="panel-head">
+          <h2 id="saved-heading">Kaydedilen Haberler</h2>
+          <span class="panel-head-badge" id="saved-badge">0 Kayıtlı İçerik</span>
+        </div>
+        <div class="panel-body">
+          <div class="table-header-row">
+            <span id="th-title">Haber Başlığı</span>
+            <span id="th-source">Kategori</span>
+            <span id="th-action">İşlem</span>
+          </div>
+          <div id="saved-list" class="saved-list-container"></div>
+          <p id="saved-message" class="member-message"></p>
+        </div>
+      </section>
+
+      <div class="lower-grid">
+        <section id="interests" class="panel member-panel">
+          <div class="panel-head">
+            <h2 id="interests-heading">Takip Edilen Haber Kategorileri</h2>
+            <span class="panel-head-badge" id="interests-badge">0 Seçili</span>
+          </div>
+          <form id="interests-form" class="panel-body">
+            <div>
+              <p class="panel-subtext" id="interests-subtext">İlgi alanlarınıza göre önceliklendirilen haber kategorilerini seçin.</p>
+              <div id="interests-grid" class="cat-grid"></div>
+            </div>
+            <div class="panel-footer-action">
+              <button type="submit" class="btn-primary" id="interests-submit">Tercihleri Güncelle</button>
+            </div>
+            <p id="interests-message" class="member-message"></p>
+          </form>
+        </section>
+
+        <section id="notifications" class="panel member-panel">
+          <div class="panel-head">
+            <h2 id="notifications-heading">E-posta ve Bildirim Ayarları</h2>
+            <span class="panel-head-badge" id="notifications-badge">Üye İletişimi</span>
+          </div>
+          <form id="prefs-form" class="panel-body">
+            <div>
+              <p class="panel-subtext" id="notifications-subtext">Günlük bülten gönderimleri ve son dakika uyarıları için iletişim tercihlerinizi yönetin.</p>
+              <div class="pref-list">
+                <label class="pref-row" for="pref-mail">
+                  <div>
+                    <strong id="pref-mail-title">Günlük E-posta Özeti</strong>
+                    <small id="pref-mail-desc">Günün öne çıkan manşetleri her sabah e-posta kutunuza gelsin.</small>
+                  </div>
+                  <input id="pref-mail" type="checkbox" class="sr-only-check">
+                  <span class="switch" aria-hidden="true"></span>
+                </label>
+                <label class="pref-row" for="pref-push">
+                  <div>
+                    <strong id="pref-push-title">Son Dakika Uyarıları</strong>
+                    <small id="pref-push-desc">Kritik gelişmelerde anlık tarayıcı bilgilendirmesi alın.</small>
+                  </div>
+                  <input id="pref-push" type="checkbox" class="sr-only-check">
+                  <span class="switch" aria-hidden="true"></span>
+                </label>
+              </div>
+            </div>
+            <div class="panel-footer-action">
+              <button type="submit" class="btn-primary" id="prefs-submit">Ayarları Kaydet</button>
+            </div>
+            <p id="prefs-message" class="member-message"></p>
+          </form>
+        </section>
+      </div>
+    </div>
   </main>
-  <script src="/assets/js/member-auth.js"></script>
-  <script src="/assets/js/account-page.js"></script>
+
+  <script src="/assets/js/member-auth.js?v=20261114"></script>
+  <script src="/assets/js/account-page.js?v=20261114"></script>
 </body>
 </html>
