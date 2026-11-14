@@ -2357,7 +2357,7 @@
       display: none !important;
     }
   </style>
-  <link rel="stylesheet" href="/assets/css/corporate-header.css?v=20261114_mobonly">
+  <link rel="stylesheet" href="/assets/css/corporate-header.css?v=20261114_arrows">
   <link rel="stylesheet" href="/assets/css/mobile-home-ux.css?v=20261114_mobonly">
   <link rel="stylesheet" href="/assets/css/showcase-side-rotation.css?v=20260605e">
   <link rel="stylesheet" href="/assets/css/mobile-market-static.css?v=20260526a">
@@ -8160,23 +8160,21 @@
       const reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       const prevBtn = slider.querySelector('[data-slider-prev]');
       const nextBtn = slider.querySelector('[data-slider-next]');
-      if (prevBtn && !prevBtn.dataset.sliderBtnBound) {
-        prevBtn.dataset.sliderBtnBound = '1';
-        prevBtn.addEventListener('click', (e) => {
+      if (prevBtn) {
+        prevBtn.onclick = (e) => {
           e.preventDefault();
           e.stopPropagation();
           pauseAuto();
           showSlide(current - 1, 'prev');
-        });
+        };
       }
-      if (nextBtn && !nextBtn.dataset.sliderBtnBound) {
-        nextBtn.dataset.sliderBtnBound = '1';
-        nextBtn.addEventListener('click', (e) => {
+      if (nextBtn) {
+        nextBtn.onclick = (e) => {
           e.preventDefault();
           e.stopPropagation();
           pauseAuto();
           showSlide(current + 1, 'next');
-        });
+        };
       }
       allSlides.forEach(slide => slide.classList.remove('is-active', 'is-under-stay'));
       slides.forEach((slide, index) => {
@@ -8380,7 +8378,7 @@
       const onDragStart = (clientX, clientY, targetEl) => {
         if (!isMobileView()) return;
         if (slides.length <= 1 || isAnimating) return;
-        if (targetEl && targetEl.closest && targetEl.closest('.slider-dots')) return;
+        if (targetEl && targetEl.closest && targetEl.closest('.slider-dots, .slider-controls, .slider-btn')) return;
         dragging = true;
         dragStartX = clientX;
         dragStartY = clientY || 0;

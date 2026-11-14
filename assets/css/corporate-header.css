@@ -689,6 +689,15 @@ header .market-label, header .market-status { display: none !important; }
   width: 100% !important;
   height: 100% !important;
   aspect-ratio: 735 / 490 !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  z-index: 1 !important;
+}
+
+.headline-slide.is-active {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  z-index: 5 !important;
 }
 
 .headline-image,
@@ -772,7 +781,7 @@ header .market-label, header .market-status { display: none !important; }
   position: absolute !important;
   inset: 0 !important;
   pointer-events: none !important;
-  z-index: 8 !important;
+  z-index: 10 !important;
   display: block !important;
   margin: 0 !important;
   padding: 0 !important;
@@ -780,6 +789,7 @@ header .market-label, header .market-status { display: none !important; }
 
 .headline-slider .slider-btn {
   pointer-events: auto !important;
+  z-index: 11 !important;
   position: absolute !important;
   top: calc(50% - 16px) !important;
   transform: translateY(-50%) !important;

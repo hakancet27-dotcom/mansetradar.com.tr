@@ -477,6 +477,25 @@
       updateDots();
     }
 
+    var prevBtn = slider.querySelector('[data-slider-prev]');
+    var nextBtn = slider.querySelector('[data-slider-next]');
+    if (prevBtn) {
+      prevBtn.onclick = function (event) {
+        event.preventDefault();
+        event.stopPropagation();
+        pauseAuto();
+        showSlide(current - 1);
+      };
+    }
+    if (nextBtn) {
+      nextBtn.onclick = function (event) {
+        event.preventDefault();
+        event.stopPropagation();
+        pauseAuto();
+        showSlide(current + 1);
+      };
+    }
+
     slides.forEach(function (slide, index) {
       var counter = slide.querySelector('.headline-page-counter');
       if (counter) counter.textContent = String(index + 1) + ' / ' + String(slides.length);
