@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "news/articles/2026/11:faa-ground-stop-air-traffic-vulnerabilities_20261114",
+    "slug": "faa-ground-stop-air-traffic-vulnerabilities_20261114",
+    "title": "Nationwide FAA Ground Stop Exposes Chronic Vulnerabilities in Air Traffic Control System",
+    "summary": "A rare nationwide ground stop ordered by the FAA brought air travel across the United States to a halt, exposing critical vulnerabilities in an aging air traffic control infrastructure reliant on outdated technology.",
+    "category": "Dünya",
+    "category_slug": "dunya",
+    "topic_slug": "dunya",
+    "topic_label": "Dünya",
+    "country": "USA",
+    "language": "en",
+    "language_label": "English",
+    "section": "news/articles",
+    "section_name": "US News",
+    "url_prefix": "news/articles/2026/11",
+    "date": "14.11.2026 21:42",
+    "date_iso": "2026-11-14",
+    "published_at": "2026-11-14T21:42:52+03:00",
+    "url": "/news/articles/2026/11/faa-ground-stop-air-traffic-vulnerabilities_20261114/",
+    "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/faa-ground-stop-air-traffic-vulnerabilities_20261114/",
+    "detail_json_url": "/data/details/news/articles/2026/11/faa-ground-stop-air-traffic-vulnerabilities_20261114.json",
+    "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/faa-ground-stop-air-traffic-vulnerabilities_20261114.webp",
+    "image_alt": "An air traffic control tower overlooking airport runways at sunset.",
+    "image": {
+      "url": "https://mansetradar.com.tr/news/articles/2026/11/images/faa-ground-stop-air-traffic-vulnerabilities_20261114.webp",
+      "alt": "An air traffic control tower overlooking airport runways at sunset."
+    },
+    "source_name": "NYT > Business",
+    "source_url": "https://www.nytimes.com/2026/11/14/us/politics/ground-stop-air-traffic-faa.html",
+    "tags": [
+      "FAA",
+      "Air Traffic Control",
+      "Aviation",
+      "Travel Disruption",
+      "Infrastructure"
+    ],
+    "quality_score": 90,
+    "review_status": "published",
+    "content_html": "<h2>Key Developments</h2> <p>A nationwide ground stop brought air travel across the United States to a halt on Friday evening, marking only the third time this century that the Federal Aviation Administration has issued such an order. Transportation Secretary Sean Duffy and Homeland Security Secretary Markwayne Mullin reported that the rare ground stop was called after outdated communications lines became overloaded and began to fail, interrupting vital communications between air traffic controllers and pilots.</p> <p>The system breakdown occurred less than two months after a circuit failure and severed fiber optic cable triggered crippling ground stops and delays at airports along the East Coast. Additional smaller outages unfolded in October at Raleigh-Durham International Airport and George Bush International Airport in Houston when contractors accidentally cut into fiber lines. While the F.A.A. has not yet identified the precise cause of Friday's communication line failures, the successive disruptions underscore structural challenges that continue to affect flight safety management.</p> <p>For decades, air traffic communications have depended on legacy systems running on analog copper wire, floppy disks, and alphabetical keyboards so outdated that the F.A.A. struggles to source replacement parts. Last year, Congress approved $12.5 billion in funding to support modernization efforts following previous facility outages that caused alarming losses of radar and communication capabilities. Major telecommunications contractor L3 Harris recently reported converting approximately 70 percent of the copper system as part of ongoing infrastructure upgrades.</p> <h2>Key Takeaways</h2> <ul> <li><strong>Nationwide Disruption:</strong> A rare nationwide ground stop halted air travel across the U.S. on Friday evening due to overloaded and failing communications lines.</li> <li><strong>Aging Technology:</strong> The air traffic control network continues to rely on decades-old analog infrastructure, floppy disks, and obsolete keyboards.</li> <li><strong>Ongoing Failures:</strong> Friday's incident follows a series of recent outages, including East Coast delays and severed fiber lines in Houston and North Carolina.</li> </ul> <h2>Why It Matters</h2> <p>The recurring equipment failures and Friday's unprecedented ground stop have raised serious questions among federal authorities regarding whether sufficient backup systems and redundancies are in place to prevent catastrophic disruptions. Although Congress approved billions in funding last year to modernize the F.A.A.'s technological backbone, the recent incidents demonstrate that the nation's aviation network remains vulnerable while upgrade projects are still underway.</p>",
+    "meta_title": "FAA Ground Stop Highlights Air Traffic Control System...",
+    "meta_description": "A nationwide FAA ground stop halts US air travel, highlighting aging air traffic control infrastructure, outdated communications, and persistent system...",
+    "spot": "A rare nationwide ground stop ordered by the FAA brought air travel across the United States to a halt, exposing critical vulnerabilities in an aging air traffic control infrastructure reliant on outdated technology.",
+    "word_count": 370,
+    "reading_time_minutes": 2,
+    "discover_titles": [
+      "Nationwide FAA Ground Stop Halts US Air Travel",
+      "Aging Infrastructure Blamed for Major FAA Ground Stop",
+      "Chronic Vulnerabilities Exposed in US Air Traffic System"
+    ],
+    "visual_keywords": [
+      "FAA air traffic control tower",
+      "airplane grounded airport tarmac",
+      "air traffic controllers working",
+      "modernization of aviation infrastructure"
+    ]
+  }
+}
