@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T12:35:13.116Z",
+  "updatedAt": "2026-11-14T12:41:47.841Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
@@ -848,7 +848,7 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 500 | HTML scrape: https://www.mackolik.com/puan-durumu/ispanya-la-liga/34pl8szyvrbwcmfkuocjm3r6t: HTTP 403 | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 403 | HTML scrape: https://www.mackolik.com/puan-durumu/ispanya-la-liga/34pl8szyvrbwcmfkuocjm3r6t: HTTP 403 | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
       "preservedPreviousTable": true
     },
     {
@@ -1404,7 +1404,7 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 403 | HTML scrape: https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao: no valid standings table | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 403 | HTML scrape: https://www.mackolik.com/puan-durumu/italya-serie-a/1r097lpxe0xn03ihb7wi98kao: HTTP 403 | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
       "preservedPreviousTable": true
     },
     {
@@ -1668,7 +1668,7 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 403 | HTML scrape: https://www.mackolik.com/puan-durumu/fransa-ligue-1/dm5ka0os1e3dxcp3vh05kmp33: HTTP 403 | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 403 | HTML scrape: https://www.mackolik.com/puan-durumu/fransa-ligue-1/dm5ka0os1e3dxcp3vh05kmp33: no valid standings table | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
       "preservedPreviousTable": true
     }
   ],
