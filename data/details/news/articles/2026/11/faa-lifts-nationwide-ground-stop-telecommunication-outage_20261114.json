@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "news/articles/2026/11:faa-lifts-nationwide-ground-stop-telecommunication-outage_20261114",
+    "slug": "faa-lifts-nationwide-ground-stop-telecommunication-outage_20261114",
+    "title": "FAA Lifts Nationwide Ground Stop After Major Telecommunication Outage",
+    "summary": "Federal airspace is operating normally following a nationwide ground stop on all departing U.S. flights caused by a telecommunication outage. Transportation Secretary Sean Duffy reported the airspace reopened Friday night, though residual cancellations cont...",
+    "category": "Dünya",
+    "category_slug": "dunya",
+    "topic_slug": "dunya",
+    "topic_label": "Dünya",
+    "country": "USA",
+    "language": "en",
+    "language_label": "English",
+    "section": "news/articles",
+    "section_name": "US News",
+    "url_prefix": "news/articles/2026/11",
+    "date": "14.11.2026 16:30",
+    "date_iso": "2026-11-14",
+    "published_at": "2026-11-14T16:30:44+03:00",
+    "url": "/news/articles/2026/11/faa-lifts-nationwide-ground-stop-telecommunication-outage_20261114/",
+    "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/faa-lifts-nationwide-ground-stop-telecommunication-outage_20261114/",
+    "detail_json_url": "/data/details/news/articles/2026/11/faa-lifts-nationwide-ground-stop-telecommunication-outage_20261114.json",
+    "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/faa-lifts-nationwide-ground-stop-telecommunication-outage_20261114.webp",
+    "image_alt": "Travelers at an airport terminal watching departure boards after flight ground stop",
+    "image": {
+      "url": "https://mansetradar.com.tr/news/articles/2026/11/images/faa-lifts-nationwide-ground-stop-telecommunication-outage_20261114.webp",
+      "alt": "Travelers at an airport terminal watching departure boards after flight ground stop"
+    },
+    "source_name": "Home - CBSNews.com",
+    "source_url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/",
+    "tags": [
+      "FAA",
+      "Aviation",
+      "Travel Disruption",
+      "Sean Duffy",
+      "U.S. Airspace"
+    ],
+    "quality_score": 86,
+    "review_status": "published",
+    "content_html": "<h2>Key Developments</h2> <p>Federal airspace resumed normal operations following a nationwide ground stop on all departing U.S. flights that threw the aviation industry into turmoil on Friday. Transportation Secretary Sean Duffy announced during a Friday night news briefing that the airspace reopened at 8:15 p.m. Eastern time, though he warned that the resumption of flight traffic would be slow.</p> <p>The Federal Aviation Administration issued the ground stop due to extraordinary circumstances and safety reasons, lasting about five hours. According to FlightAware, the disruption resulted in more than 10,000 delays and over 4,000 cancellations on Friday, with an additional 3,500 residual cancellations reported by Saturday morning. Major hubs like Atlanta's Hartsfield-Jackson International Airport, Chicago O'Hare International Airport, and New York's John F. Kennedy International Airport experienced the heaviest impacts.</p> <p>Officials explained that routers on the aging air traffic control system became overloaded with data, feeding inconsistent information and out-of-sync data packets into the network. Homeland Security Secretary Markwayne Mullin stated that new security patches introduced into the older system appeared to overwhelm the routers. Senior government sources noted that preliminary investigations point the issue to Cisco 600 series routers manufactured between 2001 and 2006, which have now been identified and isolated.</p> <h2>Key Takeaways</h2> <ul> <li><strong>Airspace Reopened:</strong> The nationwide ground stop was lifted at 8:15 p.m. ET on Friday after thorough system stability tests by the FAA.</li> <li><strong>Widespread Disruptions:</strong> Over 10,000 delays and 4,000 cancellations occurred Friday, followed by thousands of residual cancellations on Saturday morning.</li> <li><strong>Root Cause Identified:</strong> Officials determined that data-overloaded routers on an aging air traffic control system caused the telecommunication outage.</li> </ul> <h2>Why It Matters</h2> <p>The nationwide ground stop highlights the vulnerability of critical infrastructure relying on aging technology systems. As modern security updates interact with legacy equipment, unexpected failures can instantly paralyze nationwide transportation networks, impacting millions of passengers and placing heavy logistical burdens on major commercial airlines and airport hubs across the United States.</p>",
+    "meta_title": "FAA Lifts Nationwide Ground Stop After Telecommunication...",
+    "meta_description": "Federal airspace returns to normal operations after a nationwide ground stop halted U.S. departing flights due to a telecommunication outage.",
+    "spot": "Federal airspace is operating normally following a nationwide ground stop on all departing U.S. flights caused by a telecommunication outage. Transportation Secretary Sean Duffy reported the airspace reopened Friday night, though residual cancellations continue to impact travelers nationwide.",
+    "word_count": 325,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "FAA Lifts Nationwide Ground Stop Disrupting Thousands of Flights",
+      "U.S. Airspace Returns to Normal Following Major Tech Outage",
+      "Transportation Officials Explain Cause of Nationwide Ground Stop"
+    ],
+    "visual_keywords": [
+      "airplane on tarmac",
+      "airport departure board",
+      "control tower",
+      "passengers waiting at airport"
+    ]
+  }
+}
