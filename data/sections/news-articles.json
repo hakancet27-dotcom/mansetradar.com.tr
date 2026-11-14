@@ -3,11 +3,49 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-14T00:00:00+00:00",
-    "article_count": 3560,
+    "article_count": 3561,
     "schema_version": 2,
     "section": "news-articles"
   },
   "articles": [
+    {
+      "id": "news/articles/2026/11:spacex-launches-huge-starship-rocket-15th-test-flight_20261114",
+      "slug": "spacex-launches-huge-starship-rocket-15th-test-flight_20261114",
+      "title": "SpaceX Launches Massive Starship Rocket on 15th Test Flight",
+      "summary": "SpaceX has conducted the 15th test flight of its massive Starship rocket, continuing its ambitious development program for deep space transportation.",
+      "category": "Teknoloji",
+      "category_slug": "teknoloji",
+      "topic_slug": "teknoloji",
+      "topic_label": "Teknoloji",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/11",
+      "date": "14.11.2026 05:26",
+      "date_iso": "2026-11-14",
+      "published_at": "2026-11-14T05:26:49+03:00",
+      "url": "/news/articles/2026/11/spacex-launches-huge-starship-rocket-15th-test-flight_20261114/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/spacex-launches-huge-starship-rocket-15th-test-flight_20261114/",
+      "detail_json_url": "/data/details/news/articles/2026/11/spacex-launches-huge-starship-rocket-15th-test-flight_20261114.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/spacex-launches-huge-starship-rocket-15th-test-flight_20261114.webp",
+      "image_alt": "SpaceX Starship rocket launching during its 15th test flight.",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/11/images/spacex-launches-huge-starship-rocket-15th-test-flight_20261114.webp",
+        "alt": "SpaceX Starship rocket launching during its 15th test flight."
+      },
+      "source_name": "Home - CBSNews.com",
+      "source_url": "https://www.cbsnews.com/video/spacex-launches-huge-starship-rocket-on-15th-test-flight/",
+      "tags": [
+        "SpaceX",
+        "Starship",
+        "Rocket Launch",
+        "Space Exploration"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "news/articles/2026/11:u2-nicely-chaotic-preview-cbs-news_20261113",
       "slug": "u2-nicely-chaotic-preview-cbs-news_20261113",
