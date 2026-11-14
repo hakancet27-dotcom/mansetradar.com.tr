@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T12:58:26.754Z",
+  "updatedAt": "2026-11-14T13:28:46.988Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
@@ -264,7 +264,7 @@
       ],
       "fixtures": [],
       "results": [],
-      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 500 | HTML scrape: https://www.mackolik.com/puan-durumu/t%C3%BCrkiye-s%C3%BCper-lig/482ofyysbdbeoxauk19yg7tdt: no valid standings table | https://www.skorlar.com/futbol/turkiye/super-lig/puan-durumu: fetch failed | https://www.skorlar.com/futbol/turkiye/super-lig: fetch failed | https://www.skorlar.com: fetch failed | https://skorlar.com: fetch failed | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
+      "status": "Current refresh failed, previous table preserved. Maçkolik arşiv: HTTP 403 | HTML scrape: https://www.mackolik.com/puan-durumu/t%C3%BCrkiye-s%C3%BCper-lig/482ofyysbdbeoxauk19yg7tdt: no valid standings table | https://www.skorlar.com/futbol/turkiye/super-lig/puan-durumu: fetch failed | https://www.skorlar.com/futbol/turkiye/super-lig: fetch failed | https://www.skorlar.com: fetch failed | https://skorlar.com: fetch failed | football-data.org: FOOTBALLDATA_KEY missing | Wikipedia: wikipedia parsed invalid rows: 0 | API-FOOTBALL: APIFOOTBALL_API_KEY missing | TheSportsDB: HTTP 403 | HTTP 403 | HTTP 403",
       "preservedPreviousTable": true
     },
     {
