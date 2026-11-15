@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "news/articles/2026/11:sean-duffy-face-the-nation-transportation-update_20261115",
+    "slug": "sean-duffy-face-the-nation-transportation-update_20261115",
+    "title": "Transportation Secretary Sean Duffy Discusses Airspace Disruptions and Infrastructure Upgrades",
+    "summary": "Transportation Secretary Sean Duffy provided updates on CBS's 'Face the Nation' regarding flight schedule recoveries, ongoing investigations into network routing issues in Arkansas and Texas, and the challenges of aging telecommunications infrastructure.",
+    "category": "Siyaset",
+    "category_slug": "siyaset",
+    "topic_slug": "siyaset",
+    "topic_label": "Siyaset",
+    "country": "USA",
+    "language": "en",
+    "language_label": "English",
+    "section": "news/articles",
+    "section_name": "US News",
+    "url_prefix": "news/articles/2026/11",
+    "date": "15.11.2026 22:47",
+    "date_iso": "2026-11-15",
+    "published_at": "2026-11-15T22:47:02+03:00",
+    "url": "/news/articles/2026/11/sean-duffy-face-the-nation-transportation-update_20261115/",
+    "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/sean-duffy-face-the-nation-transportation-update_20261115/",
+    "detail_json_url": "/data/details/news/articles/2026/11/sean-duffy-face-the-nation-transportation-update_20261115.json",
+    "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/sean-duffy-face-the-nation-transportation-update_20261115.webp",
+    "image_alt": "Transportation Secretary Sean Duffy on Face the Nation",
+    "image": {
+      "url": "https://mansetradar.com.tr/news/articles/2026/11/images/sean-duffy-face-the-nation-transportation-update_20261115.webp",
+      "alt": "Transportation Secretary Sean Duffy on Face the Nation"
+    },
+    "source_name": "Home - CBSNews.com",
+    "source_url": "https://www.cbsnews.com/news/sean-duffy-transportation-secretary-face-the-nation-transcript-11-15-2026/",
+    "tags": [
+      "Sean Duffy",
+      "Face the Nation",
+      "Transportation Department",
+      "FAA",
+      "Aviation"
+    ],
+    "quality_score": 86,
+    "review_status": "published",
+    "content_html": "<h2>Key Developments</h2> <p>Appearing on CBS News' \"Face the Nation with Margaret Brennan\" on November 15, 2026, Transportation Secretary Sean Duffy addressed nationwide flight delays and disruptions stemming from recent ground stops. Duffy stated that while airspace experienced residual delays, operations were expected to return to full capacity and normal flight schedules by the end of the day and into the following day.</p> <p>Secretary Duffy detailed two separate technical incidents that occurred on Friday: a router issue in El Dorado, Arkansas, and a second issue at a radar site in Amarillo, Texas. According to Duffy, the El Dorado site required a transition from an old copper wire—forced by the telecom provider to be decommissioned—to fiber optics, which preceded a flooding of the network when new routers were installed. The Federal Aviation Administration (FAA), L3Harris (which operates and owns the network), and the FBI are currently investigating whether the incidents are related and determining the root causes.</p> <h2>Key Takeaways</h2> <ul> <li><strong>Flight Operations:</strong> Airspace operations were projected to return to full capacity by the end of the day following Friday's ground stops and resulting out-of-position crews.</li> <li><strong>Active Investigations:</strong> Both the El Dorado, Arkansas, and Amarillo, Texas, facility issues are under active investigation by the FAA, L3Harris, and the FBI.</li> <li><strong>Aging Infrastructure:</strong> The disruptions highlighted challenges associated with maintaining decades-old telecommunications architecture that requires updates from copper to fiber.</li> </ul> <h2>Why It Matters</h2> <p>The interview underscores the critical vulnerability of national transportation networks to aging technological infrastructure. As the aviation system transitions from legacy copper-wire telecommunications to modern fiber-optic systems, maintenance updates can unexpectedly trigger widespread network complications. Secretary Duffy's commitment to transparency regarding the investigations by federal agencies and private contractors provides vital insight into how the government manages and safeguards critical air traffic control infrastructure against sudden technical failures.</p>",
+    "meta_title": "Transportation Sec. Duffy Addresses Flight Delays and...",
+    "meta_description": "Transportation Secretary Sean Duffy speaks on Face the Nation about recent airspace disruptions, outdated telecommunications infrastructure, and ongoing...",
+    "spot": "Transportation Secretary Sean Duffy provided updates on CBS's 'Face the Nation' regarding flight schedule recoveries, ongoing investigations into network routing issues in Arkansas and Texas, and the challenges of aging telecommunications infrastructure.",
+    "word_count": 297,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "Duffy Details Airspace Recovery After Tech Disruptions",
+      "Transportation Secretary Addresses Friday Flight Ground Stops",
+      "FAA and FBI Investigate Network Routing Issues in Texas and Arkansas"
+    ],
+    "visual_keywords": [
+      "Sean Duffy",
+      "Face the Nation studio",
+      "CBS News",
+      "airplane flight schedule",
+      "airport control tower"
+    ]
+  }
+}
