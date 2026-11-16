@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-16T00:00:00+00:00",
-    "article_count": 3766,
+    "article_count": 3767,
     "schema_version": 2
   },
   "hero": [
@@ -797,6 +797,45 @@
     }
   ],
   "latest": [
+    {
+      "id": "news/articles/2026/11:pope-leo-south-america-tour-health_20261116",
+      "slug": "pope-leo-south-america-tour-health_20261116",
+      "title": "Pope Leo XIV Endures Grueling South America Tour Following Lung Surgery",
+      "summary": "Pope Leo XIV has pressed forward with a demanding 12-day tour across Uruguay, Argentina, and Peru, just weeks after undergoing surgery to remove a lobe of his right lung.",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/11",
+      "date": "16.11.2026 19:06",
+      "date_iso": "2026-11-16",
+      "published_at": "2026-11-16T19:06:37+03:00",
+      "url": "/news/articles/2026/11/pope-leo-south-america-tour-health_20261116/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/pope-leo-south-america-tour-health_20261116/",
+      "detail_json_url": "/data/details/news/articles/2026/11/pope-leo-south-america-tour-health_20261116.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/pope-leo-south-america-tour-health_20261116.webp",
+      "image_alt": "Pope Leo XIV greeting crowds during his South America tour",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/11/images/pope-leo-south-america-tour-health_20261116.webp",
+        "alt": "Pope Leo XIV greeting crowds during his South America tour"
+      },
+      "source_name": "NYT > World News",
+      "source_url": "https://www.nytimes.com/2026/11/16/world/europe/pope-leo-peru-health.html",
+      "tags": [
+        "Pope Leo XIV",
+        "Vatican",
+        "South America",
+        "World News",
+        "Health"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "nachrichten/artikel/2026/11:robert-pattinson-neuer-james-bond-amazon-mgm_20261116",
       "slug": "robert-pattinson-neuer-james-bond-amazon-mgm_20261116",
@@ -3118,47 +3157,6 @@
         "Spor Haberleri"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/11:belcika-italyayi-gecti-uefa-uluslar-ligi-sonuclari_20261115",
-      "slug": "belcika-italyayi-gecti-uefa-uluslar-ligi-sonuclari_20261115",
-      "title": "Belçika İtalya'yı Mağlup Etti, Milli Takım Fransa'ya Kaybetti",
-      "summary": "UEFA Uluslar Ligi A Ligi 1. Grup'taki son maçında Belçika sahasında İtalya'yı 4-1 mağlup ederek çeyrek finale adını yazdırdı. A Milli Futbol Takımı ise deplasmanda Fransa'ya 2-1 yenildi.",
-      "category": "Spor",
-      "category_slug": "spor",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/11",
-      "date": "16.11.2026 02:31",
-      "date_iso": "2026-11-16",
-      "published_at": "2026-11-16T02:31:14+03:00",
-      "url": "/articles/2026/11/belcika-italyayi-gecti-uefa-uluslar-ligi-sonuclari_20261115/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/11/belcika-italyayi-gecti-uefa-uluslar-ligi-sonuclari_20261115/",
-      "detail_json_url": "/data/details/articles/2026/11/belcika-italyayi-gecti-uefa-uluslar-ligi-sonuclari_20261115.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/11/images/belcika-italyayi-gecti-uefa-uluslar-ligi-sonuclari_20261115.webp",
-      "image_alt": "UEFA Uluslar Ligi'nde oynanan milli maçtan bir kare",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/11/images/belcika-italyayi-gecti-uefa-uluslar-ligi-sonuclari_20261115.webp",
-        "alt": "UEFA Uluslar Ligi'nde oynanan milli maçtan bir kare"
-      },
-      "source_name": "ntv.com.tr",
-      "source_url": "https://www.ntv.com.tr/sporskor/belcika-italyayi-dortledi-ve-1-grubu-ilk-ikide-bitirdi-1751046",
-      "tags": [
-        "Belçika",
-        "İtalya",
-        "A Milli Takım",
-        "Fransa",
-        "UEFA Uluslar Ligi",
-        "İngiltere",
-        "İspanya"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]
