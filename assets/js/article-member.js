@@ -67,7 +67,7 @@
       notice.textContent='Yorum yazma yalnız üyelere açıktır. Oturumunuz açık.';
       if(form)form.style.display='grid';
     }else{
-      notice.innerHTML='Yorumları herkes okuyabilir; yorum yazmak için <a href="'+nextLoginUrl()+'">üye girişi yapın</a>.';
+      notice.innerHTML='Yorumları herkes okuyabilir; yorum yazmak için <a rel="nofollow" href="'+nextLoginUrl()+'">üye girişi yapın</a>.';
       if(form)form.style.display='none';
     }
   }
