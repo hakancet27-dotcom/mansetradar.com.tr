@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-17T00:00:00+00:00",
-    "article_count": 3827,
+    "article_count": 3829,
     "schema_version": 2
   },
   "hero": [
@@ -795,6 +795,83 @@
     }
   ],
   "latest": [
+    {
+      "id": "nachrichten/artikel/2026/11:langsamfahren-coupe-de-france-monocycle-radsport_20261117",
+      "slug": "langsamfahren-coupe-de-france-monocycle-radsport_20261117",
+      "title": "Faszination Langsamkeit: Wenn Radfahrer um die Wette bummeln",
+      "summary": "Während im Berliner Alltagsverkehr auf dem Radweg Eile herrscht, zelebriert der Radsport auch das genaue Gegenteil. Beim Coupe de France de Monocycle in Frankreich traten Ende Oktober rund 300 Teilnehmer in einer Disziplin an, bei der es auf maximale Langsa...",
+      "category": "Spor",
+      "category_slug": "spor",
+      "topic_slug": "spor",
+      "topic_label": "Spor",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/11",
+      "date": "17.11.2026 13:37",
+      "date_iso": "2026-11-17",
+      "published_at": "2026-11-17T13:37:07+03:00",
+      "url": "/nachrichten/artikel/2026/11/langsamfahren-coupe-de-france-monocycle-radsport_20261117/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/langsamfahren-coupe-de-france-monocycle-radsport_20261117/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/11/langsamfahren-coupe-de-france-monocycle-radsport_20261117.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/images/langsamfahren-coupe-de-france-monocycle-radsport_20261117.webp",
+      "image_alt": "Einradfahrer beim extremen Langsamfahren auf einer schmalen Bahn",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/images/langsamfahren-coupe-de-france-monocycle-radsport_20261117.webp",
+        "alt": "Einradfahrer beim extremen Langsamfahren auf einer schmalen Bahn"
+      },
+      "source_name": "Sport - FAZ.NET",
+      "source_url": "https://www.faz.net/aktuell/sport/mehr-sport/coupe-de-france-de-monocycle-rueckkehr-zu-langsamkeit-auf-dem-rad-glosse-accg-201676655.html",
+      "tags": [
+        "Radsport",
+        "Einrad",
+        "Coupe de France de Monocycle",
+        "Langsamfahren",
+        "Trends"
+      ],
+      "quality_score": 81,
+      "review_status": "published"
+    },
+    {
+      "id": "nachrichten/artikel/2026/11:tennis-alexander-zverev-boris-becker-aussprache_20261117",
+      "slug": "tennis-alexander-zverev-boris-becker-aussprache_20261117",
+      "title": "Alexander Zverev offen für Aussprache mit Boris Becker – aber nicht im TV",
+      "summary": "Der deutsche Tennisprofi Alexander Zverev hat sich bei den ATP Finals in Turin zu einer möglichen Aussprache mit Boris Becker bereit erklärt. Der Weltranglistenerste stellt jedoch klare Bedingungen für ein privates Gespräch und weist öffentliche Auftritte i...",
+      "category": "Dünya",
+      "category_slug": "dunya",
+      "topic_slug": "dunya",
+      "topic_label": "Dünya",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/11",
+      "date": "17.11.2026 13:37",
+      "date_iso": "2026-11-17",
+      "published_at": "2026-11-17T13:37:01+03:00",
+      "url": "/nachrichten/artikel/2026/11/tennis-alexander-zverev-boris-becker-aussprache_20261117/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/tennis-alexander-zverev-boris-becker-aussprache_20261117/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/11/tennis-alexander-zverev-boris-becker-aussprache_20261117.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/images/tennis-alexander-zverev-boris-becker-aussprache_20261117.webp",
+      "image_alt": "Alexander Zverev mit einer Trophäe bei den ATP Finals",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/images/tennis-alexander-zverev-boris-becker-aussprache_20261117.webp",
+        "alt": "Alexander Zverev mit einer Trophäe bei den ATP Finals"
+      },
+      "source_name": "DER SPIEGEL - Sport",
+      "source_url": "https://www.spiegel.de/sport/tennis/tennis-alexander-zverev-bereit-zu-aussprache-mit-boris-becker-a-37ea9c8a-25b7-48e1-ae4c-02b9693960d2#ref=rss",
+      "tags": [
+        "Alexander Zverev",
+        "Boris Becker",
+        "ATP Finals",
+        "Tennis"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "nachrichten/artikel/2026/11:neuer-amazon-echo-dot-smart-home-hub-bestpreis-schwarz-freitag_20261117",
       "slug": "neuer-amazon-echo-dot-smart-home-hub-bestpreis-schwarz-freitag_20261117",
@@ -3073,84 +3150,6 @@
         "Guadalajara Cartel"
       ],
       "quality_score": 81,
-      "review_status": "published"
-    },
-    {
-      "id": "news/articles/2026/11:raye-leads-2027-grammy-nominations-beyonce_20261116",
-      "slug": "raye-leads-2027-grammy-nominations-beyonce_20261116",
-      "title": "Raye Leads 2027 Grammy Nominations With 11 Nods as Beyoncé Reaches Milestone",
-      "summary": "English singer-songwriter Raye leads the 2027 Grammy Award nominations with 11 nods, tying Beyoncé's record, while Beyoncé captures her 100th career nomination ahead of the February ceremony.",
-      "category": "Magazin",
-      "category_slug": "magazin",
-      "topic_slug": "magazin",
-      "topic_label": "Magazin",
-      "country": "USA",
-      "language": "en",
-      "language_label": "English",
-      "section": "news/articles",
-      "section_name": "US News",
-      "url_prefix": "news/articles/2026/11",
-      "date": "16.11.2026 19:20",
-      "date_iso": "2026-11-16",
-      "published_at": "2026-11-16T19:20:14+03:00",
-      "url": "/news/articles/2026/11/raye-leads-2027-grammy-nominations-beyonce_20261116/",
-      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/raye-leads-2027-grammy-nominations-beyonce_20261116/",
-      "detail_json_url": "/data/details/news/articles/2026/11/raye-leads-2027-grammy-nominations-beyonce_20261116.json",
-      "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/raye-leads-2027-grammy-nominations-beyonce_20261116.webp",
-      "image_alt": "The Grammy Awards golden trophy on a stage.",
-      "image": {
-        "url": "https://mansetradar.com.tr/news/articles/2026/11/images/raye-leads-2027-grammy-nominations-beyonce_20261116.webp",
-        "alt": "The Grammy Awards golden trophy on a stage."
-      },
-      "source_name": "Home - CBSNews.com",
-      "source_url": "https://www.cbsnews.com/news/grammy-awards-2027-nominations-list/",
-      "tags": [
-        "Grammy Awards",
-        "Raye",
-        "Beyonce",
-        "Music Awards",
-        "Recording Academy"
-      ],
-      "quality_score": 100,
-      "review_status": "published"
-    },
-    {
-      "id": "news/articles/2026/11:jensen-huang-nvidia-comeback-tug-of-war_20261116",
-      "slug": "jensen-huang-nvidia-comeback-tug-of-war_20261116",
-      "title": "Jensen Huang Facing High-Stakes Tug of War Over Nvidia Return",
-      "summary": "A high-stakes tug of war has emerged over Nvidia following Jensen Huang's resignation, with Silicon Valley leaders pushing for his reinstatement while Trump administration officials demand an outside replacement amid export investigations.",
-      "category": "Siyaset",
-      "category_slug": "siyaset",
-      "topic_slug": "siyaset",
-      "topic_label": "Siyaset",
-      "country": "USA",
-      "language": "en",
-      "language_label": "English",
-      "section": "news/articles",
-      "section_name": "US News",
-      "url_prefix": "news/articles/2026/11",
-      "date": "16.11.2026 19:20",
-      "date_iso": "2026-11-16",
-      "published_at": "2026-11-16T19:20:07+03:00",
-      "url": "/news/articles/2026/11/jensen-huang-nvidia-comeback-tug-of-war_20261116/",
-      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/jensen-huang-nvidia-comeback-tug-of-war_20261116/",
-      "detail_json_url": "/data/details/news/articles/2026/11/jensen-huang-nvidia-comeback-tug-of-war_20261116.json",
-      "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/jensen-huang-nvidia-comeback-tug-of-war_20261116.webp",
-      "image_alt": "Jensen Huang speaking at a technology event",
-      "image": {
-        "url": "https://mansetradar.com.tr/news/articles/2026/11/images/jensen-huang-nvidia-comeback-tug-of-war_20261116.webp",
-        "alt": "Jensen Huang speaking at a technology event"
-      },
-      "source_name": "NYT > Top Stories",
-      "source_url": "https://www.nytimes.com/2026/11/16/business/dealbook/huang-comeback-nvidia.html",
-      "tags": [
-        "Jensen Huang",
-        "Nvidia",
-        "Silicon Valley",
-        "Elon Musk",
-        "Artificial Intelligence"
-      ],
-      "quality_score": 76,
       "review_status": "published"
     }
   ]
