@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-17T00:00:00+00:00",
-    "article_count": 3866,
+    "article_count": 3867,
     "schema_version": 2
   },
   "hero": [
@@ -792,6 +792,46 @@
     }
   ],
   "latest": [
+    {
+      "id": "nachrichten/artikel/2026/11:beste-mini-tablet-im-test-heise-bestenliste_20261117",
+      "slug": "beste-mini-tablet-im-test-heise-bestenliste_20261117",
+      "title": "Das beste Mini-Tablet im Test: Heise kürt die Top-Modelle ab 130 Euro",
+      "summary": "Ein aktueller Test von heise online beleuchtet die zehn besten Mini-Tablets mit Bildschirmen zwischen 8 und 9 Zoll. Dabei reichen die Empfehlungen vom günstigen Einstiegsmodell ab 130 Euro bis hin zum leistungsstarken Testsieger für Gamer.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/11",
+      "date": "17.11.2026 22:59",
+      "date_iso": "2026-11-17",
+      "published_at": "2026-11-17T22:59:31+03:00",
+      "url": "/nachrichten/artikel/2026/11/beste-mini-tablet-im-test-heise-bestenliste_20261117/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/beste-mini-tablet-im-test-heise-bestenliste_20261117/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/11/beste-mini-tablet-im-test-heise-bestenliste_20261117.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/images/beste-mini-tablet-im-test-heise-bestenliste_20261117.webp",
+      "image_alt": "Ein kompaktes Mini-Tablet auf einem Holztisch neben Kopfhörern.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/images/beste-mini-tablet-im-test-heise-bestenliste_20261117.webp",
+        "alt": "Ein kompaktes Mini-Tablet auf einem Holztisch neben Kopfhörern."
+      },
+      "source_name": "heise online News",
+      "source_url": "https://www.heise.de/bestenlisten/testsieger/top-10-das-beste-mini-tablet-im-test-einsteiger-tablet-von-samsung-ab-130-euro/k71p14c?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "tags": [
+        "Tablets",
+        "Hardware",
+        "Test",
+        "Lenovo",
+        "Apple",
+        "Technologie"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "nachrichten/artikel/2026/11:ruanda-deal-kritik-meinung-spiegel_20261117",
       "slug": "ruanda-deal-kritik-meinung-spiegel_20261117",
@@ -3094,45 +3134,6 @@
         "Tekvando",
         "Milli Sporcu",
         "Güney Kore"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/11:nbade-alperen-sengunden-23-sayi-rockets-miami-heate-maglup_20261117",
-      "slug": "nbade-alperen-sengunden-23-sayi-rockets-miami-heate-maglup_20261117",
-      "title": "NBA'de Alperen Şengün'den 23 Sayı; Houston Rockets'ın Serisi Sona Erdi",
-      "summary": "Amerikan Basketbol Ligi'nde (NBA) milli basketbolcu Alperen Şengün'ün 23 sayı ürettiği maçta Houston Rockets, deplasmanda Miami Heat'e 128-110 mağlup olarak dört maçlık galibiyet serisini kaybetti.",
-      "category": "Spor",
-      "category_slug": "spor",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/11",
-      "date": "17.11.2026 12:00",
-      "date_iso": "2026-11-17",
-      "published_at": "2026-11-17T12:00:13+03:00",
-      "url": "/articles/2026/11/nbade-alperen-sengunden-23-sayi-rockets-miami-heate-maglup_20261117/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/11/nbade-alperen-sengunden-23-sayi-rockets-miami-heate-maglup_20261117/",
-      "detail_json_url": "/data/details/articles/2026/11/nbade-alperen-sengunden-23-sayi-rockets-miami-heate-maglup_20261117.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/11/images/nbade-alperen-sengunden-23-sayi-rockets-miami-heate-maglup_20261117.webp",
-      "image_alt": "Alperen Şengün Houston Rockets formasıyla bir NBA maçında mücadele ediyor",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/11/images/nbade-alperen-sengunden-23-sayi-rockets-miami-heate-maglup_20261117.webp",
-        "alt": "Alperen Şengün Houston Rockets formasıyla bir NBA maçında mücadele ediyor"
-      },
-      "source_name": "Ajansspor - Son Haberler",
-      "source_url": "https://ajansspor.com/haber/nbade-alperen-sengunden-23-sayi-rockets-miami-heate-maglup-738796",
-      "tags": [
-        "Alperen Şengün",
-        "Houston Rockets",
-        "Miami Heat",
-        "NBA",
-        "Basketbol"
       ],
       "quality_score": 86,
       "review_status": "published"
