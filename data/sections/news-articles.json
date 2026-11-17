@@ -3,11 +3,50 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-17T00:00:00+00:00",
-    "article_count": 3831,
+    "article_count": 3832,
     "schema_version": 2,
     "section": "news-articles"
   },
   "articles": [
+    {
+      "id": "news/articles/2026/11:new-york-tax-the-rich-child-care_20261117",
+      "slug": "new-york-tax-the-rich-child-care_20261117",
+      "title": "New York Weighs Taxing the Rich to Fund Massive Free Child Care Expansion",
+      "summary": "With Governor Kathy Hochul and Mayor Zohran Mamdani advocating for an extensive free child care program, New York's long-standing debate over taxing the wealthy has gained renewed momentum in a shifting political landscape.",
+      "category": "Ekonomi",
+      "category_slug": "ekonomi",
+      "topic_slug": "ekonomi",
+      "topic_label": "Ekonomi",
+      "country": "USA",
+      "language": "en",
+      "language_label": "English",
+      "section": "news/articles",
+      "section_name": "US News",
+      "url_prefix": "news/articles/2026/11",
+      "date": "17.11.2026 18:59",
+      "date_iso": "2026-11-17",
+      "published_at": "2026-11-17T18:59:47+03:00",
+      "url": "/news/articles/2026/11/new-york-tax-the-rich-child-care_20261117/",
+      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/new-york-tax-the-rich-child-care_20261117/",
+      "detail_json_url": "/data/details/news/articles/2026/11/new-york-tax-the-rich-child-care_20261117.json",
+      "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/new-york-tax-the-rich-child-care_20261117.webp",
+      "image_alt": "New York City skyline and municipal buildings",
+      "image": {
+        "url": "https://mansetradar.com.tr/news/articles/2026/11/images/new-york-tax-the-rich-child-care_20261117.webp",
+        "alt": "New York City skyline and municipal buildings"
+      },
+      "source_name": "NYT > Top Stories",
+      "source_url": "https://www.nytimes.com/2026/11/17/nyregion/child-care-tax-the-rich-ny.html",
+      "tags": [
+        "New York",
+        "Kathy Hochul",
+        "Zohran Mamdani",
+        "Child Care",
+        "Taxes"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "news/articles/2026/11:trump-administration-china-ai-chip-policy-divide_20261117",
       "slug": "trump-administration-china-ai-chip-policy-divide_20261117",
