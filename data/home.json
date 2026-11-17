@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-17T00:00:00+00:00",
-    "article_count": 3829,
+    "article_count": 3830,
     "schema_version": 2
   },
   "hero": [
@@ -795,6 +795,45 @@
     }
   ],
   "latest": [
+    {
+      "id": "nachrichten/artikel/2026/11:janine-kunze-kolumbien-baru-arme-kinder-rtl-spendenmarathon_20261117",
+      "slug": "janine-kunze-kolumbien-baru-arme-kinder-rtl-spendenmarathon_20261117",
+      "title": "Janine Kunze kämpft im kolumbianischen Urlaubsparadies Barú mit den Tränen",
+      "summary": "Auf der kolumbianischen Halbinsel Barú prallen Luxustourismus und bittere Armut aufeinander. Schauspielerin Janine Kunze besuchte die Region als Projektpatin der 'Stiftung RTL - Wir helfen Kindern e.V.' und zeigt sich angesichts des Leids von Kindern wie de...",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "magazin",
+      "topic_label": "Magazin",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/11",
+      "date": "17.11.2026 13:40",
+      "date_iso": "2026-11-17",
+      "published_at": "2026-11-17T13:40:09+03:00",
+      "url": "/nachrichten/artikel/2026/11/janine-kunze-kolumbien-baru-arme-kinder-rtl-spendenmarathon_20261117/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/janine-kunze-kolumbien-baru-arme-kinder-rtl-spendenmarathon_20261117/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/11/janine-kunze-kolumbien-baru-arme-kinder-rtl-spendenmarathon_20261117.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/images/janine-kunze-kolumbien-baru-arme-kinder-rtl-spendenmarathon_20261117.webp",
+      "image_alt": "Janine Kunze besucht bedürftige Familien auf der kolumbianischen Halbinsel Barú",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/images/janine-kunze-kolumbien-baru-arme-kinder-rtl-spendenmarathon_20261117.webp",
+        "alt": "Janine Kunze besucht bedürftige Familien auf der kolumbianischen Halbinsel Barú"
+      },
+      "source_name": "n-tv.de - Startseite",
+      "source_url": "https://www.n-tv.de/panorama/Janine-Kunze-kaempft-im-Urlaubsparadies-mit-den-Traenen-id31518119.html",
+      "tags": [
+        "Janine Kunze",
+        "Kolumbien",
+        "RTL-Spendenmarathon",
+        "Armut",
+        "Barú"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "nachrichten/artikel/2026/11:langsamfahren-coupe-de-france-monocycle-radsport_20261117",
       "slug": "langsamfahren-coupe-de-france-monocycle-radsport_20261117",
@@ -3110,46 +3149,6 @@
         "Son Dakika"
       ],
       "quality_score": 95,
-      "review_status": "published"
-    },
-    {
-      "id": "news/articles/2026/11:miguel-angel-felix-gallardo-dies-at-80_20261116",
-      "slug": "miguel-angel-felix-gallardo-dies-at-80_20261116",
-      "title": "Notorious Mexican Drug Lord Miguel Angel Felix Gallardo Dies at 80",
-      "summary": "Miguel Angel Felix Gallardo, the notorious Mexican drug kingpin known as 'the boss of bosses' who orchestrated the 1985 murder of U.S. DEA agent Enrique 'Kiki' Camarena, has died at age 80 from multiple organ failure.",
-      "category": "Sağlık",
-      "category_slug": "saglik",
-      "topic_slug": "saglik",
-      "topic_label": "Sağlık",
-      "country": "USA",
-      "language": "en",
-      "language_label": "English",
-      "section": "news/articles",
-      "section_name": "US News",
-      "url_prefix": "news/articles/2026/11",
-      "date": "16.11.2026 19:20",
-      "date_iso": "2026-11-16",
-      "published_at": "2026-11-16T19:20:24+03:00",
-      "url": "/news/articles/2026/11/miguel-angel-felix-gallardo-dies-at-80_20261116/",
-      "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/miguel-angel-felix-gallardo-dies-at-80_20261116/",
-      "detail_json_url": "/data/details/news/articles/2026/11/miguel-angel-felix-gallardo-dies-at-80_20261116.json",
-      "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/miguel-angel-felix-gallardo-dies-at-80_20261116.webp",
-      "image_alt": "Official government building in Mexico associated with high-security cartel trials.",
-      "image": {
-        "url": "https://mansetradar.com.tr/news/articles/2026/11/images/miguel-angel-felix-gallardo-dies-at-80_20261116.webp",
-        "alt": "Official government building in Mexico associated with high-security cartel trials."
-      },
-      "source_name": "Home - CBSNews.com",
-      "source_url": "https://www.cbsnews.com/news/miguel-angel-felix-gallardo-dies-drug-lord-behind-us-agent-murder-age-80/",
-      "tags": [
-        "Miguel Angel Felix Gallardo",
-        "Drug Cartel",
-        "DEA",
-        "Enrique Camarena",
-        "Mexico",
-        "Guadalajara Cartel"
-      ],
-      "quality_score": 81,
       "review_status": "published"
     }
   ]
