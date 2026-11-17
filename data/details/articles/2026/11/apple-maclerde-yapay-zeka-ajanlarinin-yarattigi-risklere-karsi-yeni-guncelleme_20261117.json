@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "articles/2026/11:apple-maclerde-yapay-zeka-ajanlarinin-yarattigi-risklere-karsi-yeni-guncelleme_20261117",
+    "slug": "apple-maclerde-yapay-zeka-ajanlarinin-yarattigi-risklere-karsi-yeni-guncelleme_20261117",
+    "title": "Apple, Mac’lerde Yapay Zeka Ajanı Risklerine Karşı Güncelleme Hazırlıyor",
+    "summary": "Apple, otonom yapay zeka ajanlarının Mac sistemlerinde yaratabileceği güvenlik ve gizlilik açıklarına karşı macOS'taki Tam Disk Erişimi iznini daha sıkı denetimlerle güncellem période hazırlanıyor.",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "topic_slug": "teknoloji",
+    "topic_label": "Teknoloji",
+    "country": "Turkey",
+    "language": "tr",
+    "language_label": "Turkish",
+    "section": "articles",
+    "section_name": "Haberler",
+    "url_prefix": "articles/2026/11",
+    "date": "17.11.2026 11:53",
+    "date_iso": "2026-11-17",
+    "published_at": "2026-11-17T11:53:42+03:00",
+    "url": "/articles/2026/11/apple-maclerde-yapay-zeka-ajanlarinin-yarattigi-risklere-karsi-yeni-guncelleme_20261117/",
+    "canonical_url": "https://mansetradar.com.tr/articles/2026/11/apple-maclerde-yapay-zeka-ajanlarinin-yarattigi-risklere-karsi-yeni-guncelleme_20261117/",
+    "detail_json_url": "/data/details/articles/2026/11/apple-maclerde-yapay-zeka-ajanlarinin-yarattigi-risklere-karsi-yeni-guncelleme_20261117.json",
+    "image_url": "https://mansetradar.com.tr/articles/2026/11/images/apple-maclerde-yapay-zeka-ajanlarinin-yarattigi-risklere-karsi-yeni-guncelleme_20261117.webp",
+    "image_alt": "Apple Mac bilgisayar ve güvenlik ayarları",
+    "image": {
+      "url": "https://mansetradar.com.tr/articles/2026/11/images/apple-maclerde-yapay-zeka-ajanlarinin-yarattigi-risklere-karsi-yeni-guncelleme_20261117.webp",
+      "alt": "Apple Mac bilgisayar ve güvenlik ayarları"
+    },
+    "source_name": "LOG Teknoloji Haberleri",
+    "source_url": "https://www.log.com.tr/apple-maclerde-yapay-zeka-ajanlarinin-yarattigi-risklere-karsi-yeni-bir-guncellemeye-gidiyor/",
+    "tags": [
+      "Apple",
+      "Mac",
+      "Yapay Zeka",
+      "Tam Disk Erişimi",
+      "Siber Güvenlik"
+    ],
+    "quality_score": 86,
+    "review_status": "published",
+    "content_html": "<h2>Önemli Gelişmeler</h2> <p>Geçtiğimiz aylarda geliştirici sayfasında kritik bir duyuru yayımlayan Apple, Mac işletim sistemindeki <strong>“Tam Disk Erişimi”</strong> iznine yönelik ek denetimler getirileceğini duyurmuştu. Şirket, geliştiricilerin uygulamalarına güçlü yetenekler kazandırması için kapsamlı API’lar sunduğunu ancak bu API’ların özel verileri koruyan denetimlerle desteklendiğini belirtti.</p> <p>Ancak mevcut sistemde Tam Disk Erişimi izninin, yedekleme uygulamalarının sorunsuz çalışabilmesi adına bu koruma denetimlerini büyük ölçüde devre dışı bıraktığına dikkat çekildi. Apple'ın açıklamalarına göre, bazı geliştiriciler bu izni kullanıcıları tehlikeye atacak şekilde suiistimal edebiliyor. Bu durum; dosyalar, e-postalar, mesajlar ve tarama geçmişi dahil olmak üzere sistemdeki neredeyse tüm verilerin, kullanıcıların tam bilgisi olmadan taranmasına yol açabiliyor.</p> <h2>Öne Çıkan Noktalar</h2> <ul> <li><strong>Otonom Riskler:</strong> Meta’nın Muse’u gibi yapay zeka ajanları daha yetenekli hale geldikçe geniş disk erişiminin yarattığı tehditler de katlanarak artıyor.</li> <li><strong>Gizlilik İhlalleri:</strong> İzinlerin kötüye kullanımı, iletişim uygulamalarındaki kişilerin ve hassas verilerin gizliliğini tehlikeye atıyor.</li> <li><strong>Ek Denetimler:</strong> Apple, kullanıcıların kendi verileri ve gizlilikleri konusunda bilinçli kararlar alabilmesi için ek güvenlik katmanları planlıyor.</li> </ul> <h2>Neden Önemli?</h2> <p>Yapay zeka teknolojilerinin hızla gelişmesi ve otonom ajanların günlük iş akışlarına entegre olması, kişisel bilgisayarların güvenliği konusundaki denklemi kökten değiştiriyor. Apple’ın bu hamlesi, kullanıcıların arka planda çalışan yapay zeka servisleri tarafından verilerinin izinsiz veya fark edilmeden taranmasının önüne geçmeyi amaçlıyor. Bu kapsamlı güvenlik güncellemesi, özellikle yapay zeka çağında işletim sistemi düzeyinde mahremiyetin korunması açısından kritik bir eşik oluşturuyor.</p>",
+    "meta_title": "Apple Mac Güvenlik Güncellemesi: Yapay Zeka Ajanı Riskleri",
+    "meta_description": "Apple, Mac'lerde yapay zeka ajanlarının yarattığı gizlilik ve güvenlik risklerine karşı Tam Disk Erişimi izninde yeni denetimler devreye sokuyor.",
+    "spot": "Apple, otonom yapay zeka ajanlarının Mac sistemlerinde yaratabileceği güvenlik ve gizlilik açıklarına karşı macOS'taki Tam Disk Erişimi iznini daha sıkı denetimlerle güncellem période hazırlanıyor.",
+    "word_count": 218,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "Apple'dan Mac'ler için Yapay Zeka Güvenlik Hamlesi",
+      "Yapay Zeka Ajanları Mac Gizliliğini Nasıl Tehdit Ediyor?",
+      "Apple Tam Disk Erişimi İzni İçin Yeni Kontroller Getiriyor"
+    ],
+    "visual_keywords": [
+      "Apple logo Mac bilgisayar",
+      "macOS güvenlik ayarları",
+      "yapay zeka ajanları gizlilik",
+      "Tam Disk Erişimi paneli"
+    ]
+  }
+}

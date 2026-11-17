@@ -1,0 +1,86 @@
+{
+  "title": "Intel Crescent Island D270'in ilk testleri açıklandı: Nvidia'ya karşı iddiası",
+  "meta_title": "Intel Crescent Island D270 Performans Testleri ve Özellikleri",
+  "meta_description": "Intel, Xe3P mimarili yeni GPU'su Crescent Island D270'in ilk test sonuçlarını SC26'da paylaştı. D270, finansal simülasyonlarda dikkat çekiyor.",
+  "discover_titles": [
+    "Intel'den Yeni Nesil GPU Atılımı: D270 Rekabeti Kızıştırıyor",
+    "Intel Crescent Island D270 İlk Testlerde Nvidia'yı Geride Bıraktı",
+    "Xe3P Mimarisli Intel D270'in Güç ve Performans Detayları Açıklandı"
+  ],
+  "slug": "intel-crescent-island-d270-ilk-testleri-aciklandi_20261117",
+  "category": "Teknoloji",
+  "spot": "Intel, SC26 etkinliğinde Xe3P mimarisini temel alan yeni nesil grafik işlemcisi Crescent Island D270'in ilk performans sonuçlarını duyurdu. Şirketin açıklamalarına göre yeni GPU, özellikle finansal simülasyonlar ve bilimsel hesaplamalarda rakibi Nvidia'nın üst düzey sunucu çözümlerini önemli ölçüde geride bırakıyor.",
+  "content_html": "<h2>Önemli Gelişmeler</h2> <p>Intel, SC26 etkinliğinde yeni nesil GPU çözümü Crescent Island D270'in ilk performans sonuçlarını kamuoyuyla paylaştı. Özellikle yüksek hassasiyetli hesaplama gerektiren bilimsel, mühendislik ve finansal iş yüklerine odaklanan bu yeni donanım, sunduğu teknik altyapı ile dikkat çekiyor. Intel'in paylaştığı test verilerine göre D270, dört farklı finansal hizmetler iş yükünde Nvidia'nın RTX PRO 6000 Blackwell Server Edition modeliyle karşılaştırıldı ve bu testlerde en yüksek 5,9 kat, ortalama ise 4,5 kat performans farkı elde edildi. Üstelik bu sonuçlar, Intel'in çözümü 350W güç tüketimiyle çalışırken, Nvidia'nın karşılaştırılan kartının 600W seviyesinde olduğu bir senaryoda elde edildi.</p> <p>Yapay zeka alanında ise fark daha sınırlı seyrediyor. Intel D270, Drex 2.0 tabanlı karar verme modellerinde rakibine kıyasla yüzde 29 daha düşük gecikme süresi sunarken, Qwen 3 30B-A3B testinde 1,12 kat daha yüksek işlem hacmine ulaşıyor. Henüz çıkış tarihi ve fiyatı açıklanmayan ürünün test sonuçlarının üretim öncesi silikon üzerinden elde edildiği ve Intel tarafından gerçekleştirildiği unutulmamalıdır.</p> <h2>Öne Çıkan Noktalar</h2> <ul> <li><strong>Güçlü Teknik Altyapı:</strong> D270, 32 Xe3P çekirdeği, 256 Xe Matrix Extensions (XMX) motoru ve 480 GB'a kadar bellek sunan LPDDR5X altyapısıyla geliyor.</li> <div></div> <li><strong>Çift Hassasiyet Başarısı:</strong> Her çekirdek 64 FP64 FMA işlemi gerçekleştirebiliyor; bu da bilimsel simülasyonlar ve finansal modellemeler için büyük avantaj sağlıyor.</li> <div></div> <li><strong>Enerji Verimliliği:</strong> 350W güç tüketimiyle çalışan hava soğutmalı seçeneklerin yanı sıra sıvı soğutmalı ve çift GPU'lu çözümler de ürün ailesinde yer alacak.</li> </ul> <h2>Neden Önemli?</h2> <p>Crescent Island D270, FP4 ile FP8 arasındaki düşük hassasiyetli işlemlerin yanı sıra yüksek hassasiyetli FP64 hesaplamalarını desteklemesi sayesinde yapay zeka çıkarım iş yükleri ile yüksek doğruluk gerektiren bilimsel simülasyonları aynı donanım üzerinde buluşturuyor. Bu durum, veri merkezleri ve kurumsal bilişim alanında hesaplama verimliliği ve güç tüketimi dengesini yeniden şekillendirebilecek potansiyele sahip olması açısından büyük önem taşıyor.</p>",
+  "key_takeaways": [
+    "Intel, SC26 etkinliğinde Xe3P mimarisini temel alan yeni nesil grafik işlemcisi Crescent Island D270'in ilk performans...",
+    "Şirketin açıklamalarına göre yeni GPU, özellikle finansal simülasyonlar ve bilimsel hesaplamalarda rakibi Nvidia'nın üst düzey..."
+  ],
+  "tags": [
+    "Intel",
+    "Crescent Island D270",
+    "GPU",
+    "Nvidia",
+    "Teknoloji"
+  ],
+  "visual_keywords": [
+    "Intel processor chip",
+    "server hardware components",
+    "datacenter GPU technology",
+    "microchip architecture"
+  ],
+  "image_prompt": "A high-tech promotional rendering of an advanced server-grade graphics processing unit chip on a circuit board, dramatic blue and silver lighting, tech industry style.",
+  "image_alt": "Intel Crescent Island D270 GPU donanım görseli",
+  "fact_guard": {
+    "used_only_source_facts": true,
+    "omitted_missing_reactions": true
+  },
+  "schema_version": 3,
+  "word_count": 328,
+  "date": "17.11.2026 11:53",
+  "date_iso": "2026-11-17T11:53:13+03:00",
+  "published_at": "2026-11-17T11:53:13+03:00",
+  "flag": "TR",
+  "country": "Turkey",
+  "display_country": "Türkiye",
+  "image_url": "https://mansetradar.com.tr/articles/2026/11/images/intel-crescent-island-d270-ilk-testleri-aciklandi_20261117.webp",
+  "real_image_required": true,
+  "real_image_status": "approved_real_image",
+  "image_kind": "licensed_real_photo",
+  "image_license_status": "source_provided",
+  "image_license_note": "RSS source image: DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+  "image_source_url": "https://www.donanimhaber.com/intel-crescent-island-d270-in-ilk-testleri-aciklandi--213001",
+  "image_provider": "rss",
+  "image_score": 90,
+  "image_query": "Intel Crescent Island D270'in ilk testleri açıklandı: Bu kez iddialı",
+  "image_quality_note": "Gercek fotograf kalite esigini gecti.",
+  "summary": "Intel, SC26 etkinliğinde Xe3P mimarisini temel alan yeni nesil grafik işlemcisi Crescent Island D270'in ilk performans sonuçlarını duyurdu. Şirketin açıklamalarına göre yeni GPU, özellikle finansal simülasyonlar ve bilimsel hesaplamalarda rakibi Nvidia'nın üst düzey sunucu çözümlerini önemli ölçüde geride bırakıyor.",
+  "language": "Turkish",
+  "url_prefix": "articles/2026/11",
+  "source_language": "Turkish",
+  "target_language": "Turkish",
+  "source_name": "DonanımHaber - Türkiye'nin Lider Teknoloji Sitesi",
+  "source_url": "https://www.donanimhaber.com/intel-crescent-island-d270-in-ilk-testleri-aciklandi--213001",
+  "source_published_at": "2026-11-17T08:40:00+00:00",
+  "source_fact_score": 11,
+  "source_fact_word_count": 311,
+  "quality_score": 76,
+  "quality_status": "published",
+  "review_required": false,
+  "quality_flags": [
+    "short_article",
+    "generated_image"
+  ],
+  "quality_notes": [
+    "Metin hedefin altinda (328 kelime).",
+    "Haber stok/gercek fotograf yerine uretilmis gorsel kullaniyor."
+  ],
+  "quality_word_count": 328,
+  "indexed_on_home": true,
+  "source_image_url": "https://www.donanimhaber.com/images/images/haber/213001/1200x675intel-crescent-island-d270-in-ilk-testleri-aciklandi.jpg",
+  "image_storage": "local_webp_cache",
+  "image_localized_at": "2026-11-17T08:54:11Z",
+  "time": "08:40",
+  "public_url": "/articles/2026/11/intel-crescent-island-d270-ilk-testleri-aciklandi_20261117/",
+  "source_json_path": "articles/2026/11/intel-crescent-island-d270-ilk-testleri-aciklandi_20261117.json",
+  "cms_generated_from_monthly_source": true
+}
