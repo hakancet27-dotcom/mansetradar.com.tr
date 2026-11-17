@@ -3,7 +3,7 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-17T00:00:00+00:00",
-    "article_count": 3832,
+    "article_count": 3833,
     "schema_version": 2
   },
   "hero": [
@@ -796,6 +796,45 @@
     }
   ],
   "latest": [
+    {
+      "id": "nachrichten/artikel/2026/11:john-travolta-bereit-fuer-neue-liebe_20261117",
+      "slug": "john-travolta-bereit-fuer-neue-liebe_20261117",
+      "title": "John Travolta ist bereit für eine neue Liebe",
+      "summary": "Sechs Jahre nach dem Tod seiner Ehefrau Kelly Preston hat Hollywoodstar John Travolta in einer US-Morgensendung erklärt, wieder offen für eine neue Liebe zu sein. Nach dem Verlust konzentrierte sich der 72-Jährige voll und ganz auf seine Kinder.",
+      "category": "Magazin",
+      "category_slug": "magazin",
+      "topic_slug": "magazin",
+      "topic_label": "Magazin",
+      "country": "Germany",
+      "language": "de",
+      "language_label": "German",
+      "section": "nachrichten/artikel",
+      "section_name": "Deutschland Nachrichten",
+      "url_prefix": "nachrichten/artikel/2026/11",
+      "date": "17.11.2026 19:30",
+      "date_iso": "2026-11-17",
+      "published_at": "2026-11-17T19:30:29+03:00",
+      "url": "/nachrichten/artikel/2026/11/john-travolta-bereit-fuer-neue-liebe_20261117/",
+      "canonical_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/john-travolta-bereit-fuer-neue-liebe_20261117/",
+      "detail_json_url": "/data/details/nachrichten/artikel/2026/11/john-travolta-bereit-fuer-neue-liebe_20261117.json",
+      "image_url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/images/john-travolta-bereit-fuer-neue-liebe_20261117.webp",
+      "image_alt": "John Travolta lächelt bei einem offiziellen Auftritt.",
+      "image": {
+        "url": "https://mansetradar.com.tr/nachrichten/artikel/2026/11/images/john-travolta-bereit-fuer-neue-liebe_20261117.webp",
+        "alt": "John Travolta lächelt bei einem offiziellen Auftritt."
+      },
+      "source_name": "DER SPIEGEL - Schlagzeilen",
+      "source_url": "https://www.spiegel.de/panorama/leute/john-travolta-us-star-ist-sechs-jahre-nach-tod-seiner-ehefrau-bereit-fuer-neue-liebe-a-6383a11c-0298-41ad-a249-38818f1da55a#ref=rss",
+      "tags": [
+        "John Travolta",
+        "Kelly Preston",
+        "Hollywood",
+        "Liebe",
+        "Dating"
+      ],
+      "quality_score": 76,
+      "review_status": "published"
+    },
     {
       "id": "news/articles/2026/11:new-york-tax-the-rich-child-care_20261117",
       "slug": "new-york-tax-the-rich-child-care_20261117",
@@ -3107,45 +3146,6 @@
         "UEFA Uluslar Ligi",
         "Florian Wirtz",
         "Berlin Olimpiyat Stadyumu"
-      ],
-      "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/11:a-milli-takim-uefa-uluslar-liginde-b-ligine-dustu_20261116",
-      "slug": "a-milli-takim-uefa-uluslar-liginde-b-ligine-dustu_20261116",
-      "title": "A Milli Futbol Takımı UEFA Uluslar Ligi'nde B Ligi'ne düştü",
-      "summary": "UEFA Uluslar Ligi A Ligi 1. Grup'taki son maçında Fransa'ya 2-1 mağlup olan ve Sırbistan'ın Yunanistan'a 1-0 yenilmesiyle genel sıralamada geride kalan A Milli Futbol Takımı, organizasyonda B Ligi'ne düştü.",
-      "category": "Spor",
-      "category_slug": "spor",
-      "topic_slug": "spor",
-      "topic_label": "Spor",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "Turkish",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/11",
-      "date": "17.11.2026 02:01",
-      "date_iso": "2026-11-17",
-      "published_at": "2026-11-17T02:01:30+03:00",
-      "url": "/articles/2026/11/a-milli-takim-uefa-uluslar-liginde-b-ligine-dustu_20261116/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/11/a-milli-takim-uefa-uluslar-liginde-b-ligine-dustu_20261116/",
-      "detail_json_url": "/data/details/articles/2026/11/a-milli-takim-uefa-uluslar-liginde-b-ligine-dustu_20261116.json",
-      "image_url": "https://mansetradar.com.tr/articles/2026/11/images/a-milli-takim-uefa-uluslar-liginde-b-ligine-dustu_20261116.webp",
-      "image_alt": "A Milli Futbol Takımı oyuncusu maç sonunda sahada üzgün şekilde yürürken.",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/2026/11/images/a-milli-takim-uefa-uluslar-liginde-b-ligine-dustu_20261116.webp",
-        "alt": "A Milli Futbol Takımı oyuncusu maç sonunda sahada üzgün şekilde yürürken."
-      },
-      "source_name": "Ajansspor - Son Haberler",
-      "source_url": "https://ajansspor.com/haber/yunanistanin-galibiyeti-turkiyeyi-yikti-milliler-a-ligine-veda-etti-738783",
-      "tags": [
-        "A Milli Takım",
-        "UEFA Uluslar Ligi",
-        "Spor Haberleri",
-        "Yunanistan",
-        "Fransa"
       ],
       "quality_score": 86,
       "review_status": "published"
