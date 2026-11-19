@@ -16,7 +16,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Sermaye Piyasası Kurulu, 131 yatırım fonunu kapatma kararı aldı. 800 milyar TL&#x27;yi aşan fon büyüklüğü ve 455 binden fazla yatırımcıyı etkileyen olayda 51 kişi">
-  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="robots" content="noindex,follow">
   <meta name="keywords" content="Finans, Borsa, Yatırım, Kriz, Para, Güven">
   <link rel="canonical" href="https://mansetradar.com.tr/articles/2026/10/spk-800-milyar-tllik-fonlari-tasfiye-etti-banker-kastelli-benzeri-kriz-mi_20261002/">
   <meta property="og:type" content="article">
@@ -63,7 +63,7 @@
     
     /* Top Bar & Header */
     .top-bar { background: #020617; color: #94a3b8; font-size: 0.75rem; padding: 6px 0; font-weight: 500; letter-spacing: 0.02em; }
-    .top-bar .inner, header .inner, .article-shell, footer .inner { max-width: 1140; margin: 0 auto; padding: 0 24px; }
+    .top-bar .inner, header .inner, .article-shell, footer .inner { max-width: 1140px; margin: 0 auto; padding: 0 24px; }
     .top-bar .inner { display: flex; justify-content: space-between; align-items: center; }
     .top-bar a { color: #cbd5e1; text-decoration: none; margin-left: 16px; transition: color 0.2s; }
     .top-bar a:hover { color: #fff; }
@@ -137,7 +137,8 @@
     
     /* Tags & Source */
     .tag-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); }
-    .tag-list span { background: #f1f5f9; color: #475569; padding: 6px 12px; border-radius: 999px; font-size: 0.85rem; font-weight: 600; font-family: var(--font-ui); }
+    .tag-list span, .tag-list a { background: #f1f5f9; color: #475569; padding: 6px 12px; border-radius: 999px; font-size: 0.85rem; font-weight: 600; font-family: var(--font-ui); text-decoration: none; transition: all 0.2s; }
+    .tag-list a:hover { background: #fee2e2; color: var(--brand); }
     .article-source { margin: 32px 0 0; padding: 16px; background: #f8fafc; border: 1px solid var(--border); border-radius: 8px; color: #475569; font-size: 0.9rem; font-family: var(--font-ui); }
     .article-source strong { color: var(--text-main); font-weight: 600; }
     
@@ -198,7 +199,8 @@
     body.dark-mode .article-takeaways li { color: #e4e4e7; }
     body.dark-mode .article-body { color: #e4e4e7; }
     body.dark-mode .article-body h2, body.dark-mode .article-body h3, body.dark-mode .article-body strong { color: #f8fafc; }
-    body.dark-mode .tag-list span { background: #27272a; color: #e4e4e7; }
+    body.dark-mode .tag-list span, body.dark-mode .tag-list a { background: #27272a; color: #e4e4e7; }
+    body.dark-mode .tag-list a:hover { background: #3f3f46; color: #fff; }
     body.dark-mode .article-source { background: #18181b; color: #a1a1aa; border-color: #27272a; }
     body.dark-mode .article-source strong { color: #f8fafc; }
     body.dark-mode .author-avatar-badge { background: #27272a; border-color: #3f3f46; color: #fff; }
@@ -228,7 +230,7 @@
       <span>02.10.2026 &middot; mansetradar.com.tr</span>
       <div>
         <a href="/">Ana Sayfa</a>
-        <a href="/">Haberler</a>
+        <a href="/ekonomi/">Ekonomi</a>
       </div>
     </div>
   </div>
@@ -243,7 +245,7 @@
       </a>
       <nav aria-label="Article navigation">
         <a href="/">Ana Sayfa</a>
-        <a class="active" href="/">Haberler</a>
+        <a class="active" href="/ekonomi/">Ekonomi</a>
         <button id="theme-toggle" class="tool-btn" type="button" aria-label="Karanlık/Aydınlık Tema" title="Karanlık/Aydınlık Tema" style="margin-left: 8px;">
           <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
         </button>
@@ -254,17 +256,17 @@
   <main class="article-shell">
     <article>
       <div class="article-header">
-        <a class="back-link" href="/">
+        <a class="back-link" href="/ekonomi/">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
-          Tüm Haberler
+          Ekonomi
         </a>
         <div class="article-meta">
           <span class="meta-tag">TR Türkiye</span>
+          <a class="meta-tag" href="/ekonomi/" style="text-decoration:none;">Ekonomi</a>
           <span class="meta-trust">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
             Doğrulanmış
           </span>
-          <span class="meta-time">2 dakika okuma</span>
           <span class="meta-date">&middot; 02.10.2026</span>
         </div>
         <h1>SPK&#x27;dan 800 Milyar TL&#x27;lik Fonlara Tasfiye Kararı: 455 Bin Yatırımcı Etkilendi</h1>
@@ -309,7 +311,7 @@
       
       <p class="article-source"><strong>Kaynak:</strong> dunya.com</p>
       
-      <div class="tag-list"><span>Sermaye Piyasası Kurulu</span><span>SPK</span><span>Yatırım Fonları</span><span>Borsa İstanbul</span><span>Manipülasyon</span><span>Banker Kastelli</span><span>Finans Krizi</span><span>Ekonomi</span></div>
+      <div class="tag-list"><a href="/ekonomi/">Sermaye Piyasası Kurulu</a><a href="/ekonomi/">SPK</a><a href="/ekonomi/">Yatırım Fonları</a><a href="/ekonomi/">Borsa İstanbul</a><a href="/ekonomi/">Manipülasyon</a><a href="/ekonomi/">Banker Kastelli</a><a href="/ekonomi/">Finans Krizi</a><a href="/ekonomi/">Ekonomi</a></div>
       
       
       <div class="member-article-actions" aria-label="Üye haber işlemleri">
@@ -320,15 +322,21 @@
       
       
       <div class="article-footer-sections">
-        <section class="related-news" aria-label="related-news"><h2>İlgili Haberler</h2><div class="related-grid"><article class="related-card"><a href="/articles/2026/09/spk-fonlarin-tasfiyesinde-sureyi-6-aya-cikardi_20260921/">SPK&#x27;dan Yatırım Fonlarına İlişkin Kritik Düzenleme: Tasfiye Süresi 6 Aya Çıkarıldı</a><div class="related-meta"><span class="related-topic">Ekonomi</span><time class="related-date">21.09.2026</time></div></article><article class="related-card"><a href="/articles/2026/09/yatirim-fonlarindan-128-8-milyar-lira-cikis_20260909/">Yatırım Fonlarından 128,8 Milyar Lira Çıkış Yaşandı</a><div class="related-meta"><span class="related-topic">Ekonomi</span><time class="related-date">09.09.2026</time></div></article><article class="related-card"><a href="/articles/2026/10/spkden-borsada-manipulasyon-incelemesi-37-kisiye-suc-duyurusu-ve-islem-yasagi_20261017/">SPK&#x27;den Borsada Manipülasyon İncelemesi: 37 Kişiye Suç Duyurusu ve 2 Yıl İşlem Yasağı</a><div class="related-meta"><span class="related-topic">Ekonomi</span><time class="related-date">17.10.2026 16:12</time></div></article><article class="related-card"><a href="/articles/2026/09/tasfiye-fonlarinda-yeni-donem-ve-5-kritik-adim-yatirimci-alacaklari-icin-odeme-ve-denetim-takvimi_20260930/">Tasfiye Fonlarında Yeni Dönem ve 5 Kritik Adım: Yatırımcı Alacakları İçin Hızlı Ödeme ve Denetim Takvimi</a><div class="related-meta"><span class="related-topic">Ekonomi</span><time class="related-date">30.09.2026</time></div></article><article class="related-card"><a href="/articles/2026/08/halka-arz-endeksi-temmuz-ayinda-negatife-dondu_20260802/">Halka arz endeksinde ilk negatif performans: Temmuz ayında yüzde 6,79 kayıp</a><div class="related-meta"><span class="related-topic">Ekonomi</span><time class="related-date">02.08.2026</time></div></article><article class="related-card"><a href="/articles/2026/10/spkdan-tera-yatirim-holding-ve-peker-gyo-karari-oy-haklari-donduruldu_20261019/">SPK&#x27;dan Tera Yatırım Holding ve Peker GYO Kararı: Oy Hakları Donduruldu</a><div class="related-meta"><span class="related-topic">Ekonomi</span><time class="related-date">20.10.2026 00:46</time></div></article><article class="related-card"><a href="/articles/2026/09/tera-magdurlari-platformu-tasfiye-gecikmesi-aym-basvurusu_20260924/">Tera Mağdurları Platformu&#x27;ndan SPK&#x27;ya Sert Tepki: &quot;Tasfiye Payları İçin AYM&#x27;ye Gideriz&quot;</a><div class="related-meta"><span class="related-topic">Ekonomi</span><time class="related-date">24.09.2026</time></div></article><article class="related-card"><a href="/articles/2026/09/455-bin-yatirimci-tasfiye-bekleyisi-spk-sureyi-6-aya-uzatti_20260924/">455 Bin Fon Yatırımcısının Tasfiye Bekleyişi: SPK Süreyi 6 Aya Uzattı, Kademeli Ödeme Başlıyor</a><div class="related-meta"><span class="related-topic">Ekonomi</span><time class="related-date">24.09.2026</time></div></article></div></section>
+        <section class="related-news" aria-label="related-news"><h2>İlgili Haberler</h2><div class="related-grid"><article class="related-card"><a href="/articles/2026/09/spk-fonlarin-tasfiyesinde-sureyi-6-aya-cikardi_20260921/">SPK&#x27;dan Yatırım Fonlarına İlişkin Kritik Düzenleme: Tasfiye Süresi 6 Aya Çıkarıldı</a><div class="related-meta"><span class="related-topic">Ekonomi</span><time class="related-date">21.09.2026</time></div></article><article class="related-card"><a href="/articles/2026/09/yatirim-fonlarindan-128-8-milyar-lira-cikis_20260909/">Yatırım Fonlarından 128,8 Milyar Lira Çıkış Yaşandı</a><div class="related-meta"><span class="related-topic">Ekonomi</span><time class="related-date">09.09.2026</time></div></article><article class="related-card"><a href="/articles/2026/10/spkden-borsada-manipulasyon-incelemesi-37-kisiye-suc-duyurusu-ve-islem-yasagi_20261017/">SPK&#x27;den Borsada Manipülasyon İncelemesi: 37 Kişiye Suç Duyurusu ve 2 Yıl İşlem Yasağı</a><div class="related-meta"><span class="related-topic">Ekonomi</span><time class="related-date">17.10.2026 16:12</time></div></article><article class="related-card"><a href="/articles/2026/09/tasfiye-fonlarinda-yeni-donem-ve-5-kritik-adim-yatirimci-alacaklari-icin-odeme-ve-denetim-takvimi_20260930/">Tasfiye Fonlarında Yeni Dönem ve 5 Kritik Adım: Yatırımcı Alacakları İçin Hızlı Ödeme ve Denetim Takvimi</a><div class="related-meta"><span class="related-topic">Ekonomi</span><time class="related-date">30.09.2026</time></div></article><article class="related-card"><a href="/articles/2026/08/halka-arz-endeksi-temmuz-ayinda-negatife-dondu_20260802/">Halka arz endeksinde ilk negatif performans: Temmuz ayında yüzde 6,79 kayıp</a><div class="related-meta"><span class="related-topic">Ekonomi</span><time class="related-date">02.08.2026</time></div></article><article class="related-card"><a href="/articles/2026/10/spkdan-tera-yatirim-holding-ve-peker-gyo-karari-oy-haklari-donduruldu_20261019/">SPK&#x27;dan Tera Yatırım Holding ve Peker GYO Kararı: Oy Hakları Donduruldu</a><div class="related-meta"><span class="related-topic">Ekonomi</span><time class="related-date">20.10.2026 00:46</time></div></article><article class="related-card"><a href="/articles/2026/09/455-bin-yatirimci-tasfiye-bekleyisi-spk-sureyi-6-aya-uzatti_20260924/">455 Bin Fon Yatırımcısının Tasfiye Bekleyişi: SPK Süreyi 6 Aya Uzattı, Kademeli Ödeme Başlıyor</a><div class="related-meta"><span class="related-topic">Ekonomi</span><time class="related-date">24.09.2026</time></div></article><article class="related-card"><a href="/articles/2026/09/tera-magdurlari-platformu-tasfiye-gecikmesi-aym-basvurusu_20260924/">Tera Mağdurları Platformu&#x27;ndan SPK&#x27;ya Sert Tepki: &quot;Tasfiye Payları İçin AYM&#x27;ye Gideriz&quot;</a><div class="related-meta"><span class="related-topic">Ekonomi</span><time class="related-date">24.09.2026</time></div></article></div></section>
         <section class="article-comments" aria-label="article-comments"><h2>Yorumlar</h2><form id="comment-form" class="comment-form"><input id="comment-name" type="text" maxlength="40" placeholder="Ad Soyad"><textarea id="comment-text" rows="4" maxlength="700" placeholder="Yorumunuzu yazın"></textarea><button type="submit">Yorum Gönder</button></form><div id="comment-list" class="comment-list"></div></section>
       </div>
     </article>
   </main>
   
   <footer>
-    <div class="inner">
-      <p><a href="/">mansetradar.com.tr</a> &copy; 2024. Türkiye, Amerika ve Almanya&#x27;dan güncel haberler.</p>
+    <div class="inner" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;">
+      <p><a href="/">mansetradar.com.tr</a> &copy; 2026. Türkiye, Amerika ve Almanya&#x27;dan güncel haberler.</p>
+      <div style="display:flex;gap:16px;flex-wrap:wrap;font-size:0.85rem;">
+        <a href="/kunye/">Künye</a>
+        <a href="/yayin-ilkeleri/">Yayın İlkeleri</a>
+        <a href="/iletisim/">İletişim</a>
+        <a href="/privacy/">Gizlilik</a>
+      </div>
     </div>
   </footer>
   
