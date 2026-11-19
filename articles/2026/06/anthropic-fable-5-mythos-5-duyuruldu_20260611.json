@@ -70,5 +70,10 @@
   "indexed_on_home": true,
   "time": "10:30",
   "source_image_url": "https://cdn.webrazzi.com/uploads/2025/06/anthropic-claude-490_240x135.png",
-  "image_storage": "local_webp_cache"
+  "image_storage": "local_webp_cache",
+  "key_takeaways": [
+    "Anthropic, Nisan ayında ön izleme olarak duyurduğu Mythos modelinin halka açık ilk sürümü olan Claude Fable 5'i kullanıma sundu.",
+    "Fable 5, siber güvenlik, biyoloji, kimya ve damıtma gibi yüksek riskli alanlarda yanıtları engelleyerek Claude Opus 4.8'e geri dönüyor.",
+    "Ayrıca, gelişmiş modele erişim izni alan kuruluşlara Mythos 5 sürümü de sunulmaya başlandı."
+  ]
 }
