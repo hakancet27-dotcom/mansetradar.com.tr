@@ -83,7 +83,7 @@
     },
     en: {
       locale: 'en-US',
-      homeUrl: '/en/',
+      homeUrl: '/news/',
       pageTitle: 'Account Management | Manşet Radar Member Center',
       portalTopLabel: 'Manşet Radar Corporate Member Portal',
       sessionOpen: 'Session Active',
@@ -151,7 +151,7 @@
     },
     de: {
       locale: 'de-DE',
-      homeUrl: '/de/',
+      homeUrl: '/nachrichten/',
       pageTitle: 'Kontoverwaltung | Manşet Radar Mitgliederportal',
       portalTopLabel: 'Manşet Radar Redaktions- & Mitgliederportal',
       sessionOpen: 'Sitzung Aktiv',
