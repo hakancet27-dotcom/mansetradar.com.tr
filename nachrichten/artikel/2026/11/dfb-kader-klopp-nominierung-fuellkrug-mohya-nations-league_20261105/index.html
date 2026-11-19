@@ -63,7 +63,7 @@
     
     /* Top Bar & Header */
     .top-bar { background: #020617; color: #94a3b8; font-size: 0.75rem; padding: 6px 0; font-weight: 500; letter-spacing: 0.02em; }
-    .top-bar .inner, header .inner, .article-shell, footer .inner { max-width: 1140; margin: 0 auto; padding: 0 24px; }
+    .top-bar .inner, header .inner, .article-shell, footer .inner { max-width: 1140px; margin: 0 auto; padding: 0 24px; }
     .top-bar .inner { display: flex; justify-content: space-between; align-items: center; }
     .top-bar a { color: #cbd5e1; text-decoration: none; margin-left: 16px; transition: color 0.2s; }
     .top-bar a:hover { color: #fff; }
@@ -137,7 +137,8 @@
     
     /* Tags & Source */
     .tag-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); }
-    .tag-list span { background: #f1f5f9; color: #475569; padding: 6px 12px; border-radius: 999px; font-size: 0.85rem; font-weight: 600; font-family: var(--font-ui); }
+    .tag-list span, .tag-list a { background: #f1f5f9; color: #475569; padding: 6px 12px; border-radius: 999px; font-size: 0.85rem; font-weight: 600; font-family: var(--font-ui); text-decoration: none; transition: all 0.2s; }
+    .tag-list a:hover { background: #fee2e2; color: var(--brand); }
     .article-source { margin: 32px 0 0; padding: 16px; background: #f8fafc; border: 1px solid var(--border); border-radius: 8px; color: #475569; font-size: 0.9rem; font-family: var(--font-ui); }
     .article-source strong { color: var(--text-main); font-weight: 600; }
     
@@ -198,7 +199,8 @@
     body.dark-mode .article-takeaways li { color: #e4e4e7; }
     body.dark-mode .article-body { color: #e4e4e7; }
     body.dark-mode .article-body h2, body.dark-mode .article-body h3, body.dark-mode .article-body strong { color: #f8fafc; }
-    body.dark-mode .tag-list span { background: #27272a; color: #e4e4e7; }
+    body.dark-mode .tag-list span, body.dark-mode .tag-list a { background: #27272a; color: #e4e4e7; }
+    body.dark-mode .tag-list a:hover { background: #3f3f46; color: #fff; }
     body.dark-mode .article-source { background: #18181b; color: #a1a1aa; border-color: #27272a; }
     body.dark-mode .article-source strong { color: #f8fafc; }
     body.dark-mode .author-avatar-badge { background: #27272a; border-color: #3f3f46; color: #fff; }
@@ -264,7 +266,6 @@
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
             Verifiziert
           </span>
-          <span class="meta-time">2 Min. Lesezeit</span>
           <span class="meta-date">&middot; 05.11.2026 18:01</span>
         </div>
         <h1>DFB-Kader für Nations League: Klopp holt Füllkrug zurück und überrascht mit Mohya</h1>
@@ -309,7 +310,7 @@
       
       <p class="article-source"><strong>Quelle:</strong> dw.com</p>
       
-      <div class="tag-list"><span>DFB-Team</span><span>Jürgen Klopp</span><span>Niclas Füllkrug</span><span>Wael Mohya</span><span>Nations League</span></div>
+      <div class="tag-list"><a href="/nachrichten/">DFB-Team</a><a href="/nachrichten/">Jürgen Klopp</a><a href="/nachrichten/">Niclas Füllkrug</a><a href="/nachrichten/">Wael Mohya</a><a href="/nachrichten/">Nations League</a></div>
       
       
       
@@ -324,7 +325,7 @@
   
   <footer>
     <div class="inner">
-      <p><a href="/nachrichten/">mansetradar.com.tr</a> &copy; 2024. Aktuelle Nachrichten aus Deutschland.</p>
+      <p><a href="/nachrichten/">mansetradar.com.tr</a> &copy; 2026. Aktuelle Nachrichten aus Deutschland.</p>
     </div>
   </footer>
   
