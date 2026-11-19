@@ -3,12 +3,51 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-19T00:00:00+00:00",
-    "article_count": 3912,
+    "article_count": 3918,
     "schema_version": 2,
     "category_slug": "siyaset",
     "type": "category"
   },
   "articles": [
+    {
+      "id": "articles/2026/11:bakan-gulerden-f-35-ve-eurofighter-aciklamasi_20261119",
+      "slug": "bakan-gulerden-f-35-ve-eurofighter-aciklamasi_20261119",
+      "title": "Bakan Güler'den F-35 ve Eurofighter Açıklaması",
+      "summary": "Milli Savunma Bakanı Yaşar Güler, TBMM Plan ve Bütçe Komisyonundaki bütçe görüşmelerinin ardından milletvekillerinin sorularını yanıtlayarak F-16, F-35, Eurofighter ve C-130J tedarik çalışmalarının planlı şekilde sürdürüldüğünü bildirdi.",
+      "category": "Siyaset",
+      "category_slug": "siyaset",
+      "topic_slug": "siyaset",
+      "topic_label": "Siyaset",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "Turkish",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/11",
+      "date": "19.11.2026 07:23",
+      "date_iso": "2026-11-19",
+      "published_at": "2026-11-19T07:23:36+03:00",
+      "url": "/articles/2026/11/bakan-gulerden-f-35-ve-eurofighter-aciklamasi_20261119/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/11/bakan-gulerden-f-35-ve-eurofighter-aciklamasi_20261119/",
+      "detail_json_url": "/data/details/articles/2026/11/bakan-gulerden-f-35-ve-eurofighter-aciklamasi_20261119.json",
+      "image_url": "https://mansetradar.com.tr/articles/2026/11/images/bakan-gulerden-f-35-ve-eurofighter-aciklamasi_20261119.webp",
+      "image_alt": "Milli Savunma Bakanı Yaşar Güler TBMM'de konuşma yaparken.",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/2026/11/images/bakan-gulerden-f-35-ve-eurofighter-aciklamasi_20261119.webp",
+        "alt": "Milli Savunma Bakanı Yaşar Güler TBMM'de konuşma yaparken."
+      },
+      "source_name": "HABERTURK.COM",
+      "source_url": "https://www.haberturk.com/gundem/bakan-guler-f-35-ve-eurofighter-tedarikindeki-son-durumu-acikladi-3928342",
+      "tags": [
+        "Yaşar Güler",
+        "F-35",
+        "Eurofighter",
+        "Milli Savunma Bakanlığı",
+        "TBMM"
+      ],
+      "quality_score": 86,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/11:bakan-guler-f-16-f-35-eurofighter-tedarik-aciklamasi_20261118",
       "slug": "bakan-guler-f-16-f-35-eurofighter-tedarik-aciklamasi_20261118",
