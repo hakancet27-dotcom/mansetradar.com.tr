@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-21T01:52:46.635Z",
+  "updatedAt": "2026-11-21T12:46:48.373Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-11-21T01:52:46.635Z",
+      "updatedAt": "2026-11-21T12:46:48.373Z",
       "source": "TFF / Resmi Canlı Veri",
       "table": [
         {
@@ -179,6 +179,20 @@
         },
         {
           "position": 13,
+          "team": "Gençlerbirliği",
+          "played": 12,
+          "won": 4,
+          "draw": 2,
+          "lost": 6,
+          "goalsFor": 13,
+          "goalsAgainst": 21,
+          "points": 14,
+          "goalDifference": -8,
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+          "form": []
+        },
+        {
+          "position": 14,
           "team": "Alanyaspor",
           "played": 11,
           "won": 3,
@@ -189,20 +203,6 @@
           "points": 12,
           "goalDifference": -9,
           "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-          "form": []
-        },
-        {
-          "position": 14,
-          "team": "Gençlerbirliği",
-          "played": 11,
-          "won": 3,
-          "draw": 2,
-          "lost": 6,
-          "goalsFor": 12,
-          "goalsAgainst": 21,
-          "points": 11,
-          "goalDifference": -9,
-          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
           "form": []
         },
         {
@@ -222,14 +222,14 @@
         {
           "position": 16,
           "team": "Gaziantep FK",
-          "played": 11,
+          "played": 12,
           "won": 2,
           "draw": 2,
-          "lost": 7,
+          "lost": 8,
           "goalsFor": 9,
-          "goalsAgainst": 19,
+          "goalsAgainst": 20,
           "points": 8,
-          "goalDifference": -10,
+          "goalDifference": -11,
           "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
           "form": []
         },
@@ -269,7 +269,7 @@
     {
       "id": "premier-league",
       "name": "Premier League",
-      "updatedAt": "2026-11-21T01:52:46.635Z",
+      "updatedAt": "2026-11-21T12:46:48.373Z",
       "source": "Premier League Resmi Veri",
       "table": [
         {
@@ -560,7 +560,7 @@
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-11-21T01:52:46.635Z",
+      "updatedAt": "2026-11-21T12:46:48.373Z",
       "source": "La Liga Resmi Veri",
       "table": [
         {
@@ -851,7 +851,7 @@
     {
       "id": "bundesliga",
       "name": "Bundesliga",
-      "updatedAt": "2026-11-21T01:52:46.635Z",
+      "updatedAt": "2026-11-21T12:46:48.373Z",
       "source": "Bundesliga Resmi Veri",
       "table": [
         {
@@ -1114,7 +1114,7 @@
     {
       "id": "serie-a",
       "name": "Serie A",
-      "updatedAt": "2026-11-21T01:52:46.635Z",
+      "updatedAt": "2026-11-21T12:46:48.373Z",
       "source": "Serie A Resmi Veri",
       "table": [
         {
@@ -1405,7 +1405,7 @@
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-11-21T01:52:46.635Z",
+      "updatedAt": "2026-11-21T12:46:48.373Z",
       "source": "Ligue 1 Resmi Veri",
       "table": [
         {
@@ -1838,6 +1838,20 @@
     },
     {
       "position": 13,
+      "team": "Gençlerbirliği",
+      "played": 12,
+      "won": 4,
+      "draw": 2,
+      "lost": 6,
+      "goalsFor": 13,
+      "goalsAgainst": 21,
+      "points": 14,
+      "goalDifference": -8,
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "form": []
+    },
+    {
+      "position": 14,
       "team": "Alanyaspor",
       "played": 11,
       "won": 3,
@@ -1848,20 +1862,6 @@
       "points": 12,
       "goalDifference": -9,
       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "form": []
-    },
-    {
-      "position": 14,
-      "team": "Gençlerbirliği",
-      "played": 11,
-      "won": 3,
-      "draw": 2,
-      "lost": 6,
-      "goalsFor": 12,
-      "goalsAgainst": 21,
-      "points": 11,
-      "goalDifference": -9,
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "form": []
     },
     {
@@ -1881,14 +1881,14 @@
     {
       "position": 16,
       "team": "Gaziantep FK",
-      "played": 11,
+      "played": 12,
       "won": 2,
       "draw": 2,
-      "lost": 7,
+      "lost": 8,
       "goalsFor": 9,
-      "goalsAgainst": 19,
+      "goalsAgainst": 20,
       "points": 8,
-      "goalDifference": -10,
+      "goalDifference": -11,
       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "form": []
     },
