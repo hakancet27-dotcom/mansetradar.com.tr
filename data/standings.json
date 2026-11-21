@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-20T21:33:30.385Z",
+  "updatedAt": "2026-11-21T01:52:46.635Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-11-20T21:33:30.385Z",
+      "updatedAt": "2026-11-21T01:52:46.635Z",
       "source": "TFF / Resmi Canlı Veri",
       "table": [
         {
@@ -269,7 +269,7 @@
     {
       "id": "premier-league",
       "name": "Premier League",
-      "updatedAt": "2026-11-20T21:33:30.385Z",
+      "updatedAt": "2026-11-21T01:52:46.635Z",
       "source": "Premier League Resmi Veri",
       "table": [
         {
@@ -560,7 +560,7 @@
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-11-20T21:33:30.385Z",
+      "updatedAt": "2026-11-21T01:52:46.635Z",
       "source": "La Liga Resmi Veri",
       "table": [
         {
@@ -650,14 +650,14 @@
         {
           "position": 7,
           "team": "Athletic Club",
-          "played": 11,
+          "played": 12,
           "won": 4,
           "draw": 4,
-          "lost": 3,
+          "lost": 4,
           "goalsFor": 15,
-          "goalsAgainst": 11,
+          "goalsAgainst": 12,
           "points": 16,
-          "goalDifference": 4,
+          "goalDifference": 3,
           "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
           "form": []
         },
@@ -691,6 +691,20 @@
         },
         {
           "position": 10,
+          "team": "Espanyol",
+          "played": 13,
+          "won": 4,
+          "draw": 3,
+          "lost": 6,
+          "goalsFor": 14,
+          "goalsAgainst": 14,
+          "points": 15,
+          "goalDifference": 0,
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+          "form": []
+        },
+        {
+          "position": 11,
           "team": "Racing Santander",
           "played": 12,
           "won": 4,
@@ -704,7 +718,7 @@
           "form": []
         },
         {
-          "position": 11,
+          "position": 12,
           "team": "Celta Vigo",
           "played": 12,
           "won": 2,
@@ -718,7 +732,7 @@
           "form": []
         },
         {
-          "position": 12,
+          "position": 13,
           "team": "Alavés",
           "played": 12,
           "won": 3,
@@ -729,20 +743,6 @@
           "points": 13,
           "goalDifference": -2,
           "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-          "form": []
-        },
-        {
-          "position": 13,
-          "team": "Espanyol",
-          "played": 12,
-          "won": 3,
-          "draw": 3,
-          "lost": 6,
-          "goalsFor": 13,
-          "goalsAgainst": 14,
-          "points": 12,
-          "goalDifference": -1,
-          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
           "form": []
         },
         {
@@ -851,7 +851,7 @@
     {
       "id": "bundesliga",
       "name": "Bundesliga",
-      "updatedAt": "2026-11-20T21:33:30.385Z",
+      "updatedAt": "2026-11-21T01:52:46.635Z",
       "source": "Bundesliga Resmi Veri",
       "table": [
         {
@@ -1114,7 +1114,7 @@
     {
       "id": "serie-a",
       "name": "Serie A",
-      "updatedAt": "2026-11-20T21:33:30.385Z",
+      "updatedAt": "2026-11-21T01:52:46.635Z",
       "source": "Serie A Resmi Veri",
       "table": [
         {
@@ -1405,7 +1405,7 @@
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-11-20T21:33:30.385Z",
+      "updatedAt": "2026-11-21T01:52:46.635Z",
       "source": "Ligue 1 Resmi Veri",
       "table": [
         {
@@ -1578,6 +1578,20 @@
         },
         {
           "position": 13,
+          "team": "Troyes",
+          "played": 11,
+          "won": 3,
+          "draw": 2,
+          "lost": 6,
+          "goalsFor": 10,
+          "goalsAgainst": 18,
+          "points": 11,
+          "goalDifference": -8,
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+          "form": []
+        },
+        {
+          "position": 14,
           "team": "Strasbourg",
           "played": 10,
           "won": 3,
@@ -1591,7 +1605,7 @@
           "form": []
         },
         {
-          "position": 14,
+          "position": 15,
           "team": "AJ Auxerre",
           "played": 10,
           "won": 3,
@@ -1605,7 +1619,7 @@
           "form": []
         },
         {
-          "position": 15,
+          "position": 16,
           "team": "Le Mans",
           "played": 10,
           "won": 1,
@@ -1619,7 +1633,7 @@
           "form": []
         },
         {
-          "position": 16,
+          "position": 17,
           "team": "Angers",
           "played": 10,
           "won": 2,
@@ -1633,30 +1647,16 @@
           "form": []
         },
         {
-          "position": 17,
-          "team": "Troyes",
-          "played": 10,
-          "won": 2,
-          "draw": 2,
-          "lost": 6,
-          "goalsFor": 7,
-          "goalsAgainst": 17,
-          "points": 8,
-          "goalDifference": -10,
-          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
-          "form": []
-        },
-        {
           "position": 18,
           "team": "Le Havre AC",
-          "played": 10,
+          "played": 11,
           "won": 0,
           "draw": 2,
-          "lost": 8,
-          "goalsFor": 9,
-          "goalsAgainst": 22,
+          "lost": 9,
+          "goalsFor": 10,
+          "goalsAgainst": 25,
           "points": 2,
-          "goalDifference": -13,
+          "goalDifference": -15,
           "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
           "form": []
         }
