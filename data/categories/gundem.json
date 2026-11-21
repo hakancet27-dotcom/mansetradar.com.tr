@@ -3,12 +3,53 @@
     "site": "mansetradar.com.tr",
     "site_url": "https://mansetradar.com.tr",
     "generated_at": "2026-11-21T00:00:00+00:00",
-    "article_count": 4066,
+    "article_count": 4072,
     "schema_version": 2,
     "category_slug": "gundem",
     "type": "category"
   },
   "articles": [
+    {
+      "id": "articles/2026/11:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261121",
+      "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261121",
+      "title": "İstanbul Şehir Bülteni (21 Kasım 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu",
+      "summary": "21 Kasım 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 132 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
+      "category": "Gündem",
+      "category_slug": "gundem",
+      "topic_slug": "kamu",
+      "topic_label": "Kamu Hizmetleri",
+      "country": "Turkey",
+      "language": "tr",
+      "language_label": "tr",
+      "section": "articles",
+      "section_name": "Haberler",
+      "url_prefix": "articles/2026/11",
+      "date": "21.11.2026",
+      "date_iso": "2026-11-21",
+      "published_at": "2026-11-21T05:08:17+03:00",
+      "url": "/articles/2026/11/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261121/",
+      "canonical_url": "https://mansetradar.com.tr/articles/2026/11/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261121/",
+      "detail_json_url": "/data/details/articles/2026/11/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261121.json",
+      "image_url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-kapak.webp",
+      "image_alt": "21 Kasım 2026 İstanbul Şehir Bülteni ve 39 İlçe Nöbetçi Eczaneler",
+      "image": {
+        "url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-kapak.webp",
+        "alt": "21 Kasım 2026 İstanbul Şehir Bülteni ve 39 İlçe Nöbetçi Eczaneler"
+      },
+      "source_name": "ManşetRadar",
+      "source_url": "",
+      "tags": [
+        "İstanbul",
+        "Nöbetçi Eczaneler",
+        "İSKİ",
+        "Baraj Doluluk",
+        "BEDAŞ",
+        "İETT",
+        "Son Dakika"
+      ],
+      "quality_score": 95,
+      "review_status": "published"
+    },
     {
       "id": "articles/2026/11:kibrista-hazir-yemek-sirketine-100-milyonluk-vurgun-tutuklama_20261120",
       "slug": "kibrista-hazir-yemek-sirketine-100-milyonluk-vurgun-tutuklama_20261120",
@@ -208,47 +249,6 @@
         "İstanbul"
       ],
       "quality_score": 86,
-      "review_status": "published"
-    },
-    {
-      "id": "articles/2026/11:istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261120",
-      "slug": "istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261120",
-      "title": "İstanbul Şehir Bülteni (20 Kasım 2026): 39 İlçe Nöbetçi Eczaneler, Baraj Doluluk ve Ulaşım Durumu",
-      "summary": "20 Kasım 2026 tarihi itibarıyla İstanbul genelinde hizmet veren 132 nöbetçi eczane, İSKİ baraj doluluk oranları, BEDAŞ/AYEDAŞ şebeke bakım bildirimleri ve İETT canlı hat durumu ManşetRadar İstanbul Şehir Masası tarafından tek rehberde derlendi.",
-      "category": "Gündem",
-      "category_slug": "gundem",
-      "topic_slug": "kamu",
-      "topic_label": "Kamu Hizmetleri",
-      "country": "Turkey",
-      "language": "tr",
-      "language_label": "tr",
-      "section": "articles",
-      "section_name": "Haberler",
-      "url_prefix": "articles/2026/11",
-      "date": "20.11.2026",
-      "date_iso": "2026-11-20",
-      "published_at": "2026-11-20T21:25:08+03:00",
-      "url": "/articles/2026/11/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261120/",
-      "canonical_url": "https://mansetradar.com.tr/articles/2026/11/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261120/",
-      "detail_json_url": "/data/details/articles/2026/11/istanbul-sehir-bulteni-nobetci-eczaneler-baraj-ve-ulasim-durumu_20261120.json",
-      "image_url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-kapak.webp",
-      "image_alt": "20 Kasım 2026 İstanbul Şehir Bülteni ve 39 İlçe Nöbetçi Eczaneler",
-      "image": {
-        "url": "https://mansetradar.com.tr/articles/images/istanbul-sehir-bulteni-kapak.webp",
-        "alt": "20 Kasım 2026 İstanbul Şehir Bülteni ve 39 İlçe Nöbetçi Eczaneler"
-      },
-      "source_name": "ManşetRadar",
-      "source_url": "",
-      "tags": [
-        "İstanbul",
-        "Nöbetçi Eczaneler",
-        "İSKİ",
-        "Baraj Doluluk",
-        "BEDAŞ",
-        "İETT",
-        "Son Dakika"
-      ],
-      "quality_score": 95,
       "review_status": "published"
     },
     {

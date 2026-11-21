@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "news/articles/2026/11:trump-calls-us-flight-systems-ancient-after-ground-stop_20261121",
+    "slug": "trump-calls-us-flight-systems-ancient-after-ground-stop_20261121",
+    "title": "Trump Calls US Air Traffic Control Systems Ancient After Historic Ground Stop",
+    "summary": "US President Donald Trump has backed a $50bn administration request to rebuild the country's air traffic control network, describing the infrastructure as ancient and obsolete following a historic nationwide flight ground stop.",
+    "category": "Siyaset",
+    "category_slug": "siyaset",
+    "topic_slug": "siyaset",
+    "topic_label": "Siyaset",
+    "country": "USA",
+    "language": "en",
+    "language_label": "English",
+    "section": "news/articles",
+    "section_name": "US News",
+    "url_prefix": "news/articles/2026/11",
+    "date": "21.11.2026 06:13",
+    "date_iso": "2026-11-21",
+    "published_at": "2026-11-21T06:13:13+03:00",
+    "url": "/news/articles/2026/11/trump-calls-us-flight-systems-ancient-after-ground-stop_20261121/",
+    "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/trump-calls-us-flight-systems-ancient-after-ground-stop_20261121/",
+    "detail_json_url": "/data/details/news/articles/2026/11/trump-calls-us-flight-systems-ancient-after-ground-stop_20261121.json",
+    "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/trump-calls-us-flight-systems-ancient-after-ground-stop_20261121.webp",
+    "image_alt": "US President Donald Trump speaking during a press briefing regarding aviation systems.",
+    "image": {
+      "url": "https://mansetradar.com.tr/news/articles/2026/11/images/trump-calls-us-flight-systems-ancient-after-ground-stop_20261121.webp",
+      "alt": "US President Donald Trump speaking during a press briefing regarding aviation systems."
+    },
+    "source_name": "BBC News",
+    "source_url": "https://www.bbc.co.uk/news/articles/cr930ney9d1po?at_medium=RSS&at_campaign=rss",
+    "tags": [
+      "Donald Trump",
+      "FAA",
+      "Air Traffic Control",
+      "US Flights",
+      "Sean Duffy"
+    ],
+    "quality_score": 86,
+    "review_status": "published",
+    "content_html": "<h2>President Trump Demands Major Aviation Infrastructure Overhaul</h2><p>US President Donald Trump has backed members of his administration who are asking Congress for $50bn to rebuild nationwide air traffic control systems. Speaking on the infrastructure, Trump labeled the technology obsolete and claimed some components are at least 55 years old, adding that certain control towers are in poor structural shape.</p><p>While defending the overall safety of US aviation, Trump attributed the current system safety to restricted operational speeds rather than modern infrastructure. He noted that the reliance on slower travel times is the primary reason passengers frequently experience extensive waits at airports across the country.</p><h2>Network Upgrade Triggered Massive Nationwide Flight Disruption</h2><ul><li>US Transportation Secretary Sean Duffy explained that a government contractor was upgrading an aviation telecommunications network by swapping copper lines for fibre and installing a new router.</li><li>The switch caused the router to flood others in the air traffic control system, generating 1,000 connection attempts every four to five seconds and severely disrupting voice and ground communications across 17 out of 22 regional centres.</li><li>The technical failure resulted in a four-hour ground stop on November 13—the longest such event since September 11, 2001—leading to more than 15,000 flight delays or cancellations nationwide.</li></ul><h2>Federal Aviation Authorities Detail Manual Maintenance Challenges</h2><p>The historic four-hour ground stop on November 13 caught federal aviation authorities off guard, forcing the agency to take 45 minutes simply to identify the source of the malfunction because maintenance logs are still kept manually on paper. Federal Aviation Administration officials announced plans to release further details regarding the exact sequence of events that triggered the widespread telecommunications failure.</p><p>Despite the severity of the incident and concerns raised over concurrent technology outages during the same week, President Trump maintained that the events were entirely separate. Meanwhile, transportation officials confirmed that Congress appears receptive to approving the necessary federal funds to accelerate critical technological upgrades across the aging national airspace system.</p>",
+    "meta_title": "Trump Seeks $50B to Upgrade Ancient US Air Traffic Control Systems",
+    "meta_description": "US President Donald Trump is pushing Congress for $50bn to overhaul obsolete air traffic control systems following a major nationwide flight ground stop.",
+    "spot": "US President Donald Trump has backed a $50bn administration request to rebuild the country's air traffic control network, describing the infrastructure as ancient and obsolete following a historic nationwide flight ground stop.",
+    "word_count": 325,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "Trump Pushes $50B for Obsolete US Aviation Systems",
+      "Inside the Technical Glitch That Grounded US Flights",
+      "US Air Traffic Systems Are Ancient But Safe, Says Trump"
+    ],
+    "visual_keywords": [
+      "Donald Trump press briefing",
+      "US air traffic control tower",
+      "busy airport terminal delays",
+      "commercial airplanes on tarmac"
+    ]
+  }
+}
