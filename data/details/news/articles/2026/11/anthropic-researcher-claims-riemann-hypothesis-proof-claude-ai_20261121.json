@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "site": "mansetradar.com.tr",
+    "site_url": "https://mansetradar.com.tr",
+    "schema_version": 2,
+    "type": "article_detail"
+  },
+  "article": {
+    "id": "news/articles/2026/11:anthropic-researcher-claims-riemann-hypothesis-proof-claude-ai_20261121",
+    "slug": "anthropic-researcher-claims-riemann-hypothesis-proof-claude-ai_20261121",
+    "title": "Anthropic Staff Member Claims Riemann Hypothesis Proof With Claude AI",
+    "summary": "A mathematician on Anthropic's technical staff announced Friday that he has used the company's Claude AI tool to find a proof for the Riemann Hypothesis, a famed unsolved mathematical problem formulated in 1859.",
+    "category": "Teknoloji",
+    "category_slug": "teknoloji",
+    "topic_slug": "teknoloji",
+    "topic_label": "Teknoloji",
+    "country": "USA",
+    "language": "en",
+    "language_label": "English",
+    "section": "news/articles",
+    "section_name": "US News",
+    "url_prefix": "news/articles/2026/11",
+    "date": "21.11.2026 17:39",
+    "date_iso": "2026-11-21",
+    "published_at": "2026-11-21T17:39:39+03:00",
+    "url": "/news/articles/2026/11/anthropic-researcher-claims-riemann-hypothesis-proof-claude-ai_20261121/",
+    "canonical_url": "https://mansetradar.com.tr/news/articles/2026/11/anthropic-researcher-claims-riemann-hypothesis-proof-claude-ai_20261121/",
+    "detail_json_url": "/data/details/news/articles/2026/11/anthropic-researcher-claims-riemann-hypothesis-proof-claude-ai_20261121.json",
+    "image_url": "https://mansetradar.com.tr/news/articles/2026/11/images/anthropic-researcher-claims-riemann-hypothesis-proof-claude-ai_20261121.webp",
+    "image_alt": "Anthropic employee workspace featuring complex mathematical code on screens.",
+    "image": {
+      "url": "https://mansetradar.com.tr/news/articles/2026/11/images/anthropic-researcher-claims-riemann-hypothesis-proof-claude-ai_20261121.webp",
+      "alt": "Anthropic employee workspace featuring complex mathematical code on screens."
+    },
+    "source_name": "NPR Topics: News",
+    "source_url": "https://www.npr.org/2026/11/21/g-s1-154922/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai",
+    "tags": [
+      "Anthropic",
+      "Riemann Hypothesis",
+      "Claude AI",
+      "Mathematics",
+      "Artificial Intelligence"
+    ],
+    "quality_score": 86,
+    "review_status": "published",
+    "content_html": "<h2>Mathematician Announces Historic Proof With Claude AI</h2><p>Levent Alpöge, a member of the technical staff at artificial intelligence giant Anthropic, announced on Friday that he believes he has found a proof of the Riemann Hypothesis with the help of the company's AI tool, Claude. Alpöge released a four-page explanation on his website detailing the discovery, noting that the AI assistant significantly outpaced him near the finish line of the complex calculation.</p><p>The announcement arrived just days after Anthropic completed its historic initial public offering on the Nasdaq stock exchange in New York. Alpöge stated that his discovery occurred late Sunday night, prompting him to message Anthropic CEO Dario Amodei regarding the timing of his public announcement amidst the company's major market debut.</p><h2>Key Details of the Mathematical Breakthrough</h2><ul><li><strong>The Problem:</strong> Formulated in 1859, the Riemann Hypothesis focuses on the distribution of prime numbers as they grow toward infinity.</li><li><strong>The AI's Role:</strong> Alpöge credited Anthropic's Claude tool with heavily assisting him, writing that the AI \"flew, and danced, and sparkled near that finish line.\"</li><li><strong>Code and Verification:</strong> The proof was released within 17 million lines of Lean code, a programming language used to structure formal mathematical proofs.</li></ul><h2>Context and Growing AI Role in Mathematics</h2><p>This development marks the second time in recent months that an artificial intelligence company, or someone linked to one, has claimed to crack a famed unsolved math problem. The Riemann Hypothesis has eluded mathematicians for more than 150 years, standing as one of the ultimate challenges in the field.</p><p>Traditionally, mathematical findings buried inside millions of lines of programming code would undergo extensive review and eventually be published in a formal academic paper. Representatives for Anthropic did not immediately respond to requests for comment regarding Alpöge's startling claim following the company's massive stock market debut.</p>",
+    "meta_title": "Anthropic Researcher Claims Proof of Riemann Hypothesis Using AI",
+    "meta_description": "An Anthropic technical staff member announced he has used the company's Claude AI tool to find a proof for the century-old Riemann Hypothesis.",
+    "spot": "A mathematician on Anthropic's technical staff announced Friday that he has used the company's Claude AI tool to find a proof for the Riemann Hypothesis, a famed unsolved mathematical problem formulated in 1859.",
+    "word_count": 298,
+    "reading_time_minutes": 1,
+    "discover_titles": [
+      "Anthropic Researcher Claims Breakthrough on Riemann Hypothesis Using Claude AI",
+      "Mathematician Uses Anthropic's Claude to Tackle Famed Math Problem",
+      "AI Tool Helps Solve Century-Old Mathematical Mystery, Researcher Claims"
+    ],
+    "visual_keywords": [
+      "Anthropic IPO Nasdaq",
+      "AI technology concept",
+      "mathematical equations",
+      "computer code screen"
+    ]
+  }
+}
