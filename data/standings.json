@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-23T03:29:42.289Z",
+  "updatedAt": "2026-11-24T05:03:27.212Z",
   "source": "Maçkolik arşiv/HTML scrape/football-data.org/Wikipedia/API-FOOTBALL/TheSportsDB",
   "defaultLeagueId": "super-lig",
   "leagues": [
     {
       "id": "super-lig",
       "name": "Süper Lig",
-      "updatedAt": "2026-11-23T03:29:42.289Z",
+      "updatedAt": "2026-11-24T05:03:27.212Z",
       "source": "TFF / Resmi Canlı Veri",
       "table": [
         {
@@ -95,6 +95,20 @@
         },
         {
           "position": 7,
+          "team": "Başakşehir FK",
+          "played": 12,
+          "won": 6,
+          "draw": 2,
+          "lost": 4,
+          "goalsFor": 23,
+          "goalsAgainst": 19,
+          "points": 20,
+          "goalDifference": 4,
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+          "form": []
+        },
+        {
+          "position": 8,
           "team": "Kocaelispor",
           "played": 12,
           "won": 6,
@@ -108,7 +122,7 @@
           "form": []
         },
         {
-          "position": 8,
+          "position": 9,
           "team": "Göztepe",
           "played": 12,
           "won": 5,
@@ -119,20 +133,6 @@
           "points": 18,
           "goalDifference": 4,
           "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-          "form": []
-        },
-        {
-          "position": 9,
-          "team": "Başakşehir FK",
-          "played": 11,
-          "won": 5,
-          "draw": 2,
-          "lost": 4,
-          "goalsFor": 19,
-          "goalsAgainst": 17,
-          "points": 17,
-          "goalDifference": 2,
-          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
           "form": []
         },
         {
@@ -152,14 +152,14 @@
         {
           "position": 11,
           "team": "Çorum FK",
-          "played": 11,
+          "played": 12,
           "won": 5,
           "draw": 1,
-          "lost": 5,
-          "goalsFor": 21,
-          "goalsAgainst": 21,
+          "lost": 6,
+          "goalsFor": 23,
+          "goalsAgainst": 25,
           "points": 16,
-          "goalDifference": 0,
+          "goalDifference": -2,
           "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
           "form": []
         },
@@ -269,7 +269,7 @@
     {
       "id": "premier-league",
       "name": "Premier League",
-      "updatedAt": "2026-11-23T03:29:42.289Z",
+      "updatedAt": "2026-11-24T05:03:27.212Z",
       "source": "Premier League Resmi Veri",
       "table": [
         {
@@ -344,6 +344,20 @@
         },
         {
           "position": 6,
+          "team": "Brentford",
+          "played": 11,
+          "won": 4,
+          "draw": 5,
+          "lost": 2,
+          "goalsFor": 20,
+          "goalsAgainst": 11,
+          "points": 17,
+          "goalDifference": 9,
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+          "form": []
+        },
+        {
+          "position": 7,
           "team": "Leeds United",
           "played": 11,
           "won": 4,
@@ -354,20 +368,6 @@
           "points": 17,
           "goalDifference": 5,
           "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
-          "form": []
-        },
-        {
-          "position": 7,
-          "team": "Everton",
-          "played": 10,
-          "won": 4,
-          "draw": 4,
-          "lost": 2,
-          "goalsFor": 12,
-          "goalsAgainst": 10,
-          "points": 16,
-          "goalDifference": 2,
-          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
           "form": []
         },
         {
@@ -386,6 +386,20 @@
         },
         {
           "position": 9,
+          "team": "Everton",
+          "played": 11,
+          "won": 4,
+          "draw": 4,
+          "lost": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 14,
+          "points": 16,
+          "goalDifference": -2,
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+          "form": []
+        },
+        {
+          "position": 10,
           "team": "Tottenham Hotspur",
           "played": 11,
           "won": 4,
@@ -396,20 +410,6 @@
           "points": 15,
           "goalDifference": 1,
           "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-          "form": []
-        },
-        {
-          "position": 10,
-          "team": "Brentford",
-          "played": 10,
-          "won": 3,
-          "draw": 5,
-          "lost": 2,
-          "goalsFor": 16,
-          "goalsAgainst": 11,
-          "points": 14,
-          "goalDifference": 5,
-          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
           "form": []
         },
         {
@@ -560,7 +560,7 @@
     {
       "id": "la-liga",
       "name": "La Liga",
-      "updatedAt": "2026-11-23T03:29:42.289Z",
+      "updatedAt": "2026-11-24T05:03:27.212Z",
       "source": "La Liga Resmi Veri",
       "table": [
         {
@@ -761,6 +761,20 @@
         },
         {
           "position": 15,
+          "team": "Levante",
+          "played": 13,
+          "won": 2,
+          "draw": 6,
+          "lost": 5,
+          "goalsFor": 17,
+          "goalsAgainst": 22,
+          "points": 12,
+          "goalDifference": -5,
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+          "form": []
+        },
+        {
+          "position": 16,
           "team": "Rayo Vallecano",
           "played": 12,
           "won": 3,
@@ -774,7 +788,7 @@
           "form": []
         },
         {
-          "position": 16,
+          "position": 17,
           "team": "Valencia",
           "played": 13,
           "won": 3,
@@ -788,7 +802,7 @@
           "form": []
         },
         {
-          "position": 17,
+          "position": 18,
           "team": "Getafe",
           "played": 13,
           "won": 3,
@@ -802,29 +816,15 @@
           "form": []
         },
         {
-          "position": 18,
-          "team": "Levante",
-          "played": 12,
-          "won": 2,
-          "draw": 5,
-          "lost": 5,
-          "goalsFor": 16,
-          "goalsAgainst": 21,
-          "points": 11,
-          "goalDifference": -5,
-          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-          "form": []
-        },
-        {
           "position": 19,
           "team": "Elche",
-          "played": 12,
+          "played": 13,
           "won": 2,
-          "draw": 4,
+          "draw": 5,
           "lost": 6,
-          "goalsFor": 14,
-          "goalsAgainst": 20,
-          "points": 10,
+          "goalsFor": 15,
+          "goalsAgainst": 21,
+          "points": 11,
           "goalDifference": -6,
           "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
           "form": []
@@ -851,7 +851,7 @@
     {
       "id": "bundesliga",
       "name": "Bundesliga",
-      "updatedAt": "2026-11-23T03:29:42.289Z",
+      "updatedAt": "2026-11-24T05:03:27.212Z",
       "source": "Bundesliga Resmi Veri",
       "table": [
         {
@@ -1114,7 +1114,7 @@
     {
       "id": "serie-a",
       "name": "Serie A",
-      "updatedAt": "2026-11-23T03:29:42.289Z",
+      "updatedAt": "2026-11-24T05:03:27.212Z",
       "source": "Serie A Resmi Veri",
       "table": [
         {
@@ -1301,6 +1301,20 @@
         },
         {
           "position": 14,
+          "team": "Monza",
+          "played": 12,
+          "won": 3,
+          "draw": 1,
+          "lost": 8,
+          "goalsFor": 20,
+          "goalsAgainst": 25,
+          "points": 10,
+          "goalDifference": -5,
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+          "form": []
+        },
+        {
+          "position": 15,
           "team": "Lecce",
           "played": 12,
           "won": 3,
@@ -1314,21 +1328,21 @@
           "form": []
         },
         {
-          "position": 15,
+          "position": 16,
           "team": "Fiorentina",
-          "played": 11,
+          "played": 12,
           "won": 2,
           "draw": 3,
-          "lost": 6,
+          "lost": 7,
           "goalsFor": 17,
-          "goalsAgainst": 25,
+          "goalsAgainst": 28,
           "points": 9,
-          "goalDifference": -8,
+          "goalDifference": -11,
           "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
           "form": []
         },
         {
-          "position": 16,
+          "position": 17,
           "team": "Parma",
           "played": 12,
           "won": 2,
@@ -1342,7 +1356,7 @@
           "form": []
         },
         {
-          "position": 17,
+          "position": 18,
           "team": "Sassuolo",
           "played": 12,
           "won": 2,
@@ -1353,20 +1367,6 @@
           "points": 8,
           "goalDifference": -15,
           "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
-          "form": []
-        },
-        {
-          "position": 18,
-          "team": "Monza",
-          "played": 11,
-          "won": 2,
-          "draw": 1,
-          "lost": 8,
-          "goalsFor": 17,
-          "goalsAgainst": 25,
-          "points": 7,
-          "goalDifference": -8,
-          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
           "form": []
         },
         {
@@ -1405,7 +1405,7 @@
     {
       "id": "ligue-1",
       "name": "Ligue 1",
-      "updatedAt": "2026-11-23T03:29:42.289Z",
+      "updatedAt": "2026-11-24T05:03:27.212Z",
       "source": "Ligue 1 Resmi Veri",
       "table": [
         {
@@ -1754,6 +1754,20 @@
     },
     {
       "position": 7,
+      "team": "Başakşehir FK",
+      "played": 12,
+      "won": 6,
+      "draw": 2,
+      "lost": 4,
+      "goalsFor": 23,
+      "goalsAgainst": 19,
+      "points": 20,
+      "goalDifference": 4,
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "form": []
+    },
+    {
+      "position": 8,
       "team": "Kocaelispor",
       "played": 12,
       "won": 6,
@@ -1767,7 +1781,7 @@
       "form": []
     },
     {
-      "position": 8,
+      "position": 9,
       "team": "Göztepe",
       "played": 12,
       "won": 5,
@@ -1778,20 +1792,6 @@
       "points": 18,
       "goalDifference": 4,
       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "form": []
-    },
-    {
-      "position": 9,
-      "team": "Başakşehir FK",
-      "played": 11,
-      "won": 5,
-      "draw": 2,
-      "lost": 4,
-      "goalsFor": 19,
-      "goalsAgainst": 17,
-      "points": 17,
-      "goalDifference": 2,
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
       "form": []
     },
     {
@@ -1811,14 +1811,14 @@
     {
       "position": 11,
       "team": "Çorum FK",
-      "played": 11,
+      "played": 12,
       "won": 5,
       "draw": 1,
-      "lost": 5,
-      "goalsFor": 21,
-      "goalsAgainst": 21,
+      "lost": 6,
+      "goalsFor": 23,
+      "goalsAgainst": 25,
       "points": 16,
-      "goalDifference": 0,
+      "goalDifference": -2,
       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "form": []
     },
